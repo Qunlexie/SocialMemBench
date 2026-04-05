@@ -46,6 +46,35 @@ EverMemBench's conclusion is "models fail." Our conclusion will be "memory syste
 
 ---
 
+## Two-Phase Execution Strategy
+
+### Phase 1 — End-to-end validation with Claude Code only (no API key)
+
+Goal: validate the hypothesis before committing to API costs or scaling.
+
+1. Generate 50 conversations + 100 QA pairs using Claude Code skills (current pipeline)
+2. Run **Condition A (oracle)** as a Claude Code skill — feed the full corpus into context, answer each QA pair directly. This is free and uses the same model that generated the data.
+3. Manually review oracle answers + data quality. Check: are Q4/Q5/Q6 actually non-trivial? Are planted signals genuinely implicit?
+4. Decision point: if data quality and oracle results validate the hypothesis → proceed to Phase 2.
+
+Condition A as a skill (`smb-evaluate-oracle.md`) is sufficient to check whether the benchmark is doing what it's supposed to.
+
+### Phase 2 — Full evaluation with API (after validation)
+
+Once hypothesis is validated:
+- Scale data generation — evaluate whether to use Gemini 2.5 Pro API for faster/cheaper generation at scale, or continue with Claude Code skills
+- Run Condition B (Mem0, Letta, LangMem) and Condition C (SMG) with Gemini 2.5 Pro as backbone
+
+**Model backbone for Phase 2**: Gemini 2.5 Pro (`gemini-2.5-pro`) via `GOOGLE_API_KEY`. Held constant across all conditions so the only variable is memory architecture.
+
+Mem0, LangMem, and Letta all support Google/Gemini as a backend:
+- **Mem0**: `{"llm": {"provider": "google", "config": {"model": "gemini-2.5-pro"}}}`
+- **LangMem**: pass `ChatGoogleGenerativeAI(model="gemini-2.5-pro")` from `langchain-google-genai`
+- **Letta**: configure Google model endpoint in local server config
+- **SMG (Condition C)**: extraction pass uses `google-generativeai` SDK directly
+
+---
+
 ## Three Evaluation Conditions
 
 **Condition A — Oracle (upper bound)**
@@ -111,12 +140,14 @@ Calibrate against manual scores on the 100-pair pilot before applying at scale.
 
 ## Milestones
 
-| Milestone | Action |
-|-----------|--------|
-| 50 conversations, 100 QA generated | Manual review — validate data quality |
-| Evaluation design locked | Confirm memory system APIs, finalize scoring rubric |
-| Condition A (oracle) | Establish ceiling; check Q5/Q6 are non-trivial |
-| Condition B (memory systems) | Primary contribution data |
-| Condition C (+ social graph) | Proposed direction evidence |
-| Analysis complete | Failure mode table, per-type accuracy, delta vs oracle |
-| Paper | Full results + proposed social graph memory architecture |
+| Milestone | Phase | Action |
+|-----------|-------|--------|
+| Generate 50 conversations, 100 QA | 1 | Claude Code skills — no API key |
+| Condition A oracle run | 1 | `smb-evaluate-oracle` skill — validate data quality + hypothesis |
+| Manual review | 1 | Check oracle answers; confirm Q4/Q5/Q6 are non-trivial |
+| **Decision point** | — | Data good → proceed to Phase 2. Scale data gen with Gemini 2.5 if needed. |
+| Scale to 1,000+ QA | 2 | Claude Code skills or Gemini 2.5 for generation |
+| Condition B (memory systems) | 2 | Gemini 2.5 Pro backbone — primary contribution data |
+| Condition C (SMG) | 2 | Gemini 2.5 Pro backbone — proposed direction evidence |
+| Analysis | 2 | Failure mode table, per-type accuracy, delta A→B→C |
+| Paper | 2 | Full results + SMG architecture as proposed direction |

@@ -16,6 +16,7 @@ class ChallengeType(str, Enum):
     TEMPORAL_SHIFT = "temporal_shift"               # preference contradicts earlier statement → Q8
     FALSE_ATTRIBUTION_SEED = "false_attribution_seed"  # planted to test contamination → Q4
     RELATIONAL_DISCLOSURE = "relational_disclosure"  # reveals relationship edge info → Q7
+    RELATIONAL_GRAPH = "relational_graph"           # reveals cross-member connection structure → Q7 / Condition C
 
 
 class PlantedChallenge(BaseModel):
@@ -40,7 +41,8 @@ class ConversationTurn(BaseModel):
     session_id: str
     speaker_persona_id: str
     speaker_display_name: str
-    timestamp_label: str            # e.g., "Session 3, 2:47pm"
+    timestamp_label: str            # e.g., "Jan 6, 11:23am"
+    timestamp: Optional[str] = None # ISO 8601 datetime, e.g., "2025-01-06T11:23:00"
     message: str
     message_index: int              # sequential within session
     planted_challenges: list[PlantedChallenge] = Field(default_factory=list)
@@ -52,7 +54,8 @@ class ConversationSession(BaseModel):
     network_id: str
     session_index: int              # ordinal position (1-indexed)
     topic: str                      # session topic (e.g., "planning the weekend hike")
-    date_label: str                 # e.g., "Session 3, Saturday afternoon"
+    date_label: str                 # e.g., "Session 3, Monday March 17, 2025 5:47pm"
+    date: Optional[str] = None      # ISO 8601 date, e.g., "2025-03-17"
     turns: list[ConversationTurn]
     prior_session_summary: Optional[str] = None  # rolling summary fed to generator
     critic_scores: Optional[dict] = None          # from Generator-Critic loop
@@ -61,6 +64,7 @@ class ConversationSession(BaseModel):
 
 class ConversationCorpus(BaseModel):
     network_id: str
+    start_date: Optional[str] = None  # ISO 8601 date of Session 1, e.g., "2025-01-06"
     sessions: list[ConversationSession]
     total_turns: int
     # Flat index of all planted challenges across all sessions — used by QA generator
@@ -88,5 +92,6 @@ class ConversationCorpus(BaseModel):
         for session in self.sessions:
             lines.append(f"\n--- {session.date_label} ---")
             for turn in session.turns:
-                lines.append(f"[{turn.timestamp_label}] {turn.speaker_display_name}: {turn.message}")
+                ts = turn.timestamp_label
+                lines.append(f"[{ts}] {turn.speaker_display_name}: {turn.message}")
         return "\n".join(lines)

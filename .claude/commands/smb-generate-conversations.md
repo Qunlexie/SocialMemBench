@@ -3,9 +3,10 @@
 Generate a WhatsApp-style conversation corpus for an existing network and save it to `data/conversations/`.
 
 ## Arguments
-`$ARGUMENTS` — format: `{network_id} {n_sessions}`
+`$ARGUMENTS` — format: `{network_id} {n_sessions} [start_date]`
 - network_id: the `network_id` from `data/raw/`
 - n_sessions: how many sessions to generate (default: 5)
+- start_date: ISO 8601 date for Session 1 (optional, e.g., `2025-03-03`). If omitted, pick a plausible recent Monday.
 
 ## Steps
 
@@ -15,11 +16,16 @@ Generate a WhatsApp-style conversation corpus for an existing network and save i
 
 ### 2. Plan all sessions first (before writing any)
 
+**Derive session dates:**
+- Session 1 date = `start_date` (or the chosen Monday if not provided)
+- Session N date = `start_date + (N-1) * 7 days`
+- Format each date as ISO 8601 (e.g., `"2025-03-03"`)
+
 For each session (1 through n_sessions), decide:
 - **Topic**: a realistic activity for this group type (trail planning, dinner choice, event logistics, shared hobby)
 - **Active speakers**: 2-4 of the personas (vary who is active across sessions)
 - **Planted challenges**: 2-4 per session. Distribute types across sessions:
-  - Sessions 1-2: `implicit_preference`, `false_attribution_seed`
+  - Sessions 1-2: `implicit_preference`, `false_attribution_seed`, `relational_graph` (≥1 per session)
   - Sessions 2-3: `theory_of_mind`, `consensus_trap`
   - Sessions 3-5: `temporal_shift` (MUST include at least one in sessions 3-5), `relational_disclosure`
   - Never stack all of one type in a single session
@@ -64,6 +70,8 @@ No markdown. No asterisks. No headers. No narration. Just the chat lines.
 
 `relational_disclosure` — Reveal something about the history or nature of the relationship between two personas. It should emerge naturally through a reference, a joke, or a shared memory mention.
 
+`relational_graph` — Reveal connection structure: how members originally met, sub-clique dynamics, closeness signals (inside jokes, callbacks), or relationship tension. Must correspond to an actual edge in `EgoNetwork.edges`. Use `fact_attribute` values: `connection_origin`, `sub_clique`, `closeness_signal`, or `tension_marker`. Sessions 1–2 must include at least one of these per session to surface the graph structure early.
+
 **Persona voice rules (CRITICAL):**
 - Every message must sound like that persona's `communication_profile`:
   - `emoji_use: Frequent` → use emojis liberally
@@ -106,20 +114,23 @@ After generating all sessions, go back and identify which turn best expresses ea
 ```json
 {
   "network_id": "{network_id}",
+  "start_date": "{start_date}",
   "sessions": [
     {
       "session_id": "{network_id}_s{01}",
       "network_id": "{network_id}",
       "session_index": 1,
       "topic": "...",
-      "date_label": "Session 1, {day/time}",
+      "date": "{start_date}",
+      "date_label": "Session 1, {Day} {Month} {D}, {YYYY} {H:MMam/pm}",
       "turns": [
         {
           "turn_id": "{session_id}_t{000}",
           "session_id": "...",
           "speaker_persona_id": "p_...",
           "speaker_display_name": "...",
-          "timestamp_label": "Session 1, 2:47pm",
+          "timestamp_label": "{Mon} {D}, {H:MMam/pm}",
+          "timestamp": "{YYYY-MM-DDTHH:MM:00}",
           "message": "...",
           "message_index": 1,
           "planted_challenges": [

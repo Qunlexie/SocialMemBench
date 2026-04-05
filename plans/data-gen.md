@@ -122,6 +122,37 @@ EverMemBench (the benchmark we mirror) uses three HuggingFace splits:
 
 ---
 
+## Data Format
+
+### QA pairs — answer formats
+
+Each QA pair carries `answer_format`, `options`, and `correct_option`. `answer` is always the canonical long-form ground truth (used by LLM-as-judge). `correct_option` is the directly scoreable unit for MC and short-answer pairs.
+
+| Q type | answer_format | Scoreable unit |
+|--------|--------------|----------------|
+| Q1 | long_form | `answer` |
+| Q2 | multiple_choice | `correct_option` (letter of dissenter) |
+| Q3 | long_form | `answer` |
+| Q4 | multiple_choice | `correct_option` (letter of true speaker) |
+| Q5 | long_form | `answer` |
+| Q6 | multiple_choice | `correct_option` (letter of dissenter) |
+| Q7 | short_answer | `correct_option` (e.g., "childhood friends") |
+| Q8 | long_form | `answer` + `temporal_anchors` |
+
+### Conversations — timestamps
+
+Each corpus has `start_date` (ISO 8601). Session dates are `start_date + (N-1)*7 days`. Turns carry `timestamp` (ISO 8601 datetime) and a human-readable `timestamp_label` (e.g., "Jan 6, 11:23am").
+
+### Personas — structured fields
+
+`Persona` carries `occupation` (string) and `skills_list` (2–4 hobby/interest `SkillItem`s with proficiency). These are distinct from `background` prose — structured for Q1/Q3 attribution questions.
+
+### Conversations — challenge types
+
+`relational_graph` challenges in sessions 1–2 surface connection structure that maps to `EgoNetwork.edges`. These ground Condition C (Social Memory Graph) evaluation.
+
+---
+
 ## 8 Query Types (Q1–Q8)
 
 | Type | Label | Challenge Source | Key Constraint |

@@ -76,12 +76,19 @@ class GroupNorm(BaseModel):
     dissenters: list[str]           # persona_ids who don't actually share this norm
 
 
+class SkillItem(BaseModel):
+    skill: str
+    proficiency: Literal["strong", "medium", "low"]
+
+
 class Persona(BaseModel):
     persona_id: str
     display_name: str               # used in chat messages (e.g., "Mike")
     age: int
     gender: str
-    background: str                 # 2-3 sentence bio
+    occupation: Optional[str] = None  # e.g., "graphic designer" — first-class, consistent with background
+    background: str                   # 2-3 sentence prose bio
+    skills_list: list[SkillItem] = Field(default_factory=list)  # 2-4 hobby/interest skills
     big_five: BigFiveProfile
     communication_profile: CommunicationProfile
     preferences: PreferenceProfile

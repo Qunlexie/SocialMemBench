@@ -31,6 +31,23 @@ Also render the full corpus as plain text for reading:
 
 ### 3. Generate QA pairs
 
+**Answer format rules (apply per query type):**
+
+| Q type | answer_format | options / correct_option |
+|--------|--------------|--------------------------|
+| Q1 | `long_form` | null |
+| Q2 | `multiple_choice` | options = group member names as A/B/C/D (shuffled); correct_option = letter of dissenter |
+| Q3 | `long_form` | null |
+| Q4 | `multiple_choice` | options = group member names as A/B/C/D (shuffled); correct_option = letter of true speaker |
+| Q5 | `long_form` | null |
+| Q6 | `multiple_choice` | options = group member names as A/B/C/D (shuffled); correct_option = letter of dissenter |
+| Q7 | `short_answer` | correct_option = relationship type as short phrase (e.g., "childhood friends") |
+| Q8 | `long_form` | null |
+
+For MC questions (Q2/Q4/Q6): shuffle the persona names randomly across A/B/C/D. Always include all group members as options (max 4 options for groups of 4–5; if 5 members, pick the 4 most plausible). `answer` still contains the full explanation.
+
+For short_answer (Q7): `correct_option` is the concise scoreable value. `answer` still contains full evidence-grounded explanation.
+
 For each unconsumed planted challenge, generate the applicable QA types based on challenge_type:
 
 ---
@@ -144,6 +161,9 @@ Each QA pair as one JSONL line:
   "difficulty": "easy|medium|hard",
   "question": "...",
   "answer": "...",
+  "answer_format": "long_form|multiple_choice|short_answer",
+  "options": null,
+  "correct_option": null,
   "evidence_anchors": [
     {
       "session_index": 1,
@@ -160,11 +180,11 @@ Each QA pair as one JSONL line:
   "qc_phase3_flagged": null,
   "qc_phase3_flag_reason": null,
   "source_challenge_id": "ch_...",
-  "skill_version": "v1.0",
   "generation_seed": 0,
   "metadata": {}
 }
 ```
+
 
 Query type labels:
 - Q1 → "single_contact_recall"

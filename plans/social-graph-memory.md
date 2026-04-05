@@ -160,7 +160,7 @@ SocialMemoryGraph
 ```
 
 Backend: `networkx.MultiDiGraph` (in-memory, loaded per network from `data/conversations/{id}.json`).  
-Extraction: Claude Opus 4.6 with adaptive thinking per session window.  
+Extraction: Gemini 2.5 Pro (`gemini-2.5-pro`) via `google-generativeai` SDK — same model used across all evaluation conditions.  
 Results: `data/results/condition_c/{id}.jsonl`.
 
 ### File Plan

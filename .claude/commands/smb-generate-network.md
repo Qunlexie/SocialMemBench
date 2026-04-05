@@ -51,7 +51,12 @@ Generate personas, relationship edges, and group norms. Use this exact JSON stru
       "display_name": "...",
       "age": 0,
       "gender": "...",
+      "occupation": "...",
       "background": "...",
+      "skills_list": [
+        {"skill": "...", "proficiency": "strong|medium|low"},
+        {"skill": "...", "proficiency": "strong|medium|low"}
+      ],
       "big_five": {
         "openness": "High|Medium|Low",
         "conscientiousness": "High|Medium|Low",
@@ -112,6 +117,8 @@ Generate personas, relationship edges, and group norms. Use this exact JSON stru
 **Pass B — Enrich**
 
 Now go back and fill in rich details for each persona:
+- `occupation`: one-line job title or role (e.g., "graphic designer", "secondary school teacher") — must be consistent with `background`
+- `skills_list`: 2–4 items drawn from hobbies, interests, or talents relevant to this group type (e.g., "trail navigation", "cooking", "photography", "climbing knots" for a hiking group). Use proficiency levels honestly — not everyone is "strong" at everything. These are personal skills, not professional credentials.
 - `preferences`: 1-3 items per category; make them specific and implicit (revealed through behavior, not statements)
 - `preference_history`: ≥1 event per persona — must include a session reference (changed_at_session: 3 or 4)
 - `speaking_quirks`: 2-3 distinctive patterns per person that differ across personas
@@ -124,6 +131,8 @@ Before writing the file, verify:
 - [ ] Every persona has ≥1 `preference_history` event (Q8 ground truth)
 - [ ] Communication profiles are measurably distinct — no two personas share the same formality + emoji_use + humor combination
 - [ ] Edges cover all persona pairs (for group_size=3: 3 edges; for group_size=5: at least 6 edges)
+- [ ] Every persona has `occupation` set and `skills_list` with 2–4 items
+- [ ] Skills are varied across personas — not all the same hobbies
 
 ### 5. Write files
 1. Write the complete JSON to `data/raw/{network_id}.json`

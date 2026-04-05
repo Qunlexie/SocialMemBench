@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "socialmembench"
+version = "0.1.0"
+description = "Synthetic benchmark for AI memory in social group conversations"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0.0",
+    "datasets>=2.0.0",
+    "numpy>=1.24.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["socialmembench"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

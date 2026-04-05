@@ -1,0 +1,23 @@
+# Environment
+.env
+*.env
+
+# Generated data (large, tracked separately or via git-lfs if needed)
+data/raw/
+data/conversations/
+data/qa/
+data/verify/
+data/results/
+data/manifest.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS
+.DS_Store

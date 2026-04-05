@@ -32,6 +32,13 @@
           </svg>
         </button>
       </div>
+      <div class="sidebar-search-wrap">
+        <svg class="sidebar-search-icon" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+        </svg>
+        <input class="sidebar-search" id="sidebar-search" type="search" placeholder="Search networks…" autocomplete="off" />
+      </div>
+      <div class="sidebar-count" id="sidebar-count"></div>
       <div class="network-list" id="network-list">
         <div class="empty-state">
           <div class="empty-icon">◌</div>
@@ -97,6 +104,7 @@
 
         <!-- Tab panels -->
         <div class="tab-panel active" id="panel-chat">
+          <div class="session-nav" id="session-nav"></div>
           <div class="chat-container" id="chat-container">
             <div class="loading-state">Loading conversations…</div>
           </div>
@@ -119,7 +127,15 @@
         <div class="tab-panel" id="panel-qa">
           <div class="qa-toolbar">
             <div class="qa-filters" id="qa-filters"></div>
-            <div class="qa-count" id="qa-count"></div>
+            <div style="display:flex;align-items:center;gap:12px;margin-left:auto">
+              <div class="qa-search-wrap">
+                <svg class="qa-search-icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+                </svg>
+                <input class="qa-search" id="qa-search" type="search" placeholder="Search questions…" autocomplete="off" />
+              </div>
+              <div class="qa-count" id="qa-count"></div>
+            </div>
           </div>
           <div class="qa-list" id="qa-list">
             <div class="loading-state">Loading QA pairs…</div>

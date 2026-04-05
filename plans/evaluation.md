@@ -58,8 +58,12 @@ Target systems: **Mem0**, **Letta** (MemGPT successor), **LangMem**, plus a naiv
 
 > **Note on graph-based systems**: Letta and LangMem use graph structures, but their graphs model relationships between topics and entities — not between speakers in a group. They still assume a single "user" interacting with the AI. In a group chat, who is the user? The whole group? Each member individually? These systems store "Mike dislikes steep trails" as a fact node — but with no distinction between whether Mike stated it himself (Q1), Sarah stated it about Mike (Q5), or the group inferred it from Mike's silence (Q6). That attribution chain is absent from current architectures and is precisely what Q4/Q5 test.
 
-**Condition C — Memory + social graph (proposed direction)**
-Same as B but with an explicit speaker-attributed memory graph: nodes are personas, edges encode relationship type/closeness/sentiment, and every stored preference is tagged with (speaker, subject, session). Tests whether adding social structure fixes the Condition B failures. This becomes the paper's forward-looking contribution.
+**Condition C — Social Memory Graph (proposed architecture)**
+A speaker-attributed graph where attribution is a first-class edge, not a metadata string. Every preference fact is stored in a tripartite pattern: `speaker → [STATED_PREFERENCE] → PreferenceFact ← [HAS_PREFERENCE] ← subject`. Theory-of-mind chains, group norm dissenters, and temporal preference evolution are each represented as dedicated edge types.
+
+Tests whether this architectural change fixes the Condition B failures. This is the paper's forward-looking contribution.
+
+See [`plans/social-graph-memory.md`](social-graph-memory.md) for the full design: graph schema, Q1–Q8 traversal patterns, insertion pipeline, comparison table vs Mem0/LangMem/Letta, and implementation plan.
 
 ---
 

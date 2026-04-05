@@ -45,7 +45,8 @@ The closest prior work is **EverMemBench** (Feb 2026) — the first multi-party 
 ### Plans (`plans/`)
 Read before working on any phase. Each plan covers one stage of the project:
 - [`plans/data-gen.md`](plans/data-gen.md) — Stages 1–3: ego network generation, conversation synthesis, QA generation. Covers the skill-based pipeline and the API→skill pivot.
-- [`plans/evaluation.md`](plans/evaluation.md) — Stages 4–5: memory system evaluation, scoring, analysis. Covers the three conditions (oracle / memory system / + social graph), failure mode hypotheses, and reviewer differentiation from EverMemBench.
+- [`plans/evaluation.md`](plans/evaluation.md) — Stages 4–5: memory system evaluation, scoring, analysis. Covers the three conditions (oracle / memory system / social graph), failure mode hypotheses, and reviewer differentiation from EverMemBench.
+- [`plans/social-graph-memory.md`](plans/social-graph-memory.md) — Social Memory Graph (Condition C) full design: graph schema (node/edge types, tripartite attribution structure), Q1–Q8 traversal patterns, session insertion pipeline, comparison table vs Mem0/LangMem/Letta, and `socialmembench/smg/` implementation plan.
 
 ### Skills (`.claude/commands/`)
 Generation pipeline — no API key needed, Claude Code runs these directly:
@@ -92,9 +93,9 @@ This structure ensures any future conversation can orient immediately: `CLAUDE.m
 
 ## Current Status
 
-**Done**: Data generation pipeline (Stages 1–3) — skills, schemas, manifest.
+**Done**: Data generation pipeline (Stages 1–3) — skills, schemas, manifest. Social Memory Graph architecture designed (`plans/social-graph-memory.md`).
 
-**Next**: Generate 50 conversations + 100 QA pairs → manual review → design evaluation protocol → Stages 4–5.
+**Next**: Generate 50 conversations + 100 QA pairs → manual review → implement evaluation skills (Stages 4–5) → implement `socialmembench/smg/` for Condition C.
 
 **Milestones**:
 | Milestone | Goal |

@@ -811,6 +811,48 @@ def test_07_qa_filter(server_and_data, page: Page):
     assert filtered >= 1, "At least 1 Q1 card expected"
 
 
+def test_08_evidence_markers_in_chat(server_and_data, page: Page):
+    """Messages cited as QA evidence show a 'cited in QX' marker."""
+    page.goto(server_and_data)
+    page.wait_for_load_state("networkidle")
+
+    page.locator(".network-item").first.click()
+    page.wait_for_selector(".message-bubble", timeout=5000)
+
+    take(page, "08_evidence_markers")
+
+    # At least one message should have an evidence-marker badge
+    assert page.locator(".evidence-marker").count() >= 1
+
+
+def test_09_evidence_jump_to_chat(server_and_data, page: Page):
+    """Clicking 'view in chat' on a QA evidence item switches to Chat and focuses the message."""
+    page.goto(server_and_data)
+    page.wait_for_load_state("networkidle")
+
+    page.locator(".network-item").first.click()
+    page.wait_for_selector(".message-bubble", timeout=5000)
+
+    # Go to QA tab and expand first card
+    page.locator(".tab[data-tab='qa']").click()
+    page.wait_for_selector(".qa-card", timeout=5000)
+    page.locator(".qa-card").first.locator(".qa-card-header").click()
+    page.wait_for_timeout(300)
+
+    # Click the first "view in chat" jump button
+    jump_btn = page.locator(".evidence-jump").first
+    assert jump_btn.is_visible(), "Evidence jump button should be visible on expanded card"
+    jump_btn.click()
+    page.wait_for_timeout(600)
+
+    take(page, "09_evidence_jump")
+
+    # Should now be on Chat tab
+    assert page.locator(".tab[data-tab='chat'].active").count() >= 1
+    # Chat container should be visible and scrolled to the message
+    assert page.locator(".chat-container").is_visible()
+
+
 # ── Run directly ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     pytest.main([__file__, "-v", "--tb=short", "-s"])

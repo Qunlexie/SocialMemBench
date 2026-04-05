@@ -1,76 +1,118 @@
-# Evaluation Plan (Stage 4–5)
+# Evaluation Plan (Stages 4–5)
 
-## Status: Planned — to be designed after first 50 conversations are generated and manually verified.
-
----
-
-## Context
-
-EverMemBench found that oracle models score only 26% on multi-hop attribution in workplace settings. We expect social settings to be harder — preferences are more implicit, norms have dissenters, and relationships carry personal history that changes over time.
-
-The evaluation pipeline takes the generated QA pairs and measures how well AI models perform across all 8 query types.
+## Status: Designed — to be implemented after first 50 conversations are generated and manually verified.
 
 ---
 
-## Stage 4: Model Evaluation
+## Core Research Question
 
-Feed each generated conversation corpus to a target model, ask the Q1–Q8 questions, and collect responses.
+Do memory systems designed for single-user, dyadic interaction break down when deployed in multi-party social group settings — and if so, in what specific ways?
 
-**Planned skill**: `/smb-evaluate {model} {network_id}`
-- Renders the full conversation corpus as plain text (no planted challenge metadata)
-- Asks each question from `data/qa/{network_id}.jsonl` to the model
-- Records the model's answer alongside the ground truth
-- Writes results to `data/results/{model}/{network_id}.jsonl`
-
-**Questions to answer during design**:
-- How much conversation context does the model receive? Full corpus or session-by-session?
-- Does the model get the question cold (no conversation recap) or with a brief framing?
-- Do we test with and without retrieval augmentation?
-- Which models to evaluate first? (Claude, GPT-4, Gemini are natural starting points given EverMemBench used Gemini-2.5-Pro as its pipeline model)
+This is not a question about whether large models can recall long contexts. It is a question about memory architecture: how systems like Mem0, Letta, LangMem, and MemGPT store, index, and retrieve information when multiple speakers with distinct identities, relationships, and evolving preferences are involved.
 
 ---
 
-## Stage 5: Scoring and Analysis
+## Beyond EverMemBench — Reviewer Defense
 
-**Planned skills**:
-- `/smb-score {model}` — per-type accuracy, difficulty breakdown, failure analysis
-- `/smb-compare {model_a} {model_b}` — head-to-head across query types
+Reviewers will ask: "isn't this just EverMemBench in a social domain?" The answer is no, on four axes:
 
-**Metrics to compute**:
-- Per query type accuracy (Q1–Q8 separately — this is the key contribution)
-- Per difficulty level (easy / medium / hard)
-- Per group type (close friends vs. acquaintance network — do social dynamics affect performance?)
-- Attribution error rate (Q4, Q5 specifically — how often does the model blame the wrong person?)
-- Norm confusion rate (Q6 — how often does the model state a contested norm as universal?)
-- Temporal drift rate (Q8 — how often does the model report the old preference instead of the evolved one?)
+**1. Evaluation target is different (most important)**
+EverMemBench evaluates raw LLMs with the full transcript in context — essentially a reading comprehension test on long documents. We evaluate *memory systems* (Mem0, Letta, LangMem) under realistic deployment conditions — session-by-session ingestion, then retrieval. This is a fundamentally different experimental setup that tests architectural limitations, not model capacity.
 
-**Scoring approach** (to be finalized):
-- Option A: Exact match against ground truth answer (simple but brittle for free-form answers)
-- Option B: LLM-as-judge — Claude reads the question, ground truth, and model answer, scores correctness 0–1
-- Option C: Hybrid — structured fields (difficulty, query_type) exact match; answer text scored by LLM judge
+**2. Signal type is different**
+EverMemBench facts are largely explicit (meeting notes, task assignments, stated decisions). SocialMemBench signals are implicit — revealed through complaints, reactions, silences, and third-party references. An AI must infer "Mike dislikes steep trails" from "my knees still haven't forgiven that last climb." This requires a different kind of memory: not storage and retrieval of stated facts, but inference and attribution of behavioral signals.
 
-EverMemBench used human evaluation + automated ROUGE-style metrics. We should decide whether to match their methodology for comparability or improve on it.
+**3. Three novel query types with no EverMemBench analog**
+- **Q5 (theory-of-mind reference)**: tests whether the system tracks not just what was said, but who said it *about* whom — a two-hop attribution problem
+- **Q6 (norm vs. individual)**: tests whether the system can distinguish a group-stated norm from a contested one — requires storing dissenter information, not just the norm text
+- **Q8 (temporal evolution)**: tests whether preferences are versioned or overwritten — requires the memory system to maintain a timeline, not a snapshot
 
-**Human evaluation**: For the 50-pair pilot, manually score a random sample. Use this to calibrate any automated scoring.
+**4. We propose a direction, not just a diagnosis**
+EverMemBench's conclusion is "models fail." Our conclusion will be "memory systems fail for specific architectural reasons, and here is what a social-aware memory architecture would need to fix them." Condition C (memory + social graph) makes this concrete.
 
 ---
 
-## Expected Findings (hypotheses to test)
+## Differentiation from EverMemBench
 
-- Q1 (direct recall) will be easiest — models handle explicit memory well
-- Q5 (theory-of-mind) and Q6 (norm vs. individual) will be hardest — require distinguishing who said what about whom, and recognizing that a stated norm has exceptions
-- Q4 (contamination) performance will correlate with how distinct the two personas' communication styles are
-- Q8 (temporal evolution) will degrade as the number of sessions between the old and new preference increases
-- Performance will be lower for acquaintance networks than close friends — weaker-tie preferences are signaled more ambiguously
+| Dimension | EverMemBench | SocialMemBench |
+|-----------|-------------|----------------|
+| Domain | Workplace (meetings, tasks) | Social (friends, family, clubs) |
+| Primary target | Raw LLMs (context window) | Memory systems (Mem0, Letta, LangMem) |
+| Preference signals | Explicit (stated in meeting notes) | Implicit (behavior, complaints, reactions) |
+| Group norms | N/A | Contested — some norms have dissenters |
+| Relationships | Hierarchical (manager/report) | Personal, varied closeness + sentiment |
+| Preference drift | Rare | Common — opinions evolve across sessions |
+| Attribution challenge | Who said what in a meeting | Who implied what about whom, in passing |
+
+---
+
+## Three Evaluation Conditions
+
+**Condition A — Oracle (upper bound)**
+Raw LLM receives the full conversation corpus as context. No memory system. Tests whether the information is recoverable in principle. Establishes the ceiling.
+
+**Condition B — Memory system (primary contribution)**
+Conversations are processed through a memory system as they arrive, session by session. Queries hit the memory store — not the raw transcript. Tests whether the architecture correctly attributes, stores, and retrieves multi-party social signals.
+
+Target systems: **Mem0**, **Letta** (MemGPT successor), **LangMem**, plus a naive baseline (per-speaker key-value store).
+
+> **Note on graph-based systems**: Letta and LangMem use graph structures, but their graphs model relationships between topics and entities — not between speakers in a group. They still assume a single "user" interacting with the AI. In a group chat, who is the user? The whole group? Each member individually? These systems store "Mike dislikes steep trails" as a fact node — but with no distinction between whether Mike stated it himself (Q1), Sarah stated it about Mike (Q5), or the group inferred it from Mike's silence (Q6). That attribution chain is absent from current architectures and is precisely what Q4/Q5 test.
+
+**Condition C — Memory + social graph (proposed direction)**
+Same as B but with an explicit speaker-attributed memory graph: nodes are personas, edges encode relationship type/closeness/sentiment, and every stored preference is tagged with (speaker, subject, session). Tests whether adding social structure fixes the Condition B failures. This becomes the paper's forward-looking contribution.
+
+---
+
+## Expected Failure Modes (hypotheses)
+
+| Failure mode | Query types it surfaces | Why it happens |
+|-------------|------------------------|----------------|
+| Attribution collapse | Q4 (contamination), Q5 (ToM) | Facts stored without strong speaker binding |
+| Norm universalization | Q6 (norm vs. individual) | No concept of "group-stated but individually contested" |
+| Preference conflation | Q3 (multi-contact) | Multiple speakers' preferences merged into one entry |
+| Temporal blindness | Q8 (temporal evolution) | Memory overwrites rather than versions preferences |
+| Relationship ignorance | Q7 (relational edge) | No relationship graph; history not stored as edge properties |
+
+---
+
+## Scoring
+
+LLM-as-judge (Claude scores 0.0–1.0 per pair):
+- **1.0**: correct attribution + correct preference + complete answer
+- **0.5–0.9**: partially correct (right preference, wrong speaker; or right speaker, incomplete)
+- **0.0–0.4**: wrong attribution, wrong preference, or hallucinated evidence
+
+Calibrate against manual scores on the 100-pair pilot before applying at scale.
+
+---
+
+## Skills to Build (Stage 4–5)
+
+**`smb-evaluate.md`** — `/smb-evaluate {condition} {network_id}`
+- Condition A: full corpus → LLM → answer
+- Condition B: session-by-session ingestion → memory API → query → answer
+- Writes to `data/results/{condition}/{network_id}.jsonl`
+
+**`smb-score.md`** — `/smb-score {condition}`
+- LLM-as-judge per pair
+- Breakdown: per query type, per difficulty, per group type
+- Failure mode classification for each wrong answer
+
+**`smb-compare.md`** — `/smb-compare {condition_a} {condition_b}`
+- Head-to-head accuracy table
+- Delta per query type — where does the memory system lose relative to oracle?
+- Failure mode comparison across conditions
 
 ---
 
 ## Milestones
 
-| Milestone | Goal |
-|-----------|------|
-| 100 QA pairs generated | Design evaluation protocol, run pilot on 1 model |
-| Pilot results reviewed | Calibrate scoring, finalize evaluation skill |
-| 1,000 QA pairs | Full evaluation across 2–3 models |
-| Analysis complete | Per-type accuracy table, failure mode characterization |
-| Paper-ready | Full results, comparison to EverMemBench baseline |
+| Milestone | Action |
+|-----------|--------|
+| 50 conversations, 100 QA generated | Manual review — validate data quality |
+| Evaluation design locked | Confirm memory system APIs, finalize scoring rubric |
+| Condition A (oracle) | Establish ceiling; check Q5/Q6 are non-trivial |
+| Condition B (memory systems) | Primary contribution data |
+| Condition C (+ social graph) | Proposed direction evidence |
+| Analysis complete | Failure mode table, per-type accuracy, delta vs oracle |
+| Paper | Full results + proposed social graph memory architecture |

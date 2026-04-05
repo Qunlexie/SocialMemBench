@@ -8,17 +8,17 @@ This is not a niche failure. It happens across close friends, families, recreati
 
 ## What This Project Is
 
-A benchmark for evaluating AI social memory across five group types, using synthetic WhatsApp-style conversations with controlled planted memory challenges. The full pipeline:
+A benchmark for evaluating AI memory systems in social group settings — not just raw model recall, but deployed memory architectures (Mem0, Letta, LangMem, MemGPT) under realistic conditions. The full pipeline:
 
 1. **Generate** synthetic group conversations with hidden ground-truth memory challenges
-2. **Evaluate** AI models against those challenges (8 query types, Q1–Q8)
-3. **Score and analyze** where models succeed and fail across social memory dimensions
+2. **Evaluate** memory systems session-by-session against those challenges (8 query types, Q1–Q8)
+3. **Score and analyze** where systems fail — and why, architecturally
 
 ## Research Positioning
 
-The closest prior work is **EverMemBench** (Feb 2026) — the first multi-party group memory benchmark. Key finding: oracle models score only 26% on multi-hop attribution. But EverMemBench is locked to workplace/enterprise settings. Social groups are structurally different: relationships are personal, norms have dissenters, preferences are rarely stated directly, and opinions shift over time.
+The closest prior work is **EverMemBench** (Feb 2026) — the first multi-party group memory benchmark. Key finding: oracle models score only 26% on multi-hop attribution in workplace settings. We go beyond this in two ways: (1) we target memory systems, not raw LLMs, and (2) social group settings violate every architectural assumption those systems make.
 
-**No benchmark currently covers social group memory.** This is the gap.
+**No benchmark currently evaluates memory systems in social group settings.** This is the gap.
 
 ### Key References
 - Paper: https://arxiv.org/pdf/2602.01313
@@ -42,62 +42,64 @@ The closest prior work is **EverMemBench** (Feb 2026) — the first multi-party 
 
 ## Where Things Live
 
-### Plans
-Detailed implementation plans — read these before working on any stage:
-- [`plans/data-gen.md`](plans/data-gen.md) — Stage 1–3 data generation pipeline (built). Documents the original API approach and the pivot to Claude Code skill files.
-- [`plans/evaluation.md`](plans/evaluation.md) — Stage 4–5 model evaluation and scoring (planned, to be designed after first 50 conversations).
+### Plans (`plans/`)
+Read before working on any phase. Each plan covers one stage of the project:
+- [`plans/data-gen.md`](plans/data-gen.md) — Stages 1–3: ego network generation, conversation synthesis, QA generation. Covers the skill-based pipeline and the API→skill pivot.
+- [`plans/evaluation.md`](plans/evaluation.md) — Stages 4–5: memory system evaluation, scoring, analysis. Covers the three conditions (oracle / memory system / + social graph), failure mode hypotheses, and reviewer differentiation from EverMemBench.
 
 ### Skills (`.claude/commands/`)
-The generation pipeline runs through Claude Code skill files — no API key needed:
-- `smb-generate-network.md` — Stage 1: generate one ego network
-- `smb-generate-conversations.md` — Stage 2: generate WhatsApp-style conversation corpus
-- `smb-generate-qa.md` — Stage 3: generate Q1–Q8 QA pairs from planted challenges
-- `smb-verify.md` — structural verification across all 3 stages
+Generation pipeline — no API key needed, Claude Code runs these directly:
+- `smb-generate-network.md` — Stage 1: ego network
+- `smb-generate-conversations.md` — Stage 2: WhatsApp-style conversation corpus
+- `smb-generate-qa.md` — Stage 3: Q1–Q8 QA pairs
+- `smb-verify.md` — structural verification (all 3 stages)
 - `smb-qc.md` — blind critic QC on QA pairs
 - `smb-status.md` — manifest summary + progress
 
+Evaluation skills (to build after data gen):
+- `smb-evaluate.md` — Stage 4: run a condition against generated QA
+- `smb-score.md` — Stage 5: LLM-as-judge scoring + breakdown
+- `smb-compare.md` — Stage 5: head-to-head condition comparison
+
 ### Schemas (`socialmembench/schemas/`)
-Pydantic data models — these are the spec documents that define exactly what JSON the skills must produce. Read before modifying data formats:
+Pydantic spec documents — define what JSON the skills must produce. Read before touching data formats:
 - `persona.py` — `EgoNetwork`, `Persona`, `RelationshipEdge`, `GroupNorm`
 - `conversation.py` — `ConversationCorpus`, `ConversationTurn`, `PlantedChallenge`
-- `qa.py` — `QAPair`, `EvidenceAnchor`, query types Q1–Q8
+- `qa.py` — `QAPair`, `EvidenceAnchor` (Q1–Q8)
 
 ### Utilities (`socialmembench/utils/`)
-- `manifest.py` — `DatasetManifest`: incremental tracking (seeds, consumed challenges, counts). Read by every skill before generating; updated after.
-- `serialization.py` — JSON/JSONL I/O helpers
-- `metrics.py` — quality metrics: `python -m socialmembench.utils.metrics --data_dir data/`
+- `manifest.py` — incremental tracking (seeds, consumed challenges, counts per type)
+- `serialization.py` — JSON/JSONL I/O
+- `metrics.py` — `python -m socialmembench.utils.metrics --data_dir data/`
 
 ### Data (`data/`)
 - `manifest.json` — auto-managed by skills, do not edit manually
-- `raw/` — Stage 1 outputs: one JSON per network
-- `conversations/` — Stage 2 outputs: one JSON per network
-- `qa/` — Stage 3 outputs: one JSONL per network (append-only)
+- `raw/` — Stage 1: ego networks
+- `conversations/` — Stage 2: conversation corpora
+- `qa/` — Stage 3: QA pairs (append-only JSONL)
 - `verify/` — verification + QC reports
-- `results/` — Stage 4 outputs: model evaluation results (one directory per model)
+- `results/` — Stage 4: evaluation outputs (one dir per condition)
 
 ---
 
-## Current Status and Next Steps
+## Documentation Style
 
-**Done**: Data generation pipeline (Stages 1–3) — skill files, schemas, manifest infrastructure.
+**Always keep this file lean and high-level.** Do not add implementation details to `CLAUDE.md` — those go in the relevant `plans/` file. When starting a new phase of work, create or update the matching plan file first, then update `CLAUDE.md`'s "Current Status" section only.
 
-**Immediate next step**: Generate 50 conversations + 100 QA pairs, manually verify quality, then design the evaluation protocol.
+This structure ensures any future conversation can orient immediately: `CLAUDE.md` for the big picture, `plans/` for the how.
 
-**Run order for first network**:
-```
-/smb-generate-network recreational 3
-/smb-verify {id} --stage 1
-/smb-generate-conversations {id} 5
-/smb-verify {id} --stage 2
-/smb-generate-qa {id}
-/smb-qc {id}
-/smb-verify {id} --stage 3
-/smb-status
-```
+---
+
+## Current Status
+
+**Done**: Data generation pipeline (Stages 1–3) — skills, schemas, manifest.
+
+**Next**: Generate 50 conversations + 100 QA pairs → manual review → design evaluation protocol → Stages 4–5.
 
 **Milestones**:
 | Milestone | Goal |
 |-----------|------|
-| 50 conversations, 100 QA | Manual review + first evaluation run |
-| 1,000 QA pairs | Full data gen, 2–3 models evaluated |
-| Paper-ready | 2,000+ QA, full analysis, comparison to EverMemBench |
+| 50 conversations, 100 QA | Validate data quality, manual review |
+| Condition A (oracle) | Establish ceiling performance |
+| Condition B (memory systems) | Primary contribution — failure mode analysis |
+| Paper-ready | 2,000+ QA, 3 conditions evaluated, full analysis |

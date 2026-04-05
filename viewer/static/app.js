@@ -1,8 +1,10 @@
 /* ─── SocialMemBench Viewer — app.js ─────────────────────────────────────────
    Vanilla JS, no build tools.
    Views: Chat | Graph | QA
-   Depends on D3 v7 loaded via CDN in index.html.
+   Depends on D3 v7 (d3.min.js).
 ─────────────────────────────────────────────────────────────────────────────── */
+
+const QA_PAGE_SIZE = 50;
 
 // ── State ──────────────────────────────────────────────────────────────────────
 const state = {
@@ -13,6 +15,9 @@ const state = {
   conversations: null, // ConversationCorpus
   qa: [],              // QAPair[]
   qaFilter: 'all',
+  qaSearch: '',
+  qaPage: 1,
+  networkSearch: '',
   graphSim: null,
 };
 
@@ -46,6 +51,8 @@ async function api(path) {
 document.addEventListener('DOMContentLoaded', async () => {
   bindTabs();
   bindRefresh();
+  bindSidebarSearch();
+  bindQASearch();
   await loadNetworks();
 });
 
@@ -73,8 +80,40 @@ async function loadNetworks() {
 
   if (hint) hint.style.display = 'none';
 
-  list.innerHTML = state.networks.map(n => `
-    <div class="network-item" data-id="${n.network_id}">
+  const meta = document.getElementById('header-meta');
+  if (meta) meta.textContent = `${state.networks.length} network${state.networks.length !== 1 ? 's' : ''}`;
+
+  renderNetworkList();
+}
+
+function renderNetworkList() {
+  const list  = document.getElementById('network-list');
+  const count = document.getElementById('sidebar-count');
+  const q     = state.networkSearch.toLowerCase();
+
+  const filtered = q
+    ? state.networks.filter(n =>
+        n.group_name.toLowerCase().includes(q) ||
+        n.group_type.toLowerCase().includes(q))
+    : state.networks;
+
+  if (count) {
+    count.textContent = q
+      ? `${filtered.length} of ${state.networks.length}`
+      : `${state.networks.length} network${state.networks.length !== 1 ? 's' : ''}`;
+  }
+
+  if (!filtered.length) {
+    list.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">◌</div>
+        <div class="empty-text">${q ? 'No matches' : 'No networks'}</div>
+      </div>`;
+    return;
+  }
+
+  list.innerHTML = filtered.map(n => `
+    <div class="network-item${n.network_id === state.activeNetworkId ? ' active' : ''}" data-id="${n.network_id}">
       <div class="network-item-name">${esc(n.group_name)}</div>
       <div class="network-item-meta">
         <span class="net-badge">${fmtGroupType(n.group_type)}</span>
@@ -89,51 +128,68 @@ async function loadNetworks() {
   list.querySelectorAll('.network-item').forEach(el => {
     el.addEventListener('click', () => selectNetwork(el.dataset.id));
   });
-
-  // Update header meta
-  const meta = document.getElementById('header-meta');
-  if (meta) meta.textContent = `${state.networks.length} network${state.networks.length !== 1 ? 's' : ''}`;
 }
 
 function bindRefresh() {
   document.getElementById('refresh-btn')?.addEventListener('click', loadNetworks);
 }
 
+function bindSidebarSearch() {
+  const input = document.getElementById('sidebar-search');
+  if (!input) return;
+  input.addEventListener('input', debounce(() => {
+    state.networkSearch = input.value.trim();
+    renderNetworkList();
+  }, 150));
+}
+
+function bindQASearch() {
+  const input = document.getElementById('qa-search');
+  if (!input) return;
+  input.addEventListener('input', debounce(() => {
+    state.qaSearch  = input.value.trim();
+    state.qaPage    = 1;
+    renderQA();
+  }, 200));
+}
+
 // ── Select network ─────────────────────────────────────────────────────────────
 async function selectNetwork(id) {
   if (state.activeNetworkId === id) return;
 
-  // Clear speaker colors for fresh network
   speakerColorMap.clear();
-
   state.activeNetworkId = id;
+
+  // Reset per-network filters
+  state.qaFilter = 'all';
+  state.qaSearch = '';
+  state.qaPage   = 1;
+  const qaSearchInput = document.getElementById('qa-search');
+  if (qaSearchInput) qaSearchInput.value = '';
 
   // Sidebar highlight
   document.querySelectorAll('.network-item').forEach(el => {
     el.classList.toggle('active', el.dataset.id === id);
   });
 
-  // Show view, hide welcome
+  // Show view
   document.getElementById('welcome').style.display = 'none';
   const view = document.getElementById('network-view');
   view.style.display = 'flex';
   view.style.flexDirection = 'column';
 
-  // Reset panels
   showTab('chat');
 
-  // Load data concurrently
   const [network, conversations, qa] = await Promise.allSettled([
     api(`/api/network/${id}`),
     api(`/api/conversations/${id}`),
     api(`/api/qa/${id}`),
   ]);
 
-  state.network       = network.status === 'fulfilled'       ? network.value       : null;
+  state.network       = network.status       === 'fulfilled' ? network.value       : null;
   state.conversations = conversations.status === 'fulfilled' ? conversations.value : null;
-  state.qa            = qa.status === 'fulfilled'            ? qa.value            : [];
+  state.qa            = qa.status            === 'fulfilled' ? qa.value            : [];
 
-  // Pre-assign colors from personas for consistency
   if (state.network?.personas) {
     state.network.personas.forEach(p => getSpeakerColor(p.display_name));
   }
@@ -173,7 +229,6 @@ function showTab(name) {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === `panel-${name}`));
 
-  // Render graph lazily (needs SVG dimensions)
   if (name === 'graph' && state.network) renderGraph();
 }
 
@@ -181,9 +236,11 @@ function showTab(name) {
 // CHAT VIEW
 // ═══════════════════════════════════════════════════════════════════════════════
 function renderChat() {
-  const container = document.getElementById('chat-container');
+  const container  = document.getElementById('chat-container');
+  const sessionNav = document.getElementById('session-nav');
 
   if (!state.conversations) {
+    sessionNav.innerHTML = '';
     container.innerHTML = `
       <div class="empty-state" style="margin:auto">
         <div class="empty-icon">💬</div>
@@ -194,15 +251,46 @@ function renderChat() {
 
   const sessions = state.conversations.sessions ?? [];
   if (!sessions.length) {
+    sessionNav.innerHTML = '';
     container.innerHTML = '<div class="empty-state" style="margin:auto"><div class="empty-text">No sessions found.</div></div>';
     return;
   }
 
-  const html = [];
+  // Build an index of turn_ids cited in QA evidence
+  const evidencedTurns = new Map(); // turn_id → [qa_id, ...]
+  state.qa.forEach(qa => {
+    (qa.evidence_anchors ?? []).forEach(e => {
+      if (e.turn_id) {
+        if (!evidencedTurns.has(e.turn_id)) evidencedTurns.set(e.turn_id, []);
+        evidencedTurns.get(e.turn_id).push(qa.query_type);
+      }
+    });
+  });
+
+  // ── Session navigator pills ────────────────────────────────────────────────
+  sessionNav.innerHTML = sessions.map((s, i) => {
+    const label = s.topic
+      ? `S${s.session_index ?? i+1} · ${s.topic.length > 22 ? s.topic.slice(0,22) + '…' : s.topic}`
+      : `Session ${s.session_index ?? i+1}`;
+    return `<button class="session-pill${i === 0 ? ' active' : ''}" data-session-id="${esc(s.session_id)}">${esc(label)}</button>`;
+  }).join('');
+
+  sessionNav.querySelectorAll('.session-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      const hdr = document.getElementById(`session-hdr-${pill.dataset.sessionId}`);
+      if (hdr) hdr.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      sessionNav.querySelectorAll('.session-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    });
+  });
+
+  // Update active pill on scroll
+  const headers = [];
+  const html    = [];
 
   sessions.forEach(session => {
     html.push(`
-      <div class="session-header">
+      <div class="session-header" id="session-hdr-${esc(session.session_id)}">
         <div class="session-line"></div>
         <div class="session-label">${esc(session.date_label ?? `Session ${session.session_index}`)}</div>
         ${session.topic ? `<div class="session-topic">${esc(session.topic)}</div>` : ''}
@@ -212,21 +300,26 @@ function renderChat() {
     const turns = session.turns ?? [];
     let prevSpeaker = null;
 
-    turns.forEach((turn, i) => {
+    turns.forEach(turn => {
       const isNewSpeaker = turn.speaker_display_name !== prevSpeaker;
       prevSpeaker = turn.speaker_display_name;
 
-      const color    = getSpeakerColor(turn.speaker_display_name);
-      const initials = getInitials(turn.speaker_display_name);
+      const color      = getSpeakerColor(turn.speaker_display_name);
+      const initials   = getInitials(turn.speaker_display_name);
       const challenges = turn.planted_challenges ?? [];
       const hasChallenge = challenges.length > 0;
+      const citedIn    = evidencedTurns.get(turn.turn_id);
 
       const challengeBadges = challenges.map(c =>
         `<span class="challenge-badge">⚡ ${fmtChallengeType(c.challenge_type)}</span>`
       ).join('');
 
+      const evidenceMarker = citedIn
+        ? `<span class="evidence-marker">cited in ${[...new Set(citedIn)].join(', ')}</span>`
+        : '';
+
       html.push(`
-        <div class="msg-group ${isNewSpeaker ? 'new-speaker' : ''}">
+        <div class="msg-group ${isNewSpeaker ? 'new-speaker' : ''}" id="turn-${esc(turn.turn_id)}">
           ${isNewSpeaker
             ? `<div class="msg-avatar" style="background:${color}">${initials}</div>`
             : `<div class="msg-avatar spacer"></div>`}
@@ -239,6 +332,7 @@ function renderChat() {
             <div class="message-bubble ${hasChallenge ? 'has-challenge' : ''}">
               ${esc(turn.message)}
               ${hasChallenge ? `<div class="challenge-badges">${challengeBadges}</div>` : ''}
+              ${evidenceMarker}
             </div>
           </div>
         </div>`);
@@ -247,6 +341,22 @@ function renderChat() {
 
   container.innerHTML = html.join('');
   container.scrollTop = 0;
+
+  // IntersectionObserver — keep active pill in sync while scrolling
+  const pillMap = new Map();
+  sessionNav.querySelectorAll('.session-pill').forEach(p => pillMap.set(p.dataset.sessionId, p));
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id.replace('session-hdr-', '');
+        sessionNav.querySelectorAll('.session-pill').forEach(p => p.classList.remove('active'));
+        pillMap.get(id)?.classList.add('active');
+      }
+    });
+  }, { root: container, threshold: 0.1 });
+
+  container.querySelectorAll('.session-header').forEach(h => observer.observe(h));
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -258,25 +368,19 @@ function renderGraph() {
 
   if (state.graphSim) { state.graphSim.stop(); state.graphSim = null; }
 
-  if (!state.network) {
-    renderGraphEmpty();
-    return;
-  }
+  if (!state.network) { renderGraphEmpty(); return; }
 
   const personas = state.network.personas ?? [];
   const edges    = state.network.edges    ?? [];
 
   if (!personas.length) { renderGraphEmpty(); return; }
 
-  // Build lookup
   const personaById = new Map(personas.map(p => [p.persona_id, p]));
 
-  // SVG dimensions
-  const el  = document.getElementById('graph-svg');
-  const W   = el.clientWidth  || 700;
-  const H   = el.clientHeight || 500;
+  const el = document.getElementById('graph-svg');
+  const W  = el.clientWidth  || 700;
+  const H  = el.clientHeight || 500;
 
-  // Defs: arrowhead
   const defs = svg.append('defs');
   defs.append('marker')
     .attr('id', 'arrow')
@@ -288,58 +392,38 @@ function renderGraph() {
     .attr('d', 'M0,-4L8,0L0,4')
     .attr('fill', '#c7c7cc');
 
-  // Background for zoom/pan
-  const bg = svg.append('rect')
-    .attr('width', W).attr('height', H)
-    .attr('fill', 'transparent');
+  svg.append('rect').attr('width', W).attr('height', H).attr('fill', 'transparent');
 
   const g = svg.append('g').attr('class', 'graph-root');
 
-  // Zoom behavior
-  const zoom = d3.zoom()
-    .scaleExtent([.3, 3])
+  const zoom = d3.zoom().scaleExtent([.3, 3])
     .on('zoom', e => g.attr('transform', e.transform));
   svg.call(zoom);
 
-  // ── Data prep ──────────────────────────────────────────────────────────────
   const nodes = personas.map(p => ({ ...p, id: p.persona_id }));
-
   const links = edges.map(e => ({
     ...e,
     source: e.persona_a_id,
     target: e.persona_b_id,
   }));
 
-  // Closeness → width
   const linkWidth = { High: 3, Medium: 2, Low: 1 };
-
-  // Sentiment → color
   const sentColor = {
-    positive: '#34c759',
-    neutral:  '#aeaeb2',
-    mixed:    '#ff9500',
-    tense:    '#ff3b30',
+    positive: '#34c759', neutral: '#aeaeb2', mixed: '#ff9500', tense: '#ff3b30',
   };
 
-  // ── Links ──────────────────────────────────────────────────────────────────
   const link = g.append('g').attr('class', 'links')
-    .selectAll('.link')
-    .data(links).join('line')
+    .selectAll('.link').data(links).join('line')
     .attr('class', 'link')
     .attr('stroke', d => sentColor[d.sentiment] ?? '#aeaeb2')
     .attr('stroke-width', d => linkWidth[d.closeness] ?? 1.5)
     .attr('stroke-opacity', .6)
     .attr('marker-end', 'url(#arrow)')
     .attr('stroke-linecap', 'round')
-    .on('click', (event, d) => {
-      event.stopPropagation();
-      showEdgeDetail(d, personaById);
-    });
+    .on('click', (event, d) => { event.stopPropagation(); showEdgeDetail(d, personaById); });
 
-  // ── Nodes ──────────────────────────────────────────────────────────────────
   const node = g.append('g').attr('class', 'nodes')
-    .selectAll('.node')
-    .data(nodes).join('g')
+    .selectAll('.node').data(nodes).join('g')
     .attr('class', 'node')
     .call(d3.drag()
       .on('start', (e, d) => { if (!e.active) sim.alphaTarget(.3).restart(); d.fx = d.x; d.fy = d.y; })
@@ -355,27 +439,28 @@ function renderGraph() {
     .attr('r', 28)
     .attr('fill', d => getSpeakerColor(d.display_name));
 
-  // Initials inside circle
   node.append('text')
     .attr('y', 5)
-    .attr('font-size', 13)
-    .attr('font-weight', '700')
+    .attr('font-size', 13).attr('font-weight', '700')
     .attr('fill', 'rgba(255,255,255,0.95)')
-    .attr('text-anchor', 'middle')
-    .attr('pointer-events', 'none')
+    .attr('text-anchor', 'middle').attr('pointer-events', 'none')
     .text(d => getInitials(d.display_name));
 
-  // Name label below circle
-  node.append('text')
-    .attr('y', 46)
-    .text(d => d.display_name);
+  node.append('text').attr('y', 46).text(d => d.display_name);
 
-  // ── Simulation ─────────────────────────────────────────────────────────────
+  // Spread nodes by pre-placing them in a circle so the simulation settles faster
+  const angleStep = (2 * Math.PI) / nodes.length;
+  const initR = Math.min(W, H) * 0.32;
+  nodes.forEach((n, i) => {
+    n.x = W / 2 + initR * Math.cos(i * angleStep);
+    n.y = H / 2 + initR * Math.sin(i * angleStep);
+  });
+
   const sim = d3.forceSimulation(nodes)
-    .force('link',   d3.forceLink(links).id(d => d.id).distance(160))
-    .force('charge', d3.forceManyBody().strength(-450))
-    .force('center', d3.forceCenter(W / 2, H / 2))
-    .force('collision', d3.forceCollide(44))
+    .force('link',      d3.forceLink(links).id(d => d.id).distance(180))
+    .force('charge',    d3.forceManyBody().strength(-600))
+    .force('center',    d3.forceCenter(W / 2, H / 2))
+    .force('collision', d3.forceCollide(52))
     .on('tick', () => {
       link
         .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
@@ -385,13 +470,11 @@ function renderGraph() {
 
   state.graphSim = sim;
 
-  // Click background to deselect
-  svg.on('click', () => {
-    node.classed('selected', false);
-    showGraphDetailEmpty();
-  });
+  // Populate detail panel with group norms on initial render
+  showGraphDetailEmpty();
 
-  // ── Legend ─────────────────────────────────────────────────────────────────
+  svg.on('click', () => { node.classed('selected', false); showGraphDetailEmpty(); });
+
   const legendData = [
     { label: 'Positive', color: sentColor.positive },
     { label: 'Neutral',  color: sentColor.neutral },
@@ -410,32 +493,55 @@ function renderGraph() {
 }
 
 function renderGraphEmpty() {
-  const detail = document.getElementById('graph-detail');
-  detail.innerHTML = `
-    <div class="detail-empty">
-      <p>No graph data for this network.</p>
-    </div>`;
+  document.getElementById('graph-detail').innerHTML = `
+    <div class="detail-empty"><p>No graph data for this network.</p></div>`;
 }
 
 function showGraphDetailEmpty() {
+  const norms = state.network?.group_norms ?? [];
+
+  const normsHtml = norms.length ? `
+    <div class="divider"></div>
+    <div class="detail-section">
+      <div class="detail-title">Group Norms <span style="font-weight:400;color:var(--accent);font-size:9px;letter-spacing:.04em"> Q6</span></div>
+      ${norms.map(n => {
+        const dissenters = (n.dissenters ?? []).map(id => {
+          const p = state.network?.personas?.find(p => p.persona_id === id);
+          return p?.display_name ?? id;
+        });
+        return `
+          <div style="font-size:12px;padding:7px 0;border-bottom:1px solid var(--border-light)">
+            <div style="color:var(--text);margin-bottom:3px">"${esc(n.norm_text)}"</div>
+            <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:3px">
+              <span class="pref-tag" style="${n.truly_universal ? 'background:var(--green-bg);color:#1a7a36' : 'background:var(--orange-bg);color:var(--orange)'}">
+                ${n.truly_universal ? 'universal' : 'not universal'}
+              </span>
+              ${dissenters.map(d => `<span class="pref-tag">${esc(d)} dissents</span>`).join('')}
+            </div>
+          </div>`;
+      }).join('')}
+    </div>` : '';
+
   document.getElementById('graph-detail').innerHTML = `
-    <div class="detail-empty">
+    <div class="detail-empty" style="padding:32px 8px 16px">
       <p>Click a <strong>node</strong> to see persona details.</p>
       <p>Click an <strong>edge</strong> to see relationship details.</p>
-    </div>`;
+    </div>
+    ${normsHtml}
+  `;
 }
 
 function showNodeDetail(persona) {
-  const color = getSpeakerColor(persona.display_name);
-  const prefs = persona.preferences ?? {};
+  const color    = getSpeakerColor(persona.display_name);
+  const prefs    = persona.preferences ?? {};
   const allPrefs = [
-    ...(prefs.food         ?? []),
-    ...(prefs.activities   ?? []),
-    ...(prefs.social       ?? []),
+    ...(prefs.food          ?? []),
+    ...(prefs.activities    ?? []),
+    ...(prefs.social        ?? []),
     ...(prefs.domain_specific ?? []),
   ];
-  const bf  = persona.big_five ?? {};
-  const cp  = persona.communication_profile ?? {};
+  const bf = persona.big_five ?? {};
+  const cp = persona.communication_profile ?? {};
 
   document.getElementById('graph-detail').innerHTML = `
     <div class="detail-section">
@@ -488,6 +594,19 @@ function showNodeDetail(persona) {
       <div class="pref-tags">
         ${persona.speaking_quirks.map(q => `<span class="pref-tag">${esc(q)}</span>`).join('')}
       </div>
+    </div>` : ''}
+
+    ${(persona.preference_history ?? []).length ? `
+    <div class="divider"></div>
+    <div class="detail-section">
+      <div class="detail-title">Preference Changes <span style="font-weight:400;color:var(--orange);font-size:9px;letter-spacing:.04em"> Q8</span></div>
+      ${persona.preference_history.map(h => `
+        <div style="font-size:12px;padding:7px 0;border-bottom:1px solid var(--border-light)">
+          <div style="font-weight:600;color:var(--text);margin-bottom:3px">${esc(h.attribute?.replace(/_/g,' ') ?? h.domain)}</div>
+          <div style="color:var(--text-3);text-decoration:line-through;margin-bottom:2px">${esc(h.old_value)}</div>
+          <div style="color:var(--text-2)">${esc(h.new_value)}</div>
+          ${h.changed_at_session != null ? `<div style="font-size:10px;color:var(--text-3);margin-top:3px">Session ${h.changed_at_session}${h.trigger ? ` · ${esc(h.trigger)}` : ''}</div>` : ''}
+        </div>`).join('')}
     </div>` : ''}
   `;
 }
@@ -555,7 +674,7 @@ function renderQA() {
     return;
   }
 
-  // Build filter buttons
+  // Build type filter buttons
   const types = [...new Set(state.qa.map(q => q.query_type))].sort();
   filters.innerHTML = `
     <button class="filter-btn ${state.qaFilter === 'all' ? 'active' : ''}" data-filter="all">All</button>
@@ -564,38 +683,70 @@ function renderQA() {
   filters.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       state.qaFilter = btn.dataset.filter;
+      state.qaPage   = 1;
       renderQA();
     });
   });
 
-  const visible = state.qaFilter === 'all'
+  // Apply type + text search filters
+  const q = state.qaSearch.toLowerCase();
+  const afterTypeFilter = state.qaFilter === 'all'
     ? state.qa
-    : state.qa.filter(q => q.query_type === state.qaFilter);
+    : state.qa.filter(qa => qa.query_type === state.qaFilter);
 
-  count.textContent = `${visible.length} of ${state.qa.length}`;
+  const visible = q
+    ? afterTypeFilter.filter(qa =>
+        (qa.question ?? '').toLowerCase().includes(q) ||
+        (qa.answer   ?? '').toLowerCase().includes(q) ||
+        (qa.query_type_label ?? '').toLowerCase().includes(q))
+    : afterTypeFilter;
 
-  list.innerHTML = visible.map((qa, i) => renderQACard(qa, i)).join('');
+  const total = visible.length;
+  const paged = visible.slice(0, state.qaPage * QA_PAGE_SIZE);
 
-  // Toggle expand
+  count.textContent = q || state.qaFilter !== 'all'
+    ? `${total} of ${state.qa.length}`
+    : `${total}`;
+
+  const cardsHtml = paged.map((qa, i) => renderQACard(qa, i)).join('');
+
+  const loadMoreHtml = paged.length < total
+    ? `<div class="qa-load-more">
+         <button class="btn-load-more" id="qa-load-more">
+           Show more (${total - paged.length} remaining)
+         </button>
+       </div>`
+    : '';
+
+  list.innerHTML = cardsHtml + loadMoreHtml;
+
   list.querySelectorAll('.qa-card-header').forEach(header => {
     header.addEventListener('click', () => {
       header.closest('.qa-card').classList.toggle('expanded');
     });
   });
+
+  document.getElementById('qa-load-more')?.addEventListener('click', () => {
+    state.qaPage++;
+    renderQA();
+  });
 }
 
 function renderQACard(qa, i) {
-  const opts = qa.options ?? {};
+  const opts    = qa.options ?? {};
   const hasOpts = Object.keys(opts).length > 0;
 
-  const optionsHtml = hasOpts
+  // For multiple-choice: show options AND the explanation text
+  // For long-form: show just the answer text
+  const answerHtml = hasOpts
     ? `<div class="qa-options">
         ${Object.entries(opts).map(([key, val]) =>
           `<div class="qa-option ${qa.correct_option === key ? 'correct' : ''}">
             <span class="qa-option-key">${key}.</span>
             <span>${esc(val)}</span>
           </div>`).join('')}
-       </div>`
+       </div>
+       ${qa.answer ? `<div class="qa-answer-explanation">${esc(qa.answer)}</div>` : ''}`
     : `<div class="qa-answer">${esc(qa.answer)}</div>`;
 
   const evidenceHtml = (qa.evidence_anchors ?? []).map(e => `
@@ -607,6 +758,7 @@ function renderQACard(qa, i) {
       </div>
       <div class="evidence-quote">"${esc(e.message_excerpt)}"</div>
       <div class="evidence-relevance">${esc(e.relevance)}</div>
+      ${e.turn_id ? `<button class="evidence-jump" onclick="gotoTurn('${esc(e.turn_id)}')">↗ view in chat</button>` : ''}
     </div>`).join('');
 
   const qcHtml = buildQCBadges(qa);
@@ -630,7 +782,7 @@ function renderQACard(qa, i) {
       <div class="qa-card-body">
         <div>
           <div class="qa-section-label">Answer</div>
-          ${optionsHtml}
+          ${answerHtml}
         </div>
         ${evidenceHtml ? `<div>
           <div class="qa-section-label">Evidence (${qa.evidence_anchors?.length ?? 0})</div>
@@ -648,7 +800,7 @@ function buildQCBadges(qa) {
   const parts = [];
   if (qa.qc_phase1_score != null) {
     const score = (qa.qc_phase1_score * 100).toFixed(0);
-    const cls = qa.qc_phase1_score >= .7 ? 'qc-pass' : 'qc-fail';
+    const cls   = qa.qc_phase1_score >= .7 ? 'qc-pass' : 'qc-fail';
     parts.push(`<span class="qc-badge ${cls}">P1 ${score}%</span>`);
   }
   if (qa.qc_phase2_grounded != null) {
@@ -671,23 +823,44 @@ function esc(str) {
     .replace(/'/g,'&#39;');
 }
 
-function capitalize(s) {
-  return s ? s.charAt(0).toUpperCase() + s.slice(1) : '';
-}
-
-function fmtGroupType(t) {
-  return (t ?? '').replace(/_/g,' ');
-}
-
-function fmtChallengeType(t) {
-  return (t ?? '').replace(/_/g,' ');
-}
-
-function fmtQTypeLabel(label) {
-  if (!label) return '';
-  return label.replace(/_/g,' ');
-}
-
+function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : ''; }
+function fmtGroupType(t)     { return (t ?? '').replace(/_/g,' '); }
+function fmtChallengeType(t) { return (t ?? '').replace(/_/g,' '); }
+function fmtQTypeLabel(label){ return label ? label.replace(/_/g,' ') : ''; }
 function bfColor(level) {
   return { High: '#34c759', Medium: '#ff9500', Low: '#ff3b30' }[level] ?? '#1d1d1f';
+}
+
+function debounce(fn, ms) {
+  let timer;
+  return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), ms); };
+}
+
+// ── Cross-reference: jump from QA evidence to chat message ───────────────────
+function gotoTurn(turnId) {
+  // Switch to Chat tab first
+  showTab('chat');
+
+  // Give the panel a tick to become visible, then scroll + highlight
+  requestAnimationFrame(() => {
+    const el = document.getElementById(`turn-${turnId}`);
+    if (!el) return;
+
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+    // Flash highlight
+    el.classList.remove('highlighted');
+    void el.offsetWidth; // force reflow to restart animation
+    el.classList.add('highlighted');
+    el.addEventListener('animationend', () => el.classList.remove('highlighted'), { once: true });
+
+    // Update session nav active pill
+    const sessionHdr = el.closest('[id^="session-hdr-"]');
+    if (sessionHdr) {
+      const sessionId = sessionHdr.id.replace('session-hdr-', '');
+      document.querySelectorAll('.session-pill').forEach(p => {
+        p.classList.toggle('active', p.dataset.sessionId === sessionId);
+      });
+    }
+  });
 }

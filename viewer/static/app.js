@@ -19,6 +19,9 @@ const state = {
   qaPage: 1,
   networkSearch: '',
   graphSim: null,
+  activeSessionId: null,
+  evidencedTurns: new Map(), // turn_id → [query_type, ...]
+  sessionScrollCooldownUntil: 0,
 };
 
 // ── Speaker color palette ──────────────────────────────────────────────────────
@@ -164,6 +167,8 @@ async function selectNetwork(id) {
   state.qaFilter = 'all';
   state.qaSearch = '';
   state.qaPage   = 1;
+  state.activeSessionId = null;
+  state.evidencedTurns  = new Map();
   const qaSearchInput = document.getElementById('qa-search');
   if (qaSearchInput) qaSearchInput.value = '';
 
@@ -237,10 +242,11 @@ function showTab(name) {
 // ═══════════════════════════════════════════════════════════════════════════════
 function renderChat() {
   const container  = document.getElementById('chat-container');
-  const sessionNav = document.getElementById('session-nav');
+  const sessionList = document.getElementById('session-list');
+  bindChatPaneScrollTracking();
 
   if (!state.conversations) {
-    sessionNav.innerHTML = '';
+    sessionList.innerHTML = '';
     container.innerHTML = `
       <div class="empty-state" style="margin:auto">
         <div class="empty-icon">💬</div>
@@ -251,64 +257,95 @@ function renderChat() {
 
   const sessions = state.conversations.sessions ?? [];
   if (!sessions.length) {
-    sessionNav.innerHTML = '';
+    sessionList.innerHTML = '';
     container.innerHTML = '<div class="empty-state" style="margin:auto"><div class="empty-text">No sessions found.</div></div>';
     return;
   }
 
-  // Build an index of turn_ids cited in QA evidence
-  const evidencedTurns = new Map(); // turn_id → [qa_id, ...]
+  // Build an index of turn_ids cited in QA evidence (stored on state for gotoTurn)
+  state.evidencedTurns = new Map();
   state.qa.forEach(qa => {
     (qa.evidence_anchors ?? []).forEach(e => {
       if (e.turn_id) {
-        if (!evidencedTurns.has(e.turn_id)) evidencedTurns.set(e.turn_id, []);
-        evidencedTurns.get(e.turn_id).push(qa.query_type);
+        if (!state.evidencedTurns.has(e.turn_id)) state.evidencedTurns.set(e.turn_id, []);
+        state.evidencedTurns.get(e.turn_id).push(qa.query_type);
       }
     });
   });
 
-  // ── Session navigator pills ────────────────────────────────────────────────
-  sessionNav.innerHTML = sessions.map((s, i) => {
-    const label = s.topic
-      ? `S${s.session_index ?? i+1} · ${s.topic.length > 22 ? s.topic.slice(0,22) + '…' : s.topic}`
-      : `Session ${s.session_index ?? i+1}`;
-    return `<button class="session-pill${i === 0 ? ' active' : ''}" data-session-id="${esc(s.session_id)}">${esc(label)}</button>`;
-  }).join('');
+  // Build index of which sessions have challenges (for dot indicator)
+  const sessionHasChallenges = new Set();
+  const sessionChallengeCounts = new Map();
+  const sessionEvidenceCounts = new Map();
+  sessions.forEach(s => {
+    const challengeCount = (s.turns ?? []).reduce((count, t) => count + ((t.planted_challenges ?? []).length ? 1 : 0), 0);
+    const evidenceCount = (s.turns ?? []).reduce((count, t) => count + (state.evidencedTurns.has(t.turn_id) ? 1 : 0), 0);
+    sessionChallengeCounts.set(s.session_id, challengeCount);
+    sessionEvidenceCounts.set(s.session_id, evidenceCount);
+    if (challengeCount > 0) {
+      sessionHasChallenges.add(s.session_id);
+    }
+  });
 
-  sessionNav.querySelectorAll('.session-pill').forEach(pill => {
-    pill.addEventListener('click', () => {
-      const hdr = document.getElementById(`session-hdr-${pill.dataset.sessionId}`);
-      if (hdr) hdr.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      sessionNav.querySelectorAll('.session-pill').forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
+  // ── Session list (left column) ─────────────────────────────────────────────
+  const totalSessions = sessions.length;
+  sessionList.innerHTML = `
+    <div class="session-list-header">${totalSessions} Session${totalSessions !== 1 ? 's' : ''}</div>
+    ${sessions.map((s, i) => {
+      const idx   = s.session_index ?? i + 1;
+      const label = s.date_label ? `S${idx} · ${s.date_label}` : `Session ${idx}`;
+      const turns = (s.turns ?? []).length;
+      const hasChallenges = sessionHasChallenges.has(s.session_id);
+      const challengeCount = sessionChallengeCounts.get(s.session_id) ?? 0;
+      const evidenceCount = sessionEvidenceCounts.get(s.session_id) ?? 0;
+      return `
+        <div class="session-list-item" data-session-id="${esc(s.session_id)}">
+          <div class="session-item-topline">
+            <span class="session-item-index">S${idx}</span>
+            <div class="session-item-label">${esc(label)}</div>
+          </div>
+          ${s.topic ? `<div class="session-item-topic">${esc(s.topic)}</div>` : ''}
+          <div class="session-item-meta">
+            <span class="session-item-turns">${turns} turn${turns !== 1 ? 's' : ''}</span>
+            ${evidenceCount ? `<span class="session-item-chip">QA cites ${evidenceCount}</span>` : ''}
+            ${hasChallenges ? `<span class="session-item-chip session-item-chip-warn">${challengeCount} signal${challengeCount !== 1 ? 's' : ''}</span>` : ''}
+          </div>
+        </div>`;
+    }).join('')}
+  `;
+
+  sessionList.querySelectorAll('.session-list-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const session = sessions.find(s => s.session_id === item.dataset.sessionId);
+      if (session) scrollToSession(session);
     });
   });
 
-  // Update active pill on scroll
-  const headers = [];
-  const html    = [];
-
-  sessions.forEach(session => {
-    html.push(`
-      <div class="session-header" id="session-hdr-${esc(session.session_id)}">
-        <div class="session-line"></div>
-        <div class="session-label">${esc(session.date_label ?? `Session ${session.session_index}`)}</div>
-        ${session.topic ? `<div class="session-topic">${esc(session.topic)}</div>` : ''}
-        <div class="session-line"></div>
-      </div>`);
-
+  const html  = [
+    `<div class="chat-overview" id="chat-overview"></div>`
+  ];
+  sessions.forEach((session, i) => {
+    const idx = session.session_index ?? i + 1;
+    const label = session.date_label ? `S${idx} · ${session.date_label}` : `Session ${idx}`;
     const turns = session.turns ?? [];
     let prevSpeaker = null;
+
+    html.push(`
+      <div class="session-header" id="session-${esc(session.session_id)}" data-session-id="${esc(session.session_id)}">
+        <div class="session-line"></div>
+        <div class="session-label">${esc(label)}</div>
+        ${session.topic ? `<div class="session-topic">${esc(session.topic)}</div>` : ''}
+      </div>`);
 
     turns.forEach(turn => {
       const isNewSpeaker = turn.speaker_display_name !== prevSpeaker;
       prevSpeaker = turn.speaker_display_name;
 
-      const color      = getSpeakerColor(turn.speaker_display_name);
-      const initials   = getInitials(turn.speaker_display_name);
-      const challenges = turn.planted_challenges ?? [];
+      const color        = getSpeakerColor(turn.speaker_display_name);
+      const initials     = getInitials(turn.speaker_display_name);
+      const challenges   = turn.planted_challenges ?? [];
       const hasChallenge = challenges.length > 0;
-      const citedIn    = evidencedTurns.get(turn.turn_id);
+      const citedIn      = state.evidencedTurns.get(turn.turn_id);
 
       const challengeBadges = challenges.map(c =>
         `<span class="challenge-badge">⚡ ${fmtChallengeType(c.challenge_type)}</span>`
@@ -319,7 +356,7 @@ function renderChat() {
         : '';
 
       html.push(`
-        <div class="msg-group ${isNewSpeaker ? 'new-speaker' : ''}" id="turn-${esc(turn.turn_id)}">
+        <div class="msg-group ${isNewSpeaker ? 'new-speaker' : ''}" id="turn-${esc(turn.turn_id)}" data-session-id="${esc(session.session_id)}">
           ${isNewSpeaker
             ? `<div class="msg-avatar" style="background:${color}">${initials}</div>`
             : `<div class="msg-avatar spacer"></div>`}
@@ -339,24 +376,90 @@ function renderChat() {
     });
   });
 
-  container.innerHTML = html.join('');
+  container.innerHTML = html.join('') || '<div class="empty-state" style="margin:auto"><div class="empty-text">No turns in this session.</div></div>';
   container.scrollTop = 0;
+  setActiveSession(sessions[0]?.session_id ?? null);
+}
 
-  // IntersectionObserver — keep active pill in sync while scrolling
-  const pillMap = new Map();
-  sessionNav.querySelectorAll('.session-pill').forEach(p => pillMap.set(p.dataset.sessionId, p));
+function bindChatPaneScrollTracking() {
+  const container = document.getElementById('chat-container');
+  if (!container || container.dataset.sessionScrollBound === 'true') return;
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const id = entry.target.id.replace('session-hdr-', '');
-        sessionNav.querySelectorAll('.session-pill').forEach(p => p.classList.remove('active'));
-        pillMap.get(id)?.classList.add('active');
-      }
-    });
-  }, { root: container, threshold: 0.1 });
+  container.dataset.sessionScrollBound = 'true';
+  container.addEventListener('scroll', debounce(updateActiveSessionFromScroll, 30), { passive: true });
+}
 
-  container.querySelectorAll('.session-header').forEach(h => observer.observe(h));
+function scrollToSession(session) {
+  if (!session) return;
+  setActiveSession(session.session_id, { behavior: 'smooth' });
+
+  const header = document.getElementById(`session-${session.session_id}`);
+  header?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function updateActiveSessionFromScroll() {
+  if (state.activeTab !== 'chat') return;
+
+  const container = document.getElementById('chat-container');
+  if (!container) return;
+
+  const headers = [...container.querySelectorAll('.session-header[data-session-id]')];
+  if (!headers.length) return;
+
+  const threshold = container.scrollTop + 48;
+  let activeSessionId = headers[0].dataset.sessionId;
+
+  headers.forEach(header => {
+    if (header.offsetTop <= threshold) {
+      activeSessionId = header.dataset.sessionId;
+    }
+  });
+
+  setActiveSession(activeSessionId, { behavior: 'smooth' });
+}
+
+function setActiveSession(sessionId, options = {}) {
+  if (!sessionId) return;
+  const { behavior = 'auto' } = options;
+  state.activeSessionId = sessionId;
+
+  document.querySelectorAll('.session-list-item').forEach(item => {
+    item.classList.toggle('active', item.dataset.sessionId === sessionId);
+  });
+
+  const activeItem = document.querySelector(`.session-list-item[data-session-id="${CSS.escape(sessionId)}"]`);
+  activeItem?.scrollIntoView({ block: 'nearest', behavior });
+  renderActiveSessionOverview();
+}
+
+function renderActiveSessionOverview() {
+  const overview = document.getElementById('chat-overview');
+  if (!overview || !state.conversations) return;
+
+  const sessions = state.conversations.sessions ?? [];
+  const session = sessions.find(s => s.session_id === state.activeSessionId) ?? sessions[0];
+  if (!session) {
+    overview.innerHTML = '';
+    return;
+  }
+
+  const turns = session.turns ?? [];
+  const challengeCount = turns.filter(t => (t.planted_challenges ?? []).length > 0).length;
+  const evidenceCount = turns.filter(t => state.evidencedTurns.has(t.turn_id)).length;
+  const sessionIndex = session.session_index ?? sessions.indexOf(session) + 1;
+
+  overview.innerHTML = `
+    <div class="chat-overview-copy">
+      <div class="chat-overview-label">Current Session</div>
+      <div class="chat-overview-title">Session ${sessionIndex}${session.topic ? ` · ${esc(session.topic)}` : ''}</div>
+      <div class="chat-overview-sub">${esc(session.date_label ?? 'Conversation session')}</div>
+    </div>
+    <div class="chat-overview-stats">
+      <span class="chat-overview-chip">${turns.length} turn${turns.length !== 1 ? 's' : ''}</span>
+      <span class="chat-overview-chip">${evidenceCount} QA-cited</span>
+      <span class="chat-overview-chip ${challengeCount ? 'chat-overview-chip-warn' : ''}">${challengeCount} planted signal${challengeCount !== 1 ? 's' : ''}</span>
+    </div>
+  `;
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -376,6 +479,7 @@ function renderGraph() {
   if (!personas.length) { renderGraphEmpty(); return; }
 
   const personaById = new Map(personas.map(p => [p.persona_id, p]));
+  renderGraphSummary(personas, edges);
 
   const el = document.getElementById('graph-svg');
   const W  = el.clientWidth  || 700;
@@ -420,7 +524,12 @@ function renderGraph() {
     .attr('stroke-opacity', .6)
     .attr('marker-end', 'url(#arrow)')
     .attr('stroke-linecap', 'round')
-    .on('click', (event, d) => { event.stopPropagation(); showEdgeDetail(d, personaById); });
+    .on('click', (event, d) => {
+      event.stopPropagation();
+      showEdgeDetail(d, personaById);
+      link.classed('selected', l => l === d);
+      node.classed('selected', false);
+    });
 
   const node = g.append('g').attr('class', 'nodes')
     .selectAll('.node').data(nodes).join('g')
@@ -433,6 +542,7 @@ function renderGraph() {
       event.stopPropagation();
       showNodeDetail(d);
       node.classed('selected', n => n.id === d.id);
+      link.classed('selected', false);
     });
 
   node.append('circle')
@@ -473,7 +583,11 @@ function renderGraph() {
   // Populate detail panel with group norms on initial render
   showGraphDetailEmpty();
 
-  svg.on('click', () => { node.classed('selected', false); showGraphDetailEmpty(); });
+  svg.on('click', () => {
+    node.classed('selected', false);
+    link.classed('selected', false);
+    showGraphDetailEmpty();
+  });
 
   const legendData = [
     { label: 'Positive', color: sentColor.positive },
@@ -493,8 +607,29 @@ function renderGraph() {
 }
 
 function renderGraphEmpty() {
+  const summary = document.getElementById('graph-summary');
+  if (summary) summary.innerHTML = '';
   document.getElementById('graph-detail').innerHTML = `
     <div class="detail-empty"><p>No graph data for this network.</p></div>`;
+}
+
+function renderGraphSummary(personas, edges) {
+  const summary = document.getElementById('graph-summary');
+  if (!summary) return;
+
+  const norms = state.network?.group_norms ?? [];
+  const relationshipTypes = new Set(edges.map(edge => edge.relationship_type).filter(Boolean));
+  summary.innerHTML = `
+    <div class="graph-summary-card">
+      <div class="graph-summary-label">Graph Overview</div>
+      <div class="graph-summary-title">${personas.length} people, ${edges.length} relationship${edges.length !== 1 ? 's' : ''}</div>
+      <div class="graph-summary-copy">Click a node for persona context or an edge for relationship history.</div>
+      <div class="graph-summary-chips">
+        <span class="graph-summary-chip">${norms.length} group norm${norms.length !== 1 ? 's' : ''}</span>
+        <span class="graph-summary-chip">${relationshipTypes.size || 1} relationship type${relationshipTypes.size === 1 ? '' : 's'}</span>
+      </div>
+    </div>
+  `;
 }
 
 function showGraphDetailEmpty() {
@@ -662,10 +797,12 @@ function renderQA() {
   const list    = document.getElementById('qa-list');
   const filters = document.getElementById('qa-filters');
   const count   = document.getElementById('qa-count');
+  const summary = document.getElementById('qa-review-summary');
 
   if (!state.qa.length) {
     filters.innerHTML = '';
     count.textContent = '';
+    if (summary) summary.innerHTML = '';
     list.innerHTML = `
       <div class="empty-state" style="margin:auto">
         <div class="empty-icon">📋</div>
@@ -677,8 +814,11 @@ function renderQA() {
   // Build type filter buttons
   const types = [...new Set(state.qa.map(q => q.query_type))].sort();
   filters.innerHTML = `
-    <button class="filter-btn ${state.qaFilter === 'all' ? 'active' : ''}" data-filter="all">All</button>
-    ${types.map(t => `<button class="filter-btn ${state.qaFilter === t ? 'active' : ''}" data-filter="${t}">${t}</button>`).join('')}
+    <button class="filter-btn ${state.qaFilter === 'all' ? 'active' : ''}" data-filter="all">All <span>${state.qa.length}</span></button>
+    ${types.map(t => {
+      const totalForType = state.qa.filter(qa => qa.query_type === t).length;
+      return `<button class="filter-btn ${state.qaFilter === t ? 'active' : ''}" data-filter="${t}">${t} <span>${totalForType}</span></button>`;
+    }).join('')}
   `;
   filters.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -703,10 +843,30 @@ function renderQA() {
 
   const total = visible.length;
   const paged = visible.slice(0, state.qaPage * QA_PAGE_SIZE);
+  const flaggedCount = state.qa.filter(qa => qa.qc_phase3_flagged).length;
+  const groundedCount = state.qa.filter(qa => qa.qc_phase2_grounded).length;
+  const mcCount = state.qa.filter(qa => qa.answer_format === 'multiple_choice').length;
 
   count.textContent = q || state.qaFilter !== 'all'
     ? `${total} of ${state.qa.length}`
     : `${total}`;
+
+  if (summary) {
+    summary.innerHTML = `
+      <div class="qa-review-card">
+        <div class="qa-review-copy">
+          <div class="qa-review-label">Review Pass</div>
+          <div class="qa-review-title">${total} prompt${total !== 1 ? 's' : ''} in view</div>
+          <div class="qa-review-sub">Skim the preview text first, then expand only the cards that need inspection.</div>
+        </div>
+        <div class="qa-review-chips">
+          <span class="qa-review-chip">${groundedCount} grounded</span>
+          <span class="qa-review-chip ${flaggedCount ? 'qa-review-chip-warn' : ''}">${flaggedCount} flagged</span>
+          <span class="qa-review-chip">${mcCount} multiple choice</span>
+        </div>
+      </div>
+    `;
+  }
 
   const cardsHtml = paged.map((qa, i) => renderQACard(qa, i)).join('');
 
@@ -735,6 +895,16 @@ function renderQA() {
 function renderQACard(qa, i) {
   const opts    = qa.options ?? {};
   const hasOpts = Object.keys(opts).length > 0;
+  const answerPreview = summarizeText(qa.answer, 180);
+  const firstEvidence = qa.evidence_anchors?.[0];
+  const evidencePreview = firstEvidence
+    ? `${firstEvidence.speaker_display_name} · S${firstEvidence.session_index} · ${firstEvidence.message_excerpt}`
+    : null;
+  const reviewState = qa.qc_phase3_flagged
+    ? '<span class="qa-review-flag qa-review-flag-warn">Flagged</span>'
+    : qa.qc_phase2_grounded
+      ? '<span class="qa-review-flag">Grounded</span>'
+      : '';
 
   // For multiple-choice: show options AND the explanation text
   // For long-form: show just the answer text
@@ -773,7 +943,10 @@ function renderQACard(qa, i) {
             <span class="badge badge-${qa.difficulty ?? 'medium'}">${qa.difficulty ?? ''}</span>
             <span class="badge" style="background:var(--bg);color:var(--text-2);border:1px solid var(--border-light)">${fmtQTypeLabel(qa.query_type_label)}</span>
             ${qa.answer_format ? `<span class="badge" style="background:var(--bg);color:var(--text-3);border:1px solid var(--border-light)">${qa.answer_format.replace('_',' ')}</span>` : ''}
+            ${reviewState}
           </div>
+          <div class="qa-preview">${esc(answerPreview)}</div>
+          ${evidencePreview ? `<div class="qa-evidence-preview">${esc(evidencePreview)}</div>` : ''}
         </div>
         <svg class="qa-chevron" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
@@ -836,12 +1009,25 @@ function debounce(fn, ms) {
   return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), ms); };
 }
 
+function summarizeText(text, maxLen = 140) {
+  const value = (text ?? '').replace(/\s+/g, ' ').trim();
+  if (value.length <= maxLen) return value;
+  return `${value.slice(0, maxLen - 1)}…`;
+}
+
 // ── Cross-reference: jump from QA evidence to chat message ───────────────────
 function gotoTurn(turnId) {
   // Switch to Chat tab first
   showTab('chat');
 
-  // Give the panel a tick to become visible, then scroll + highlight
+  // Find which session contains this turn
+  const sessions = state.conversations?.sessions ?? [];
+  const targetSession = sessions.find(s => (s.turns ?? []).some(t => t.turn_id === turnId));
+
+  if (targetSession) {
+    setActiveSession(targetSession.session_id, { behavior: 'smooth' });
+  }
+
   requestAnimationFrame(() => {
     const el = document.getElementById(`turn-${turnId}`);
     if (!el) return;
@@ -853,14 +1039,5 @@ function gotoTurn(turnId) {
     void el.offsetWidth; // force reflow to restart animation
     el.classList.add('highlighted');
     el.addEventListener('animationend', () => el.classList.remove('highlighted'), { once: true });
-
-    // Update session nav active pill
-    const sessionHdr = el.closest('[id^="session-hdr-"]');
-    if (sessionHdr) {
-      const sessionId = sessionHdr.id.replace('session-hdr-', '');
-      document.querySelectorAll('.session-pill').forEach(p => {
-        p.classList.toggle('active', p.dataset.sessionId === sessionId);
-      });
-    }
   });
 }

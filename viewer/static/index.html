@@ -24,7 +24,10 @@
     <!-- Sidebar: network list -->
     <aside class="sidebar">
       <div class="sidebar-header">
-        <span class="sidebar-label">Networks</span>
+        <div class="sidebar-heading">
+          <span class="sidebar-label">Networks</span>
+          <div class="sidebar-caption">Browse generated groups and review their traces.</div>
+        </div>
         <button class="btn-icon" id="refresh-btn" title="Refresh">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M23 4v6h-6M1 20v-6h6"/>
@@ -104,15 +107,18 @@
 
         <!-- Tab panels -->
         <div class="tab-panel active" id="panel-chat">
-          <div class="session-nav" id="session-nav"></div>
-          <div class="chat-container" id="chat-container">
-            <div class="loading-state">Loading conversations…</div>
+          <div class="chat-layout">
+            <div class="session-list" id="session-list"></div>
+            <div class="chat-pane chat-container" id="chat-container">
+              <div class="loading-state">Loading conversations…</div>
+            </div>
           </div>
         </div>
 
         <div class="tab-panel" id="panel-graph">
           <div class="graph-layout">
             <div class="graph-canvas-wrap">
+              <div class="graph-summary" id="graph-summary"></div>
               <svg id="graph-svg"></svg>
             </div>
             <div class="graph-detail" id="graph-detail">
@@ -137,6 +143,7 @@
               <div class="qa-count" id="qa-count"></div>
             </div>
           </div>
+          <div class="qa-review-summary" id="qa-review-summary"></div>
           <div class="qa-list" id="qa-list">
             <div class="loading-state">Loading QA pairs…</div>
           </div>

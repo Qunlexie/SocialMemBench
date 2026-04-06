@@ -676,6 +676,22 @@ def test_01_landing(server_and_data, page: Page):
     assert page.locator(".welcome").is_visible()
 
 
+def test_01b_narrow_layout(server_and_data, page: Page):
+    """The viewer keeps navigation and chat usable at a narrower viewport."""
+    page.set_viewport_size({"width": 720, "height": 1180})
+    page.goto(server_and_data)
+    page.wait_for_load_state("networkidle")
+
+    assert page.locator(".sidebar").is_visible()
+
+    page.locator(".network-item").first.click()
+    page.wait_for_selector(".message-bubble", timeout=5000)
+
+    assert page.locator(".tab-bar").is_visible()
+    assert page.locator(".session-list").is_visible()
+    assert page.locator("#chat-container").is_visible()
+
+
 def test_02_network_selected_chat(server_and_data, page: Page):
     """Clicking a network shows the chat view with message bubbles."""
     page.goto(server_and_data)
@@ -688,6 +704,7 @@ def test_02_network_selected_chat(server_and_data, page: Page):
 
     # Network name updated
     assert page.locator("#network-name").is_visible()
+    assert page.locator("#chat-overview").is_visible()
 
     # Multiple message bubbles
     assert page.locator(".message-bubble").count() > 5
@@ -700,6 +717,12 @@ def test_02_network_selected_chat(server_and_data, page: Page):
 
     # Speaker avatars
     assert page.locator(".msg-avatar:not(.spacer)").count() >= 4
+
+    # Session switch updates the active list item and chat overview
+    page.locator(".session-list-item").nth(1).click()
+    page.wait_for_timeout(300)
+    expect(page.locator(".session-list-item.active")).to_have_count(1)
+    expect(page.locator("#chat-overview")).to_contain_text("Session 2")
 
 
 def test_03_graph_view(server_and_data, page: Page):
@@ -714,6 +737,9 @@ def test_03_graph_view(server_and_data, page: Page):
     page.wait_for_selector("#graph-svg circle", timeout=6000)
 
     take(page, "03_graph_view")
+
+    # Graph summary visible
+    assert page.locator("#graph-summary").is_visible()
 
     # SVG with nodes
     assert page.locator("#graph-svg circle").count() >= 4
@@ -746,6 +772,24 @@ def test_04_graph_node_click(server_and_data, page: Page):
     assert page.locator(".graph-detail .detail-name").is_visible()
 
 
+def test_04b_graph_edge_click(server_and_data, page: Page):
+    """Clicking a graph edge populates the relationship detail panel."""
+    page.goto(server_and_data)
+    page.wait_for_load_state("networkidle")
+
+    page.locator(".network-item").first.click()
+    page.wait_for_selector(".message-bubble", timeout=5000)
+
+    page.locator(".tab[data-tab='graph']").click()
+    page.wait_for_selector("#graph-svg line.link", timeout=6000)
+
+    page.locator("#graph-svg line.link").first.click()
+    page.wait_for_timeout(300)
+
+    expect(page.locator(".graph-detail")).to_contain_text("Relationship")
+    assert page.locator("#graph-svg line.link.selected").count() >= 1
+
+
 def test_05_qa_view(server_and_data, page: Page):
     """QA tab shows QA cards with badges and expandable answers."""
     page.goto(server_and_data)
@@ -764,6 +808,8 @@ def test_05_qa_view(server_and_data, page: Page):
 
     # Filter buttons
     assert page.locator(".filter-btn").count() >= 2
+    assert page.locator("#qa-review-summary").is_visible()
+    assert page.locator(".qa-preview").count() >= 4
 
 
 def test_06_qa_expand(server_and_data, page: Page):
@@ -809,6 +855,7 @@ def test_07_qa_filter(server_and_data, page: Page):
     filtered = page.locator(".qa-card").count()
     assert filtered < total, "Filter should reduce card count"
     assert filtered >= 1, "At least 1 Q1 card expected"
+    expect(page.locator("#qa-review-summary")).to_contain_text("in view")
 
 
 def test_08_evidence_markers_in_chat(server_and_data, page: Page):
@@ -850,7 +897,8 @@ def test_09_evidence_jump_to_chat(server_and_data, page: Page):
     # Should now be on Chat tab
     assert page.locator(".tab[data-tab='chat'].active").count() >= 1
     # Chat container should be visible and scrolled to the message
-    assert page.locator(".chat-container").is_visible()
+    assert page.locator("#chat-container").is_visible()
+    assert page.locator(".msg-group.highlighted").count() >= 1
 
 
 # ── Run directly ───────────────────────────────────────────────────────────────

@@ -1,6 +1,6 @@
 # Evaluation Plan (Stages 4–5)
 
-## Status: Designed — to be implemented after first 50 conversations are generated and manually verified.
+## Status: Designed — to be implemented after small-scale validation (manual review of 77 QA + Condition A oracle run).
 
 ---
 
@@ -103,8 +103,12 @@ See [`plans/social-graph-memory.md`](social-graph-memory.md) for the full design
 | Attribution collapse | Q4 (contamination), Q5 (ToM) | Facts stored without strong speaker binding |
 | Norm universalization | Q6 (norm vs. individual) | No concept of "group-stated but individually contested" |
 | Preference conflation | Q3 (multi-contact) | Multiple speakers' preferences merged into one entry |
-| Temporal blindness | Q8 (temporal evolution) | Memory overwrites rather than versions preferences |
+| Temporal blindness | Q8, Q8L (temporal evolution) | Memory overwrites rather than versions preferences |
 | Relationship ignorance | Q7 (relational edge) | No relationship graph; history not stored as edge properties |
+| Stale member recall | Q9 (departed member) | No departure modelling; stale evidence treated as current |
+| Scale collapse | Q3, Q4 at large group tier | Attribution degrades nonlinearly as group size grows |
+| Noise sensitivity | Q1–Q9 at high noise level | Systems fail to extract signal from unstructured surrounding context |
+| Memory decay | Q8L at longitudinal tier | Recent sessions over-weighted; year-old context lost entirely |
 
 ---
 
@@ -142,12 +146,13 @@ Calibrate against manual scores on the 100-pair pilot before applying at scale.
 
 | Milestone | Phase | Action |
 |-----------|-------|--------|
-| Generate 50 conversations, 100 QA | 1 | Claude Code skills — no API key |
-| Condition A oracle run | 1 | `smb-evaluate-oracle` skill — validate data quality + hypothesis |
-| Manual review | 1 | Check oracle answers; confirm Q4/Q5/Q6 are non-trivial |
-| **Decision point** | — | Data good → proceed to Phase 2. Scale data gen with Gemini 2.5 if needed. |
-| Scale to 1,000+ QA | 2 | Claude Code skills or Gemini 2.5 for generation |
+| Manual review of 77 QA | 1 | Confirm data quality; Q4/Q5/Q6 genuinely non-trivial |
+| Condition A oracle run | 1 | `smb-evaluate-oracle` skill — validate hypothesis on reviewed QA |
+| **Decision point** | — | Data good → proceed to Phase 2 |
+| Tier validation (15 networks) | 1→2 | 1 medium + 1 large network; confirm Q8 viability at each tier |
+| Scale to ~800 QA (25 networks) | 2 | Small + medium tiers complete |
 | Condition B (memory systems) | 2 | Gemini 2.5 Pro backbone — primary contribution data |
+| Full dataset (46 networks, ~1,650 QA) | 2 | Large + longitudinal tiers; all experimental variables covered |
 | Condition C (SMG) | 2 | Gemini 2.5 Pro backbone — proposed direction evidence |
-| Analysis | 2 | Failure mode table, per-type accuracy, delta A→B→C |
+| Analysis | 2 | Failure mode table, per-type accuracy, delta A→B→C; size/noise/timespan curves |
 | Paper | 2 | Full results + SMG architecture as proposed direction |

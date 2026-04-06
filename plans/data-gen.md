@@ -1,132 +1,107 @@
-# SocialMemBench: Data Generation Pipeline
+# SocialMemBench: Data Generation Plan
 
-## What This Is
+## Goal
 
-SocialMemBench is a novel synthetic benchmark for evaluating AI memory in social group conversations — friends, family, recreational clubs, interest communities, acquaintance networks. No existing benchmark covers this space. EverMemBench (Feb 2026, the closest work) is locked to workplace/enterprise settings.
-
-**Novelty confirmed**: No benchmark combines synthetic social group conversations + speaker attribution + memory evaluation across friend/family/recreational/interest domains.
-
----
-
-## Architecture Pivot: API → Skill Files
-
-### Original approach (v1, abandoned)
-
-The first implementation used the Anthropic Python SDK directly: a `ClaudeClient` wrapper made programmatic API calls from Python generators (`EgoNetworkGenerator`, `ConversationPipeline`, `QAGenerator`). This required an `ANTHROPIC_API_KEY` and made the pipeline feel like backend software rather than a research tool.
-
-**Why we changed**: Running generation through the API is the wrong abstraction. Claude Code IS the model — it can read schema files, follow structured instructions, write JSON directly to disk, and update the manifest, all without a separate API layer. Skills are also easier to inspect, version, and improve than Python prompt templates buried in generator classes.
-
-### Current approach (v2, active)
-
-Generation runs through **Claude Code skill files** in `.claude/commands/`. The user invokes a skill from a Claude Code session; Claude reads the instruction file, generates data, and writes it to `data/`. No API key. No `anthropic` SDK. The Python layer is a thin utility layer only (schemas as spec documents, manifest I/O, metrics).
+Generate a synthetic benchmark of social group conversations with hidden ground-truth memory challenges. Data is generated through Claude Code skill files — no API key needed. The Python layer is thin utilities only (schemas, manifest I/O, metrics).
 
 **Pipeline** (one network at a time):
 ```
-/smb-generate-network {group_type} {group_size}
-/smb-verify {network_id} --stage 1
-/smb-generate-conversations {network_id} 5
-/smb-verify {network_id} --stage 2
-/smb-generate-qa {network_id}
-/smb-qc {network_id}
-/smb-verify {network_id} --stage 3
-/smb-status
-```
-
-See `CLAUDE.md` for the full skill reference.
-
----
-
-## Dataset Design (mirrors EverMemBench, adapted for social settings)
-
-### EverMemBench reference format
-
-EverMemBench (the benchmark we mirror) uses three HuggingFace splits:
-
-**profiles** (170 rows):
-```json
-{
-  "Name": "Weihua Zhang", "ID": "297ec1d7", "Age": "48",
-  "Communication_Profile": {"Formality": "Semi-formal", "Emoji_Usage": "Rare", ...},
-  "Big_Five_Profile": {"Openness": "High", "Conscientiousness": "High", ...}
-}
-```
-
-**dialogues** (1.26k rows — grouped by date, then sub-group):
-```json
-{
-  "topic_id": "01", "date": "2025-01-09",
-  "dialogues": {
-    "Group 1": [{"speaker": "Name", "time": "09:32:15", "dialogue": "...", "message_index": 1}]
-  }
-}
-```
-
-**qars** (2.4k rows):
-```json
-{
-  "topic_id": "01", "id": "F_SH_Top01_001",
-  "Q": "...", "A": "65%",
-  "R": [{"date": "2025-10-20", "group": "Group 3", "message_index": "4"}]
-}
-```
-
-### Our social-adapted format
-
-**profiles** — replace Dept/Title/Rank/Tenure with social relationship fields:
-```json
-{
-  "Name": "Sarah Chen", "ID": "a3f8c2d1", "Age": "27",
-  "Group_Name": "Ridgeline Hikers", "Group_Type": "recreational",
-  "Relationship_Type": "childhood_friend", "Closeness": "High",
-  "Preferences": {
-    "Activities": [{"value": "prefers flat trails", "confidence": "Medium", "implicit": true}]
-  },
-  "Preference_History": [
-    {"domain": "activities", "old_value": "neutral on hiking", "new_value": "enthusiastic", "changed_at_session": 3, "trigger": "Mike invited her"}
-  ],
-  "Communication_Profile": {"Formality": "Casual", "Emoji_Usage": "Frequent", "Typo_Rate": "Moderate", ...},
-  "Speaking_Quirks": ["uses 'tbh' and 'lol' frequently", "never uses full punctuation"]
-}
-```
-
-**dialogues** — same structure, with hidden `_planted` metadata (stripped before release):
-```json
-{
-  "group_id": "grp_001", "group_type": "recreational", "session_index": 3,
-  "date": "Session 3, Saturday afternoon",
-  "dialogues": {
-    "Ridgeline Hikers": [
-      {
-        "speaker": "Mike", "time": "Session 3, 2:47pm",
-        "dialogue": "depends on the trail tbh the last one nearly killed me",
-        "message_index": 2,
-        "_planted": {"challenge_type": "implicit_preference", "subject_id": "mike_001", "fact": {"attribute": "trail_difficulty", "value": "dislikes_steep"}}
-      }
-    ]
-  }
-}
-```
-
-**qars** — same structure + `query_type`:
-```json
-{
-  "group_id": "grp_001", "id": "Q5_Top01_003",
-  "query_type": "Q5", "query_type_label": "theory_of_mind_reference",
-  "difficulty": "hard",
-  "Q": "What is Mike's preference regarding trail steepness? Who revealed this?",
-  "A": "Mike dislikes steep trails. Revealed by Sarah in Session 3.",
-  "R": [{"session_index": 3, "group": "Ridgeline Hikers", "message_index": "2"}],
-  "contamination_foil": null
-}
+/smb-generate-network {group_type} {group_size}   → data/raw/{id}.json
+/smb-generate-conversations {network_id}           → data/conversations/{id}.json
+/smb-generate-qa {network_id}                      → data/qa/{id}.jsonl
+/smb-verify {network_id}                           → data/verify/{id}.json
+/smb-qc {network_id}                               → data/qa/{id}_qc.json
+/smb-status                                        → manifest summary
 ```
 
 ---
 
-## Data Format
+## Experimental Variables
 
-### QA pairs — answer formats
+Four independent variables drive the benchmark's analytical depth. Each produces a distinct paper result when plotted against Q1–Q9 accuracy.
 
-Each QA pair carries `answer_format`, `options`, and `correct_option`. `answer` is always the canonical long-form ground truth (used by LLM-as-judge). `correct_option` is the directly scoreable unit for MC and short-answer pairs.
+### 1. Group Size
+
+| Tier | Size range | Sessions | Participation model |
+|------|-----------|----------|---------------------|
+| Small | 3–6 | 5 | All members active every session (rate = 1.0) |
+| Medium | 7–14 | 8 | Most active (rate 0.7–1.0); occasional absences |
+| Large | 15–30 | 12 | Core active (rate 0.6–0.8); peripheral (rate 0.3–0.5) |
+
+Larger groups need more sessions because Q8 requires sufficient per-member turns. **Q8 viability rule**: only generate Q8 for members with ≥ 8 expected turns (participation_rate × sessions × avg_turns_per_session). At large scale, Q3 (multi-contact aggregation over 20+ members) is deliberately hard — memory systems likely cannot do it at all. Generate Q3 at all tiers; report degradation as a finding.
+
+**Group type × size tier**:
+
+| Group type | Small | Medium | Large |
+|-----------|-------|--------|-------|
+| close_friends | ✓ | ✓ | — |
+| family | ✓ | ✓ | ✓ (extended family) |
+| recreational | ✓ | ✓ | ✓ (clubs, running groups) |
+| interest_community | ✓ | ✓ | ✓ (book clubs, gaming) |
+| acquaintance_network | ✓ | ✓ | ✓ (neighborhood, alumni) |
+
+### 2. Timespan
+
+Short-span networks (5 weeks to 3 months) are the baseline. Longitudinal networks span 3 years with realistic dormancy and enable failure modes no short-span tier can test.
+
+**What longitudinal unlocks**:
+- Multi-stage Q8 (preference changed in year 1, again in year 3 — old value is now stale)
+- Memory decay (system over-weights recent sessions, loses early context)
+- Dormancy reactivation (member goes quiet for 6+ months, rejoins — system must retain pre-dormancy preferences)
+- Long-gap cross-reference ("like that time in 2023 when...") — extended query subtype **Q8L**
+
+**Session spacing model** for longitudinal networks — not uniform, realistic burst/dormancy pattern:
+```
+Year 1  ████░░████░░░░░░░░░████░░░░░░░░  active bursts, dormant gaps
+Year 2  ░░░░░░░░░░████░░░░░░░░░░████░░░  long dormancy then reactivation
+Year 3  ░░░░░██░░░░░░░░████████████████  sparse early, dense recent
+```
+Session gaps range from 1 week to 3+ months. Encoded in `ConversationSession.gap_days` — no special type needed.
+
+**Group type × longitudinal**: close_friends ✓, family ✓, recreational ✓, interest_community ✓, acquaintance_network — (tend to dissolve).
+
+### 3. Noise Level
+
+Real group chats are mostly unrelated to any benchmark challenge. The planted signal is the needle; the surrounding conversation is the haystack. Noise level is a controlled variable: the surrounding turns are random and unstructured, but each planted challenge still maps to a recoverable evidence span. A human reviewer looking directly at the planted turn can always verify the evidence — what varies is how much irrelevant content surrounds it.
+
+| Level | Signal ratio | What it feels like |
+|-------|-------------|-------------------|
+| `low` | ~50% relevant turns | Focused chat, mostly on topic |
+| `medium` | ~25% relevant turns | Realistic — topic drifts, tangents, off-topic messages |
+| `high` | ~10% relevant turns | Chaos — buried signal, genuine unstructured noise |
+
+Default: `medium`. Encoded as `ConversationCorpus.noise_level`.
+
+### 4. Member Departure
+
+Members can leave a network mid-corpus. Departure enables two failure modes:
+1. **Stale recall**: system answers using pre-departure evidence without flagging the member is gone
+2. **False attribution**: post-departure turns attributed to a departed member due to voice similarity (Q4 with a temporal component)
+
+Departure also enables **Q9** — *departed member recall*: "X left after session N — what was their last stated preference on Y?"
+
+| Tier | Departure frequency |
+|------|---------------------|
+| Small / short-span | None or 1 max |
+| Medium | 1–2 per network |
+| Large | Common — expect churn |
+| Longitudinal | Highly realistic over 3 years |
+
+Encoded as `Persona.status` and `Persona.departed_after_session`.
+
+---
+
+## Dataset Design
+
+Three data splits mirroring EverMemBench, adapted for social settings:
+
+**profiles** — one row per persona. Includes communication profile, Big Five personality, preferences (implicit and explicit), preference history, speaking quirks, participation rate, and departure status.
+
+**dialogues** — WhatsApp-style group chat sessions. Format: `[Session N, H:MMpm] Name: message`. Each session has hidden `_planted` metadata (stripped before release) that drives QA generation. Sessions carry `active_participants`, `gap_days`, and are surrounded by realistic noise turns.
+
+**qars** — Q1–Q9 question–answer–reference triples. Each QA pair has a `query_type`, difficulty rating (easy/medium/hard), ground-truth answer, and evidence anchors pointing to specific turns.
+
+### QA answer formats
 
 | Q type | answer_format | Scoreable unit |
 |--------|--------------|----------------|
@@ -138,22 +113,12 @@ Each QA pair carries `answer_format`, `options`, and `correct_option`. `answer` 
 | Q6 | multiple_choice | `correct_option` (letter of dissenter) |
 | Q7 | short_answer | `correct_option` (e.g., "childhood friends") |
 | Q8 | long_form | `answer` + `temporal_anchors` |
-
-### Conversations — timestamps
-
-Each corpus has `start_date` (ISO 8601). Session dates are `start_date + (N-1)*7 days`. Turns carry `timestamp` (ISO 8601 datetime) and a human-readable `timestamp_label` (e.g., "Jan 6, 11:23am").
-
-### Personas — structured fields
-
-`Persona` carries `occupation` (string) and `skills_list` (2–4 hobby/interest `SkillItem`s with proficiency). These are distinct from `background` prose — structured for Q1/Q3 attribution questions.
-
-### Conversations — challenge types
-
-`relational_graph` challenges in sessions 1–2 surface connection structure that maps to `EgoNetwork.edges`. These ground Condition C (Social Memory Graph) evaluation.
+| Q8L | long_form | `answer` + full `temporal_anchors` chain |
+| Q9 | long_form | `answer` + `departed_after_session` |
 
 ---
 
-## 8 Query Types (Q1–Q8)
+## Query Types
 
 | Type | Label | Challenge Source | Key Constraint |
 |------|-------|-----------------|----------------|
@@ -165,94 +130,61 @@ Each corpus has `start_date` (ISO 8601). Session dates are `start_date + (N-1)*7
 | Q6 | norm_vs_individual | `consensus_trap` with `truly_universal=false` | "No — [name] actually prefers X" |
 | Q7 | relational_edge_query | `relational_disclosure` | Cite in-chat evidence, not just background metadata |
 | Q8 | temporal_preference_evolution | `temporal_shift` | Name old value, new value, and session when it changed |
-
----
-
-## Project Structure
-
-```
-SocialMemBench/
-├── CLAUDE.md                        # skill reference + workflow entry point
-├── PLAN.md                          # this document
-├── pyproject.toml                   # pydantic, datasets, numpy, rich (no anthropic)
-├── .claude/
-│   └── commands/                    # Claude Code skill files (the pipeline)
-│       ├── smb-generate-network.md
-│       ├── smb-generate-conversations.md
-│       ├── smb-generate-qa.md
-│       ├── smb-verify.md
-│       ├── smb-qc.md
-│       └── smb-status.md
-├── socialmembench/
-│   ├── schemas/
-│   │   ├── persona.py               # EgoNetwork, Persona, RelationshipEdge, GroupNorm
-│   │   ├── conversation.py          # ConversationCorpus, ConversationTurn, PlantedChallenge
-│   │   └── qa.py                    # QAPair, EvidenceAnchor (Q1–Q8)
-│   └── utils/
-│       ├── manifest.py              # DatasetManifest — incremental tracking
-│       ├── serialization.py         # JSON/JSONL I/O
-│       └── metrics.py               # quality metrics (run with python -m)
-└── data/
-    ├── manifest.json                # auto-managed by skills — do not edit manually
-    ├── raw/                         # Stage 1: one JSON per network
-    ├── conversations/               # Stage 2: one JSON per network
-    ├── qa/                          # Stage 3: one JSONL per network (append-only)
-    └── verify/                      # verification + QC reports
-```
+| Q8L | longitudinal_evolution | multi-session `temporal_shift` | Trace full preference arc over years |
+| Q9 | departed_member_recall | `departure` + `implicit_preference` | Scope evidence to pre-departure period |
 
 ---
 
 ## Incremental Scale Design
 
-`data/manifest.json` is the heart of the pipeline. Every skill reads it before generating and updates it after. This ensures:
+`data/manifest.json` tracks every network, seed, session count, QA count, and consumed challenge IDs. Skills read it before generating and update it after — no redundancy, no lost work on partial runs.
 
-- **No redundancy**: each network has a sequential `seed` (provenance integer); each `challenge_id` is tracked in `consumed_challenge_ids` so no QA pair is generated twice
-- **Prioritization**: `/smb-status` and `/smb-generate-network` both read `group_type_counts` and `query_type_counts` to target underrepresented categories
-- **Resumability**: if a run fails mid-way, the manifest reflects what was already completed; rerunning picks up from where it left off
+The manifest also tracks `group_type_counts`, `query_type_counts`, and `size_tier_counts` so `/smb-status` and `/smb-generate-network` can target underrepresented categories automatically.
 
-```json
-{
-  "version": "1.0",
-  "next_seed": 3,
-  "networks": {
-    "grp_a1b2c3d4": {
-      "group_type": "recreational", "group_size": 3, "seed": 1,
-      "status": "verified", "n_sessions": 5, "n_qa": 18,
-      "consumed_challenge_ids": ["ch_001abc", "ch_002def"]
-    }
-  },
-  "qa_pairs_total": 18,
-  "query_type_counts": {"Q1": 4, "Q2": 3, "Q3": 2, "Q4": 2, "Q5": 2, "Q6": 2, "Q7": 1, "Q8": 2},
-  "group_type_counts": {"close_friends": 0, "family": 0, "recreational": 1, "interest_community": 0, "acquaintance_network": 0}
-}
-```
+---
+
+## Small Scale First
+
+**The current 10 small-tier networks (77 QA) need manual review before any further scaling.** Generating more data before confirming data quality compounds problems.
+
+Small-scale validation sequence:
+1. Manual review of existing 77 QA — confirm Q4/Q5/Q6 are genuinely non-trivial; planted signals are truly implicit
+2. Run `/smb-qc` on all 10 networks — target ≥ 70% blind-critic pass rate
+3. Generate 1 medium-tier network + 1 large-tier network — verify Q8 viability at those tiers
+4. Run Condition A oracle on reviewed QA — establish ceiling, confirm hypothesis
+5. Decision point: if data quality and oracle results validate → scale
+
+Only proceed to Phase 2 (memory system evaluation) after this validation passes.
 
 ---
 
 ## Generation Targets
 
-| Milestone | QA pairs | Networks | Notes |
+| Milestone | Networks | QA pairs | Notes |
 |-----------|----------|----------|-------|
-| Initial (manual review) | 50 | 2–3 | Verify quality before scaling |
-| First scale | 1,000 | ~20 | 4 per group type, sizes 3 and 5 |
-| Full dataset | 2,000+ | 40+ | 8 per group type, sizes 2/3/5/10 |
+| Manual review (now) | 10 | ~77 | All small tier — review before scaling |
+| Tier validation | 15 | ~200 | +5 medium, +5 large; verify Q8 at each tier |
+| First scale | 25 | ~800 | Fill small + medium tiers |
+| Full dataset | 40 | ~1,350 | Add large tier |
+| Longitudinal | 46 | ~1,650 | +6 longitudinal networks; Q8L and Q9 validated |
 
-**Success criteria for the 50-pair milestone**:
-- All 8 query types represented
-- Q5 questions always ask both "what preference?" AND "who revealed it?"
-- Q6 answers always name the dissenter explicitly
-- Conversations feel like real group chats (not scripted dialogues)
-- `/smb-verify` passes all stage 1–3 checks for every network
-- `/smb-qc` Phase 1 blind-critic pass rate ≥ 70%
+**Success criteria for manual review**:
+- All 8 core query types represented
+- Q5 always asks both "what preference?" AND "who revealed it?"
+- Q6 always names the dissenter explicitly
+- Q4 `contamination_foil` is a genuinely plausible wrong answer
+- Conversations feel like real group chats — planted challenges are implicit, not stated directly
+- `/smb-verify` passes all stage 1–3 checks
+- `/smb-qc` blind-critic pass rate ≥ 70%
 
 ---
 
 ## Verification
 
-After generating each network, run the full check sequence:
+After generating each network:
 ```
-/smb-verify {network_id}        # structural checks (Stage 1 + 2 + 3)
-/smb-qc {network_id}            # blind critic + evidence grounding on QA
+/smb-verify {network_id}        # structural checks (all stages)
+/smb-qc {network_id}            # blind critic + evidence grounding
 /smb-status                     # manifest summary + progress
 python -m socialmembench.utils.metrics --data_dir data/
 ```

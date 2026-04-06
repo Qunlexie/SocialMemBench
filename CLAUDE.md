@@ -8,10 +8,10 @@ This is not a niche failure. It happens across close friends, families, recreati
 
 ## What This Project Is
 
-A benchmark for evaluating AI memory systems in social group settings — not just raw model recall, but deployed memory architectures (Mem0, Letta, LangMem, MemGPT) under realistic conditions. The full pipeline:
+A benchmark for evaluating AI memory systems in social group settings — not just raw model recall, but deployed memory architectures (Mem0, Letta, LangMem) under realistic conditions. The full pipeline:
 
 1. **Generate** synthetic group conversations with hidden ground-truth memory challenges
-2. **Evaluate** memory systems session-by-session against those challenges (8 query types, Q1–Q8)
+2. **Evaluate** memory systems session-by-session against those challenges (Q1–Q9)
 3. **Score and analyze** where systems fail — and why, architecturally
 
 ## Research Positioning
@@ -25,7 +25,7 @@ The closest prior work is **EverMemBench** (Feb 2026) — the first multi-party 
 - Dataset: https://huggingface.co/datasets/EverMind-AI/EverMemBench-Dynamic/viewer/dialogues/train
 - GitHub: https://github.com/EverMind-AI/EverMemBench
 
-## 8 Query Types
+## Query Types
 
 | ID | What it tests |
 |----|--------------|
@@ -37,27 +37,44 @@ The closest prior work is **EverMemBench** (Feb 2026) — the first multi-party 
 | Q6 | Norm vs. individual — whether a group norm truly applies to everyone |
 | Q7 | Relational edge query — relationship history revealed in conversation |
 | Q8 | Temporal preference evolution — how a preference changed across sessions |
+| Q9 | Departed member recall — last known preference of a member who left the group |
+| Q8L | *(longitudinal extension)* Multi-stage preference evolution traced over years |
+
+Q9 and Q8L are only generated for networks where departure and longitudinal timespan are modelled respectively.
+
+## Experimental Variables
+
+Group size, timespan, noise level, and membership dynamics are **first-class variables** — not just parameters. Each produces a distinct paper result:
+
+| Variable | Range | Paper result |
+|----------|-------|-------------|
+| Group size | 3–6 / 7–14 / 15–30 | Q1–Q9 accuracy curve vs. group size |
+| Timespan | 5 weeks / 3 months / 3 years | Memory decay and multi-stage evolution |
+| Noise level | low / medium / high | Accuracy degradation as signal-to-noise drops |
+| Member departure | none / sparse / common | Stale recall and post-departure false attribution |
+
+See `plans/data-gen.md` for the full design of each variable.
 
 ---
 
 ## Where Things Live
 
 ### Plans (`plans/`)
-Read before working on any phase. Each plan covers one stage of the project:
-- [`plans/data-gen.md`](plans/data-gen.md) — Stages 1–3: ego network generation, conversation synthesis, QA generation. Covers the skill-based pipeline and the API→skill pivot.
-- [`plans/evaluation.md`](plans/evaluation.md) — Stages 4–5: memory system evaluation, scoring, analysis. Covers the three conditions (oracle / memory system / social graph), failure mode hypotheses, and reviewer differentiation from EverMemBench.
-- [`plans/social-graph-memory.md`](plans/social-graph-memory.md) — Social Memory Graph (Condition C) full design: graph schema (node/edge types, tripartite attribution structure), Q1–Q8 traversal patterns, session insertion pipeline, comparison table vs Mem0/LangMem/Letta, and `socialmembench/smg/` implementation plan.
+Read before working on any phase:
+- [`plans/data-gen.md`](plans/data-gen.md) — Dataset design, experimental variables, generation pipeline, scale targets
+- [`plans/evaluation.md`](plans/evaluation.md) — Three evaluation conditions (oracle / memory system / social graph), scoring, failure mode hypotheses, EverMemBench differentiation
+- [`plans/social-graph-memory.md`](plans/social-graph-memory.md) — Social Memory Graph (Condition C): graph schema, Q1–Q9 traversal patterns, insertion pipeline, implementation plan
 
 ### Skills (`.claude/commands/`)
 Generation pipeline — no API key needed, Claude Code runs these directly:
 - `smb-generate-network.md` — Stage 1: ego network
 - `smb-generate-conversations.md` — Stage 2: WhatsApp-style conversation corpus
-- `smb-generate-qa.md` — Stage 3: Q1–Q8 QA pairs
+- `smb-generate-qa.md` — Stage 3: Q1–Q9 QA pairs
 - `smb-verify.md` — structural verification (all 3 stages)
 - `smb-qc.md` — blind critic QC on QA pairs
 - `smb-status.md` — manifest summary + progress
 
-Evaluation skills (to build after data gen):
+Evaluation skills (to build after small-scale validation):
 - `smb-evaluate.md` — Stage 4: run a condition against generated QA
 - `smb-score.md` — Stage 5: LLM-as-judge scoring + breakdown
 - `smb-compare.md` — Stage 5: head-to-head condition comparison
@@ -65,8 +82,8 @@ Evaluation skills (to build after data gen):
 ### Schemas (`socialmembench/schemas/`)
 Pydantic spec documents — define what JSON the skills must produce. Read before touching data formats:
 - `persona.py` — `EgoNetwork`, `Persona`, `RelationshipEdge`, `GroupNorm`
-- `conversation.py` — `ConversationCorpus`, `ConversationTurn`, `PlantedChallenge`
-- `qa.py` — `QAPair`, `EvidenceAnchor` (Q1–Q8)
+- `conversation.py` — `ConversationCorpus`, `ConversationSession`, `ConversationTurn`, `PlantedChallenge`
+- `qa.py` — `QAPair`, `EvidenceAnchor` (Q1–Q9)
 
 ### Utilities (`socialmembench/utils/`)
 - `manifest.py` — incremental tracking (seeds, consumed challenges, counts per type)
@@ -87,20 +104,23 @@ Pydantic spec documents — define what JSON the skills must produce. Read befor
 
 **Always keep this file lean and high-level.** Do not add implementation details to `CLAUDE.md` — those go in the relevant `plans/` file. When starting a new phase of work, create or update the matching plan file first, then update `CLAUDE.md`'s "Current Status" section only.
 
-This structure ensures any future conversation can orient immediately: `CLAUDE.md` for the big picture, `plans/` for the how.
-
 ---
 
 ## Current Status
 
-**Done**: Data generation pipeline (Stages 1–3) — skills, schemas, manifest. Social Memory Graph architecture designed (`plans/social-graph-memory.md`).
+**Done**: 10 small-tier networks, 77 QA pairs (all stage3_done). Schema updated for group size tiers, longitudinal timespan, noise level, participation rate, and member departure. Data viewer built (`viewer/`).
 
-**Next**: Generate 50 conversations + 100 QA pairs → manual review → implement evaluation skills (Stages 4–5) → implement `socialmembench/smg/` for Condition C.
+**Immediate next step**: Manual review of existing 77 QA pairs. Validate data quality and confirm planted signals are genuinely implicit before scaling further.
+
+**Then**: Generate 1 medium-tier and 1 large-tier network → validate Q8 viability at those tiers → run Condition A oracle on the reviewed QA → confirm hypothesis → scale.
 
 **Milestones**:
 | Milestone | Goal |
 |-----------|------|
-| 50 conversations, 100 QA | Validate data quality, manual review |
-| Condition A (oracle) | Establish ceiling performance |
+| Manual review of 77 QA | Confirm data quality; Q4/Q5/Q6 are non-trivial |
+| Tier validation (15 networks) | 1 medium + 1 large passing QC |
+| Condition A oracle | Establish ceiling; validate hypothesis |
+| First scale (25 networks, ~800 QA) | Small + medium tiers complete |
 | Condition B (memory systems) | Primary contribution — failure mode analysis |
-| Paper-ready | 2,000+ QA, 3 conditions evaluated, full analysis |
+| Full dataset (46 networks, ~1,650 QA) | Large + longitudinal tiers; all variables covered |
+| Paper-ready | 3 conditions evaluated, full analysis, SMG as proposed direction |

@@ -94,6 +94,13 @@ class Persona(BaseModel):
     preferences: PreferenceProfile
     preference_history: list[PreferenceHistoryEvent] = Field(default_factory=list)
     speaking_quirks: list[str]      # e.g., ["uses 'tbh' often", "never uses full stops"]
+    participation_rate: float = 1.0  # probability of being active in any given session
+                                     # small groups: 1.0; medium: 0.7–1.0; large: 0.3–0.8
+                                     # drives active_participants in ConversationSession
+    status: str = "active"           # "active" or "departed"
+    departed_after_session: Optional[int] = None  # session index after which they left the group
+                                                   # their prior turns remain in history; they produce
+                                                   # no turns after this session
 
 
 class EgoNetwork(BaseModel):

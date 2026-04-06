@@ -57,6 +57,11 @@ class ConversationSession(BaseModel):
     date_label: str                 # e.g., "Session 3, Monday March 17, 2025 5:47pm"
     date: Optional[str] = None      # ISO 8601 date, e.g., "2025-03-17"
     turns: list[ConversationTurn]
+    active_participants: list[str] = Field(default_factory=list)  # persona_ids who spoke this session
+                                                                   # empty = all members (small groups)
+                                                                   # populated by generator for medium/large
+    gap_days: Optional[int] = None      # days since previous session; None for session 1
+                                        # large values (30-90+) encode dormancy periods
     prior_session_summary: Optional[str] = None  # rolling summary fed to generator
     critic_scores: Optional[dict] = None          # from Generator-Critic loop
     generation_attempts: int = 1
@@ -66,6 +71,9 @@ class ConversationCorpus(BaseModel):
     network_id: str
     start_date: Optional[str] = None  # ISO 8601 date of Session 1, e.g., "2025-01-06"
     sessions: list[ConversationSession]
+    sessions_planned: int = 5         # 5 = small, 8 = medium, 12 = large, 20-25 = longitudinal
+    span_years: Optional[float] = None  # total timespan of corpus in years; set for longitudinal networks
+    noise_level: str = "medium"         # "low" (~50% relevant), "medium" (~25%), "high" (~10%)
     total_turns: int
     # Flat index of all planted challenges across all sessions — used by QA generator
     planted_challenge_index: list[PlantedChallenge] = Field(default_factory=list)

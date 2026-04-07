@@ -100,6 +100,16 @@ Pydantic spec documents — define what JSON the skills must produce. Read befor
 
 ---
 
+## Data Quality Rule
+
+**Any data improvement work must be paired with verifier skill updates.**
+
+If you change what "good data" looks like — new quality dimensions, new realism standards, new structural requirements — update `smb-qc.md` and/or `smb-verify.md` to check for those properties before touching the data. The verification loop (structural gate → QA regression gate → conversation quality check) must always reflect the current quality bar.
+
+This means: raise the bar in the skills first, then improve the data to meet it.
+
+---
+
 ## Documentation Style
 
 **Always keep this file lean and high-level.** Do not add implementation details to `CLAUDE.md` — those go in the relevant `plans/` file. When starting a new phase of work, create or update the matching plan file first, then update `CLAUDE.md`'s "Current Status" section only.

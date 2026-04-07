@@ -20,9 +20,10 @@ Generate a WhatsApp-style conversation corpus for an existing network and save i
 - Session 1 date = `start_date` (or the chosen Monday if not provided)
 - Session N date = `start_date + (N-1) * 7 days`
 - Format each date as ISO 8601 (e.g., `"2025-03-03"`)
+- Compute the actual day of week for each session date (e.g., March 3 2025 = Monday). Use this in `date_label`. Speakers may freely reference past or future days ("see you Saturday", "last Tuesday") — this is realistic. Just ensure the reference is calendar-consistent: if the session is Monday March 3, "this Saturday" = March 8, "last Friday" = Feb 28. Never write a day reference that is impossible given the session date (e.g., "see you yesterday Sunday" when the session is Tuesday).
 
 For each session (1 through n_sessions), decide:
-- **Topic**: a realistic activity for this group type (trail planning, dinner choice, event logistics, shared hobby)
+- **Topic**: pick a topic that fits the group type's topic consistency profile (see below)
 - **Active speakers**: 2-4 of the personas (vary who is active across sessions)
 - **Planted challenges**: 2-4 per session. Distribute types across sessions:
   - Sessions 1-2: `implicit_preference`, `false_attribution_seed`, `relational_graph` (≥1 per session)
@@ -56,6 +57,20 @@ No markdown. No asterisks. No headers. No narration. Just the chat lines.
 - Level 2 (DEFAULT): complaint, reaction, passing comment — "my knees still haven't forgiven that last climb"
 - Level 3 (HARDEST): silence, deflection, or subject change — persona goes quiet when steep trail is suggested
 
+**Topic consistency model — pick topics that match the group type's real behavior:**
+
+| Group type | Topic pattern | How to apply |
+|-----------|--------------|--------------|
+| `interest_community` | Strong primary topic (the shared interest) anchors most sessions | Sessions 1, 2, 4 stay on-topic; sessions 3 and/or 5 drift to personal news, life updates, or unrelated chat before returning |
+| `recreational` | Activity planning/debrief anchors most sessions | Backbone is the activity; 1-2 sessions drift naturally (injury, gear, social plans, something that came up on the day) |
+| `close_friends` | No dominant topic — sessions cover clearly different subjects | Each session should have a distinct primary thread: work stress, dating, a funny thing that happened, money, a media debate, etc. |
+| `family` | High variance — sessions can be about very different things | Rotate across domains: health, a sibling's news, logistics, a shared memory, home stuff. Don't repeat the same domain in consecutive sessions |
+| `acquaintance_network` | Loosely anchored by shared context (neighborhood, alumni event, etc.) | Mix of shared-context sessions and personal-update sessions; less cohesive than friends |
+
+**Topic transition rule:** shifts must be triggered by a character, not announced. Someone mentions their bad week → the group reacts → the thread changes. Never open a session with an unexplained new topic.
+
+**Em dash rule:** no em dashes (`—`) in any `message` field. Use a comma, split into two sentences, or just end the message early. Em dashes are not how people type in chats.
+
 **Challenge type instructions:**
 
 `implicit_preference` — Subject's preference is revealed by THEIR OWN words, through behavior or complaint, not stated directly.
@@ -78,12 +93,17 @@ No markdown. No asterisks. No headers. No narration. Just the chat lines.
   - `emoji_use: Never` → zero emojis
   - `typo_rate: High` → occasional typos, missing letters
   - `typo_rate: None` → perfect spelling
-  - `verbosity: Terse` → 1-3 word messages
-  - `verbosity: Verbose` → longer messages with more context
+  - `verbosity: Terse` → almost all messages 1–8 words; occasionally up to 15 words but rare; never a paragraph
+  - `verbosity: Concise` → typical messages 8–20 words; occasionally up to ~40 words when context demands; no multi-paragraph
+  - `verbosity: Verbose` → typical messages 20–60 words. How often they post longer bursts depends on group type:
+    - `interest_community`: Verbose personas should post 1–2 longer bursts (80–150 words) across the corpus. Long explanatory messages — a detailed take on the shared interest, a knowledge dump, a rant — are natural and expected here. If a Verbose persona in an interest_community never posts a burst over 50 words, that is a voice failure.
+    - `recreational` / `close_friends` / `family` / `acquaintance_network`: Verbose personas trend longer than others but group norms lean conversational. They should regularly write messages in the 30–60 word range and occasionally push past 60 words in an emotionally resonant or detailed moment (logistics, a story, an announcement). A Verbose persona in these groups should not look Concise — but a multi-paragraph burst is optional, not required. Flag only if no messages exceed 25 words.
   - `formality: Casual` → no punctuation at end, abbreviations, slang
   - `humor: Playful` → jokes, teasing, banter
 - Enforce `speaking_quirks` — if quirks say "uses 'tbh' often", use it
 - Different personas must be distinguishable by message style alone
+- Allow occasional verbosity bursts from `Concise` or `Moderate` speakers when context warrants it (storytelling, explanation, defensiveness, logistics dump), but keep that occasional so persona distinctions remain visible
+- In knowledge-heavy or interest-based groups, it is good for some members to occasionally write longer explanatory messages instead of everything being clipped chat fragments
 
 **Natural flow rules:**
 - Short reactions between longer messages (emojis, "haha", "true", "😭")
@@ -100,6 +120,13 @@ After writing each session, score these 5 dimensions in your thinking (don't out
 5. Norm clarity: Are group habits stated as "we always X" not "I always X"?
 
 If any score is clearly poor, rewrite the session before continuing.
+
+Before finalizing the full corpus, do one more mental pass against the QC rubric:
+- `topic_diversity`: matches the group-type topic model across sessions
+- `voice_consistency`: each persona still sounds like themselves
+- `naturalness_of_transitions`: any digression begins because a character introduces it naturally
+- `em_dash_free`: zero em dashes in all `message` fields
+- `planted_turn_integrity`: planted challenge turns should not need cleanup after generation
 
 **Rolling context:** After each session, write a 3-5 sentence summary (for your own use as context when writing the next session). This summary tracks: decisions made, preferences revealed, relationship dynamics observed.
 

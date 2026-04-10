@@ -19,9 +19,11 @@ Perform a blind critic pass on generated QA pairs for a network. The critic read
 
 ### 2. Blind critic test (for each QA pair)
 
+**Resumption rule**: Before scoring, check if `data/qa/{network_id}_qc.json` already exists. If it does, load its `per_pair` list. Any `qa_id` already present in `per_pair` with a non-null `blind_answer` is considered done — skip re-scoring it and carry its existing values forward. Only process pairs not yet in `per_pair`. This allows interrupted runs to resume without re-scoring completed pairs.
+
 **Critical**: Do NOT look at the planted challenge metadata when answering. Treat yourself as a fresh evaluator who has only read the conversation.
 
-For each QA pair:
+For each QA pair (that needs scoring):
 1. Read only the `question` field
 2. Read only the plain-text conversation (no metadata)
 3. Attempt to answer the question based solely on what is said in the conversation
@@ -31,6 +33,18 @@ For each QA pair:
    - 0.7–0.9: mostly correct, minor omission or slight phrasing difference
    - 0.4–0.6: partially correct but missing key info or partially wrong
    - 0.0–0.3: your answer contradicts or is unrelated to the ground truth
+
+6. Score **inference_required** (0–2):
+   - 0: answerable by keyword or name search — you found the answer by spotting one word or name in the transcript without needing context
+   - 1: requires reading context around 1–2 turns — you needed to understand what was implied, not just what was said
+   - 2: requires synthesis across sessions or multi-step implicit reasoning — you needed to track signals across multiple turns or sessions, or distinguish between two plausible interpretations
+
+**Acceptance criteria for difficulty labels:**
+- `difficulty: "easy"` → `inference_required` must be ≥ 1 (even easy pairs shouldn't be keyword searches)
+- `difficulty: "medium"` → `inference_required` must be ≥ 1
+- `difficulty: "hard"` → `inference_required` must be = 2
+
+Any pair where `inference_required = 0` is flagged as `trivially_answerable` regardless of its difficulty label.
 
 ### 3. Evidence grounding check (for each QA pair with score ≥ 0.5)
 
@@ -45,11 +59,16 @@ Mark `grounded: true` if both conditions hold.
 
 Apply per query_type:
 - Any type: answer < 5 words → flag as "answer_too_short"
+- Any type: `inference_required = 0` → flag as "trivially_answerable" (keyword search sufficient)
+- Any type: question contains the exact preference keyword or speaker name that is the answer → flag as "question_telegraphs_answer" (e.g., a Q1 question that says "cilantro" when the answer is about Maya's cilantro aversion; a Q4 question that names both candidate speakers)
 - Q3: evidence_anchors all from same speaker → flag as "q3_single_persona"
 - Q4: contamination_foil is null → flag as "q4_missing_foil"
+- Q4: contamination_foil is < 2 sentences OR doesn't name a specific vocabulary or framing similarity between target and foil → flag as "q4_weak_foil"
 - Q5: question doesn't contain both a preference/attitude/behavior-seeking component AND a "who knew/revealed/figured it out" component → flag as "q5_single_part"
+- Q5: "who knew" evidence anchor describes a claimed private conversation rather than an observable chat behavior → flag as "q5_ungrounded_tom"
 - Q8: temporal_anchors has < 2 entries → flag as "q8_insufficient_anchors"
 - Q8: temporal_anchors all in consecutive sessions (e.g., session 3 and 4 only) → flag as "q8_consecutive_only"
+- Q8: question only asks what changed, not what triggered or signaled the change → flag as "q8_shallow_framing"
 
 ### 5. Conversation quality check
 
@@ -119,7 +138,10 @@ Rewrite `data/qa/{network_id}.jsonl` with updated fields:
 - `qc_phase1_score`: blind critic similarity score (0.0–1.0)
 - `qc_phase2_grounded`: true/false (null if phase 1 score < 0.5)
 - `qc_phase3_flagged`: true/false
-- `qc_phase3_flag_reason`: the flag reason string, or null
+- `qc_phase3_flag_reason`: the flag reason string, or null (use comma-separated list if multiple flags)
+Also add to each pair's `metadata` dict:
+- `inference_required`: 0, 1, or 2 (from blind critic scoring)
+- `difficulty_label_valid`: true if label matches inference_required rubric, false otherwise
 
 ### 7. Output summary report to `data/qa/{network_id}_qc.json`
 ```json
@@ -130,8 +152,12 @@ Rewrite `data/qa/{network_id}.jsonl` with updated fields:
   "phase1_pass_rate": 0.0,
   "phase2_grounded_rate": 0.0,
   "phase3_flagged_count": 0,
+  "inference_required_distribution": {"0": 0, "1": 0, "2": 0},
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {"easy": 0, "medium": 0, "hard": 0},
   "by_query_type": {
-    "Q1": {"count": 0, "mean_score": 0.0, "flagged": 0},
+    "Q1": {"count": 0, "mean_score": 0.0, "flagged": 0, "mean_inference_required": 0.0},
     ...
   },
   "flagged_pairs": [
@@ -139,6 +165,20 @@ Rewrite `data/qa/{network_id}.jsonl` with updated fields:
   ],
   "low_score_pairs": [
     {"qa_id": "...", "query_type": "...", "score": 0.0, "your_answer": "...", "ground_truth": "..."}
+  ],
+  "per_pair": [
+    {
+      "qa_id": "...",
+      "query_type": "Q1",
+      "question": "...",
+      "blind_answer": "1–2 sentence summary of what the critic answered independently",
+      "score": 0.0,
+      "score_rationale": "1 sentence: key match or mismatch between blind answer and ground truth",
+      "inference_required": 0,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
   ],
   "conversation_quality": {
     "topic_diversity": {"score": 2, "notes": ""},
@@ -160,13 +200,18 @@ Total pairs: {n}
 Phase 1 (blind critic): mean={score:.2f}, pass rate (≥0.70)={pct}%
 Phase 2 (grounded): {pct}%
 Phase 3 (structural flags): {n_flagged} flagged
+Inference depth: trivially_answerable={n} | inference_required dist: 0={n} 1={n} 2={n}
+Difficulty labels valid: {n_valid}/{n_total}
 Conversation quality: overall_pass={true|false}
 
 Low-scoring pairs (score < 0.70):
   {list up to 5 with question + scores}
 
 Flagged pairs:
-  {list flags}
+  {list flags with qa_id and question}
+
+Difficulty label mismatches:
+  {list pairs where label doesn't match inference_required rubric}
 
 Conversation quality failures:
   {list failing dimensions with turns}

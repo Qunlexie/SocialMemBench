@@ -1,24 +1,90 @@
-# Social Memory Graph (SMG) — Architecture Design
+# Social Memory Graph (SMG) — Architecture Plan
 
-## Status: Designed — to be implemented after 50 QA pairs are manually verified.
+## Status: Planned — baseline evaluation complete, implementation next.
 
 ---
 
-## The Core Problem with Existing Systems
+## What We Learned From the Baselines
 
-Every current memory system (Mem0, LangMem, Letta, A-MEM, Graphiti) makes the same foundational assumption: **one user, one AI**. Their memory schemas are shaped by this:
+After running 8 conditions (oracle, llm_mini, llm_gemini, naive_rag, mem0_local, graphiti, cognee, langmem) across 10 networks, 77 QA pairs, the results reveal three distinct failure clusters:
 
-- **Mem0**: `{user_id: "mike", memory: "Mike dislikes steep trails"}` — `user_id` isolates, does not attribute
-- **LangMem**: entity graph node `{entity: "Mike", attribute: "prefers flat trails"}` — no STATED_BY edge
-- **Letta**: archival memory as a text block — no structure at all
-- **Graphiti/ZEP**: temporal KGs with validity windows — temporal, but not multi-party
+| Failure mode | Systems affected | Root cause |
+|---|---|---|
+| **Attribution collapse** (Q4=0.000) | cognee, langmem | LLM extraction abstracts away speaker identity |
+| **Epistemic blindness** (Q5=0.000) | mem0, graphiti, langmem, cognee | No data structure for "A knows B's preference" |
+| **Norm universalisation** (Q6=0.000) | mem0, graphiti, langmem | Individual exceptions drowned in group-level summaries |
+| **Temporal blindness** (Q7/Q8=0.000) | graphiti, langmem | No ordered retrieval or fact versioning |
 
-None have a concept of **who said what about whom**. In a group chat, that distinction is everything:
-- Mike says "my knees still haven't forgiven that last climb" → self-disclosed preference (Q1)
-- Sarah says "Mike always bails on hilly routes" → third-party attribution (Q5)
-- The group says "we always do Saturdays" but Mike never confirms → implied dissent (Q6)
+The single most important finding: **naive_rag (0.390) outperforms every purpose-built memory system** on the benchmark's hardest social dimensions (Q5=0.505, Q6=0.500). Raw turns stored verbatim — with zero extraction, zero graph, zero consolidation — beat every "smarter" system.
 
-The Social Memory Graph makes this tripartite attribution structure first-class.
+This tells us what is broken. Every extractive/graph/consolidation system loses attribution during its processing step. The extraction layer is the source of failure, not the fix.
+
+---
+
+## The Design Constraint: Not Cheating
+
+naive_rag's advantage rests on two things:
+
+1. **No compression loss** — 5 sessions × 20 turns is a tiny corpus. Cosine search over 100 verbatim turns is nearly lossless at this scale.
+2. **Lexical speaker matching** — turns are stored as `[Marcus] message`. When a query mentions Marcus, string overlap does the attribution work without any semantic understanding.
+
+SMG must not rely on either of these. Specifically:
+
+**Rule 1 — No verbatim turn storage.**
+SMG stores extracted facts, not raw turns. This introduces real compression (some information is lost), same as every other extractive system. This is the honest cost.
+
+**Rule 2 — No lexical attribution.**
+Q4 retrieval uses embedding similarity over fact *content*, not name matching. The speaker attribution comes from graph edges (structural), not from the word "Marcus" appearing in both the query and the stored text.
+
+**What IS legitimate:**
+Speaker identity from the source `speaker_display_name` field is structural input — always known in any chat application (WhatsApp, Slack, iMessage all show who sent each message). Using this structurally is not cheating. It is the architectural insight: don't discard what the data gives you for free by converting it to text and re-inferring it with an LLM.
+
+The failure of mem0, graphiti, cognee, and langmem is exactly this: they receive `(speaker_id, message)` pairs and immediately stringify them into `"[Marcus] my knees still haven't forgiven..."`, then ask an LLM to figure out who Marcus is during extraction. Information that was structural becomes text, then is partially recovered by the LLM, with inevitable loss. SMG keeps it structural end-to-end.
+
+---
+
+## Core Architectural Claim
+
+> Every existing memory system stores facts in a single retrieval pool. Person identity is text metadata, not structure. SMG makes person identity a first-class graph node. Every fact is anchored to the person who holds it via a typed edge. Queries traverse the person node, not the text.
+
+This single change — identity-first graph — directly addresses all four failure modes:
+
+| Failure mode | How SMG addresses it |
+|---|---|
+| Attribution collapse | Speaker is a graph node. Facts belong to nodes. LLM extracts content; graph preserves who. |
+| Epistemic blindness | `KNOWS_ABOUT` edge is a first-class edge type, not derivable from text retrieval. |
+| Norm universalisation | `GroupNorm` node separate from `PersonFact` node. Dissenters linked via `DISSENTS_FROM` edge. |
+| Temporal blindness | Facts are versioned by session. `EVOLVED_FROM` edges form temporal chains. Current fact is the chain head. |
+
+---
+
+## Differentiation From Each Baseline
+
+### vs. naive_rag
+- naive_rag stores raw text; SMG stores extracted structured facts → SMG loses some content but gains queryable structure
+- naive_rag attributes via lexical name match; SMG attributes via graph edge → SMG's Q4 retrieval is semantic over content, not over names
+- naive_rag cannot answer Q5 (who knows what) or Q6 (group norm exceptions) at all — no structure for these → SMG answers them via graph traversal
+
+### vs. mem0_local
+- mem0 extracts to a flat vector store; SMG extracts to a person-attributed graph → same extraction cost, fundamentally different storage
+- mem0 loses speaker identity during extraction (Q4=0.037); SMG preserves it structurally (speaker node is set before LLM runs)
+- mem0 has no norm or epistemic layer (Q5/Q6=0.000); SMG has explicit GroupNorm and KNOWS_ABOUT nodes
+
+### vs. graphiti
+- graphiti builds a temporal KG from episodes; SMG builds a person-attributed fact graph from turns
+- graphiti's graph nodes are entities (concepts); SMG's primary nodes are Personas (people)
+- graphiti retrieves by querying the graph with natural language → poor recall (Q4=0.125, Q8=0.000); SMG routes queries by person node first, then retrieves facts from that node
+- graphiti has no epistemic or norm layer; SMG does
+
+### vs. cognee
+- cognee does batch document-level extraction; SMG does turn-level extraction preserving speaker_id
+- cognee loses Q4=0.000 because its entity extraction conflates speakers into concept nodes; SMG uses speaker_id as the primary node key
+- both build knowledge graphs; SMG's schema is social-domain-specific (Persona, Fact, GroupNorm, Relationship)
+
+### vs. langmem
+- langmem consolidates across sessions, merging/updating facts; this erases temporal trajectory (Q8=0.000)
+- SMG preserves all versions of a fact via EVOLVED_FROM chains — the old and new values coexist, ordered by session
+- langmem's consolidation loses Q4=0.000 (speaker abstracted away); SMG preserves speaker structurally before any LLM runs
 
 ---
 
@@ -26,162 +92,228 @@ The Social Memory Graph makes this tripartite attribution structure first-class.
 
 ### Node Types
 
-| Node | Key Properties | Purpose |
-|------|---------------|---------|
-| `Persona` | `id`, `name`, `group_id` | Represents a group member |
-| `PreferenceFact` | `id`, `domain`, `value`, `implicitness` (1–3), `session_id`, `confidence` | A specific belief/preference signal |
-| `GroupNorm` | `id`, `norm_text`, `truly_universal`, `session_id` | A norm stated as applying to the group |
-| `RelationshipState` | `id`, `closeness`, `sentiment`, `session_id` | Snapshot of a dyadic relationship at a given session |
+| Node | Key fields | Meaning |
+|---|---|---|
+| `Persona` | `id`, `name`, `group_id` | A group member. Primary anchor for all facts. |
+| `Fact` | `id`, `domain`, `value`, `session`, `implicitness` (1–3), `evidence_quote` | One extracted belief, preference, or state about a person. |
+| `GroupNorm` | `id`, `domain`, `value`, `session`, `truly_universal` | A norm stated as applying to the whole group. |
+| `Relationship` | `id`, `persona_a`, `persona_b`, `description`, `session` | Dyadic relationship state at a given session. |
 
 ### Edge Types
 
-| Edge | Direction | Key Properties | Purpose |
-|------|-----------|---------------|---------|
-| `STATED_PREFERENCE` | `Persona → PreferenceFact` | `speaker_id`, `subject_id`, `session_id`, `turn_idx`, `implicitness` | **Core attribution edge** — who said it, about whom, when |
-| `HAS_PREFERENCE` | `Persona → PreferenceFact` | — | Marks the *subject* of this preference fact |
-| `KNOWS_PREFERENCE` | `Persona → PreferenceFact` | `session_id`, `confidence` | Speaker demonstrated awareness of someone else's preference (ToM) |
-| `EVOLVED_FROM` | `PreferenceFact → PreferenceFact` | `session_id`, `shift_type` | New preference supersedes old; causal chain preserved |
-| `DISSENTS_FROM` | `Persona → GroupNorm` | `session_id`, `signal_type` | Persona rejected or hedged on a group norm |
-| `ENDORSES` | `Persona → GroupNorm` | `session_id` | Persona affirmed this norm |
-| `HAS_RELATIONSHIP` | `Persona ↔ Persona` | `closeness`, `sentiment`, `history_summary`, `session_id` | Dyadic relationship, updated per session |
+| Edge | From → To | Key fields | Meaning |
+|---|---|---|---|
+| `HOLDS` | Persona → Fact | `session`, `implicitness` | This person holds this belief/preference. Subject of the fact. |
+| `STATED` | Persona → Fact | `session`, `turn_idx` | This person *said* this fact — may be about themselves or another. |
+| `KNOWS_ABOUT` | Persona → Fact | `session`, `evidence` | This person demonstrated awareness of another's fact in conversation. |
+| `EVOLVED_FROM` | Fact → Fact | `session`, `trigger` | This fact supersedes an earlier one. Forms a temporal chain. |
+| `DISSENTS_FROM` | Persona → GroupNorm | `session`, `signal` | This person implicitly or explicitly rejected the norm. |
+| `ENDORSES` | Persona → GroupNorm | `session` | This person agreed with or accepted the norm. |
+| `RELATED_TO` | Persona ↔ Persona | `description`, `session` | Dyadic relationship, updated per session. |
 
-`DISSENTS_FROM.signal_type` values: `"explicit_reject"`, `"qualifier"`, `"silence"`, `"topic_change"`
-
-### The Tripartite Attribution Structure
-
-Every preference fact sits in a three-node pattern:
+### The Core Pattern
 
 ```
-speaker_persona --[STATED_PREFERENCE]--> PreferenceFact <--[HAS_PREFERENCE]-- subject_persona
+Speaker --[STATED]--> Fact <--[HOLDS]-- Subject
 ```
 
-When `speaker == subject`: self-disclosed (Mike says "I hate hilly routes").  
-When `speaker != subject`: third-party attribution (Sarah says "Mike always bails on hills").  
-When neither speaker ID matches subject: group inference (silence, consensus).
+When speaker == subject: self-disclosed (`[Marcus] I hate steep trails`)
+When speaker != subject: third-party (`[Sarah] Marcus always bails on hilly routes`)
 
-This is what makes Q4 and Q5 tractable as graph queries rather than string matching.
-
----
-
-## How Q1–Q8 Map to Graph Traversals
-
-| Query | Traversal Pattern | Failure mode it fixes |
-|-------|------------------|----------------------|
-| **Q1** single-contact recall | `Persona[X] → [HAS_PREFERENCE] → PreferenceFact[domain=D]` filtered to `STATED_PREFERENCE.speaker == X` | — (baseline) |
-| **Q2** group decision recall | `GroupNorm` in session range → return `norm_text` + `DISSENTS_FROM` edges | Norm universalization |
-| **Q3** multi-contact aggregation | All `Persona` in group → `[HAS_PREFERENCE]` → `PreferenceFact[domain=D]`; group by persona | Preference conflation |
-| **Q4** contamination probe | `Persona[X] → [HAS_PREFERENCE] → PreferenceFact`; validate `STATED_PREFERENCE.speaker_id == X.id`; reject facts where speaker is the foil | Attribution collapse |
-| **Q5** theory-of-mind | `Persona[A] → [KNOWS_PREFERENCE] → PreferenceFact → [HAS_PREFERENCE] → Persona[B]` where `A ≠ B` | Attribution collapse |
-| **Q6** norm vs. individual | `GroupNorm[norm~=Q]` → check `DISSENTS_FROM` edges → dissenters + signal types | Norm universalization |
-| **Q7** relational edge | `HAS_RELATIONSHIP(Persona[A], Persona[B])` across sessions | Relationship ignorance |
-| **Q8** temporal evolution | `PreferenceFact` chain via `EVOLVED_FROM` ordered by `session_id` | Temporal blindness |
+This is the structural difference from every existing system. The LLM extracts the *content* of the fact. The graph records *whose* fact it is — from the data, not from LLM inference.
 
 ---
 
 ## Insertion Pipeline
 
-For each conversation session, processed in order (session 1 → session N):
+For each conversation turn `(speaker_id, speaker_name, message, session_idx, turn_idx)`:
 
-**Step 1 — Parse**: Extract `(speaker, content, session_id, turn_idx)` per turn.
+**Step 1 — Speaker node (always deterministic, no LLM)**
+```
+persona = graph.get_or_create_persona(speaker_id, speaker_name, group_id)
+```
+This never requires LLM inference. The speaker is always known.
 
-**Step 2 — LLM Extraction Pass**: Prompt Claude Opus 4.6 over a sliding window of 3–5 turns:
+**Step 2 — LLM extraction over a 5-turn sliding window**
+
+Prompt the LLM with the current turn and ±2 surrounding turns for context:
 
 ```
-Given this conversation window (group members: {persona_names}):
+Group members: {name_list}
+Current speaker: {speaker_name}
 
-Extract the following:
-1. PREFERENCE_SIGNALS: [{speaker, subject, domain, value, implicitness, evidence_quote}]
-   implicitness: 1=explicit ("I hate X"), 2=complaint/behavior ("my knees haven't recovered"),
-                 3=silence/deflection/topic-change
-2. TOM_SIGNALS: [{knower, subject, domain, value}]
-   — when person A reveals they know person B's preferences
-3. NORM_STATEMENTS: [{speaker, norm_text, scope: "group"|"some"|"I think"}]
-4. NORM_DISSENTS: [{speaker, norm_ref, signal: "explicit_reject"|"qualifier"|"silence"}]
-5. RELATIONSHIP_SIGNALS: [{persona_a, persona_b, signal_type, evidence}]
+Conversation window:
+{window_text}
+
+Extract ONLY what is grounded in this window. Return JSON:
+
+{
+  "facts": [
+    {
+      "subject": "<name from member list — who holds this belief>",
+      "domain": "<short domain label, e.g. 'trail_difficulty'>",
+      "value": "<the belief or preference, 1 sentence>",
+      "implicitness": <1|2|3>,
+      "evidence_quote": "<exact words from the turn, max 100 chars>",
+      "supersedes_domain": "<domain of an earlier fact this contradicts, or null>"
+    }
+  ],
+  "knows_about": [
+    {
+      "knower": "<who demonstrated knowledge>",
+      "subject": "<who the knowledge is about>",
+      "domain": "<domain>",
+      "evidence_quote": "<exact words showing the knower already knew>"
+    }
+  ],
+  "norm_signals": [
+    {
+      "type": "assertion|dissent",
+      "speaker": "<name>",
+      "norm_text": "<1 sentence>",
+      "signal": "explicit|qualifier|silence|topic_change"
+    }
+  ]
+}
+
+Rules:
+- subject must be a name from the member list
+- Do not infer facts not grounded in this window
+- implicitness: 1=stated directly, 2=implied by behavior or complaint, 3=silence or deflection
+- If no facts are present, return empty arrays
 ```
 
-**Step 3 — Graph Upsert**:
+**Step 3 — Graph upsert**
 
-For each `PREFERENCE_SIGNAL`:
-1. Create `PreferenceFact(subject, domain, value, session_id, implicitness)`
-2. Add `STATED_PREFERENCE(speaker → fact, session_id, turn_idx)`
-3. Add `HAS_PREFERENCE(subject → fact)`
-4. Check for existing `PreferenceFact` for same `(subject, domain)` from earlier sessions.
-   If value changed: add `EVOLVED_FROM(new_fact → old_fact, session_id, shift_type="preference_update")`
+For each extracted fact:
+1. Create `Fact(domain, value, session, implicitness, evidence_quote)`
+2. Add `STATED(speaker_persona → fact)`
+3. Find subject persona from name (already in graph as a Persona node)
+4. Add `HOLDS(subject_persona → fact)`
+5. If `supersedes_domain` is set: find existing `Fact` for `(subject, supersedes_domain)`, add `EVOLVED_FROM(new_fact → old_fact)`
 
-For each `TOM_SIGNAL`:
-1. Find or create `PreferenceFact(subject, domain, value)`
-2. Add `KNOWS_PREFERENCE(knower → fact, session_id)`
+For each `knows_about` signal:
+1. Find or create the referenced `Fact`
+2. Add `KNOWS_ABOUT(knower_persona → fact, evidence)`
 
-For each `NORM_STATEMENT`:
-1. Create `GroupNorm(norm_text, truly_universal=True, session_id)`
-2. Add `ENDORSES(speaker → norm)` for all present speakers not dissenting
-
-For each `NORM_DISSENT`:
-1. Find matching `GroupNorm`
-2. Add `DISSENTS_FROM(speaker → norm, signal_type)`
-3. Set `GroupNorm.truly_universal = False`
-
-For each `RELATIONSHIP_SIGNAL`:
-1. Upsert `HAS_RELATIONSHIP(A ↔ B)` with updated `closeness`, `sentiment`, `history_summary`
+For each `norm_signal`:
+1. If assertion: create `GroupNorm(norm_text, session)`, add `ENDORSES(speaker → norm)`
+2. If dissent: find matching `GroupNorm`, add `DISSENTS_FROM(speaker → norm, signal)`, set `norm.truly_universal = False`
 
 ---
 
-## What SMG Has That No Existing System Has
+## Query Execution (Q1–Q8)
 
-| Capability | Mem0 | LangMem | Letta | Graphiti | **SMG** |
-|-----------|:----:|:-------:|:-----:|:--------:|:-------:|
-| Multi-party speakers (N > 2) | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Speaker attribution on facts | ❌ | ❌ | ❌ | ❌ | ✅ STATED_PREFERENCE edge |
-| Self vs. third-party distinction | ❌ | ❌ | ❌ | ❌ | ✅ speaker_id == subject_id check |
-| Theory-of-mind chains (A knows B's pref) | ❌ | ❌ | ❌ | ❌ | ✅ KNOWS_PREFERENCE edge |
-| Group norms with dissenter tracking | ❌ | ❌ | ❌ | ❌ | ✅ DISSENTS_FROM edge |
-| Causal temporal versioning | ❌ | ❌ | ❌ | partial | ✅ EVOLVED_FROM chain |
-| Relationship graph with history | ❌ | ❌ | ❌ | ❌ | ✅ HAS_RELATIONSHIP w/ session history |
-| Implicit signal inference (levels 1–3) | ❌ | ❌ | ❌ | ❌ | ✅ implicitness property |
+Each query type maps to a specific graph traversal + optional LLM answer generation.
 
-These gaps are not engineering shortfalls — they are structural consequences of the dyadic assumption baked into existing architectures. SMG's contribution is showing that removing that assumption (by making attribution a first-class edge) directly addresses all five SocialMemBench failure modes.
+**Q1 — Single contact recall**
+```
+facts = graph.get_facts(persona_name=X, domain_hint=Q)
+# Returns: all HOLDS edges from X's persona node, filtered by domain similarity
+answer = llm_format(facts, question)
+```
+Semantic search over `fact.value` text — NOT over persona names.
+
+**Q2 — Group decision recall**
+```
+norm = graph.find_norm(domain_hint=Q)
+dissenters = graph.get_dissenters(norm)  # DISSENTS_FROM edges
+answer = llm_format(norm, dissenters, question)
+```
+
+**Q3 — Multi-contact aggregation**
+```
+for persona in graph.all_personas(group_id):
+    facts = graph.get_facts(persona, domain_hint=Q)
+    results[persona.name] = facts
+answer = llm_format(results, question)
+```
+
+**Q4 — Contamination probe (attribution)**
+```
+# Embed the question's described statement
+query_embedding = embed(statement_description)
+# Search fact.value embeddings — NOT persona names
+candidate_facts = graph.semantic_search_facts(query_embedding, top_k=5)
+# Return persona via HOLDS edge — structural, not textual
+answer = candidate_facts[0].held_by.name
+```
+This is the critical difference from naive_rag. The semantic search is over fact content. The attribution comes from the graph edge. The word "Marcus" need not appear anywhere in the query.
+
+**Q5 — Theory of mind**
+```
+# Who knows about X's preference on domain D?
+subject_facts = graph.get_facts(persona_name=X, domain_hint=D)
+knowers = [edge.from_persona for fact in subject_facts
+           for edge in graph.get_knows_about_edges(fact)]
+answer = llm_format(subject_facts, knowers, question)
+```
+
+**Q6 — Norm vs. individual**
+```
+norm = graph.find_norm(domain_hint=Q)
+dissenters = graph.get_dissenters(norm)  # DISSENTS_FROM with signal type
+answer = llm_format(norm, dissenters, question)
+```
+
+**Q7 — Relational edge**
+```
+rel = graph.get_relationship(persona_a=A, persona_b=B)
+answer = llm_format(rel, question)
+```
+
+**Q8 — Temporal evolution**
+```
+# Traverse EVOLVED_FROM chain for persona X, domain D
+chain = graph.get_temporal_chain(persona_name=X, domain_hint=D)
+# chain is ordered oldest → newest via EVOLVED_FROM edges
+answer = llm_format(chain, question)
+```
 
 ---
 
-## Implementation Path
+## What SMG Has That No Other System Has
 
-### Prototype — `socialmembench/smg/` (Python + networkx)
-
-```
-SocialMemoryGraph
-  .ingest_session(session: ConversationSession) → None
-  .query_q1(persona_name, domain) → List[PreferenceFact]
-  .query_q5(knower_name, subject_name) → List[ToMChain]
-  .query_q6(norm_query) → NormResult
-  .query_q8(persona_name, domain) → List[TemporalChain]
-  .query(nl_question, query_type) → str   # LLM over retrieved subgraph
-  .serialize() → dict
-```
-
-Backend: `networkx.MultiDiGraph` (in-memory, loaded per network from `data/conversations/{id}.json`).  
-Extraction: Gemini 2.5 Pro (`gemini-2.5-pro`) via `google-generativeai` SDK — same model used across all evaluation conditions.  
-Results: `data/results/condition_c/{id}.jsonl`.
-
-### File Plan
-
-| File | Purpose |
-|------|---------|
-| `socialmembench/smg/__init__.py` | Package init |
-| `socialmembench/smg/graph.py` | `SocialMemoryGraph` + node/edge dataclasses |
-| `socialmembench/smg/extractor.py` | LLM extraction pass (session → structured signals) |
-| `socialmembench/smg/queries.py` | Q1–Q8 traversal methods |
-
-### Production Direction (beyond paper)
-
-Neo4j backend with Cypher queries. Each Q-type traversal maps directly to a Cypher pattern. Persistent incremental ingestion. The schema above translates 1:1.
+| Capability | naive_rag | mem0 | graphiti | cognee | langmem | **SMG** |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Speaker attribution (structural, not lexical) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Self vs. third-party distinction | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Epistemic layer (who knows B's pref) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Group norm + individual exception | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Temporal fact versioning (chain preserved) | ❌ | ❌ | partial | ❌ | ❌ | ✅ |
+| Q4 retrieval without name matching | ❌ | N/A | ❌ | ❌ | N/A | ✅ |
+| Designed for N > 2 speakers | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 
-## Why This Works as a Paper Contribution
+## Implementation Plan
 
-Condition B provides the empirical failure diagnosis (per query type, per failure mode).  
-Condition C (SMG) provides the empirical fix.  
-The accuracy gap B→C *is* the quantitative result.
+### Phase 1 — Core graph + insertion (no LLM)
+- `eval/adapters/smg/graph.py` — node/edge dataclasses + `SocialMemoryGraph` class
+- `eval/adapters/smg/insertion.py` — step 1 (persona creation) + step 3 (upsert from structured signals)
+- Unit tests: insert known facts, verify HOLDS/STATED/EVOLVED_FROM structure
 
-The SMG is not a production system — it is a proof-of-concept showing that the five failure modes are addressable by a single architectural change: **making speaker attribution a first-class graph edge instead of metadata on a flat memory string**.
+### Phase 2 — LLM extraction
+- `eval/adapters/smg/extractor.py` — sliding window extraction prompt + JSON parse
+- Test on 2–3 sessions from a known network; manually verify extracted facts against planted challenges
+- Tune prompt until extraction quality is solid before running eval
+
+### Phase 3 — Query execution
+- `eval/adapters/smg/queries.py` — Q1–Q8 traversal functions
+- `eval/adapters/smg_adapter.py` — `BaseAdapter` implementation wrapping graph + queries
+
+### Phase 4 — Eval run
+- `python -m eval.cli --network grp_1a2b3c4d --condition smg`
+- Run across all 10 small-tier networks
+- Compare to all 8 baseline conditions
+
+### Technology
+- **Graph**: `networkx.MultiDiGraph` — pure Python, no install required, sufficient for in-memory eval
+- **Embeddings**: OpenAI `text-embedding-3-small` — same as naive_rag, fair comparison
+- **Extraction LLM**: `gpt-4o-mini` — same model as mem0/graphiti/cognee for fair comparison
+- **Answer LLM**: `gpt-4o` — same as other memory conditions
+
+### What counts as success
+SMG should outperform ALL memory systems on Q4, Q5, Q6 specifically. If it doesn't outperform naive_rag on Q4 (given it's not using name matching), something is wrong with the retrieval. Q5 and Q6 are impossible for naive_rag — any non-zero score there is a win.
+
+The paper claim is not "SMG is the best system overall." It is: "SMG is the only system that addresses all four social memory failure modes, and it does so by making person identity structurally first-class rather than textually inferred."

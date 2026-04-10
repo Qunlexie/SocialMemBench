@@ -29,7 +29,34 @@ Also render the full corpus as plain text for reading:
 ...
 ```
 
-### 3. Generate QA pairs
+### 3. Pre-generation inference gate
+
+Before writing any QA pair, apply this universal **inference depth rubric**. Assign a level, then check it matches the intended difficulty:
+
+| Level | Label | What it requires |
+|-------|-------|-----------------|
+| 0 | **Reject** | Answerable by keyword or name search — find one word and you have the answer |
+| 1 | **Easy** | Single-turn lookup — answer is stated in one place, no inference needed |
+| 2 | **Medium** | 2-turn synthesis OR one inference step — requires connecting two pieces of evidence |
+| 3 | **Hard** | Cross-session inference OR attribution ambiguity — requires tracking signals across ≥3 turns or distinguishing two plausible speakers by meaning, not surface marker |
+
+**Surface pattern test (apply before writing):** Ask yourself: "Could this question be answered by searching the transcript for a single keyword or name?" If yes → either reframe the question so it requires inference, or skip the pair entirely.
+
+Examples of reject-level questions that must be reframed or skipped:
+- "What does the conversation reveal about Maya's attitude toward cilantro?" — "cilantro" keyword gives it away
+- "Did Sam seem reluctant about the rooftop bar?" — "..." and "sure" are visible without inference
+- "How did Jordan's role change?" — a one-sentence summary of an explicit reference
+
+Reframed versions that pass:
+- "What does Maya's behavior at group dinners suggest about her food preferences?" — requires synthesizing avoidance patterns
+- "How did Sam signal their true feeling about the rooftop bar choice, and what made it easy to miss?" — requires reading implicit dissent
+- "What in Sessions 2–3 signaled that Jordan was stepping back from their previous organizing role?" — requires tracking mechanism across sessions
+
+**Difficulty label must match inference level:** easy → level 1, medium → level 2, hard → level 3. Any pair where the label doesn't match the rubric must be corrected before writing.
+
+---
+
+### 4. Generate QA pairs (one per applicable challenge, after passing the inference gate)
 
 **Answer format rules (apply per query type):**
 
@@ -54,18 +81,26 @@ For each unconsumed planted challenge, generate the applicable QA types based on
 
 #### Q1 — Single-Contact Recall
 **Applies to**: `implicit_preference`
-**Question**: Ask what {subject_name}'s preference is regarding {fact_attribute}. Do NOT reference the evidence span in the question.
-**Answer**: State the preference clearly and directly.
-**Difficulty**: implicitness_level 1 → easy, 2 → medium, 3 → hard
-**Evidence anchor**: The turn containing the evidence_span.
+**Question**: Ask about {subject_name}'s behavior, pattern, or attitude — NOT the specific preference keyword. Do NOT name the fact_attribute or any keyword from the evidence_span in the question. Frame it around observable behavior ("what does X's behavior suggest about…", "how does X typically respond when…").
+**Answer**: State the preference clearly and trace it through ≥2 turns. A single-turn citation is only acceptable for easy pairs.
+**Difficulty**: implicitness_level 1 → easy, 2 → medium, 3 → hard. Apply inference rubric: if the fact_attribute word appears in the conversation and the question could be answered by searching for it, reframe or reject.
+**Evidence anchor**: The turn(s) containing the evidence_span. Medium/hard pairs must cite ≥2 anchors.
 
 ---
 
 #### Q2 — Group Decision Recall
 **Applies to**: `consensus_trap`
-**Question**: Two-part: (1) what did the group decide about {fact_attribute}? (2) did anyone prefer something different?
-**Answer**: Cover both the group decision AND {subject_name}'s true preference.
-**Difficulty**: how clearly the dissenter expressed their preference (implicitness_level).
+**Question**: Two-part: (1) what did the group decide about {fact_attribute}? (2) did anyone seem less than fully on board, and how could you tell?
+
+**For implicitness_level=3 (non-verbal dissent — silence, "...", "sure", one-word reply):** The question MUST ask about mechanism, not just identity. It must contain a mechanism-seeking phrase such as "what did [Person]'s response signal about", "what specifically in how they responded", "what did [Person]'s reaction reveal about". A question that only asks "did everyone agree?" or "who seemed reluctant?" fails this test — rewrite it before writing.
+
+Weak (reject): "Did everyone seem fully on board with [decision]?"
+Weak (reject): "Who seemed reluctant about [decision], and how could you tell?"
+Strong (pass): "What did [Person]'s response to [decision] signal about their actual position, and what specifically in how they responded tells you that?"
+Strong (pass): "The group settled on [decision]. What did [Person]'s reaction in that moment reveal about how they actually felt, and how would you have known?"
+
+**Answer**: Cover both the group decision AND {subject_name}'s implicit dissent — explain the specific signal (silence, deflection, minimal agreement) and what it suggests.
+**Difficulty**: how clearly the dissenter expressed their preference (implicitness_level). Label "hard" only if the dissenter signal appears in ≤1 turn AND the signal is non-verbal (silence, "...", "sure"). If the dissenter explicitly states a preference, cap at medium.
 **Evidence anchor**: The turn where the dissenter's reaction is visible.
 
 ---
@@ -83,10 +118,11 @@ For each unconsumed planted challenge, generate the applicable QA types based on
 #### Q4 — Contamination Probe
 **Applies to**: `false_attribution_seed`
 **Setup**: speaker_persona_id is the TRUE source. subject_persona_id is the FOIL (plausible-but-wrong attribution).
-**Question**: Ask who expressed/said [paraphrase of the statement] — phrase it so BOTH personas are plausible candidates. Do NOT name both in the question.
-**Answer**: State clearly that {speaker_name} said it, with a brief evidence citation.
-**contamination_foil**: Explain why {foil_name} is the plausible wrong answer (similar style, similar topic, etc.).
-**Difficulty**: hard if communication profiles are similar; easy if clearly distinct.
+**Question**: Ask who expressed/said [paraphrase of the statement] — phrase it so BOTH personas are plausible candidates. Do NOT name both in the question. The paraphrase must be abstract enough that both speaker and foil could plausibly have said it.
+**Answer**: State clearly that {speaker_name} said it, with a brief evidence citation explaining what distinguishes their phrasing.
+**contamination_foil**: MUST explain (a) why {foil_name} is the plausible wrong answer — specifically what vocabulary, topic, or framing makes them a plausible author, AND (b) what the listener must notice to correctly attribute the statement to the true speaker. A foil explanation that only says "plausible because they discuss similar topics" is not sufficient.
+**Difficulty gate**: Only write this pair if both the target and foil use similar surface framing or vocabulary on the topic. If one speaker is dramatically more talkative, more formal, or uses a clearly different register — the probe is too easy. Skip it.
+**Difficulty**: hard if communication profiles are similar AND the distinction rests on meaning, not style; easy if clearly distinct voice or register.
 **Evidence anchor**: The turn where the true speaker made the statement.
 **QC flag**: Skip if the foil and target appear in the same turn.
 
@@ -96,11 +132,12 @@ For each unconsumed planted challenge, generate the applicable QA types based on
 **Applies to**: `theory_of_mind`
 **Setup**: speaker_persona_id ≠ subject_persona_id. Speaker reveals subject's preference.
 **Question (MUST be two-part)**: 
-  1. "What is {subject_name}'s preference regarding {fact_attribute}?"
-  2. "Who revealed this information?"
-**Answer**: "{subject_name} prefers {fact_value}. This was revealed by {speaker_name} in Session {N} when they said [brief paraphrase]."
+  1. "What is {subject_name}'s attitude/preference/feeling regarding {fact_attribute}?"
+  2. "How does {speaker_name} know this — what in the conversation shows they had this knowledge?"
+**Answer**: "{subject_name} prefers {fact_value}. {speaker_name} revealed this in Session {N} when they [observable action/reaction]. This implies prior knowledge because [specific reasoning — what the speaker's reaction tells us about what they already knew]."
+**Grounding rule**: The "who knew" evidence anchor MUST point to an observable reaction in the chat (e.g., an assumption made without asking, finishing someone's sentence, a knowing reference) — not an assertion that they had a private conversation. If the only evidence is "Josh revealed that he and Priya had spoken privately," that's a claim, not an observable. It only counts if there is behavior in the chat that substantiates the knowledge.
 **Difficulty**: implicitness_level.
-**Evidence anchor**: The turn where speaker makes the ToM reference.
+**Evidence anchor**: The turn where speaker makes the ToM reference, specifically citing the observable behavior that implies prior knowledge.
 
 ---
 
@@ -117,38 +154,50 @@ For each unconsumed planted challenge, generate the applicable QA types based on
 #### Q7 — Relational Edge Query
 **Applies to**: `relational_disclosure`
 **Question**: Ask about the relationship or shared history between speaker_persona and subject_persona, focusing on the fact_attribute.
-**Answer**: Describe what was revealed IN THE CONVERSATION (not just metadata). Cite specific evidence.
-**Difficulty**: hard if the revelation was only in background metadata (no conversation evidence); medium if in-chat.
+**Answer**: Describe ONLY what is implied or revealed by the conversation itself — observable behaviors, how they treat each other in chat, what they say or don't say. Do NOT include biographical background from raw persona metadata (e.g., "known each other since age 11", "attended the same event") unless that fact appears verbatim in a conversation turn. The answer must be derivable from reading the conversation alone.
+**Difficulty**: hard if the revelation was only in background metadata (no conversation evidence) — in which case, skip this pair; medium if in-chat.
 **Evidence anchor**: The turn containing the relational disclosure.
+**QC flag**: Skip if the only evidence for the relationship comes from persona metadata with no observable signal in any turn.
 
 ---
 
 #### Q8 — Temporal Preference Evolution
 **Applies to**: `temporal_shift`
-**Question**: "How did {subject_name}'s preference regarding {fact_attribute} change over the course of the conversations?"
+**Question**: Ask about the mechanism or trigger of change, not just the fact of change. The question MUST contain either a trigger-seeking word ("what drove", "what appeared to cause", "what explains", "what signalled", "why") or a mechanism-seeking frame ("how did X's behaviour first signal", "what in the conversation shows"). A question that only asks "how did X change" or "how has X's approach changed" fails this test — rewrite it before writing.
+
+Weak (reject): "How did {subject_name}'s preference regarding {fact_attribute} change?"
+Weak (reject): "How has {subject_name}'s approach to {fact_attribute} changed over the sessions?"
+Strong (pass): "What in the conversation signals that {subject_name}'s relationship to {fact_attribute} shifted, and what appeared to drive it?"
+Strong (pass): "In which session did {subject_name}'s behaviour around {fact_attribute} first change, and what in that session explains why?"
 **Answer**: 
-  1. Early preference: {old_value} (cite session)
-  2. Evolved preference: {new_value} (cite session)
-  3. Approximate trigger if visible
+  1. Early state: what the preference/behavior was and where it's evidenced (cite session)
+  2. Shift signal: the specific turn or behavior that marks the change
+  3. Trigger: what in the conversation appears to have caused the shift (or note if unstated)
+  4. Evolved state: what the preference/behavior became (cite session)
 **temporal_anchors**: `[{"session_index": X, "value": "{old_value}"}, {"session_index": Y, "value": "{new_value}"}]`
-**Difficulty**: hard if sessions are ≥3 apart; medium if 2 apart; easy if consecutive.
-**Evidence anchors**: Two turns — one from before the shift, one from after.
+**Difficulty**: hard if sessions are ≥3 apart AND the trigger is only inferrable; medium if 2 apart or trigger is visible; easy if consecutive. Never label a pair "hard" if the change is stated explicitly in the conversation.
+**Evidence anchors**: At minimum — one from before the shift, one from after. For hard pairs, also anchor the triggering turn if identifiable.
 **QC flag**: Skip if temporal anchors are in consecutive sessions only AND there are other Q8 pairs already.
 
 ---
 
-### 4. Self-QC before writing
+### 5. Self-QC before writing
 
 Apply these rules and skip any pair that fails:
 - Answer < 5 words → skip
 - Q3: evidence from only 1 persona → skip
 - Q4: foil and target appear in same turn → skip
 - Q4: missing contamination_foil → skip
+- Q4: contamination_foil explanation < 2 sentences OR doesn't name a specific vocabulary/framing similarity → skip
 - Q5: answer doesn't name both the preference AND the speaker → skip
+- Q5: "who knew" evidence anchor describes a claimed private conversation rather than an observable chat behavior → skip
 - Q8: fewer than 2 temporal_anchors → skip
+- Q8: question does not contain a trigger-seeking word ("what drove", "what caused", "what explains", "what signalled", "why") or mechanism-seeking frame ("how did X's behaviour first signal", "what in the conversation shows") → rewrite before writing, do not skip
 - Any: empty question or answer → skip
+- **Inference gate**: Apply the surface pattern test — if the question can be answered by searching for one keyword or name in the transcript → skip or reframe
+- **Difficulty mismatch**: If difficulty label doesn't match the inference rubric level → correct the label or skip
 
-### 5. Output format
+### 6. Output format
 
 Each QA pair as one JSONL line:
 ```json
@@ -196,7 +245,7 @@ Query type labels:
 - Q7 → "relational_edge_query"
 - Q8 → "temporal_preference_evolution"
 
-### 6. Write files
+### 7. Write files
 1. Append each valid QA pair as a new line to `data/qa/{network_id}.jsonl` (create if it doesn't exist)
 2. Update `data/manifest.json`:
    - For each QA pair: increment `query_type_counts.{query_type}`
@@ -204,11 +253,14 @@ Query type labels:
    - Increment `qa_pairs_total` by the number of pairs generated
    - Increment `networks.{network_id}.n_qa` by the number of pairs generated
 
-### 7. Report
+### 8. Report
 ```
 QA pairs generated: {n_total}
 Breakdown: Q1:{n} Q2:{n} Q3:{n} Q4:{n} Q5:{n} Q6:{n} Q7:{n} Q8:{n}
 Skipped (self-QC): {n_skipped}
+  - Inference gate rejects: {n}
+  - Other self-QC skips: {n}
+Difficulty distribution: easy:{n} medium:{n} hard:{n}
 Appended to: data/qa/{network_id}.jsonl
 Next step: /smb-qc {network_id}
 ```

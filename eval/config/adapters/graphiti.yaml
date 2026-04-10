@@ -1,0 +1,19 @@
+# Graphiti configuration
+# Knowledge graph memory using embedded Kuzu DB — no Docker required.
+# Requires Python >= 3.10 (use smb310 conda env).
+# Install: pip install graphiti-core kuzu
+#
+# Run:
+#   conda activate smb310
+#   python -m eval.cli --network grp_1a2b3c4d --condition graphiti
+
+name: "graphiti"
+
+# LLM for entity/relationship extraction
+model: "gpt-4o-mini"
+
+# Local Kuzu graph DB path (one subdirectory per network)
+db_path: "./data/.graphiti_db"
+
+# Retrieval
+top_k: 10

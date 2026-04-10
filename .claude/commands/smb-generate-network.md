@@ -3,10 +3,14 @@
 Generate one social group ego network for SocialMemBench and save it to `data/raw/`.
 
 ## Arguments
-`$ARGUMENTS` — format: `{group_type} {group_size}`
-- group_type: one of `close_friends`, `family`, `recreational`, `interest_community`, `acquaintance_network`
-- group_size: integer (3 or 5 for now; 2 and 10 for later scale)
-- If omitted, read `data/manifest.json` and pick the most-needed group_type (lowest count).
+`$ARGUMENTS` — format: `{group_type} {group_size} [--sessions N] [--turns-per-session N] [--departures N]`
+- `group_type`: one of `close_friends`, `family`, `recreational`, `interest_community`, `acquaintance_network`. If omitted, auto-select most-needed from manifest.
+- `group_size`: integer. If omitted, default to 5.
+- `--sessions N`: number of sessions to plan (stored in `metadata.sessions_planned`). Default: 5.
+- `--turns-per-session N`: target number of turns per session (stored in `metadata.turns_per_session`). The conversation generator uses this to calibrate message volume. Default: 15.
+- `--departures N`: number of personas that will depart mid-corpus (default: 0).
+
+All parameters are set by the CLI from `TIER_CONFIG` — do not hardcode defaults in the prompt.
 
 ## Steps
 
@@ -117,25 +121,40 @@ Generate personas, relationship edges, and group norms. Use this exact JSON stru
 **Pass B — Enrich**
 
 Now go back and fill in rich details for each persona:
-- `occupation`: one-line job title or role (e.g., "graphic designer", "secondary school teacher") — must be consistent with `background`
-- `skills_list`: 2–4 items drawn from hobbies, interests, or talents relevant to this group type (e.g., "trail navigation", "cooking", "photography", "climbing knots" for a hiking group). Use proficiency levels honestly — not everyone is "strong" at everything. These are personal skills, not professional credentials.
+- `occupation`: one-line job title or role — must be consistent with `background`
+- `skills_list`: 2–4 items drawn from hobbies, interests, or talents relevant to this group type. Use proficiency levels honestly. These are personal skills, not credentials.
 - `preferences`: 1-3 items per category; make them specific and implicit (revealed through behavior, not statements)
-- `preference_history`: ≥1 event per persona — must include a session reference (changed_at_session: 3 or 4)
+- `preference_history`: ≥1 event per persona — must include a session reference within the planned session range (e.g., `changed_at_session: 3` for a 5-session network, `changed_at_session: 5` for an 8-session network)
 - `speaking_quirks`: 2-3 distinctive patterns per person that differ across personas
+- `participation_rate`: for small networks (size ≤ 6): 1.0. For medium (7–14): 0.7–1.0. For large (15–30): 0.3–0.8. Vary across personas.
+
+**If `--departures N > 0`:** select N personas to depart. For each:
+- Set `status: "departed"`
+- Set `departed_after_session` to a session index roughly 50–75% through the planned sessions. For a 5-session network, this would be session 3 or 4. For an 8-session network, session 4–6.
+- Spread departure sessions across the corpus — don't stack all departures in the same session.
+- Departing personas should be mid-closeness, not the group's most central member.
 
 ### 4. Social constraints checklist (MUST satisfy all)
 Before writing the file, verify:
 - [ ] Closeness is NOT all "High" — use at least one "Medium" and one "Low" across edges
 - [ ] At least 1 edge has sentiment "mixed" or "tense"
-- [ ] At least 1 group norm has `truly_universal: false` with a non-empty `dissenters` list (this is the Q6 ground truth)
+- [ ] At least 1 group norm has `truly_universal: false` with a non-empty `dissenters` list (Q6 ground truth)
 - [ ] Every persona has ≥1 `preference_history` event (Q8 ground truth)
 - [ ] Communication profiles are measurably distinct — no two personas share the same formality + emoji_use + humor combination
-- [ ] Edges cover all persona pairs (for group_size=3: 3 edges; for group_size=5: at least 6 edges)
+- [ ] Edges cover all persona pairs (for group_size=3: 3 edges; for group_size=5: at least 6 edges; for group_size=9: at least 12 edges)
 - [ ] Every persona has `occupation` set and `skills_list` with 2–4 items
 - [ ] Skills are varied across personas — not all the same hobbies
+- [ ] If departures > 0: departed personas have `status: "departed"` and a valid `departed_after_session`
 
 ### 5. Write files
-1. Write the complete JSON to `data/raw/{network_id}.json`
+1. Write the complete JSON to `data/raw/{network_id}.json`, including in `metadata`:
+   ```json
+   "metadata": {
+     "sessions_planned": {n_sessions},
+     "turns_per_session": {n_turns_per_session},
+     "departures": {n_departures}
+   }
+   ```
 2. Update `data/manifest.json`:
    - Set `networks.{network_id}` to:
      ```json
@@ -143,6 +162,7 @@ Before writing the file, verify:
        "network_id": "{network_id}",
        "group_type": "{group_type}",
        "group_size": {group_size},
+       "tier": "{tier inferred from group_size: ≤6=small, 7-14=medium, ≥15=large}",
        "seed": {seed},
        "status": "stage1_done",
        "n_sessions": 0,
@@ -152,13 +172,16 @@ Before writing the file, verify:
      ```
    - Increment `next_seed` by 1
    - Increment `group_type_counts.{group_type}` by 1
+   - Increment `size_tier_counts.{tier}` by 1
 
 ### 6. Report
 Print a summary:
 ```
 Network created: {group_name} ({network_id})
-Group type: {group_type} | Size: {group_size} | Seed: {seed}
+Tier: {tier} | Group type: {group_type} | Size: {group_size} | Seed: {seed}
+Sessions planned: {n_sessions} | Departures: {n_departures}
 Personas: {comma-separated display names}
+  Departing: {comma-separated display names of departed personas, or "none"}
 Norms: {n} total, {n_contested} contested
-Next step: /smb-verify {network_id} --stage 1
+Next step: smb generate-conversations {network_id}
 ```

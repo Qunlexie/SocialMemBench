@@ -3,16 +3,20 @@
 Generate a WhatsApp-style conversation corpus for an existing network and save it to `data/conversations/`.
 
 ## Arguments
-`$ARGUMENTS` — format: `{network_id} {n_sessions} [start_date]`
-- network_id: the `network_id` from `data/raw/`
-- n_sessions: how many sessions to generate (default: 5)
-- start_date: ISO 8601 date for Session 1 (optional, e.g., `2025-03-03`). If omitted, pick a plausible recent Monday.
+`$ARGUMENTS` — format: `{network_id} [start_date]`
+- `network_id`: the `network_id` from `data/raw/`
+- `start_date`: ISO 8601 date for Session 1 (optional). If omitted, pick a plausible recent Monday.
+
+**Session count** is read from `metadata.sessions_planned` in the network JSON — set there by `smb-generate-network` based on tier. Do not use a hardcoded default; always read from the network file.
 
 ## Steps
 
 ### 1. Load data
-- Read `data/raw/{network_id}.json` — study every persona's `display_name`, `communication_profile`, `speaking_quirks`, `preferences`, and `preference_history`
+- Read `data/raw/{network_id}.json` — note every persona's `display_name`, `communication_profile`, `speaking_quirks`, `preferences`, `preference_history`, `status`, and `departed_after_session`
 - Read `data/manifest.json`
+- **n_sessions** = `network.metadata.sessions_planned` — read this value and use it throughout. Do not use any other default.
+- **turns_per_session** = `network.metadata.turns_per_session` — target number of turns to write per session. Treat this as a target, not a hard ceiling: aim for ±3 turns of this value. This is the primary lever for controlling evidence density (more turns = evidence more buried = harder inference). Do not use any other default.
+- **departed_personas** = personas where `status == "departed"`. Each has a `departed_after_session` value — they appear only in sessions 1 through that value inclusive, and are absent thereafter.
 
 ### 2. Plan all sessions first (before writing any)
 
@@ -24,7 +28,7 @@ Generate a WhatsApp-style conversation corpus for an existing network and save i
 
 For each session (1 through n_sessions), decide:
 - **Topic**: pick a topic that fits the group type's topic consistency profile (see below)
-- **Active speakers**: 2-4 of the personas (vary who is active across sessions)
+- **Active speakers**: drawn only from personas still active in this session. A persona with `departed_after_session: K` is active in sessions 1–K and absent from sessions K+1 onward. For sessions after their departure: do not write any turns for them. For other active personas: in their final session (K), naturally include a farewell or departure acknowledgment (e.g., "moving away", "stepping back", "won't be around much"). Plant a `departure` challenge type in that final session.
 - **Planted challenges**: 2-4 per session. Distribute types across sessions:
   - Sessions 1-2: `implicit_preference`, `false_attribution_seed`, `relational_graph` (≥1 per session)
   - Sessions 2-3: `theory_of_mind`, `consensus_trap`
@@ -44,7 +48,21 @@ For each planted challenge, record:
 }
 ```
 
-### 3. Generate each session
+### 3. Build voice fingerprints (before writing any session)
+
+For each persona, derive a 3-line fingerprint from their `communication_profile` and `speaking_quirks`:
+```
+{display_name}:
+  - Avg message length: terse (<10 words) | concise (10–25) | verbose (>25)
+  - Emoji: none | functional (reactions only) | expressive (multiple per message)
+  - Signature: [one specific quirk — e.g., "ends declarative messages with questions", "drops pronouns at start of sentence", "uses dry humor via understatement"]
+```
+
+After writing the fingerprints, do a distinctness check: for every pair of personas, they must differ on ≥2 of the 3 dimensions (length, emoji, signature type). If two personas share the same length category AND the same emoji style AND similar quirk types → adjust one persona's fingerprint in the raw network data OR vary their realization in conversation before writing.
+
+Keep this fingerprint in your working context throughout all sessions. After writing each turn, ask: "Could this message be misattributed to another persona?" If yes for any message → revise before moving on.
+
+### 4. Generate each session
 
 **Format — every message on its own line, nothing else:**
 ```
@@ -108,7 +126,7 @@ No markdown. No asterisks. No headers. No narration. Just the chat lines.
 **Natural flow rules:**
 - Short reactions between longer messages (emojis, "haha", "true", "😭")
 - Occasional topic drift is fine
-- 10–25 messages per session
+- Target `turns_per_session` messages per session (±3). This is set per tier: small=15, medium=20, large=25. More turns = evidence more buried = harder inference. Do not default to 10.
 - Messages react to what was just said — not a monologue sequence
 
 **Self-critique before moving to next session:**
@@ -130,13 +148,13 @@ Before finalizing the full corpus, do one more mental pass against the QC rubric
 
 **Rolling context:** After each session, write a 3-5 sentence summary (for your own use as context when writing the next session). This summary tracks: decisions made, preferences revealed, relationship dynamics observed.
 
-### 4. Attach planted challenges to turns
+### 5. Attach planted challenges to turns
 
 After generating all sessions, go back and identify which turn best expresses each planted challenge:
 - Match speaker + key words from `fact_value`
 - Record `turn_index` (0-indexed position in session.turns), `evidence_span` (exact quote, max 200 chars)
 
-### 5. Build the output JSON
+### 6. Build the output JSON
 
 ```json
 {
@@ -189,13 +207,13 @@ After generating all sessions, go back and identify which turn best expresses ea
 
 Set `total_turns` to the actual count. `planted_challenge_index` should be a flat list of all `PlantedChallenge` objects from all turns.
 
-### 6. Write files
+### 7. Write files
 1. Write to `data/conversations/{network_id}.json`
 2. Update `data/manifest.json`:
    - Set `networks.{network_id}.status` to `"stage2_done"`
    - Set `networks.{network_id}.n_sessions` to the count
 
-### 7. Report
+### 8. Report
 ```
 Conversations generated: {network_id}
 Sessions: {n} | Total turns: {total_turns}

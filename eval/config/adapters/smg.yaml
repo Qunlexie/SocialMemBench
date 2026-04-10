@@ -1,0 +1,4 @@
+name: "smg"
+embed_model: "text-embedding-3-small"
+graph_dir: "./data/.smg_graphs"
+top_k: 10

@@ -65,13 +65,14 @@ Once hypothesis is validated:
 - Scale data generation — evaluate whether to use Gemini 2.5 Pro API for faster/cheaper generation at scale, or continue with Claude Code skills
 - Run Condition B (Mem0, Letta, LangMem) and Condition C (SMG) with Gemini 2.5 Pro as backbone
 
-**Model backbone for Phase 2**: Gemini 2.5 Pro (`gemini-2.5-pro`) via `GOOGLE_API_KEY`. Held constant across all conditions so the only variable is memory architecture.
+**Model backbone for Phase 2**: GPT-4o-mini (`gpt-4o-mini`) via OpenAI API. Held constant across all conditions so the only variable is memory architecture. Cost-efficient (~$0.60/1M input tokens); full 10-network Condition B estimated under $5 total.
 
-Mem0, LangMem, and Letta all support Google/Gemini as a backend:
-- **Mem0**: `{"llm": {"provider": "google", "config": {"model": "gemini-2.5-pro"}}}`
-- **LangMem**: pass `ChatGoogleGenerativeAI(model="gemini-2.5-pro")` from `langchain-google-genai`
-- **Letta**: configure Google model endpoint in local server config
-- **SMG (Condition C)**: extraction pass uses `google-generativeai` SDK directly
+Memory systems run locally — no managed cloud APIs (no Mem0 cloud, no Zep cloud):
+- **Mem0**: `mem0ai` Python library, local Chroma/Qdrant vector store, GPT-4o-mini as LLM backend
+- **Zep**: self-hosted via Docker (`docker compose up`), pointed at GPT-4o-mini
+- **SMG (Condition C)**: pure Python person-attributed graph, GPT-4o-mini for extraction + answering
+
+**GPU not required.** All LLM and embedding calls route to OpenAI API. Vector stores (Chroma/Qdrant) and graph traversal are CPU-only. A standard laptop is sufficient.
 
 ---
 
@@ -96,19 +97,54 @@ See [`plans/social-graph-memory.md`](social-graph-memory.md) for the full design
 
 ---
 
+## Memory Taxonomy: What Each Q Type Tests
+
+| Dimension | Definition | EverMemBench | Our Q type |
+|-----------|-----------|-------------|------------|
+| **Individual preference** | What X personally values, separate from the group | Not tested | Q1, Q3 |
+| **Group consensus** | What the group collectively decided | Constraint (org rules only) | Q2 |
+| **Norm vs. exception** | Individual deviation from group norm | Not tested | Q6 |
+| **Entity attribution** | Who specifically said/holds X (not just that X was said) | Single-hop (task ownership) | Q4 |
+| **Epistemic state** | Who knows what about whom — A revealed B's preference | Not tested | Q5 |
+| **Relational context** | How A–B relationship history shapes interpretation of A's words | Not tested | Q7 |
+| **Temporal drift** | Preference changed over time; what triggered the shift | Temporal duration (task lifecycle only) | Q8 |
+| **Membership state** | What departed members held; avoid attributing their views to current members | Not tested | Q9 |
+| **Social authority** | Who has the right to speak for the group; whose pushback reshapes norms | Not tested | gap (Q6 sub-class or Q10) |
+| **Implicit signal** | What was communicated through HOW it was said — silence, deflection, "sure" | Not tested | gap (hardened Q2) |
+
+EverMemBench explicitly does not test: social relationships, emergent norms, epistemic states, power dynamics, implicit communication, preference evolution driven by social events, or membership dynamics. These are our thesis.
+
+---
+
 ## Expected Failure Modes (hypotheses)
 
-| Failure mode | Query types it surfaces | Why it happens |
-|-------------|------------------------|----------------|
-| Attribution collapse | Q4 (contamination), Q5 (ToM) | Facts stored without strong speaker binding |
-| Norm universalization | Q6 (norm vs. individual) | No concept of "group-stated but individually contested" |
-| Preference conflation | Q3 (multi-contact) | Multiple speakers' preferences merged into one entry |
-| Temporal blindness | Q8, Q8L (temporal evolution) | Memory overwrites rather than versions preferences |
-| Relationship ignorance | Q7 (relational edge) | No relationship graph; history not stored as edge properties |
-| Stale member recall | Q9 (departed member) | No departure modelling; stale evidence treated as current |
-| Scale collapse | Q3, Q4 at large group tier | Attribution degrades nonlinearly as group size grows |
-| Noise sensitivity | Q1–Q9 at high noise level | Systems fail to extract signal from unstructured surrounding context |
-| Memory decay | Q8L at longitudinal tier | Recent sessions over-weighted; year-old context lost entirely |
+| Failure mode | Query types it surfaces | Why it happens | Measurable signal |
+|-------------|------------------------|----------------|-------------------|
+| **Foil substitution** | Q4 (contamination) | Facts stored without strong speaker binding | % wrong answers = planted foil |
+| **Norm collapse** | Q6 (norm vs. individual) | No concept of "group-stated but individually contested" | % answers = group norm instead of exception |
+| **Epistemic erasure** | Q5 (ToM) | Memory stores preference, not who-knew chain | % answers give preference but not who-knew |
+| **Preference conflation** | Q3 (multi-contact) | Multiple speakers' preferences merged | % members misattributed |
+| **Temporal reversal** | Q8 (temporal evolution) | Memory overwrites rather than versions | % answers swap old/new state |
+| **Cross-person bleed** | Q1, Q3, Q4 | Person-level indexing absent | Wrong answer = another member's correct answer |
+| **Stale member recall** | Q9 (departed member) | No departure modelling | % questions attribute departed member's view to current member |
+| **Scale collapse** | Q3, Q4 at large tier | Attribution degrades nonlinearly | Q4 accuracy curve vs. group size |
+| **Relationship ignorance** | Q7 (relational edge) | No relationship graph | No relationship history stored as edge properties |
+| **Memory decay** | Q8L at longitudinal tier | Recent sessions over-weighted | Year-old context lost entirely |
+
+### Failure-Mode Metrics (compute from Condition B results)
+
+| Metric | Definition |
+|--------|-----------|
+| **Attribution error rate** | % of Q4 pairs where system names the foil (vs. any other wrong answer) |
+| **Norm collapse rate** | % of Q6 pairs where answer is the group norm rather than the individual exception |
+| **Epistemic confusion rate** | % of Q5 pairs where answer gives preference but not the who-knew component |
+| **Temporal direction error** | % of Q8 pairs where system reverses old/new states |
+| **Person-specificity decay** | Q1/Q4 accuracy vs. group size (small → medium → large) |
+| **Foil substitution rate** | Q4: when wrong, did system name the foil or a random member? |
+| **Stale recall rate** | Q9: does system attribute departed member's views to current members? |
+| **Group-size attribution curve** | Q4 accuracy plotted against group size — expected non-linear drop |
+
+The **norm collapse rate** and **person-specificity decay curve** are the two metrics most likely to produce paper-worthy results — they directly name the architectural failure mode.
 
 ---
 

@@ -1,0 +1,21 @@
+# LangMem configuration
+# Reflection + consolidation memory — LangChain's memory library.
+# Extracts facts from conversations then runs a consolidation pass that
+# merges, updates, and deduplicates memories across sessions.
+# Requires Python >= 3.10 (use smb310 conda env).
+# Install: pip install langmem langgraph
+#
+# Run:
+#   conda activate smb310
+#   python -m eval.cli --network grp_1a2b3c4d --condition langmem
+
+name: "langmem"
+
+# LLM for extraction and consolidation
+model: "gpt-4o-mini"
+
+# Embedding model for semantic search over consolidated memories
+embed_model: "text-embedding-3-small"
+
+# Retrieval
+top_k: 10

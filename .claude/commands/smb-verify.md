@@ -29,7 +29,7 @@ Read `data/raw/{network_id}.json` and run these checks:
 | Tense/mixed edge exists | At least 1 edge with sentiment in ["mixed", "tense"] |
 | Contested norm exists | At least 1 group_norm with truly_universal == false AND len(dissenters) > 0 |
 | Preference history coverage | Every persona has len(preference_history) >= 1 |
-| Communication distinctness | No two personas share identical (formality, emoji_use, humor) triple |
+| Communication distinctness | No two personas share identical (formality, emoji_use, humor) triple; additionally, every pair of personas must differ on ≥2 of the 3 dimensions (verbosity, emoji_use, formality) — two personas that are both Casual + Moderate verbosity + Never-emoji are indistinct even if their humor types differ |
 | Edge coverage | For group_size=3: ≥3 edges; for group_size=5: ≥6 edges |
 | No null display_names | All personas have non-empty display_name |
 | Persona IDs unique | All persona_id values are distinct |
@@ -78,53 +78,38 @@ Read `data/qa/{network_id}.jsonl` and run:
 | Query type coverage | At least 4 distinct query_type values represented |
 | Q5 two-part | All Q5 questions ask both what the subject's preference/attitude/behavior is and who knew, revealed, or figured it out |
 | Q4 has foil | All Q4 pairs have non-null contamination_foil |
+| Q4 foil quality | All Q4 contamination_foil values are ≥2 sentences AND reference a specific vocabulary or framing similarity between target and foil (not just "plausible wrong answer") |
+| Q5 grounded ToM | All Q5 pairs' "who knew" evidence anchor points to an observable chat behavior (assumption, reaction, knowing reference) — not a description of a private conversation |
 | Q8 has anchors | All Q8 pairs have temporal_anchors with ≥2 entries |
+| Difficulty distribution | For each network: warn if >50% of pairs are labeled "easy"; warn if zero pairs are labeled "hard" |
+| Inference depth present | If QC has been run: all pairs have `metadata.inference_required` set; warn if >20% are inference_required=0 |
 
 ---
 
-### 2. Build report
+### 2. Update manifest
 
-```json
-{
-  "network_id": "{network_id}",
-  "verified_at": "{timestamp}",
-  "overall_pass": true,
-  "stages": {
-    "stage1": {
-      "pass": true,
-      "checks": {
-        "required_fields_present": {"pass": true, "detail": ""},
-        "correct_persona_count": {"pass": true, "detail": ""},
-        ...
-      }
-    },
-    "stage2": {...},
-    "stage3": {...}
-  },
-  "failures": [
-    {"stage": 1, "check": "contested_norm_exists", "detail": "No group_norm with truly_universal=false found"}
-  ],
-  "fix_suggestions": [
-    "Re-run /smb-generate-network to create a new network with contested norms, or manually edit data/raw/{network_id}.json"
-  ]
-}
-```
+Update `data/manifest.json` — always, regardless of pass/fail:
+- Set `networks.{network_id}.verify` to:
+  ```json
+  {
+    "overall_pass": true,
+    "stage1_pass": true,
+    "stage2_pass": true,
+    "stage3_pass": true,
+    "failure_count": 0,
+    "verified_at": "{ISO 8601 timestamp}"
+  }
+  ```
+  Set only the stage fields for stages that were actually checked; leave others null.
+- If ALL checked stages pass: set `networks.{network_id}.status` to `"verified"` (or `"stage{N}_verified"` for single-stage runs)
 
-### 3. Write report
-Write to `data/verify/{network_id}.json`.
-
-If ALL checks pass across all requested stages, also update `data/manifest.json`:
-- Set `networks.{network_id}.status` to `"verified"` (or `"stage{N}_verified"` for single-stage runs)
-
-### 4. Print summary
+### 3. Print summary
 ```
 Verification: {network_id}
 Stage 1: PASS ({n}/{total} checks) / FAIL ({n} failures)
-Stage 2: PASS ({n}/{total} checks) / FAIL ({n} failures)  
+Stage 2: PASS ({n}/{total} checks) / FAIL ({n} failures)
 Stage 3: PASS ({n}/{total} checks) / FAIL ({n} failures)
 
 Failures:
-  [list failures with fix suggestions]
-
-Full report: data/verify/{network_id}.json
+  [list each failure with fix suggestion]
 ```

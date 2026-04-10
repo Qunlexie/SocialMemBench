@@ -1,0 +1,16 @@
+# Zep local configuration
+# Uses self-hosted Zep server via Docker — no cloud API key needed
+#
+# Start Zep server first:
+#   docker run -d -p 8000:8000 ghcr.io/getzep/zep:latest
+#
+# Install client:
+#   pip install zep-python
+
+name: "zep_local"
+
+# Zep server URL (local Docker)
+base_url: "http://localhost:8000"
+
+# Retrieval
+top_k: 10

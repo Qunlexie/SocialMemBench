@@ -1,0 +1,136 @@
+# Prompts configuration for SocialMemBench evaluation
+
+# ─────────────────────────────────────────────────────────────
+# Memory-system answer prompts (Condition B: Mem0, Zep, etc.)
+# Context = retrieved memories from the memory system
+# ─────────────────────────────────────────────────────────────
+answer:
+  multiple_choice: |
+    You are evaluating a social group AI memory system.
+    You have retrieved memories from a group chat and must answer a multiple-choice question.
+    Answer ONLY using the retrieved memories — no outside knowledge or guesses.
+
+    Pay attention to WHO said what. Attribution matters: a preference stated by one person
+    should not be attributed to another.
+
+    Rules:
+    1. Use only information in the memories.
+    2. If multiple options seem plausible, choose the one most directly supported.
+    3. You MUST pick one option (A/B/C/D) even if uncertain.
+    4. Output ONLY a single uppercase letter: A or B or C or D
+
+    [MEMORIES]
+    {context}
+
+    [QUESTION]
+    {question}
+
+    [OPTIONS]
+    {options}
+
+  open_ended: |
+    You are evaluating a social group AI memory system.
+    You have retrieved memories from a group chat and must answer an open-ended question.
+    Answer ONLY using the retrieved memories — no outside knowledge or guesses.
+
+    Pay attention to WHO said what and WHEN. Attribution and timing matter.
+
+    Rules:
+    1. Use only information in the memories.
+    2. If the memories don't contain enough information, say: NOT ENOUGH INFORMATION
+    3. Be specific: name the person, state the preference, describe the relationship.
+    4. Output ONLY the answer text.
+
+    [MEMORIES]
+    {context}
+
+    [QUESTION]
+    {question}
+
+# ─────────────────────────────────────────────────────────────
+# LLM adapter answer prompts (Conditions A: mini-oracle)
+# Context = full formatted conversation corpus
+# ─────────────────────────────────────────────────────────────
+llm_answer:
+  multiple_choice: |
+    You are answering a question about a social group conversation.
+    Read the full conversation transcript carefully and answer the multiple-choice question.
+
+    Answering guidance by question type:
+    - Attribution (Q4): Name ONLY the true speaker. Do not name the foil even if plausible.
+    - Norm vs. individual (Q6): Check whether the stated norm truly applies to everyone;
+      the correct answer may be the exception, not the majority.
+
+    Rules:
+    1. Use only information in the conversation.
+    2. If multiple options seem plausible, choose the one most directly supported.
+    3. You MUST pick one option (A/B/C/D) even if uncertain.
+    4. Output ONLY a single uppercase letter: A or B or C or D
+
+    [CONVERSATION]
+    {context}
+
+    [QUESTION]
+    {question}
+
+    [OPTIONS]
+    {options}
+
+  open_ended: |
+    You are answering a question about a social group conversation.
+    Read the full conversation transcript carefully and answer the question.
+
+    Answering guidance by question type:
+    - Single preference (Q1): Name the person and state their preference with evidence from ≥2 turns.
+    - Group decision (Q2): State the decision AND any dissenter(s) — implicit dissent counts.
+    - Multi-contact (Q3): Cover every group member; say "unclear" for those with no signal.
+    - Attribution (Q4): Identify the correct speaker. Distinguish from the plausible foil by meaning, not just style.
+    - Theory of mind (Q5): State BOTH the preference AND who revealed it + how they showed prior knowledge.
+    - Temporal shift (Q8): State BOTH the old preference and the new preference, plus what triggered the change.
+    - Relational edge (Q7): Describe what the conversation reveals about the A–B relationship.
+
+    Rules:
+    1. Use only information in the conversation.
+    2. If the conversation doesn't contain enough information, say: NOT ENOUGH INFORMATION
+    3. Be specific: name the person, cite evidence, describe the mechanism.
+    4. Output ONLY the answer text.
+
+    [CONVERSATION]
+    {context}
+
+    [QUESTION]
+    {question}
+
+# ─────────────────────────────────────────────────────────────
+# LLM Judge prompts (used by evaluator.py)
+# Returns a 0.0–1.0 score + rationale (not binary CORRECT/WRONG)
+# ─────────────────────────────────────────────────────────────
+llm_judge:
+  system_prompt: |
+    You are an expert grader evaluating AI answers about social group conversations.
+    You score answers on a 0.0–1.0 scale based on correctness and completeness.
+
+  user_prompt: |
+    Score the generated answer against the gold answer on a 0.0–1.0 scale.
+
+    Scoring rubric:
+    - 1.0: Correct — same meaning, correct attribution, all required parts present
+    - 0.7–0.9: Mostly correct — right answer but one part missing or slightly imprecise
+    - 0.4–0.6: Partial — right direction but wrong detail, missing key element, or ambiguous attribution
+    - 0.0–0.3: Wrong — incorrect attribution, wrong preference, contradiction, or no answer
+
+    Special rules by question type:
+    - Q4 (attribution): Must name the correct speaker AND NOT name the foil → 1.0.
+      Correct speaker + also names foil → 0.7. Wrong speaker → 0.0–0.3.
+    - Q5 (theory of mind): BOTH parts required for 1.0 — (1) the preference, (2) who revealed it.
+      Only one part correct → 0.5.
+    - Q8 (temporal shift): BOTH old AND new states required for 1.0. Only one side → 0.5.
+    - Q3 (multi-contact): Score = fraction of group members correctly recalled (e.g., 3/5 correct = 0.6).
+
+    Question: {question}
+    Gold answer: {golden_answer}
+    Generated answer: {generated_answer}
+
+    First write one sentence explaining your reasoning.
+    Then output JSON with score and rationale:
+    {{"score": 0.0, "rationale": "one sentence"}}

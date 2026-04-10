@@ -1,0 +1,800 @@
+{
+  "network_id": "grp_6f7a8b9c",
+  "sessions": [
+    {
+      "session_id": "grp_6f7a8b9c_s01",
+      "network_id": "grp_6f7a8b9c",
+      "session_index": 1,
+      "topic": "Abi pushes Amsterdam; Sasha steers local",
+      "date_label": "Session 1, Monday June 2, 2025 11:22am",
+      "prior_session_summary": null,
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t000",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 2, 11:22am",
+          "message": "Okay we HAVE to do Amsterdam this year. I'm serious. Long weekend in October, flights are cheap right now, I've been looking 👀 who's in?",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-02T11:22:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t001",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 2, 11:35am",
+          "message": "I'll book it now if you all say yes. I'm serious, give me a date and I'll sort it.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t000",
+          "timestamp": "2025-06-02T11:35:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t002",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 2, 11:41am",
+          "message": "Amsterdam is lovely but honestly flights and hotels in October are a lot. Could we do something closer to home this year? A weekend somewhere in the UK, maybe stay at someone's? I feel like that's more my vibe right now anyway",
+          "message_index": 3,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s1c1",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_cf6c3d4e5",
+              "speaker_persona_id": "p_cf6c3d4e5",
+              "fact_attribute": "cost_avoidance",
+              "fact_value": "Sasha steers away from expensive plans (flights, hotels) by reframing them as 'not my vibe' rather than citing financial constraints",
+              "evidence_span": "flights and hotels in October are a lot. Could we do something closer to home this year? I feel like that's more my vibe right now anyway",
+              "implicitness_level": 2,
+              "session_index": 1,
+              "turn_index": 2
+            }
+          ],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t000",
+          "timestamp": "2025-06-02T11:41:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t003",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 2, 4:17pm",
+          "message": "sorry, head down in the archive all morning 🙈 Amsterdam sounds incredible and I genuinely want to come. October is tricky but I don't want to say no yet. can we talk dates?",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t000",
+          "timestamp": "2025-06-02T16:17:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t004",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 2, 4:31pm",
+          "message": "Sasha I get it! We could do Peak District maybe? This year it has to actually happen though, we keep saying it 😭",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t002",
+          "timestamp": "2025-06-02T16:31:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t005",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 2, 4:39pm",
+          "message": "Peak District is fine. I will book if you confirm. Dev, let us know once you know October.",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t004",
+          "timestamp": "2025-06-02T16:39:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t006",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 2, 4:43pm",
+          "message": "Also hotel breakfast is never the part anyone remembers 😂 I'd rather save the money and actually talk to you all.",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t005",
+          "timestamp": "2025-06-02T16:43:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t007",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 2, 4:48pm",
+          "message": "okay wow dragged by Sasha and honestly fair 😭",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t006",
+          "timestamp": "2025-06-02T16:48:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t008",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 2, 4:52pm",
+          "message": "train to London is much less terrifying than flights tbh. local is easier for me too",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t007",
+          "timestamp": "2025-06-02T16:52:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s01_t009",
+          "session_id": "grp_6f7a8b9c_s01",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 2, 4:57pm",
+          "message": "Good. Local plan, less fantasy, more actual human contact.",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s01_t008",
+          "timestamp": "2025-06-02T16:57:00"
+        }
+      ],
+      "date": "2025-06-02"
+    },
+    {
+      "session_id": "grp_6f7a8b9c_s02",
+      "network_id": "grp_6f7a8b9c",
+      "session_index": 2,
+      "topic": "Abi cancels again; the group shifts to a hosted hang",
+      "date_label": "Session 2, Monday June 9, 2025 7:43pm",
+      "prior_session_summary": "Amsterdam proposed by Abi; Sasha suggested something cheaper and closer; Dev vague on October; Kwame ready to book Peak District if confirmed.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t000",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 9, 7:43pm",
+          "message": "I'm so sorry everyone, October isn't going to work for me. Work thing came up. Can we look at November? This year, I promise 💔",
+          "message_index": 1,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s2c1",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_cf6a1b2c3",
+              "speaker_persona_id": "p_cf6a1b2c3",
+              "fact_attribute": "availability_masking",
+              "fact_value": "Abi cancels plans citing 'work' without acknowledging that her underlying constraint is childcare and exhaustion from parenting a toddler",
+              "evidence_span": "October isn't going to work for me. Work thing came up.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 0
+            }
+          ],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-09T19:43:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t001",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 9, 7:51pm",
+          "message": "noted. November works for me.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t000",
+          "timestamp": "2025-06-09T19:51:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t002",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 9, 7:58pm",
+          "message": "Ah no! Okay November. Maybe we do the hosted option, someone's flat, homemade food, low-key? I'd love that actually more than a hotel",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t000",
+          "timestamp": "2025-06-09T19:58:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t003",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 9, 8:04pm",
+          "message": "I can host in London. Sasha's idea is the right one. We've been trying to book hotels and trips for two years. Let's just be in the same room. Dev, you have to actually come.",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t002",
+          "timestamp": "2025-06-09T20:04:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t004",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 9, 11:22pm",
+          "message": "sorry, only just seeing this, head down in the archive. November I genuinely want to come. When the PhD is done things will be different. I promise I'll try to make November work",
+          "message_index": 5,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s2c2",
+              "challenge_type": "temporal_shift",
+              "subject_persona_id": "p_cf6d4e5f6",
+              "speaker_persona_id": "p_cf6d4e5f6",
+              "fact_attribute": "responsiveness_and_engagement",
+              "fact_value": "Dev's replies are increasingly delayed and provisional; he expresses genuine intent but never commits, and references 'when the PhD is done' as the future point when things will improve",
+              "evidence_span": "sorry, only just seeing this, head down in the archive. When the PhD is done things will be different.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 4
+            }
+          ],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t003",
+          "timestamp": "2025-06-09T23:22:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t005",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 9, 11:24pm",
+          "message": "Abi are you ok though? you sounded absolutely fried earlier. no pressure if this month is cursed 😊",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t000",
+          "timestamp": "2025-06-09T23:24:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t006",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 9, 11:27pm",
+          "message": "just one of those weeks honestly 😅 I'm ok. slightly feral but ok",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t005",
+          "timestamp": "2025-06-09T23:27:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t007",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 9, 11:31pm",
+          "message": "nursery bug plus work, lethal combination. I hate being this person honestly",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t006",
+          "timestamp": "2025-06-09T23:31:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t008",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 9, 11:36pm",
+          "message": "You're not 'this person'. You're tired. November, London, no drama.",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t007",
+          "timestamp": "2025-06-09T23:36:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s02_t009",
+          "session_id": "grp_6f7a8b9c_s02",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 9, 11:40pm",
+          "message": "Exactly. We want you there, not impressive logistics.",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s02_t008",
+          "timestamp": "2025-06-09T23:40:00"
+        }
+      ],
+      "date": "2025-06-09"
+    },
+    {
+      "session_id": "grp_6f7a8b9c_s03",
+      "network_id": "grp_6f7a8b9c",
+      "session_index": 3,
+      "topic": "November collapses; Kwame gives up on big plans and checks on Dev",
+      "date_label": "Session 3, Monday June 16, 2025 6:14pm",
+      "prior_session_summary": "October cancelled by Abi. November London plan agreed — Kwame hosting. Dev still provisional.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t000",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 16, 6:14pm",
+          "message": "Kwame I'm so sorry. This year has just been relentless. November is looking impossible now too. Can we do something in the new year? I miss you all so much 😭",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-16T18:14:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t001",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 16, 6:22pm",
+          "message": "Abi. I love you. But this is the third time. I'm not going to plan another ambitious trip. Let's do something local and actually doable. You come to London one weekend, I'll have nothing else on. We don't need to all be free at once.",
+          "message_index": 2,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s3c1",
+              "challenge_type": "temporal_shift",
+              "subject_persona_id": "p_cf6b2c3d4",
+              "speaker_persona_id": "p_cf6b2c3d4",
+              "fact_attribute": "plan_ambition_preference",
+              "fact_value": "Kwame has shifted from enthusiastic support for ambitious group trips to insisting on small, definitely-happening local plans after repeated cancellations",
+              "evidence_span": "I'm not going to plan another ambitious trip. Let's do something local and actually doable.",
+              "implicitness_level": 1,
+              "session_index": 3,
+              "turn_index": 1
+            }
+          ],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t000",
+          "timestamp": "2025-06-16T18:22:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t002",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 16, 6:29pm",
+          "message": "Kwame is right honestly. London Saturday, nothing booked, just show up. That's actually what I want. Abi can you do that?",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t001",
+          "timestamp": "2025-06-16T18:29:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t003",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 16, 6:35pm",
+          "message": "Yes. Yes I can do that. Give me a date.",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t002",
+          "timestamp": "2025-06-16T18:35:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t004",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 16, 6:37pm",
+          "message": "First Saturday of next month. I'll be at mine. Dev, I'm coming to Edinburgh next week actually. Separate thing. He's heads-down at the moment but I wanted to see him.",
+          "message_index": 5,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s3c2",
+              "challenge_type": "theory_of_mind",
+              "subject_persona_id": "p_cf6d4e5f6",
+              "speaker_persona_id": "p_cf6b2c3d4",
+              "fact_attribute": "dev_situation_known_by_kwame",
+              "fact_value": "Kwame knows Dev is struggling with his PhD circumstances and makes a separate trip to see him rather than waiting for a group meetup, shielding Dev from being made accountable in the group",
+              "evidence_span": "I'm coming to Edinburgh next week actually. Separate thing. He's heads-down at the moment but I wanted to see him.",
+              "implicitness_level": 2,
+              "session_index": 3,
+              "turn_index": 4
+            }
+          ],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-16T18:37:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t005",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 16, 6:41pm",
+          "message": "first Saturday, no booking, no itinerary, no pressure. That's the whole charm.",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t004",
+          "timestamp": "2025-06-16T18:41:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t006",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 16, 6:46pm",
+          "message": "Edinburgh next week works if you're serious Kwame. coffee and a walk maybe",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t005",
+          "timestamp": "2025-06-16T18:46:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t007",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 16, 6:50pm",
+          "message": "send the date now before any of us develop a personality change",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t006",
+          "timestamp": "2025-06-16T18:50:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t008",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 16, 6:55pm",
+          "message": "Pinned. First Saturday. Noon onwards.",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t007",
+          "timestamp": "2025-06-16T18:55:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s03_t009",
+          "session_id": "grp_6f7a8b9c_s03",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 16, 6:59pm",
+          "message": "I'll bring pudding if Abi brings the chaos.",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s03_t008",
+          "timestamp": "2025-06-16T18:59:00"
+        }
+      ],
+      "date": "2025-06-16"
+    },
+    {
+      "session_id": "grp_6f7a8b9c_s04",
+      "network_id": "grp_6f7a8b9c",
+      "session_index": 4,
+      "topic": "Saturday at Kwame's and Dev's silence gets called out",
+      "date_label": "Session 4, Monday June 23, 2025 8:55pm",
+      "prior_session_summary": "Amsterdam and November trips both cancelled. Kwame proposed local Saturday plan instead. Visited Dev separately in Edinburgh. Abi committed to London Saturday.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t000",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 23, 8:55pm",
+          "message": "Okay! Kwame's Saturday is confirmed 🙌 Sasha, should we go to that new place in Hackney? I was reading about it, tasting menu, cocktail bar, looks incredible",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-23T20:55:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t001",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 23, 9:02pm",
+          "message": "oh that sounds beautiful but tasting menus are a bit much for me honestly, not really my scene 😊 could we do a pub or Kwame cooks? I'd honestly rather have a proper catch-up than a restaurant situation",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t000",
+          "timestamp": "2025-06-23T21:02:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t002",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 23, 9:08pm",
+          "message": "I'll cook. Sasha's right, pub or my place is better. We're not here for the food.",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t001",
+          "timestamp": "2025-06-23T21:08:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t003",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 23, 9:12pm",
+          "message": "Kwame's cooking!! Yes perfect 🥰 Dev, can you make it? We miss you!",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-23T21:12:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t004",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 23, 9:14pm",
+          "message": "Also, quick admin. Dev, you've been MIA for like six weeks. The whole point of this chat is monthly minimum. I know you're in the archive. Send a voice note, a meme, anything.",
+          "message_index": 5,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s4c1",
+              "challenge_type": "norm_violation",
+              "subject_persona_id": "p_cf6d4e5f6",
+              "speaker_persona_id": "p_cf6b2c3d4",
+              "fact_attribute": "monthly_checkin_norm_breach",
+              "fact_value": "Dev has gone six weeks without posting, breaching the group's norm of a monthly minimum check-in; Kwame flags this directly",
+              "evidence_span": "Dev, you've been MIA for like six weeks. The whole point of this chat is monthly minimum.",
+              "implicitness_level": 1,
+              "session_index": 4,
+              "turn_index": 4
+            }
+          ],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t003",
+          "timestamp": "2025-06-23T21:14:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t005",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 23, 11:58pm",
+          "message": "sorry, I know, I know. head down in the archive. I'm trying to come for the Saturday. I genuinely want to be there. when the PhD is done this all gets easier, I promise 💙",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t004",
+          "timestamp": "2025-06-23T23:58:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t006",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 24, 12:01am",
+          "message": "no guilt spiral pls, just send us something chaotic once in a while and we're happy 😊",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t005",
+          "timestamp": "2025-06-24T00:01:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t007",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 24, 12:02am",
+          "message": "yes literally a blurry archive corridor pic would sustain us for a month 😂",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t006",
+          "timestamp": "2025-06-24T00:02:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t008",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 24, 12:06am",
+          "message": "I'll bring wine and absolutely no itinerary 🙋‍♀️",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t007",
+          "timestamp": "2025-06-24T00:06:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s04_t009",
+          "session_id": "grp_6f7a8b9c_s04",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 24, 12:11am",
+          "message": "crisps, olives, something chocolate, done",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s04_t008",
+          "timestamp": "2025-06-24T00:11:00"
+        }
+      ],
+      "date": "2025-06-23"
+    },
+    {
+      "session_id": "grp_6f7a8b9c_s05",
+      "network_id": "grp_6f7a8b9c",
+      "session_index": 5,
+      "topic": "Post-Saturday debrief; home-hang format wins",
+      "date_label": "Session 5, Monday June 30, 2025 2:48pm",
+      "prior_session_summary": "Saturday at Kwame's confirmed. Sasha steered away from tasting menu to pub/home cooking. Dev invited but non-committal. Kwame flagged Dev's norm breach.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t000",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 30, 2:48pm",
+          "message": "Yesterday was everything I needed 😭 Kwame your flat is basically a restaurant now though? Sasha I feel like we talked properly for the first time in years",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-30T14:48:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t001",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 30, 2:54pm",
+          "message": "that was perfect. THAT is my idea of a good time. home, food, no pretension, just us. can we do this every couple of months?",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t000",
+          "timestamp": "2025-06-30T14:54:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t002",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 30, 2:59pm",
+          "message": "yes. Sasha's format from now on. Dev, you missed a good one. I'll tell you about it when we speak. You were there in spirit.",
+          "message_index": 3,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_cf6s5c1",
+              "challenge_type": "relational_disclosure",
+              "subject_persona_id": "p_cf6d4e5f6",
+              "speaker_persona_id": "p_cf6b2c3d4",
+              "fact_attribute": "kwame_dev_bond",
+              "fact_value": "Kwame maintains a separate bilateral relationship with Dev — telling him things privately, covering for his absence, keeping him connected to the group even when Dev can't show up",
+              "evidence_span": "Dev, you missed a good one. I'll tell you about it when we speak. You were there in spirit.",
+              "implicitness_level": 2,
+              "session_index": 5,
+              "turn_index": 2
+            }
+          ],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-30T14:59:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t003",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 30, 6:11pm",
+          "message": "gutted I couldn't make it. Next one, I'll be there. When the PhD is done this changes, I mean it. Kwame thank you for Edinburgh last week 💙",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t002",
+          "timestamp": "2025-06-30T18:11:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t004",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 30, 6:15pm",
+          "message": "home-hang supremacy honestly. no trains, no hotel check-in chat, no weird bill split",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t003",
+          "timestamp": "2025-06-30T18:15:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t005",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 30, 6:20pm",
+          "message": "and I didn't spend three days panicking about childcare for a massive weekend away, which helped",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t004",
+          "timestamp": "2025-06-30T18:20:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t006",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6d4e5f6",
+          "speaker_display_name": "Dev",
+          "timestamp_label": "Jun 30, 6:24pm",
+          "message": "What did Kwame cook. I need details if I'm going to feel maximum regret",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t005",
+          "timestamp": "2025-06-30T18:24:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t007",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6b2c3d4",
+          "speaker_display_name": "Kwame",
+          "timestamp_label": "Jun 30, 6:29pm",
+          "message": "lamb stew, too much rice, ridiculous brownies from Sasha",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t006",
+          "timestamp": "2025-06-30T18:29:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t008",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6c3d4e5",
+          "speaker_display_name": "Sasha",
+          "timestamp_label": "Jun 30, 6:33pm",
+          "message": "not ridiculous, perfect 😌 next one I'll do soup and a giant salad",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t007",
+          "timestamp": "2025-06-30T18:33:00"
+        },
+        {
+          "turn_id": "grp_6f7a8b9c_s05_t009",
+          "session_id": "grp_6f7a8b9c_s05",
+          "speaker_persona_id": "p_cf6a1b2c3",
+          "speaker_display_name": "Abi",
+          "timestamp_label": "Jun 30, 6:38pm",
+          "message": "Can we put January in now before life starts freewheeling again",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_6f7a8b9c_s05_t008",
+          "timestamp": "2025-06-30T18:38:00"
+        }
+      ],
+      "date": "2025-06-30"
+    }
+  ],
+  "total_turns": 50,
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_cf6s1c1",
+      "session_index": 1,
+      "turn_id": "grp_6f7a8b9c_s01_t002"
+    },
+    {
+      "challenge_id": "ch_cf6s2c1",
+      "session_index": 2,
+      "turn_id": "grp_6f7a8b9c_s02_t000"
+    },
+    {
+      "challenge_id": "ch_cf6s2c2",
+      "session_index": 2,
+      "turn_id": "grp_6f7a8b9c_s02_t004"
+    },
+    {
+      "challenge_id": "ch_cf6s3c1",
+      "session_index": 3,
+      "turn_id": "grp_6f7a8b9c_s03_t001"
+    },
+    {
+      "challenge_id": "ch_cf6s3c2",
+      "session_index": 3,
+      "turn_id": "grp_6f7a8b9c_s03_t004"
+    },
+    {
+      "challenge_id": "ch_cf6s4c1",
+      "session_index": 4,
+      "turn_id": "grp_6f7a8b9c_s04_t004"
+    },
+    {
+      "challenge_id": "ch_cf6s5c1",
+      "session_index": 5,
+      "turn_id": "grp_6f7a8b9c_s05_t002"
+    }
+  ],
+  "start_date": "2025-06-02"
+}

@@ -1,0 +1,381 @@
+{
+  "network_id": "grp_9c0d1e2f",
+  "group_name": "Shutter Collective",
+  "group_type": "interest_community",
+  "group_size": 4,
+  "seed": 9,
+  "personas": [
+    {
+      "persona_id": "p_ph9a1b2c3",
+      "display_name": "Anika",
+      "age": 35,
+      "gender": "F",
+      "background": "Documentary photographer. Has exhibited internationally. The group's most technically accomplished member and its implicit standard-setter. Competitive; gives precise, unsentimental feedback. Brought Diane into the collective.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prioritises entering work in juried exhibitions over commercial work; views exhibition as the only meaningful validation",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "critical of work that prioritises aesthetics over content; refers to this as 'Instagram photography'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "collective_investment",
+          "old_value": "ran the collective as a loose peer group",
+          "new_value": "started treating it as a serious curatorial unit after the group show received press coverage; now holds work to exhibition standard",
+          "changed_at_session": 2,
+          "trigger": "the collective's group show was reviewed by a regional arts outlet; Anika started treating the group as a professional unit"
+        }
+      ],
+      "speaking_quirks": [
+        "gives feedback as one-line verdicts: 'strong', 'not there yet', 'too clean'",
+        "asks 'what is this picture about?' as a challenge not a question",
+        "never uses emoji"
+      ],
+      "occupation": "documentary photographer",
+      "skills_list": [
+        {
+          "skill": "documentary photography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "darkroom printing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "teaching photography",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_ph9b2c3d4",
+      "display_name": "Luca",
+      "age": 41,
+      "gender": "M",
+      "background": "Landscape photographer. Slow, deliberate workflow — takes months to edit. Has been working on a single long-term project (Scottish coasts) for three years. Laid-back about deadlines; the collective's emotional ballast.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Gentle",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "works slowly and deliberately; uncomfortable with exhibition deadlines; prefers the work to be ready before it's shown",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "financially stable from prior career in architecture; not dependent on the commercial work; can afford the slow pace",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "exhibition_participation",
+          "old_value": "submitted to all group shows",
+          "new_value": "starting to hold back work until he feels it is ready; missed one submission deadline deliberately",
+          "changed_at_session": 3,
+          "trigger": "submitted a print to the session 2 show that he wasn't happy with; vowed not to rush work for deadlines again"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'it's not ready' about work even when others think it is",
+        "uses 'slowly' as a verb: 'I'm slowly getting there'",
+        "responds to exhibition pressure with 'the work will be ready when it's ready'"
+      ],
+      "occupation": "landscape photographer",
+      "skills_list": [
+        {
+          "skill": "landscape photography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "darkroom printing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "hiking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_ph9c3d4e5",
+      "display_name": "Diane",
+      "age": 29,
+      "gender": "F",
+      "background": "Street photographer, newer member (joined 18 months ago). Brought in by Anika after meeting at a workshop. Shooting prolifically but not yet selective. Eager to be taken seriously and starting to find her voice. Anika's bluntness sometimes lands hard.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
+        "humor": "Warm",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "eager to enter competitions and exhibitions; wants the validation and the deadline as motivation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "shoots fast and intuitively; edits slowly and isn't yet sure which of her work is strongest",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "independent_voice",
+          "old_value": "deferred to Anika's judgement about which work to enter",
+          "new_value": "starting to submit her own selection to shows without asking Anika first",
+          "changed_at_session": 4,
+          "trigger": "entered a print independently in session 4 after Anika rejected the one she'd originally chosen; it got shortlisted"
+        }
+      ],
+      "speaking_quirks": [
+        "sends multiple versions of a photo and asks 'which one?'",
+        "responds to Anika's blunt feedback with 'okay okay I hear you'",
+        "uses 'I think this one is it' with increasing confidence in later sessions"
+      ],
+      "occupation": "freelance street photographer",
+      "skills_list": [
+        {
+          "skill": "street photography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "photo editing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "zine making",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_ph9d4e5f6",
+      "display_name": "Raj",
+      "age": 48,
+      "gender": "M",
+      "background": "Commercial photographer (advertising, product). The most financially successful member. Funds his personal fine-art work through commercial contracts. Genuinely torn between the two — commercial work pays the rent; personal work is what he actually cares about. Does not discuss the financial pressure directly.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Moderate",
+        "humor": "Warm",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "wants to shift balance toward fine-art work but commercial contracts keep pulling him back; he does not name this as a conflict directly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "brings older personal work to show-and-tells rather than new work; this is because commercial contracts consume his creative energy",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "personal_vs_commercial_balance",
+          "old_value": "kept commercial and personal work as separate endeavours; attended collective regularly",
+          "new_value": "commercial work now bleeds into personal project time; showing up to sessions with older personal work because nothing new is ready",
+          "changed_at_session": 3,
+          "trigger": "took on a large commercial contract in session 3 that ran over; hasn't had time for personal work since"
+        }
+      ],
+      "speaking_quirks": [
+        "refers to commercial work as 'the day job' with slight self-deprecation",
+        "says 'I've been in the studio' when he means commercial shoots",
+        "asks Luca's advice on when to slow down without naming why he can't"
+      ],
+      "occupation": "commercial photographer",
+      "skills_list": [
+        {
+          "skill": "studio lighting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "commercial photography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "fine art photography",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_ph9a1b2c3",
+      "persona_b_id": "p_ph9b2c3d4",
+      "relationship_type": "founding members",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Anika and Luca co-founded the collective and trust each other, but Anika finds Luca's slowness maddening and Luca sometimes resists Anika's pressure. The respect is real, so is the friction.",
+      "shared_events": [
+        "co-founded the collective four years ago",
+        "co-curated the group show"
+      ]
+    },
+    {
+      "persona_a_id": "p_ph9a1b2c3",
+      "persona_b_id": "p_ph9c3d4e5",
+      "relationship_type": "mentor-mentee becoming peers",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Anika brought Diane in and has been her primary critic. Diane is starting to operate more independently, which Anika notices with ambivalence.",
+      "shared_events": [
+        "met at a workshop",
+        "Anika selected Diane's first submission for the group show"
+      ]
+    },
+    {
+      "persona_a_id": "p_ph9a1b2c3",
+      "persona_b_id": "p_ph9d4e5f6",
+      "relationship_type": "respectful peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both are serious; Anika respects Raj's fine-art work and is patient with his commercial side.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ph9b2c3d4",
+      "persona_b_id": "p_ph9c3d4e5",
+      "relationship_type": "warm peer",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Luca is encouraging to Diane; he doesn't critique as sharply as Anika and Diane finds this a useful counterbalance.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ph9b2c3d4",
+      "persona_b_id": "p_ph9d4e5f6",
+      "relationship_type": "close friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Luca and Raj are friends outside the collective. Luca knows about Raj's commercial pressure — Raj told him in a direct conversation.",
+      "shared_events": [
+        "Raj disclosed financial/creative tension to Luca during a walk in session 3"
+      ]
+    },
+    {
+      "persona_a_id": "p_ph9c3d4e5",
+      "persona_b_id": "p_ph9d4e5f6",
+      "relationship_type": "friendly",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Diane admires Raj's commercial success and asks him practical questions about how the industry works.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Show-and-tell: bring new work to each session, not archive material.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ph9d4e5f6"
+      ]
+    },
+    {
+      "norm_text": "Feedback is direct and honest — no softening for feelings.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ph9b2c3d4"
+      ]
+    },
+    {
+      "norm_text": "All members submit to the annual group show.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ph9b2c3d4"
+      ]
+    }
+  ],
+  "metadata": {}
+}

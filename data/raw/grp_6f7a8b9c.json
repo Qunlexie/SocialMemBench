@@ -1,0 +1,382 @@
+{
+  "network_id": "grp_6f7a8b9c",
+  "group_name": "The Uni Squad",
+  "group_type": "close_friends",
+  "group_size": 4,
+  "seed": 6,
+  "personas": [
+    {
+      "persona_id": "p_cf6a1b2c3",
+      "display_name": "Abi",
+      "age": 33,
+      "gender": "F",
+      "background": "Marketing manager in Manchester. Was the most social one at university. Now has a 2-year-old and a demanding job, and her availability for meetups has quietly collapsed — but she never cites the child or exhaustion as reasons. Makes optimistic plans she increasingly can't keep.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Warm",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "wants to maintain the group's closeness but has significantly less free time and rarely acknowledges why",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "proposes ambitious meetup plans and then scales back or cancels; the pattern is consistent but she never explains the underlying constraint",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "meetup_availability",
+          "old_value": "highly available; initiated most plans and kept them",
+          "new_value": "regularly cancels or de-escalates plans; has a toddler and is depleted but does not say so",
+          "changed_at_session": 2,
+          "trigger": "childcare arrangements fell through for a planned weekend trip; she cancelled but said it was a 'work thing'"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'we HAVE to do this' about plans she later cancels",
+        "references 'this year' as if time is running out for plans",
+        "always responds quickly to messages even when she ultimately can't commit"
+      ],
+      "occupation": "marketing manager",
+      "skills_list": [
+        {
+          "skill": "event planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "fitness",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_cf6b2c3d4",
+      "display_name": "Kwame",
+      "age": 33,
+      "gender": "M",
+      "background": "Software engineer in London. The group's most reliable planner — follows through on what he says. Dry, perceptive, occasionally blunt when plans keep falling apart. Has known Dev since they were 11 and quietly covers for his absences with the group.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers plans that are firmly booked rather than aspirational; becomes sardonic when plans repeatedly fall through",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "knows about Sasha's financial situation and quietly suggests cheaper alternatives without flagging why",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "plan_ambition",
+          "old_value": "enthusiastic about ambitious group trips",
+          "new_value": "now advocates for smaller, local, definitely-happening plans rather than large trips that keep falling through",
+          "changed_at_session": 3,
+          "trigger": "Amsterdam trip collapsed for the third time; Kwame became openly sceptical of ambitious planning"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to cancelled plans with 'noted'",
+        "proposes specific dates with 'I'll book it now if you say yes'",
+        "covers for Dev's absence with 'he's heads-down at the moment'"
+      ],
+      "occupation": "software engineer",
+      "skills_list": [
+        {
+          "skill": "cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "photography",
+          "proficiency": "low"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_cf6c3d4e5",
+      "display_name": "Sasha",
+      "age": 34,
+      "gender": "F",
+      "background": "Secondary school teacher in Bristol. The group's most emotionally perceptive member. Has been on a teacher's salary while managing rent increases; is quietly broke by the standards of what the group used to do. Never names money as a constraint but always finds reasons to prefer cheaper options.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Warm",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "avoids expensive plans — flights, hotels, expensive restaurants — without stating the financial reason; always reframes as a preference for simpler things",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers domestic meetups: one person's flat, a local pub, a walk — easy to participate in cheaply",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "cost_sensitivity",
+          "old_value": "could stretch to group trips and nice restaurants without issue",
+          "new_value": "now constrained by salary and rent; steers plans toward cheap options without naming the reason",
+          "changed_at_session": 1,
+          "trigger": "rent increased significantly at the start of the year; Sasha has quietly adapted by always preferring cheaper options but never saying why"
+        }
+      ],
+      "speaking_quirks": [
+        "reframes expensive suggestions as 'not really my vibe' rather than naming cost",
+        "suggests pubs, walks, or hosting as alternatives to restaurants/trips",
+        "warmly enthusiastic about cheap plans and vague about expensive ones"
+      ],
+      "occupation": "secondary school teacher",
+      "skills_list": [
+        {
+          "skill": "baking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "watercolour painting",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_cf6d4e5f6",
+      "display_name": "Dev",
+      "age": 32,
+      "gender": "M",
+      "background": "PhD student (History) in Edinburgh. Was the most engaged planner in the group at university. Now disappears for weeks at a time, replies to messages in batches, and is perpetually in the middle of 'a crucial chapter.' The group cuts him slack because he was always the most invested — and because Kwame vouches for him.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Self-deprecating",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "would genuinely love to see the group more but is overwhelmed by PhD pressure and responds with guilt-laden apologies rather than firm plans",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers to visit London over hosting in Edinburgh; finds Edinburgh too isolating to show off without feeling embarrassed by his circumstances",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "engagement_level",
+          "old_value": "most active planner; proposed most trips; replied fastest",
+          "new_value": "least responsive member; replies in batches; drops off for weeks at a time during PhD crunch",
+          "changed_at_session": 2,
+          "trigger": "PhD supervisor changed feedback timeline; Dev entered a prolonged crunch that coincided with session 2 and has not fully emerged since"
+        }
+      ],
+      "speaking_quirks": [
+        "apologises for slow replies with 'sorry, head down in the archive'",
+        "responds to plan invitations with 'I genuinely want to come' but doesn't confirm until chased",
+        "references 'when the PhD is done' as a future when everything will be better"
+      ],
+      "occupation": "PhD student (history)",
+      "skills_list": [
+        {
+          "skill": "academic writing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "chess",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_cf6a1b2c3",
+      "persona_b_id": "p_cf6b2c3d4",
+      "relationship_type": "old friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Were flatmates all three years. Abi finds Kwame's directness useful; Kwame is affectionate toward Abi even when plans fall through.",
+      "shared_events": [
+        "lived together in year 2 and 3",
+        "Kwame met Abi's baby in session 2"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf6a1b2c3",
+      "persona_b_id": "p_cf6c3d4e5",
+      "relationship_type": "closest pair",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Abi and Sasha were each other's first-year flatmates and have stayed the closest. Abi suspects Sasha's money situation but doesn't ask directly.",
+      "shared_events": [
+        "shared a room in first year",
+        "have called each other through difficult periods"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf6a1b2c3",
+      "persona_b_id": "p_cf6d4e5f6",
+      "relationship_type": "warm but distant",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Were close at university but have drifted as Dev became less reachable. Abi misses the old version of Dev, loves him, and is quietly hurt by how absent he has become.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_cf6b2c3d4",
+      "persona_b_id": "p_cf6c3d4e5",
+      "relationship_type": "good friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Kwame and Sasha are both grounded and practical. Kwame knows about Sasha's financial situation — she told him in a call between sessions — and quietly protects it.",
+      "shared_events": [
+        "had a call between session 1 and 2 where Sasha mentioned money stress"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf6b2c3d4",
+      "persona_b_id": "p_cf6d4e5f6",
+      "relationship_type": "childhood friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Kwame and Dev have known each other since they were 11. Kwame vouches for Dev to the group and covers for his absences. Their bond pre-dates university.",
+      "shared_events": [
+        "went to the same secondary school",
+        "Kwame visited Dev in Edinburgh in session 3"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf6c3d4e5",
+      "persona_b_id": "p_cf6d4e5f6",
+      "relationship_type": "warm but not close",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Sasha and Dev got on well at university but have had less independent contact since. Sasha is sympathetic to his PhD struggles.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Monthly check-in in the chat minimum — even if it's just a meme.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_cf6d4e5f6"
+      ]
+    },
+    {
+      "norm_text": "No planning threads unless at least two people are confirmed free.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Whoever proposes the plan books the first thing — no leaving it to air.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_cf6a1b2c3"
+      ]
+    }
+  ],
+  "metadata": {}
+}

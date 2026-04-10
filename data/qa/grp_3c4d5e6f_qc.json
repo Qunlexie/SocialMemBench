@@ -1,0 +1,57 @@
+{
+  "network_id": "grp_3c4d5e6f",
+  "total_pairs": 8,
+  "phase1_mean_score": 1.0,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "by_query_type": {
+    "Q1": {"count": 2, "mean_score": 1.0, "flagged": 0},
+    "Q2": {"count": 1, "mean_score": 1.0, "flagged": 0},
+    "Q4": {"count": 1, "mean_score": 1.0, "flagged": 0},
+    "Q5": {"count": 1, "mean_score": 1.0, "flagged": 0},
+    "Q6": {"count": 1, "mean_score": 1.0, "flagged": 0},
+    "Q7": {"count": 1, "mean_score": 1.0, "flagged": 0},
+    "Q8": {"count": 1, "mean_score": 1.0, "flagged": 0}
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Recreational group: hiking/activity planning anchors all 5 sessions. Session 3 has a natural digression (Bev's half-marathon announcement) that is character-triggered and resolves within the session. Appropriate for the group type."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All 5 sub-dimensions pass after verbosity fix. emoji_use: Dani (Frequent), Bev (Frequent), Marcus (Moderate), Yusuf (Rare/Never, 0 emoji consistent with quirk), Cass (Moderate). typo_rate: all within profile. verbosity: Dani and Bev (both Verbose) now each have one burst message >100 words -- Dani in s02_t000 (~120 words), Bev in s03_t011 (~130 words). Concise personas (Marcus, Yusuf, Cass) stay within range. formality: Casual personas use fragments; Semi-formal personas use complete sentences. speaking_quirks: all detectable -- Dani (exclamation marks, trail technical names), Marcus (weather proxy, descent logistics), Bev (cafe names by name, social-side invocations), Yusuf (regrettably, one-word assessments, no emoji), Cass (actually, ecology/bird references).",
+      "sub_dimensions": {
+        "emoji_use": {"score": 2, "notes": ""},
+        "typo_rate": {"score": 2, "notes": ""},
+        "verbosity": {"score": 2, "notes": "Fixed: s02_t000 (Dani, ~120 words) and s03_t011 (Bev, ~130 words) expanded as burst messages. Both Verbose personas now exceed 80-word threshold at least once."},
+        "formality": {"score": 2, "notes": ""},
+        "speaking_quirks": {"score": 2, "notes": ""}
+      }
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-triggered. Bev introduces the half-marathon tangent with 'totally off topic but...' -- self-flagged by the character before pivoting. All session openings connect naturally to previous session outcomes."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes in any message field. The two newly expanded burst messages (s02_t000, s03_t011) contain no em dashes."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 8 evidence_anchors verified as verbatim substrings of their respective turn messages. No planted turns were modified."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "verbosity_fix_applied": {
+    "turns_expanded": [
+      {"turn_id": "grp_3c4d5e6f_s02_t000", "persona": "Dani", "reason": "Verbose persona with no prior messages >40 words. Expanded Blackmoor Scramble proposal from 27 to ~120 words."},
+      {"turn_id": "grp_3c4d5e6f_s03_t011", "persona": "Bev", "reason": "Verbose persona with no prior messages >40 words. Expanded half-marathon announcement from 37 to ~130 words."}
+    ]
+  },
+  "baseline_reference": "first accepted run -- 2026-04-06"
+}

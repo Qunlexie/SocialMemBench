@@ -1,0 +1,517 @@
+{
+  "network_id": "grp_5e6f7a8b",
+  "group_name": "Maple Street Residents",
+  "group_type": "acquaintance_network",
+  "group_size": 5,
+  "seed": 5,
+  "personas": [
+    {
+      "persona_id": "p_a5a1b2c3",
+      "display_name": "Femi",
+      "age": 42,
+      "gender": "M",
+      "background": "Semi-retired IT consultant. Has lived on Maple Street for eight years and considers himself the de facto organiser — starts most threads, chases replies, books the village hall. Slightly over-involved. Means well.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Friendly",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "strongly prefers settling disputes internally on the street before contacting the council",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys running neighbourhood events; takes organiser role seriously",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "involvement_level",
+          "old_value": "moderate involvement; attended most events without leading",
+          "new_value": "now organises nearly everything; became de facto chair after the previous organiser moved away in session 2",
+          "changed_at_session": 2,
+          "trigger": "previous street organiser (Len) moved away; no one else stepped up so Femi took over permanently"
+        }
+      ],
+      "speaking_quirks": [
+        "always opens threads with 'Quick question for the street'",
+        "uses 'just checking' as a softener before opinions",
+        "signs off with 'Thanks all'"
+      ],
+      "occupation": "semi-retired IT consultant",
+      "skills_list": [
+        {
+          "skill": "IT setup and troubleshooting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "event organising",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_a5b2c3d4",
+      "display_name": "Claudette",
+      "age": 67,
+      "gender": "F",
+      "background": "Retired school librarian. Has lived on Maple Street for 30 years. The street's institutional memory. Deeply opposed to any development that changes the street's character — new builds, conversions, additional parking. Warmly social but immovable on planning matters.",
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Gentle",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "opposes any planning application that would change the street's residential character — new builds, loft conversions, additional hardstanding",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "attends every street event; values the social fabric of the street above practical concerns",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "drives and relies on the unmanaged parking; would be disadvantaged by a residents' parking scheme that charges",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "council_escalation",
+          "old_value": "would contact the council directly if something bothered her",
+          "new_value": "now raises everything in the group chat first after being persuaded by Femi that collective action works better",
+          "changed_at_session": 1,
+          "trigger": "Femi showed her that a joint objection to a planning application carried more weight than an individual letter"
+        }
+      ],
+      "speaking_quirks": [
+        "references 'thirty years on this street' when defending a position",
+        "calls every positive change 'progress for the wrong reasons'",
+        "uses 'I remember when' to introduce historical comparisons"
+      ],
+      "occupation": "retired school librarian",
+      "skills_list": [
+        {
+          "skill": "local history",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "baking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_a5c3d4e5",
+      "display_name": "Jordan",
+      "age": 29,
+      "gender": "NB",
+      "background": "Graphic designer. Rents a flat at no. 14. Has lived there for just over a year. Uses the group chat for practical things — lost parcels, bin day queries — and enjoys the community spirit without getting drawn into politics. Aware that as a renter they have less stake in planning disputes.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "stays neutral on planning and development debates; notes they are a renter and have less at stake",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys street social events; attends if they are not too formal",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "does not have a car; indifferent to parking schemes either way",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "community_participation",
+          "old_value": "lurked mostly; posted only for practical queries in first months",
+          "new_value": "started engaging socially after meeting neighbours at the session 2 street party",
+          "changed_at_session": 2,
+          "trigger": "attended the street party in session 2; met Claudette and Femi in person and felt part of the community"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'lmk' and 'nw' as shorthand",
+        "prefaces opinions with 'not sure if this is my place but...'",
+        "adds thumbs-up reactions rather than full replies when agreeing"
+      ],
+      "occupation": "graphic designer",
+      "skills_list": [
+        {
+          "skill": "graphic design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "low"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_a5d4e5f6",
+      "display_name": "Vera",
+      "age": 55,
+      "gender": "F",
+      "background": "GP. Bought her house twelve years ago. Uses the group chat minimally — reads everything, replies rarely, but when she does it is direct and final. Has strong views about noise (she works early) and parking (she does home visits). Bypasses the group chat when she has a serious complaint and goes straight to the council.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers to contact the council directly rather than coordinating through the group chat",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "skips most street social events due to early starts; attends the December one as a matter of courtesy",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports a residents' parking scheme; needs guaranteed parking near her house for home visits",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "noise_tolerance",
+          "old_value": "tolerated occasional noise without complaint",
+          "new_value": "started reporting noise directly to the council after sleep disruption affected her work performance; does not mention it in the group chat",
+          "changed_at_session": 3,
+          "trigger": "was called in for an early emergency after a bad night due to street noise; decided she would not tolerate it further"
+        }
+      ],
+      "speaking_quirks": [
+        "sends short factual updates with no commentary: 'Bin collection moved to Thursday this week.'",
+        "uses 'For the avoidance of doubt' before correcting something",
+        "never uses emoji or exclamation marks"
+      ],
+      "occupation": "GP",
+      "skills_list": [
+        {
+          "skill": "first aid",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_a5e5f6a7",
+      "display_name": "Marcus",
+      "age": 38,
+      "gender": "M",
+      "background": "Stay-at-home parent, two children aged 5 and 7. Has lived on the street for five years. The most active poster — knows everyone through the school run and playground. Uses the chat partly for practical updates and partly to keep an eye on things. Worries about traffic and child safety more than anything else.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Gentle",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prioritises child safety on the street above all other concerns — traffic, speeding, parking on pavements",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "attends and helps at street events; brings kids",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports a residents' parking scheme specifically because it would reduce pavement parking near the school gate",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "traffic_concern_intensity",
+          "old_value": "mentioned traffic as a concern occasionally",
+          "new_value": "became vocal advocate for traffic calming after near-miss involving his older child at the school gate in session 3",
+          "changed_at_session": 3,
+          "trigger": "his child nearly stepped into a car reversing off a driveway at the school gate; he posted immediately and now raises traffic safety in almost every relevant thread"
+        }
+      ],
+      "speaking_quirks": [
+        "mentions the school gate in almost every safety discussion",
+        "uses 'as a parent' before safety-related points",
+        "follows up every unresolved thread to ask if anything has been decided"
+      ],
+      "occupation": "stay-at-home parent",
+      "skills_list": [
+        {
+          "skill": "cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DIY",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "childcare",
+          "proficiency": "strong"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_a5a1b2c3",
+      "persona_b_id": "p_a5b2c3d4",
+      "relationship_type": "organiser pair",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Femi relies on Claudette's institutional knowledge; Claudette has adopted Femi's preference for collective action over individual council letters.",
+      "shared_events": [
+        "organised three street parties together",
+        "submitted a joint planning objection"
+      ]
+    },
+    {
+      "persona_a_id": "p_a5a1b2c3",
+      "persona_b_id": "p_a5c3d4e5",
+      "relationship_type": "welcoming neighbour",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Femi introduced Jordan to the group chat and checks in on them occasionally.",
+      "shared_events": [
+        "met at the session 2 street party"
+      ]
+    },
+    {
+      "persona_a_id": "p_a5a1b2c3",
+      "persona_b_id": "p_a5d4e5f6",
+      "relationship_type": "polite tension",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Femi wants group consensus; Vera goes straight to the council. They are cordial but represent opposite approaches.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_a5a1b2c3",
+      "persona_b_id": "p_a5e5f6a7",
+      "relationship_type": "active pair",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Both invest heavily in the street's community life. Marcus helps Femi organise events; Femi amplifies Marcus's safety concerns.",
+      "shared_events": [
+        "co-organised the school-gate petition",
+        "ran the summer fair together"
+      ]
+    },
+    {
+      "persona_a_id": "p_a5b2c3d4",
+      "persona_b_id": "p_a5c3d4e5",
+      "relationship_type": "warm but generational",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Claudette has taken a quiet liking to Jordan after meeting them at the street party. Jordan finds Claudette's local history charming.",
+      "shared_events": [
+        "talked at the street party for an hour about the street's history"
+      ]
+    },
+    {
+      "persona_a_id": "p_a5b2c3d4",
+      "persona_b_id": "p_a5d4e5f6",
+      "relationship_type": "long-term neighbours",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "They have coexisted for twelve years. Claudette finds Vera brusque; Vera finds Claudette's planning opposition occasionally useful.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_a5b2c3d4",
+      "persona_b_id": "p_a5e5f6a7",
+      "relationship_type": "friendly",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Claudette adores Marcus's children. Marcus listens respectfully to her history of the street.",
+      "shared_events": [
+        "Marcus's children trick-or-treated at Claudette's for three years running"
+      ]
+    },
+    {
+      "persona_a_id": "p_a5c3d4e5",
+      "persona_b_id": "p_a5d4e5f6",
+      "relationship_type": "minimal contact",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Have barely interacted. Vera barely uses the chat; Jordan doesn't knock on doors.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_a5c3d4e5",
+      "persona_b_id": "p_a5e5f6a7",
+      "relationship_type": "friendly neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Jordan occasionally helps Marcus with the school run in a pinch. They wave in the morning.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_a5d4e5f6",
+      "persona_b_id": "p_a5e5f6a7",
+      "relationship_type": "parallel concern",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Both care about parking but for different reasons. They have aligned on the residents' scheme without discussing it directly.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Post to the chat before calling the council — we sort things on the street first.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_a5d4e5f6"
+      ]
+    },
+    {
+      "norm_text": "Reply if you're coming to street events — silence means no.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_a5d4e5f6",
+        "p_a5b2c3d4"
+      ]
+    },
+    {
+      "norm_text": "No posting to the chat after 10pm.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_a5c3d4e5"
+      ]
+    }
+  ],
+  "metadata": {}
+}

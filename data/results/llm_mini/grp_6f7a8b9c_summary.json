@@ -1,0 +1,38 @@
+{
+  "network_id": "grp_6f7a8b9c",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T06:06:23.532500+00:00",
+  "sessions_used": 5,
+  "total_pairs": 7,
+  "new_pairs_this_run": 2,
+  "mean_score": 0.843,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 0.8
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.75
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.6
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [],
+  "options_fix_applied": true
+}

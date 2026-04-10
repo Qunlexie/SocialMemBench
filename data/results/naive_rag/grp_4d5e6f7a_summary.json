@@ -1,0 +1,45 @@
+{
+  "network_id": "grp_4d5e6f7a",
+  "condition": "naive_rag",
+  "model": "gpt-4o",
+  "evaluated_at": "2026-04-10T06:08:31.915669+00:00",
+  "sessions_used": 5,
+  "total_pairs": 9,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.578,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.45
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.8
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_v4s3c3",
+      "query_type": "Q1",
+      "score": 0.1
+    },
+    {
+      "qa_id": "Q8_v4s4c1",
+      "query_type": "Q8",
+      "score": 0.0
+    }
+  ],
+  "options_fix_applied": true
+}

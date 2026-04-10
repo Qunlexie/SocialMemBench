@@ -1,0 +1,35 @@
+{
+  "network_id": "grp_1a2b3c4d",
+  "qc_run_at": "2026-04-08T00:00:00",
+  "total_pairs": 12,
+  "phase1_mean_score": 0.96,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {"0": 0, "1": 4, "2": 8},
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {"easy": 1, "medium": 9, "hard": 2},
+  "by_query_type": {
+    "Q1": {"count": 3, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 1.33},
+    "Q2": {"count": 1, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 2.0},
+    "Q4": {"count": 1, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 2.0},
+    "Q5": {"count": 1, "mean_score": 1.00, "flagged": 0, "mean_inference_required": 2.0},
+    "Q6": {"count": 1, "mean_score": 1.00, "flagged": 0, "mean_inference_required": 1.0},
+    "Q7": {"count": 2, "mean_score": 1.00, "flagged": 0, "mean_inference_required": 1.5},
+    "Q8": {"count": 3, "mean_score": 1.00, "flagged": 0, "mean_inference_required": 2.0}
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "difficulty_label_mismatches": [],
+  "conversation_quality": {
+    "topic_diversity": {"score": 2, "notes": "5 distinct primary threads across sessions: S1=brunch venue, S2=dinner+Jordan sports veto, S3=drinks venue+logistics shift, S4=Sonoma trip planning, S5=Jordan bailout. Appropriate for close_friends type."},
+    "voice_consistency": {"score": 1, "notes": "Minor issue: Sam profile set to Concise (typical 8-20 words) but ~43% of Sam's messages are under 3 words ('...', 'sure', 'ok', 'already there', 'smart.', 'another time') — exceeds the 20% flag threshold. Driven by Sam's speaking quirks (ellipses, delayed single-word responses); Terse would fit better as verbosity label. All other personas pass all 5 sub-dimensions. Jordan: zero emoji, zero exclamations, terse acknowledgments + logistics over-specification. Priya: frequent emoji, 'honestly' opener in 8+ turns, multi-text sequences. Maya: 'ok so' opener in 9+ turns, 'ngl' in 4 turns, rapid-fire sequences. Lena: pre-event confirmation, lateness apology."},
+    "naturalness_of_transitions": {"score": 2, "notes": "All topic shifts character-triggered. No cold jumps or announced pivots."},
+    "em_dash_free": {"score": 2, "notes": "No em dashes found in any unprotected message fields across all 5 sessions."},
+    "planted_turn_integrity": {"score": 2, "notes": "All evidence excerpts match message text verbatim. Two anchors omit trailing emoji (non-material): 'Jordan used to handle all the bookings remember' drops trailing emoji; 'Lena and I will grab the table...' drops trailing emoji."},
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

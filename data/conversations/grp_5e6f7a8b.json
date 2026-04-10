@@ -1,0 +1,890 @@
+{
+  "network_id": "grp_5e6f7a8b",
+  "sessions": [
+    {
+      "session_id": "grp_5e6f7a8b_s01",
+      "network_id": "grp_5e6f7a8b",
+      "session_index": 1,
+      "topic": "Planning objection to no. 22 loft conversion",
+      "date_label": "Session 1, Monday May 5, 2025 11:04am",
+      "prior_session_summary": null,
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t000",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 5, 11:04am",
+          "message": "Quick question for the street, has anyone seen the planning notice on no. 22's gate? They're applying for a rear dormer and loft conversion. Consultation closes Friday.",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-05T11:04:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t001",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 5, 11:17am",
+          "message": "I saw it this morning. I remember when no. 22 was a single-storey cottage. This street does not need any more bulk added to it. I shall be objecting.",
+          "message_index": 2,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s1c1",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_a5b2c3d4",
+              "speaker_persona_id": "p_a5b2c3d4",
+              "fact_attribute": "opposition_to_development",
+              "fact_value": "Claudette opposes planning applications that change the street's residential character; she objects on grounds of visual bulk and preserving the street's character, not noise or traffic",
+              "evidence_span": "This street does not need any more bulk added to it. I shall be objecting.",
+              "implicitness_level": 2,
+              "session_index": 1,
+              "turn_index": 1
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t000",
+          "timestamp": "2025-05-05T11:17:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t002",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "May 5, 11:22am",
+          "message": "I'd want to know about the skip and scaffolding access. Last time there was building work that side it blocked the school gate for two weeks.",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t000",
+          "timestamp": "2025-05-05T11:22:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t003",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 5, 11:31am",
+          "message": "Good points both. Just checking, does anyone want to do a joint letter? A collective objection carries more weight than individual ones. Worth considering before Friday.",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-05T11:31:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t004",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 5, 11:45am",
+          "message": "I would prefer a joint letter, yes. Thirty years on this street and I have always found we do better together when it comes to planning. Individual letters get filed. A joint letter gets read.",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t003",
+          "timestamp": "2025-05-05T11:45:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t005",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 5, 12:03pm",
+          "message": "not really my fight tbh, I rent 🙂 happy to add my name if it helps?",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t003",
+          "timestamp": "2025-05-05T12:03:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t006",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 5, 12:14pm",
+          "message": "Every name helps, Jordan. Thanks all, I'll draft something and share it here before we send. Let's keep it on the street first before anyone goes straight to the council.",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-05T12:14:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t007",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5d4e5f6",
+          "speaker_display_name": "Vera",
+          "timestamp_label": "May 5, 6:52pm",
+          "message": "Already sent mine to the council. Main concerns: scaffolding access, parking disruption during works.",
+          "message_index": 8,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s1c2",
+              "challenge_type": "false_attribution_seed",
+              "subject_persona_id": "p_a5d4e5f6",
+              "speaker_persona_id": "p_a5d4e5f6",
+              "fact_attribute": "parking_concern_type",
+              "fact_value": "Vera objects to the planning application specifically because scaffolding and works vehicles will block parking she needs for home visits; her parking concern is functional/professional. Claudette also opposes development but her concern is aesthetic — visual bulk and street character. Both oppose the application but for entirely different reasons.",
+              "evidence_span": "scaffolding access, parking disruption during works",
+              "implicitness_level": 2,
+              "session_index": 1,
+              "turn_index": 7
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t003",
+          "timestamp": "2025-05-05T18:52:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t008",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 5, 6:54pm",
+          "message": "ah ok fair, I can still add my name to the joint one if you're sending both",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t007",
+          "timestamp": "2025-05-05T18:54"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s01_t009",
+          "session_id": "grp_5e6f7a8b_s01",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 5, 6:56pm",
+          "message": "yes please, still helps. I'll share a draft tonight.",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s01_t008",
+          "timestamp": "2025-05-05T18:56"
+        }
+      ],
+      "date": "2025-05-05"
+    },
+    {
+      "session_id": "grp_5e6f7a8b_s02",
+      "network_id": "grp_5e6f7a8b",
+      "session_index": 2,
+      "topic": "Street party planning; residents' parking scheme consultation",
+      "date_label": "Session 2, Monday May 12, 2025 3:15pm",
+      "prior_session_summary": "Joint objection to no. 22 loft conversion submitted. Vera submitted her own objection separately. Femi organised the collective letter.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t000",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 12, 3:15pm",
+          "message": "Quick question for the street, the council is consulting on a Residents' Parking Zone for our road. Proposal is controlled hours Mon–Fri 8am–6pm, permits at £80/year. Thoughts? I want to know where everyone stands before the meeting.",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-12T15:15:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t001",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 12, 3:28pm",
+          "message": "I have mixed feelings. I understand the frustration with commuter parking. But £80 a year is an additional burden on residents who have always parked freely here. I remember when you could park outside your own home without paying for the privilege. I am not convinced.",
+          "message_index": 2,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s2c1",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_a5b2c3d4",
+              "speaker_persona_id": "p_a5b2c3d4",
+              "fact_attribute": "parking_scheme_opposition",
+              "fact_value": "Claudette is opposed to the residents' parking scheme primarily because she objects to paying for something that was previously free; she drives and relies on unmanaged parking",
+              "evidence_span": "£80 a year is an additional burden on residents who have always parked freely here. I am not convinced.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 1
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t000",
+          "timestamp": "2025-05-12T15:28:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t002",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "May 12, 3:35pm",
+          "message": "I'm in favour. As a parent, the school gate situation is untenable, people park on the pavement all morning. Permits would fix that overnight.",
+          "message_index": 3,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s2c2",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_a5e5f6a7",
+              "speaker_persona_id": "p_a5e5f6a7",
+              "fact_attribute": "parking_scheme_support",
+              "fact_value": "Marcus supports the residents' parking scheme specifically to reduce pavement parking near the school gate; his reason is child safety, not convenience",
+              "evidence_span": "the school gate situation is untenable, people park on the pavement all morning. Permits would fix that overnight.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 2
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t000",
+          "timestamp": "2025-05-12T15:35:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t003",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 12, 3:41pm",
+          "message": "I don't have a car so it doesn't really affect me 🙂 but £80 still feels steep",
+          "message_index": 4,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s2c3",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_a5c3d4e5",
+              "speaker_persona_id": "p_a5c3d4e5",
+              "fact_attribute": "parking_scheme_view",
+              "fact_value": "Jordan has no car and the parking scheme doesn't affect them; they are neutral but sympathetic to cost concerns on behalf of others",
+              "evidence_span": "I don't have a car so it doesn't really affect me",
+              "implicitness_level": 1,
+              "session_index": 2,
+              "turn_index": 3
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t000",
+          "timestamp": "2025-05-12T15:41:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t004",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 12, 3:49pm",
+          "message": "I'm broadly in favour. My concern is the commuter overflow onto the next street.",
+          "message_index": 5,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s2c4",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_a5a1b2c3",
+              "speaker_persona_id": "p_a5a1b2c3",
+              "fact_attribute": "parking_scheme_view",
+              "fact_value": "Femi is broadly in favour of the residents' parking scheme but has reservations about displacing commuter parking to neighbouring streets",
+              "evidence_span": "I'm broadly in favour. My concern is the commuter overflow onto the next street.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 4
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t000",
+          "timestamp": "2025-05-12T15:49:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t005",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5d4e5f6",
+          "speaker_display_name": "Vera",
+          "timestamp_label": "May 12, 6:03pm",
+          "message": "Support the scheme. Home visits mean I need parking here on clinic days.",
+          "message_index": 6,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s2c5",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_a5d4e5f6",
+              "speaker_persona_id": "p_a5d4e5f6",
+              "fact_attribute": "parking_scheme_view",
+              "fact_value": "Vera supports the residents' parking scheme because she needs reliable parking near her home for professional home visits; her reason is occupational necessity",
+              "evidence_span": "I do home visits and need reliable parking near the house. The current situation is unworkable on clinic days.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 5
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t000",
+          "timestamp": "2025-05-12T18:03:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t006",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 12, 6:15pm",
+          "message": "Good to have views from everyone. So: Vera and Marcus in favour, Claudette against, Jordan neutral, me broadly yes with caveats. I'll represent that range at the consultation meeting. Thanks all.",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-12T18:15:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t007",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 12, 6:17pm",
+          "message": "if they do it I'd want a review after a year tbh",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t006",
+          "timestamp": "2025-05-12T18:17"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t008",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5d4e5f6",
+          "speaker_display_name": "Vera",
+          "timestamp_label": "May 12, 6:19pm",
+          "message": "a review clause would be sensible",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t007",
+          "timestamp": "2025-05-12T18:19"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s02_t009",
+          "session_id": "grp_5e6f7a8b_s02",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 12, 6:21pm",
+          "message": "a trial period I could live with. Permanence is what irritates me",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s02_t008",
+          "timestamp": "2025-05-12T18:21"
+        }
+      ],
+      "date": "2025-05-12"
+    },
+    {
+      "session_id": "grp_5e6f7a8b_s03",
+      "network_id": "grp_5e6f7a8b",
+      "session_index": 3,
+      "topic": "Near-miss at school gate; Vera's noise complaint",
+      "date_label": "Session 3, Monday May 19, 2025 8:47am",
+      "prior_session_summary": "Parking scheme consultation: Vera and Marcus in favour (different reasons), Claudette against (cost), Jordan neutral (no car), Femi broadly yes with caveats. Femi represented the group at the meeting.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t000",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "May 19, 8:47am",
+          "message": "Really concerning one from the school gate this morning. A car reversed off no. 19's driveway and my son was right there, driver didn't see him. He's fine but I'm shaking. I'm raising this formally today.",
+          "message_index": 1,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s3c1",
+              "challenge_type": "temporal_shift",
+              "subject_persona_id": "p_a5e5f6a7",
+              "speaker_persona_id": "p_a5e5f6a7",
+              "fact_attribute": "traffic_concern_intensity",
+              "fact_value": "Marcus has shifted from occasional mentions of traffic concerns to urgent formal escalation after a near-miss involving his child at the school gate",
+              "evidence_span": "A car reversed off no. 19's driveway and my son was right there — driver didn't see him. As a parent this has to be dealt with. I'm raising this formally today.",
+              "implicitness_level": 2,
+              "session_index": 3,
+              "turn_index": 0
+            }
+          ],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-19T08:47:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t001",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 19, 8:53am",
+          "message": "Marcus, so glad your son is okay. Absolutely raise it. Do you want to coordinate with the rest of us first? A joint request for a traffic assessment would carry more weight.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t000",
+          "timestamp": "2025-05-19T08:53:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t002",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 19, 9:02am",
+          "message": "How frightening. I remember when this was a quiet road. All this traffic is exactly what happens when you allow more development, more occupants, more cars, more danger for our children.",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t000",
+          "timestamp": "2025-05-19T09:02:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t003",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 19, 9:08am",
+          "message": "oh that's so scary, glad he's ok 💛 lmk if there's something I can sign",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t000",
+          "timestamp": "2025-05-19T09:08:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t004",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5d4e5f6",
+          "speaker_display_name": "Vera",
+          "timestamp_label": "May 19, 7:14pm",
+          "message": "Already contacted highways directly about the school gate. Didn't post here first. Needed immediate action.",
+          "message_index": 5,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s3c2",
+              "challenge_type": "norm_violation",
+              "subject_persona_id": "p_a5d4e5f6",
+              "speaker_persona_id": "p_a5d4e5f6",
+              "fact_attribute": "council_escalation_bypass",
+              "fact_value": "Vera again bypasses the group chat norm of raising issues on the street first, going directly to the council. She explicitly flags this as intentional.",
+              "evidence_span": "Didn't post here first. Needed immediate action.",
+              "implicitness_level": 1,
+              "session_index": 3,
+              "turn_index": 4
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t000",
+          "timestamp": "2025-05-19T19:14:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t005",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 19, 7:28pm",
+          "message": "Vera, understood. I'd just ask that we try to coordinate when we can. It's more effective. But noted. Thanks all, I'll follow up with highways too.",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t004",
+          "timestamp": "2025-05-19T19:28:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t006",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "May 19, 7:30pm",
+          "message": "thanks all. I'm sorry, I'm still properly shaken",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t005",
+          "timestamp": "2025-05-19T19:30"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t007",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 19, 7:32pm",
+          "message": "send us whatever you need signed and I'll do it",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t006",
+          "timestamp": "2025-05-19T19:32"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t008",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 19, 7:34pm",
+          "message": "include the driveway at no. 19 in the note. That corner has been bad for months",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t007",
+          "timestamp": "2025-05-19T19:34"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s03_t009",
+          "session_id": "grp_5e6f7a8b_s03",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 19, 7:36pm",
+          "message": "will do. I'll draft something tonight and drop it here first",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s03_t008",
+          "timestamp": "2025-05-19T19:36"
+        }
+      ],
+      "date": "2025-05-19"
+    },
+    {
+      "session_id": "grp_5e6f7a8b_s04",
+      "network_id": "grp_5e6f7a8b",
+      "session_index": 4,
+      "topic": "Street party planning; Femi steps up as organiser",
+      "date_label": "Session 4, Monday May 26, 2025 5:30pm",
+      "prior_session_summary": "Marcus raised school gate near-miss. Vera contacted highways directly without posting here first. Femi followed up with highways. Marcus now actively escalating traffic safety.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t000",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 26, 5:30pm",
+          "message": "Quick question for the street, summer street party! I know Len used to organise this but since he moved I've gone ahead and booked the road closure for the last Saturday of July. Same format as before: tables out front, bring something to share. Is everyone in? Need to know numbers for the council permit.",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-26T17:30:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t001",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 26, 5:41pm",
+          "message": "Wonderful. I will bring my Victoria sponge. I remember when Len used to get thirty people out. We should aim for that again.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t000",
+          "timestamp": "2025-05-26T17:41:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t002",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "May 26, 5:44pm",
+          "message": "We're in 🙌 kids will love it. I'll do the face painting station again.",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t000",
+          "timestamp": "2025-05-26T17:44:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t003",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 26, 5:47pm",
+          "message": "yes!! I'll come 🎉 happy to help set up in the morning if needed",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t000",
+          "timestamp": "2025-05-26T17:47:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t004",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 26, 6:02pm",
+          "message": "Great, that's Claudette, Marcus's family, Jordan, and me confirmed. Vera, are you able to join this year?",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-05-26T18:02:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t005",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5d4e5f6",
+          "speaker_display_name": "Vera",
+          "timestamp_label": "May 26, 9:11pm",
+          "message": "On call that weekend. Apologies.",
+          "message_index": 6,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s4c1",
+              "challenge_type": "group_decision",
+              "subject_persona_id": null,
+              "speaker_persona_id": "p_a5d4e5f6",
+              "fact_attribute": "street_party_attendance",
+              "fact_value": "Vera is the only person who did not attend the summer street party; she was on call that weekend. All others confirmed attendance.",
+              "evidence_span": "On call that weekend. Apologies.",
+              "implicitness_level": 1,
+              "session_index": 4,
+              "turn_index": 5
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t004",
+          "timestamp": "2025-05-26T21:11:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t006",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 26, 9:16pm",
+          "message": "Understood, we'll save you a slice. Jordan already knows Claudette doesn't want new faces from outside the street, so let's keep it residents only this year.",
+          "message_index": 7,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s4c2",
+              "challenge_type": "theory_of_mind",
+              "subject_persona_id": "p_a5b2c3d4",
+              "speaker_persona_id": "p_a5a1b2c3",
+              "fact_attribute": "claudette_preference_known_by_femi",
+              "fact_value": "Femi knows Claudette prefers the street party to remain residents-only and manages this preference on her behalf without asking her again",
+              "evidence_span": "Jordan already knows Claudette doesn't want new faces from outside the street, so let's keep it residents only this year.",
+              "implicitness_level": 2,
+              "session_index": 4,
+              "turn_index": 6
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t003",
+          "timestamp": "2025-05-26T21:16:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t007",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "May 26, 9:18pm",
+          "message": "residents only feels right to me. It keeps the day neighbourly",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t006",
+          "timestamp": "2025-05-26T21:18"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t008",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "May 26, 9:20pm",
+          "message": "perfect, I'll do folding tables and tape if that helps",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t007",
+          "timestamp": "2025-05-26T21:20"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s04_t009",
+          "session_id": "grp_5e6f7a8b_s04",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "May 26, 9:22pm",
+          "message": "that helps a lot, thanks Jordan",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s04_t008",
+          "timestamp": "2025-05-26T21:22"
+        }
+      ],
+      "date": "2025-05-26"
+    },
+    {
+      "session_id": "grp_5e6f7a8b_s05",
+      "network_id": "grp_5e6f7a8b",
+      "session_index": 5,
+      "topic": "Post-party; Femi and Claudette relationship",
+      "date_label": "Session 5, Monday June 2, 2025 4:02pm",
+      "prior_session_summary": "Summer street party confirmed. Vera on call — skipping. All others attending. Femi managing Claudette's preference for residents-only guest list.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t000",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "Jun 2, 4:02pm",
+          "message": "What a day. Best turnout we've had in years. Thanks all for making it work. Jordan, you were brilliant on the set-up. Claudette's sponge was the centrepiece as ever. Thanks all!",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-06-02T16:02:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t001",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "Jun 2, 4:19pm",
+          "message": "Femi, you have done Len proud. I was quite emotional seeing the whole street out together. This is what Maple Street is for, people, not parking schemes.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t000",
+          "timestamp": "2025-06-02T16:19:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t002",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "Jun 2, 4:24pm",
+          "message": "so lovely 🥹 Claudette tell me about Maple Street in the 90s sometime",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t001",
+          "timestamp": "2025-06-02T16:24:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t003",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "Jun 2, 4:31pm",
+          "message": "My two are still talking about the face paint 😂 as a parent this is exactly what I want them growing up with. Same time next year Femi?",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t000",
+          "timestamp": "2025-06-02T16:31:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t004",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "Jun 2, 4:38pm",
+          "message": "Already booked the date. Claudette, you're on sponge duty forever. Thanks all.",
+          "message_index": 5,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_a5s5c1",
+              "challenge_type": "relational_disclosure",
+              "subject_persona_id": "p_a5b2c3d4",
+              "speaker_persona_id": "p_a5a1b2c3",
+              "fact_attribute": "femi_claudette_organiser_relationship",
+              "fact_value": "Femi and Claudette have developed a close working relationship as the street's institutional anchor and its organiser; Femi treats Claudette as a partner whose approval matters and defers to her preferences publicly",
+              "evidence_span": "Claudette — you're officially on sponge duties in perpetuity.",
+              "implicitness_level": 2,
+              "session_index": 5,
+              "turn_index": 4
+            }
+          ],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t000",
+          "timestamp": "2025-06-02T16:38:00"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t005",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5c3d4e5",
+          "speaker_display_name": "Jordan",
+          "timestamp_label": "Jun 2, 4:40pm",
+          "message": "seriously though Claudette, were the old parties this busy?",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t004",
+          "timestamp": "2025-06-02T16:40"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t006",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5b2c3d4",
+          "speaker_display_name": "Claudette",
+          "timestamp_label": "Jun 2, 4:42pm",
+          "message": "busier sometimes. In the 90s people brought out cassette decks and stayed until dusk",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t005",
+          "timestamp": "2025-06-02T16:42"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t007",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5e5f6a7",
+          "speaker_display_name": "Marcus",
+          "timestamp_label": "Jun 2, 4:44pm",
+          "message": "my two would absolutely love that version next year 😂",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t006",
+          "timestamp": "2025-06-02T16:44"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t008",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5a1b2c3",
+          "speaker_display_name": "Femi",
+          "timestamp_label": "Jun 2, 4:46pm",
+          "message": "noted. same layout next year, maybe better speakers",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t007",
+          "timestamp": "2025-06-02T16:46"
+        },
+        {
+          "turn_id": "grp_5e6f7a8b_s05_t009",
+          "session_id": "grp_5e6f7a8b_s05",
+          "speaker_persona_id": "p_a5d4e5f6",
+          "speaker_display_name": "Vera",
+          "timestamp_label": "Jun 2, 4:48pm",
+          "message": "glad it went well. Save me a slice next time if I'm not on call",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_5e6f7a8b_s05_t008",
+          "timestamp": "2025-06-02T16:48"
+        }
+      ],
+      "date": "2025-06-02"
+    }
+  ],
+  "total_turns": 36,
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_a5s1c1",
+      "session_index": 1,
+      "turn_id": "grp_5e6f7a8b_s01_t001"
+    },
+    {
+      "challenge_id": "ch_a5s1c2",
+      "session_index": 1,
+      "turn_id": "grp_5e6f7a8b_s01_t007"
+    },
+    {
+      "challenge_id": "ch_a5s2c1",
+      "session_index": 2,
+      "turn_id": "grp_5e6f7a8b_s02_t001"
+    },
+    {
+      "challenge_id": "ch_a5s2c2",
+      "session_index": 2,
+      "turn_id": "grp_5e6f7a8b_s02_t002"
+    },
+    {
+      "challenge_id": "ch_a5s2c3",
+      "session_index": 2,
+      "turn_id": "grp_5e6f7a8b_s02_t003"
+    },
+    {
+      "challenge_id": "ch_a5s2c4",
+      "session_index": 2,
+      "turn_id": "grp_5e6f7a8b_s02_t004"
+    },
+    {
+      "challenge_id": "ch_a5s2c5",
+      "session_index": 2,
+      "turn_id": "grp_5e6f7a8b_s02_t005"
+    },
+    {
+      "challenge_id": "ch_a5s3c1",
+      "session_index": 3,
+      "turn_id": "grp_5e6f7a8b_s03_t000"
+    },
+    {
+      "challenge_id": "ch_a5s3c2",
+      "session_index": 3,
+      "turn_id": "grp_5e6f7a8b_s03_t004"
+    },
+    {
+      "challenge_id": "ch_a5s4c1",
+      "session_index": 4,
+      "turn_id": "grp_5e6f7a8b_s04_t005"
+    },
+    {
+      "challenge_id": "ch_a5s4c2",
+      "session_index": 4,
+      "turn_id": "grp_5e6f7a8b_s04_t006"
+    },
+    {
+      "challenge_id": "ch_a5s5c1",
+      "session_index": 5,
+      "turn_id": "grp_5e6f7a8b_s05_t004"
+    }
+  ],
+  "start_date": "2025-05-05"
+}

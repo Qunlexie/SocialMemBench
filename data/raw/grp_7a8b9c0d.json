@@ -1,0 +1,382 @@
+{
+  "network_id": "grp_7a8b9c0d",
+  "group_name": "The Park Family",
+  "group_type": "family",
+  "group_size": 4,
+  "seed": 7,
+  "personas": [
+    {
+      "persona_id": "p_fm7a1b2c3",
+      "display_name": "Mum",
+      "age": 60,
+      "gender": "F",
+      "background": "Patience Park. Recently retired primary school teacher. Spent forty years caring for other people's children; now overwhelmed by having unstructured time. Loving but catastrophises minor family issues. Has become very active on the family chat since retirement — sometimes over-sharing.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Warm",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "will cook for any occasion; resists being told she doesn't need to cater for everything",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants the whole family together for celebrations but gets overwhelmed by large organised events and prefers intimate gatherings she can control",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "chat_activity",
+          "old_value": "read the family chat but rarely posted; left responses to Imogen",
+          "new_value": "now very active — sends multiple messages a day, good-morning photos, recipe shares; retirement removed the professional boundary she used to maintain",
+          "changed_at_session": 1,
+          "trigger": "retired between sessions 0 and 1; with no school routine, the chat became her primary social outlet"
+        }
+      ],
+      "speaking_quirks": [
+        "sends good-morning messages with a sunrise photo",
+        "uses 'your father' to refer to Dad even when talking to him directly",
+        "adds 'just me?' when she's worried she's being too much"
+      ],
+      "occupation": "retired primary school teacher",
+      "skills_list": [
+        {
+          "skill": "gardening",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "baking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "knitting",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_fm7b2c3d4",
+      "display_name": "Dad",
+      "age": 62,
+      "gender": "M",
+      "background": "Raymond Park. Accountant, still working three days a week. Quiet, measured. Has been quietly struggling since a minor health scare that he mentioned to no one in the family but Imogen noticed. Reads the chat but posts rarely — lets Patience handle the social fabric.",
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers low-key family occasions; uncomfortable with fuss or large gatherings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "lets Mum manage family logistics; inserts himself only when he disagrees with a direction",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "health_disclosure",
+          "old_value": "would mention health concerns to Patience without delay",
+          "new_value": "had a minor cardiac event; told Imogen but not Patience; managing quietly to avoid worrying his wife",
+          "changed_at_session": 3,
+          "trigger": "cardiac scare in session 3; disclosed to Imogen but actively hid it from Patience and Kofi"
+        }
+      ],
+      "speaking_quirks": [
+        "posts in the chat with 'your mother and I' as a unit",
+        "signs messages with 'Dad' even on a phone",
+        "deflects personal questions with 'all fine here'"
+      ],
+      "occupation": "accountant (part-time)",
+      "skills_list": [
+        {
+          "skill": "woodworking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "low"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_fm7c3d4e5",
+      "display_name": "Kofi",
+      "age": 34,
+      "gender": "M",
+      "background": "Oldest child, lives in Toronto. Works in tech. Has the most distance from the family dynamics — physically and emotionally — but calls in for big moments. Financially comfortable but the cost of transatlantic travel means he can only realistically come home once a year. Feels guilt about this.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Warm",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "can only realistically visit once a year; prioritises the summer visit; cannot always make Christmas due to Canadian winter travel",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers low-key family time when he visits rather than big organised events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "anniversary_event_preference",
+          "old_value": "open to a big family party for parents' anniversary",
+          "new_value": "opposes a big party partly because the cost and timing of travel from Toronto makes attendance difficult",
+          "changed_at_session": 2,
+          "trigger": "flights home during the proposed anniversary month are very expensive; Kofi can't justify another flight so soon after summer"
+        }
+      ],
+      "speaking_quirks": [
+        "calculates time zone when responding: 'just getting in — it's late here'",
+        "sends voice notes for emotional things",
+        "uses 'from my end' to describe his situation"
+      ],
+      "occupation": "software product manager",
+      "skills_list": [
+        {
+          "skill": "fitness training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "travel planning",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_fm7d4e5f6",
+      "display_name": "Imogen",
+      "age": 31,
+      "gender": "F",
+      "background": "Youngest child, lives 20 minutes from the family home. Works in NHS administration. Manages most of the practical family logistics — doctors' appointments, repairs, shopping — without ever naming it as a burden. Noticed Dad's health issue and is carrying that quietly. Gets slightly worn down but presents as cheerful.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Moderate",
+        "humor": "Warm",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "handles most family admin and logistics quietly; does not seek credit and deflects when acknowledged",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "would welcome more involvement from Kofi in family logistics; doesn't say so directly",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "caretaking_acknowledgment",
+          "old_value": "managed logistics cheerfully without any reference to the load",
+          "new_value": "starting to show subtle exhaustion — occasional 'I'm on it' with a tired emoji; still not named as a problem",
+          "changed_at_session": 3,
+          "trigger": "Dad's health scare added to logistics load; Imogen is managing his appointment follow-ups on top of the usual"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'already sorted' or 'I'm on it' before anyone asks who's doing logistics",
+        "deflects acknowledgments with 'of course, no problem'",
+        "adds a tired emoji (😴) to messages more often in later sessions"
+      ],
+      "occupation": "NHS administrator",
+      "skills_list": [
+        {
+          "skill": "logistics and organisation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "baking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "running",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_fm7a1b2c3",
+      "persona_b_id": "p_fm7b2c3d4",
+      "relationship_type": "married couple",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "40-year marriage. Patience manages the social fabric; Raymond lets her. He is protective of her and concealing his health situation to avoid worry.",
+      "shared_events": [
+        "40th anniversary coming up"
+      ]
+    },
+    {
+      "persona_a_id": "p_fm7a1b2c3",
+      "persona_b_id": "p_fm7c3d4e5",
+      "relationship_type": "parent-child",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Patience is proud of Kofi and missing him. She calls him regularly.",
+      "shared_events": [
+        "Kofi's summer visit each year"
+      ]
+    },
+    {
+      "persona_a_id": "p_fm7a1b2c3",
+      "persona_b_id": "p_fm7d4e5f6",
+      "relationship_type": "parent-child",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Imogen is nearby and involved. Patience relies on Imogen for logistics without fully acknowledging how much.",
+      "shared_events": [
+        "weekly Sunday dinners"
+      ]
+    },
+    {
+      "persona_a_id": "p_fm7b2c3d4",
+      "persona_b_id": "p_fm7c3d4e5",
+      "relationship_type": "parent-child",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Raymond is proud of Kofi. The physical distance makes them phone-call close but not day-to-day. Raymond disclosed nothing about his health to Kofi.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_fm7b2c3d4",
+      "persona_b_id": "p_fm7d4e5f6",
+      "relationship_type": "parent-child (closest pair)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Raymond is closest to Imogen — she is nearby and he trusts her discretion. He disclosed his cardiac scare to her alone.",
+      "shared_events": [
+        "Dad disclosed health scare to Imogen only"
+      ]
+    },
+    {
+      "persona_a_id": "p_fm7c3d4e5",
+      "persona_b_id": "p_fm7d4e5f6",
+      "relationship_type": "siblings",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Close siblings, but Imogen carries the daily family load while Kofi lives abroad. They love each other deeply, and the guilt/resentment edge sometimes sits underneath that closeness.",
+      "shared_events": [
+        "shared childhood home",
+        "regular weekly calls"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Everyone comes home for Christmas — no exceptions.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_fm7c3d4e5"
+      ]
+    },
+    {
+      "norm_text": "Family decisions (big ones) get discussed in the chat before any external plans are made.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "No sharing family health or personal news outside the chat without checking first.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_fm7b2c3d4"
+      ]
+    }
+  ],
+  "metadata": {}
+}

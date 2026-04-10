@@ -1,0 +1,849 @@
+{
+  "network_id": "grp_0d1e2f3a",
+  "sessions": [
+    {
+      "session_id": "grp_0d1e2f3a_s01",
+      "network_id": "grp_0d1e2f3a",
+      "session_index": 1,
+      "topic": "Quarterly drinks planning; Leon's startup announcement",
+      "date_label": "Session 1, Monday October 6, 2025 12:08pm",
+      "prior_session_summary": null,
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t000",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 6, 12:08pm",
+          "message": "Quarterly drinks! Last Thursday of the month? I've found a new place in Soho, proper booths \ud83d\ude01",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-10-06T12:08:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t001",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 6, 12:14pm",
+          "message": "I can do 7\u20139. My team has a big handover that week so I'll need a hard stop.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t000",
+          "timestamp": "2025-10-06T12:14:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t002",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 6, 12:19pm",
+          "message": "I'm in \ud83d\ude42 need this",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t000",
+          "timestamp": "2025-10-06T12:19:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t003",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 6, 2:41pm",
+          "message": "just got covered by TechCrunch \ud83d\udd25 might be able to make it actually. it's been a journey but we're close to profitability. Will confirm closer to the date",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t000",
+          "timestamp": "2025-10-06T14:41:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t004",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 6, 2:44pm",
+          "message": "classic Leon response \ud83d\ude02 we'll have your booth ready in case",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t003",
+          "timestamp": "2025-10-06T14:44:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t005",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 6, 2:48pm",
+          "message": "Near Soho is good. I genuinely have a hard stop though, no heroic late one from me.",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t004",
+          "timestamp": "2025-10-06T14:48:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t006",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 6, 2:53pm",
+          "message": "Same, somewhere easy and not shouty please",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t005",
+          "timestamp": "2025-10-06T14:53:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t007",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 6, 2:57pm",
+          "message": "if I make it I'm ordering champagne and behaving terribly",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t006",
+          "timestamp": "2025-10-06T14:57:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t008",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 6, 3:02pm",
+          "message": "You say that like it's a threat and not the brand",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t007",
+          "timestamp": "2025-10-06T15:02:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s01_t009",
+          "session_id": "grp_0d1e2f3a_s01",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 6, 3:06pm",
+          "message": "exactly. consistency matters",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s01_t008",
+          "timestamp": "2025-10-06T15:06:00"
+        }
+      ],
+      "date": "2025-10-06"
+    },
+    {
+      "session_id": "grp_0d1e2f3a_s02",
+      "network_id": "grp_0d1e2f3a",
+      "session_index": 2,
+      "topic": "Post-drinks debrief; Leon didn't come",
+      "date_label": "Session 2, Monday October 13, 2025 9:02am",
+      "prior_session_summary": "Quarterly drinks planned for last Thursday of the month. Mei confirmed 7\u20139, Priya in, Leon 'might make it' after TechCrunch coverage.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t000",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 13, 9:02am",
+          "message": "Good to see you both last night \ud83c\udf7b Priya you look really well. Mei, your team sounds intense. Leon didn't come again.",
+          "message_index": 1,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_c0s2c1",
+              "challenge_type": "consensus_trap",
+              "subject_persona_id": "p_c0d4e5f6",
+              "speaker_persona_id": "p_c0b2c3d4",
+              "fact_attribute": "leon_attendance_pattern",
+              "fact_value": "Leon did not attend the quarterly drinks \u2014 again. Josh's 'again' signals this is a pattern, not a one-off.",
+              "evidence_span": "Leon didn't come again.",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 0
+            }
+          ],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-10-13T09:02:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t001",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 13, 9:11am",
+          "message": "My team is intense but it's a good problem to have honestly. Leon, what happened?",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t000",
+          "timestamp": "2025-10-13T09:11:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t002",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 13, 11:33am",
+          "message": "investor call ran over, can't be helped when you're at that stage \ud83d\ude80 next one for sure",
+          "message_index": 3,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_c0s2c2",
+              "challenge_type": "false_attribution_seed",
+              "subject_persona_id": "p_c0d4e5f6",
+              "speaker_persona_id": "p_c0d4e5f6",
+              "fact_attribute": "quarterly_drinks_norm_breach",
+              "fact_value": "Leon again failed to attend the quarterly drinks and explains it as investor call \u2014 a pattern the group has accepted with low expectations",
+              "evidence_span": "investor call ran over, can't be helped when you're at that stage",
+              "implicitness_level": 2,
+              "session_index": 2,
+              "turn_index": 2
+            }
+          ],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t001",
+          "timestamp": "2025-10-13T11:33:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t003",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 13, 12:04pm",
+          "message": "We missed you \ud83d\ude42 it was a good night though",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t002",
+          "timestamp": "2025-10-13T12:04:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t004",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 13, 12:08pm",
+          "message": "Was the investor at least worth missing actual humans for",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t003",
+          "timestamp": "2025-10-13T12:08:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t005",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 13, 12:13pm",
+          "message": "Potentially, yes \ud83d\ude05 brutal timing though",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t004",
+          "timestamp": "2025-10-13T12:13:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t006",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 13, 12:17pm",
+          "message": "You could have texted before 10pm to be fair",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t005",
+          "timestamp": "2025-10-13T12:17:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t007",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 13, 12:22pm",
+          "message": "Fair. I thought I'd make it and then it blew up.",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t006",
+          "timestamp": "2025-10-13T12:22:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t008",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 13, 12:26pm",
+          "message": "Next round is on you then \ud83d\ude42",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t007",
+          "timestamp": "2025-10-13T12:26:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s02_t009",
+          "session_id": "grp_0d1e2f3a_s02",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 13, 12:31pm",
+          "message": "documented and legally binding",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s02_t008",
+          "timestamp": "2025-10-13T12:31:00"
+        }
+      ],
+      "date": "2025-10-13"
+    },
+    {
+      "session_id": "grp_0d1e2f3a_s03",
+      "network_id": "grp_0d1e2f3a",
+      "session_index": 3,
+      "topic": "Career comparison thread; Josh deflects",
+      "date_label": "Session 3, Monday October 20, 2025 6:31pm",
+      "prior_session_summary": "Drinks happened \u2014 Mei and Priya came, Leon didn't. Josh hosting. Mei mentioned her team again.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t000",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 20, 6:31pm",
+          "message": "another round closed! Series A confirmed. journey continues \ud83d\ude80 what's everyone else up to professionally these days?",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-10-20T18:31:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t001",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 20, 6:38pm",
+          "message": "Congrats Leon. Still building the team, we're at eight now. Just brought in two seniors which changes the dynamic completely.",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t000",
+          "timestamp": "2025-10-20T18:38:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t002",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 20, 6:42pm",
+          "message": "still in the same chair \ud83d\ude02\ud83d\ude02 living the dream. Priya you're the one with the interesting job now",
+          "message_index": 3,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_c0s3c1",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_c0b2c3d4",
+              "speaker_persona_id": "p_c0b2c3d4",
+              "fact_attribute": "career_deflection",
+              "fact_value": "Josh deflects career questions with self-deprecating humour ('still in the same chair') and immediately redirects to someone else; he has stopped sharing about his own career trajectory",
+              "evidence_span": "still in the same chair \ud83d\ude02\ud83d\ude02 living the dream. Priya you're the one with the interesting job now",
+              "implicitness_level": 2,
+              "session_index": 3,
+              "turn_index": 2
+            }
+          ],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t000",
+          "timestamp": "2025-10-20T18:42:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t003",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 20, 6:47pm",
+          "message": "good question \ud83d\ude02 it's a lot. different kind of hard than expected. anyway, are we doing next quarter?",
+          "message_index": 4,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_c0s3c2",
+              "challenge_type": "implicit_preference",
+              "subject_persona_id": "p_c0c3d4e5",
+              "speaker_persona_id": "p_c0c3d4e5",
+              "fact_attribute": "career_topic_avoidance",
+              "fact_value": "Priya deflects the career question with a vague 'different kind of hard than expected' and immediately pivots to logistics, she does not discuss her physio career challenges in the full group",
+              "evidence_span": "it's a lot. different kind of hard than expected. anyway, are we doing next quarter?",
+              "implicitness_level": 2,
+              "session_index": 3,
+              "turn_index": 3
+            }
+          ],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t002",
+          "timestamp": "2025-10-20T18:47:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t004",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 20, 6:51pm",
+          "message": "Josh you cannot still call six years at the same place 'same chair'",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t003",
+          "timestamp": "2025-10-20T18:51:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t005",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 20, 6:56pm",
+          "message": "watch me \ud83d\ude02 it's either that or a LinkedIn post and nobody wants that",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t004",
+          "timestamp": "2025-10-20T18:56:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t006",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Oct 20, 7:00pm",
+          "message": "Priya are you private practice now or still split across clinics",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t005",
+          "timestamp": "2025-10-20T19:00:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t007",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 20, 7:05pm",
+          "message": "bit of both. still figuring out what kind of week feels sustainable honestly",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t006",
+          "timestamp": "2025-10-20T19:05:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t008",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 20, 7:09pm",
+          "message": "We should book next quarter now before everyone's calendars become fiction",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t007",
+          "timestamp": "2025-10-20T19:09:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s03_t009",
+          "session_id": "grp_0d1e2f3a_s03",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 20, 7:14pm",
+          "message": "correct. logistics, the true love language",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s03_t008",
+          "timestamp": "2025-10-20T19:14:00"
+        }
+      ],
+      "date": "2025-10-20"
+    },
+    {
+      "session_id": "grp_0d1e2f3a_s04",
+      "network_id": "grp_0d1e2f3a",
+      "session_index": 4,
+      "topic": "Josh knows about Priya; Mei doesn't notice",
+      "date_label": "Session 4, Monday October 27, 2025 7:14pm",
+      "prior_session_summary": "Career comparison thread. Leon announced Series A. Mei mentioned team size. Josh deflected with joke. Priya deflected with vague answer about physio.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t000",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 27, 7:14pm",
+          "message": "Priya, how's the physio practice going? You mentioned it being harder than expected. Might be worth a proper career convo at next drinks \ud83d\ude42",
+          "message_index": 1,
+          "planted_challenges": [],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-10-27T19:14:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t001",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 27, 7:19pm",
+          "message": "good question \ud83d\ude42 it's fine, just a steep learning curve. rather talk about it in person",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t000",
+          "timestamp": "2025-10-27T19:19:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t002",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 27, 7:23pm",
+          "message": "Priya and I already talked about it properly last week, she's good \ud83d\ude42 not everything needs to be a group agenda item Mei \ud83d\ude02",
+          "message_index": 3,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_c0s4c1",
+              "challenge_type": "theory_of_mind",
+              "subject_persona_id": "p_c0c3d4e5",
+              "speaker_persona_id": "p_c0b2c3d4",
+              "fact_attribute": "priya_situation_known_by_josh",
+              "fact_value": "Josh reveals he already spoke with Priya privately about her career struggles \u2014 protecting her from having to discuss it in the group and gently rebuffing Mei's intervention",
+              "evidence_span": "Priya and I already talked about it properly last week, she's good",
+              "implicitness_level": 2,
+              "session_index": 4,
+              "turn_index": 2
+            }
+          ],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t001",
+          "timestamp": "2025-10-27T19:23:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t003",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 27, 7:28pm",
+          "message": "fair enough \ud83d\ude02 I just find it useful to talk these things through with people who get the career transition thing",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t002",
+          "timestamp": "2025-10-27T19:28:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t004",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 27, 7:32pm",
+          "message": "I wasn't trying to make it a panel discussion \ud83d\ude05 just offering solidarity",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t003",
+          "timestamp": "2025-10-27T19:32:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t005",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 27, 7:37pm",
+          "message": "I know, I know. just saying Priya doesn't owe the whole board an update",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t004",
+          "timestamp": "2025-10-27T19:37:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t006",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 27, 7:41pm",
+          "message": "thank you both. coffee with one person I can do, group unpacking no",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t005",
+          "timestamp": "2025-10-27T19:41:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t007",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Oct 27, 7:46pm",
+          "message": "That's fair. one-on-one coffee then, no agenda",
+          "message_index": 8,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t006",
+          "timestamp": "2025-10-27T19:46:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t008",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Oct 27, 7:50pm",
+          "message": "that I'd actually like",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t007",
+          "timestamp": "2025-10-27T19:50:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s04_t009",
+          "session_id": "grp_0d1e2f3a_s04",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Oct 27, 7:55pm",
+          "message": "Look at that, governance achieved",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s04_t008",
+          "timestamp": "2025-10-27T19:55:00"
+        }
+      ],
+      "date": "2025-10-27"
+    },
+    {
+      "session_id": "grp_0d1e2f3a_s05",
+      "network_id": "grp_0d1e2f3a",
+      "session_index": 5,
+      "topic": "Leon's trajectory; Josh-Mei dynamic surfaces",
+      "date_label": "Session 5, Monday November 3, 2025 8:44pm",
+      "prior_session_summary": "Mei offered Priya career advice in the group. Josh deflected it, revealing he and Priya had already spoken. Mei didn't register the gentle rebuff.",
+      "critic_scores": null,
+      "generation_attempts": 1,
+      "turns": [
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t000",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Nov 3, 8:44pm",
+          "message": "guys, covered by Bloomberg now too \ud83d\ude80 if you know anyone who'd want to invest let me know. it's still early but the trajectory is there",
+          "message_index": 1,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_c0s5c1",
+              "challenge_type": "consensus_trap",
+              "subject_persona_id": "p_c0d4e5f6",
+              "speaker_persona_id": "p_c0d4e5f6",
+              "fact_attribute": "recruiting_norm_breach",
+              "fact_value": "Leon asks the group to refer investors to him \u2014 breaching the norm against recruiting or soliciting in the chat",
+              "evidence_span": "if you know anyone who'd want to invest let me know",
+              "implicitness_level": 2,
+              "session_index": 5,
+              "turn_index": 0
+            }
+          ],
+          "reply_to_turn_id": null,
+          "timestamp": "2025-11-03T20:44:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t001",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Nov 3, 8:47pm",
+          "message": "legend. I'm still in the same chair so can't help with that \ud83d\ude02 come to drinks next time though Leon, genuinely",
+          "message_index": 2,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t000",
+          "timestamp": "2025-11-03T20:47:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t002",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Nov 3, 8:51pm",
+          "message": "Nice Leon. Josh, 'still in the same chair' is modesty, you've been there six years and know everything \ud83d\ude04",
+          "message_index": 3,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t001",
+          "timestamp": "2025-11-03T20:51:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t003",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Nov 3, 8:54pm",
+          "message": "haha \ud83d\ude02 very kind",
+          "message_index": 4,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t002",
+          "timestamp": "2025-11-03T20:54:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t004",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0a1b2c3",
+          "speaker_display_name": "Mei",
+          "timestamp_label": "Nov 3, 8:58pm",
+          "message": "Anyway, next drinks. same booth strategy?",
+          "message_index": 5,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t003",
+          "timestamp": "2025-11-03T20:58:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t005",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Nov 3, 9:03pm",
+          "message": "ironically yes. I miss the tiny booth more than another investor dinner at this point",
+          "message_index": 6,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t004",
+          "timestamp": "2025-11-03T21:03:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t006",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Nov 3, 9:07pm",
+          "message": "that's character development from our Bloomberg correspondent",
+          "message_index": 7,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t005",
+          "timestamp": "2025-11-03T21:07:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t007",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0d4e5f6",
+          "speaker_display_name": "Leon",
+          "timestamp_label": "Nov 3, 9:12pm",
+          "message": "Don't get used to it but I'd take a booth and chips over another room full of lanyards right now",
+          "message_index": 8,
+          "planted_challenges": [
+            {
+              "challenge_id": "ch_2f3as5x7",
+              "challenge_type": "temporal_shift",
+              "subject_persona_id": "p_c0d4e5f6",
+              "speaker_persona_id": "p_c0d4e5f6",
+              "fact_attribute": "social_preference",
+              "fact_value": "Leon shifts from prioritizing startup visibility and investor spaces to openly preferring the group\u2019s low-key booth drinks over another investor dinner.",
+              "evidence_span": "Don't get used to it but I'd take a booth and chips over another room full of lanyards right now",
+              "implicitness_level": 2,
+              "session_index": 5,
+              "turn_index": 7
+            }
+          ],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t006",
+          "timestamp": "2025-11-03T21:12:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t008",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0c3d4e5",
+          "speaker_display_name": "Priya",
+          "timestamp_label": "Nov 3, 9:16pm",
+          "message": "Now that I believe. booths and chips are undefeated",
+          "message_index": 9,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t007",
+          "timestamp": "2025-11-03T21:16:00"
+        },
+        {
+          "turn_id": "grp_0d1e2f3a_s05_t009",
+          "session_id": "grp_0d1e2f3a_s05",
+          "speaker_persona_id": "p_c0b2c3d4",
+          "speaker_display_name": "Josh",
+          "timestamp_label": "Nov 3, 9:21pm",
+          "message": "Great, Leon returns to the people just as the people lose faith",
+          "message_index": 10,
+          "planted_challenges": [],
+          "reply_to_turn_id": "grp_0d1e2f3a_s05_t008",
+          "timestamp": "2025-11-03T21:21:00"
+        }
+      ],
+      "date": "2025-11-03"
+    }
+  ],
+  "total_turns": 50,
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_c0s2c1",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "p_c0d4e5f6",
+      "speaker_persona_id": "p_c0b2c3d4",
+      "fact_attribute": "leon_attendance_pattern",
+      "fact_value": "Leon did not attend the quarterly drinks \u2014 again. Josh's 'again' signals this is a pattern, not a one-off.",
+      "evidence_span": "Leon didn't come again.",
+      "implicitness_level": 2,
+      "session_index": 2,
+      "turn_index": 0
+    },
+    {
+      "challenge_id": "ch_c0s2c2",
+      "challenge_type": "false_attribution_seed",
+      "subject_persona_id": "p_c0d4e5f6",
+      "speaker_persona_id": "p_c0d4e5f6",
+      "fact_attribute": "quarterly_drinks_norm_breach",
+      "fact_value": "Leon again failed to attend the quarterly drinks and explains it as investor call \u2014 a pattern the group has accepted with low expectations",
+      "evidence_span": "investor call ran over, can't be helped when you're at that stage",
+      "implicitness_level": 2,
+      "session_index": 2,
+      "turn_index": 2
+    },
+    {
+      "challenge_id": "ch_c0s3c1",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_c0b2c3d4",
+      "speaker_persona_id": "p_c0b2c3d4",
+      "fact_attribute": "career_deflection",
+      "fact_value": "Josh deflects career questions with self-deprecating humour ('still in the same chair') and immediately redirects to someone else; he has stopped sharing about his own career trajectory",
+      "evidence_span": "still in the same chair \ud83d\ude02\ud83d\ude02 living the dream. Priya you're the one with the interesting job now",
+      "implicitness_level": 2,
+      "session_index": 3,
+      "turn_index": 2
+    },
+    {
+      "challenge_id": "ch_c0s3c2",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_c0c3d4e5",
+      "speaker_persona_id": "p_c0c3d4e5",
+      "fact_attribute": "career_topic_avoidance",
+      "fact_value": "Priya deflects the career question with a vague 'different kind of hard than expected' and immediately pivots to logistics, she does not discuss her physio career challenges in the full group",
+      "evidence_span": "it's a lot. different kind of hard than expected. anyway, are we doing next quarter?",
+      "implicitness_level": 2,
+      "session_index": 3,
+      "turn_index": 3
+    },
+    {
+      "challenge_id": "ch_c0s4c1",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "p_c0c3d4e5",
+      "speaker_persona_id": "p_c0b2c3d4",
+      "fact_attribute": "priya_situation_known_by_josh",
+      "fact_value": "Josh reveals he already spoke with Priya privately about her career struggles \u2014 protecting her from having to discuss it in the group and gently rebuffing Mei's intervention",
+      "evidence_span": "Priya and I already talked about it properly last week, she's good",
+      "implicitness_level": 2,
+      "session_index": 4,
+      "turn_index": 2
+    },
+    {
+      "challenge_id": "ch_c0s5c1",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "p_c0d4e5f6",
+      "speaker_persona_id": "p_c0d4e5f6",
+      "fact_attribute": "recruiting_norm_breach",
+      "fact_value": "Leon asks the group to refer investors to him \u2014 breaching the norm against recruiting or soliciting in the chat",
+      "evidence_span": "if you know anyone who'd want to invest let me know",
+      "implicitness_level": 2,
+      "session_index": 5,
+      "turn_index": 0
+    },
+    {
+      "challenge_id": "ch_2f3as5x7",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_c0d4e5f6",
+      "speaker_persona_id": "p_c0d4e5f6",
+      "fact_attribute": "social_preference",
+      "fact_value": "Leon shifts from prioritizing startup visibility and investor spaces to openly preferring the group\u2019s low-key booth drinks over another investor dinner.",
+      "evidence_span": "Don't get used to it but I'd take a booth and chips over another room full of lanyards right now",
+      "implicitness_level": 2,
+      "session_index": 5,
+      "turn_index": 7
+    }
+  ],
+  "start_date": "2025-10-06"
+}

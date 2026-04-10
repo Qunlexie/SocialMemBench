@@ -1,0 +1,562 @@
+{
+  "network_id": "grp_2b3c4d5e",
+  "group_name": "Okafor Family Chat",
+  "group_type": "family",
+  "group_size": 5,
+  "seed": 2,
+  "personas": [
+    {
+      "persona_id": "p_a2b3c4d5",
+      "display_name": "Chidi",
+      "age": 62,
+      "gender": "M",
+      "background": "Retired civil engineer, originally from Enugu, Nigeria. Has lived in the UK for 30 years. Patriarch of the family. Set in his ways, emotionally reserved but deeply caring. Proud of his children but struggles to express it directly.",
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "only eats Nigerian food at home; deeply skeptical of 'fusion' or Western adaptations of African dishes",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "dislikes eating out at restaurants in general — prefers home cooking",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "evening walks are non-negotiable; the family knows not to schedule things that interrupt the 6pm walk",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "dislikes large gatherings; tolerates family ones but not social parties",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values phone calls over text messages; reluctant WhatsApp participant",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "family_visits",
+          "old_value": "resistant to visiting the UK-based children — said it was 'too much travel'",
+          "new_value": "has become noticeably more open to visiting since a health scare in session 3",
+          "changed_at_session": 3,
+          "trigger": "brief health scare; didn't tell the children directly but became warmer after"
+        }
+      ],
+      "speaking_quirks": [
+        "very short messages, often just a statement or question with no greeting",
+        "never uses emoji; occasionally uses a period for finality",
+        "refers to himself in third person when issuing gentle commands: 'Your father will call you this evening.'"
+      ],
+      "occupation": "retired civil engineer",
+      "skills_list": [
+        {
+          "skill": "DIY and home repair",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_b3c4d5e6",
+      "display_name": "Ngozi",
+      "age": 58,
+      "gender": "F",
+      "background": "Semi-retired nurse, Chidi's wife. Born in Lagos, has adapted to UK life more readily than Chidi. The emotional hub of the family chat. Manages family dynamics through warmth, food, and strategic information sharing.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves cooking for the whole family; dislikes when people refuse food she has made",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "has quietly reduced salt intake on doctor's advice but won't admit it to Chidi",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves church events and community socials",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "dislikes travelling alone; always wants company or family coordination for any trip",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "salt_in_cooking",
+          "old_value": "cooked with generous salt as per traditional recipes",
+          "new_value": "quietly reduced salt in cooking after doctor's advice; deflects when anyone notices",
+          "changed_at_session": 2,
+          "trigger": "doctor's advice around session 2; she doesn't announce it"
+        }
+      ],
+      "speaking_quirks": [
+        "starts messages with 'My darlings' or 'My people' when addressing the group",
+        "typos in almost every message — drops letters, runs words together",
+        "uses food as a metaphor for love and family connection"
+      ],
+      "occupation": "semi-retired nurse",
+      "skills_list": [
+        {
+          "skill": "cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "knitting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_c4d5e6f7",
+      "display_name": "Emeka",
+      "age": 34,
+      "gender": "M",
+      "background": "Eldest child, works in finance in London. Married with one young child. Feels the pressure of being the 'responsible' one. Has a tendency to smooth over family tensions rather than address them. Internally stressed but presents as calm.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "has quietly gone pescatarian but hasn't told parents; still eats their Nigerian food when home to avoid conflict",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "hates being put on the spot in family decisions; prefers to discuss options privately before committing",
+            "confidence": "Medium",
+            "implicit": true
+          },
+          {
+            "value": "has been running regularly since becoming a parent; it's his main stress relief",
+            "confidence": "Medium",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "avoids committing to family events until last minute — fear of over-promising",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "home_visits_frequency",
+          "old_value": "visited parents in Nigeria every year without fail",
+          "new_value": "hasn't been back in two years; feels guilty about it but hasn't addressed it directly",
+          "changed_at_session": 4,
+          "trigger": "new baby, work demands; it surfaces implicitly in chat"
+        }
+      ],
+      "speaking_quirks": [
+        "adds '😊' to soften potentially unwelcome information",
+        "uses 'let's see' and 'we'll figure it out' as delay tactics",
+        "refers to his wife ('Adaeze') as shorthand for domestic complications"
+      ],
+      "occupation": "finance manager",
+      "skills_list": [
+        {
+          "skill": "investing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "fitness training",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_d5e6f7a8",
+      "display_name": "Adaora",
+      "age": 30,
+      "gender": "F",
+      "background": "Middle child, PhD student in Edinburgh. The most outspoken sibling. Has a complicated relationship with family expectations. Grew up feeling overlooked next to Emeka (eldest) and Tobenna (baby). Now assertive, occasionally impatient.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Low",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegan since last year; parents don't know and she's been dreading the conversation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "hates flying; takes trains even for long journeys when possible",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "loves hiking and outdoor activities",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "resents the expectation that she should be the one to travel home to see parents — feels it should be shared",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "diet",
+          "old_value": "ate everything including meat and fish; no dietary restrictions",
+          "new_value": "vegan for approximately one year; concealing it from parents to avoid the conversation",
+          "changed_at_session": 1,
+          "trigger": "went vegan about a year ago; comes up implicitly in chat through deflection and menu questions"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'I mean' at the start of sentences when frustrated",
+        "asks pointed questions that are really arguments: 'Why is it always me?'",
+        "uses caps for emphasis: 'I JUST said that'"
+      ],
+      "occupation": "PhD student (sociology)",
+      "skills_list": [
+        {
+          "skill": "academic writing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_e6f7a8b9",
+      "display_name": "Tobenna",
+      "age": 24,
+      "gender": "M",
+      "background": "Youngest child, recently graduated, still figuring out next steps. Sweet-natured, avoids conflict. Currently between jobs and quietly anxious about it. The family golden child who is now dealing with the pressure of that expectation.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "eats anything; genuinely no preferences — he is the easiest family member about food",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [
+          {
+            "value": "avoids any conversation about career plans; changes subject or goes quiet",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers being in the same physical space as family rather than digital communication",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "career_openness",
+          "old_value": "used to talk openly about career ambitions and plans",
+          "new_value": "deflects all career questions; changes subject or sends a joke",
+          "changed_at_session": 3,
+          "trigger": "job search not going well; stopped discussing it after session 3"
+        }
+      ],
+      "speaking_quirks": [
+        "uses excessive emoji to lighten tense moments",
+        "responds to serious questions with memes or irrelevant observations",
+        "calls Adaora 'Ada' as a peace gesture when she's getting heated"
+      ],
+      "occupation": "recent graduate",
+      "skills_list": [
+        {
+          "skill": "music production",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "football",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gaming",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_a2b3c4d5",
+      "persona_b_id": "p_b3c4d5e6",
+      "relationship_type": "married couple",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 35 years. Navigate family dynamics as a unit though with very different styles. Ngozi is the communicator; Chidi is the anchor.",
+      "shared_events": [
+        "raised three children",
+        "emigrated from Nigeria to UK in the 1990s"
+      ]
+    },
+    {
+      "persona_a_id": "p_a2b3c4d5",
+      "persona_b_id": "p_c4d5e6f7",
+      "relationship_type": "father-son",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Chidi is proud of Emeka but shows it through expectations rather than warmth. Emeka tries hard to please and often feels unacknowledged.",
+      "shared_events": [
+        "Emeka won a scholarship that Chidi considers his greatest pride",
+        "difficult conversation when Emeka missed family Christmas two years ago"
+      ]
+    },
+    {
+      "persona_a_id": "p_a2b3c4d5",
+      "persona_b_id": "p_d5e6f7a8",
+      "relationship_type": "father-daughter",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Tense relationship. Chidi doesn't fully understand Adaora's academic path and sometimes dismisses it. Adaora finds his approval withheld and resents it.",
+      "shared_events": [
+        "argument about whether her PhD is a 'real job'",
+        "brief thaw during a visit when Chidi watched her give a seminar talk and said nothing but seemed moved"
+      ]
+    },
+    {
+      "persona_a_id": "p_a2b3c4d5",
+      "persona_b_id": "p_e6f7a8b9",
+      "relationship_type": "father-son (youngest)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Chidi has a soft spot for Tobenna that he doesn't have for the others. Tobenna is the one who can make him laugh.",
+      "shared_events": [
+        "Tobenna is the only one who calls on the phone just to chat",
+        "they watch football results together on WhatsApp"
+      ]
+    },
+    {
+      "persona_a_id": "p_b3c4d5e6",
+      "persona_b_id": "p_c4d5e6f7",
+      "relationship_type": "mother-son",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Ngozi and Emeka have a warm, close relationship. She relies on him to manage difficult conversations with Chidi. He relies on her to soften everything.",
+      "shared_events": [
+        "Emeka calls Ngozi separately from the family chat",
+        "Ngozi was the first to know about the baby"
+      ]
+    },
+    {
+      "persona_a_id": "p_b3c4d5e6",
+      "persona_b_id": "p_d5e6f7a8",
+      "relationship_type": "mother-daughter",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Ngozi loves Adaora but sometimes struggles with her directness. Adaora finds her mother's warmth genuine but feels she defers too much to Chidi.",
+      "shared_events": [
+        "Adaora told Ngozi about the vegan decision but swore her to secrecy",
+        "they've had several late-night phone calls that helped bridge gaps"
+      ]
+    },
+    {
+      "persona_a_id": "p_b3c4d5e6",
+      "persona_b_id": "p_e6f7a8b9",
+      "relationship_type": "mother-son (youngest)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Ngozi and Tobenna have an easy, affectionate relationship. She worries about him most because he hides his anxiety.",
+      "shared_events": [
+        "Tobenna sends Ngozi memes she doesn't understand but pretends to",
+        "Ngozi sends him food when he's in the city"
+      ]
+    },
+    {
+      "persona_a_id": "p_c4d5e6f7",
+      "persona_b_id": "p_d5e6f7a8",
+      "relationship_type": "older brother - younger sister",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "They get along but Adaora sometimes resents how much easier Emeka seems to have it. Emeka tries to be a peacemaker between Adaora and their parents.",
+      "shared_events": [
+        "Emeka warned Adaora about the vegan announcement timing",
+        "they have a private sibling chat that doesn't include parents"
+      ]
+    },
+    {
+      "persona_a_id": "p_c4d5e6f7",
+      "persona_b_id": "p_e6f7a8b9",
+      "relationship_type": "older brother - younger brother",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Close, easy relationship. Emeka is protective of Tobenna without being overbearing. Tobenna looks up to Emeka but also finds him a little too careful sometimes.",
+      "shared_events": [
+        "Emeka helped Tobenna move into his flat",
+        "they watch Premier League together when in the same city"
+      ]
+    },
+    {
+      "persona_a_id": "p_d5e6f7a8",
+      "persona_b_id": "p_e6f7a8b9",
+      "relationship_type": "older sister - younger brother",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Closest sibling bond in the family. Adaora is protective of Tobenna and he's one of the few people she's fully honest with. He knows about the vegan thing.",
+      "shared_events": [
+        "they have a private chat",
+        "Tobenna is the only family member who knows the full story of Adaora's vegan switch"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Everyone comes home for Christmas — no exceptions.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_c4d5e6f7"
+      ]
+    },
+    {
+      "norm_text": "The family eats together whenever anyone visits — Ngozi cooks and everyone eats what is made.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_d5e6f7a8"
+      ]
+    },
+    {
+      "norm_text": "Important news is shared in the family chat, not just one-on-one.",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {}
+}

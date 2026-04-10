@@ -1,0 +1,159 @@
+{
+  "network_id": "grp_8b9c0d1e",
+  "total_pairs": 6,
+  "phase1_mean_score": 1.0,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 2,
+    "2": 4
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "easy": 1,
+    "medium": 3,
+    "hard": 2
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 1,
+      "mean_inference_required": 2.0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Each session has a distinct primary thread: post-meeting ending debate (S1), Harriet vetoes Nadia pick (S2), Blessing vs Harriet on Rooney (S3), Graham defends reading (S4), Harriet-Blessing resolution and rotation (S5)"
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Blessing emoji use slightly underdeveloped for Moderate profile — only 1 session (S5) contains emoji; no other violations"
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-driven; Nadia reliably pivots to logistics when tension peaks"
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes in all turns"
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All evidence_anchor excerpts match actual turn messages verbatim"
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none",
+  "per_pair": [
+    {
+      "qa_id": "Q1_bk8s4c1",
+      "query_type": "Q1",
+      "question": "What does Graham’s behavior in the chat suggest about how he responds to having his reading of a book challenged?",
+      "blind_answer": "Graham becomes defensive when his reading is contested and follows up the next day to relitigate it, using his speaking quirk “I actually thought it was rather good.” Blessing had to remind him discussion is not personal attack.",
+      "score": 1.0,
+      "score_rationale": "Blind answer fully matches GT — defensive pattern, day-after follow-up, quirk language all identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_bk8s1c1",
+      "query_type": "Q3",
+      "question": "What does the conversation reveal about how thoroughly each member of the book club actually reads the books?",
+      "blind_answer": "Tomasz: most thorough, page-cites everything. Blessing: reads for craft, TLS-level engagement. Harriet: claims thorough, no page refs but insists on correct reading. Graham: reads but defensively, “I’ll read it properly this time” implies past slippage. Nadia: clearly doesn’t finish books — borrows Blessing’s reading in S1, gives vague “middle section” reference caught by Tomasz in S3.",
+      "score": 1.0,
+      "score_rationale": "All five personas correctly characterised across reading depth spectrum.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_bk8s2c1",
+      "query_type": "Q6",
+      "question": "The book club has a norm of rotating book picks among members. Does everyone follow it?",
+      "blind_answer": "No — Harriet overrides the rotation. In S2 she dismissed Nadia’s Alderton pick as “holiday reading” and proposed Sally Rooney; Nadia capitulated. Tomasz flagged it directly: “The rotation either exists or it doesn’t.”",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches GT: Harriet as dissenter, S2 evidence, Tomasz’s callout all identified.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_bk8s3c1",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Blessing's approach to challenging interpretations shifted between Session 1 and Session 3, and what appeared to drive the change?",
+      "blind_answer": "In S1 Blessing offers an alternative reading as additional perspective without confrontation. By S3 she directly challenges Harriet and invokes professional credentials (“I wrote about it for the TLS”) when dismissed. The shift is from tentative alternative to authoritative rebuttal.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches GT on both states and the credential-based signal; flagged q8_shallow_framing because question doesn’t ask for trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_bk8s3c2",
+      "query_type": "Q5",
+      "question": "What reading habit of Nadia’s is exposed in Session 3, and how does the conversation show that Tomasz already knew it?",
+      "blind_answer": "Nadia vaguely says she found “the middle section interesting” without specifics. Tomasz immediately offers two specific page references, a pointed test that only someone tracking her vagueness would ask. Combined with his S2 comment (“Did Nadia actually want to read the Alderton?”) this shows prior awareness.",
+      "score": 1.0,
+      "score_rationale": "Both parts of Q5 fully answered: habit identified, observable ToM signal (page question) correctly interpreted.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_bk8s5c1",
+      "query_type": "Q7",
+      "question": "What does the conversation reveal about the relationship between Nadia and Blessing in the book club?",
+      "blind_answer": "Nadia publicly champions Blessing against Harriet, calls her “brilliant” in S5 when Harriet grudgingly concedes. In S1, Nadia borrowed Blessing’s reading and praised it warmly. They are the closest pair in the group outside Harriet’s founding relationship with Nadia.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches GT: warmth, public championing, closest pair characterisation all present.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ]
+}

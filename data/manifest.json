@@ -1,0 +1,699 @@
+{
+  "version": "1.0",
+  "next_seed": 13,
+  "networks": {
+    "grp_1a2b3c4d": {
+      "network_id": "grp_1a2b3c4d",
+      "group_type": "close_friends",
+      "group_size": 5,
+      "seed": 1,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 12,
+      "consumed_challenge_ids": [
+        "ch_1a1b1c1d",
+        "ch_1a2b3c4d",
+        "ch_2a1b2c3d",
+        "ch_2b1c2d3e",
+        "ch_2c1d2e3f",
+        "ch_3a1b2c3d",
+        "ch_3b1c2d3e",
+        "ch_4a1b2c3d",
+        "ch_4b1c2d3e",
+        "ch_4c1d2e3f",
+        "ch_5a1b2c3d",
+        "ch_5b1c2d3e"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.558,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:05:21.665509+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.617,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:07:06.969908+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.042,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:14:21.915834+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.317,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:08:23.126105+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.167,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:34:52.588613+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.317,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:51:27.926036+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.167,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:40:58.764143+00:00"
+      },
+      "smg": {
+        "mean_score": 0.458,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-10T06:19:58.144403+00:00"
+      }
+    },
+    "grp_2b3c4d5e": {
+      "network_id": "grp_2b3c4d5e",
+      "group_type": "family",
+      "group_size": 5,
+      "seed": 2,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 10,
+      "consumed_challenge_ids": [
+        "ch_n2s1c1",
+        "ch_n2s1c2",
+        "ch_n2s2c1",
+        "ch_n2s2c2",
+        "ch_n2s2c3",
+        "ch_n2s3c1",
+        "ch_n2s3c2",
+        "ch_n2s4c1",
+        "ch_n2s4c2",
+        "ch_n2s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.1,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:17:52.715159+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.6,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:06:16.457018+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.76,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:07:25.798327+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.2,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:35:11.544862+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.42,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:08:26.865363+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.445,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:52:30.110153+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.2,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:42:10.338539+00:00"
+      },
+      "smg": {
+        "mean_score": 0.39,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-10T06:20:05.395732+00:00"
+      }
+    },
+    "grp_3c4d5e6f": {
+      "network_id": "grp_3c4d5e6f",
+      "group_type": "recreational",
+      "group_size": 5,
+      "seed": 3,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 8,
+      "consumed_challenge_ids": [
+        "ch_r3s1c1",
+        "ch_r3s1c2",
+        "ch_r3s2c1",
+        "ch_r3s2c2",
+        "ch_r3s3c1",
+        "ch_r3s3c2",
+        "ch_r3s4c1",
+        "ch_r3s5c1",
+        "ch_r3norm01"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.35,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:27:06.310181+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.738,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:06:18.214747+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.825,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:07:33.610259+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.125,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:35:26.808242+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.863,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:08:29.927583+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.325,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:53:26.924697+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.25,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:43:23.978586+00:00"
+      },
+      "smg": {
+        "mean_score": 0.725,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:20:15.014750+00:00"
+      }
+    },
+    "grp_4d5e6f7a": {
+      "network_id": "grp_4d5e6f7a",
+      "group_type": "interest_community",
+      "group_size": 5,
+      "seed": 4,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 9,
+      "consumed_challenge_ids": [
+        "ch_v4s1c1",
+        "ch_v4s1c2",
+        "ch_v4s2c1",
+        "ch_v4s3c1",
+        "ch_v4s3c2",
+        "ch_v4s3c3",
+        "ch_v4s4c1",
+        "ch_v4s4c2",
+        "ch_v4s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 0.99,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.333,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:25:30.645180+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.628,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:06:19.998217+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.722,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:07:37.047549+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:35:39.135935+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.578,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:08:31.915669+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.456,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:54:20.203919+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:44:34.790617+00:00"
+      },
+      "smg": {
+        "mean_score": 0.422,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-10T06:20:17.734120+00:00"
+      }
+    },
+    "grp_5e6f7a8b": {
+      "network_id": "grp_5e6f7a8b",
+      "group_type": "acquaintance_network",
+      "group_size": 5,
+      "seed": 5,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 8,
+      "consumed_challenge_ids": [
+        "ch_a5s1c1",
+        "ch_a5s1c2",
+        "ch_a5s2c1",
+        "ch_a5s2c2",
+        "ch_a5s2c3",
+        "ch_a5s2c4",
+        "ch_a5s2c5",
+        "ch_a5s3c1",
+        "ch_a5s3c2",
+        "ch_a5s4c1",
+        "ch_a5s4c2",
+        "ch_a5s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.312,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:29:53.292300+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.738,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:06:21.825371+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.738,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:07:43.211271+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:35:52.206887+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.6,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:08:34.383102+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.125,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:55:23.912164+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:45:26.289350+00:00"
+      },
+      "smg": {
+        "mean_score": 0.65,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-10T06:20:20.742568+00:00"
+      }
+    },
+    "grp_6f7a8b9c": {
+      "network_id": "grp_6f7a8b9c",
+      "group_type": "close_friends",
+      "group_size": 4,
+      "seed": 6,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 7,
+      "consumed_challenge_ids": [
+        "ch_cf6s1c1",
+        "ch_cf6s2c1",
+        "ch_cf6s2c2",
+        "ch_cf6s3c1",
+        "ch_cf6s3c2",
+        "ch_cf6s4c1",
+        "ch_cf6s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.086,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:34:23.504333+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.843,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:06:23.532500+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.786,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:07:49.304775+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:36:06.581176+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.7,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:08:36.467199+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.414,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:56:19.219746+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:46:20.380168+00:00"
+      },
+      "smg": {
+        "mean_score": 0.6,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-10T06:20:25.812524+00:00"
+      }
+    },
+    "grp_7a8b9c0d": {
+      "network_id": "grp_7a8b9c0d",
+      "group_type": "family",
+      "group_size": 4,
+      "seed": 7,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 5,
+      "consumed_challenge_ids": [
+        "ch_fm7s1c1",
+        "ch_fm7s2c1",
+        "ch_fm7s3c1",
+        "ch_fm7s4c1",
+        "ch_fm7s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.38,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:37:54.834220+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.62,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:06:26.861574+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.66,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:07:54.866147+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:36:18.682812+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.7,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:08:38.553748+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.2,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:57:20.030316+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:47:32.141983+00:00"
+      },
+      "smg": {
+        "mean_score": 0.54,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-10T06:20:31.440695+00:00"
+      }
+    },
+    "grp_8b9c0d1e": {
+      "network_id": "grp_8b9c0d1e",
+      "group_type": "recreational",
+      "group_size": 5,
+      "seed": 8,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 6,
+      "consumed_challenge_ids": [
+        "ch_bk8s1c1",
+        "ch_bk8s2c1",
+        "ch_bk8s3c1",
+        "ch_bk8s3c2",
+        "ch_bk8s4c1",
+        "ch_bk8s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.167,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:37:54.699694+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.5,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:06:28.682307+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:36:31.650167+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.567,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:08:01.033880+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.417,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:08:40.723470+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.317,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:58:16.264929+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:48:35.430787+00:00"
+      },
+      "smg": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:20:33.719847+00:00"
+      }
+    },
+    "grp_9c0d1e2f": {
+      "network_id": "grp_9c0d1e2f",
+      "group_type": "interest_community",
+      "group_size": 4,
+      "seed": 9,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 6,
+      "consumed_challenge_ids": [
+        "ch_ph9s1c1",
+        "ch_ph9s1c2",
+        "ch_ph9s1c3",
+        "ch_ph9s2c1",
+        "ch_ph9s3c1",
+        "ch_ph9s4c1",
+        "ch_ph9s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.167,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:41:08.225296+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.833,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:06:30.210413+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:36:43.485036+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.833,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:08:07.367151+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.567,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:08:42.657592+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.383,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:59:16.468857+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:49:25.722697+00:00"
+      },
+      "smg": {
+        "mean_score": 0.383,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:20:37.431319+00:00"
+      }
+    },
+    "grp_0d1e2f3a": {
+      "network_id": "grp_0d1e2f3a",
+      "group_type": "acquaintance_network",
+      "group_size": 4,
+      "seed": 10,
+      "status": "verified",
+      "n_sessions": 5,
+      "n_qa": 6,
+      "consumed_challenge_ids": [
+        "ch_c0s2c1",
+        "ch_c0s2c2",
+        "ch_c0s3c1",
+        "ch_c0s3c2",
+        "ch_c0s4c1",
+        "ch_c0s5c1"
+      ],
+      "oracle_eval": {
+        "mean_score": 1.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-08T00:00:00Z"
+      },
+      "mem0_local": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:10:03.147572+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.6,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:06:15.044299+00:00"
+      },
+      "llm_gemini": {
+        "mean_score": 0.717,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:06:45.696642+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:34:38.286211+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.733,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:08:19.420501+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.317,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:50:30.201152+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:39:47.156961+00:00"
+      },
+      "smg": {
+        "mean_score": 0.383,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-10T06:19:54.008051+00:00"
+      }
+    },
+    "grp_a1b2c3d4": {
+      "network_id": "grp_a1b2c3d4",
+      "group_type": "interest_community",
+      "group_size": 10,
+      "tier": "medium",
+      "seed": 11,
+      "status": "stage2_done",
+      "n_sessions": 8,
+      "n_qa": 0,
+      "consumed_challenge_ids": [],
+      "smg": {
+        "mean_score": 0.282,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-10T06:20:44.798523+00:00"
+      }
+    },
+    "grp_b1c2d3e4": {
+      "network_id": "grp_b1c2d3e4",
+      "group_type": "recreational",
+      "group_size": 18,
+      "tier": "large",
+      "seed": 12,
+      "status": "stage2_done",
+      "n_sessions": 12,
+      "n_qa": 0,
+      "consumed_challenge_ids": []
+    }
+  },
+  "qa_pairs_total": 77,
+  "query_type_counts": {
+    "Q1": 17,
+    "Q2": 6,
+    "Q3": 8,
+    "Q4": 8,
+    "Q5": 8,
+    "Q6": 8,
+    "Q7": 9,
+    "Q8": 13
+  },
+  "group_type_counts": {
+    "close_friends": 2,
+    "family": 2,
+    "recreational": 3,
+    "interest_community": 3,
+    "acquaintance_network": 2
+  },
+  "size_tier_counts": {
+    "small": 10,
+    "medium": 1,
+    "large": 1
+  }
+}

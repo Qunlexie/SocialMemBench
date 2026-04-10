@@ -1,0 +1,64 @@
+{
+  "network_id": "grp_0d1e2f3a",
+  "qc_run_at": "2026-04-07",
+  "total_pairs": 6,
+  "phase1_mean_score": 0.98,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 2,
+  "inference_required_distribution": {"0": 1, "1": 1, "2": 4},
+  "trivially_answerable_count": 1,
+  "difficulty_label_mismatch_count": 1,
+  "difficulty_distribution": {"easy": 1, "medium": 4, "hard": 1},
+  "by_query_type": {
+    "Q1": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q2": {"count": 1, "mean_score": 1.0, "flagged": 1, "mean_inference_required": 0.0},
+    "Q3": {"count": 1, "mean_score": 0.9, "flagged": 0, "mean_inference_required": 2.0},
+    "Q4": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q5": {"count": 1, "mean_score": 1.0, "flagged": 1, "mean_inference_required": 2.0},
+    "Q6": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0}
+  },
+  "flagged_pairs": [
+    {
+      "qa_id": "Q5_c0s4c1",
+      "query_type": "Q5",
+      "flag": "q5_ungrounded_tom",
+      "question": "What was Priya's attitude toward discussing her job in Session 4, and how does the conversation show that Josh already knew it?",
+      "note": "The 'who knew' evidence is Josh asserting a private conversation occurred ('Priya and I already talked about it properly last week'). This is a claim, not an observable behavior like an assumption, knowing reference, or completing someone's sentence. Josh's shielding behavior is observable, but the prior knowledge is only established by the claim itself."
+    },
+    {
+      "qa_id": "Q2_c0s2c1",
+      "query_type": "Q2",
+      "flag": "trivially_answerable",
+      "question": "Did everyone attend the quarterly drinks in Session 2?",
+      "note": "Answer is the literal string 'Leon didn't come again' in Session 2 t000. No inference required — this is a keyword match. Difficulty label 'easy' is also invalid: even easy requires inference_required >= 1 under the new rubric."
+    }
+  ],
+  "low_score_pairs": [
+    {
+      "qa_id": "Q3_c0s3c2",
+      "query_type": "Q3",
+      "score": 0.9,
+      "your_answer": "Mei=open/comfortable, Josh=deflects with same chair joke, Priya=vague+pivot to logistics, Leon=broadcast channel for startup news",
+      "ground_truth": "Same as above, plus: Priya discusses career only with Josh privately — not raised in the full group"
+    }
+  ],
+  "difficulty_label_mismatches": [
+    {
+      "qa_id": "Q2_c0s2c1",
+      "labeled": "easy",
+      "inference_required": 0,
+      "issue": "Labeled 'easy' but inference_required=0 (literal keyword match). Even 'easy' requires inference_required >= 1 under the new rubric."
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {"score": 2, "notes": "S1=logistics, S2=attendance debrief, S3=career comparison, S4=Priya/Josh-Mei dynamic, S5=Leon trajectory+next drinks. Distinct primary thread each session. Appropriate variance for acquaintance_network."},
+    "voice_consistency": {"score": 2, "notes": "All 5 sub-dims pass. Mei=Concise+no-typo+'my team'+'I can do 7-9' quirks; Josh=Moderate+frequent emoji+'same chair' deflection; Priya=Rare emoji+'good question' before pivoting; Leon=Verbose+frequent emoji+'journey'+'just got covered by' announcement quirks."},
+    "naturalness_of_transitions": {"score": 2, "notes": "All pivots character-triggered: Leon announces Series A (S3 opener); Mei follows up Priya's S3 comment in S4; Leon drops Bloomberg news (S5 opener)."},
+    "em_dash_free": {"score": 2, "notes": "No em dashes in message fields. '7–9' uses en dash (U+2013), not em dash. Clean."},
+    "planted_turn_integrity": {"score": 2, "notes": "All 6 evidence excerpts verified verbatim against conversation turns."},
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "first accepted run — 2026-04-07"
+}

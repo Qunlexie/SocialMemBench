@@ -1,0 +1,171 @@
+{
+  "network_id": "grp_6f7a8b9c",
+  "total_pairs": 7,
+  "phase1_mean_score": 0.986,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 1,
+    "2": 6
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "easy": 1,
+    "medium": 5,
+    "hard": 1
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "5 distinct session threads: trip planning, October cancellation, local Saturday plan, Saturday logistics, post-Saturday debrief"
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All 4 personas match profiles. Kwame: Rare emoji, concise, all 3 quirks present. Dev: all 3 quirks present. Abi: Frequent emoji, verbose, quirks. Sasha: Moderate emoji, longer messages, quirks."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Every topic shift driven by a character event — Abi's cancellations, Kwame's Edinburgh announcement, Saturday debrief"
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes found in any message field"
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All evidence_span excerpts verified verbatim in corpus"
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none",
+  "per_pair": [
+    {
+      "qa_id": "Q1_cf6s1c1",
+      "query_type": "Q1",
+      "question": "What does Sasha's behavior across sessions suggest about her preferences for group plans?",
+      "blind_answer": "Sasha consistently redirects away from expensive options (flights, tasting menus, hotels) toward cheap low-key alternatives: someone’s flat, homemade food, a local pub. She frames it as preference, not constraint.",
+      "score": 1.0,
+      "score_rationale": "Pattern of redirection correctly identified across multiple sessions; financial motivation inferred from behavior not stated explicitly.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_cf6s2c1",
+      "query_type": "Q4",
+      "question": "Both Abi and Sasha declined or downscaled ambitious group plans across multiple sessions. Whose declining was driven by childcare and exhaustion, and whose by financial constraints?",
+      "blind_answer": "Abi: childcare and exhaustion — mentions a 2-year-old and demanding job but cites “work things” as cover. Sasha: financial constraints — steers to cheap options without naming money directly.",
+      "score": 1.0,
+      "score_rationale": "Both attributions correct; the misdirection (Abi says \"work\") vs reality (childcare) correctly parsed as Q4 contamination.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_cf6s2c2",
+      "query_type": "Q8",
+      "question": "What does Dev's pattern of participation across the sessions reveal about what was pulling him away from the group, and where does the conversation first signal the shift?",
+      "blind_answer": "Dev started as the most invested planner at university but became the least responsive member. S1: same-day reply but hours late citing archive work. By S4 he’d been MIA for six weeks. Withdrawal tracks with his PhD pressure.",
+      "score": 1.0,
+      "score_rationale": "Both old and new states correctly characterised with session evidence; trigger (PhD pressure) identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_cf6s3c1",
+      "query_type": "Q8",
+      "question": "What drove Kwame's move from eager commitment to cautious restraint on group plans, and which session marks the turning point?",
+      "blind_answer": "S1: eager enabler, offered to book Amsterdam or Peak District immediately. By S3 he stopped leading and started asking questions instead, after being burned by collapse of earlier plans. Shift is from commit-first to wait-and-see.",
+      "score": 1.0,
+      "score_rationale": "Old and new states identified with session anchors; shift mechanism (burned by failed plans) correctly inferred.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_cf6s3c2",
+      "query_type": "Q5",
+      "question": "What was Dev's situation in Session 3, and how does the conversation show that Kwame already knew it?",
+      "blind_answer": "Dev was heads-down and struggling. Kwame revealed he was going to Edinburgh specifically to see Dev — separately from group plans — saying “he’s heads-down at the moment but I wanted to see him.” The separate trip is the observable signal that Kwame had prior bilateral contact.",
+      "score": 1.0,
+      "score_rationale": "Both parts of Q5 answered: Dev’s state identified, Kwame’s prior knowledge evidenced by observable chat behavior (Edinburgh trip reveal).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_cf6s4c1",
+      "query_type": "Q6",
+      "question": "The group has a norm of a monthly minimum check-in in the chat. Does everyone follow it?",
+      "blind_answer": "No — Dev breaches it. In S4 Kwame noted Dev had been MIA for six weeks. Dev acknowledged the breach. Others maintain the norm.",
+      "score": 1.0,
+      "score_rationale": "Dev as dissenter clearly evidenced; Kwame’s callout and Dev’s acknowledgement are direct conversation signals.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_cf6s5c1",
+      "query_type": "Q7",
+      "question": "What does the conversation reveal about the relationship between Kwame and Dev within the group?",
+      "blind_answer": "Kwame and Dev have a deeper, older bond pre-dating university — known since age 11. Kwame consistently covers for Dev’s absences. Their closeness is visible but not fully excavated in conversation; the age-11 detail implies the connection predates the group entirely.",
+      "score": 0.9,
+      "score_rationale": "Core relationship correctly characterised; minor omission on the pre-university depth detail present only implicitly in chat.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ]
+}

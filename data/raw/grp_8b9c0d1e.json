@@ -1,0 +1,476 @@
+{
+  "network_id": "grp_8b9c0d1e",
+  "group_name": "Primrose Hill Book Club",
+  "group_type": "recreational",
+  "group_size": 5,
+  "seed": 8,
+  "personas": [
+    {
+      "persona_id": "p_bk8a1b2c3",
+      "display_name": "Harriet",
+      "age": 52,
+      "gender": "F",
+      "background": "Retired solicitor. Founded the book club nine years ago. Picks the books, hosts most often, and considers herself the intellectual anchor. Has gradually edged toward books that confirm her existing worldview. Finds the club validating, not challenging.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers literary fiction with moral or philosophical depth; dismisses genre fiction as 'beach reading'",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "subtly steers the book selection even when it's someone else's turn; finds ways to veto picks she dislikes",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "tolerance_for_dissent",
+          "old_value": "genuinely interested in debate; would update views after argument",
+          "new_value": "now dismisses disagreement as misreading rather than engaging; became entrenched after Blessing's interpretations repeatedly contradicted hers",
+          "changed_at_session": 3,
+          "trigger": "Blessing's reading of session 3 book directly challenged Harriet's interpretation; Harriet responded by doubling down rather than engaging"
+        }
+      ],
+      "speaking_quirks": [
+        "refers to the group as 'my book club'",
+        "uses 'I think we can all agree' before contested claims",
+        "dismisses genre fiction with 'that's holiday reading'"
+      ],
+      "occupation": "retired solicitor",
+      "skills_list": [
+        {
+          "skill": "literary criticism",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hosting and entertaining",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_bk8b2c3d4",
+      "display_name": "Nadia",
+      "age": 44,
+      "gender": "F",
+      "background": "Primary school teacher. Joined for the social element entirely. Reads the first chapter and the last chapter and constructs opinions from reviews she reads on the way to the meeting. Always engaged, always warm, never caught out because she asks good questions rather than making claims.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "values the social aspect of book club above the reading; comes for the wine and the chat, not the analysis",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "deflects 'did you think X?' questions with 'what did you make of it?' to avoid revealing she didn't read the whole book",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "reading_completion",
+          "old_value": "used to read most books fully",
+          "new_value": "stopped reading fully when the books got heavier; now relies on first/last chapter + reviews",
+          "changed_at_session": 2,
+          "trigger": "the session 2 book was 600 pages; she made it to page 80 and gave up; adapted her strategy"
+        }
+      ],
+      "speaking_quirks": [
+        "asks 'what did everyone make of the ending?' regardless of whether the ending is interesting",
+        "responds to book discussions with 'I found that so interesting' without specifying what",
+        "organises every social element (wine, snacks) with precision"
+      ],
+      "occupation": "primary school teacher",
+      "skills_list": [
+        {
+          "skill": "cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "creative writing",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_bk8c3d4e5",
+      "display_name": "Tomasz",
+      "age": 47,
+      "gender": "M",
+      "background": "Systems analyst. The only person who reliably reads the entire book before every meeting. Quiet, precise, deeply unfashionable in his tastes — prefers plot-driven thrillers but goes along with the literary picks. Noticed that Harriet increasingly ignores contrary readings and is quietly frustrated.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "always reads the whole book; prefers accessible plot-driven fiction but accepts literary picks",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "group_engagement",
+          "old_value": "actively contributed interpretations in discussions",
+          "new_value": "increasingly holds back after his readings were dismissed; now asks questions rather than stating views to avoid being overridden by Harriet",
+          "changed_at_session": 3,
+          "trigger": "Harriet dismissed his reading of the session 3 novel as 'missing the point'; Tomasz withdrew and started asking questions instead"
+        }
+      ],
+      "speaking_quirks": [
+        "page-references his observations: 'on page 218 it says...'",
+        "asks clarifying questions when he disagrees rather than stating disagreement directly",
+        "always finishes the book including the author's note"
+      ],
+      "occupation": "systems analyst",
+      "skills_list": [
+        {
+          "skill": "literary analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "chess",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cycling",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_bk8d4e5f6",
+      "display_name": "Blessing",
+      "age": 38,
+      "gender": "F",
+      "background": "Writer (literary fiction, recently published first novel). The most perceptive reader in the group. Her interpretations are the most original and often the most correct. Has been gradually more willing to challenge Harriet's readings, which has created friction.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "reads books with attention to craft — sentence rhythm, structure, what's left unsaid; brings authorial perspective",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "willing to challenge majority readings if she thinks they're wrong; increasingly does so even when it creates tension with Harriet",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "dissent_confidence",
+          "old_value": "would offer alternative readings tentatively",
+          "new_value": "now presents her readings with authority and backs them up against Harriet's dismissals",
+          "changed_at_session": 3,
+          "trigger": "published her novel in session 3; her professional credibility changed how she presents her own interpretations"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'I think the book is doing something different' when disagreeing with the group read",
+        "references structural and craft-level elements of the book",
+        "credits her own novel's reception when establishing authority"
+      ],
+      "occupation": "literary fiction writer",
+      "skills_list": [
+        {
+          "skill": "fiction writing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "literary criticism",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "translation",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_bk8e5f6a7",
+      "display_name": "Graham",
+      "age": 55,
+      "gender": "M",
+      "background": "Harriet's neighbour. Joined three months ago. Reads every book carefully and enjoys the discussions in theory, but gets defensive when his opinion is challenged — he takes disagreement about a book he loved as a personal attack. Still finding his footing in the group dynamic.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Rare",
+        "humor": "Gentle",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "reads books thoroughly; enjoys the intellectual element; becomes visibly defensive if a book he loved is criticised",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_integration",
+          "old_value": "new member; listened mostly and asked cautious questions",
+          "new_value": "now more willing to state opinions but tends to become entrenched in defense of books he championed",
+          "changed_at_session": 2,
+          "trigger": "book club member criticised a book Graham had praised; he defended it too hard and the room noticed"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'I actually thought it was rather good' when defending books",
+        "asks 'did you read the same book I did?' when strongly disagreeing",
+        "always looks to Harriet for validation after stating an opinion"
+      ],
+      "occupation": "retired civil servant",
+      "skills_list": [
+        {
+          "skill": "woodworking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "low"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_bk8a1b2c3",
+      "persona_b_id": "p_bk8b2c3d4",
+      "relationship_type": "founder and loyalist",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Nadia is one of Harriet's originals. She validates Harriet's choices and maintains social warmth. Harriet overlooks that Nadia doesn't read the books.",
+      "shared_events": [
+        "founding members of the group"
+      ]
+    },
+    {
+      "persona_a_id": "p_bk8a1b2c3",
+      "persona_b_id": "p_bk8c3d4e5",
+      "relationship_type": "intellectual tension",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Harriet respects Tomasz's diligence but dismissed one of his readings; their relationship cooled slightly.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bk8a1b2c3",
+      "persona_b_id": "p_bk8d4e5f6",
+      "relationship_type": "intellectual rivalry",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Harriet invited Blessing; Blessing's readings now regularly challenge Harriet's. Harriet is impressed and threatened.",
+      "shared_events": [
+        "Blessing published her novel; Harriet hosted a launch gathering"
+      ]
+    },
+    {
+      "persona_a_id": "p_bk8a1b2c3",
+      "persona_b_id": "p_bk8e5f6a7",
+      "relationship_type": "sponsor-recruit",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Harriet brought Graham in. He is becoming more opinionated than she expected.",
+      "shared_events": [
+        "neighbours for six years"
+      ]
+    },
+    {
+      "persona_a_id": "p_bk8b2c3d4",
+      "persona_b_id": "p_bk8c3d4e5",
+      "relationship_type": "warm but different",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Nadia's warmth and Tomasz's precision coexist easily. He reads; she organises. Neither gets in each other's way.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bk8b2c3d4",
+      "persona_b_id": "p_bk8d4e5f6",
+      "relationship_type": "social friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Nadia and Blessing are close outside the group. Nadia reads Blessing's novel and asks genuine questions.",
+      "shared_events": [
+        "attended Blessing's book launch together"
+      ]
+    },
+    {
+      "persona_a_id": "p_bk8b2c3d4",
+      "persona_b_id": "p_bk8e5f6a7",
+      "relationship_type": "politely neutral",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Nadia is warm to everyone including Graham but they don't have independent contact.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bk8c3d4e5",
+      "persona_b_id": "p_bk8d4e5f6",
+      "relationship_type": "quiet alliance",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both read carefully and bring non-Harriet perspectives. Tomasz quietly backs Blessing when she challenges the consensus.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bk8c3d4e5",
+      "persona_b_id": "p_bk8e5f6a7",
+      "relationship_type": "neutral",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Little direct relationship. Graham is newer and Tomasz is quiet.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bk8d4e5f6",
+      "persona_b_id": "p_bk8e5f6a7",
+      "relationship_type": "friction",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Blessing challenged a book Graham loved; he took it personally. They have been politely tense since.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We rotate who picks the book — each member chooses once per cycle.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bk8a1b2c3"
+      ]
+    },
+    {
+      "norm_text": "Finish the book before the meeting — no skimming.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bk8b2c3d4"
+      ]
+    },
+    {
+      "norm_text": "All readings are valid — we don't dismiss each other's interpretations.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bk8a1b2c3"
+      ]
+    }
+  ],
+  "metadata": {}
+}

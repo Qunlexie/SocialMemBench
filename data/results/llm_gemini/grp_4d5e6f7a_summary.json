@@ -1,0 +1,45 @@
+{
+  "network_id": "grp_4d5e6f7a",
+  "condition": "llm_gemini",
+  "model": "gemini-2.5-flash",
+  "evaluated_at": "2026-04-10T06:07:37.047549+00:00",
+  "sessions_used": 5,
+  "total_pairs": 9,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.722,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.55
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.725
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.9
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.6
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_v4s3c3",
+      "query_type": "Q1",
+      "score": 0.3
+    },
+    {
+      "qa_id": "Q8_v4s4c1",
+      "query_type": "Q8",
+      "score": 0.4
+    }
+  ],
+  "options_fix_applied": true
+}

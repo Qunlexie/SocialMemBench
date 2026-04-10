@@ -1,0 +1,511 @@
+{
+  "network_id": "grp_4d5e6f7a",
+  "group_name": "Vinyl Heads",
+  "group_type": "interest_community",
+  "group_size": 5,
+  "seed": 4,
+  "personas": [
+    {
+      "persona_id": "p_v4a1b2c3",
+      "display_name": "Theo",
+      "age": 36,
+      "gender": "M",
+      "background": "Sound engineer. The group's most technically obsessive member. Cares intensely about pressing quality and mastering. Has strong, loud opinions about gear that others find exhausting.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "strongly prefers original pressings over reissues — will not buy a reissue if an original exists at any price",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes when record fairs turn into a social event rather than actual hunting",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "listens exclusively on a tube amp setup; despises digital streaming",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "reissue_tolerance",
+          "old_value": "occasionally bought quality reissues when originals were unavailable or too expensive",
+          "new_value": "now refuses all reissues categorically after a bad experience with a new pressing",
+          "changed_at_session": 3,
+          "trigger": "bought an expensive reissue of a Coltrane record that turned out to have terrible mastering; swore off all reissues"
+        }
+      ],
+      "speaking_quirks": [
+        "gives matrix numbers when citing pressing quality ('the A1/B1 is the only one worth having')",
+        "responds to enthusiasm with corrections",
+        "uses 'that depends' before every opinion"
+      ],
+      "occupation": "sound engineer",
+      "skills_list": [
+        {
+          "skill": "vinyl pressing and mastering",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "audio equipment repair",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DJing",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_v4b2c3d4",
+      "display_name": "Rashida",
+      "age": 31,
+      "gender": "F",
+      "background": "Graphic designer. Buys records primarily for the artwork and the ritual — the listening experience, the sleeve notes, the whole aesthetic. Theo considers her taste casual; she considers his taste joyless.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "buys records for aesthetic experience — cover art, ritual, the feel of a sleeve; pressing quality is secondary",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys the social event of record fairs more than the hunting",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "will happily buy reissues if they're well-packaged and affordable",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "buying_budget",
+          "old_value": "had no real budget limit; bought freely",
+          "new_value": "quietly shifted to a strict monthly budget after overspending; doesn't mention it",
+          "changed_at_session": 2,
+          "trigger": "overdid it at a big fair in session 2; imposed a self-limit after that"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 🎶 after every music recommendation",
+        "describes records as 'so beautiful' regardless of genre",
+        "asks 'is it worth it?' whenever Theo recommends something expensive"
+      ],
+      "occupation": "graphic designer",
+      "skills_list": [
+        {
+          "skill": "sleeve art and illustration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "screen printing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "record curation",
+          "proficiency": "strong"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_v4c3d4e5",
+      "display_name": "Gil",
+      "age": 44,
+      "gender": "M",
+      "background": "Librarian. The group's most eclectic collector. Specializes in global music — West African highlife, Brazilian tropicália, Turkish psych. Quiet, observational. Has two copies of every record he loves.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "specializes in global non-Western music; ignores most jazz and rock discussions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "hates when records are stored spine-out; always mentions if someone's collection is stored 'wrong'",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "fair_attendance",
+          "old_value": "attended every fair the group organised",
+          "new_value": "skipping fairs that include too many pop/commercial reissue sellers; only goes to specialist events",
+          "changed_at_session": 4,
+          "trigger": "became increasingly selective after a large commercial fair that had nothing he wanted"
+        }
+      ],
+      "speaking_quirks": [
+        "gives artist recommendations in the format 'Country, decade: artist'",
+        "says 'two copies' whenever he finds something he loves",
+        "rarely asks questions; makes statements"
+      ],
+      "occupation": "librarian",
+      "skills_list": [
+        {
+          "skill": "world music curation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vinyl cataloguing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Portuguese",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_v4d4e5f6",
+      "display_name": "Preet",
+      "age": 28,
+      "gender": "NB",
+      "background": "Music journalist, newest member. Knows a huge amount but is still building their physical collection. Mostly streams; the others know this and find it variously fine (Rashida), mildly disappointing (Theo), or irrelevant (Gil).",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "primarily streams music; physical collection is small and growing slowly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "loves the community aspect of the group — prefers the discussions to the hunting itself",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "interested in music from a cultural/critical angle; less interested in pressing quality and matrix numbers",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "physical_collecting",
+          "old_value": "almost entirely streamed; only owned a handful of records",
+          "new_value": "started building a physical collection more seriously after finding a copy of an album they'd been writing about",
+          "changed_at_session": 3,
+          "trigger": "found a physical copy of a key record at a fair in session 3; it changed their relationship to collecting"
+        }
+      ],
+      "speaking_quirks": [
+        "references critical writing about records ('the liner notes say...')",
+        "asks 'what does it feel like?' about records rather than how they sound",
+        "responds to Theo's corrections with genuine curiosity rather than defensiveness"
+      ],
+      "occupation": "music journalist",
+      "skills_list": [
+        {
+          "skill": "music criticism",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "writing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "streaming and discovery",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_v4e5f6a7",
+      "display_name": "Nneka",
+      "age": 39,
+      "gender": "F",
+      "background": "Solicitor. Collector for 15 years but treats it as relaxation, not obsession. Has a deep, carefully curated collection. Rarely posts in the group chat but when she does, it's decisive.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers smaller, curated fairs over large commercial events — goes in, finds what she wants, leaves",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes group deliberation about purchases; makes her own decisions and doesn't discuss them",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "focuses exclusively on soul and gospel from the 60s-70s; ignores other genres in group discussions",
+            "confidence": "High",
+            "implicit": false
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "group_fair_participation",
+          "old_value": "used to join group fairs as social events",
+          "new_value": "now attends solo or skips entirely if the fair is too large or commercial; sends finds to the group chat after",
+          "changed_at_session": 2,
+          "trigger": "found the group fair format slowed her down; started going alone"
+        }
+      ],
+      "speaking_quirks": [
+        "sends finds to the group chat with just the artist name and year — no other context",
+        "uses 'regardless' when closing a discussion she's bored by",
+        "never uses emoji"
+      ],
+      "occupation": "solicitor",
+      "skills_list": [
+        {
+          "skill": "jazz knowledge",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vinyl curation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hosting and entertaining",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_v4a1b2c3",
+      "persona_b_id": "p_v4b2c3d4",
+      "relationship_type": "founding pair",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Theo finds Rashida's approach casual; she finds his exhausting. They banter constantly.",
+      "shared_events": [
+        "started the group together four years ago"
+      ]
+    },
+    {
+      "persona_a_id": "p_v4a1b2c3",
+      "persona_b_id": "p_v4c3d4e5",
+      "relationship_type": "mutual respect",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Theo respects Gil's knowledge. Gil tolerates Theo's intensity because he's usually right.",
+      "shared_events": [
+        "spent a day hunting at a specialist jazz fair together"
+      ]
+    },
+    {
+      "persona_a_id": "p_v4a1b2c3",
+      "persona_b_id": "p_v4d4e5f6",
+      "relationship_type": "patience test",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Theo is exasperated by Preet's streaming habits. Preet is endlessly curious about Theo's obsessions.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_v4a1b2c3",
+      "persona_b_id": "p_v4e5f6a7",
+      "relationship_type": "allies in quality",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Both care about quality over quantity. Theo respects that Nneka buys decisively.",
+      "shared_events": [
+        "competed for the same copy of a soul record once"
+      ]
+    },
+    {
+      "persona_a_id": "p_v4b2c3d4",
+      "persona_b_id": "p_v4c3d4e5",
+      "relationship_type": "friendly",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Share appreciation for aesthetics and the world-music crossover.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_v4b2c3d4",
+      "persona_b_id": "p_v4d4e5f6",
+      "relationship_type": "close friends in the group",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Both enjoy the social element most. Rashida introduced Preet to the group.",
+      "shared_events": [
+        "attended two fairs together before Preet joined the group formally"
+      ]
+    },
+    {
+      "persona_a_id": "p_v4b2c3d4",
+      "persona_b_id": "p_v4e5f6a7",
+      "relationship_type": "group friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Cordial, friendly. Rashida admires Nneka's collection restraint.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_v4c3d4e5",
+      "persona_b_id": "p_v4d4e5f6",
+      "relationship_type": "mentor dynamic",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Gil occasionally tips Preet off to niche labels and fairs. Preet asks good questions.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_v4c3d4e5",
+      "persona_b_id": "p_v4e5f6a7",
+      "relationship_type": "specialist pair",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both are serious collectors with narrow, deep focus. Rarely talk about the same records but respect each other.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_v4d4e5f6",
+      "persona_b_id": "p_v4e5f6a7",
+      "relationship_type": "lowest overlap",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Preet's critical/streaming approach and Nneka's silent, solo collecting style have very little in common.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "What you find at a fair stays in the group chat — no gatekeeping finds.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_v4e5f6a7"
+      ]
+    },
+    {
+      "norm_text": "Group fairs are a social event, not a competition.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_v4a1b2c3",
+        "p_v4e5f6a7"
+      ]
+    },
+    {
+      "norm_text": "Everyone contributes a recommendation per meet.",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {}
+}

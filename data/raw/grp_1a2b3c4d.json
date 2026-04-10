@@ -1,0 +1,592 @@
+{
+  "network_id": "grp_1a2b3c4d",
+  "group_name": "The Sunday Crew",
+  "group_type": "close_friends",
+  "group_size": 5,
+  "seed": 1,
+  "personas": [
+    {
+      "persona_id": "p_m1a2b3c4",
+      "display_name": "Maya",
+      "age": 28,
+      "gender": "F",
+      "background": "Graphic designer, grew up in the Bay Area, moved to the city for work six years ago. Has a pottery studio membership she uses sporadically. Runs 3-4 mornings a week but complains about it constantly.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "strong aversion to cilantro — describes it as 'that horrible soap herb'",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "prefers coffee over alcohol at social events (recent change)",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys running but only after 8am — hates early morning starts",
+            "confidence": "Medium",
+            "implicit": true
+          },
+          {
+            "value": "loves pottery and tactile creative work",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers smaller gatherings over big group events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "alcohol",
+          "old_value": "enjoyed wine and cocktails at brunches and dinners",
+          "new_value": "exclusively drinks coffee, tea, or sparkling water at social events",
+          "changed_at_session": 3,
+          "trigger": "quietly stopped drinking around session 3; never made an announcement"
+        }
+      ],
+      "speaking_quirks": [
+        "starts many messages with 'ok so'",
+        "uses 'ngl' (not gonna lie) frequently",
+        "sends rapid-fire short texts in sequence rather than one long message"
+      ],
+      "occupation": "graphic designer",
+      "skills_list": [
+        {
+          "skill": "ceramics",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "graphic design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_j2b3c4d5",
+      "display_name": "Jordan",
+      "age": 31,
+      "gender": "M",
+      "background": "Software engineer, originally from Edinburgh. Competitive cyclist who treats Sunday mornings as sacred training time unless guilt or social pressure intervenes. Pescatarian but never announces it.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "pescatarian — never orders meat, never explains why unless directly asked",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "dislikes overly sweet food — will push the dessert menu away without comment",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "cycling is non-negotiable on Sunday mornings when weather is good",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "strongly dislikes team sports and group fitness activities",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers quieter venues where you can actually have a conversation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_logistics_role",
+          "old_value": "used to organize all group logistics — bookings, times, directions",
+          "new_value": "now stays completely passive on logistics, doesn't engage",
+          "changed_at_session": 2,
+          "trigger": "burned out from always being the organizer; became visibly disengaged after session 2"
+        }
+      ],
+      "speaking_quirks": [
+        "sends single-word or very short acknowledgments: 'noted', 'sure', 'fine', 'ok'",
+        "when he does write more, he over-specifies logistics: exact times, street names, transit options",
+        "never uses exclamation marks or emoji"
+      ],
+      "occupation": "software engineer",
+      "skills_list": [
+        {
+          "skill": "cycling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "photography",
+          "proficiency": "low"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_p3c4d5e6",
+      "display_name": "Priya",
+      "age": 29,
+      "gender": "F",
+      "background": "UX researcher, moved to the neighborhood two years ago. Grew up in a Gujarati family, vegetarian her whole life. Recently moved to a new apartment near a cluster of great Thai and Indian restaurants and has been leaning into spicy food.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian — always has been, but doesn't make a fuss",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "actively seeks out spicy food now; gets visibly excited about Thai and Indian places",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "used to avoid very spicy food; now orders the hottest option",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "committed yoga practitioner — does it 5 mornings a week",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "dislikes loud venues with music that drowns out conversation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "anxious about logistics; needs confirmation that plans are happening",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "spice_tolerance",
+          "old_value": "avoided very spicy dishes, ordered mild",
+          "new_value": "actively orders the spiciest option, gets enthusiastic about heat",
+          "changed_at_session": 2,
+          "trigger": "moved to a new neighborhood with great Thai and Indian spots; got hooked"
+        }
+      ],
+      "speaking_quirks": [
+        "sends multiple short texts in a row instead of one combined message",
+        "uses 'honestly' very frequently at the start of sentences",
+        "adds 🙌 or 😭 at the end of thoughts to soften tone"
+      ],
+      "occupation": "UX researcher",
+      "skills_list": [
+        {
+          "skill": "cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "spice blending",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hiking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_s4d5e6f7",
+      "display_name": "Sam",
+      "age": 27,
+      "gender": "NB",
+      "background": "Freelance illustrator and part-time gallery assistant. Thoughtful, observational, slow to reply. Has a strong opinion about nearly everything but rarely volunteers it unprompted. Had a bad ankle sprain in session 4 that changed their relationship with outdoor activities.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "strong aversion to mushrooms — the texture; will quietly avoid any dish containing them",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "adventurous eater otherwise; will try anything once",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves galleries, art openings, independent cinema",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "avoids hiking and strenuous outdoor activities (ankle injury, session 4)",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "previously would join group hikes without complaint",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "strongly prefers quiet venues; goes quiet or deflects when loud bars are suggested",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "hiking",
+          "old_value": "would join group hikes, no strong preference either way",
+          "new_value": "consistently declines hikes and strenuous walks; references ankle without elaborating",
+          "changed_at_session": 4,
+          "trigger": "ankle sprain; mentioned obliquely in session 4"
+        }
+      ],
+      "speaking_quirks": [
+        "responds hours after the conversation has moved on, with a very specific observation",
+        "uses ellipses '...' to trail off rather than finish thoughts",
+        "rarely uses emoji; occasionally a single period for emphasis"
+      ],
+      "occupation": "freelance illustrator",
+      "skills_list": [
+        {
+          "skill": "illustration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gallery curation",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "music",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_l5e6f7a8",
+      "display_name": "Lena",
+      "age": 33,
+      "gender": "F",
+      "background": "Accountant, originally from Krakow. Joined the friend group about 18 months ago through Priya. Quietly organized and slightly anxious. Gluten intolerant but rarely mentions it to avoid being a burden. Changed jobs recently, which lengthened her commute significantly.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "gluten intolerant — quietly checks menus and orders gluten-free without making it a topic",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "loves home-cooked meals and communal cooking over restaurant dining",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys cooking together as a group activity",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "avoids anything competitive — sports, trivia nights, etc.",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "needs confirmation that plans are firm; sends 'are we still on?' messages",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "punctuality",
+          "old_value": "reliably on time, often early",
+          "new_value": "now consistently 10-15 minutes late to everything",
+          "changed_at_session": 2,
+          "trigger": "new job with a much longer commute; started being late without explanation"
+        }
+      ],
+      "speaking_quirks": [
+        "always sends a confirmation message before events: 'are we still on for Sunday?'",
+        "follows up with reminders the day before",
+        "apologizes pre-emptively when she might be late"
+      ],
+      "occupation": "accountant",
+      "skills_list": [
+        {
+          "skill": "event planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "baking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "language learning",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_m1a2b3c4",
+      "persona_b_id": "p_j2b3c4d5",
+      "relationship_type": "college friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Met freshman year of college, nine years ago. Maya is one of the few people Jordan will actually make plans for. They have a comfortable shorthand.",
+      "shared_events": [
+        "road trip to Joshua Tree in 2019",
+        "both moved to the same city within a month of each other"
+      ]
+    },
+    {
+      "persona_a_id": "p_m1a2b3c4",
+      "persona_b_id": "p_p3c4d5e6",
+      "relationship_type": "work friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Met at a previous company three years ago, became close over long lunches. Still close after Maya changed jobs.",
+      "shared_events": [
+        "survived a terrible company offsite together",
+        "monthly standing coffee catchup"
+      ]
+    },
+    {
+      "persona_a_id": "p_m1a2b3c4",
+      "persona_b_id": "p_s4d5e6f7",
+      "relationship_type": "friends of friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Met through Jordan two years ago. Enjoy each other's company but don't hang out one-on-one much. Maya likes Sam's dry humor.",
+      "shared_events": [
+        "attended the same gallery opening last spring",
+        "worked on a joint art/design project briefly"
+      ]
+    },
+    {
+      "persona_a_id": "p_m1a2b3c4",
+      "persona_b_id": "p_l5e6f7a8",
+      "relationship_type": "friends through group",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lena joined the group through Priya about 18 months ago. Maya and Lena get along warmly but the relationship is mostly in the group context.",
+      "shared_events": [
+        "cooked a big dinner together at Priya's last winter",
+        "ran into each other at the farmers market once"
+      ]
+    },
+    {
+      "persona_a_id": "p_j2b3c4d5",
+      "persona_b_id": "p_p3c4d5e6",
+      "relationship_type": "friends through Maya",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Respect each other but have different communication styles. Priya over-plans; Jordan thinks it's unnecessary. They've argued over logistics more than once.",
+      "shared_events": [
+        "organized a surprise birthday for Maya together",
+        "had a brief standoff over a dinner reservation that fell through"
+      ]
+    },
+    {
+      "persona_a_id": "p_j2b3c4d5",
+      "persona_b_id": "p_s4d5e6f7",
+      "relationship_type": "oldest friends in the group",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Known each other for six years. Share a dry, understated humor. Comfortable with long silences. Have a running joke about a hiking trip that went badly.",
+      "shared_events": [
+        "terrible hiking trip to Mt. Tam that went wrong (running joke)",
+        "have a standing arrangement to see a film together every few months"
+      ]
+    },
+    {
+      "persona_a_id": "p_j2b3c4d5",
+      "persona_b_id": "p_l5e6f7a8",
+      "relationship_type": "group acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Cordial but no real independent relationship. Jordan finds Lena's plan-confirmation habit mildly grating. Lena finds Jordan hard to read.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_p3c4d5e6",
+      "persona_b_id": "p_s4d5e6f7",
+      "relationship_type": "creative bond",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Bonded over art and design interests. Go to gallery openings together occasionally. Priya is more socially effusive than Sam, but appreciates Sam's observations.",
+      "shared_events": [
+        "went to a large design exhibition together last year",
+        "Sam gave Priya a small illustration as a housewarming gift"
+      ]
+    },
+    {
+      "persona_a_id": "p_p3c4d5e6",
+      "persona_b_id": "p_l5e6f7a8",
+      "relationship_type": "close within group",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lena joined the group through Priya, and they have remained the closest pair within it. They share similar anxieties about plans and a mutual appreciation for order.",
+      "shared_events": [
+        "did a weekend trip together to the coast last summer",
+        "have a separate chat just the two of them for venting"
+      ]
+    },
+    {
+      "persona_a_id": "p_s4d5e6f7",
+      "persona_b_id": "p_l5e6f7a8",
+      "relationship_type": "group members",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Pleasant but little independent contact. Sam finds Lena's logistics-checking slightly anxious; Lena finds Sam hard to read and sometimes wonders if Sam actually likes her.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "The group votes before booking a restaurant — no one books without checking with everyone first.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Sunday brunches are sacred — no cancellations after Friday night.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_j2b3c4d5"
+      ]
+    },
+    {
+      "norm_text": "No work chat on group hangs.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_p3c4d5e6"
+      ]
+    }
+  ],
+  "metadata": {}
+}

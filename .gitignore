@@ -2,13 +2,16 @@
 .env
 *.env
 
-# Generated data (large, tracked separately or via git-lfs if needed)
-data/raw/
-data/conversations/
-data/qa/
-data/verify/
-data/results/
-data/manifest.json
+# Vector store binaries and in-memory caches (not portable)
+data/.naive_rag_chroma/
+data/.smg_graphs/
+data/.mem0/
+data/.graphiti/
+data/.cognee/
+data/.langmem/
+*.bin
+*.sqlite3
+*.parquet
 
 # Python
 __pycache__/

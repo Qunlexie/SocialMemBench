@@ -1,0 +1,63 @@
+{
+  "network_id": "grp_3c4d5e6f",
+  "condition": "mem0_local",
+  "model": "gpt-4o",
+  "evaluated_at": "2026-04-10T06:27:06.310181+00:00",
+  "sessions_used": 5,
+  "total_pairs": 8,
+  "new_pairs_this_run": 3,
+  "mean_score": 0.35,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.8
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q7_r3a7b8c9",
+      "query_type": "Q7",
+      "score": 0.0
+    },
+    {
+      "qa_id": "Q8_r3b8c9d0",
+      "query_type": "Q8",
+      "score": 0.0
+    },
+    {
+      "qa_id": "Q2_r3c3d4e5",
+      "query_type": "Q2",
+      "score": 0.0
+    },
+    {
+      "qa_id": "Q6_r3c1d2e3",
+      "query_type": "Q6",
+      "score": 0.0
+    }
+  ],
+  "options_fix_applied": true
+}

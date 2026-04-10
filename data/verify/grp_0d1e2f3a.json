@@ -1,0 +1,135 @@
+{
+  "network_id": "grp_0d1e2f3a",
+  "verified_at": "2026-04-06T19:34:12.102169",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "pass": true,
+      "checks": {
+        "required_fields_present": {
+          "pass": true
+        },
+        "correct_persona_count": {
+          "pass": true
+        },
+        "closeness_variety": {
+          "pass": true
+        },
+        "tense_mixed_edge": {
+          "pass": true
+        },
+        "contested_norm_exists": {
+          "pass": true
+        },
+        "preference_history_coverage": {
+          "pass": true
+        },
+        "communication_distinctness": {
+          "pass": true
+        },
+        "edge_coverage": {
+          "pass": true
+        },
+        "no_null_display_names": {
+          "pass": true
+        },
+        "persona_ids_unique": {
+          "pass": true
+        }
+      }
+    },
+    "stage2": {
+      "pass": true,
+      "checks": {
+        "sessions_present": {
+          "pass": true
+        },
+        "turn_count_per_session": {
+          "pass": true
+        },
+        "no_out_of_character_narration": {
+          "pass": true
+        },
+        "planted_challenges_exist": {
+          "pass": true
+        },
+        "planted_challenge_field_completeness": {
+          "pass": true
+        },
+        "challenge_type_variety": {
+          "pass": true
+        },
+        "speaker_coverage": {
+          "pass": true
+        },
+        "temporal_shift_present": {
+          "pass": true
+        },
+        "evidence_spans_non_empty": {
+          "pass": true
+        },
+        "evidence_span_verbatim": {
+          "pass": true
+        },
+        "timestamp_label_consistency": {
+          "pass": true
+        },
+        "day_of_week_accuracy": {
+          "pass": true
+        },
+        "session_date_continuity": {
+          "pass": true
+        },
+        "message_length_ceiling": {
+          "pass": true
+        },
+        "no_em_dashes": {
+          "pass": true
+        },
+        "topic_variation": {
+          "pass": true
+        },
+        "verbosity_realized": {
+          "pass": true
+        }
+      }
+    },
+    "stage3": {
+      "pass": true,
+      "checks": {
+        "qa_pairs_exist": {
+          "pass": true
+        },
+        "no_empty_questions": {
+          "pass": true
+        },
+        "no_empty_answers": {
+          "pass": true
+        },
+        "answer_length": {
+          "pass": true
+        },
+        "evidence_anchors_present": {
+          "pass": true
+        },
+        "evidence_verbatim": {
+          "pass": true
+        },
+        "query_type_coverage": {
+          "pass": true
+        },
+        "q5_two_part": {
+          "pass": true
+        },
+        "q4_has_foil": {
+          "pass": true
+        },
+        "q8_has_anchors": {
+          "pass": true
+        }
+      }
+    }
+  },
+  "failures": [],
+  "warnings": []
+}

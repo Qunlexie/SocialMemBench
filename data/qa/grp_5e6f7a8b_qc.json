@@ -1,0 +1,79 @@
+{
+  "network_id": "grp_5e6f7a8b",
+  "qc_mode": "offline_heuristic",
+  "total_pairs": 8,
+  "phase1_mean_score": 1.0,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": ""
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": ""
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": ""
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "protected_turn_em_dashes=0"
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": ""
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none",
+  "generated_at": "2026-04-06T18:33:35.940782+00:00"
+}

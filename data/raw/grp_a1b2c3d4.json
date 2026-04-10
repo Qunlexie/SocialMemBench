@@ -1,0 +1,707 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "group_name": "Tabletop Collective",
+  "group_type": "interest_community",
+  "group_size": 10,
+  "seed": 11,
+  "personas": [
+    {
+      "persona_id": "p_aa11bb22",
+      "display_name": "Marcus",
+      "age": 34,
+      "gender": "male",
+      "occupation": "Software engineer",
+      "background": "Marcus moved to the city five years ago for work and found the Tabletop Collective through a local boardgame meetup app. He runs competitive board game tournaments at the local game store on alternating Saturdays and treats strategy games as serious intellectual exercise. His coworkers describe him as meticulous and occasionally blunt.",
+      "skills_list": [
+        {"skill": "strategy game optimization", "proficiency": "strong"},
+        {"skill": "rules adjudication", "proficiency": "strong"},
+        {"skill": "spreadsheet analysis", "proficiency": "medium"},
+        {"skill": "miniature painting", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "dislikes anything overly greasy at game nights — avoids touching cards with oily fingers", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers games with minimal luck mechanics, favors pure strategy", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers smaller focused game sessions over big chaotic groups", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "dislikes cooperative games where one player quarterbacking ruins the experience", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "game_complexity",
+          "old_value": "prefers heavy complex games exclusively",
+          "new_value": "willing to play mid-weight games occasionally when the group is mixed-experience",
+          "changed_at_session": 5,
+          "trigger": "Watched newer members struggle with a complex game and felt responsible for the poor experience"
+        }
+      ],
+      "speaking_quirks": [
+        "starts corrections with 'actually' or 'technically'",
+        "cites win rates or statistics when making game recommendations",
+        "never uses exclamation marks"
+      ],
+      "participation_rate": 1.0
+    },
+    {
+      "persona_id": "p_bb22cc33",
+      "display_name": "Priya",
+      "age": 29,
+      "gender": "female",
+      "occupation": "UX designer",
+      "background": "Priya is originally from Bangalore and has been in the group for two years. She got into board games through a Kickstarter campaign she backed for a collaborative storytelling game and was surprised to discover how social the hobby was. She's the de facto social planner for the group and frequently coordinates game night logistics.",
+      "skills_list": [
+        {"skill": "cooperative game strategy", "proficiency": "strong"},
+        {"skill": "graphic design eye for game components", "proficiency": "strong"},
+        {"skill": "event coordination", "proficiency": "medium"},
+        {"skill": "game narrative / lore retention", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "loves having themed snacks that match the game being played", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "drawn to narrative and cooperative games over cutthroat competitive ones", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers game nights that double as social hangouts, not just game marathons", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "excited by game component quality and artwork", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "game_type_preference",
+          "old_value": "exclusively cooperative storytelling games",
+          "new_value": "opened up to competitive worker-placement games after Wingspan converted her",
+          "changed_at_session": 3,
+          "trigger": "Marcus taught her Wingspan and she won her first game, surprising herself"
+        }
+      ],
+      "speaking_quirks": [
+        "ends messages with a question to keep conversation going",
+        "uses parenthetical asides in messages",
+        "frequently uses 'honestly' as a sentence opener"
+      ],
+      "participation_rate": 0.95
+    },
+    {
+      "persona_id": "p_cc33dd44",
+      "display_name": "Tomasz",
+      "age": 41,
+      "gender": "male",
+      "occupation": "High school history teacher",
+      "background": "Tomasz has been in the group the longest — one of the original five members when the Collective started. Polish-born, he brings a historical angle to thematic games and has an encyclopedic knowledge of Eurogame history. He is methodical and tends to play slowly, which some members find frustrating. He and Marcus have a friendly rivalry.",
+      "skills_list": [
+        {"skill": "Eurogame strategy", "proficiency": "strong"},
+        {"skill": "historical wargame rules", "proficiency": "strong"},
+        {"skill": "teaching game rules to newcomers", "proficiency": "medium"},
+        {"skill": "oil painting (component customization)", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "brings homemade pierogi to special game nights, prefers savory snacks", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "strongly prefers thematic Eurogames with historical settings over abstract games", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes when sessions run past 10pm — has early school starts", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "particular about using proper rulebooks, hates house rules", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "rules_approach",
+          "old_value": "absolutely no house rules under any circumstances",
+          "new_value": "accepts minor quality-of-life house rules for newer members if agreed up front",
+          "changed_at_session": 6,
+          "trigger": "A frustrating session where a first-timer quit mid-game due to the complexity"
+        }
+      ],
+      "speaking_quirks": [
+        "references historical parallels to explain game mechanics",
+        "uses the phrase 'in my experience' before strong opinions",
+        "occasionally slips in Polish words or phrases"
+      ],
+      "participation_rate": 0.9
+    },
+    {
+      "persona_id": "p_dd44ee55",
+      "display_name": "Kezia",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Barista and part-time illustrator",
+      "background": "Kezia joined the Collective 18 months ago after seeing a flyer at the coffee shop where she works. She's one of the newest members and approaches games with genuine enthusiasm but limited strategy knowledge. Her strengths are social deduction games where reading people matters more than optimizing resource tracks. She illustrates custom card backs for the group as a side project.",
+      "skills_list": [
+        {"skill": "social deduction and bluffing games", "proficiency": "strong"},
+        {"skill": "digital illustration", "proficiency": "strong"},
+        {"skill": "color theory for game component art", "proficiency": "medium"},
+        {"skill": "light strategy games", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always brings specialty coffee or mocktails to game night", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "gravitates toward games that involve player interaction and bluffing over engine-building", "confidence": "High", "implicit": true}],
+        "social": [{"value": "loves the social aspect, stays late chatting after games end", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "gets frustrated with downtime in heavy games — long turns where she has nothing to do", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "game_weight_tolerance",
+          "old_value": "avoided heavy games entirely, stuck to social deduction",
+          "new_value": "willing to try medium-weight games, especially with a buddy to explain",
+          "changed_at_session": 4,
+          "trigger": "Tomasz patiently walked her through a medium-weight game and she stayed engaged the whole time"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'omg' and 'lol' frequently in text",
+        "drops the subject from sentences ('Loved that game', 'Can't wait')",
+        "uses lots of ellipses when unsure"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_ee55ff66",
+      "display_name": "Derek",
+      "age": 38,
+      "gender": "male",
+      "occupation": "Financial analyst",
+      "background": "Derek joined the group through Marcus, who is his colleague at the same tech firm. He is a competitive player who does not like to lose and sometimes pushes for rematches. He has a strong memory for game mechanics and a habit of mentally calculating odds. He and Priya clash occasionally over game selection since he prefers competitive titles.",
+      "skills_list": [
+        {"skill": "competitive deckbuilding games", "proficiency": "strong"},
+        {"skill": "probability and odds calculation", "proficiency": "strong"},
+        {"skill": "auction and trading mechanics", "proficiency": "medium"},
+        {"skill": "speed games", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [{"value": "prefers ordering pizza delivery over potluck-style snacks — values efficiency", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "strongly prefers competitive zero-sum games with clear winners", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes long rules explanations at the start of sessions — prefers people to have read the rules before", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "hates when people undo moves or take back decisions mid-game", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "rematch_behavior",
+          "old_value": "routinely pushed for rematches after losing, regardless of group energy",
+          "new_value": "stopped asking for rematches after reading the room better — mentioned by Marcus to have changed",
+          "changed_at_session": 7,
+          "trigger": "Group gently called out the pattern after a session that ran very late due to rematches"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'nah' instead of 'no'",
+        "references win-loss records or streaks in conversation",
+        "rarely uses punctuation"
+      ],
+      "participation_rate": 0.8
+    },
+    {
+      "persona_id": "p_ff66aa77",
+      "display_name": "Soo-Yeon",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Pharmacist",
+      "background": "Soo-Yeon is a quiet but consistent presence in the Collective, having joined three years ago through a friend who later stopped coming. She focuses intently during games but is relatively quiet in the group chat. She has a particular passion for puzzle-heavy and deduction games. She and Kezia bonded over their shared love of artwork in games.",
+      "skills_list": [
+        {"skill": "deduction and puzzle games", "proficiency": "strong"},
+        {"skill": "pattern recognition in game states", "proficiency": "strong"},
+        {"skill": "pharmacy and chemistry trivia (useful in trivia nights)", "proficiency": "medium"},
+        {"skill": "origami and crafting (custom tokens)", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "avoids heavy carbs at late-night game sessions — doesn't eat pizza", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers games with a deduction or hidden information element", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers not to host game nights — comfortable attending but not organizing", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "finds it difficult to play games that require a lot of fast talking or real-time pressure", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "real_time_game_tolerance",
+          "old_value": "refuses to play real-time or speed games",
+          "new_value": "tried one cooperative real-time game and found she enjoyed the low-stakes version",
+          "changed_at_session": 6,
+          "trigger": "Priya convinced her to try a cooperative real-time game where team communication compensated for her discomfort"
+        }
+      ],
+      "speaking_quirks": [
+        "replies with very short acknowledgments ('got it', 'sounds good', 'noted')",
+        "asks precise clarifying questions rather than making assumptions",
+        "occasionally uses Korean interjections like 'aigoo'"
+      ],
+      "participation_rate": 0.8
+    },
+    {
+      "persona_id": "p_aa77bb88",
+      "display_name": "Lena",
+      "age": 27,
+      "gender": "female",
+      "occupation": "Graduate student in cognitive science",
+      "background": "Lena joined the group through Priya, who is a colleague's partner. She's deeply interested in game theory and decision-making, and she brings academic perspectives on strategy to the table that sometimes go over people's heads. She is good-natured about it when people tell her to dial back the theory. She and Marcus have a friendship built around analytical game discussion.",
+      "skills_list": [
+        {"skill": "game theory and Nash equilibria", "proficiency": "strong"},
+        {"skill": "cognitive science frameworks for decision-making", "proficiency": "strong"},
+        {"skill": "mid-weight euro strategy", "proficiency": "medium"},
+        {"skill": "game accessibility and onboarding design", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "vegetarian — quietly avoids meat dishes but never makes a fuss about it", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "loves games that reward strategic depth over luck — gets visibly restless during dice-heavy games", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers post-game discussion/debrief over immediately starting the next game", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "enjoys introducing academic framing to game analysis, sometimes gets carried away", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "luck_tolerance",
+          "old_value": "strong aversion to luck mechanics — refused to play dice-heavy games",
+          "new_value": "more relaxed about it after a conversation about variance as a game design feature",
+          "changed_at_session": 5,
+          "trigger": "Marcus and Lena had a conversation during session 5 where Marcus reframed variance as a skill-testing element"
+        }
+      ],
+      "speaking_quirks": [
+        "uses academic hedging phrases like 'one could argue' or 'the evidence suggests'",
+        "drops 'tbh' into otherwise formal sentences",
+        "tends to give long answers that start with 'so basically'"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_bb88cc99",
+      "display_name": "Raj",
+      "age": 44,
+      "gender": "male",
+      "occupation": "Architect",
+      "background": "Raj is the oldest active member and co-founded the Collective with Tomasz. He has a wide taste in games but an artist's appreciation for game component design and spatial reasoning games. He can be gregarious but tends to step back in competitive situations. He coordinates the group's annual one-day game marathon event.",
+      "skills_list": [
+        {"skill": "spatial reasoning and abstract strategy", "proficiency": "strong"},
+        {"skill": "3D-printed custom game components", "proficiency": "strong"},
+        {"skill": "event organization", "proficiency": "medium"},
+        {"skill": "speed games and dexterity games", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always offers to pick up the group snacks but quietly dislikes overly sweet things", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "gravitates to spatial and abstract games — visibly engaged by board layouts and tile placement", "confidence": "High", "implicit": true}],
+        "social": [{"value": "loves hosting the annual marathon but finds frequent hosting draining", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "obsessed with component quality — first thing he checks in a new game is the insert and cardstock", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "hosting_frequency",
+          "old_value": "hosted game nights at his home nearly every session",
+          "new_value": "rotating host schedule after burning out from always setting up and tearing down",
+          "changed_at_session": 4,
+          "trigger": "Raj mentioned during session 4 that he needed a break from constant hosting — Priya organized a rotation"
+        }
+      ],
+      "speaking_quirks": [
+        "uses architectural vocabulary metaphorically ('good structural design', 'load-bearing mechanic')",
+        "often adds 'to be fair' before acknowledging a counterpoint",
+        "sends short follow-up messages rather than one long one"
+      ],
+      "participation_rate": 0.9
+    },
+    {
+      "persona_id": "p_cc99dd00",
+      "display_name": "Nadia",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Freelance technical writer",
+      "background": "Nadia found the group through an online forum after moving to the city two years ago. She has a precise, analytical mind and a background in wargaming that she doesn't talk about much. She values the social structure of the group but keeps personal information close. Her and Tomasz share a mutual respect for historical accuracy in thematic games.",
+      "skills_list": [
+        {"skill": "wargame strategy", "proficiency": "strong"},
+        {"skill": "rulebook comprehension and errata", "proficiency": "strong"},
+        {"skill": "miniature painting", "proficiency": "medium"},
+        {"skill": "light social deduction games", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [{"value": "never eats at the table during games — separates eating and gaming strictly", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers wargames and asymmetric strategy over symmetrical Euro fare", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes idle social chat that delays getting the game to the table", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "particular about rule interpretations — will cite page numbers", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "pre_game_socializing",
+          "old_value": "would arrive exactly on time and push to start immediately",
+          "new_value": "arrives a bit early and tolerates 15-20 minutes of social warmup before the game",
+          "changed_at_session": 3,
+          "trigger": "Raj pointed out that new members need social warmup time to feel comfortable — Nadia acknowledged this in session 3"
+        }
+      ],
+      "speaking_quirks": [
+        "uses precise numeric references ('page 7 of the rulebook', 'the second paragraph of that rule')",
+        "starts disagreements with 'That is not correct'",
+        "no contractions in messages — writes 'do not' not 'don't'"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_dd00ee11",
+      "display_name": "Felix",
+      "age": 24,
+      "gender": "male",
+      "occupation": "Junior game developer at an indie studio",
+      "background": "Felix is the youngest member and most recently joined, referred by Kezia who knows him from a design art community online. He approaches board games from a game design perspective, often deconstructing mechanics and drawing comparisons to video games. He is enthusiastic and verbose in chat, and his energy can either energize the group or overwhelm quieter members.",
+      "skills_list": [
+        {"skill": "game design analysis and critique", "proficiency": "strong"},
+        {"skill": "video game to board game mechanic translation", "proficiency": "strong"},
+        {"skill": "light strategy and dexterity games", "proficiency": "medium"},
+        {"skill": "social media content creation about games", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "snacks constantly during games, always brings a big bag of something shareable", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "loves games with clever mechanical innovations, prioritizes 'cool design' over balance", "confidence": "High", "implicit": true}],
+        "social": [{"value": "loves talking about games almost as much as playing them — often derails into analysis mid-session", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "finds pure abstract games without theme deeply uninteresting", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "abstract_game_tolerance",
+          "old_value": "dismissive of abstract games, would openly decline them",
+          "new_value": "after Soo-Yeon's recommendation, tried Azul and found he enjoyed the visual-spatial element",
+          "changed_at_session": 7,
+          "trigger": "Soo-Yeon recommended Azul specifically because of its visual appeal to Felix as a designer"
+        }
+      ],
+      "speaking_quirks": [
+        "compares everything to video game equivalents",
+        "uses 'honestly' and 'like' as filler words frequently",
+        "often sends multiple short messages in a row instead of one combined message"
+      ],
+      "participation_rate": 0.7
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_aa11bb22",
+      "persona_b_id": "p_dd44ee55",
+      "relationship_type": "coworker",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Derek work at the same tech firm, which is how Derek joined the Collective. They have mutual respect professionally but Derek's competitive intensity sometimes irritates Marcus.",
+      "shared_events": ["joined same company the same year", "Marcus invited Derek to the Collective after a work lunch"]
+    },
+    {
+      "persona_a_id": "p_aa11bb22",
+      "persona_b_id": "p_cc33dd44",
+      "relationship_type": "founding_rivals",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Marcus and Tomasz have been the two most experienced players in the group since the Collective started. They share a friendly but intense intellectual rivalry, frequently disagreeing on game theory while deeply respecting each other.",
+      "shared_events": ["co-organized the first tournament at the local game store", "argued famously over Brass Birmingham strategy for an hour"]
+    },
+    {
+      "persona_a_id": "p_aa11bb22",
+      "persona_b_id": "p_aa77bb88",
+      "relationship_type": "analytical_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Lena bonded over post-game analysis discussions. They frequently stay late after sessions breaking down strategy, and Lena is one of the few people Marcus enjoys having long conversations with.",
+      "shared_events": ["co-won a two-player team tournament together", "ongoing Slack thread about game theory between them"]
+    },
+    {
+      "persona_a_id": "p_bb22cc33",
+      "persona_b_id": "p_aa77bb88",
+      "relationship_type": "social_connector",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya introduced Lena to the Collective and they have become close friends through the group. Priya is Lena's social anchor in the group.",
+      "shared_events": ["Priya brought Lena to her first session", "they host pre-game dinners together before some sessions"]
+    },
+    {
+      "persona_a_id": "p_bb22cc33",
+      "persona_b_id": "p_dd44ee55",
+      "relationship_type": "frequent_friction",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Priya and Derek frequently disagree on game selection — she pushes for cooperative narrative games and he pushes for competitive titles. Their disagreements are usually resolved by the group but leave a residue of mild tension.",
+      "shared_events": ["famous standoff over whether to play Spirit Island or Twilight Imperium", "Derek once complained about Priya's themed snack ritual as 'a waste of time'"]
+    },
+    {
+      "persona_a_id": "p_bb22cc33",
+      "persona_b_id": "p_ee55ff66",
+      "relationship_type": "fellow_regulars",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Priya and Soo-Yeon have been attending the same game sessions for three years without becoming close outside the group, but they have a reliable friendly dynamic within it.",
+      "shared_events": ["co-won a cooperative campaign game together", "both advocated for the group to try Pandemic Legacy"]
+    },
+    {
+      "persona_a_id": "p_cc33dd44",
+      "persona_b_id": "p_bb88cc99",
+      "relationship_type": "co-founders",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Tomasz and Raj co-founded the Tabletop Collective and have the longest shared history in the group. They built the house rules and traditions together and are the group's institutional memory.",
+      "shared_events": ["founded the Collective together five years ago", "co-organize the annual game marathon", "share a mutual appreciation for component quality and game design history"]
+    },
+    {
+      "persona_a_id": "p_cc33dd44",
+      "persona_b_id": "p_cc99dd00",
+      "relationship_type": "historical_enthusiasts",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Tomasz and Nadia bonded over their shared love of historically-themed games. Nadia's wargaming background complemented Tomasz's Eurogame expertise and they frequently trade game recommendations.",
+      "shared_events": ["spent an entire session playing a two-player wargame while others played something else", "mutual reading recommendations on board game history"]
+    },
+    {
+      "persona_a_id": "p_dd44ee55",
+      "persona_b_id": "p_bb88cc99",
+      "relationship_type": "casual_acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Derek and Raj interact mainly through the group's game sessions and have little personal connection outside it. Derek finds Raj's diplomatic style occasionally frustrating when he wants a direct decision.",
+      "shared_events": ["played in the same team during the annual marathon", "disagreed over game selection several times with no resolution"]
+    },
+    {
+      "persona_a_id": "p_dd44ee55",
+      "persona_b_id": "p_aa11bb22",
+      "relationship_type": "coworker_referral",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Duplicate of the Marcus-Derek edge for bidirectionality — covered by the first edge.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ee55ff66",
+      "persona_b_id": "p_dd00ee11",
+      "relationship_type": "design_community_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Soo-Yeon and Felix were introduced through Kezia and bonded over their appreciation for visual game design. Soo-Yeon mentors Felix informally on appreciating abstract and deduction games.",
+      "shared_events": ["Soo-Yeon recommended Azul to Felix which converted him on abstract games", "play deduction games together before the main session sometimes"]
+    },
+    {
+      "persona_a_id": "p_dd44ee55",
+      "persona_b_id": "p_dd00ee11",
+      "relationship_type": "acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Kezia and Felix came from the same online design community and are genuinely close outside the Collective. They share aesthetic sensibilities and often arrive together to game nights.",
+      "shared_events": ["co-illustrated a custom card set for the group", "attend the same online design community events"]
+    },
+    {
+      "persona_a_id": "p_bb88cc99",
+      "persona_b_id": "p_aa77bb88",
+      "relationship_type": "host_guest",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Raj has hosted Lena multiple times before the rotating schedule. He appreciates her analytical commentary on game components and spatial design.",
+      "shared_events": ["Lena praised Raj's 3D-printed custom tokens publicly in a session", "Raj asked Lena to review a game insert design he was working on"]
+    },
+    {
+      "persona_a_id": "p_cc99dd00",
+      "persona_b_id": "p_aa11bb22",
+      "relationship_type": "rule_lawyers",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Nadia and Marcus are both precise about rules and share a mutual respect for rigor, but Nadia's formal tone sometimes clashes with Marcus's tendency to offer unsolicited optimization advice.",
+      "shared_events": ["jointly corrected an incorrect rule interpretation during a session", "had a debate about errata precedence that others found excruciating"]
+    },
+    {
+      "persona_a_id": "p_bb22cc33",
+      "persona_b_id": "p_dd44ee55",
+      "relationship_type": "game_selection_conflict",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Duplicate captured above — Priya and Derek's ongoing game-selection tension.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_aa77bb88",
+      "persona_b_id": "p_cc99dd00",
+      "relationship_type": "quiet_respect",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lena and Nadia have a quiet mutual respect — both precise thinkers in different ways. They rarely interact much but when they do, the exchange is substantive.",
+      "shared_events": ["co-fact-checked a rules dispute in one session", "exchanged reading recommendations on game design theory"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We always do a group vote on what to play — majority rules",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "We all bring something to eat or drink to game nights",
+      "truly_universal": false,
+      "dissenters": ["p_cc99dd00"]
+    },
+    {
+      "norm_text": "We try to wrap up by 10pm on weeknights",
+      "truly_universal": false,
+      "dissenters": ["p_dd44ee55", "p_dd00ee11"]
+    },
+    {
+      "norm_text": "We rotate who hosts each session",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "New members always get a rules explanation before the game starts",
+      "truly_universal": false,
+      "dissenters": ["p_dd44ee55"]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

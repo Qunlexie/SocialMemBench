@@ -1,0 +1,492 @@
+{
+  "network_id": "grp_3c4d5e6f",
+  "group_name": "Ridgeline Hikers",
+  "group_type": "recreational",
+  "group_size": 5,
+  "seed": 3,
+  "personas": [
+    {
+      "persona_id": "p_r3a1b2c3",
+      "display_name": "Dani",
+      "age": 35,
+      "gender": "F",
+      "background": "Trail running coach, the de facto group leader. Pushes the group toward harder routes than some members want. Competitive, energetic, genuinely doesn't understand why anyone would want to take the easy trail.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "obsessive about post-hike protein — always suggests the same spot for a protein bowl after every hike",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "strongly prefers steep, technical trails over flat routes; gets visibly restless on easy hikes",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "trail_difficulty_preference",
+          "old_value": "would compromise on easier routes for the group",
+          "new_value": "consistently pushes for harder trails and dismisses concerns about difficulty",
+          "changed_at_session": 2,
+          "trigger": "started training for an ultramarathon; her tolerance for easy routes dropped"
+        }
+      ],
+      "speaking_quirks": [
+        "uses exclamation marks constantly",
+        "names every trail by its technical designation",
+        "refers to easy trails as 'the tourist path'"
+      ],
+      "occupation": "trail running coach",
+      "skills_list": [
+        {
+          "skill": "trail running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "first aid",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "nutrition planning",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_r3b2c3d4",
+      "display_name": "Marcus",
+      "age": 41,
+      "gender": "M",
+      "background": "Accountant. Joined the group 3 years ago. Genuinely enjoys hiking but is starting to struggle with the pace Dani sets. Has a knee that flares up on descents but doesn't want to admit it.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "always brings his own packed lunch; never wants to stop at a cafe after a hike",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers moderate trails — secretly struggling with the group's increasing pace and difficulty",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "descent_comfort",
+          "old_value": "could manage any descent without issue",
+          "new_value": "knee flares up on steep descents; avoids saying this directly, volunteers for route-finding duties instead",
+          "changed_at_session": 3,
+          "trigger": "knee injury from a scramble in session 3"
+        }
+      ],
+      "speaking_quirks": [
+        "uses weather as a proxy for trail difficulty — 'should be fine' means he's nervous",
+        "volunteers to carry the map/navigation duty to avoid leading on technical sections",
+        "sends practical logistics without opinion: 'parking is at the layby on the B4086'"
+      ],
+      "occupation": "accountant",
+      "skills_list": [
+        {
+          "skill": "hiking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "photography",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cycling",
+          "proficiency": "low"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_r3c3d4e5",
+      "display_name": "Bev",
+      "age": 38,
+      "gender": "F",
+      "background": "NHS physio who joined to stay active and socialize. Competent hiker but here primarily for the social element. The one who suggests the cafe stops Dani resists. Has strong opinions about proper warm-ups that no one else cares about.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "always wants to stop for tea and cake mid-hike or after — the social ritual matters as much as the walk",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers moderate trails with good views and conversation time; dislikes routes where everyone is too winded to talk",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "hiking_pace",
+          "old_value": "kept up with group pace without comment",
+          "new_value": "started explicitly pushing back on 'no stops' policies after session 2",
+          "changed_at_session": 2,
+          "trigger": "felt the group was becoming a training exercise rather than a social walk"
+        }
+      ],
+      "speaking_quirks": [
+        "always mentions the cafe she wants to stop at by name",
+        "brings up 'the social side' when Dani proposes no-stop routes",
+        "sends photos of views mid-hike to the chat"
+      ],
+      "occupation": "NHS physiotherapist",
+      "skills_list": [
+        {
+          "skill": "yoga",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "first aid",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hiking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_r3d4e5f6",
+      "display_name": "Yusuf",
+      "age": 44,
+      "gender": "M",
+      "background": "Secondary school teacher, the quietest in the group. Solid hiker but can't do weekends after September due to marking season. Everyone forgets this every year. Also mildly allergic to wasps, which becomes relevant.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "carries an EpiPen due to wasp allergy; always checks outdoor seating plans before confirming a cafe stop",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "unavailable for weekend hikes September onwards due to marking and teaching load",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "weekend_availability",
+          "old_value": "joined most hikes year-round",
+          "new_value": "explicitly unavailable September-November due to teaching; the group keeps forgetting",
+          "changed_at_session": 4,
+          "trigger": "confirmed unavailability for autumn schedule in session 4 — has said this before but group ignores it"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'regrettably' when declining things",
+        "replies to Dani's trail suggestions with one-word assessments: 'manageable', 'steep', 'doable'",
+        "never uses emoji"
+      ],
+      "occupation": "secondary school teacher",
+      "skills_list": [
+        {
+          "skill": "map reading",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "birdwatching",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "hiking",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_r3e5f6a7",
+      "display_name": "Cass",
+      "age": 29,
+      "gender": "NB",
+      "background": "PhD student in ecology, newest member. Joined six months ago. Loves being outdoors but hates the competitive element that Dani brings. Often conflated with Bev by newer group correspondents because they're both enthusiastic and both push back on hard routes, but for different reasons — Bev is social, Cass is environment-focused.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegan; always checks that cafe stops have something plant-based, doesn't make a fuss about it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers routes that go through woodland or wildlife-rich areas rather than open ridgelines",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "route_preference",
+          "old_value": "happy with any route the group chose",
+          "new_value": "starting to advocate for lowland/woodland routes after learning they've been disturbing ground-nesting birds on ridge routes",
+          "changed_at_session": 3,
+          "trigger": "discovered their regular ridgeline disturbs ground-nesting birds during season; became vocal about it from session 3"
+        }
+      ],
+      "speaking_quirks": [
+        "references ecology and wildlife in trail discussions where others reference elevation gain",
+        "pushes back on ridge routes by citing bird disturbance rather than difficulty",
+        "uses 'actually' a lot when correcting something"
+      ],
+      "occupation": "PhD student (ecology)",
+      "skills_list": [
+        {
+          "skill": "plant identification",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hiking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wildlife photography",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_r3a1b2c3",
+      "persona_b_id": "p_r3b2c3d4",
+      "relationship_type": "founding members",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Started the group together three years ago. Dani sets the pace; Marcus quietly keeps up.",
+      "shared_events": [
+        "completed a Munro together",
+        "co-organised the first group trip"
+      ]
+    },
+    {
+      "persona_a_id": "p_r3a1b2c3",
+      "persona_b_id": "p_r3c3d4e5",
+      "relationship_type": "friendly tension",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Dani wants harder routes; Bev wants cafe stops. They negotiate constantly.",
+      "shared_events": [
+        "argument about whether to stop at the Heron Cafe last August"
+      ]
+    },
+    {
+      "persona_a_id": "p_r3a1b2c3",
+      "persona_b_id": "p_r3d4e5f6",
+      "relationship_type": "hiking friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Yusuf quietly matches Dani's pace and rarely complains, which she respects.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_r3a1b2c3",
+      "persona_b_id": "p_r3e5f6a7",
+      "relationship_type": "newer bond",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Dani likes Cass's fitness but is irritated by the ecology detours.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_r3b2c3d4",
+      "persona_b_id": "p_r3c3d4e5",
+      "relationship_type": "moderate camp alliance",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Both prefer moderate routes and have become quiet allies against Dani's escalating ambitions.",
+      "shared_events": [
+        "both stayed behind when Dani and Yusuf went for the summit scramble"
+      ]
+    },
+    {
+      "persona_a_id": "p_r3b2c3d4",
+      "persona_b_id": "p_r3d4e5f6",
+      "relationship_type": "group friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Comfortable hiking companions who don't socialize outside the group much.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_r3b2c3d4",
+      "persona_b_id": "p_r3e5f6a7",
+      "relationship_type": "group friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus appreciates Cass's steadiness and they've had good conversations on flatter sections.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_r3c3d4e5",
+      "persona_b_id": "p_r3d4e5f6",
+      "relationship_type": "group friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Bev and Yusuf both appreciate the social side of hiking; they often end up chatting at the back.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_r3c3d4e5",
+      "persona_b_id": "p_r3e5f6a7",
+      "relationship_type": "most-confused pair",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both push back on Dani's hardest routes, which makes people confuse their reasoning.",
+      "shared_events": [
+        "both suggested stopping at the woodland path rather than the ridgeline on the same hike"
+      ]
+    },
+    {
+      "persona_a_id": "p_r3d4e5f6",
+      "persona_b_id": "p_r3e5f6a7",
+      "relationship_type": "quiet alliance",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Least interaction in the group; pleasant but not close.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "No stopping mid-hike unless it's an emergency — we stop at the summit or the end.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_r3c3d4e5",
+        "p_r3b2c3d4"
+      ]
+    },
+    {
+      "norm_text": "Everyone picks their own route difficulty from the options Dani provides.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "September and October are peak season — we do bigger routes then.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_r3d4e5f6"
+      ]
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,376 @@
+{
+  "network_id": "grp_0d1e2f3a",
+  "group_name": "Cohort 2018",
+  "group_type": "acquaintance_network",
+  "group_size": 4,
+  "seed": 10,
+  "personas": [
+    {
+      "persona_id": "p_c0a1b2c3",
+      "display_name": "Mei",
+      "age": 30,
+      "gender": "F",
+      "background": "Started as a graduate analyst in 2018, promoted to team lead at 28. Now manages eight people. Direct, ambitious, genuinely competent. Occasionally blind to how quickly she moved relative to people who were her peers.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers structured social events with a clear end time — not open-ended evenings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "comfortable with career talk in the group; doesn't notice that it lands differently for everyone",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "career_discussion_framing",
+          "old_value": "would discuss career progression as something everyone was navigating together",
+          "new_value": "now talks about management challenges — team size, stakeholder meetings — from a position above the group",
+          "changed_at_session": 2,
+          "trigger": "got promoted to team lead; her professional context shifted and the chat dynamic shifted with it"
+        }
+      ],
+      "speaking_quirks": [
+        "refers to her team as 'my team' without registering how it sounds",
+        "gives unsolicited advice on career situations the others are navigating",
+        "responds to plans with a specific end time: 'I can do 7–9'"
+      ],
+      "occupation": "operations team lead",
+      "skills_list": [
+        {
+          "skill": "project management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "data analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "mentoring",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_c0b2c3d4",
+      "display_name": "Josh",
+      "age": 30,
+      "gender": "M",
+      "background": "Started alongside Mei in 2018, still in the same role he started in — senior analyst, effectively. Competent, comfortable, privately envious of the others' career moves. Uses self-deprecating humour about his career stagnation to deflect real questions about it.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
+        "humor": "Self-deprecating",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "enjoys the group but prefers topics that don't highlight career comparison; deflects with jokes when his role comes up",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "is Priya's closest contact in the group and the one who knows she is not happy in her new field",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "career_disclosure",
+          "old_value": "would discuss work honestly and with some ambition",
+          "new_value": "now deflects work questions with humour; stopped sharing about career goals after watching others advance faster",
+          "changed_at_session": 3,
+          "trigger": "Mei mentioned her team lead responsibilities in session 3; Josh made a joke about 'still being in the same chair' and hasn't mentioned his work since"
+        }
+      ],
+      "speaking_quirks": [
+        "jokes about 'still being in the same chair' when asked about work",
+        "follows negative self-assessments with a string of 😂",
+        "changes the subject after one joke; doesn't return to it"
+      ],
+      "occupation": "senior business analyst",
+      "skills_list": [
+        {
+          "skill": "data analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "report writing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "process mapping",
+          "proficiency": "medium"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_c0c3d4e5",
+      "display_name": "Priya",
+      "age": 31,
+      "gender": "F",
+      "background": "Left the original company after two years and retrained as a physio. Now in her second year of practice. The most interesting life trajectory. Doesn't discuss the career change much in the group — partly because it followed a difficult patch she hasn't fully processed, partly because the field is hard to talk about casually.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers social plans that are not about professional comparison; enjoys the group when it's actually social",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "confided in Josh about finding the physio work harder than expected; hasn't raised this in the full group",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "career_discussion_willingness",
+          "old_value": "would discuss the career change with some enthusiasm in the early retraining days",
+          "new_value": "now quietly avoids the topic in the full group chat; only discusses it with Josh directly",
+          "changed_at_session": 2,
+          "trigger": "someone in the group asked how the physio thing was going in a way that felt performative; Priya gave a short answer and stopped raising it"
+        }
+      ],
+      "speaking_quirks": [
+        "gives short, warm answers to career questions and pivots quickly",
+        "proposes plans where the activity itself is the focus: walks, cinema, specific restaurants",
+        "uses 'good question' before deflecting"
+      ],
+      "occupation": "physiotherapist",
+      "skills_list": [
+        {
+          "skill": "sports rehabilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "pilates",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "anatomy",
+          "proficiency": "strong"
+        }
+      ]
+    },
+    {
+      "persona_id": "p_c0d4e5f6",
+      "display_name": "Leon",
+      "age": 29,
+      "gender": "M",
+      "background": "Left the company in 2020 to start a fintech app. The app has had rounds of funding and some press but is not yet profitable. Leon presents this as unambiguous success; the group is not entirely sure what to believe. Misses most quarterly drinks but always has a good excuse.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Braggy",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "shows up to events when it suits his networking agenda; misses them when he has something better to do",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uses the group chat to broadcast career updates; treats it partly as a soft PR channel",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "attendance_pattern",
+          "old_value": "attended most group events in the first year after leaving the company",
+          "new_value": "now misses most quarterly drinks; the group has started planning without expecting him",
+          "changed_at_session": 2,
+          "trigger": "missed two consecutive drinks events in session 2 with different excuses; group dynamic quietly adjusted to exclude him from planning"
+        }
+      ],
+      "speaking_quirks": [
+        "announces press mentions as news: 'just got covered by TechCrunch'",
+        "drops into plans at the last minute: 'might be able to make it actually'",
+        "calls everything a 'journey': 'it's been a journey but we're close to profitability'"
+      ],
+      "occupation": "fintech startup founder",
+      "skills_list": [
+        {
+          "skill": "product strategy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "fundraising",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "coding",
+          "proficiency": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_c0a1b2c3",
+      "persona_b_id": "p_c0b2c3d4",
+      "relationship_type": "former peers, now asymmetric",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Started as equals; Mei's promotion created an awkward dynamic. Josh jokes about it; Mei doesn't notice.",
+      "shared_events": [
+        "joined as the same graduate cohort",
+        "worked on the same project in year one"
+      ]
+    },
+    {
+      "persona_a_id": "p_c0a1b2c3",
+      "persona_b_id": "p_c0c3d4e5",
+      "relationship_type": "friendly but distant",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Have little in common professionally now. Mei respects Priya's change; Priya is unmoved by Mei's promotions.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_c0a1b2c3",
+      "persona_b_id": "p_c0d4e5f6",
+      "relationship_type": "mutual respect/scepticism",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Mei is politely sceptical of Leon's startup hype but doesn't say so. Leon admires Mei's corporate trajectory even while positioning himself as beyond it.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_c0b2c3d4",
+      "persona_b_id": "p_c0c3d4e5",
+      "relationship_type": "closest pair",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Josh and Priya have stayed close. Priya confided her ambivalence about physio to Josh. Josh is the group's most genuinely caring member.",
+      "shared_events": [
+        "have met independently outside group events multiple times"
+      ]
+    },
+    {
+      "persona_a_id": "p_c0b2c3d4",
+      "persona_b_id": "p_c0d4e5f6",
+      "relationship_type": "warm but wary",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Josh finds Leon entertaining and slightly exhausting. Leon thinks Josh is the only one in the group who 'gets it'.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_c0c3d4e5",
+      "persona_b_id": "p_c0d4e5f6",
+      "relationship_type": "minimal contact",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Priya and Leon have little in common. Leon's bragging doesn't land with Priya. They are cordial.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Quarterly drinks — everyone makes an effort to come.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_c0d4e5f6"
+      ]
+    },
+    {
+      "norm_text": "No recruiting each other for startups or side projects in the chat.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_c0d4e5f6"
+      ]
+    },
+    {
+      "norm_text": "What's said in the group about work situations stays in the group.",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {}
+}

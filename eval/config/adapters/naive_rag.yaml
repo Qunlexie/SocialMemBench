@@ -1,0 +1,16 @@
+# Naive RAG configuration
+# No LLM extraction — stores raw turns verbatim using OpenAI embeddings.
+# Chroma vector store (local). Retrieval by cosine similarity.
+# Requires: OPENAI_API_KEY (for embeddings only, no LLM calls during ingestion)
+
+name: "naive_rag"
+
+# Embedding model
+model: "text-embedding-3-small"
+
+# Local Chroma path
+chroma_path: "./data/.naive_rag_chroma"
+collection_name: "socialmembench_rag"
+
+# Retrieval
+top_k: 10

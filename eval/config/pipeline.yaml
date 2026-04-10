@@ -1,0 +1,32 @@
+# Shared pipeline settings — used by answerer.py and evaluator.py
+
+# Answer generation (answerer.py)
+# model: "gpt-4o-mini" or "gemini-2.0-flash" — set via --model CLI flag or override here
+answer:
+  model: "gpt-4o-mini"
+  temperature: 0
+  max_tokens: 1000
+  timeout: 300
+  concurrency: 5
+
+# LLM judge evaluation (evaluator.py)
+# Returns 0.0–1.0 scores (not binary CORRECT/WRONG)
+evaluate:
+  model: "gemini-2.5-flash"
+  concurrency: 10
+  timeout: 120
+
+# Retry (shared by answerer and evaluator)
+retry:
+  max_retries: 5
+  retry_delay: 1.0
+  max_delay: 60.0
+
+# Debug
+debug:
+  show_usage: false
+
+# Cache warmup (LLM adapter only — sends first request, waits, then batch processes)
+warmup:
+  enabled: false
+  delay_seconds: 5

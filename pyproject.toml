@@ -6,13 +6,17 @@ build-backend = "hatchling.build"
 name = "socialmembench"
 version = "0.1.0"
 description = "Synthetic benchmark for AI memory in social group conversations"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "pydantic>=2.0.0",
     "datasets>=2.0.0",
     "numpy>=1.24.0",
     "rich>=13.0.0",
+    "click>=8.0.0",
 ]
+
+[project.scripts]
+smb = "socialmembench.cli.main:cli"
 
 [project.optional-dependencies]
 dev = [

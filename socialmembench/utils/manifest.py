@@ -20,15 +20,33 @@ from pydantic import BaseModel, Field
 MANIFEST_PATH = Path("data/manifest.json")
 
 
+class VerifySummary(BaseModel):
+    overall_pass: bool
+    stage1_pass: Optional[bool] = None
+    stage2_pass: Optional[bool] = None
+    stage3_pass: Optional[bool] = None
+    failure_count: int = 0
+    verified_at: Optional[str] = None
+
+
+class OracleEvalSummary(BaseModel):
+    mean_score: float
+    total_pairs: int
+    evaluated_at: str
+
+
 class NetworkEntry(BaseModel):
     network_id: str
     group_type: str
     group_size: int
+    tier: str = "small"             # small | medium | large | longitudinal
     seed: int
-    status: str = "pending"         # pending | stage1_done | stage2_done | complete
+    status: str = "pending"         # pending | stage1_done | stage2_done | complete | verified
     n_sessions: int = 0
     n_qa: int = 0
     consumed_challenge_ids: list[str] = Field(default_factory=list)
+    verify: Optional[VerifySummary] = None
+    oracle_eval: Optional[OracleEvalSummary] = None
 
 
 class DatasetManifest(BaseModel):
@@ -47,6 +65,9 @@ class DatasetManifest(BaseModel):
             ]
         }
     )
+    size_tier_counts: dict[str, int] = Field(
+        default_factory=lambda: {"small": 0, "medium": 0, "large": 0, "longitudinal": 0}
+    )
 
     # --- Persistence ---
 
@@ -57,7 +78,23 @@ class DatasetManifest(BaseModel):
             return cls()
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return cls.model_validate(data)
+        manifest = cls.model_validate(data)
+        manifest._backfill_tiers()
+        return manifest
+
+    def _backfill_tiers(self) -> None:
+        """Infer tier from group_size for any network missing a tier field,
+        and recompute size_tier_counts from scratch."""
+        from socialmembench.config import tier_for_size
+
+        # Recompute from the ground up to stay in sync with network entries
+        tier_counts: dict[str, int] = {"small": 0, "medium": 0, "large": 0, "longitudinal": 0}
+        for entry in self.networks.values():
+            if entry.tier == "small" and entry.group_size > 6:
+                # tier field is stale default — infer from size
+                entry.tier = tier_for_size(entry.group_size)
+            tier_counts[entry.tier] = tier_counts.get(entry.tier, 0) + 1
+        self.size_tier_counts = tier_counts
 
     def save(self, path: str | Path = MANIFEST_PATH) -> None:
         path = Path(path)
@@ -81,11 +118,13 @@ class DatasetManifest(BaseModel):
         group_type: str,
         group_size: int,
         seed: int,
+        tier: str = "small",
     ) -> NetworkEntry:
         entry = NetworkEntry(
             network_id=network_id,
             group_type=group_type,
             group_size=group_size,
+            tier=tier,
             seed=seed,
         )
         self.networks[network_id] = entry
@@ -105,6 +144,14 @@ class DatasetManifest(BaseModel):
         self.group_type_counts[entry.group_type] = (
             self.group_type_counts.get(entry.group_type, 0) + 1
         )
+        self.size_tier_counts[entry.tier] = (
+            self.size_tier_counts.get(entry.tier, 0) + 1
+        )
+
+    def most_needed_tier(self, candidate_tiers: list[str] | None = None) -> str:
+        """Return the tier with fewest networks, restricted to candidate_tiers if given."""
+        tiers = candidate_tiers or list(self.size_tier_counts.keys())
+        return min(tiers, key=lambda t: self.size_tier_counts.get(t, 0))
 
     # --- QA tracking ---
 

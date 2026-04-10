@@ -1,0 +1,26 @@
+# Cognee configuration
+# Batch document-to-knowledge-graph with hybrid vector+graph retrieval.
+# Processes entire conversation corpus through multi-stage LLM pipeline:
+# classify → chunk → entity/relationship extraction → summarize → embed.
+# Differs from graphiti: batch-oriented (not streaming), static ontology,
+# summary nodes, hybrid retrieval (vector hint → graph traversal).
+# Requires Python >= 3.10 (use smb310 conda env).
+# Install: pip install cognee
+#
+# Run:
+#   conda activate smb310
+#   python -m eval.cli --network grp_1a2b3c4d --condition cognee
+
+name: "cognee"
+
+# LLM for entity/relationship extraction and summarization
+model: "gpt-4o-mini"
+
+# Embedding model
+embed_model: "text-embedding-3-small"
+
+# Local DB path (one subdirectory per network)
+db_path: "./data/.cognee_db"
+
+# Retrieval
+top_k: 10

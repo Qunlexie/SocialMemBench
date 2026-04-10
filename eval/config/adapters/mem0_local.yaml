@@ -1,0 +1,15 @@
+# Mem0 local configuration
+# Uses mem0ai Python library + local Chroma vector store + GPT-4o-mini
+# No cloud API key needed (OPENAI_API_KEY used for LLM + embeddings)
+
+name: "mem0_local"
+
+# OpenAI model for LLM extraction and embedding
+model: "gpt-4o"
+
+# Local Chroma vector store path (relative to project root)
+chroma_path: "./data/.mem0_chroma"
+collection_name: "socialmembench"
+
+# Retrieval
+top_k: 10

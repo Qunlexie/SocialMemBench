@@ -1,18 +1,23 @@
 {
   "network_id": "grp_8b9c0d1e",
   "condition": "langmem",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:48:35.430787+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:51:59.664234+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.0,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.05,
+  "mean_context_words": 724.0,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.3
     },
     "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
       "count": 1,
       "mean_score": 0.0
     },
@@ -27,43 +32,44 @@
     "Q7": {
       "count": 1,
       "mean_score": 0.0
-    },
-    "Q6": {
-      "count": 1,
-      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_bk8s4c1",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Graham expressed concern about his reading being dismissed and felt the need to defend his perspective. However, it incorrectly states he sought reassurance from Blessing, whereas the gold answer specifies he looks to Harriet for validation. This is a critical attribution error. Additionally, the generated answer's interpretation of Graham being 'open to discussion' and having a 'willingness to engage in further dialogue' contradicts the gold's emphasis on him being defensive, unable to let it rest, and relitigating challenges."
     },
     {
       "qa_id": "Q3_bk8s1c1",
       "query_type": "Q3",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_bk8s3c1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_bk8s3c2",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_bk8s5c1",
-      "query_type": "Q7",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer's assessment of how thoroughly each member reads is largely incorrect or too vague compared to the gold answer. It misinterprets Graham's reading depth, provides overly general descriptions for Blessing and Harriet, and misses the specific evidence for Tomasz and Nadia, while also starting with 'Unclear' when the gold provides a detailed breakdown."
     },
     {
       "qa_id": "Q6_bk8s2c1",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_bk8s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes Blessing's shift in approach, stating she became more supportive and reassuring, which contradicts the gold answer's description of her becoming more authoritative and directly rebutting dismissals. The identified trigger for the change is also incorrect."
+    },
+    {
+      "qa_id": "Q5_bk8s3c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer identifies a different reading habit (preference for fun reads) than the one exposed in Session 3 (making vague claims about reading and not reading the whole book), and therefore provides incorrect evidence for the wrong habit."
+    },
+    {
+      "qa_id": "Q7_bk8s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,20 +1,25 @@
 {
   "network_id": "grp_4d5e6f7a",
   "condition": "graphiti",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:35:39.135935+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:48:56.274805+00:00",
   "sessions_used": 5,
   "total_pairs": 9,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.0,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.156,
+  "mean_context_words": 114.9,
   "by_query_type": {
     "Q1": {
       "count": 2,
       "mean_score": 0.0
     },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
     "Q8": {
       "count": 4,
-      "mean_score": 0.0
+      "mean_score": 0.1
     },
     "Q5": {
       "count": 1,
@@ -23,58 +28,56 @@
     "Q7": {
       "count": 1,
       "mean_score": 0.0
-    },
-    "Q4": {
-      "count": 1,
-      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_v4s1c1",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer states Nneka prefers to attend fairs 'with others,' which directly contradicts the gold answer and the evidence that she prefers to attend 'alone.'"
     },
     {
       "qa_id": "Q1_v4s3c3",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Nneka's focus includes 'notable artists and pressings' and attributes a Luiz Bonf\u00e1 find to her, which contradicts the gold answer's description of her narrow focus on 1960s-70s soul and gospel music."
     },
     {
       "qa_id": "Q8_v4s2c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer completely misidentifies the old state, new state, and trigger for Rashida's change in approach. The gold answer focuses on a shift from unconstrained spending to a budget, while the generated answer describes a shift in interest towards jazz dealers."
     },
     {
       "qa_id": "Q8_v4s3c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer correctly states Theo's position changed, but incorrectly describes the nature of the change, claiming it became 'more nuanced' and 'not a complete refusal,' when the gold answer states it 'hardened into categorical refusal' and became 'unqualified.' The interpretation of Rashida's apology is also incorrect."
     },
     {
       "qa_id": "Q8_v4s3c2",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the positive evolution and the significance of the Musica Popular Brasileira moment. However, it fundamentally misrepresents Preet's initial relationship to collecting, stating he was initially willing to attend fairs 'to build his collection,' which contradicts the gold answer's description of Preet as primarily a streamer with aesthetic interest. It also misinterprets the Fela interaction as a collector's goal rather than an aesthetic appreciation without concern for originality."
     },
     {
       "qa_id": "Q8_v4s4c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Gil was initially focused on finding specific records and then claims there is no clear indication of his current stance, directly contradicting the gold answer's detailed explanation of his shift to being more selective and vetting fairs."
     },
     {
       "qa_id": "Q5_v4s4c2",
       "query_type": "Q5",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Rashida's spending pattern as buying reissue records, instead of overspending despite budget promises. The evidence provided for Preet's knowledge is also incorrect and does not align with the gold answer."
     },
     {
       "qa_id": "Q7_v4s5c1",
       "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q4_v4s1c2",
-      "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer makes a critical factual error by stating Rashida invited Nneka to join her and Preet, which contradicts the gold answer's interpretation of Rashida positioning her and Preet as a social pair after Nneka and Theo declared they were going alone. It also misses all the key evidence points from the gold answer that establish the depth and nature of their relationship (Preet trying to stop Rashida's purchases, Preet calling out Rashida's budget, Preet framing Rashida's record restraint as 'growth')."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

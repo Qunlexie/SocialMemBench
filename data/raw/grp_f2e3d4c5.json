@@ -1,0 +1,609 @@
+{
+  "network_id": "grp_f2e3d4c5",
+  "group_name": "Oakfield Primary Parents",
+  "group_type": "acquaintance_network",
+  "group_size": 9,
+  "seed": 19,
+  "personas": [
+    {
+      "persona_id": "p_a9b1c2d3",
+      "display_name": "Claire",
+      "age": 38,
+      "gender": "female",
+      "occupation": "Secondary school teacher",
+      "background": "Has two kids at Oakfield. Became the unofficial class rep after volunteering to co-ordinate the Year 3 trip. Organised, slightly over-reliant on agenda-setting. Close with Yvonne from the school committee.",
+      "skills_list": [
+        {"skill": "meeting facilitation", "proficiency": "strong"},
+        {"skill": "curriculum planning", "proficiency": "strong"},
+        {"skill": "conflict de-escalation", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "prefers vegetarian options at catered events — never mentions it but always gravitates to the veggie table", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "prefers structured agendas for parent meetings; becomes visibly restless in improvised sessions", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes one-off social plans proposed in the group chat — prefers direct messages for personal coordination", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "prefers decisions to be confirmed with a clear summary message — dislikes ambiguous group consensus", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "communication",
+          "attribute": "off_topic_tolerance",
+          "old_value": "strict scope enforcement — redirects any non-school conversation back to topic",
+          "new_value": "tolerates brief social tangents if the thread resolves within a few messages",
+          "changed_at_session": 4,
+          "trigger": "noticed growing resentment after shutting down the block party planning thread, decided to let it breathe"
+        }
+      ],
+      "speaking_quirks": [
+        "starts multi-point messages with 'Three things to flag:' or 'Two quick points:'",
+        "uses 'noted' as a one-word close to any resolved topic",
+        "signs off with just 'C'"
+      ],
+      "participation_rate": 0.95
+    },
+    {
+      "persona_id": "p_b2c3d4e5",
+      "display_name": "James",
+      "age": 43,
+      "gender": "male",
+      "occupation": "IT infrastructure consultant",
+      "background": "One kid at Oakfield, Year 4. Joined the parent group reluctantly after his wife asked him to stay across school comms. Rarely initiates but gives curt, accurate replies when asked direct questions. Warms up around practical problems.",
+      "skills_list": [
+        {"skill": "network troubleshooting", "proficiency": "strong"},
+        {"skill": "spreadsheet automation", "proficiency": "strong"},
+        {"skill": "home repairs and DIY", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "dislikes themed event catering — always brings his own food to school events 'just in case'", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "dislikes group decisions made by back-and-forth in chat — prefers a poll or single question with a yes/no", "confidence": "High", "implicit": true}],
+        "social": [{"value": "declines most optional social events but shows up when there's a practical task to handle", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "strongly prefers morning messages over evening ones — goes offline after 8pm", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "event_participation",
+          "old_value": "declines all non-essential events, reads without responding",
+          "new_value": "occasionally joins if direct practical value is clear",
+          "changed_at_session": 6,
+          "trigger": "the school quiz night built his daughter's rapport with her teacher in a way he hadn't anticipated"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to logistics questions with a single sentence ending in a full stop, no follow-up",
+        "uses '(that's all)' to signal a complete answer",
+        "inserts dry one-liners mid-thread that are easy to miss ('glad someone checked')"
+      ],
+      "participation_rate": 0.70
+    },
+    {
+      "persona_id": "p_c3d4e5f6",
+      "display_name": "Priya",
+      "age": 35,
+      "gender": "female",
+      "occupation": "Freelance graphic designer",
+      "background": "Has one daughter in Year 3, same class as Claire's kid. Works from home, so often the first to see messages. Has become close friends with Mike through after-school pickups. Socially warm but avoids confrontation in the chat.",
+      "skills_list": [
+        {"skill": "graphic design and branding", "proficiency": "strong"},
+        {"skill": "social media content creation", "proficiency": "strong"},
+        {"skill": "event photography", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "vegan — doesn't announce it but declines non-vegan items at social events with 'I'm good, thanks'", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers resolving disagreements in person or by voice note rather than long chat threads", "confidence": "Medium", "implicit": true}],
+        "social": [{"value": "always suggests park meetups as a venue, even when indoors would be more practical", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "dislikes overly formal parent meeting formats — gets restless and starts side-chatting with Mike", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "after_school_social_stance",
+          "old_value": "skeptical of formalising casual meetups into organised events",
+          "new_value": "enthusiastic organiser and regular proposer of group meetups",
+          "changed_at_session": 3,
+          "trigger": "her daughter's birthday park meetup grew unexpectedly into a well-attended afternoon that other parents appreciated"
+        }
+      ],
+      "speaking_quirks": [
+        "ends questions with 'just me?' to invite agreement",
+        "uses 'vibes' as a catch-all positive ('great vibes from today')",
+        "follows messages with a run of emojis when genuinely excited"
+      ],
+      "participation_rate": 0.90
+    },
+    {
+      "persona_id": "p_d4e5f6a7",
+      "display_name": "Dan",
+      "age": 41,
+      "gender": "male",
+      "occupation": "Parcel delivery driver",
+      "background": "Two kids at Oakfield, one in Year 3 and one in Year 5. Knows the neighbourhood intimately from his rounds. Tends to lurk in the chat until there's a practical question he can answer — especially anything local or logistical.",
+      "skills_list": [
+        {"skill": "local area knowledge and routing", "proficiency": "strong"},
+        {"skill": "vehicle maintenance", "proficiency": "strong"},
+        {"skill": "basic carpentry and repairs", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "dislikes overly fancy catering at school events — always the one asking 'is there normal food as well'", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "prefers practical, actionable group decisions — dismissive of lengthy discussions", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers early starts — suggests 8am for anything he organises, which doesn't suit most parents", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "knows every roadwork, parking zone, and speed bump on the local roads and shares this unprompted", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "chat_engagement_style",
+          "old_value": "read-only unless directly asked a question",
+          "new_value": "proactively shares local tips and offers help before being asked",
+          "changed_at_session": 2,
+          "trigger": "his parking zone tip saved three families from fines during the road resurfacing week"
+        }
+      ],
+      "speaking_quirks": [
+        "qualifies local knowledge with specific landmarks ('the one next to the dry cleaner on Maple')",
+        "uses 'tbf' to soften a disagreement",
+        "ends practical suggestions with 'worth knowing' or 'just so you know'"
+      ],
+      "participation_rate": 0.80
+    },
+    {
+      "persona_id": "p_e5f6a7b8",
+      "display_name": "Yvonne",
+      "age": 44,
+      "gender": "female",
+      "occupation": "NHS ward nurse",
+      "background": "Single parent, one child in Year 4. Has worked rotating shifts for seven years. Was doing mostly nights until a departmental restructure last spring. Close with Claire from the school fundraising committee. Often offline for runs of days.",
+      "skills_list": [
+        {"skill": "first aid and basic triage", "proficiency": "strong"},
+        {"skill": "patient communication", "proficiency": "strong"},
+        {"skill": "shift logistics and rota management", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "no dietary restrictions but always asks about nut allergies on behalf of others at events — has developed it into a habit from clinical settings", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "strongly prefers concise summaries over long chat threads — replies to thread digests not individual messages", "confidence": "High", "implicit": true}],
+        "social": [{"value": "previously declined almost all evening social events citing shift work; now more available since moving to mostly day shifts", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "becomes the de facto first aid contact at all events without being asked", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "in_person_event_attendance",
+          "old_value": "declines evening and weekend events citing night shift schedule",
+          "new_value": "regularly attends weekend events now that shift rotation is mostly days",
+          "changed_at_session": 5,
+          "trigger": "shift restructure moved her to mainly day shifts from April, mentioned in passing in a planning thread"
+        }
+      ],
+      "speaking_quirks": [
+        "prefixes sensitive observations with 'speaking as someone who...'",
+        "uses 'appreciate' rather than 'thanks' or 'cheers'",
+        "signs off messages with just 'Y'"
+      ],
+      "participation_rate": 0.72
+    },
+    {
+      "persona_id": "p_f6a7b8c9",
+      "display_name": "Kofi",
+      "age": 34,
+      "gender": "male",
+      "occupation": "Data analyst",
+      "background": "Moved to the area 18 months ago with his partner and their son (Year 3). Quieter in the chat but precise when he contributes. Volunteered to take minutes at the second parent meeting after the first produced three contradictory follow-up messages.",
+      "skills_list": [
+        {"skill": "data analysis and reporting", "proficiency": "strong"},
+        {"skill": "Python and SQL", "proficiency": "strong"},
+        {"skill": "presentation design", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "avoids alcohol at events — orders sparkling water without explanation", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "prefers decisions backed by a clear question or data point; becomes visibly impatient in unstructured open discussions", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes emotionally charged chat threads — goes quiet until the temperature drops", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "quietly tracks whether group decisions are actually followed through on — occasionally surfaces forgotten commitments", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "community",
+          "attribute": "school_committee_involvement",
+          "old_value": "observer only, attends meetings but does not volunteer",
+          "new_value": "volunteers as note-taker and action-item tracker for every meeting",
+          "changed_at_session": 3,
+          "trigger": "the second parent meeting produced three contradictory follow-up messages from different people; he stepped in to prevent a repeat"
+        }
+      ],
+      "speaking_quirks": [
+        "uses numbered bullet points for any multi-part response",
+        "ends replies with a follow-up question ('Does that help?' or 'Want me to look into that?')",
+        "diplomatically flags unclear requests ('happy to clarify what you mean by...')"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_a7b8c9d0",
+      "display_name": "Sharon",
+      "age": 48,
+      "gender": "female",
+      "occupation": "Owner of a local gift and stationery shop",
+      "background": "Has two kids at Oakfield, one in Year 3 and one in Year 6. Has lived in the area for 15 years. Natural community organiser — runs the neighbourhood Facebook group as well as this WhatsApp. Enthusiastic to a fault; has caused mild group fatigue with ambitious event proposals.",
+      "skills_list": [
+        {"skill": "event planning and logistics", "proficiency": "strong"},
+        {"skill": "supplier and vendor negotiation", "proficiency": "strong"},
+        {"skill": "community network building", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always offers to bring homemade food to events — gets noticeably quiet if declined", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "loves organising community events but finds solo execution exhausting — needs buy-in early or she overcommits", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers large group gatherings over small intimate ones — finds small groups awkward", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "messages after 9pm regularly, always for 'just a quick update' that rarely is", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "event_ambition_scale",
+          "old_value": "proposes large multi-activity events with elaborate setups and asks for widespread volunteer commitment",
+          "new_value": "scales proposals back to focused single-activity events with minimal asks",
+          "changed_at_session": 5,
+          "trigger": "the multi-activity summer fundraiser drew modest turnout despite high chat enthusiasm; she mentioned it had been a useful lesson"
+        }
+      ],
+      "speaking_quirks": [
+        "opens asks with a compliment before the request ('love how this group pulls together, so...')",
+        "uses ALL CAPS for event names ('THE SPRING FAIR', 'QUIZ NIGHT')",
+        "includes an unsolicited committee update at the end of unrelated messages"
+      ],
+      "participation_rate": 0.95
+    },
+    {
+      "persona_id": "p_b8c9d0e1",
+      "display_name": "Mike",
+      "age": 37,
+      "gender": "male",
+      "occupation": "Stay-at-home parent and part-time personal trainer",
+      "background": "Has two kids at Oakfield, Year 2 and Year 4. Left his previous job to take over school-run logistics when his partner moved to a demanding role. Has become close with Priya through after-school pickups. Self-deprecating, easy to be around, slightly chaotic.",
+      "skills_list": [
+        {"skill": "strength and conditioning coaching", "proficiency": "strong"},
+        {"skill": "meal planning and family nutrition", "proficiency": "medium"},
+        {"skill": "family scheduling and childcare logistics", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "avoids anything with mushrooms — sidesteps it with 'not a big fungus person' if pressed", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "prefers informal reciprocal childcare arrangements over anything that feels like asking a favour", "confidence": "High", "implicit": true}],
+        "social": [{"value": "always up for plans but frequently has to pull out at short notice — has become known for the last-minute cancel", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "sends late-evening messages semi-regularly despite the group's informal 9pm cutoff — doesn't seem aware of the norm", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "asking_for_childcare_help",
+          "old_value": "manages school pickups independently, avoids asking the group for help",
+          "new_value": "comfortable asking for pickup help when needed, after having reciprocated enough times",
+          "changed_at_session": 4,
+          "trigger": "had already covered Priya's pickup twice and a couple of others once each before feeling like he'd 'earned it'"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'lads' as a gender-neutral address regardless of group composition",
+        "self-deprecating about not knowing things ('no idea tbh, don't quote me')",
+        "follows a serious message with a softening emoji 😬 or 😅 immediately after"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_c9d0e1f2",
+      "display_name": "Anita",
+      "age": 41,
+      "gender": "female",
+      "occupation": "Solicitor (family law)",
+      "background": "One child in Year 5. Joined the group two years ago but communicates sparingly — one well-formed message rather than a thread. Known for giving accurate definitive answers to anything school-policy related. Can come across as cold but is respected.",
+      "skills_list": [
+        {"skill": "legal research and analysis", "proficiency": "strong"},
+        {"skill": "document drafting and review", "proficiency": "strong"},
+        {"skill": "negotiation and mediation", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [{"value": "doesn't eat at social events — always declines with 'I'm fine, thank you' and never explains", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "prefers to give one definitive answer and disengage — doesn't participate in back-and-forth discussions", "confidence": "High", "implicit": true}],
+        "social": [{"value": "attends parent events only when there's a governance or legal angle — skips purely social ones", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "dislikes informal corrections in the group chat — any factual error from her produces a brief precise correction with a source", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "communication",
+          "attribute": "message_tone",
+          "old_value": "blunt corrections with no softening, often one sentence long",
+          "new_value": "adds a brief acknowledgment before corrections ('Good question —') after feedback",
+          "changed_at_session": 6,
+          "trigger": "Sharon mentioned in a separate message that Anita's correction in session 5 had upset a newer parent; Anita adjusted without acknowledging it directly"
+        }
+      ],
+      "speaking_quirks": [
+        "cites school documents by date ('as per the letter of the 12th')",
+        "sends one message, does not follow up unless directly addressed",
+        "uses 'correct' to affirm something without elaborating"
+      ],
+      "participation_rate": 0.70
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_a9b1c2d3",
+      "persona_b_id": "p_e5f6a7b8",
+      "relationship_type": "school committee co-members",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Have worked together on school fundraising for two years. Mutual respect — Claire values Yvonne's reliability and Yvonne appreciates Claire's organisation.",
+      "shared_events": ["Year 3 school trip planning", "spring fundraising committee", "Year 4 parents' evening"]
+    },
+    {
+      "persona_a_id": "p_c3d4e5f6",
+      "persona_b_id": "p_b8c9d0e1",
+      "relationship_type": "close parent friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Became close through after-school pickups when both were often the last to collect. Their kids are now best friends and they informally cover each other's pickups.",
+      "shared_events": ["regular after-school pickup overlap", "kids' birthday party in the park", "school fair volunteering"]
+    },
+    {
+      "persona_a_id": "p_a9b1c2d3",
+      "persona_b_id": "p_a7b8c9d0",
+      "relationship_type": "co-organisers with differing styles",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Collaborate on group events but have different ideas about scope. Claire prefers simple targeted events; Sharon defaults to elaborate ones. Claire has had to quietly scale back Sharon's plans more than once.",
+      "shared_events": ["Year 3 class party", "spring fundraiser", "parent quiz night"]
+    },
+    {
+      "persona_a_id": "p_a9b1c2d3",
+      "persona_b_id": "p_c3d4e5f6",
+      "relationship_type": "friendly acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Their daughters are in the same Year 3 class. Friendly and cordial in the chat, but have not socialised independently.",
+      "shared_events": ["Year 3 class events", "school gate overlap"]
+    },
+    {
+      "persona_a_id": "p_b2c3d4e5",
+      "persona_b_id": "p_f6a7b8c9",
+      "relationship_type": "quietly aligned acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both are analytical, both dislike chat noise. Have exchanged DMs a couple of times to commiserate about long threads. Neither has explicitly named the other as an ally.",
+      "shared_events": ["school parent meeting (both sat at the back)", "Year 4 trip logistics thread"]
+    },
+    {
+      "persona_a_id": "p_d4e5f6a7",
+      "persona_b_id": "p_b8c9d0e1",
+      "relationship_type": "casual dad-friendship",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Bonded over the parking chaos during Year 3 induction week. Dan's knowledge of local roads and Mike's flexibility on pickups have made them useful to each other.",
+      "shared_events": ["parking zone crisis thread", "school fair setup volunteering"]
+    },
+    {
+      "persona_a_id": "p_a7b8c9d0",
+      "persona_b_id": "p_d4e5f6a7",
+      "relationship_type": "community network connection",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both are embedded in the local area. Sharon knows Dan through the neighbourhood Facebook group pre-dating the school connection. He occasionally promotes her shop events.",
+      "shared_events": ["neighbourhood Facebook group", "local road resurfacing notice"]
+    },
+    {
+      "persona_a_id": "p_a7b8c9d0",
+      "persona_b_id": "p_c9d0e1f2",
+      "relationship_type": "friction pair",
+      "closeness": "Medium",
+      "sentiment": "tense",
+      "history_summary": "Sharon finds Anita cold and unhelpful in community discussions. Anita finds Sharon's event energy draining and her information frequently inaccurate. The tension rarely surfaces directly.",
+      "shared_events": ["Year 5 parents' evening", "spring fundraiser committee", "quiz night"]
+    },
+    {
+      "persona_a_id": "p_b2c3d4e5",
+      "persona_b_id": "p_c9d0e1f2",
+      "relationship_type": "mutual non-starters",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Rarely interact. James doesn't initiate and Anita doesn't either. Have been in the same physical space at two events without having a conversation.",
+      "shared_events": ["school quiz night", "Year 4 parents' evening"]
+    },
+    {
+      "persona_a_id": "p_e5f6a7b8",
+      "persona_b_id": "p_f6a7b8c9",
+      "relationship_type": "nodding acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Rarely interact directly. Both value precision and conciseness but haven't found a reason to connect. They have agreed with each other's points in chat without following up.",
+      "shared_events": ["parent meeting", "school fair"]
+    },
+    {
+      "persona_a_id": "p_a9b1c2d3",
+      "persona_b_id": "p_c9d0e1f2",
+      "relationship_type": "functional professional acquaintances",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Both operate in formal registers and have a transactional respect. Claire defers to Anita on any school policy question; Anita replies accurately and briefly.",
+      "shared_events": ["Year 4 admissions query thread", "school complaints process discussion"]
+    },
+    {
+      "persona_a_id": "p_f6a7b8c9",
+      "persona_b_id": "p_c3d4e5f6",
+      "relationship_type": "friendly but distant",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Kids are in the same class. Have been polite and supportive in the chat without developing anything beyond that.",
+      "shared_events": ["Year 3 class trip", "park meetup"]
+    },
+    {
+      "persona_a_id": "p_d4e5f6a7",
+      "persona_b_id": "p_e5f6a7b8",
+      "relationship_type": "nodding acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Yvonne's kid and Dan's Year 3 child were briefly in the same reading group. Exchanged a couple of practical messages but have no social connection.",
+      "shared_events": ["school reading group notice", "parents' evening overlap"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Keep the chat focused on school and neighbourhood matters — personal social plans go in DMs",
+      "truly_universal": false,
+      "dissenters": ["p_a7b8c9d0", "p_c3d4e5f6"]
+    },
+    {
+      "norm_text": "React with a thumbs-up to confirm you've seen an important message",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "No messages after 9pm on school nights",
+      "truly_universal": false,
+      "dissenters": ["p_a7b8c9d0", "p_b8c9d0e1"]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 15,
+    "departures": 0
+  }
+}

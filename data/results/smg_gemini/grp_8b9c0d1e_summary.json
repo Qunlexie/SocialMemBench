@@ -1,0 +1,63 @@
+{
+  "network_id": "grp_8b9c0d1e",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:48:24.033584+00:00",
+  "sessions_used": 5,
+  "total_pairs": 6,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.25,
+  "mean_context_words": 679.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_bk8s4c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer contradicts the gold answer by stating Graham shows a 'willingness to engage with others' perspectives,' whereas the gold answer emphasizes his defensiveness, inability to let challenges rest, and consistent need for validation."
+    },
+    {
+      "qa_id": "Q3_bk8s1c1",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer directly contradicts the gold answer regarding the reading thoroughness of Nadia and Blessing, claiming they read thoroughly when the gold states Nadia does not read fully and Blessing reads with professional depth, not casually."
+    },
+    {
+      "qa_id": "Q8_bk8s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer completely misidentifies Blessing's old approach and the trigger for the change, and only partially captures the new state by focusing on a belief rather than the shift in her approach to challenging interpretations."
+    },
+    {
+      "qa_id": "Q5_bk8s3c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer identifies Nadia's feeling of inadequacy, not a reading habit, and describes a different action by Tomasz that does not demonstrate prior knowledge of a reading habit."
+    }
+  ]
+}

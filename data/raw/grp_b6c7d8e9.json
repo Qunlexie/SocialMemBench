@@ -1,0 +1,774 @@
+{
+  "network_id": "grp_b6c7d8e9",
+  "group_name": "Vinyl Heads",
+  "group_type": "interest_community",
+  "group_size": 9,
+  "seed": 36,
+  "personas": [
+    {
+      "persona_id": "p_b6c70001",
+      "display_name": "Marcus",
+      "age": 38,
+      "gender": "male",
+      "occupation": "Audio engineer",
+      "background": "Marcus has spent fifteen years recording and mixing at a mid-size studio in the city, which has given him both acute ears and strong opinions about sound quality. He got into vinyl collecting through the studio's library of reference pressings, and now owns over eight hundred records. He's the informal technical authority in the group — the person everyone asks about turntable setup and cartridge alignment.",
+      "skills_list": [
+        {"skill": "Turntable setup and alignment", "proficiency": "strong"},
+        {"skill": "Pressing quality assessment", "proficiency": "strong"},
+        {"skill": "Music production and mixing", "proficiency": "strong"},
+        {"skill": "Soldering and electronics repair", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "prefers eating before meetups rather than during — dislikes food near records", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "enjoys solitary late-night listening sessions over group listening parties", "confidence": "High", "implicit": true},
+          {"value": "prefers smaller, focused record fairs over large chaotic swap meets", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "more comfortable in one-on-one or small-group conversations than big gatherings", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "strongly prefers original pressings over reissues for critical listening", "confidence": "High", "implicit": true},
+          {"value": "ambient and electronic — has been pulling toward Brian Eno and Cluster territory over the past year", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "primary_genre_focus",
+          "old_value": "Jazz — specifically Blue Note originals from the 1960s",
+          "new_value": "Ambient and kosmische — Brian Eno, Cluster, Tangerine Dream",
+          "changed_at_session": 3,
+          "trigger": "Priya played a Cluster LP at meetup and Marcus spent the rest of the night researching German pressings"
+        }
+      ],
+      "speaking_quirks": [
+        "uses precise technical vocabulary without explaining it (e.g., 'the VTA was off by a degree and a half')",
+        "rarely uses exclamation marks — enthusiasm comes through in specificity, not punctuation",
+        "often qualifies strong opinions with 'in my experience' or 'for my setup'"
+      ],
+      "participation_rate": 0.95,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70002",
+      "display_name": "Priya",
+      "age": 31,
+      "gender": "female",
+      "occupation": "UX designer",
+      "background": "Priya works at a product design studio where she focuses on interaction design and typography. Her approach to vinyl collecting mirrors her design sensibility — she cares as much about sleeve art and label aesthetics as the music inside. She joined the group two years ago after finding them through a record fair Instagram post, and has become one of its most active members.",
+      "skills_list": [
+        {"skill": "Sleeve and label design knowledge", "proficiency": "strong"},
+        {"skill": "Identifying original pressings by matrix and label details", "proficiency": "medium"},
+        {"skill": "Photography and documentation of collections", "proficiency": "strong"},
+        {"skill": "Sourcing records from overseas sellers", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "always brings homemade snacks to meetups — sesame crackers or spiced nuts", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers buying vintage pressings with character over pristine new reissues", "confidence": "High", "implicit": true},
+          {"value": "enjoys photographing her hauls and posting them — the visual documentation matters to her", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "thrives in group settings — often the one who keeps conversation flowing", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "drawn to artists with distinctive visual identities — Bowie, Kraftwerk, Talk Talk", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "pressing_preference",
+          "old_value": "Fine with new reissues, especially quality labels like Music on Vinyl or Speakers Corner",
+          "new_value": "Vintage originals only — imperfections and age marks are part of the object's story",
+          "changed_at_session": 5,
+          "trigger": "Tom walked her through a side-by-side comparison of an original Talk Talk pressing against a reissue and she could not unhear the difference"
+        }
+      ],
+      "speaking_quirks": [
+        "uses design metaphors when talking about records ('the layout of that label is chef's kiss')",
+        "ends sentences with 'right?' when seeking agreement",
+        "frequent use of 'honestly' as a sentence opener"
+      ],
+      "participation_rate": 0.92,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70003",
+      "display_name": "Tom",
+      "age": 52,
+      "gender": "male",
+      "occupation": "High school history teacher",
+      "background": "Tom has been collecting since he was a teenager in the 1980s and views himself as a keeper of analogue culture. He teaches history at a local comprehensive school and brings the same meticulous attention to provenance to his record collection. He was one of the founding members of this meetup group and can be resistant to new members who don't share his standards.",
+      "skills_list": [
+        {"skill": "Pressing identification and grading", "proficiency": "strong"},
+        {"skill": "Record cleaning and restoration", "proficiency": "strong"},
+        {"skill": "UK and European first-pressing research", "proficiency": "strong"},
+        {"skill": "Negotiation at record fairs", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {"value": "strongly prefers tea over coffee — brings his own teabags to meetups", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers weekday record shop visits when shops are quiet over weekend rushes", "confidence": "High", "implicit": true},
+          {"value": "deep-reads liner notes rather than Discogs listings", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers smaller group meetups of 4-5 people maximum — gets visibly quieter in larger gatherings", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "rock and progressive rock UK originals — especially early Vertigo and Island pressings", "confidence": "High", "implicit": true},
+          {"value": "has become increasingly open to Japanese pressings after years of dismissing them as 'tourist copies'", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "japanese_pressing_opinion",
+          "old_value": "Dismissive — Japanese pressings are marketing products for tourists, not serious listeners",
+          "new_value": "Grudgingly respectful — certain Japanese pressings have superior mastering and pressing quality",
+          "changed_at_session": 2,
+          "trigger": "Raj played a Japanese pressing of a Genesis album that outperformed Tom's UK original on his own system"
+        }
+      ],
+      "speaking_quirks": [
+        "often begins corrections with 'Well, actually' or 'To be precise'",
+        "refers to records by catalogue number rather than album title when precision matters",
+        "uses formal complete sentences even in quick text messages"
+      ],
+      "participation_rate": 0.82,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70004",
+      "display_name": "Dani",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Barista and music blogger",
+      "background": "Dani works morning shifts at a specialty coffee shop and spends the rest of her time writing about music for a mid-size blog with a loyal following. She got into vinyl three years ago after a secondhand copy of a Cocteau Twins LP changed how she listened to music. She's the youngest regular member of the group and sometimes feels the generation gap with Tom.",
+      "skills_list": [
+        {"skill": "Music writing and criticism", "proficiency": "strong"},
+        {"skill": "Identifying under-the-radar artists and labels", "proficiency": "strong"},
+        {"skill": "Social media promotion and community building", "proficiency": "medium"},
+        {"skill": "Crate digging in charity shops and estate sales", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "always has coffee — references specific origins and roast profiles", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "loves spontaneous charity shop digs over pre-planned shopping lists", "confidence": "High", "implicit": true},
+          {"value": "changed over time from solo browsing to preferring group crate-digging trips", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "comfortable in large groups and actively recruits new members to the community", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "indie, dream pop, and shoegaze — Cocteau Twins, Slowdive, Beach House", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "crate_digging_style",
+          "old_value": "Strongly prefers solo browsing — can spend hours in a shop alone without talking to anyone",
+          "new_value": "Prefers group digging trips — the shared discovery is the best part now",
+          "changed_at_session": 8,
+          "trigger": "A group trip to a record fair where Finn found her a copy of a Slowdive EP she'd been hunting for two years — the shared moment converted her"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'omg' and 'lol' frequently in text",
+        "switches between enthusiasm and mild self-deprecation in the same message",
+        "references her blog posts when a topic connects to something she's written"
+      ],
+      "participation_rate": 0.88,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70005",
+      "display_name": "Elliot",
+      "age": 44,
+      "gender": "male",
+      "occupation": "Accountant",
+      "background": "Elliot works as a senior accountant at a mid-size firm and applies the same systematic thinking to his record collection. He catalogues every record in a custom spreadsheet, tracks what he paid and what it's worth, and rates every pressing he owns on a 1-10 scale. He joined the group five years ago through a work colleague and is one of its most consistent attendees.",
+      "skills_list": [
+        {"skill": "Collection cataloguing and valuation tracking", "proficiency": "strong"},
+        {"skill": "Identifying pressing variations by matrix differences", "proficiency": "medium"},
+        {"skill": "Budget-conscious sourcing and negotiation", "proficiency": "strong"},
+        {"skill": "Turntable maintenance", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "brings the same instant coffee sachets to every meetup — ignores any alternatives offered", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers buying records online with full discogs provenance over in-person browsing", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "attends meetups reliably but rarely initiates social plans outside them", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "stereo pressings — has become convinced the spatial imaging is superior for his listening setup", "confidence": "High", "implicit": true},
+          {"value": "classic rock and prog from the 70s — prefers well-pressed originals he can find for under £30", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "mono_vs_stereo_preference",
+          "old_value": "Prefers mono pressings — argues they are more focused and coherent",
+          "new_value": "Prefers stereo pressings — the spatial imaging on his system finally sold him",
+          "changed_at_session": 4,
+          "trigger": "Marcus rewired Elliot's speaker setup at a home listening session and the stereo image suddenly clicked"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to questions with numbered points even in casual chat ('1. the matrix matches 2. the label is correct 3. the price is too high')",
+        "almost never uses adjectives — prefers quantitative descriptions",
+        "signs off messages with just his initial 'E'"
+      ],
+      "participation_rate": 0.9,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70006",
+      "display_name": "Nadia",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Freelance illustrator",
+      "background": "Nadia illustrates for book covers and editorial clients, working from a home studio. Her record collection is eclectic and deliberately non-canonical — she hunts for obscure European library music, Eastern European folk, and left-field electronic records that others overlook. She's been in the group three years and is close to Priya but has a complicated history with Tom, who has publicly dismissed her taste as 'novelty collecting'.",
+      "skills_list": [
+        {"skill": "Identifying obscure European and library music pressings", "proficiency": "strong"},
+        {"skill": "Record sleeve illustration and design appreciation", "proficiency": "strong"},
+        {"skill": "Sourcing from specialist European dealers", "proficiency": "medium"},
+        {"skill": "Drawing and visual art", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "vegan — quietly avoids non-vegan food at meetups without making a point of it", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers listening at home alone to group listening sessions — finds public listening performative", "confidence": "High", "implicit": true},
+          {"value": "became more selective about which meetups to attend after burnout — now attends maybe 60% of them", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "close friendships with one or two people rather than broad group participation", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "library music, Eastern European folk, Italian prog — anything unfamiliar and difficult to find", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "meetup_attendance_pattern",
+          "old_value": "Attends every group meetup — enthusiastic participant and often stays until the end",
+          "new_value": "Selective attendance — skips meetups when the topic feels repetitive or the dynamic feels draining",
+          "changed_at_session": 7,
+          "trigger": "A heated session where Tom and Raj argued for two hours about pressing quality left Nadia drained and questioning the value of group meetups"
+        }
+      ],
+      "speaking_quirks": [
+        "often trails off with '...' rather than finishing a point",
+        "uses 'I guess' and 'maybe' to soften direct opinions",
+        "references specific visual artists or illustrators when describing records ('the sleeve is very Saul Bass-adjacent')"
+      ],
+      "participation_rate": 0.75,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70007",
+      "display_name": "Raj",
+      "age": 29,
+      "gender": "male",
+      "occupation": "Software developer",
+      "background": "Raj is a backend developer at a fintech startup. He approaches vinyl collecting like a data problem — he's built his own Discogs scraper to track pressing valuations, maintains a detailed listening log, and cross-references multiple sources before any purchase. He's been in the group two years and is competitive with Tom on matters of pressing knowledge, which has caused occasional friction.",
+      "skills_list": [
+        {"skill": "Data analysis and collection tracking via custom tools", "proficiency": "strong"},
+        {"skill": "Discogs API and pressing research", "proficiency": "strong"},
+        {"skill": "Japanese pressing identification and valuation", "proficiency": "medium"},
+        {"skill": "Programming and scripting", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "orders the same thing every time at any pub or café — finds decision fatigue annoying", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers data-informed buying over intuition — reviews pressing quality reports before purchase", "confidence": "High", "implicit": true},
+          {"value": "shifted toward vinyl-first listening — streaming is now only for discovery, not serious listening", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "enjoys the competitive intellectual aspects of the group but dislikes socialising without a structured topic", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "progressive rock and fusion — Genesis, Yes, Mahavishnu Orchestra, in that order", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "streaming_vs_vinyl_listening",
+          "old_value": "Streaming-first — vinyl for special occasions only, Spotify for daily listening",
+          "new_value": "Vinyl-first — streaming only for discovery or when away from the turntable",
+          "changed_at_session": 9,
+          "trigger": "After Marcus lent him a well-set-up second system for a month, Raj could no longer tolerate compressed audio for anything he cared about"
+        }
+      ],
+      "speaking_quirks": [
+        "leads with data or statistics before making any qualitative point",
+        "uses 'technically' as a conversational opener",
+        "rarely uses question marks — rhetorical questions come out as statements"
+      ],
+      "participation_rate": 0.85,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70008",
+      "display_name": "Carmen",
+      "age": 47,
+      "gender": "female",
+      "occupation": "Librarian",
+      "background": "Carmen has worked at the city's main reference library for eighteen years and brings a cataloguer's rigor to her record collection. She specialises in jazz, particularly classic Blue Note and Impulse! pressings, and has been a member of the group since its founding alongside Tom. Despite their shared history, she often acts as a quiet counterweight to Tom's more combative tendencies.",
+      "skills_list": [
+        {"skill": "Jazz pressing identification — Blue Note, Impulse!, Verve", "proficiency": "strong"},
+        {"skill": "Archival research and provenance documentation", "proficiency": "strong"},
+        {"skill": "Condition grading and cleaning", "proficiency": "medium"},
+        {"skill": "Latin music and cross-genre knowledge", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "prefers proper sit-down meals to grazing — finds standing-around-eating uncomfortable", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "enjoys specialist jazz record fairs over general record fairs — the focus suits her", "confidence": "High", "implicit": true},
+          {"value": "started attending Latin jazz nights after developing an interest in that repertoire", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "values consistency in the group — prefers the same regular members over open-door new attendees", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "broadened from classic American jazz to include Latin jazz — Chucho Valdés, Irakere, Eddie Palmieri", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "jazz_genre_scope",
+          "old_value": "Classic American jazz only — Blue Note, Impulse!, Prestige originals; dismissive of Latin jazz as a different genre",
+          "new_value": "Expanded to include Latin jazz — particularly Cuban and Puerto Rican jazz from the 1970s–80s",
+          "changed_at_session": 6,
+          "trigger": "Nadia played an Irakere record at a meetup and Carmen could not stop asking questions about it"
+        }
+      ],
+      "speaking_quirks": [
+        "uses full formal grammar even in group chats — no contractions in written messages",
+        "references catalogue numbers when recommending specific records",
+        "thanks people explicitly before and after they speak in group discussions"
+      ],
+      "participation_rate": 0.87,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_b6c70009",
+      "display_name": "Finn",
+      "age": 22,
+      "gender": "male",
+      "occupation": "University student (music technology)",
+      "background": "Finn is in his third year of a music technology degree and joined the group eight months ago after Dani posted about it on Instagram. He came in through punk and post-punk and spent his first few months defending the Buzzcocks and Wire against Tom's contempt for anything non-melodic. He is gradually becoming more adventurous in his listening but still anchors in the DIY ethos of the music he loves.",
+      "skills_list": [
+        {"skill": "UK punk and post-punk pressing knowledge", "proficiency": "strong"},
+        {"skill": "DIY record label research", "proficiency": "medium"},
+        {"skill": "Basic audio electronics and speaker building", "proficiency": "medium"},
+        {"skill": "Music technology and digital audio", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "subsists on energy drinks and cheap snacks — apologises for bringing crisps to every meetup", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers group trips and events over home listening — the social side of vinyl matters as much as the music", "confidence": "High", "implicit": true},
+          {"value": "broadened from punk-only to post-punk, indie, and now early 4AD and Rough Trade", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "the connector in his peer group — brings new faces to meetups regularly", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "early Rough Trade and 4AD releases — The Fall, Felt, Aztec Camera, Cocteau Twins", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "genre_openness",
+          "old_value": "Punk and post-punk only — resistant to anything that felt overly produced or genre-crossing",
+          "new_value": "Open to broader indie, shoegaze, and early 4AD — punk is still home base but not a boundary",
+          "changed_at_session": 10,
+          "trigger": "After months of Dani's recommendations and a marathon listening session at Priya's flat, Finn finally admitted Cocteau Twins were perfect"
+        }
+      ],
+      "speaking_quirks": [
+        "uses lots of abbreviations and runs words together ('lmao that pressing is properly mint tho')",
+        "frequent typos and missing apostrophes",
+        "references DIY and indie labels as moral as well as musical categories ('it's a Rough Trade release, so obviously it's good')"
+      ],
+      "participation_rate": 0.78,
+      "status": "active",
+      "departed_after_session": null
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_b6c70001",
+      "persona_b_id": "p_b6c70002",
+      "relationship_type": "fellow_collector",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Priya bonded quickly over their shared interest in the aesthetics of record sleeves alongside the music — an overlap rare in the group. Marcus helped Priya calibrate her turntable and she started bringing him Cluster and kosmische finds that she'd spotted before him.",
+      "shared_events": ["Priya played the Cluster LP that shifted Marcus's collecting focus", "Built a joint Discogs want-list for European electronic pressings"]
+    },
+    {
+      "persona_a_id": "p_b6c70001",
+      "persona_b_id": "p_b6c70003",
+      "relationship_type": "founding_member_peer",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Marcus and Tom have mutual respect based on deep knowledge but don't socialise outside the group. They agree on the value of original pressings and disagree on nearly everything else — genre taste, approach to new members, and the role of digital tools in research.",
+      "shared_events": ["Co-hosted the group's first formal listening session", "Disagreed publicly about the merits of CD-quality rips as reference material"]
+    },
+    {
+      "persona_a_id": "p_b6c70001",
+      "persona_b_id": "p_b6c70005",
+      "relationship_type": "fellow_collector",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus helped Elliot rewire his speaker setup during a home listening session, which was the event that converted Elliot from mono to stereo. Since then Elliot trusts Marcus completely on technical matters and defers to him openly.",
+      "shared_events": ["Home listening session where Marcus rewired the speaker setup", "Marcus lent Elliot a phono stage for three months while Elliot saved for his own"]
+    },
+    {
+      "persona_a_id": "p_b6c70001",
+      "persona_b_id": "p_b6c70007",
+      "relationship_type": "fellow_collector",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus lent Raj a second turntable system for a month, which was the catalyst for Raj's shift from streaming-first to vinyl-first. They have a mutual respect grounded in technical rigour, though Marcus finds Raj's data-first approach slightly cold.",
+      "shared_events": ["Marcus lent Raj a secondary system for a month", "Collaborative Discogs research session to identify a mystery pressing matrix"]
+    },
+    {
+      "persona_a_id": "p_b6c70002",
+      "persona_b_id": "p_b6c70006",
+      "relationship_type": "close_friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya and Nadia are the closest friendship pairing in the group, bonded over their shared interest in visual design and their shared sense of being the 'aesthetics people' among a group of mostly technical collectors. They regularly go to record fairs together and share dealer recommendations.",
+      "shared_events": ["Joint trip to a Dutch specialist record fair", "Co-hosted a sleeve art appreciation evening for the group"]
+    },
+    {
+      "persona_a_id": "p_b6c70002",
+      "persona_b_id": "p_b6c70009",
+      "relationship_type": "mentor_recruit",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya recruited Finn via her Instagram post and has taken an informal mentorship role — introducing him to post-punk and 4AD alongside her own shoegaze recommendations. Finn found Dani's Slowdive EP for her, which cemented the bond.",
+      "shared_events": ["Record fair group trip where Finn found Priya's Slowdive EP", "Marathon listening session at Priya's flat that converted Finn to Cocteau Twins"]
+    },
+    {
+      "persona_a_id": "p_b6c70003",
+      "persona_b_id": "p_b6c70005",
+      "relationship_type": "long_term_member_peer",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Tom and Elliot have both been in the group a long time and share a preference for methodical research over impulse buying. They rarely socialise outside meetups but respect each other's knowledge and process.",
+      "shared_events": ["Collaborated on a group guide to pressing identification for new members", "Attended the same specialist auction and each came away with what they wanted"]
+    },
+    {
+      "persona_a_id": "p_b6c70003",
+      "persona_b_id": "p_b6c70006",
+      "relationship_type": "ideological_rival",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Tom publicly dismissed Nadia's collection as 'novelty hunting' at a meetup in the group's second year. Nadia has not forgotten it and tends to redirect conversations whenever Tom starts setting criteria for what counts as serious collecting. The tension is mostly cold rather than active.",
+      "shared_events": ["The meetup where Tom dismissed Nadia's library music collection publicly", "A subsequent session where Carmen stepped in to mediate and the subject was dropped unresolved"]
+    },
+    {
+      "persona_a_id": "p_b6c70003",
+      "persona_b_id": "p_b6c70007",
+      "relationship_type": "competitive_rival",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Tom and Raj have a charged relationship — both value knowledge and precision but arrive at it through completely different methods. Raj's data tools have repeatedly produced results that outperform Tom's experience-based judgements, and Tom takes this personally. They've also had genuinely productive exchanges on pressing research.",
+      "shared_events": ["Raj's Japanese pressing outperformed Tom's UK original on Tom's own system", "A two-hour argument about pressing quality metrics that left Nadia drained"]
+    },
+    {
+      "persona_a_id": "p_b6c70003",
+      "persona_b_id": "p_b6c70008",
+      "relationship_type": "founding_member_peer",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Tom and Carmen co-founded the group and have a long shared history. Carmen is one of the few people who can soften Tom's edges — she doesn't challenge him directly but quietly steers conversations away from confrontation. Their jazz knowledge overlaps significantly.",
+      "shared_events": ["Co-founded the meetup group six years ago", "Joint trip to a specialist jazz auction where both found significant records"]
+    },
+    {
+      "persona_a_id": "p_b6c70004",
+      "persona_b_id": "p_b6c70006",
+      "relationship_type": "friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Dani and Nadia share a sensibility for music that exists outside the mainstream collecting canon. Dani's shoegaze and Nadia's library music taste don't overlap much but their aesthetic values do. They often defend each other when Tom or Raj dismiss their choices.",
+      "shared_events": ["Joint charity shop dig where they found adjacent sections and shared discoveries across the aisle", "Dani wrote about Nadia's Irakere find in her blog"]
+    },
+    {
+      "persona_a_id": "p_b6c70004",
+      "persona_b_id": "p_b6c70009",
+      "relationship_type": "friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Dani and Finn have the most natural friendship in the group — closest in age, both from a non-canonical starting point, and both more interested in the social side of collecting than the technical details. Finn finding Dani's Slowdive EP is a defining moment of their friendship.",
+      "shared_events": ["Record fair where Finn found Dani's long-sought Slowdive EP", "Regular pre-meetup coffee at Dani's café"]
+    },
+    {
+      "persona_a_id": "p_b6c70005",
+      "persona_b_id": "p_b6c70007",
+      "relationship_type": "fellow_collector",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Elliot and Raj respect each other's systematic approaches without being close. They occasionally share Discogs research findings and once collaborated on a spreadsheet tracking pressing quality scores across multiple copies of the same album.",
+      "shared_events": ["Collaborative spreadsheet project tracking pressing quality across 12 copies of a single album", "Both attended the same record fair and compared notes afterwards"]
+    },
+    {
+      "persona_a_id": "p_b6c70006",
+      "persona_b_id": "p_b6c70008",
+      "relationship_type": "fellow_collector",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Nadia introduced Carmen to Irakere, which became a pivotal moment in Carmen's collecting. Carmen was surprised and grateful — it expanded her frame of reference and led to a more open ongoing exchange between them on music outside their main areas.",
+      "shared_events": ["The meetup where Nadia played the Irakere record that converted Carmen", "Carmen recommended a Brazilian jazz pressing to Nadia that crossed into Nadia's library music taste"]
+    },
+    {
+      "persona_a_id": "p_b6c70007",
+      "persona_b_id": "p_b6c70008",
+      "relationship_type": "fellow_collector",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Raj and Carmen have little overlap in collecting interests and communicate mainly in the group context. Carmen finds Raj's data-centric approach impersonal; Raj finds Carmen's analogue research methods slow. They are polite but not close.",
+      "shared_events": ["Sat next to each other at the group's first pub listening session", "Both contributed to the group's shared Discogs collection tracking folder without ever discussing it directly"]
+    },
+    {
+      "persona_a_id": "p_b6c70007",
+      "persona_b_id": "p_b6c70009",
+      "relationship_type": "fellow_collector",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Raj and Finn get along reasonably well despite their different collecting sensibilities. Raj appreciates that Finn is technically literate from his music technology degree; Finn finds Raj slightly intimidating but has started asking him pressing research questions.",
+      "shared_events": ["Finn asked Raj to help identify a suspicious pressing matrix and they worked it out together", "Both attended a panel on digital audio restoration at a music technology conference"]
+    },
+    {
+      "persona_a_id": "p_b6c70008",
+      "persona_b_id": "p_b6c70009",
+      "relationship_type": "generational_contrast",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Carmen and Finn are cordial but represent the widest generation gap in the group. Carmen is quietly bemused by Finn's enthusiasm and informality; Finn respects Carmen but finds the formal register slightly intimidating. They rarely address each other directly in group chat.",
+      "shared_events": ["Carmen recommended a record to Finn that he unexpectedly loved — a Blue Note reissue he bought as a gateway", "Both present at the group's anniversary gathering where they ended up talking for an hour about the DIY ethos of early jazz labels vs. punk"]
+    },
+    {
+      "persona_a_id": "p_b6c70002",
+      "persona_b_id": "p_b6c70004",
+      "relationship_type": "friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya and Dani connected quickly through their shared enthusiasm for artists with strong visual identities — Dani's Cocteau Twins and Priya's Talk Talk occupy adjacent aesthetic territory. They occasionally co-write entries for Dani's blog.",
+      "shared_events": ["Co-wrote a piece for Dani's blog on 4AD sleeve design", "Priya's flat marathon listening session where Finn was also present"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We always do a listening round at meetups where everyone plays one track they've found since last time",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "The group always splits costs equally on shared purchases or group orders from dealers",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Everyone in the group agrees that original pressings are always worth paying more for than reissues",
+      "truly_universal": false,
+      "dissenters": ["p_b6c70009", "p_b6c70004"]
+    },
+    {
+      "norm_text": "We don't talk about streaming services at meetups — vinyl only",
+      "truly_universal": false,
+      "dissenters": ["p_b6c70007", "p_b6c70009", "p_b6c70004"]
+    },
+    {
+      "norm_text": "The group treats the meetup host's listening setup as the reference — no criticising the host's equipment",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 12,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

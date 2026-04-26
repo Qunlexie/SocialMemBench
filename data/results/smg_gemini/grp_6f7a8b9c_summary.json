@@ -1,0 +1,51 @@
+{
+  "network_id": "grp_6f7a8b9c",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:43:56.780029+00:00",
+  "sessions_used": 5,
+  "total_pairs": 7,
+  "new_pairs_this_run": 7,
+  "mean_score": 0.5,
+  "mean_context_words": 836.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.75
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q4_cf6s2c1",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_cf6s3c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Dev was 'available to meet Kwame,' which contradicts the gold answer's description of Dev being 'heads-down' and in a serious situation requiring a special visit."
+    }
+  ]
+}

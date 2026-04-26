@@ -1,36 +1,29 @@
 {
   "network_id": "grp_5e6f7a8b",
   "condition": "cognee",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:55:23.912164+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:46:49.472480+00:00",
   "sessions_used": 5,
   "total_pairs": 8,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.125,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.087,
+  "mean_context_words": 52.8,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.5
+      "mean_score": 0.4
     },
     "Q3": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q8": {
-      "count": 1,
-      "mean_score": 0.5
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q7": {
       "count": 1,
       "mean_score": 0.0
     },
     "Q4": {
       "count": 1,
       "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.3
     },
     "Q6": {
       "count": 1,
@@ -39,39 +32,64 @@
     "Q2": {
       "count": 1,
       "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
+      "qa_id": "Q1_a5s1c1",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer is too generic and abstract, missing the specific factual details from the gold answer regarding Claudette's opposition to 'planning applications that would alter the street's residential character' and the specific reasons like 'visual impact' and 'traffic linked to development.' It's in the right direction but lacks precision and key elements."
+    },
+    {
       "qa_id": "Q3_a5s2c1",
       "query_type": "Q3",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_a5s4c2",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_a5s5c1",
-      "query_type": "Q7",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "None of the five members' positions or reasoning in the generated answer match the gold answer."
     },
     {
       "qa_id": "Q4_a5s1c2",
       "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_a5s3c1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the general direction of change (more proactive) and the initial state (passive observation), but it completely misses the specific trigger event (car incident) and mischaracterizes the nature of Marcus's intensified engagement, replacing formal escalation and child safety focus with generic 'organizing community discussions and proposing solutions.'"
     },
     {
       "qa_id": "Q6_a5s3c2",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q2_a5s4c1",
       "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a5s4c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer identifies a different preference of Claudette's (personal space) than the gold answer (residents-only party), making the core fact incorrect."
+    },
+    {
+      "qa_id": "Q7_a5s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer claims there is 'underlying tension' and 'potential conflict' between Femi and Claudette, which directly contradicts the gold answer's description of a 'warm, complementary, and mutually dependent' relationship."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

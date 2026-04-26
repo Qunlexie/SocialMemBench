@@ -1,0 +1,379 @@
+{
+  "network_id": "grp_c3d4e5f6",
+  "group_name": "Maple Heights Residents",
+  "group_type": "acquaintance_network",
+  "group_size": 10,
+  "tier": "medium",
+  "seed": 15,
+  "timespan_weeks": 8,
+  "noise_level": "medium",
+  "participation_rate": "moderate",
+  "member_departure": "none",
+  "description": "WhatsApp group for residents of a 40-unit apartment complex in a mid-sized city. Members range from a retired tradesman to grad students and young professionals. Interactions are mostly logistical — package alerts, maintenance, building events — with occasional personal reveals.",
+  "personas": [
+    {
+      "persona_id": "grp_c3d4e5f6_p01",
+      "display_name": "Marcus",
+      "full_name": "Marcus Webb",
+      "age": 48,
+      "gender": "male",
+      "role": "building superintendent",
+      "background": "Has managed Maple Heights for 9 years. Practical, fair, no-nonsense. Previously managed a building on Elm Street where he first met Carmen.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "opens maintenance announcements with 'FYI all —'",
+          "signs off longer messages with '– Marcus'",
+          "uses 'sorted' to mean a problem is resolved"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p02",
+      "display_name": "Priya",
+      "full_name": "Priya Sharma",
+      "age": 31,
+      "gender": "female",
+      "role": "UX designer, 3rd floor",
+      "background": "Has lived in the building 2 years. Friendly and organized. Attends a morning yoga class with Sandra but they don't interact much in the building otherwise.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "uses 'noted!' as acknowledgment",
+          "adds a thumbs-up emoji at the end of logistics confirmations",
+          "phrases opinions as gentle questions ('is it just me or...')"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p03",
+      "display_name": "Dan",
+      "full_name": "Dan Kowalski",
+      "age": 67,
+      "gender": "male",
+      "role": "retired plumber, ground floor",
+      "background": "Has lived in Maple Heights 14 years — longer than anyone. Initially skeptical of the group chat ('another gadget thing'), but warms after a package theft incident where the group recovered his parcel quickly.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "casual",
+        "emoji_use": "never",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "refers to digital systems as 'gadget things' or 'the computer stuff'",
+          "uses 'fine by me' to signal grudging acceptance rather than enthusiasm",
+          "occasionally mentions 'back when this place had a real key'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p04",
+      "display_name": "Carmen",
+      "full_name": "Carmen Rodriguez",
+      "age": 44,
+      "gender": "female",
+      "role": "parent of two, 2nd floor",
+      "background": "Lived here 5 years. Very involved in building social events. Knew Marcus before — he was the super at her previous building on Elm Street. Her two kids occasionally cause noise-related complaints.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "opens updates with 'just a heads up everyone —'",
+          "mentions her kids obliquely ('the little ones', 'my crew')",
+          "uses 'totally understand' to soften disagreements"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p05",
+      "display_name": "Yuki",
+      "full_name": "Yuki Tanaka",
+      "age": 26,
+      "gender": "female",
+      "role": "PhD student, 4th floor",
+      "background": "Moved in 10 months ago. Initially very quiet in the chat — responds hours later or not at all. After getting locked out in session 3 and the group helping immediately, she becomes noticeably more responsive and eventually starts initiating threads.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "thanks people formally ('thank you, appreciated')",
+          "uses 'noted' without exclamation point",
+          "sometimes responds only with a single emoji (thumbs-up) to signal acknowledgment"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p06",
+      "display_name": "Kevin",
+      "full_name": "Kevin O'Brien",
+      "age": 28,
+      "gender": "male",
+      "role": "bartender / part-time student, 1st floor",
+      "background": "Has lived here 18 months. Easygoing, sometimes posts off-topic memes or sports scores in the group. Nominally agrees to keep the chat building-related but reverts to habit.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "starts messages with 'yo' or 'lol'",
+          "uses 'ngl' (not gonna lie) before honest opinions",
+          "ends logistics replies with 'solid' or 'all good'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p07",
+      "display_name": "Sandra",
+      "full_name": "Sandra Okafor",
+      "age": 38,
+      "gender": "female",
+      "role": "ICU nurse, 3rd floor",
+      "background": "Has lived here 3 years. Works rotating night shifts so her available hours are irregular. Shares a morning yoga class with Priya. Practical and direct in the chat.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "uses 'copy that' to acknowledge instructions",
+          "phrases requests as 'would appreciate if...'",
+          "signs off with just her name when a matter is settled"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p08",
+      "display_name": "Felix",
+      "full_name": "Felix Bauer",
+      "age": 35,
+      "gender": "male",
+      "role": "remote software engineer, 5th floor",
+      "background": "Has lived here 2.5 years. Works from home, very aware of building noise and lobby activity. Dry sense of humor. Tends to notice things others miss.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "uses dry understatement ('not ideal', 'could be worse')",
+          "occasionally notes things in the format 'for the record: ...'",
+          "references working from home ('when you're home all day you notice these things')"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p09",
+      "display_name": "Ruth",
+      "full_name": "Ruth Chen",
+      "age": 73,
+      "gender": "female",
+      "role": "retired teacher, 2nd floor",
+      "background": "Has lived in Maple Heights 7 years. Sometimes replies to old messages out of sequence, occasionally posts a reply that seems off-context. The group is patient with her. Warm personality, occasionally shares recipes.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "often replies to old messages as if they were new ('re: the water shutoff from Tuesday...')",
+          "sometimes adds 'excuse me if I missed something' before a question",
+          "addresses people by name at the start of replies ('Marcus, yes that works for me')"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_c3d4e5f6_p10",
+      "display_name": "Amir",
+      "full_name": "Amir Nazari",
+      "age": 41,
+      "gender": "male",
+      "role": "cafe owner, ground floor commercial unit",
+      "background": "Runs the small cafe on the ground floor of the building. Enthusiastic and community-minded. Uses the group chat actively. Often deflects suggestions to use the building common room for social events, preferring his own cafe space.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "offers free coffee to building residents when something good happens ('first round on me!')",
+          "uses 'love this for us' or 'love that' to express enthusiasm",
+          "often ends suggestions with '...or we could just come to the cafe 😄'"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "grp_c3d4e5f6_p01",
+      "target_id": "grp_c3d4e5f6_p04",
+      "relationship_type": "prior_acquaintance",
+      "closeness": 3,
+      "known_since": "before_group",
+      "notes": "Marcus was superintendent at Carmen's previous building on Elm Street"
+    },
+    {
+      "source_id": "grp_c3d4e5f6_p02",
+      "target_id": "grp_c3d4e5f6_p07",
+      "relationship_type": "shared_activity",
+      "closeness": 2,
+      "known_since": "1_year_ago",
+      "notes": "Priya and Sandra attend the same 7am yoga class near the building"
+    },
+    {
+      "source_id": "grp_c3d4e5f6_p03",
+      "target_id": "grp_c3d4e5f6_p01",
+      "relationship_type": "long_term_tenant_super",
+      "closeness": 3,
+      "known_since": "14_years_ago",
+      "notes": "Dan has lived here longer than Marcus has managed; mutual respect"
+    },
+    {
+      "source_id": "grp_c3d4e5f6_p10",
+      "target_id": "grp_c3d4e5f6_p01",
+      "relationship_type": "commercial_tenant",
+      "closeness": 4,
+      "known_since": "4_years_ago",
+      "notes": "Amir's cafe occupies the commercial ground floor unit"
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_id": "gn_c3_01",
+      "description": "Group members keep the chat for building-related matters — maintenance, packages, announcements",
+      "truly_universal": false,
+      "dissenters": ["grp_c3d4e5f6_p06"],
+      "dissenter_notes": "Kevin regularly posts off-topic content (sports scores, memes) despite agreeing to the norm"
+    },
+    {
+      "norm_id": "gn_c3_02",
+      "description": "Residents try to keep noise down after 10pm on weeknights",
+      "truly_universal": false,
+      "dissenters": ["grp_c3d4e5f6_p06"],
+      "dissenter_notes": "Kevin works late bartending shifts and sometimes has friends over after midnight; he agrees to the norm but his schedule creates tension"
+    }
+  ],
+  "planted_challenges": [
+    {
+      "challenge_id": "ch_c301",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_c3d4e5f6_p03",
+      "fact_attribute": "electronic keycard entry system",
+      "fact_value": "Dan prefers the old mechanical key lock; he's skeptical and quietly frustrated by the keycard system, references the old key indirectly",
+      "implicitness_level": 2,
+      "evidence_span": "Dan comments obliquely about 'the computer thing at the door' whenever it comes up — no explicit complaint, just sighs or terse deflection"
+    },
+    {
+      "challenge_id": "ch_c302",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_c3d4e5f6_p02",
+      "fact_attribute": "off-topic messages in the group chat",
+      "fact_value": "Priya prefers the chat stays building-relevant; she visibly does not engage with off-topic posts — no reactions, no replies",
+      "implicitness_level": 2,
+      "evidence_span": "Priya consistently responds to practical messages but goes silent when Kevin posts memes or sports content"
+    },
+    {
+      "challenge_id": "ch_c303",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "grp_c3d4e5f6_p06",
+      "fact_attribute": "building BBQ on Saturday",
+      "fact_value": "Kevin has a work conflict that Saturday but gives only a brief 'sounds good' after the group enthusiastically agrees, not flagging his conflict",
+      "implicitness_level": 3,
+      "evidence_span": "Kevin replies 'sounds good' with a single emoji after several enthusiastic replies — noticeably shorter than his usual tone"
+    },
+    {
+      "challenge_id": "ch_c304",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "grp_c3d4e5f6_p05",
+      "fact_attribute": "holiday lobby decorations",
+      "fact_value": "Yuki doesn't observe the holiday in question but just replies 'ok' rather than say so, to avoid friction",
+      "implicitness_level": 2,
+      "evidence_span": "Yuki's 'ok' stands in contrast to enthusiastic replies from others; she does not use the holiday name or any celebratory framing"
+    },
+    {
+      "challenge_id": "ch_c305",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "grp_c3d4e5f6_p07",
+      "speaker_persona_id": "grp_c3d4e5f6_p04",
+      "fact_attribute": "Sandra's night shift schedule",
+      "fact_value": "Sandra works rotating night shifts as a nurse",
+      "implicitness_level": 2,
+      "evidence_span": "Carmen posts a noise-down reminder specifically mentioning 'some of us work nights' in a way that implies she already knows Sandra's schedule, without Sandra having stated it in the chat"
+    },
+    {
+      "challenge_id": "ch_c306",
+      "challenge_type": "false_attribution_seed",
+      "subject_persona_id": "grp_c3d4e5f6_p08",
+      "speaker_persona_id": "grp_c3d4e5f6_p02",
+      "fact_attribute": "request for a coffee option in the building lobby",
+      "fact_value": "Felix was the first to mention wanting a coffee stand or improved lobby coffee, framed as dry practical commentary; Priya later echoed it more enthusiastically",
+      "implicitness_level": 2,
+      "evidence_span": "Felix notes 'a coffee machine in the lobby would not be the worst idea' — dry, understated. Priya later says 'would love a coffee spot downstairs!'. The true originator is easy to misattribute to Priya due to her enthusiasm."
+    },
+    {
+      "challenge_id": "ch_c307",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "grp_c3d4e5f6_p01",
+      "speaker_persona_id": "grp_c3d4e5f6_p04",
+      "fact_attribute": "prior history between Marcus and Carmen",
+      "fact_value": "Marcus was the superintendent at Carmen's previous building on Elm Street before either of them was at Maple Heights",
+      "implicitness_level": 2,
+      "evidence_span": "Carmen mentions 'Marcus was the super at my old place on Elm Street too' in passing during a discussion about his reliability"
+    },
+    {
+      "challenge_id": "ch_c308",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "grp_c3d4e5f6_p07",
+      "speaker_persona_id": "grp_c3d4e5f6_p02",
+      "fact_attribute": "shared yoga class between Priya and Sandra",
+      "fact_value": "Priya and Sandra attend the same early morning yoga class near the building",
+      "implicitness_level": 1,
+      "evidence_span": "Priya mentions 'see you at 7am Sandra' or similar in passing, revealing they share a regular commitment outside the building"
+    },
+    {
+      "challenge_id": "ch_c309",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "grp_c3d4e5f6_p03",
+      "fact_attribute": "attitude toward the group chat",
+      "fact_value": "Dan shifts from dismissive ('this gadget thing') to grudgingly engaged after a package theft incident in session 3-4 where the group quickly helps recover his parcel",
+      "implicitness_level": 2,
+      "evidence_span": "Early sessions: Dan is minimal and skeptical. After the package incident: Dan starts responding to others' posts, occasionally initiates short messages, tone softens"
+    },
+    {
+      "challenge_id": "ch_c310",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "grp_c3d4e5f6_p05",
+      "fact_attribute": "participation level in the group chat",
+      "fact_value": "Yuki shifts from very sparse/delayed responses to more timely and eventually initiating threads, triggered by a lockout incident in session 3 where the group responded immediately",
+      "implicitness_level": 2,
+      "evidence_span": "Sessions 1-2: Yuki either doesn't reply or replies hours late with a single emoji. Session 3: locked out, group helps fast. Sessions 4-8: Yuki responds within the conversation, eventually starts a thread herself"
+    },
+    {
+      "challenge_id": "ch_c311",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_c3d4e5f6_p10",
+      "fact_attribute": "common room for social gatherings",
+      "fact_value": "Amir consistently steers social event suggestions away from the common room toward his cafe, suggesting he prefers to host in his own space",
+      "implicitness_level": 2,
+      "evidence_span": "Every time someone suggests using the common room for a resident event, Amir quickly proposes the cafe instead, framed positively but consistently"
+    },
+    {
+      "challenge_id": "ch_c312",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_c3d4e5f6_p09",
+      "fact_attribute": "chat interface / replying to messages",
+      "fact_value": "Ruth regularly replies to old messages out of sequence, suggesting she hasn't mastered WhatsApp's threading and struggles with the interface",
+      "implicitness_level": 1,
+      "evidence_span": "Ruth's replies often reference topics from earlier in the conversation as if they're new — 'about the water shutoff from last week...'"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:27:49.997642+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.278,
+  "mean_context_words": 108.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.4
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.167
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.375
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.12
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer directly contradicts the gold answer's core interpretation of Derek's behavior, claiming he does not prioritize winning while the gold states he is intensely competitive and tracks his performance closely."
+    },
+    {
+      "qa_id": "Q1_a1b2c303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear,' which directly contradicts the gold answer that clearly describes Nadia's preference for strict separation of food and game components, supported by specific examples from the sessions."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that the food preferences for Derek, Raj, Tomasz, Marcus, and Lena are unclear or not mentioned, when the gold answer provides specific details for each. It also misinterprets Priya's preference."
+    },
+    {
+      "qa_id": "Q4_a1b2c301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Soo-Yeon is open to real-time games; the gold answer states she finds them overwhelming. This fundamental factual error about Soo-Yeon's preference makes the entire answer incorrect."
+    },
+    {
+      "qa_id": "Q5_a1b2c303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Felix's relationship with abstract board games (Oath is a thematic game, not abstract) and completely misses the specific comment from Soo-Yeon in Session 8 that the question asks about, instead discussing her openness to Fuse."
+    },
+    {
+      "qa_id": "Q6_a1b2c301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer describes a generic collaborative and supportive relationship based on shared group activities, completely missing the gold answer's core point that Lena and Priya have a closer-than-average, more intimate relationship with specific evidence like Priya being Lena's social bridge and Lena making sensitive observations."
+    },
+    {
+      "qa_id": "Q7_a1b2c303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer 'UNCLEAR' provides no information and is equivalent to 'NOT ENOUGH INFORMATION', which scores 0.0 according to the critical rules."
+    },
+    {
+      "qa_id": "Q8_a1b2c301",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the new state and trigger, but the description of the old state is incorrect and relies on misattributed evidence ('palette cleanser' was mentioned by Felix, not Priya, and in a different context), which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's softened preference for pure-strategy games to Priya's suggestion about alternating cooperative and competitive games. The gold answer correctly identifies Lena's reframing of luck as a skill-testing element as the trigger for Marcus's shift regarding pure-strategy (low-luck) games. The generated answer completely misunderstands the specific preference being discussed and its cause."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION', which is explicitly a 0.0 score according to critical rule #3."
+    },
+    {
+      "qa_id": "Q8_a1b2c305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The answer fails to identify the reason Soo-Yeon agreed to try the game (cooperative format) and incorrectly links her game preference to food preference, leading to a wrong conclusion about whether her position genuinely shifted."
+    },
+    {
+      "qa_id": "Q8_a1b2c306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Tomasz's old preference, claims the new preference is not stated, and states the trigger is not provided, all of which contradict the gold answer."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer is 'NOT ENOUGH INFORMATION', which, according to critical rule #3, always scores 0.0."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Felix's initial view of Oath as abstract, misattributes the cause of his change to Priya's suggestion instead of Soo-Yeon's reframing, and mischaracterizes the nature of his evolved preference."
+    }
+  ]
+}

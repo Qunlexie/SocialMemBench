@@ -1,0 +1,826 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "group_name": "The Harrington Family",
+  "group_type": "family",
+  "group_size": 10,
+  "seed": 28,
+  "personas": [
+    {
+      "persona_id": "p_a0010001",
+      "display_name": "Carol",
+      "age": 61,
+      "gender": "female",
+      "occupation": "Retired HR manager",
+      "background": "Matriarch of the Harrington family. Spent 30 years in HR at a regional healthcare system before retiring two years ago. Born and raised in Columbus, Ohio, she is the emotional glue of the family — the one who remembers every birthday, coordinates every holiday, and sends passive-aggressive hints about visit frequency. Has recently taken up watercolor painting and talks about it more than anyone asked.",
+      "skills_list": [
+        {"skill": "family logistics coordination", "proficiency": "strong"},
+        {"skill": "watercolor painting", "proficiency": "low"},
+        {"skill": "cooking (casseroles and bakes)", "proficiency": "strong"},
+        {"skill": "conflict de-escalation", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "home-cooked meals over restaurants — prefers feeding people herself", "confidence": "High", "implicit": true},
+          {"value": "casseroles and pot-luck style sharing for gatherings", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "Sunday phone calls with each child individually, not just group chat", "confidence": "High", "implicit": true},
+          {"value": "in-person family gatherings over virtual ones whenever possible", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "avoids conflict but will escalate if she feels her effort is unappreciated", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "prefers watercolor landscapes over portraits — finds people too hard to get right", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "retirement_social_life",
+          "old_value": "relied entirely on family for social connection",
+          "new_value": "joined a local watercolor class and has started building friendships outside the family for the first time",
+          "changed_at_session": 3,
+          "trigger": "Bev pointed out Carol looked isolated after retirement and signed her up for the class as a birthday gift"
+        }
+      ],
+      "speaking_quirks": [
+        "starts messages with 'Hi loves!' or 'Hi family!'",
+        "uses at least three emojis per message",
+        "ends every logistics question with 'just let me know!!'"
+      ],
+      "participation_rate": 0.95,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0020002",
+      "display_name": "Dennis",
+      "age": 63,
+      "gender": "male",
+      "occupation": "Retired mechanic",
+      "background": "Patriarch of the Harrington family. Worked as a diesel mechanic for 35 years at a trucking depot before a knee replacement forced early retirement. A man of few words in the group chat but constant presence in person. Proud of his workshop, his vegetable garden, and his ability to fix anything. Has a dry sense of humor that his kids inherited in various forms. Still adjusting to retirement and occasionally mentions he should look for part-time work.",
+      "skills_list": [
+        {"skill": "diesel engine repair", "proficiency": "strong"},
+        {"skill": "vegetable gardening", "proficiency": "strong"},
+        {"skill": "carpentry", "proficiency": "medium"},
+        {"skill": "grilling", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "grilled meat and vegetables from the garden — resistant to anything 'fancy'", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers doing things together over talking about things — action over discussion", "confidence": "High", "implicit": true},
+          {"value": "uncomfortable with long video calls, prefers short check-ins or visits", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "values quiet one-on-one time with each kid over large family gatherings", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "reluctant to see doctors despite knee issues — prefers to manage pain himself", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "video_call_comfort",
+          "old_value": "refuses to do video calls — 'phones are for talking'",
+          "new_value": "tolerates and occasionally initiates video calls after Jess's kids drew him a picture they wanted to show him live",
+          "changed_at_session": 5,
+          "trigger": "Jess's daughter held up a drawing for him on a call and he couldn't see it properly — bought a tablet the next week"
+        }
+      ],
+      "speaking_quirks": [
+        "sends single-word or single-sentence replies",
+        "never uses punctuation except a period at the end",
+        "occasionally sends a photo of the garden or workshop with zero caption"
+      ],
+      "participation_rate": 0.75,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0030003",
+      "display_name": "Jess",
+      "age": 38,
+      "gender": "female",
+      "occupation": "Elementary school teacher (3rd grade)",
+      "background": "Eldest Harrington child. Has lived in Portland, Oregon for 12 years after meeting Luis there. Teaches third grade and is deeply invested in educational equity — she mentors student teachers on weekends. Mother of two kids (ages 6 and 9). Carries the invisible load of being the eldest and most visible child while also being the most geographically distant from her parents. Has a complicated but loving relationship with Carol — they are alike in ways neither fully recognises.",
+      "skills_list": [
+        {"skill": "early childhood education", "proficiency": "strong"},
+        {"skill": "baking (especially bread)", "proficiency": "medium"},
+        {"skill": "amateur photography", "proficiency": "medium"},
+        {"skill": "family mediation", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "sourdough bread baking — brings a loaf to every family visit", "confidence": "High", "implicit": true},
+          {"value": "prefers farm-to-table and local sourcing over chain restaurants", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "hiking with Luis and the kids on weekends — mentions trail conditions like weather updates", "confidence": "High", "implicit": true},
+          {"value": "family visits where the kids have separate activities so adults can actually talk", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "exhausted by large gatherings without structure — prefers smaller subgroups", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "strongly believes in screen-time limits for kids — makes offhand comments when others give her kids tablets", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "hiking_intensity",
+          "old_value": "casual flat trails only — knees and busy schedule",
+          "new_value": "started doing moderate elevation hikes after Luis got her trail running shoes for her birthday",
+          "changed_at_session": 4,
+          "trigger": "Luis surprised her with trail running shoes and a reservation for a scenic mountain hike — she posted photos in the group"
+        }
+      ],
+      "speaking_quirks": [
+        "uses teacher voice syntax — 'What I'm hearing is...' or 'Let's think about this differently'",
+        "sends photos of her kids' artwork or baking results with a short caption",
+        "types in full sentences with correct punctuation, occasional em-dash"
+      ],
+      "participation_rate": 0.9,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0040004",
+      "display_name": "Luis",
+      "age": 40,
+      "gender": "male",
+      "occupation": "Restaurant manager",
+      "background": "Jess's husband, the most enthusiastic in-law in the Harrington family chat. Grew up in a large Mexican-American family in San Diego — he's used to chaotic family group chats and genuinely enjoys the Harringtons. Runs the front-of-house at a busy Portland bistro. Known for his food opinions, his habit of sending recipes nobody asked for, and his ability to defuse tension with a joke. Has a warm but occasionally oblivious quality — sometimes doesn't notice when Carol is fishing for a compliment.",
+      "skills_list": [
+        {"skill": "cooking (Mexican and fusion cuisine)", "proficiency": "strong"},
+        {"skill": "wine and spirits pairing", "proficiency": "strong"},
+        {"skill": "soccer (recreational leagues)", "proficiency": "medium"},
+        {"skill": "home brewing", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "authentic regional Mexican food — loudly opinionated about Tex-Mex being 'not the same'", "confidence": "High", "implicit": true},
+          {"value": "always brings wine to family gatherings and is offended if it isn't opened", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "watches La Liga on weekend mornings — will skip family calls if Real Madrid is playing", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers inclusive gatherings where extended family is welcome over nuclear-only events", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "home brewing beer as a hobby — always at a 'just about ready' stage that never quite arrives", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "family_visit_frequency",
+          "old_value": "fine with annual Columbus visits — Portland is far, flights are expensive",
+          "new_value": "pushing for twice-yearly visits after Jess's parents start asking about grandkids more directly",
+          "changed_at_session": 6,
+          "trigger": "Carol's comment about not recognising the grandkids' voices hit him harder than he expected"
+        }
+      ],
+      "speaking_quirks": [
+        "peppers messages with food metaphors ('that's a lot to digest', 'we'll figure it out — low and slow')",
+        "uses exclamation points liberally",
+        "sends unsolicited recipe links at tangentially related moments"
+      ],
+      "participation_rate": 0.8,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0050005",
+      "display_name": "Rob",
+      "age": 35,
+      "gender": "male",
+      "occupation": "Project manager at a logistics firm",
+      "background": "Second Harrington child. Lives in Cleveland, an hour from his parents. Works in supply chain logistics and approaches most things — including family drama — as a project with dependencies and blockers. Pragmatic, slightly impatient with ambiguity, but reliably shows up when it counts. Married to Priya; they are expecting their first child. Has a mild rivalry with Dana that neither would acknowledge under oath.",
+      "skills_list": [
+        {"skill": "project coordination", "proficiency": "strong"},
+        {"skill": "fantasy football (serious)", "proficiency": "strong"},
+        {"skill": "home improvement / DIY", "proficiency": "medium"},
+        {"skill": "cycling", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "meal prepping on Sundays — views cooking as logistics, not creativity", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "cycling on the towpath trails near Cleveland — does not hike", "confidence": "High", "implicit": true},
+          {"value": "fantasy football is a near-religious Sunday commitment September through February", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers firm plans with clear timing over open-ended invitations", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "quietly competitive with Dennis about the vegetable garden — started his own raised beds", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "family_gathering_stance",
+          "old_value": "resists multi-day family stays — too much chaos, prefers day visits",
+          "new_value": "more open to longer stays after Priya's pregnancy — starts to see value in being closer to family support",
+          "changed_at_session": 7,
+          "trigger": "Priya's difficult first trimester made him realise how isolated they'd be without family nearby"
+        }
+      ],
+      "speaking_quirks": [
+        "uses bullet points or numbered lists even in casual messages",
+        "replies to a question with a follow-up question before answering",
+        "signs messages with 'R' when they're in a hurry"
+      ],
+      "participation_rate": 0.85,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0060006",
+      "display_name": "Priya",
+      "age": 30,
+      "gender": "female",
+      "occupation": "Data analyst at a healthcare startup",
+      "background": "Rob's wife. Indian-American, grew up in New Jersey in a large extended family — she's used to chaotic family dynamics and finds the Harrington drama mild by comparison. Smart, data-driven, and occasionally visibly amused by how the family operates. Currently in her second trimester. Has a quietly warm relationship with Carol and a more careful one with Dennis, who she finds hard to read. Genuinely likes the family and is making an effort to integrate, which they mostly appreciate.",
+      "skills_list": [
+        {"skill": "data visualisation", "proficiency": "strong"},
+        {"skill": "Indian cooking (her mother's recipes)", "proficiency": "medium"},
+        {"skill": "yoga and prenatal fitness", "proficiency": "medium"},
+        {"skill": "knitting (recent quarantine hobby)", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "craves Indian food — will mention it unprompted if the family picks a restaurant", "confidence": "High", "implicit": true},
+          {"value": "avoids alcohol and most caffeine during pregnancy — notes it quietly without making it a thing", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prenatal yoga three mornings a week — organises her schedule around it", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "slightly drained by very large Harrington gatherings — finds an excuse to take a walk",  "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "reads parenting research obsessively but rarely shares it unless asked — conscious of being the in-law", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "family_chat_engagement",
+          "old_value": "mostly lurks in the family chat — reacts with emojis, rarely initiates",
+          "new_value": "more active after sharing the pregnancy news — feels more like an insider now",
+          "changed_at_session": 2,
+          "trigger": "Rob announced the pregnancy in the chat; the warmth of the family response surprised her"
+        }
+      ],
+      "speaking_quirks": [
+        "uses parenthetical qualifiers frequently — '(though of course your call)' or '(just a thought)'",
+        "often cites a stat or article title when making a practical point",
+        "closes messages with a smiley face emoji when she wants to soften something"
+      ],
+      "participation_rate": 0.8,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0070007",
+      "display_name": "Dana",
+      "age": 32,
+      "gender": "female",
+      "occupation": "Freelance graphic designer",
+      "background": "Third Harrington child. Lives in Columbus, ten minutes from her parents, which is simultaneously convenient and suffocating. Works freelance from home on brand design and packaging. Creative, perceptive, and the most likely to notice when something is off in the family dynamic — and to mention it, which makes her simultaneously the most honest and most disruptive voice in the chat. Single after a long-term relationship ended 18 months ago. Has a subtle rivalry with Rob and a genuine closeness with Marcus.",
+      "skills_list": [
+        {"skill": "graphic design and branding", "proficiency": "strong"},
+        {"skill": "oil painting", "proficiency": "medium"},
+        {"skill": "urban cycling", "proficiency": "medium"},
+        {"skill": "film photography", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {"value": "small independent restaurants over chains — will send Yelp links unprompted", "confidence": "High", "implicit": true},
+          {"value": "increasingly plant-forward diet but not vocal about it — just quietly orders vegetarian", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "film photography walks on Saturdays — treats it as solo decompression time", "confidence": "High", "implicit": true},
+          {"value": "allergic to family events that have mandatory fun built in — hates organised games", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers one-on-one conversations over group dynamics — finds the chat performative sometimes", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "territorial about her apartment and workspace — does not enjoy pop-in visits from Carol", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "proximity_to_parents",
+          "old_value": "sees her proximity to parents as a temporary situation — planning to move to a larger city",
+          "new_value": "reconsidering relocation after a major client in Columbus extends her contract and she realises she does want to be nearby when her parents age",
+          "changed_at_session": 6,
+          "trigger": "Dennis's knee started giving him trouble again; Carol mentioned it offhand in the chat and Dana felt more anxious than she expected"
+        }
+      ],
+      "speaking_quirks": [
+        "uses lowercase even for proper nouns in casual messages",
+        "adds '...' at the end of observations that are clearly a criticism but not stated as one",
+        "shares things as links or images rather than explaining them in words"
+      ],
+      "participation_rate": 0.8,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0080008",
+      "display_name": "Marcus",
+      "age": 29,
+      "gender": "male",
+      "occupation": "Urban planning PhD student",
+      "background": "Youngest Harrington child. Currently in his third year of a PhD in urban planning at Ohio State — lives in Columbus. The most academically inclined of the kids, which makes him a target for gentle ribbing from Rob. Close to Dana and occasionally the family diplomat when things get tense. Uses the group chat more as an observer than a participant but sends occasional longer messages that make everyone briefly feel like they're in a seminar. Has a habit of forwarding articles about housing policy.",
+      "skills_list": [
+        {"skill": "urban design and policy research", "proficiency": "strong"},
+        {"skill": "cycling (commuter, not sport)", "proficiency": "medium"},
+        {"skill": "cooking (experimental, unreliable)", "proficiency": "low"},
+        {"skill": "board games and tabletop RPGs", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "enthusiastic food experimentalist at home — his kitchen is chaotic and results vary", "confidence": "Medium", "implicit": true},
+          {"value": "vegetarian since college — never makes it anyone else's problem but notices when it's ignored", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "board game nights with friends over bars or clubs — will organise a family game night if given the chance", "confidence": "High", "implicit": true},
+          {"value": "bikes everywhere in Columbus — will explain bike lane policy to anyone who will listen", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "uncomfortable with family conflict but will write a long message instead of saying nothing", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "housing affordability obsession bleeds into conversations about real estate, Bev's listings, even Carol's renovation plans", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "family_event_participation",
+          "old_value": "attends family events but stays on the periphery — checks phone, leaves early",
+          "new_value": "more engaged after becoming the unofficial family game-night organiser, finds a role he enjoys",
+          "changed_at_session": 4,
+          "trigger": "Carol bought a complicated board game at Christmas and nobody could figure it out — Marcus took over and everyone had fun"
+        }
+      ],
+      "speaking_quirks": [
+        "forwards articles with one-line commentary like 'relevant context' or 'not surprised tbh'",
+        "structures longer messages with natural paragraph breaks and occasional headers",
+        "uses 'actually' and 'to be fair' as verbal tics"
+      ],
+      "participation_rate": 0.75,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0090009",
+      "display_name": "Bev",
+      "age": 56,
+      "gender": "female",
+      "occupation": "Real estate agent",
+      "background": "Carol's older sister. Has lived in Columbus her whole life — was divorced 14 years ago and has been fiercely independent ever since. Dotes on the Harrington kids like a second mother but is careful not to overstep. Works long hours in a competitive real estate market. Has a blunt charm and a habit of turning everything into a comparative market analysis. Her relationship with Dennis is warm but occasionally friction-laden — she has strong opinions about the house they should have sold five years ago.",
+      "skills_list": [
+        {"skill": "real estate negotiation", "proficiency": "strong"},
+        {"skill": "home staging and renovation eye", "proficiency": "strong"},
+        {"skill": "gardening (flower beds, cutting garden)", "proficiency": "medium"},
+        {"skill": "wine tasting", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "good wine above all else — brings a bottle to every occasion and judges hosts who serve box wine", "confidence": "High", "implicit": true},
+          {"value": "prefers restaurant meals to home cooking when visiting — 'let's go out, Carol, you've done enough'", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "power walking early mornings before work — treats it as meditation", "confidence": "High", "implicit": true},
+          {"value": "enjoys home renovation show marathons — gives unsolicited but often correct advice", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "respects autonomy strongly — never tells people what to do, but will tell them what she observes", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "has strong opinions about Dennis and Carol's house — thinks they should downsize before they have to", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "involvement_in_family_decisions",
+          "old_value": "stays deliberately on the periphery of Harrington family decisions — 'not my family, not my call'",
+          "new_value": "starts weighing in more actively on practical matters (house, retirement planning) after Carol asks for her professional opinion",
+          "changed_at_session": 5,
+          "trigger": "Carol asked Bev to value the house 'just out of curiosity' — Bev treated it as a real consultation and the family took her input seriously"
+        }
+      ],
+      "speaking_quirks": [
+        "gives opinions as facts without preface — 'That house is overpriced. End of.'",
+        "uses real estate shorthand casually — 'great bones', 'priced to move', 'market correction'",
+        "ends warm messages with a brief 'love you all' before pivoting to the practical"
+      ],
+      "participation_rate": 0.75,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_a0100010",
+      "display_name": "Tyler",
+      "age": 22,
+      "gender": "male",
+      "occupation": "College senior (studying kinesiology)",
+      "background": "Dennis's nephew — son of Dennis's younger brother Gary. Grew up without much extended family involvement and the Harringtons adopted him into their orbit when he started college at Ohio State and needed somewhere to do laundry. Is in the family chat somewhat by Carol's invitation — she insisted after he spent Thanksgiving with them two years running. Adores Dennis and Rob, is slightly intimidated by Dana, and treats Marcus like an older brother. A little loud online but earnest.",
+      "skills_list": [
+        {"skill": "weight training and sports conditioning", "proficiency": "strong"},
+        {"skill": "pickup basketball", "proficiency": "strong"},
+        {"skill": "video games (competitive FPS)", "proficiency": "medium"},
+        {"skill": "car maintenance (taught by Dennis)", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "high-protein diet — will mention macros at dinner if not stopped", "confidence": "High", "implicit": true},
+          {"value": "enormous appetite — always asks if there are leftovers before a gathering is over", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "weight training six days a week — gym schedule is non-negotiable", "confidence": "High", "implicit": true},
+          {"value": "pickup basketball on campus Friday evenings — misses family events that clash with it and feels guilty", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "more comfortable in the Harrington family chat than his own family's silence — treats it as home base", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "anxious about post-graduation life — deflects with jokes but asks Marcus oblique questions about grad school", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "post_graduation_plans",
+          "old_value": "wants to go pro in fitness coaching immediately after graduation — no grad school",
+          "new_value": "considering a graduate certificate in sports science after Marcus explains what a credential gets you — still ambivalent",
+          "changed_at_session": 7,
+          "trigger": "Marcus shared a job market article about kinesiology and Tyler actually read it instead of scrolling past"
+        }
+      ],
+      "speaking_quirks": [
+        "uses abbreviations and slang — 'lmaooo', 'no cap', 'bro' regardless of audience",
+        "double-texts if nobody responds within ten minutes",
+        "sends voice notes instead of typing when explaining something longer than two sentences"
+      ],
+      "participation_rate": 0.7,
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_a0010001",
+      "persona_b_id": "p_a0020002",
+      "relationship_type": "married couple",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 40 years. Carol is the emotional engine of the family; Dennis is the load-bearing wall. Their dynamic is genuinely warm but Carol sometimes wishes he was more expressive, and Dennis finds her need for constant affirmation exhausting in private.",
+      "shared_events": ["raising four kids in Columbus", "Dennis's knee surgery and recovery", "empty nest adjustment", "planning grandkids' visits"]
+    },
+    {
+      "persona_a_id": "p_a0010001",
+      "persona_b_id": "p_a0030003",
+      "relationship_type": "mother–eldest daughter",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Carol and Jess love each other deeply and irritate each other equally. Carol interprets Jess's Portland distance as rejection; Jess experiences Carol's warmth as pressure. They are learning to navigate this in real time.",
+      "shared_events": ["Jess's wedding in Portland", "birth of Jess's children", "Carol visiting Portland and redecorating one room without asking"]
+    },
+    {
+      "persona_a_id": "p_a0010001",
+      "persona_b_id": "p_a0050005",
+      "relationship_type": "mother–son",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Rob is Carol's easiest child to understand — he makes plans, follows through, lives nearby. She is effusive with praise for him in the chat, which Dana notices.",
+      "shared_events": ["Rob and Priya's wedding", "Rob's promotion announcement", "pregnancy news in the chat"]
+    },
+    {
+      "persona_a_id": "p_a0010001",
+      "persona_b_id": "p_a0070007",
+      "relationship_type": "mother–daughter",
+      "closeness": "Medium",
+      "sentiment": "tense",
+      "history_summary": "Carol and Dana's relationship is the most fraught in the family. Carol feels Dana is secretive and prickly; Dana feels Carol doesn't respect her space. They are better at ten minutes' notice than extended time together.",
+      "shared_events": ["Dana's breakup (Carol found out via Jess)", "Carol's unannounced visit to Dana's apartment", "Dana redesigning Carol's watercolor class flyers"]
+    },
+    {
+      "persona_a_id": "p_a0010001",
+      "persona_b_id": "p_a0080008",
+      "relationship_type": "mother–youngest son",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus is Carol's favourite in the way she'd never admit. He lives nearby, checks in regularly, and doesn't push back the way Dana does. She forwards his PhD news to neighbours who don't know what urban planning is.",
+      "shared_events": ["Marcus's PhD acceptance", "Marcus fixing Carol's printer three times", "Marcus teaching Carol to use Google Maps"]
+    },
+    {
+      "persona_a_id": "p_a0010001",
+      "persona_b_id": "p_a0090009",
+      "relationship_type": "sisters (Carol's older sister)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Carol and Bev are close in the way sisters become after surviving each other's difficult years. Bev's divorce was hard; Carol was her anchor. Now Bev is Carol's most trusted advisor on practical matters.",
+      "shared_events": ["Bev's divorce", "Bev convincing Carol to retire", "Bev's informal house valuation visit"]
+    },
+    {
+      "persona_a_id": "p_a0020002",
+      "persona_b_id": "p_a0030003",
+      "relationship_type": "father–eldest daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Dennis and Jess have the quiet ease that comes from being alike. They don't over-communicate but when Jess calls him directly, they talk for an hour. He was prouder of her teaching career than he admitted in the group chat.",
+      "shared_events": ["Dennis teaching Jess to drive", "Jess being the first to call when Dennis had his knee surgery", "Dennis's FaceTime attempt that Jess patiently coached"]
+    },
+    {
+      "persona_a_id": "p_a0020002",
+      "persona_b_id": "p_a0050005",
+      "relationship_type": "father–son",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Dennis and Rob understand each other in the practical, taciturn way of men who express care through doing. Rob helps with house projects; Dennis gives Rob tools for his raised beds. The vegetable garden competition is affectionate.",
+      "shared_events": ["building Rob's deck", "Dennis's truck repair that Rob helped with", "first tomato harvest comparison"]
+    },
+    {
+      "persona_a_id": "p_a0020002",
+      "persona_b_id": "p_a0070007",
+      "relationship_type": "father–daughter",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Dennis and Dana don't have much language for each other but there is steady underlying warmth. He respects her independence more than Carol does, which Dana knows. He occasionally texts her a photo of something he fixed with a look she designed in it.",
+      "shared_events": ["Dana designing the logo for Dennis's side project (never launched)", "Dennis's quiet endorsement when Dana quit her agency job to freelance"]
+    },
+    {
+      "persona_a_id": "p_a0020002",
+      "persona_b_id": "p_a0080008",
+      "relationship_type": "father–youngest son",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Dennis and Marcus have a warm but occasionally strained relationship — Dennis doesn't entirely understand what a PhD in urban planning is for and makes jokes about it. Marcus finds this tiring but loves his father and keeps trying to explain.",
+      "shared_events": ["Marcus explaining bike lane policy to Dennis for 45 minutes", "Dennis asking Marcus to help write a complaint letter to the city", "joint vegetable garden planning that Marcus turned into a spreadsheet"]
+    },
+    {
+      "persona_a_id": "p_a0020002",
+      "persona_b_id": "p_a0100010",
+      "relationship_type": "uncle–nephew",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Dennis treats Tyler like a fifth kid and Tyler adores him for it. They bond over cars, tools, and not talking about feelings. Dennis taught Tyler basic car maintenance and considers this a genuine life gift.",
+      "shared_events": ["Dennis teaching Tyler to change his oil", "Tyler helping Dennis move lumber for a workshop project", "annual Thanksgiving football watch on Dennis's couch"]
+    },
+    {
+      "persona_a_id": "p_a0030003",
+      "persona_b_id": "p_a0040004",
+      "relationship_type": "married couple",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Jess and Luis are a solid partnership with complementary energies — her groundedness and his warmth. Their public chat dynamic is playfully bickering over food opinions and hiking logistics.",
+      "shared_events": ["hiking the Columbia River Gorge", "Luis's restaurant opening", "Jess's sabbatical year when they travelled with the kids"]
+    },
+    {
+      "persona_a_id": "p_a0030003",
+      "persona_b_id": "p_a0070007",
+      "relationship_type": "siblings (eldest–third)",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Jess and Dana are close but operate in different registers — Jess is nurturing and Dana is direct. Dana tells Jess things she won't tell Carol; Jess tells Dana things she won't tell Rob. The distance keeps it clean.",
+      "shared_events": ["Dana visiting Portland for a week after her breakup", "Jess and Dana's annual 'sisters' phone call tradition (no kids, no husbands)", "Jess mailing Dana sourdough starter"]
+    },
+    {
+      "persona_a_id": "p_a0050005",
+      "persona_b_id": "p_a0060006",
+      "relationship_type": "married couple",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Rob and Priya are functionally very well-matched — both precise, both planners. The pregnancy has shifted their dynamic toward more openness with the family than Rob would have chosen independently.",
+      "shared_events": ["Priya joining the family chat", "pregnancy announcement", "Priya's family meeting the Harringtons at Thanksgiving"]
+    },
+    {
+      "persona_a_id": "p_a0050005",
+      "persona_b_id": "p_a0070007",
+      "relationship_type": "siblings (second–third)",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Rob and Dana have a low-grade rivalry that neither fully acknowledges. Rob finds Dana's freelance life precarious and says so in practical terms. Dana finds Rob's career-as-identity worldview limiting and says so in oblique terms. They are civil and occasionally genuinely kind to each other.",
+      "shared_events": ["the Christmas 2021 argument about the house extension (Rob was for it, Dana was against it)", "Rob helping Dana with a tax question without being asked", "Dana designing Rob and Priya's wedding program"]
+    },
+    {
+      "persona_a_id": "p_a0070007",
+      "persona_b_id": "p_a0080008",
+      "relationship_type": "siblings (third–fourth)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Dana and Marcus are the closest sibling pair in the family. They are both Columbus-based, both slightly alternative in the family's context, and both more comfortable talking to each other than making announcements in the group chat.",
+      "shared_events": ["weekly coffee at a Columbus spot that only they know about", "Dana attending Marcus's first PhD seminar talk", "Marcus talking Dana through the breakup night"]
+    },
+    {
+      "persona_a_id": "p_a0080008",
+      "persona_b_id": "p_a0100010",
+      "relationship_type": "de facto older sibling figure",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Tyler are at the same university, which Carol engineered by suggesting Tyler look at Ohio State. They're not close friends but there's a genuine older-brother dynamic — Marcus gives Tyler career advice; Tyler drags Marcus to the gym occasionally.",
+      "shared_events": ["Tyler's first week at OSU when Marcus showed him around", "Tyler attending one of Marcus's public lectures on a dare", "sharing a Lyft home from a family gathering"]
+    },
+    {
+      "persona_a_id": "p_a0090009",
+      "persona_b_id": "p_a0020002",
+      "relationship_type": "sister-in-law",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Bev and Dennis have a politely warm but occasionally friction-laden relationship. Bev has opinions about the house, the finances, and Dennis's stubbornness about his knee that she expresses in measured doses. Dennis thinks she talks too much and tells Carol this.",
+      "shared_events": ["Bev's informal house valuation that Dennis resisted", "Bev and Dennis's annual disagreement at Thanksgiving about the thermostat", "Bev helping when Dennis was in hospital for his knee"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Sunday evening is family chat time — everyone checks in at least once over the weekend",
+      "truly_universal": false,
+      "dissenters": ["p_a0040004", "p_a0100010"]
+    },
+    {
+      "norm_text": "Big news (jobs, health, relationships) gets announced in the family chat before spreading to extended family",
+      "truly_universal": false,
+      "dissenters": ["p_a0070007"]
+    },
+    {
+      "norm_text": "Christmas is always at Carol and Dennis's house in Columbus — travel is the kids' problem to solve",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Family gatherings mean home-cooked food — nobody orders in or brings something store-bought",
+      "truly_universal": false,
+      "dissenters": ["p_a0090009", "p_a0040004"]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

@@ -1,34 +1,35 @@
 {
   "network_id": "grp_6f7a8b9c",
   "condition": "cognee",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:56:19.219746+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:48:39.677687+00:00",
   "sessions_used": 5,
   "total_pairs": 7,
-  "new_pairs_this_run": 2,
-  "mean_score": 0.414,
+  "new_pairs_this_run": 7,
+  "mean_score": 0.143,
+  "mean_context_words": 43.4,
   "by_query_type": {
     "Q1": {
       "count": 1,
       "mean_score": 0.0
     },
-    "Q8": {
-      "count": 2,
-      "mean_score": 0.5
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.5
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.4
-    },
     "Q4": {
       "count": 1,
       "mean_score": 1.0
     },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
     "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
       "count": 1,
       "mean_score": 0.0
     }
@@ -37,18 +38,38 @@
     {
       "qa_id": "Q1_cf6s1c1",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Sasha's preference as 'collaborative group plans over solitary activities,' which is not what the gold answer states. The gold answer correctly identifies her preference for cheap, low-key plans over expensive ones."
     },
     {
-      "qa_id": "Q7_cf6s5c1",
-      "query_type": "Q7",
-      "score": 0.4
+      "qa_id": "Q8_cf6s2c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dev's withdrawal to 'feeling overwhelmed by the conversation's intensity and the group's dynamics' instead of his PhD, and provides a vague signal of shift rather than a specific conversational moment."
+    },
+    {
+      "qa_id": "Q8_cf6s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides only vague, generic statements about the driver and turning point, failing to identify the specific trigger (Abi's cancellations) or the specific session (Session 3) as detailed in the gold answer."
+    },
+    {
+      "qa_id": "Q5_cf6s3c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer is too vague about Dev's situation and fails to identify a specific observable action in the chat that proves Kwame's prior knowledge, instead suggesting 'probing questions' which implies seeking knowledge rather than demonstrating it."
     },
     {
       "qa_id": "Q6_cf6s4c1",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_cf6s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides generic positive descriptors (mutual respect, open communication, teamwork) but completely misses the specific, observable details and unique nature of their bond (deeper, protective, private, bilateral channel, specific instances like Edinburgh trip, covering absences) that the conversation reveals and the gold answer details."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

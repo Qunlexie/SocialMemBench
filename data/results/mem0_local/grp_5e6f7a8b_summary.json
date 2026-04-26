@@ -1,24 +1,37 @@
 {
   "network_id": "grp_5e6f7a8b",
   "condition": "mem0_local",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:29:53.292300+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:20:33.354187+00:00",
   "sessions_used": 5,
   "total_pairs": 8,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.312,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.25,
+  "mean_context_words": 78.0,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.5
+      "mean_score": 0.0
     },
     "Q3": {
       "count": 1,
       "mean_score": 0.0
     },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
     "Q8": {
       "count": 1,
       "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q5": {
       "count": 1,
@@ -27,46 +40,44 @@
     "Q7": {
       "count": 1,
       "mean_score": 0.0
-    },
-    "Q4": {
-      "count": 1,
-      "mean_score": 1.0
-    },
-    "Q6": {
-      "count": 1,
-      "mean_score": 1.0
-    },
-    "Q2": {
-      "count": 1,
-      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
+      "qa_id": "Q1_a5s1c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION', which, according to the critical rules, always scores 0.0."
+    },
+    {
       "qa_id": "Q3_a5s2c1",
       "query_type": "Q3",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer 'UNCLEAR' indicates a complete lack of information, which scores 0.0 according to the critical rules."
     },
     {
       "qa_id": "Q8_a5s3c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION', which, according to Critical Rule 3, always scores 0.0."
+    },
+    {
+      "qa_id": "Q6_a5s3c2",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q5_a5s4c2",
       "query_type": "Q5",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Claudette's preference as bringing a Victoria sponge, which is factually wrong; the correct preference was for a residents-only party."
     },
     {
       "qa_id": "Q7_a5s5c1",
       "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q2_a5s4c1",
-      "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer misses almost all the specific details and depth of the relationship described in the gold answer, and incorrectly claims there are 'no specific details about their personal relationship history or interactions beyond this event,' which directly contradicts the gold answer's content."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

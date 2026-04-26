@@ -1,26 +1,15 @@
 {
   "network_id": "grp_1a2b3c4d",
   "condition": "graphiti",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:34:52.588613+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:39:47.164039+00:00",
   "sessions_used": 5,
   "total_pairs": 12,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.167,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.025,
+  "mean_context_words": 103.2,
   "by_query_type": {
     "Q1": {
-      "count": 3,
-      "mean_score": 0.0
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q7": {
-      "count": 2,
-      "mean_score": 0.0
-    },
-    "Q8": {
       "count": 3,
       "mean_score": 0.0
     },
@@ -30,64 +19,97 @@
     },
     "Q4": {
       "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
     },
     "Q6": {
       "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.1
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_a1b2c3d4",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core fact about Maya's strong aversion to cilantro, which is the primary food preference discussed in the gold answer. Instead, it provides an unrelated preference for a 'quieter noodle place.'"
     },
     {
       "qa_id": "Q1_b2c3d4e5",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core fact from the gold answer, which is Sam's aversion to mushrooms. It only states a preference for chicken ramen and includes irrelevant information about eagerness for dinner."
     },
     {
       "qa_id": "Q1_c3d4e5f6",
       "query_type": "Q1",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_e5f6a7b8",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_f6a7b8c9",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_a7b8c9d0",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_b8c9d0e1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_c9d0e1f2",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_d0e1f2a3",
-      "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "judge failed"
     },
     {
       "qa_id": "Q2_e1f2a3b4",
       "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d4e5f6a7",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_f2a3b4c5",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6a7b8c9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_a7b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b8c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a shift in Maya's drinking preferences but misrepresents the specific details (mocktails instead of sparkling water) and, more critically, incorrectly concludes it's 'unclear if this change is recent or part of a longer trend,' directly contradicting the gold answer's point about Priya's question indicating a known, ongoing change."
+    },
+    {
+      "qa_id": "Q8_d0e1f2a3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules, regardless of the actual information available in the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,0 +1,524 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "group_name": "The Regulars",
+  "group_type": "close_friends",
+  "group_size": 6,
+  "seed": 21,
+  "personas": [
+    {
+      "persona_id": "p_za01b2c3",
+      "display_name": "Zara",
+      "age": 32,
+      "gender": "female",
+      "occupation": "Freelance graphic designer",
+      "background": "Grew up in Manchester, moved to London at 22 to study design. Met Dom and Marcus through the local scene. Has always been socially oriented and the group's unofficial event planner.",
+      "skills_list": [
+        {"skill": "illustration and branding", "proficiency": "strong"},
+        {"skill": "vegetarian and vegan cooking", "proficiency": "medium"},
+        {"skill": "yoga", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "avoids meat and fish entirely", "confidence": "High", "implicit": true},
+          {"value": "loves spicy food", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers morning yoga to gym sessions", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "loves hosting and being the one who organises things", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "animated by ethical consumption and sustainability", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "dietary_identity",
+          "old_value": "vegetarian",
+          "new_value": "vegan",
+          "changed_at_session": 5,
+          "trigger": "Watched a documentary about dairy farming, prompted by a conversation with Marcus about sourcing"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'literally' as emphasis frequently",
+        "strings multiple emoji together at end of message",
+        "starts messages with 'okay so' when sharing news"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_do02c3d4",
+      "display_name": "Dom",
+      "age": 35,
+      "gender": "male",
+      "occupation": "Secondary school PE teacher",
+      "background": "From Liverpool, came to London for uni, stayed. Has been with Kezia for two years. The group's go-to for anything sport or fitness related.",
+      "skills_list": [
+        {"skill": "football coaching and tactics", "proficiency": "strong"},
+        {"skill": "fitness programming", "proficiency": "strong"},
+        {"skill": "barbecue cooking", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "high-protein meals, heavy on meat", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers high-intensity training over low-impact exercise", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers active social plans over sitting around", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "exercise_intensity",
+          "old_value": "high-intensity training (heavy lifting, interval sessions)",
+          "new_value": "low-impact exercise (yoga, swimming, walking)",
+          "changed_at_session": 4,
+          "trigger": "Knee injury sustained during a five-a-side game in session 3, forced to cut out impact sports"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'tbh' often at end of statements",
+        "makes sports analogies to explain everyday situations",
+        "drops subject pronoun at start of sentence ('Saw that coming', 'Need to sort this')"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_pr03d4e5",
+      "display_name": "Priya",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Backend software engineer",
+      "background": "Born in Leicester, moved to London after graduating. Met Felix at secondary school, reconnected in London years later. Introverted but fiercely loyal. Values one-on-one time over group settings.",
+      "skills_list": [
+        {"skill": "software architecture and systems design", "proficiency": "strong"},
+        {"skill": "rock climbing", "proficiency": "medium"},
+        {"skill": "chess", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "no strong restrictions but dislikes overly rich or heavy food", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers solo or paired activities over group ones", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "uncomfortable in large or loud group settings, prefers small gatherings of four or fewer", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_event_comfort",
+          "old_value": "avoids large group events, usually makes excuses",
+          "new_value": "willing to attend and occasionally enjoys larger group outings",
+          "changed_at_session": 6,
+          "trigger": "Had a genuinely good time at Marcus's birthday dinner in session 5, which she had nearly skipped"
+        }
+      ],
+      "speaking_quirks": [
+        "uses precise, slightly formal vocabulary even in casual conversation",
+        "responds with single sentences that end in full stops",
+        "rarely volunteers information unless asked directly"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_ma04e5f6",
+      "display_name": "Marcus",
+      "age": 34,
+      "gender": "male",
+      "occupation": "Head chef and co-owner of a neighbourhood restaurant",
+      "background": "Grew up in South London. Has been running his restaurant for four years. Has known Zara since they were teenagers in the same area. Loves talking about food, cooking, and culture.",
+      "skills_list": [
+        {"skill": "professional cooking and menu development", "proficiency": "strong"},
+        {"skill": "wine and natural wine knowledge", "proficiency": "strong"},
+        {"skill": "storytelling and entertaining people", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "obsessed with seasonal, locally sourced ingredients", "confidence": "High", "implicit": true},
+          {"value": "prefers natural wine over conventional", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "cooking for others as primary social activity", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "loves hosting big meals and events", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "experimentally inclined in cooking, enjoys challenging techniques and unusual pairings", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "cooking_philosophy",
+          "old_value": "experimental and technically ambitious cuisine, complex multi-course tasting menus",
+          "new_value": "comfort-focused, simpler dishes that people actually want to eat every week",
+          "changed_at_session": 5,
+          "trigger": "A harsh critic review plus mounting exhaustion from the relentless creativity demands pushed him to simplify"
+        }
+      ],
+      "speaking_quirks": [
+        "uses food and cooking metaphors to describe non-food situations",
+        "often starts stories with 'honestly, the thing is...'",
+        "gives detailed sensory descriptions when talking about meals or experiences"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_ke05f6a7",
+      "display_name": "Kezia",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Social worker, children and families team",
+      "background": "Originally from Bristol, came to London seven years ago. Started dating Dom two years ago. Deeply empathetic and good at reading group dynamics. Joined the friend group through Dom.",
+      "skills_list": [
+        {"skill": "emotional support and active listening", "proficiency": "strong"},
+        {"skill": "community event organising", "proficiency": "medium"},
+        {"skill": "salsa dancing", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "loves spicy Caribbean food", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers in-person socialising to anything virtual", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "strongly values being physically present with people she cares about", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "remote_social_interaction",
+          "old_value": "resistant to video calls as a substitute for seeing people in person",
+          "new_value": "accepts and actively initiates video calls with the group",
+          "changed_at_session": 6,
+          "trigger": "Moved to Bristol to be closer to family in session 6, making in-person meetups impossible for now"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'bless' as a reaction to both good and bad news",
+        "often asks follow-up questions showing she was paying attention",
+        "signs off messages with a warm affirmation or check-in"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_fe06a7b8",
+      "display_name": "Felix",
+      "age": 36,
+      "gender": "male",
+      "occupation": "Freelance investigative journalist",
+      "background": "Grew up in Leicester with Priya, both moved to London independently and reconnected through mutual friends. Analytical, occasionally aloof. Went through a breakup at the start of the year, which the group has been gently supportive about.",
+      "skills_list": [
+        {"skill": "investigative research and writing", "proficiency": "strong"},
+        {"skill": "pub quiz knowledge across politics, culture, and history", "proficiency": "strong"},
+        {"skill": "political and cultural analysis", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {"value": "classic European food, skeptical of food trends", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers individual activities (reading, running alone, climbing) over team sports", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "small group settings only, finds large social events draining", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "skeptical of food fads and wellness culture", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "team_sport_participation",
+          "old_value": "avoids team sports entirely, finds them pointless for adults",
+          "new_value": "joins Sunday five-a-side with Dom's group",
+          "changed_at_session": 7,
+          "trigger": "Neighbour persuaded him to come along once; after his breakup he found the social outlet more useful than he expected"
+        }
+      ],
+      "speaking_quirks": [
+        "ends statements with rhetorical questions ('Is it not?', 'Wasn't it?')",
+        "uses formal constructions ('I would suggest', 'One assumes') even in casual chat",
+        "never uses contractions when making a serious point"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_za01b2c3",
+      "persona_b_id": "p_do02c3d4",
+      "relationship_type": "close friends since university",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Met in freshers week in London, have been close ever since. Zara is the only one who can get Dom to talk about feelings.",
+      "shared_events": ["multiple holidays together", "attended each other's family events"]
+    },
+    {
+      "persona_a_id": "p_za01b2c3",
+      "persona_b_id": "p_pr03d4e5",
+      "relationship_type": "close friends via work",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Met at a design agency three years ago, hit it off over a shared dislike of open-plan offices. Zara appreciates Priya's directness.",
+      "shared_events": ["shared a flat briefly", "took a climbing course together"]
+    },
+    {
+      "persona_a_id": "p_za01b2c3",
+      "persona_b_id": "p_ma04e5f6",
+      "relationship_type": "childhood friends from the same neighbourhood",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Grew up two streets apart in South London. Marcus taught Zara to cook. She was his first unpaid taster when he started experimenting with menus.",
+      "shared_events": ["secondary school years", "Marcus's restaurant opening"]
+    },
+    {
+      "persona_a_id": "p_za01b2c3",
+      "persona_b_id": "p_ke05f6a7",
+      "relationship_type": "friends through Dom",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Became friends when Dom and Kezia started dating. They get on well but the friendship is still relatively new.",
+      "shared_events": ["joint birthday dinner for Dom", "a few group holidays"]
+    },
+    {
+      "persona_a_id": "p_za01b2c3",
+      "persona_b_id": "p_fe06a7b8",
+      "relationship_type": "acquaintances who tolerate each other",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Met through Priya. They clash on lifestyle values — Zara finds Felix dismissive of things she cares about; Felix finds Zara too enthusiastic. Both make an effort for Priya's sake.",
+      "shared_events": ["group dinners where they avoid direct conversation"]
+    },
+    {
+      "persona_a_id": "p_do02c3d4",
+      "persona_b_id": "p_pr03d4e5",
+      "relationship_type": "friends through Zara",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Get on well but not close. Dom respects Priya's no-nonsense approach; Priya appreciates that Dom doesn't push for deep conversation.",
+      "shared_events": ["group runs", "several group dinners"]
+    },
+    {
+      "persona_a_id": "p_do02c3d4",
+      "persona_b_id": "p_ma04e5f6",
+      "relationship_type": "old friends and gym partners",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Have been training together for six years. Dom is one of Marcus's first testers for new menu ideas. They have a standing Thursday-night arrangement.",
+      "shared_events": ["gym sessions", "Marcus cooked for Dom's birthday every year"]
+    },
+    {
+      "persona_a_id": "p_do02c3d4",
+      "persona_b_id": "p_ke05f6a7",
+      "relationship_type": "romantic partners",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Together for two years. The group is aware of the relationship dynamics and tries not to take sides when they disagree. Kezia's move to Bristol is a major stress point.",
+      "shared_events": ["joint holiday to Portugal", "moving Kezia's flat together"]
+    },
+    {
+      "persona_a_id": "p_do02c3d4",
+      "persona_b_id": "p_fe06a7b8",
+      "relationship_type": "friendly acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Respect each other without being close. Felix is the reason Dom gets quiz night questions right. Dom is the reason Felix occasionally goes outside.",
+      "shared_events": ["multiple pub quizzes", "Felix came to one football match"]
+    },
+    {
+      "persona_a_id": "p_pr03d4e5",
+      "persona_b_id": "p_ma04e5f6",
+      "relationship_type": "friendly but not close",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Never quite clicked. Priya finds Marcus loud; Marcus finds Priya hard to read. They are polite at group events but never seek each other out.",
+      "shared_events": ["group dinners where they sit at opposite ends"]
+    },
+    {
+      "persona_a_id": "p_pr03d4e5",
+      "persona_b_id": "p_ke05f6a7",
+      "relationship_type": "friendly acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Kezia's warmth tends to draw out Priya slightly. They have had a few one-on-one coffees and Priya has opened up more to Kezia than to most of the group.",
+      "shared_events": ["two one-on-one coffee meetups", "gym class together"]
+    },
+    {
+      "persona_a_id": "p_pr03d4e5",
+      "persona_b_id": "p_fe06a7b8",
+      "relationship_type": "old school friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Known each other since age 11. Went to different universities but stayed in touch. The longest friendship in the group. Understand each other without explanation.",
+      "shared_events": ["grew up in Leicester together", "both moved to London independently and reconnected"]
+    },
+    {
+      "persona_a_id": "p_ma04e5f6",
+      "persona_b_id": "p_ke05f6a7",
+      "relationship_type": "warm acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Like each other. Marcus appreciates Kezia's capacity to manage Dom's mood; Kezia enjoys the free meals. They bond over Caribbean food.",
+      "shared_events": ["Marcus cooked for Kezia's birthday", "a few two-couple dinners"]
+    },
+    {
+      "persona_a_id": "p_ma04e5f6",
+      "persona_b_id": "p_fe06a7b8",
+      "relationship_type": "acquaintances united by food appreciation",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both care about food quality, though they differ on philosophy. Felix respects Marcus's expertise even if he finds the natural wine enthusiasm a bit much.",
+      "shared_events": ["shared a table at a food festival", "a few group dinners"]
+    },
+    {
+      "persona_a_id": "p_ke05f6a7",
+      "persona_b_id": "p_fe06a7b8",
+      "relationship_type": "passing acquaintances",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Barely know each other outside group settings. Felix is polite; Kezia is warm. No friction, just no overlap.",
+      "shared_events": ["group dinners and group outings only"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We don't cancel plans with fewer than 48 hours notice unless it's genuinely unavoidable",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Everyone brings or contributes something when we do group dinners at someone's place",
+      "truly_universal": false,
+      "dissenters": ["p_pr03d4e5"]
+    },
+    {
+      "norm_text": "We celebrate each other's wins in the group chat, no matter how small",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

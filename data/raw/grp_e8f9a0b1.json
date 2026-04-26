@@ -1,0 +1,626 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "group_name": "Westbrook High Class of 2007",
+  "group_type": "acquaintance_network",
+  "group_size": 9,
+  "seed": 26,
+  "personas": [
+    {
+      "persona_id": "p_a1e2f3b4",
+      "display_name": "Marcus",
+      "age": 35,
+      "gender": "male",
+      "occupation": "Civil engineer",
+      "background": "Grew up in the same suburb as most of the group and stayed local after graduating. Works on infrastructure projects for the county. Was the class president and has a residual tendency to coordinate and rally — still the one who organises the reunion logistics. Close with Jade from school.",
+      "skills_list": [
+        {"skill": "project scheduling and coordination", "proficiency": "strong"},
+        {"skill": "structural design and CAD drafting", "proficiency": "strong"},
+        {"skill": "amateur road cycling", "proficiency": "medium"},
+        {"skill": "barbecue and outdoor cooking", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always suggests the group order wings or barbecue — subtly derails any proposal for sushi or fine dining", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers group activities with a competitive element — gravitates toward trivia nights and sport-watching over gallery visits", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers large group meetups over small dinners — gets visibly energised with more people around", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "always books venues in advance and shares a confirmed link rather than floating suggestions", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "reunion_format",
+          "old_value": "insists on renting out a bar or venue for the full class — resists smaller gatherings as 'not the real thing'",
+          "new_value": "open to smaller curated dinners after the low-turnout full-class reunion; now suggests a table of 10-12 as the sweet spot",
+          "changed_at_session": 6,
+          "trigger": "the 15-year reunion drew only 22 of 87 alumni; he quietly adjusted expectations in the follow-up planning thread"
+        }
+      ],
+      "speaking_quirks": [
+        "addresses the group as 'alright everyone' at the start of a new topic",
+        "closes logistical messages with 'lmk if there's an issue'",
+        "uses 'sorted' as a one-word confirmation of resolved threads"
+      ],
+      "participation_rate": 0.92
+    },
+    {
+      "persona_id": "p_b2f3a4c5",
+      "display_name": "Jade",
+      "age": 35,
+      "gender": "female",
+      "occupation": "Secondary school English teacher",
+      "background": "Has lived in three cities since graduating but moved back to the area four years ago. Teaches at a secondary school two towns over. Was close with Marcus through the school newspaper and still talks to him regularly outside the chat. Warm and perceptive; tends to notice when group dynamics shift.",
+      "skills_list": [
+        {"skill": "creative writing and editing", "proficiency": "strong"},
+        {"skill": "classroom facilitation and public speaking", "proficiency": "strong"},
+        {"skill": "pottery and ceramics", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "vegetarian — doesn't announce it but always checks the menu link before agreeing to a venue", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers activities with a creative or cultural angle — suggests escape rooms, pottery workshops, or gallery openings", "confidence": "High", "implicit": true}],
+        "social": [{"value": "follows up after emotional moments in the chat with a private message — doesn't let conflict simmer without checking in", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "tends to reframe logistical proposals into narrative frames ('what's the story we want from the night?')", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_chat_engagement",
+          "old_value": "active daily contributor — updates the chat every morning with a question or anecdote",
+          "new_value": "checks in every few days, more deliberate; avoids real-time back-and-forth",
+          "changed_at_session": 7,
+          "trigger": "took on an extra GCSE class in the autumn term and stopped having the bandwidth for daily chat — mentioned it sideways ('brain's full rn')"
+        }
+      ],
+      "speaking_quirks": [
+        "opens emotional check-ins with 'okay but real talk —'",
+        "uses '!!' for genuine enthusiasm and '.' to signal mild disapproval",
+        "calls out group avoidance with 'are we going to actually talk about this or'"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_c3a4b5d6",
+      "display_name": "Dev",
+      "age": 36,
+      "gender": "male",
+      "occupation": "Product manager at a fintech startup",
+      "background": "Left the area right after sixth form and built a career in London before relocating back last year. Still adjusting to the slower pace. Was known at school for being funny and slightly disruptive in class. In the group chat he's the one making oblique references to things only half the group will catch.",
+      "skills_list": [
+        {"skill": "product roadmap planning and prioritisation", "proficiency": "strong"},
+        {"skill": "stand-up comedy (open mic level)", "proficiency": "medium"},
+        {"skill": "amateur poker strategy", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Moderate",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "eats everything but always flags if a venue has a 'gimmick menu' — prefers honest pub food", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "resists anything that feels like a 'team building' format — immediately jokes when an activity is described that way", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers one-on-one conversations at group events rather than full table discussion — slips into side conversations quickly", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "sends memes and screenshots instead of long texts — communicates in references and reacts rather than explanations", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "in_person_meetup_enthusiasm",
+          "old_value": "enthusiastic but never available — always had a London conflict",
+          "new_value": "now based locally and shows up consistently; enthusiasm became reliable attendance",
+          "changed_at_session": 2,
+          "trigger": "moved back to the area and joined the first planning thread where he could actually commit"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to long messages with a single emoji or a two-word summary",
+        "uses 'checks notes' as a running sarcastic framing device",
+        "types in lowercase exclusively, even proper nouns"
+      ],
+      "participation_rate": 0.80
+    },
+    {
+      "persona_id": "p_d4b5c6e7",
+      "display_name": "Sana",
+      "age": 35,
+      "gender": "female",
+      "occupation": "GP (general practitioner)",
+      "background": "One of three in the year group who went into medicine. Works at a local surgery and does occasional weekend on-call. Trusted and calm in the group — tends to get consulted informally on health questions in the chat even when she's clearly off duty. Has grown quieter in the group over the past year.",
+      "skills_list": [
+        {"skill": "clinical triage and patient communication", "proficiency": "strong"},
+        {"skill": "medical research and evidence-based practice", "proficiency": "strong"},
+        {"skill": "Urdu and basic Punjabi", "proficiency": "medium"},
+        {"skill": "distance running", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "avoids alcohol entirely — orders sparkling water without comment and pivots around drinks-focused venues politely", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers lower-energy social formats — a meal or a walk over anything loud or late-night", "confidence": "High", "implicit": true}],
+        "social": [{"value": "goes silent on the chat when work is intense; re-enters with a brief 'sorry — hectic week' and picks up from there", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "avoids giving informal medical opinions in the chat — redirects with 'worth a GP visit' even when she clearly knows the answer", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_chat_presence",
+          "old_value": "regular participant — replies within hours and contributes to non-logistical threads",
+          "new_value": "mostly lurks; reads but responds only to direct questions or practical threads",
+          "changed_at_session": 5,
+          "trigger": "took on additional on-call cover after a partner at the surgery went on extended leave — never explicitly said so in the chat but the drop-off was noticeable from session 5"
+        }
+      ],
+      "speaking_quirks": [
+        "qualifies non-medical opinions with 'not my area but —'",
+        "replies to group invites with a date-check ('what date is this again?') before committing",
+        "uses 'all well?' as a check-in phrase rather than 'how are you'"
+      ],
+      "participation_rate": 0.72
+    },
+    {
+      "persona_id": "p_e5c6d7f8",
+      "display_name": "Lena",
+      "age": 35,
+      "gender": "female",
+      "occupation": "UX designer at an agency",
+      "background": "Grew up just outside the catchment but got in on appeal — has always had a slight outsider identity in the group. Works fully remote and has moved cities twice in the last five years, currently back locally. Opinionated about design and aesthetics in everyday contexts, which occasionally surfaces in event planning discussions.",
+      "skills_list": [
+        {"skill": "UI/UX design and prototyping", "proficiency": "strong"},
+        {"skill": "visual storytelling and brand design", "proficiency": "strong"},
+        {"skill": "yoga and mindfulness practice", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "gluten-intolerant — mentions it only when a venue is already chosen and she can't find an option, never upfront", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "subtly steers social events away from generic pub nights toward anything with a visual or sensory dimension", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers the chat to stay loosely social and low-stakes — gets uncomfortable when it turns into a logistics command centre", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "offers unsolicited opinions on flyers, invitations, and event names when the group is designing anything — always framed as 'just a thought'", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_identity_attachment",
+          "old_value": "treats the group as a peripheral contact — attends maybe one event per year out of obligation",
+          "new_value": "genuinely invested in the group since returning locally; initiates social threads and shows up reliably",
+          "changed_at_session": 3,
+          "trigger": "attended the impromptu pub night in session 2 after years of declining — connected with Sana and Marcus, and re-engaged from session 3 onward"
+        }
+      ],
+      "speaking_quirks": [
+        "opens suggestions with 'what if we just —' to frame them as low-commitment",
+        "uses 'yep' or 'nope' as complete sentences with no elaboration",
+        "adds a parenthetical design critique without prompting ('(also the poster font is doing a lot of work)')"
+      ],
+      "participation_rate": 0.78
+    },
+    {
+      "persona_id": "p_f6d7e8a9",
+      "display_name": "Callum",
+      "age": 36,
+      "gender": "male",
+      "occupation": "Mortgage broker",
+      "background": "Has lived in the same postcode since school — went straight into finance training after A-levels and built steadily from there. Married with two young kids. Reliable, slightly set in his ways. Is the one the group calls when someone needs a mortgage question answered. Has a subtle rivalry with Dev that predates secondary school.",
+      "skills_list": [
+        {"skill": "mortgage and financial product advice", "proficiency": "strong"},
+        {"skill": "five-a-side football (still plays weekly)", "proficiency": "medium"},
+        {"skill": "home renovation and project management", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "always suggests the same two pubs for meetups — prefers known reliable venues over new or 'trendy' ones", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "resists any activity he hasn't tried before — agrees to novel suggestions but suggests a familiar fallback in the same message", "confidence": "High", "implicit": true}],
+        "social": [{"value": "preferred evenings ending before 10pm since his kids were born — rarely explicit about it but consistently the first to wrap up", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "answers mortgage questions quickly but always adds 'speak to someone qualified before acting' — covering his professional liability even among friends", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "new_activity_openness",
+          "old_value": "politely declines anything unfamiliar — pub or nothing",
+          "new_value": "has agreed to two non-pub activities this year and reported enjoying them; less resistant to novel suggestions now",
+          "changed_at_session": 8,
+          "trigger": "Jade's escape room suggestion in session 7 turned out to be the best-attended event in two years; he referenced it positively in session 8"
+        }
+      ],
+      "speaking_quirks": [
+        "ends recommendations with 'but that's just me' to hedge personal preferences",
+        "responds to anything financial with a one-sentence caveat, even in casual threads",
+        "addresses Dev specifically as 'mate' in a way that signals mild exasperation"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_a7e8f9b0",
+      "display_name": "Temi",
+      "age": 35,
+      "gender": "female",
+      "occupation": "Journalist (features writer at a regional newspaper)",
+      "background": "Grew up in the area and left for university but has been back for six years. Writes features and occasional opinion pieces. The group's best writer by consensus — sometimes a hindrance because people expect her to draft anything text-based. Was briefly in a relationship with Callum at seventeen; ancient history but occasionally referenced obliquely.",
+      "skills_list": [
+        {"skill": "long-form writing and editorial judgment", "proficiency": "strong"},
+        {"skill": "interviewing and narrative research", "proficiency": "strong"},
+        {"skill": "photography (street and portrait)", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "prefers independent restaurants over chains — always has a suggestion waiting when a venue is being debated", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "gravitates toward events with a story angle — film screenings, author talks, documentary nights — and proposes these as reunion activities", "confidence": "High", "implicit": true}],
+        "social": [{"value": "comfortable in loud group settings but switches into interview mode — asks a lot of questions, gives little about herself", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "gets quietly frustrated when drafted to write group comms and then has the copy edited by committee in the chat", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "reunion_documentation",
+          "old_value": "avoids being the group's de facto archivist — declines requests to write reunion recaps or take charge of photos",
+          "new_value": "now actively archives the group's reunion history after a personal essay she wrote about the group was well-received at her paper",
+          "changed_at_session": 9,
+          "trigger": "her features editor praised the alumni reunion piece and encouraged her to develop it as a longer series — she mentioned it in the chat with visible pride"
+        }
+      ],
+      "speaking_quirks": [
+        "turns factual questions back to the asker ('what's your read on that?')",
+        "uses em-dashes mid-sentence — even in casual messages — for rhetorical pause",
+        "starts reflective threads with 'okay so I've been thinking about this'"
+      ],
+      "participation_rate": 0.82
+    },
+    {
+      "persona_id": "p_b8f9a0c1",
+      "display_name": "Omar",
+      "age": 36,
+      "gender": "male",
+      "occupation": "Secondary school PE teacher and football coach",
+      "background": "Played semi-professionally until 28, then transitioned into teaching. Coaches the school first team and runs a local youth club on Saturdays. The most locally embedded person in the group — knows half the town by name. Not academic in school but the one everyone respected. Uninterested in status-signalling.",
+      "skills_list": [
+        {"skill": "football tactics and youth coaching", "proficiency": "strong"},
+        {"skill": "physical fitness programming", "proficiency": "strong"},
+        {"skill": "first aid and sports injury management", "proficiency": "medium"},
+        {"skill": "community youth programme facilitation", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Blunt",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "doesn't care about cuisine — will eat anywhere — but always asks if there's parking nearby before agreeing", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "strongly prefers any activity with a physical or outdoor component — disengages in anything seated for more than two hours", "confidence": "High", "implicit": true}],
+        "social": [{"value": "more comfortable in loud, informal settings than sit-down dinners — gravitates toward the periphery of the room and pulls people in one-on-one", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "mentions his youth club in almost every thread — not self-promotion, just his primary frame of reference for community activity", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "alumni_event_involvement",
+          "old_value": "shows up to whatever is planned but doesn't participate in planning — 'just tell me where to be'",
+          "new_value": "proposed and co-organised the five-a-side tournament as the session 8 reunion activity; took ownership from logistics to venue booking",
+          "changed_at_session": 8,
+          "trigger": "Jade challenged the group to suggest something active after three consecutive sit-down events — Omar took it personally and stepped up"
+        }
+      ],
+      "speaking_quirks": [
+        "frequent typos even in short messages — never corrects them",
+        "uses 'bro' and 'bruv' interchangeably across genders",
+        "responds to plans with a thumbs-up emoji and nothing else unless asked a direct question"
+      ],
+      "participation_rate": 0.78
+    },
+    {
+      "persona_id": "p_c9a0b1d2",
+      "display_name": "Rachel",
+      "age": 35,
+      "gender": "female",
+      "occupation": "Solicitor (commercial property)",
+      "background": "Left for a Russell Group university and built a career in London. Relocated back eighteen months ago after her firm offered a remote-first arrangement. The most professionally successful person in the group by conventional metrics, which she's careful not to foreground. Has a slightly transactional relationship with the group — useful for advice, present at big events, otherwise lurks.",
+      "skills_list": [
+        {"skill": "commercial property law and conveyancing", "proficiency": "strong"},
+        {"skill": "contract negotiation and due diligence", "proficiency": "strong"},
+        {"skill": "amateur triathlon training", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Low",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [{"value": "has strong wine preferences — will quietly redirect the group to venues with a proper list, framed as 'this one has better options'", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "attends events where she can arrive, connect with one or two people meaningfully, and leave without it seeming rude", "confidence": "High", "implicit": true}],
+        "social": [{"value": "never initiates in the group chat — responds precisely when addressed but doesn't carry on threads", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "gives accurate definitive legal answers when asked but always appends 'this isn't advice' even to close friends", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "event_attendance_pattern",
+          "old_value": "attended one event per year at most — remote location and London schedule made attendance nominal",
+          "new_value": "now locally based and attending most events; presence has become reliable if still quiet",
+          "changed_at_session": 5,
+          "trigger": "relocated back and attended two consecutive events from session 5 onward — her presence was noted positively by Jade in the chat"
+        }
+      ],
+      "speaking_quirks": [
+        "cites specifics rather than generalities ('the venue on the high street, not the one near the station')",
+        "sends one message, does not follow up",
+        "uses 'noted' or 'understood' to close threads rather than agreement-signalling"
+      ],
+      "participation_rate": 0.70
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_a1e2f3b4",
+      "persona_b_id": "p_b2f3a4c5",
+      "relationship_type": "school newspaper collaborators, ongoing close friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Worked together on the school newspaper for three years and stayed close after. Marcus is often the person Jade calls when she needs to think something through, and he relies on her to read the group dynamics he misses.",
+      "shared_events": ["school newspaper launch issue", "sixth form leavers' trip", "15-year reunion organising committee"]
+    },
+    {
+      "persona_a_id": "p_a1e2f3b4",
+      "persona_b_id": "p_b8f9a0c1",
+      "relationship_type": "old school friends, long-standing easy rapport",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Were in the same form group every year from Year 7. Fell out of contact during their twenties but reconnected strongly when Marcus moved back and started attending Omar's five-a-side sessions.",
+      "shared_events": ["five-a-side group", "15-year reunion planning", "school football team overlap (Year 10-11)"]
+    },
+    {
+      "persona_a_id": "p_c3a4b5d6",
+      "persona_b_id": "p_f6d7e8a9",
+      "relationship_type": "old school acquaintances with a running edge",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Dev and Callum have been subtly competitive since school — Dev was quicker, Callum was more dependable; teachers split between them. Neither has ever named it but the chat dynamic makes it legible to the rest of the group.",
+      "shared_events": ["school mock elections (both stood)", "Year 11 business studies project", "five-a-side football sessions"]
+    },
+    {
+      "persona_a_id": "p_b2f3a4c5",
+      "persona_b_id": "p_d4b5c6e7",
+      "relationship_type": "close school friends who lost touch and recently reconnected",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Were in the same friendship group at school. Jade reached out when Sana returned to the area and they've picked up the closeness with surprising ease. Jade is one of the few people Sana opens up to outside work.",
+      "shared_events": ["school sixth form study group", "re-connection dinner two years ago", "recent one-on-one walks"]
+    },
+    {
+      "persona_a_id": "p_a1e2f3b4",
+      "persona_b_id": "p_c3a4b5d6",
+      "relationship_type": "friendly acquaintances with mild tension",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Were cordial at school but never close. Dev's sardonic style grates on Marcus when it derails coordination threads. Marcus finds Dev hard to read; Dev finds Marcus slightly earnest. They function fine at events.",
+      "shared_events": ["15-year reunion", "group poker night (Dev organised)", "WhatsApp group since 2018"]
+    },
+    {
+      "persona_a_id": "p_e5c6d7f8",
+      "persona_b_id": "p_d4b5c6e7",
+      "relationship_type": "warm reconnection, sporadic contact",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Connected properly at the impromptu pub night in year two of the group chat. Lena and Sana discovered they'd both moved back recently for different reasons and found an unexpected common ground around the strangeness of return.",
+      "shared_events": ["impromptu pub night session 2", "group park walk", "Jade's pottery evening"]
+    },
+    {
+      "persona_a_id": "p_a7e8f9b0",
+      "persona_b_id": "p_f6d7e8a9",
+      "relationship_type": "old acquaintances with shared history, now cordial",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Briefly in a relationship at seventeen. The group is aware, both have moved on, and they interact normally. There's no active awkwardness — it just sits as context that surfaces in oblique references from others.",
+      "shared_events": ["sixth form social", "class reunion 2015", "group events since the WhatsApp started"]
+    },
+    {
+      "persona_a_id": "p_a7e8f9b0",
+      "persona_b_id": "p_b2f3a4c5",
+      "relationship_type": "friendly creative peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both write professionally and have a natural alliance in the group around anything text or narrative. They've co-drafted the last two reunion announcements and occasionally workshop each other's pieces.",
+      "shared_events": ["reunion announcement drafting", "literary festival they both attended", "school magazine collaboration"]
+    },
+    {
+      "persona_a_id": "p_c9a0b1d2",
+      "persona_b_id": "p_a1e2f3b4",
+      "relationship_type": "occasional allies on practical decisions",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Barely spoke at school — Rachel was in top sets and Marcus was in everything else. Have developed a functional alliance as adults: Marcus coordinates events, Rachel provides concise definitive answers when legal or logistical clarity is needed.",
+      "shared_events": ["reunion venue contract query", "group lease question thread", "15-year reunion"]
+    },
+    {
+      "persona_a_id": "p_c9a0b1d2",
+      "persona_b_id": "p_a7e8f9b0",
+      "relationship_type": "respectful but distant peers",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Both are professional women who returned to the area around the same time. Have exchanged polite chat but never socialised independently. Temi has written about communities of returnees, a subject Rachel finds personally charged but hasn't engaged with in the group.",
+      "shared_events": ["15-year reunion", "Jade's birthday dinner", "group chat only"]
+    },
+    {
+      "persona_a_id": "p_e5c6d7f8",
+      "persona_b_id": "p_c3a4b5d6",
+      "relationship_type": "light social connection",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Barely overlapped at school; interacted mainly through Dev's memes and Lena's design-adjacent responses. Cordial in group settings but no individual connection.",
+      "shared_events": ["group pub nights", "15-year reunion"]
+    },
+    {
+      "persona_a_id": "p_b8f9a0c1",
+      "persona_b_id": "p_d4b5c6e7",
+      "relationship_type": "warm, grounded friendship",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Omar and Sana were in the same Year 10 science class and stayed genuinely close through sixth form. He checks in on her during her quieter periods in the chat — often via a short DM rather than publicly.",
+      "shared_events": ["Year 10 science class projects", "sixth form revision sessions", "recent group runs"]
+    },
+    {
+      "persona_a_id": "p_c9a0b1d2",
+      "persona_b_id": "p_f6d7e8a9",
+      "relationship_type": "acquaintances with professional overlap",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Both went into property-adjacent fields. Have exchanged professional references in passing but no personal closeness. Callum has recommended Rachel to mortgage clients; she has passed him a leasehold query once.",
+      "shared_events": ["professional referral exchange", "15-year reunion", "group chat only"]
+    },
+    {
+      "persona_a_id": "p_b8f9a0c1",
+      "persona_b_id": "p_c3a4b5d6",
+      "relationship_type": "old football teammates, easy friendship",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Played in the same school football team. Omar admires Dev's quick thinking; Dev finds Omar's lack of pretension genuinely refreshing. They share a shorthand that excludes most of the rest of the group.",
+      "shared_events": ["school football team", "ongoing five-a-side", "post-match pub sessions"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Keep the chat for reunion planning and alumni news — personal life updates belong in smaller threads or DMs",
+      "truly_universal": false,
+      "dissenters": ["p_b2f3a4c5", "p_a7e8f9b0"]
+    },
+    {
+      "norm_text": "Acknowledge the group's event announcements with a reaction so organisers know the message landed",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Events should be planned at least three weeks in advance so people with families or shifts can arrange cover",
+      "truly_universal": false,
+      "dissenters": ["p_c3a4b5d6", "p_b8f9a0c1"]
+    },
+    {
+      "norm_text": "No work talk at group events — this is a school friends group, not a networking session",
+      "truly_universal": false,
+      "dissenters": ["p_c9a0b1d2", "p_f6d7e8a9"]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

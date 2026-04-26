@@ -1,0 +1,53 @@
+{
+  "network_id": "grp_4d5e6f7a",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:38:54.993877+00:00",
+  "sessions_used": 5,
+  "total_pairs": 9,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.5,
+  "mean_context_words": 756.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.45
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.7
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_v4s3c3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Nneka posted a Luiz Bonf\u00e1 record, which contradicts the gold answer's core claim that Nneka only shares finds from soul and gospel music from the 1960s\u201370s."
+    },
+    {
+      "qa_id": "Q8_v4s4c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly concludes that Gil shifted towards a more favorable view of attending record fairs, whereas the gold answer correctly identifies a shift towards increased selectivity and specialization."
+    },
+    {
+      "qa_id": "Q5_v4s4c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the spending pattern Preet knows about; Preet knows Rashida's pattern of overspending despite budget promises, not her restraint."
+    }
+  ]
+}

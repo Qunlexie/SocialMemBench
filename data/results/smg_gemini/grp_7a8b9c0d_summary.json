@@ -1,0 +1,41 @@
+{
+  "network_id": "grp_7a8b9c0d",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:46:22.385690+00:00",
+  "sessions_used": 5,
+  "total_pairs": 5,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.59,
+  "mean_context_words": 911.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 0.7
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.75
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q7_fm7s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer describes a 'playful, teasing relationship' based on a minor interaction, completely missing the core revelation in the gold answer about a 'close, honest sibling bond with a quiet asymmetry' involving guilt, invisible load, and a separate communication channel."
+    }
+  ]
+}

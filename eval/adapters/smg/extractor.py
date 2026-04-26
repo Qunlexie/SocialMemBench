@@ -141,6 +141,7 @@ async def extract_session(
     member_names: List[str],
     session: int,
     prior_facts: Optional[List[Dict]] = None,
+    extraction_model: str = "gpt-4o-mini",
 ) -> Dict[str, List]:
     """
     Extract all social signals from one session.
@@ -161,7 +162,7 @@ async def extract_session(
     )
 
     response = await llm_client.chat.completions.create(
-        model="gpt-4o",
+        model=extraction_model,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt},

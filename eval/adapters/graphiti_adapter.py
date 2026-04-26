@@ -89,6 +89,10 @@ class GraphitiAdapter(BaseAdapter):
         if network_id not in self._graphs:
             db_path = str(self._db_base / network_id)
             driver = self._KuzuDriver(db=db_path)
+            # KuzuDriver.__init__ doesn't set _database but graphiti.py:887 reads it
+            # when group_id is passed to add_episode/search.  Set it to the network_id
+            # so the identity check passes and the driver is not needlessly cloned.
+            driver._database = network_id
             llm = self._OpenAIClient(
                 config=self._LLMConfig(model=self._model, api_key=self._api_key)
             )
@@ -101,6 +105,30 @@ class GraphitiAdapter(BaseAdapter):
                 embedder=embedder,
             )
         return self._graphs[network_id]
+
+    async def _ensure_fts_indices(self, driver) -> None:
+        """Create Kuzu FTS indices if they don't exist.
+
+        graphiti-core 0.28.2's KuzuDriver.build_indices_and_constraints() is a
+        no-op, so we create them directly.  The CREATE_FTS_INDEX call is
+        idempotent in Kuzu 0.11+ (silently skipped if index already exists).
+        """
+        fts_queries = [
+            "CALL CREATE_FTS_INDEX('Episodic', 'episode_content', ['content', 'source', 'source_description']);",
+            "CALL CREATE_FTS_INDEX('Entity', 'node_name_and_summary', ['name', 'summary']);",
+            "CALL CREATE_FTS_INDEX('Community', 'community_name', ['name']);",
+            "CALL CREATE_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', ['name', 'fact']);",
+        ]
+        for q in fts_queries:
+            try:
+                await driver.execute_query(q)
+            except Exception as e:
+                err = str(e)
+                # Ignore "already exists" errors
+                if "already exist" in err.lower() or "already created" in err.lower():
+                    pass
+                else:
+                    self.console.print(f"   ⚠️  FTS index warning: {err[:120]}", style="yellow")
 
     async def add(
         self,
@@ -122,11 +150,10 @@ class GraphitiAdapter(BaseAdapter):
 
         graph = self._get_graph(user_id)
 
-        # Initialise schema on first use
-        try:
-            await graph.build_indices_and_constraints()
-        except Exception:
-            pass  # already initialised
+        # Initialise schema + FTS indices on first use.
+        # KuzuDriver.build_indices_and_constraints() is a no-op in graphiti-core
+        # 0.28.2, so we create the FTS indexes directly via the driver.
+        await self._ensure_fts_indices(graph.driver)
 
         days = [d for d in dataset.days if d.date in days_to_process] if days_to_process else dataset.days
 
@@ -163,6 +190,24 @@ class GraphitiAdapter(BaseAdapter):
                     errors.append(str(e))
                     self.console.print(f"   ⚠️  Episode error: {e}", style="yellow")
 
+        # Post-add verification: confirm graph has content
+        try:
+            test_edges = await graph.search(
+                query="preferences",
+                group_ids=[user_id],
+                num_results=3,
+            )
+            n_edges = len(test_edges) if test_edges else 0
+            self.console.print(f"   Graphiti verify: {n_edges} edges returned for test query")
+            if n_edges == 0:
+                self.console.print(
+                    "   ⚠️  WARNING: 0 edges in graph after ingestion — "
+                    "check graphiti version and group_ids API",
+                    style="yellow",
+                )
+        except Exception as e:
+            self.console.print(f"   ⚠️  Graphiti verify failed: {e}", style="yellow")
+
         print_success(f"Graphiti add: {total_sent} turns ingested, {len(errors)} errors")
         return AddResult(
             success=len(errors) == 0,
@@ -184,6 +229,7 @@ class GraphitiAdapter(BaseAdapter):
         effective_k = top_k or self._top_k
         start = time.time()
 
+        search_error: Optional[str] = None
         try:
             graph = self._get_graph(user_id)
             edges = await graph.search(
@@ -201,10 +247,14 @@ class GraphitiAdapter(BaseAdapter):
             context = "\n".join(f"- {f}" for f in retrieved) if retrieved else "[No facts retrieved]"
 
         except Exception as e:
-            self.console.print(f"   ⚠️  Graphiti search error: {e}", style="yellow")
+            search_error = str(e)
+            self.console.print(
+                f"   ⚠️  Graphiti search error ({type(e).__name__}): {e}",
+                style="yellow",
+            )
             duration_ms = (time.time() - start) * 1000
             retrieved = []
-            context = "[Search failed]"
+            context = f"[Search failed: {type(e).__name__}: {str(e)[:120]}]"
 
         return SearchResult(
             question_id=question_id,
@@ -212,7 +262,11 @@ class GraphitiAdapter(BaseAdapter):
             retrieved_memories=retrieved,
             context=context,
             search_duration_ms=duration_ms,
-            metadata={"user_id": user_id, "top_k": effective_k},
+            metadata={
+                "user_id": user_id,
+                "top_k": effective_k,
+                "search_error": search_error,
+            },
         )
 
     async def close(self):

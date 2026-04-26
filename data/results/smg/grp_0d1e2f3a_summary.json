@@ -1,26 +1,27 @@
 {
   "network_id": "grp_0d1e2f3a",
   "condition": "smg",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:19:54.008051+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:14:47.429243+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.383,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.317,
+  "mean_context_words": 456.7,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.4
     },
     "Q3": {
       "count": 1,
-      "mean_score": 0.6
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.7
+      "mean_score": 0.5
     },
     "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
       "count": 1,
       "mean_score": 0.0
     },
@@ -37,18 +38,26 @@
     {
       "qa_id": "Q1_c0s3c1",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies that Josh is disinclined to discuss his career, but it misses the key elements of his behavior: using self-deprecating humor and redirecting the conversation to others, which are central to the gold answer's description of 'how he handles' such questions. The specific quote used is also slightly different from the gold answer's evidence."
     },
     {
       "qa_id": "Q4_c0s2c2",
       "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c0s4c1",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Priya's attitude. Priya's quote 'that I'd actually like' refers to receiving one-on-one help, not a preference for discussing her job one-on-one. The gold answer correctly identifies that Josh is shielding Priya from a group conversation she doesn't want. Since Part 1 (Priya's attitude) is incorrect, the explanation of what Josh knew is also fundamentally flawed."
     },
     {
       "qa_id": "Q6_c0s5c1",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

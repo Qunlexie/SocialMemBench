@@ -1,36 +1,29 @@
 {
   "network_id": "grp_a1b2c3d4",
   "condition": "smg",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:20:44.798523+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:36:48.157963+00:00",
   "sessions_used": 8,
   "total_pairs": 25,
-  "new_pairs_this_run": 4,
-  "mean_score": 0.282,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.3,
+  "mean_context_words": 448.2,
   "by_query_type": {
     "Q1": {
       "count": 5,
-      "mean_score": 0.2
+      "mean_score": 0.14
     },
     "Q3": {
       "count": 1,
-      "mean_score": 0.25
-    },
-    "Q5": {
-      "count": 3,
-      "mean_score": 0.067
-    },
-    "Q7": {
-      "count": 4,
-      "mean_score": 0.35
-    },
-    "Q8": {
-      "count": 8,
-      "mean_score": 0.15
+      "mean_score": 0.0
     },
     "Q4": {
       "count": 1,
       "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.267
     },
     "Q2": {
       "count": 2,
@@ -39,89 +32,112 @@
     "Q6": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.25
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.25
     }
   },
   "low_scoring": [
     {
+      "qa_id": "Q1_a1b2c301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fundamentally misinterprets Derek's behavior, stating he struggles with competitive aspects and prefers cooperative games, which directly contradicts the gold answer's assertion that he is intensely competitive and dislikes losing."
+    },
+    {
       "qa_id": "Q1_a1b2c302",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core pattern identified in the gold answer, which is Soo-Yeon's consistent steering away from heavy food through quiet substitution rather than direct objection. Instead, it focuses on her liking for specific food and her hosting role, which are not the primary patterns or preferences highlighted in the gold answer regarding the 'food situation.'"
     },
     {
       "qa_id": "Q1_a1b2c303",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly claims Nadia stated she does not eat during sessions or participate in food arrangements, which is not supported by the gold answer or typical chat transcripts. The gold answer correctly identifies Nadia's preference for keeping food separate from game components."
     },
     {
       "qa_id": "Q1_a1b2c305",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer completely misinterprets Lena's reaction to the snack choice, stating she 'did not express a preference or desire' and was 'too focused on the iron works chain,' when the gold answer highlights her warm endorsement of veggie samosas as the key evidence for her unstated vegetarianism."
     },
     {
       "qa_id": "Q3_a1b2c301",
       "query_type": "Q3",
-      "score": 0.25
-    },
-    {
-      "qa_id": "Q5_a1b2c301",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_a1b2c302",
-      "query_type": "Q5",
-      "score": 0.2
-    },
-    {
-      "qa_id": "Q5_a1b2c303",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_a1b2c301",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_a1b2c302",
-      "query_type": "Q7",
-      "score": 0.2
-    },
-    {
-      "qa_id": "Q8_a1b2c302",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_a1b2c303",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_a1b2c304",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_a1b2c305",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_a1b2c306",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_a1b2c307",
-      "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The answer attributes Marcus's concern about keeping food off the card table to Raj, which is a critical error. It also misidentifies Derek's food preference and misses several group members entirely."
     },
     {
       "qa_id": "Q4_a1b2c301",
       "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Soo-Yeon has a positive relationship with real-time games; the gold answer correctly identifies that Soo-Yeon finds them overwhelming. Consequently, the explanation for Priya's prior knowledge is also incorrect, as it's based on the wrong premise about Soo-Yeon's preference."
+    },
+    {
+      "qa_id": "Q5_a1b2c303",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly describes Felix's relationship to abstract board games as a 'new appreciation,' which is the outcome of Soo-Yeon's intervention, rather than his prior dismissal that needed changing. This misses the crucial context for understanding how Soo-Yeon knew what it would take to change his mind. While the second part correctly identifies Soo-Yeon's comment and her understanding, it lacks the specific detail of *what* she understood about Felix's background (visual game designer, framing vs. mechanics) that the gold answer provides."
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer describes general group collaboration and participation, which is true for many members, but fails to identify the specific nature of the relationship between Lena and Priya as being closer or more intimate than average, which is the core insight of the gold answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core point about Kezia and Felix being positioned as a newer-member sub-clique distinct from the founding members. It only vaguely mentions their shared design background as a connection, missing the crucial detail that Kezia brought Felix into the group."
+    },
+    {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Brass Birmingham as the driver for Kezia's shift, whereas the gold answer correctly states it was Tomasz walking her through Terra Mystica."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misidentifies the specific shift in Marcus's preference. The quote 'Contrarian positioning has value' refers to social strategy in a discussion, not his preference for pure-strategy game mechanics (luck vs. determinism), which is the subject of the question. It fails to identify the correct old state, new state, or trigger related to game mechanics."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies both the earlier state of Lena's thinking and the moment of change regarding luck-heavy board games, using evidence that pertains to different topics or specific game strategies rather than her general aversion to luck-heavy games."
+    },
+    {
+      "qa_id": "Q8_a1b2c305",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Soo-Yeon's evolved state after playing the game but fails to establish her initial position regarding real-time games or the specific reasoning/trigger for her agreement to try Fuse (i.e., the cooperative format as a hypothesis)."
+    },
+    {
+      "qa_id": "Q8_a1b2c306",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Tomasz's new state of openness to house rules for new players. However, it incorrectly attributes the change to group consensus rather than the specific past event of a player quitting mid-game, which is the actual trigger."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misidentifies the core behavior pattern (preference for cooperative games vs. rematch-seeking) and the specific signal of awareness ('cooperative again' vs. 'fine. noted.') compared to the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

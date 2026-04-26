@@ -1,39 +1,40 @@
 {
   "network_id": "grp_1a2b3c4d",
   "condition": "smg",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:19:58.144403+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:16:41.012443+00:00",
   "sessions_used": 5,
   "total_pairs": 12,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.458,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.283,
+  "mean_context_words": 362.8,
   "by_query_type": {
     "Q1": {
       "count": 3,
-      "mean_score": 0.333
-    },
-    "Q5": {
-      "count": 1,
       "mean_score": 0.5
-    },
-    "Q7": {
-      "count": 2,
-      "mean_score": 0.5
-    },
-    "Q8": {
-      "count": 3,
-      "mean_score": 0.333
     },
     "Q2": {
       "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.0
     },
     "Q4": {
       "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
     },
     "Q6": {
       "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.45
+    },
+    "Q8": {
+      "count": 3,
       "mean_score": 0.0
     }
   },
@@ -41,18 +42,50 @@
     {
       "qa_id": "Q1_c3d4e5f6",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION', which is explicitly scored 0.0 by the critical rules, regardless of the gold answer's content."
+    },
+    {
+      "qa_id": "Q2_e1f2a3b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d4e5f6a7",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies how Maya revealed Jordan's preference; Maya did not reveal it by asking about the event, but by stating her prior knowledge of Jordan's dislike for team sports after Jordan declined an invitation."
+    },
+    {
+      "qa_id": "Q7_f6a7b8c9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core historical event (Mt. Tam hiking trip) revealed in the conversation, focusing instead on current brunch plans which are not a 'history' in the same sense."
+    },
+    {
+      "qa_id": "Q8_b8c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly focuses on Jordan's attendance and agreement to times rather than his specific role as an organizer handling logistics, which was the core of the question."
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states there was no indication of a change in Maya's stance on alcohol, directly contradicting the gold answer and the core of the question."
     },
     {
       "qa_id": "Q8_d0e1f2a3",
       "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q6_f2a3b4c5",
-      "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules, regardless of the actual information available in the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

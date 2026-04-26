@@ -40,16 +40,32 @@ class SMGAdapter(BaseAdapter):
         super().__init__(config, output_dir)
         self.console = get_console()
 
-        api_key = config.get("openai_api_key") or os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            raise ValueError("SMGAdapter requires OPENAI_API_KEY env var.")
+        extraction_model = config.get("extraction_model", "gpt-4o-mini")
 
         try:
             from openai import AsyncOpenAI
         except ImportError:
             raise ImportError("Install with: pip install openai")
 
-        self._llm = AsyncOpenAI(api_key=api_key)
+        # Embedding always uses OpenAI (text-embedding-3-small is OpenAI-only)
+        openai_key = config.get("openai_api_key") or os.environ.get("OPENAI_API_KEY")
+        if not openai_key:
+            raise ValueError("SMGAdapter requires OPENAI_API_KEY env var (used for embeddings).")
+        self._embed_client = AsyncOpenAI(api_key=openai_key)
+
+        if extraction_model.startswith("gemini"):
+            # Extraction uses Gemini via OpenAI-compatible endpoint
+            api_key = config.get("google_api_key") or os.environ.get("GOOGLE_API_KEY")
+            if not api_key:
+                raise ValueError("SMGAdapter with gemini extraction requires GOOGLE_API_KEY env var.")
+            self._llm = AsyncOpenAI(
+                api_key=api_key,
+                base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+            )
+        else:
+            self._llm = self._embed_client  # same client for extraction + embeddings
+
+        self._extraction_model = extraction_model
         self._embed_model = config.get("embed_model", "text-embedding-3-small")
         self._top_k = config.get("top_k", 10)
         self._graph_dir = Path(config.get("graph_dir", "./data/.smg_graphs")).resolve()
@@ -72,7 +88,7 @@ class SMGAdapter(BaseAdapter):
         all_embeddings = []
         for i in range(0, len(texts), 100):
             batch = texts[i:i + 100]
-            resp = await self._llm.embeddings.create(
+            resp = await self._embed_client.embeddings.create(
                 model=self._embed_model, input=batch
             )
             all_embeddings.extend([r.embedding for r in resp.data])
@@ -180,6 +196,7 @@ class SMGAdapter(BaseAdapter):
                     signals = await extract_session(
                         self._llm, turns, member_names, session_idx,
                         prior_facts=prior_facts,
+                        extraction_model=self._extraction_model,
                     )
                     n_inserted = self._insert_signals(
                         graph, signals, turns, member_names, session_idx
@@ -361,8 +378,11 @@ class SMGAdapter(BaseAdapter):
             q_emb = await self._embed_async([query])
             query_embedding = q_emb[0]
 
-            # Retrieve context — no Q-type routing, pure semantic + structural
-            context = retrieve_context(graph, query_embedding, top_k=effective_k)
+            # Retrieve context — pass query_type for structural routing
+            query_type = kwargs.get("query_type")
+            context = retrieve_context(
+                graph, query_embedding, top_k=effective_k, query_type=query_type
+            )
             duration_ms = (time.time() - start) * 1000
 
             # Extract retrieved fact values for metadata

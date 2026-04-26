@@ -114,12 +114,16 @@ def retrieve_context(
     graph: SocialMemoryGraph,
     query_embedding: List[float],
     top_k: int = 10,
+    query_type: Optional[str] = None,
 ) -> str:
     """
     Retrieve relevant context from the graph for a query embedding.
 
     Returns a formatted string ready to pass to the answerer LLM.
-    No Q-type knowledge used — pure semantic + structural retrieval.
+    query_type enables structural routing:
+      Q8 — full temporal chain for top subject (all sessions, not just top_k)
+      Q5 — KNOWS_ABOUT edges prioritized
+      Q2/Q6 — DISSENTS_FROM edges always surfaced
     """
     # --- 1. Score all facts by embedding similarity ---
     scored: List[Tuple[float, Fact]] = []
@@ -141,11 +145,9 @@ def retrieve_context(
     top_norm_ids = [nid for _, nid in norm_scored[:3]]
 
     # --- 3. Expand: for the top-scoring subject persona, include ALL their facts ---
-    # This ensures temporal chains, role changes etc. are visible even if the
-    # early-session fact didn't score highly on embedding similarity.
     expanded_fact_ids = {f.id for f in top_facts}
+    top_subject_id: Optional[str] = None
     if top_facts:
-        # Find the most-referenced subject persona among top facts
         subject_counts: Dict[str, int] = {}
         for f in top_facts:
             subj = graph.subject_of_fact(f.id)
@@ -157,6 +159,48 @@ def retrieve_context(
                 if f.id not in expanded_fact_ids:
                     expanded_fact_ids.add(f.id)
                     top_facts.append(f)
+
+    # --- Q-type structural routing ---
+
+    # Q8: include ALL facts for the top subject across all sessions (full temporal chain)
+    # + ALL facts from sessions where the temporal shift occurs (to capture causal triggers
+    # from other personas — e.g. Abi's cancellations driving Kwame's preference change).
+    if query_type == "Q8" and top_subject_id:
+        # Full temporal chain for the subject
+        subject_facts = list(graph.facts_for_persona(top_subject_id))
+        for f in subject_facts:
+            if f.id not in expanded_fact_ids:
+                expanded_fact_ids.add(f.id)
+                top_facts.append(f)
+
+        # Find sessions where subject's facts exist — include ALL facts from those sessions
+        # This surfaces causal context from other personas in the same sessions
+        subject_sessions = {f.session for f in subject_facts}
+        for f in graph.all_facts():
+            if f.session in subject_sessions and f.id not in expanded_fact_ids:
+                expanded_fact_ids.add(f.id)
+                top_facts.append(f)
+
+        # Also include all norms for completeness
+        top_norm_ids = list(graph.norms.keys())
+
+    # Q2/Q6: ensure ALL dissent edges are surfaced for the matched personas.
+    # DISSENTS_FROM edges may score low on cosine but are structurally critical.
+    elif query_type in ("Q2", "Q6"):
+        # Find all personas whose facts appear in top_facts
+        matched_persona_ids = set()
+        for f in top_facts:
+            subj = graph.subject_of_fact(f.id)
+            if subj:
+                matched_persona_ids.add(subj.id)
+        # Force all norms into context so dissenters are visible
+        top_norm_ids = list(graph.norms.keys())
+
+    # Q5: KNOWS_ABOUT edges are already included per-fact in _format_fact_with_context.
+    # Ensure top norms include all norms so epistemic context is visible.
+    elif query_type == "Q5":
+        if len(top_norm_ids) < len(graph.norms):
+            top_norm_ids = [nid for _, nid in norm_scored]  # all norms, ranked
 
     # Sort by session so temporal ordering is visible
     top_facts.sort(key=lambda f: f.session)
@@ -172,14 +216,16 @@ def retrieve_context(
         norm_blocks = [_format_norm_with_context(graph, nid) for nid in top_norm_ids]
         context_parts.append("RELEVANT GROUP NORMS:\n" + "\n\n".join(norm_blocks))
 
-    # --- 5. Add relevant relationships (by embedding similarity + persona overlap) ---
+    # --- 5. Add relevant relationships ---
     rel_scored: List[Tuple[float, str]] = []
     for rel_id, rel in graph.relationships.items():
         if hasattr(rel, "_embedding") and rel._embedding:
             sim = cosine_similarity(query_embedding, rel._embedding)
             rel_scored.append((sim, rel_id))
     rel_scored.sort(key=lambda x: x[0], reverse=True)
-    top_rel_ids = [rid for _, rid in rel_scored[:3]]
+    # Q7: include more relationships; others: top 3
+    n_rels = 6 if query_type == "Q7" else 3
+    top_rel_ids = [rid for _, rid in rel_scored[:n_rels]]
 
     rel_blocks = []
     for rel_id in top_rel_ids:

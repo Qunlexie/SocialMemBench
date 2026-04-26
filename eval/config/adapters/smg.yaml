@@ -1,4 +1,8 @@
 name: "smg"
+# Extraction model: LLM used during add() to extract facts from conversations.
+# Use gpt-4o-mini for fair comparison with mem0/naive_rag (same cost tier).
+# Use gpt-4o for higher-quality extraction (smg_gpt4o condition).
+extraction_model: "gpt-4o-mini"
 embed_model: "text-embedding-3-small"
 graph_dir: "./data/.smg_graphs"
 top_k: 10

@@ -1,28 +1,17 @@
 {
   "network_id": "grp_2b3c4d5e",
   "condition": "smg",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:20:05.395732+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:18:44.878826+00:00",
   "sessions_used": 5,
   "total_pairs": 10,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.39,
+  "new_pairs_this_run": 10,
+  "mean_score": 0.29,
+  "mean_context_words": 466.1,
   "by_query_type": {
     "Q1": {
       "count": 3,
-      "mean_score": 0.533
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.7
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.1
-    },
-    "Q8": {
-      "count": 2,
-      "mean_score": 0.25
+      "mean_score": 0.133
     },
     "Q2": {
       "count": 1,
@@ -32,37 +21,65 @@
       "count": 1,
       "mean_score": 0.0
     },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0
+    },
     "Q6": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
+      "qa_id": "Q1_n2a1b2c3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core insight of the gold answer, which identifies Adaora's implied dietary restriction (avoiding meat/animal products) and her concealment of it. Instead, the generated answer only identifies surface-level preferences for specific bean dishes, failing to address the underlying restriction that 'comes through' from the conversations."
+    },
+    {
+      "qa_id": "Q1_n2b2c3d4",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Emeka's observation about less seasoning in the pepper soup, but it misses Adaora's corroboration and the broader conclusion that Ngozi has likely reduced salt in her cooking. The first sentence is also irrelevant to the question about changes in cooking style/ingredients, as it discusses the quantity of food for Christmas."
+    },
+    {
       "qa_id": "Q1_n2c3d4e5",
       "query_type": "Q1",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_n2b8c9d0",
-      "query_type": "Q7",
-      "score": 0.1
-    },
-    {
-      "qa_id": "Q8_n2c9d0e1",
-      "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Tobenna is open to discussing his job search, which directly contradicts the gold answer's assertion that he consistently avoids the topic."
     },
     {
       "qa_id": "Q2_n2d4e5f6",
       "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q4_n2e5f6a7",
       "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_n2c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies both the old and new states of Chidi's attitude, and the trigger for the change. It focuses on Emeka visiting for Christmas Eve rather than Chidi visiting his children in the UK."
+    },
+    {
+      "qa_id": "Q8_n2d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Emeka's old state, new state, and claims no change occurred, directly contradicting the gold answer on all three components."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

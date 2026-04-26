@@ -1,28 +1,17 @@
 {
   "network_id": "grp_3c4d5e6f",
   "condition": "smg",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:20:15.014750+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:20:56.868634+00:00",
   "sessions_used": 5,
   "total_pairs": 8,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.725,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.375,
+  "mean_context_words": 387.2,
   "by_query_type": {
     "Q1": {
       "count": 2,
-      "mean_score": 0.6
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.5
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.5
-    },
-    "Q8": {
-      "count": 1,
-      "mean_score": 0.6
+      "mean_score": 0.0
     },
     "Q2": {
       "count": 1,
@@ -32,11 +21,53 @@
       "count": 1,
       "mean_score": 1.0
     },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.0
+    },
     "Q6": {
       "count": 1,
       "mean_score": 1.0
     }
   },
-  "low_scoring": [],
-  "options_fix_applied": true
+  "low_scoring": [
+    {
+      "qa_id": "Q1_r3a1b2c3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer introduces dietary preferences, which are irrelevant to the question about hiking route preferences, and only partially captures one aspect of the gold answer's description of hiking route preferences."
+    },
+    {
+      "qa_id": "Q1_r3b2c3d4",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The gold answer explicitly states that Marcus 'never states it directly' and only acknowledged his knee problem after Bev observed him. The generated answer incorrectly claims 'Marcus mentioned that his knee gets stiff on descents. He stated, 'Gets a bit stiff on descents,'' implying a direct, initiated statement, which contradicts the gold answer's key nuance."
+    },
+    {
+      "qa_id": "Q5_r3e5f6a7",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to state Cass's actual dietary preference (vegan/needs plant-based options), instead stating an observation about finding options at a specific cafe. The explanation for how Bev knows is also weak, not fully identifying the specific observable action that proves prior knowledge as required for Q5."
+    },
+    {
+      "qa_id": "Q7_r3a7b8c9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_r3b8c9d0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer is 'NOT ENOUGH INFORMATION', which always scores 0.0 according to the critical rules."
+    }
+  ]
 }

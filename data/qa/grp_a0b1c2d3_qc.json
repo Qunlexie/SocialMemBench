@@ -1,0 +1,341 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "total_pairs": 24,
+  "phase1_mean_score": 0.967,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {"0": 0, "1": 1, "2": 23},
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {"easy": 0, "medium": 22, "hard": 2},
+  "by_query_type": {
+    "Q1": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q2": {"count": 2, "mean_score": 0.95, "flagged": 0, "mean_inference_required": 2.0},
+    "Q4": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.67},
+    "Q5": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q6": {"count": 2, "mean_score": 0.8, "flagged": 0, "mean_inference_required": 1.5},
+    "Q7": {"count": 4, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q8": {"count": 7, "mean_score": 0.957, "flagged": 0, "mean_inference_required": 2.0}
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [
+    {"qa_id": "Q6_a0b1c2d301", "query_type": "Q6", "score": 0.8, "your_answer": "Luis — his entries across sessions are event-triggered rather than routine check-ins; he appears when there is something specific to engage with", "ground_truth": "Luis (and Tyler to a lesser degree) — both are identified as formal dissenters; Luis's participation is topic-responsive rather than routine Sunday check-ins"},
+    {"qa_id": "Q6_a0b1c2d302", "query_type": "Q6", "score": 0.8, "your_answer": "Dana — prefers one-on-one conversations, sees the group chat as performative sometimes, and consistently avoids group announcements about her own life", "ground_truth": "Dana — she never initiates group announcements; her breakup was learned via Carol-via-Jess, not by Dana's own announcement; her communication style reflects a preference for private disclosure"}
+  ],
+  "per_pair": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "question": "What does Dennis's pattern of responding to his family's concern about his knee in Session 1 reveal about his relationship to medical care — and what specific phrasing makes his stance unmistakable?",
+      "blind_answer": "Dennis consistently refuses medical intervention: 'Knee is fine', 'Been resting it for thirty years. Still here.' (invoking longevity as proof), 'No need.' (to PT referral + ride offer). Carol confirms the pattern: he spent New Year's Day in the workshop instead of icing the knee as directed post-surgery. The phrase 'Been resting it for thirty years. Still here.' is the most revealing — it reframes avoidance as a proven track record.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly across all key elements: three progressive responses, Carol's confirmation, and identification of the specific phrase.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a0b1c2d302",
+      "query_type": "Q1",
+      "question": "What does Dana's complaint about Carol's studio visit in Session 3 reveal about her preference for how people engage with her space — and what in how she phrases it shows this is a principled position rather than a mood?",
+      "blind_answer": "Dana says 'i can't work when someone is in my space, it just doesn't work that way for me. i'm not trying to be rude, i just need people to text before coming over.' She names the mechanism, preempts misinterpretation, and reduces the ask to a single rule. Marcus confirms 'Dana's been freelance for four years now so to be fair this is a pretty established thing.' This is a long-standing workplace norm, not an in-the-moment frustration.",
+      "score": 1.0,
+      "score_rationale": "Blind answer captures all three markers of principled position (mechanism, preemption, single rule) and Marcus's corroboration — exact match with ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a0b1c2d303",
+      "query_type": "Q1",
+      "question": "What does Priya's response to Carol's gathering invitation in Session 2 reveal about her preference for visits — and what in the phrasing makes it difficult to mistake this for genuine flexibility?",
+      "blind_answer": "Priya says 'I'd honestly just love a quiet visit (though of course your call on what to plan). No pressure on a big gathering right now.' The word 'honestly' frames the quiet visit as her real preference stated first; the parenthetical is a characteristic softener, not an erasure. 'No pressure on a big gathering right now' explicitly contrasts small vs large. Bev and Rob both had to restate it when Carol ignored it, confirming it was clear.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth on all points: honest framing, parenthetical qualifier pattern, explicit contrast, and Bev/Rob repetition as evidence of clarity.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_a0b1c2d301",
+      "query_type": "Q2",
+      "question": "When Carol announced she would cook for Bev's visit in Session 1, and Luis endorsed the value of home-cooked food at gatherings in the same session, the group settled around a norm about food at family events. Which family member's preferences are actually at odds with this norm, even though they said nothing to challenge it in that session?",
+      "blind_answer": "Bev — she says 'I'm taking you out to that new Italian place on fifth for your birthday. Non-negotiable. You've fed this family for forty years.' Bev actively prefers taking Carol out rather than having Carol cook. This directly contradicts the home-cooked gathering norm, and she asserts it without qualification in the same session.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies Bev and the correct MC option (C); the ground truth answer also mentions Luis as a secondary dissenter which is not independently derivable from the conversation without network metadata, so minor omission.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_a0b1c2d302",
+      "query_type": "Q2",
+      "question": "When Rob and Priya announced they were visiting Columbus at the end of February in Session 7, what did Carol decide about who would be at the visit — and which family member's explicit objection most directly overrode her plan?",
+      "blind_answer": "Carol decided to include Bev, Marcus and Dana in a full Saturday dinner. Rob overrode her: 'Mom I said just us. Priya needs to rest, not host.' Bev backed him: 'Rob is right. Priya, I'll stop by Sunday instead for twenty minutes. Just Rob and Priya this time.' Rob's objection named the contradiction (Carol's plan would have Priya hosting, not resting) and used 'I said just us' to invoke his prior stated preference. The correct MC answer is D (Rob).",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — Carol's expansion plan, Rob's objection with exact phrasing, Bev's backing, final outcome.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a0b1c2d301",
+      "query_type": "Q4",
+      "question": "In Session 1, someone in the family expressed a strong preference for home-cooked food at gatherings over anything ordered or store-bought. Who held this preference, and what in how they expressed it tells you it was their genuine value rather than an endorsement of someone else's?",
+      "blind_answer": "Luis said 'the secret to a good family gathering is the food being actually made with your hands, not ordered in a box.' He frames it as a general principle ('the secret to a good family gathering'), not as a response to Carol's specific cooking. Carol had just offered to make a casserole, but she never articulated the principle as a rule — she simply cooks that way. Luis is the one who names the belief and then uses Carol as an example. MC answer: C (Luis).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Luis and correctly distinguishes between Carol's personal habit and Luis's stated general principle — exact match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a0b1c2d302",
+      "query_type": "Q4",
+      "question": "In Session 7, Marcus told the group that Tyler had been asking him oblique questions about graduate school applications for several weeks before Tyler said it out loud. What does this reveal about who was actually driving Tyler's interest in a sports science credential — and what makes it easy to mistake a different family member as the main influence?",
+      "blind_answer": "Marcus was the primary driver — he sent the Chronicle of Higher Education article, Tyler actually read it, and Marcus revealed he had been in private dialogue with Tyler about grad applications for three weeks before Tyler spoke publicly. Rob gave a compelling ROI framing when directly asked by Tyler, making him the apparent influence. But Marcus's role was earlier and more sustained. MC answer: C (Marcus).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Marcus as the initiator and Rob as the plausible foil, matching ground truth exactly on timing and initiative.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a0b1c2d303",
+      "query_type": "Q4",
+      "question": "In Session 7, someone told Dennis he should 'stay in school' — the message that genuinely moved Tyler. Who said it, and what distinguishes their message from the more detailed career advice given in the same session?",
+      "blind_answer": "Dennis said 'Tyler. Stay in school if you can.' Tyler's reaction: 'uncle D said stay in school i am literally crying. that means a lot actually no joke.' What distinguishes it from the other advice is that it is five words from the family patriarch — no ROI calculation, no program details, no metaphors. Its weight is relational. Tyler's emotional reaction identifies it as the message that landed differently. MC answer: D (Dennis).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Dennis and correctly explains the distinction via Tyler's emotional reaction — exact match with ground truth.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "question": "What does Jess reveal about Priya's relationship to admitting difficulty — and what in Jess's own message in Session 2 shows she had already understood this about Priya before Priya confirmed it?",
+      "blind_answer": "Priya acknowledged the first trimester was rough but immediately redirected to recovery. Jess responded: 'first trimester is brutal, you're allowed to say that out loud.' The phrase 'you're allowed to say that out loud' presupposes a prior constraint — Jess understood Priya was holding back before being told. In Session 7 Priya confirmed: 'The past few weeks have been harder than I let on earlier.' The ToM insight is in the word 'allowed' — it names the permission Priya needed before Priya named the pattern herself.",
+      "score": 1.0,
+      "score_rationale": "Blind answer captures the presupposition in 'allowed to say that out loud' and Session 7 confirmation — exact match with ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a0b1c2d302",
+      "query_type": "Q5",
+      "question": "What does Dana's approach to getting Dennis to book the orthopedist appointment in Session 7 reveal about what she understands about how Dennis responds to different kinds of persuasion?",
+      "blind_answer": "Dana says 'i told him if he didn't call i'd make the appointment myself. he called.' Marcus notes 'she has a very direct approach that Dad actually responds to better than the rest of us.' The contrast is with the other approaches in the conversation that failed — Marcus's informational appeal, Tyler's emotional plea, Rob's pain scale request. Dana used a direct ultimatum with a credible consequence, understanding Dennis responds to constraints rather than discussion.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — identifies the ultimatum strategy, names the contrast with failed approaches, and Marcus's explicit naming of the insight.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a0b1c2d303",
+      "query_type": "Q5",
+      "question": "What does Jess reveal about Bev's history in Session 3 — and how does the way she uses that information show she had understood something about why Bev was invested in Carol joining the class?",
+      "blind_answer": "Jess says: 'Bev signed herself up for her power-walking group after her divorce. She told me it changed things for her. Maybe that's relevant.' Jess is connecting Bev's post-divorce social rebuilding to Carol's retirement isolation — she understands that Bev's advocacy is personal experience, not generic advice. The understated 'Maybe that's relevant' is the ToM marker: Jess has already understood the parallel and is deploying it strategically rather than explaining it.",
+      "score": 1.0,
+      "score_rationale": "Blind answer captures all three elements: the history, the analogy, and the ToM inference from 'maybe that's relevant' — exact match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "question": "The Harrington family operates with a norm that Sunday evening is family chat time — everyone checks in at least once over the weekend. Based on the conversations, does this hold equally for all family members — or does someone consistently relate to it differently, and what tells you that?",
+      "blind_answer": "Luis relates differently — his entries are event-triggered (New Year, pregnancy announcement, hiking update) rather than routine check-in patterns. He appears when there is something specific to engage with, not as a regular participant. Tyler also appears reactively. MC answer: B (Luis).",
+      "score": 0.8,
+      "score_rationale": "Blind answer correctly identifies Luis and the event-responsive pattern; Tyler as secondary dissenter is noted but not fully elaborated; minor omission vs ground truth which names both formally.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_a0b1c2d302",
+      "query_type": "Q6",
+      "question": "The Harrington family has an expectation that big news — jobs, health, relationships — gets announced in the family chat before spreading to extended family. Based on what the conversations show, does everyone follow this norm — or does one member appear to have a different relationship to it, and what tells you that?",
+      "blind_answer": "Dana appears to have a different relationship — she prefers one-on-one over group dynamics, finds the chat performative, and never initiates group announcements about her own life. Her communication style throughout is minimal-signal and reactive. The contrast with Rob's structured announcements makes this visible. MC answer: A (Dana).",
+      "score": 0.8,
+      "score_rationale": "Blind answer correctly identifies Dana and her communication style; the ground truth also cites the breakup being learned via Carol-via-Jess rather than Dana's own announcement, which is mentioned in the answer text but not directly evidenced in the conversation itself.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "question": "What does Tyler's disclosure about Dennis in Session 1 reveal about the nature of their relationship — and what is it about the context of the disclosure that makes it particularly telling?",
+      "blind_answer": "Tyler mentions incidentally that 'uncle D taught me how to do single leg squats to work around bad knees' while trying to offer Dennis practical advice. The disclosure is casual and unprompted — he is not trying to demonstrate closeness. Dennis taught Tyler a personal workaround technique he uses for the same knee issue the whole conversation is about. This implies private practical conversations, skill transfer, and closeness taken for granted rather than performed.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth on all key points: incidental disclosure, practical skill transfer, closeness implied by the casualness of the framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "question": "What does Dana's behaviour in Session 1 toward Marcus's plan to visit their father reveal about how the two of them operate as a sub-group within the family — and what in Session 4 reinforces this?",
+      "blind_answer": "In Session 1, Dana says 'marcus going over wednesday sounds good, he'll actually get dad to eat something real too' — immediate endorsement with inside household knowledge, no logistics questions asked. In Session 4: 'i'll come. you always pick good ones.' — immediate acceptance based on track record. Both responses signal baseline trust, local proximity, and shared informal knowledge of their parents' household. They form a Columbus-based sibling sub-clique that coordinates practical care informally.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — both evidence anchors, the inside knowledge observation, and the sub-clique characterization.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "question": "What does Bev's approach to Carol in Session 3 — specifically the watercolor class situation — reveal about how their relationship has functioned historically, and what does Bev say that shows this pattern began before retirement?",
+      "blind_answer": "Bev says 'I've been thinking about this since I saw the paints still wrapped. I'm signing you up for the February session if you don't do it yourself by Friday.' She acts before being asked, sets a deadline, and follows through. Rob confirms the pattern predates retirement: 'Bev signed you up for the gym in 2019 and you went for eight months.' This establishes Bev as Carol's practical social enforcer going back at least to 2019, well before Carol retired in 2024.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — Bev's proactive action, deadline-setting, and the 2019 gym reference establishing the pre-retirement pattern.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a0b1c2d304",
+      "query_type": "Q7",
+      "question": "What does Jess's disclosure about Luis in Session 6 reveal about a pattern of disagreement between them — and what in how she phrases it shows she is acknowledging she was wrong?",
+      "blind_answer": "Jess says 'Luis has been saying this for a year actually and I kept saying flights are expensive but I think he's right.' She names the duration ('a year'), names her own prior position ('I kept saying flights are expensive'), and names her conclusion ('I think he's right'). The sentence structure is a concession: she credits Luis for a position she resisted for a year. It reveals a recurring dynamic where Luis advocates for family connection and Jess manages logistics.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — the sentence structure analysis, the named duration, and the relational dynamic characterization.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "question": "What triggered Dennis's shift in his stance on video calls between Sessions 1 and 5 — and what about the trigger explains why this particular thing worked when years of family pressure had not?",
+      "blind_answer": "Before state: Dennis refused video calls — Tyler notes 'last year u said facetime was for people with nothing to say.' Shift (Session 5): Dennis orders a tablet after Mia's video call — 'Couldn't see it well enough. Ordered a tablet.' Trigger: Mia held up a drawing of his garden that he couldn't see properly. This worked because it bypassed the argument Dennis was already winning (video calls are performative) and presented a concrete practical gap in his existing tools. 'Still true for most people' confirms the shift is narrow, not a general reversal.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — before state, trigger, specific mechanism explanation, and Dennis's confirmation of a narrow exception.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "question": "What explains Bev's shift from staying on the periphery of Harrington family decisions to actively weighing in — and what signalled the change was happening in Session 5?",
+      "blind_answer": "Before state: Bev participates as emotional support and social coordinator but stays out of Harrington household decisions. Shift signal (Session 5): Carol asks Bev what the house is worth 'just out of curiosity'; Bev immediately responds as a professional with specific comparable sales and a dollar range, then offers 'Do you want me to walk through it properly? I can be there Saturday morning.' Trigger: Carol's explicit professional question gave Bev permission to cross from emotional to advisory role. The proposal for a formal walkthrough is the shift marker.",
+      "score": 0.9,
+      "score_rationale": "Blind answer captures trigger and shift marker accurately; the 'before state' is slightly underdeveloped since the conversation doesn't explicitly show Bev declining advisory roles in earlier sessions — inferred from her general character.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "question": "What drove Luis's shift in his stance on Columbus visit frequency between Sessions 1 and 6 — and what in his message in Session 6 shows this was an emotional trigger rather than a logistical reassessment?",
+      "blind_answer": "Before state: Luis fine with annual visits, no complaint in Sessions 1-5. Shift (Session 6): Luis says 'Carol okay I have to be honest, that hit me harder than I expected. My mom said something similar last month. I want to talk about doing a second trip this year.' The emotional trigger marker is 'hit me harder than I expected' — he names surprise at his own reaction. Jess reveals the position had been building privately for a year. Trigger: Carol's observation about barely recognising the grandkids' voices, combined with a parallel from Luis's own mother.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — names the trigger, quotes the emotional marker, includes Jess's year-long disclosure, and explains the convergence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "question": "What signalled Dana's shift in her relationship to proximity to her parents between Sessions 1 and 6 — and what explains why the trigger produced a different response than prior years of the same proximity had?",
+      "blind_answer": "Before state: Dana maintains workspace boundaries and keeps emotional distance (treating proximity as temporary). Shift (Session 6): When Dennis's knee is raised again, Dana says 'ok. i'm going to come over thursday. not to make it a thing. just to check in.' First proactive parental welfare action in the corpus. The phrase 'not to make it a thing' reveals she is managing her own stance while acting against it. Trigger: Dennis's knee flaring again prompted unexpected anxiety in Dana about her parents' health.",
+      "score": 0.8,
+      "score_rationale": "Blind answer captures the behavioral shift and the 'not to make it a thing' analysis correctly; the explicit anxiety framing is derived from the prior session summary context rather than directly from Dana's Session 6 dialogue, causing slight confidence gap.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "question": "What drove Rob's reversal on extended family stays between Sessions 1 and 7 — and what in the phrasing of his Session 7 message shows this was a genuine change rather than a concession to Carol's pressure?",
+      "blind_answer": "Before state: Rob managed visit expectations tightly (e.g., Session 2 correcting Carol about Priya's quiet visit preference). Shift (Session 7): 'I've always been against extended family stays, you all know that, too many people in the house for too long is not my thing. But the last few weeks with Priya having a rough time and it just being the two of us has made me think differently.' Trigger: Priya's difficult weeks and their isolation as a couple. 'I've always been against extended family stays, you all know that' is the clearest marker of genuine reversal — he names and abandons his prior position explicitly.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — quotes the reversal sentence, identifies the 'you all know that' marker, and names the trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "question": "What explains Tyler's shift from wanting to go straight into fitness coaching to seriously considering a graduate sports science certificate — and what in his Session 7 message signals the change was self-driven rather than simply compliance with family advice?",
+      "blind_answer": "Before state: Tyler wanted straight-to-coaching after graduation. Shift: Tyler says 'i've always said i'm going straight to coaching but now i'm like... maybe a cert in sports science isn't the worst idea? still figuring it out.' The ellipsis and hedge 'isn't the worst idea?' signal genuine ambivalence, not a completed decision. Trigger: Marcus's Chronicle article about kinesiology salary gap, which Tyler actually read completely. Self-driven quality established by Marcus revealing Tyler had been asking oblique questions about grad applications for three weeks before saying it out loud.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — the ambivalence markers, the article trigger, and the three weeks of private questioning establishing self-direction.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "question": "What explains the shift in Carol's social orientation between Sessions 1 and 5 — and what in the Session 3 exchange shows that the change was externally catalysed rather than something Carol had been moving toward on her own?",
+      "blind_answer": "Before state: Carol says 'I just think the family is enough for me, I've never needed to go find friends outside of everything we have.' Her watercolor supplies were still wrapped a month after receiving them. Shift: End of Session 3, in real time during the conversation: 'February 3rd is the first class, Tuesday mornings. I signed up.' Session 8 confirms: 'I feel like a different person on Tuesday mornings.' External catalysis is evident in the timing — Carol capitulated during the conversation under Bev's deadline and family consensus, not after private reflection. She was resistant just moments before signing up.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly — before state resistance, real-time shift, Bev's deadline as catalyst, Session 8 evolved state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "8 sessions each with a distinct primary thread: New Year/Dennis knee (S1), pregnancy announcement (S2), Carol isolation + Dana territory (S3), Jess hiking + Marcus game night (S4), watercolor class + Dennis tablet + house valuation (S5), 20-week scan + grandkids voices + Luis second trip + knee flare + Dana relocation (S6), Priya update + Rob's reversal + Tyler career (S7), game night recap + Feb 28 visit planning (S8). Family group type with recurring concerns is appropriate, but each session has a distinct immediate primary thread."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All 10 personas pass across all 5 sub-dimensions. Carol: frequent emoji, verbose, casual, 'Hi loves!'/'just let me know!!' quirks present. Dennis: never emoji, terse single sentences with periods, no punctuation elsewhere. Jess: rare emoji, concise, full sentences, 'What I'm hearing is...' quirk present. Luis: moderate emoji, verbose, food metaphors ('low and slow', 'mise en place'), exclamation-heavy. Rob: rare emoji, concise, no typos, semi-formal, signs with 'R', structured messages. Priya: moderate emoji (:)), concise, parenthetical qualifiers '(though of course...)' consistent throughout. Dana: rare emoji, lowercase even proper nouns, '...' at end of oblique criticisms, blunt. Marcus: never emoji, verbose with paragraph breaks, 'to be fair'/'actually' tics consistent. Bev: moderate emoji, concise, real estate shorthand ('great bones', 'priced to move'), 'love you all' pivot. Tyler: frequent emoji, High typo rate ('u', 'ur', 'lmaooo', 'no cap'), concise, warm."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-triggered. S3: Dana says 'speaking of things' to shift to studio visit. S5: Carol says 'Speaking of the house!!' to shift to valuation. S7: Marcus says 'On a completely different note' to introduce Tyler career topic. S8: Jess asks about watercolor class to shift from Feb 28 planning. No cold jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em-dashes (—) found in any message fields in the corpus. Double-hyphens (--) used by Marcus in two turns (s03_t012, s04_t017) are not em-dashes. Protected text (evidence anchor excerpts) also contains no em-dashes."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 24 QA pairs' evidence anchor message_excerpts verified near-verbatim against actual turn message text. Minor acceptable variation: Q1_a0b1c2d301 evidence anchor omits trailing ', Jess' from s01_t008 Carol message — excerpt is a proper substring, not a fabrication. All other anchors match exactly."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

@@ -1,0 +1,273 @@
+{
+  "network_id": "grp_c3d4e5f6",
+  "total_pairs": 13,
+  "phase1_mean_score": 0.915,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 0.923,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 3,
+    "2": 10
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 10,
+    "easy": 2,
+    "hard": 1
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.925,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.875,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.75,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.95,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [
+    {
+      "qa_id": "Q5_c3d4e5f601",
+      "query_type": "Q5",
+      "score": 0.75,
+      "your_answer": "Sandra works night shifts (she mentioned 'I'm on nights that weekend' in Session 2 and 'before my night shifts' in Sessi",
+      "ground_truth": "Sandra works rotating night shifts as a nurse. Carmen revealed she knew this in Session 5 when she posted a noise-down r"
+    }
+  ],
+  "per_pair": [
+    {
+      "qa_id": "Q1_c3d4e5f601",
+      "query_type": "Q1",
+      "question": "How does Dan respond whenever the building's electronic entry system comes up in conversation, and what does that pattern suggest about his view of it?",
+      "blind_answer": "Dan responds to keycard/electronic entry topics with terse deflections: 'fine by me. though I still say a regular key never needed a battery' and 'back when this place had a real key there was nothing to lose power. but fine.' These signal quiet skepticism toward the electronic system and preference for a mechanical key.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches ground truth exactly \u2014 same turns cited, same conclusion about skepticism and mechanical preference.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_c3d4e5f602",
+      "query_type": "Q1",
+      "question": "What does Priya's engagement pattern in the group chat suggest about how she thinks the chat should be used?",
+      "blind_answer": "Priya responds to every practical building message (maintenance, events, logistics) but stays completely silent when Kevin posts an off-topic meme in Session 5 while Carmen reacts with laughing emojis. She re-engages immediately when the conversation returns to building topics, suggesting she prefers the chat to be strictly building-relevant.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches ground truth \u2014 same contrast identified, same interpretation. Minor difference: blind answer doesn't cite Felix's remark as a separate signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_c3d4e5f603",
+      "query_type": "Q1",
+      "question": "What does Amir's behavior around building social event planning reveal about where he prefers gatherings to happen?",
+      "blind_answer": "Whenever the common room is suggested for a gathering (Session 7), Amir immediately counters with the cafe as an alternative, framing it as easier. His general pattern throughout the sessions is to direct social events to the cafe. The group begins calling him the 'unofficial social chair,' suggesting the pattern is recognized.",
+      "score": 0.9,
+      "score_rationale": "Blind answer captures the deflection pattern and Session 7 specific evidence; minor omission of Session 6 coffee station proposal as additional data point.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_c3d4e5f604",
+      "query_type": "Q1",
+      "question": "What do Ruth's messages across the sessions suggest about her comfort level with the group chat?",
+      "blind_answer": "Ruth regularly replies to old messages as if they are new or asks about things already settled in the same session. In Session 1 she offers unnecessary access clarification; in Session 2 she tags 're: the package theft from last week' after the topic had moved on; in Session 7 she asks whether the BBQ is 'this Saturday' after the date was confirmed. Suggests she struggles with the chat interface.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 same three anchor sessions identified, same conclusion about interface difficulty.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_c3d4e5f601",
+      "query_type": "Q2",
+      "question": "The group agreed on a building BBQ in Session 2. What did the group decide, and what did one resident's response in that moment reveal about their actual position \u2014 specifically, what in how they responded tells you that?",
+      "blind_answer": "Group agreed on a Saturday courtyard BBQ with Amir offering a cafe dessert finish. Kevin replied 'sounds good \ud83d\udc4d' \u2014 noticeably brief and flat compared to his usual 'yo/ngl/multi-emoji' style; other members (Priya: 'love this idea!', Carmen, Felix, Sandra) all replied more substantively. The minimal response suggests Kevin may have a conflict he didn't mention.",
+      "score": 0.9,
+      "score_rationale": "Strong match \u2014 correctly identified Kevin as the outlier, cited the contrast with his normal tone, and correctly identified the BBQ decision.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_c3d4e5f602",
+      "query_type": "Q2",
+      "question": "In Session 4 the group agreed to put up holiday lobby decorations. Did the response suggest full buy-in from everyone? If not, whose reply stood out and what was different about it?",
+      "blind_answer": "Group agreed to holiday lobby decorations. Yuki replied 'ok' \u2014 single word, no festive language, no emoji, no mention of contributing, unlike Amir ('YES!! holiday vibes'), Kevin ('lol festive \ud83c\udf84'), Carmen (excited, contributed items), Ruth (contributed a wreath). Yuki's bare acknowledgment suggests she may not observe the holiday.",
+      "score": 0.85,
+      "score_rationale": "Good match \u2014 correctly identified Yuki and explained the contrast. Minor: Felix also said 'Fine by me. Not opposed.' but his dry register is characteristic, not a signal of disengagement. Yuki is the clearer outlier.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_c3d4e5f601",
+      "query_type": "Q4",
+      "question": "In Session 6, a resident brought up the idea of having a coffee option in the building's lobby. Who first raised this, and how can you tell it was them rather than another resident who made a similar comment?",
+      "blind_answer": "Felix first raised the lobby coffee idea in Session 6 with 'For the record: a coffee machine in the lobby would not be the worst idea. When you're home all day, the walk to a cafe adds up.' \u2014 dry, understated, practical. Priya followed with 'would love a coffee spot downstairs! is it just me or would everyone use that?' \u2014 warm, socially-framed, second-wave. Felix is the originator, distinguishable by his dry framing versus Priya's enthusiasm.",
+      "score": 0.9,
+      "score_rationale": "Near-exact match \u2014 same speakers, same turn order, same register distinction cited.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_c3d4e5f601",
+      "query_type": "Q5",
+      "question": "What is Sandra's work schedule, and how does Carmen's behavior in Session 5 show that she already knew this before Sandra mentioned it in the chat?",
+      "blind_answer": "Sandra works night shifts (she mentioned 'I'm on nights that weekend' in Session 2 and 'before my night shifts' in Session 6). Carmen in Session 5 says 'some of us work nights and need to sleep during the day' as a standing fact \u2014 without directing it to Sandra or asking. Sandra's grateful reply 'Would appreciate that. Thank you Carmen.' confirms it was about her. Carmen's framing as assumed knowledge suggests she has already internalized Sandra's schedule.",
+      "score": 0.75,
+      "score_rationale": "Main answer correct (Sandra works nights, Carmen's phrasing implies prior knowledge). However, the QA ground truth claims Sandra 'hadn't disclosed her schedule before Session 5' \u2014 this is inaccurate since Session 2 t014 shows Sandra saying 'I'm on nights that weekend.' The ToM mechanism is real but the evidence for it being 'prior' knowledge (vs. remembered disclosure) is weaker than stated.",
+      "inference_required": 1,
+      "grounded": false,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_c3d4e5f601",
+      "query_type": "Q6",
+      "question": "The Maple Heights group generally uses the chat for building matters. Does this hold for all members, and if not, what does one resident's behavior actually look like?",
+      "blind_answer": "Kevin regularly posts off-topic content \u2014 a meme in Session 5, casual social observations in Session 8. Felix calls it out in Session 5 ('Not building-related but noted.'). Kevin acknowledges it ('yeah my bad sometimes') but explains rather than stopping. The norm applies to others but Kevin's behavior consistently deviates.",
+      "score": 0.9,
+      "score_rationale": "Strong match \u2014 correct identification of Kevin, Felix's call-out, and Kevin's pattern of acknowledgment without behavior change.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_c3d4e5f601",
+      "query_type": "Q7",
+      "question": "What does the conversation reveal about the history between Carmen and Marcus that predates this building?",
+      "blind_answer": "Carmen reveals in Session 4 that Marcus was the superintendent at her previous building on Elm Street: 'Marcus was the super at my old place on Elm Street too, guys \u2014 genuinely one of the best.' Marcus confirms in Session 8: 'Elm Street's boiler made everything harder.' Prior superintendent-tenant relationship at a different building.",
+      "score": 0.9,
+      "score_rationale": "Near-exact match \u2014 same disclosure, same sessions, same relationship type. Inference was low since Carmen stated it explicitly.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_c3d4e5f602",
+      "query_type": "Q7",
+      "question": "What connection between Priya and Sandra is revealed in Session 7, and what is the nature of that connection?",
+      "blind_answer": "Priya says 'see you at 7am Sandra btw, yoga is back on after last week's sub' in Session 7. Sandra replies 'Copy that. See you there.' \u2014 a routine, matter-of-fact exchange. They share a morning yoga class near the building.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 same disclosure, same session, same nature of connection identified.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c3d4e5f601",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Dan's attitude toward the group chat shifted, and what appears to have driven that change?",
+      "blind_answer": "Sessions 1-2: Dan is minimal and skeptical \u2014 'fine by me' + references to the old key system. Session 3: Dan reports his stolen package was recovered and says 'yeah. useful thing, this chat.' \u2014 clear shift. Sessions 4-8: Dan offers to bring the folding table, proactively reports a burnt-out light, attends the BBQ, and initiates warm messages. The package recovery was the trigger.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 same three-stage arc (skeptic \u2192 shift at package recovery \u2192 engaged), same specific turns cited.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c3d4e5f602",
+      "query_type": "Q8",
+      "question": "In which session does Yuki's engagement with the group chat first change, and what in that session explains why?",
+      "blind_answer": "Sessions 1-2: Yuki responds with 'noted' and a single '\ud83d\udc4d' \u2014 minimal and passive. Session 3: Yuki gets locked out, the group responds within minutes, and she writes 'Thank you all. The fast response was very helpful. I appreciate it.' \u2014 her most substantive message to that point. Sessions 4-8: She responds in-context, and by Session 8 asks 'Could we do another in March?' \u2014 initiating a request. The lockout incident was the turning point.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 same session (3) identified as shift point, same cause (lockout response), same behavioral progression across sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Sessions cover keycard rollout, package theft, lockout, holiday decorations, noise/night shifts, coffee idea, BBQ, community recap. Good variety across 8 sessions for an acquaintance_network group."
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Lowest sub-dimension: typo_rate. Kevin is profiled as Moderate (several typos/session) but actual messages use slang/abbreviations (yo, ngl, prob) rather than genuine misspellings \u2014 cleaner than profile suggests. All other personas clear. Verbosity: Carmen and Amir (Verbose) messages mostly in 20-40 word range, acceptable for acquaintance_network. All quirks present for all 10 personas."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts character-driven: Carmen proposes BBQ, Dan brings up package recovery, Priya raises laundry light, etc. No cold jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "49 em-dashes present in initial file were replaced with commas in a post-generation fix. Final file: 0 em-dashes in all message fields."
+    },
+    "planted_turn_integrity": {
+      "score": 1,
+      "notes": "Anchor turn_ids were systematically off in the QA generation script. Fixed in this QC pass: 12 anchor corrections across 10 pairs. Also fixed 2 planted_challenge_ref misassignments in the conversation file (ch_c307 was on Amir S4 t018, corrected to Carmen S4 t010; ch_c311 was on Dan S7 t018, corrected to Amir S7 t010). Excerpts in all anchors correctly describe the intended turns \u2014 only turn_ids were wrong. Post-fix: all excerpts match their corrected turn_ids. Additional note: Q5 answer incorrectly claims Sandra 'hadn't disclosed night shifts before Session 5'; actually she mentioned 'I'm on nights that weekend' in Session 2 t014. The ToM mechanism remains valid but the supporting claim is inaccurate."
+    },
+    "overall_pass": true,
+    "failing_turns": [
+      "anchor_fix: Q1_c3d4e5f601[0] t014\u2192t008",
+      "anchor_fix: Q1_c3d4e5f602[2] t017\u2192t010",
+      "anchor_fix: Q1_c3d4e5f603[0] t018\u2192t010, [1] t030\u2192t016",
+      "anchor_fix: Q1_c3d4e5f604[2] t038\u2192t020",
+      "anchor_fix: Q2_c3d4e5f602[1] t004\u2192t003",
+      "anchor_fix: Q5_c3d4e5f601[1] t012\u2192t008",
+      "anchor_fix: Q6_c3d4e5f601[2] t025\u2192t014",
+      "anchor_fix: Q7_c3d4e5f601[0] t018\u2192t010, [1] t024\u2192t013",
+      "anchor_fix: Q7_c3d4e5f602[0] t004\u2192t003, [1] t006\u2192t004",
+      "anchor_fix: Q8_c3d4e5f601[2] t006\u2192t004",
+      "anchor_fix: Q8_c3d4e5f602[2] t012\u2192t007",
+      "conv_fix: ch_c307 s04_t018\u2192s04_t010; ch_c311 s07_t018\u2192s07_t010"
+    ]
+  },
+  "baseline_reference": "none",
+  "qc_run_at": "2026-04-18T22:17:22.307668Z",
+  "anchor_fixes_applied": 12,
+  "conv_planted_ref_fixes": 2
+}

@@ -1,0 +1,28 @@
+{
+  "network_id": "grp_a3b4c5d6",
+  "verified_at": "2026-04-18T00:00:00Z",
+  "stage1_pass": null,
+  "stage2_pass": true,
+  "stage3_pass": null,
+  "overall_pass": true,
+  "failure_count": 0,
+  "warnings": [],
+  "stage2_checks": {
+    "sessions_present": {"pass": true, "detail": "8 sessions"},
+    "turn_count_per_session": {"pass": true, "detail": "15-16 turns per session (all within 10-25 range)"},
+    "planted_challenges_exist": {"pass": true, "detail": "18 planted challenges"},
+    "planted_challenge_field_completeness": {"pass": true, "detail": "All 10 required fields present in all 18 challenges"},
+    "challenge_type_variety": {"pass": true, "detail": "7 distinct types: implicit_preference, temporal_shift, relational_disclosure, false_attribution_seed, consensus_trap, theory_of_mind, relational_graph"},
+    "speaker_coverage": {"pass": true, "detail": "All 9 personas appear as speakers: Nora, Bex, Otto, Yuki, Callum, Priya, Sol, Margot, Fen"},
+    "temporal_shift_present": {"pass": true, "detail": "7 temporal_shift challenges covering all 9 preference_history events"},
+    "evidence_spans_non_empty": {"pass": true, "detail": "All 18 evidence spans non-empty"},
+    "evidence_span_verbatim": {"pass": true, "detail": "Sample of 3 checked (ch_a3b4c501, ch_a3b4c502, ch_a3b4c503): all found verbatim"},
+    "session_date_continuity": {"pass": true, "detail": "8 weekly Saturdays: 2025-02-01 through 2025-03-22, strictly monotonic"},
+    "day_of_week_accuracy": {"pass": true, "detail": "All sessions are Saturdays, consistent with dates"},
+    "message_length_ceiling": {"pass": true, "detail": "Max message length: 341 chars (under 400 warning threshold)"},
+    "no_em_dashes": {"pass": true, "detail": "0 em dashes in all message fields"},
+    "no_out_of_character_narration": {"pass": true, "detail": "No 3rd-person narration detected"},
+    "topic_variation": {"pass": true, "detail": "interest_community: photography primary domain anchors all sessions; natural digressions include collective logistics (scan-sharing), external praise (newsletter), and exhibition planning"},
+    "verbosity_realized": {"pass": true, "detail": "Bex (Verbose/Frequent emoji) has consistently long messages with multiple emoji and question clusters; Otto (Verbose/Never emoji) has long explanatory messages with teaching instinct; Sol (Verbose/Frequent emoji) has expressive mid-thought bursts; Yuki, Priya, Margot, Nora, Callum, Fen all clearly shorter and more terse"}
+  }
+}

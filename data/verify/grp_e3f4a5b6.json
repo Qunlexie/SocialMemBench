@@ -1,0 +1,34 @@
+{
+  "network_id": "grp_e3f4a5b6",
+  "verified_at": "2026-04-23T00:00:00Z",
+  "stages_checked": [2],
+  "stage2": {
+    "pass": true,
+    "checks_run": 18,
+    "checks_passed": 18,
+    "checks_failed": 0,
+    "warnings": 0,
+    "details": [
+      {"check": "sessions_present", "result": "pass", "note": "8 sessions found"},
+      {"check": "turn_count_per_session", "result": "pass", "note": "S1:21 S2:22 S3:25 S4:21 S5:23 S6:23 S7:24 S8:23 — all within 10–25"},
+      {"check": "message_format", "result": "pass", "note": "Sampled 5 turns — all match [Session N, H:MMpm] Name: message pattern"},
+      {"check": "no_out_of_character_narration", "result": "pass", "note": "No turns start with 'As [Name]' or '*[Name]'"},
+      {"check": "planted_challenges_exist", "result": "pass", "note": "28 planted challenges in index"},
+      {"check": "planted_challenge_field_completeness", "result": "pass", "note": "All 28 challenges have all required non-null fields"},
+      {"check": "challenge_type_variety", "result": "pass", "note": "8 distinct types: implicit_preference, false_attribution_seed, relational_graph, theory_of_mind, consensus_trap, temporal_shift, relational_disclosure, departure"},
+      {"check": "speaker_coverage", "result": "pass", "note": "All 5 personas appear as speakers in at least one session (Simone absent from S7/S8 post-departure — correct)"},
+      {"check": "temporal_shift_present", "result": "pass", "note": "5 temporal_shift challenges found: ch_c5d6e7f8, ch_a9b0c1d2, ch_b0c1d2e3, ch_d2e3f4a5, ch_e3f4a5b6"},
+      {"check": "evidence_spans_nonempty", "result": "pass", "note": "All 28 evidence_spans are non-empty"},
+      {"check": "evidence_span_verbatim", "result": "pass", "note": "Sampled 3: ch_a1b2c3d4 (s01_t009), ch_e5f6a7b8 (s02_t005), ch_b0c1d2e3 (s05_t015) — all found verbatim"},
+      {"check": "timestamp_label_consistency", "result": "pass", "note": "Sampled 5 turns across sessions — all timestamp_label hours/minutes match timestamp ISO field"},
+      {"check": "day_of_week_accuracy", "result": "pass", "note": "All 8 session date_labels correctly say 'Sunday'; dates Oct 5, 12, 19, 26, Nov 2, 9, 16, 23 2025 are all Sundays"},
+      {"check": "session_date_continuity", "result": "pass", "note": "Dates strictly increasing: Oct 5 < Oct 12 < Oct 19 < Oct 26 < Nov 2 < Nov 9 < Nov 16 < Nov 23"},
+      {"check": "message_length_ceiling", "result": "pass", "note": "No message exceeds 400 chars; no failures or warnings triggered"},
+      {"check": "topic_variation_matches_group_type", "result": "pass", "note": "close_friends: 8 distinct immediate primary threads — work stress, hiking trip planning, dating, logistics, pre-trip, post-trip + Singapore, career doubt, year-end planning"},
+      {"check": "verbosity_realized_in_transcript", "result": "pass", "note": "Marcus (Verbose): consistently long messages with detail. Dev (Terse): almost all 1–5 words. Priya (Concise): medium-length. Jonah (Verbose): lively multi-sentence. Simone (Concise): crisp structured."},
+      {"check": "no_em_dashes_in_messages", "result": "pass", "note": "Zero em dashes found in any message field"}
+    ],
+    "failures": []
+  },
+  "overall_pass": true
+}

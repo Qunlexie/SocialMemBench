@@ -1,0 +1,302 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "total_pairs": 18,
+  "phase1_mean_score": 0.967,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 6,
+    "2": 12
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 13,
+    "hard": 5
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.98,
+      "flagged": 0,
+      "mean_inference_required": 1.6
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.95,
+      "flagged": 0,
+      "mean_inference_required": 1.5
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.967,
+      "flagged": 0,
+      "mean_inference_required": 1.83
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_d4e5f601",
+      "query_type": "Q1",
+      "question": "In Session 1, what does the way Zara mentions her restaurant habits tell us about her relationship with meat-based dishes, and what in her phrasing signals this is a long-standing practice rather than a one-off?",
+      "blind_answer": "In Session 1 Zara mentions considering the Peckham mezze and says 'I always ask them to do the mezze without the lamb anyway so it works perfectly for me.' The word 'always' and the casual 'anyway' signal a habitual, standing practice \u2014 describing her default, not a one-off. Session 5 confirms 'I've been vegetarian for years.'",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify 'always' and matter-of-fact framing as signals of long-established vegetarianism, with Session 5 as confirmatory anchor.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_d4e5f602",
+      "query_type": "Q1",
+      "question": "Based on how Dom talks about his physical activity in Session 2, what can be inferred about the intensity level he typically operates at, and what makes clear this is his baseline rather than an unusual week?",
+      "blind_answer": "Dom says 'Increased my volume this week, legs and conditioning both, it's intense tbh' \u2014 adding to an already heavy schedule. He is doing a morning session before Sunday dinner and is already 'in a deficit from this morning.' The casual framing of calorie management as a logistical aside indicates this is routine, not exceptional.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify the volume-increase framing and the casual deficit tracking as evidence of a high-intensity baseline.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_d4e5f603",
+      "query_type": "Q1",
+      "question": "What do Priya's responses in Sessions 3 and 4 reveal about her instincts around social occasions and group size, and what makes her reactions stand out against the group's?",
+      "blind_answer": "In Session 3, the group is enthusiastic about a birthday night out and Priya's entire response to a direct question ('Priya you're coming yes?') is 'Fine.' In Session 4, when numbers are discussed, she asks 'How many people do you need for a good birthday.' \u2014 a dry rhetorical question implicitly challenging the assumption that scale improves the occasion.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify 'Fine.' as compliance-without-investment and the rhetorical question as implicit pushback on group scale.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_d4e5f604",
+      "query_type": "Q1",
+      "question": "What does Marcus reveal in Session 7 about what kind of cooking he now considers successful, and what specific detail shows he is measuring success differently than before?",
+      "blind_answer": "In Session 7 Marcus announces 'Five courses instead of nine, simpler sourcing, fewer components on each plate.' His new success metric: a customer returning the following night for a second portion of chicken \u2014 'Nobody has done that in months. That one thing told me more than any review.' Contrasts with Session 5 where he admitted the old menu 'felt like noise.'",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify the five-course announcement and the customer return story as the new benchmark contrasted with the emotionally-distant old approach.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_d4e5f605",
+      "query_type": "Q1",
+      "question": "What do Felix's comments in Sessions 5 and 8 reveal about how he relates to the food trends and dietary shifts popular within the group?",
+      "blind_answer": "Felix is sceptical of food trends and maintains traditional preferences. In Session 5, Felix pre-empts Zara's announcement with 'One assumes this is about dairy.' In Session 8, cashew cheese is merely 'tolerable' and 'I prefer actual cheese.' These two data points show he monitors group food movements but does not adopt them.",
+      "score": 0.9,
+      "score_rationale": "Strong match \u2014 both identify detached scepticism and traditional preference from the same anchors; ground truth adds unsupported claim about Felix's views on principle-vs-trend veganism not found in corpus.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_d4e5f606",
+      "query_type": "Q4",
+      "question": "In Session 2, who made the argument that natural Beaujolais wine is currently being overlooked by drinkers in the UK, and what in their phrasing correctly identifies them as the source?",
+      "blind_answer": "Marcus made this argument. His message: 'the natural wine people in this country still sleep on Beaujolais... everyone's still chasing Burgundy or the trendy Jura stuff.' The framing is an advocacy claim about cultural blind spots. Felix also discusses Beaujolais but as a precise producer recommendation ('the 2022 Lapierre... consistent for five years') \u2014 analytical and evaluative rather than advocacy.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 correctly identifies Marcus by advocacy framing vs Felix's analytical evaluation; same distinguishing mechanism identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_d4e5f607",
+      "query_type": "Q5",
+      "question": "What does Dom typically do before attending group social events? And what in Zara's Session 2 message shows she already knew this without needing to ask him?",
+      "blind_answer": "Dom trains before group events, often multiple sessions. Zara's Session 2 message: 'Dom are you coming from the gym on Sunday? Knowing you, you'll have already done two sessions by then.' She predicts it as settled knowledge ('knowing you'), not asking. Dom's immediate reply \u2014 'Accurate. Morning session first, then I'll head straight over' \u2014 confirms entirely.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify 'knowing you' as the observable prior-knowledge marker and Dom's 'Accurate' as confirmation.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_d4e5f608",
+      "query_type": "Q5",
+      "question": "What had Felix's established position on team sports been before Session 7, and how does Zara's comment in that session reveal that the group already knew this as a fixed characteristic of his?",
+      "blind_answer": "Felix had a long, vocally maintained aversion to team sports that had become a group reference. In Session 7, Zara: 'Dom you used to joke that Felix would never kick a ball in his life, didn't you say that once?' Dom confirms: 'Said it multiple times over the years tbh. Felix always talked about football like it was a gathering of people who'd run out of ideas.' Felix himself acknowledges 'I have, historically, found team sports largely pointless for adults.'",
+      "score": 0.9,
+      "score_rationale": "Strong match \u2014 both identify the same three turns as evidence of entrenched group knowledge; minor wording difference in Dom's recalled quote vs actual corpus text.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_d4e5f609",
+      "query_type": "Q2",
+      "question": "The group settled on a Peckham birthday night for Zara in Session 3. What did one member's response to that plan reveal about their actual position, and what specifically in how they responded tells you that?",
+      "blind_answer": "Priya is the dissenter. After universal enthusiasm, Zara directly addresses her: 'Priya you're coming yes?' Priya's entire response is 'Fine.' \u2014 compliance without investment. One word against seven enthusiastic messages. Kezia immediately reads the tone: 'Priya enthusiasm off the charts as always.'",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify 'Fine.' as the implicit dissent signal and the contrast with universal enthusiasm as the mechanism.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_d4e5f610",
+      "query_type": "Q2",
+      "question": "The group agreed on an Ethiopian restaurant for Zara's birthday dinner in Session 5. What did one member's response to that decision reveal about their actual position, and what specifically in their phrasing signals this?",
+      "blind_answer": "Felix responded 'If that is the consensus.' The conditional 'if' introduces deliberate distance. 'The consensus' frames his agreement as deference to collective will rather than personal preference. Compared to Kezia's 'perfect birthday vibe,' Dom's endorsement, and Marcus's warmth for Ethiopian cuisine, Felix's response is plainly passive acquiescence.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify the conditional 'if' and 'the consensus' framing as passive acquiescence contrasted with others' genuine enthusiasm.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d4e5f611",
+      "query_type": "Q8",
+      "question": "What drove the change in Dom's approach to exercise between Sessions 2 and 4, and what in Session 4 shows the new regime is the opposite of what he normally does?",
+      "blind_answer": "Session 2: Dom training at high intensity, increasing volume, managing double sessions and deficits casually. Session 3: knee injury from five-a-side. Session 4: physio diagnoses meniscus strain: 'yoga and swimming for six weeks, everything else is off. Basically the opposite of what I normally do tbh.' Dom's own phrasing confirms the contrast.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 all three sessions and Dom's explicit 'opposite of what I normally do' correctly identified as the mechanism.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d4e5f612",
+      "query_type": "Q8",
+      "question": "What appears to have pushed Zara's dietary choices further in Session 5, and what in earlier sessions shows what her prior position had been?",
+      "blind_answer": "Session 1: Zara avoids lamb habitually \u2014 vegetarian baseline. Session 5: 'I've been vegetarian for years but I always had a bit of a cheese problem. The documentary just made the dairy thing feel like something I can't unknow anymore. Marcus those sourcing conversations we had after the dinner, that's what sent me down the rabbit hole.' Two triggers: a dairy documentary and Marcus's sourcing discussions.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both triggers named and both temporal anchors (S1 vegetarian, S5 vegan) correctly identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d4e5f613",
+      "query_type": "Q8",
+      "question": "What explains Marcus's change in how he thinks about his restaurant's cooking, and what in Sessions 2 and 7 shows what his approach had been before and what it became?",
+      "blind_answer": "Session 2: elaborate multi-course menu \u2014 technically ambitious. Session 5: critic review 'technically accomplished but emotionally distant' lands: 'I think they're right.' Session 7: 'Five courses instead of nine, simpler sourcing, fewer components.' Customer returning next night for a second portion becomes the new benchmark over review scores.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 three-session arc (S2 ambition, S5 trigger, S7 new approach) and the customer-return metric all correctly identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d4e5f614",
+      "query_type": "Q8",
+      "question": "What drove Kezia to reverse her stated position on video calls in Session 6, and what in that session makes clear she is aware of her own earlier stance?",
+      "blind_answer": "Kezia announces she is moving to Bristol for a senior role. She then says: 'Also I know I always said I hated video calls but I think I'd rather see your faces on a screen than not at all. So I am officially reversing my position on that.' The phrase 'I know I always said I hated video calls' is explicit self-citation of the stance she is departing from.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 Bristol move as trigger and 'I know I always said I hated video calls' as explicit self-awareness marker both correctly identified.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d4e5f615",
+      "query_type": "Q8",
+      "question": "What drove Felix to join a five-a-side football group in Session 7, and what in the conversation shows how entrenched his previous position had been?",
+      "blind_answer": "Felix explains: 'my neighbour has been persistent for several weeks and it turns out the social component has its uses.' The trigger is the neighbour's persistence. The entrenched prior position is evidenced by Dom ('Said it multiple times over the years') and Felix himself ('I have, historically, found team sports largely pointless for adults').",
+      "score": 0.8,
+      "score_rationale": "Strong match \u2014 neighbour persistence trigger and entrenched position correctly identified; ground truth adds inference about Felix's recent breakup as the real draw, but no breakup appears anywhere in the corpus.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d4e5f616",
+      "query_type": "Q8",
+      "question": "What in Sessions 3 through 8 signals that Priya's comfort with large group social events shifted, and what does the group's reaction in Session 8 reveal about how out of character her changed behaviour was?",
+      "blind_answer": "Sessions 3-4: Priya responds to group birthday plans with 'Fine.' and questions whether large numbers improve an occasion. Session 8: Priya volunteers 'The birthday in October was better than I expected.' Zara: 'Priya literally just said she ENJOYED it, this is growth, someone mark the date.' Kezia calls it 'character development.' Dom lists it among the season's surprises.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 all three anchors and group's confirming reaction all correctly identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_d4e5f617",
+      "query_type": "Q7",
+      "question": "What does Felix's remark to Priya in Session 1 reveal about the nature and origin of their relationship?",
+      "blind_answer": "Felix says 'You and I survived worse school holidays in Leicester, Priya.' Priya immediately replies 'Those summers were considerably longer and involved more boredom.' The specificity of 'Leicester' and 'school holidays' implies they grew up in the same city. Neither explains the reference to the rest of the group \u2014 indicating pre-established knowledge between them predating the current group.",
+      "score": 1.0,
+      "score_rationale": "Exact match \u2014 both identify Leicester school holidays as implying childhood connection and the unelaborated shared reference as evidence it's pre-established.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_d4e5f618",
+      "query_type": "Q7",
+      "question": "What does Kezia's announcement in Session 6 reveal about the nature of her relationship with Dom and the history they have navigated together?",
+      "blind_answer": "Kezia reveals she and Dom are in a committed romantic partnership with a shared history of difficulty: 'Dom and I have been talking about it and we're going to do the long-distance thing for now. It is not ideal but we have done hard things before.' Dom's reply confirms her assessment with understated confidence.",
+      "score": 0.8,
+      "score_rationale": "Strong match \u2014 romantic partnership with shared history of difficulty correctly identified; anchor text corrected from 'She\\'s right. We\\'re fine tbh.' to actual message text.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "close_friends: 8 distinct primary threads \u2014 group reunion/dinner planning, pre-dinner logistics, dinner debrief+injury+birthday planning, birthday venue logistics, vegan announcement+Marcus menu reflection, Kezia Bristol move, Felix football+Marcus new menu+Dom recovery, year-end reflections+Christmas planning. No session recycles the same immediate concern."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All 6 personas clearly distinct across all 5 sub-dimensions. Zara: Verbose+Frequent emoji+Casual confirmed (\"okay so\", \"literally\", multi-emoji strings). Dom: Concise+Moderate emoji+Casual confirmed (\"tbh\" ubiquitous, sports analogies, dropped pronouns). Priya: Terse+Never emoji+Semi-formal confirmed (single full-stop sentences, precise vocabulary, no emoji). Marcus: Verbose+Rare emoji+Semi-formal confirmed (\"Honestly, the thing is\" opener, food metaphors, sensory descriptions). Kezia: Concise+Frequent emoji+Semi-formal confirmed (\"bless\" as reaction, follow-up questions, warm sign-offs). Felix: Concise+Never emoji+Formal confirmed (\"I would suggest\", \"One assumes\", rhetorical questions, no contractions)."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts triggered by characters: S3 Dom breaks from dinner debrief to announce knee injury, then raises Zara birthday; S5 Zara introduces documentary-driven dietary shift after Dom mentions swimming; S6 Kezia introduces Bristol announcement after birthday debrief; S7 Dom introduces Felix football news; S8 Marcus raises Christmas planning. No cold jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes found in any message field across all 8 sessions. Confirmed by smb-verify Stage 2 check."
+    },
+    "planted_turn_integrity": {
+      "score": 1,
+      "notes": "One non-verbatim evidence anchor found: Q7_d4e5f618 Dom anchor cites \"She's right. We're fine tbh.\" but actual turn grp_d4e5f6a7_s06_t010 reads \"We've got this tbh. Bristol's not the moon. Two and a half hours on the train.\" All other anchors verified verbatim. Does not affect answer correctness but anchor text should be corrected. Anchor corrected post-QC."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

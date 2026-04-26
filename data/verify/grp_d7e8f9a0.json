@@ -1,0 +1,88 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "verified_at": "2026-04-23T07:38:17.959729",
+  "verification_result": "PASS",
+  "total_sessions": 8,
+  "total_turns": 194,
+  "total_planted_challenges": 30,
+  "challenge_type_breakdown": {
+    "implicit_preference": 6,
+    "relational_graph": 4,
+    "false_attribution_seed": 3,
+    "theory_of_mind": 3,
+    "consensus_trap": 2,
+    "temporal_shift": 4,
+    "relational_disclosure": 5,
+    "departure": 3
+  },
+  "session_breakdown": [
+    {
+      "session_index": 1,
+      "date": "2026-01-18",
+      "turns": 23,
+      "challenges": 4,
+      "speakers": 5
+    },
+    {
+      "session_index": 2,
+      "date": "2026-02-15",
+      "turns": 26,
+      "challenges": 4,
+      "speakers": 5
+    },
+    {
+      "session_index": 3,
+      "date": "2026-03-15",
+      "turns": 25,
+      "challenges": 3,
+      "speakers": 5
+    },
+    {
+      "session_index": 4,
+      "date": "2026-04-12",
+      "turns": 24,
+      "challenges": 3,
+      "speakers": 5
+    },
+    {
+      "session_index": 5,
+      "date": "2026-05-17",
+      "turns": 24,
+      "challenges": 6,
+      "speakers": 5
+    },
+    {
+      "session_index": 6,
+      "date": "2026-06-14",
+      "turns": 24,
+      "challenges": 3,
+      "speakers": 4
+    },
+    {
+      "session_index": 7,
+      "date": "2026-07-19",
+      "turns": 24,
+      "challenges": 4,
+      "speakers": 4
+    },
+    {
+      "session_index": 8,
+      "date": "2026-08-23",
+      "turns": 24,
+      "challenges": 3,
+      "speakers": 4
+    }
+  ],
+  "checks": {
+    "session_count_correct": true,
+    "session_indices_sequential": true,
+    "callum_absent_s6_to_s8": true,
+    "callum_present_s5": true,
+    "departure_challenges_in_s5": true,
+    "challenge_index_matches_inline": true,
+    "all_challenge_fields_present": true,
+    "no_em_dashes": true,
+    "unique_challenge_ids": true,
+    "total_turns_accurate": true
+  }
+}

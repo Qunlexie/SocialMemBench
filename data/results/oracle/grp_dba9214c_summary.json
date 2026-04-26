@@ -1,0 +1,24 @@
+{
+  "network_id": "grp_dba9214c",
+  "condition": "oracle",
+  "evaluated_at": "2026-04-23T00:00:00",
+  "total_pairs": 27,
+  "mean_score": 0.9963,
+  "by_query_type": {
+    "Q1": {"count": 3, "mean_score": 1.0},
+    "Q2": {"count": 2, "mean_score": 1.0},
+    "Q4": {"count": 2, "mean_score": 1.0},
+    "Q5": {"count": 1, "mean_score": 1.0},
+    "Q6": {"count": 2, "mean_score": 1.0},
+    "Q7": {"count": 7, "mean_score": 1.0},
+    "Q8": {"count": 10, "mean_score": 0.99}
+  },
+  "by_difficulty": {
+    "easy":   {"count": 0, "mean_score": null},
+    "medium": {"count": 25, "mean_score": 1.0},
+    "hard":   {"count": 2, "mean_score": 0.95}
+  },
+  "low_scoring": [
+    {"qa_id": "Q8_dba9214c06", "query_type": "Q8", "score": 0.9, "rationale": "Model answer correctly identifies early hedging state and S6 steering shift, but does not name Seun's private encouragement as the likely trigger — the answer notes 'not directly visible' without naming Seun, so slightly less precise than the ground truth's explicit mention of the Seun private conversation."}
+  ]
+}

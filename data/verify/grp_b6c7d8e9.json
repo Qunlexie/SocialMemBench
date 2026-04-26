@@ -1,0 +1,93 @@
+{
+  "network_id": "grp_b6c7d8e9",
+  "verified_at": "2026-04-24T00:00:00+00:00",
+  "overall_pass": true,
+  "stages": {
+    "stage1": null,
+    "stage2": {
+      "pass": true,
+      "checks": {
+        "sessions_present": {
+          "pass": true,
+          "detail": "12 sessions"
+        },
+        "turn_count_per_session": {
+          "pass": true,
+          "detail": "0 hard-fail sessions. 3 warnings (sessions 1=32, 2=31, 4=27 exceed 25 turns — warnings only)"
+        },
+        "message_format": {
+          "pass": true,
+          "detail": "5/5 sample turns pass timestamp_label format check"
+        },
+        "no_out_of_character_narration": {
+          "pass": true,
+          "detail": "0 out-of-character narration turns"
+        },
+        "planted_challenges_exist": {
+          "pass": true,
+          "detail": "47 challenges in planted_challenge_index"
+        },
+        "challenge_field_completeness": {
+          "pass": true,
+          "detail": "All 47 challenges have all required fields non-null"
+        },
+        "challenge_type_variety": {
+          "pass": true,
+          "detail": "7 types: consensus_trap, false_attribution_seed, implicit_preference, relational_disclosure, relational_graph, temporal_shift, theory_of_mind"
+        },
+        "speaker_coverage": {
+          "pass": true,
+          "detail": "All 9 personas appear as speakers across 12 sessions"
+        },
+        "temporal_shift_present": {
+          "pass": true,
+          "detail": "11 temporal_shift challenges"
+        },
+        "evidence_spans_non_empty": {
+          "pass": true,
+          "detail": "0 empty evidence spans"
+        },
+        "evidence_span_verbatim_sample3": {
+          "pass": true,
+          "detail": "3/3 sampled spans (ch_a1b2c3d4, ch_e1f2a3b4, ch_n1a2b3c4) are verbatim substrings. Note: 6 additional spans have minor emoji insertions in messages (ch_f2a3b4c5, ch_b4c5d6e7, ch_a9b0c1d2, ch_c1a2b3c4, ch_e1a2b3c4, ch_r5e6f7a8) — core text present in all cases."
+        },
+        "timestamp_label_consistency": {
+          "pass": true,
+          "detail": "5/5 sample turns: timestamp_label hour/minute matches ISO timestamp field and session date"
+        },
+        "day_of_week_accuracy": {
+          "pass": true,
+          "detail": "All 12 sessions correctly labelled Sunday (2025-09-14 through 2025-11-30)"
+        },
+        "session_date_continuity": {
+          "pass": true,
+          "detail": "All 12 session dates strictly increasing: 2025-09-14 to 2025-11-30, weekly cadence"
+        },
+        "message_length_ceiling": {
+          "pass": true,
+          "detail": "0 hard fails (>600 chars). 1 warning: grp_b6c7d8e9_s06_t009 = 538 chars"
+        },
+        "topic_variation_matches_group_type": {
+          "pass": true,
+          "detail": "interest_community: vinyl domain consistent across all sessions with distinct immediate concern per session. Side-threads: s3 (streaming habits), s6 (Antwerp trip planning), s10 (digital backup debate). Primary domain visible throughout."
+        },
+        "verbosity_realized": {
+          "pass": true,
+          "detail": "Verbose: Marcus avg=180, Tom avg=172, Raj avg=232. Terse: Elliot avg=99, Finn avg=90. Min verbose (172) > max terse (99)."
+        },
+        "no_em_dashes": {
+          "pass": true,
+          "detail": "0 em dashes in any message field"
+        }
+      }
+    },
+    "stage3": null
+  },
+  "failures": [],
+  "warnings": [
+    "Sessions 1, 2, 4 exceed 25 turns (32, 31, 27 respectively) — soft warnings only",
+    "1 message exceeds 400 chars (grp_b6c7d8e9_s06_t009, 538 chars)",
+    "6 planted_challenge evidence_spans have minor emoji insertions in actual messages making them non-verbatim substrings: ch_f2a3b4c5, ch_b4c5d6e7, ch_a9b0c1d2, ch_c1a2b3c4, ch_e1a2b3c4, ch_r5e6f7a8. Core evidence text is present in all cases."
+  ],
+  "fix_suggestions": []
+}

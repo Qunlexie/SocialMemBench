@@ -1,0 +1,8 @@
+name: "smg_gemini"
+# Extraction model: Gemini 2.5 Flash via OpenAI-compatible endpoint.
+# Tests whether better extraction quality (vs gpt-4o-mini) improves scores.
+# Answering still uses gpt-4o-mini (set by cli.py default for memory conditions).
+extraction_model: "gemini-2.5-flash"
+embed_model: "text-embedding-3-small"
+graph_dir: "./data/.smg_graphs_gemini"
+top_k: 10

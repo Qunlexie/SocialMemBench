@@ -1,0 +1,167 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-18T14:58:22.377261+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.256,
+  "mean_context_words": 4276.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.167
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.1
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.225
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the observation about Derek's behavior to Priya instead of correctly identifying it as part of the group's dynamic."
+    },
+    {
+      "qa_id": "Q1_a1b2c303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's comments and does not accurately reflect her behavior regarding food and game components."
+    },
+    {
+      "qa_id": "Q1_a1b2c304",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Raj's feelings about hosting by suggesting he desires a rotation, which is not supported by the text; it also lacks the specific quote and context that clarify his feelings."
+    },
+    {
+      "qa_id": "Q1_a1b2c305",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lena's dietary consideration by focusing on her preference for lighter snacks rather than correctly identifying her implied vegetarianism based on her reaction to veggie samosas."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes specific food preferences and behaviors to the wrong individuals, failing to accurately reflect the group's dynamics as described in the gold answer."
+    },
+    {
+      "qa_id": "Q4_a1b2c301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's understanding of Soo-Yeon's feelings to her expressing gladness about trying Fuse, rather than correctly identifying the specific statement that shows Priya's prior knowledge."
+    },
+    {
+      "qa_id": "Q5_a1b2c303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Felix's initial negative stance on abstract games and does not accurately reflect Soo-Yeon's reasoning process, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Lena and Priya's relationship, focusing on gaming interactions rather than the closer-than-average relationship highlighted in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the connection between Kezia and Felix and does not accurately reflect their positioning as a sub-clique within the Collective."
+    },
+    {
+      "qa_id": "Q7_a1b2c303",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the shared gaming history and trust between Tomasz and Nadia, but it lacks specific details about the wargame campaign and the context of their interactions within the Collective."
+    },
+    {
+      "qa_id": "Q7_a1b2c304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not mention that Tomasz and Raj co-founded the Collective, which is a critical detail in understanding their relationship and shared standing."
+    },
+    {
+      "qa_id": "Q8_a1b2c301",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Priya's relationship to competitive board games but incorrectly attributes the cause to her peers' praise rather than her own experience of winning, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Kezia's shift and mentions Tomasz's support, but it lacks specific details about her earlier state and does not clearly articulate the mechanism of her shift."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Marcus's acknowledgment of Lena's argument as a signal of change, but it lacks the necessary details about his early preference and the specific trigger for the shift."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the shift in Lena's thinking and her earlier aversion but fails to identify the specific trigger for the change and misattributes the moment of change."
+    },
+    {
+      "qa_id": "Q8_a1b2c305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Soo-Yeon's position has genuinely shifted, while the gold answer clarifies that her response indicates a hypothesis rather than a definitive shift."
+    },
+    {
+      "qa_id": "Q8_a1b2c306",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Tomasz's approach but misattributes the specific adjustment he allowed and does not accurately reflect the trigger event."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Derek asks for a rematch in Session 7, while the gold answer indicates he does not repeat the request, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the cause of Felix's change in view by not clearly identifying the mechanism of change and fails to mention the specific trigger, which is crucial for a correct response."
+    }
+  ]
+}

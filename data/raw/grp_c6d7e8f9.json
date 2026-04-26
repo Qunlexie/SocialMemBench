@@ -1,0 +1,441 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "group_name": "The Sunday Group",
+  "group_type": "close_friends",
+  "group_size": 5,
+  "seed": 24,
+  "personas": [
+    {
+      "persona_id": "p_na01c6d7",
+      "display_name": "Nadia",
+      "age": 30,
+      "gender": "female",
+      "occupation": "UX designer at a fintech startup",
+      "background": "Grew up in Brighton, moved to Bristol at 23 for a job she later left. Met Tom and Ravi through a shared house. The social glue of the group — always the one proposing plans, booking tables, and herding people into showing up.",
+      "skills_list": [
+        {"skill": "UX research and wireframing", "proficiency": "strong"},
+        {"skill": "pottery and ceramics", "proficiency": "medium"},
+        {"skill": "hosting dinner parties", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "pescatarian — eats fish but no meat", "confidence": "High", "implicit": true},
+          {"value": "loves shared plates and tapas-style eating", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers spontaneous outings over rigidly planned ones", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "thrives in groups of 4–8, gets anxious in crowds", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "obsessed with user research and how spaces make people feel", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "dietary_restriction",
+          "old_value": "omnivore — ate everything including red meat",
+          "new_value": "pescatarian — fish and seafood only, no land meat",
+          "changed_at_session": 3,
+          "trigger": "Read a long-form piece on factory farming after Bex shared it in session 2; quietly stopped ordering meat"
+        }
+      ],
+      "speaking_quirks": [
+        "opens messages with 'okay!! so' when excited",
+        "uses multiple exclamation marks and follows up with a string of emoji",
+        "asks 'does that make sense?' after explaining something complex"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_to02d7e8",
+      "display_name": "Tom",
+      "age": 33,
+      "gender": "male",
+      "occupation": "Structural engineer",
+      "background": "From Sheffield, moved to Bristol after graduating. Has lived in the same house share as Nadia for six years. The pragmatic one — first to suggest solutions, last to talk about feelings. Has a serious trail running hobby that dominates a lot of his weekend schedule.",
+      "skills_list": [
+        {"skill": "trail running and orienteering", "proficiency": "strong"},
+        {"skill": "structural and civil engineering", "proficiency": "strong"},
+        {"skill": "home brewing beer", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "high-carb meals that support endurance training", "confidence": "High", "implicit": true},
+          {"value": "avoids alcohol on weekdays", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers outdoor physical activity over indoor socialising", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "comfortable in small groups, uncomfortable with enforced sentimentality", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "race_distance_preference",
+          "old_value": "half-marathon distances — enjoyed the speed element",
+          "new_value": "ultra-distance trail events — 50k and beyond, prioritising terrain over time",
+          "changed_at_session": 2,
+          "trigger": "Completed his first 50k at a Dartmoor event before session 2, got completely hooked on the suffering"
+        }
+      ],
+      "speaking_quirks": [
+        "drops the subject pronoun at the start of sentences ('Finished the run', 'Looks good to me')",
+        "uses running metaphors to describe non-running situations",
+        "replies to long messages with a single short acknowledgement"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_be03e8f9",
+      "display_name": "Bex",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Sustainability consultant",
+      "background": "Grew up in Cardiff, came to Bristol for university and never quite left. Met Nadia through a pottery class. Thoughtful and well-read, slightly restless — has always had itchy feet and talked about living abroad. Got a job offer from a Copenhagen consultancy and announced her move in session 5.",
+      "skills_list": [
+        {"skill": "sustainability auditing and carbon reporting", "proficiency": "strong"},
+        {"skill": "cycling — road and commuter", "proficiency": "medium"},
+        {"skill": "bread baking", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "plant-based most of the time, occasional fish", "confidence": "High", "implicit": true},
+          {"value": "strongly prefers locally sourced and low-waste food", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers cycling to any motorised transport", "confidence": "High", "implicit": true},
+          {"value": "enjoys slow weekend mornings with good coffee and a long read", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "values depth of conversation over frequency of contact", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "quietly passionate about climate policy and holds strong opinions on corporate greenwashing", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "geographic_rootedness",
+          "old_value": "committed to staying in Bristol long-term, had been looking at buying a flat",
+          "new_value": "excited about moving to Copenhagen for the job, no UK return date in mind",
+          "changed_at_session": 4,
+          "trigger": "The Copenhagen offer landed and she realised the life she had been imagining was actually possible"
+        },
+        {
+          "domain": "food",
+          "attribute": "bread_making_frequency",
+          "old_value": "baked bread occasionally as a weekend treat",
+          "new_value": "bakes every Saturday — became a ritual after moving to a flat with a proper oven in session 1",
+          "changed_at_session": 1,
+          "trigger": "Moved into new flat with better kitchen; started baking weekly as a grounding habit"
+        }
+      ],
+      "speaking_quirks": [
+        "often qualifies opinions with 'I could be wrong but...'",
+        "uses 'genuinely' as an intensifier ('genuinely worried', 'genuinely funny')",
+        "sends a follow-up message a few minutes after her first to add something she forgot"
+      ],
+      "participation_rate": 1.0,
+      "status": "departed",
+      "departed_after_session": 5
+    },
+    {
+      "persona_id": "p_ra04f9a0",
+      "display_name": "Ravi",
+      "age": 34,
+      "gender": "male",
+      "occupation": "Data engineer at an analytics consultancy",
+      "background": "Born and raised in Leicester, moved to Bristol for work five years ago. Met Tom and Nadia through the shared house and stayed in their orbit when he moved out. The group's resident sceptic — not unkind, but needs evidence before he buys into anything. Meticulous about everything, including friendships.",
+      "skills_list": [
+        {"skill": "data pipeline architecture and SQL", "proficiency": "strong"},
+        {"skill": "chess — club level", "proficiency": "medium"},
+        {"skill": "home espresso and pour-over coffee", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "dislikes anything too sweet; prefers savoury and umami-heavy food", "confidence": "High", "implicit": true},
+          {"value": "cares intensely about coffee quality, will not drink instant", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers structured and goal-oriented leisure over open-ended socialising", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "shows up reliably for close friends but rarely initiates plans himself", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "dismissive of wellness fads and anything not backed by decent evidence", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_activity_preference",
+          "old_value": "preferred purely passive social events — pub, dinner, low expectations",
+          "new_value": "willing to join structured group activities like quiz nights and board game evenings",
+          "changed_at_session": 3,
+          "trigger": "Nadia organised a pub quiz that turned out to be genuinely competitive; Ravi won the tie-breaker and found himself enjoying the format"
+        }
+      ],
+      "speaking_quirks": [
+        "messages are almost always one or two sentences with no filler",
+        "uses 'noted' to close discussions he considers resolved",
+        "responds to vague plans with specific questions ('What time?', 'Which pub?')"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_cl05a0b1",
+      "display_name": "Cleo",
+      "age": 29,
+      "gender": "female",
+      "occupation": "Freelance illustrator and printmaker",
+      "background": "Grew up in Bristol — one of the few locals in the group. Introduced to the group by Bex, whom she met at a zine fair. The youngest, sometimes feels like she is still catching up to the others in life experience. Has a studio in Stokes Croft and a waiting list for commissions.",
+      "skills_list": [
+        {"skill": "screen printing and risograph illustration", "proficiency": "strong"},
+        {"skill": "zine making and independent publishing", "proficiency": "strong"},
+        {"skill": "skateboarding", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "vegetarian — has been since childhood", "confidence": "High", "implicit": true},
+          {"value": "loves street food and informal eating, dislikes formal restaurant settings", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "drawn to creative and craft-based activities over sport", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "finds group dynamics exhausting if there is any tension, tends to go quiet", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "strong interest in independent art and DIY publishing culture", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "client_work_attitude",
+          "old_value": "anxious about taking on big commercial clients, preferred small passion projects",
+          "new_value": "actively pitching larger editorial and brand commissions, less scared of the scale",
+          "changed_at_session": 6,
+          "trigger": "A major editorial commission came through from a magazine she had admired for years; completing it without disaster shifted her confidence"
+        }
+      ],
+      "speaking_quirks": [
+        "uses lowercase even at the start of sentences in casual messages",
+        "trails off with '...' or 'idk' when uncertain rather than finishing the thought",
+        "drops typos frequently and never corrects them"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_na01c6d7",
+      "persona_b_id": "p_to02d7e8",
+      "relationship_type": "longtime housemates turned close friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Have lived in the same house share for six years. Know each other's habits, moods, and routines better than most couples do. Nadia is the one who drags Tom to social events; Tom is the one who talks Nadia down when she spirals.",
+      "shared_events": ["years of shared house living", "both attended the same Bristol half-marathon as spectator and runner"]
+    },
+    {
+      "persona_a_id": "p_na01c6d7",
+      "persona_b_id": "p_be03e8f9",
+      "relationship_type": "close friends met through pottery class",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Met at an evening pottery class three years ago. Bonded over an equally catastrophic first attempt at throwing. Have been close since — Nadia finds Bex grounding; Bex finds Nadia energising.",
+      "shared_events": ["continued pottery course together for two terms", "joint road trip to Cornwall"]
+    },
+    {
+      "persona_a_id": "p_na01c6d7",
+      "persona_b_id": "p_ra04f9a0",
+      "relationship_type": "close friends via shared house",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Ravi lived in the same house share for two years before moving out. Nadia is one of the few people who gets genuine warmth from him. He is her go-to sanity check when she is catastrophising.",
+      "shared_events": ["house share era", "ravi helped nadia debug her portfolio site at 11pm before a job interview"]
+    },
+    {
+      "persona_a_id": "p_na01c6d7",
+      "persona_b_id": "p_cl05a0b1",
+      "relationship_type": "friends through Bex",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Became friends when Bex brought Cleo into the group. Get on warmly but are still building familiarity. Nadia has commissioned a print from Cleo and raves about her work.",
+      "shared_events": ["Cleo's studio open day", "a few one-on-one coffees since Bex announced her move"]
+    },
+    {
+      "persona_a_id": "p_to02d7e8",
+      "persona_b_id": "p_be03e8f9",
+      "relationship_type": "housemate-era acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Never particularly close but have always been polite and easy with each other. Tom respects Bex's intellect; Bex gently ribs Tom about his single-mindedness around running.",
+      "shared_events": ["a few group cycles together", "both attended Nadia's birthday dinner in her flat"]
+    },
+    {
+      "persona_a_id": "p_to02d7e8",
+      "persona_b_id": "p_ra04f9a0",
+      "relationship_type": "old housemates and regular pub companions",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Both lived in the same house for two years. Have a standing Tuesday pub quiz arrangement they have kept up even after Ravi moved out. Tom is one of the few people Ravi will message unprompted.",
+      "shared_events": ["house share era", "weekly pub quiz", "watched two World Cup matches together"]
+    },
+    {
+      "persona_a_id": "p_to02d7e8",
+      "persona_b_id": "p_cl05a0b1",
+      "relationship_type": "friendly acquaintances with little in common",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Tolerate each other well in group settings but there is mild friction — Tom finds Cleo's indirectness frustrating and Cleo finds Tom dismissive of anything non-physical. Both make an effort for Nadia's sake.",
+      "shared_events": ["group dinners", "Cleo's studio open day (Tom left early)"]
+    },
+    {
+      "persona_a_id": "p_be03e8f9",
+      "persona_b_id": "p_ra04f9a0",
+      "relationship_type": "friends who respect but rarely seek each other out",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Enjoy each other's company at group events. Had one long, substantive conversation about climate policy and data modelling that both still cite. Outside of the group, contact is minimal.",
+      "shared_events": ["group pub quiz", "a dinner where they ended up in a two-hour policy debate"]
+    },
+    {
+      "persona_a_id": "p_be03e8f9",
+      "persona_b_id": "p_cl05a0b1",
+      "relationship_type": "close friends who met independently",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Met at a zine fair before either knew the others. Bex introduced Cleo to the group. Their friendship predates the Sunday Group and was the entry point for Cleo. Bex's departure to Copenhagen hit Cleo hardest.",
+      "shared_events": ["zine fair where they first met", "joint zine project", "farewell drinks for Bex"]
+    },
+    {
+      "persona_a_id": "p_ra04f9a0",
+      "persona_b_id": "p_cl05a0b1",
+      "relationship_type": "cordial but distant acquaintances",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "No friction, just no overlap. Ravi and Cleo have almost nothing conversational in common. They are warm at group events and have never had a bad exchange, but neither would reach out directly.",
+      "shared_events": ["group dinners", "pub quiz (Cleo mostly doodled on the answer sheet)"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We try to do a proper Sunday brunch together at least once a month",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Everyone stays off their phones during group dinners — it's an unspoken rule",
+      "truly_universal": false,
+      "dissenters": ["p_cl05a0b1"]
+    },
+    {
+      "norm_text": "We're honest with each other even when it's uncomfortable — no sugarcoating",
+      "truly_universal": false,
+      "dissenters": ["p_cl05a0b1", "p_na01c6d7"]
+    },
+    {
+      "norm_text": "Nobody ghosts a group plan without sending a message first",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 1
+  }
+}

@@ -1,69 +1,57 @@
 {
   "network_id": "grp_6f7a8b9c",
   "condition": "mem0_local",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:34:23.504333+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:21:51.983478+00:00",
   "sessions_used": 5,
   "total_pairs": 7,
-  "new_pairs_this_run": 2,
-  "mean_score": 0.086,
+  "new_pairs_this_run": 7,
+  "mean_score": 0.414,
+  "mean_context_words": 110.1,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.6
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q8": {
       "count": 2,
-      "mean_score": 0.0
+      "mean_score": 0.15
     },
     "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q6": {
       "count": 1,
       "mean_score": 0.0
     },
     "Q7": {
       "count": 1,
-      "mean_score": 0.0
-    },
-    "Q4": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q6": {
-      "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.6
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q8_cf6s2c2",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.3,
+      "rationale": "The answer correctly identifies PhD work as the reason Dev is pulled away, but completely misidentifies where the conversation first signals the shift. The gold answer points to Session 1 as the first signal of him being pulled away, while the generated answer points to a future desire to re-engage, which is the opposite of the shift being asked about."
     },
     {
       "qa_id": "Q8_cf6s3c1",
       "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_cf6s3c2",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_cf6s5c1",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q4_cf6s2c1",
-      "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Kwame's 'old preference' as willingness to host a London gathering and cook, whereas the gold answer specifies his eagerness to immediately book ambitious trips like Amsterdam or the Peak District. The turning point and new preference are also vaguely described and lack specific details from the gold answer."
     },
     {
       "qa_id": "Q6_cf6s4c1",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

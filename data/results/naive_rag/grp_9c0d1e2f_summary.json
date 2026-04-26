@@ -1,16 +1,21 @@
 {
   "network_id": "grp_9c0d1e2f",
   "condition": "naive_rag",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:08:42.657592+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:32:01.204637+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
+  "new_pairs_this_run": 6,
   "mean_score": 0.567,
+  "mean_context_words": 229.5,
   "by_query_type": {
     "Q3": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q5": {
       "count": 1,
@@ -18,28 +23,25 @@
     },
     "Q8": {
       "count": 2,
-      "mean_score": 0.55
+      "mean_score": 0.5
     },
     "Q7": {
       "count": 1,
-      "mean_score": 0.8
-    },
-    "Q4": {
-      "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.4
     }
   },
   "low_scoring": [
     {
-      "qa_id": "Q3_ph9s1c1",
-      "query_type": "Q3",
-      "score": 0.0
-    },
-    {
       "qa_id": "Q8_ph9s3c1",
       "query_type": "Q8",
-      "score": 0.4
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_ph9s5c1",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies aspects of Anika's guidance and Diane's deference, and includes a key quote, but it fails to capture the crucial element of the relationship's evolution from a mentor-mentee dynamic to a peer relationship, which is central to the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,34 +1,35 @@
 {
   "network_id": "grp_6f7a8b9c",
   "condition": "graphiti",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:36:06.581176+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:54:46.531773+00:00",
   "sessions_used": 5,
   "total_pairs": 7,
-  "new_pairs_this_run": 2,
-  "mean_score": 0.0,
+  "new_pairs_this_run": 7,
+  "mean_score": 0.271,
+  "mean_context_words": 108.1,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.4
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q8": {
       "count": 2,
-      "mean_score": 0.0
+      "mean_score": 0.25
     },
     "Q5": {
       "count": 1,
       "mean_score": 0.0
     },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q4": {
-      "count": 1,
-      "mean_score": 0.0
-    },
     "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
       "count": 1,
       "mean_score": 0.0
     }
@@ -37,38 +38,32 @@
     {
       "qa_id": "Q1_cf6s1c1",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Sasha's preference for 'low-key, informal gathering' which is part of the gold answer's description. However, it misses the crucial element of cost-avoidance (steering away from expensive plans and toward cheap ones) which is central to the gold answer. Additionally, it includes irrelevant information about inclusivity and concern for Abi's well-being, which are not preferences for the *type* of group plans themselves as interpreted by the gold answer."
     },
     {
       "qa_id": "Q8_cf6s2c2",
       "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_cf6s3c1",
-      "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the first signal of the shift as Dev's desire to re-engage, rather than the initial signs of him being pulled away from the group due to his PhD, as detailed in the gold answer."
     },
     {
       "qa_id": "Q5_cf6s3c2",
       "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_cf6s5c1",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q4_cf6s2c1",
-      "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Dev's situation and fails to provide specific evidence from the conversation that demonstrates Kwame's prior knowledge of that situation, instead offering a general observation about Dev's absence and Kwame's desire for inclusion."
     },
     {
       "qa_id": "Q6_cf6s4c1",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_cf6s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The answer contains significant factual errors, such as Kwame insisting Dev come to November plans and Dev confirming plans for coffee and a walk, which are not supported by the gold answer or typical chat transcripts. While it generally describes a positive relationship, it misses the core insights about the unique depth, protectiveness, and private nature of their bond highlighted in the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

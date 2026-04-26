@@ -1,0 +1,103 @@
+{
+  "network_id": "grp_b1c2d3e4",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-18T14:59:17.621962+00:00",
+  "sessions_used": 12,
+  "total_pairs": 21,
+  "new_pairs_this_run": 21,
+  "mean_score": 0.567,
+  "mean_context_words": 6781.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.8
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.075
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.667
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b1c2d3e403",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Bernard's preference for a cafe over a pub, but it inaccurately attributes the support for this preference to agreement with others, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q2_b1c2d3e401",
+      "query_type": "Q2",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the venue as the Arch Cafe but incorrectly attributes dissent to Greg without mentioning his response of 'fine' that indicates compliance."
+    },
+    {
+      "qa_id": "Q5_b1c2d3e401",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The core fact about Priya's concern is correct, but the attribution of Fatima's knowledge is slightly off, as it does not clearly indicate that Fatima's statement was based on pre-existing knowledge."
+    },
+    {
+      "qa_id": "Q5_b1c2d3e402",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the quote to Helen, while the gold answer correctly identifies it as Helen's comment, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer contains incorrect attributions and does not accurately reflect the specific details of Marcus and Greg's founding partnership and their interactions."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e402",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the nature of the relationship, failing to emphasize that it is a pre-existing training partnership with a mentorship role, instead suggesting a more general supportive friendship."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e403",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the invitation to Owen instead of correctly stating that Ravi invited Nkechi, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e404",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of their relationship as camaraderie rather than a competitive dynamic, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e401",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a decrease in training volume and the reason for the change, but it inaccurately attributes the injury to a hamstring flare instead of a speed session flare."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e406",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly states Chloe's decision to sit out the Riverside 10K and mentions Fatima's assessment, but it misattributes the earlier attitude as being more willing to push through discomfort rather than being dismissive of injury concerns."
+    }
+  ]
+}

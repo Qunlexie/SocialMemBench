@@ -1,20 +1,33 @@
 {
   "network_id": "grp_2b3c4d5e",
   "condition": "graphiti",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:35:11.544862+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:43:50.209113+00:00",
   "sessions_used": 5,
   "total_pairs": 10,
-  "new_pairs_this_run": 3,
+  "new_pairs_this_run": 10,
   "mean_score": 0.2,
+  "mean_context_words": 125.1,
   "by_query_type": {
     "Q1": {
       "count": 3,
+      "mean_score": 0.167
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
       "mean_score": 0.0
     },
     "Q5": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.5
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q7": {
       "count": 1,
@@ -23,61 +36,50 @@
     "Q8": {
       "count": 2,
       "mean_score": 0.0
-    },
-    "Q2": {
-      "count": 1,
-      "mean_score": 1.0
-    },
-    "Q4": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q6": {
-      "count": 1,
-      "mean_score": 1.0
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_n2a1b2c3",
       "query_type": "Q1",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q1_n2b2c3d4",
-      "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states there are no indications of food restrictions, directly contradicting the gold answer's central point about Adaora's implied dietary restriction."
     },
     {
       "qa_id": "Q1_n2c3d4e5",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Tobenna's behavior, claiming he indicated he would update Ngozi when there's something to share, which contradicts the gold answer's accurate assessment of his consistent avoidance and deflection of the topic."
     },
     {
-      "qa_id": "Q5_n2f6a7b8",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_n2b8c9d0",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_n2c9d0e1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_n2d0e1f2",
-      "query_type": "Q8",
-      "score": 0.0
+      "qa_id": "Q2_n2d4e5f6",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q4_n2e5f6a7",
       "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_n2b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer describes Chidi as a 'concerned father' who asks about Adaora's health, which is a generic observation about his character. It completely misses the core fact from the gold answer about his specific role in discussions: infrequent but decisive participation, often having the 'final word' and ending debates."
+    },
+    {
+      "qa_id": "Q8_n2c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Chidi's old preference was to visit the UK and misidentifies the nature of the change and its trigger, contradicting the gold answer on all key points."
+    },
+    {
+      "qa_id": "Q8_n2d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer completely misidentifies Emeka's old and new stances regarding his commitment to coming home for Christmas, and also misidentifies the trigger for the change."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

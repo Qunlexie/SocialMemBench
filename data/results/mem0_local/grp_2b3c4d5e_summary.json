@@ -1,27 +1,16 @@
 {
   "network_id": "grp_2b3c4d5e",
   "condition": "mem0_local",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:17:52.715159+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:17:32.527348+00:00",
   "sessions_used": 5,
   "total_pairs": 10,
-  "new_pairs_this_run": 3,
+  "new_pairs_this_run": 10,
   "mean_score": 0.1,
+  "mean_context_words": 100.2,
   "by_query_type": {
     "Q1": {
       "count": 3,
-      "mean_score": 0.0
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q8": {
-      "count": 2,
       "mean_score": 0.0
     },
     "Q2": {
@@ -30,10 +19,22 @@
     },
     "Q4": {
       "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
     },
     "Q6": {
       "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
       "mean_score": 0.0
     }
   },
@@ -41,48 +42,56 @@
     {
       "qa_id": "Q1_n2a1b2c3",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Adaora loves goat, which directly contradicts the gold answer's assertion that she is avoiding meat and animal products."
     },
     {
       "qa_id": "Q1_n2b2c3d4",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states there is no indication of any recent change in Ngozi's cooking, and instead discusses future cooking plans, which is irrelevant to the question about recent changes in her cooking style/ingredients. The gold answer correctly identifies a change (reduced salt) and provides evidence."
     },
     {
       "qa_id": "Q1_n2c3d4e5",
       "query_type": "Q1",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_n2f6a7b8",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_n2b8c9d0",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_n2c9d0e1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_n2d0e1f2",
-      "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states there is no indication of how Tobenna feels about discussing his job search, directly contradicting the gold answer which details his consistent avoidance and deflection."
     },
     {
       "qa_id": "Q2_n2d4e5f6",
       "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
-      "qa_id": "Q6_n2a7b8c9",
-      "query_type": "Q6",
-      "score": 0.0
+      "qa_id": "Q4_n2e5f6a7",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_n2f6a7b8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Ngozi's cooking has not changed and attributes the discovery to Adaora, both of which contradict the gold answer."
+    },
+    {
+      "qa_id": "Q7_n2b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer claims there is no information about Chidi's role, which directly contradicts the gold answer that provides specific details and examples of his decisive influence in family discussions."
+    },
+    {
+      "qa_id": "Q8_n2c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules."
+    },
+    {
+      "qa_id": "Q8_n2d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Emeka's old preference, claims the new preference is unclear, and fails to identify the trigger, directly contradicting all key points in the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

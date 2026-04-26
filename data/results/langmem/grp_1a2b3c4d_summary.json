@@ -1,28 +1,17 @@
 {
   "network_id": "grp_1a2b3c4d",
   "condition": "langmem",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:40:58.764143+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:17:41.702450+00:00",
   "sessions_used": 5,
   "total_pairs": 12,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.167,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.317,
+  "mean_context_words": 510.0,
   "by_query_type": {
     "Q1": {
       "count": 3,
-      "mean_score": 0.0
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q7": {
-      "count": 2,
-      "mean_score": 0.0
-    },
-    "Q8": {
-      "count": 3,
-      "mean_score": 0.0
+      "mean_score": 0.167
     },
     "Q2": {
       "count": 1,
@@ -32,62 +21,71 @@
       "count": 1,
       "mean_score": 1.0
     },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
     "Q6": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.333
     }
   },
   "low_scoring": [
     {
-      "qa_id": "Q1_a1b2c3d4",
-      "query_type": "Q1",
-      "score": 0.0
-    },
-    {
       "qa_id": "Q1_b2c3d4e5",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core fact that Sam has an aversion to mushrooms, instead stating that Sam's preferences are not explicitly revealed beyond preferring chicken ramen, which contradicts the gold answer's interpretation."
     },
     {
       "qa_id": "Q1_c3d4e5f6",
       "query_type": "Q1",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_e5f6a7b8",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_f6a7b8c9",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_a7b8c9d0",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_b8c9d0e1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_c9d0e1f2",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_d0e1f2a3",
-      "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' regarding Lena's dietary restrictions, directly contradicting the gold answer's 'Yes' and its interpretation of Lena's statement 'my usual... dietary things' as an indication of a standing dietary need."
     },
     {
       "qa_id": "Q2_e1f2a3b4",
       "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b8",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Jordan's attitude but incorrectly attributes the revelation of this attitude to Priya instead of Maya, which is a critical error according to the rubric."
+    },
+    {
+      "qa_id": "Q7_f6a7b8c9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the specific historical event (Mt. Tam hiking trip) explicitly referenced in the conversation between Jordan and Sam, instead focusing on current preferences and limitations."
+    },
+    {
+      "qa_id": "Q7_a7b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer introduces evidence from a 'weekend trip to Sonoma' which is not part of the conversation context (Session 5 brunch) referenced by the gold answer, making it factually incorrect in this specific context. The interpretation of the relationship is also less specific and nuanced than the gold answer's description of Priya helping Lena navigate social situations."
+    },
+    {
+      "qa_id": "Q8_b8c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer describes Jordan's changing participation and preferences as a group member, rather than his specific role in *organizing* group plans, which was the focus of the question and gold answer."
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer directly contradicts the gold answer by stating there was 'no indication of a change' in Maya's relationship with alcohol, when the gold answer explicitly details a noticeable shift and provides evidence for it (Priya's 'still off drinks?' comment)."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

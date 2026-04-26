@@ -1,0 +1,580 @@
+{
+  "network_id": "grp_f6g7h8i9",
+  "group_name": "The Okafor Family Chat",
+  "group_type": "family",
+  "group_size": 15,
+  "tier": "large",
+  "seed": 18,
+  "timespan_weeks": 14,
+  "noise_level": "medium",
+  "participation_rate": "moderate",
+  "member_departure": "none",
+  "description": "A WhatsApp family group for the extended Okafor family, spanning three generations across the UK, Nigeria, and the US. The core is a Nigerian-British family: parents (Emeka and Grace), their four adult children (Chidi, Adaeze, Tolu, Kunle), two in-laws (Sophia, David), and six grandchildren/younger members. They use the chat to stay connected across time zones, plan family events, share milestones, and navigate the occasional family tension. The parents' 35th anniversary trip is the main logistical thread across the corpus.",
+  "personas": [
+    {
+      "persona_id": "grp_f6g7h8i9_p01",
+      "display_name": "Emeka",
+      "full_name": "Emeka Okafor",
+      "age": 65,
+      "gender": "male",
+      "role": "patriarch / retired civil engineer",
+      "background": "Warm but formal patriarch. Proud of his family's achievements but uncomfortable with conflict in the group chat \u2014 will redirect tension with a proverb or a calm statement. Lives in Lagos. Increasingly tech-averse; types slowly and tends to send short voice-note descriptions in lieu of long messages.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "formal",
+        "emoji_use": "never",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "opens messages with 'My children,' when addressing the group",
+          "redirects conflict with a Nigerian proverb or 'let us not lose the forest for the trees'",
+          "signs off important messages with 'Your father, Emeka'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p02",
+      "display_name": "Grace",
+      "full_name": "Grace Okafor",
+      "age": 62,
+      "gender": "female",
+      "role": "matriarch / retired nurse",
+      "background": "Emotionally central to the family; sends the most messages. Worries about everyone and checks in constantly, especially on the UK-based children. Has a specific aversion to surprises \u2014 prefers to know plans well in advance. Lives in Lagos with Emeka.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "semi-formal",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "opens check-ins with 'How is everyone? I have not heard from [name] in days'",
+          "uses 'God willing' or 'by God's grace' when discussing future plans",
+          "ends worry messages with 'please reply so I know you are fine'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p03",
+      "display_name": "Chidi",
+      "full_name": "Chidi Okafor",
+      "age": 40,
+      "gender": "male",
+      "role": "eldest son / GP (London)",
+      "background": "Responsible eldest; manages family logistics and often mediates between siblings. Rarely complains but privately stretched thin between work, family, and being the go-to person for his parents. Knows the 35th anniversary trip is stressing his siblings and tries to keep things calm.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "uses 'Let me just check with everyone first' before committing to anything",
+          "summarises group decisions with 'Okay, so the plan is\u2014'",
+          "often tags relevant siblings rather than addressing the whole group"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p04",
+      "display_name": "Adaeze",
+      "full_name": "Adaeze Okafor-Clarke",
+      "age": 37,
+      "gender": "female",
+      "role": "second child / secondary school teacher (Manchester)",
+      "background": "Organised and opinionated; often the one who voices what others are thinking. Gets frustrated when plans are made without consulting her schedule. Has two young children (Nkechi and Ife) and a husband (David). Finds big family gatherings energising but is overwhelmed by poor coordination.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "leads strong opinions with 'Can I just say something?'",
+          "uses 'as I said before' when repeating a point she feels was ignored",
+          "tags her husband David in logistical messages"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p05",
+      "display_name": "Tolu",
+      "full_name": "Tolu Okafor",
+      "age": 34,
+      "gender": "female",
+      "role": "third child / marketing manager (London)",
+      "background": "Social and fun-loving; the family entertainer. Keeps things light in the chat but avoids conflict and will go quiet when tensions rise. Has an implicit preference to spend family events in smaller sub-groups rather than all 15 together. Closest to Adaeze but also protective of Grace.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "uses 'honestly though' before honest opinions",
+          "de-escalates tension with a joke or 'okay let's not do this in the chat'",
+          "sends voice notes described as '[voice note]' rather than typing when emotional"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p06",
+      "display_name": "Kunle",
+      "full_name": "Kunle Okafor",
+      "age": 29,
+      "gender": "male",
+      "role": "youngest child / PhD student (Edinburgh)",
+      "background": "The academic of the family; slightly scattered and perpetually behind on family admin. Means well but forgets to RSVP, pay his share, or confirm plans. The family has low expectations of his admin capability, affectionately. Closer to the grandchildren/cousins tier than to his older siblings.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "responds to admin requests with 'on it' then forgets",
+          "uses 'tbf' (to be fair) to soften an honest point",
+          "adds 'sorry I missed this' when catching up on multiple unread messages"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p07",
+      "display_name": "Sophia",
+      "full_name": "Sophia Okafor",
+      "age": 40,
+      "gender": "female",
+      "role": "Chidi's wife / NHS admin manager",
+      "background": "Warm and competent; handles the family's UK logistics better than anyone. Slightly wary of being seen as overstepping in family discussions. Knows Grace worries about her children and tries to reassure her. Has a specific dislike of group decisions being changed last-minute.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "semi-formal",
+        "emoji_use": "moderate",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "checks in on Grace with 'Mummy G, how are you doing?'",
+          "uses 'just to confirm' to nail down logistics others have left vague",
+          "prefaces suggestions with 'not to overstep but\u2014' when addressing family dynamics"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p08",
+      "display_name": "David",
+      "full_name": "David Clarke",
+      "age": 39,
+      "gender": "male",
+      "role": "Adaeze's husband / IT contractor",
+      "background": "The non-Okafor who tries to stay helpful without overstepping. Manages logistics well but lets Adaeze lead family discussions. Has a dry sense of humour that the younger family members appreciate. Does not enjoy large formal family gatherings \u2014 prefers smaller, more relaxed settings.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "casual",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "uses 'leaving it to the family on this one' to stay neutral",
+          "dry humour with no emoji \u2014 'if everyone agrees, it probably won't happen'",
+          "tags Adaeze in logistics messages"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p09",
+      "display_name": "Aunty Ngozi",
+      "full_name": "Ngozi Obi-Okafor",
+      "age": 58,
+      "gender": "female",
+      "role": "Emeka's sister / retired civil servant (Abuja)",
+      "background": "Emeka's warm-but-outspoken sister. Loves the group chat but has strong opinions about family events and does not hesitate to share them. Deeply invested in the 35th anniversary trip and wants it to be a major event. Will express disapproval if plans are too modest.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "semi-formal",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "opens strong opinions with 'My people, let me say something'",
+          "uses 'ehen!' as an affirmation when someone says something she agrees with",
+          "refers to family events as 'occasions' and expects them to be planned well in advance"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p10",
+      "display_name": "Uncle Femi",
+      "full_name": "Femi Okafor",
+      "age": 56,
+      "gender": "male",
+      "role": "Emeka's younger brother / businessman (Lagos)",
+      "background": "Boisterous and generous; quick to offer to pay for things or organise big gestures. Can dominate discussions unintentionally. Has a history of big commitments that don't always materialise, which the family quietly accounts for.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "offers to 'sort it out' for things he may not follow through on",
+          "uses 'ehhh' as an energetic opener",
+          "introduces tangential family news mid-conversation"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p11",
+      "display_name": "Nkechi",
+      "full_name": "Nkechi Clarke",
+      "age": 14,
+      "gender": "female",
+      "role": "Adaeze and David's daughter",
+      "background": "The eldest of the next generation in the chat. Enthusiastic but slightly overwhelmed when family logistics dominate; participates mainly for the social side. Has an implicit preference to have a say in family plans even when the adults don't consult her.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "reacts with strings of emoji rather than full sentences",
+          "uses 'omg' or 'wait actually' before a genuine opinion",
+          "asks grandparents how they are in standalone short messages"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p12",
+      "display_name": "Ife",
+      "full_name": "Ife Clarke",
+      "age": 10,
+      "gender": "male",
+      "role": "Adaeze and David's son",
+      "background": "The youngest active chat member. Posts sporadically, usually excited about something that happened at school or asking about the trip. The family finds his messages endearing.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "high",
+        "speaking_quirks": [
+          "asks questions about food or activities for the trip",
+          "uses ALL CAPS for excitement",
+          "says 'hi everybody' when joining a conversation already in progress"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p13",
+      "display_name": "Amara",
+      "full_name": "Amara Okafor",
+      "age": 22,
+      "gender": "female",
+      "role": "Kunle's cousin / undergraduate student (Lagos)",
+      "background": "Kunle's closest age peer in the extended family. Active in the chat, supportive of the grandparents, and excited about the anniversary trip. Occasionally the one who reminds Kunle to respond to messages.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "nudges Kunle with 'Kunle did you see this??' when he hasn't responded",
+          "uses 'aww' for emotional family moments",
+          "occasionally posts in Yoruba or Igbo with no translation"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p14",
+      "display_name": "Pastor Emeka Jr",
+      "full_name": "Emeka Okafor Jr",
+      "age": 45,
+      "gender": "male",
+      "role": "Emeka's cousin / pastor (London)",
+      "background": "The family's spiritual anchor in the UK. Occasionally posts blessings or prayer requests. Involved in the anniversary planning and wants it to include a prayer/thanksgiving element. Has a busy schedule and gives short notice about his own availability.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "opens messages with 'God bless this family'",
+          "uses 'I will endeavour to' when confirming plans tentatively",
+          "closes with 'In His name'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_f6g7h8i9_p15",
+      "display_name": "Zara",
+      "full_name": "Zara Okafor",
+      "age": 26,
+      "gender": "female",
+      "role": "Tolu's younger cousin / NHS nurse (Birmingham)",
+      "background": "Friendly and practical; the family's second healthcare voice after Chidi. Closest to Tolu in sensibility. Notices things others miss but tends to keep observations to herself unless asked. Has an implicit preference for simpler, less elaborate family events.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "uses 'just to say' before a practical observation",
+          "responds with 'noted' to logistical updates",
+          "uses 'no pressure but' before flagging something that is actually urgent"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "grp_f6g7h8i9_p01",
+      "target_id": "grp_f6g7h8i9_p02",
+      "relationship_type": "married_35_years",
+      "closeness": 5,
+      "notes": "Emeka and Grace have been married 35 years; the trip is their anniversary celebration"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p03",
+      "target_id": "grp_f6g7h8i9_p07",
+      "relationship_type": "married",
+      "closeness": 5,
+      "notes": "Chidi and Sophia are married; Sophia manages UK family logistics"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p04",
+      "target_id": "grp_f6g7h8i9_p08",
+      "relationship_type": "married",
+      "closeness": 5,
+      "notes": "Adaeze and David are married; David stays deferential to family decisions"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p03",
+      "target_id": "grp_f6g7h8i9_p04",
+      "relationship_type": "siblings",
+      "closeness": 4,
+      "notes": "Chidi and Adaeze are the eldest two; Chidi mediates when Adaeze is frustrated"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p04",
+      "target_id": "grp_f6g7h8i9_p05",
+      "relationship_type": "close_sisters",
+      "closeness": 5,
+      "notes": "Adaeze and Tolu are the closest sibling pair; Tolu confides in Adaeze"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p05",
+      "target_id": "grp_f6g7h8i9_p06",
+      "relationship_type": "siblings_different_generation",
+      "closeness": 3,
+      "notes": "Tolu and Kunle are 5 years apart; Tolu is protective but exasperated by Kunle's admin failures"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p06",
+      "target_id": "grp_f6g7h8i9_p13",
+      "relationship_type": "close_cousins",
+      "closeness": 4,
+      "notes": "Kunle and Amara are the closest age pair in the extended family; Amara keeps Kunle in the loop"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p01",
+      "target_id": "grp_f6g7h8i9_p09",
+      "relationship_type": "siblings",
+      "closeness": 4,
+      "notes": "Emeka and Ngozi are siblings; Ngozi has strong opinions and Emeka defers to keep peace"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p01",
+      "target_id": "grp_f6g7h8i9_p10",
+      "relationship_type": "siblings",
+      "closeness": 3,
+      "notes": "Emeka and Femi are brothers; Femi's commitments are taken with a grain of salt"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p05",
+      "target_id": "grp_f6g7h8i9_p15",
+      "relationship_type": "close_cousins",
+      "closeness": 4,
+      "notes": "Tolu and Zara are close in sensibility; Zara is a quieter mirror of Tolu"
+    },
+    {
+      "source_id": "grp_f6g7h8i9_p02",
+      "target_id": "grp_f6g7h8i9_p07",
+      "relationship_type": "mother_in_law_close",
+      "closeness": 4,
+      "notes": "Grace and Sophia have a warm relationship; Sophia is good at managing Grace's worry"
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_id": "gn_f6_01",
+      "description": "Family decisions are discussed in the group chat before being finalised",
+      "truly_universal": false,
+      "dissenters": [
+        "grp_f6g7h8i9_p10"
+      ],
+      "dissenter_notes": "Uncle Femi frequently announces decisions as fait accompli without asking the group first, which occasionally causes friction"
+    },
+    {
+      "norm_id": "gn_f6_02",
+      "description": "Everyone contributes to shared family costs (trips, celebrations) proportionally",
+      "truly_universal": false,
+      "dissenters": [
+        "grp_f6g7h8i9_p06"
+      ],
+      "dissenter_notes": "Kunle consistently lags on financial commitments due to PhD student income \u2014 the family quietly covers for him while expecting him to catch up eventually"
+    },
+    {
+      "norm_id": "gn_f6_03",
+      "description": "Family events are planned with enough notice for everyone to attend",
+      "truly_universal": false,
+      "dissenters": [
+        "grp_f6g7h8i9_p14"
+      ],
+      "dissenter_notes": "Pastor Emeka Jr regularly gives last-minute availability updates, but the family accepts it given his role"
+    }
+  ],
+  "planted_challenges": [
+    {
+      "challenge_id": "ch_f601",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_f6g7h8i9_p05",
+      "fact_attribute": "large family gatherings vs smaller sub-groups",
+      "fact_value": "Tolu consistently prefers smaller sub-group family events over all-15-together gatherings, but never says so directly",
+      "implicitness_level": 2,
+      "evidence_span": "When full-family gatherings are proposed, Tolu redirects toward smaller group options or goes quiet, but frames it as practicality"
+    },
+    {
+      "challenge_id": "ch_f602",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_f6g7h8i9_p02",
+      "fact_attribute": "surprise plans",
+      "fact_value": "Grace strongly prefers advance notice for any plans \u2014 she becomes visibly anxious when surprises or last-minute changes arise, though she frames it as concern for logistics rather than personal preference",
+      "implicitness_level": 2,
+      "evidence_span": "When surprise elements are mentioned, Grace redirects with logistics concerns rather than saying she dislikes surprises"
+    },
+    {
+      "challenge_id": "ch_f603",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_f6g7h8i9_p08",
+      "fact_attribute": "large formal family gatherings",
+      "fact_value": "David finds large formal family gatherings uncomfortable and consistently deflects toward smaller, more relaxed alternatives, though he never says so explicitly",
+      "implicitness_level": 2,
+      "evidence_span": "When formal all-family events are discussed, David goes quiet or redirects to a smaller sub-group option, letting Adaeze lead while signalling his preference through silence or brief responses"
+    },
+    {
+      "challenge_id": "ch_f604",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_f6g7h8i9_p06",
+      "fact_attribute": "family admin responsibilities",
+      "fact_value": "Kunle consistently overpromises on family admin tasks and does not follow through \u2014 not because he is unwilling but because he is genuinely overwhelmed by PhD work",
+      "implicitness_level": 2,
+      "evidence_span": "Kunle responds to requests with 'on it' but rarely follows through; the family has learned to chase him or quietly redistribute the task"
+    },
+    {
+      "challenge_id": "ch_f605",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "grp_f6g7h8i9_p04",
+      "fact_attribute": "the venue for the 35th anniversary trip",
+      "fact_value": "Adaeze nominally agrees to the Scotland venue the family settles on, but has been vocal earlier about preferring a European city break and only relents when outvoted",
+      "implicitness_level": 2,
+      "evidence_span": "Adaeze agrees when the group finalises Scotland, but her agreement is preceded by a visible preference for Paris/Lisbon and she adds a caveat that she still thinks the city option was better"
+    },
+    {
+      "challenge_id": "ch_f606",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "grp_f6g7h8i9_p15",
+      "fact_attribute": "including a formal dinner in the anniversary plans",
+      "fact_value": "Zara nominally agrees to the formal dinner component of the trip but her agreement is a quiet 'noted' \u2014 she would prefer a simpler celebration",
+      "implicitness_level": 3,
+      "evidence_span": "When the formal dinner is agreed, Zara responds with a minimal acknowledgment and does not engage with the excited discussion others have about it"
+    },
+    {
+      "challenge_id": "ch_f607",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "grp_f6g7h8i9_p02",
+      "speaker_persona_id": "grp_f6g7h8i9_p07",
+      "fact_attribute": "Grace's preference for advance notice and dislike of surprises",
+      "fact_value": "Grace becomes anxious when surprised or given last-minute plan changes",
+      "implicitness_level": 2,
+      "evidence_span": "Sophia redirects a suggestion to surprise Grace with the trip details, framing it as 'Mummy G would want to know in advance so she can prepare' \u2014 revealing she already knows this about Grace"
+    },
+    {
+      "challenge_id": "ch_f608",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "grp_f6g7h8i9_p06",
+      "speaker_persona_id": "grp_f6g7h8i9_p04",
+      "fact_attribute": "Kunle's admin follow-through problem",
+      "fact_value": "Kunle consistently fails to follow through on admin tasks despite good intentions",
+      "implicitness_level": 2,
+      "evidence_span": "Adaeze proactively asks Sophia to confirm Kunle's share was paid, before any complaint from Kunle \u2014 revealing she already expected he would forget"
+    },
+    {
+      "challenge_id": "ch_f609",
+      "challenge_type": "false_attribution_seed",
+      "subject_persona_id": "grp_f6g7h8i9_p09",
+      "speaker_persona_id": "grp_f6g7h8i9_p10",
+      "fact_attribute": "proposing the anniversary trip should be a grand occasion with extended family invited",
+      "fact_value": "Uncle Femi proposed turning the anniversary trip into a larger extended-family event, which surprised some members",
+      "implicitness_level": 2,
+      "evidence_span": "Femi announces a big extended-family invite in a way that uses his characteristic boisterous style. Aunty Ngozi is the plausible wrong attribution because she also pushes for grand occasions and has strong opinions about family events."
+    },
+    {
+      "challenge_id": "ch_f610",
+      "challenge_type": "false_attribution_seed",
+      "subject_persona_id": "grp_f6g7h8i9_p03",
+      "speaker_persona_id": "grp_f6g7h8i9_p04",
+      "fact_attribute": "suggesting the family hire a private chef for the anniversary dinner",
+      "fact_value": "Adaeze suggested hiring a private chef, not Chidi who is the more naturally organised planner",
+      "implicitness_level": 2,
+      "evidence_span": "Adaeze makes the private chef suggestion using her characteristic 'Can I just say something?' opener. Chidi is the plausible wrong attribution because he's the family organiser \u2014 but the suggestion comes from Adaeze's desire for the event to feel special rather than Chidi's logistics instinct."
+    },
+    {
+      "challenge_id": "ch_f611",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "grp_f6g7h8i9_p04",
+      "speaker_persona_id": "grp_f6g7h8i9_p05",
+      "fact_attribute": "Adaeze and Tolu's sister relationship \u2014 Tolu confides in Adaeze privately before the group",
+      "fact_value": "Tolu confides personal news or worries to Adaeze first, before sharing with the wider family group",
+      "implicitness_level": 2,
+      "evidence_span": "Tolu shares a piece of news in the group chat and Adaeze's response reveals she already knew \u2014 implying Tolu had told her privately first"
+    },
+    {
+      "challenge_id": "ch_f612",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "grp_f6g7h8i9_p01",
+      "speaker_persona_id": "grp_f6g7h8i9_p09",
+      "fact_attribute": "Emeka's health concern that the family doesn't know about",
+      "fact_value": "Emeka has a minor health issue (elevated blood pressure) that he has only told Ngozi about \u2014 she reveals this by deflecting the Scotland trip's physical activity options",
+      "implicitness_level": 2,
+      "evidence_span": "Ngozi deflects suggestions for strenuous hiking with 'Emeka should take it easy \u2014 the doctors have said to watch his pressure.' This reveals she knows something about his health that wasn't shared in the group."
+    },
+    {
+      "challenge_id": "ch_f613",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "grp_f6g7h8i9_p10",
+      "fact_attribute": "Uncle Femi's participation energy in the trip planning",
+      "fact_value": "Uncle Femi starts the planning highly engaged (offering to pay for things, posting frequently) but becomes quieter and more deflective from Session 6 onward \u2014 suggesting a financial change he hasn't announced",
+      "implicitness_level": 2,
+      "evidence_span": "Early sessions: Femi is loud and generous with offers. Later sessions: his responses become shorter, he defers on payments, and he stops making big promises. The shift is never explained directly."
+    },
+    {
+      "challenge_id": "ch_f614",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "grp_f6g7h8i9_p03",
+      "fact_attribute": "Chidi's tone about planning the trip",
+      "fact_value": "Chidi shifts from calm coordination early on to visibly shorter, more clipped messages by Sessions 7-8, suggesting work stress he hasn't shared",
+      "implicitness_level": 2,
+      "evidence_span": "Early sessions: Chidi is methodical and warm. Later sessions: 'On it', 'Sorted', short acknowledgments \u2014 contrasts with his earlier fuller messages. The shift is gradual."
+    },
+    {
+      "challenge_id": "ch_f615",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_f6g7h8i9_p15",
+      "fact_attribute": "type of family celebration",
+      "fact_value": "Zara prefers simpler, low-key family celebrations over elaborate formal events \u2014 she never objects but consistently understates her enthusiasm for formal elements",
+      "implicitness_level": 2,
+      "evidence_span": "When formal elements are proposed, Zara responds minimally ('noted', 'sounds nice') without engaging the detail that others get excited about. Her lack of enthusiasm is quiet and consistent."
+    },
+    {
+      "challenge_id": "ch_f616",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_f6g7h8i9_p01",
+      "fact_attribute": "the scale of the anniversary celebration",
+      "fact_value": "Emeka actually prefers a quiet, intimate celebration for the anniversary \u2014 he goes along with the family's elaborate plans but his messages express a preference for 'just the children and grandchildren' without pushing back directly",
+      "implicitness_level": 2,
+      "evidence_span": "Emeka's messages about the anniversary are warm but consistently note 'as long as Grace is happy' and 'we do not need a big occasion' \u2014 framing that signals his actual preference is smaller and quieter"
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

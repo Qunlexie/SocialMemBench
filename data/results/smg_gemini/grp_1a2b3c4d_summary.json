@@ -1,0 +1,67 @@
+{
+  "network_id": "grp_1a2b3c4d",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:28:09.254443+00:00",
+  "sessions_used": 5,
+  "total_pairs": 12,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.65,
+  "mean_context_words": 536.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.6
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.667
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c3d4",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Maya's dislike for cilantro but then incorrectly states she wants to try Mariposa, which she ultimately vetoed due to cilantro. The majority of the answer is also irrelevant to food preferences."
+    },
+    {
+      "qa_id": "Q2_e1f2a3b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d4e5f6a7",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer directly contradicts the core fact by stating there was 'no indication of a change' in Maya's preference, whereas the gold answer and the question itself imply a change, which the gold answer confirms."
+    }
+  ]
+}

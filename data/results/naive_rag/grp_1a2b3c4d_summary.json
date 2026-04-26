@@ -1,28 +1,17 @@
 {
   "network_id": "grp_1a2b3c4d",
   "condition": "naive_rag",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:08:23.126105+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:16:00.968774+00:00",
   "sessions_used": 5,
   "total_pairs": 12,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.317,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.417,
+  "mean_context_words": 111.4,
   "by_query_type": {
     "Q1": {
       "count": 3,
-      "mean_score": 0.667
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 1.0
-    },
-    "Q7": {
-      "count": 2,
-      "mean_score": 0.4
-    },
-    "Q8": {
-      "count": 3,
-      "mean_score": 0.0
+      "mean_score": 0.167
     },
     "Q2": {
       "count": 1,
@@ -30,49 +19,61 @@
     },
     "Q4": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q6": {
       "count": 1,
       "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.5
     }
   },
   "low_scoring": [
     {
-      "qa_id": "Q7_f6a7b8c9",
-      "query_type": "Q7",
-      "score": 0.0
+      "qa_id": "Q1_a1b2c3d4",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
     },
     {
-      "qa_id": "Q8_b8c9d0e1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_c9d0e1f2",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_d0e1f2a3",
-      "query_type": "Q8",
-      "score": 0.0
+      "qa_id": "Q1_b2c3d4e5",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify Sam's aversion to mushrooms, which is the core food preference suggested by their behavior. It instead focuses on a general preference for chicken and misinterprets the key 'just prefer the chicken' line as a direct preference rather than a deflection from mushrooms."
     },
     {
       "qa_id": "Q2_e1f2a3b4",
       "query_type": "Q2",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q4_d4e5f6a7",
-      "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q6_f2a3b4c5",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6a7b8c9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly describes Maya's initial relationship with alcohol as 'enthusiasm' when the gold answer states no preference was expressed. While it correctly identifies the new state (sparkling water), it misses the crucial detail of Priya confirming the change as known and ongoing, and the initial state is factually incorrect."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,0 +1,107 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:56:56.864136+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.548,
+  "mean_context_words": 951.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.58
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.2
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.625
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.512
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c302",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Soo-Yeon's actions and initial preference for lighter snacks. However, it misinterprets her pattern and underlying preference by concluding she is 'flexible and willing to compromise' on her preferences. The gold answer correctly identifies that she consistently avoids heavy food and manages this preference through quiet substitution, rather than compromising on the type of food she eats."
+    },
+    {
+      "qa_id": "Q1_a1b2c305",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a potential preference for vegetarian options and that Lena did not state dietary restrictions, but it incorrectly states that Lena 'chose a vegetarian snack' when Priya was the one who brought the veggie samosas."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.2,
+      "rationale": "The generated answer correctly identifies the food approaches for 2 out of 10 group members mentioned in the gold answer (Derek and Nadia). It incorrectly states that Priya, Felix, and Kezia's preferences are unclear, when the gold answer provides specific details for them."
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes Soo-Yeon's relationship with real-time games (Part 1). She finds them overwhelming, not that she believes cooperative ones are less intimidating. While Part 2 correctly identifies Priya and quotes her, the understanding attributed to Priya is based on the incorrect premise about Soo-Yeon's relationship, making the overall explanation of Priya's prior knowledge incorrect in context."
+    },
+    {
+      "qa_id": "Q6_a1b2c301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a 'personal connection' but supports it with a specific interaction ('Lena follows up on a relational disclosure Priya made') that does not align with the gold answer's specific examples or the described dynamics. The gold answer states Lena *raises* a sensitive observation about Priya, not that she follows up on a disclosure Priya made."
+    },
+    {
+      "qa_id": "Q7_a1b2c302",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Kezia and Felix as newer members and uses correct quotes for their positioning within the group. However, it completely fails to identify their connection to each other *outside* the group, instead providing observations about their developing rapport *within* the group, which is factually incorrect for the 'outside the group' aspect of the question."
+    },
+    {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the trigger for Kezia's shift (Tomasz walking her through Terra Mystica) and attributes it correctly. However, it fails to provide specific conversational evidence for the earlier state, only inferring 'uncertainty or less confidence.' For the evolved state, it provides weak and imprecise evidence ('enthusiasm for playing Cascadia and her intention to keep up') compared to the gold answer's specific actions (solo practice, asking about spatial scoring). The question explicitly asks 'what in the conversation shows' the states, which is largely missed for both states."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Marcus 'already knew about the value of variance,' which contradicts the gold answer's explanation of a 'genuine reconsideration' and a shift in his perspective triggered by Lena's reframing, rather than a revelation of prior knowledge."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes the 'old preference' by including Lena's reanalysis of it, misidentifies the 'new preference' as a component of her understanding rather than the resulting openness, and incorrectly attributes the trigger for the shift to Marcus's acknowledgment instead of Lena's own intellectual process."
+    }
+  ]
+}

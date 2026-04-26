@@ -1,0 +1,580 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "group_name": "The Lakeview Crew",
+  "group_type": "close_friends",
+  "group_size": 15,
+  "tier": "large",
+  "seed": 17,
+  "timespan_weeks": 14,
+  "noise_level": "medium",
+  "participation_rate": "moderate",
+  "member_departure": "none",
+  "description": "A group of 15 close friends who met at Lakeview University and have maintained a group chat since graduating 6-7 years ago. They now live in different cities and use the chat to stay connected, plan occasional meetups, celebrate milestones, and share life updates. Interactions range from casual banter to deeper support during hard moments.",
+  "personas": [
+    {
+      "persona_id": "grp_e5f6a7b8_p01",
+      "display_name": "Maya",
+      "full_name": "Maya Chen",
+      "age": 30,
+      "gender": "female",
+      "role": "product manager / de facto group organizer",
+      "background": "Energetic and caring; has naturally become the one who coordinates plans, follows up on logistics, and checks in on quieter members. Lives in San Francisco. Knows about Alex's dissertation struggles and adjusts group conversations accordingly.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "starts planning messages with 'OKAY hear me out \u2014'",
+          "follows up with 'thoughts??' after proposals",
+          "uses '!!' liberally to convey excitement"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p02",
+      "display_name": "Jake",
+      "full_name": "Jake Rivera",
+      "age": 29,
+      "gender": "male",
+      "role": "software engineer",
+      "background": "Witty but introverted; participates actively in the chat but consistently steers large-group plans toward smaller sub-group options \u2014 rarely explains why. Lives in NYC. Neighbors with Maya in an adjacent building; they co-plan often.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "deflects large-group plans with 'what if just a few of us did [x] instead'",
+          "uses dry humour with no emoji \u2014 punchline is always understated",
+          "often references a relevant movie or TV show with no explanation"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p03",
+      "display_name": "Priya",
+      "full_name": "Priya Nair",
+      "age": 31,
+      "gender": "female",
+      "role": "medical resident",
+      "background": "Overworked and time-constrained; cannot commit to spontaneous plans and always asks for at least 2-3 weeks notice. Tom knows this and quietly covers for her when plans conflict with her schedule.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "responds to spontaneous plans with 'I need to check my schedule' or 'how far out is this?'",
+          "uses 'I'll try' rather than 'yes' when capacity is uncertain",
+          "occasionally sends a voice note description ('sent voice') but it's always a reschedule"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p04",
+      "display_name": "Tom",
+      "full_name": "Tom Walsh",
+      "age": 32,
+      "gender": "male",
+      "role": "high school teacher",
+      "background": "Thoughtful and empathetic; the group's emotional anchor. Knows Priya's residency schedule inside out and often speaks for her when plans are being made. Close to Priya since freshman year.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "semi-formal",
+        "emoji_use": "moderate",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "opens supportive messages with 'just want to say \u2014'",
+          "often anticipates logistics before others ask ('also note: Priya has that conference week')",
+          "rarely uses slang but never sounds stiff"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p05",
+      "display_name": "Zoe",
+      "full_name": "Zoe Harrington",
+      "age": 28,
+      "gender": "female",
+      "role": "graphic designer / illustrator",
+      "background": "Creative and playful; bonds with Sam over aesthetic experiences (food, art, travel). Loves planning thematic group events and making them look great. Sometimes overthinks details others don't care about.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "uses 'okay but what if we...' to pitch creative variations of already-agreed plans",
+          "sends aesthetic moodboards or references when planning events",
+          "trails off with 'anyway' when she thinks she's gone too deep into detail"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p06",
+      "display_name": "Marcus",
+      "full_name": "Marcus Johnson",
+      "age": 30,
+      "gender": "male",
+      "role": "finance analyst",
+      "background": "Sarcastic and direct; nominally agrees with group decisions but often second-guesses shared costs after the fact. The group's unofficial devil's advocate. Has a tense-but-friendly dynamic with Nina.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "uses 'sure, whatever works' to nominally agree while clearly skeptical",
+          "often follows agreements with a sarcastic aside ('bold of us to assume everyone will show')",
+          "frames disagreements as hypotheticals ('I'm just saying \u2014 what if someone couldn't afford that')"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p07",
+      "display_name": "Lily",
+      "full_name": "Lily Park",
+      "age": 29,
+      "gender": "female",
+      "role": "marketing manager",
+      "background": "Upbeat and loyal; close with Becca from college. Knows about Nina's recent bad breakup and is careful about how she frames relationship discussions in the group chat.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "celebrates everything with 'omg YES' even minor updates",
+          "hypes others with 'you're literally amazing' when someone shares good news",
+          "ends suggestions with 'but totally if not no pressure!'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p08",
+      "display_name": "Alex",
+      "full_name": "Alex Torres",
+      "age": 31,
+      "gender": "non-binary",
+      "role": "PhD student (sociology)",
+      "background": "Intellectually engaged but increasingly withdrawn as dissertation pressure mounts. Deflects when career/life milestones come up; finds the group's 'what's next for you?' questions stressful. Maya knows about a recent setback and steers around it.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "semi-formal",
+        "emoji_use": "rare",
+        "typo_rate": "none",
+        "speaking_quirks": [
+          "adds 'anyway' to change the subject when career topics land too close",
+          "deflects milestone questions with a redirect ('enough about me, how's [someone else]')",
+          "uses precise language where others would be casual ('I'd frame it differently')"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p09",
+      "display_name": "Sam",
+      "full_name": "Sam Wu",
+      "age": 30,
+      "gender": "male",
+      "role": "sous-chef / restaurant industry",
+      "background": "Food-obsessed and opinionated about dining choices; steers group food decisions strongly. Close with Priya through a shared cooking hobby that predates the main group. Never vocal about disliking cilantro \u2014 just quietly avoids it.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "evaluates restaurants by ingredient quality rather than ambiance",
+          "quietly re-routes food plans away from cilantro-heavy dishes without explanation",
+          "will send a 3-paragraph message about a single dish if it's really good"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p10",
+      "display_name": "Nina",
+      "full_name": "Nina Costa",
+      "age": 29,
+      "gender": "female",
+      "role": "journalist",
+      "background": "Opinionated and high-energy; recently went through a bad breakup that most of the group knows about. Gets tense when others suggest she 'take a break' or slow down. Has a sparring-but-fond dynamic with Marcus.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "uses 'okay but actually' before pushing back on someone's take",
+          "switches to lowercase for emotional moments ('im fine. really')",
+          "often brings current events into group conversations unprompted"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p11",
+      "display_name": "Chris",
+      "full_name": "Chris Okafor",
+      "age": 30,
+      "gender": "male",
+      "role": "junior associate (corporate law)",
+      "background": "Perpetually busy but loyal; often gives 24h notice before dropping out of plans. Ambitious and slightly competitive with Raj. Participates more during low-work periods.",
+      "communication_profile": {
+        "verbosity": "terse",
+        "formality": "casual",
+        "emoji_use": "rare",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "explains absences with 'work thing came up' or 'deal season'",
+          "uses 'noted' to acknowledge messages when he can't respond more",
+          "when he's in, commits fully: 'yes, I'm in, blocking my calendar now'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p12",
+      "display_name": "Emma",
+      "full_name": "Emma Davies",
+      "age": 32,
+      "gender": "female",
+      "role": "pediatric nurse",
+      "background": "Warm and beloved by the group; often absent due to irregular shift work. When she does show up, she's emotionally present and supportive. The group is always happy to hear from her.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "opens catch-up messages with 'hi loves, been a minute'",
+          "checks in on quiet members by name ('how are YOU doing, Alex?')",
+          "signs off with 'sending love' or 'miss you all'"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p13",
+      "display_name": "Raj",
+      "full_name": "Raj Sharma",
+      "age": 31,
+      "gender": "male",
+      "role": "startup founder",
+      "background": "Networker and self-promoter; always brings up his startup and upcoming milestones. Slightly competitive with Chris. His energy in the chat shifts after a funding setback mid-corpus \u2014 becomes less frequent and more reflective.",
+      "communication_profile": {
+        "verbosity": "verbose",
+        "formality": "casual",
+        "emoji_use": "frequent",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "works startup mentions into unrelated conversations ('speaking of which \u2014 we just hit a milestone')",
+          "uses 'building in public' ironically to justify oversharing",
+          "responds to others' good news with his own update shortly after"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p14",
+      "display_name": "Becca",
+      "full_name": "Becca Mitchell",
+      "age": 29,
+      "gender": "female",
+      "role": "teacher's assistant / master's student",
+      "background": "Close with Lily; prone to anxious spirals around money and plans. Often voices the shared concern about group trip costs that others won't say out loud. More comfortable in smaller group settings.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "moderate",
+        "speaking_quirks": [
+          "uses 'tbh' to soften honest opinions",
+          "often adds a caveat after agreeing ('though I'll need to check my budget')",
+          "tags Lily specifically when asking for reassurance"
+        ]
+      }
+    },
+    {
+      "persona_id": "grp_e5f6a7b8_p15",
+      "display_name": "Will",
+      "full_name": "Will Foster",
+      "age": 30,
+      "gender": "male",
+      "role": "outdoor guide / freelance",
+      "background": "Adventure-oriented and low-key; consistently advocates for camping or outdoor options when group trips come up, without explaining the preference. Works irregular schedule; highly flexible.",
+      "communication_profile": {
+        "verbosity": "concise",
+        "formality": "casual",
+        "emoji_use": "moderate",
+        "typo_rate": "low",
+        "speaking_quirks": [
+          "redirects accommodation discussions toward 'what about camping instead?'",
+          "uses 'low-key would be down for...' before pitching outdoor alternatives",
+          "describes routes and trails with specific detail even in casual conversation"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "grp_e5f6a7b8_p01",
+      "target_id": "grp_e5f6a7b8_p02",
+      "relationship_type": "close_friends_neighbors",
+      "closeness": 5,
+      "notes": "Maya and Jake live in adjacent buildings and co-organize smaller sub-group hangouts"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p03",
+      "target_id": "grp_e5f6a7b8_p04",
+      "relationship_type": "close_friends_since_freshman_year",
+      "closeness": 5,
+      "notes": "Priya and Tom have been close since freshman year; Tom knows her schedule intimately"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p07",
+      "target_id": "grp_e5f6a7b8_p14",
+      "relationship_type": "close_friends_from_same_dorm",
+      "closeness": 5,
+      "notes": "Lily and Becca lived in the same dorm and stayed close; Lily is Becca's support system"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p09",
+      "target_id": "grp_e5f6a7b8_p03",
+      "relationship_type": "friends_through_cooking",
+      "closeness": 4,
+      "notes": "Sam and Priya bonded over cooking before the main group formed; share a foodie friendship"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p06",
+      "target_id": "grp_e5f6a7b8_p10",
+      "relationship_type": "sparring_friends",
+      "closeness": 3,
+      "notes": "Marcus and Nina argue a lot but are fond of each other; the group enjoys their debates"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p11",
+      "target_id": "grp_e5f6a7b8_p13",
+      "relationship_type": "competitive_friends",
+      "closeness": 3,
+      "notes": "Chris and Raj are ambitious in parallel; they push each other but rivalry is mostly friendly"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p05",
+      "target_id": "grp_e5f6a7b8_p09",
+      "relationship_type": "creative_bond",
+      "closeness": 4,
+      "notes": "Zoe and Sam connect over aesthetics and food experiences; often pair up for restaurant recommendations"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p01",
+      "target_id": "grp_e5f6a7b8_p08",
+      "relationship_type": "protective_friendship",
+      "closeness": 4,
+      "notes": "Maya is aware of Alex's dissertation struggles and quietly steers group conversations around sensitive topics"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p07",
+      "target_id": "grp_e5f6a7b8_p10",
+      "relationship_type": "close_supportive_friendship",
+      "closeness": 5,
+      "notes": "Lily knows about Nina's breakup and adjusts how she frames relationship discussions around Nina"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p12",
+      "target_id": "grp_e5f6a7b8_p04",
+      "relationship_type": "warm_friendship",
+      "closeness": 3,
+      "notes": "Emma and Tom are both caregiving types who recognize each other; bond when both are present"
+    },
+    {
+      "source_id": "grp_e5f6a7b8_p15",
+      "target_id": "grp_e5f6a7b8_p02",
+      "relationship_type": "low_key_alliance",
+      "closeness": 3,
+      "notes": "Will and Jake share a preference for smaller, lower-key plans; quietly align when big events are proposed"
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_id": "gn_e5_01",
+      "description": "Group trip costs are split equally among everyone who attends",
+      "truly_universal": false,
+      "dissenters": [
+        "grp_e5f6a7b8_p08"
+      ],
+      "dissenter_notes": "Alex is a PhD student with very limited income; nominally agrees to equal splits but their 'works for me' is not genuine \u2014 they quietly stress about cost after agreeing"
+    },
+    {
+      "norm_id": "gn_e5_02",
+      "description": "We celebrate every milestone, no matter how small \u2014 announce in the chat",
+      "truly_universal": true,
+      "dissenters": [],
+      "dissenter_notes": ""
+    },
+    {
+      "norm_id": "gn_e5_03",
+      "description": "Give at least 48h notice if you can't make a planned meetup",
+      "truly_universal": false,
+      "dissenters": [
+        "grp_e5f6a7b8_p11",
+        "grp_e5f6a7b8_p12"
+      ],
+      "dissenter_notes": "Chris and Emma regularly drop out last-minute due to work demands; the group accepts it from them but would push back on anyone else doing the same"
+    }
+  ],
+  "planted_challenges": [
+    {
+      "challenge_id": "ch_e501",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_e5f6a7b8_p09",
+      "fact_attribute": "cilantro",
+      "fact_value": "Sam avoids cilantro in dishes; deflects food choices that would include it without explaining why",
+      "implicitness_level": 2,
+      "evidence_span": "When the group discusses restaurant options, Sam subtly steers away from places or dishes he knows use cilantro heavily, suggesting alternatives without saying why"
+    },
+    {
+      "challenge_id": "ch_e502",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_e5f6a7b8_p10",
+      "fact_attribute": "being told to slow down or take a break from work",
+      "fact_value": "Nina gets quietly defensive when anyone suggests she take it easy or rest more; deflects with a redirect or dismissive response without naming the discomfort",
+      "implicitness_level": 2,
+      "evidence_span": "When group members suggest Nina 'take a break' or 'decompress', she pivots to a deflection or mild push-back without engaging the advice"
+    },
+    {
+      "challenge_id": "ch_e503",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_e5f6a7b8_p02",
+      "fact_attribute": "large group social events",
+      "fact_value": "Jake consistently pushes for smaller sub-group options when large group plans come up; never states that he finds big gatherings draining",
+      "implicitness_level": 2,
+      "evidence_span": "Every time a large group event is proposed, Jake suggests a smaller version ('what if just 4-5 of us did X instead') without explaining his preference"
+    },
+    {
+      "challenge_id": "ch_e504",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_e5f6a7b8_p03",
+      "fact_attribute": "spontaneous plans",
+      "fact_value": "Priya is unable to commit to anything unless it's planned at least 2-3 weeks ahead; frames it as schedule uncertainty but the pattern is consistent regardless of content",
+      "implicitness_level": 2,
+      "evidence_span": "Any time the group proposes something spontaneous or less than 2 weeks out, Priya responds with 'I need to check my schedule' or 'how far out is this?' and usually can't make it"
+    },
+    {
+      "challenge_id": "ch_e505",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "grp_e5f6a7b8_p15",
+      "fact_attribute": "accommodation type for group trips",
+      "fact_value": "Will consistently steers group trip discussions toward camping or outdoor stays rather than hotels or Airbnbs, without explaining the preference",
+      "implicitness_level": 2,
+      "evidence_span": "When accommodation options are discussed, Will redirects toward camping or cabin-style options with 'low-key would be down for...' \u2014 never gives a reason"
+    },
+    {
+      "challenge_id": "ch_e506",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "grp_e5f6a7b8_p08",
+      "fact_attribute": "the group trip accommodation choice",
+      "fact_value": "Alex nominally agrees to a hotel/Airbnb split cost but their agreement is not genuine; they're quietly stressed about money but don't say so",
+      "implicitness_level": 2,
+      "evidence_span": "When the group agrees on a hotel option, Alex says 'works for me' \u2014 unlike others who express genuine enthusiasm; later subtly references budget pressure"
+    },
+    {
+      "challenge_id": "ch_e507",
+      "challenge_type": "consensus_trap",
+      "subject_persona_id": "grp_e5f6a7b8_p06",
+      "fact_attribute": "equal cost splitting for the group trip",
+      "fact_value": "Marcus nominally agrees to equal splits but consistently questions expense fairness after the fact using hypotheticals; his agreement is performative",
+      "implicitness_level": 3,
+      "evidence_span": "Marcus says 'sure, whatever works' when the group settles on equal splits, then later posts a sarcastic aside about whether the cost breakdown was actually fair"
+    },
+    {
+      "challenge_id": "ch_e508",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "grp_e5f6a7b8_p10",
+      "speaker_persona_id": "grp_e5f6a7b8_p07",
+      "fact_attribute": "Nina's recent breakup",
+      "fact_value": "Nina recently went through a bad breakup that she finds painful",
+      "implicitness_level": 2,
+      "evidence_span": "Lily steers group discussions away from relationship topics when Nina is active, framing it generically \u2014 in a way that only makes sense if she already knew about Nina's breakup and is accommodating her without saying so"
+    },
+    {
+      "challenge_id": "ch_e509",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "grp_e5f6a7b8_p03",
+      "speaker_persona_id": "grp_e5f6a7b8_p04",
+      "fact_attribute": "Priya's residency schedule",
+      "fact_value": "Priya has an exceptionally constrained schedule due to residency demands",
+      "implicitness_level": 2,
+      "evidence_span": "Tom mentions Priya's schedule or buffer time proactively when the group is planning events, without Priya asking him to \u2014 revealing intimate knowledge of her constraints"
+    },
+    {
+      "challenge_id": "ch_e510",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "grp_e5f6a7b8_p08",
+      "speaker_persona_id": "grp_e5f6a7b8_p01",
+      "fact_attribute": "Alex's dissertation setback",
+      "fact_value": "Alex experienced a recent dissertation setback that has shaken their confidence",
+      "implicitness_level": 2,
+      "evidence_span": "Maya redirects group 'what's next for you?' questions away from Alex, or reframes career celebration moments to be less pointed \u2014 behavior that only makes sense if she already knew about Alex's situation"
+    },
+    {
+      "challenge_id": "ch_e511",
+      "challenge_type": "false_attribution_seed",
+      "subject_persona_id": "grp_e5f6a7b8_p14",
+      "speaker_persona_id": "grp_e5f6a7b8_p08",
+      "fact_attribute": "concern about the group trip being too expensive",
+      "fact_value": "Alex expressed concern about group trip costs being too high for some members",
+      "implicitness_level": 2,
+      "evidence_span": "Alex raises the cost concern using precise framing \u2014 'some of us might find this a stretch'. Becca is the plausible wrong attribution because she's known for voicing budget concerns openly. The reader must notice Alex's more guarded phrasing and the temporal placement to identify the true speaker."
+    },
+    {
+      "challenge_id": "ch_e512",
+      "challenge_type": "false_attribution_seed",
+      "subject_persona_id": "grp_e5f6a7b8_p02",
+      "speaker_persona_id": "grp_e5f6a7b8_p15",
+      "fact_attribute": "suggestion to try a new outdoor activity for the group trip",
+      "fact_value": "Will suggested the group try wild swimming as an activity for the meetup trip",
+      "implicitness_level": 2,
+      "evidence_span": "Will suggests wild swimming using his characteristic outdoors-specific vocabulary ('the lake at the north end has a great entry point'). Jake is the plausible wrong attribution because he's the other low-key outdoorsy member. The distinction is Will's specific location knowledge vs Jake's more casual framing."
+    },
+    {
+      "challenge_id": "ch_e513",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "grp_e5f6a7b8_p02",
+      "speaker_persona_id": "grp_e5f6a7b8_p01",
+      "fact_attribute": "Maya and Jake's pre-existing neighbor relationship",
+      "fact_value": "Maya and Jake are neighbors who co-organize smaller sub-group events together",
+      "implicitness_level": 2,
+      "evidence_span": "Maya mentions planning something with Jake in a way that reveals they coordinated offline ('Jake and I were already talking about this') \u2014 implying a closer pre-existing relationship than the main group chat suggests"
+    },
+    {
+      "challenge_id": "ch_e514",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "grp_e5f6a7b8_p03",
+      "speaker_persona_id": "grp_e5f6a7b8_p09",
+      "fact_attribute": "Sam and Priya's shared cooking friendship predating the main group",
+      "fact_value": "Sam and Priya have a cooking-focused friendship that predates the main group's formation",
+      "implicitness_level": 2,
+      "evidence_span": "Sam and Priya reference a specific cooking experience or shared kitchen memory in a way that implies a closer history than the main group would know about"
+    },
+    {
+      "challenge_id": "ch_e515",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "grp_e5f6a7b8_p08",
+      "fact_attribute": "engagement with the group chat",
+      "fact_value": "Alex shifts from actively participating and contributing intellectually in early sessions to becoming quieter, deflecting personal questions, and rarely initiating topics by S6-S7",
+      "implicitness_level": 2,
+      "evidence_span": "Early sessions show Alex engaged and adding observations; from S6 onward Alex's responses become shorter, redirecting, or absent \u2014 the shift is gradual and the trigger (dissertation setback) is never named in the chat"
+    },
+    {
+      "challenge_id": "ch_e516",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "grp_e5f6a7b8_p13",
+      "fact_attribute": "energy and frequency of startup updates in the chat",
+      "fact_value": "Raj shifts from frequent, high-energy startup updates and excited check-ins in early sessions to notably less frequent, more subdued participation from S7 onward following an implied funding setback",
+      "implicitness_level": 2,
+      "evidence_span": "Raj's startup mentions drop off sharply in later sessions; his one reference to it uses the word 'recalibrating' rather than celebrating \u2014 a signal that something changed without him saying so directly"
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

@@ -1,12 +1,13 @@
 {
   "network_id": "grp_0d1e2f3a",
   "condition": "cognee",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:50:30.201152+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:38:40.814919+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.317,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.333,
+  "mean_context_words": 41.7,
   "by_query_type": {
     "Q1": {
       "count": 1,
@@ -16,13 +17,13 @@
       "count": 1,
       "mean_score": 0.0
     },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.4
-    },
     "Q4": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
     },
     "Q6": {
       "count": 1,
@@ -37,23 +38,20 @@
     {
       "qa_id": "Q3_c0s3c2",
       "query_type": "Q3",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_c0s4c1",
-      "query_type": "Q5",
-      "score": 0.4
+      "score": 0.0,
+      "rationale": "The generated answer explicitly states that specific attitudes of individual members are not detailed, which directly contradicts the gold answer that provides detailed attitudes for each member."
     },
     {
       "qa_id": "Q6_c0s5c1",
       "query_type": "Q6",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q2_c0s2c1",
       "query_type": "Q2",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,20 +1,25 @@
 {
   "network_id": "grp_8b9c0d1e",
   "condition": "naive_rag",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:08:40.723470+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:29:47.793294+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.417,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.433,
+  "mean_context_words": 279.8,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.7
+      "mean_score": 0.6
     },
     "Q3": {
       "count": 1,
       "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
     },
     "Q8": {
       "count": 1,
@@ -22,13 +27,9 @@
     },
     "Q5": {
       "count": 1,
-      "mean_score": 0.1
+      "mean_score": 0.0
     },
     "Q7": {
-      "count": 1,
-      "mean_score": 0.7
-    },
-    "Q6": {
       "count": 1,
       "mean_score": 1.0
     }
@@ -37,18 +38,20 @@
     {
       "qa_id": "Q3_bk8s1c1",
       "query_type": "Q3",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer claims there is insufficient information, which directly contradicts the gold answer that provides detailed insights into each member's reading habits."
     },
     {
       "qa_id": "Q8_bk8s3c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Blessing's old and new approaches to challenging interpretations, focusing on the content of her interpretations rather than her method of challenging. It also provides an incorrect trigger for the change, missing the key detail of her novel's publication."
     },
     {
       "qa_id": "Q5_bk8s3c2",
       "query_type": "Q5",
-      "score": 0.1
+      "score": 0.0,
+      "rationale": "The generated answer identifies the wrong reading habit and fails to pinpoint the specific observable action by Tomasz that reveals his prior knowledge, instead offering a vague explanation."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

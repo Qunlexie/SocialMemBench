@@ -16,7 +16,7 @@ answer:
     Rules:
     1. Use only information in the memories.
     2. If multiple options seem plausible, choose the one most directly supported.
-    3. You MUST pick one option (A/B/C/D) even if uncertain.
+    3. You MUST pick one option (A/B/C/D) even if uncertain — never abstain.
     4. Output ONLY a single uppercase letter: A or B or C or D
 
     [MEMORIES]
@@ -35,10 +35,31 @@ answer:
 
     Pay attention to WHO said what and WHEN. Attribution and timing matter.
 
+    Answering guidance by question type:
+    - Single preference (Q1): Name the person and state their preference. Be specific.
+    - Group decision (Q2): State the decision AND name any dissenter(s) — implicit
+      dissent counts (silence, "sure whatever", topic change).
+    - Multi-contact (Q3): Cover every group member; say "unclear" for those with no signal.
+    - Attribution (Q4): Name only the true speaker. Do not name the foil even if plausible.
+    - Theory of mind (Q5): State BOTH the preference AND who revealed it, with the
+      specific observable action that shows they already knew.
+    - Norm vs individual (Q6): State whether the norm applies to everyone; name exceptions.
+    - Relational edge (Q7): Describe the relationship history as revealed in the memories.
+    - Temporal shift (Q8): State the OLD preference, the NEW preference, and what triggered
+      the change. All three parts matter.
+
+    Reading structured memory context (if present):
+    - Facts labeled "session N" are chronological. Earlier session = older belief.
+    - "EVOLVED_FROM" / "Earlier belief (session N)" means the newer fact supersedes it.
+    - "KNOWS_ABOUT" entries name who had prior knowledge and the observable evidence.
+    - "DISSENTS_FROM" entries show a person whose true preference differs from the group norm.
+
     Rules:
     1. Use only information in the memories.
-    2. If the memories don't contain enough information, say: NOT ENOUGH INFORMATION
-    3. Be specific: name the person, state the preference, describe the relationship.
+    2. If the memories are incomplete, answer with what you have and note uncertainty.
+       Only say NOT ENOUGH INFORMATION if the memories contain literally nothing about
+       the topic — not just because the answer is uncertain.
+    3. Be specific: name the person, state the preference, describe the mechanism.
     4. Output ONLY the answer text.
 
     [MEMORIES]
@@ -108,29 +129,44 @@ llm_answer:
 llm_judge:
   system_prompt: |
     You are an expert grader evaluating AI answers about social group conversations.
-    You score answers on a 0.0–1.0 scale based on correctness and completeness.
+    You score answers on a 0.0–1.0 scale based on factual correctness only.
 
   user_prompt: |
     Score the generated answer against the gold answer on a 0.0–1.0 scale.
 
-    Scoring rubric:
-    - 1.0: Correct — same meaning, correct attribution, all required parts present
-    - 0.7–0.9: Mostly correct — right answer but one part missing or slightly imprecise
-    - 0.4–0.6: Partial — right direction but wrong detail, missing key element, or ambiguous attribution
-    - 0.0–0.3: Wrong — incorrect attribution, wrong preference, contradiction, or no answer
+    CRITICAL RULES (apply before all others):
+    1. A concise correct answer scores THE SAME as a verbose one. Do NOT penalize
+       brevity or reward evidence citation. If the core fact is correct, score 1.0.
+    2. Attributing a fact to the wrong person is always a critical error → score ≤ 0.3,
+       regardless of how much other content is correct.
+    3. "NOT ENOUGH INFORMATION" or "[No memories retrieved]" always scores 0.0.
 
-    Special rules by question type:
-    - Q4 (attribution): Must name the correct speaker AND NOT name the foil → 1.0.
+    General rubric:
+    - 1.0: Core fact correct, correct person/attribution, required parts present
+    - 0.7–0.9: Right answer but one minor part missing or slightly imprecise
+    - 0.4–0.6: Right direction but wrong detail, missing key element, or ambiguous
+    - 0.0–0.3: Wrong attribution, wrong fact, contradiction, or no answer
+
+    Q-type specific rules:
+    - Q1/Q3: Core fact + correct person = 1.0. Evidence citation is NOT required.
+      For Q3, score = fraction of group members correctly recalled (e.g., 3/5 = 0.6).
+    - Q4 (attribution): Correct speaker named AND foil NOT named as answer → 1.0.
       Correct speaker + also names foil → 0.7. Wrong speaker → 0.0–0.3.
-    - Q5 (theory of mind): BOTH parts required for 1.0 — (1) the preference, (2) who revealed it.
-      Only one part correct → 0.5.
-    - Q8 (temporal shift): BOTH old AND new states required for 1.0. Only one side → 0.5.
-    - Q3 (multi-contact): Score = fraction of group members correctly recalled (e.g., 3/5 correct = 0.6).
+    - Q5 (theory of mind): BOTH parts required for 1.0.
+      Part 1 = correct preference/attitude.
+      Part 2 = correctly names WHO revealed it AND identifies a specific observable
+      action in the chat proving prior knowledge (e.g., an assumption made without
+      asking, a knowing callback, finishing someone's thought).
+      A claimed private conversation satisfies Part 2 only if chat behavior
+      in the transcript corroborates it.
+      One part correct → 0.5. Neither → 0.0–0.3.
+    - Q8 (temporal shift): old state correct (+0.33) + new state correct (+0.33)
+      + trigger/mechanism identified (+0.33) = 1.0.
+      Both states, no trigger → 0.7. One state only → 0.4. Neither → 0.0–0.2.
 
     Question: {question}
     Gold answer: {golden_answer}
     Generated answer: {generated_answer}
 
-    First write one sentence explaining your reasoning.
-    Then output JSON with score and rationale:
-    {{"score": 0.0, "rationale": "one sentence"}}
+    Output JSON only — no preamble:
+    {{"score": 0.0, "rationale": "one sentence explaining the key match or mismatch"}}

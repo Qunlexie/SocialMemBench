@@ -5,7 +5,7 @@
 name: "mem0_local"
 
 # OpenAI model for LLM extraction and embedding
-model: "gpt-4o"
+model: "gpt-4o-mini"
 
 # Local Chroma vector store path (relative to project root)
 chroma_path: "./data/.mem0_chroma"

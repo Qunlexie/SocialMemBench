@@ -1,0 +1,46 @@
+{
+  "network_id": "grp_c1d2e3f4",
+  "verified_at": "2026-04-23T04:20:02.263713Z",
+  "status": "PASS",
+  "sessions": 8,
+  "total_turns": 160,
+  "turns_per_session": {
+    "s01": 20,
+    "s02": 20,
+    "s03": 20,
+    "s04": 20,
+    "s05": 20,
+    "s06": 20,
+    "s07": 20,
+    "s08": 20
+  },
+  "planted_challenges": 25,
+  "challenge_types": {
+    "relational_graph": 4,
+    "implicit_preference": 4,
+    "false_attribution_seed": 4,
+    "theory_of_mind": 3,
+    "consensus_trap": 2,
+    "temporal_shift": 5,
+    "relational_disclosure": 3
+  },
+  "challenges_by_session": {
+    "1": 3,
+    "2": 4,
+    "3": 2,
+    "4": 2,
+    "5": 3,
+    "6": 3,
+    "7": 4,
+    "8": 4
+  },
+  "checks": {
+    "session_count_8": true,
+    "all_turns_10_to_25": true,
+    "no_em_dashes": true,
+    "evidence_spans_verbatim": true,
+    "evidence_spans_max_200": true,
+    "challenge_ids_unique": true,
+    "total_turns_correct": true
+  }
+}

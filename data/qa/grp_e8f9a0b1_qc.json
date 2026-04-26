@@ -1,0 +1,96 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "qc_run_at": "2026-04-22T00:00:00Z",
+  "n_pairs": 28,
+  "phase1_blind_critic": {
+    "method": "inference_required scoring 0-2; 0=keyword-matchable, 1=single-hop easy, 2=multi-hop or cross-session inference required",
+    "scores": {
+      "Q1_e8f9a0b101": {"score": 0.87, "inference_required": 2, "notes": "cross-session pattern across S1+S4; derogatory food framing as the signal"},
+      "Q1_e8f9a0b102": {"score": 0.85, "inference_required": 2, "notes": "wine criterion implicit; made explicit via S5+S10 confirmation"},
+      "Q1_e8f9a0b103": {"score": 0.85, "inference_required": 2, "notes": "format-shapes-connection thesis requires reading S4+S6"},
+      "Q1_e8f9a0b104": {"score": 0.85, "inference_required": 2, "notes": "in-person hierarchy requires S9+S10; well-supported"},
+      "Q1_e8f9a0b105": {"score": 0.80, "inference_required": 1, "notes": "Sana's preference stated explicitly in S10; single anchor sufficient; straightforward"},
+      "Q1_e8f9a0b106": {"score": 0.85, "inference_required": 2, "notes": "departure pattern tracked across S3+S6+S10; reframing move at S6 is the insight"},
+      "Q4_e8f9a0b101": {"score": 0.85, "inference_required": 2, "notes": "contamination_foil correctly distinguishes Marcus (food register) vs Callum (operational risk register)"},
+      "Q4_e8f9a0b102": {"score": 0.85, "inference_required": 2, "notes": "Omar's explicit 'yeah temi's rite' is the attribution marker; foil explains why Omar seems plausible"},
+      "Q5_e8f9a0b101": {"score": 0.83, "inference_required": 2, "notes": "Jade's November timestamp is unprompted and precise; theory-of-mind read is valid"},
+      "Q5_e8f9a0b102": {"score": 0.83, "inference_required": 2, "notes": "Dev's volume-to-impact framing shows prior model; not prompted by Sana"},
+      "Q5_e8f9a0b103": {"score": 0.85, "inference_required": 2, "notes": "Temi's explicit 'I don't think he'd say that here' is the indicator; clean ToM pair"},
+      "Q2_e8f9a0b101": {"score": 0.88, "inference_required": 2, "notes": "minimal two-word capitulation; 'sure whatever' vs genuine agreement distinction is well-explained"},
+      "Q2_e8f9a0b102": {"score": 0.80, "inference_required": 2, "notes": "cross-session wine inference required to decode 'good venue'; slightly harder to see than stated"},
+      "Q2_e8f9a0b103": {"score": 0.83, "inference_required": 2, "notes": "S5 headcount framing vs S6 revised preference; two anchors span the shift"},
+      "Q2_e8f9a0b104": {"score": 0.82, "inference_required": 2, "notes": "'We are all adults' as deflection rather than genuine consent; well-argued"},
+      "Q6_e8f9a0b101": {"score": 0.80, "inference_required": 1, "notes": "answer derivable from identifying norm dissenters; MC makes it accessible; evidence grounded"},
+      "Q6_e8f9a0b102": {"score": 0.80, "inference_required": 1, "notes": "Omar's fait accompli booking is explicit; Dev's reactive pattern less overt but supported"},
+      "Q7_e8f9a0b101": {"score": 0.82, "inference_required": 1, "notes": "school magazine reference explicit; shared history derivable from one turn"},
+      "Q7_e8f9a0b102": {"score": 0.85, "inference_required": 1, "notes": "falling-out details explicit in S10; in-person apology resolution well-evidenced"},
+      "Q7_e8f9a0b103": {"score": 0.83, "inference_required": 1, "notes": "Callum's near-miss disclosure is explicit; trust-signal interpretation is the inference step"},
+      "Q8_e8f9a0b101": {"score": 0.72, "inference_required": 2, "notes": "trigger-seeking framing present; temporal anchors S1-S2 gap only 1 session — below hard threshold"},
+      "Q8_e8f9a0b102": {"score": 0.72, "inference_required": 2, "notes": "trigger-seeking framing present; temporal anchors S2-S3 gap only 1 session — below hard threshold"},
+      "Q8_e8f9a0b103": {"score": 0.72, "inference_required": 2, "notes": "trigger-seeking framing present; temporal anchors S5-S6 gap only 1 session — below hard threshold"},
+      "Q8_e8f9a0b104": {"score": 0.85, "inference_required": 2, "notes": "anchors S1-S7, gap 6 sessions; explicit trigger named in S7; clean hard Q8"},
+      "Q8_e8f9a0b105": {"score": 0.85, "inference_required": 2, "notes": "anchors S1-S8, gap 7 sessions; 'sorted it myself' is the trigger marker"},
+      "Q8_e8f9a0b106": {"score": 0.87, "inference_required": 2, "notes": "anchors S1-S8, gap 7 sessions; prediction-falsification logic cleanly explained"},
+      "Q8_e8f9a0b107": {"score": 0.85, "inference_required": 2, "notes": "anchors S5-S9, gap 4 sessions; editor commission as external validation trigger is legible"},
+      "Q8_e8f9a0b108": {"score": 0.85, "inference_required": 2, "notes": "anchors S3-S9, gap 6 sessions; shift from deferrer to active analyst well-documented"}
+    },
+    "mean_score": 0.833,
+    "flagged_low": ["Q8_e8f9a0b101", "Q8_e8f9a0b102", "Q8_e8f9a0b103"]
+  },
+  "phase2_evidence_grounding": {
+    "method": "verify each evidence anchor corresponds to an actual turn in the conversation corpus",
+    "all_grounded": true,
+    "issues": []
+  },
+  "phase3_structural_flags": {
+    "flags": [
+      {
+        "qa_id": "Q8_e8f9a0b101",
+        "flag": "temporal_anchor_gap_too_small",
+        "detail": "temporal_anchors span S1-S2 (gap = 1 session); hard difficulty requires anchors ≥3 sessions apart; recommend downgrade to 'medium' or revise anchors to span S1 and a later session"
+      },
+      {
+        "qa_id": "Q8_e8f9a0b102",
+        "flag": "temporal_anchor_gap_too_small",
+        "detail": "temporal_anchors span S2-S3 (gap = 1 session); hard difficulty requires anchors ≥3 sessions apart; recommend downgrade to 'medium' or revise anchors to span S2 and a later session (e.g. S5 where Lena independently handles gallery logistics)"
+      },
+      {
+        "qa_id": "Q8_e8f9a0b103",
+        "flag": "temporal_anchor_gap_too_small",
+        "detail": "temporal_anchors span S5-S6 (gap = 1 session); hard difficulty requires anchors ≥3 sessions apart; recommend downgrade to 'medium' or add a third anchor from S1-S2 (where Marcus's large-event preference is first established)"
+      }
+    ],
+    "n_flagged": 3,
+    "flag_types": ["temporal_anchor_gap_too_small"]
+  },
+  "phase4_conversation_quality": {
+    "topic_diversity": {
+      "score": 0.88,
+      "notes": "10 sessions cover reunion planning, venue debates, post-event debriefs, personal milestones (Dev relocation, Jade workload, Temi essay commission, Omar five-a-side), group dynamics and retrospective. Good variety."
+    },
+    "voice_consistency": {
+      "score": 0.90,
+      "notes": "9 personas maintain distinct registers throughout: Marcus (logistics + food register), Jade (reflective, double-exclamation emotional), Dev (sardonic commentary), Omar (casual spelling, enthusiasm), Callum (terse, operational), Temi (journalistic, analytical), Sana (sparse and deliberate), Lena (terse, gradually warmer), Rachel (minimal, practical). No voice bleed observed."
+    },
+    "naturalness_of_transitions": {
+      "score": 0.82,
+      "notes": "Sessions flow organically via planning thread → event → debrief → next event cycle. Minor: S7-S8 escape room suggestion appears slightly abrupt — Jade's idea lands without much prior build-up of the 'we should do something different' thread. Minor issue only."
+    },
+    "em_dash_free": {
+      "score": 1.0,
+      "notes": "No em-dashes observed in conversation turns during corpus review."
+    },
+    "planted_turn_integrity": {
+      "score": 0.87,
+      "notes": "All 35 planted challenges appear as natural conversation turns. False attribution seeds (Callum/Marcus venue, Temi/Omar attribution) land plausibly with realistic register differences. Relational disclosure turns (falling-out, near-miss, school magazine) feel organic to the group's debrief rhythm. Consensus trap turns ('sure whatever', 'Fine by me', 'Good venue') read naturally as minimal acquiescence. No turn reads as written specifically for a test."
+    },
+    "overall_mean": 0.894
+  },
+  "summary": {
+    "n_pass": 25,
+    "n_flagged": 3,
+    "flagged_qa_ids": ["Q8_e8f9a0b101", "Q8_e8f9a0b102", "Q8_e8f9a0b103"],
+    "flag_reason_summary": "Three hard Q8 pairs have temporal anchor gaps of only 1 session; hard difficulty label requires ≥3 sessions between anchors. Recommend downgrading to 'medium' difficulty. This does not affect the validity of the pairs — the shift and trigger are real and well-evidenced — only the difficulty label is mis-calibrated.",
+    "recommendation": "Accept all 28 pairs. Downgrade Q8_e8f9a0b101, Q8_e8f9a0b102, Q8_e8f9a0b103 from 'hard' to 'medium'. Conversation corpus is high quality (mean 0.894 across 5 dimensions). All evidence anchors grounded."
+  }
+}

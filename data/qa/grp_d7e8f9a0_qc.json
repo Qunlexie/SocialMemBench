@@ -1,0 +1,294 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "total_pairs": 19,
+  "phase1_mean_score": 0.989,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {"0": 0, "1": 4, "2": 15},
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {"easy": 2, "medium": 13, "hard": 4},
+  "by_query_type": {
+    "Q1": {"count": 2, "mean_score": 0.95, "flagged": 0, "mean_inference_required": 2.0},
+    "Q2": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
+    "Q4": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q5": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q6": {"count": 1, "mean_score": 0.9, "flagged": 0, "mean_inference_required": 2.0},
+    "Q7": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q8": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q9": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0}
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.9,
+      "your_answer": "In Session 6, Nadia immediately raises inviting a new member to keep group energy going, already has a candidate in mind, and defers when Reuben pushes back. This reveals her preference for actively maintaining group size rather than letting the collective shrink. She treats group composition as something to manage proactively.",
+      "ground_truth": "Nadia acts to fill gaps rather than let the collective shrink; treats group size as something to be actively maintained at a working size; consistent with her informal organiser role across all sessions."
+    },
+    {
+      "qa_id": "Q6_d7e8f9a001",
+      "query_type": "Q6",
+      "score": 0.9,
+      "your_answer": "No. Simone is the member for whom the norm does not apply. Reuben refuses her photography offer in Session 4 with formal politeness, and Simone's track record (asking Nadia permission in S3, asking Callum in S5) is inconsistent. Prior incidents are implied rather than fully stated in the session text.",
+      "ground_truth": "Simone is the dissenter; she has violated the norm at least twice; Reuben and Nadia both let it pass. Reuben's Session 4 refusal is an implicit reference to the prior violation."
+    }
+  ],
+  "per_pair": [
+    {
+      "qa_id": "Q1_d7e8f9a001",
+      "query_type": "Q1",
+      "question": "What does Reuben's comment in Session 8 reveal about his working methodology when it comes to structuring a new ceramics series?",
+      "blind_answer": "In Session 8, Reuben commits to 'form studies only for the first month, no surface treatment until the forms pass my own test.' He grounds this in his slab vessel experience (four revisions because he was working on texture before structure was resolved). In Session 7 he stated: 'doing it wrong because it's faster is exactly the kind of shortcut that produces mediocre work. The process has to be right before the surface can be right. That's always been my position.' His methodology: resolve structural form completely before any surface treatment, enforced as a working discipline.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches the ground truth exactly: form-first methodology stated as a long-held position, supported by both S7 and S8 evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "question": "What does Nadia's response to Callum's departure in Session 6 reveal about her preference for how the group should be structured going forward?",
+      "blind_answer": "In Session 6, Nadia immediately raises inviting a new member 'not to replace him, just to keep the group energy going' and already has a specific candidate in mind. Reuben resists quietly, Yuki says nothing. Nadia defers but doesn't abandon the idea. This reveals a preference for actively maintaining group size rather than letting the collective shrink.",
+      "score": 0.9,
+      "score_rationale": "Core attribution correct (Nadia as active group maintainer) but blind answer slightly underweights the connection to her broader organiser role across all sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_d7e8f9a001",
+      "query_type": "Q2",
+      "question": "When Nadia proposed a dedicated full-group critique session in Session 2, what did the group decide -- and who objected to the original format?",
+      "blind_answer": "The group did not adopt the full dedicated critique format. Decision: critique at the last forty minutes of sessions. Objector: Reuben ('I would prefer to keep making time separate... I don't want to spend three hours just talking. Maybe last forty minutes of the session.'). Yuki aligned. Simone supported the original idea. Callum in favour with caveat. Nadia conceded.",
+      "score": 1.0,
+      "score_rationale": "Exact match: correct decision (last forty minutes), correct dissenter (Reuben), correct vote breakdown, correct resolution.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_d7e8f9a002",
+      "query_type": "Q2",
+      "question": "When Nadia raised the possibility of inviting a new member to the group in Session 6, what was the group's response -- and was there someone who disagreed with her framing?",
+      "blind_answer": "Reuben disagreed: 'Four works fine. I would want any new member to be a serious maker, not someone in the beginner workshop stage.' Simone was open to someone newer. Yuki said nothing. Nadia deferred without committing. Reuben implicitly challenged Nadia's energy-maintenance framing by treating current group size as adequate.",
+      "score": 1.0,
+      "score_rationale": "Exact match: correct dissenter (Reuben), his reasoning captured, Simone's openness noted, Yuki's silence noted, Nadia's deferral noted.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_d7e8f9a001",
+      "query_type": "Q4",
+      "question": "In Session 1, two group members respond to the kiln shelf arrangement for the upcoming firing. One of them uses iron oxide wash on their stoneware and dismissed concerns about contamination; the other is the one who asked for a separate shelf because of surface sensitivity in their porcelain pieces. Which of these positions belongs to Reuben?",
+      "blind_answer": "Reuben holds the iron oxide wash + contamination dismissal position: 'the iron oxide wash fires clean at that cone -- not much contamination risk. But separate shelves are good practice.' Reuben is naming his own surface technique and evaluating the risk as low. Callum made the separate-shelf request, citing a prior bad experience with stoneware dust affecting his porcelain surfaces.",
+      "score": 1.0,
+      "score_rationale": "Exact attribution: Reuben = iron oxide / contamination dismissal; Callum = porcelain protection / contamination concern. Full foil distinction preserved.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_d7e8f9a002",
+      "query_type": "Q4",
+      "question": "In Sessions 6 and 7, Reuben credits someone's critique of his slab vessel for directing his revision work. Who gave the feedback that Reuben is acting on -- and how does the conversation make it possible to confuse this attribution with Nadia?",
+      "blind_answer": "Yuki gave the critique Reuben is acting on. In Session 6 Reuben says: 'I want to resolve the lower third on the vessel Yuki mentioned last month. The texture transition is the issue -- I've been thinking about it since she said it and she was right.' The original critique came from Yuki in Session 5. Nadia is the foil because she is the group's most active critiquer across all sessions; a system relying on frequency would misassign this to her.",
+      "score": 1.0,
+      "score_rationale": "Exact attribution: Yuki as source, Nadia as foil, lock signal identified (explicit name + feminine pronoun in Reuben's statement).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "question": "What does Reuben's comment in Session 2 about Simone's glaze choices reveal about his understanding of Nadia's ceramic values -- and what in the phrasing shows this is a model Reuben already holds rather than a new inference?",
+      "blind_answer": "Reuben's 'Nadia's right. Learn what your neutral glaze does to your forms before experimenting. The craft comes first.' shows he already holds Nadia's craft-before-decoration philosophy. He collapses her explanation into a three-word summary ('the craft comes first') and delivers it as settled fact -- evidence of prior knowledge, not a real-time inference. He doesn't say 'I agree' or process what she just said; he articulates her principle for her.",
+      "score": 1.0,
+      "score_rationale": "Exact match: identifies the prior model, the three-word summary as evidence, and the distinction between articulating vs. agreeing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "question": "In Session 3, Reuben backs Callum's preference for electric kiln consistency without Callum needing to explain it fully. What preference of Callum's does Reuben demonstrate he already understands -- and what in the conversation shows this is an accurate prior model rather than a polite agreement?",
+      "blind_answer": "Reuben understands that Callum's functional ceramics orientation requires consistency across a matched set. He extends Callum's reasoning technically ('Technically speaking, that's exactly why porcelain in reduction is quite difficult -- you'd need to load the kiln identically each firing') rather than just agreeing. By Session 4, he recommends the satin glaze specifically because it is 'more consistent for a matched set' -- he applies Callum's priority as an actionable premise, confirming the model was already held.",
+      "score": 1.0,
+      "score_rationale": "Exact match: correct preference identified (consistency for matched sets), correct evidence (technical extension not polite agreement, S4 glaze recommendation as confirmation).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "question": "In Session 7, Reuben responds to news of Simone's open day success with a specific claim about her development. What does Simone's improvement tell us about Reuben's model of her -- and what in his phrasing shows he has been tracking her progress independently?",
+      "blind_answer": "Reuben says 'The bowl works because the form is sound. The glaze is secondary. You would not have gotten the shape if you hadn't put in the hours on the wheel.' He identifies wheel time and form discipline as the causal mechanism, correcting Simone's own framing (she attributes success to glaze colour and Instagram engagement). He delivers this as settled fact, not a new observation. His model predates her open-day story -- he redirects it with information he already held.",
+      "score": 1.0,
+      "score_rationale": "Exact match: prior model of form improvement via practice hours identified, distinguished from Simone's own glaze-attribution framing, phrasing as settled fact noted.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_d7e8f9a001",
+      "query_type": "Q6",
+      "question": "The Clay & Fire Collective operates on an apparent norm that work in progress is not photographed or shared without the maker's permission. Does this norm apply equally to all members?",
+      "blind_answer": "No. Simone is the exception. Reuben refuses her photography offer in Session 4 with notable formal politeness ('I will take my own photo. But thank you.') -- a signal of distrust based on prior incidents. Simone asks Callum's permission in Session 5, showing norm awareness, but her track record of prior violations makes her compliance inconsistent rather than principled.",
+      "score": 0.9,
+      "score_rationale": "Correct: Simone identified as the dissenter, Reuben's S4 refusal cited, Simone's inconsistency noted. Minor: ground truth specifies two prior incidents (Reuben's piece and Nadia's work posted without asking) -- blind answer captures the pattern but not the specific count.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "question": "What does Session 1 reveal about who originally held the studio booking role in the Clay & Fire Collective, and how did that role transfer to Nadia?",
+      "blind_answer": "Reuben held the original studio booking role. When Nadia announces the booking, Reuben confirms it correctly with 'Good thinking on the booking -- the printing class has taken our slot twice in the past' -- only someone with prior booking experience would know this history. The role transferred when Nadia simply acted: she booked without being asked. Reuben validated without contesting. Session 2 confirms the new dynamic: Nadia books March studio without consulting him, Reuben responds with only 'March 15.'",
+      "score": 1.0,
+      "score_rationale": "Exact match: Reuben as original booker, transfer mechanism (Nadia acted unilaterally), Reuben's knowledge as evidence, S2 confirmation of new dynamic.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "question": "What does Session 7 reveal about Nadia and Simone's relationship outside the group sessions -- and what is the specific incident that confirms it extends beyond the group chat?",
+      "blind_answer": "Session 7 reveals private contact and a mentor-student bond. Specific incident: Simone discloses that Nadia 'texted me separately before the open day to say she thought the piece was ready. I was going to pull it and she talked me out of it.' Nadia also references one-on-one instruction: 'I spent twenty minutes showing you how to check the rim with a needle tool.' The private text message is the incident confirming external contact; the hands-on instruction establishes the mentoring dimension.",
+      "score": 1.0,
+      "score_rationale": "Exact match: private text before open day as the specific incident, one-on-one instruction as supporting evidence, mentor-student bond identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "question": "What does Session 5 reveal about the relationship between Reuben and Callum that goes beyond what their relatively low-warmth group exchanges would suggest?",
+      "blind_answer": "Session 5 reveals a multi-year collegial bond. Callum: 'you and I have disagreed about a few things over the years but your feedback on the foot ring in February was the most useful technical note I received on this project.' Multi-year history of technical disagreements; Reuben's input is the most valued. Reuben: 'I have known you were going to finish that plate set since March and I still want to see them in person.' Sustained investment in Callum's project. The bond is collegial mutual technical respect despite persistent aesthetic disagreements.",
+      "score": 1.0,
+      "score_rationale": "Exact match: multi-year history, mutual technical respect, Reuben's sustained project investment, Callum's highest-regard phrasing all identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "question": "What triggered Nadia's shift in her preferred firing method, and what in Session 3 signals the before-state was genuinely committed electric kiln use rather than mere habit?",
+      "blind_answer": "Trigger: attending a two-day gas reduction workshop in the hills before Session 3. She describes fighting the kiln's unpredictability for six hours then 'letting it do what it does' and returning with 'pieces that look genuinely alive in a way my electric kiln work just doesn't.' Before-state evidence: Sessions 1-2 show her managing all kiln logistics without dissatisfaction; Reuben's comment ('I did a gas firing about four years ago... not practical for weekly work') confirms gas reduction was not the group's working norm. By Session 7, full gas reduction series planned.",
+      "score": 1.0,
+      "score_rationale": "Exact match: workshop trigger, six-hour resistance narrative, before-state evidenced by S1-S2 logistics role and Reuben's comparative comment, S7 confirmation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "question": "What explains Simone's shift from neutral to bold colour glazes between Sessions 2 and 4, and why does Session 4 rather than an earlier session mark the change?",
+      "blind_answer": "Trigger: Instagram engagement data. Session 4: teal bowl got 400 likes, neutral bowl 30. 'That settles it, I'm doing colour from now on.' Session 4 marks the change because the before-state in S1-2 is no strong preference (follows Nadia's neutral glaze advice, calls it 'a bit boring' in S2 but makes no commitment). The specific 400-vs-30 comparison is the external validation that makes the decision for her. Not gradual drift but a data-driven threshold crossing.",
+      "score": 1.0,
+      "score_rationale": "Exact match: Instagram engagement as trigger, correct before-state (vague preference not yet committed), Session 4 as the threshold moment, quantified validation as the mechanism.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "question": "What drove Reuben's deepening resistance to group critique sessions between Sessions 2 and 8, and why does Session 8 signal a qualitative shift rather than just more of the same resistance?",
+      "blind_answer": "Before-state (S2): resistance framed as time management ('I don't want to spend three hours just talking. Maybe last forty minutes'). Session 8 shift: 'A full critique session only makes sense if people are bringing work that's ready. I've never found the conversation useful unless the pieces are genuinely done.' The shift is from format constraint (duration) to substance gatekeeping (work quality as a condition). Driven by the pattern of informal critiques in S2 and S7 where Simone brought unfinished work. Escalated from 'limit the time' to 'gate the entry.'",
+      "score": 1.0,
+      "score_rationale": "Exact match: S2 time-framing vs. S8 quality-gatekeeping identified as qualitative shift, unfinished-work pattern as driver, format-to-substance escalation captured.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "question": "Based on what the group knew about Callum before he left, what was his preference for studio session timing -- and in which session did he make this most explicit?",
+      "blind_answer": "Callum preferred daytime studio sessions over evening ones. Most explicit in Session 1: 'daytime suits my schedule much better than an evening slot would.' He stated this without being asked, as context for confirming attendance. Confirmed in Session 5 (farewell): 'The daytime sessions will actually be easier there -- longer light, no commute pressure.' Both evidence anchors are from sessions within his membership (1 and 5).",
+      "score": 1.0,
+      "score_rationale": "Exact match: daytime preference, Session 1 as most explicit, both evidence turns cited, sustained preference across sessions noted.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "question": "Based on what the group knew about Callum before he left, what was the completed project he brought to his farewell session -- and what did he say about how those pieces would be used?",
+      "blind_answer": "Twelve porcelain dinner plates glazed in satin cone 6, fired the previous Tuesday. Callum: 'All twelve. They went in the kiln last Tuesday -- the satin cone 6, not the matte ash. Consistent across the set, which is exactly what I wanted. They will go into use the first week in Portugal. That was always the point -- functional tableware, not display pieces.' Project origin established in Session 3 as his 'send-off project.'",
+      "score": 1.0,
+      "score_rationale": "Exact match: twelve plates, satin cone 6, functional tableware for Portugal, S3 project origin noted.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "question": "Based on what was known about Callum before his departure, what was his clay body preference for functional ceramics -- and what in his own words from Sessions 1 and 3 explains why he chose it despite the added difficulty?",
+      "blind_answer": "Callum preferred porcelain over stoneware for functional ceramics. Session 1: 'I am working in porcelain this time rather than stoneware. The translucency on a porcelain mug when you hold it up to the light is something I find genuinely satisfying, and for functional pieces I think it rewards the extra care.' Session 3: 'Stoneware is more practical but porcelain is what I want. The translucency on the rim of a thin plate when light catches it is exactly right for this project. I know it's harder. That's partly the point.' Translucency is the reason; difficulty is acknowledged and embraced.",
+      "score": 1.0,
+      "score_rationale": "Exact match: porcelain preference, translucency as the stated reason, difficulty acknowledged knowingly in both sessions.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Interest community with ceramics as primary domain across all 8 sessions. Each session has a distinct primary thread (S1: studio setup; S2: post-session critique format; S3: gas kiln shift + Portugal announcement; S4: glaze testing + open day; S5: farewell; S6: open day prep + membership; S7: post-open day + mentor bond; S8: autumn planning + Reuben methodology + Yuki disclosure). Natural 1-2 digressions per session (lunch plans, Instagram, Portugal logistics). Fully meets interest_community expectation."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All five personas held consistently throughout. Nadia: 'okay so here's the thing' opener present in S1-S8; verbose long messages; moderate emoji; 'visually it just doesn't work for me' in S4. Reuben: 'Technically speaking' present in S1, S3, S4, S6, S7, S8; single-date scheduling responses; 'Fair enough' to close disagreements. Simone: 'wait oh my god' in S3, S4, S5, S7, S8; 'vibes' as aesthetic evaluation; frequent emoji; multiple short messages. Callum: zero emoji; 'Noted'; 'phase' project framing; Portugal 'assuming' references; formal register. Yuki: single-word scheduling responses; 'Does it work?' repeated aesthetic test; terse throughout; S8 disclosure is narratively justified outlier. No sub-dimension failures detected."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Every topic shift is character-triggered: Callum's 'Speaking of which' introduces Portugal in S3; Nadia's direct logistics questions open new threads; Simone's 'wait oh my god' launches Instagram digression in S4; Yuki's S8 disclosure comes from natural conversational space after Reuben's process discussion. No cold jumps or announced pivots detected."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Python search confirmed zero em dashes (U+2014) in any message fields across all 194 turns. Clean."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 19 QA evidence anchor excerpts verified verbatim against the conversation. One turn_id discrepancy noted: Q6_d7e8f9a001 references turn_id grp_d7e8f9a0_s05_t009 for Simone's 'can I photograph them??' line, but that message appears at turn_id grp_d7e8f9a0_s05_t008 (message_index=9). The message_excerpt is present verbatim in the corpus. This is a turn_id numbering artifact (likely 0-indexed vs 1-indexed), not a content modification. Score unaffected."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

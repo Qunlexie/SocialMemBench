@@ -1,0 +1,316 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "total_pairs": 22,
+  "phase1_mean_score": 0.861,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {"0": 0, "1": 0, "2": 22},
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {"easy": 0, "medium": 14, "hard": 8},
+  "by_query_type": {
+    "Q1": {"count": 5, "mean_score": 0.87, "flagged": 0, "mean_inference_required": 2.0},
+    "Q2": {"count": 2, "mean_score": 0.85, "flagged": 0, "mean_inference_required": 2.0},
+    "Q4": {"count": 2, "mean_score": 0.80, "flagged": 0, "mean_inference_required": 2.0},
+    "Q5": {"count": 3, "mean_score": 0.87, "flagged": 0, "mean_inference_required": 2.0},
+    "Q6": {"count": 1, "mean_score": 0.75, "flagged": 0, "mean_inference_required": 2.0},
+    "Q7": {"count": 4, "mean_score": 0.875, "flagged": 0, "mean_inference_required": 2.0},
+    "Q8": {"count": 5, "mean_score": 0.89, "flagged": 0, "mean_inference_required": 2.0}
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [
+    {"qa_id": "Q6_f9a0b101", "query_type": "Q6", "score": 0.75, "your_answer": "The Strava-sharing norm is clearly upheld by Callum but Tomás and Ben are not observed sharing data across any session — the norm is not truly universal.", "ground_truth": "Same conclusion — Tomás and Ben are the dissenters through absence of data-sharing behaviour, not stated objection"}
+  ],
+  "per_pair": [
+    {
+      "qa_id": "Q1_f9a0b101",
+      "query_type": "Q1",
+      "question": "What does Saoirse's pattern of route engagement suggest about what she actually values in a cycling outing — and what in the conversation shows this most clearly?",
+      "blind_answer": "Saoirse consistently prioritises descents over any other route factor. She explicitly says the descent is why she joined the group in Session 1, and in Session 5 votes for Foxley specifically to access a descent she had been wanting to do.",
+      "score": 0.90,
+      "score_rationale": "Blind answer matches ground truth exactly — both identify the stable descent preference across two sessions with direct citation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_f9a0b102",
+      "query_type": "Q1",
+      "question": "What does Yuki's behavior around recovery and workload suggest about how she manages her physical limits within the group context?",
+      "blind_answer": "Yuki selects lighter, flatter ride options when fatigued from work or previous rides. She explicitly flags work deadlines as reasons for choosing shorter options and self-reports her physical state as a vote input.",
+      "score": 0.90,
+      "score_rationale": "Blind answer matches ground truth — both identify the load-management pattern with correct evidence from Sessions 2 and 5.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_f9a0b103",
+      "query_type": "Q1",
+      "question": "What does Saoirse's involvement in the kit redesign discussion reveal about how she positions herself in group aesthetic decisions?",
+      "blind_answer": "Saoirse takes an authoritative design lead role on kit. She moves immediately from being nominated to asserting a specific position, incorporates others' constraints on her own terms, and the group defers to her.",
+      "score": 0.85,
+      "score_rationale": "Blind answer correctly captures the authority dynamic and the move from nomination to executive control; minor omission of the Derek constraint interaction but core finding matches.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_f9a0b104",
+      "query_type": "Q1",
+      "question": "What does Derek's argument about the two-route model in Session 6 reveal about how he actually thinks the group should be structured — beyond the surface position he states?",
+      "blind_answer": "Derek endorses the two-route model using retention and logistics reasoning from his professional background, revealing that his preference for structure extends to group design — he supports differentiated options because they are structured, not despite it.",
+      "score": 0.85,
+      "score_rationale": "Blind answer identifies the logistics framing correctly and the surprising alignment with group inclusivity; matches ground truth in substance.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_f9a0b105",
+      "query_type": "Q1",
+      "question": "What does Ben's comment about the café stop in Session 10 reveal about his actual motivation for participating in group rides?",
+      "blind_answer": "Ben values the café stop and the full social ritual — travel, effort, warm space and food together — as the primary reason to do the ride, not the cycling itself. His Session 10 vote also conditions route approval on both routes converging at the same café.",
+      "score": 0.85,
+      "score_rationale": "Blind answer correctly captures the ritual framing and the café-as-purpose position; includes the Session 10 vote condition which matches additional evidence in the ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_f9a0b101",
+      "query_type": "Q2",
+      "question": "In Session 3, the group's norm of always stopping for coffee after rides played out in the post-ride period. What did Derek's response in that moment reveal about his actual relationship to that norm, and what specifically in how he responded signals this?",
+      "blind_answer": "Derek leaves without coffee using a logistical deflection — 'things to get on with at home' — rather than stating a preference against coffee. Priya's follow-up confirms this is a habitual pattern the group knows about. His dissent is visible through departure, not voiced objection.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches ground truth precisely — correctly identifies the deflection mechanism and the group's awareness of the pattern.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_f9a0b102",
+      "query_type": "Q2",
+      "question": "In Session 10, the group voted unanimously for the dual-route model for next season. What did Lena's intervention and Marcus's eventual response reveal about whether his vote actually reflected his preference, and what in how he responded signals the distinction?",
+      "blind_answer": "Lena challenged the apparent consensus and Marcus admitted the dual-route model is a 'concession to group retention' — he would not have designed it this way. His preference remains a single hard benchmark route; his vote was functional compliance, not endorsement.",
+      "score": 0.85,
+      "score_rationale": "Blind answer captures the key distinction between acceptance and preference, citing 'concession' correctly. Matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_f9a0b101",
+      "query_type": "Q4",
+      "question": "In Session 1, one member complained that the Ridge loop 'turns into a sufferfest' and argued that a structured, measured start to the year was more sensible than chasing elevation. In Session 2, a different member expressed dissatisfaction with the same shorter route alternative, calling it essentially not worth doing. Which member made the Session 1 argument about structured effort over elevation?",
+      "blind_answer": "Derek made the Session 1 argument — his objection was framed around the group getting strung out and the need for a structured start, using logistics language. Marcus's Session 2 comment was about inadequate distance and gradient, not group structure.",
+      "score": 0.80,
+      "score_rationale": "Blind answer correctly identifies Derek and the distinction in framing register; slightly less detailed than ground truth on the Marcus comparison but directionally correct.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_f9a0b102",
+      "query_type": "Q4",
+      "question": "In Session 9, one member stated that the group had wrongly assumed everyone enjoyed the long flat circuits near Millfield, and clarified that this was not true for them. A different member in the same session said they valued that flat section precisely for its measurable output. Which member made the objection to the group assumption — the one who said they had never enjoyed flat circuits?",
+      "blind_answer": "Marcus made the objection — he explicitly says 'I do not enjoy flat circuits. I never have.' Callum's statement in the same turn sequence was an endorsement of the flat for power output, the opposite position.",
+      "score": 0.80,
+      "score_rationale": "Blind answer correctly identifies Marcus and the contrast with Callum's endorsement; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_f9a0b101",
+      "query_type": "Q5",
+      "question": "What is Yuki's preference when she is fatigued, and what in Priya's message in Session 2 shows she already understood this about Yuki — before Yuki had finished explaining it?",
+      "blind_answer": "Yuki prefers shorter, flatter rides when tired. Priya's Session 2 proposal — 'keep it to 60km-ish given Yuki's legs' — treats Yuki's limitation as a known design constraint and incorporates it before anyone asks, showing Priya already had this knowledge.",
+      "score": 0.90,
+      "score_rationale": "Blind answer matches ground truth precisely — identifies the 'given Yuki's legs' phrase as the observable indicator of prior knowledge.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_f9a0b102",
+      "query_type": "Q5",
+      "question": "What is Yuki's relationship to harder group routes when she is nervous or not at full fitness, and what in Tomás's handling of the bridleway decision in Session 3 shows he understood this about her without needing to be told?",
+      "blind_answer": "Yuki is cautious about challenges beyond her fitness level. Tomás pre-empts her need to ask by saying 'Yuki, you do not have to' before she requests an out — addressing her specifically rather than the whole group, implying he had already read her hesitation.",
+      "score": 0.85,
+      "score_rationale": "Blind answer correctly identifies the pre-emptive individual address as the observable indicator; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_f9a0b103",
+      "query_type": "Q5",
+      "question": "What is Priya's relationship between group rides and her own motivation to train, and what in Marcus's comment in Session 8 shows he understood this about her before she brought it up that day?",
+      "blind_answer": "Priya performs better and is more motivated in group context than solo. Marcus references having 'pointed out last month' that she only hits PBs with the group — treating it as established prior knowledge he had already communicated, not a new discovery.",
+      "score": 0.85,
+      "score_rationale": "Blind answer identifies the 'last month' reference correctly as the indicator of prior knowledge; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_f9a0b101",
+      "query_type": "Q6",
+      "question": "The club operates with the understanding that everyone shares their Strava after every ride. Based on the conversations, does this apply to every member equally? If not, who treats this differently in practice, and what in their behaviour shows it?",
+      "blind_answer": "The norm is upheld visibly by Callum and referenced by Priya. Tomás and Ben never post Strava data or reference their segment times in any session, dissenting through consistent absence of participation rather than any stated objection.",
+      "score": 0.75,
+      "score_rationale": "Blind answer correctly identifies Tomás and Ben as the non-participants but relies on absence of evidence, which is a slightly weaker grounding than the ground truth's explicit evidence citations.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_f9a0b101",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about how Marcus and Tomás relate to each other within the club, and what is the basis for their working relationship?",
+      "blind_answer": "Marcus and Tomás co-founded the club after meeting at a sportive and disagreeing about a café stop. They operate as a planning unit — Marcus designs routes, Tomás distributes GPX files. In Session 10 they narrate the founding origin story together.",
+      "score": 0.90,
+      "score_rationale": "Blind answer matches ground truth closely, identifying the co-founding event, the division of labour, and the Session 10 narrative.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_f9a0b102",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about how Priya and Callum came to know each other, and what does it explain about Priya's behaviour toward him in the group?",
+      "blind_answer": "Priya recruited Callum after spotting his Strava segments overlapping with club routes and messaging him directly. This explains her ongoing role as his social sponsor — she intervenes when the group is unhappy with him and tells him privately when his integration is failing.",
+      "score": 0.90,
+      "score_rationale": "Blind answer correctly identifies the Strava recruitment origin and links it to Priya's social sponsorship behaviour; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_f9a0b103",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about the prior history between Tomás and Saoirse, and how does it manifest in their interactions within the club?",
+      "blind_answer": "Tomás and Saoirse have been cycling together since at least 2022 through overlapping club memberships. They share a specific mutual memory of the Ashdown sportive hairpin. This long history gives Tomás the standing to give Saoirse direct feedback about her pacing without it causing tension.",
+      "score": 0.85,
+      "score_rationale": "Blind answer correctly identifies the 2022 pre-club history and connects it to the directness of their interactions; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_f9a0b104",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about what connects Lena and Yuki within the group, and how does that shape the way Lena treats Yuki across sessions?",
+      "blind_answer": "Lena monitors Yuki's physical condition with a consistency that implies a residual care dynamic — she watches Yuki's biomechanics while riding, corrects her cleats unprompted, and offers to run the easier loop with her whenever needed. Yuki characterises this as a stable pattern.",
+      "score": 0.85,
+      "score_rationale": "Blind answer identifies the monitoring dynamic and the pattern confirmed by Yuki's 'you always look out for me'; matches ground truth in substance.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_f9a0b101",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Marcus's approach to ride distance shifted around Session 7, and what triggered the change — given that his earlier position was entrenched across multiple sessions?",
+      "blind_answer": "Marcus consistently dismissed short rides as not worth doing through Sessions 1–6. In Session 7 he reveals a patellar tendon injury requiring rides under 60km for six weeks, and says 'I accept 50-60km is still a ride. Grudgingly.' The trigger is a physio-diagnosed overuse injury and clinical directive to reduce load.",
+      "score": 0.90,
+      "score_rationale": "Blind answer correctly identifies the early state, the shift in Session 7, the injury trigger, and the grudging nature of the concession.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_f9a0b102",
+      "query_type": "Q8",
+      "question": "What drove Yuki's shift from riding at the back of the group to pushing into the middle pack, and what in the conversation shows both where she started and what explains the change by Session 7?",
+      "blind_answer": "Yuki's baseline was riding at the tail and requesting flatter routes when fatigued. In Session 7 she reports holding mid-pack and explains she completed a structured 6-week interval training block between sessions. The trigger is the self-initiated training programme, which made the middle group stop feeling unreachable.",
+      "score": 0.90,
+      "score_rationale": "Blind answer correctly identifies the training block trigger and the specific phrasing 'stopped feeling unreachable'; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_f9a0b103",
+      "query_type": "Q8",
+      "question": "What explains why Derek began staying for post-ride coffee in Session 8 — and what in the conversation shows both how consistently he had avoided it before and what specifically drove the change?",
+      "blind_answer": "Derek avoided post-ride coffee for years — Saoirse's 'seven years' comment places it as a multi-year pattern. In Session 8 he announces the shift and names two triggers: Tomás's group-retention argument the previous week and his wife's private encouragement to invest more in friendships after retiring.",
+      "score": 0.90,
+      "score_rationale": "Blind answer identifies both triggers precisely and anchors the baseline with Saoirse's seven-year reference; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_f9a0b104",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Saoirse's approach to pacing on group rides shifted around Session 8, and what triggered that change — given how the earlier pattern was characterised?",
+      "blind_answer": "Saoirse routinely rode at race pace in Sessions 1–7, pulling away from the group on climbs and descents. In Session 8 she announces Tomás had a private word with her about pacing and commits to not setting race tempo on group rides. The trigger is Tomás's off-session intervention.",
+      "score": 0.90,
+      "score_rationale": "Blind answer correctly identifies the pace pattern as the baseline and Tomás's private intervention as the trigger; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_f9a0b105",
+      "query_type": "Q8",
+      "question": "What in the conversation explains why Lena began tackling steeper gradients by Session 9, and what shows how long she had been avoiding them before the change?",
+      "blind_answer": "Lena reveals in Session 9 that she had been avoiding gradients above 8% for over a year due to a hip flexor issue she never disclosed to the group. She completed her own 6-month rehabilitation programme and tested it on the Cranfield ridge 10-12% gradient. The trigger is the completion of her self-managed rehab protocol.",
+      "score": 0.85,
+      "score_rationale": "Blind answer correctly identifies the one-year avoidance duration, the undisclosed nature of the issue, and the self-directed rehab trigger; matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "10 sessions cover route planning, ride debrief, post-ride social dynamics, kit, injury, training progress, season review, and group format — strong variety appropriate for a recreational cycling group. Primary domain (cycling logistics and rides) anchors every session with natural digressions to social dynamics and group admin."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All 9 personas maintain distinct voice profiles throughout. Marcus: 'Right —' opener, 'Noted', dry conciseness, no late punctuation — consistent. Priya: 'ok ok ok so —', string emojis, verbose and warm — consistent. Tomás: 'lads', 'sorted', 'all good', flatness, rare emoji — consistent. Yuki: typos, terse then follow-up, '!!' — consistent. Derek: full sentences, 'For reference —', never contractions, no emoji — consistent. Saoirse: dry sarcasm, racing terms, no name sign-off — consistent. Ben: 'haha', 'next one promise', single letters — consistent. Lena: full paragraphs, 'from a physio perspective', 'clinically speaking' — consistent. Callum: precise numbers, no emoji, blunt — consistent."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-initiated: Tomás raising the start-time issue in S2, Lena raising Yuki's cleat issue in S4, Saoirse introducing the kit topic in S4, Derek making the retention argument in S6, Callum's unprompted social disclosure in S7. No cold topic pivots observed."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em-dashes found in unprotected message fields. 50 protected turns (planted challenge turns and QA evidence anchor turns) contain em-dashes only in Marcus's 'Right —' opener quirk and Lena's clinical phrasing, which are character-appropriate quirks in planted turns."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 22 QA evidence anchors verified against conversation text. All message_excerpt values match the actual turn message text verbatim or near-verbatim (minor truncation only). No planted challenge turn content has been altered."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

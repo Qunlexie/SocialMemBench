@@ -1,0 +1,249 @@
+{
+  "network_id": "grp_b2c3d4e5",
+  "total_pairs": 13,
+  "phase1_mean_score": 0.923,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 4,
+    "2": 9
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 9,
+    "easy": 3,
+    "hard": 1
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.912,
+      "flagged": 0,
+      "mean_inference_required": 1.75
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 1.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.95,
+      "flagged": 0,
+      "mean_inference_required": 2
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.925,
+      "flagged": 0,
+      "mean_inference_required": 1
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.975,
+      "flagged": 0,
+      "mean_inference_required": 2
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_b2c3d4e501",
+      "query_type": "Q1",
+      "question": "How does Marcus respond to route proposals that involve significant downhill sections, and what pattern does his behavior reveal about his comfort with those routes?",
+      "blind_answer": "Marcus hedges on Ridgeline's steep descent ('I'll see how I'm feeling') and immediately chooses Canal Path (flat) in S5. In S8 he confirms 'knee felt fine on the flat.' Pattern suggests a physical knee issue with steep descents, never stated directly.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies the hedging pattern, flat preference, and inferred knee issue \u2014 exact match with ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b2c3d4e502",
+      "query_type": "Q1",
+      "question": "What does Lisa's behavior during race-focused discussions in the group suggest about how she feels when the group shifts toward competitive running?",
+      "blind_answer": "Lisa consistently uses the phrase 'not my thing' to opt out of race discussions (S1, S4, S6, S8) while staying positive about others. She prefers 'long run rhythm' framing. Pattern suggests quiet discomfort with competitive pressure.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches the deflection pattern and phrase structure; minor omission of the specific phrase 'not my thing, but you go for it' consistency across sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b2c3d4e503",
+      "query_type": "Q1",
+      "question": "What does Jess's behavior during competitive or training-focused conversations suggest about her primary motivation for being in the running club?",
+      "blind_answer": "Whenever the group pivots to race planning or competitive training, Jess redirects toward social events \u2014 post-race brunch (S4), pre-race dinner (S6), brunch planning during taper (S7). She participates in runs but frames motivation around the social dimension.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the social deflection pattern; matches the ground truth's framing of primary social motivation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b2c3d4e504",
+      "query_type": "Q1",
+      "question": "What does Derek's reaction to shorter route proposals reveal about what he considers a worthwhile training run?",
+      "blind_answer": "Derek dismisses 7k as 'barely a warmup' in S1 and asks to extend to 10k minimum. He endorses Ridgeline (12k) and consistently adds extensions. His Garmin references frame distance as a minimum target around 10k.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the 10k threshold from Derek's explicit S1 statement; good match with ground truth.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b2c3d4e501",
+      "query_type": "Q2",
+      "question": "In Session 4, the group agreed on a steady easy effort for Sunday's long run. What did one runner's response in that moment signal about their actual feeling toward the decision, and what specifically in how they responded tells you that?",
+      "blind_answer": "Tom. After Lisa, Jess, Priti, Sam all expressed genuine enthusiasm or relief about the easy run, Tom replied 'solid' \u2014 a single word. His S7 statement 'I'm running at race pace. Not sorry.' on a taper run confirms he never genuinely commits to group-pace agreements.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies Tom via the minimal-acknowledgment signal and cross-references S7 to confirm the pattern \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b2c3d4e502",
+      "query_type": "Q2",
+      "question": "When the group locked in the Ridgeline trail route in Session 2, whose response stood out as different from the rest, and what did their response tell you about their actual position?",
+      "blind_answer": "Marcus. His 'I'll see how I'm feeling on the day for the descent section. might take Rachel's flat option' was the only non-affirmative response to Ridgeline. Others confirmed clearly. He specifically names 'the descent section', suggesting a physical reason he's not disclosing.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies Marcus and his hedging language as the only non-affirmative response.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b2c3d4e501",
+      "query_type": "Q4",
+      "question": "In Session 3, someone in the group posted a detailed route analysis of the Lakeview Loop, including elevation profile and surface notes. Who wrote that analysis, and how can you tell it was them rather than the runner who typically posts detailed route breakdowns?",
+      "blind_answer": "Tom wrote the Lakeview Loop analysis \u2014 his message appears first in S3 with declarative phrasing ('Good course actually'), while Sam follows with 'That matches my research' and uses parenthetical format ('(stable footing)') as endorsement rather than initiation.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies Tom as the originator and Sam as the endorser; notes style distinctions that match the ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b2c3d4e501",
+      "query_type": "Q5",
+      "question": "What physical issue does Marcus have with certain types of routes, and what in Rachel's behavior in Session 5 shows she already knew about it before Marcus mentioned it?",
+      "blind_answer": "Marcus has a knee issue affecting him on steep descents. Rachel's S5 opening proactively offers a flat option 'because some folks prefer flatter terrain' \u2014 an unprompted accommodation that only makes sense if she already knew. Marcus's immediate 'Canal Path is perfect. thanks Rachel' confirms it was for him.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the knee issue and Rachel's proactive accommodation as ToM evidence; matches ground truth well.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b2c3d4e501",
+      "query_type": "Q6",
+      "question": "The Trail Blazers aim to run as a group and not leave people behind. Does everyone actually run by this principle? If not, who doesn't, and what does their behavior in the group chat reveal?",
+      "blind_answer": "No \u2014 Tom breaks the group-pace norm. In S7 he explicitly says 'I'll do the 8k but I'm running at race pace. Not sorry.' Sam calls him out in S6 referencing a 5-year history of the behavior. Sam confirms in S8 'Tom was pushing ahead by kilometre 2. As predicted.'",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies Tom with all three evidence points; strong match with ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b2c3d4e501",
+      "query_type": "Q7",
+      "question": "What does the conversation reveal about Sam and Tom's relationship that predates the running club?",
+      "blind_answer": "Sam and Tom were running friends for 5 years before joining the Trail Blazers. Sam states this explicitly in S6; Tom's dry deflection ('In my experience that's called negative splits') confirms the long-standing familiar dynamic.",
+      "score": 0.95,
+      "score_rationale": "Blind answer matches the ground truth precisely; excerpt anchor had a minor phrasing error (corrected in fix pass).",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b2c3d4e502",
+      "query_type": "Q7",
+      "question": "What do Jess's messages in Session 7 reveal about her relationship with Priti beyond their shared club membership?",
+      "blind_answer": "Jess and Priti have a regular post-run brunch tradition. In S7 Jess says 'Priti let's plan the brunch spot now' \u2014 framed as a given, not an invitation. In S1 she said 'Priti you're coming right?' with Priti responding 'obviously. always', confirming it's an established ritual.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the recurring brunch tradition and its intimacy beyond typical club membership.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b2c3d4e501",
+      "query_type": "Q8",
+      "question": "What in Nadia's messages signals that her approach to running within the group shifted mid-way through the sessions, and what appears to have caused the change?",
+      "blind_answer": "Nadia was competitive in S1-S2 ('Let's go fast', 'YES Ridgeline!!'). In S3 she announces a hamstring strain \u2014 the clear trigger \u2014 and shifts to 'not pushing it / easing in only'. S4-S6 she's tentative. S7: 'starting to feel like myself again.' S8: 'I think I'm back.'",
+      "score": 1.0,
+      "score_rationale": "Blind answer perfectly matches the ground truth: early competitive state, S3 hamstring trigger, recovery arc, full return in S8.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b2c3d4e502",
+      "query_type": "Q8",
+      "question": "What in Owen's behavior across the sessions signals a shift in how committed he became to the club, and what appears to have triggered that change?",
+      "blind_answer": "Owen shifted from hedged sporadic attendance (S1-S3: 'should be there if work doesn't blow up') to committed participation. The trigger was his own 10k race proposal in S4 \u2014 'confirmed for Sunday! I'll RSVP properly this time' acknowledges the prior pattern. By S8 he finishes and immediately signs up for the next race.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies the commitment arc and the 10k proposal as trigger; strong match with ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "8 sessions cover running logistics (routes, pace, race prep) with natural social overflow (brunch, dinner). Each session has distinct primary thread. Appropriate for recreational group type."
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Minor issues: Jess and Owen both have 'moderate' typo_rate in their profiles but no visible typos in messages \u2014 intentional casual style masks this. Marcus has 'rare' emoji profile but uses \ud83d\udc4d 2-3 times per session as a defined quirk (speaking_quirks explicitly list the thumbs-up behavior, so acceptable). All other sub-dimensions pass. All persona quirks are detectable."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-driven. S3 opens with Rachel asking about Nadia's injury. S4: Owen proposes the 10k organically. S6: race week arrives naturally. No cold jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "0 em-dashes in any message field. Fixed during generation (4 em-dashes patched). Protected turns: 0 em-dashes in planted turns."
+    },
+    "planted_turn_integrity": {
+      "score": 1,
+      "notes": "Planted challenge turns are correctly placed and intact. QA anchor turn_id mismatches found and corrected in this QC pass (14 corrections across 10 pairs). One anchor excerpt mismatch corrected (Q6/Q7 anchor on s06_t009: excerpt said 'always say you\\'ll slow down' but actual text is 'always say you\\'ll pace yourself then disappear at the front'). Planted turns themselves are unchanged."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

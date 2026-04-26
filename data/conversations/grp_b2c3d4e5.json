@@ -1,0 +1,1738 @@
+{
+  "network_id": "grp_b2c3d4e5",
+  "group_name": "Trail Blazers Running Club",
+  "group_type": "recreational",
+  "n_sessions": 8,
+  "sessions": [
+    {
+      "session_id": "grp_b2c3d4e5_s01",
+      "session_index": 1,
+      "date_label": "Jan 8, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t001",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD happy new year!! who is ready to get back out there this Sunday? I'm thinking we do the River Loop to ease back in after holiday break. who's in? \ud83c\udf89\ud83c\udfc3",
+          "timestamp": "2025-01-08T19:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t002",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Solid choice. How much climb on the River Loop?",
+          "timestamp": "2025-01-08T19:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t003",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "River Loop is mostly flat with one short incline near the park entrance (about 40m over 1km). Good warm-up route after a break.",
+          "timestamp": "2025-01-08T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t004",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg yes I am SO ready!! also can we do brunch after? I've been craving that acai place \ud83d\ude0d\ud83d\ude0d",
+          "timestamp": "2025-01-08T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t005",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "River Loop is what, 7k? That's barely a warmup. Can we tack on the extension to hit at least 10? Garmin says I need 50k this week to stay on track \ud83d\udcca",
+          "timestamp": "2025-01-08T19:08:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b212"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t006",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "honestly 7k sounds perfect to start the year. I'm in either way",
+          "timestamp": "2025-01-08T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t007",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "I'm in for Sunday! Pushed some decent splits last week so legs are feeling good. Let's go fast \ud83d\udcaa",
+          "timestamp": "2025-01-08T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t008",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "River Loop works for me. I'll find my long run rhythm and not worry about the clock. Not my thing, but you go for it Tom.",
+          "timestamp": "2025-01-08T19:14:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b202"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t009",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I'll probably make it. River Loop is fine \ud83d\udc4d",
+          "timestamp": "2025-01-08T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t010",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "should be there if work doesn't blow up again. thoughts on a 7:30 start time?",
+          "timestamp": "2025-01-08T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t011",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "let's gooo!! 8am start, River Loop, 7k base with optional extension for those who want it. Sound good everyone? \ud83d\ude4c",
+          "timestamp": "2025-01-08T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t012",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "In my experience the extension adds good variety. I'll do the full route.",
+          "timestamp": "2025-01-08T19:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t013",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "8am works. I'll confirm the route surface, mostly road, mixed trail section at the park.",
+          "timestamp": "2025-01-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t014",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "fine, I'll do the extension solo if needed. Garmin will be watching \ud83d\udc40",
+          "timestamp": "2025-01-08T19:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t015",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "8am solid! Already added it to my training plan. Need the miles \ud83c\udfc3",
+          "timestamp": "2025-01-08T19:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t016",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "see you there!",
+          "timestamp": "2025-01-08T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t017",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "yesss brunch after?? Priti you're coming right \ud83d\ude0d",
+          "timestamp": "2025-01-08T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t018",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "obviously. always \ud83d\ude04",
+          "timestamp": "2025-01-08T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t019",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "See you Sunday. Manageable start time.",
+          "timestamp": "2025-01-08T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s01_t020",
+          "session_id": "grp_b2c3d4e5_s01",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "\ud83d\udc4d",
+          "timestamp": "2025-01-08T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s02",
+      "session_index": 2,
+      "date_label": "Jan 15, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t001",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD great run Sunday everyone!! who felt the legs waking back up? next week I want to propose the Ridgeline trail. thoughts? \ud83c\udfd4\ufe0f",
+          "timestamp": "2025-01-15T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t002",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Ridgeline is a solid step up. Good elevation profile. In my experience it's where people separate the serious runners from the social ones.",
+          "timestamp": "2025-01-15T19:17:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t003",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Ridgeline route: 12k, mixed trail/road, about 280m elevation gain with a steep descent in the back third (roughly 120m drop over 2km). Would recommend poles if anyone has them.",
+          "timestamp": "2025-01-15T19:19:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t004",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg that sounds intense but I'm obsessed with a challenge!! are there any spots to stop and take pics? the views might be worth the suffer \ud83d\ude02",
+          "timestamp": "2025-01-15T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t005",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "280m gain is decent. Heart rate will hit zone 4 on the climb. Garmin says this is exactly the stress load I need this week \ud83d\udcca I'm in",
+          "timestamp": "2025-01-15T19:23:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t006",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "honestly I'll probably be toward the back but I'm in. good stress relief",
+          "timestamp": "2025-01-15T19:25:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t007",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "YES Ridgeline!! I need a route that actually tests my legs. Let's go \ud83d\udcaa",
+          "timestamp": "2025-01-15T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t008",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "The descent sounds significant. I prefer manageable grades. I'll run at my own rhythm but I can do Ridgeline at a steady pace.",
+          "timestamp": "2025-01-15T19:29:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t009",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "love the energy! I'll map a flat alternative loop for anyone who wants to skip the descent. who's confirmed for Ridgeline? \ud83d\ude4c",
+          "timestamp": "2025-01-15T19:31:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t010",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "hypothetically I should make this one. work has been crazy this week but Sunday looks free. thoughts on splitting into pace groups?",
+          "timestamp": "2025-01-15T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t011",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Pace groups make sense. I'll lead the front group.",
+          "timestamp": "2025-01-15T19:35:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t012",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Good idea. The trail narrows on the descent so single-file anyway, natural self-sorting.",
+          "timestamp": "2025-01-15T19:37:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t013",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I'll see how I'm feeling on the day for the descent section. might take Rachel's flat option",
+          "timestamp": "2025-01-15T19:38:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b201"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t014",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg Marcus we'll be at the back together don't worry!! \ud83d\ude02 also brunch at Green Table after?",
+          "timestamp": "2025-01-15T19:40:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t015",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "confirm: Ridgeline 8am Sunday. Dialed in. \ud83d\udcca",
+          "timestamp": "2025-01-15T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t016",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "I'm in",
+          "timestamp": "2025-01-15T19:44:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t017",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "confirmed \ud83d\udcaa",
+          "timestamp": "2025-01-15T19:46:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t018",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "I'll be there. Manageable pacing throughout.",
+          "timestamp": "2025-01-15T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t019",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Solid.",
+          "timestamp": "2025-01-15T19:50:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s02_t020",
+          "session_id": "grp_b2c3d4e5_s02",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "let's gooo!! Ridgeline next Sunday 8am, flat option available. who's taking the flat route, Marcus and Jess for sure? \ud83d\ude04\ud83d\ude4c",
+          "timestamp": "2025-01-15T19:52:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b204"
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s03",
+      "session_index": 3,
+      "date_label": "Jan 22, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t001",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD so I heard Nadia had a rough week. Nadia how are you doing? And next week's run, I was thinking the Lakeview Loop \ud83c\udf0a",
+          "timestamp": "2025-01-22T19:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t002",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "yeah... pulled my hamstring on Wednesday. not pushing it this week. easing in only. really gutted honestly \ud83d\ude1e",
+          "timestamp": "2025-01-22T19:02:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b209"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t003",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg Nadia nooo!! hope you feel better soon \ud83d\udc9b you can still come and do a short easy version right?",
+          "timestamp": "2025-01-22T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t004",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Lakeview Loop: 11k total, 160m elevation, gradual climb north side, then a longer gentle descent back. Mostly paved with a 2k trail section. Good course actually.",
+          "timestamp": "2025-01-22T19:06:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b206"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t005",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "That matches my research. The trail section is compact gravel (stable footing). Would recommend for mixed abilities.",
+          "timestamp": "2025-01-22T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t006",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "11k is solid. Garmin predicts a 54-minute finish at my target pace. Dialed in \ud83d\udcca",
+          "timestamp": "2025-01-22T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t007",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "honestly I love Lakeview. I'm in",
+          "timestamp": "2025-01-22T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t008",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Lakeview is a good rhythm route. Sustainable grade. I'll be there at my own pace.",
+          "timestamp": "2025-01-22T19:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t009",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "I'll come but not pushing it. hamstring still needs time. easy jog or walk the last stretch if needed",
+          "timestamp": "2025-01-22T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t010",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "Lakeview sounds good \ud83d\udc4d",
+          "timestamp": "2025-01-22T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t011",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "should be able to make it this week. thoughts on warm-up drills before we set off?",
+          "timestamp": "2025-01-22T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t012",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "love the support for Nadia! Owen yes let's do 5 min drills at the start. Tom thanks for the breakdown, super helpful \ud83d\ude4c",
+          "timestamp": "2025-01-22T19:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t013",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "have you considered adding the lakeside extension (adds 2.5k, flat)? Good option for those who want more distance.",
+          "timestamp": "2025-01-22T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t014",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "In my experience the extra 2.5k is worth it on this route. I'd do the extension.",
+          "timestamp": "2025-01-22T19:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t015",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "yes extension. that takes it to 13.5k. more like a proper session \ud83d\udcca",
+          "timestamp": "2025-01-22T19:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t016",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "I'll do the base 11k and then brunch! Priti?",
+          "timestamp": "2025-01-22T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t017",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "obviously \ud83d\ude04 I'm in for 11k",
+          "timestamp": "2025-01-22T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t018",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "I'll see how the hamstring feels. not pushing beyond 8k even if I feel okay",
+          "timestamp": "2025-01-22T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t019",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "I'll do the base loop. Manageable.",
+          "timestamp": "2025-01-22T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s03_t020",
+          "session_id": "grp_b2c3d4e5_s03",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "let's gooo! Lakeview Loop Sunday, base 11k or extension to 13.5k, your choice. see everyone at 8am \ud83c\udfc3\ud83c\udfc3",
+          "timestamp": "2025-01-22T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s04",
+      "session_index": 4,
+      "date_label": "Jan 29, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t001",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "okay hypothetically -- what if we entered the city 10k together in March? teams of 5. I think it would be a great motivator. thoughts? open to alternatives \ud83c\udfc6",
+          "timestamp": "2025-01-29T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t002",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD I love this idea!! let's gooo!! who is in for the city 10k?? \ud83c\udfc6\ud83c\udfc3",
+          "timestamp": "2025-01-29T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t003",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg yes!! obsessed with this!! even if I'm slow I want to do it for the experience and the post-race brunch \ud83d\ude02\ud83d\ude02",
+          "timestamp": "2025-01-29T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t004",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "City 10k. PB attempt. I'm training specifically for this. Garmin data already shows I'm dialed in for a sub-47 finish \ud83d\udcca let's go",
+          "timestamp": "2025-01-29T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t005",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "I want to do it but hamstring still uncertain. need a few more weeks to know. will confirm once I know the recovery timeline",
+          "timestamp": "2025-01-29T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t006",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Good idea Owen. For group context: city 10k is a flat road course (mixed surface). Good option for all abilities. I can research registration.",
+          "timestamp": "2025-01-29T19:40:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t007",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "I appreciate the idea. Not my thing race-wise but you all go for it. I'll do the training runs with you.",
+          "timestamp": "2025-01-29T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t008",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "honestly yes I'll do it! good motivation for stress relief. I'm in",
+          "timestamp": "2025-01-29T19:44:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t009",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I'll probably join if the course isn't too hilly \ud83d\udc4d",
+          "timestamp": "2025-01-29T19:46:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t010",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Good idea. I'll pace myself accordingly during training runs so I don't blow everyone's prep.",
+          "timestamp": "2025-01-29T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t011",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "so let's also talk about Sunday's long run. I want to do a steady easy effort, 10k flat, keep everyone together. no racing. who agrees? \ud83d\ude4c",
+          "timestamp": "2025-01-29T19:50:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t012",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "yes! easy is perfect for me honestly \ud83d\ude0a",
+          "timestamp": "2025-01-29T19:52:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t013",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "I'm in for easy",
+          "timestamp": "2025-01-29T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t014",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Steady easy effort makes sense for base building. Agreed.",
+          "timestamp": "2025-01-29T19:56:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t015",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "I'll stay in zone 2 then. not ideal but fine for a recovery week I guess \ud83d\udcca",
+          "timestamp": "2025-01-29T19:58:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t016",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "\ud83d\udc4d",
+          "timestamp": "2025-01-29T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t017",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Steady easy is exactly what I prefer. Manageable.",
+          "timestamp": "2025-01-29T20:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t018",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "solid",
+          "timestamp": "2025-01-29T20:04:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b203"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t019",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "easy run sounds perfect for my recovery. I'll come \ud83c\udfc3",
+          "timestamp": "2025-01-29T20:06:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b210"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s04_t020",
+          "session_id": "grp_b2c3d4e5_s04",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "confirmed for Sunday! I'll RSVP properly this time. see you at 8am \ud83c\udfc3",
+          "timestamp": "2025-01-29T20:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s05",
+      "session_index": 5,
+      "date_label": "Feb 5, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t001",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD this Sunday I have two options. Option A: Forest Hill route (13k, significant descent in miles 6-8). Option B: Canal Path (12k, completely flat, great surface). I wanted to give both because some folks prefer flatter terrain. who's doing which? \ud83d\ude4c",
+          "timestamp": "2025-02-05T19:00:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b205"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t002",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Forest Hill. In my experience descents separate the runners. I'll take option A.",
+          "timestamp": "2025-02-05T19:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t003",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "Forest Hill. 13k with real elevation. Garmin says this is my target load this week \ud83d\udcca",
+          "timestamp": "2025-02-05T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t004",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "Forest Hill but not pushing it. hamstring check on the descent. if it flares I'll walk it.",
+          "timestamp": "2025-02-05T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t005",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg Canal Path sounds amazing!! flat AND scenic?? I'm obsessed \ud83d\ude0d Priti?",
+          "timestamp": "2025-02-05T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t006",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "Canal Path. honestly the flat sounds great for stress relief today",
+          "timestamp": "2025-02-05T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t007",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "Canal Path is perfect. thanks Rachel",
+          "timestamp": "2025-02-05T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t008",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "I'll do Canal Path. Good surface, good option for a steady run.",
+          "timestamp": "2025-02-05T19:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t009",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Canal Path for me. Manageable and at my long run rhythm.",
+          "timestamp": "2025-02-05T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t010",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "I'll do Canal Path. work's been nuts but I'm definitely coming this week \ud83c\udfc3",
+          "timestamp": "2025-02-05T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t011",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "let's gooo! meeting point at the park entrance at 8, splitting into groups from there \ud83d\ude4c\ud83c\udfc3",
+          "timestamp": "2025-02-05T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t012",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Solid. I'll be there at 7:45 to stretch.",
+          "timestamp": "2025-02-05T19:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t013",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "confirmed. dialed in \ud83d\udcca",
+          "timestamp": "2025-02-05T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t014",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "yay! brunch crew will report back from the Canal Path \ud83d\ude02",
+          "timestamp": "2025-02-05T19:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t015",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "see you there!",
+          "timestamp": "2025-02-05T19:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t016",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "confirmed. will text from the trail if the descent is a problem \ud83d\ude4f",
+          "timestamp": "2025-02-05T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t017",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Have you considered adding hydration stops on the Forest Hill route? The descent section can be deceptive.",
+          "timestamp": "2025-02-05T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t018",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Good call Sam. In my experience the descent is harder in dry conditions. I'll bring extra water.",
+          "timestamp": "2025-02-05T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t019",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "See you all Sunday. Sustainable pace.",
+          "timestamp": "2025-02-05T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s05_t020",
+          "session_id": "grp_b2c3d4e5_s05",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "\ud83d\udc4d perfect",
+          "timestamp": "2025-02-05T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s06",
+      "session_index": 6,
+      "date_label": "Feb 12, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t001",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD race week!! city 10k registration closes Friday. if you haven't signed up do it now!! who's confirmed? \ud83c\udfc6\ud83c\udfc3",
+          "timestamp": "2025-02-12T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t002",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "confirmed. I've been running 10k splits at race pace all week. Garmin data is looking sharp. sub-47 is realistic \ud83d\udcca",
+          "timestamp": "2025-02-12T19:17:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t003",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "confirmed! signed up last night. can't believe I'm actually doing this. thoughts on a shared race-day playlist?",
+          "timestamp": "2025-02-12T19:19:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t004",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "confirmed!! omg I'm so excited / nervous \ud83d\ude02 honestly can we plan a pre-race dinner? I know a great pasta place. obsessed with their carbonara",
+          "timestamp": "2025-02-12T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t005",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "I'm in for the dinner. honestly the pre-race meal sounds more exciting than the race lol",
+          "timestamp": "2025-02-12T19:23:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t006",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "In my experience the race atmosphere is what makes it. Looking forward to it.",
+          "timestamp": "2025-02-12T19:25:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b211"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t007",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "hamstring is feeling better. tentatively signing up. will confirm by Thursday. not pushing on race day if it flares",
+          "timestamp": "2025-02-12T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t008",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Not racing but I'll be there for the group runs. Not my thing, but you all go for it.",
+          "timestamp": "2025-02-12T19:29:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t009",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Tom I've been running with you for five years before this club started and you always say you'll pace yourself then disappear at the front. just confirming this is still happening \ud83d\ude04",
+          "timestamp": "2025-02-12T19:31:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b207"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t010",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "In my experience that's called 'negative splits'.",
+          "timestamp": "2025-02-12T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t011",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "haha Sam calling Tom OUT \ud83d\ude02 let's gooo everyone get registered! \ud83c\udfc6",
+          "timestamp": "2025-02-12T19:35:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t012",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I'll sign up if the course is flat. probably \ud83d\udc4d",
+          "timestamp": "2025-02-12T19:37:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t013",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg Marcus you have to!! it'll be so fun. also pasta place this Friday?? who's in for pre-race dinner?",
+          "timestamp": "2025-02-12T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t014",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "I'll pass on the dinner. carb protocol is my own thing. dialed in \ud83d\udcca",
+          "timestamp": "2025-02-12T19:41:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t015",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "I'm in for dinner. see you there Jess \ud83d\ude04",
+          "timestamp": "2025-02-12T19:43:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t016",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "dinner yes!! thoughts on 7pm?",
+          "timestamp": "2025-02-12T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t017",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "I'll be there. Tom?",
+          "timestamp": "2025-02-12T19:47:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t018",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Solid. I'll make the dinner.",
+          "timestamp": "2025-02-12T19:49:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t019",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "I'll come to dinner even if I can't race! need the carbs regardless \ud83d\ude02",
+          "timestamp": "2025-02-12T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s06_t020",
+          "session_id": "grp_b2c3d4e5_s06",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Enjoy everyone. I'll keep my own pre-run prep. See you on race day.",
+          "timestamp": "2025-02-12T19:53:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s07",
+      "session_index": 7,
+      "date_label": "Feb 19, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t001",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD taper week!! easy 8k on Sunday, no racing, just shake the legs out. who's in? \ud83c\udfc3",
+          "timestamp": "2025-02-19T19:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t002",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "I'll do the 8k but I'm running at race pace. Not sorry.",
+          "timestamp": "2025-02-19T19:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t003",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Tom. It's a taper run. (Route suggestion: flat canal section, 8k, road surface.)",
+          "timestamp": "2025-02-19T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t004",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Fine. Canal section is solid.",
+          "timestamp": "2025-02-19T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t005",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "taper week is mental torture but ok. 8k Canal. Garmin says to keep HR under 140. I'll try \ud83d\udcca",
+          "timestamp": "2025-02-19T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t006",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "yesss easy run!! omg the stress of race week is real. brunch after to calm the nerves? \ud83d\ude02",
+          "timestamp": "2025-02-19T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t007",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "I'm in for both. easy run + brunch = perfect \ud83d\ude04",
+          "timestamp": "2025-02-19T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t008",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "hamstring is actually feeling really good. I'm going to try a proper pace this week. not going all out but honestly starting to feel like myself again \ud83c\udfc3",
+          "timestamp": "2025-02-19T19:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t009",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I'll be there. Canal is fine \ud83d\udc4d",
+          "timestamp": "2025-02-19T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t010",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "confirmed! 8am Sunday. I've actually been tracking my sleep and nutrition this week for race prep. thoughts on banana vs energy gel before the 10k?",
+          "timestamp": "2025-02-19T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t011",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Canal section is a good taper choice. Manageable. See you Sunday.",
+          "timestamp": "2025-02-19T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t012",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "let's gooo!! so excited for everyone on race day! \ud83c\udf89\ud83c\udfc6",
+          "timestamp": "2025-02-19T19:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t013",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Have you considered including the riverside extension for those who want closer to 10k in the taper? Good for mental prep.",
+          "timestamp": "2025-02-19T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t014",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Good shout Sam. I'll add that.",
+          "timestamp": "2025-02-19T19:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t015",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "yes extension. want to feel the distance in the legs. confirmed \ud83d\udcca",
+          "timestamp": "2025-02-19T19:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t016",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "8k is enough for me honestly \ud83d\ude02 Priti let's plan the brunch spot now so we have something to look forward to",
+          "timestamp": "2025-02-19T19:30:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_b208"
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t017",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "honestly yes. I'm already more excited about brunch than the race lol. I'm in",
+          "timestamp": "2025-02-19T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t018",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "I'll do the extension. want to test the hamstring at pace. feeling optimistic \ud83c\udfc3",
+          "timestamp": "2025-02-19T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t019",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "extension for me too. getting serious about this \ud83c\udfc3 also banana confirmed, thanks Sam",
+          "timestamp": "2025-02-19T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s07_t020",
+          "session_id": "grp_b2c3d4e5_s07",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "Base 8k for me. Sustainable.",
+          "timestamp": "2025-02-19T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_b2c3d4e5_s08",
+      "session_index": 8,
+      "date_label": "Feb 26, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t001",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "OKAY SQUAD race day recap!! everyone did INCREDIBLE \ud83c\udfc6\ud83c\udf89 Derek sub-47, Owen finished his first 10k, Nadia ran strong!! and the Canal Path crew were the real MVPs \ud83d\ude02 let's gooo!!",
+          "timestamp": "2025-02-26T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t002",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "46:52. new PB. Garmin confirmed. I was dialed in \ud83d\udcca incredible feeling",
+          "timestamp": "2025-02-26T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t003",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "51:30!! I genuinely cannot believe it. I'm already signed up for the next one. see you all at training next week \ud83c\udfc3",
+          "timestamp": "2025-02-26T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t004",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "50:12. hamstring held up the whole way. I actually pushed hard in the last 2k and felt strong. I think I'm back. really happy \ud83c\udfc3\ud83d\udcaa",
+          "timestamp": "2025-02-26T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t005",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg you all are incredible!!! I'm so proud \ud83d\ude2d\ud83d\ude2d I did it in 58 minutes which honestly I'm obsessed with. and brunch was perfection as always",
+          "timestamp": "2025-02-26T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t006",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "honestly so proud of everyone. 56 minutes for me. stress relief at its finest \ud83d\ude04",
+          "timestamp": "2025-02-26T19:40:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t007",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "In my experience that was a well-organised event. Personal: 44:31. Good day.",
+          "timestamp": "2025-02-26T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t008",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Well done everyone. Tom that's a solid time. (For the record: Tom was pushing ahead by kilometre 2. As predicted.)",
+          "timestamp": "2025-02-26T19:44:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t009",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Noted.",
+          "timestamp": "2025-02-26T19:46:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t010",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I didn't race but Canal Path was good. knee felt fine on the flat. good morning \ud83d\udc4d",
+          "timestamp": "2025-02-26T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t011",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "A good morning out. Not my thing race-wise but the energy was positive. Sustainable effort from me.",
+          "timestamp": "2025-02-26T19:50:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t012",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p01",
+          "speaker_display_name": "Rachel",
+          "message": "this group is the BEST! now let's start planning spring training \ud83c\udf31\ud83c\udfc3 let's gooo!!",
+          "timestamp": "2025-02-26T19:52:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t013",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p10",
+          "speaker_display_name": "Owen",
+          "message": "already signed up for the next race. thoughts on half marathon in June? open to alternatives \ud83c\udfc6",
+          "timestamp": "2025-02-26T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t014",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p04",
+          "speaker_display_name": "Derek",
+          "message": "half marathon is 21k. Garmin says I need 16 weeks of training. I'm in. dialed in from today \ud83d\udcca",
+          "timestamp": "2025-02-26T19:56:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t015",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p07",
+          "speaker_display_name": "Nadia",
+          "message": "honestly yes. hamstring has been tested and it held. I want to train for something longer. I'm in \ud83d\udcaa",
+          "timestamp": "2025-02-26T19:58:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t016",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p03",
+          "speaker_display_name": "Jess",
+          "message": "omg half marathon sounds INTENSE but also obsessed with the idea. can we do more brunch runs in the build-up?? \ud83d\ude0d",
+          "timestamp": "2025-02-26T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t017",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p08",
+          "speaker_display_name": "Sam",
+          "message": "Half marathon training would benefit from a structured route plan. Have you considered a weekly progression from 12k to 18k over the build?",
+          "timestamp": "2025-02-26T20:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t018",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p02",
+          "speaker_display_name": "Tom",
+          "message": "Sam is right. In my experience structured progression beats ad hoc distance. I can help pace the longer efforts.",
+          "timestamp": "2025-02-26T20:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t019",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p05",
+          "speaker_display_name": "Priti",
+          "message": "I'm in if the training isn't all race-focused. I need the running for me, not the time. I'm in",
+          "timestamp": "2025-02-26T20:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_b2c3d4e5_s08_t020",
+          "session_id": "grp_b2c3d4e5_s08",
+          "speaker_persona_id": "grp_b2c3d4e5_p09",
+          "speaker_display_name": "Lisa",
+          "message": "I'll run with the group but not race. Same as always. Sustainable.",
+          "timestamp": "2025-02-26T20:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    }
+  ],
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_b212",
+      "session_id": "grp_b2c3d4e5_s01",
+      "session_index": 1,
+      "turn_id": "grp_b2c3d4e5_s01_t005"
+    },
+    {
+      "challenge_id": "ch_b202",
+      "session_id": "grp_b2c3d4e5_s01",
+      "session_index": 1,
+      "turn_id": "grp_b2c3d4e5_s01_t008"
+    },
+    {
+      "challenge_id": "ch_b201",
+      "session_id": "grp_b2c3d4e5_s02",
+      "session_index": 2,
+      "turn_id": "grp_b2c3d4e5_s02_t013"
+    },
+    {
+      "challenge_id": "ch_b204",
+      "session_id": "grp_b2c3d4e5_s02",
+      "session_index": 2,
+      "turn_id": "grp_b2c3d4e5_s02_t020"
+    },
+    {
+      "challenge_id": "ch_b209",
+      "session_id": "grp_b2c3d4e5_s03",
+      "session_index": 3,
+      "turn_id": "grp_b2c3d4e5_s03_t002"
+    },
+    {
+      "challenge_id": "ch_b206",
+      "session_id": "grp_b2c3d4e5_s03",
+      "session_index": 3,
+      "turn_id": "grp_b2c3d4e5_s03_t004"
+    },
+    {
+      "challenge_id": "ch_b203",
+      "session_id": "grp_b2c3d4e5_s04",
+      "session_index": 4,
+      "turn_id": "grp_b2c3d4e5_s04_t018"
+    },
+    {
+      "challenge_id": "ch_b210",
+      "session_id": "grp_b2c3d4e5_s04",
+      "session_index": 4,
+      "turn_id": "grp_b2c3d4e5_s04_t019"
+    },
+    {
+      "challenge_id": "ch_b205",
+      "session_id": "grp_b2c3d4e5_s05",
+      "session_index": 5,
+      "turn_id": "grp_b2c3d4e5_s05_t001"
+    },
+    {
+      "challenge_id": "ch_b211",
+      "session_id": "grp_b2c3d4e5_s06",
+      "session_index": 6,
+      "turn_id": "grp_b2c3d4e5_s06_t006"
+    },
+    {
+      "challenge_id": "ch_b207",
+      "session_id": "grp_b2c3d4e5_s06",
+      "session_index": 6,
+      "turn_id": "grp_b2c3d4e5_s06_t009"
+    },
+    {
+      "challenge_id": "ch_b208",
+      "session_id": "grp_b2c3d4e5_s07",
+      "session_index": 7,
+      "turn_id": "grp_b2c3d4e5_s07_t016"
+    }
+  ]
+}

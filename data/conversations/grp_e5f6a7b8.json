@@ -1,0 +1,2176 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "group_name": "The Lakeview Crew",
+  "group_type": "close_friends",
+  "n_sessions": 10,
+  "sessions": [
+    {
+      "session_id": "grp_e5f6a7b8_s01",
+      "session_index": 1,
+      "date_label": "Jan 8, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t001",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , happy new year everyone!! all 15 of you surviving out there?? I need a full update \ud83c\udf89",
+          "timestamp": "2025-01-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t002",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "survived. questionably.",
+          "timestamp": "2025-01-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t003",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg YES happy new year!! you're all literally the best people I know \ud83d\udc9b\ud83d\udc9b",
+          "timestamp": "2025-01-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t004",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "huge year ahead for all of us!! building in public: I'm already in the office and it's the 8th. the startup never sleeps \ud83d\ude80",
+          "timestamp": "2025-01-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t005",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "happy new year. how is everyone actually holding up after the holidays?",
+          "timestamp": "2025-01-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t006",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "happy new year all. genuinely missed this group. also quick note for trip planning later , Priya has a cardiology conference in mid-March, worth keeping in mind",
+          "timestamp": "2025-01-T19:18:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e509"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t007",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "happy new year. I need to check my schedule before committing to anything. how far out are we thinking for this trip?",
+          "timestamp": "2025-01-T19:21:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e504"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t008",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually , good start to the year. I am in a good place. relatively.",
+          "timestamp": "2025-01-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t009",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "sending aesthetic new year energy to all of you \ud83c\udf3f",
+          "timestamp": "2025-01-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t010",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "happy new year everyone. here's hoping the food is better this year. that's my resolution.",
+          "timestamp": "2025-01-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t011",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "sure, another year. I'm in.",
+          "timestamp": "2025-01-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t012",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "noted. happy new year.",
+          "timestamp": "2025-01-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t013",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "hi loves!! I've been on nights all week but happy new year , sending so much love from the ward \ud83d\udc9b",
+          "timestamp": "2025-01-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t014",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "happy new year!! tbh I'm weirdly optimistic about this one. Lily is that strange?",
+          "timestamp": "2025-01-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t015",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "no it's perfect!!! good things only!!",
+          "timestamp": "2025-01-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t016",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "happy new year. low-key would be down for something outdoors early this year. who's in for a spring trip somewhere with hills?",
+          "timestamp": "2025-01-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t017",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , we need a group trip this year!! this is non-negotiable. I'm thinking spring long weekend. thoughts??",
+          "timestamp": "2025-01-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t018",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "what if just 5-6 of us did a trial weekend first before everyone commits to coordinating 15 people",
+          "timestamp": "2025-01-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t019",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "May might work if I have enough notice. 3 weeks minimum, ideally more",
+          "timestamp": "2025-01-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s01_t020",
+          "session_id": "grp_e5f6a7b8_s01",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "a trip sounds genuinely good. anyway , what did everyone actually do over the break?",
+          "timestamp": "2025-01-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s02",
+      "session_index": 2,
+      "date_label": "Jan 22, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t001",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , Lake District long weekend late April. I'm thinking 15 of us, big rented cottage. who can commit?? thoughts??",
+          "timestamp": "2025-02-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t002",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "Lake District is beautiful. Priya , the weekend after your conference could work if you need recovery time?",
+          "timestamp": "2025-02-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t003",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "I need to check my schedule. the weekend immediately after conference is probably not possible",
+          "timestamp": "2025-02-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t004",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "I'm in!! building in public: the team retreat I did last summer was Cotswolds-adjacent. similar vibe. highly recommend",
+          "timestamp": "2025-02-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t005",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if we themed the whole trip?? like full cottagecore aesthetic. I have so many ideas. anyway",
+          "timestamp": "2025-02-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t006",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "low-key would be down for a camping option near the lake rather than a village cottage. the Windermere east shore has some excellent pitches",
+          "timestamp": "2025-02-T19:18:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e505"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t007",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "what if 6-7 of us booked a smaller place first. might be more realistic than coordinating 15 people all at once",
+          "timestamp": "2025-02-T19:21:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e503"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t008",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually the whole point is everyone goes. 15 of us in one big house is THE move",
+          "timestamp": "2025-02-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t009",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "a big place sounds expensive. some of us might find this a stretch, just flagging",
+          "timestamp": "2025-02-T19:27:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e511"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t010",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "wherever we go I'm doing one group dinner. I need a proper kitchen. the food scene near Grasmere is actually solid",
+          "timestamp": "2025-02-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t011",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "sure, whatever works. I'll believe it when someone books something",
+          "timestamp": "2025-02-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t012",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh I'm already worrying about the cost. Lily , is it bad that I said that?",
+          "timestamp": "2025-02-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t013",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "no!! totally valid!! but totally no pressure either way!",
+          "timestamp": "2025-02-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t014",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "I'll need confirmed dates 4 weeks minimum before. work thing potentially",
+          "timestamp": "2025-02-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t015",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "hi loves!! catching up , a big cottage in the Lakes sounds incredible. I will absolutely try my hardest",
+          "timestamp": "2025-02-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t016",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "okay vote time: Lake District, Brecon Beacons, or coastal Cornwall? drop your pick!! thoughts??",
+          "timestamp": "2025-02-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t017",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "Lake District. how much notice do I need to give to confirm?",
+          "timestamp": "2025-02-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t018",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "Tom's vote: Lake District. also , Priya needs at least 3 weeks of notice before the weekend itself",
+          "timestamp": "2025-02-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t019",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "Lake District. near Windermere there's a good wild camping spot at Low Wray if anyone wants to split off for a night",
+          "timestamp": "2025-02-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s02_t020",
+          "session_id": "grp_e5f6a7b8_s02",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "Lake District. I'll scout ingredient sourcing near Ambleside. there's a proper deli near the market square",
+          "timestamp": "2025-02-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s03",
+      "session_index": 3,
+      "date_label": "Feb 5, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t001",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , Jake and I were already talking about this before the chat: we found an Airbnb cottage near Grasmere, sleeps 16, big kitchen, lake view. thoughts??",
+          "timestamp": "2025-03-T19:03:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e513"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t002",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "yeah found a few options. this one's the best balance of space and cost. I'll share the link",
+          "timestamp": "2025-03-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t003",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if it has a kitchen island?? the aesthetic of cooking together as a group... anyway I'll stop",
+          "timestamp": "2025-03-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t004",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "kitchen is non-negotiable. I checked , it has 4 burners and an AGA. we're good",
+          "timestamp": "2025-03-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t005",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "low-key would still push for one night camping option nearby. but the cottage is fine if people prefer",
+          "timestamp": "2025-03-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t006",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "cottage sounds nice. some of us might find the cost a stretch. works for me if the split is reasonable",
+          "timestamp": "2025-03-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t007",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "sure whatever works. I'm just asking upfront , if someone drops out last minute, who absorbs their share?",
+          "timestamp": "2025-03-T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t008",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh Marcus is asking what I've been thinking. Lily , is that a normal thing to agree on in advance?",
+          "timestamp": "2025-03-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t009",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "totally!! and honestly totally no pressure to bring it up. I think it's a fair policy question",
+          "timestamp": "2025-03-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t010",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "I'll need a clear refund policy. my schedule is unpredictable",
+          "timestamp": "2025-03-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t011",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "I'm fully in for the cottage!! building in public: just closed our pre-seed round so I'm in a position to put down a deposit advance if needed",
+          "timestamp": "2025-03-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t012",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "nightshift message , a cottage near Grasmere sounds like a dream. I will be there if there is any way I can be there \ud83d\udc9b",
+          "timestamp": "2025-03-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t013",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "suggest: non-refundable deposit as agreed commitment, all other costs pay-as-you-go. keeps it simple and fair",
+          "timestamp": "2025-03-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t014",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually , we just need to commit. the endless hedging is how trips like this fall apart. book it",
+          "timestamp": "2025-03-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t015",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "I'll confirm once I have the March conference schedule in writing. probably yes",
+          "timestamp": "2025-03-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t016",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "okay provisional plan: Grasmere cottage, April 25-27 long weekend, deposit by March 1. who is in?? thoughts??",
+          "timestamp": "2025-03-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t017",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "IN!! okay I'll stop pitching variations. anyway , someone just confirm before I make another moodboard",
+          "timestamp": "2025-03-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t018",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "in, tentatively. works for me",
+          "timestamp": "2025-03-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t019",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "in. I'll bring my camping gear as a backup option for anyone who wants one night under canvas",
+          "timestamp": "2025-03-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s03_t020",
+          "session_id": "grp_e5f6a7b8_s03",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "sure, whatever works",
+          "timestamp": "2025-03-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s04",
+      "session_index": 4,
+      "date_label": "Feb 19, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t001",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , big life updates!! I want to know what everyone is actually doing!! catch me up!! thoughts??",
+          "timestamp": "2025-04-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t002",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "okay BIG news , we signed our first enterprise client yesterday. I've been building in public for three years and this is the moment. genuinely speechless \ud83d\ude80\ud83c\udf89",
+          "timestamp": "2025-04-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t003",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg YES Raj!! you're literally so incredible!! I'm so proud of you!!!",
+          "timestamp": "2025-04-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t004",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "nice one Raj. I just closed my first solo deal. different world but same pressure. congrats",
+          "timestamp": "2025-04-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t005",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "hi loves!! Raj that is HUGE. so happy for you. hope everyone is doing well. sending love \ud83d\udc9b",
+          "timestamp": "2025-04-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t006",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "congrats Raj. just want to say , it's been a while since we all actually checked in. how is everyone really doing?",
+          "timestamp": "2025-04-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t007",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "I passed my methods module!! I honestly thought I was going to fail. tbh I cried a little. Lily!!",
+          "timestamp": "2025-04-T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t008",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "BECCA!! omg YES!! you're literally amazing I KNEW you would pass!!",
+          "timestamp": "2025-04-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t009",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "ugh I need a win. news cycle is brutal right now and I'm deep in a story. but I'm fine. really.",
+          "timestamp": "2025-04-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t010",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "congrats Raj and Becca!! I just landed a huge rebrand project. big year for everyone apparently \ud83c\udf3f",
+          "timestamp": "2025-04-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t011",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "massive for Raj. I've been deep in new menu season. Priya , I still owe you that recipe from the lamb thing we made at yours",
+          "timestamp": "2025-04-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t012",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "yes please Sam. I've been thinking about that meal actually. send it whenever",
+          "timestamp": "2025-04-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t013",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "congrats everyone. I've been heads-down on my chapter. anyway , how's the trip planning going?",
+          "timestamp": "2025-04-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t014",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "the chapter will be great Alex. you don't need to update us , we're just glad you're coming on the trip \ud83d\ude0a",
+          "timestamp": "2025-04-T19:42:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e510"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t015",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "good things all round. guiding a group in Snowdonia this weekend. life is decent",
+          "timestamp": "2025-04-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t016",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "solid Raj. Chris , was that a tech deal? comparing notes here",
+          "timestamp": "2025-04-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t017",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "congrats all. also , trip deposit. should we collect by end of week?",
+          "timestamp": "2025-04-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t018",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "YES Jake and I are already coordinating that. I'll send Venmo/PayPal details. who needs a nudge?? thoughts??",
+          "timestamp": "2025-04-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t019",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "I need to confirm before paying the deposit. how far out is April exactly from the conference?",
+          "timestamp": "2025-04-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s04_t020",
+          "session_id": "grp_e5f6a7b8_s04",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "Priya , April 25 is 6 weeks after your conference ends. plenty of time. I'll send you the calendar details",
+          "timestamp": "2025-04-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s05",
+      "session_index": 5,
+      "date_label": "Mar 5, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t001",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "im fine. just , rough week. the story I was working on fell apart and I've been in my head about it",
+          "timestamp": "2025-05-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t002",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "oh Nina \ud83d\udc9b sending you so much love. do you want to talk or just let it be for now?",
+          "timestamp": "2025-05-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t003",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "hi loves. Nina I'm thinking of you. whatever you need , I'm here. sending love from a long shift \ud83d\udc9b",
+          "timestamp": "2025-05-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t004",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "just want to say , Nina, we're here. no pressure to share more than you want to",
+          "timestamp": "2025-05-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t005",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "Nina tbh whenever you're ready. also Lily are we still doing our call Thursday?",
+          "timestamp": "2025-05-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t006",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "Nina , that sounds heavy. anything I can do?",
+          "timestamp": "2025-05-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t007",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "thank you all. I'll be fine. I just don't want anyone to tell me to take a break or switch off , I'm better when I'm working, full stop",
+          "timestamp": "2025-05-T19:21:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e502"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t008",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "understood. though hypothetically , sometimes the story just isn't ready. not a criticism, just a thing I've noticed",
+          "timestamp": "2025-05-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t009",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually Marcus that is the most Marcus thing you could have said",
+          "timestamp": "2025-05-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t010",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "so while Nina's having a quiet recovery week , low-key suggestion: virtual hangout Friday? no agenda, nothing relationship-heavy, just us catching up \ud83d\ude0a",
+          "timestamp": "2025-05-T19:30:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e508"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t011",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if we did a virtual baking session?? I know that sounds extra but I've been wanting to try it. anyway",
+          "timestamp": "2025-05-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t012",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "a smaller group could do something Friday. Nina, Zoe, Lily, whoever , keep it manageable",
+          "timestamp": "2025-05-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t013",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "I need to check my schedule. also Nina , sending support",
+          "timestamp": "2025-05-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t014",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "I'm in for whatever helps Nina. also , for the baking hang: just no cilantro in any recipes please. anyway",
+          "timestamp": "2025-05-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t015",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , virtual baking hang Friday, totally optional, no agenda. thoughts??",
+          "timestamp": "2025-05-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t016",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "I'll try but I have a pitch deck due. Nina you've got this , you're one of the sharpest people I know",
+          "timestamp": "2025-05-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t017",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "around Friday. also Nina , sometimes being outside for a few hours is the only reset that works, for what it's worth",
+          "timestamp": "2025-05-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t018",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "noted. I'll try to make Friday",
+          "timestamp": "2025-05-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t019",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "Friday works for me. anyway , is the deposit sorted yet?",
+          "timestamp": "2025-05-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s05_t020",
+          "session_id": "grp_e5f6a7b8_s05",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "yes!! Jake and I confirmed the cottage. deposit is paid!! we are GOING!! \ud83c\udf89",
+          "timestamp": "2025-05-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s06",
+      "session_index": 6,
+      "date_label": "Mar 19, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t001",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , cottage is OFFICIALLY CONFIRMED!! April 25-27!! we are doing this!! I might actually cry!! thoughts??",
+          "timestamp": "2025-06-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t002",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg YES!! I am SO excited!! the aesthetic of this is going to be everything!! \ud83c\udf3f\ud83d\udc9b",
+          "timestamp": "2025-06-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t003",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "YESSS!! building in public: the Lakeview Crew is going on our first group trip!! I'm putting this in my investor update as proof the team has culture lol \ud83d\ude80",
+          "timestamp": "2025-06-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t004",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if we all brought one nice bottle of wine each and it becomes a thing?? anyway I'm already planning the vibe",
+          "timestamp": "2025-06-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t005",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "confirmed. I'll arrive Friday morning and check the Low Wray camping spot before everyone else gets there",
+          "timestamp": "2025-06-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t006",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "so excited for this. just want to say , genuinely needed this. Priya is also confirmed for that weekend",
+          "timestamp": "2025-06-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t007",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "calendar blocked. I'm in",
+          "timestamp": "2025-06-T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t008",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "I am doing EVERYTHING I can to get those shifts covered. please don't not-count me just yet \ud83d\udc9b",
+          "timestamp": "2025-06-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t009",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "noted. also , food costs. who is tracking what we spend on ingredients?",
+          "timestamp": "2025-06-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t010",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh I can't believe it's actually happening. Lily , this is everything",
+          "timestamp": "2025-06-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t011",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "great. looking forward to it",
+          "timestamp": "2025-06-T19:33:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e515"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t012",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually I am SO ready for this trip. bring it \ud83c\udfde\ufe0f",
+          "timestamp": "2025-06-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t013",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "I'll take Saturday dinner. I'll need the full kitchen and a shopping list. menu proposal incoming",
+          "timestamp": "2025-06-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t014",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "confirmed. I'll be there",
+          "timestamp": "2025-06-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t015",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "also , transport. should we sort a minibus or carpool? splitting a minibus is cheapest for this many people",
+          "timestamp": "2025-06-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t016",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "YES transport!! Jake and I were literally just talking about this. who can drive?? thoughts??",
+          "timestamp": "2025-06-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t017",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "I can take one car , probably 4-5 people. what if we split into 2-3 smaller groups for the drive",
+          "timestamp": "2025-06-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t018",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "drive group split works. anyway , does anyone have a good road trip playlist?",
+          "timestamp": "2025-06-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t019",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "I'll take the early train. I want to check the site before everyone arrives",
+          "timestamp": "2025-06-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s06_t020",
+          "session_id": "grp_e5f6a7b8_s06",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "I'll share the trip event on LinkedIn. only joking. probably",
+          "timestamp": "2025-06-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s07",
+      "session_index": 7,
+      "date_label": "Apr 2, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t001",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , final costs!! cottage split + group food kitty + activities. let's agree now before we have chaos at the cottage. thoughts??",
+          "timestamp": "2025-07-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t002",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "suggest: flat cottage split per person, \u00a320/head shared food kitty for group meals, activities are individual choice. clean and fair",
+          "timestamp": "2025-07-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t003",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh I'm relieved we're finally agreeing this. Lily , does that seem okay?",
+          "timestamp": "2025-07-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t004",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "totally!! and honestly if anyone is worried they can always talk to me. but totally no pressure!!",
+          "timestamp": "2025-07-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t005",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "works for me",
+          "timestamp": "2025-07-T19:15:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e506"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t006",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "agreed on flat split. I'll need \u00a320/head for the Saturday dinner ingredients. that's non-negotiable if you want proper food",
+          "timestamp": "2025-07-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t007",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "sure, whatever works. I'll just say , if someone drops out last minute and we've already paid for their share, splitting that equally feels like a stretch. I won't keep raising it but I wanted it noted",
+          "timestamp": "2025-07-T19:21:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e507"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t008",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually Marcus , we agreed the deposit is the commitment. no one absorbs anyone else's share after that",
+          "timestamp": "2025-07-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t009",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "agree with Nina. policy was set in session 3. deposit covers the commitment",
+          "timestamp": "2025-07-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t010",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "this is fair. I'll book my own train separately to keep options open",
+          "timestamp": "2025-07-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t011",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "building in public: we did a proportional income-based split at a team retreat once. interesting model but maybe too much friction for 15 friends",
+          "timestamp": "2025-07-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t012",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if we had a shared spreadsheet?? I love a tracking document. anyway I'll make one",
+          "timestamp": "2025-07-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t013",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "hi loves!! I'll transfer my share as soon as I'm confirmed. I'm so sorry for being the chaos variable in this group \ud83d\ude05",
+          "timestamp": "2025-07-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t014",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "I'm bringing most of my camping kit so I don't need the activity kitty for the outdoor stuff",
+          "timestamp": "2025-07-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t015",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "confirmed: flat split for cottage, \u00a320/head food kitty, personal choice for activities. everyone on board?",
+          "timestamp": "2025-07-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t016",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "I need to double-check the overnight cover. will confirm Thursday",
+          "timestamp": "2025-07-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t017",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "anyway , are we doing a group playlist for the drive?",
+          "timestamp": "2025-07-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t018",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh yes!! Lily , collaborative playlist?",
+          "timestamp": "2025-07-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t019",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg YES!! brb making one right now!!",
+          "timestamp": "2025-07-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s07_t020",
+          "session_id": "grp_e5f6a7b8_s07",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "perfect!! final headcount confirmation in 2 weeks. thoughts??",
+          "timestamp": "2025-07-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s08",
+      "session_index": 8,
+      "date_label": "Apr 9, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t001",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , pre-trip logistics check-in!! who is doing what on Saturday?? let's get organised!! thoughts??",
+          "timestamp": "2025-08-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t002",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "Saturday dinner: lamb shoulder slow-cooked in za'atar and preserved lemon, roasted roots, flatbread. Priya , I'm using the lamb method from when we made that tagine together at yours. that was the best version I've done",
+          "timestamp": "2025-08-T19:06:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e514"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t003",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "yes!! that day was so good. I'll send you the adjusted spice ratio. the sumac proportion is slightly different from what you had",
+          "timestamp": "2025-08-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t004",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if the plating is also beautiful?? the aesthetic of a dinner this good should match. anyway I'm bringing candles",
+          "timestamp": "2025-08-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t005",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "low-key down for a wild swimming session Saturday morning before breakfast. the lake at the north shore entry near Low Wray is excellent , good entry depth, no swell",
+          "timestamp": "2025-08-T19:15:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e512"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t006",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "what if it was optional and just the smaller group who wants to do it? not everyone will be into cold water at 7am",
+          "timestamp": "2025-08-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t007",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually that sounds incredible. I am absolutely in for the swim",
+          "timestamp": "2025-08-T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t008",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg Nina!! you're so brave!! I'll cheer from the bank with a hot drink \ud83c\udf0a",
+          "timestamp": "2025-08-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t009",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "building in public: I've been cold shower-ing since January. I'm ready \ud83d\ude80",
+          "timestamp": "2025-08-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t010",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "count me in for the swim. anything that gets me off the laptop. anyway",
+          "timestamp": "2025-08-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t011",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "I'll join too. Priya , early start okay with you or would you rather a slow morning?",
+          "timestamp": "2025-08-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t012",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "I'll try the swim. if the overnight cover allows an early start",
+          "timestamp": "2025-08-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t013",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "also , checking dietary needs for Saturday dinner: any restrictions I should know about? the menu is cilantro-free by the way, za'atar and preserved lemon only",
+          "timestamp": "2025-08-T19:39:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e501"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t014",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "I eat anything. just confirm the cost",
+          "timestamp": "2025-08-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t015",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "noted on the menu. confirmed for dinner",
+          "timestamp": "2025-08-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t016",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "I've sorted my shifts!! I AM COMING!! that dinner sounds extraordinary Sam \ud83c\udf89\ud83d\udc9b",
+          "timestamp": "2025-08-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t017",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh so excited!! Sam , thank you for making the food accessible for everyone. you're the best",
+          "timestamp": "2025-08-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t018",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY this is actually happening!! thoughts?? does anyone need anything sorted before Friday??",
+          "timestamp": "2025-08-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t019",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "I think we're good. drive groups: I'll take Tom, Priya, and Alex. Zoe, Becca, Lily , can you sort a second car?",
+          "timestamp": "2025-08-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s08_t020",
+          "session_id": "grp_e5f6a7b8_s08",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "I'm taking the 7am train. camping gear will be set up before anyone arrives",
+          "timestamp": "2025-08-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s09",
+      "session_index": 9,
+      "date_label": "Apr 16, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t001",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , 9 DAYS!! I need a final headcount!! who is confirmed?? thoughts??",
+          "timestamp": "2025-09-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t002",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "I'm in. heads up , I might be a bit quieter than usual this weekend. some things at work I'm recalibrating on. still very much coming though",
+          "timestamp": "2025-09-T19:06:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_e516"
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t003",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg Raj!! are you okay?? you know we're here if you need to talk \ud83d\udc9b",
+          "timestamp": "2025-09-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t004",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "I'm okay. just recalibrating. building in public is harder when things don't go to plan. I'll explain more in person",
+          "timestamp": "2025-09-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t005",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually , that's what trips are for Raj. we've got you",
+          "timestamp": "2025-09-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t006",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "agreed. I'll be there. anyway , anyone have a good audiobook for a long drive?",
+          "timestamp": "2025-09-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t007",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "confirmed. just want to say , genuinely looking forward to seeing everyone in person",
+          "timestamp": "2025-09-T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t008",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "confirmed!! finally sorted the overnight cover. I'm really coming \ud83d\ude0a",
+          "timestamp": "2025-09-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t009",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "confirmed. lamb is sourced. picking up from the Ambleside deli Thursday",
+          "timestamp": "2025-09-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t010",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "confirmed!! I have candles, a vision, and a playlist. we are so ready",
+          "timestamp": "2025-09-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t011",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "confirmed. leaving 8am Friday. Alex, Tom, Priya , you're in my car. I'll send the meeting point",
+          "timestamp": "2025-09-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t012",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "confirmed!! tbh I have been more excited about this than anything in months. Lily!!",
+          "timestamp": "2025-09-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t013",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "I know!!! omg we're actually doing it!!",
+          "timestamp": "2025-09-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t014",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "confirmed. cleared my calendar properly this time",
+          "timestamp": "2025-09-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t015",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "confirmed!! manager approved the time off!! I am COMING \ud83c\udf89",
+          "timestamp": "2025-09-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t016",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "already at Low Wray. campsite booked for Friday and Saturday. anyone wanting to join the outdoor option just let me know",
+          "timestamp": "2025-09-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t017",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "confirmed. bringing a bottle of something decent",
+          "timestamp": "2025-09-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t018",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "I cannot believe this is real!! 9 years of this group and our first actual trip!! thoughts??",
+          "timestamp": "2025-09-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t019",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "wait , is it really 9 years?? tbh I can't process that",
+          "timestamp": "2025-09-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s09_t020",
+          "session_id": "grp_e5f6a7b8_s09",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "nine years. that's something. anyway , see everyone Friday",
+          "timestamp": "2025-09-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_e5f6a7b8_s10",
+      "session_index": 10,
+      "date_label": "Apr 23, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t001",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , I am STILL smiling from that weekend!! let's talk about every single moment!! thoughts??",
+          "timestamp": "2025-10-T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t002",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "that was honestly one of the best weekends of my life. I'm so glad I came. I've been smiling on every shift \ud83d\udc9b",
+          "timestamp": "2025-10-T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t003",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg the Saturday dinner!! SAM!! I was literally in tears. I don't think I've ever eaten that well in my life!!",
+          "timestamp": "2025-10-T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t004",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "glad everyone liked it. the kitchen was great. I'll do it again if there's a next time. Priya , the sumac ratio you sent was exactly right",
+          "timestamp": "2025-10-T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t005",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p15",
+          "speaker_display_name": "Will",
+          "message": "swim crew , we did it. the north entry was perfect conditions. Nina , your face when you hit the water",
+          "timestamp": "2025-10-T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t006",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p10",
+          "speaker_display_name": "Nina",
+          "message": "okay but actually that swim was WORTH every second of cold. I didn't even check my phone for a whole morning. who am I",
+          "timestamp": "2025-10-T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t007",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p04",
+          "speaker_display_name": "Tom",
+          "message": "just want to say , that was exactly what this group needed. Priya I'm so glad the schedule worked out",
+          "timestamp": "2025-10-T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t008",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p03",
+          "speaker_display_name": "Priya",
+          "message": "same. I'm so glad I came. it felt long in the best way possible",
+          "timestamp": "2025-10-T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t009",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "it was really good to be there. I needed the space to just be. I'll update everyone properly soon but , thank you all",
+          "timestamp": "2025-10-T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t010",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p08",
+          "speaker_display_name": "Alex",
+          "message": "I agree with Raj. that trip did something genuinely good. anyway , same time next year?",
+          "timestamp": "2025-10-T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t011",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p02",
+          "speaker_display_name": "Jake",
+          "message": "I'm in for next year. would anyone be open to a smaller sub-group trip before that? fewer logistics, same people",
+          "timestamp": "2025-10-T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t012",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p05",
+          "speaker_display_name": "Zoe",
+          "message": "okay but what if the next one involved a film festival somewhere?? a destination with culture. anyway I'm already dreaming",
+          "timestamp": "2025-10-T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t013",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p06",
+          "speaker_display_name": "Marcus",
+          "message": "the cost split was actually fair. I admit. also the wine was worth it",
+          "timestamp": "2025-10-T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t014",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p14",
+          "speaker_display_name": "Becca",
+          "message": "tbh I can't believe we actually did it. Lily , when can we go again??",
+          "timestamp": "2025-10-T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t015",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p07",
+          "speaker_display_name": "Lily",
+          "message": "omg as soon as possible!! you're all my favourite people!!",
+          "timestamp": "2025-10-T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t016",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p11",
+          "speaker_display_name": "Chris",
+          "message": "good weekend. I'll block time for the next one in advance",
+          "timestamp": "2025-10-T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t017",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p12",
+          "speaker_display_name": "Emma",
+          "message": "please send me dates for the next one at least 4 weeks ahead. sending love from the ICU \ud83d\udc9b",
+          "timestamp": "2025-10-T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t018",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p13",
+          "speaker_display_name": "Raj",
+          "message": "also , startup update coming soon. things are moving again, just differently. watch this space",
+          "timestamp": "2025-10-T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t019",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p09",
+          "speaker_display_name": "Sam",
+          "message": "Priya , I'll send you the full recipe after this. we should do that tagine at mine sometime",
+          "timestamp": "2025-10-T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_e5f6a7b8_s10_t020",
+          "session_id": "grp_e5f6a7b8_s10",
+          "speaker_persona_id": "grp_e5f6a7b8_p01",
+          "speaker_display_name": "Maya",
+          "message": "OKAY hear me out , next trip ideas coming soon!! thank you all for being the absolute best people. I love this group!! thoughts?? \ud83e\udd72",
+          "timestamp": "2025-10-T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    }
+  ],
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_e509",
+      "session_id": "grp_e5f6a7b8_s01",
+      "session_index": 1,
+      "turn_id": "grp_e5f6a7b8_s01_t006"
+    },
+    {
+      "challenge_id": "ch_e504",
+      "session_id": "grp_e5f6a7b8_s01",
+      "session_index": 1,
+      "turn_id": "grp_e5f6a7b8_s01_t007"
+    },
+    {
+      "challenge_id": "ch_e505",
+      "session_id": "grp_e5f6a7b8_s02",
+      "session_index": 2,
+      "turn_id": "grp_e5f6a7b8_s02_t006"
+    },
+    {
+      "challenge_id": "ch_e503",
+      "session_id": "grp_e5f6a7b8_s02",
+      "session_index": 2,
+      "turn_id": "grp_e5f6a7b8_s02_t007"
+    },
+    {
+      "challenge_id": "ch_e511",
+      "session_id": "grp_e5f6a7b8_s02",
+      "session_index": 2,
+      "turn_id": "grp_e5f6a7b8_s02_t009"
+    },
+    {
+      "challenge_id": "ch_e513",
+      "session_id": "grp_e5f6a7b8_s03",
+      "session_index": 3,
+      "turn_id": "grp_e5f6a7b8_s03_t001"
+    },
+    {
+      "challenge_id": "ch_e510",
+      "session_id": "grp_e5f6a7b8_s04",
+      "session_index": 4,
+      "turn_id": "grp_e5f6a7b8_s04_t014"
+    },
+    {
+      "challenge_id": "ch_e502",
+      "session_id": "grp_e5f6a7b8_s05",
+      "session_index": 5,
+      "turn_id": "grp_e5f6a7b8_s05_t007"
+    },
+    {
+      "challenge_id": "ch_e508",
+      "session_id": "grp_e5f6a7b8_s05",
+      "session_index": 5,
+      "turn_id": "grp_e5f6a7b8_s05_t010"
+    },
+    {
+      "challenge_id": "ch_e515",
+      "session_id": "grp_e5f6a7b8_s06",
+      "session_index": 6,
+      "turn_id": "grp_e5f6a7b8_s06_t011"
+    },
+    {
+      "challenge_id": "ch_e506",
+      "session_id": "grp_e5f6a7b8_s07",
+      "session_index": 7,
+      "turn_id": "grp_e5f6a7b8_s07_t005"
+    },
+    {
+      "challenge_id": "ch_e507",
+      "session_id": "grp_e5f6a7b8_s07",
+      "session_index": 7,
+      "turn_id": "grp_e5f6a7b8_s07_t007"
+    },
+    {
+      "challenge_id": "ch_e514",
+      "session_id": "grp_e5f6a7b8_s08",
+      "session_index": 8,
+      "turn_id": "grp_e5f6a7b8_s08_t002"
+    },
+    {
+      "challenge_id": "ch_e512",
+      "session_id": "grp_e5f6a7b8_s08",
+      "session_index": 8,
+      "turn_id": "grp_e5f6a7b8_s08_t005"
+    },
+    {
+      "challenge_id": "ch_e501",
+      "session_id": "grp_e5f6a7b8_s08",
+      "session_index": 8,
+      "turn_id": "grp_e5f6a7b8_s08_t013"
+    },
+    {
+      "challenge_id": "ch_e516",
+      "session_id": "grp_e5f6a7b8_s09",
+      "session_index": 9,
+      "turn_id": "grp_e5f6a7b8_s09_t002"
+    }
+  ]
+}

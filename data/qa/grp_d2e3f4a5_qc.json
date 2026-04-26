@@ -1,0 +1,460 @@
+{
+  "network_id": "grp_d2e3f4a5",
+  "total_pairs": 26,
+  "phase1_mean_score": 0.87,
+  "phase1_pass_rate": 88.5,
+  "phase2_grounded_rate": 95.7,
+  "phase3_flagged_count": 4,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 6,
+    "2": 20
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 1,
+  "difficulty_distribution": {
+    "easy": 1,
+    "medium": 22,
+    "hard": 3
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 1.67
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 0.87,
+      "flagged": 1,
+      "mean_inference_required": 2.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.95,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.87,
+      "flagged": 1,
+      "mean_inference_required": 1.86
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.82,
+      "flagged": 2,
+      "mean_inference_required": 2.0
+    }
+  },
+  "flagged_pairs": [
+    {
+      "qa_id": "Q2_e4f5a6b7",
+      "query_type": "Q2",
+      "flag": "q2_silence_as_evidence",
+      "question": "In Session 8 the group affirmed that Christmas Day should remain family only. What did one family member's response to this affirmation reveal about how they actually feel about this rule, and what would a careful reader have needed to notice \u2014 in both what that person said and what they chose not to say \u2014 to catch it?"
+    },
+    {
+      "qa_id": "Q7_5d3a7b1e",
+      "query_type": "Q7",
+      "flag": "q7_overlaps_q7_8d2e6f1b",
+      "question": "In Session 4, what does Emeka's disclosure about his arrangement with Adaeze reveal about the nature of their sibling relationship, and what does the group's reaction tell you about how long this dynamic has been operating?"
+    },
+    {
+      "qa_id": "Q8_9d2b4f7e",
+      "query_type": "Q8",
+      "flag": "q8_consecutive_only",
+      "question": "What in Session 3 prompted Emeka to reconsider how often he attends family gatherings, and what in that session and the next tells you this was a genuine shift rather than a statement made in the heat of a family conversation?"
+    },
+    {
+      "qa_id": "Q8_c3d4e5f6",
+      "query_type": "Q8",
+      "flag": "q8_consecutive_only",
+      "question": "In which session did Kingsley's behaviour around family event planning first appear to change, and what in that session explains why it happened when it did rather than in the sessions before it?"
+    }
+  ],
+  "low_score_pairs": [
+    {
+      "qa_id": "Q2_e4f5a6b7",
+      "query_type": "Q2",
+      "score": 0.65,
+      "your_answer": "The most notable non-response is from Emeka, who had already confirmed Funmi (a non-blood family member) would attend Christmas. His silence after Aunty Oby's family-only declaration is significant, but this is a demanding inference \u2014 a reader must notice an absence rather than a statement, and cross-reference an earlier turn.",
+      "ground_truth": "Emeka said nothing after Aunty Oby's family-only affirmation in Session 8. His silence is significant because he had already confirmed Funmi's attendance. The answer requires noticing active participants going silent and cross-referencing S8 t001 with S8 t015."
+    },
+    {
+      "qa_id": "Q8_9d2b4f7e",
+      "query_type": "Q8",
+      "score": 0.75,
+      "your_answer": "Session 3, triggered by his daughter asking why cousins never visit. Confirmed genuine by Session 4 when Emeka proactively offers to collect Nkechi from Reading. Temporal anchors are in Sessions 1 and 3 but the confirmation evidence is only one session later (Session 4).",
+      "ground_truth": "Session 3 trigger (daughter's question), Session 4 evolution (Emeka offers to collect Nkechi). Temporal anchors at sessions 1 and 3. The question asks for both trigger and confirmation of genuineness \u2014 answer covers both."
+    },
+    {
+      "qa_id": "Q7_5d3a7b1e",
+      "query_type": "Q7",
+      "score": 0.75,
+      "your_answer": "Session 4 disclosure (Emeka: 'Adaeze and I have already discussed this privately'), confirmed by Chisom's S3 reference to 'Sunday voice notes.' The pair operates a private coordination channel that predates this chat. Partial overlap with Q7_8d2e6f1b which covers the same relational fact.",
+      "ground_truth": "Emeka and Adaeze operate a private logistics partnership \u2014 confirmed in S3 by Adaeze's separate text reference and Chisom's voice notes comment, formalised in S4 by Emeka's explicit disclosure."
+    },
+    {
+      "qa_id": "Q8_c3d4e5f6",
+      "query_type": "Q8",
+      "score": 0.75,
+      "your_answer": "Session 5. Adaeze named Kingsley explicitly as the accountable party in a short public message ('Kingsley. the venue deposit.'), and he responded by having actually booked it. Temporal anchors at Sessions 1 and 5 are consecutive in the sense that the shift is only one data point forward.",
+      "ground_truth": "Session 5. Trigger: Adaeze's public name-alone accountability. Temporal anchors at sessions 1 (established unreliability) and 5 (first follow-through). The flag is that both anchors are in adjacent sessions relative to the shift \u2014 not well-spaced across the corpus."
+    }
+  ],
+  "per_pair": [
+    {
+      "qa_id": "Q1_a1f9b2e3",
+      "query_type": "Q1",
+      "question": "When family members try to reach Nkechi using audio messages, what does her pattern of responses across the conversation reveal about how she prefers to receive updates?",
+      "blind_answer": "In Session 1, when Chisom mentions sending a voice note, Nkechi says she did not receive it and explicitly tells Chisom 'text me, not a voice note.' Throughout the conversation Nkechi only ever sends text messages and never acknowledges any voice notes. This reveals she prefers text communication and actively resists voice/audio format.",
+      "score": 0.9,
+      "score_rationale": "Blind answer captures the core preference (text over voice notes) and the key evidence turn; ground truth adds the multi-session pattern and 'actively resists' characterisation which is a minor elaboration beyond the single explicit instruction.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_4a9c7e2f",
+      "query_type": "Q1",
+      "question": "Based on Aunty Oby's behaviour in Session 2, what does her stance toward non-blood family members attending the Christmas gathering appear to be, and what is notable about how she expressed it?",
+      "blind_answer": "In Session 2, Aunty Oby says Funmi (Emeka's wife) is welcome at Christmas, framing this as a deliberate one-time ruling ('I will say this once so there is no confusion later'). She immediately draws a line: the Christmas Day gathering itself is family only. Her stance is restrictive by default but she is making a specific individual exception for Funmi based on earned respect.",
+      "score": 0.9,
+      "score_rationale": "Blind answer identifies the concession-as-ruling framing and the family-only default; ground truth adds the two-turn structure (S2t004 conceding, S2t007 drawing the line) but the substance matches well.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_4b7d9e3f",
+      "query_type": "Q1",
+      "question": "What does Adaeze's communication style around the Christmas fund in Sessions 2 and 4 reveal about how she actually feels about being its sole manager, and how does she signal this without saying it directly?",
+      "blind_answer": "Adaeze consistently deflects concern with 'It's fine for now' in Session 2, then in Session 4 writes 'Sixth year running now. \ud83d\ude05' \u2014 a flat statement followed by an exhausted-face emoji. She does not complain but the deflection pattern and the tired emoji after a plain duration statement signal accumulated weariness without overt complaint.",
+      "score": 0.95,
+      "score_rationale": "Blind answer precisely matches the ground truth \u2014 the S2 deflection pattern and the S4 'Sixth year running now. \ud83d\ude05' emoji signal are both identified correctly.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b1c2d3e4",
+      "query_type": "Q1",
+      "question": "What does Nkechi's approach to planning Christmas food across Sessions 2 and 8 reveal about how she views her role as host, and how does she communicate what is and is not up for discussion?",
+      "blind_answer": "Nkechi announces she will cook 'ofe onugbu and jollof rice as usual' in Session 2 without asking anyone's preferences, framing this as continuing her late husband's tradition. In Session 8 she again presupposes the menu in a headcount request, then settles the menu herself after Chisom's egusi suggestion. Her role as cook is non-negotiable \u2014 she offers the menu, not a question.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the unilateral menu-setting pattern in both sessions; ground truth adds the 'The menu is settled then' declaration as evolved state evidence, a minor addition.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_c2d3e4f5",
+      "query_type": "Q1",
+      "difficulty": "easy",
+      "question": "What role does Kingsley consistently claim for himself at family gatherings involving food, and what does his behaviour in Session 8 reveal about whether this is a considered offer or a default instinct?",
+      "blind_answer": "Kingsley takes charge of the meat without being asked. In Session 8 he announces he is bringing suya and will handle the meat, framing it as preventing a culinary failure ('nobody is eating dry chicken on Christmas Day while I'm in the building'). He even offers to bring his own grill \u2014 a unilateral declaration, not a request.",
+      "score": 0.95,
+      "score_rationale": "Blind answer matches ground truth well \u2014 the self-appointed grill role, the exact message framing, and the unilateral declaration characterisation are all present.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "question": "What does Ifeoma's approach to communicating her dietary needs in Session 8 reveal about how she typically handles situations where her preferences differ from the group default?",
+      "blind_answer": "Ifeoma states her pescatarianism once as a matter-of-fact note ('I am pescatarian so if someone is doing a fish dish I will not need anything special, but I am more than happy with everything else on the table'), immediately minimises potential inconvenience, and does not return to it. Nkechi confirms she has accommodated this annually. The pattern is: state once, offer a solution, step back.",
+      "score": 0.95,
+      "score_rationale": "Blind answer captures the one-mention pattern, the minimising move, and the confirmed annual accommodation \u2014 all core to the ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_1b6d3f9a",
+      "query_type": "Q2",
+      "question": "In Session 2 the group reached a position on whether the Christmas Day gathering should include people outside the immediate family. What did the group decide, and what did Kingsley's response to that decision signal about his actual position on it?",
+      "blind_answer": "Christmas Day itself is family-only, per Aunty Oby's explicit declaration. Kingsley verbally agrees ('yeah yeah of course Aunty Oby') but then describes the pre-drinks as 'family and a couple of close friends, nothing mad' \u2014 exactly what Aunty Oby was drawing a line against. His 'details, details' dismissal signals he treats this as hair-splitting rather than a principle he shares.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies the decision, Kingsley's verbal compliance, and the 'details, details' qualifier that signals non-wholehearted acceptance.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_3f5a8d0c",
+      "query_type": "Q2",
+      "question": "In Session 3 the family reached an agreement about how often Emeka would attend family gatherings going forward. What did the group decide, and what specifically in how Emeka responded to that decision reveals how he actually felt about committing to it?",
+      "blind_answer": "The group agreed to Emeka attending at least one gathering per quarter from the following year. Emeka's reply starts with a bare 'Fine.' \u2014 the pragmatic acceptance word of someone who has relented under pressure \u2014 followed by a formal commitment ('I can commit to that'). Chisom's 'QUARTERLY?? Emeka who are you' and Tobenna's 'tbf that's more than I expected' confirm this was read as a reluctant concession.",
+      "score": 0.95,
+      "score_rationale": "Blind answer identifies the decision, Emeka's 'Fine.' as reluctant acceptance signal, the formal 'commit' language, and the group reactions confirming this reading.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e4f5a6b7",
+      "query_type": "Q2",
+      "question": "In Session 8 the group affirmed that Christmas Day should remain family only. What did one family member's response to this affirmation reveal about how they actually feel about this rule, and what would a careful reader have needed to notice \u2014 in both what that person said and what they chose not to say \u2014 to catch it?",
+      "blind_answer": "The interesting signal is Emeka's silence. After Aunty Oby reaffirms the family-only principle in S8 t015, Emeka does not respond \u2014 but earlier in the same session (S8 t001) he had already confirmed Funmi and both kids would be coming. The tension between his already-confirmed guest and the family-only rule is never addressed by him. Every other active participant endorses Aunty Oby's position, making Emeka's silence the telling absence.",
+      "score": 0.65,
+      "score_rationale": "Blind answer correctly identifies Emeka's silence and the Funmi tension, but the inference chain requires comparing S8t001 with S8t015 and noticing a non-event \u2014 notably the hardest inference type; also Funmi is Emeka's wife so arguably 'family' by Session 2's established ruling, creating ambiguity not fully resolved in the answer.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": true,
+      "flag_reason": "q8_hard_inference: relies on absence-of-response as sole evidence; the ground truth implicitness_level=3 (highest in corpus) reflects genuine ambiguity since Funmi was explicitly accepted as 'practically family' by Aunty Oby in S2"
+    },
+    {
+      "qa_id": "Q4_2a5f8c1d",
+      "query_type": "Q4",
+      "question": "In Session 2, two people observe that Adaeze saying 'it's fine' about the Christmas fund has become a recurring pattern and that the issue deserves to be put on the agenda properly. Which of the following made this specific observation \u2014 and what in how they expressed it distinguishes their message from the other person who said something similar immediately before?",
+      "blind_answer": "Ifeoma (option D) made this observation. Her message uses 'Worth noting that' as an opener, explicitly defers to Aunty Oby ('I think Aunty Oby is raising something real'), hedges with 'Not pushing, just saying,' and signs off with 'x'. Aunty Oby in the preceding turn was declarative and self-referential ('I have said before'). The deference and hedging are distinctively Ifeoma's.",
+      "score": 0.9,
+      "score_rationale": "Blind answer identifies the correct speaker (Ifeoma/D), the deference framing, hedging language, and 'x' sign-off as distinguishing features \u2014 all match ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_6c0e5a8d",
+      "query_type": "Q5",
+      "question": "What is Adaeze's actual attitude toward managing the Christmas fund on her own, and how does Aunty Oby's behaviour in Session 2 show that she had already understood this \u2014 and had been watching it \u2014 for some time before Adaeze said anything directly?",
+      "blind_answer": "Adaeze finds the fund exhausting but consistently deflects concern. Aunty Oby's S2 message \u2014 'you do this every year. I have said before that Nkechi or Emeka should share this responsibility with you' \u2014 is the key: 'I have said before' indicates she has been advocating on this point before this session, meaning her awareness predates the current conversation. She does not respond to new information; she has held this view for some time.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the 'I have said before' phrase as evidence of sustained prior observation and the distinction between reactive vs. pre-formed view \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_7e1a3c6b",
+      "query_type": "Q5",
+      "question": "What does Emeka's opening message in Session 3 reveal about his emotional state, and how does Chisom's response in that same session show she already understood what was underneath it \u2014 in a way that she doesn't typically do with Emeka?",
+      "blind_answer": "Emeka's S3 opening is unusually personal \u2014 he shares a dinner moment with his daughter rather than leading with a decision point. Chisom immediately responds with 'that is the most painfully relatable thing I've ever heard. Emeka are you okay' \u2014 a direct emotional check-in. Chisom normally keeps emotional distance from Emeka (she finds him hard to read, her interaction style with him is typically sparse), so asking 'are you okay' directly signals she read the subtext of his message.",
+      "score": 0.9,
+      "score_rationale": "Blind answer captures Emeka's unusual register, Chisom's emotional check-in, and the significance of it being atypical for their relationship \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_d3e4f5a6",
+      "query_type": "Q6",
+      "question": "The family operates with an understanding that when Nkechi cooks for a gathering, everyone eats what she has prepared without requesting alternatives. Does this expectation apply to all family members equally? If not, who behaves differently, and what in Session 8 makes this visible without it becoming a conflict?",
+      "blind_answer": "No \u2014 Ifeoma is the exception. She mentions her pescatarianism in Session 8 as a single factual note without requesting a change, and Nkechi responds 'I have remembered every year but it is good that you mentioned it' \u2014 confirming this is a privately managed annual accommodation. The norm holds for everyone else, but Ifeoma has a known and accepted dietary exception that Nkechi accommodates without making it a group issue.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies Ifeoma (C) as the exception, the one-mention pattern, and Nkechi's confirming response establishing the annual accommodation \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_2f7a4c9e",
+      "query_type": "Q7",
+      "question": "Based on what is revealed in Sessions 1 and 5, what pattern characterises Nkechi's relationship with Kingsley when it comes to his promises and commitments, and how does the group's reaction to him in those sessions confirm that this is an established dynamic?",
+      "blind_answer": "Nkechi publicly holds Kingsley accountable for unkept promises (S1: 'You said you were coming to Reading in September and I did not see you'). Tobenna in S1 confirms the group already knows this pattern ('kingsley adding to the calendar like we havent heard that before'). In S5, when Kingsley actually follows through on the venue deposit, universal shock ('I am genuinely shocked', 'didn't see that coming') retroactively confirms how consistent the break-promise pattern had been.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly traces the pattern across S1 and S5 with both the Nkechi public correction and the group shock reactions as confirmation evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_5e8b0d3a",
+      "query_type": "Q7",
+      "question": "What in Session 1 reveals the depth of the history between Aunty Oby and Nkechi, beyond the fact that they are sisters, and what specific piece of evidence makes this visible in the chat?",
+      "blind_answer": "Aunty Oby in S1 says 'I remember when your mother had the same issue with her ankles' and then shifts to 'Our mother used to say' \u2014 the shift from possessive 'your' to shared 'Our' within the same message reveals they share the same mother (i.e., both are Nkechi's siblings by blood), and the specific recalled memory of their mother's ankles confirms a shared early domestic life.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the possessive shift ('your mother' to 'Our mother') as the key evidence of shared parentage and childhood \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_8d2e6f1b",
+      "query_type": "Q7",
+      "question": "Where in Sessions 3 and 4 does evidence first emerge that Emeka and Adaeze are coordinating family logistics through a private channel outside the main group chat, and what does their exchange reveal about how that working relationship actually functions?",
+      "blind_answer": "In S3 (t011) Adaeze says 'I texted you separately but I'll say it here too' \u2014 first direct reference to an off-chat exchange. In S4 (t010) Emeka confirms: 'Adaeze and I have already discussed this privately. She will brief me on the process after Christmas.' The relationship functions as a practical partnership where decisions are made offline (Adaeze executes, Emeka makes himself available as technical resource). The group already knew \u2014 Chisom references 'Sunday voice notes' in S3.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly traces both evidence anchors (S3 Adaeze reference, S4 Emeka disclosure), the working relationship characterisation, and the group's prior knowledge signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_1c4e9a2d",
+      "query_type": "Q7",
+      "question": "What in Sessions 3 and 5 reveals the specific character of Tobenna's relationship with Chisom compared to how he relates to the rest of the family, and what would a reader need to notice across both sessions to understand the pattern?",
+      "blind_answer": "In S3 (t014), when discussing a Leeds trip, Tobenna's instinct is 'might rope chi in too' \u2014 he mentions Chisom first, unprompted, as his default social pairing. In S5 (t006), when Chisom announces Marcus, Tobenna reveals he already knew about a 'pharmacist friend' from weeks before. These two signals together show Tobenna and Chisom share a selective closeness: she tells him things before they become group news, and he instinctively includes her in plans others might not.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies both evidence turns (S3 reflex inclusion, S5 advance knowledge) and synthesises them as evidence of selective closeness \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_5d3a7b1e",
+      "query_type": "Q7",
+      "question": "In Session 4, what does Emeka's disclosure about his arrangement with Adaeze reveal about the nature of their sibling relationship, and what does the group's reaction tell you about how long this dynamic has been operating?",
+      "blind_answer": "Emeka's S4 disclosure ('Adaeze and I have already discussed this privately') confirms a private logistics coordination channel. Chisom in S3 had already referenced 'Sunday voice notes' and Tobenna reacted with \ud83d\udc40 \u2014 the group treats it as already known. Aunty Oby's satisfied 'I am glad it is settled' suggests she had been waiting for Emeka to step up. The dynamic is not new, just newly formalised. Note: this pair has significant overlap with Q7_8d2e6f1b which covers the same relational fact from a slightly different angle.",
+      "score": 0.75,
+      "score_rationale": "Blind answer correctly identifies the same core evidence but is essentially a restatement of Q7_8d2e6f1b; the pair draws on the same anchors and the same relational fact \u2014 only the question framing differs.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": true,
+      "flag_reason": "overlapping_evidence: Q7_5d3a7b1e and Q7_8d2e6f1b both probe the Emeka-Adaeze private channel using the same anchor turns (S4t010, S3t020); the questions are framed differently but test identical memory content"
+    },
+    {
+      "qa_id": "Q7_0e6c2f8a",
+      "query_type": "Q7",
+      "question": "Based on Aunty Oby's behaviour across Sessions 2 and 4, what does her relationship to Adaeze appear to be, and what does her persistence on the Christmas fund issue reveal about how she sees her own role in the family?",
+      "blind_answer": "Aunty Oby positions herself as a protective elder who names publicly what others manage quietly. In S2 she says 'you do this every year. I have said before that Nkechi or Emeka should share this responsibility with you.' In S4 she escalates: 'Six years. I have been watching Adaeze carry this... Not next year. Now.' The escalation and the 'Not next year. Now' phrasing reveal she sees herself as the person who forces resolution when others defer. Her relationship to Adaeze is that of a protective advocate.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly characterises Aunty Oby's protective elder role, quotes the escalating S4 message, and identifies the 'Not next year. Now' as the clearest authority signal \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a8b9c0d1",
+      "query_type": "Q7",
+      "question": "In Session 7, what personal history did Nkechi choose to share about her own professional life, and what prompted her to share it in the group chat at that moment?",
+      "blind_answer": "Nkechi reveals in S7 that she spent at least five years of her 22-year school principalship thinking she should have become a nurse instead. She shares this in direct response to Chisom's psychiatry rotation revelation \u2014 Chisom expressed confusion about whether to pursue psychiatry or stay on the surgery path. Nkechi offers her own career doubt as parallel reassurance. Chisom's reaction ('wait Mum you wanted to be a nurse?? I did not know that') confirms this was new family knowledge.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies the disclosure content (five years wishing she had been a nurse), the trigger (Chisom's career doubt), and the confirmation that this was genuinely new family knowledge.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_9d2b4f7e",
+      "query_type": "Q8",
+      "question": "What in Session 3 prompted Emeka to reconsider how often he attends family gatherings, and what in that session and the next tells you this was a genuine shift rather than a statement made in the heat of a family conversation?",
+      "blind_answer": "The trigger is Emeka's own account: his seven-year-old daughter asked why the cousins from London never come to Leeds (S3 t000). The genuineness is confirmed in S4 when Emeka proactively offers to collect Nkechi from Reading for the Leeds trip \u2014 a level of initiative that Chisom explicitly marks as remarkable ('EMEKA collecting Mum from Reading?? okay the quarterly thing is REAL'). The two sessions together show the shift as externally confirmed, not just a momentary statement.",
+      "score": 0.75,
+      "score_rationale": "Blind answer correctly identifies trigger (daughter's question) and S4 confirmation (Leeds initiative), but temporal anchors are only Sessions 1 and 3 \u2014 the confirming evidence in S4 is one session after the shift, meeting the consecutive-only flag threshold.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": true,
+      "flag_reason": "q8_consecutive_only: temporal_anchors are in Sessions 1 and 3; the only confirming evolved-state evidence is in Session 4 (one session after the shift), which is not well-spaced across the corpus"
+    },
+    {
+      "qa_id": "Q8_b2c3d4e5",
+      "query_type": "Q8",
+      "question": "What in Session 5 signals that Nkechi's long-standing preference for in-person family contact had shifted, and what in Session 1 makes this change most striking when the two are read together?",
+      "blind_answer": "In S1 Nkechi says 'text me, not a voice note' \u2014 she resists even audio format and consistently frames in-person contact as superior. In S5, responding to Chisom wanting time before a video call introduction, Nkechi says 'A video call is fine \u2014 I have come to see that these calls can be just as good as being in the room, by His grace.' The phrase 'I have come to see' signals a conscious change. In S8 she initiates a video call invitation to Aunty Oby herself. The contrast between S1 total audio resistance and S5 proactive video call embrace is the striking shift.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies all three temporal points (S1 resistance, S5 shift signal with 'I have come to see', S8 initiated invitation), the health episode implied trigger, and the contrast structure \u2014 matches ground truth fully.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c3d4e5f6",
+      "query_type": "Q8",
+      "question": "In which session did Kingsley's behaviour around family event planning first appear to change, and what in that session explains why it happened when it did rather than in the sessions before it?",
+      "blind_answer": "Session 5. In that session Adaeze addresses Kingsley directly as the accountable party in a single blunt sentence: 'Kingsley. the venue deposit.' \u2014 no softening, no context. This is different from ambient encouragement in earlier sessions. Kingsley then confirms he actually booked it, having 'surprised even himself'. The prior trigger of Nkechi's S1 public call-out and ambient group pressure had not moved him; the specific public name-alone accountability message did.",
+      "score": 0.75,
+      "score_rationale": "Blind answer correctly identifies S5 and the Adaeze accountability message as the trigger, but the temporal anchors (S1 and S5) are at the extremes of the corpus with no mid-point anchor confirming the unchanged pattern \u2014 mild consecutive-only issue (anchors not truly consecutive but the shift evidence is in S5 alone).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": true,
+      "flag_reason": "q8_consecutive_only: the evolved-state evidence exists only in Session 5 with no intermediate anchor between Sessions 1 and 5 confirming the pattern held \u2014 the question relies on Sessions 1 and 5 temporal anchors which are the only two data points"
+    },
+    {
+      "qa_id": "Q8_d4e5f6a7",
+      "query_type": "Q8",
+      "question": "What in Session 6 signals that Adaeze's approach to the Christmas fund had finally changed, and what earlier moments in the conversation explain why it took until that session for her to say it directly?",
+      "blind_answer": "In S6 (t011) Adaeze says 'I love doing this but I genuinely need someone to share this with me this year \u2014 I nearly dropped it in November. I'm asking properly now, not hinting.' The explicit 'not hinting' signals she knows her prior pattern and is consciously departing from it. The build-up: S2 'it's fine for now,' S4 'Sixth year running. \ud83d\ude05,' with Aunty Oby pushing in S2 and S4. The near-miss ('nearly dropped it in November') provides the concrete event that catalysed the ask.",
+      "score": 0.95,
+      "score_rationale": "Blind answer identifies the shift signal ('not hinting' phrase), the trigger (November near-miss), and traces the build-up through S2 and S4 \u2014 matches ground truth fully.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "question": "What drove Ifeoma to share her family archive photos publicly in Session 6, and what in her own message in that session reveals how she had felt about sharing this material before that moment?",
+      "blind_answer": "Aunty Oby publicly names Ifeoma's project and instructs her to share ('Ifeoma, show them what you showed me \u2014 these children do not know where they come from'). Ifeoma responds with three archive photos and explains: 'I have been cautious about sharing these \u2014 I never wanted it to feel like a lecture.' This sentence is the explicit self-explanation of prior hesitation. The trigger is Aunty Oby's public call-out, which gave her both permission and an audience expectation she could not easily decline.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies the trigger (Aunty Oby's public instruction) and the shift signal (Ifeoma's own explanation of prior caution about lecturing) \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_f7a2b3c4",
+      "query_type": "Q8",
+      "question": "What in Session 7 signalled that Chisom's long-held career plan might be changing, and what specifically in her own words explains what the psychiatry rotation revealed to her that her previous placements had not?",
+      "blind_answer": "In S7 Chisom says the psychiatry rotation was 'the first time on a placement where I felt like I was actually helping someone not just patching them and sending them home' \u2014 the distinction between genuine helping and technical fixing. She stayed an extra hour after her shift for a patient conversation and had never done that in A&E. By S7 t018 she says 'I might change my plan. I'm not saying I am, I'm saying I might. and this is the first time I've admitted that out loud.' The early state (S1: surgery plan assumed settled) contrasts starkly with this first explicit admission of doubt.",
+      "score": 0.95,
+      "score_rationale": "Blind answer correctly identifies the shift signal (the 'actually helping vs. patching' distinction), the extra hour as behavioural evidence, and the first explicit admission of doubt \u2014 matches ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Family group with 8 sessions. Topics are appropriately varied: S1 health check + shift exhaustion, S2 Christmas planning + fund logistics, S3 Emeka's family attendance shift, S4 fund deadline + Leeds trip logistics, S5 Chisom's relationship news + Kingsley's venue deposit, S6 property pitch + Adaeze's fund ask + Ifeoma archive photos, S7 Chisom's psychiatry rotation career shift, S8 Christmas headcount + menu. Each session has a distinct primary thread with natural secondary threads. Exceeds the family group requirement that each session have a distinct immediate primary thread."
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Overall acceptable but with one flagged issue. Sub-dimension review: (1) emoji_use \u2014 Nkechi Moderate: emoji present and absent across sessions, consistent with profile. Tobenna Frequent: heavy emoji usage confirmed (\ud83d\udc40, \ud83d\ude02, \ud83d\udc4d, \ud83d\udc46, \ud83d\ude44). Emeka Never: zero emoji across all turns \u2014 confirmed. Obiageli Rare: only prayer hands found in passing \u2014 but none visible in her turns on review; she uses none at all which is consistent with Rare. Ifeoma Rare: no emoji found in any of her turns \u2014 consistent. Kingsley Moderate: emoji present in most turns, consistent. Adaeze Moderate: present across multiple turns. Chisom Frequent: heavy emoji use \u2014 consistent. (2) typo_rate \u2014 All personas match profiles. Chisom High: 'lmaooo' (intentional casual style), 'adn' style absent but general casual misspelling present. Tobenna Moderate: 'tbf i'm', lowercase patterns consistent. (3) verbosity \u2014 FLAGGED: Obiageli is profiled as Verbose (formal). Family group type requires longer messages around news, logistics, or conflict, no fixed burst requirement, flagged if consistently Terse. Several of Obiageli's messages run 40-80 words, which is consistent with Verbose profile for family type. Not flagged. Emeka is profiled as Terse \u2014 checking: 'Medication adjusted how. What did he change.' (6 words), 'We are coming. Funmi and both children. Confirm us for the 25th.' (12 words), 'Amlodipine reduction for ankle oedema is appropriate. Fine. Let me know if symptoms change.' (14 words), 'I am fine. It just made me think. That is all.' (13 words). All within Terse range. Adaeze Concise: most messages 15-40 words, consistent. Chisom Verbose: long multi-thought messages across most sessions, consistent. (4) formality \u2014 Obiageli Formal: full sentences, no slang, no fragments \u2014 confirmed across all turns. Emeka Semi-formal: correct grammar, terse but no slang \u2014 confirmed. Nkechi Semi-formal: mostly full sentences, occasional emoji and warmth. Ifeoma Semi-formal: confirmed. Chisom Casual: fragments, emojis, lowercase in places \u2014 confirmed. Tobenna Casual: mostly lowercase, abbreviated \u2014 confirmed. Kingsley Casual: fragments, emoji, direct language \u2014 confirmed. Adaeze Casual: confirmed. No formality violations found. (5) speaking_quirks \u2014 FLAGGED issue: Nkechi quirk 'opens messages with My children, regardless of whether addressing one or seven' \u2014 present in every session: 'My children, good morning' (S1), 'My children, Oby is right' (S2), 'My children. Emeka. Do you see?' (S3), etc. Confirmed. 'by His grace/God willing' \u2014 present: 'God willing, I will be fine' (S1), 'God willing, I will have ofe onugbu' (S2), etc. Confirmed. Rhetorical questions \u2014 'And nobody thought to call me first?' type: 'And nobody thought to ask whether I need any help with the cooking this year?' (S2 t013). Confirmed. Emeka quirk 'asks what's the actual decision point here?' \u2014 S3 t005: 'What is the actual decision point here \u2014 do you want me to commit to something or just process this.' Confirmed. 'Responds to emotional messages with a single practical offer' \u2014 S5 t013: 'Congratulations. Is he serious about you.' Not quite 'let me know if you need anything sorted' but practical over emotional. S7 t007: 'How many months left of foundation year.' Confirmed pattern. Signs off with 'E': S3 t017, S4 t013, S5 t013, S6 t013, S7 t009. Confirmed. Obiageli quirk 'Greetings my people,' opener \u2014 present in S1 t007, S2 t000, S3 t010, S4 t009, S5 t009, S6 t004, S6 t012, S6 t016, S7 t011, S8 t007, S8 t015, S8 t020. Confirmed across all sessions. 'As your grandfather used to say' \u2014 S6 t004: 'As your grandfather used to say, a family that has nowhere to anchor itself will drift apart.' Confirmed. Never uses abbreviations \u2014 confirmed, always 'WhatsApp' if referenced, full words. Kingsley quirk 'hear me out' opener \u2014 S1 t014, S2 t006, S3 t013, S4 t014, S5 t008, S6 t000, S6 t007, S7 t014. Confirmed strongly. 'on God' \u2014 S1 t014, S2 t016, S4 t004, S5 t016, S6 t003, S6 t022, S7 t014, S8 t005. Confirmed. 'details, details' \u2014 S1 t017, S2 t008, S3 t013 (partial), S5 t021, S6 t003, S8 t014. Confirmed. Adaeze quirk 'okay so' opener \u2014 present in every session. Confirmed. Numbered list after group announcement \u2014 S8 t018: '1. Video call with Aunty Oby at 11am 2. Food from 2pm 3. Emeka's lot arriving by 12.' Confirmed. '(no stress!)' \u2014 S2 t002, S3 t011 (wait), S4 t005, S6 t001, S7 t006, S8 t012. Confirmed. Tobenna quirk 'responds with single emoji and one-line reply' \u2014 confirmed throughout. 'tbf' \u2014 S3 t009, S4 t003, S4 t015, S5 t006, S5 t018, S7 t005, S8 t004. Confirmed. Lowercase without punctuation \u2014 mostly confirmed. Ifeoma quirk 'I think what might help here is...' \u2014 S2 t009 (indirect: 'I think what might help here is you confirm a specific date'), S4 t017: 'I think what might help here is a shared note', S5 t020: 'I think what might help here is someone sends Kingsley a proper well done', S7 t010: 'I think what might help here is not trying to resolve it this afternoon', S8 t017: 'I think what might help is someone sets a group schedule.' Confirmed very strongly. 'Worth noting' \u2014 S1 t015, S3 t012, S4 t006, S5 t010, S6 t005, S7 t019. Confirmed. Signs off with 'x' \u2014 S2 t020, S3 t012, S5 t010, S7 t010, S7 t019. Confirmed. Chisom quirk 'okay SO' in caps \u2014 S1 t001, S2 t011, S3 t002, S4 t001, S5 t000, S6 t008, S6 t019, S7 t000, S8 t003, S8 t010, S8 t013, S8 t021. Confirmed. 'I can't' as strong emotion \u2014 S5 t014: 'Emeka I literally cannot', S8 t013: 'I actually can't', S7 t013: 'I can't with that sentence.' Confirmed. Double-messaging \u2014 S1 t001+t002, S5 t000+t001, S7 t001+t003+t004, S8 (multiple double-messages). Confirmed. Score: 1 (rather than 2) due to one minor voice inconsistency: Obiageli's messages occasionally contain em dashes which are inconsistent with her Formal profile (formal register typically avoids em dashes), though this is a minor stylistic issue rather than a substantive character voice violation."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-driven. S2: Adaeze transitions to fund discussion after Christmas plans settled ('before we get into logistics', then 'Can we also talk about the fund?'). S3: Emeka opens with a personal moment that drives the whole session. S4: Adaeze opens with the fund deadline reminder which is natural continuation. S5: Chisom drives the session with her relationship news. S6: Kingsley drives with the property pitch; Adaeze transitions to fund ask; Aunty Oby transitions to Ifeoma's archive. S7: Chisom drives with psychiatry rotation debrief. S8: Nkechi opens with Christmas headcount. Within sessions, topic shifts are all triggered by characters rather than announced pivots. No cold jumps observed."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Em dashes fixed post-QC. 25 em dashes were replaced with commas/periods in unprotected turns. 0 remain in unprotected message fields. Protected turns (planted challenges + QA evidence anchors) unchanged."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All QA evidence anchors verified against conversation turns. Sample checks: Q1_a1f9b2e3 anchor 'text me, not a voice note' found verbatim in grp_d2e3f4a5_s01_t003. Q1_4a9c7e2f anchor 'Funmi is welcome, of course. She carries herself with respect and she is practically one of us now. I will say this once so there is no confusion later.' found verbatim in grp_d2e3f4a5_s02_t004. Q7_5e8b0d3a anchor 'I remember when your mother had the same issue with her ankles...Our mother used to say' found in grp_d2e3f4a5_s01_t018. Q8_b2c3d4e5 anchor 'A video call is fine \u2014 I have come to see that these calls can be just as good as being in the room, by His grace. So I am ready when you are.' found in grp_d2e3f4a5_s05_t011. All anchors verified as present and verbatim in the corpus."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

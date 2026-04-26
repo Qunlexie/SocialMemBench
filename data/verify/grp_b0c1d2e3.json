@@ -1,0 +1,31 @@
+{
+  "network_id": "grp_b0c1d2e3",
+  "verified_at": "2026-04-23T14:41:25.247059Z",
+  "result": "PASS",
+  "sessions": 8,
+  "total_turns": 168,
+  "planted_challenges": 31,
+  "challenge_type_counts": {
+    "implicit_preference": 2,
+    "relational_graph": 5,
+    "temporal_shift": 9,
+    "false_attribution_seed": 5,
+    "theory_of_mind": 3,
+    "consensus_trap": 4,
+    "relational_disclosure": 3
+  },
+  "all_ids_unique": true,
+  "all_persona_ids_valid": true,
+  "invalid_persona_refs": [],
+  "no_em_dashes": true,
+  "required_temporal_shifts_present": {
+    "p_b0c10004_equipment_s5": true,
+    "p_b0c10009_dark_sky_s5": true,
+    "p_b0c10005_site_s6": true,
+    "p_b0c10007_filter_s7": true
+  },
+  "warnings": [
+    "9 evidence_spans exceed 200 chars (inherited from part1 or verbose challenge text); not structurally blocking",
+    "Verbose persona long-message check threshold 60w; all 4 verbose personas have 80-150w messages confirmed in S5-S8"
+  ]
+}

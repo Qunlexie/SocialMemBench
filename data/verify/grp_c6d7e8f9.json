@@ -1,0 +1,24 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "verified_at": "2026-04-23T04:23:00.061100Z",
+  "overall_pass": true,
+  "stage1": {
+    "pass": true,
+    "checks": 11,
+    "failures": 0
+  },
+  "stage2": {
+    "pass": true,
+    "checks": 24,
+    "failures": 0
+  },
+  "stage3": {
+    "pass": null,
+    "skipped": true
+  },
+  "failure_details": [],
+  "warnings": [
+    "[S2 WARN] Session 3 has 26 turns (>25)",
+    "[S2 WARN] Session 4 has 29 turns (>25)"
+  ]
+}

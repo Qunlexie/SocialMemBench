@@ -1,0 +1,265 @@
+{
+  "network_id": "grp_a3b4c5d6",
+  "total_pairs": 18,
+  "phase1_mean_score": 0.989,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {"0": 0, "1": 12, "2": 6},
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {"easy": 3, "medium": 13, "hard": 2},
+  "by_query_type": {
+    "Q1": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
+    "Q2": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
+    "Q4": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
+    "Q5": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
+    "Q7": {"count": 4, "mean_score": 0.975, "flagged": 0, "mean_inference_required": 1.25},
+    "Q8": {"count": 7, "mean_score": 0.986, "flagged": 0, "mean_inference_required": 1.57}
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q7_a3b4c601",
+      "query_type": "Q7",
+      "question": "What does Nora's Session 1 message reveal about how Bex first came to be part of the collective?",
+      "blind_answer": "Nora explains Bex joined through an open workshop Nora ran at the arts centre, arriving as a public participant with a contact sheet from a disposable camera that impressed Nora.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both answers identify the open public workshop as the connection origin and the contact sheet as the merit signal.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a3b4c602",
+      "query_type": "Q4",
+      "question": "In Session 1, who expressed the view that the value of a photography session lies in intentionality rather than the number of exposures made?",
+      "blind_answer": "Yuki expressed this view — 'My read on this is that the value of a session is rarely in the roll count. One considered frame outweighs twenty automatic ones.' Priya uses related restraint language but about compositional geometry, not exposure quantity.",
+      "score": 1.0,
+      "score_rationale": "Exact match — Yuki's statement is clearly distinct from Priya's by its roll-count framing vs. compositional geometry; voice signature 'My read on this is' identifies Yuki.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a3b4c603",
+      "query_type": "Q1",
+      "question": "What does Otto's response to Bex in Session 1 suggest about his view of how the group chat should be used?",
+      "blind_answer": "Otto says 'this chat is for members' own work, in my experience' and that 'external images tend to pull focus from what we are actually producing.' He positions this as personal principle and observed group practice rather than a rule.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify Otto's position that the chat should be for members' original work, framed as personal principle via 'in my experience' rather than explicit rule.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a3b4c604",
+      "query_type": "Q1",
+      "question": "What does Nora's Session 2 opening message suggest about how she values process precision in the darkroom?",
+      "blind_answer": "Nora opens with a reminder to run full fix times, citing a past short-fixed print that affected archival stability. The unprompted citation of consequences reveals her standard is archival quality, not procedural compliance.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify the archival quality standard and the unprompted failure-citation as evidence of personal principle beyond procedural housekeeping.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a3b4c605",
+      "query_type": "Q5",
+      "question": "What is Otto's position on scanning prints for critique sessions, and what in Callum's Session 2 message shows Callum already knew this before Otto had spoken in that thread?",
+      "blind_answer": "Otto opposes scanning — 'the print is the work' and tonal range doesn't survive digitisation. Callum reveals prior knowledge when he says 'Otto will have thoughts on the scanning part I imagine' before Otto speaks, presenting the objection as a predictable known position.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify Callum's prediction as the observable prior-knowledge signal and Otto's subsequent objection as confirmation.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_a3b4c606",
+      "query_type": "Q2",
+      "question": "The group moved toward a scan-sharing arrangement in Session 2 so absent members could participate in critiques. What did one member's response in that moment reveal about their actual position, and what specifically in how they responded tells you that?",
+      "blind_answer": "Margot responded with 'I see.' — two words, no affirmation, no practical engagement. While others actively endorsed the plan, Margot's response is acknowledgment-only. The absence of endorsement in a context where others visibly approved is the dissent signal.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify Margot's 'I see.' as the minimal non-endorsement signal and contrast it with other members' active participation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c607",
+      "query_type": "Q8",
+      "question": "What explains Callum's comment in Session 3 about choosing the collective darkroom over his flat, and what in the conversation shows his earlier habit was different?",
+      "blind_answer": "Session 2 shows home processing as Callum's default ('still on the homebrew Rodinal split'). Session 3 he chose the collective darkroom and cited the December fumes incident as the cause. The earlier habit is named explicitly: 'setting up at mine like I sometimes do.'",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify the home-processing baseline, the fumes incident as trigger, and the explicit naming of prior habit in Session 3.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a3b4c608",
+      "query_type": "Q7",
+      "question": "What does Fen's response to Callum's housing documentary pitch in Session 3 reveal about their working relationship?",
+      "blind_answer": "Fen says 'if you actually go through with it, I'm in' — mild skepticism about follow-through combined with immediate commitment if the project happens, suggesting established prior working history that lets Fen calibrate both the risk and the upside.",
+      "score": 0.9,
+      "score_rationale": "Strong match — both identify the skepticism-plus-commitment combination as the evidence of prior working history; minor difference in framing depth.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a3b4c609",
+      "query_type": "Q1",
+      "question": "What does Sol's question about the street brief in Session 3 reveal about how they prefer to approach a photography session?",
+      "blind_answer": "Sol says 'lowkey not sure themed shoots are really my thing. highkey I just want to see what happens without a brief.' The 'no offence' closing acknowledges the preference diverges from the collective norm. Sol prefers unstructured, open sessions.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify the preference for unstructured sessions and the 'no offence' as the signal of genuine divergence from collective norms.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a3b4c610",
+      "query_type": "Q5",
+      "question": "What does Priya's approach to print sizing suggest about her working preferences, and what in Nora's Session 3 opening message shows she already knew this before the session began?",
+      "blind_answer": "Priya works with large-format prints. Nora pre-booked the large easel 'as usual' before Priya arrived, saying 'She will want the full size for those frames' — proactive accommodation based on prior knowledge, not a first-time observation.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify 'as usual' as the standing-preference marker and Nora's proactive action as prior-knowledge evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c611",
+      "query_type": "Q8",
+      "question": "What drove Sol to change how they present work to the group, and what in the conversation first signals that something about the earlier approach wasn't working?",
+      "blind_answer": "Sessions 1–2: Sol presented experimental work bare with no framing. Session 3: Sol names 'the critique last month where everyone got stuck' as the trigger. Session 4: Sol brings written statements per print 'this time' — marking it as new behaviour.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify the failed critique as the named trigger, the bare-presentation baseline, and the written-statements shift in Session 4.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c612",
+      "query_type": "Q8",
+      "question": "What does Nora's Session 4 message reveal about how her view of lo-fi photographic processes changed, and what caused it?",
+      "blind_answer": "Nora says she 'had been sceptical of lo-fi processes when they read as shortcuts rather than choices' and that 'I have had to revise that.' The trigger: 'The context Sol provided last session made the difference' — Sol's verbal explanation of intent changed her evaluation.",
+      "score": 1.0,
+      "score_rationale": "Exact match — prior position, shift, and trigger all stated explicitly in one message; blind answer and ground truth are structurally identical.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c613",
+      "query_type": "Q8",
+      "question": "What does Yuki's reaction to Margot's prints in Session 4 reveal about the expectations Yuki had brought to colour photography before that session, and what appears to have shifted?",
+      "blind_answer": "Yuki says 'The palette has a restraint I had not expected from colour work' — the phrase 'had not expected' reveals prior lower expectations. Session 1 establishes Yuki's restraint standard. Margot's colour work exceeded it, and Yuki acknowledges colour can meet the standard when film choice is deliberate.",
+      "score": 0.9,
+      "score_rationale": "Strong match — both identify 'had not expected' as the prior-expectation signal and Session 1's restraint standard as the baseline; minor difference in inference depth described.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a3b4c614",
+      "query_type": "Q7",
+      "question": "What does Nora's Session 4 message about the Canonet reveal about the nature of her relationship with Bex before Bex became a full collective member?",
+      "blind_answer": "Nora recalls lending Bex the Canonet and getting six keepers on one roll, then says 'I knew you would buy your own the following week.' The confident prediction and specific memory of the camera model and keeper count indicate sustained mentorship, not passing observation.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify the predictive confidence and memory specificity as evidence of sustained mentorship before formal membership.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c615",
+      "query_type": "Q8",
+      "question": "What in Otto's Session 5 message signals that his assessment of the group's colour darkroom work shifted, and what in Session 4 shows what his baseline had been before?",
+      "blind_answer": "Session 4: Otto says colour work 'holds, which is not a given' — implying prior failures set a low baseline. Session 5: Otto opens 'I want to say something carefully' before calling Yuki's work 'the most controlled colour darkroom work I have seen from this group.' The hedge marks the departure from normal register.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify 'not a given' as the low-baseline signal and the hedge 'I want to say something carefully' as the shift marker.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c616",
+      "query_type": "Q8",
+      "question": "What drove Priya to change how she treats figures in her photography, and what does her Session 5 message reveal about both her old approach and the trigger?",
+      "blind_answer": "Priya says 'I've always thought of figures as compositional interruptions. The work Fen showed last session changed that.' Session 5 she brings a roll treating figures as structural elements. Old approach and trigger are both stated explicitly.",
+      "score": 1.0,
+      "score_rationale": "Exact match — prior position, trigger, and evolved state are all named by Priya in a single message; blind answer and ground truth are structurally identical.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a3b4c617",
+      "query_type": "Q8",
+      "question": "What drove Margot to accept digital scanning between Sessions 2 and 6, and what in each session shows where she stood?",
+      "blind_answer": "Session 2: Margot responds 'I see.' — no endorsement. Session 6: Margot says 'I suppose that is different from scanning as a general practice. It serves a purpose here.' Trigger: Nora framed scanning as the only inclusion mechanism for absent members. Margot accepts the situational argument while maintaining underlying opposition to scanning as standard practice.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify Session 2 minimal dissent, Session 6 conditional acceptance, and Nora's situational framing as the trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a3b4c618",
+      "query_type": "Q7",
+      "question": "What does Fen's Session 7 message about the housing story project reveal about how Fen and Callum work together creatively?",
+      "blind_answer": "Fen describes the project as 'the strongest editorial work I've done since leaving full-time staff' and says 'it needed a second perspective to exist at all.' This frames Callum's involvement not as support but as a necessary condition — the work could not have become what it became without the collaboration.",
+      "score": 1.0,
+      "score_rationale": "Exact match — both identify 'needed a second perspective to exist at all' as the creative-dependency framing, not mutual support.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "interest_community: photography anchors all 8 sessions with natural variation — S1 critique/sharing norms, S2 scanning debate, S3 street brief planning, S4 critique session, S5 colour darkroom, S6 membership/logistics, S7 external publication, S8 exhibition planning. Primary domain consistent; natural digressions (Sol's brief resistance, Sol's housing project) emerge character-driven."
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Most personas clearly realized. Nora (Concise/Never emoji): short opener reminders, procedural precision, no emoji. Yuki (Terse/Never emoji): 'My read on this is', minimal message length, formal. Otto (Verbose/Never emoji): long explanatory messages, teaching register, no emoji — max messages reach ~48 words, below the 80-150 word interest_community burst threshold; minor issue but does not block. Bex (Verbose/Frequent emoji): expressive and emoji-heavy. Sol (Verbose/Frequent emoji): 'lowkey/highkey', emoji, question clusters. Callum (Concise/Moderate emoji): casual, references, practical. Priya (Semi-formal/Never emoji): geometric framing, no emoji. Margot (Terse/Never emoji): one-liners, 'I see.', formal. Fen (Concise/Rare emoji): wry, economical. Verbose burst gap (Otto, Bex, Sol) is the only minor issue — all five sub-dimensions otherwise clear."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts triggered by characters: Bex's external image prompts Otto's chat-use principle; Sol's brief question pivots the street session thread; Callum's housing pitch emerges organically; Priya's figure-reframe arrives from Fen's prior work. No cold topic jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes found in any message field across all 8 sessions."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 18 evidence anchor excerpts verified verbatim against corpus: Nora S1t010, Yuki S1t014, Otto S1t012, Nora S2t001, Callum S2t006+Otto S2t009, Margot S2t010, Callum S2t003+S3t009, Fen S3t015, Sol S3t016, Nora S3t001, Sol S1t004+S3t007+S4t007, Nora S4t005, Yuki S1t014+S4t011, Nora S4t009, Otto S4t012+S5t004, Priya S1t009+S5t010, Margot S2t010+S6t004, Fen S3t015+S7t003. All match."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

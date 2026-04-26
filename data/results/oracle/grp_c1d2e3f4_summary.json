@@ -1,0 +1,23 @@
+{
+  "network_id": "grp_c1d2e3f4",
+  "condition": "oracle",
+  "evaluated_at": "2026-04-23T00:00:00",
+  "total_pairs": 25,
+  "mean_score": 0.988,
+  "by_query_type": {
+    "Q1": {"count": 4, "mean_score": 0.975},
+    "Q2": {"count": 2, "mean_score": 1.0},
+    "Q3": {"count": 0, "mean_score": null},
+    "Q4": {"count": 4, "mean_score": 1.0},
+    "Q5": {"count": 3, "mean_score": 1.0},
+    "Q6": {"count": 0, "mean_score": null},
+    "Q7": {"count": 7, "mean_score": 1.0},
+    "Q8": {"count": 5, "mean_score": 0.96}
+  },
+  "by_difficulty": {
+    "easy":   {"count": 1, "mean_score": 1.0},
+    "medium": {"count": 17, "mean_score": 0.994},
+    "hard":   {"count": 7, "mean_score": 0.971}
+  },
+  "low_scoring": []
+}

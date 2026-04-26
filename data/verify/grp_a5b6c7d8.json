@@ -1,0 +1,31 @@
+{
+  "network_id": "grp_a5b6c7d8",
+  "verified_at": "2026-04-24T00:00:00Z",
+  "stage": "stage2",
+  "overall_pass": true,
+  "stage1_pass": null,
+  "stage2_pass": true,
+  "stage3_pass": null,
+  "failure_count": 0,
+  "warning_count": 2,
+  "checks": {
+    "sessions_present": {"pass": true, "detail": "12 sessions found"},
+    "turn_count_per_session": {"pass": true, "detail": "All sessions 20-23 turns, within 10-25 range"},
+    "message_format": {"pass": true, "detail": "Sampled turns match expected format"},
+    "no_out_of_character_narration": {"pass": true, "warnings": ["s02_t019 Elena message begins with 'theory_of_mind:' generation artifact prefix -- quality warning but not standard narration pattern"]},
+    "planted_challenges_exist": {"pass": true, "detail": "36 planted challenges in index"},
+    "planted_challenge_field_completeness": {"pass": true, "detail": "All required fields present on all challenges"},
+    "challenge_type_variety": {"pass": true, "detail": "7 distinct types: relational_graph, implicit_preference, false_attribution_seed, theory_of_mind, temporal_shift, relational_disclosure, consensus_trap"},
+    "speaker_coverage": {"pass": true, "detail": "All 9 personas appear as speakers across sessions"},
+    "temporal_shift_present": {"pass": true, "detail": "11 temporal_shift challenges found"},
+    "evidence_spans_non_empty": {"pass": true, "detail": "All 36 evidence spans non-empty"},
+    "evidence_span_verbatim": {"pass": true, "sampled": ["ch_b2c3d4e5 s01_t005", "ch_f8a9b0c1 s04_t003", "ch_b4c5d6e7 s03_t003"], "detail": "All 3 sampled spans found verbatim in corresponding turns"},
+    "timestamp_label_consistency": {"pass": true, "warnings": ["s03_t007: timestamp field '2025-10-05T15:01:00' does not match label '4:01pm' (should be 16:01). Label is correct; timestamp field has a typo."], "sampled": ["s01_t000 Sep21 10am", "s02_t000 Sep28 2:30pm", "s03_t001 Oct5 3:47pm", "s06_t007 Oct26 3:00pm", "s09_t000 Nov16 3:00pm"]},
+    "day_of_week_accuracy": {"pass": true, "detail": "All session date_labels checked -- Sep 21/28, Oct 5/12/19/26, Nov 2/9/16/23/30, Dec 7 are all Sundays as labeled"},
+    "session_date_continuity": {"pass": true, "detail": "12 sessions strictly increasing from 2025-09-21 to 2025-12-07 at weekly intervals"},
+    "message_length_ceiling": {"pass": true, "detail": "No message exceeds 600 characters; longest messages are Tomas/Kwame multi-sentence responses well under limit"},
+    "topic_variation": {"pass": true, "detail": "Recreational group; distinct immediate concerns per session (route debate, hike debrief, overnight planning, injury response, PR celebration) while trail domain persists; side threads include podcast audio, cost tracking"},
+    "verbosity_realized": {"pass": true, "detail": "Tomas (Verbose) consistently longer messages; Nadia (Terse) single-sentence replies; Kwame (Verbose) enthusiastic multi-sentence; Marcus (Concise) short factual replies; Bridget (Concise) bullet-point format"},
+    "no_em_dashes": {"pass": true, "detail": "All dashes are double-hyphen '--'; no em-dash '\\u2014' found in messages"}
+  }
+}

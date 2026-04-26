@@ -1,0 +1,1738 @@
+{
+  "network_id": "grp_c3d4e5f6",
+  "group_name": "Maple Heights Residents",
+  "group_type": "acquaintance_network",
+  "n_sessions": 8,
+  "sessions": [
+    {
+      "session_id": "grp_c3d4e5f6_s01",
+      "session_index": 1,
+      "date_label": "Jan 7, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t001",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "FYI all, new keycard entry system goes live this weekend. Maintenance will swap out the front door lock Saturday morning. Your existing fob will still work for the elevator.",
+          "timestamp": "2025-01-07T18:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t002",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "Oh good! The old lock has been sticking for months. Thanks for the update \ud83d\udc4d",
+          "timestamp": "2025-01-07T18:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t003",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, my kids will probably buzz the door a dozen times before they figure out the card lol \ud83d\ude02 thanks Marcus!",
+          "timestamp": "2025-01-07T18:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t004",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "lol solid. will the gym door get the new system too or just front?",
+          "timestamp": "2025-01-07T18:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t005",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Front entrance and laundry room for now. Gym and mail room in phase 2. \u2013 Marcus",
+          "timestamp": "2025-01-07T18:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t006",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "For the record: the current lock has been broken for six weeks. Not ideal timing on the upgrade.",
+          "timestamp": "2025-01-07T18:40:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t007",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Yes!! Finally. You know what would make this even better? A coffee machine in the lobby for when you forget your card. Love this for the building \ud83d\ude04",
+          "timestamp": "2025-01-07T18:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t008",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "fine by me. though I still say a regular key never needed a battery",
+          "timestamp": "2025-01-07T18:44:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t009",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "noted! \ud83d\udc4d",
+          "timestamp": "2025-01-07T18:46:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t010",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Copy that. Will the system work if the building loses power?",
+          "timestamp": "2025-01-07T18:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t011",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Yes, backup power for the entry system. Already tested. \u2013 Marcus",
+          "timestamp": "2025-01-07T18:50:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t012",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, also are we still doing the holiday decoration swap in the lobby? I have a box of winter stuff I can contribute \ud83c\udf81",
+          "timestamp": "2025-01-07T18:52:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t013",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "noted",
+          "timestamp": "2025-01-07T18:55:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t014",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo anyone else excited to tap in like we're at a subway station lol \ud83d\ude04",
+          "timestamp": "2025-01-07T18:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t015",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "When you're home all day you notice these things, the old key also rattled. Could be worse.",
+          "timestamp": "2025-01-07T18:59:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t016",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "back when this place had a real key there was nothing to lose power. but fine.",
+          "timestamp": "2025-01-07T19:01:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c301"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t017",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Dan I get it! Change is hard. But trust me once you're in the building without fishing for keys you'll love it \u2615",
+          "timestamp": "2025-01-07T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t018",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "Marcus, yes that works for me. I will be home Saturday if they need access to anything.",
+          "timestamp": "2025-01-07T19:06:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c312"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t019",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Thanks Ruth, no access needed, it's just the front door hardware. sorted.",
+          "timestamp": "2025-01-07T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s01_t020",
+          "session_id": "grp_c3d4e5f6_s01",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "great! let us know if anything else, thanks Marcus \ud83d\ude0a",
+          "timestamp": "2025-01-07T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s02",
+      "session_index": 2,
+      "date_label": "Jan 14, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t001",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "FYI all, there was a package theft from the lobby yesterday afternoon. If you're expecting a delivery, pick it up as soon as you can. \u2013 Marcus",
+          "timestamp": "2025-01-14T19:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t002",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, oh no! which unit? can we set up an alert system or something? \ud83d\ude1f",
+          "timestamp": "2025-01-14T19:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t003",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Not ideal. For the record: this is the third time in six months.",
+          "timestamp": "2025-01-14T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t004",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Ground floor near the mailboxes. We're looking at adding a camera. Will update. \u2013 Marcus",
+          "timestamp": "2025-01-14T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t005",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "is it just me or should we do a sign-in sheet for packages? \ud83d\udc4d",
+          "timestamp": "2025-01-14T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t006",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Would appreciate if people could text the group when they see a delivery for someone. Faster than waiting for pickup.",
+          "timestamp": "2025-01-14T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t007",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo solid idea Sandra. also ngl I heard some people prop the front door open which prob doesn't help",
+          "timestamp": "2025-01-14T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t008",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "I can keep an eye on deliveries from the cafe if they're near the entrance! Happy to store them if needed. Love this for the building \ud83d\ude0a",
+          "timestamp": "2025-01-14T19:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t009",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "fine by me on the camera. about time.",
+          "timestamp": "2025-01-14T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t010",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "Amir that is so kind! \ud83d\ude4f also totally different topic but, should we do a little building BBQ before it gets cold? like this Saturday? \ud83c\udf2d",
+          "timestamp": "2025-01-14T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t011",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "love this idea! I'm free Saturday afternoon \ud83d\udc4d",
+          "timestamp": "2025-01-14T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t012",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "re: the package theft from last week, yes a camera is a good idea. Carmen, yes a BBQ sounds lovely.",
+          "timestamp": "2025-01-14T19:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t013",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Saturday works. Not opposed to free food.",
+          "timestamp": "2025-01-14T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t014",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "I can come for a bit, I'm on nights that weekend but free in the afternoon. Sandra",
+          "timestamp": "2025-01-14T19:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t015",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "YES!! BBQ!! We could do it in the courtyard. Or, idea, what if we do a cookout and everyone finishes at the cafe for dessert? Love that for us \ud83c\udf89",
+          "timestamp": "2025-01-14T19:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t016",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "omg Amir yes!! totally open to that! Marcus is that okay for the courtyard? \ud83d\ude0a",
+          "timestamp": "2025-01-14T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t017",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Courtyard BBQ is fine, I'll unlock the gate. Bring your own chairs if you have them. \u2013 Marcus",
+          "timestamp": "2025-01-14T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t018",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "I can bring a folding table.",
+          "timestamp": "2025-01-14T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t019",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "sounds good \ud83d\udc4d",
+          "timestamp": "2025-01-14T19:36:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c303"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s02_t020",
+          "session_id": "grp_c3d4e5f6_s02",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "\ud83d\udc4d",
+          "timestamp": "2025-01-14T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s03",
+      "session_index": 3,
+      "date_label": "Jan 21, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t001",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Hi, I am locked out of the building. I think my keycard stopped working. I am outside now.",
+          "timestamp": "2025-01-21T17:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t002",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Coming down now. FYI this is a known issue with batch 2 cards, we're replacing them. \u2013 Marcus",
+          "timestamp": "2025-01-21T17:47:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t003",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, Yuki are you okay?? it's so cold out! \ud83d\ude1f",
+          "timestamp": "2025-01-21T17:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t004",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Yuki! Come to the cafe door, I'll let you in from this side right now! Come around \ud83d\ude0a",
+          "timestamp": "2025-01-21T17:49:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t005",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "For the record: this is the third defective card reported this week. Not ideal.",
+          "timestamp": "2025-01-21T17:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t006",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Thank you, appreciated. Amir I am on my way.",
+          "timestamp": "2025-01-21T17:52:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t007",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Sorted. Yuki has a replacement card. Batch 2 fobs were defective, everyone from 4th floor, check your card works and DM me if not. \u2013 Marcus",
+          "timestamp": "2025-01-21T17:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t008",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "thanks for the fast response everyone! is it just me or should we have a backup entry contact on the door? \ud83d\udc4d",
+          "timestamp": "2025-01-21T17:59:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t009",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "also Marcus, that package that went missing last month. police called me back. turns out the guy lives two blocks over. got it back.",
+          "timestamp": "2025-01-21T18:01:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t010",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "oh my gosh Dan!! that is such a relief \ud83d\ude2d\ud83d\ude4f",
+          "timestamp": "2025-01-21T18:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t011",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Dan!! See, the group chat works! Love this for us \ud83c\udf89 First round of coffee on me for everyone who helped Dan track it down!",
+          "timestamp": "2025-01-21T18:05:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t012",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Glad it worked out. The camera would still be a good idea.",
+          "timestamp": "2025-01-21T18:07:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t013",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "lol Dan that's wild. solid outcome tho \ud83d\ude4c",
+          "timestamp": "2025-01-21T18:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t014",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "yeah. useful thing, this chat.",
+          "timestamp": "2025-01-21T18:11:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c309"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t015",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Good news Dan. Copy that on the card issue, mine works fine, I'm on 3rd. Sandra",
+          "timestamp": "2025-01-21T18:13:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t016",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Thank you all. The fast response was very helpful. I appreciate it.",
+          "timestamp": "2025-01-21T18:15:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c310"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t017",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "Marcus, yes I will check my card today. About the package, glad that worked out, Dan.",
+          "timestamp": "2025-01-21T18:17:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t018",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "Yuki glad you got in ok! and Dan so glad it worked out \ud83d\ude0a this group is great \ud83d\udc95",
+          "timestamp": "2025-01-21T18:19:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t019",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Lobby camera is approved, installation next week. \u2013 Marcus",
+          "timestamp": "2025-01-21T18:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s03_t020",
+          "session_id": "grp_c3d4e5f6_s03",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "great news! noted \ud83d\udc4d",
+          "timestamp": "2025-01-21T18:23:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s04",
+      "session_index": 4,
+      "date_label": "Jan 28, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t001",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, so I was thinking for the lobby we could put up some holiday decorations? I have tinsel, a wreath, little lights. would make it so cozy for everyone \ud83c\udf84",
+          "timestamp": "2025-01-28T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t002",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "oh I love this idea! I can bring some fairy lights \ud83c\udf1f is it just me or does the lobby feel a bit bare?",
+          "timestamp": "2025-01-28T19:17:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t003",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "YES!! holiday vibes in the lobby!! I will put a little tree in the cafe window too \ud83c\udf89 love this for us!",
+          "timestamp": "2025-01-28T19:19:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t004",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "lol festive \ud83c\udf84 solid idea. I'm in",
+          "timestamp": "2025-01-28T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t005",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Fine by me. Not opposed.",
+          "timestamp": "2025-01-28T19:23:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t006",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "No objections on my end. Just keep the fire exits clear. \u2013 Marcus",
+          "timestamp": "2025-01-28T19:25:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t007",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "Carmen, yes a wreath would be nice. I have a small one I could contribute.",
+          "timestamp": "2025-01-28T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t008",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "Ruth that's so sweet!! okay so we're doing it? I can set it up Friday evening \ud83d\ude0a also, Marcus you have been so reliable here, you know my old super was a nightmare. totally different experience.",
+          "timestamp": "2025-01-28T19:29:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t009",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Appreciate that Carmen. Though I'd say Elm Street wasn't that bad, mostly the boiler gave us trouble that winter. \u2013 Marcus",
+          "timestamp": "2025-01-28T19:31:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t010",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "haha true! Marcus was the super at my old place on Elm Street too, guys, genuinely one of the best. so lucky he ended up here \ud83d\ude0a",
+          "timestamp": "2025-01-28T19:33:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c307"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t011",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Good to know. Carmen, I'll be on shift Friday night but I can help set up earlier in the day if needed. Sandra",
+          "timestamp": "2025-01-28T19:35:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t012",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "totally understand Sandra! totally fine, we'll get it done \ud83d\udc95",
+          "timestamp": "2025-01-28T19:37:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t013",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "fine by me. just don't block the mailboxes.",
+          "timestamp": "2025-01-28T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t014",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "ok",
+          "timestamp": "2025-01-28T19:41:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c304"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t015",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "For the record: last year someone left lights plugged in all of January. A timer might be worth adding.",
+          "timestamp": "2025-01-28T19:43:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t016",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "oh great call Felix!! I'll add a timer plug \ud83d\udc4d",
+          "timestamp": "2025-01-28T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t017",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "so smart. noted! \ud83d\udc4d",
+          "timestamp": "2025-01-28T19:47:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t018",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Carmen let me know if you need an extra pair of hands Friday, I close at 5! Love this for us \ud83c\udf84",
+          "timestamp": "2025-01-28T19:49:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t019",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo also ngl I love the lobby vibes, good call everyone \ud83c\udf84",
+          "timestamp": "2025-01-28T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s04_t020",
+          "session_id": "grp_c3d4e5f6_s04",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Sorted on the decorations. Just keep the path to the fire exit clear. \u2013 Marcus",
+          "timestamp": "2025-01-28T19:53:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s05",
+      "session_index": 5,
+      "date_label": "Feb 4, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t001",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo check this out lol \ud83d\ude02 [image: meme about apartment living]",
+          "timestamp": "2025-02-04T18:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t002",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "haha \ud83d\ude02",
+          "timestamp": "2025-02-04T18:47:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t003",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "what is this",
+          "timestamp": "2025-02-04T18:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t004",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Not building-related but noted.",
+          "timestamp": "2025-02-04T18:50:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c302"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t005",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "lol Kevin \ud83d\ude04 also morning everyone! just a reminder the cafe is open from 7 for all your coffee needs \u2615",
+          "timestamp": "2025-02-04T18:52:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t006",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, can we try to keep noise down in the evenings? especially after like 9-10pm. some of us work nights and need to sleep during the day \ud83d\ude4f",
+          "timestamp": "2025-02-04T18:54:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c305"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t007",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "That's a good reminder, 10pm quiet hours are building policy. \u2013 Marcus",
+          "timestamp": "2025-02-04T18:56:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t008",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Would appreciate that. Thank you Carmen. Sandra",
+          "timestamp": "2025-02-04T18:58:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t009",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Noted. When you're home all day you notice this too, mid-afternoon can get loud near the stairwell.",
+          "timestamp": "2025-02-04T19:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t010",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "totally agree on noise. noted! \ud83d\udc4d",
+          "timestamp": "2025-02-04T19:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t011",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "10pm is fine with me. I'm up at 5 anyway.",
+          "timestamp": "2025-02-04T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t012",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "excuse me if I missed something, is this about the music from last week? I heard something near the elevator.",
+          "timestamp": "2025-02-04T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t013",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Ruth, just a general reminder. No specific incident. \u2013 Marcus",
+          "timestamp": "2025-02-04T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t014",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yeah my bad sometimes. I work late shifts so I lose track of time ngl",
+          "timestamp": "2025-02-04T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t015",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "totally understand Kevin! just good to be mindful \ud83d\ude0a",
+          "timestamp": "2025-02-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t016",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Thank you. The quiet hours help me work.",
+          "timestamp": "2025-02-04T19:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t017",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "noted! also if anyone ever needs to decompress the cafe is open till 9 most nights, very quiet in the evenings \ud83d\ude0a",
+          "timestamp": "2025-02-04T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t018",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "copy that on the stairwell Felix, I'll mention it to the unit there. Sandra",
+          "timestamp": "2025-02-04T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t019",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "oh also is it just me or is the laundry room light flickering? might need a bulb \ud83d\udc4d",
+          "timestamp": "2025-02-04T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s05_t020",
+          "session_id": "grp_c3d4e5f6_s05",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Thanks Priya, I'll check it. \u2013 Marcus",
+          "timestamp": "2025-02-04T19:23:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s06",
+      "session_index": 6,
+      "date_label": "Feb 11, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t001",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "For the record: a coffee machine in the lobby would not be the worst idea. When you're home all day, the walk to a cafe adds up.",
+          "timestamp": "2025-02-11T19:30:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c306"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t002",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "I make my own at home. but fine.",
+          "timestamp": "2025-02-11T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t003",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Felix!! I love you but please come to my cafe \ud83d\ude04 first round always on me for building residents!",
+          "timestamp": "2025-02-11T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t004",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "The issue is not the quality, Amir. It is the distance relative to pajamas.",
+          "timestamp": "2025-02-11T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t005",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "haha Felix I completely relate. would love a coffee spot downstairs! is it just me or would everyone use that? \u2615\ud83d\udc4d",
+          "timestamp": "2025-02-11T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t006",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo ngl that would be clutch lol",
+          "timestamp": "2025-02-11T19:40:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t007",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, this is a great idea! I'd use it every morning with the kids on the way to school \ud83d\ude4c",
+          "timestamp": "2025-02-11T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t008",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Okay okay. Hear me out. What if I put a small coffee station just inside the building entrance? Like a Little Free Coffee Library but for espresso \ud83d\ude04 love this for us!",
+          "timestamp": "2025-02-11T19:44:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t009",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Worth exploring Amir. Would need to discuss the lease terms. \u2013 Marcus",
+          "timestamp": "2025-02-11T19:46:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t010",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "re: the lobby machine from a few messages ago, that sounds convenient. I often forget my coffee upstairs.",
+          "timestamp": "2025-02-11T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t011",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Would use it before my night shifts. Good idea. Sandra",
+          "timestamp": "2025-02-11T19:50:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t012",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Thank you, that would be helpful.",
+          "timestamp": "2025-02-11T19:52:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t013",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Not opposed to Amir's version. Though I note the logistics are non-trivial.",
+          "timestamp": "2025-02-11T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t014",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "Marcus please make this happen! would make mornings so much better \ud83d\ude0a\ud83d\udc4d",
+          "timestamp": "2025-02-11T19:56:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t015",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "lol Amir you're really out here running a whole coffee empire from the ground floor",
+          "timestamp": "2025-02-11T19:58:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t016",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "that's the dream Kevin \ud83d\ude04 love this for us! Marcus let's talk!",
+          "timestamp": "2025-02-11T20:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t017",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "as long as it doesn't block the mailboxes. fine by me.",
+          "timestamp": "2025-02-11T20:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t018",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "omg this building is the best \ud83d\ude2d\ud83d\udc95 also reminder, building BBQ rescheduled from last month, should we pick a new date?",
+          "timestamp": "2025-02-11T20:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t019",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Good point Carmen. Let me check the courtyard calendar. \u2013 Marcus",
+          "timestamp": "2025-02-11T20:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s06_t020",
+          "session_id": "grp_c3d4e5f6_s06",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "For the record: still available on weekends.",
+          "timestamp": "2025-02-11T20:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s07",
+      "session_index": 7,
+      "date_label": "Feb 18, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t001",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "FYI all, courtyard is free the weekend of Feb 15-16. BBQ take 2? \u2013 Marcus",
+          "timestamp": "2025-02-18T18:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t002",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, YES!! Feb 15 Saturday works great for me and the little ones \ud83c\udf89",
+          "timestamp": "2025-02-18T18:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t003",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "perfect timing! I'll be back from my sister's by then. see you at 7am Sandra btw, yoga is back on after last week's sub \ud83e\uddd8",
+          "timestamp": "2025-02-18T18:04:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c308"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t004",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Copy that. See you there. Sandra",
+          "timestamp": "2025-02-18T18:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t005",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo Feb 15 solid! I'll actually be free that one for real lol",
+          "timestamp": "2025-02-18T18:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t006",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Available. Not opposed to a BBQ.",
+          "timestamp": "2025-02-18T18:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t007",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "Carmen, yes February 15 works for me.",
+          "timestamp": "2025-02-18T18:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t008",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "fine by me. I'll bring the folding table again.",
+          "timestamp": "2025-02-18T18:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t009",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "Dan you are the MVP \ud83d\ude4f also, should we do a small indoor drinks beforehand in the common room? like a little pre-BBQ gathering?",
+          "timestamp": "2025-02-18T18:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t010",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "Love the BBQ idea!! For the pre-gathering, what if we just meet at the cafe instead? I can do little snacks, easy setup, and then we walk over to the courtyard together \ud83d\ude04",
+          "timestamp": "2025-02-18T18:18:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_c311"
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t011",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "oh that's fun! Amir's cafe sounds nice \ud83d\udc4d",
+          "timestamp": "2025-02-18T18:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t012",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Practical. The common room needs to be booked in advance anyway.",
+          "timestamp": "2025-02-18T18:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t013",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Common room would need 48h notice to unlock. Amir's suggestion is simpler. \u2013 Marcus",
+          "timestamp": "2025-02-18T18:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t014",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "totally makes sense! okay so cafe first then courtyard, love it \ud83d\udc95",
+          "timestamp": "2025-02-18T18:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t015",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Thank you. I will try to come.",
+          "timestamp": "2025-02-18T18:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t016",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo solid. Amir is basically our unofficial social chair lol \ud83d\ude04",
+          "timestamp": "2025-02-18T18:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t017",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "I'll take that title Kevin!! Love this for us. First espresso free for everyone who shows \ud83c\udf89\u2615",
+          "timestamp": "2025-02-18T18:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t018",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "I'll be there. Table is already in the car.",
+          "timestamp": "2025-02-18T18:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t019",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "I'll come if I'm off shift, working to confirm. Sandra",
+          "timestamp": "2025-02-18T18:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s07_t020",
+          "session_id": "grp_c3d4e5f6_s07",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "excuse me if I missed something, is the BBQ this Saturday? I want to make sure I have the right date.",
+          "timestamp": "2025-02-18T18:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_c3d4e5f6_s08",
+      "session_index": 8,
+      "date_label": "Feb 25, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t001",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "just a heads up everyone, that BBQ was SO lovely!! thank you all \ud83d\ude2d\ud83d\udc95 Dan your folding table was perfect, Amir the espressos were incredible \ud83d\ude4c",
+          "timestamp": "2025-02-25T19:00:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t002",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "LOVED IT!! Best building event we've ever done. Same time next month? Love this for us \ud83c\udf89\u2615",
+          "timestamp": "2025-02-25T19:02:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t003",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "lol yo that was actually really fun. ngl I didn't expect to enjoy hanging with my neighbors this much \ud83d\ude04",
+          "timestamp": "2025-02-25T19:04:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t004",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "good afternoon. I had a good time. thanks for organizing.",
+          "timestamp": "2025-02-25T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t005",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "that was so fun!! is it just me or should we make this a monthly thing? \ud83d\udc4d",
+          "timestamp": "2025-02-25T19:08:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t006",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "Not opposed. The organization was competent this time. That's high praise from me.",
+          "timestamp": "2025-02-25T19:10:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t007",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "I really enjoyed it. Thank you everyone for organizing. Could we do another in March?",
+          "timestamp": "2025-02-25T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t008",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p07",
+          "speaker_display_name": "Sandra",
+          "message": "Good event. Thanks Carmen. Sandra",
+          "timestamp": "2025-02-25T19:14:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t009",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p09",
+          "speaker_display_name": "Ruth",
+          "message": "yes it was a lovely afternoon. thank you Carmen and Amir.",
+          "timestamp": "2025-02-25T19:16:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t010",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Good feedback all around. FYI, lobby camera is now active. Footage stored for 30 days. \u2013 Marcus",
+          "timestamp": "2025-02-25T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t011",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p08",
+          "speaker_display_name": "Felix",
+          "message": "For the record: finally. Only took four months. Could be worse.",
+          "timestamp": "2025-02-25T19:20:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t012",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p04",
+          "speaker_display_name": "Carmen",
+          "message": "yay! such a relief \ud83d\ude0a also Marcus I keep meaning to say, you run such a tight ship here. way better than our old place \ud83d\ude02",
+          "timestamp": "2025-02-25T19:22:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t013",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Appreciate it Carmen. Elm Street's boiler made everything harder. Easier here. \u2013 Marcus",
+          "timestamp": "2025-02-25T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t014",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "Marcus, the front entry light on the ground floor is out. just noticed.",
+          "timestamp": "2025-02-25T19:26:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t015",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p01",
+          "speaker_display_name": "Marcus",
+          "message": "Thanks Dan, sorted by tomorrow. \u2013 Marcus",
+          "timestamp": "2025-02-25T19:28:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t016",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p06",
+          "speaker_display_name": "Kevin",
+          "message": "yo also ngl the building feels way more chill lately. like I actually know people now lol",
+          "timestamp": "2025-02-25T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t017",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p10",
+          "speaker_display_name": "Amir",
+          "message": "That's what I'm saying Kevin!! Community!! Love this for us \u2615\ud83c\udf89 also cafe is open late tonight if anyone wants to celebrate good vibes",
+          "timestamp": "2025-02-25T19:32:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t018",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p02",
+          "speaker_display_name": "Priya",
+          "message": "noted!! might stop by after work \ud83d\udc4d",
+          "timestamp": "2025-02-25T19:34:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t019",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p05",
+          "speaker_display_name": "Yuki",
+          "message": "Amir I will come by this evening if that works.",
+          "timestamp": "2025-02-25T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_c3d4e5f6_s08_t020",
+          "session_id": "grp_c3d4e5f6_s08",
+          "speaker_persona_id": "grp_c3d4e5f6_p03",
+          "speaker_display_name": "Dan",
+          "message": "I'll stop in for a coffee Amir. see you later.",
+          "timestamp": "2025-02-25T19:38:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    }
+  ],
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_c301",
+      "session_id": "grp_c3d4e5f6_s01",
+      "session_index": 1,
+      "turn_id": "grp_c3d4e5f6_s01_t016"
+    },
+    {
+      "challenge_id": "ch_c312",
+      "session_id": "grp_c3d4e5f6_s01",
+      "session_index": 1,
+      "turn_id": "grp_c3d4e5f6_s01_t018"
+    },
+    {
+      "challenge_id": "ch_c303",
+      "session_id": "grp_c3d4e5f6_s02",
+      "session_index": 2,
+      "turn_id": "grp_c3d4e5f6_s02_t019"
+    },
+    {
+      "challenge_id": "ch_c309",
+      "session_id": "grp_c3d4e5f6_s03",
+      "session_index": 3,
+      "turn_id": "grp_c3d4e5f6_s03_t014"
+    },
+    {
+      "challenge_id": "ch_c310",
+      "session_id": "grp_c3d4e5f6_s03",
+      "session_index": 3,
+      "turn_id": "grp_c3d4e5f6_s03_t016"
+    },
+    {
+      "challenge_id": "ch_c304",
+      "session_id": "grp_c3d4e5f6_s04",
+      "session_index": 4,
+      "turn_id": "grp_c3d4e5f6_s04_t014"
+    },
+    {
+      "challenge_id": "ch_c307",
+      "session_id": "grp_c3d4e5f6_s04",
+      "session_index": 4,
+      "turn_id": "grp_c3d4e5f6_s04_t010"
+    },
+    {
+      "challenge_id": "ch_c302",
+      "session_id": "grp_c3d4e5f6_s05",
+      "session_index": 5,
+      "turn_id": "grp_c3d4e5f6_s05_t004"
+    },
+    {
+      "challenge_id": "ch_c305",
+      "session_id": "grp_c3d4e5f6_s05",
+      "session_index": 5,
+      "turn_id": "grp_c3d4e5f6_s05_t006"
+    },
+    {
+      "challenge_id": "ch_c306",
+      "session_id": "grp_c3d4e5f6_s06",
+      "session_index": 6,
+      "turn_id": "grp_c3d4e5f6_s06_t001"
+    },
+    {
+      "challenge_id": "ch_c308",
+      "session_id": "grp_c3d4e5f6_s07",
+      "session_index": 7,
+      "turn_id": "grp_c3d4e5f6_s07_t003"
+    },
+    {
+      "challenge_id": "ch_c311",
+      "session_id": "grp_c3d4e5f6_s07",
+      "session_index": 7,
+      "turn_id": "grp_c3d4e5f6_s07_t010"
+    }
+  ]
+}

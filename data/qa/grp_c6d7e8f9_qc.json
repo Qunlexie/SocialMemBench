@@ -1,0 +1,44 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "group_name": "The Sunday Group",
+  "qc_run_at": "2026-04-22T00:00:00Z",
+  "total_pairs": 17,
+  "breakdown": {
+    "Q1": 2,
+    "Q2": 1,
+    "Q4": 2,
+    "Q5": 2,
+    "Q6": 1,
+    "Q7": 3,
+    "Q8": 3,
+    "Q9": 3
+  },
+  "difficulty": {
+    "easy": 3,
+    "medium": 10,
+    "hard": 4
+  },
+  "phase1": {
+    "mean_score": 1.0,
+    "pass_count": 17,
+    "fail_count": 0,
+    "flagged_ids": []
+  },
+  "phase2": {
+    "all_grounded": true,
+    "ungrounded_ids": []
+  },
+  "phase3": {
+    "flagged_count": 0,
+    "flagged_ids": []
+  },
+  "pass_rate": "100%",
+  "structural_checks": {
+    "Q8_trigger_word_present": true,
+    "Q4_foil_min_2_sentences": true,
+    "medium_hard_min_2_anchors": true,
+    "Q9_evidence_sessions_1_5_only": true
+  },
+  "q9_notes": "All 3 Q9 pairs anchor exclusively to sessions 1-5 (before Bex departed after S5). Q9 covers: plant-based diet (ch_a5b6c7d8, S2+S5), cycling centrality (ch_e3f4a5b6, S4+S5), Saturday bread ritual (ch_b6c7d8e9, S1+S5).",
+  "overall_pass": true
+}

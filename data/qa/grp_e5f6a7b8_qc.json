@@ -1,0 +1,297 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "total_pairs": 17,
+  "phase1_mean_score": 0.991,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 7,
+    "2": 10
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 11,
+    "easy": 5,
+    "hard": 1
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 1.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 1.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.95,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 1.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_e5f6a7b801",
+      "query_type": "Q1",
+      "question": "What does Sam's approach to group meals and restaurant planning suggest about his preferences with certain ingredients?",
+      "blind_answer": "Sam consistently avoids cilantro, proactively redirecting in S5 and declaring his S8 menu cilantro-free without being asked. The unprompted 'by the way' framing confirms a standing aversion he treats as given.",
+      "score": 1.0,
+      "score_rationale": "Blind answer identifies Sam's proactive cilantro avoidance pattern across S5 and S8 \u2014 exact match.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e5f6a7b802",
+      "query_type": "Q1",
+      "question": "What does Nina's response to advice from the group during her difficult week reveal about what kind of support she actually wants?",
+      "blind_answer": "Nina explicitly says she doesn't want to be told to take a break (S5 t007), then deflects Marcus's implication that the story isn't ready with 'that is the most Marcus thing you could have said' (S5 t009). She wants presence and acknowledgment, not prescriptive rest advice.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches: Nina explicitly names the support she doesn't want and deflects Marcus's indirect 'take a break' implication.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e5f6a7b803",
+      "query_type": "Q1",
+      "question": "What does Jake's recurring behavior when large-group events are proposed reveal about his social preferences?",
+      "blind_answer": "Jake consistently redirects large-group proposals toward smaller sub-group alternatives in S1 (trial weekend, 5\u20136 people), S2 (smaller place, 6\u20137 people), and S8 (optional sub-group for the swim), never explaining why. The recurring framing across three sessions suggests large gatherings are draining for him.",
+      "score": 1.0,
+      "score_rationale": "Blind answer tracks the exact 'what if just a few of us' pattern across S1, S2, and S8 \u2014 full match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e5f6a7b804",
+      "query_type": "Q1",
+      "question": "What does Priya's behavior whenever the group proposes plans reveal about how she manages her social commitments?",
+      "blind_answer": "Priya consistently responds to any plan proposal with a schedule check \u2014 S1 ('I need to check my schedule before committing to anything'), S2 ('the weekend immediately after conference is probably not possible'), S7 ('I need to double-check the overnight cover'). She never commits immediately; the pattern reflects a structural advance-notice requirement.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Priya's structural need for advance planning from her repeated schedule-check pattern across S1, S2, S7.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e5f6a7b805",
+      "query_type": "Q1",
+      "question": "What does Will's behavior during the group trip accommodation discussions reveal about his preferences for how the group stays?",
+      "blind_answer": "Will redirects from cottage to camping in S2 ('low-key would be down for a camping option near the lake'), and even after the cottage is agreed in S3, brings camping gear 'as a backup option for anyone who wants one night under canvas.' He never explains the preference \u2014 just quietly preserves the outdoor option.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Will's consistent camping preference from S2 and S3 \u2014 exact match.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e5f6a7b801",
+      "query_type": "Q2",
+      "question": "In Session 7, the group agreed to split trip costs equally per person. What did one member's response in that moment signal about their actual position, and what specifically in how they responded tells you that?",
+      "blind_answer": "Alex's three-word 'works for me' (S7 t005) stands out against others' detailed replies. Combined with Alex's earlier S2 flag ('some of us might find this a stretch, just flagging'), the minimal agreement appears to conceal financial discomfort rather than genuine endorsement. Answer: B (Alex).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Alex (B) from the minimal 'works for me' response and S2 budget flag \u2014 exact match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e5f6a7b802",
+      "query_type": "Q2",
+      "question": "In Session 7, the group agreed on equal cost splitting for the trip. What did one member's response signal about how they actually felt, and what specifically in how they responded tells you that?",
+      "blind_answer": "Marcus said 'sure, whatever works' then immediately added a caveat about someone dropping out and the equal split 'feeling like a stretch' (S7 t007). The agree-then-undercut structure is his characteristic performative acceptance. Answer: C (Marcus).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Marcus (C) from his nominal agree + immediate caveat structure in S7 t007.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_e5f6a7b801",
+      "query_type": "Q4",
+      "question": "In Session 2, someone in the group raised a concern about the trip being too expensive for all members. Who voiced that concern, and how can you tell it was them rather than the member the group knows for openly worrying about money?",
+      "blind_answer": "Alex raised the concern at S2 t009 using third-person inclusive framing ('some of us might find this a stretch') and understated 'just flagging.' Becca's response at S2 t012 is direct and personal ('tbh I'm already worrying'). The analytical, guarded register identifies Alex. Answer: A (Alex).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly attributes to Alex (A) by distinguishing analytical third-person framing from Becca's direct personal admission.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_e5f6a7b802",
+      "query_type": "Q4",
+      "question": "In Session 8, someone suggested the group try wild swimming on the Saturday morning. Who made that suggestion, and how can you tell it was them rather than the other member who consistently prefers smaller, low-key group activities?",
+      "blind_answer": "Will made the suggestion (S8 t005) with specific outdoor-guide knowledge ('north shore entry near Low Wray', 'good entry depth, no swell'). Jake's follow-up (S8 t006) downsizes it to optional for a smaller group \u2014 his characteristic redirect pattern, confirming he's responding, not initiating. Answer: B (Will).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Will (B) from specific location knowledge vs Jake's characteristic downsizing move.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_e5f6a7b801",
+      "query_type": "Q5",
+      "question": "What difficult personal situation was Nina going through, and what in Lily's behavior in Session 5 shows she already knew about it?",
+      "blind_answer": "Nina had a rough week \u2014 the session opens with her story falling apart. Lily's S5 suggestion includes 'no agenda, nothing relationship-heavy' \u2014 an unprompted qualifier that only makes sense if Lily already knew something relationship-related was affecting Nina. The breakup is not named in the chat, but Lily's framing implies she knew.",
+      "score": 0.85,
+      "score_rationale": "Blind answer correctly identifies the inference mechanism (Lily's 'nothing relationship-heavy' implies prior knowledge) but the specific detail (bad breakup) is inferred, not stated.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_e5f6a7b802",
+      "query_type": "Q5",
+      "question": "What constraint does Priya face that affects how the group needs to plan around her schedule, and what in Tom's behavior in Session 1 shows he already knew this intimately before it came up?",
+      "blind_answer": "Priya's residency makes advance notice critical \u2014 she always checks her schedule before committing. Tom revealed intimate knowledge of this in S1 by proactively naming her specific cardiology conference before Priya mentioned it ('also quick note for trip planning later , Priya has a cardiology conference in mid-March'). Specific unprompted advocacy implies he knows her schedule intimately.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Tom's proactive specific schedule knowledge as evidence of intimate familiarity with Priya's constraints.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_e5f6a7b803",
+      "query_type": "Q5",
+      "question": "What professional struggle was Alex dealing with during the early part of the year, and what in Maya's response in Session 4 shows she already knew about it before Alex could update the group?",
+      "blind_answer": "Alex deflects with 'I've been heads-down on my chapter. anyway \u2014' (S4 t013). Maya immediately responds 'you don't need to update us \u2014 we're just glad you're coming on the trip' (S4 t014). The proactive 'you don't need to update us' pre-empts an expectation Alex hadn't even triggered publicly \u2014 only sensible if Maya already knew there was something difficult about the chapter.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly reads Maya's 'you don't need to update us' as prior-knowledge evidence that closes the subject before anyone asked.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_e5f6a7b801",
+      "query_type": "Q6",
+      "question": "The Lakeview Crew agreed that trip costs should be split equally among everyone who attends. Does this genuinely apply to everyone? If not, who has a different experience of this norm, and what does the conversation reveal?",
+      "blind_answer": "No \u2014 Alex does not genuinely embrace the equal-split norm. Alex's S7 response was a minimal 'works for me' while others engaged substantively. Alex had flagged in S2 that 'some of us might find this a stretch' \u2014 an oblique reference to financial strain. As the only PhD student, equal splitting is a genuine hardship Alex absorbed rather than negotiated. Answer: C (Alex).",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Alex (C) as the norm non-embracer, connecting S2 budget flag to S7 minimal agreement.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_e5f6a7b801",
+      "query_type": "Q7",
+      "question": "What does Maya's message at the start of Session 3 reveal about her relationship with Jake that goes beyond their shared group membership?",
+      "blind_answer": "Maya opens S3 with 'Jake and I were already talking about this before the chat' \u2014 Jake confirms. Pre-chat bilateral coordination implies a closer relationship (they're neighbors in NYC who co-plan before group sessions). The phrasing treats it as a normal practice, not a one-off.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Maya and Jake's pre-chat coordination as evidence of a closer bilateral relationship.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_e5f6a7b802",
+      "query_type": "Q7",
+      "question": "What in Session 8 reveals that Sam and Priya have a connection that predates the group's shared experiences?",
+      "blind_answer": "Sam references 'the lamb method from when we made that tagine together at yours' (S8 t002) \u2014 a specific past cooking experience at Priya's home. Priya immediately recalls it in detail and offers to send the 'adjusted spice ratio.' The casual familiarity and specific shared memory indicate an ongoing cooking friendship outside the main group.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies the specific shared cooking experience ('tagine together at yours') as evidence of a pre-group friendship.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e5f6a7b801",
+      "query_type": "Q8",
+      "question": "What in Alex's messages across the sessions signals that their engagement with the group shifted, and what appears to have driven it?",
+      "blind_answer": "Alex opens S1 with a genuine group check-in ('how is everyone actually holding up?'). From S4 onward, 'anyway' deflections appear whenever career topics arise. S6 brings the strikingly minimal 'great. looking forward to it' to the trip confirmation others celebrate loudly. S9 ends with 'nine years. that's something. anyway.' Maya's S4 protective closure ('you don't need to update us') and the timing point to a dissertation setback as the unnamed trigger.",
+      "score": 1.0,
+      "score_rationale": "Blind answer traces the exact 'anyway' deflection arc from S1 genuine check-in through S6 minimal response to S9 reflective-but-guarded \u2014 full match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e5f6a7b802",
+      "query_type": "Q8",
+      "question": "What in Raj's messages signals a shift in how he talks about his startup work mid-way through the sessions, and what appears to have triggered it?",
+      "blind_answer": "Raj is high-energy through S4 (enterprise client, 'genuinely speechless'). S7\u2013S8 his startup mentions become deflective. S9 he explicitly signals a setback ('recalibrating', 'harder when things don't go to plan'). S10 he recovers but with different framing ('moving again, just differently'). The trigger is unstated \u2014 implied funding or business setback between S6 and S9.",
+      "score": 1.0,
+      "score_rationale": "Blind answer traces Raj's peak excitement (S4 enterprise client) to S9 'recalibrating' signal to S10 partial recovery \u2014 exact match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Each of 10 sessions has a distinct primary thread: New Year, destination, accommodation, milestones, support, confirmation, costs, logistics, pre-trip headcount, post-trip recap. Appropriate for close_friends group."
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Major quirks strongly present across all 15 personas (Maya's 'OKAY hear me out', Jake's 'what if just a few of us', Priya's 'I need to check my schedule', Tom's 'just want to say', Zoe's 'okay but what if', Marcus's 'sure, whatever works', Lily's 'omg YES', Alex's 'anyway', Becca's 'tbh' + tagging Lily, Nina's 'okay but actually', Will's 'low-key would be down for', Raj's 'building in public', Chris's 'noted', Emma's 'hi loves'/'sending love'). Minor issue: moderate typo_rate not clearly visible for Zoe/Lily/Becca; moderate emoji_use not clearly visible for Sam/Will/Becca across the read turns. Major speaking quirks and formality registers all pass strongly."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts driven by characters: Maya initiates, Raj announces milestones, Nina drops rough-week opener, Sam steers to food, Will redirects to camping. No cold jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Generation script replaced all 79 em-dashes with ' , ' before writing. Verified across all read message fields \u2014 zero em-dashes found in unprotected message fields. Note: QA evidence anchor excerpts had 14 em-dash discrepancies (gen_qa script used original em-dash text); these were corrected in this QC run."
+    },
+    "planted_turn_integrity": {
+      "score": 1,
+      "notes": "All 16 planted turn messages are unchanged and correct. 14 QA evidence anchor excerpts had systematic em-dash discrepancies (comma replacement not reflected in gen_qa output) plus 2 minor wording/prefix differences \u2014 all corrected by this script. Clean and grounded after fix."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

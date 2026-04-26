@@ -1,0 +1,42 @@
+{
+  "network_id": "grp_d2e3f4a5",
+  "verified_at": "2026-04-23T00:00:00Z",
+  "stages_checked": ["stage2"],
+  "stage2": {
+    "pass": true,
+    "checks_run": 17,
+    "checks_passed": 16,
+    "checks_warned": 1,
+    "failures": [],
+    "warnings": [
+      {
+        "check": "em_dash_free",
+        "detail": "3 unprotected em dashes found and corrected in-place: S3 t018 (Adaeze), S5 t007 (Chisom), S6 t021 (Ifeoma). 2 em dashes in planted-challenge turns S5 t011 and S6 t011 are protected and not modified.",
+        "resolution": "Fixed — em dashes replaced with commas/semicolons in unprotected turns."
+      }
+    ],
+    "check_results": {
+      "sessions_present": {"pass": true, "detail": "8 sessions present"},
+      "turn_count_per_session": {"pass": true, "detail": "S1:23 S2:23 S3:23 S4:23 S5:22 S6:23 S7:21 S8:22 — all between 10-25"},
+      "message_format": {"pass": true, "detail": "Sampled 5 turns; all match timestamp_label pattern"},
+      "no_out_of_character_narration": {"pass": true, "detail": "No turns begin with 'As [Name]' or '*[Name]'"},
+      "planted_challenges_exist": {"pass": true, "detail": "27 challenges in planted_challenge_index"},
+      "planted_challenge_field_completeness": {"pass": true, "detail": "All 27 challenges have all required fields non-null"},
+      "challenge_type_variety": {"pass": true, "detail": "7 distinct types: implicit_preference, false_attribution_seed, relational_graph, theory_of_mind, temporal_shift, consensus_trap, relational_disclosure"},
+      "speaker_coverage": {"pass": true, "detail": "All 8 personas appear as speakers across sessions"},
+      "temporal_shift_present": {"pass": true, "detail": "6 temporal_shift challenges present"},
+      "evidence_spans_non_empty": {"pass": true, "detail": "All 27 challenges have non-empty evidence_span"},
+      "evidence_span_verbatim": {"pass": true, "detail": "Sampled ch_3a1f9b2e, ch_b2c3d4e5, ch_d4e5f6a7 — all verbatim matches confirmed"},
+      "timestamp_label_consistency": {"pass": true, "detail": "Sampled 5 turns across sessions — all timestamp_label hour/minute/date fields match timestamp field"},
+      "day_of_week_accuracy": {"pass": true, "detail": "All 8 sessions have correct day-of-week: every session is a Sunday, matching dates Oct 19 - Dec 7 2025 (all verified Sundays)"},
+      "session_date_continuity": {"pass": true, "detail": "Dates increase monotonically weekly: Oct 19, Oct 26, Nov 2, Nov 9, Nov 16, Nov 23, Nov 30, Dec 7"},
+      "message_length_ceiling": {"pass": true, "detail": "No message exceeds 400 chars; longest approx 340 chars (Ifeoma S6 t021)"},
+      "topic_variation": {"pass": true, "detail": "8 distinct immediate concerns across 8 sessions: health check/exhaustion, Christmas planning, Emeka's commitment shift, fund logistics/Leeds planning, Chisom's relationship/Kingsley venue, property pitch/fund ask/archive reveal, psychiatry rotation, Christmas headcount"},
+      "verbosity_realized": {"pass": true, "detail": "Verbose (Nkechi, Obiageli, Kingsley, Chisom) all produce clearly longer messages; Terse (Emeka, Tobenna) consistently short"},
+      "em_dash_free": {"pass": true, "detail": "3 unprotected em dashes corrected; 2 protected planted-turn em dashes noted separately", "protected_count": 2, "unprotected_count_before_fix": 3, "unprotected_count_after_fix": 0}
+    }
+  },
+  "overall_pass": true,
+  "failure_count": 0,
+  "warning_count": 1
+}

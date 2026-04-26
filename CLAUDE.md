@@ -66,6 +66,12 @@ Read before working on any phase:
 - [`plans/social-graph-memory.md`](plans/social-graph-memory.md) — Social Memory Graph (Condition C): graph schema, Q1–Q9 traversal patterns, insertion pipeline, implementation plan
 
 ### Skills (`.claude/commands/`)
+**These files are the authoritative source for all data generation.** Always read and follow the relevant skill before generating or modifying any data file. Do not generate data by hand — invoke the skill and follow its steps.
+
+How to invoke: read `.claude/commands/{skill-name}.md` and execute its instructions inline. The Skill tool does not support project commands; Claude executes them directly.
+
+**Always run `smb-verify` after Stage 2 and `smb-qc` after Stage 3.** Do not skip verification.
+
 Generation pipeline — no API key needed, Claude Code runs these directly:
 - `smb-generate-network.md` — Stage 1: ego network
 - `smb-generate-conversations.md` — Stage 2: WhatsApp-style conversation corpus
@@ -116,21 +122,46 @@ This means: raise the bar in the skills first, then improve the data to meet it.
 
 ---
 
+## Submission Target
+
+**NeurIPS 2026 Evaluations & Datasets Track**
+- Abstract deadline: **May 4, 2026** (AoE)
+- Full paper deadline: **May 6, 2026** (AoE)
+- Portal opens: April 15, 2026 (already open)
+- Author notification: September 24, 2026
+- Link: https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets 
+
+**Submission requirements:**
+- Dataset hosted on Hugging Face (or Dataverse/Kaggle/OpenML) — accessible to reviewers without permission request
+- Croissant machine-readable metadata (core + Responsible AI fields)
+- Double-blind by default; dataset track may opt into single-blind if anonymization is infeasible
+- Code required since benchmark suite is the primary artifact
+- Framing must articulate how the work **changes or enables evaluation of AI/ML systems** — not just "new dataset"
+
+**We have ~2 weeks to full submission.**
+
+---
+
 ## Current Status
 
-**Done**: 10 small-tier networks, 77 QA pairs (all stage3_done). Schema updated for group size tiers, longitudinal timespan, noise level, participation rate, and member departure. Data viewer built (`viewer/`).
+**Done**: 36 networks, 603 QA pairs. 17 small-tier, 16 medium-tier, 3 large-tier. Oracle evals (Condition A) running/complete on ~28 networks (all scoring 0.97–1.00). grp_a5b6c7d8 (recreational 9-person, 12 sessions) in Stage 2; grp_b6c7d8e9 (interest_community 9-person, 12 sessions) in Stage 1.
 
-**Immediate next step**: Manual review of existing 77 QA pairs. Validate data quality and confirm planted signals are genuinely implicit before scaling further.
-
-**Then**: Generate 1 medium-tier and 1 large-tier network → validate Q8 viability at those tiers → run Condition A oracle on the reviewed QA → confirm hypothesis → scale.
+**Immediate priorities** (in order):
+1. Fill eval matrix — oracle done for 16 small networks; medium/large networks need all conditions
+2. Complete 5 networks in generation pipeline (Stage 2 → verify → QA → QC)
+3. HuggingFace dataset upload + Croissant metadata
+4. Paper draft — lead with accuracy-vs-group-size curve as the key result
+5. Condition B (memory systems) eval runs
 
 **Milestones**:
-| Milestone | Goal |
-|-----------|------|
-| Manual review of 77 QA | Confirm data quality; Q4/Q5/Q6 are non-trivial |
-| Tier validation (15 networks) | 1 medium + 1 large passing QC |
-| Condition A oracle | Establish ceiling; validate hypothesis |
-| First scale (25 networks, ~800 QA) | Small + medium tiers complete |
-| Condition B (memory systems) | Primary contribution — failure mode analysis |
-| Full dataset (46 networks, ~1,650 QA) | Large + longitudinal tiers; all variables covered |
-| Paper-ready | 3 conditions evaluated, full analysis, SMG as proposed direction |
+| Milestone | Target | Status |
+|-----------|--------|--------|
+| Manual review of small-tier QA | Confirm data quality | Done |
+| Tier validation | 1 medium + 1 large passing QC | Done |
+| Condition A oracle (small tier) | Establish ceiling | Done (mean ~1.0) |
+| 500 QA pairs | Scale target | Done (603) |
+| Eval matrix complete (36 networks) | All conditions × all networks | In progress |
+| HuggingFace + Croissant upload | Submission requirement | Before May 4 |
+| Paper draft | 3 conditions, full analysis, SMG as direction | Before May 4 |
+| Condition B (memory systems) | Primary contribution | Before May 4 |
+| Full dataset (46 networks, ~1,650 QA) | Post-submission stretch goal | Post-NeurIPS |

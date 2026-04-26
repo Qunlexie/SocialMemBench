@@ -1,0 +1,362 @@
+{
+  "network_id": "grp_dba9214c",
+  "total_pairs": 25,
+  "phase1_mean_score": 0.896,
+  "phase1_pass_rate": 1.0,
+  "phase2_grounded_rate": 1.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 1,
+    "2": 24
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "easy": 0,
+    "medium": 23,
+    "hard": 2
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.883,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.9,
+      "flagged": 0,
+      "mean_inference_required": 1.86
+    },
+    "Q8": {
+      "count": 10,
+      "mean_score": 0.895,
+      "flagged": 0,
+      "mean_inference_required": 2.0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_dba9214c01",
+      "query_type": "Q1",
+      "blind_answer": "In S1 Seun describes eating fish as a regretted lapse ('I did eat more fish than I wanted') and immediately reasserts plant-based identity. The defensive 'only slipped because of mum's pepper soup' signals her self-concept had already shifted. S3 announcement confirms the prior internal commitment.",
+      "score": 0.9,
+      "score_rationale": "Correctly identifies lapse framing and plant-based reassertion; synthesis across S1+S3 required.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_dba9214c02",
+      "query_type": "Q1",
+      "blind_answer": "Emeka responds with 'Noted.' — his established way of ending topics he will not discuss. His follow-up 'She knows. She has always known. E.' signals long-held resignation. The single-word response is more telling than an objection because it reveals active disengagement.",
+      "score": 0.85,
+      "score_rationale": "Catches 'Noted.' as deliberate closure and follow-up resignation; misses S2 oxtail contrast cited in ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_dba9214c03",
+      "query_type": "Q1",
+      "blind_answer": "In S5 Nkem admits the January gathering was 'a little full-on at first' and states 'a smaller table would suit me better in an ideal world.' The immediate recovery ('But it was genuinely lovely') after each admission shows she is managing how directly she expresses the preference.",
+      "score": 0.9,
+      "score_rationale": "Matches: 'full-on at first', 'smaller table', recovery pattern as preference management.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_dba9214c01",
+      "query_type": "Q2",
+      "blind_answer": "Kayode volunteers for drinks rather than food — 'Can do drinks? Easier for me to sort drinks than food?' He frames it as logistics, acknowledging the norm while sidestepping its food requirement. After pushback he finds a workaround (bought puff puff). Correct answer: Kayode (D).",
+      "score": 0.9,
+      "score_rationale": "Matches: Kayode deflects to drinks, 'easier' framing as pattern signal, puff puff workaround.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_dba9214c02",
+      "query_type": "Q2",
+      "blind_answer": "Adaeze reports Emeka was on the Sunday call 'a little while' before saying he needed to rest. Tolu had already flagged his missed church. 'It is not a pattern. E.' implies awareness of a change. Correct answer: Emeka (C).",
+      "score": 0.9,
+      "score_rationale": "Matches: Adaeze's 'a little while', Emeka's defensive denial of pattern.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_dba9214c01",
+      "query_type": "Q5",
+      "blind_answer": "Adaeze expects everyone to bring food. Funke's message in S2 says 'Adaeze I know you feel strongly about everyone contributing a dish' — using 'I know' as established fact, not a guess, before proposing her workaround. This demonstrates prior knowledge from family experience.",
+      "score": 0.9,
+      "score_rationale": "Matches: 'I know you feel strongly' as prior knowledge signal; Funke using it as premise rather than asking.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_dba9214c01",
+      "query_type": "Q6",
+      "blind_answer": "No — Kayode redirects to drinks in S2 ('Can do drinks? Easier for me to sort drinks than food?') and finds a shop-bought workaround when pushed. Pattern of avoiding the cooking requirement. Correct answer: Kayode (C).",
+      "score": 0.9,
+      "score_rationale": "Matches: Kayode's drinks deflection as norm-dissent; bought vs cooked workaround.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_dba9214c02",
+      "query_type": "Q6",
+      "blind_answer": "No — Emeka was on the Sunday call 'a little while' per Adaeze. His 'Tired. E.' and 'It is not a pattern. E.' suggest awareness of changing engagement. The family accommodates it without pressing. Correct answer: Emeka (A).",
+      "score": 0.9,
+      "score_rationale": "Matches: Emeka's abbreviated call participation, defensive denial.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c01",
+      "query_type": "Q7",
+      "blind_answer": "Nkem has been in the chat since at least mid-October (Session 1, January 6 is ~3 months later). She corrects Funke with precise date: 'That was the Sunday in mid-October, just after Kayode's sprint review.' The precision — including the contextual event — signals she is carefully tracking her own integration timeline.",
+      "score": 0.9,
+      "score_rationale": "Matches: mid-October date recall, sprint review context, deliberate integration tracking.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c02",
+      "query_type": "Q7",
+      "blind_answer": "Tolu volunteers the yam in S2 without being asked: 'I will do the yam. Clinically speaking it is the foundation of any proper Nigerian gathering.' Nobody thanks him or asks — it is accepted as given. He is the family's practical anchor who fills gaps before anyone requests it.",
+      "score": 0.9,
+      "score_rationale": "Matches: Tolu volunteers yam unprompted; 'Clinically speaking' self-aware framing; treated as given.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c03",
+      "query_type": "Q7",
+      "blind_answer": "Kayode says 'Knew this was coming lol' when Seun announces full veganism — treating it as expected. Every other member reacts to the news as new. His 'She has been building up to this for two years, by the way. Just so everyone is up to speed?' positions him as separately briefed. Close siblings with a private channel.",
+      "score": 0.9,
+      "score_rationale": "Matches: 'Knew this was coming' as prior knowledge; 'by the way' contrast with others' reactions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c04",
+      "query_type": "Q7",
+      "blind_answer": "Seun responds with 'no one expects you to perform being fine with ten people in one room.' The word 'perform' goes beyond what Nkem said (she said 'full-on'). Seun had already framed Nkem's experience in these terms — implies prior observation or discussion not visible in the group chat.",
+      "score": 0.9,
+      "score_rationale": "Matches: 'perform being fine' exceeds Nkem's phrasing; implies prior understanding.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c05",
+      "query_type": "Q7",
+      "blind_answer": "Funke announces a private cooking session with Adaeze in S6: 'No more apologising for not knowing the old recipes.' The language is about belonging. Adaeze responds 'You were a very good student. I was proud' and addresses her as 'my daughter.' The private session being brought into the group marks a relationship milestone.",
+      "score": 0.9,
+      "score_rationale": "Matches: private session surfaced; belonging language; Adaeze's 'my daughter' and pride.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c06",
+      "query_type": "Q7",
+      "blind_answer": "Kayode immediately says 'She is. We talked. She is doing it?' after Bisi's exam announcement — his prior knowledge implies a private conversation. Bisi's 'stop making it sound like you convinced me' confirms the conversation happened and Kayode had some role. He is her private confidant before group announcements.",
+      "score": 0.9,
+      "score_rationale": "Matches: 'We talked' as prior conversation signal; Bisi's pushback confirming Kayode's role.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_dba9214c07",
+      "query_type": "Q7",
+      "blind_answer": "Grace credits Seun: 'those conversations we had about rest and about listening to your body, they stayed with me.' She hasn't taken a holiday alone since 2021. Seun's response uses shared vocabulary ('wellness is not about restriction it is about permission') without explaining it — implies ongoing shared understanding from off-chat conversations.",
+      "score": 0.9,
+      "score_rationale": "Matches: Grace credits Seun conversations; Seun extends shared vocabulary without explaining.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c01",
+      "query_type": "Q8",
+      "blind_answer": "S1: Seun regrets Christmas fish slip, reasserts plant-based. S3: 'fully vegan, no more exceptions, I am done being apologetic' — triggered by GP reporting lowest-ever inflammatory markers: 'my GP said whatever I am doing keep doing it so I am going all in.'",
+      "score": 0.9,
+      "score_rationale": "Matches: S1 lapse framing, S3 full commitment, GP health results as explicit trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c02",
+      "query_type": "Q8",
+      "blind_answer": "S4: Tolu asks 'did anyone else notice Dad missed church this morning?' — treating absence as notable. Emeka says 'Tired. E.' and later 'It is not a pattern. E.' — defensive denial implies awareness of changing pattern. Adaeze: he was on the Sunday call 'a little while.'",
+      "score": 0.85,
+      "score_rationale": "Catches church absence, defensive denial, Adaeze's abbreviated call report. Slight gap: ground truth more explicit about baseline being implied by Tolu's surprise framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c03",
+      "query_type": "Q8",
+      "blind_answer": "S5: Adaeze opens with 'Kayode, you have been on every call this month. I notice these things.' She names it as noteworthy, implying prior inconsistency. Seun says 'this is a new era, the Kayode era of actually showing up.' Kayode deflects casually but the change is confirmed by two family members noticing it.",
+      "score": 0.9,
+      "score_rationale": "Matches: Adaeze naming the change, Seun's 'new era' comment, Kayode's casual deflection.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c04",
+      "query_type": "Q8",
+      "blind_answer": "S2: Funke's energy is on the new dining chairs and modern elements. S6: 'Adaeze taught me to make egusi soup last week... No more apologising for not knowing the old recipes. I am learning them now. Properly.' The private cooking session with Adaeze is the stated turning point.",
+      "score": 0.9,
+      "score_rationale": "Matches: S2 aesthetic focus vs S6 traditional learning; egusi lesson as turning point.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c05",
+      "query_type": "Q8",
+      "blind_answer": "S2: Uncle Dele corrects Kayode about puff puff — treats him as younger family member to manage. S6: 'I will admit I have not always understood the nature of your work but this recognition is clear. I am proud of what you have built.' 'I will admit' acknowledges prior misunderstanding; 'proud' is new.",
+      "score": 0.9,
+      "score_rationale": "Matches: S2 corrective tone vs S6 pride; 'I will admit' as concession marker.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c06",
+      "query_type": "Q8",
+      "blind_answer": "S2: Nkem hedges — 'I think I can bring something small - I may be wrong but I recall...' S6: She addresses Adaeze directly: 'I am very glad you shared this here. I think the family should hear it... would that be fair to say, Adaeze?' Shift is from peripheral to steering. Trigger not visible in group chat.",
+      "score": 0.9,
+      "score_rationale": "Matches: S2 hedged contributions vs S6 initiating; trigger not in chat noted correctly.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c07",
+      "query_type": "Q8",
+      "blind_answer": "S2-S6: Gatherings are Oyelaran-only. S7: Tolu unprompted says 'Funke's parents have not been to a Christmas with us before. I think it is time we invited them this year.' The 'I think it is time' framing signals deliberate choice. One session after Funke's egusi lesson and Adaeze's visible pride in her.",
+      "score": 0.9,
+      "score_rationale": "Matches: S2 Oyelaran-only baseline; S7 proactive invitation; S6 Funke integration as trigger context.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c08",
+      "query_type": "Q8",
+      "blind_answer": "Sessions 1-6: Bisi participates actively but never mentions law school. S7: 'okay so. I am sitting them. May. Already registered.' — stripped-back directness. Kayode immediately says 'She is. We talked.' — prior private conversation was the trigger.",
+      "score": 0.9,
+      "score_rationale": "Matches: evasion by omission baseline; S7 direct commitment; Kayode's 'We talked' as trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c09",
+      "query_type": "Q8",
+      "blind_answer": "S2-S7: Grace consistently gives health and rest advice to others. S8: 'I have booked a trip. Just myself. Barbados, ten days, April.' Trigger explicitly stated: 'I decided after speaking with Seun last month that I have been giving advice for twenty years that I have not been following myself.'",
+      "score": 0.9,
+      "score_rationale": "Matches: S2-S7 outward-only health advice vs S8 solo trip; Seun conversations as explicit trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_dba9214c10",
+      "query_type": "Q8",
+      "blind_answer": "S3: Adaeze promises to adapt her cooking reactively when Seun announces veganism. S8: 'I have been experimenting. Since Seun told us about her results I have been adapting some of my recipes - I made the egusi with coconut oil and mushrooms.' Shift from reactive to proactive, with explicit trigger.",
+      "score": 0.9,
+      "score_rationale": "Matches: S3 reactive promise vs S8 proactive experimentation; Seun's health results as trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Family group — 8 distinct primary threads: New Year, gathering logistics, Seun vegan announcement, post-gathering debrief, Kayode consistency/Valentine's, promotion+egusi lesson, Christmas+Bisi exams, Grace trip+Adaeze recipes. Covers health, milestones, traditions, logistics. Appropriate variance for family type."
+    },
+    "voice_consistency": {
+      "score": 1,
+      "notes": "Emoji, formality, verbosity, speaking_quirks all verified. Adaeze: 'Good evening my children'/'God willing' ✓. Emeka: key-point-first/'E.'/'Noted' ✓. Tolu: 'just to note'/'Clinically speaking' ✓. Funke: 3-4 emoji strings/'you lot'/'literally' ✓. Seun: 'honestly'/'I mean'/long runs ✓. Kayode: dropped pronouns/'lol'/declarative-? ✓. Nkem: 'I think'/'I may be wrong'/precise dates/question endings ✓. Uncle Dele: FULL CAPS NAMES/'Best regards, Dele'/no contractions ✓. Auntie Grace: 'my dear'/health observations/🙏 ✓. Score capped at 1: Bisi's typo_rate is 'Moderate' (several typos per session expected) but only one clear typo ('im crying' in S6) found across corpus — typos underrepresented."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All session topics introduced by a character: Adaeze opens gathering discussions, Seun announces health news, Funke redirects to Valentine's, Kayode announces promotion, Funke opens Christmas planning, Grace announces trip. No cold jumps or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes in all turns (verified programmatically). Zero protected turns contain em dashes either."
+    },
+    "planted_turn_integrity": {
+      "score": 1,
+      "notes": "24 of 25 evidence anchor excerpts verified verbatim. One mismatch found and corrected in this QC pass: Q1_dba9214c01 first anchor cited grp_dba9214c_s01_t011 but used T004 excerpt text. Corrected to actual T011 message ('Tolu 😂 no injuries but I did eat more fish than I wanted...'). All planted challenge turn messages unchanged."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

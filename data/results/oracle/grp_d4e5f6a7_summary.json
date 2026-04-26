@@ -1,0 +1,25 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "condition": "oracle",
+  "evaluated_at": "2026-04-23T00:00:00Z",
+  "total_pairs": 18,
+  "mean_score": 0.994,
+  "by_query_type": {
+    "Q1": {"count": 5, "mean_score": 1.0},
+    "Q2": {"count": 2, "mean_score": 1.0},
+    "Q3": {"count": 0, "mean_score": null},
+    "Q4": {"count": 1, "mean_score": 1.0},
+    "Q5": {"count": 2, "mean_score": 1.0},
+    "Q6": {"count": 0, "mean_score": null},
+    "Q7": {"count": 2, "mean_score": 1.0},
+    "Q8": {"count": 6, "mean_score": 0.983}
+  },
+  "by_difficulty": {
+    "easy":   {"count": 0, "mean_score": null},
+    "medium": {"count": 13, "mean_score": 1.0},
+    "hard":   {"count": 5, "mean_score": 0.98}
+  },
+  "low_scoring": [
+    {"qa_id": "Q8_d4e5f615", "query_type": "Q8", "score": 0.9, "rationale": "Both old and new states correctly identified with correct trigger, but the ground truth specifically names Felix's recent breakup as the implied real draw — the model answer references 'changes in his life' without explicitly naming the breakup."}
+  ]
+}

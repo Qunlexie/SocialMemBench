@@ -1,0 +1,2164 @@
+{
+  "network_id": "grp_f6g7h8i9",
+  "group_name": "The Okafor Family Chat",
+  "group_type": "family",
+  "n_sessions": 10,
+  "sessions": [
+    {
+      "session_id": "grp_f6g7h8i9_s01",
+      "session_index": 1,
+      "date_label": "Jan 8, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t001",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "My darlings!! Happy New Year to everyone in this family. God has brought us to another year , I am grateful. How is everyone? I have not heard from some of you in days. Please reply so I know you are fine",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t002",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Happy New Year Mum. Dad. Everyone. Sophia and the boys send their love. Hope Lagos is peaceful",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t003",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Happy new year family!! \ud83c\udf89\ud83c\udf89 we made it!! David and the kids say happy new year. Nkechi and Ife are already arguing about who gets the TV lol",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t004",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "Happy new year everyone!! \ud83e\udd42 honestly though I cannot believe it's 2025 already",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t005",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, happy new year. God willing this year brings health and prosperity to this family. Your father, Emeka",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t006",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people, happy new year!! Ehen! God has been faithful. I am so happy to see everyone well. Let us make this year a wonderful one for this family",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t007",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh happy new year Okafor family!! \ud83c\udf8a\ud83c\udf8a This is OUR year. I already have big plans. Watch this space",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t008",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "happy new year everyone \ud83d\ude4f sorry I missed the midnight messages, I was in the library",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t009",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "Happy new year!! \ud83c\udf89 Kunle did you see the family messages from last night?? \ud83d\ude02 aww this family",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t010",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "HAPPY NEW YEAR \ud83c\udf89\ud83c\udf8a\u2728",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t011",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "HAPY NEW YEAR EVRYONE!! \ud83c\udf8a\ud83c\udf8a\ud83c\udf8a hi everybody",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t012",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Happy New Year from us , Mummy G how are you doing? Hope you and Daddy Emeka are keeping well \ud83d\udc9b",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t013",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Sophia my dear thank you. We are well , God willing. Chidi I am glad you are fine. Kunle , how is your research? I have not heard a proper update in weeks. Please reply so I know you are fine",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t014",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. A new year , a new season of blessings. I will endeavour to visit more this year. In His name",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t015",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "Happy new year everyone \ud83d\ude0a just to say , excited for whatever 2025 brings for this family",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t016",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Can I just say something? \ud83d\udcac We have Mum and Dad's 35th anniversary this year. We NEED to do something special. I've been thinking about this",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t017",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Ehen!! Adaeze is right! This is an important occasion. My people , we must plan something worthy of this family. I am already thinking",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t018",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "yes!! honestly though I think a smaller trip , just the immediate family , would be really special. No pressure but I think intimate is better \ud83d\udc9b",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f601"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t019",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh no no , we should invite the WHOLE family. I will sort it out , a big celebration at a venue. Leave it to me!! \ud83c\udf8a",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f609"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s01_t020",
+          "session_id": "grp_f6g7h8i9_s01",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Let me just check with everyone first. Okay so the first question is: small intimate trip or big family event? Let's hear everyone before we decide",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s02",
+      "session_index": 2,
+      "date_label": "Jan 22, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t001",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Can I just say something? \ud83d\ude4b I think the anniversary trip should be a city break. Paris or Lisbon. Mum and Dad would love it and it's manageable for everyone",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t002",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people , I like the sound of Paris. That would be a proper occasion. Ehen! Something to remember",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t003",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "honestly though I think Scotland could be beautiful. Quieter , more relaxing , easier for everyone to travel within the UK. Just a thought \ud83d\udc9b",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t004",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "tbf Scotland makes sense logistically. I'm in for either",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t005",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh I say we go big. Paris is the one!! I will sort out the flights. Leave it to me , I know people \ud83c\udf8a",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t006",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "leaving it to the family on this one. Adaeze what do you think?",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t007",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "I mean , Paris. As I said before. But I can see Scotland working if people find flights difficult",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t008",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "just to confirm , what are we thinking for dates? Mummy G , would May work for you?",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t009",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "May works , God willing. But I want to know the plans properly in advance , not last minute. Please do not surprise me with anything. I need to prepare \ud83d\udc9b",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f602"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t010",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Mummy G would want to know everything in advance so she can prepare properly , that is just how she feels comfortable. So let's agree a timeline early",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f607"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t011",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, as long as Grace is happy, I am happy. We do not need a big occasion. Just the children and grandchildren would be enough for me. Your father, Emeka",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f616"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t012",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Ehen! Emeka , you always say that but then you enjoy it when it happens. We are planning a proper occasion",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t013",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. I will endeavour to join for the main celebration. Dates would be helpful in advance. In His name",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t014",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted on the date request. just to say , I think whatever we decide , keeping it manageable is important. No pressure but we don't want it to become stressful",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t015",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "wait actually can I vote?? I think Scotland would be so pretty \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t016",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "I WANT TO GO SOMWHERE WITH CASTLES!! can we go to Scotland?? \ud83c\udff0\ud83c\udff0",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t017",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Okay so the plan so far: Scotland is leading. Adaeze you're okay with that? Let me just check with everyone first before we book",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t018",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "fine , I still think Paris would have been more special. But okay. Scotland. As I said though , I think a city break would have been nicer \ud83d\ude44",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f605"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t019",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh let's vote: Paris versus Scotland. I say Paris!! Who else says Paris?? \ud83c\uddeb\ud83c\uddf7",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s02_t020",
+          "session_id": "grp_f6g7h8i9_s02",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Okay so the plan is , Scotland it is. Final. I'll start looking at dates. @Adaeze @Tolu please send me your available weekends in May",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s03",
+      "session_index": 3,
+      "date_label": "Feb 5, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t001",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Right. Scotland , Edinburgh area , May 16-18. Accommodation options sent to the group. Can everyone confirm attendance by end of this week",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t002",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "confirmed!! David and I are in. Kids too obviously \ud83c\udf89",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t003",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "in!! \u2705 honestly though can we maybe have one evening that's just the siblings and kids? Not the whole extended group? Just an idea \ud83d\udc9b",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t004",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "on it. I'll confirm dates this week",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t005",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "Kunle did you see this?? \ud83d\ude02 please actually confirm this time. I'm in btw!! aww this is going to be so good",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t006",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "just to confirm , Chidi and I are in. Mummy G , we can arrange the travel from your end if you let us know what you need",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t007",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Thank you Sophia. God willing we will all be there. I just want to know the full programme in advance , not surprises please. What is the plan each day?",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t008",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people , I am in. Ehen! This is going to be a wonderful occasion. Emeka , you and Grace deserve this",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t009",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Can I just say something? \ud83d\udca1 what if we hired a private chef for the Saturday dinner? It would make the evening feel really special",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f610"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t010",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh YES!! Great idea. I will sort out the chef , I know someone in Edinburgh. Leave it to me!! \ud83c\udf7d\ufe0f",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t011",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "@Uncle Femi appreciate the offer. Let me just check with everyone first on budget before we commit. @Adaeze good idea though",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t012",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "leaving it to the family on this one. makes sense though",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t013",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted. just to say , a private chef sounds lovely but a simpler dinner can be just as special. No pressure but worth considering both options",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t014",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. I will endeavour to be there for the Saturday. In His name",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t015",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Sophia , has Kunle paid his deposit share yet? Just checking before I send the full amount",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t016",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "not to overstep but , I checked and Kunle's share hasn't come through yet. @Kunle are you sorting this week?",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f608"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t017",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "sorry I missed this. on it!! I'll transfer today. tbf I've had a crazy week with my viva prep",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t018",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Kunle!! as I said before , we needed deposits in by last week. Please just do it now \ud83d\ude05",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t019",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, let us not lose the forest for the trees. The important thing is we are all together. The rest will work out. Your father, Emeka",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s03_t020",
+          "session_id": "grp_f6g7h8i9_s03",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Emeka is right. But Kunle please sort the payment today. I have been watching this chat and worrying. Please reply so I know you have done it",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s04",
+      "session_index": 4,
+      "date_label": "Feb 19, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t001",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "How is everyone? I have not heard from Tolu in a few days. Tolu are you okay? Please reply so I know you are fine",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t002",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "Mum I'm fine!! actually , everyone , I have news. I got promoted!! head of brand at the agency. Honestly I wasn't going to say anything yet but here we are \ud83c\udf89",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t003",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "TOLU!! I knew you would!! I'm so proud of you!! \ud83e\udd79\ud83e\udd79 this is amazing!! she said she was going to tell you all this week , I am so happy for her",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f611"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t004",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "Adaeze!! I told you not to give it away!! \ud83d\ude02 yes I told her first , she's my sister, sorry everyone",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t005",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "My darling Tolu!! God has been good! I am so proud of you. Adaeze , you knew? How long have you known? \ud83d\ude02",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t006",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Tolu! That's brilliant. Well done. Okay so the plan is , we celebrate properly in Scotland \ud83e\udd42",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t007",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Ehen!! Tolu my daughter!! This is wonderful news. God is faithful. Ehen!!",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t008",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh Tolu!! Building on success!! That is what I like to see. This family is unstoppable!! \ud83c\udf8a\ud83c\udf8a speaking of which , I will definitely sort the chef for Scotland. Already on it",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t009",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "aww Tolu!!! that's so amazing!! \ud83c\udf89 Kunle did you see this??",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t010",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "yes!! congrats Tolu!! tbf I saw Adaeze's reaction before I read the message and guessed something good had happened",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t011",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "omg Aunty Tolu congrats!! \ud83c\udf89\ud83c\udf8a\u2728",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t012",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "CONGRADS AUNTY TOLU!! \ud83c\udf89\ud83c\udf89",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t013",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Tolu!! So happy for you. Mummy G , I was bursting to say something when you mentioned Tolu earlier , she told Adaeze first so we all knew it was coming \ud83d\ude0a",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t014",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "congrats Tolu. well deserved",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t015",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "aww congrats Tolu!! \ud83c\udf89 just to say , you absolutely deserve this",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t016",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "thank you all!! honestly though this family \ud83d\ude2d also , any update on Scotland logistics?",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t017",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Scotland update: venue confirmed , deposit paid by all (thanks Kunle). Programme: Friday arrival, Saturday walking + dinner, Sunday brunch and depart. @Adaeze you happy with the plan?",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t018",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "yes fine. I still think a city break would have been more special but as I said before , Scotland it is. Excited \ud83d\ude0a",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t019",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. Wonderful news Tolu. I will endeavour to arrive Saturday morning. In His name",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s04_t020",
+          "session_id": "grp_f6g7h8i9_s04",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, I am proud of you all. Tolu, this is wonderful news. God willing we celebrate together in May. Your father, Emeka",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s05",
+      "session_index": 5,
+      "date_label": "Mar 5, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t001",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Right, Scotland activities. Options: Arthur's Seat hike , Holyrood Park walk , whisky distillery tour , Pentland Hills trail. What does everyone want?",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t002",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "the distillery tour sounds amazing!! and Holyrood is manageable for everyone. Can I just say something , the Pentland Hills trail might be a lot for the older members \ud83e\udd7e",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t003",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh I say we do Arthur's Seat!! That is a proper experience!! I will lead the way!! \ud83c\udfd4\ufe0f",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t004",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people , let me say something. We should not plan anything too strenuous. Emeka should take it easy , the doctors have said to watch his pressure. Holyrood park walk is better",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f612"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t005",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Ngozi what do you mean , watch his pressure?? Emeka , are you okay?? I have not heard anything about this. Please explain. I am very worried",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t006",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, please do not worry. It is nothing serious. Ngozi should not have mentioned it here. I am fine. Your father, Emeka",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t007",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Grace , I only found out last week when Emeka called me. He did not want to worry you. It is a precaution only",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t008",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Dad , I'll call you this week. @Sophia can you check the cottage stairs situation. Okay so the plan is , we keep activities gentle. Distillery tour and Holyrood walk , no strenuous hiking",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t009",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "just to confirm , the cottage is single storey, no steep stairs. And I'll check the walk distances. Mummy G , don't worry , we'll make sure Daddy is comfortable",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t010",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Thank you Sophia. God willing he is fine. Emeka , you must tell me these things. I am your wife. Please reply so I know everything is okay",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t011",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "honestly though Dad you scared us a bit. But glad Aunty Ngozi flagged it. Holyrood walk sounds perfect \ud83d\udc9b",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t012",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "agreed. gentle activities it is. Also can we do a family photos session? Can I just say something , we haven't had proper family photos in years \ud83d\udcf8",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t013",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "tbf I think gentle activities are better anyway. I'm not really a hiker. On it for the distillery though \ud83e\udd43",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t014",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "omg family photos yes!! aww this is going to be so good \ud83d\udcf8",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t015",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "omg wait actually can I take the photos?? I've been doing photography at school \ud83d\udcf7",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t016",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "I WANT TO DO THE HIKE!! can we do the hike??",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t017",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. Emeka , your health is in God's hands. Gentle activities are wise. I will endeavour to join the walk. In His name",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t018",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "leaving it to the family on this one. gentle walk sounds good to me",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t019",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted on the activities. just to say , the distillery and Holyrood walk is a lovely combination , no pressure but we should keep the programme light. Simple often works best",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s05_t020",
+          "session_id": "grp_f6g7h8i9_s05",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "Ehhh okay okay , gentle it is. I will organise a private minibus for the group transport!! Leave it to me!! \ud83d\ude8c",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s06",
+      "session_index": 6,
+      "date_label": "Mar 19, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t001",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Budget update. Cottage: sorted. Private chef Adaeze suggested: quotes coming in at \u00a3800-1000. Group minibus Uncle Femi offered: still waiting on confirmation",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t002",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "ehhh yes , minibus. I'm looking into it. Might take a few more days",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f613"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t003",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Uncle Femi , you said you'd sort it last week. Can I just say something , we need a confirmed plan. Should we just book it ourselves?",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t004",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "I'll come back to you on this. Let me see what I can do",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t005",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "just to confirm , if Uncle Femi can't sort the minibus by this weekend, Chidi and I can book a minivan hire. Happy to do that",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t006",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "On it. @Uncle Femi just need a yes or no by Friday please. Otherwise Sophia will book the van",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t007",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people , let me say something. The private chef is a wonderful idea. Ehen! We should also arrange a proper thanksgiving service. I will speak to Pastor Emeka",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t008",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. I will endeavour to lead a short thanksgiving on Sunday morning. In His name",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t009",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "A thanksgiving , how wonderful. God willing we will all be there. I want the full programme written down , day by day. I do not like surprises with these things \ud83d\udc9b",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t010",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted. just to say , a short thanksgiving sounds really nice. Simple and meaningful",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t011",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "honestly though I hope we have some unstructured time too? Not every minute planned? \ud83d\udc9b just for people to relax and catch up properly",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t012",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "agree with Tolu on that. some breathing room would be good",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t013",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "David!! leaving it to the family I thought \ud83d\ude02 but yes fine , some free time. As I said , just as long as we have the main things confirmed",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t014",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "Kunle did you see the minibus situation?? \ud83d\ude02 aww this family",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t015",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "sorry I missed this. yes I saw. on it for my share of the chef cost. tbf the chef idea is amazing",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t016",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "omg wait actually can I have my own table?? \ud83d\ude02 the cousins table",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t017",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "CAN THE COUSINS TABLE HAVE EXTRA DESSERT??",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t018",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, I see the plans are coming together. We do not need a big occasion. Just having everyone together is enough for me. Your father, Emeka",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t019",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Dad!! we WANT to celebrate you properly. You deserve it \ud83e\udd79",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s06_t020",
+          "session_id": "grp_f6g7h8i9_s06",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Okay so the plan is: Uncle Femi confirms minibus by Friday or we book van. Chef quote approved if under \u00a3900. Thanksgiving Sunday. Free afternoon Saturday. Any objections?",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s07",
+      "session_index": 7,
+      "date_label": "Apr 2, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t001",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "just to confirm , minibus is booked by us. Uncle Femi , no worries. Chef confirmed at \u00a3850 , everyone please pay your share by next week",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t002",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "sorry for the delay. good that Sophia sorted it. I'll transfer my share",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t003",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Can I just say something? This is exactly why we need a plan. As I said before , people need to commit. Thank you Sophia \ud83d\ude4f",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t004",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Sorted. @Adaeze noted. @Kunle please confirm chef payment this week",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t005",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "on it",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t006",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "Kunle!! I am watching you \ud83d\udc40 aww but really this trip is going to be so good",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t007",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "honestly though really excited now \ud83d\udc9b can we also discuss room arrangements? I was thinking maybe Adaeze and I share , and then siblings together?",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t008",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "yes!! sibling sleepover vibes!! \ud83e\udd79 David you don't mind right?",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t009",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "of course not. leaving it to the family on this one. if everyone agrees it probably won't happen anyway \ud83d\ude04",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t010",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "David!! \ud83d\ude02",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t011",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "How is everyone? I have not heard a proper update from Chidi in days. Chidi , are you okay? Please reply so I know you are fine",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t012",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Fine Mum. Busy. On it for Scotland. Let me just check the room list and I'll send",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t013",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Mummy G , Chidi is fine , it's been a busy week at the surgery. not to overstep but , he'll be himself by Scotland",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t014",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people , the thanksgiving programme. I spoke to Pastor Emeka. Ehen! He will speak for 20 minutes Sunday morning. This is good",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t015",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. Confirmed for Sunday. Short but meaningful. I will endeavour to arrive Saturday evening. In His name",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t016",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted on Pastor Emeka. just to say , 20 minutes is a good length. Not too long",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t017",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "wait actually who is in the cousins room?? \ud83d\ude02",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t018",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "ME!! I WANT TO BE IN THE COUSINS ROOM",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t019",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "aww the cousins room!! Kunle are you coming into the cousins room?? \ud83d\ude02",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s07_t020",
+          "session_id": "grp_f6g7h8i9_s07",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "tbf yes. I'm basically a cousin anyway",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s08",
+      "session_index": 8,
+      "date_label": "Apr 9, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t001",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Final headcount. 13 confirmed, 2 TBC (Uncle Femi, Pastor Emeka). @Aunty Ngozi @Amara please confirm",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t002",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Confirmed!! Ehen! I cannot wait. My people , this is going to be a wonderful occasion",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t003",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "confirmed!! \ud83c\udf89 Kunle did you confirm?? aww I am so excited",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t004",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "sorry I missed this. yes confirmed!! on it for the final payment",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t005",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Can I just say something about the Saturday dinner? Since we have a private chef , I think we should dress up properly. Make it an occasion",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t006",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "leaving it to the family on this one. though personally I'd be just as happy in something casual. formal dinners are a lot",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f603"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t007",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "honestly though I think smart casual is a good middle ground? Not everyone loves a full formal dinner \ud83d\udc9b",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t008",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted. smart casual sounds right to me. just to say , the meal will be special regardless of what we wear",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t009",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "okay , smart casual then. As I said before , I just wanted it to feel special. Fine \ud83d\ude0a",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t010",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Mummy G , just to confirm , the schedule: Friday 3pm arrive, settle in. Saturday: 10am Holyrood walk , 1pm lunch, free time, 7pm private dinner. Sunday: 10am thanksgiving , noon brunch , depart",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t011",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Sophia thank you. This is exactly what I needed. God willing everything will be beautiful. I am so happy to have it all written down \ud83d\udc9b",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t012",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, I am looking forward to this. Just the family together is all I want. Your father, Emeka",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t013",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "confirmed!! I will be there. No more delays from me \ud83c\udf8a",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t014",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Ehen! Uncle Femi showing up properly. My people , we are going to celebrate in style",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t015",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. I will endeavour to arrive Saturday evening as planned. In His name",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t016",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "omg I'm packing already!! \ud83c\udf92\u2728",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t017",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "CAN I BRING MY SWITCH??",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t018",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "Ife you can bring your Switch but put it away during dinner \ud83d\ude02\ud83d\udc9b",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t019",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Sorted. See everyone in Edinburgh \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s08_t020",
+          "session_id": "grp_f6g7h8i9_s08",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "see everyone there!! tbf I'm actually looking forward to this",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s09",
+      "session_index": 9,
+      "date_label": "Apr 16, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t001",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "9 days!! Who is getting there when? \ud83c\udf89 Can I just say something , I'm SO excited now",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t002",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "meee!! Friday afternoon. honestly though this is going to be the best \ud83d\udc9b",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t003",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Mummy G , just to confirm , we have arranged a car from the airport for you and Daddy",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t004",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Thank you Sophia my dear. God willing we will all arrive safely. I am so happy we have a plan. I cannot wait to see everyone \ud83d\udc9b",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t005",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "My people , I am already packed. Ehen! 9 days!! This is going to be a wonderful occasion for this family",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t006",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "aww 9 days!! Kunle did you see this?? are you packed?? \ud83d\ude02",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t007",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "I will start packing this weekend. on it. tbf I just need to not forget my train ticket",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t008",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "omg Kunle \ud83d\ude02 wait actually should I bring a nice dress for the dinner?",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t009",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Nkechi YES!! Smart casual but cute!! \ud83e\udd70",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t010",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "noted on the dinner. sounds nice",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f606"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t011",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "leaving it to the family on this one. see everyone there",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t012",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "ehhh 9 days!! I am ready. I will bring a surprise for Emeka and Grace on the night!! \ud83c\udf8a",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t013",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Femi , what surprise?? I do not want surprises , please tell me what you are planning. I need to know in advance. Please reply so I know",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t014",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Femi!! My people , you know Grace does not like surprises. Tell us what it is so we can coordinate",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t015",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "okay okay , it is a small video montage of family photos I put together. Nothing dramatic \ud83d\ude04",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t016",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Oh Femi , that is so lovely. Thank you. I am relieved it is not a big surprise. God willing it will be beautiful \ud83d\udc9b",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t017",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Good. Sorted",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": true,
+          "planted_challenge_ref": "ch_f614"
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t018",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. On my way to Edinburgh Saturday. I will endeavour to be on time. In His name",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t019",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, I am ready. Just having everyone in the same room is the gift. Your father, Emeka",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s09_t020",
+          "session_id": "grp_f6g7h8i9_s09",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "this family \ud83d\ude2d\ud83d\udc9b see everyone very soon",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    },
+    {
+      "session_id": "grp_f6g7h8i9_s10",
+      "session_index": 10,
+      "date_label": "Apr 23, 2025",
+      "turns": [
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t001",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "My darlings!! That was one of the best weekends of my life. God is faithful!! I am still crying happy tears. How is everyone? I hope you all got home safely. Please reply so I know you are fine \ud83d\udc9b",
+          "timestamp": "2025-01T19:03:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t002",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Mum \ud83d\ude2d\ud83d\ude2d it was PERFECT!! Can I just say something , Scotland was the right choice. As I said before I wanted Paris but Scotland was absolutely beautiful \ud83d\ude02\ud83e\udd79",
+          "timestamp": "2025-02T19:06:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t003",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "honestly though that dinner was so good \ud83d\ude2d and the small cousins-and-siblings breakfast on Sunday? That was my favourite moment. Everything felt right \ud83d\udc9b",
+          "timestamp": "2025-03T19:09:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t004",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p09",
+          "speaker_display_name": "Aunty Ngozi",
+          "message": "Ehen!! I said it would be a wonderful occasion and it was!! My people , this family. The thanksgiving was beautiful. Pastor Emeka , you spoke so well",
+          "timestamp": "2025-04T19:12:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t005",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p14",
+          "speaker_display_name": "Pastor Emeka Jr",
+          "message": "God bless this family. What a privilege to celebrate with you. God has truly blessed the Okafor name. In His name",
+          "timestamp": "2025-05T19:15:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t006",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p03",
+          "speaker_display_name": "Chidi",
+          "message": "Great weekend. Glad it all came together. Let me just check if there are any outstanding payments and I'll send a summary",
+          "timestamp": "2025-06T19:18:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t007",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "Mummy G so happy to see you so happy \ud83d\udc9b Daddy Emeka , I hope the walk wasn't too much?",
+          "timestamp": "2025-07T19:21:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t008",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p01",
+          "speaker_display_name": "Emeka",
+          "message": "My children, I am so proud of this family. The walk was perfect. I did not need anything more than this. Your father, Emeka",
+          "timestamp": "2025-08T19:24:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t009",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "that was incredible. sorry I missed the first part of the walk. on it for any outstanding payment. tbf that thanksgiving actually moved me",
+          "timestamp": "2025-09T19:27:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t010",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p10",
+          "speaker_display_name": "Uncle Femi",
+          "message": "ehhh what a weekend!! The video montage went down well I think \ud83d\ude04 more of this family",
+          "timestamp": "2025-10T19:30:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t011",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p13",
+          "speaker_display_name": "Amara",
+          "message": "aww I cried at the video!! Kunle you were literally crying \ud83d\ude02",
+          "timestamp": "2025-11T19:33:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t012",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p06",
+          "speaker_display_name": "Kunle",
+          "message": "tbf I was not crying I had something in my eye",
+          "timestamp": "2025-12T19:36:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t013",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p11",
+          "speaker_display_name": "Nkechi",
+          "message": "omg my photos came out SO GOOD!! wait actually can I share them here??",
+          "timestamp": "2025-13T19:39:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t014",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p12",
+          "speaker_display_name": "Ife",
+          "message": "THE COUSINS TABLE WAS THE BEST TABLE \ud83c\udfc6\ud83c\udfc6",
+          "timestamp": "2025-14T19:42:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t015",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p08",
+          "speaker_display_name": "David",
+          "message": "good weekend. really good. well organised Chidi, Sophia, everyone",
+          "timestamp": "2025-15T19:45:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t016",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p15",
+          "speaker_display_name": "Zara",
+          "message": "just to say , the dinner was lovely. And the walk was exactly the right pace. Really glad it was kept simple",
+          "timestamp": "2025-16T19:48:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t017",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p04",
+          "speaker_display_name": "Adaeze",
+          "message": "Nkechi yes share them!! \ud83d\udcf8 and yes David I agree , really well done to everyone who organised. Can I just say something , Sophia and Chidi carried this",
+          "timestamp": "2025-17T19:51:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t018",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p07",
+          "speaker_display_name": "Sophia",
+          "message": "just to confirm , everyone home safe. Mummy G hope you and Daddy are resting. In His name  ,  that's for Pastor Emeka but honestly it applies \ud83d\ude0a",
+          "timestamp": "2025-18T19:54:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t019",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p05",
+          "speaker_display_name": "Tolu",
+          "message": "this family honestly \ud83d\ude2d\ud83d\udc9b same time next year? honestly though maybe a slightly smaller group next time \ud83d\ude02",
+          "timestamp": "2025-19T19:57:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        },
+        {
+          "turn_id": "grp_f6g7h8i9_s10_t020",
+          "session_id": "grp_f6g7h8i9_s10",
+          "speaker_persona_id": "grp_f6g7h8i9_p02",
+          "speaker_display_name": "Grace",
+          "message": "Same time next year , God willing!! How is everyone? I already miss you all. This has been the best gift. \ud83d\udc9b\ud83d\udc9b",
+          "timestamp": "2025-20T19:60:00",
+          "is_planted": false,
+          "planted_challenge_ref": null
+        }
+      ]
+    }
+  ],
+  "planted_challenge_index": [
+    {
+      "challenge_id": "ch_f601",
+      "session_id": "grp_f6g7h8i9_s01",
+      "session_index": 1,
+      "turn_id": "grp_f6g7h8i9_s01_t018"
+    },
+    {
+      "challenge_id": "ch_f609",
+      "session_id": "grp_f6g7h8i9_s01",
+      "session_index": 1,
+      "turn_id": "grp_f6g7h8i9_s01_t019"
+    },
+    {
+      "challenge_id": "ch_f602",
+      "session_id": "grp_f6g7h8i9_s02",
+      "session_index": 2,
+      "turn_id": "grp_f6g7h8i9_s02_t009"
+    },
+    {
+      "challenge_id": "ch_f607",
+      "session_id": "grp_f6g7h8i9_s02",
+      "session_index": 2,
+      "turn_id": "grp_f6g7h8i9_s02_t010"
+    },
+    {
+      "challenge_id": "ch_f616",
+      "session_id": "grp_f6g7h8i9_s02",
+      "session_index": 2,
+      "turn_id": "grp_f6g7h8i9_s02_t011"
+    },
+    {
+      "challenge_id": "ch_f605",
+      "session_id": "grp_f6g7h8i9_s02",
+      "session_index": 2,
+      "turn_id": "grp_f6g7h8i9_s02_t018"
+    },
+    {
+      "challenge_id": "ch_f610",
+      "session_id": "grp_f6g7h8i9_s03",
+      "session_index": 3,
+      "turn_id": "grp_f6g7h8i9_s03_t009"
+    },
+    {
+      "challenge_id": "ch_f608",
+      "session_id": "grp_f6g7h8i9_s03",
+      "session_index": 3,
+      "turn_id": "grp_f6g7h8i9_s03_t016"
+    },
+    {
+      "challenge_id": "ch_f611",
+      "session_id": "grp_f6g7h8i9_s04",
+      "session_index": 4,
+      "turn_id": "grp_f6g7h8i9_s04_t003"
+    },
+    {
+      "challenge_id": "ch_f612",
+      "session_id": "grp_f6g7h8i9_s05",
+      "session_index": 5,
+      "turn_id": "grp_f6g7h8i9_s05_t004"
+    },
+    {
+      "challenge_id": "ch_f613",
+      "session_id": "grp_f6g7h8i9_s06",
+      "session_index": 6,
+      "turn_id": "grp_f6g7h8i9_s06_t002"
+    },
+    {
+      "challenge_id": "ch_f603",
+      "session_id": "grp_f6g7h8i9_s08",
+      "session_index": 8,
+      "turn_id": "grp_f6g7h8i9_s08_t006"
+    },
+    {
+      "challenge_id": "ch_f606",
+      "session_id": "grp_f6g7h8i9_s09",
+      "session_index": 9,
+      "turn_id": "grp_f6g7h8i9_s09_t010"
+    },
+    {
+      "challenge_id": "ch_f614",
+      "session_id": "grp_f6g7h8i9_s09",
+      "session_index": 9,
+      "turn_id": "grp_f6g7h8i9_s09_t017"
+    }
+  ]
+}

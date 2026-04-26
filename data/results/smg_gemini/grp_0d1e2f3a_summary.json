@@ -1,0 +1,51 @@
+{
+  "network_id": "grp_0d1e2f3a",
+  "condition": "smg_gemini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-11T00:30:37.429758+00:00",
+  "sessions_used": 5,
+  "total_pairs": 6,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.517,
+  "mean_context_words": 847.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 0.6
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q5_c0s4c1",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the quote 'group unpacking no' to Priya. This is a critical error as per Rule 2, which states that attributing a fact to the wrong person always results in a score \u2264 0.3."
+    },
+    {
+      "qa_id": "Q6_c0s5c1",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    }
+  ]
+}

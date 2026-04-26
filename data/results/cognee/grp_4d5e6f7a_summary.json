@@ -1,60 +1,89 @@
 {
   "network_id": "grp_4d5e6f7a",
   "condition": "cognee",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:54:20.203919+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:44:48.206588+00:00",
   "sessions_used": 5,
   "total_pairs": 9,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.456,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.0,
+  "mean_context_words": 43.0,
   "by_query_type": {
     "Q1": {
       "count": 2,
-      "mean_score": 0.25
-    },
-    "Q8": {
-      "count": 4,
-      "mean_score": 0.425
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.6
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.3
+      "mean_score": 0.0
     },
     "Q4": {
       "count": 1,
-      "mean_score": 1.0
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_v4s1c1",
       "query_type": "Q1",
-      "score": 0.1
+      "score": 0.0,
+      "rationale": "The generated answer directly contradicts the gold answer regarding Nneka's preference for attending record fairs. The gold answer states she prefers to go alone, while the generated answer claims she prefers a 'social manner' and 'values interaction with others.'"
     },
     {
       "qa_id": "Q1_v4s3c3",
       "query_type": "Q1",
-      "score": 0.4
+      "score": 0.0,
+      "rationale": "The generated answer completely misidentifies Nneka's collecting focus, stating 'artwork, books, or souvenirs' instead of 'soul and gospel music from the 1960s\u201370s' as described in the gold answer."
+    },
+    {
+      "qa_id": "Q4_v4s1c2",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
     },
     {
       "qa_id": "Q8_v4s2c1",
       "query_type": "Q8",
-      "score": 0.4
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the shift as focusing on quality and rarity, whereas the gold answer correctly states the shift was from no budget to a self-imposed spending limit due to overspending."
+    },
+    {
+      "qa_id": "Q8_v4s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The gold answer clearly states Theo's position changed over time, while the generated answer claims it is 'unclear,' directly contradicting the fact."
+    },
+    {
+      "qa_id": "Q8_v4s3c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes Preet's initial relationship with records as 'nostalgic and emotional attachment' and attributes the change to 'discussions on the significance and accessibility of music in digital formats,' neither of which aligns with the gold answer's description of Preet's aesthetic interest and the specific trigger of finding a Brazilian compilation."
     },
     {
       "qa_id": "Q8_v4s4c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules, as the gold answer provides a clear and detailed explanation of Gil's changed approach."
+    },
+    {
+      "qa_id": "Q5_v4s4c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer cites an incorrect piece of evidence (Preet mentioning an expensive handbag) to demonstrate Preet's knowledge, which contradicts the gold answer's specific evidence (Preet recalling Rashida's previous budget promise and observing her at the fair)."
     },
     {
       "qa_id": "Q7_v4s5c1",
       "query_type": "Q7",
-      "score": 0.3
+      "score": 0.0,
+      "rationale": "The generated answer is entirely generic and speculative, failing to provide any specific factual details about the relationship between Rashida and Preet. It does not align with any of the specific claims or evidence presented in the gold answer."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,0 +1,149 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T22:06:50.212350+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.312,
+  "mean_context_words": 131.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.2
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.55
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.075
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets the significance of the 47% loss rate. The gold answer correctly identifies that Derek *disputes* this statistic, which is the key evidence for his competitiveness and close tracking of performance. The generated answer presents the 47% as a simple fact and then draws a conclusion about resilience, completely missing the crucial interaction where Derek challenges the number, which is central to the gold answer's argument about his competitive nature."
+    },
+    {
+      "qa_id": "Q1_a1b2c302",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer completely misinterprets the question, discussing Soo-Yeon's preferences for a clean gaming environment based on Azul's design, rather than her pattern and preferences regarding food choices as detailed in the gold answer."
+    },
+    {
+      "qa_id": "Q1_a1b2c305",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_a1b2c301",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Marcus's attitude is unclear and fails to identify the correct observable action or even the correct topic (intrigue deck vs. bird feeder die/variance) that demonstrates Lena's prior knowledge."
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Soo-Yeon has a positive relationship with real-time games, directly contradicting the gold answer that she finds them overwhelming. Consequently, the explanation for Priya's prior knowledge is also incorrect and misses the key evidence provided in the gold answer."
+    },
+    {
+      "qa_id": "Q5_a1b2c303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides generic observations about collaboration and support that could apply to any two active group members, failing to identify the specific evidence from the conversations that reveals a closer-than-average or intimate relationship between Lena and Priya, as detailed in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c302",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly attributes the observation about Kezia and Felix bringing a 'different energy' to Felix, when only Raj made that observation. This is a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_a1b2c301",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the shift in Priya's relationship to competitive board games and completely misidentifies the trigger. The gold answer correctly identifies the shift from aesthetic enjoyment to caring about winning, triggered by winning a game."
+    },
+    {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the trigger for Kezia's shift (Tomasz walking her through Terra Mystica). However, its description of the 'earlier state' is inaccurate, describing a state during the transition rather than the initial preference for light games. The 'current state' is also too vague compared to the specific examples in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the softening of Marcus's preference to his appreciation for Brass Birmingham, which is a pure-strategy game that aligns with his original preference, not a reason for softening it. The actual trigger and signal for the shift are completely missed and replaced with a contradictory explanation."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Lena's earlier belief is unclear, misidentifies the trigger for the shift, and fails to capture the actual moment of change and evolved state as described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a1b2c305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Soo-Yeon agreed to try Fuse as a warm-up and claims her post-game response is unclear, directly contradicting the gold answer which provides specific details about her reasoning and her surprise after playing."
+    },
+    {
+      "qa_id": "Q8_a1b2c306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer completely misunderstands the question's topic, discussing Tomasz's preference for Dune factions instead of his approach to house rules."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer identifies a different behavioral change (suggesting a lighter game) and a different signal of awareness than the gold answer, which focuses on Derek's rematch-seeking pattern and his acknowledgment of it."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's old and new preferences regarding abstract games, but completely misidentifies the trigger for the change. The gold answer states the trigger was Soo-Yeon's reframing of Azul, while the generated answer incorrectly attributes it to Felix's own explanation of Oath's mechanics, which is a factual error regarding the cause of the change."
+    }
+  ]
+}

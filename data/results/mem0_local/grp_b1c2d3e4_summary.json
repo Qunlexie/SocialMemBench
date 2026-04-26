@@ -1,0 +1,133 @@
+{
+  "network_id": "grp_b1c2d3e4",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-18T15:04:51.745109+00:00",
+  "sessions_used": 12,
+  "total_pairs": 21,
+  "new_pairs_this_run": 21,
+  "mean_score": 0.305,
+  "mean_context_words": 128.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.48
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.117
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b1c2d3e401",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Greg's preference to knee concerns, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e404",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer identifies that running is significant to Nkechi and mentions its impact on her mental state, but it lacks specific details from her comment and does not capture the psychological outlet aspect or the self-awareness she expresses."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e405",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Miriam's discomfort with race atmospheres and her preference for quieter runs, but it does not accurately attribute her specific comments or the context of her attendance as a spectator."
+    },
+    {
+      "qa_id": "Q2_b1c2d3e401",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the decision to Bernard and mentions dissent from Miriam, which does not match the gold answer's details about the decision and dissenting member."
+    },
+    {
+      "qa_id": "Q5_b1c2d3e401",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's concern but attributes Fatima's knowledge incorrectly, as it does not mention the specific phrase that indicates prior knowledge."
+    },
+    {
+      "qa_id": "Q5_b1c2d3e402",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tasha's original attitude and fails to provide the correct evidence from Helen's comment, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the co-founding relationship between Marcus and Greg and instead focuses on their planning for a trip, which is not relevant to the question."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e402",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the relationship, suggesting it is supportive rather than a pre-existing training partnership with a coaching role."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e403",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the core fact about Ravi's relationship with Owen and Joel and instead focuses on unrelated aspects, leading to a lack of relevant information."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e404",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes the relationship as supportive, while the gold answer highlights a competitive dynamic."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e401",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in training volume to a hamstring flare without mentioning the specific speed session flare as the trigger, and it also misstates the mileage as 30 instead of 32."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sonia's change in relationship to trail running to cheering club members instead of the Parkfield trail sessions, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e404",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Tasha's old preference as focusing on tracking performance times, while the gold answer correctly identifies it as a preference for a process-oriented approach."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e405",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's change in attitude to training with Fatima before she joined the club, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e406",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Chloe's earlier attitude as excitement about participating in trail runs, which contradicts the gold answer's description of her dismissive attitude toward injury concerns."
+    }
+  ]
+}

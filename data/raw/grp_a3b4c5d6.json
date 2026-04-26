@@ -1,0 +1,609 @@
+{
+  "network_id": "grp_a3b4c5d6",
+  "group_name": "The Darkroom Collective",
+  "group_type": "interest_community",
+  "group_size": 9,
+  "seed": 20,
+  "personas": [
+    {
+      "persona_id": "p_d1e2f3a4",
+      "display_name": "Nora",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Gallery assistant and photography educator",
+      "background": "Runs evening workshops at a community arts centre and works part-time at a photography gallery. Has been the informal anchor of the collective for three years — organises the group calendar, books darkroom slots, and is the first contact for new members. Shoots medium format almost exclusively.",
+      "skills_list": [
+        {"skill": "medium format photography", "proficiency": "strong"},
+        {"skill": "darkroom printing (black and white)", "proficiency": "strong"},
+        {"skill": "analogue photo critique", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "always eats before darkroom sessions and brings shared snacks unprompted — dislikes shooting on an empty stomach", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers methodical, unhurried darkroom sessions — gets visibly tense when members rush or skip fixing times", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers small critique groups of 3–4 over full group showings, finds large group critique unfocused", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "strongly gravitates toward medium format — gently steers planning discussions toward 120 film shoots", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "aesthetics",
+          "attribute": "lo_fi_film_stock_stance",
+          "old_value": "dismissive of lo-fi and toy camera aesthetics — sees them as technically undisciplined",
+          "new_value": "accepts lo-fi work as a legitimate approach when used with intention",
+          "changed_at_session": 4,
+          "trigger": "Sol's lo-fi pinhole series received strong outside-group praise; Nora acknowledged during the critique that the work had more intent than she had assumed"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'technically speaking' before any gear or process correction",
+        "ends organisational messages with the date and time bolded as a plain string ('next session: Saturday the 22nd, 10am')",
+        "responds to praise about her own work with a self-deprecating qualifier ('still not happy with the shadows on that one')"
+      ],
+      "participation_rate": 0.95
+    },
+    {
+      "persona_id": "p_e2f3a4b5",
+      "display_name": "Bex",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Barista and part-time photography assistant",
+      "background": "Started shooting film 18 months ago after a disposable camera phase. Was brought in by Nora after showing up to an open workshop. Very active in the chat — shares references, asks questions, hypes others. Aspires to shoot medium format but is still building skills on 35mm.",
+      "skills_list": [
+        {"skill": "35mm film photography", "proficiency": "medium"},
+        {"skill": "experimental double-exposure and expired film", "proficiency": "medium"},
+        {"skill": "social media visual curation", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always brings coffee drinks to sessions for the group — has never arrived empty-handed", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "strongly prefers experimentation over technical precision — will shoot expired film, try random developers, double expose deliberately", "confidence": "High", "implicit": true}],
+        "social": [{"value": "messages between sessions daily — shares found images, references, and process shots constantly", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "treats camera gear aspirationally — constantly researching her next upgrade, currently fixated on medium format", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "practice",
+          "attribute": "primary_camera_format",
+          "old_value": "uses disposable cameras and cheap toy cameras almost exclusively",
+          "new_value": "committed to a fixed-lens 35mm camera as primary tool",
+          "changed_at_session": 3,
+          "trigger": "Nora lent her a Canonet for a session and the resulting roll was the best she had produced — she bought her own the following week"
+        }
+      ],
+      "speaking_quirks": [
+        "starts reaction messages with 'okay but' before the compliment ('okay but this shot is EVERYTHING')",
+        "uses 'low-key' as a modifier to soften strong opinions ('low-key think this is your best roll ever')",
+        "asks questions in clusters — three in one message rather than one at a time"
+      ],
+      "participation_rate": 0.90
+    },
+    {
+      "persona_id": "p_f3a4b5c6",
+      "display_name": "Otto",
+      "age": 45,
+      "gender": "male",
+      "occupation": "Secondary school art teacher",
+      "background": "Has been shooting film for 22 years. Was a founding member of the collective. Technically rigorous, slightly conservative about methodology — sceptical of anything that looks like a shortcut. Has a strong teaching instinct that occasionally becomes unsolicited instruction.",
+      "skills_list": [
+        {"skill": "film photography (35mm and medium format)", "proficiency": "strong"},
+        {"skill": "darkroom chemistry and printing", "proficiency": "strong"},
+        {"skill": "photo teaching and structured critique", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "does not eat during darkroom sessions — professional habit from teaching; treats it as a clean workspace rule", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "strongly prefers traditional darkroom printing over digital scanning — finds scanner output a compromise", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes the chat being used to share reference images or external work — believes it should only be for collective members' own work", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "shoots almost exclusively Kodak Tri-X and Ilford HP5 — sceptical of boutique and obscure film stocks", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "aesthetics",
+          "attribute": "colour_darkroom_stance",
+          "old_value": "dismissive of colour darkroom work — considers the process fussy and the results rarely worth it",
+          "new_value": "acknowledges colour darkroom printing as technically valid and sometimes compelling",
+          "changed_at_session": 5,
+          "trigger": "Yuki produced a series of colour darkroom prints that Otto called 'the most controlled colour work I have seen from this group' during critique"
+        }
+      ],
+      "speaking_quirks": [
+        "prefaces corrections with 'the thing people miss about this is...'",
+        "uses 'in my experience' before any opinion he wants to carry weight",
+        "refers to film stocks by their full technical name ('Kodak Tri-X 400' not just 'Tri-X')"
+      ],
+      "participation_rate": 0.82
+    },
+    {
+      "persona_id": "p_a4b5c6d7",
+      "display_name": "Yuki",
+      "age": 33,
+      "gender": "non-binary",
+      "occupation": "Senior UX designer",
+      "background": "Shoots film as a deliberate counterweight to their digital design work. Very aesthetically precise — spends more time looking at a scene than shooting it. Joined the collective two years ago via a gallery opening where they met Nora. Their work is methodical and tends to divide the group.",
+      "skills_list": [
+        {"skill": "35mm film photography (black and white)", "proficiency": "strong"},
+        {"skill": "colour darkroom printing", "proficiency": "medium"},
+        {"skill": "visual composition and spatial analysis", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [{"value": "brings their own tea to every session in a thermos — politely declines everything else without explaining", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "very deliberate shooter — caps themselves at one or two rolls per session; becomes visibly uncomfortable watching rapid spray-and-pray shooting", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers written critique over verbal group discussion — always submits notes after sessions rather than speaking live", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "aesthetic focus on grain structure — deliberately chooses high ISO films for the texture rather than despite it", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "practice",
+          "attribute": "colour_film_use",
+          "old_value": "shoots exclusively in black and white — treats colour as aesthetically imprecise",
+          "new_value": "has begun experimenting with colour negative film for selected projects",
+          "changed_at_session": 4,
+          "trigger": "Margot's recent colour roll during the street photography session surprised Yuki — they commented that the palette had a restraint they had not expected from colour work"
+        }
+      ],
+      "speaking_quirks": [
+        "refers to images by their geometric properties rather than subject ('the triangulation in the lower third is unresolved')",
+        "starts critique with 'my read on this is...' to frame it as interpretation rather than verdict",
+        "uses silence — often the last to respond in a thread, then gives the most considered reply"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_b5c6d7e8",
+      "display_name": "Callum",
+      "age": 29,
+      "gender": "male",
+      "occupation": "Postgraduate geography researcher",
+      "background": "Shoots film alongside fieldwork. Homebrews his own developer and DIYs camera repairs on a tight budget. Brought several newer members into the group including Sol. Resourceful and sometimes pushy about making the collective more DIY-oriented and less reliant on the commercial darkroom.",
+      "skills_list": [
+        {"skill": "film development (home darkroom)", "proficiency": "strong"},
+        {"skill": "DIY camera maintenance and repair", "proficiency": "medium"},
+        {"skill": "documentary and landscape photography", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "always asks if there's leftover food from previous sessions — never brings his own", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "strongly prefers developing at home over the collective's darkroom — finds group darkroom sessions inefficient", "confidence": "High", "implicit": true}],
+        "social": [{"value": "brings guests without much warning — has introduced three new members this way, two of whom joined", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "budget-maximalist — always finds the cheapest effective option and advocates for it loudly, sometimes to others' frustration", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "community",
+          "attribute": "collective_space_stance",
+          "old_value": "pushing for the collective to move away from the rented darkroom toward a fully self-organised model",
+          "new_value": "accepts that the collective space has irreplaceable social and logistical value",
+          "changed_at_session": 3,
+          "trigger": "a session he ran from his flat had poor turnout and multiple complaints about the cramped conditions; the following session in the darkroom had the highest attendance of the year"
+        }
+      ],
+      "speaking_quirks": [
+        "references cost per frame when evaluating any gear or process decision",
+        "uses 'genuinely' as an intensifier before opinions he feels are underappreciated ('genuinely the most underrated developer out there')",
+        "signs off with 'lmk' on any message that requires a response"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_c6d7e8f9",
+      "display_name": "Priya",
+      "age": 40,
+      "gender": "female",
+      "occupation": "Architect",
+      "background": "Shoots architectural and urban landscape film photography as a counterpoint to her digital work. Technically precise and compositionally rigorous. Joined the collective through a contact at Nora's gallery. Has a preference for large prints that sometimes creates friction over the collective's shared printing budget.",
+      "skills_list": [
+        {"skill": "architectural and urban photography", "proficiency": "strong"},
+        {"skill": "large format darkroom printing", "proficiency": "medium"},
+        {"skill": "spatial composition and perspective", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "vegan — never announces it but declines non-vegan food at events with 'I'm fine, thank you'", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "strongly prefers planned shoots with clear compositional goals over open exploratory sessions", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers written asynchronous critique over live verbal discussion — submits responses after studying images at home", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "judges prints by size — finds small prints frustrating and tends to comment that 'it needs room to breathe'", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "aesthetics",
+          "attribute": "compositional_approach",
+          "old_value": "produces tightly controlled purely architectural frames with no human presence",
+          "new_value": "deliberately incorporating human figures to introduce scale and narrative",
+          "changed_at_session": 5,
+          "trigger": "a Fen documentary piece shown at session 4 made Priya comment that she had 'always thought of people as compositional interruptions' — she arrived at session 5 with a roll that featured figures throughout"
+        }
+      ],
+      "speaking_quirks": [
+        "describes images in architectural language ('the negative space is load-bearing here')",
+        "qualifies opinions with 'from a compositional standpoint'",
+        "sends a single message per topic with no follow-up unless directly asked"
+      ],
+      "participation_rate": 0.80
+    },
+    {
+      "persona_id": "p_d7e8f9a0",
+      "display_name": "Sol",
+      "age": 22,
+      "gender": "non-binary",
+      "occupation": "Fine art undergraduate student",
+      "background": "The youngest member, brought in by Callum after a student exhibition. Shoots everything — 35mm, medium format, pinhole, phone, video. No aesthetic loyalty. Their work polarises the group. Has the highest energy and the lowest punctuality in the collective.",
+      "skills_list": [
+        {"skill": "alternative and experimental photographic processes", "proficiency": "strong"},
+        {"skill": "pinhole and camera-less photography", "proficiency": "medium"},
+        {"skill": "mixed media and cross-process work", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always arrives late and without food — has been known to take Bex's coffee without asking", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "prefers completely unstructured experimental sessions with no assignment or brief — chafes at themed shoots", "confidence": "High", "implicit": true}],
+        "social": [{"value": "overshares process — posts half-developed ideas and behind-the-scenes images in the group chat constantly", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "no aesthetic loyalty to any format or process — switches between pinhole, 35mm, phone, and video within a single session", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "practice",
+          "attribute": "work_accessibility",
+          "old_value": "produces highly abstract work that consistently confuses the group during critique",
+          "new_value": "includes a brief written statement with experimental work to give entry points for critique",
+          "changed_at_session": 4,
+          "trigger": "group critique in session 3 stalled entirely on one of Sol's pieces — Nora asked for context and Sol realised the gap; they arrived at session 4 with a handwritten note for each print"
+        }
+      ],
+      "speaking_quirks": [
+        "starts sentences mid-thought as if continuing a conversation ('anyway so the point is—')",
+        "uses 'lowkey' and 'highkey' interchangeably and incorrectly",
+        "tags multiple people in the same message to loop everyone into side conversations"
+      ],
+      "participation_rate": 0.70
+    },
+    {
+      "persona_id": "p_e8f9a0b1",
+      "display_name": "Margot",
+      "age": 52,
+      "gender": "female",
+      "occupation": "Recently retired librarian",
+      "background": "Retired two years ago and joined the collective after an evening darkroom workshop ran by Nora. Has been shooting street photography seriously since retirement. Old-school sensibility — her work is quiet, precise, and frequently the most cohesive in the group. Strong resistance to digital workflow as a matter of principle.",
+      "skills_list": [
+        {"skill": "street photography", "proficiency": "strong"},
+        {"skill": "darkroom silver gelatin printing", "proficiency": "strong"},
+        {"skill": "photographic archiving and cataloguing", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "brings homemade baked goods to every session without exception — has never arrived empty-handed", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "strictly street photography — grows uncomfortable when the group discusses staged or studio-controlled compositions", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers in-person critique over chat-based image sharing — rarely responds to images posted digitally", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "resists the digital scanning workflow — only shares prints in person or by post; has never uploaded a scan to the group", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "workflow",
+          "attribute": "digital_scanning_stance",
+          "old_value": "categorically refuses any digital workflow — considers scanning a betrayal of analogue process",
+          "new_value": "accepts scanning as valid for group circulation and online sharing, though does not practise it herself",
+          "changed_at_session": 6,
+          "trigger": "Nora explained that two members had been unable to attend sessions and scanning was the only way for them to participate in critique; Margot said 'I suppose that's different' and dropped the objection"
+        }
+      ],
+      "speaking_quirks": [
+        "refers to photographers by surname only ('a Cartier-Bresson move', 'very Vivian Maier')",
+        "uses 'I rather think' before opinions she considers underappreciated",
+        "responds to images posted in the chat with a single word of precise description ('Quiet.' or 'Busy.')"
+      ],
+      "participation_rate": 0.82
+    },
+    {
+      "persona_id": "p_f9a0b1c2",
+      "display_name": "Fen",
+      "age": 36,
+      "gender": "female",
+      "occupation": "Freelance photojournalist",
+      "background": "Based locally but travels frequently for commissions. Sporadic collective presence — sometimes absent for two sessions running, then fully engaged for a run of weeks. Documentary and social photography focus. Brings a more politically grounded perspective to critique that others sometimes find confrontational.",
+      "skills_list": [
+        {"skill": "documentary and social photography", "proficiency": "strong"},
+        {"skill": "photojournalism and editorial editing", "proficiency": "strong"},
+        {"skill": "darkroom printing under deadline", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "sporadic attendance means she often misses food coordination — tends to arrive and improvise", "confidence": "Medium", "implicit": true}],
+        "activities": [{"value": "dislikes photography that has no social function or intent — finds purely aesthetic work uninteresting to critique", "confidence": "High", "implicit": true}],
+        "social": [{"value": "drops into chat threads late, catches up quickly, and makes a point without much preamble", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "raises photographic ethics unprompted during critique — particularly around photographing vulnerable or unaware subjects", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "practice",
+          "attribute": "collaborative_work",
+          "old_value": "works exclusively solo — does not collaborate on projects",
+          "new_value": "pursuing a collaborative documentary project with Callum on a local housing story",
+          "changed_at_session": 4,
+          "trigger": "Callum pitched the housing story during session 3 and Fen said 'if you actually go through with it, I'm in' — he sent her a draft at the start of session 4 and she committed"
+        }
+      ],
+      "speaking_quirks": [
+        "opens critique with 'what's the image asking of the viewer?' as a framing question",
+        "references field context unprompted ('I was shooting in Marseille last month and...')",
+        "uses 'arguably' before any point she expects pushback on"
+      ],
+      "participation_rate": 0.72
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_d1e2f3a4",
+      "persona_b_id": "p_f3a4b5c6",
+      "relationship_type": "founding members with competing methodologies",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Both have been central to the collective from the beginning. Deep mutual respect for each other's technical knowledge but recurring tension around openness to new approaches — Nora is more inclusive, Otto more conservative. Disagreements surface during critique and in discussions about what counts as valid collective work.",
+      "shared_events": ["collective founding", "first exhibition", "three years of joint session planning"]
+    },
+    {
+      "persona_a_id": "p_d1e2f3a4",
+      "persona_b_id": "p_e2f3a4b5",
+      "relationship_type": "informal mentor and mentee",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Nora brought Bex in after an open workshop and has guided her development. Bex is one of the few members Nora gives one-on-one feedback to outside sessions. Nora finds Bex's enthusiasm a counterweight to some of the group's more entrenched attitudes.",
+      "shared_events": ["open workshop where Bex first appeared", "several joint sessions", "Nora lending Bex the Canonet"]
+    },
+    {
+      "persona_a_id": "p_d1e2f3a4",
+      "persona_b_id": "p_a4b5c6d7",
+      "relationship_type": "aesthetically aligned peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Met at a gallery opening two years ago. Share an appreciation for deliberate, considered work. Rarely disagree in critique but operate in different registers — Yuki is more formal and withdrawn, Nora warmer and more facilitative.",
+      "shared_events": ["gallery opening introduction", "joint critique sessions", "medium format shoot day"]
+    },
+    {
+      "persona_a_id": "p_f3a4b5c6",
+      "persona_b_id": "p_e8f9a0b1",
+      "relationship_type": "analogue purists",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Bond over a shared commitment to traditional process. Otto was the first to praise Margot's prints publicly in a session and she has respected him since. They are the most resistant pair when digital workflow or experimental approaches come up.",
+      "shared_events": ["first session Margot attended", "shared resistance to scanning workflow thread", "Otto's printing demonstration"]
+    },
+    {
+      "persona_a_id": "p_e2f3a4b5",
+      "persona_b_id": "p_d7e8f9a0",
+      "relationship_type": "energy-matched experimenters",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Mutual enthusiasm for experimental work. Bex admires Sol's fearlessness and Sol appreciates that Bex hypes their work without reservation. The most active pair in the chat between sessions.",
+      "shared_events": ["Sol's first session", "several experimental joint shoots", "double-exposure collaboration attempt"]
+    },
+    {
+      "persona_a_id": "p_a4b5c6d7",
+      "persona_b_id": "p_c6d7e8f9",
+      "relationship_type": "precision-oriented peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Share technical rigour and a preference for deliberate composition. Disagree on subject matter — Yuki prefers texture and abstraction, Priya prefers structure and form — but find each other's critique useful.",
+      "shared_events": ["urban shoot day", "shared critique of each other's architecture series", "joint written critique session"]
+    },
+    {
+      "persona_a_id": "p_b5c6d7e8",
+      "persona_b_id": "p_f9a0b1c2",
+      "relationship_type": "documentary collaborators",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Started a collaborative housing documentary project after session 3. Callum pitched it; Fen committed when she saw he was serious. Early stages are tense around methodology but both want it to work.",
+      "shared_events": ["session 3 pitch", "first joint field session", "collective presentation of early work"]
+    },
+    {
+      "persona_a_id": "p_b5c6d7e8",
+      "persona_b_id": "p_d7e8f9a0",
+      "relationship_type": "introducer and introduced — now occasionally at odds",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Callum brought Sol into the group. Initially supportive but Callum has grown frustrated with Sol's unreliability and finds their work increasingly inaccessible. Still friendly but the dynamic has shifted.",
+      "shared_events": ["Sol's introduction to the group", "shared experimental session", "recurring late arrivals from Sol"]
+    },
+    {
+      "persona_a_id": "p_e8f9a0b1",
+      "persona_b_id": "p_f9a0b1c2",
+      "relationship_type": "generational parallel with limited contact",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Both shoot documentary and people-focused work but have rarely engaged directly. Margot's quietness and Fen's sporadic presence means they have crossed paths at sessions without forming a connection.",
+      "shared_events": ["two overlapping sessions", "one shared critique of a documentary roll"]
+    },
+    {
+      "persona_a_id": "p_f3a4b5c6",
+      "persona_b_id": "p_c6d7e8f9",
+      "relationship_type": "polite non-starters",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Rarely address each other directly. Otto's verbose teaching style and Priya's preference for concise written critique mean their contributions rarely interact. Mutual respect without connection.",
+      "shared_events": ["shared sessions", "group critique of Priya's architectural series"]
+    },
+    {
+      "persona_a_id": "p_a4b5c6d7",
+      "persona_b_id": "p_d7e8f9a0",
+      "relationship_type": "aesthetic opposites",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Yuki's precision and Sol's chaos sit at opposite ends of the collective's approach spectrum. They do not argue but Yuki's written critiques of Sol's work tend toward diplomatic bafflement. Sol respects Yuki's eye without understanding their process.",
+      "shared_events": ["shared group critiques", "Sol's pinhole presentation"]
+    },
+    {
+      "persona_a_id": "p_d1e2f3a4",
+      "persona_b_id": "p_f9a0b1c2",
+      "relationship_type": "purposeful peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both value intentionality in photography. Fen's ethical framing and Nora's methodological care put them on the same side of most collective debates. Nora often calls on Fen's perspective when she's present.",
+      "shared_events": ["ethics in photography discussion session", "joint planning of documentary-focused shoot brief"]
+    },
+    {
+      "persona_a_id": "p_e2f3a4b5",
+      "persona_b_id": "p_b5c6d7e8",
+      "relationship_type": "budget-conscious experimenters",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both appreciate low-cost experimental approaches. Callum supplies Bex with homebrew developer occasionally. Bex enthusiastically promotes Callum's DIY tips to the group even when others are not interested.",
+      "shared_events": ["homebrew developer session", "Callum's DIY camera repair talk", "shared expired film shoot"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Images shared in the group chat should be your own work — save reference images and inspiration links for in-session discussion",
+      "truly_universal": false,
+      "dissenters": ["p_e2f3a4b5", "p_d7e8f9a0"]
+    },
+    {
+      "norm_text": "Critique should be constructive — lead with what the image achieves before suggesting alternatives",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Sessions start at the agreed time — the group will not hold more than ten minutes for latecomers",
+      "truly_universal": false,
+      "dissenters": ["p_d7e8f9a0", "p_f9a0b1c2"]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 15,
+    "departures": 0
+  }
+}

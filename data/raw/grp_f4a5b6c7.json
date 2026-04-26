@@ -1,0 +1,473 @@
+{
+  "network_id": "grp_f4a5b6c7",
+  "group_name": "Maple Street Neighbours",
+  "group_type": "acquaintance_network",
+  "group_size": 5,
+  "seed": 34,
+  "personas": [
+    {
+      "persona_id": "p_sa01f4a5",
+      "display_name": "Sandra",
+      "age": 55,
+      "gender": "female",
+      "occupation": "retired school librarian",
+      "background": "Has lived on Maple Street for over twenty years — the institutional memory of the neighbourhood. Widowed four years ago; her late husband was the one who knew everyone's names. Now she fills that role herself, sometimes too eagerly. Volunteers at a community garden and sits on the residents' association. Slightly suspicious of change but fundamentally kind.",
+      "skills_list": [
+        {"skill": "community organising", "proficiency": "strong"},
+        {"skill": "gardening and horticulture", "proficiency": "strong"},
+        {"skill": "archival research", "proficiency": "medium"},
+        {"skill": "baking", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {"value": "prefers home-cooked food at gatherings over takeaway — finds takeaway at a neighbours' event slightly depressing", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "would rather have people over for tea than meet in a pub", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "appreciates being consulted on neighbourhood decisions; takes it personally when things happen without her input", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "quietly opposed to new parking arrangements — believes residents were not properly consulted", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_chat_engagement",
+          "old_value": "used the group only for practical notices — bin days, parcel collections, lost cats",
+          "new_value": "now posts personal updates and opinions about street developments; more invested in the chat as a social space",
+          "changed_at_session": 3,
+          "trigger": "Yuki organised an impromptu street BBQ in session 2 and Sandra found herself genuinely enjoying it; began treating the chat more warmly afterwards"
+        }
+      ],
+      "speaking_quirks": [
+        "starts messages with 'Just a quick note' even when the message is long",
+        "always signs off with her name even in a group chat",
+        "references 'when my husband was alive' to establish historical precedent"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_dv02a5b6",
+      "display_name": "Dev",
+      "age": 38,
+      "gender": "male",
+      "occupation": "IT security consultant",
+      "background": "Moved to Maple Street three years ago with his partner after a flat purchase fell through twice. Works remotely most of the week; visible on the street but not particularly embedded in it. Pleasant, competent, always willing to help with technical problems but otherwise keeps to himself. His partner does most of the social initiating; he shows up when required.",
+      "skills_list": [
+        {"skill": "network security and penetration testing", "proficiency": "strong"},
+        {"skill": "home automation and smart home systems", "proficiency": "strong"},
+        {"skill": "cycling — road and gravel", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {"value": "vegetarian — does not eat meat or fish; tends not to mention it unless asked", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers one-on-one or very small group interactions; gets quieter as group size grows", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "finds prolonged small talk draining; more comfortable helping with a specific task than socialising abstractly", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "sceptical of neighbourhood WhatsApp groups as a mechanism — thinks they mostly amplify anxiety and gossip", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "neighbourhood_involvement",
+          "old_value": "politely declined almost all neighbourhood invitations in his first two years",
+          "new_value": "started attending occasionally after Marcus fixed his bike in session 1 — reciprocity created low-stakes connection",
+          "changed_at_session": 2,
+          "trigger": "Marcus helped him fix a derailleur in the street; Dev started showing up more to avoid feeling like he only takes"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to social invites with exact logistical details — time, duration, what to bring — rather than enthusiasm",
+        "offers to 'take a look' at anything technical without charging",
+        "types in lowercase with no punctuation outside of bullet points when it matters"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_cl03b6c7",
+      "display_name": "Claire",
+      "age": 41,
+      "gender": "female",
+      "occupation": "freelance yoga instructor",
+      "background": "Has lived on Maple Street for eight years — the second-longest-tenured resident after Sandra. Runs morning and evening classes from a rented studio three streets over and picks up corporate wellness gigs when she can. Strong opinions on food, noise, parking, and what the street could be if people tried a bit harder. Likes Marcus and worries he is drifting away from the group.",
+      "skills_list": [
+        {"skill": "yoga and breathwork instruction", "proficiency": "strong"},
+        {"skill": "nutrition and meal planning", "proficiency": "medium"},
+        {"skill": "event coordination — neighbourhood and wellness events", "proficiency": "medium"},
+        {"skill": "sourdough baking", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "plant-based but not strict vegan; gets visibly irritated when events default to meat-heavy catering", "confidence": "High", "implicit": true},
+          {"value": "brings her own food to gatherings if she is uncertain about options", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "would turn every neighbourhood get-together into a wellness event if the others let her", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers the group to interact in person — views the chat as a coordination tool, not a social substitute", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "opposed to the idea of short-term rentals on the street — raised it twice and been outvoted both times", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "attitude_toward_new_residents",
+          "old_value": "was warm but slightly proprietary about the group — the street has an established culture and newcomers should earn their way in",
+          "new_value": "became openly welcoming after Yuki's street BBQ; now actively includes Yuki in plans and cites her as 'what the street needed'",
+          "changed_at_session": 3,
+          "trigger": "Yuki organised the street BBQ without any drama or politics; Claire realised her own gatekeeping was the actual problem"
+        },
+        {
+          "domain": "activities",
+          "attribute": "preference_for_group_exercise",
+          "old_value": "suggested group walks but rarely pushed them",
+          "new_value": "after Marcus announced his departure she started explicitly asking people to commit to a weekly walk — treating it as a maintenance ritual for the group",
+          "changed_at_session": 6,
+          "trigger": "Marcus leaving made the group feel fragile; Claire responded by proposing structure"
+        }
+      ],
+      "speaking_quirks": [
+        "starts suggestions with 'what if we just—' even when the idea is complicated",
+        "uses 'honestly' to flag that she is about to say something the room might not want to hear",
+        "sends a separate message for each thought rather than composing a single paragraph"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "p_ma04c7d8",
+      "display_name": "Marcus",
+      "age": 34,
+      "gender": "male",
+      "occupation": "warehouse operations supervisor",
+      "background": "Lived on Maple Street for five years, renting the semi at the end of the terrace. Quiet, steady, good with his hands. Found out his company's new distribution hub is in Swindon — accepted the relocation package because it came with a small pay rise and he was ready for a change. Told the group in session 5 that he was leaving; moved at the end of that month. The group liked him more than he knew.",
+      "skills_list": [
+        {"skill": "logistics and inventory management", "proficiency": "strong"},
+        {"skill": "mechanical repairs — bikes, cars, small engines", "proficiency": "strong"},
+        {"skill": "five-a-side football", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "prefers a proper sit-down meal over grazing food at gatherings — gets politely grumpy at 'just nibbles' events", "confidence": "High", "implicit": true},
+          {"value": "will eat anything but quietly prefers a proper pie or a curry over 'wellness food'", "confidence": "Medium", "implicit": true}
+        ],
+        "activities": [
+          {"value": "more comfortable helping with something practical — moving furniture, fixing something — than socialising at a party", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "dislikes drama and avoids the neighbours' association politics; stayed out of the parking debate entirely", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "would have voted to allow short-term rentals on the street — disagreed with Claire but didn't want the argument", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "disclosure_of_plans",
+          "old_value": "gave nothing away about career plans or personal life; treated the group as pleasant but shallow acquaintances",
+          "new_value": "opened up about the Swindon relocation and what he was looking forward to; the group saw a more candid version of him in the final two sessions",
+          "changed_at_session": 5,
+          "trigger": "announcing his departure lowered his guard — no reason to maintain the private persona once leaving was certain"
+        }
+      ],
+      "speaking_quirks": [
+        "drops words from messages — 'sorted' instead of 'that's sorted', 'coming' instead of 'I'm coming'",
+        "responds to plans with either 'yeah' or 'can't, sorry' — no elaboration unless pressed",
+        "rare emoji use: only a thumbs-up, and only when a question has a clear yes/no answer"
+      ],
+      "participation_rate": 1.0,
+      "status": "departed",
+      "departed_after_session": 5
+    },
+    {
+      "persona_id": "p_yu05d8e9",
+      "display_name": "Yuki",
+      "age": 29,
+      "gender": "female",
+      "occupation": "part-time barista and postgraduate researcher",
+      "background": "Moved to Maple Street eighteen months ago for her PhD in environmental sociology — the cheapest house share she could find near the university. Works two mornings a week at a café to cover the shortfall. Newest person on the street by a long way; the others treat her as an interesting addition rather than a full member. Has no emotional stake in the street's history but a genuine curiosity about community dynamics — which she finds both charming and maddening to observe up close.",
+      "skills_list": [
+        {"skill": "qualitative research and ethnographic interviewing", "proficiency": "strong"},
+        {"skill": "specialty coffee — espresso and latte art", "proficiency": "medium"},
+        {"skill": "cycling — commuter and utility", "proficiency": "medium"},
+        {"skill": "Japanese home cooking", "proficiency": "strong"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {"value": "prefers light, varied food — Japanese, Vietnamese, mezze — over heavy British pub fare", "confidence": "High", "implicit": true},
+          {"value": "always brings something homemade to group events — feels it is the correct thing to do", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "energised by spontaneous low-effort plans; finds elaborate organisation off-putting", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "genuinely interested in the group's history and dynamics — asks questions that are partly friendly and partly fieldwork", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "quietly delighted by neighbourhood politics as research material — takes mental notes during disputes", "confidence": "Medium", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "sense_of_belonging_to_the_street",
+          "old_value": "treated Maple Street as temporary lodging; engaged with the group out of politeness more than investment",
+          "new_value": "after the street BBQ succeeded and Sandra thanked her warmly, began to feel genuine attachment — extended her tenancy agreement by a year",
+          "changed_at_session": 3,
+          "trigger": "the BBQ she organised went well and the group's warmth surprised her; Sandra's formal thank-you message was unexpectedly moving"
+        },
+        {
+          "domain": "social",
+          "attribute": "feelings_about_marcus_departure",
+          "old_value": "saw Marcus as a background presence — reliable, quiet, not someone she knew well",
+          "new_value": "after his announcement in session 5, realised she had relied on his steadiness as an anchor; felt the loss more than expected",
+          "changed_at_session": 6,
+          "trigger": "Marcus helped Yuki carry her bike up the stairs unprompted the day before he left; small act but it landed"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'honestly' to introduce opinions she expects won't land — mirroring Claire without realising it",
+        "asks 'is that a thing here?' when she's uncertain whether a British custom applies",
+        "sends voice notes when she has too much to type but immediately apologises for the length"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_sa01f4a5",
+      "persona_b_id": "p_dv02a5b6",
+      "relationship_type": "long-term resident and newer neighbour",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Sandra was polite when Dev moved in but has never warmed significantly. Dev does not seek it. They interact about bins, parcels, and the residents' association newsletter.",
+      "shared_events": [
+        "Dev helped Sandra reset her router once — their most substantive exchange"
+      ]
+    },
+    {
+      "persona_a_id": "p_sa01f4a5",
+      "persona_b_id": "p_cl03b6c7",
+      "relationship_type": "established neighbours, occasional friction",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Sandra and Claire have shared the street for eight years and respect each other in a guarded way. They agree on the importance of community but disagree on what that means — Sandra wants decorum and history honoured; Claire wants energy and change. The short-term rental debate left residual tension.",
+      "shared_events": [
+        "co-organised the street summer party for three consecutive years",
+        "clashed publicly at a residents' meeting over Airbnb policy"
+      ]
+    },
+    {
+      "persona_a_id": "p_sa01f4a5",
+      "persona_b_id": "p_ma04c7d8",
+      "relationship_type": "fond acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Sandra has a soft spot for Marcus — he is quiet and capable and never caused trouble. He helped her carry a heavy box without being asked. She was visibly upset when he announced he was leaving.",
+      "shared_events": [
+        "Marcus helped Sandra move furniture when she redecorated the front room",
+        "Sandra gave Marcus a sourdough loaf on his first winter on the street"
+      ]
+    },
+    {
+      "persona_a_id": "p_sa01f4a5",
+      "persona_b_id": "p_yu05d8e9",
+      "relationship_type": "elder and curious newcomer",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Sandra was initially wary of Yuki — too young, temporary-seeming — but the street BBQ changed that. She has since adopted Yuki as a kind of informal project, teaching her the unwritten rules of the street.",
+      "shared_events": [
+        "Yuki's street BBQ — Sandra thanked her formally in front of everyone",
+        "Sandra taught Yuki which bin is which and when to put them out"
+      ]
+    },
+    {
+      "persona_a_id": "p_dv02a5b6",
+      "persona_b_id": "p_cl03b6c7",
+      "relationship_type": "polite non-friends",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Claire finds Dev too detached to fully trust; Dev finds Claire too vocal to fully relax around. They are cordial when required. Neither seeks the other out.",
+      "shared_events": [
+        "both attended the street BBQ and exchanged pleasantries"
+      ]
+    },
+    {
+      "persona_a_id": "p_dv02a5b6",
+      "persona_b_id": "p_ma04c7d8",
+      "relationship_type": "practical rapport",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus fixed Dev's bike derailleur without making it a favour — just did it. Dev reciprocated by setting up Marcus's smart doorbell. They understand each other without talking much.",
+      "shared_events": [
+        "the derailleur incident — foundation of the friendship",
+        "watched a Champions League final together at Marcus's flat — Dev brought beer, Marcus did not ask him to leave at halftime"
+      ]
+    },
+    {
+      "persona_a_id": "p_dv02a5b6",
+      "persona_b_id": "p_yu05d8e9",
+      "relationship_type": "acquaintances with occasional tech overlap",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Dev helped Yuki set up a VPN for her research fieldwork. Interaction was functional and pleasant. Neither has sought to extend it.",
+      "shared_events": [
+        "VPN setup session — Yuki brought coffee, Dev fixed the issue in ten minutes"
+      ]
+    },
+    {
+      "persona_a_id": "p_cl03b6c7",
+      "persona_b_id": "p_ma04c7d8",
+      "relationship_type": "warm but asymmetric",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Claire is the person on the street who made the most effort with Marcus. She brought him meals when he was working long shifts, invited him to things, and is the one who noticed he was unhappy before the move. Marcus appreciated her but was never as demonstrative in return.",
+      "shared_events": [
+        "Claire invited Marcus to her yoga outdoor class — he came once, looked mortified, but thanked her afterwards",
+        "Marcus helped Claire carry her yoga equipment to her car every week for a month after she sprained her wrist"
+      ]
+    },
+    {
+      "persona_a_id": "p_cl03b6c7",
+      "persona_b_id": "p_yu05d8e9",
+      "relationship_type": "friendly near-peers",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Claire and Yuki have become the most actively friendly pair in the group post-BBQ. Claire mentors Yuki on the group's social dynamics; Yuki provides Claire with an outside perspective that occasionally dislodges her assumptions.",
+      "shared_events": [
+        "post-BBQ debrief walk — became a semi-regular thing",
+        "Yuki attended one of Claire's yoga classes and they went for coffee after"
+      ]
+    },
+    {
+      "persona_a_id": "p_ma04c7d8",
+      "persona_b_id": "p_yu05d8e9",
+      "relationship_type": "quiet mutual appreciation",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Yuki got on unexpectedly well — both outsiders in different ways, both comfortable with silence. Yuki found Marcus interesting to observe; Marcus found Yuki refreshingly free of agenda.",
+      "shared_events": [
+        "Marcus carried Yuki's bike up the stairs the day before he left — unprompted",
+        "they shared a bench outside and talked about nothing in particular one Sunday morning"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Everyone chips in for shared costs — BBQs, street decorations, the welcome hamper for new residents.",
+      "truly_universal": false,
+      "dissenters": ["p_dv02a5b6"]
+    },
+    {
+      "norm_text": "We don't do short-term rentals or Airbnb on this street — it changes the feel of the place.",
+      "truly_universal": false,
+      "dissenters": ["p_ma04c7d8", "p_dv02a5b6"]
+    },
+    {
+      "norm_text": "If there's a shared concern — noise, parking, building work — you raise it in the chat before going to the council.",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 1
+  }
+}

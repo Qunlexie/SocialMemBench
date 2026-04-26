@@ -1,0 +1,119 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:34:59.911587+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.48,
+  "mean_context_words": 257.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.66
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.167
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.075
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.737
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c302",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Soo-Yeon's preference for lighter food but completely misses the core pattern of her *approach* as described in the gold answer, which emphasizes indirectness, quiet substitution, and avoidance of direct requests. Instead, the generated answer describes her preferences and gives examples of her *stating* them, which contradicts the gold's focus on indirect communication. It also introduces a pattern of wanting an 'organized' food situation, which is not the primary focus of the gold answer's interpretation of her approach to the 'food situation' (i.e., type of food)."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "parsed from text"
+    },
+    {
+      "qa_id": "Q4_a1b2c301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Soo-Yeon's preference; she finds real-time games overwhelming, not that she prefers cooperative real-time games over solo ones. The cooperative format is a mitigation, not a preference for the genre itself."
+    },
+    {
+      "qa_id": "Q5_a1b2c303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The answer fails to provide specific evidence from Soo-Yeon's comment in Session 8 that reveals her prior understanding, which is a critical component of the question and Q5 rubric. It describes the outcome but not the specific words that prove prior knowledge."
+    },
+    {
+      "qa_id": "Q6_a1b2c301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify any of the specific, evidence-backed points that reveal the nature of Lena and Priya's relationship as described in the gold answer (e.g., Priya as social bridge, Lena's sensitive observation, Priya knowing dietary preferences). Instead, it offers vague or incorrect interpretations of their interactions."
+    },
+    {
+      "qa_id": "Q7_a1b2c302",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer contains a direct contradiction regarding a core fact: it first states Kezia and Felix were 'brought in by each other' but then correctly states 'Kezia got him into the group.' While the correct information is present, the contradiction on a key detail about their connection and entry mechanism significantly impacts factual correctness."
+    },
+    {
+      "qa_id": "Q7_a1b2c303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_a1b2c304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The answer critically misattributes the quote 'Tomasz is right, to be fair' to Tomasz acknowledging Raj, when the gold answer states Raj said it to align with Tomasz's objection. This is a critical error per rule 2."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the trigger for Lena's shift (reflection and design theory). However, it misidentifies the 'old state' by presenting Lena's re-analysis of her past feelings as the old state itself, and it misidentifies the 'new state' by describing her general understanding of variance rather than her personal shift in preference/openness to reconsidering luck-heavy games."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's evolved position (positive view of abstract games) and the signal (pitching Azul), but completely misidentifies the cause of the shift. The gold answer states the cause is Soo-Yeon's reframing of Azul as a 'visual design problem' (a specific event Felix mentions in Session 8), while the generated answer speculates about a general group dynamic from Session 4, which is factually incorrect as the specific trigger for this change."
+    }
+  ]
+}

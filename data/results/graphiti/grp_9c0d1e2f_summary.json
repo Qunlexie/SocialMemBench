@@ -1,65 +1,41 @@
 {
   "network_id": "grp_9c0d1e2f",
   "condition": "graphiti",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:36:43.485036+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T22:01:42.804734+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.0,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.5,
+  "mean_context_words": 134.0,
   "by_query_type": {
     "Q3": {
       "count": 1,
-      "mean_score": 0.0
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q8": {
-      "count": 2,
-      "mean_score": 0.0
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.5
     },
     "Q4": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.25
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.5
     }
   },
   "low_scoring": [
     {
-      "qa_id": "Q3_ph9s1c1",
-      "query_type": "Q3",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q5_ph9s2c1",
-      "query_type": "Q5",
-      "score": 0.0
-    },
-    {
       "qa_id": "Q8_ph9s3c1",
       "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q8_ph9s4c1",
-      "query_type": "Q8",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_ph9s5c1",
-      "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q4_ph9s1c2",
-      "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Session 3 reveals Raj's contract finishing in two months as the turning point; this information is revealed in Session 5, not Session 3, and the gold answer notes it as aspirational rather than a confirmed turning point."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

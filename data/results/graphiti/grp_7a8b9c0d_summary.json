@@ -1,16 +1,17 @@
 {
   "network_id": "grp_7a8b9c0d",
   "condition": "graphiti",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:36:18.682812+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:56:53.466245+00:00",
   "sessions_used": 5,
   "total_pairs": 5,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.0,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.4,
+  "mean_context_words": 131.2,
   "by_query_type": {
     "Q1": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 0.8
     },
     "Q3": {
       "count": 1,
@@ -20,41 +21,33 @@
       "count": 1,
       "mean_score": 0.0
     },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.0
-    },
     "Q6": {
       "count": 1,
-      "mean_score": 0.0
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.2
     }
   },
   "low_scoring": [
     {
-      "qa_id": "Q1_fm7s1c1",
-      "query_type": "Q1",
-      "score": 0.0
-    },
-    {
       "qa_id": "Q3_fm7s2c1",
       "query_type": "Q3",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Imogen's position is 'unclear' when the gold answer clearly indicates she had already booked a quiet dinner and questioned the big party. It also incorrectly claims Mum 'later agreed to Imogen's dinner plan instead of a bigger party,' contradicting the gold answer's portrayal of Mum's continued desire for a party."
     },
     {
       "qa_id": "Q5_fm7s3c1",
       "query_type": "Q5",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Dad's situation as 'fine but tired,' which is the cover story Imogen uses, not the actual situation (cardiac scare) as revealed in the gold answer. This is a fundamental factual error regarding Dad's state."
     },
     {
       "qa_id": "Q7_fm7s5c1",
       "query_type": "Q7",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q6_fm7s4c1",
-      "query_type": "Q6",
-      "score": 0.0
+      "score": 0.2,
+      "rationale": "The generated answer is factually correct in a very general sense (Kofi appreciates Imogen) but misses almost all the specific, nuanced details and key elements about the relationship's asymmetry, the invisible load, Kofi's guilt, and the existence of a private communication channel, which are central to the gold answer's insights."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

@@ -1,0 +1,546 @@
+{
+  "network_id": "grp_e3f4a5b6",
+  "group_name": "The Usual Crew",
+  "group_type": "close_friends",
+  "group_size": 5,
+  "seed": 33,
+  "personas": [
+    {
+      "persona_id": "p_cf33a1b2c3",
+      "display_name": "Marcus",
+      "age": 34,
+      "gender": "M",
+      "occupation": "high school history teacher",
+      "background": "Grew up with Priya and Jonah in the same neighbourhood; the group's de facto planner and memory keeper. Organises group trips and birthday dinners without being asked. Reads everything, opinionated about food, quietly competitive at trivia nights. The most central member — everyone orbits him a little.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers sit-down restaurants over takeout; insists on making reservations well in advance even for casual dinners",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "avoids fast food entirely; will suggest a slightly longer walk to find a 'proper place'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "hosts the group's annual trivia night with hand-written question cards; takes the hosting role seriously",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers small gatherings over large parties; gets quieter in groups above ten people",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "reads three or four books a month; tracks them in a notebook rather than an app; resistant to e-readers",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "alcohol_preference",
+          "old_value": "drank wine at group dinners without much thought",
+          "new_value": "switched to non-alcoholic options at group meals after starting training for a half-marathon",
+          "changed_at_session": 3,
+          "trigger": "started a half-marathon training plan in session 3; told the group he was cutting alcohol for three months"
+        }
+      ],
+      "speaking_quirks": [
+        "starts opinions with 'I'll be honest with you —' before saying something mildly controversial",
+        "uses historical analogies in everyday situations ('this is very much a Dunkirk situation')",
+        "sends restaurant suggestions with opening times, Yelp rating, and a one-sentence review"
+      ],
+      "skills_list": [
+        {"skill": "pub trivia", "proficiency": "strong"},
+        {"skill": "cooking (Italian)", "proficiency": "strong"},
+        {"skill": "route planning / logistics", "proficiency": "medium"},
+        {"skill": "running", "proficiency": "medium"}
+      ],
+      "participation_rate": 1.0
+    },
+    {
+      "persona_id": "p_cf33b2c3d4",
+      "display_name": "Priya",
+      "age": 33,
+      "gender": "F",
+      "occupation": "UX designer at a fintech startup",
+      "background": "Childhood friend of Marcus and Jonah. Works long hours and is often the last to confirm plans. Opinionated about design in everything — furniture, menus, the choice of pub. Has a running bit with Jonah about who gives worse life advice. Briefly dated someone in the group years ago (not currently).",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian; will eat fish occasionally but never red meat; tends to scan menus online before agreeing to a venue",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers urban weekend trips over countryside hikes; says 'I don't do mud'",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "keen on live music but only small venues; dislikes festival crowds",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "tends to bail on plans when work is bad; sends a voice note apology rather than a text",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "hiking_stance",
+          "old_value": "tolerated short countryside walks when outvoted by the group",
+          "new_value": "now openly refuses hikes after a bad experience on a rainy trip to the Peak District; will suggest an alternative city trip instead",
+          "changed_at_session": 2,
+          "trigger": "got soaked and sprained her ankle on the session-2 group hike; declared hiking 'not for her' and has held firm since"
+        }
+      ],
+      "speaking_quirks": [
+        "replies to plans with 'I'm in if it doesn't clash with the thing' — never specifying what 'the thing' is",
+        "uses 'literally' as emphasis even for non-literal statements",
+        "sends voice notes instead of typing when she has something longer to say"
+      ],
+      "skills_list": [
+        {"skill": "UX / product design", "proficiency": "strong"},
+        {"skill": "interior styling", "proficiency": "medium"},
+        {"skill": "Spotify playlist curation", "proficiency": "medium"}
+      ],
+      "participation_rate": 1.0
+    },
+    {
+      "persona_id": "p_cf33c3d4e5",
+      "display_name": "Jonah",
+      "age": 35,
+      "gender": "M",
+      "occupation": "freelance video editor",
+      "background": "Grew up on the same street as Marcus and Priya. Works from home, which means he's the most available member but also the most prone to being stuck on a deadline. Has a gift for defusing tension with a well-timed joke. The most politically outspoken member; holds views the rest of the group find slightly exhausting at times. Briefly lived in Berlin for two years and still brings it up.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Blunt",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "enthusiastic omnivore; will always suggest the 'proper pub' option; has strong opinions about which pubs have good chips",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "genuinely loves hiking and long walks; the group member who pushes hardest for countryside trips",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "watches an unreasonable amount of documentary film; will recommend one to any group member without much prompting",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "still talks about Berlin with a nostalgia that makes the rest of the group roll their eyes slightly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "documentary_editing_side_project",
+          "old_value": "kept personal film projects strictly separate from group chat; never mentioned them",
+          "new_value": "started sharing rough cuts with the group for feedback after Marcus encouraged him to in session 4; now sends work-in-progress clips regularly",
+          "changed_at_session": 4,
+          "trigger": "Marcus asked to see Jonah's personal project after Jonah mentioned it offhand; the positive response made Jonah more open about sharing"
+        }
+      ],
+      "speaking_quirks": [
+        "starts messages mid-thought as though continuing an earlier conversation",
+        "heavy typos: 'yep deffo', 'thsi is class', 'lmk when ur free'",
+        "punctuates with 'tbf' (to be fair) when conceding a point"
+      ],
+      "skills_list": [
+        {"skill": "video editing", "proficiency": "strong"},
+        {"skill": "hiking / navigation", "proficiency": "strong"},
+        {"skill": "documentary storytelling", "proficiency": "medium"},
+        {"skill": "cycling", "proficiency": "medium"}
+      ],
+      "participation_rate": 1.0
+    },
+    {
+      "persona_id": "p_cf33d4e5f6",
+      "display_name": "Simone",
+      "age": 31,
+      "gender": "F",
+      "occupation": "junior solicitor at a commercial law firm",
+      "background": "Met Priya through a shared flat four years ago; newer to the core group than Marcus, Priya, and Jonah. Works brutal hours and often feels slightly on the outside of the group's shared history. Precise and calm in conversation; occasionally the only person who notices a practical detail everyone else missed. Has been quietly planning to move abroad for work.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers quiet restaurants where she can actually hear the conversation; avoids noisy bars and open kitchens",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "comfortable with both city trips and countryside; the one member who doesn't take a strong side in the Priya-vs-Jonah argument about what constitutes a good weekend away",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "needs advance notice of plans; last-minute invitations make her anxious even when she wants to come",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "has been quietly researching secondment opportunities in Singapore; hasn't told the whole group yet",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_disclosure_comfort",
+          "old_value": "kept personal plans private; engaged mostly around group logistics",
+          "new_value": "started opening up more to the group after Marcus noticed she seemed distracted and checked in privately; shared the Singapore plan in session 6",
+          "changed_at_session": 6,
+          "trigger": "Marcus sent her a private message after session 5 noticing she'd gone quiet; his follow-up prompted her to share the Singapore plan with the full group"
+        }
+      ],
+      "speaking_quirks": [
+        "uses full sentences and punctuation in a group chat of typos and fragments",
+        "prefaces corrections with 'just to flag —' rather than contradicting directly",
+        "ends long messages with a summary bullet: '— so: venue, time, headcount. Confirm by Thursday?'"
+      ],
+      "skills_list": [
+        {"skill": "contract drafting / legal research", "proficiency": "strong"},
+        {"skill": "yoga", "proficiency": "medium"},
+        {"skill": "Mandarin (conversational)", "proficiency": "low"}
+      ],
+      "participation_rate": 1.0,
+      "status": "departed",
+      "departed_after_session": 6
+    },
+    {
+      "persona_id": "p_cf33e5f6a7",
+      "display_name": "Dev",
+      "age": 36,
+      "gender": "M",
+      "occupation": "software engineer at a mid-size tech company",
+      "background": "Priya's university friend; joined the group three years ago. The quietest member in the chat but reliably shows up in person. Has strong opinions he rarely volunteers — if pressed, he'll give a clear view. Extremely dry sense of humour that newcomers sometimes miss. Mildly famous within the group for giving a speech at Marcus's birthday that made everyone cry.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "dislikes anything described as 'fusion'; prefers food that is clearly one thing",
+            "confidence": "Medium",
+            "implicit": true
+          },
+          {
+            "value": "orders the same thing at a familiar restaurant without reading the menu; finds menu analysis a waste of time",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "will go to almost any social event if the group is going; dislikes being the one to suggest things but dislikes FOMO more",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "shows up in person reliably but is the least active in the group chat; reads messages without responding and catches up on arrival",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "has been quietly learning to bake sourdough; hasn't mentioned it in the chat but brought a loaf to session 4 without explanation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "countryside_trips",
+          "old_value": "neutral about whether group trips were urban or countryside; would go along with either",
+          "new_value": "started preferring countryside trips after getting into trail running during the pandemic; sides with Jonah now when the group debates trip type",
+          "changed_at_session": 5,
+          "trigger": "mentioned in passing during session 5 that he'd done three trail runs that month; the group realised he'd developed a strong preference without ever announcing it"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to long group threads with a single word: 'yes', 'no', 'fine'",
+        "makes observations that are technically factual but land as jokes ('that's not a hill, Priya, it's a gentle incline of approximately 80 metres')",
+        "never uses emoji; his thumbs-up reactions are the only acknowledgment he gives"
+      ],
+      "skills_list": [
+        {"skill": "software engineering", "proficiency": "strong"},
+        {"skill": "trail running", "proficiency": "medium"},
+        {"skill": "sourdough baking", "proficiency": "medium"}
+      ],
+      "participation_rate": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_cf33a1b2c3",
+      "persona_b_id": "p_cf33b2c3d4",
+      "relationship_type": "childhood friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Priya grew up on the same street and have been close since childhood. They share a shorthand built over twenty-plus years and rarely need to explain context to each other. Priya relies on Marcus to maintain the group's social infrastructure; he relies on her to tell him when he's being too much.",
+      "shared_events": [
+        "grew up in the same neighbourhood",
+        "co-organised Marcus's 30th birthday trip",
+        "both present at the night Simone joined the group"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33a1b2c3",
+      "persona_b_id": "p_cf33c3d4e5",
+      "relationship_type": "childhood friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Jonah also grew up together and have a long history of friendly competition — trivia nights, who can find the best pub, whose camping kit is better. Marcus encouraged Jonah's personal film projects; Jonah credits Marcus with pushing him to take them seriously.",
+      "shared_events": [
+        "grew up on the same street",
+        "went on a two-week interrail trip together at 22",
+        "Marcus encouraged Jonah to share his documentary cut in session 4"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33a1b2c3",
+      "persona_b_id": "p_cf33d4e5f6",
+      "relationship_type": "close friends via Priya",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Simone bonded over a long train journey during a group trip; Marcus is the person in the group who checks in on Simone most actively. When she went quiet in session 5, he noticed and messaged privately, which eventually led to her sharing the Singapore plan.",
+      "shared_events": [
+        "long train journey during group trip",
+        "Marcus's private check-in after session 5"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33a1b2c3",
+      "persona_b_id": "p_cf33e5f6a7",
+      "relationship_type": "friends via group",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Dev get along well and share a mutual respect, but they've never spent time together one-on-one outside the group. Marcus is still slightly unsure what Dev actually thinks of him and finds his terseness slightly hard to read.",
+      "shared_events": [
+        "Dev gave a speech at Marcus's birthday that surprised everyone",
+        "they argue about hiking vs city trips along the Jonah/Priya fault line"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33b2c3d4",
+      "persona_b_id": "p_cf33c3d4e5",
+      "relationship_type": "childhood friends with ongoing banter",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Priya and Jonah grew up together and have a long-running bit about who gives worse life advice. Genuinely fond of each other but their personalities clash periodically — Priya finds Jonah's political monologuing exhausting; Jonah finds Priya's bail-on-plans behaviour maddening. The tension is familiar and mostly affectionate, but it has occasionally been real.",
+      "shared_events": [
+        "grew up on the same street",
+        "argument in session 3 when Jonah called Priya out for bailing on the Peak District trip at the last minute"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33b2c3d4",
+      "persona_b_id": "p_cf33d4e5f6",
+      "relationship_type": "former flatmates, now close friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya brought Simone into the group and they are each other's confidants within it. Priya is one of the first people Simone told about the Singapore secondment possibility; the group announcement in session 6 came after Priya encouraged her to be upfront.",
+      "shared_events": [
+        "shared a flat for two years",
+        "Simone told Priya about Singapore before telling the group"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33b2c3d4",
+      "persona_b_id": "p_cf33e5f6a7",
+      "relationship_type": "university friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya and Dev met at university and have been friends for over a decade. She is one of the few people who can reliably read Dev's terseness as warmth rather than indifference. She introduced him to the group and remains his closest connection in it.",
+      "shared_events": [
+        "met at university",
+        "Priya vouched for Dev when introducing him to Marcus and Jonah"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33c3d4e5",
+      "persona_b_id": "p_cf33d4e5f6",
+      "relationship_type": "friendly but not close",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Jonah and Simone are cordial but don't have much one-on-one rapport. Jonah's loudness and Simone's quietness put them at different ends of the group's social spectrum. Jonah has occasionally talked over Simone without noticing; Simone has noticed but not said anything directly.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_cf33c3d4e5",
+      "persona_b_id": "p_cf33e5f6a7",
+      "relationship_type": "friendly acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Jonah and Dev bonded over a mutual interest in countryside trips and trail running. They are allies in the group's ongoing debate about what constitutes a good weekend. Jonah respects Dev's quietness in a way he doesn't always show.",
+      "shared_events": [
+        "went trail running together once outside of a group event"
+      ]
+    },
+    {
+      "persona_a_id": "p_cf33d4e5f6",
+      "persona_b_id": "p_cf33e5f6a7",
+      "relationship_type": "friendly acquaintances",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Simone and Dev have the least history in the group. Dev found Simone's precision slightly guarded when she first joined; Simone found Dev's one-word replies hard to interpret as friendliness. There is a low-level awkwardness between them that neither has addressed — made slightly more pointed by the fact that everyone else in the group has stronger bonds with both of them.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Plans are confirmed at least 48 hours in advance so everyone can arrange their schedules.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_cf33c3d4e5"
+      ]
+    },
+    {
+      "norm_text": "The group chat is kept light — no heavy personal venting or political arguments in the main thread.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_cf33c3d4e5"
+      ]
+    },
+    {
+      "norm_text": "Everyone contributes equally to shared costs on group trips — no separate billing.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "When someone can't make a plan, they give as much notice as possible.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_cf33b2c3d4"
+      ]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 1
+  }
+}

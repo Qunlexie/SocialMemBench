@@ -1,0 +1,662 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "group_name": "Cranfield Cycling Club",
+  "group_type": "recreational",
+  "group_size": 9,
+  "seed": 27,
+  "personas": [
+    {
+      "persona_id": "p_f9a00001",
+      "display_name": "Marcus",
+      "age": 34,
+      "gender": "male",
+      "occupation": "Civil engineer",
+      "background": "Marcus moved to the area three years ago for work and joined the cycling club looking for weekend company. Self-taught mechanic; can fix a derailleur faster than anyone in the group. Tends to plan routes obsessively and gets mildly irritated when people suggest shortcuts.",
+      "skills_list": [
+        {"skill": "route planning", "proficiency": "strong"},
+        {"skill": "bike mechanics", "proficiency": "strong"},
+        {"skill": "map reading", "proficiency": "medium"},
+        {"skill": "project scheduling", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "prefers a proper cooked breakfast after long rides — never touches the pastries the others bring", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "favours hill climbs over flat loops — always pushes for routes with 400m+ elevation", "confidence": "High", "implicit": true}],
+        "social": [{"value": "dislikes last-minute route changes; prefers routes finalised at least two days before the ride", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "rides a carbon road bike; subtly dismissive of e-bikes in the group", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "ride_distance",
+          "old_value": "insists on 80km+ every weekend — turns down anything shorter as 'not worth it'",
+          "new_value": "accepts 50-60km rides after a knee injury forced him to reconsider; grudgingly admits they can still be challenging",
+          "changed_at_session": 7,
+          "trigger": "physio told him to reduce load for six weeks after a training overuse injury"
+        }
+      ],
+      "speaking_quirks": [
+        "opens messages with 'Right —' when moving to logistics",
+        "uses 'noted' as a single-word acknowledgement",
+        "rarely uses punctuation mid-message but always ends with a full stop"
+      ],
+      "participation_rate": 0.95
+    },
+    {
+      "persona_id": "p_f9a00002",
+      "display_name": "Priya",
+      "age": 29,
+      "gender": "female",
+      "occupation": "UX researcher",
+      "background": "Priya joined the club after a friend recommended it as a way to decompress from screen-heavy work. She's one of the faster climbers in the group despite only cycling seriously for two years. Has a habit of suggesting post-ride coffee spots and is the de-facto social organiser.",
+      "skills_list": [
+        {"skill": "climbing technique", "proficiency": "strong"},
+        {"skill": "social media photography", "proficiency": "medium"},
+        {"skill": "user research", "proficiency": "strong"},
+        {"skill": "navigating café culture", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always finds a café with oat milk — quietly judges places that don't stock it", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers routes that end somewhere picturesque — route aesthetics matter as much as distance to her", "confidence": "High", "implicit": true}],
+        "social": [{"value": "enjoys longer coffee stops; gets restless when the group rushes back immediately after rides", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "rides a gravel bike; enthusiastic about mixed-surface routes the roadies in the group avoid", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "route_terrain",
+          "old_value": "sticks strictly to tarmac — nervous about off-road handling",
+          "new_value": "actively seeks gravel sections after investing in a new bike and discovering she loves the variety",
+          "changed_at_session": 3,
+          "trigger": "bought a gravel bike and did her first off-road loop with Tomás"
+        },
+        {
+          "domain": "social",
+          "attribute": "group_ride_frequency",
+          "old_value": "happy with fortnightly group rides — uses solo rides to fill the gaps",
+          "new_value": "pushes for weekly group rides after realising the social side motivates her training more than solo miles",
+          "changed_at_session": 8,
+          "trigger": "had a string of unmotivated solo sessions; Marcus jokingly pointed out she only hits PBs with the group"
+        }
+      ],
+      "speaking_quirks": [
+        "uses strings of emojis to punctuate excitement 🚴🔥",
+        "starts planning messages with 'ok ok ok so —'",
+        "refers to coffee stops as 'the actual reason we ride'"
+      ],
+      "participation_rate": 1.0
+    },
+    {
+      "persona_id": "p_f9a00003",
+      "display_name": "Tomás",
+      "age": 41,
+      "gender": "male",
+      "occupation": "Secondary school PE teacher",
+      "background": "Tomás has been cycling since his twenties and is the informal elder statesman of the group. He brought most of the current members in by word of mouth. Calm under pressure, excellent at reading weather, and never forgets to check if newcomers are comfortable with the pace.",
+      "skills_list": [
+        {"skill": "pace management", "proficiency": "strong"},
+        {"skill": "weather reading", "proficiency": "strong"},
+        {"skill": "group coaching", "proficiency": "strong"},
+        {"skill": "first aid", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "always brings his own energy bars — rarely buys from cafés; doesn't like the sugar crash from shop pastries", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers a moderate 70km tempo ride over extreme distances; thinks the group does too many sufferfest routes", "confidence": "High", "implicit": true}],
+        "social": [{"value": "values punctuality at start points — quietly annoyed when people arrive late and delay the group", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "prefers riding at the back to keep an eye on slower members rather than chasing the front group", "confidence": "Medium", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "weekend_ride_timing",
+          "old_value": "8am Saturday starts — rigid about early mornings for cooler temperatures and lighter traffic",
+          "new_value": "willing to push to 9am after repeatedly losing members who couldn't manage early alarms; prioritises group size over timing",
+          "changed_at_session": 2,
+          "trigger": "two members dropped out of consecutive sessions citing the early start; Tomás polled the group and shifted the time"
+        }
+      ],
+      "speaking_quirks": [
+        "ends practical messages with 'sorted' or 'all good'",
+        "uses 'lads' as a gender-neutral address for the whole group",
+        "almost never uses exclamation marks — flatness is his default tone"
+      ],
+      "participation_rate": 1.0
+    },
+    {
+      "persona_id": "p_f9a00004",
+      "display_name": "Yuki",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Junior data analyst",
+      "background": "Yuki took up cycling during the pandemic as a mental health strategy and never stopped. She's still building fitness but makes up for it with enthusiasm and a willingness to try any route. Works long hours and sometimes has to drop out of rides at short notice due to work deadlines.",
+      "skills_list": [
+        {"skill": "data visualisation", "proficiency": "strong"},
+        {"skill": "endurance training", "proficiency": "low"},
+        {"skill": "photography", "proficiency": "medium"},
+        {"skill": "Strava segment analysis", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [{"value": "brings rice balls for long rides — always offers them around and is visibly pleased when people try one", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers flatter recovery rides after a heavy work week — avoids the brutal climb routes when she's sleep-deprived", "confidence": "High", "implicit": true}],
+        "social": [{"value": "more comfortable in the smaller sub-groups that form on long climbs than in the full-group café stop", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "obsessively tracks Strava metrics but gets anxious when others compare times out loud", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "ride_pace",
+          "old_value": "hangs back with the slower tail — avoids being dropped and finds it embarrassing",
+          "new_value": "starts pushing into the middle group after consistent training gains; occasionally sits at the front on flat sections",
+          "changed_at_session": 7,
+          "trigger": "completed a structured six-week training block and noticed the middle group no longer dropped her on hills"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '!!' instead of full sentences when excited",
+        "often replies with a single word or very short phrase, then follows up with a longer message",
+        "typos in almost every message but never corrects them"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_f9a00005",
+      "display_name": "Derek",
+      "age": 52,
+      "gender": "male",
+      "occupation": "Retired logistics manager",
+      "background": "Derek retired early and joined the club looking for structure after leaving work. He's methodical and likes having a training plan even for recreational rides. Owns more cycling gear than anyone else in the group. His adult son also cycles but rides with a different club.",
+      "skills_list": [
+        {"skill": "logistics coordination", "proficiency": "strong"},
+        {"skill": "bike fitting knowledge", "proficiency": "strong"},
+        {"skill": "nutrition planning", "proficiency": "medium"},
+        {"skill": "cycle safety training", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [{"value": "brings a protein shake in a branded shaker — dismissive of the post-ride café culture the younger members love", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers regimented, reproducible routes — dislikes spontaneous diversions mid-ride", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers to cycle home straight after rides rather than socialise — occasionally makes exceptions for a quick coffee", "confidence": "High", "implicit": true}],
+        "domain_specific": [{"value": "advocates loudly for hi-viz gear and helmet cameras; slightly preachy about road safety", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "post_ride_socialising",
+          "old_value": "always leaves immediately after rides — considers socialising a waste of recovery time",
+          "new_value": "started staying for coffee roughly half the time after his wife encouraged him to invest more in friendships",
+          "changed_at_session": 8,
+          "trigger": "his wife pointed out he'd been isolated since retiring; he quietly started staying on"
+        }
+      ],
+      "speaking_quirks": [
+        "writes full sentences with correct punctuation even in casual chat",
+        "prefixes suggestions with 'For reference —' or 'For what it's worth —'",
+        "never uses contractions in writing"
+      ],
+      "participation_rate": 0.9
+    },
+    {
+      "persona_id": "p_f9a00006",
+      "display_name": "Saoirse",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Freelance graphic designer",
+      "background": "Saoirse grew up in a cycling family and is comfortably the most technically skilled rider in the group. She can be quietly competitive but keeps it mostly contained. Splits her time between the group and a women's racing league on weekday evenings. Often brings design sensibility to kit discussions.",
+      "skills_list": [
+        {"skill": "road racing tactics", "proficiency": "strong"},
+        {"skill": "graphic design", "proficiency": "strong"},
+        {"skill": "bike handling on descents", "proficiency": "strong"},
+        {"skill": "kit and equipment selection", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "partial to a post-ride pizza — was the one who established the informal pizza tradition for big milestone rides", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "loves technical descents; always volunteers to lead the group down unfamiliar hills", "confidence": "High", "implicit": true}],
+        "social": [{"value": "prefers smaller group rides for quality conversation — finds full nine-person rides unwieldy", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "opinionated about kit aesthetics — the group quietly defers to her on jersey design choices", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "weekend_commitment",
+          "old_value": "treats group rides as a secondary option — often skips for racing league events",
+          "new_value": "prioritises the group ride most weekends after the racing league restructured its fixture schedule",
+          "changed_at_session": 2,
+          "trigger": "her racing league moved its events to Saturday evenings, freeing up Saturday mornings"
+        },
+        {
+          "domain": "activities",
+          "attribute": "preferred_ride_intensity",
+          "old_value": "pushes for race-pace intervals on group rides — expects others to keep up",
+          "new_value": "dials back the race mentality on group rides after Tomás pointed out she was demoralising newer riders",
+          "changed_at_session": 8,
+          "trigger": "Tomás had a quiet word after Yuki mentioned feeling left behind two sessions running"
+        }
+      ],
+      "speaking_quirks": [
+        "uses sarcasm dryly and without emoji — can read as blunt until you know her",
+        "references racing terms casually ('tempo', 'breakaway', 'sitting in') in non-racing contexts",
+        "signs off long messages with a dash and no name"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_f9a00007",
+      "display_name": "Ben",
+      "age": 38,
+      "gender": "male",
+      "occupation": "GP (general practitioner)",
+      "background": "Ben cycles as a counterpoint to long shifts and unpredictable on-call hours. He's known for missing rides with no warning when he gets called in, which the group has learned to accept with varying degrees of grace. Easy-going, widely liked, brings a relaxed energy that offsets some of the group's more intense personalities.",
+      "skills_list": [
+        {"skill": "sports medicine basics", "proficiency": "strong"},
+        {"skill": "time management under pressure", "proficiency": "medium"},
+        {"skill": "cycling endurance", "proficiency": "medium"},
+        {"skill": "group navigation", "proficiency": "low"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "always orders a flat white and something savoury — never touches anything with icing", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers shorter weekday rides when he can manage them over the big weekend epics — easier to fit into on-call life", "confidence": "High", "implicit": true}],
+        "social": [{"value": "thrives in the café stop banter; often the one who keeps the group at the table longest", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "quietly sceptical of extreme training plans; often plays down injuries in the group chat and underplays fatigue", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "ride_planning_role",
+          "old_value": "completely passive on planning — shows up or doesn't, never weighs in on route decisions",
+          "new_value": "started suggesting routes occasionally after Marcus called him out for contributing zero opinions over a whole season",
+          "changed_at_session": 5,
+          "trigger": "Marcus made a pointed joke in the chat about Ben's consistent vote-abstaining"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'haha' frequently even when only mildly amused",
+        "tends to follow apologetic messages with 'next one, promise'",
+        "often abbreviates to single letters: 'k', 'y', 'np'"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_f9a00008",
+      "display_name": "Lena",
+      "age": 45,
+      "gender": "female",
+      "occupation": "Physiotherapist",
+      "background": "Lena joined the club through a patient who kept talking about it in sessions. She's the group's unofficial injury consultant and is called on constantly for advice on aches and saddle fit. Thoughtful, measured in her opinions, and the one most likely to ask how someone is actually feeling rather than just giving a thumbs-up.",
+      "skills_list": [
+        {"skill": "injury assessment", "proficiency": "strong"},
+        {"skill": "bike fitting and posture", "proficiency": "strong"},
+        {"skill": "sports rehabilitation", "proficiency": "strong"},
+        {"skill": "ride pacing strategy", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [{"value": "eats a proper meal before rides rather than during — nurses a tea rather than ordering food at café stops", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "prefers consistent moderate rides over sporadic big efforts — talks openly about injury prevention periodisation", "confidence": "High", "implicit": true}],
+        "social": [{"value": "one-to-one conversations alongside a ride feel more natural to her than group chat banter", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "the group's go-to for saddle height, cleat angle, and knee pain — sometimes resents how much informal consulting happens on rides", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "climb_gradient_tolerance",
+          "old_value": "avoids gradients above 8% — cautious after a hip flexor issue the previous year",
+          "new_value": "comfortably takes on 10-12% gradients after six months of targeted rehab work on her own hip",
+          "changed_at_session": 9,
+          "trigger": "completed her own rehabilitation programme and tested it on the Cranfield ridge route"
+        }
+      ],
+      "speaking_quirks": [
+        "often writes in full paragraphs even for simple chat messages",
+        "qualifies opinions with 'from a physio perspective' or 'clinically speaking'",
+        "sends voice notes when the message is too long — but always follows up with a text summary"
+      ],
+      "participation_rate": 0.9
+    },
+    {
+      "persona_id": "p_f9a00009",
+      "display_name": "Callum",
+      "age": 30,
+      "gender": "male",
+      "occupation": "Software developer",
+      "background": "Callum found the group through Strava after following Priya's activity log. He's the newest member and still finding his place socially, though he's quickly established himself as the fastest on flat segments. Tends to over-rely on tech — GPS, heart-rate monitors, power meters — and can get defensive when people question his gadget-heavy approach.",
+      "skills_list": [
+        {"skill": "power meter training", "proficiency": "strong"},
+        {"skill": "software development", "proficiency": "strong"},
+        {"skill": "sprinting technique", "proficiency": "medium"},
+        {"skill": "GPS route creation", "proficiency": "medium"}
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [{"value": "eats during rides via precisely portioned gels — finds the café stop inefficient and occasionally skips it", "confidence": "High", "implicit": true}],
+        "activities": [{"value": "gravitates towards flat, fast circuits where power output is measurable — indifferent to scenic routes", "confidence": "High", "implicit": true}],
+        "social": [{"value": "more engaged in the group on digital channels than in person — responds quickly in the chat but quiet at café stops", "confidence": "Medium", "implicit": true}],
+        "domain_specific": [{"value": "builds and shares custom Strava dashboards for the group; proud of this but slightly wounded when people don't engage with them", "confidence": "High", "implicit": true}]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_integration",
+          "old_value": "treats the group as a training vehicle — civil but detached, rarely engages in non-cycling chat",
+          "new_value": "starts joining the post-ride café stop more reliably after Priya explicitly invited him in and the banter won him over",
+          "changed_at_session": 7,
+          "trigger": "Priya told him directly that half the group thought he didn't like them; he was surprised and made a visible effort"
+        }
+      ],
+      "speaking_quirks": [
+        "links to Strava or Garmin data in place of describing a ride in words",
+        "uses precise numbers where others would round ('47.3 km' not '~50 km')",
+        "never uses punctuation beyond full stops"
+      ],
+      "participation_rate": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_f9a00001",
+      "persona_b_id": "p_f9a00003",
+      "relationship_type": "club co-founder",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Tomás set up the WhatsApp group together after meeting at a local sportive two years ago. They disagree regularly on route design but trust each other completely on safety decisions.",
+      "shared_events": ["founded the club together after the Ashdown Sportive", "planned and led the club's first multi-day trip to the Cotswolds"]
+    },
+    {
+      "persona_a_id": "p_f9a00001",
+      "persona_b_id": "p_f9a00002",
+      "relationship_type": "cycling acquaintance turned friend",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Priya get on well despite different cycling philosophies — she adds the social glue he lacks, and he provides the route rigour she'd never plan herself.",
+      "shared_events": ["shared a puncture repair in the rain on the first long club ride", "argued amicably over café vs. home lunch for the midsummer ride"]
+    },
+    {
+      "persona_a_id": "p_f9a00001",
+      "persona_b_id": "p_f9a00005",
+      "relationship_type": "like-minded cyclists",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Derek bond over their shared preference for discipline and proper preparation. Both get quietly frustrated by last-minute changes, which creates an occasional alliance against the group's more spontaneous members.",
+      "shared_events": ["both complained about the same last-minute route change in session 4", "completed a solo century ride together before Derek's knee started playing up"]
+    },
+    {
+      "persona_a_id": "p_f9a00002",
+      "persona_b_id": "p_f9a00003",
+      "relationship_type": "recruiter and recruit",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Tomás recruited Priya into the club through a mutual friend. He treats her as one of the group's social cornerstones and she genuinely looks up to his experience.",
+      "shared_events": ["first off-road loop together that converted Priya to gravel riding", "organised the surprise birthday ride for Marcus together"]
+    },
+    {
+      "persona_a_id": "p_f9a00002",
+      "persona_b_id": "p_f9a00009",
+      "relationship_type": "Strava connection turned club recruit",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Priya noticed Callum's Strava segments overlapping with club routes and directly messaged him to join. She's invested in making sure he integrates well and occasionally feels responsible for his social awkwardness.",
+      "shared_events": ["first ride Callum did with the group — Priya paced him at the back", "Priya intervened when the group complained about Callum's data-dump messages"]
+    },
+    {
+      "persona_a_id": "p_f9a00003",
+      "persona_b_id": "p_f9a00004",
+      "relationship_type": "mentor and newer rider",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Tomás was patient with Yuki when she was clearly struggling with the pace in early sessions. She's grateful; he's pleased by her improvement. A quiet mutual respect.",
+      "shared_events": ["Tomás dropped back to ride with Yuki for 20km when she struggled on the ridge loop", "celebrated Yuki's first sub-3hr century ride with the group"]
+    },
+    {
+      "persona_a_id": "p_f9a00003",
+      "persona_b_id": "p_f9a00006",
+      "relationship_type": "old hands",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Tomás and Saoirse have cycled together for years through overlapping club memberships. They share a mutual respect that comes from years of riding in all conditions together.",
+      "shared_events": ["rode the same club sportive three years before founding Cranfield CC", "only two members who've done the full Cranfield Ridge 100km loop unsupported"]
+    },
+    {
+      "persona_a_id": "p_f9a00003",
+      "persona_b_id": "p_f9a00007",
+      "relationship_type": "club mates with genuine warmth",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Ben and Tomás clicked immediately — Tomás appreciates Ben's ease under pressure and Ben appreciates Tomás's non-judgmental reaction when he has to bail on rides at short notice.",
+      "shared_events": ["Ben provided on-the-spot medical advice when Tomás took a minor fall on a wet descent", "shared a long solo training week before the club was formed"]
+    },
+    {
+      "persona_a_id": "p_f9a00004",
+      "persona_b_id": "p_f9a00008",
+      "relationship_type": "physio-patient turned club mates",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Yuki briefly saw Lena professionally for a knee complaint before realising she was in the same cycling club. The professional relationship has faded but left a residual dynamic where Yuki defers to Lena on physical matters.",
+      "shared_events": ["first ride after Yuki's knee clearance — Lena monitored her pace", "both missed the Ashdown ride and went on a shorter two-person loop instead"]
+    },
+    {
+      "persona_a_id": "p_f9a00005",
+      "persona_b_id": "p_f9a00008",
+      "relationship_type": "friendly but guarded",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Derek and Lena have never fully clicked. Derek finds Lena's clinical approach to rides slightly condescending; Lena finds Derek's bluntness occasionally unkind to newer members. They're polite but keep their distance.",
+      "shared_events": ["clashed indirectly when Derek made a dismissive comment about Yuki's pace and Lena called it out in the chat", "reluctantly co-led a session when Tomás was away"]
+    },
+    {
+      "persona_a_id": "p_f9a00006",
+      "persona_b_id": "p_f9a00007",
+      "relationship_type": "cycling club peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Saoirse and Ben maintain an easy, low-key friendship built on mutual teasing. She mocks his last-minute cancellations; he deflects with self-deprecating humour. Neither takes it seriously.",
+      "shared_events": ["first ones to arrive and last to leave at the club's winter social", "jointly refused to do the sub-zero January ride and organised a café ride instead"]
+    },
+    {
+      "persona_a_id": "p_f9a00006",
+      "persona_b_id": "p_f9a00009",
+      "relationship_type": "competitive respect",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Saoirse and Callum are the two fastest in the group on different terrain — she on climbs and descents, he on flat power. There's an unspoken competitiveness that occasionally surfaces as pointed comments in the chat.",
+      "shared_events": ["matched each other on the final flat stretch of a club ride, neither willing to concede a sprint", "exchanged clipped comments about route choice when neither agreed with Marcus's selection"]
+    },
+    {
+      "persona_a_id": "p_f9a00007",
+      "persona_b_id": "p_f9a00008",
+      "relationship_type": "professional peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Ben and Lena share a healthcare background and often compare notes on overtraining and recovery. They sometimes form a quiet consensus on injury-related group decisions that the others tend to accept.",
+      "shared_events": ["jointly advised Marcus when he mentioned knee pain in the chat", "co-wrote the group's informal 'when to rest' guidance after too many members pushing through niggles"]
+    },
+    {
+      "persona_a_id": "p_f9a00001",
+      "persona_b_id": "p_f9a00006",
+      "relationship_type": "route planners in tension",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Marcus and Saoirse respect each other's technical competence but clash on route philosophy — Marcus wants elevation, Saoirse wants technical descents. They've had a few public disagreements in the group chat.",
+      "shared_events": ["argued over the route for the club's anniversary ride in a thread the whole group watched", "made up by co-designing a route that satisfied both: steep climb, technical descent"]
+    },
+    {
+      "persona_a_id": "p_f9a00002",
+      "persona_b_id": "p_f9a00004",
+      "relationship_type": "enthusiastic peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Priya and Yuki bond over being the younger women in the group. Priya often checks in on Yuki after tough rides and Yuki shares Strava analytics with Priya who actually looks at them.",
+      "shared_events": ["shared a flat tyre repair during the first gravel loop", "started a side thread to plan a women's cycling weekend that the group doesn't know about yet"]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "we always stop for coffee after rides, no exceptions",
+      "truly_universal": false,
+      "dissenters": ["p_f9a00005", "p_f9a00009"]
+    },
+    {
+      "norm_text": "everyone shares their Strava after every ride",
+      "truly_universal": false,
+      "dissenters": ["p_f9a00003", "p_f9a00007"]
+    },
+    {
+      "norm_text": "no one gets left behind — we regroup at every summit",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "we vote on route options before every Saturday ride",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "the club buys pizza for anyone who completes their first 100km ride",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 20,
+    "departures": 0
+  }
+}

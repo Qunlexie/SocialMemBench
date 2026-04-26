@@ -1,0 +1,143 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:57:47.499300+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.284,
+  "mean_context_words": 72.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.4
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.5
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.2
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c302",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer completely misidentifies Soo-Yeon's pattern and preferences regarding food, stating she prioritizes variety and inclusivity by bringing snacks, which contradicts the gold answer's focus on her subtle avoidance of heavy food for herself."
+    },
+    {
+      "qa_id": "Q1_a1b2c303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the core fact that Nadia prefers a strict separation between food and game components, instead making general statements about organization and incorrectly inferring she values breaks/nourishment from her behavior around food."
+    },
+    {
+      "qa_id": "Q1_a1b2c305",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer suggests incorrect dietary considerations (gluten intolerance, healthy options) instead of the correct one (vegetarianism) identified in the gold answer."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer is a generic, theoretical discussion about what food interactions *could* reveal, rather than providing specific factual details about *each member's individual approach* to eating, as requested by the question and provided in the gold answer."
+    },
+    {
+      "qa_id": "Q4_a1b2c301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a1b2c301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides a generic description of a positive working relationship but fails to identify any specific details or evidence from the conversations that reveal the unique nature of Lena and Priya's relationship, as the gold answer does."
+    },
+    {
+      "qa_id": "Q7_a1b2c302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the factual basis of Kezia and Felix's connection (Kezia brought Felix into the group, online design community) and their factual position as a 'newer-member sub-clique,' instead offering speculative interpretations of their feelings and motivations."
+    },
+    {
+      "qa_id": "Q7_a1b2c303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer is entirely generic and speculative, failing to identify the specific history (wargame campaign) and its impact on their interaction (Nadia's trust in Tomasz's judgment) as revealed in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides a generic description of a positive working relationship but completely misses the core factual revelation that Tomasz and Raj co-founded the Collective and serve as its institutional memory."
+    },
+    {
+      "qa_id": "Q8_a1b2c301",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Priya's relationship shifted from positive to negative, when the gold answer indicates a shift from disinterest in competition to caring about winning. All three components (old state, new state, and trigger) are incorrect and contradict the gold answer."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the new state (Marcus softened his preference) but provides a generic and imprecise trigger ('exposure to the advantages of mixed-strategy games') instead of the specific intellectual reframing by Lena, and the signal is also too generic compared to the gold answer's specific linguistic cues."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer completely misidentifies the nature of Lena's shift, the trigger, and the evolved state. The gold answer states the shift was about re-evaluating her aversion to luck-heavy games as a psychological response (feeling out of control) rather than a design flaw, triggered by an intellectual exercise. The generated answer claims the shift was driven by a realization of social connections and enjoyment, which is incorrect."
+    },
+    {
+      "qa_id": "Q8_a1b2c305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Soo-Yeon's response revealed uncertainty or reluctance, when the gold answer and transcript indicate she found it 'actually fine' and was surprised to enjoy it, signifying a genuine shift in her position regarding cooperative real-time games."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer describes a generic shift in handling pressure, but the specific behaviors identified for both the early state (rematch-seeking) and the new state (terse acknowledgment without dispute) are factually incorrect or not present in the generated answer. The trigger for the shift is also completely missed."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer completely misses the specific trigger and mechanism for Felix's change of view, which was Soo-Yeon's reframing of Azul as a 'visual design problem' as explicitly stated in the gold answer and implied by the question's reference to Session 8. Instead, it offers a generic internal 'recognition of depth and strategic possibilities' as the cause, which is not what the gold answer identifies as the specific cause from the conversation."
+    }
+  ]
+}

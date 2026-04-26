@@ -1,28 +1,17 @@
 {
   "network_id": "grp_2b3c4d5e",
   "condition": "cognee",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:52:30.110153+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:40:56.580011+00:00",
   "sessions_used": 5,
   "total_pairs": 10,
-  "new_pairs_this_run": 3,
-  "mean_score": 0.445,
+  "new_pairs_this_run": 10,
+  "mean_score": 0.3,
+  "mean_context_words": 40.1,
   "by_query_type": {
     "Q1": {
       "count": 3,
-      "mean_score": 0.25
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.7
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.0
-    },
-    "Q8": {
-      "count": 2,
-      "mean_score": 0.5
+      "mean_score": 0.167
     },
     "Q2": {
       "count": 1,
@@ -32,32 +21,59 @@
       "count": 1,
       "mean_score": 0.0
     },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
     "Q6": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.25
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_n2a1b2c3",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules, regardless of the actual content available."
     },
     {
       "qa_id": "Q1_n2b2c3d4",
       "query_type": "Q1",
-      "score": 0.0
-    },
-    {
-      "qa_id": "Q7_n2b8c9d0",
-      "query_type": "Q7",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer correctly states that changes occurred but fails to identify the specific change (reduced salt) discussed by the family, instead offering vague and speculative possibilities ('improvements or alterations in her techniques or recipes') that are not supported by the family's actual remarks."
     },
     {
       "qa_id": "Q4_n2e5f6a7",
       "query_type": "Q4",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_n2f6a7b8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the discovery to Ngozi's daughter, while the gold answer correctly identifies Emeka (her son). Attributing a fact to the wrong person is a critical error."
+    },
+    {
+      "qa_id": "Q7_n2b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer describes Chidi as a mediator and encourager of open communication, which directly contradicts the gold answer's description of him as someone whose brief, late statements carry decisive weight and end discussions."
+    },
+    {
+      "qa_id": "Q8_n2d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes both Emeka's old and new stance, and misidentifies the trigger for the change. The gold answer specifies stalling to firm commitment due to parental pressure, while the generated answer claims a shift from wanting to stay away to a more positive outlook due to nostalgia/family obligation."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

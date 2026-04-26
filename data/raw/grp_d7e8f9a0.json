@@ -1,0 +1,471 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "group_name": "Clay & Fire Collective",
+  "group_type": "interest_community",
+  "group_size": 5,
+  "seed": 25,
+  "personas": [
+    {
+      "persona_id": "grp_d7e8f9a0_p01",
+      "display_name": "Nadia",
+      "age": 38,
+      "gender": "female",
+      "occupation": "Graphic designer (freelance)",
+      "background": "Nadia started pottery three years ago as a counterweight to screen-heavy design work. She throws on the wheel obsessively and has taken two advanced glazing workshops. She is the informal hub of the group — the one who books studio time, reminds others of kiln schedules, and organises the occasional group critique. She would never call herself the leader but acts like one. Has a strong aesthetic preferences for matte, earthy glazes and hates anything shiny or commercial-looking.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "skills_list": [
+        {"skill": "wheel throwing", "proficiency": "strong"},
+        {"skill": "glaze chemistry", "proficiency": "medium"},
+        {"skill": "graphic layout and typography", "proficiency": "strong"},
+        {"skill": "kiln scheduling", "proficiency": "medium"}
+      ],
+      "preferences": {
+        "food": [
+          {"value": "prefers plant-based meals at group socials — doesn't announce it, just quietly picks around meat", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers wheel-throwing over hand-building — always gravitates toward the wheel stations at shared studio sessions", "confidence": "High", "implicit": true},
+          {"value": "dislikes pottery styles that mimic mass-produced ceramics — visibly unenthused when someone brings in a commercial mould piece", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "prefers small group critique sessions over big open-studio events — more focused, less performative", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "strong preference for matte and woodfire glazes; actively avoids shiny commercial glazes", "confidence": "High", "implicit": false}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "ceramics",
+          "attribute": "preferred_firing_method",
+          "old_value": "electric kiln — convenient, predictable",
+          "new_value": "gas reduction kiln — unpredictable results she's grown to love",
+          "changed_at_session": 3,
+          "trigger": "attended a wood/gas firing workshop in session 3 that shifted her perspective on outcome control"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'okay so here's the thing' before any logistical message",
+        "uses 'visually it just doesn't work for me' as a polite refusal",
+        "sends long messages in one go rather than multiple short ones"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "grp_d7e8f9a0_p02",
+      "display_name": "Reuben",
+      "age": 44,
+      "gender": "male",
+      "occupation": "Secondary school art teacher",
+      "background": "Reuben has been doing ceramics for twelve years and is the most technically skilled member. He hand-builds almost exclusively — coiling and slab work — and is quietly dismissive of wheel-throwing as too easy. He's generous with technical advice but can come across as condescending when he doesn't mean to. He was in the group before Nadia and privately feels she's taken over the social organising role he used to hold.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "skills_list": [
+        {"skill": "hand-building (coiling and slab)", "proficiency": "strong"},
+        {"skill": "stoneware surface texture", "proficiency": "strong"},
+        {"skill": "secondary school art instruction", "proficiency": "strong"},
+        {"skill": "kiln loading and temperature management", "proficiency": "medium"}
+      ],
+      "preferences": {
+        "food": [
+          {"value": "brings his own coffee to studio sessions — doesn't drink the instant coffee the studio provides", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "strongly prefers hand-building over wheel-throwing — sees coiling and slab work as more sculptural and serious", "confidence": "High", "implicit": false},
+          {"value": "prefers one-on-one technical exchanges over group critique — group critiques make him defensive", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "uncomfortable when pottery discussion veers into lifestyle/wellness territory — prefers craft-focused conversation", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "favours stoneware over earthenware — finds earthenware too fragile and the colour range too limited", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "group_organising_role",
+          "old_value": "was the de facto organiser — booked studio, chased RSVPs",
+          "new_value": "has stepped back from organising; now defers to Nadia, though with occasional visible friction",
+          "changed_at_session": 2,
+          "trigger": "Nadia took over booking the studio for session 2 without asking; Reuben didn't object but stopped initiating since"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'technically speaking' before a correction",
+        "responds to scheduling messages with only the day he can make it — no other commentary",
+        "uses 'fair enough' to close a disagreement he doesn't fully agree with"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "grp_d7e8f9a0_p03",
+      "display_name": "Simone",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Physiotherapy assistant",
+      "background": "Simone joined the collective eighteen months ago through a beginner's workshop. She's still in the learning phase — her pieces are getting more confident but she's intimidated by Reuben's experience. She's the most socially enthusiastic member and the one most likely to suggest extending studio sessions into dinner. Works part-time shifts that change week to week, which makes scheduling a recurring headache. Very online — posts her pottery progress on Instagram and occasionally brings up follower reactions in conversation.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "skills_list": [
+        {"skill": "beginner wheel throwing", "proficiency": "low"},
+        {"skill": "glaze application and decoration", "proficiency": "medium"},
+        {"skill": "ceramics photography", "proficiency": "medium"},
+        {"skill": "social media content creation", "proficiency": "strong"}
+      ],
+      "preferences": {
+        "food": [
+          {"value": "always wants to turn studio sessions into a social dinner — volunteers Thai or Ethiopian places every time", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers beginner-friendly sessions where there's space to experiment without judgment — gets quieter when the session feels too expert-level", "confidence": "High", "implicit": true},
+          {"value": "enjoys photographing finished pieces more than the making process — often has her phone out at the end of sessions", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "likes bringing in outside inspiration — screenshots from ceramics Instagram accounts, design books from the library", "confidence": "Medium", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "prefers bright, colourful glazes — drawn to maximalist decoration that others in the group find kitsch", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "ceramics",
+          "attribute": "glaze_style_preference",
+          "old_value": "neutral — had no strong glaze preference as a beginner",
+          "new_value": "strong preference for vibrant, layered colour glazes after seeing them on Instagram",
+          "changed_at_session": 4,
+          "trigger": "posted her first glazed piece on Instagram in session 4 and received far more engagement on brightly glazed work than neutral pieces"
+        }
+      ],
+      "speaking_quirks": [
+        "starts enthusiasm with 'wait oh my god' before sharing something she found online",
+        "uses 'vibes' as a genuine aesthetic evaluation: 'the vibes on that glaze are perfect'",
+        "sends multiple short messages in rapid succession instead of one long one"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    },
+    {
+      "persona_id": "grp_d7e8f9a0_p04",
+      "display_name": "Callum",
+      "age": 52,
+      "gender": "male",
+      "occupation": "Retired civil engineer",
+      "background": "Callum is the oldest member and the most recent addition to the group, joining after retiring early. He came to ceramics through a community education class his wife enrolled him in. He's methodical and patient — his pieces are technically sound if aesthetically conservative. He brings a project-management mindset to everything, which helps with kiln scheduling but irritates the more intuitive members. He was planning to move to Portugal with his wife after fully settling into retirement, which became a major subplot in the group from session 3 onward.",
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "skills_list": [
+        {"skill": "functional ceramics (mugs, plates, bowls)", "proficiency": "medium"},
+        {"skill": "porcelain throwing", "proficiency": "medium"},
+        {"skill": "project planning", "proficiency": "strong"},
+        {"skill": "kiln load organisation", "proficiency": "medium"}
+      ],
+      "preferences": {
+        "food": [
+          {"value": "doesn't drink alcohol — orders sparkling water at group dinners without making it a thing", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers functional ceramics over purely decorative work — always making mugs, bowls, plates", "confidence": "High", "implicit": true},
+          {"value": "prefers daytime studio sessions over evening ones — health reasons he hasn't explained", "confidence": "Medium", "implicit": true}
+        ],
+        "social": [
+          {"value": "increasingly mentions Portugal plans in the second half of sessions — the move was becoming more real from session 3", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "prefers porcelain over stoneware for functional pieces — likes the translucency and the challenge", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "ceramics",
+          "attribute": "project_ambition",
+          "old_value": "making small functional pieces — mugs and bowls for personal use",
+          "new_value": "working toward a final set of 12 matching dinner plates to take to Portugal — a stated legacy project",
+          "changed_at_session": 3,
+          "trigger": "Portugal move became concrete in session 3 — he announced the date and committed to finishing the plate set before leaving"
+        }
+      ],
+      "speaking_quirks": [
+        "says 'noted' to confirm he's heard a logistical point",
+        "frames everything as a project: 'I'm in phase two of the plate set'",
+        "brings up the Portugal move with 'assuming we get everything sorted before the move'"
+      ],
+      "participation_rate": 1.0,
+      "status": "departed",
+      "departed_after_session": 5
+    },
+    {
+      "persona_id": "grp_d7e8f9a0_p05",
+      "display_name": "Yuki",
+      "age": 27,
+      "gender": "non-binary",
+      "occupation": "Bookseller (independent bookshop)",
+      "background": "Yuki is the quietest and most introverted member — they rarely initiate conversation in the group chat but always show up to sessions and are deeply focused when working. Their ceramic style is minimalist and technically precise: thin-walled vessels, restrained surface decoration. They have a tendency to give detailed, considered opinions when asked directly but will not volunteer them. They cycle to the studio and have never once been late.",
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "skills_list": [
+        {"skill": "thin-wall wheel throwing", "proficiency": "strong"},
+        {"skill": "minimalist surface decoration", "proficiency": "strong"},
+        {"skill": "book curation and recommendation", "proficiency": "strong"}
+      ],
+      "preferences": {
+        "food": [
+          {"value": "eats before studio sessions and never joins the dinner extension — quietly declines every time", "confidence": "High", "implicit": true}
+        ],
+        "activities": [
+          {"value": "prefers sessions with no agenda — resists when Nadia tries to turn sessions into structured critiques", "confidence": "High", "implicit": true},
+          {"value": "strongly prefers undecorated or single-glaze surfaces — minimalist aesthetic carried into every piece", "confidence": "High", "implicit": true}
+        ],
+        "social": [
+          {"value": "dislikes when pottery is discussed in terms of social media or audience — treats ceramic work as entirely private", "confidence": "High", "implicit": true}
+        ],
+        "domain_specific": [
+          {"value": "focuses exclusively on functional, small-scale vessels — no decorative or large sculptural work", "confidence": "High", "implicit": true}
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "participation_in_group_critique",
+          "old_value": "silent observer during group critiques — would not volunteer any opinion",
+          "new_value": "began offering brief, direct feedback when asked — still never volunteers, but stopped deflecting",
+          "changed_at_session": 5,
+          "trigger": "Reuben directly asked for Yuki's opinion on a slab piece in session 5 and was clearly genuine; Yuki gave a considered response and the group responded well"
+        }
+      ],
+      "speaking_quirks": [
+        "responds to scheduling messages with a single word: 'Yes', 'No', or 'Maybe'",
+        "says 'does it work?' as a complete aesthetic evaluation",
+        "texts only when there's something functional to communicate — never small talk in the group chat"
+      ],
+      "participation_rate": 1.0,
+      "status": "active"
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "grp_d7e8f9a0_p01",
+      "persona_b_id": "grp_d7e8f9a0_p02",
+      "relationship_type": "collaborative but friction-edged",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Nadia and Reuben are the group's two most experienced members but have different ideas about what the collective should be. Reuben was the de facto organiser before Nadia; he stepped back when she took over without being asked. Both respect each other's craft but navigate subtle competition over the group's direction.",
+      "shared_events": [
+        "co-led the first group critique session",
+        "disagreed about whether to invite new members from a beginner class"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p01",
+      "persona_b_id": "grp_d7e8f9a0_p03",
+      "relationship_type": "mentor-adjacent, warm",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Nadia took Simone under her wing when she joined. Simone admires Nadia's eye and Nadia enjoys having someone enthusiastic to bounce aesthetic ideas off. They sometimes message outside the group.",
+      "shared_events": [
+        "attended the same glazing workshop together",
+        "collaborated on a small joint display at the studio open day"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p01",
+      "persona_b_id": "grp_d7e8f9a0_p04",
+      "relationship_type": "friendly and functional",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Nadia and Callum work well together on logistics — he brings structure, she brings initiative. They don't have much in common aesthetically but appreciate each other's reliability.",
+      "shared_events": [
+        "jointly managed the kiln booking schedule for three months",
+        "worked through a studio scheduling conflict together"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p01",
+      "persona_b_id": "grp_d7e8f9a0_p05",
+      "relationship_type": "respectful but distant",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Nadia respects Yuki's work but finds their non-responsiveness in the chat frustrating. Yuki finds Nadia's constant organising a little much. They are cordial and never clash directly.",
+      "shared_events": [
+        "sat next to each other at the studio open day",
+        "Nadia once asked Yuki's opinion on a glaze and received a one-word answer"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p02",
+      "persona_b_id": "grp_d7e8f9a0_p03",
+      "relationship_type": "patient teacher, eager student",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Reuben gives Simone technical feedback more willingly than he does with others — her enthusiasm is harder to be condescending toward. He occasionally finds her Instagram-orientation baffling but doesn't say so.",
+      "shared_events": [
+        "Reuben demonstrated coiling technique one-on-one for Simone",
+        "Simone posted one of Reuben's pieces on Instagram without asking — he didn't comment but went quiet for a session"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p02",
+      "persona_b_id": "grp_d7e8f9a0_p04",
+      "relationship_type": "collegial, low warmth",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Reuben and Callum have little in common beyond shared studio time. Callum's project-management framing of ceramics grates on Reuben's craft-first sensibility. They are polite but do not seek each other out.",
+      "shared_events": [
+        "agreed on a kiln temperature schedule together",
+        "both attended Callum's farewell session in session 5"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p02",
+      "persona_b_id": "grp_d7e8f9a0_p05",
+      "relationship_type": "mutual craft respect",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Reuben is the member Yuki most respects technically. Yuki's minimalism aligns more with Reuben's values than the others'. They rarely speak socially but have a quiet, reciprocal regard in studio.",
+      "shared_events": [
+        "Reuben specifically asked Yuki's opinion during a group critique — one of the few times he deferred to another member",
+        "both stayed late at the same studio session working silently in parallel"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p03",
+      "persona_b_id": "grp_d7e8f9a0_p04",
+      "relationship_type": "warm but surface-level",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Simone genuinely liked Callum and was the most vocal at his farewell. She asked about Portugal several times and photographed his completed plates before he left. They stay in light social contact.",
+      "shared_events": [
+        "Simone organised Callum's informal farewell session",
+        "photographed Callum's completed plate set for him"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p03",
+      "persona_b_id": "grp_d7e8f9a0_p05",
+      "relationship_type": "asymmetric energy",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Simone tries to include Yuki in social extensions and is consistently rebuffed. Yuki doesn't dislike Simone but finds her social style tiring. Simone takes the rebuffs less personally than she should.",
+      "shared_events": [
+        "Simone invited Yuki to three post-session dinners; Yuki declined all three"
+      ]
+    },
+    {
+      "persona_a_id": "grp_d7e8f9a0_p04",
+      "persona_b_id": "grp_d7e8f9a0_p05",
+      "relationship_type": "mutual quiet respect",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Callum and Yuki share a preference for focused, undistracted studio time. They rarely speak but have exchanged direct nods of appreciation for each other's work. Yuki was present at Callum's farewell session and said more than usual.",
+      "shared_events": [
+        "both arrived early to the same session and worked in companionable silence",
+        "Yuki offered Callum brief unsolicited feedback on his plate form — one of very few times"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Studio sessions have a scheduled end time and everyone packs up on time so the space can be cleaned.",
+      "truly_universal": false,
+      "dissenters": ["grp_d7e8f9a0_p03"],
+      "dissenter_notes": "Simone routinely asks to extend sessions and is the last to pack up — she treats the end time as approximate and the others have given up enforcing it with her."
+    },
+    {
+      "norm_text": "Work in progress is not photographed or shared without the maker's permission.",
+      "truly_universal": false,
+      "dissenters": ["grp_d7e8f9a0_p03"],
+      "dissenter_notes": "Simone has posted other members' pieces on her Instagram at least twice without asking first — once Reuben's, once Nadia's. Both let it go without confrontation but Reuben visibly cooled for a session after."
+    },
+    {
+      "norm_text": "Group critique sessions are optional — no pressure to put your work up.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Studio fees are split equally and paid before the session, not chased afterward.",
+      "truly_universal": false,
+      "dissenters": ["grp_d7e8f9a0_p03"],
+      "dissenter_notes": "Simone has been late on studio fees on two separate occasions — not a large amount but Nadia has quietly fronted the cost while waiting. Simone always pays eventually but it has become a minor pattern."
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 8,
+    "turns_per_session": 20,
+    "departures": 1,
+    "departure_notes": "Callum (grp_d7e8f9a0_p04) departs after session 5, relocating to Portugal with his wife. His farewell session is session 5. Sessions 1-5 establish his preference history (functional ceramics, porcelain, daytime sessions, the Portugal dinner plate project). Q9 recall challenge targets his last known preferences before departure."
+  }
+}

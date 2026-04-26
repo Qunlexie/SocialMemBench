@@ -166,6 +166,17 @@ class LangMemAdapter(BaseAdapter):
             ingested.add(session_key)
 
         n_memories = len(all_memories)
+        if n_memories == 0:
+            self.console.print(
+                "   ⚠️  WARNING: 0 consolidated memories after ingestion — "
+                "check langmem manager extraction and API key",
+                style="yellow",
+            )
+        else:
+            self.console.print(f"   LangMem store: {n_memories} consolidated memories")
+            for m in all_memories[:3]:
+                text = getattr(m, "content", str(m))
+                self.console.print(f"     • {str(text)[:100]}")
         print_success(f"LangMem add: {total_sent} turns → {n_memories} consolidated memories, {len(errors)} errors")
         return AddResult(
             success=len(errors) == 0,
@@ -190,6 +201,7 @@ class LangMemAdapter(BaseAdapter):
         try:
             net = self._get_network(user_id)
             store = net["store"]
+            all_memories = net["all_memories"]
             namespace = ("memories", user_id)
 
             results = store.search(namespace, query=query, limit=effective_k)
@@ -200,13 +212,43 @@ class LangMemAdapter(BaseAdapter):
                 content = item.value.get("content", str(item.value))
                 retrieved.append(content)
 
-            context = "\n".join(f"- {m}" for m in retrieved) if retrieved else "[No memories retrieved]"
+            if retrieved:
+                context = "\n".join(f"- {m}" for m in retrieved)
+            elif all_memories:
+                # Fallback: store.search failed or returned nothing, but we have
+                # consolidated memories in memory — return them all unordered.
+                # This is better than returning empty context.
+                self.console.print(
+                    f"   ⚠️  store.search returned 0 results; falling back to "
+                    f"all {len(all_memories)} consolidated memories",
+                    style="yellow",
+                )
+                retrieved = [
+                    getattr(m, "content", str(m)) for m in all_memories
+                ]
+                context = "\n".join(f"- {m}" for m in retrieved)
+            else:
+                context = "[No memories retrieved]"
 
         except Exception as e:
-            self.console.print(f"   LangMem search error: {e}", style="yellow")
+            self.console.print(
+                f"   ⚠️  LangMem search error ({type(e).__name__}): {e}",
+                style="yellow",
+            )
             duration_ms = (time.time() - start) * 1000
-            retrieved = []
-            context = "[Search failed]"
+            # Fallback to all_memories if available
+            try:
+                net = self._get_network(user_id)
+                all_memories = net["all_memories"]
+                if all_memories:
+                    retrieved = [getattr(m, "content", str(m)) for m in all_memories]
+                    context = "\n".join(f"- {m}" for m in retrieved)
+                else:
+                    retrieved = []
+                    context = f"[Search failed: {type(e).__name__}]"
+            except Exception:
+                retrieved = []
+                context = f"[Search failed: {type(e).__name__}]"
 
         return SearchResult(
             question_id=question_id,

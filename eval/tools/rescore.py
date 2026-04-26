@@ -188,7 +188,8 @@ async def rescore_condition(condition: str, dry_run: bool = False):
 
             if answer_format == "multiple_choice" and correct_option:
                 score, rationale = _score_mc(p["generated_answer"], correct_option)
-                updated_pairs.append({**p, "score": score, "score_rationale": rationale})
+                updated_pairs.append({**p, "score": score, "score_rationale": rationale,
+                                       "context_words": p.get("context_words", 0)})
             else:
                 # OE — needs LLM judge
                 oe_tasks.append((len(updated_pairs), p))
@@ -204,7 +205,8 @@ async def rescore_condition(condition: str, dry_run: bool = False):
                         client, judge_model,
                         pair["question"], pair["ground_truth"], pair["generated_answer"]
                     )
-                    updated_pairs[idx] = {**pair, "score": score, "score_rationale": rationale}
+                    updated_pairs[idx] = {**pair, "score": score, "score_rationale": rationale,
+                                           "context_words": pair.get("context_words", 0)}
 
             await asyncio.gather(*[eval_one(idx, pair) for idx, pair in oe_tasks])
 
@@ -245,7 +247,9 @@ async def rescore_condition(condition: str, dry_run: bool = False):
             with open(summary_path) as f:
                 summary = json.load(f)
 
+        mean_ctx = sum(p.get("context_words", 0) for p in valid_pairs) / total if total else 0
         summary["mean_score"] = round(mean_score, 3)
+        summary["mean_context_words"] = round(mean_ctx, 1)
         summary["total_pairs"] = total
         summary["by_query_type"] = {
             qt: {"count": v["count"], "mean_score": round(v["total"] / v["count"], 3)}

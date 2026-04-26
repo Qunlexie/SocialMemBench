@@ -119,25 +119,51 @@ class Mem0LocalAdapter(BaseAdapter):
             self.console.print(f"   Session {session_idx} ({day.date})...")
 
             for group_name, messages in day.groups.items():
-                for msg in messages:
-                    content = f"[Speaker: {msg.speaker}] {msg.content}"
-                    try:
-                        await loop.run_in_executor(
-                            None,
-                            lambda c=content: self._memory.add(
-                                c,
-                                user_id=user_id,
-                                metadata={
-                                    "speaker": msg.speaker,
-                                    "session": str(session_idx),
-                                    "date": day.date,
-                                },
-                            ),
-                        )
-                        total_sent += 1
-                    except Exception as e:
-                        errors.append(str(e))
-                        self.console.print(f"   ⚠️  Error: {e}", style="yellow")
+                # Batch the whole session as a conversation so mem0's LLM sees
+                # full context and can extract speaker-attributed facts.
+                # Per-turn ingestion loses speaker attribution — mem0 extracts
+                # "User likes X" with no name when turns arrive individually.
+                session_messages = [
+                    {"role": "user", "content": f"[{msg.speaker}] {msg.content}"}
+                    for msg in messages
+                ]
+                try:
+                    await loop.run_in_executor(
+                        None,
+                        lambda msgs=session_messages, sidx=session_idx: self._memory.add(
+                            messages=msgs,
+                            user_id=user_id,
+                            metadata={
+                                "session": str(sidx),
+                                "date": day.date,
+                            },
+                        ),
+                    )
+                    total_sent += len(messages)
+                except Exception as e:
+                    errors.append(str(e))
+                    self.console.print(f"   ⚠️  Session {session_idx} error: {e}", style="yellow")
+
+        # Post-add verification: confirm memories were extracted
+        try:
+            all_mems = await loop.run_in_executor(
+                None,
+                lambda: self._memory.get_all(user_id=user_id),
+            )
+            mem_list = all_mems if isinstance(all_mems, list) else all_mems.get("results", [])
+            n_mems = len(mem_list)
+            self.console.print(f"   Mem0 store: {n_mems} memories extracted")
+            if n_mems == 0:
+                self.console.print(
+                    "   ⚠️  WARNING: 0 memories extracted — check mem0 config and API key",
+                    style="yellow",
+                )
+            elif n_mems <= 5:
+                for m in mem_list[:3]:
+                    text = m.get("memory", str(m)) if isinstance(m, dict) else str(m)
+                    self.console.print(f"     • {text[:100]}")
+        except Exception as e:
+            self.console.print(f"   ⚠️  Could not verify mem0 store: {e}", style="yellow")
 
         print_success(f"Mem0 add: {total_sent} turns ingested, {len(errors)} errors")
 

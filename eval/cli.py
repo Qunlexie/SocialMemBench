@@ -61,7 +61,7 @@ CONDITION_MODELS = {
 }
 
 # Memory system conditions: ingest → retrieve → answer (no full context)
-MEMORY_CONDITIONS = {"mem0_local", "zep_local", "naive_rag", "graphiti", "langmem", "cognee", "smg"}
+MEMORY_CONDITIONS = {"mem0_local", "zep_local", "naive_rag", "graphiti", "langmem", "cognee", "smg", "smg_gemini"}
 
 ALL_CONDITIONS = set(CONDITION_MODELS.keys()) | MEMORY_CONDITIONS
 
@@ -113,6 +113,12 @@ def _build_memory_adapter(condition: str, top_k: Optional[int] = None):
         if top_k is not None:
             config["top_k"] = top_k
         return SMGAdapter(config)
+    elif condition == "smg_gemini":
+        from eval.adapters.smg_adapter import SMGAdapter
+        config = load_yaml(str(ADAPTER_CONFIG_DIR / "smg_gemini.yaml"))
+        if top_k is not None:
+            config["top_k"] = top_k
+        return SMGAdapter(config)
     else:
         raise ValueError(f"Unknown memory condition: {condition}")
 
@@ -127,7 +133,7 @@ async def run_eval(
     """Run the full eval pipeline for one network."""
     console = get_console()
     is_memory = condition in MEMORY_CONDITIONS
-    model = CONDITION_MODELS.get(condition, "gpt-4o")  # memory conditions use gpt-4o for answering
+    model = CONDITION_MODELS.get(condition, "gpt-4o-mini")  # memory conditions use gpt-4o-mini for answering
     label = condition if is_memory else f"{condition} ({model})"
 
     console.print(f"\n{'='*60}", style="bold blue")
@@ -174,14 +180,23 @@ async def run_eval(
         return {}
 
     # 3. Build adapter and ingest corpus
+    # Persistent memory adapters (mem0, naive_rag, graphiti, langmem, cognee, smg) write
+    # data to disk (Chroma, Kuzu, etc). A sentinel file prevents re-ingestion on reruns,
+    # which would duplicate vector store entries and waste API calls.
+    ingested_flag = out_dir / f"{network_id}.ingested"
+
     if is_memory:
         adapter = _build_memory_adapter(condition, top_k=top_k)
         system_name = MEMORY_SYSTEM_NAME
+        if ingested_flag.exists():
+            console.print(f"   Skipping ingestion — already done (sentinel: {ingested_flag.name})", style="cyan")
+        else:
+            await adapter.add(dataset, user_id=network_id)
+            ingested_flag.touch()
     else:
         adapter = LLMAdapter(config={})
         system_name = "llm"
-
-    await adapter.add(dataset, user_id=network_id)
+        await adapter.add(dataset, user_id=network_id)
 
     # 4. Search — retrieve context for each new question
     search_results = []
@@ -211,9 +226,10 @@ async def run_eval(
     dr_by_id = {dr["question_id"]: dr for dr in eval_result.detailed_results}
 
     new_pairs = []
-    for ar in answer_results:
+    for ar, sr in zip(answer_results, search_results):
         dr = dr_by_id.get(ar.question_id, {"score": 0.0, "rationale": "not evaluated"})
         meta = ar.metadata if hasattr(ar, "metadata") and ar.metadata else {}
+        context_words = len(sr.context.split()) if sr and sr.context else 0
         new_pairs.append({
             "qa_id": ar.question_id,
             "network_id": network_id,
@@ -224,6 +240,7 @@ async def run_eval(
             "generated_answer": ar.generated_answer,
             "score": dr["score"],
             "score_rationale": dr.get("rationale", ""),
+            "context_words": context_words,
         })
 
     # Append new results to the JSONL (don't overwrite existing)
@@ -252,6 +269,8 @@ async def run_eval(
 
     total = len(all_pairs)
     mean_score = sum(p["score"] for p in all_pairs) / total if total else 0.0
+    context_word_counts = [p.get("context_words", 0) for p in all_pairs]
+    mean_context_words = sum(context_word_counts) / total if total else 0
 
     summary = {
         "network_id": network_id,
@@ -262,6 +281,7 @@ async def run_eval(
         "total_pairs": total,
         "new_pairs_this_run": len(new_pairs),
         "mean_score": round(mean_score, 3),
+        "mean_context_words": round(mean_context_words, 1),
         "by_query_type": by_query_type_summary,
         "low_scoring": [
             {"qa_id": p["qa_id"], "query_type": p["query_type"], "score": p["score"], "rationale": p["score_rationale"]}

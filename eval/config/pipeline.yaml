@@ -12,7 +12,7 @@ answer:
 # LLM judge evaluation (evaluator.py)
 # Returns 0.0–1.0 scores (not binary CORRECT/WRONG)
 evaluate:
-  model: "gemini-2.5-flash"
+  model: "gpt-4o-mini"
   concurrency: 10
   timeout: 120
 

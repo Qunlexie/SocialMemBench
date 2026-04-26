@@ -1,50 +1,71 @@
 {
   "network_id": "grp_4d5e6f7a",
   "condition": "smg",
-  "model": "gpt-4o",
-  "evaluated_at": "2026-04-10T06:20:17.734120+00:00",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-10T21:22:51.290740+00:00",
   "sessions_used": 5,
   "total_pairs": 9,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.422,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.356,
+  "mean_context_words": 400.1,
   "by_query_type": {
     "Q1": {
       "count": 2,
-      "mean_score": 0.25
-    },
-    "Q8": {
-      "count": 4,
-      "mean_score": 0.325
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 0.5
-    },
-    "Q7": {
-      "count": 1,
-      "mean_score": 0.5
+      "mean_score": 0.4
     },
     "Q4": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.1
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.7
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q1_v4s3c3",
       "query_type": "Q1",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer describes Nneka's preference for attending events alone and her motivation for collecting, rather than her specific collecting focus (genre, era) as requested by the question and provided in the gold answer."
     },
     {
       "qa_id": "Q8_v4s2c1",
       "query_type": "Q8",
-      "score": 0.3
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Rashida's initial approach was 'setting a budget for the next record fair (session 2)'; the gold answer clarifies she started with no budget constraints and only announced a budget after overspending in Session 2. The generated answer also misrepresents the final state by stating her budget allowed for 'two records, both beautiful reissues' in Session 5, whereas the gold states she bought two records and walked away from three, and the 'reissues' detail was from Session 2 purchases, not Session 5. No trigger or mechanism for the shift is identified."
+    },
+    {
+      "qa_id": "Q8_v4s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fundamentally misrepresents Theo's initial position and the timeline of his change. It incorrectly states that his initial position in Session 3 was 'I'm done. Originals only from now,' when in fact, he bought a reissue in Session 3 before making that declaration. The gold answer clearly shows he started with skepticism (Session 1) and even purchased a reissue before his stance hardened. The claim 'There is no evidence in the memories that Theo ever expressed a desire to buy reissues' is also factually incorrect, as he bought one in Session 3."
+    },
+    {
+      "qa_id": "Q8_v4s3c2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the new state of Preet actively building their collection but misidentifies the initial state and the primary trigger for the change."
     },
     {
       "qa_id": "Q8_v4s4c1",
       "query_type": "Q8",
-      "score": 0.0
+      "score": 0.0,
+      "rationale": "The generated answer 'NOT ENOUGH INFORMATION' always scores 0.0 according to the critical rules, as the gold answer provides a clear and detailed explanation of Gil's changed approach."
+    },
+    {
+      "qa_id": "Q5_v4s4c2",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Preet's quote as evidence of prior knowledge, but it fails to accurately describe Rashida's spending 'pattern' (missing the overspending aspect) and provides an incomplete explanation of how Preet knows it (missing the direct observation of the broken promise)."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

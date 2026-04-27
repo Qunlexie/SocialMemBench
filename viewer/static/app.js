@@ -18,17 +18,19 @@ const state = {
   qaSearch: '',
   qaPage: 1,
   networkSearch: '',
+  pendingRoute: null,
   graphSim: null,
   activeSessionId: null,
   evidencedTurns: new Map(), // turn_id → [query_type, ...]
+  returnQaId: null,
   sessionScrollCooldownUntil: 0,
 };
 
 // ── Speaker color palette ──────────────────────────────────────────────────────
 const SPEAKER_COLORS = [
-  '#0071e3','#34c759','#ff9500','#af52de',
-  '#ff3b30','#5ac8fa','#ff6b35','#30d158',
-  '#bf5af2','#ffd60a',
+  '#486a8f','#5c7a63','#9a6b2f','#7a668d',
+  '#9b5a54','#4f7f8c','#8c6f52','#668073',
+  '#806f9d','#8a7a3a',
 ];
 const speakerColorMap = new Map();
 
@@ -56,6 +58,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindRefresh();
   bindSidebarSearch();
   bindQASearch();
+  bindCopyViewLink();
+  state.pendingRoute = readRoute();
   await loadNetworks();
 });
 
@@ -87,6 +91,16 @@ async function loadNetworks() {
   if (meta) meta.textContent = `${state.networks.length} network${state.networks.length !== 1 ? 's' : ''}`;
 
   renderNetworkList();
+  renderCorpusAuditSkeleton();
+  buildCorpusAudit();
+
+  if (state.pendingRoute?.network) {
+    const route = state.pendingRoute;
+    state.pendingRoute = null;
+    if (state.networks.some(n => n.network_id === route.network)) {
+      await selectNetwork(route.network, { tab: route.tab, qaId: route.qa, turnId: route.turn, replaceUrl: true });
+    }
+  }
 }
 
 function renderNetworkList() {
@@ -123,7 +137,7 @@ function renderNetworkList() {
         <span class="net-badge">${n.group_size}p</span>
         <div class="net-indicators">
           <div class="net-dot ${n.has_conversations ? 'has-conv' : ''}" title="Conversations"></div>
-          <div class="net-dot ${n.has_qa ? 'has-qa' : ''}" title="QA Pairs"></div>
+          <div class="net-dot ${n.has_qa ? 'has-qa' : ''}" title="Benchmark QA"></div>
         </div>
       </div>
     </div>`).join('');
@@ -131,6 +145,96 @@ function renderNetworkList() {
   list.querySelectorAll('.network-item').forEach(el => {
     el.addEventListener('click', () => selectNetwork(el.dataset.id));
   });
+}
+
+function renderCorpusAuditSkeleton() {
+  const el = document.getElementById('corpus-audit');
+  if (!el) return;
+
+  const withConversations = state.networks.filter(n => n.has_conversations).length;
+  const withQA = state.networks.filter(n => n.has_qa).length;
+  const byType = countBy(state.networks, n => fmtGroupType(n.group_type) || 'unknown');
+
+  el.innerHTML = `
+    <div class="audit-stats">
+      <div class="audit-stat">
+        <div class="audit-stat-value">${state.networks.length}</div>
+        <div class="audit-stat-label">Networks</div>
+      </div>
+      <div class="audit-stat">
+        <div class="audit-stat-value">${withConversations}</div>
+        <div class="audit-stat-label">Conversation files</div>
+      </div>
+      <div class="audit-stat">
+        <div class="audit-stat-value">${withQA}</div>
+        <div class="audit-stat-label">Benchmark QA files</div>
+      </div>
+    </div>
+    <div class="audit-panel">
+      <div class="audit-panel-label">Group Coverage</div>
+      <div class="audit-chip-row">
+        ${Object.entries(byType).map(([type, count]) => `<span class="audit-chip">${esc(type)} <strong>${count}</strong></span>`).join('')}
+      </div>
+    </div>
+    <div class="audit-panel" id="audit-detail">
+      <div class="audit-panel-label">Audit Readiness</div>
+      <div class="audit-muted">Loading QA and conversation coverage…</div>
+    </div>
+  `;
+}
+
+async function buildCorpusAudit() {
+  const detail = document.getElementById('audit-detail');
+  if (!detail || !state.networks.length) return;
+
+  const rows = await Promise.all(state.networks.map(async network => {
+    const [conversationResult, qaResult] = await Promise.allSettled([
+      network.has_conversations ? api(`/api/conversations/${network.network_id}`) : Promise.resolve(null),
+      network.has_qa ? api(`/api/qa/${network.network_id}`) : Promise.resolve([]),
+    ]);
+    const conversations = conversationResult.status === 'fulfilled' ? conversationResult.value : null;
+    const qa = qaResult.status === 'fulfilled' ? qaResult.value : [];
+    const sessions = conversations?.sessions ?? [];
+    const turns = sessions.reduce((sum, session) => sum + (session.turns?.length ?? 0), 0);
+    return { network, sessions: sessions.length, turns, qa };
+  }));
+
+  const totals = rows.reduce((acc, row) => {
+    acc.sessions += row.sessions;
+    acc.turns += row.turns;
+    acc.qa += row.qa.length;
+    acc.evidenceAnchors += row.qa.reduce((sum, qa) => sum + (qa.evidence_anchors?.length ?? 0), 0);
+    row.qa.forEach(qa => {
+      const type = qa.query_type ?? 'unknown';
+      acc.qaTypes.set(type, (acc.qaTypes.get(type) ?? 0) + 1);
+    });
+    return acc;
+  }, { sessions: 0, turns: 0, qa: 0, evidenceAnchors: 0, qaTypes: new Map() });
+
+  detail.innerHTML = `
+    <div class="audit-panel-label">Audit Readiness</div>
+    <div class="audit-stats audit-stats-compact">
+      <div class="audit-stat">
+        <div class="audit-stat-value">${totals.sessions}</div>
+        <div class="audit-stat-label">Sessions</div>
+      </div>
+      <div class="audit-stat">
+        <div class="audit-stat-value">${totals.turns}</div>
+        <div class="audit-stat-label">Turns</div>
+      </div>
+      <div class="audit-stat">
+        <div class="audit-stat-value">${totals.qa}</div>
+        <div class="audit-stat-label">Benchmark QA items</div>
+      </div>
+      <div class="audit-stat">
+        <div class="audit-stat-value">${totals.evidenceAnchors}</div>
+        <div class="audit-stat-label">Evidence anchors</div>
+      </div>
+    </div>
+    <div class="audit-chip-row">
+      ${[...totals.qaTypes.entries()].sort().map(([type, count]) => `<span class="audit-chip">${esc(type)} <strong>${count}</strong></span>`).join('')}
+    </div>
+  `;
 }
 
 function bindRefresh() {
@@ -156,9 +260,25 @@ function bindQASearch() {
   }, 200));
 }
 
+function bindCopyViewLink() {
+  document.getElementById('copy-view-link')?.addEventListener('click', () => copyCurrentViewLink());
+}
+
 // ── Select network ─────────────────────────────────────────────────────────────
-async function selectNetwork(id) {
-  if (state.activeNetworkId === id) return;
+async function selectNetwork(id, options = {}) {
+  const {
+    tab = 'chat',
+    qaId = null,
+    turnId = null,
+    replaceUrl = false,
+  } = options;
+
+  if (state.activeNetworkId === id && state.network) {
+    showTab(tab || state.activeTab, { replaceUrl });
+    if (qaId) gotoQA(qaId, { replaceUrl: true });
+    if (turnId) gotoTurn(turnId, null, { replaceUrl: true });
+    return;
+  }
 
   speakerColorMap.clear();
   state.activeNetworkId = id;
@@ -183,7 +303,7 @@ async function selectNetwork(id) {
   view.style.display = 'flex';
   view.style.flexDirection = 'column';
 
-  showTab('chat');
+  showTab(tab || 'chat', { replaceUrl });
 
   const [network, conversations, qa] = await Promise.allSettled([
     api(`/api/network/${id}`),
@@ -203,6 +323,14 @@ async function selectNetwork(id) {
   renderChat();
   renderGraph();
   renderQA();
+
+  updateRoute({ replace: replaceUrl });
+
+  if (qaId) {
+    gotoQA(qaId, { replaceUrl: true });
+  } else if (turnId) {
+    gotoTurn(turnId, null, { replaceUrl: true });
+  }
 }
 
 // ── Titlebar ───────────────────────────────────────────────────────────────────
@@ -214,6 +342,7 @@ function renderTitlebar() {
     badges.innerHTML = `
       <span class="badge badge-type">${fmtGroupType(n.group_type)}</span>
       <span class="badge badge-size">${n.group_size} members</span>
+      <span class="badge badge-size">${esc(n.network_id)}</span>
       ${state.conversations ? `<span class="badge badge-size">${state.conversations.sessions?.length ?? 0} sessions</span>` : ''}
       ${state.qa.length ? `<span class="badge badge-size">${state.qa.length} QA</span>` : ''}
     `;
@@ -229,12 +358,14 @@ function bindTabs() {
   });
 }
 
-function showTab(name) {
+function showTab(name, options = {}) {
+  const { replaceUrl = false } = options;
   state.activeTab = name;
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === `panel-${name}`));
 
   if (name === 'graph' && state.network) renderGraph();
+  updateRoute({ replace: replaceUrl });
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -249,7 +380,7 @@ function renderChat() {
     sessionList.innerHTML = '';
     container.innerHTML = `
       <div class="empty-state" style="margin:auto">
-        <div class="empty-icon">💬</div>
+        <div class="empty-icon">No data</div>
         <div class="empty-text">No conversations for this network yet.</div>
       </div>`;
     return;
@@ -262,13 +393,16 @@ function renderChat() {
     return;
   }
 
-  // Build an index of turn_ids cited in QA evidence (stored on state for gotoTurn)
+  // Build an index of turn_ids cited by benchmark QA evidence.
   state.evidencedTurns = new Map();
-  state.qa.forEach(qa => {
+  state.qa.forEach((qa, qaIndex) => {
     (qa.evidence_anchors ?? []).forEach(e => {
       if (e.turn_id) {
         if (!state.evidencedTurns.has(e.turn_id)) state.evidencedTurns.set(e.turn_id, []);
-        state.evidencedTurns.get(e.turn_id).push(qa.query_type);
+        state.evidencedTurns.get(e.turn_id).push({
+          qaId: getQAId(qa, qaIndex),
+          queryType: qa.query_type,
+        });
       }
     });
   });
@@ -348,11 +482,13 @@ function renderChat() {
       const citedIn      = state.evidencedTurns.get(turn.turn_id);
 
       const challengeBadges = challenges.map(c =>
-        `<span class="challenge-badge">⚡ ${fmtChallengeType(c.challenge_type)}</span>`
+        `<span class="challenge-badge">${fmtChallengeType(c.challenge_type)}</span>`
       ).join('');
 
       const evidenceMarker = citedIn
-        ? `<span class="evidence-marker">cited in ${[...new Set(citedIn)].join(', ')}</span>`
+        ? `<span class="evidence-marker">Referenced by ${[...new Map(citedIn.map(item => [item.queryType, item])).values()].map(item =>
+            `<button class="evidence-backlink" onclick="gotoQA('${esc(item.qaId)}')">${esc(item.queryType)}</button>`
+          ).join('')}</span>`
         : '';
 
       html.push(`
@@ -455,6 +591,7 @@ function renderActiveSessionOverview() {
       <div class="chat-overview-sub">${esc(session.date_label ?? 'Conversation session')}</div>
     </div>
     <div class="chat-overview-stats">
+      ${state.returnQaId ? '<button class="chat-return-link" onclick="gotoQA(state.returnQaId)">Back to QA card</button>' : ''}
       <span class="chat-overview-chip">${turns.length} turn${turns.length !== 1 ? 's' : ''}</span>
       <span class="chat-overview-chip">${evidenceCount} QA-cited</span>
       <span class="chat-overview-chip ${challengeCount ? 'chat-overview-chip-warn' : ''}">${challengeCount} planted signal${challengeCount !== 1 ? 's' : ''}</span>
@@ -513,7 +650,7 @@ function renderGraph() {
 
   const linkWidth = { High: 3, Medium: 2, Low: 1 };
   const sentColor = {
-    positive: '#34c759', neutral: '#aeaeb2', mixed: '#ff9500', tense: '#ff3b30',
+    positive: '#5c7a63', neutral: '#9aa3ad', mixed: '#9a6b2f', tense: '#9b5a54',
   };
 
   const link = g.append('g').attr('class', 'links')
@@ -749,7 +886,7 @@ function showNodeDetail(persona) {
 function showEdgeDetail(edge, personaById) {
   const a = personaById.get(edge.persona_a_id);
   const b = personaById.get(edge.persona_b_id);
-  const sentColors = { positive:'#34c759', neutral:'#aeaeb2', mixed:'#ff9500', tense:'#ff3b30' };
+  const sentColors = { positive:'#5c7a63', neutral:'#9aa3ad', mixed:'#9a6b2f', tense:'#9b5a54' };
 
   document.getElementById('graph-detail').innerHTML = `
     <div class="detail-section">
@@ -805,8 +942,8 @@ function renderQA() {
     if (summary) summary.innerHTML = '';
     list.innerHTML = `
       <div class="empty-state" style="margin:auto">
-        <div class="empty-icon">📋</div>
-        <div class="empty-text">No QA pairs for this network yet.</div>
+        <div class="empty-icon">No data</div>
+        <div class="empty-text">No benchmark QA for this network yet.</div>
       </div>`;
     return;
   }
@@ -843,9 +980,8 @@ function renderQA() {
 
   const total = visible.length;
   const paged = visible.slice(0, state.qaPage * QA_PAGE_SIZE);
-  const flaggedCount = state.qa.filter(qa => qa.qc_phase3_flagged).length;
-  const groundedCount = state.qa.filter(qa => qa.qc_phase2_grounded).length;
   const mcCount = state.qa.filter(qa => qa.answer_format === 'multiple_choice').length;
+  const evidenceCount = state.qa.reduce((sum, qa) => sum + (qa.evidence_anchors?.length ?? 0), 0);
 
   count.textContent = q || state.qaFilter !== 'all'
     ? `${total} of ${state.qa.length}`
@@ -855,13 +991,12 @@ function renderQA() {
     summary.innerHTML = `
       <div class="qa-review-card">
         <div class="qa-review-copy">
-          <div class="qa-review-label">Review Pass</div>
-          <div class="qa-review-title">${total} prompt${total !== 1 ? 's' : ''} in view</div>
-          <div class="qa-review-sub">Skim the preview text first, then expand only the cards that need inspection.</div>
+          <div class="qa-review-label">Benchmark QA</div>
+          <div class="qa-review-title">${total} item${total !== 1 ? 's' : ''} in view</div>
+          <div class="qa-review-sub">Verify each human-authored QA item against its cited source turns.</div>
         </div>
         <div class="qa-review-chips">
-          <span class="qa-review-chip">${groundedCount} grounded</span>
-          <span class="qa-review-chip ${flaggedCount ? 'qa-review-chip-warn' : ''}">${flaggedCount} flagged</span>
+          <span class="qa-review-chip">${evidenceCount} evidence anchors</span>
           <span class="qa-review-chip">${mcCount} multiple choice</span>
         </div>
       </div>
@@ -893,6 +1028,7 @@ function renderQA() {
 }
 
 function renderQACard(qa, i) {
+  const qaId = getQAId(qa, i);
   const opts    = qa.options ?? {};
   const hasOpts = Object.keys(opts).length > 0;
   const answerPreview = summarizeText(qa.answer, 180);
@@ -900,11 +1036,12 @@ function renderQACard(qa, i) {
   const evidencePreview = firstEvidence
     ? `${firstEvidence.speaker_display_name} · S${firstEvidence.session_index} · ${firstEvidence.message_excerpt}`
     : null;
-  const reviewState = qa.qc_phase3_flagged
-    ? '<span class="qa-review-flag qa-review-flag-warn">Flagged</span>'
-    : qa.qc_phase2_grounded
-      ? '<span class="qa-review-flag">Grounded</span>'
-      : '';
+  const provenanceHtml = `
+    <div class="provenance-row">
+      <span>QA ID <code>${esc(qaId)}</code></span>
+      ${state.activeNetworkId ? `<span>Network <code>${esc(state.activeNetworkId)}</code></span>` : ''}
+      <button class="provenance-copy" onclick="copyCurrentViewLink({ qaId: '${esc(qaId)}' })">Copy benchmark QA link</button>
+    </div>`;
 
   // For multiple-choice: show options AND the explanation text
   // For long-form: show just the answer text
@@ -928,13 +1065,11 @@ function renderQACard(qa, i) {
       </div>
       <div class="evidence-quote">"${esc(e.message_excerpt)}"</div>
       <div class="evidence-relevance">${esc(e.relevance)}</div>
-      ${e.turn_id ? `<button class="evidence-jump" onclick="gotoTurn('${esc(e.turn_id)}')">↗ view in chat</button>` : ''}
+      ${e.turn_id ? `<button class="evidence-jump" onclick="gotoTurn('${esc(e.turn_id)}', '${esc(qaId)}')">View source in chat</button>` : ''}
     </div>`).join('');
 
-  const qcHtml = buildQCBadges(qa);
-
   return `
-    <div class="qa-card" data-qa-id="${esc(qa.qa_id ?? i)}">
+    <div class="qa-card" data-qa-id="${esc(qaId)}">
       <div class="qa-card-header">
         <div class="qa-type-badge qtype-${qa.query_type}">${qa.query_type}</div>
         <div class="qa-card-meta">
@@ -943,7 +1078,6 @@ function renderQACard(qa, i) {
             <span class="badge badge-${qa.difficulty ?? 'medium'}">${qa.difficulty ?? ''}</span>
             <span class="badge" style="background:var(--bg);color:var(--text-2);border:1px solid var(--border-light)">${fmtQTypeLabel(qa.query_type_label)}</span>
             ${qa.answer_format ? `<span class="badge" style="background:var(--bg);color:var(--text-3);border:1px solid var(--border-light)">${qa.answer_format.replace('_',' ')}</span>` : ''}
-            ${reviewState}
           </div>
           <div class="qa-preview">${esc(answerPreview)}</div>
           ${evidencePreview ? `<div class="qa-evidence-preview">${esc(evidencePreview)}</div>` : ''}
@@ -961,28 +1095,9 @@ function renderQACard(qa, i) {
           <div class="qa-section-label">Evidence (${qa.evidence_anchors?.length ?? 0})</div>
           <div class="evidence-list">${evidenceHtml}</div>
         </div>` : ''}
-        ${qcHtml ? `<div>
-          <div class="qa-section-label">QC</div>
-          <div class="qc-row">${qcHtml}</div>
-        </div>` : ''}
+        ${provenanceHtml}
       </div>
     </div>`;
-}
-
-function buildQCBadges(qa) {
-  const parts = [];
-  if (qa.qc_phase1_score != null) {
-    const score = (qa.qc_phase1_score * 100).toFixed(0);
-    const cls   = qa.qc_phase1_score >= .7 ? 'qc-pass' : 'qc-fail';
-    parts.push(`<span class="qc-badge ${cls}">P1 ${score}%</span>`);
-  }
-  if (qa.qc_phase2_grounded != null) {
-    parts.push(`<span class="qc-badge ${qa.qc_phase2_grounded ? 'qc-pass' : 'qc-fail'}">P2 ${qa.qc_phase2_grounded ? 'Grounded' : 'Ungrounded'}</span>`);
-  }
-  if (qa.qc_phase3_flagged != null) {
-    parts.push(`<span class="qc-badge ${qa.qc_phase3_flagged ? 'qc-fail' : 'qc-pass'}">P3 ${qa.qc_phase3_flagged ? '⚑ Flagged' : '✓ Clean'}</span>`);
-  }
-  return parts.join('');
 }
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
@@ -1001,7 +1116,7 @@ function fmtGroupType(t)     { return (t ?? '').replace(/_/g,' '); }
 function fmtChallengeType(t) { return (t ?? '').replace(/_/g,' '); }
 function fmtQTypeLabel(label){ return label ? label.replace(/_/g,' ') : ''; }
 function bfColor(level) {
-  return { High: '#34c759', Medium: '#ff9500', Low: '#ff3b30' }[level] ?? '#1d1d1f';
+  return { High: '#5c7a63', Medium: '#9a6b2f', Low: '#9b5a54' }[level] ?? '#1d1d1f';
 }
 
 function debounce(fn, ms) {
@@ -1015,10 +1130,80 @@ function summarizeText(text, maxLen = 140) {
   return `${value.slice(0, maxLen - 1)}…`;
 }
 
-// ── Cross-reference: jump from QA evidence to chat message ───────────────────
-function gotoTurn(turnId) {
+function getQAId(qa, index = 0) {
+  return qa?.qa_id ? String(qa.qa_id) : `qa-${index}`;
+}
+
+function countBy(items, fn) {
+  return items.reduce((acc, item) => {
+    const key = fn(item);
+    acc[key] = (acc[key] ?? 0) + 1;
+    return acc;
+  }, {});
+}
+
+function readRoute() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    network: params.get('network'),
+    tab: params.get('tab') || 'chat',
+    qa: params.get('qa'),
+    turn: params.get('turn'),
+  };
+}
+
+function updateRoute(options = {}) {
+  if (!state.activeNetworkId) return;
+  const { qaId = null, turnId = null, replace = false } = options;
+  const params = new URLSearchParams();
+  params.set('network', state.activeNetworkId);
+  params.set('tab', state.activeTab);
+  if (qaId) params.set('qa', qaId);
+  if (turnId) params.set('turn', turnId);
+
+  const url = `${window.location.pathname}?${params.toString()}`;
+  const method = replace ? 'replaceState' : 'pushState';
+  window.history[method]({}, '', url);
+}
+
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch (e) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    textarea.remove();
+  }
+}
+
+function currentViewUrl(options = {}) {
+  const { qaId = null, turnId = null } = options;
+  const params = new URLSearchParams();
+  if (state.activeNetworkId) params.set('network', state.activeNetworkId);
+  params.set('tab', qaId ? 'qa' : turnId ? 'chat' : state.activeTab);
+  if (qaId) params.set('qa', qaId);
+  if (turnId) params.set('turn', turnId);
+  return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+}
+
+async function copyCurrentViewLink(options = {}) {
+  await copyText(currentViewUrl(options));
+  const button = document.getElementById('copy-view-link');
+  if (!button) return;
+  const original = button.textContent;
+  button.textContent = 'Copied';
+  window.setTimeout(() => { button.textContent = original; }, 1200);
+}
+
+// ── Cross-reference: jump from benchmark QA evidence to chat message ─────────
+function gotoTurn(turnId, qaId = null, options = {}) {
+  const { replaceUrl = false } = options;
+  state.returnQaId = qaId;
   // Switch to Chat tab first
-  showTab('chat');
+  showTab('chat', { replaceUrl });
 
   // Find which session contains this turn
   const sessions = state.conversations?.sessions ?? [];
@@ -1027,6 +1212,7 @@ function gotoTurn(turnId) {
   if (targetSession) {
     setActiveSession(targetSession.session_id, { behavior: 'smooth' });
   }
+  updateRoute({ turnId, replace: replaceUrl });
 
   requestAnimationFrame(() => {
     const el = document.getElementById(`turn-${turnId}`);
@@ -1039,5 +1225,30 @@ function gotoTurn(turnId) {
     void el.offsetWidth; // force reflow to restart animation
     el.classList.add('highlighted');
     el.addEventListener('animationend', () => el.classList.remove('highlighted'), { once: true });
+  });
+}
+
+function gotoQA(qaId, options = {}) {
+  const { replaceUrl = false } = options;
+  if (!qaId) return;
+  state.returnQaId = null;
+  state.qaFilter = 'all';
+  state.qaSearch = '';
+  state.qaPage = Math.ceil((state.qa.findIndex((qa, i) => getQAId(qa, i) === qaId) + 1) / QA_PAGE_SIZE) || 1;
+
+  const qaSearchInput = document.getElementById('qa-search');
+  if (qaSearchInput) qaSearchInput.value = '';
+
+  showTab('qa', { replaceUrl });
+  renderQA();
+  updateRoute({ qaId, replace: replaceUrl });
+
+  requestAnimationFrame(() => {
+    const card = document.querySelector(`.qa-card[data-qa-id="${CSS.escape(qaId)}"]`);
+    if (!card) return;
+
+    card.classList.add('expanded', 'highlighted');
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    card.addEventListener('animationend', () => card.classList.remove('highlighted'), { once: true });
   });
 }

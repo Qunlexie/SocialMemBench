@@ -15,7 +15,7 @@
         <path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/>
       </svg>
       <span class="header-title">SocialMemBench</span>
-      <span class="header-subtitle">Data Viewer</span>
+      <span class="header-subtitle">Review Viewer</span>
     </div>
     <div class="header-meta" id="header-meta"></div>
   </header>
@@ -26,7 +26,7 @@
       <div class="sidebar-header">
         <div class="sidebar-heading">
           <span class="sidebar-label">Networks</span>
-          <div class="sidebar-caption">Browse generated groups and review their traces.</div>
+          <div class="sidebar-caption">Review synthetic networks, conversations, graph structure, and benchmark QA evidence.</div>
         </div>
         <button class="btn-icon" id="refresh-btn" title="Refresh">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -55,19 +55,12 @@
       <!-- Empty / welcome state -->
       <div class="welcome" id="welcome">
         <div class="welcome-inner">
-          <div class="welcome-icon">
-            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="32" cy="32" r="28"/>
-              <circle cx="20" cy="26" r="6"/>
-              <circle cx="44" cy="26" r="6"/>
-              <circle cx="32" cy="44" r="6"/>
-              <line x1="26" y1="26" x2="38" y2="26"/>
-              <line x1="22" y1="31" x2="30" y2="39"/>
-              <line x1="42" y1="31" x2="34" y2="39"/>
-            </svg>
+          <div class="welcome-kicker">Dataset Audit</div>
+          <h2 class="welcome-title">Review SocialMemBench examples</h2>
+          <p class="welcome-desc">Start with corpus coverage, then inspect a network, verify benchmark QA against source turns, and review graph assumptions.</p>
+          <div class="corpus-audit" id="corpus-audit">
+            <div class="loading-state">Loading corpus summary…</div>
           </div>
-          <h2 class="welcome-title">Select a network</h2>
-          <p class="welcome-desc">Choose a network from the sidebar to inspect its conversations, social graph, and QA pairs.</p>
           <div class="welcome-hint" id="welcome-hint"></div>
         </div>
       </div>
@@ -79,6 +72,9 @@
           <div class="network-title-info">
             <h1 class="network-name" id="network-name">—</h1>
             <div class="network-badges" id="network-badges"></div>
+          </div>
+          <div class="title-actions">
+            <button class="copy-link-btn" id="copy-view-link" title="Copy link to current view">Copy Link</button>
           </div>
           <div class="tab-bar">
             <button class="tab active" data-tab="chat">
@@ -100,7 +96,7 @@
                 <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
                 <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
               </svg>
-              QA Pairs
+              Benchmark QA
             </button>
           </div>
         </div>
@@ -145,7 +141,7 @@
           </div>
           <div class="qa-review-summary" id="qa-review-summary"></div>
           <div class="qa-list" id="qa-list">
-            <div class="loading-state">Loading QA pairs…</div>
+            <div class="loading-state">Loading benchmark QA…</div>
           </div>
         </div>
       </div>

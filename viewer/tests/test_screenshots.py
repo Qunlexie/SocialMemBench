@@ -674,6 +674,8 @@ def test_01_landing(server_and_data, page: Page):
 
     # Welcome panel visible
     assert page.locator(".welcome").is_visible()
+    assert page.locator("#corpus-audit").is_visible()
+    expect(page.locator("#corpus-audit")).to_contain_text("Audit Readiness")
 
 
 def test_01b_narrow_layout(server_and_data, page: Page):
@@ -857,9 +859,8 @@ def test_07_qa_filter(server_and_data, page: Page):
     assert filtered >= 1, "At least 1 Q1 card expected"
     expect(page.locator("#qa-review-summary")).to_contain_text("in view")
 
-
 def test_08_evidence_markers_in_chat(server_and_data, page: Page):
-    """Messages cited as QA evidence show a 'cited in QX' marker."""
+    """Messages cited as QA evidence expose backlinks to the QA card."""
     page.goto(server_and_data)
     page.wait_for_load_state("networkidle")
 
@@ -873,7 +874,7 @@ def test_08_evidence_markers_in_chat(server_and_data, page: Page):
 
 
 def test_09_evidence_jump_to_chat(server_and_data, page: Page):
-    """Clicking 'view in chat' on a QA evidence item switches to Chat and focuses the message."""
+    """Clicking a QA source link switches to Chat, focuses the message, and offers a return link."""
     page.goto(server_and_data)
     page.wait_for_load_state("networkidle")
 
@@ -899,6 +900,32 @@ def test_09_evidence_jump_to_chat(server_and_data, page: Page):
     # Chat container should be visible and scrolled to the message
     assert page.locator("#chat-container").is_visible()
     assert page.locator(".msg-group.highlighted").count() >= 1
+    assert page.locator(".chat-return-link").is_visible()
+
+    page.locator(".chat-return-link").click()
+    page.wait_for_timeout(600)
+    assert page.locator(".tab[data-tab='qa'].active").count() >= 1
+    assert page.locator(".qa-card.highlighted").count() >= 1
+
+
+def test_10_deep_link_to_qa(server_and_data, page: Page):
+    """A network/tab/QA URL opens the right view and expands the target card."""
+    page.goto(server_and_data)
+    page.wait_for_load_state("networkidle")
+
+    page.locator(".network-item").first.click()
+    page.locator(".tab[data-tab='qa']").click()
+    page.wait_for_selector(".qa-card", timeout=5000)
+
+    qa_id = page.locator(".qa-card").first.get_attribute("data-qa-id")
+    assert qa_id
+
+    page.goto(f"{server_and_data}?network={NETWORK_ID}&tab=qa&qa={qa_id}")
+    page.wait_for_timeout(800)
+
+    assert page.locator(".tab[data-tab='qa'].active").count() >= 1
+    assert page.locator(".qa-card.expanded").count() >= 1
+    assert page.locator(".qa-card.highlighted").count() >= 1
 
 
 # ── Run directly ───────────────────────────────────────────────────────────────

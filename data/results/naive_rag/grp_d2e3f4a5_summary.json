@@ -1,0 +1,181 @@
+{
+  "network_id": "grp_d2e3f4a5",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:38:33.417324+00:00",
+  "sessions_used": 8,
+  "total_pairs": 26,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.196,
+  "mean_context_words": 448.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.05
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.057
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.183
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1f9b2e3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_4a9c7e2f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the quote about family gatherings to Aunty Oby, which is a critical error, and does not accurately reflect her stance as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_4b7d9e3f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer attributes direct statements to Adaeze that do not match the gold answer's description of her indirect communication style, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e4",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_c2d3e4f5",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Kingsley's behavior as a considered offer rather than a unilateral move, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ifeoma's approach by focusing on a request to her mother for a specific dish, which contradicts the gold answer's emphasis on her matter-of-fact communication style and lack of demand."
+    },
+    {
+      "qa_id": "Q2_e4f5a6b7",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_2a5f8c1d",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_6c0e5a8d",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer captures Adaeze's fatigue but misattributes Aunty Oby's understanding and fails to include the key phrase 'I have said before,' which indicates prior awareness."
+    },
+    {
+      "qa_id": "Q5_7e1a3c6b",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Emeka's emotional state and does not accurately reflect the content of his message, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_2f7a4c9e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_5e8b0d3a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the message to Obiageli instead of Aunty Oby, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_8d2e6f1b",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_1c4e9a2d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_5d3a7b1e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_0e6c2f8a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Aunty Oby's perspective and fails to accurately reflect her authoritative role and the specific quotes from the sessions, leading to a critical error in understanding her relationship with Adaeze."
+    },
+    {
+      "qa_id": "Q7_a8b9c0d1",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The core fact about Nkechi's professional history is correct, but the attribution of her sharing to Chisom's statement is inaccurate; the prompt was Chisom's self-doubt, not the quoted statement."
+    },
+    {
+      "qa_id": "Q8_9d2b4f7e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the push for change to Nkechi instead of Adaeze, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e5",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shift in Nkechi's preference for video calls in Session 5 but lacks specific details from Session 1 that highlight her previous stance, making it ambiguous."
+    },
+    {
+      "qa_id": "Q8_d4e5f6a7",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shift in Adaeze's approach but misattributes the earlier moments, specifically naming Obiageli instead of Aunty Oby, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly attributes the encouragement to Obiageli instead of Aunty Oby, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f7a2b3c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the specific revelation about the psychiatry rotation to Chisom's own words, but it fails to correctly identify the trigger mechanism and does not mention the earlier state of her career plan."
+    },
+    {
+      "qa_id": "Q8_c3d4e5f6",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Kingsley's behavior to Nkechi's praise, while the gold answer correctly identifies Adaeze's direct address as the trigger for the shift."
+    }
+  ]
+}

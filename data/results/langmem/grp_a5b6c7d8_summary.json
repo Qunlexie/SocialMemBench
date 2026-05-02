@@ -1,0 +1,223 @@
+{
+  "network_id": "grp_a5b6c7d8",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:49:53.620931+00:00",
+  "sessions_used": 12,
+  "total_pairs": 34,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.135,
+  "mean_context_words": 1324.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 9,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 11,
+      "mean_score": 0.027
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a5b6c7d8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's values and focuses on logistics and safety rather than his preference for clear endpoints in routes, which is a critical aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Nadia's feelings about day hikes and instead focuses on unrelated aspects, failing to provide any relevant information."
+    },
+    {
+      "qa_id": "Q1_c5d6e7f8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that the information is not available, which does not address the question and fails to provide any relevant details."
+    },
+    {
+      "qa_id": "Q1_d5e6f7a8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e5f6a7b8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and fails to provide any relevant information about Saoirse's preferences or questions, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_f5a6b7c8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q1_a6b7c8d9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Bridget's reaction or preferences, which is critical to the question."
+    },
+    {
+      "qa_id": "Q1_b6c7d8e9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Marcus's habit, which is essential to address the question."
+    },
+    {
+      "qa_id": "Q4_a5b6c7d8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b5c6d7e8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a5b6c7d8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Saoirse's attitude is unclear, contradicting the gold answer which clearly defines her attitude as treating hiking as non-negotiable recovery time."
+    },
+    {
+      "qa_id": "Q5_b5c6d7e8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_c5d6e7f8",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's positive relationship with steep terrain but misattributes Elena's comment, which does not match the specific details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a5b6c7d8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b5c6d7e8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and indicates a lack of information, which does not address the question and fails to provide any relevant details about Bridget's history or Tomas's use of that information."
+    },
+    {
+      "qa_id": "Q7_c5d6e7f8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_d5e6f7a8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_e5f6a7b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the relationship as collaborative without acknowledging the underlying tension and fails to accurately attribute specific actions and statements to Tomas and Bridget."
+    },
+    {
+      "qa_id": "Q8_b5c6d7e8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or details regarding Marcus's change in managing group pace, resulting in a complete failure to address the question."
+    },
+    {
+      "qa_id": "Q8_c5d6e7f8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Nadia's behavior change or the specific session that shows this shift."
+    },
+    {
+      "qa_id": "Q8_d5e6f7a8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tomas's shift in authority to eagerness for tracking times, which is not supported by the gold answer's details about his explicit deferral to Marcus and acknowledgment of past patterns."
+    },
+    {
+      "qa_id": "Q8_f5a6b7c8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's reversal to excitement over improved techniques from Elena, rather than her solo descent on High Crag, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a6b7c8d9",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Kwame's realization about the importance of being prepared and his promise to keep a kit checklist, but it inaccurately attributes the borrowing incident solely to forgetting waterproof gear without mentioning the social embarrassment and specific moment of borrowing from Nadia."
+    },
+    {
+      "qa_id": "Q8_b6c7d8e9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in approach to Priya instead of Elena, and it does not address the core facts about Elena's change in behavior regarding timed segments."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Saoirse's change in behavior to discussions around medical preparations rather than the specific trigger of a hypoglycaemic episode in another group member."
+    },
+    {
+      "qa_id": "Q8_d6e7f8a9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's shift to medical planning and group commitment, which is not supported by the gold answer's details about her unprompted proposal and the specific trigger of the Cairn Ridge success."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Saoirse's comment or the development of the conversation."
+    },
+    {
+      "qa_id": "Q8_a5b6c7d8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Elena's shift in approach or the conversation context, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Bridget's changed tone or the conversation, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_e6f7a8b9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Dmitri's shift in participation or advocacy, thus failing to address the question."
+    }
+  ]
+}

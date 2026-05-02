@@ -1,0 +1,111 @@
+{
+  "network_id": "grp_a3b4c5d6",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:35:14.696105+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.383,
+  "mean_context_words": 4431.0,
+  "by_query_type": {
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.357
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.35
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a3b4c603",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes a quote to Otto that is not present in the gold answer, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_a3b4c606",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_a3b4c607",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's earlier habit to a focus on cost-effective methods rather than explicitly naming his prior habit of home processing and setting up individual experiments."
+    },
+    {
+      "qa_id": "Q7_a3b4c608",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Fen's response and does not accurately reflect the conditional nature of Fen's commitment or the skepticism implied in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a3b4c611",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Sol's presentation to a realization about context rather than explicitly naming the critique as the trigger, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a3b4c613",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Yuki's prior skepticism and the shift in perspective but lacks specific details about the early state and the trigger mechanism."
+    },
+    {
+      "qa_id": "Q8_a3b4c617",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the shift in Margot's stance and quotes her from Session 6, but it lacks the specific detail about her initial reserved dissent in Session 2 and does not mention the trigger provided by Nora."
+    },
+    {
+      "qa_id": "Q5_a3b4c605",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Otto's position and does not accurately reflect his skepticism about scanning, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_a3b4c610",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's preference to a quote that is not from her, and while it correctly identifies Nora's knowledge of Priya's preferences, it fails to mention the proactive nature of Nora's actions."
+    },
+    {
+      "qa_id": "Q7_a3b4c614",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the supportive and mentoring nature of the relationship but lacks specific details about the Canonet, the prediction made by Nora, and the sustained contact that were crucial to the gold answer."
+    },
+    {
+      "qa_id": "Q8_a3b4c615",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the baseline assessment to the wrong message and fails to identify the correct earlier state and shift, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_a3b4c618",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes a quote to Callum that is not present in the gold answer, leading to a critical error in attribution."
+    }
+  ]
+}

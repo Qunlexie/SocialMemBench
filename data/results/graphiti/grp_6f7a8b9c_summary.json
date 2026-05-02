@@ -2,10 +2,10 @@
   "network_id": "grp_6f7a8b9c",
   "condition": "graphiti",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:54:46.531773+00:00",
+  "evaluated_at": "2026-04-28T04:24:40.300685+00:00",
   "sessions_used": 5,
   "total_pairs": 7,
-  "new_pairs_this_run": 7,
+  "new_pairs_this_run": 0,
   "mean_score": 0.271,
   "mean_context_words": 108.1,
   "by_query_type": {

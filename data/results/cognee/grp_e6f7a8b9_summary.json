@@ -1,0 +1,139 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:19:09.210903+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.019,
+  "mean_context_words": 54.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tom's preferences, focusing on enjoyment and group dynamics rather than his specific inclination towards technical, elevated terrain."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Yuki values camaraderie and social bonding, while the gold answer indicates she declines invitations, suggesting she finds the social aspect draining."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Tom's preference, suggesting he prefers shorter runs, while the gold answer indicates he prefers to end runs at a pub without hesitation."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e6f7a8b5",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes Rafe's post-run nutrition approach, stating it emphasizes nutrient-rich foods instead of going to the pub, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of how Nadia and Tom co-founded the group, missing key elements of their dynamic and the nature of their collaboration."
+    },
+    {
+      "qa_id": "Q7_e6f7a8b9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Rafe's relationship with Cass, missing key elements such as their shared experience and the nature of their conversation."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's role but does not attribute the specific remark to Tom, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Cass's earlier preference and does not accurately reflect her retrospective revelation or the specific trigger for her change in desire to run more frequently."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific events and details from the gold answer, including the lack of correct attribution to Yuki's actions and statements."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details about Nadia's previous training distances or the trigger for her shift in thinking, leading to a lack of factual correctness."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific reasons for Rafe's change in behavior or the observable actions that demonstrated the shift, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bf",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's change in pacing strategy to his observations during the race rather than the coaching podcast, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Leo's decision to a newfound understanding of benefits rather than the specific trigger of a hamstring strain and fails to mention his previous neglect of stretching as advised by Nadia."
+    }
+  ]
+}

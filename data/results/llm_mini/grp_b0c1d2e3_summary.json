@@ -1,0 +1,163 @@
+{
+  "network_id": "grp_b0c1d2e3",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:36:05.645079+00:00",
+  "sessions_used": 8,
+  "total_pairs": 28,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.311,
+  "mean_context_words": 7331.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.3
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.087
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b0c1d001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific details about Nadia's preferences and actions, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q1_b0c1d007",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Nadia's specific statements and insights about her preference for visual observing over astrophotography, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b0c1d003",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the book as the trigger for Marcus's change in attitude but fails to attribute the correct title and author, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b0c1d002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific book mentioned (Terence Dickinson's book) and misattributes the significance of the observing log, failing to connect it correctly to the relationship dynamics between Ruth and Marcus."
+    },
+    {
+      "qa_id": "Q7_b0c1d006",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Nadia and Ruth's roles in the group."
+    },
+    {
+      "qa_id": "Q7_b0c1d008",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the dynamic as one of mentorship and respect, while the gold answer describes a pattern of tension and disagreement."
+    },
+    {
+      "qa_id": "Q5_b0c1d009",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dev's focus on the Moon but misattributes Nadia's behavior, as she did not suggest Saturn but rather a progression path involving the Double Cluster and Albireo."
+    },
+    {
+      "qa_id": "Q2_b0c1d011",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b0c1d012",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the specific question about double stars to Dev, while the gold answer correctly identifies it as the question Priya recognized, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b0c1d013",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or attempt to address the question."
+    },
+    {
+      "qa_id": "Q8_b0c1d014",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's shift in feelings to Harriet's description and Nadia's advocacy, rather than Dev's influence, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d018",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer captures the collaborative nature of the relationship but misattributes specific details and lacks key elements from the gold answer, such as the specific technical interactions and critiques."
+    },
+    {
+      "qa_id": "Q8_b0c1d020",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content to address the question."
+    },
+    {
+      "qa_id": "Q8_b0c1d022",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies Ruth's experience and the significance of the limiting magnitude, but it fails to mention the specific context of her previous position and the explicit framing of her new preference as a categorical distinction, which is critical for a complete answer."
+    },
+    {
+      "qa_id": "Q5_b0c1d024",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer did not provide any relevant information or analysis regarding Dev's experience or Nadia's response."
+    },
+    {
+      "qa_id": "Q7_b0c1d025",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures some correct details about Nadia and Ruth's initial meeting and their shared interest in astronomy, but it lacks specific attribution to the founding story and misses key elements about the group's origin and their ongoing partnership."
+    },
+    {
+      "qa_id": "Q7_b0c1d028",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the observation about the dynamic between Jerome and Cecilia to Harriet instead of Ruth."
+    },
+    {
+      "qa_id": "Q8_b0c1d029",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not mention the early state from Session 5 or the specific acknowledgment of the barn-door tracker's insufficiency, which are critical for a complete answer."
+    },
+    {
+      "qa_id": "Q7_b0c1d030",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer contains correct information but fails to attribute the specific details about Ruth's logbook to her response, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q7_b0c1d023",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Ruth and Harriet's working relationship and misattributes the context of their collaboration."
+    }
+  ]
+}

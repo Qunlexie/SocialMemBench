@@ -1,0 +1,105 @@
+{
+  "network_id": "grp_a3b4c5d6",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:35:15.161984+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.428,
+  "mean_context_words": 405.8,
+  "by_query_type": {
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.5
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.414
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.425
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.3
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q2_a3b4c606",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_a3b4c607",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Callum's preference for the collective darkroom but lacks specific details about his earlier habit and the trigger for the shift."
+    },
+    {
+      "qa_id": "Q7_a3b4c608",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Fen's response, failing to capture the skepticism and conditional nature of the commitment, which is critical to understanding their working relationship."
+    },
+    {
+      "qa_id": "Q8_a3b4c611",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the critique as a trigger for change but fails to accurately describe the earlier state and does not mention the specific new behavior or the phrase 'this time'."
+    },
+    {
+      "qa_id": "Q8_a3b4c617",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer captures the old and new preferences but lacks specific details about Margot's responses in each session and misattributes her acceptance of scanning as a necessary method without acknowledging her previous dissent."
+    },
+    {
+      "qa_id": "Q1_a3b4c604",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nora's emphasis on process precision related to archival quality and instead focuses on ventilation, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q5_a3b4c605",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Otto's understanding of the practical argument for scanning, which contradicts the gold answer's emphasis on his opposition."
+    },
+    {
+      "qa_id": "Q5_a3b4c610",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's preference for larger prints but misattributes the knowledge of this preference to Priya's statement rather than Nora's proactive action."
+    },
+    {
+      "qa_id": "Q8_a3b4c615",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the baseline assessment to Session 4 and misrepresents Otto's earlier views, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_a3b4c616",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Priya's old approach and the trigger for her change, but it inaccurately states that she made this statement in Session 5 instead of earlier, and it lacks a clear mention of her evolved state."
+    },
+    {
+      "qa_id": "Q7_a3b4c618",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the focus of Fen's message, emphasizing Callum's role in keeping Fen aligned rather than acknowledging the necessity of Callum's perspective for the project's existence."
+    }
+  ]
+}

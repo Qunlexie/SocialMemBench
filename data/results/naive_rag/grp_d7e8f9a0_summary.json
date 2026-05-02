@@ -1,0 +1,119 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:52:19.888030+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.432,
+  "mean_context_words": 474.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.6
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.267
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.433
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q2_d7e8f9a002",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's understanding of Nadia's values and focuses incorrectly on specific gravity rather than the core principle of craft over glaze."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for consistency but fails to attribute the specific functional ceramics priority and does not mention Reuben's technical elaboration, which is crucial for demonstrating prior understanding."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's claim about Simone's development and does not accurately reflect his specific observations or the causal mechanism he identifies."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Reuben as the original booker but misattributes the specific advice about booking slots to Nadia instead of Reuben."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Nadia and Simone communicate privately and that Nadia provides support, but it misattributes the specific incident to Simone's gratitude statement instead of the correct incident regarding the teal bowl."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about Callum's feedback to Reuben instead of Callum, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the trigger as the gas reduction workshop but lacks specific details about Nadia's prior commitment to electric kilns and does not mention the group norm or Reuben's observation."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Session 6 as the pivotal moment for the shift, while the gold answer correctly states that Session 4 is the key session."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures Reuben's belief about the necessity of readiness for critique but fails to accurately describe the evolution of his resistance and the specific reasons driving it, leading to an incomplete understanding of the qualitative shift."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for daytime sessions but attributes the quote incorrectly, as it does not mention the context of his farewell or the reinforcement of his preference in Session 5."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the project as a set of twelve dinner plates and mentions their use in Portugal, but it lacks specific details about the glazing and the context of Callum's commitment to the project."
+    }
+  ]
+}

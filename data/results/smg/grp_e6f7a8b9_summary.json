@@ -1,0 +1,133 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:09:30.489565+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.162,
+  "mean_context_words": 552.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.15
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tom's preferences and focuses on aesthetic enjoyment rather than his consistent preference for technical, elevated terrain."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's preference to a statement from session 1 that is not mentioned in the gold answer, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's behavior as a lack of personal preference, while the gold answer clearly states he consistently suggests pubs, indicating a strong preference."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rafe's post-run habit and misrepresents Nadia's understanding, leading to a critical error."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of their collaboration and does not accurately reflect the founding dynamic described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_e6f7a8b9",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the friendly rapport but lacks specific details about their conversation and the context of their shared experience, leading to an incomplete understanding of their relationship."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Tom's remark by incorrectly stating he claimed a supportive role, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a shift in Cass's frequency preference but fails to specify the trigger and misattributes her earlier preference, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the confirmation of the shift to a group norm rather than Yuki's own report in Session 8."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's old preference and fails to accurately describe the trigger for her shift in thinking."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer attributes the change to Nadia's statement but does not correctly identify the specific trigger event (the km 17 cramp) that drove Rafe's shift."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bf",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tom's change in pacing strategy but fails to mention the specific trigger of the coaching podcast, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the influence of the hamstring strain to session 7 instead of identifying it as the trigger for the change in commitment, which is a critical error."
+    }
+  ]
+}

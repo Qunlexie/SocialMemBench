@@ -1,0 +1,135 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:53:24.349742+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 18,
+  "mean_score": 0.228,
+  "mean_context_words": 615.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.283
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.35
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d4e5f601",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly focuses on Zara's consideration of going vegan and her relationship with dairy, rather than her established vegetarianism and habitual practices regarding meat-based dishes."
+    },
+    {
+      "qa_id": "Q1_d4e5f602",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Dom's high intensity level but lacks specific details about his training volume and the context that confirms this is his baseline."
+    },
+    {
+      "qa_id": "Q1_d4e5f603",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Priya expressed enjoyment of a birthday in October, which contradicts the gold answer's depiction of her flat responses and lack of enthusiasm."
+    },
+    {
+      "qa_id": "Q1_d4e5f604",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the focus on quality rather than quantity, missing the emphasis on simplicity and repeat satisfaction, and does not mention the key validation signal of customer return."
+    },
+    {
+      "qa_id": "Q1_d4e5f605",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Felix is adaptable to dietary trends, which contradicts the gold answer's depiction of him as sceptical and preferring traditional choices."
+    },
+    {
+      "qa_id": "Q4_d4e5f606",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d4e5f607",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer provides a completely incorrect fact about Dom's typical behavior and misattributes Zara's knowledge, failing to address the core question."
+    },
+    {
+      "qa_id": "Q5_d4e5f608",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Felix's position on team sports and misrepresents Zara's comment, leading to a critical error."
+    },
+    {
+      "qa_id": "Q2_d4e5f609",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_d4e5f611",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the knee injury as the trigger for the change in Dom's exercise approach, but it incorrectly attributes the knowledge of the shift to the yoga app Zara sent him instead of Dom's own statement about the imposed change."
+    },
+    {
+      "qa_id": "Q8_d4e5f612",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the documentary as a trigger for Zara's dietary change but misattributes her prior position by stating she would miss cheese the most, rather than reflecting her long-established vegetarianism."
+    },
+    {
+      "qa_id": "Q8_d4e5f613",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the new state and the shift but lacks the specific trigger and details from Session 2, leading to an incomplete explanation."
+    },
+    {
+      "qa_id": "Q8_d4e5f614",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Kezia's change in attitude and her awareness of her earlier stance, but it fails to mention the specific trigger for her shift, which is crucial for a complete answer."
+    },
+    {
+      "qa_id": "Q8_d4e5f615",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's shift towards recognizing social benefits but misattributes the specific details about his previous position and the trigger for his change."
+    },
+    {
+      "qa_id": "Q8_d4e5f616",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to mention Priya's earlier discomfort and misattributes her previous low enthusiasm, which is critical for understanding the shift."
+    },
+    {
+      "qa_id": "Q7_d4e5f617",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the nature and origin of Felix and Priya's relationship as described in the gold answer, focusing instead on their current social dynamics without mentioning their shared history."
+    }
+  ]
+}

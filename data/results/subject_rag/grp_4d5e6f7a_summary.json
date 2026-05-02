@@ -1,0 +1,77 @@
+{
+  "network_id": "grp_4d5e6f7a",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T22:10:49.803712+00:00",
+  "sessions_used": 5,
+  "total_pairs": 9,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.256,
+  "mean_context_words": 177.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.25
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_v4s1c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not include the critical detail that Nneka shares her finds with the group after attending alone, which is essential to fully understand her behavior."
+    },
+    {
+      "qa_id": "Q1_v4s3c3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nneka's focus on efficiency and individual collection instead of her actual focus on soul and gospel music from the 1960s-70s."
+    },
+    {
+      "qa_id": "Q8_v4s2c1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Rashida's approach but attributes her realization of the need to manage spending to her own understanding rather than the social accountability from Preet, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_v4s3c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the desire to own a physical copy to Session 2 instead of correctly identifying it as a statement made in Session 2, and it also incorrectly includes Theo's influence, which is not part of the gold answer."
+    },
+    {
+      "qa_id": "Q8_v4s4c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Gil's change in approach and does not accurately reflect his selective behavior regarding fairs, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_v4s4c2",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Rashida's spending pattern but fails to attribute Preet's knowledge to the specific observable action in the chat, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_v4s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of their relationship and does not accurately reflect the specific interactions and dynamics described in the gold answer."
+    }
+  ]
+}

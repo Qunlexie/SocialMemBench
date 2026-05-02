@@ -1,0 +1,157 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:40:56.846778+00:00",
+  "sessions_used": 10,
+  "total_pairs": 22,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.173,
+  "mean_context_words": 5278.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.36
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f9a0b101",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Saoirse's preference for descents but misattributes the specific quotes and details, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_f9a0b102",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures Yuki's awareness of her physical limits and workload management but lacks specific details and direct quotes from the sessions that demonstrate her self-assessment and decision-making process."
+    },
+    {
+      "qa_id": "Q1_f9a0b103",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures some aspects of Saoirse's role but lacks the critical detail of her authoritative position and the specific context of being invited to 'take point' on the design."
+    },
+    {
+      "qa_id": "Q1_f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Derek's argument about structured plurality and retention, misrepresenting his position and failing to capture the specific framing he uses."
+    },
+    {
+      "qa_id": "Q2_f9a0b101",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_f9a0b102",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's preference to her own message instead of correctly identifying Priya's understanding and proposal, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_f9a0b102",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Yuki's cautious relationship to harder routes but misattributes the understanding of her situation to Tom\u00e1s by including the phrase 'All good,' which is not in the gold answer."
+    },
+    {
+      "qa_id": "Q6_f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding the relationship between Marcus and Tom\u00e1s."
+    },
+    {
+      "qa_id": "Q7_f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Priya and Callum's relationship or Priya's behavior."
+    },
+    {
+      "qa_id": "Q7_f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f9a0b104",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding the connection between Lena and Yuki."
+    },
+    {
+      "qa_id": "Q8_f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Derek's behavior change, failing to address the question."
+    },
+    {
+      "qa_id": "Q4_f9a0b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Marcus's approach to a preference for longer rides instead of correctly identifying his earlier dismissal of shorter rides, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the training program as the driving factor for Yuki's shift but fails to accurately attribute the initial struggles and specific statements to the correct sessions, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the characterization of Saoirse's pacing to Tom\u00e1s instead of Priya and Callum, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly identify the trigger for Lena's change in behavior, which is her completion of the rehabilitation program; it only mentions her riding the gradient."
+    }
+  ]
+}

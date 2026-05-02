@@ -1,0 +1,133 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:07:22.211838+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.125,
+  "mean_context_words": 214.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.117
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tom's preference for interesting routes but misattributes the suggestion about the reservoir loop, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Yuki values social interaction and connection, contradicting the gold answer which indicates she finds the social aspect draining."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's preference to running strategy rather than his clear preference for ending runs at a pub, which is the core fact in the gold answer."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e6f7a8b5",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute the observation to Nadia, as it fails to mention the specific context of the conversation and the triggering event, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the founding of the group as a collaborative effort rather than acknowledging Nadia's initiative and Tom's confirmation of her role."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer attributes a different remark to Tom and misrepresents the nature of Nadia's role, leading to incorrect attribution."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Cass's earlier preference and does not accurately reflect her retrospective realization about her previous engagement."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the signaling of Yuki's change in footwear approach to Nadia, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's shift in thinking to her experience of completing the Harrogate Half Marathon, rather than the correct trigger of signing up for the race."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Rafe's old and new preferences, but it inaccurately describes the trigger and lacks specific details about Nadia's observations and the incident that prompted the change."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bf",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Tom's change in pacing strategy to his decision to hold back, rather than the coaching podcast that influenced his approach."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Leo's decision to his acknowledgment of tightness in his hamstring rather than the more critical trigger of a grade one hamstring strain, leading to a wrong fact and incorrect attribution."
+    }
+  ]
+}

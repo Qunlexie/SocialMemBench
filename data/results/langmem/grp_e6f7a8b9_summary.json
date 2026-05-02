@@ -1,0 +1,139 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:15:15.851532+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.044,
+  "mean_context_words": 1107.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.117
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tom's preferences, stating he prioritizes safety and enjoyment, while the gold answer indicates he prefers technical, elevated terrain."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and indicates a lack of information, which does not address the question or provide any relevant details about Yuki's responses."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's preferences to safety and terrain rather than his clear preference for pubs, which is the core fact in the gold answer."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e6f7a8b5",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rafe's post-run habit and misrepresents Nadia's understanding, leading to a critical error."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information available, which contradicts the gold answer that provides specific details about Nadia and Tom's history."
+    },
+    {
+      "qa_id": "Q7_e6f7a8b9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no specific information about Rafe's message, which contradicts the factual content of the gold answer."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Tom's remark about Nadia's recruitment efforts, instead focusing on safety and camaraderie, which is not the core fact."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address any part of the required response."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the reason for Yuki's change in footwear to a bruised knee, which is not mentioned in the gold answer, and fails to accurately describe the events that signaled and confirmed the shift."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the shift in Nadia's mindset and the change in her training distances but lacks specific details about her previous training distances and the exact trigger of her change."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the cramping at km 17 as a trigger but misattributes the advice to Nadia without mentioning her observation of Rafe's habits, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bf",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Tom's change in pacing strategy to his experimentation during a recent run instead of the coaching podcast."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Leo's decision to tightness in his left hamstring rather than the grade one hamstring strain he was dismissing, and it fails to mention the necessary context of Nadia's advice."
+    }
+  ]
+}

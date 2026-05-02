@@ -2,12 +2,12 @@
   "network_id": "grp_9c0d1e2f",
   "condition": "cognee",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:54:48.612844+00:00",
+  "evaluated_at": "2026-04-28T04:58:23.642005+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 6,
+  "new_pairs_this_run": 1,
   "mean_score": 0.217,
-  "mean_context_words": 55.2,
+  "mean_context_words": 55.8,
   "by_query_type": {
     "Q3": {
       "count": 1,
@@ -44,12 +44,6 @@
       "rationale": "The generated answer incorrectly identifies the specific tension Raj was describing and fails to identify the correct observable actions in the conversation that demonstrate Luca's prior knowledge."
     },
     {
-      "qa_id": "Q8_ph9s3c1",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer incorrectly identifies Session 3 as a turning point where Raj re-evaluates and prioritizes personal projects; the gold answer indicates Session 3 is when Raj acknowledges the erosion, and even by Session 5, his intent to return to personal work is described as aspirational, not confirmed."
-    },
-    {
       "qa_id": "Q8_ph9s4c1",
       "query_type": "Q8",
       "score": 0.3,
@@ -60,6 +54,12 @@
       "query_type": "Q7",
       "score": 0.0,
       "rationale": "The generated answer is too vague and generic, failing to capture the specific mentor-mentee dynamic and its evolution into a peer relationship, which is the core revelation described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_ph9s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the reasons for Raj's eroding ability to make personal work and fails to accurately identify the turning point in the conversation."
     }
   ]
 }

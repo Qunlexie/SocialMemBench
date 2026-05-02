@@ -1,0 +1,263 @@
+{
+  "network_id": "grp_d3e4f5a6",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T17:27:08.904104+00:00",
+  "sessions_used": 10,
+  "total_pairs": 52,
+  "new_pairs_this_run": 52,
+  "mean_score": 0.392,
+  "mean_context_words": 196.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 8,
+      "mean_score": 0.362
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 1.0
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.75
+    },
+    "Q5": {
+      "count": 4,
+      "mean_score": 0.275
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 9,
+      "mean_score": 0.211
+    },
+    "Q8": {
+      "count": 20,
+      "mean_score": 0.275
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_2d6b0e16",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Hiro's shift to a vegetarian diet but misattributes the confirmation of his dietary change to an explicit statement rather than the logistics requests, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_b61ea518",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Maya's avoidance of the latte and mentions Lila's observation, but it fails to attribute the avoidance of heavy dairy and the specific behavior of substituting non-dairy options, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_7cebcf97",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Aanya's preference but misattributes the casual manner of her signal to informal language and emojis rather than Lila's framing, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_2756d565",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the analysis of Whit's contributions to Bex and fails to address Whit's preferences for upscale components, which is a critical error."
+    },
+    {
+      "qa_id": "Q3_c82b2317",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer contains incorrect attributions and does not accurately reflect the food preferences of the group members as specified in the gold answer."
+    },
+    {
+      "qa_id": "Q4_bcee487d",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_ce56c918",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Aanya's attitude as unclear, contradicting the gold answer which specifies her desire to avoid forced-share moments."
+    },
+    {
+      "qa_id": "Q5_4c2de953",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Whit's pattern but misattributes Bex's knowledge to a different context (Session 4) instead of the specific chat reference about the rooftop receipt."
+    },
+    {
+      "qa_id": "Q7_96709d1a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the relationship details and context, focusing on a different aspect of concern rather than the specific book-recs conversation and shared history."
+    },
+    {
+      "qa_id": "Q7_2f144a41",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the relationship as close and mentions Lila's acknowledgment of Pat's recommendations, but it misattributes the quote to Lila instead of correctly attributing it to Pat."
+    },
+    {
+      "qa_id": "Q7_b2859aff",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Hiro's willingness to join Eli's trail loops, but it misattributes the specific moment to Session 3 instead of the final logistics thread, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_8c9b6d6c",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the dynamics of the relationship and fails to accurately reflect the specific interactions and acknowledgments between Whit and Bex regarding the spreadsheet and finances."
+    },
+    {
+      "qa_id": "Q7_7ddf931a",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misrepresents the relationship as positive rather than civil but not warm, and it fails to capture the functional-cold nature of their interaction."
+    },
+    {
+      "qa_id": "Q8_48643e0f",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Pat's old preference and fails to identify any of the key elements of the shift, including the trigger."
+    },
+    {
+      "qa_id": "Q8_4891d627",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the specific trigger for Devon's change in attitude, which is Pat's father's funeral, and does not accurately attribute the shift signal to Devon's direct statement."
+    },
+    {
+      "qa_id": "Q8_7d4b00dd",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Tom\u00e1s's responding pattern and the reason behind it, but it misattributes the session number and lacks detail about the early state and the specific observable actions."
+    },
+    {
+      "qa_id": "Q8_cbfc5e7c",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Maya's old preference to being open to other ideas instead of clearly stating her previous push for the all-in big house, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_7342818c",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the role shift to Bex's statement about the theme selection, which is not relevant to her shift in planning responsibilities."
+    },
+    {
+      "qa_id": "Q8_eacf8761",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the specific trigger for the change in Theo's self-positioning, which is a critical element of the question."
+    },
+    {
+      "qa_id": "Q8_813d8aaf",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the quote about covering overruns to Whit, while the gold answer correctly identifies the shift in Whit's posture and the influence of Bex."
+    },
+    {
+      "qa_id": "Q8_8a371f10",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the trigger (the patient's death) but fails to accurately describe the early state and the evolved state, leading to a wrong attribution of the shift."
+    },
+    {
+      "qa_id": "Q8_8a005915",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Eli's new preference and the trigger for the change, but it fails to mention his earlier posting pattern and does not provide specific examples of his evolved state."
+    },
+    {
+      "qa_id": "Q8_347b5cff",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the old and new preferences but misattributes Cam's earlier reliance on freelance work and does not accurately reflect the shift signal or the context of the change."
+    },
+    {
+      "qa_id": "Q8_fcdcc511",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific signals of Renee's role shift or the driving factors as outlined in the gold answer, leading to a critical error in attribution and detail."
+    },
+    {
+      "qa_id": "Q8_9d7e9fe7",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Jamal's pattern and the reason for it, but it fails to mention the earlier state or the trigger for the change, which are critical elements."
+    },
+    {
+      "qa_id": "Q8_7cf51a83",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Anika's shift in role and does not correctly identify the specific signals or triggers described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_efcb40e4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Aanya's change in attendance to her preference for a smaller dinner and feeling of being able to bail, which does not match the gold answer's details about her hedging and the breakup trigger."
+    },
+    {
+      "qa_id": "Q8_8756622e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Ife's feelings and actions to a male pronoun, while the gold answer correctly refers to Ife as female."
+    },
+    {
+      "qa_id": "Q8_0e6c7026",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the old and new preferences but fails to accurately attribute the driving change to Jamal's mention of Nico's cholesterol numbers."
+    },
+    {
+      "qa_id": "Q8_9ca38ec2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the evolved state and the shift signal but fails to accurately name the trigger event, attributing it incorrectly to prepping for a senate hearing instead of the SREC carve-out."
+    },
+    {
+      "qa_id": "Q7_337c92c6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the dynamic between Maya and Devon, focusing instead on Maya's interactions with others and failing to address the specific ribbing dynamic that characterizes their relationship."
+    },
+    {
+      "qa_id": "Q7_7286b3e3",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a collaborative relationship but misattributes Sasha's statement about the music tag, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_e9102c3e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Renee's role as a central figure rather than an honorary member and fails to mention key interactions that demonstrate her peripheral but loyal status."
+    },
+    {
+      "qa_id": "Q5_6fb9e2bc",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Renee inquires about Pat's mom, but it fails to mention that Pat's father has died and does not accurately reflect the context of the conversation, leading to a wrong attribution of knowledge."
+    },
+    {
+      "qa_id": "Q1_32edccf3",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Cam as vegetarian but misattributes the emotional reaction to a different emoji and lacks specific observable actions that prove prior knowledge."
+    },
+    {
+      "qa_id": "Q1_a9549bf6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Renee's desire for morning activities to a vague reference to 'a couple of years' and 'last summer,' rather than accurately detailing her specific contributions and consistent pattern as outlined in the gold answer."
+    }
+  ]
+}

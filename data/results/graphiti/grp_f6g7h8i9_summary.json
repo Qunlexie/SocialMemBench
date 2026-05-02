@@ -1,0 +1,127 @@
+{
+  "network_id": "grp_f6g7h8i9",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:35:38.031701+00:00",
+  "sessions_used": 10,
+  "total_pairs": 16,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.188,
+  "mean_context_words": 153.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f6g7h8i901",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tolu's preference for more intimate interactions but misattributes her reasoning and does not fully capture her consistent behavior regarding large family gatherings."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i902",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures the core fact about Grace needing advance information but fails to attribute specific examples or details from the sessions that illustrate her behavior."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i903",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Emeka's preference for simplicity but fails to mention his consistent desire for an intimate celebration with family, missing key details about his actual wants."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i904",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Zara's preferences, suggesting she favors well-organized celebrations with smart casual attire, while the gold answer indicates she prefers understated, relaxed gatherings."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i905",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Kunle's behavior as positive and engaged, while the gold answer highlights his lack of follow-through and genuine overload."
+    },
+    {
+      "qa_id": "Q2_f6g7h8i902",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_f6g7h8i901",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f6g7h8i901",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sophia's knowledge of Grace's preference to a different context, failing to identify the specific message that reveals this prior knowledge."
+    },
+    {
+      "qa_id": "Q5_f6g7h8i902",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Adaeze's behavior to asking Nkechi instead of correctly identifying her check-in with Sophia, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_f6g7h8i901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6g7h8i902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Aunty Ngozi's relationship with Emeka and fails to mention the critical detail of her being informed about his health concern, which is central to the gold answer."
+    },
+    {
+      "qa_id": "Q8_f6g7h8i901",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Femi's engagement changed to a more proactive involvement, while the gold answer describes a shift to less involvement and a surrender of tasks."
+    },
+    {
+      "qa_id": "Q8_f6g7h8i902",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Chidi's shift in communication style or the driving factors behind it, and it misattributes the context of the shift."
+    },
+    {
+      "qa_id": "Q7_f6g7h8i901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of the exchange regarding Tolu and Adaeze's relationship, particularly the private confidence-sharing and the context of the promotion."
+    }
+  ]
+}

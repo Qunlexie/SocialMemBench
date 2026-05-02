@@ -1,0 +1,71 @@
+{
+  "network_id": "grp_4d5e6f7a",
+  "condition": "hybrid_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T21:48:32.584388+00:00",
+  "sessions_used": 5,
+  "total_pairs": 9,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.422,
+  "mean_context_words": 174.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.375
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.7
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_v4s1c1",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nneka's preference to attend alone but fails to mention the group context and other sessions that support this behavior."
+    },
+    {
+      "qa_id": "Q1_v4s3c3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nneka's focus and does not accurately reflect her consistent sharing of specific music records, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_v4s2c1",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the shift in Rashida's approach but inaccurately attributes her new preference to Session 2 instead of Session 4, and it lacks specific details about her actions in later sessions."
+    },
+    {
+      "qa_id": "Q8_v4s3c2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer captures the general evolution of Preet's relationship to collecting but contains inaccuracies regarding their initial focus and lacks specific details from the sessions."
+    },
+    {
+      "qa_id": "Q8_v4s4c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Gil's change in preference to a comment by Preet instead of accurately reflecting his own actions and decisions."
+    },
+    {
+      "qa_id": "Q5_v4s4c2",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Rashida's strict budget but incorrectly attributes Preet's knowledge to observing her walking away from records instead of recalling a previous conversation."
+    }
+  ]
+}

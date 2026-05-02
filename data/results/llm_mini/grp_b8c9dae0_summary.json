@@ -1,0 +1,191 @@
+{
+  "network_id": "grp_b8c9dae0",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T16:23:11.800179+00:00",
+  "sessions_used": 10,
+  "total_pairs": 40,
+  "new_pairs_this_run": 40,
+  "mean_score": 0.443,
+  "mean_context_words": 5426.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 11,
+      "mean_score": 0.418
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.5
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q5": {
+      "count": 4,
+      "mean_score": 0.35
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.4
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.487
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b8c9dae001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Diane's attitude as slightly optimistic, while the gold answer clearly states she is strongly opposed to short-term rentals."
+    },
+    {
+      "qa_id": "Q1_b8c9dae002",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Greg's focus on meat but misattributes his willingness to accommodate vegetarian options, suggesting he is persuaded by Mei rather than showing his own clear preference."
+    },
+    {
+      "qa_id": "Q1_b8c9dae003",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sasha's preference for moving to Signal for better moderation and audit trails, but it inaccurately attributes the argument to personal preference rather than framing it in terms of moderation and practical problems."
+    },
+    {
+      "qa_id": "Q1_b8c9dae005",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any relevant information about Mei's role or actions regarding the flower setups, resulting in a complete lack of factual content."
+    },
+    {
+      "qa_id": "Q1_b8c9dae008",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Constance's preference for a tea-and-cake gathering but does not attribute her specific suggestions or arguments to her, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_b8c9dae009",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q3_b8c9dae012",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any information about the food preferences of the chat members, which is a critical requirement."
+    },
+    {
+      "qa_id": "Q4_b8c9dae013",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b8c9dae015",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Tom\u00e1s as vegetarian but misattributes the quote to Lateefah, as it was not her who stated it."
+    },
+    {
+      "qa_id": "Q5_b8c9dae017",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the timing of the cross-check to Walter's confirmation instead of stating it as a settled fact by Henry, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_b8c9dae019",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b8c9dae021",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Joel's connection to the Hartley household but fails to attribute the correct phrasing and context of the conversation, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b8c9dae023",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the positive interaction with the guests as a factor in the shift but fails to attribute the change in perspective to Diane's earlier firm opposition and does not mention the context of her previous concerns."
+    },
+    {
+      "qa_id": "Q8_b8c9dae024",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Bex's engagement to her frustration over guest cars impacting her life, rather than the specific trigger of her landlord threatening to escalate the lease, which is a critical detail missing from the response."
+    },
+    {
+      "qa_id": "Q8_b8c9dae025",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sasha's change in position but incorrectly attributes the driving factor to Diane's comment about older members, rather than the joint pushback from Henry and Diane."
+    },
+    {
+      "qa_id": "Q8_b8c9dae026",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Reggie's change in stance and mentions personal experiences, but it fails to attribute the specific earlier dismissal of the permit scheme to Reggie, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b8c9dae030",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Owen's focus on rental cars instead of the correct context of Bex's landlord situation, leading to a critical error in detail."
+    },
+    {
+      "qa_id": "Q7_b8c9dae031",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes specific statements to Diane and Henry that are not present in the gold answer, leading to incorrect attributions."
+    },
+    {
+      "qa_id": "Q7_b8c9dae032",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer identifies a friendly relationship but lacks specific details and examples from the conversation that demonstrate the closeness, such as shared context and teasing."
+    },
+    {
+      "qa_id": "Q7_b8c9dae033",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific actions and details to Mei and Nadia, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_b8c9dae035",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any relevant information about Tom\u00e1s's diet, which is critical to the question."
+    },
+    {
+      "qa_id": "Q1_b8c9dae037",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture Henry's strong belief in the need for a written canonical record, which is a critical aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q5_b8c9dae038",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Diane's previous stance but misattributes the quote about softening to Constance, which affects the score."
+    },
+    {
+      "qa_id": "Q2_b8c9dae040",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    }
+  ]
+}

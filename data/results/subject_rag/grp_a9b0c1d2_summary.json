@@ -1,0 +1,127 @@
+{
+  "network_id": "grp_a9b0c1d2",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:38:54.010841+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.342,
+  "mean_context_words": 206.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.467
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a9b0c1d201",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's preference for structure and the influence of her work schedule, but it inaccurately attributes her pressure to a 'recent significant application' rather than her shift work as an emergency room nurse."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d202",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies that Marcus's phrase is a default response rather than genuine uncertainty, but it lacks specific examples from the sessions that demonstrate this pattern."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d203",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priyanka's shift to Jess's encouragement, which misrepresents her genuine personal decision."
+    },
+    {
+      "qa_id": "Q2_a9b0c1d204",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_a9b0c1d205",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a9b0c1d209",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priyanka's understanding of Seb's health situation and fails to mention Marcus's physiotherapy expertise, which is critical to the question."
+    },
+    {
+      "qa_id": "Q5_a9b0c1d210",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Seb's argument and does not correctly identify his strategy or knowledge about Zara's interests."
+    },
+    {
+      "qa_id": "Q6_a9b0c1d212",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a9b0c1d213",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the original group to Nadia and Marcus instead of Theo, Nadia, and Zara, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d215",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer identifies a shared interest and connection but incorrectly attributes the confirmation of an ongoing pattern to Priyanka suggesting dinner, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d216",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the trigger for Seb's change in communication as an improvement in his knee condition, rather than the incident of his knee locking up and causing him to cancel plans."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d217",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Marcus's change in behavior to 'recognition that he needs to be looked at properly' instead of Nadia's direct confrontation, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d218",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Nadia's old preference and the trigger for her change, but it lacks specific details about the new state and does not clearly show both patterns simultaneously."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d219",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Theo's behavior to his own statements about hiking rather than correctly identifying Seb's inquiry about bouldering as the trigger."
+    }
+  ]
+}

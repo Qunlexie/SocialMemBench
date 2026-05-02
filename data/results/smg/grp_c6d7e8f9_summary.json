@@ -1,0 +1,131 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:50:25.260625+00:00",
+  "sessions_used": 8,
+  "total_pairs": 17,
+  "new_pairs_this_run": 17,
+  "mean_score": 0.271,
+  "mean_context_words": 642.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.333
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c6d7e8f901",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Ravi values high-quality coffee, but it lacks specific attribution to his comment and does not capture the conditional nature of his agreement or the implications of his relationship with the group."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f902",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's discomfort with chicken to Session 2, which is not relevant to the question about Sessions 1 and 3, and fails to accurately reflect her food preferences as described in the gold answer."
+    },
+    {
+      "qa_id": "Q2_c6d7e8f901",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c6d7e8f901",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's understanding and focuses on a different aspect of Tom's running plans, failing to address the core fact about his shift in running events."
+    },
+    {
+      "qa_id": "Q5_c6d7e8f902",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Tom's mention of Ravi's quiz attendance reflects an understanding of Ravi's loyalty and commitment, but it lacks the depth of analysis and specific details about Tom's interpretation and the implications of Ravi's behavior."
+    },
+    {
+      "qa_id": "Q6_c6d7e8f901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_c6d7e8f901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the relationship details to Nadia and Bex instead of Tom and Nadia, failing to address the core fact of their connection."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the significance of the conversation and fails to accurately reflect Ravi's specific framing and emotional context, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f901",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the old and new preferences but fails to accurately attribute the trigger for the shift to Tom's experience with the Dartmoor 50k."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f902",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger to an article about chicken instead of the correct Guardian factory farming article, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f903",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Ravi's shift to a statement made in session 7, while the gold answer correctly identifies the shift as occurring after the quiz in session 4."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f901",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Bex's dietary practice as mostly plant-based, but it lacks attribution to the specific session and does not mention the context or details that reinforce this practice."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f902",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Bex's intention to cycle but fails to capture the depth of her commitment to cycling as a primary mode of transport and leisure activity."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f903",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The generated answer captures Bex's intention to make baking a Saturday routine but fails to mention the established nature of the habit and the context of her farewell conversation."
+    }
+  ]
+}

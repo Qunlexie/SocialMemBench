@@ -1,0 +1,155 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:07:12.167069+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.068,
+  "mean_context_words": 51.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d7e8f9a001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Reuben's methodology, misrepresenting his structured approach and commitment to resolving form before surface treatment."
+    },
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's preference as democratic and collaborative, while the gold answer emphasizes her proactive approach to maintaining group size and energy."
+    },
+    {
+      "qa_id": "Q2_d7e8f9a001",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_d7e8f9a002",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d7e8f9a002",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's understanding of Nadia's values and does not accurately reflect the specific evidence of prior knowledge as required."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for consistency but fails to attribute the specific functional ceramics priority and lacks detail about Reuben's technical elaboration, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Reuben's specific claims about Simone's improvement and lacks the necessary detail about his phrasing that indicates he has been tracking her progress."
+    },
+    {
+      "qa_id": "Q6_d7e8f9a001",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that the original booker was someone other than Nadia, which contradicts the gold answer that identifies Reuben as the original studio booker."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide specific details about the incident that confirms the relationship, and it does not accurately reflect the nature of their communication or the mentoring role."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details and attributions from the conversation, failing to identify the key phrases and context that reveal the relationship between Reuben and Callum."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific trigger for Nadia's shift or provide evidence of her prior commitment to electric kiln use, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately explain Simone's shift or identify the correct session and trigger, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer attributes Reuben's resistance to personal insecurities and negative experiences, which is not supported by the gold answer's focus on his response to the quality of work, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Callum's preference for studio session timing, which is a critical requirement for the question."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes the project as enhancing team collaboration instead of the correct project of porcelain dinner plates."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Callum preferred stoneware instead of porcelain, which is a critical error."
+    }
+  ]
+}

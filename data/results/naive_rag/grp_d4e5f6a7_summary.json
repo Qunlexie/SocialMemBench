@@ -1,0 +1,111 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:48:23.917254+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 18,
+  "mean_score": 0.411,
+  "mean_context_words": 298.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.48
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.3
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.233
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d4e5f602",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies that Dom operates at a high intensity level, but it misattributes the context of his training intensity and does not clearly establish that this is his baseline rather than an unusual week."
+    },
+    {
+      "qa_id": "Q1_d4e5f603",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's focus on rest and flexibility, while the gold answer correctly identifies her preference for smaller gatherings and her flat responses compared to the group's enthusiasm."
+    },
+    {
+      "qa_id": "Q1_d4e5f605",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's skepticism of food trends but misattributes his comments and lacks specific details from the sessions."
+    },
+    {
+      "qa_id": "Q5_d4e5f607",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dom's routine but misattributes Zara's message by not accurately conveying the settled nature of her knowledge and the specific phrasing used."
+    },
+    {
+      "qa_id": "Q5_d4e5f608",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's position on team sports but does not accurately attribute Zara's comment about the group's prior knowledge, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q2_d4e5f609",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_d4e5f611",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for the change in Dom's approach to exercise to his knee feeling better, rather than the knee injury reported in Session 3."
+    },
+    {
+      "qa_id": "Q8_d4e5f612",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift trigger (documentary about dairy farming) but fails to mention the earlier state (Session 1) and misattributes the prior position to Session 5 instead of recognizing it was established earlier."
+    },
+    {
+      "qa_id": "Q8_d4e5f614",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Kezia's new preference for video calls and her awareness of her previous stance, but it fails to mention the trigger for her shift, which is her move to Bristol."
+    },
+    {
+      "qa_id": "Q8_d4e5f615",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about Felix's previous position to Dom instead of Felix himself, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_d4e5f616",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's statement about enjoying the group event to her, while it was actually Zara who made the remark about Priya's enjoyment, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_d4e5f617",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the essence of a shared history but fails to correctly attribute the specific details of their childhood experiences and the context of their relationship."
+    }
+  ]
+}

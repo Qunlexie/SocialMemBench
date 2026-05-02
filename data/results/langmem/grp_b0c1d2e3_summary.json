@@ -1,0 +1,193 @@
+{
+  "network_id": "grp_b0c1d2e3",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:49:58.117354+00:00",
+  "sessions_used": 8,
+  "total_pairs": 28,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.189,
+  "mean_context_words": 1440.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.122
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.1
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b0c1d001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_b0c1d007",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Nadia's preference for observational experiences but lacks specific details and direct quotes that demonstrate her framing of astrophotography as inferior, which is crucial for a complete understanding of her values."
+    },
+    {
+      "qa_id": "Q8_b0c1d003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b0c1d002",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the mutual interest in astronomy and mentions the influence of Terence Dickinson's book, but it lacks specific details about the book-lending aspect and the nature of their friendship."
+    },
+    {
+      "qa_id": "Q7_b0c1d006",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the roles of Nadia and Ruth, focusing on their influence on observation locations rather than their established administrative and logistical roles as indicated in the gold answer."
+    },
+    {
+      "qa_id": "Q7_b0c1d008",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_b0c1d009",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dev's observing focus to double stars and stellar colors, which contradicts the gold answer stating it was primarily the Moon."
+    },
+    {
+      "qa_id": "Q6_b0c1d010",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b0c1d011",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b0c1d012",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute Priya's recognition of Dev's curiosity and does not include the specific details from Session 3 that demonstrate her prior knowledge of his question."
+    },
+    {
+      "qa_id": "Q8_b0c1d013",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to correctly attribute the specific reasons for Jerome's shift, particularly missing the details about the transparency failures and Priya's input, leading to a critical error in understanding the events."
+    },
+    {
+      "qa_id": "Q8_b0c1d014",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's shift in feelings and does not accurately reflect the specific reasons for her change in attitude as described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b0c1d017",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's change in position to her experience of observing a clear winter sky and photography, rather than the specific event of seeing the Veil Nebula through Jerome's telescope."
+    },
+    {
+      "qa_id": "Q7_b0c1d018",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b0c1d019",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b0c1d020",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the shift in Harriet's standards but lacks specific details about her earlier and later states, and it misattributes her commitment to a phrasing not found in the original answer."
+    },
+    {
+      "qa_id": "Q8_b0c1d022",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the understanding of the shift to Ruth without correctly identifying the specific observable action that proves her prior knowledge, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_b0c1d024",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b0c1d025",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the foundational relationship between Nadia and Ruth but lacks specific details about their first meeting and the context of their collaboration."
+    },
+    {
+      "qa_id": "Q4_b0c1d026",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b0c1d027",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Jerome's role in Cecilia's change but fails to accurately describe her early state and the specific trigger from Session 7."
+    },
+    {
+      "qa_id": "Q7_b0c1d028",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the naming of the dynamic to Nadia instead of Ruth, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b0c1d029",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Tom\u00e1s's excitement about the HEQ5 mount and the improvement in capturing the Lagoon Nebula, but it lacks specific details about the early state and the decisive nature of the upgrade."
+    },
+    {
+      "qa_id": "Q7_b0c1d030",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the details of Nadia and Ruth's first meeting and does not accurately reflect their conversation in Session 8."
+    },
+    {
+      "qa_id": "Q7_b0c1d023",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about the working relationship between Ruth and Harriet, which is necessary to score higher."
+    }
+  ]
+}

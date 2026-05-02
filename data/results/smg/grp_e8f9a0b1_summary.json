@@ -1,0 +1,175 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:40:06.230915+00:00",
+  "sessions_used": 10,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.257,
+  "mean_context_words": 478.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.067
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e8f9a0b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's priorities by stating he values the venue over the food format, which contradicts the gold answer's emphasis on his focus on substantial food."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Jade's message and its implication about tracking Sana's attendance, but it inaccurately attributes the reason for Sana's attendance pattern to on-call duties, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Sana's social style and incorrectly interprets Dev's message, failing to capture the essence of his observation about her contributions."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_e8f9a0b102",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer identifies a shared history of collaboration but lacks specific details about the school magazine incident and does not accurately reflect the depth of their dynamic."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about the falling-out and resolution, and does not attribute the correct statements to the individuals involved."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Callum disclosed his attendance at a reunion dinner instead of the escape room event, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the turning point to session 3 instead of session 6, and misrepresents Marcus's prior preference and the trigger for his change in thinking."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Temi's earlier stance and fails to accurately reflect her shift, particularly regarding her motivations and the specific evidence from the sessions."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rachel's criterion to the venue itself rather than her focus on wine, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Temi's focus on group dynamics instead of her emphasis on the quality of connection shaped by the reunion format."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Jade's views by suggesting she values the group chat highly without acknowledging her clear preference for in-person interactions, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b105",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures the general idea of Sana preferring fewer events, but it lacks the specific details about her preference for being fully present and does not mention her earlier chat behavior that supports this preference."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's pattern of leaving group events to work-related stress instead of his responsibilities as a parent, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Temi's earlier position by stating she only expressed interest in the escape room dynamics in session 8, while the gold answer correctly identifies her role as a questioner and facilitator throughout earlier sessions."
+    },
+    {
+      "qa_id": "Q4_e8f9a0b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Dev's relationship to group events or the trigger for any change."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Jade's presence in the group chat or the reasons for her change in activity."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Omar's involvement or the changes in his behavior, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to address the question, resulting in a score of 0.0."
+    }
+  ]
+}

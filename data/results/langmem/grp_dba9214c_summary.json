@@ -1,0 +1,199 @@
+{
+  "network_id": "grp_dba9214c",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:50:22.388713+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.089,
+  "mean_context_words": 874.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.057
+    },
+    "Q8": {
+      "count": 10,
+      "mean_score": 0.1
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_dba9214c01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Seun's dietary identity as fully vegan without exceptions, contradicting the gold answer's emphasis on her internal struggle and regret over eating fish."
+    },
+    {
+      "qa_id": "Q1_dba9214c02",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Emeka's response, misattributing the focus to Uncle Dele and failing to provide the correct details about Emeka's acknowledgment and its implications."
+    },
+    {
+      "qa_id": "Q1_dba9214c03",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nkem's preference and does not correctly identify her self-awareness regarding her engagement in family events."
+    },
+    {
+      "qa_id": "Q2_dba9214c01",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_dba9214c02",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_dba9214c01",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Funke's prior knowledge to her emotional response rather than her specific statement about Adaeze's expectations, failing to identify the correct observable behavior."
+    },
+    {
+      "qa_id": "Q6_dba9214c02",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c03",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the context of Kayode's response, discussing health news instead of Seun's vegan decision, and fails to accurately reflect the nature of his relationship with her."
+    },
+    {
+      "qa_id": "Q7_dba9214c04",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Seun's understanding of Nkem's experience and does not accurately reflect the specific phrasing that indicates prior knowledge."
+    },
+    {
+      "qa_id": "Q7_dba9214c05",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the significance of Funke's announcement and the emotional weight of the interaction, but it lacks specific details about Funke's exact phrasing and Adaeze's response, which are crucial for a complete understanding of the milestone."
+    },
+    {
+      "qa_id": "Q7_dba9214c06",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information about the exchange, which contradicts the gold answer that provides specific details about their interaction."
+    },
+    {
+      "qa_id": "Q7_dba9214c07",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c01",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c02",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tolu's concern about the missed church as a signal of change, but it fails to accurately convey Emeka's awareness of the shift, misattributing the family's concern as direct evidence of his awareness."
+    },
+    {
+      "qa_id": "Q8_dba9214c04",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Funke's shift in orientation and mentions Adaeze, but it lacks specific details about the prior stance and the private cooking session that triggered the change."
+    },
+    {
+      "qa_id": "Q8_dba9214c05",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Uncle Dele's message or the shift in his views about Kayode's professional choices."
+    },
+    {
+      "qa_id": "Q8_dba9214c06",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nkem's change in confidence or the specific details of her contributions and interactions, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_dba9214c07",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Tolu's suggestion to invite Funke's parents as a shift in his approach, but it lacks specific earlier signals from the conversation that directly relate to the change, making it ambiguous."
+    },
+    {
+      "qa_id": "Q8_dba9214c09",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Auntie Grace's values to a general discussion with Seun rather than explicitly stating that she decided to follow her own advice after speaking with Seun last month."
+    },
+    {
+      "qa_id": "Q4_db01s1c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_db04s4c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c02",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information or analysis regarding Tolu's behavior, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_dba9214c03",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Kayode's relationship to family participation or Adaeze's message, thus failing to address the question."
+    },
+    {
+      "qa_id": "Q8_dba9214c08",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Bisi's communication shift, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_dba9214c10",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information related to the question, resulting in a score of 0.0."
+    }
+  ]
+}

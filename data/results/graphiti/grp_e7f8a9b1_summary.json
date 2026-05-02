@@ -1,0 +1,365 @@
+{
+  "network_id": "grp_e7f8a9b1",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T18:06:38.484034+00:00",
+  "sessions_used": 10,
+  "total_pairs": 57,
+  "new_pairs_this_run": 57,
+  "mean_score": 0.168,
+  "mean_context_words": 147.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 14,
+      "mean_score": 0.136
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q3": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q5": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 15,
+      "mean_score": 0.12
+    },
+    "Q8": {
+      "count": 13,
+      "mean_score": 0.123
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e7f8a9b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Aunty Bisi's dietary choices and framing, focusing on her positive involvement rather than her quiet vegetarianism and specific actions related to her dietary needs."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b102",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Aunty Ada's preference for milder food but fails to mention her specific intolerance to strong spices and the context of her previous food habits."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Tobi's eating habits, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Uncle Dele's stance by suggesting he does not express a preference, while the gold answer clearly states he supports the Cabo venue."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b105",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Aunty Ada's advocacy for a rented venue but fails to mention her specific reasoning related to her pregnancy and mobility issues."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b106",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Cousin Maris's ownership of low-sodium side dishes but fails to attribute her specific phrasing and reasoning accurately, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b107",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Uncle Bayo's preference for spicy food but misattributes the giveaway moment and lacks specific details about his direct quote and behavior."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b108",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures part of Papa Tunde's preference for brevity but fails to accurately attribute his stance on speech length and gathering scale, missing the emphasis on restraint and the specific context of his interactions."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b109",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Aunty Tola's engagement, stating she is passive when the gold answer indicates she becomes actively involved, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q3_e7f8a9b101",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes names and details, incorrectly including characters not mentioned in the gold answer and failing to accurately represent the stances of the group members."
+    },
+    {
+      "qa_id": "Q3_e7f8a9b102",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately reflect any of the members' preferences for the reunion timing and does not mention the correct preferences or reasons provided in the gold answer."
+    },
+    {
+      "qa_id": "Q3_e7f8a9b103",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the vegetarian preference solely to Funmi and fails to mention Aunty Bisi and Tobi, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q4_e7f8a9b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e7f8a9b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Aunty Bisi's eating practice and does not accurately reflect Funmi's knowledge or the context of their conversation."
+    },
+    {
+      "qa_id": "Q5_e7f8a9b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Aunty Ngozi's knowledge to a request about diet rather than her direct reference to the medication adherence schedule, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_e7f8a9b103",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Uncle Sola's anxiety about the speech but fails to accurately describe how Lara reveals her knowledge, missing the specific observable action and the context of their conversation."
+    },
+    {
+      "qa_id": "Q5_e7f8a9b104",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not specify the correct state of Lara (overwhelmed) or provide the specific observable action from Sade that demonstrates her awareness, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_e7f8a9b105",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Mama Yemi's feelings and does not correctly identify Aunty Chika's observable action related to tracking Yemi's feelings offline."
+    },
+    {
+      "qa_id": "Q6_e7f8a9b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e7f8a9b101",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Aunty Ronke's supportive role but lacks specific details about her relationship with Mama Yemi and misses key elements of her behavior and interactions that demonstrate her standing."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Cousin Junior's role and actions, failing to accurately describe his position as the public-facing voice and the specific dynamics with Cousin Kunle."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Wale's initial gratitude to Mama Yemi and fails to mention his father's death, which is a critical aspect of his relationship to the family chat."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b104",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Mama Yemi's response and the nature of her bond with Cousin Wale, failing to capture the familial depth and specific language used in the gold answer."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b105",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the supportive nature of their relationship and mentions a shared activity, but it lacks specific details about the regularity and context of their interactions, leading to ambiguity."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b106",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture the specific older-cousin/younger-cousin bond and misattributes the nature of their relationship, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b107",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the supportive nature of Funmi's role but lacks specific details about the relationship and the observable actions that demonstrate the advocacy."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b108",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the comment about Auntie Kemi to the context, which is a critical error, and fails to accurately capture the nature of the relationship and specific details of the exchange."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b109",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of their relationship, suggesting collaboration rather than acknowledging their previous cool terms and the thawing moment."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b110",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Aunty Bisi's supportive role but fails to accurately describe her standing as a fully-folded-in daughter rather than a daughter-in-law, and it does not mention the specific language used by Mama Yemi that solidifies their relationship."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b111",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Lara's wedding choice is influenced by her memories of Maria and acknowledges a close relationship, but it misattributes the family's reaction to Mama Yemi instead of the correct family members, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b112",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Papa Tunde's role and approach, failing to capture the tension and dynamic of skepticism and careful handling in his relationship with Lara."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b101",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies pregnancy as the driving factor for the change but fails to accurately capture the specific details of Ada's shift in spice tolerance and the explicit message that signals this change."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b102",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the new preference (July 4) and the trigger (twins' spring camp), but fails to accurately state the previous preference, which is critical for full credit."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the correct trigger for the change in travel pattern, attributing it incorrectly to Cousin Junior instead of the medical advice from Papa Tunde."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Uncle Bayo's engagement to food discussions rather than his daughter's presence, which is the key trigger identified in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b105",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the change in Cousin Junior's stance and the trigger related to Papa Tunde's trips, but it inaccurately attributes the reason for the change to 'Papa Tunde's schedule' instead of the specific medical reason."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b106",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the support to Funmi's encouragement rather than correctly identifying Funmi's advocacy and Ade's public acknowledgment of it, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b107",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Ifeanyi's shift to Aunty Ada's preference instead of Yemi's visible reluctance, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b108",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the shift in Mama Yemi's preference but lacks specific details about her new role and the supportive comments from her cousins that contributed to the change."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b109",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Cousin Kunle's role or the change, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b110",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Uncle Femi's new preference and does not accurately reflect the specific shift in his position or the trigger for that change."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b111",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a shift in Aunty Tola's engagement but attributes the cause to agreement with Cousin Maris rather than Femi's framing, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b112",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately capture the specific nature of Wale's shift from a hedged-lurker to direct emotional disclosure, and it does not identify the trigger related to his father's death."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b113",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the focus of the conversation and does not accurately reflect the specific dynamics and interactions between Funmi and Ade as described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b114",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute Aunty Ngozi's specific role and prior interaction, missing the critical details about her ongoing involvement and the Thanksgiving reference."
+    },
+    {
+      "qa_id": "Q7_e7f8a9b115",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ifeoma's excitement to her hair with gold ribbons instead of the flower-girl dress, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q3_e7f8a9b104",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Uncle Ifeanyi's preference for a rented venue to Aunty Ada's discussion, while the gold answer states he prefers it for accessibility reasons related to Mama Yemi's house."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b110",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Cousin Junior's role and actions, failing to accurately reflect his specific contributions and the recurring patterns that define his role as the family's link to Lagos."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b111",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the appreciation to Papa Tunde without providing specific evidence from the conversation, failing to accurately reflect Lara's approach to conflict."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b112",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Aunty Ronke's role, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e7f8a9b113",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in dynamic to Aunty Tola's engagement with Uncle Femi instead of correctly identifying the shared agreement on the cost split with Cousin Maris as the trigger."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b113",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Funmi as an advocate but fails to mention her organizational role and specific contributions, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_e7f8a9b114",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Uncle Sola's behavior as maintaining distance and being detached, which contradicts the gold answer's emphasis on his careful presence and restraint."
+    }
+  ]
+}

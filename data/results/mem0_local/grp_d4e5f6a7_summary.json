@@ -1,0 +1,141 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:01:30.360694+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 18,
+  "mean_score": 0.172,
+  "mean_context_words": 131.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.117
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.2
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d4e5f601",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Zara's preference for vegan options but misattributes her relationship with meat-based dishes and lacks the specific phrasing from the gold answer that indicates a long-standing practice."
+    },
+    {
+      "qa_id": "Q1_d4e5f602",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly infers that Dom's baseline intensity is moderate based on his reaction to yoga, contradicting the gold answer's assertion of high intensity as his baseline."
+    },
+    {
+      "qa_id": "Q1_d4e5f603",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Priya's responses or instincts, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_d4e5f604",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures the shift to simpler cooking but lacks the specific detail about customer return and the contrast with his previous approach."
+    },
+    {
+      "qa_id": "Q1_d4e5f605",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Felix's comments on food trends or dietary shifts, making it irrelevant to the question."
+    },
+    {
+      "qa_id": "Q4_d4e5f606",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d4e5f607",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dom's typical behavior and focuses on his knee condition instead of his gym sessions, which is the core fact."
+    },
+    {
+      "qa_id": "Q5_d4e5f608",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's aversion to team sports but misattributes Zara's comment, failing to connect it to the specific group joke that reveals the group's prior knowledge."
+    },
+    {
+      "qa_id": "Q2_d4e5f609",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_d4e5f611",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dom's new approach to yoga as a preference shift rather than an imposed change due to injury, failing to correctly identify the trigger and the nature of the change."
+    },
+    {
+      "qa_id": "Q8_d4e5f612",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Zara's prior position and fails to accurately identify the shift trigger and new state."
+    },
+    {
+      "qa_id": "Q8_d4e5f613",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the new state and the previous approach but fails to mention the shift trigger and lacks specific details from the sessions."
+    },
+    {
+      "qa_id": "Q8_d4e5f614",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify the trigger for Kezia's change in position and does not reference her explicit self-awareness about her earlier stance."
+    },
+    {
+      "qa_id": "Q8_d4e5f615",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's previous position on team sports but fails to attribute the specific details and context of his shift to the correct sources, particularly missing the mention of his neighbor's persistence."
+    },
+    {
+      "qa_id": "Q8_d4e5f616",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION,' which does not provide any relevant details or facts about Priya's comfort level or the group's reaction."
+    },
+    {
+      "qa_id": "Q7_d4e5f617",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there are no specific remarks from Felix to Priya, which contradicts the gold answer that provides a specific remark and analysis of their relationship."
+    },
+    {
+      "qa_id": "Q7_d4e5f618",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the commitment and challenges in Kezia and Dom's relationship but lacks specific details from the conversation that reveal their history and does not accurately reflect the nature of their communication."
+    }
+  ]
+}

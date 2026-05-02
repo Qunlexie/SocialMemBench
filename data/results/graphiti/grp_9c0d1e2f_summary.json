@@ -2,12 +2,12 @@
   "network_id": "grp_9c0d1e2f",
   "condition": "graphiti",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T22:01:42.804734+00:00",
+  "evaluated_at": "2026-04-28T04:28:03.160038+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 6,
-  "mean_score": 0.5,
-  "mean_context_words": 134.0,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.55,
+  "mean_context_words": 133.3,
   "by_query_type": {
     "Q3": {
       "count": 1,
@@ -23,7 +23,7 @@
     },
     "Q8": {
       "count": 2,
-      "mean_score": 0.25
+      "mean_score": 0.4
     },
     "Q7": {
       "count": 1,
@@ -34,8 +34,8 @@
     {
       "qa_id": "Q8_ph9s3c1",
       "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer incorrectly states that Session 3 reveals Raj's contract finishing in two months as the turning point; this information is revealed in Session 5, not Session 3, and the gold answer notes it as aspirational rather than a confirmed turning point."
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the cause of Raj's eroded ability to his commitments to a commercial contract, rather than accurately reflecting the progression of his thoughts and statements throughout the sessions."
     }
   ]
 }

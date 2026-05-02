@@ -1,0 +1,271 @@
+{
+  "network_id": "grp_b6c7d8e9",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:37:01.928750+00:00",
+  "sessions_used": 12,
+  "total_pairs": 42,
+  "new_pairs_this_run": 3,
+  "mean_score": 0.129,
+  "mean_context_words": 132.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 15,
+      "mean_score": 0.093
+    },
+    "Q2": {
+      "count": 5,
+      "mean_score": 0.4
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 6,
+      "mean_score": 0.117
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.033
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_55017d4f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's focus and does not accurately reflect his specific interests in ambient and electronic music, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_ed304b2a",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's preference for group listening, stating he enjoys it when the gold answer indicates he finds it less satisfying than solitary listening."
+    },
+    {
+      "qa_id": "Q1_e558700a",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Elliot's preference for sourcing records and does not mention his consistent decline of in-person trips or the reasons behind his preference for online sourcing."
+    },
+    {
+      "qa_id": "Q1_2b0f9399",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute Nadia's preference for solitary listening to her specific comments in Session 5, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_b4d73023",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION,' which does not provide any relevant information about Raj's approach or decision-making process."
+    },
+    {
+      "qa_id": "Q1_d281f687",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the response about group trips to Nadia instead of Marcus, and it misrepresents Marcus's preferences and actions."
+    },
+    {
+      "qa_id": "Q1_e7c455a5",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies that Nadia emphasizes graphic design and aesthetic appeal, but it lacks specific examples and details about her comments on particular records, which are crucial for a complete answer."
+    },
+    {
+      "qa_id": "Q1_dbc34b00",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Carmen's cleaning practices or the standard she holds her collection to, focusing instead on her listening preferences."
+    },
+    {
+      "qa_id": "Q1_6ab610ef",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Marcus's choice of best find or his explanation, and it misattributes his motivations and connections between equipment investments and collecting interests."
+    },
+    {
+      "qa_id": "Q1_b0a0ce68",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Finn's shift towards valuing personal experiences with music, but it misattributes the specific detail about listening alone and the context of his usual behavior."
+    },
+    {
+      "qa_id": "Q1_a28e0a35",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's condition regarding the gift record swap, stating it involves charity shop finds and a grading standard, rather than the correct condition that reissues are not acceptable."
+    },
+    {
+      "qa_id": "Q1_fa5facec",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's preferences and does not accurately reflect her specific instructions about canonical records and the value she places on scarcity and obscurity."
+    },
+    {
+      "qa_id": "Q1_eab2e915",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Elliot argues for mono pressings, which contradicts the gold answer that specifies he requires stereo pressings."
+    },
+    {
+      "qa_id": "Q1_77e1ae4d",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Raj's request or the context of his relationship with collecting, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q2_ddb085fc",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b3a793d5",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_1a2fdc7f",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_9dac901b",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_9106e8fc",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_9e67f95e",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Nadia's focus as Cuban jazz instead of obscure Eastern European records, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_6094ffc3",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_9ed93c1c",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_d0135ea1",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_6ce45d9b",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information to determine the nature of Priya and Marcus's relationship, which contradicts the gold answer that provides specific insights into their close friendship."
+    },
+    {
+      "qa_id": "Q7_3bfbfc85",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the collaborative nature of their relationship but lacks specific details about Marcus's authority and Elliot's trust, which are crucial to the gold answer."
+    },
+    {
+      "qa_id": "Q7_dfbe43df",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of the relationship by focusing on Dani's observations rather than the mutual care and attentiveness highlighted in the gold answer."
+    },
+    {
+      "qa_id": "Q7_c8a44b20",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Carmen's reaction and does not accurately reflect her surprise and acknowledgment of ignorance, which are key elements of the dynamic between her and Nadia."
+    },
+    {
+      "qa_id": "Q7_f06d2aa6",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the positive relationship and collaborative nature of Raj and Priya's interactions but fails to attribute the specific credit Raj gives to Priya for the find, which is a critical detail."
+    },
+    {
+      "qa_id": "Q8_86d79c89",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's shift to an interest in looking at Japanese pressings at the Antwerp fair, which is not supported by the gold answer's details."
+    },
+    {
+      "qa_id": "Q8_f18788d5",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Elliot's old preference for mono pressings but fails to accurately describe the shift signal and trigger, attributing the change to a general reassessment rather than the specific actions and observations in Session 4."
+    },
+    {
+      "qa_id": "Q8_cbf238d6",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer states 'NOT ENOUGH INFORMATION,' which does not provide any relevant information about Priya's shift in thinking or the moment it took hold."
+    },
+    {
+      "qa_id": "Q8_c679aebc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Carmen's view of Latin jazz and fails to mention the specific trigger and shift signal from Session 6."
+    },
+    {
+      "qa_id": "Q8_cc26c1ee",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's shift to hosting a small group session and writing for a blog, which does not match the gold answer's focus on her sharing finds and the specific signals and triggers identified."
+    },
+    {
+      "qa_id": "Q8_14671ddb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Raj's approach to specific records and discussions, failing to capture the correct signals and trigger as outlined in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b35ef985",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Finn's motivation and does not correctly identify the trigger for his commitment, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_e579be7d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the reason for Dani's secrecy and does not accurately reflect her specific concerns about record fragility, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_c807773f",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific acknowledgment Carmen made about Nadia, nor does it mention the public credit or the significance of naming Nadia, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_997793a0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's shift to a concern about Talk Talk records, which is not mentioned in the gold answer, and fails to identify the correct signal and trigger for the shift."
+    }
+  ]
+}

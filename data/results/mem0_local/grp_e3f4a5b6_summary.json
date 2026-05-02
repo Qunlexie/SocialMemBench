@@ -1,0 +1,215 @@
+{
+  "network_id": "grp_e3f4a5b6",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:11:17.612645+00:00",
+  "sessions_used": 8,
+  "total_pairs": 30,
+  "new_pairs_this_run": 30,
+  "mean_score": 0.08,
+  "mean_context_words": 130.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.117
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.133
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_9dd1f77c",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's preferences and does not accurately reflect his consistent approach to well-researched, sit-down dining."
+    },
+    {
+      "qa_id": "Q1_491c9d3b",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Dev's food preferences, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_95d52657",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no specific information about Simone's preferences, which contradicts the gold answer that provides clear evidence of her values."
+    },
+    {
+      "qa_id": "Q1_ed752db0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information, which does not address the question and fails to provide any relevant details about Dev's social participation."
+    },
+    {
+      "qa_id": "Q1_45860c4c",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information, which does not address the question and fails to provide any relevant details about Marcus's approach."
+    },
+    {
+      "qa_id": "Q2_2f220aea",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_839a6534",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_9ce580d7",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_3e9956ac",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f89c074a",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Priya's position as uncertain and does not accurately reflect her dislike for countryside hiking, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_7bb66265",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Simone's knowledge to observing Priya leaning in, rather than recalling a specific prior complaint, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_673dca4e",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_c5e76e87",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the group's behavior towards Dev, focusing on feelings of hurt and exclusion rather than the established pattern of his communication style, which is the core aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q7_ffee963c",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the relationship by emphasizing feelings of hurt and rivalry without acknowledging the mutual affection and long-standing friendship highlighted in the gold answer."
+    },
+    {
+      "qa_id": "Q7_5898b876",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Marcus and Priya's relationship, such as their childhood connection and the affectionate 'annoying older brother' dynamic, which are critical to understanding their long-term familiarity."
+    },
+    {
+      "qa_id": "Q7_9ca2ef5c",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes the nature of Priya and Simone's relationship and fails to mention their past as flatmates, which is crucial to understanding how Simone came to know the group."
+    },
+    {
+      "qa_id": "Q7_5b25e16f",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the core fact about Priya and Dev's long-term friendship or how it informs Dev's integration into the group, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q7_61b9a50a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no specific information about Jonah's decision, which contradicts the gold answer that provides clear details about the relationship and context."
+    },
+    {
+      "qa_id": "Q7_a3911288",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there are no specific details about Simone's response to Priya, which contradicts the gold answer that provides a clear analysis of their dynamic."
+    },
+    {
+      "qa_id": "Q7_4eca1710",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute the specific details about Simone's long-term consideration of working abroad and the nature of her relationship with Priya, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q8_5fd3bd95",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Jonah's shift to a need to think about something else, rather than correctly identifying Marcus as the trigger for the change."
+    },
+    {
+      "qa_id": "Q8_c938c74b",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dev's private behavior to running with Marcus and planning a route with User, which are not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_f34913ea",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the reason for Marcus's change in behavior (training for a half-marathon) but fails to accurately attribute the specific conversation details and the timeline of the change."
+    },
+    {
+      "qa_id": "Q8_0564c52e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's shift in position to User's encouragement and influence, rather than accurately identifying the shift occurring in Session 6 based on her own experiences."
+    },
+    {
+      "qa_id": "Q8_f1c0131e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the mechanism for Simone's shift to User's pride instead of Marcus's perceptive check-in, which is a critical error."
+    },
+    {
+      "qa_id": "Q9_323a36e5",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Simone's preferences, which is a critical error."
+    },
+    {
+      "qa_id": "Q9_166527b6",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The answer captures the essence of Simone's need for advance notice but lacks specific examples and details from the sessions that demonstrate the consistency of her preference."
+    },
+    {
+      "qa_id": "Q9_4e67c2ca",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the relationship and lacks specific details from the sessions, failing to accurately reflect the closeness and prior knowledge established in the gold answer."
+    }
+  ]
+}

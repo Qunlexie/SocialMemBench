@@ -61,7 +61,7 @@ CONDITION_MODELS = {
 }
 
 # Memory system conditions: ingest → retrieve → answer (no full context)
-MEMORY_CONDITIONS = {"mem0_local", "zep_local", "naive_rag", "graphiti", "langmem", "cognee", "smg", "smg_gemini"}
+MEMORY_CONDITIONS = {"mem0_local", "zep_local", "naive_rag", "graphiti", "langmem", "cognee", "smg", "smg_gemini", "subject_rag"}
 
 ALL_CONDITIONS = set(CONDITION_MODELS.keys()) | MEMORY_CONDITIONS
 
@@ -119,6 +119,18 @@ def _build_memory_adapter(condition: str, top_k: Optional[int] = None):
         if top_k is not None:
             config["top_k"] = top_k
         return SMGAdapter(config)
+    elif condition == "attributed_rag":
+        from eval.adapters.attributed_rag_adapter import AttributedRAGAdapter
+        config = load_yaml(str(ADAPTER_CONFIG_DIR / "attributed_rag.yaml"))
+        if top_k is not None:
+            config["top_k"] = top_k
+        return AttributedRAGAdapter(config)
+    elif condition == "subject_rag":
+        from eval.adapters.subject_rag_adapter import SubjectRAGAdapter
+        config = load_yaml(str(ADAPTER_CONFIG_DIR / "subject_rag.yaml"))
+        if top_k is not None:
+            config["top_k"] = top_k
+        return SubjectRAGAdapter(config)
     else:
         raise ValueError(f"Unknown memory condition: {condition}")
 
@@ -338,13 +350,50 @@ async def _print_summary_from_existing(existing, network_id, condition, model, d
     by_qt = {qt: {"count": v["count"], "mean_score": round(v["total_score"] / v["count"], 3)} for qt, v in by_query_type.items()}
     total = len(all_pairs)
     mean = round(sum(p["score"] for p in all_pairs) / total, 3) if total else 0.0
+    context_word_counts = [p.get("context_words", 0) for p in all_pairs]
+    mean_context_words = round(sum(context_word_counts) / total, 1) if total else 0.0
+
+    summary = {
+        "network_id": network_id,
+        "condition": condition,
+        "model": model,
+        "evaluated_at": datetime.now(timezone.utc).isoformat(),
+        "sessions_used": dataset.total_days,
+        "total_pairs": total,
+        "new_pairs_this_run": 0,
+        "mean_score": mean,
+        "mean_context_words": mean_context_words,
+        "by_query_type": by_qt,
+        "low_scoring": [
+            {"qa_id": p["qa_id"], "query_type": p["query_type"], "score": p["score"], "rationale": p.get("score_rationale", "")}
+            for p in all_pairs if p["score"] < 0.5
+        ],
+    }
+    summary_path = out_dir / f"{network_id}_summary.json"
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+
+    # Update manifest
+    manifest_path = out_dir.parent.parent / "manifest.json"
+    if manifest_path.exists():
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+        if network_id in manifest.get("networks", {}):
+            manifest["networks"][network_id][condition] = {
+                "mean_score": mean,
+                "total_pairs": total,
+                "evaluated_at": summary["evaluated_at"],
+            }
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=2)
+
     console.print(f"\nEval: {network_id} ({condition}) — all {total} pairs already scored")
     console.print(f"Mean score: {mean:.3f}\n")
     console.print("By query type:")
     for qt in sorted(by_qt.keys()):
         v = by_qt[qt]
         console.print(f"  {qt:<4}  {v['mean_score']:.3f}  ({v['count']} pairs)")
-    console.print(f"\nResults: {jsonl_path}")
+    console.print(f"\nResults: {summary_path}")
 
 
 def main():

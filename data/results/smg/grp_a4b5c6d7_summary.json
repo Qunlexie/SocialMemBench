@@ -1,0 +1,251 @@
+{
+  "network_id": "grp_a4b5c6d7",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T16:05:31.380998+00:00",
+  "sessions_used": 10,
+  "total_pairs": 41,
+  "new_pairs_this_run": 41,
+  "mean_score": 0.222,
+  "mean_context_words": 493.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 10,
+      "mean_score": 0.1
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q3": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.25
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.167
+    },
+    "Q6": {
+      "count": 4,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 14,
+      "mean_score": 0.129
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a4b5c6d701",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures Hema's dedicated approach to listening to albums but fails to accurately attribute the specific phrasing and details from Hema's description, leading to a lack of precision."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d702",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information related to Yuko's framing or the bottleneck in a hi-fi system, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d703",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer attributes a specific belief about the market to Sander that contradicts the gold answer, which indicates Sander is frustrated but still willing to engage with high prices."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d704",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lina's listening volume and does not accurately reflect her typical listening style as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d705",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Ines's approach to grading records as honest, but it misattributes the statement about 'mint' to her directly without acknowledging the context of her comments."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d706",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Maeve's hosting on a Thursday but fails to capture the broader pattern of her skipping weekend gatherings, leading to a wrong attribution of her preference."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d707",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcy's dietary preference to a direct statement in session 10, which contradicts the gold answer's assertion that her preference is revealed through her own words in a more subtle manner."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d708",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Pippa's preference, stating she prefers local purchasing options instead of her clear dislike for record fairs and preference for warehouses."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d709",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Theo's preference to 'he' instead of 'she', which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a4b5c6d70a",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any relevant information regarding Bram's decision or competing commitment, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q3_a4b5c6d70d",
+      "query_type": "Q3",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Lina's shift in volume preference but fails to mention the specific preferences and details of the other members, leading to incomplete information."
+    },
+    {
+      "qa_id": "Q3_a4b5c6d70e",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately capture the stances of all members, particularly missing key details about Dev and Roo, and does not correctly attribute the overall positions of the group."
+    },
+    {
+      "qa_id": "Q4_a4b5c6d70f",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a4b5c6d711",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a4b5c6d712",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a4b5c6d713",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about Dev's living situation and does not accurately attribute Sander's knowledge or the context of the conversation."
+    },
+    {
+      "qa_id": "Q5_a4b5c6d714",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Pippa discusses attendance with Marcy, which misattributes the nature of their interaction and fails to capture Marcy's specific prediction about Pippa's no-show."
+    },
+    {
+      "qa_id": "Q6_a4b5c6d716",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a4b5c6d717",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a4b5c6d71a",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the supportive nature of Bram and Lina's relationship and the act of lending the amplifier, but it lacks specific details about the measurable change in Bram's views and the acknowledgment of the loan."
+    },
+    {
+      "qa_id": "Q7_a4b5c6d71b",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any specific details about how Bram and Sander first met, which is a critical part of the question."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71c",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the specific trigger for Sander's shift in relationship to second-hand market pricing, which is his being outbid on the Pioneer SX-1980."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Yuko's view or the cause of the change, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dev's initial preference to the SX-980 instead of the McIntosh MA6200 and fails to identify the correct trigger for the change."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71f",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the cause of the change in Lina's listening habits to finishing the Mahler 3 cycle instead of the audiologist's suggestion."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d720",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Theo's shift to Sander instead of Hema, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d721",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the shift from headphones to speakers but fails to mention the specific trigger of moving into a new place and the neighbor's influence."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d722",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the explanation of Ines's new approach to a group norm rather than her personal frustration with online flippers and the specific trigger of seeing her record resold for 4x."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d723",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute the cause of the shift to Felix losing his weekend assistant manager, which is a critical detail."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d725",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shift in Quint's relationship to streaming but fails to mention the specific trigger of his daughter setting up Tidal, which is a key element of the explanation."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d726",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the specific trigger for Hema's change in view, which is the digital archive commission, and does not accurately reflect her earlier stance on digital formats."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d727",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Maeve's listening setup to her earlier decision rather than the specific trigger of her grandmother's passing and inheriting the console."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d728",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Bram's stance but fails to attribute the change to the correct trigger (Lina lending the F5) and does not mention the specific duration of the experience."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d729",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the cause of Olin's change in position to Hema's statement rather than his daughter's gift, which is a critical error."
+    }
+  ]
+}

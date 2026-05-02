@@ -1,0 +1,137 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:05:47.555355+00:00",
+  "sessions_used": 8,
+  "total_pairs": 17,
+  "new_pairs_this_run": 17,
+  "mean_score": 0.171,
+  "mean_context_words": 61.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c6d7e8f901",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Ravi prioritizes coffee quality, but it lacks specific details about his conditional agreement and the implications of his comment, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f902",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's preferences and does not accurately reflect her dietary shift to pescatarian, leading to a fundamentally incorrect response."
+    },
+    {
+      "qa_id": "Q2_c6d7e8f901",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c6d7e8f901",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's understanding of Tom's running, incorrectly suggesting she thinks he struggles with running, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q5_c6d7e8f902",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer captures a general understanding of Tom's awareness of Ravi's social needs but lacks specific details about Tom's interpretation and the implications of his observations."
+    },
+    {
+      "qa_id": "Q6_c6d7e8f901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_c6d7e8f901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Tom and Nadia met through mutual friends, which contradicts the gold answer that specifies they have been housemates for six years."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately capture the specific details of the relationship between Bex and Ravi, misrepresenting the nature of their conversation and the significance of Ravi's framing."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f903",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Cleo and Bex's connection to shared discussions and personal connections rather than the specific event at the zine fair, which is critical to the correct understanding of their relationship."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f901",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's shift to mental health and personal well-being, while the gold answer specifies the shift is from road half-marathon racing to ultra-distance trail events, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f902",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not specify the article as the Guardian factory farming article shared by Bex, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f903",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ravi's shift to a realization about connection and community rather than the specific experiences and evidence from the quiz that prompted his change in perspective."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f901",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly states Bex's dietary practice as vegetarian instead of mostly plant-based, which is a critical error."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f902",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Bex's relationship to cycling, which is a critical requirement for the question."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f903",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately describe Bex's specific baking habit, which was a weekly Saturday bread-baking ritual, and instead provides a vague and incorrect characterization."
+    }
+  ]
+}

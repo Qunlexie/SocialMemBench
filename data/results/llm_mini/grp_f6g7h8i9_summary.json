@@ -1,0 +1,109 @@
+{
+  "network_id": "grp_f6g7h8i9",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:43:01.026528+00:00",
+  "sessions_used": 10,
+  "total_pairs": 16,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.269,
+  "mean_context_words": 4864.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.36
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.25
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f6g7h8i901",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f6g7h8i904",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Zara's preference for simplicity but misattributes specific quotes and lacks detailed examples from the sessions."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i905",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Kunle's behavior, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q2_f6g7h8i901",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_f6g7h8i902",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f6g7h8i902",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Adaeze's statement about the deposit, incorrectly quoting her and failing to capture the proactive nature of her inquiry."
+    },
+    {
+      "qa_id": "Q6_f6g7h8i901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6g7h8i902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the comment about Emeka's health to Aunty Ngozi instead of correctly identifying it as a response to her comment, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_f6g7h8i901",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Femi's initial proactive role and does not accurately reflect the shift in his engagement or the specific driving factors mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_f6g7h8i902",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Chidi's shift in communication style and does not accurately reflect the specific examples and context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_f6g7h8i901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of the exchange, particularly the private confidence-sharing aspect and the implications of Adaeze being the exception in the family context."
+    }
+  ]
+}

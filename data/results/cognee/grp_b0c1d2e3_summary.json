@@ -1,0 +1,199 @@
+{
+  "network_id": "grp_b0c1d2e3",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:00:56.356260+00:00",
+  "sessions_used": 8,
+  "total_pairs": 28,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.1,
+  "mean_context_words": 62.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.1
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b0c1d001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nadia's specific values regarding distance and darkness, and it introduces incorrect elements like accessibility and community, which are not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q1_b0c1d007",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nadia's specific preference for visual observing at the eyepiece over astrophotography, misrepresenting her views."
+    },
+    {
+      "qa_id": "Q8_b0c1d003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the specific trigger (Ruth lending the book) and does not accurately reflect Marcus's prior belief or the explicit statement he made in Session 1."
+    },
+    {
+      "qa_id": "Q7_b0c1d002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Ruth and Marcus's relationship, focusing on emotional support rather than the practical, book-lending aspect described in the gold answer."
+    },
+    {
+      "qa_id": "Q4_b0c1d004",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b0c1d006",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Nadia and Ruth's roles in managing logistics but lacks specific details and examples from the chat that demonstrate their established authority and routine responsibilities."
+    },
+    {
+      "qa_id": "Q7_b0c1d008",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the dynamic by suggesting admiration from Jerome, while the gold answer highlights a pattern of tension and disagreement."
+    },
+    {
+      "qa_id": "Q5_b0c1d009",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Dev's observing focus as being on interactions and dynamics rather than the Moon, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_b0c1d010",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b0c1d012",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Priya's specific recognition of Dev's question or the details of her response, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b0c1d013",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute Jerome's shift to specific events and details from Sessions 2 and 3, misrepresenting the reasons for his change in focus."
+    },
+    {
+      "qa_id": "Q8_b0c1d014",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's shift to receiving feedback from peers instead of correctly identifying Dev's questions and enthusiasm as the trigger for her change in perspective."
+    },
+    {
+      "qa_id": "Q4_b0c1d015",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b0c1d017",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide the specific event or details about Nadia's change in position, failing to address the core facts required."
+    },
+    {
+      "qa_id": "Q7_b0c1d018",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about the nature of their interactions and misrepresents their roles, failing to accurately reflect the asymmetric collaboration described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b0c1d019",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states the session in which Tom\u00e1s began questioning his tracker, attributing it to session 3 instead of the correct session 5."
+    },
+    {
+      "qa_id": "Q8_b0c1d020",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Harriet's shift or the language she used, leading to a critical error in attribution and factual correctness."
+    },
+    {
+      "qa_id": "Q8_b0c1d022",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ruth's reasoning for her shift and lacks specific details from Session 6 that demonstrate her understanding of the change."
+    },
+    {
+      "qa_id": "Q5_b0c1d024",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Dev's experience or Nadia's understanding, missing key elements and failing to attribute the correct insights."
+    },
+    {
+      "qa_id": "Q7_b0c1d025",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of how the Stargazers Collective came into existence, particularly the meeting in Nadia's back garden and the specific actions and items involved, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q4_b0c1d026",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b0c1d027",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Cecilia's change in attitude to 'specific data illustrating the effectiveness of narrowband imaging' rather than Jerome's specific tutorial on the blending technique, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d028",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about who named the dynamic or what was said, which is a complete failure to address the question."
+    },
+    {
+      "qa_id": "Q8_b0c1d029",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about Tom\u00e1s's acknowledgment of the equipment shift and does not accurately attribute the decisive elements of his first-light results."
+    },
+    {
+      "qa_id": "Q7_b0c1d030",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any specific factual details about how Nadia and Ruth met or what Ruth's response was, leading to a complete lack of factual correctness."
+    },
+    {
+      "qa_id": "Q7_b0c1d023",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the collaborative nature of the relationship but lacks specific details about Ruth's book-recommending identity and its implications, missing key elements from the gold answer."
+    }
+  ]
+}

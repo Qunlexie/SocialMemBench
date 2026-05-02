@@ -1,0 +1,97 @@
+{
+  "network_id": "grp_1a2b3c4d",
+  "condition": "attributed_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T21:29:21.866650+00:00",
+  "sessions_used": 5,
+  "total_pairs": 12,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.317,
+  "mean_context_words": 141.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.65
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c3d4",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Maya's dislike for cilantro but fails to mention that it is a strong aversion and does not accurately capture the context of her vetoing the restaurant."
+    },
+    {
+      "qa_id": "Q1_b2c3d4e5",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sam's preference for chicken but fails to mention the aversion to mushrooms and the avoidance behavior, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_c3d4e5f6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that it is unclear if Lena has dietary restrictions, contradicting the gold answer which confirms she does manage a dietary restriction."
+    },
+    {
+      "qa_id": "Q2_e1f2a3b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_f2a3b4c5",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6a7b8c9",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the nature of the relationship and does not accurately reflect the negative experience related to the Mt. Tam incident."
+    },
+    {
+      "qa_id": "Q8_b8c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the delegation of tasks to Sam instead of Lena, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the context of Priya's question about Maya's drinking preferences, failing to recognize that it indicates a prior change in Maya's relationship with alcohol."
+    },
+    {
+      "qa_id": "Q8_d0e1f2a3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sam's willingness to participate in outdoor activities to Session 3, while the gold answer correctly identifies a change in Session 4 due to an injury."
+    }
+  ]
+}

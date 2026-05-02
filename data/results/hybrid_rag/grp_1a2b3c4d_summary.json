@@ -1,0 +1,97 @@
+{
+  "network_id": "grp_1a2b3c4d",
+  "condition": "hybrid_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T21:48:11.984826+00:00",
+  "sessions_used": 5,
+  "total_pairs": 12,
+  "new_pairs_this_run": 12,
+  "mean_score": 0.375,
+  "mean_context_words": 111.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.6
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.467
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c3d4",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Maya's aversion to cilantro but fails to mention that it is a dealbreaker for her when choosing restaurants, and it includes an irrelevant detail about her beverage preference."
+    },
+    {
+      "qa_id": "Q1_b2c3d4e5",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Sam's preference for chicken but fails to mention the aversion to mushrooms, which is a key element of the gold answer."
+    },
+    {
+      "qa_id": "Q2_e1f2a3b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the revelation of Jordan's attitude to Jordan themselves instead of Maya, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_f2a3b4c5",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6a7b8c9",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the nature of the relationship, suggesting concern rather than acknowledging the negative experience from the hiking trip."
+    },
+    {
+      "qa_id": "Q7_a7b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific actions and statements to Priya and Lena as described in the gold answer, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b8c9d0e1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a shift in Jordan's role but misattributes the quote about bookings to Maya in Session 3 instead of correctly explaining Jordan's complete disengagement."
+    },
+    {
+      "qa_id": "Q8_c9d0e1f2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies a shift in Maya's relationship with alcohol but lacks specific details about the conversations and the context of Priya's knowledge, leading to ambiguity."
+    }
+  ]
+}

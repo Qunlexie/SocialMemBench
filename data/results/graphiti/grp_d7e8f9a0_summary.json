@@ -1,0 +1,137 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:39:47.768177+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.279,
+  "mean_context_words": 150.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d7e8f9a001",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the core idea of prioritizing form over surface treatment, but it lacks specific details about Reuben's disciplined approach and his reasoning behind it."
+    },
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's actions and preferences, focusing on a send-off tea and autumn sessions instead of her proactive approach to inviting new members to maintain group energy."
+    },
+    {
+      "qa_id": "Q2_d7e8f9a001",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Reuben's understanding by stating he 'explicitly agrees with Nadia,' which contradicts the gold answer's emphasis on his prior knowledge."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Reuben's understanding of Callum's preference but fails to specify the functional ceramics priority and lacks detail on how Reuben expands on Callum's reasoning."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's focus on glazes instead of the correct emphasis on the form and wheel time, leading to a critical error in understanding his model of Simone's development."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Nadia originally held the studio booking role, which contradicts the gold answer that identifies Reuben as the original booker."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific incident that confirms Nadia and Simone's relationship outside the group sessions, and it fails to mention the private communication regarding the teal bowl."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the relationship dynamics to Yuki instead of focusing on Reuben and Callum, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Nadia's shift to her planning a series of vessels rather than the workshop experience, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift from neutral to bold glazes and mentions Instagram feedback, but it fails to accurately attribute the decisive quote and reasoning to Simone, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Callum's preference and does not mention his preference for daytime studio sessions."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide specific details about the project, such as the material, the purpose of the plates, and the context of their use, which are critical to the question."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Callum's clay body preference or his reasoning, which is required to score."
+    }
+  ]
+}

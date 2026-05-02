@@ -1,0 +1,181 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:02:37.938721+00:00",
+  "sessions_used": 10,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.207,
+  "mean_context_words": 68.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.133
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e8f9a0b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Marcus's behavior or priorities, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q4_e8f9a0b102",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Sana's attendance pattern or Jade's message, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dev's specific observations and lacks the necessary details to accurately reflect his understanding of Sana's social style."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_e8f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about the shared history between Marcus and Jade, failing to mention their collaboration on the school newspaper and magazine, which is crucial for understanding their dynamic."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Lena's investment shift, resulting in a complete failure to address the question."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Rachel's criterion for venue selection, incorrectly stating it is based on social dynamics and group preferences rather than her focus on wine."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the general idea of Temi valuing quality interaction but lacks specific details about her approach and the importance of the format, leading to ambiguity."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Jade's reflection on the group chat, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b105",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the general idea of Sana preferring quality over quantity in social events, but it lacks specific details from her reflection and does not accurately convey her explicit preference for fewer events she can fully attend."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Callum's specific behavior or the context of his departures, failing to address the factual details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Temi's shift to the correct factors and lacks specific examples from earlier sessions, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q4_e8f9a0b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Dev's attendance to personal interests or commitments rather than his relocation from London, which is the key trigger identified in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify Jade's specific reasons for her lighter presence and does not mention the explicit trigger of taking on an extra class, leading to a complete lack of factual correctness."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Omar consistently played a central role in event planning earlier, which contradicts the gold answer's description of his minimal and reactive participation."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify Callum's specific resistance and the triggering event, instead providing vague and incorrect attributions."
+    }
+  ]
+}

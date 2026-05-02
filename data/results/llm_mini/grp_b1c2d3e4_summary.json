@@ -2,11 +2,11 @@
   "network_id": "grp_b1c2d3e4",
   "condition": "llm_mini",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-18T14:59:17.621962+00:00",
+  "evaluated_at": "2026-04-28T03:41:46.423733+00:00",
   "sessions_used": 12,
-  "total_pairs": 21,
-  "new_pairs_this_run": 21,
-  "mean_score": 0.567,
+  "total_pairs": 32,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.434,
   "mean_context_words": 6781.0,
   "by_query_type": {
     "Q1": {
@@ -14,11 +14,11 @@
       "mean_score": 0.8
     },
     "Q2": {
-      "count": 1,
-      "mean_score": 0.3
+      "count": 2,
+      "mean_score": 0.65
     },
     "Q4": {
-      "count": 2,
+      "count": 3,
       "mean_score": 1.0
     },
     "Q5": {
@@ -30,12 +30,12 @@
       "mean_score": 1.0
     },
     "Q7": {
-      "count": 4,
-      "mean_score": 0.075
+      "count": 7,
+      "mean_score": 0.043
     },
     "Q8": {
-      "count": 6,
-      "mean_score": 0.667
+      "count": 12,
+      "mean_score": 0.333
     }
   },
   "low_scoring": [
@@ -94,10 +94,76 @@
       "rationale": "The answer correctly identifies a decrease in training volume and the reason for the change, but it inaccurately attributes the injury to a hamstring flare instead of a speed session flare."
     },
     {
+      "qa_id": "Q7_b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the context of Yuki's invitation and does not accurately reflect the nature of their relationship as described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Owen's earlier messages and does not correctly identify the specific observable actions that indicate a change in his usual pattern."
+    },
+    {
+      "qa_id": "Q8_b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Joel's realization of his capability to the trail run instead of the specific trigger of completing the 12.7km reservoir extension run."
+    },
+    {
+      "qa_id": "Q8_b1c2d309",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the cause of Yuki's shift in relationship to formal race participation, failing to correctly identify the gradual confidence built through specific club runs as the trigger."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sonia's shift from road running to trail running and mentions the Parkfield sessions, but it misattributes her statement about enjoyment, which is not the same as the gold answer's emphasis on a genuine shift in preference."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e405",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Priya's initial skepticism and her positive experience during the trail run, but it inaccurately attributes the enabling factor solely to her experience without mentioning Fatima's support, which is a key element in the gold answer."
+    },
+    {
       "qa_id": "Q8_b1c2d3e406",
       "query_type": "Q8",
       "score": 0.3,
-      "rationale": "The generated answer correctly states Chloe's decision to sit out the Riverside 10K and mentions Fatima's assessment, but it misattributes the earlier attitude as being more willing to push through discomfort rather than being dismissive of injury concerns."
+      "rationale": "The generated answer correctly states that Chloe is sitting out the Riverside 10K and attributes the change to Fatima's assessment, but it inaccurately describes her earlier attitude as 'more willing to push through injuries' instead of her dismissive attitude."
+    },
+    {
+      "qa_id": "Q7_b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the quote and does not accurately reflect Marcus's message about his relationship with Greg."
+    },
+    {
+      "qa_id": "Q7_b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lionel's response and presents an incorrect interpretation of his tone and relationship with Tasha."
+    },
+    {
+      "qa_id": "Q8_b1c2d304",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Derek's reason for switching to gels and mentions the previous norm of real food, but it lacks specific attribution to Ahmed's statement in Session 2 that established the group's norm."
+    },
+    {
+      "qa_id": "Q8_b1c2d305",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the escalation from verbal suggestions to active involvement but misattributes the specific actions and lacks detail on the trigger."
+    },
+    {
+      "qa_id": "Q8_b1c2d308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the earlier state or the specific trigger for Bernard's change in approach, leading to a critical error in attribution."
     }
   ]
 }

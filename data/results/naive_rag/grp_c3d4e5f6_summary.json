@@ -1,0 +1,115 @@
+{
+  "network_id": "grp_c3d4e5f6",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:37:58.881095+00:00",
+  "sessions_used": 8,
+  "total_pairs": 13,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.254,
+  "mean_context_words": 199.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.275
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.3
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.3
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c3d4e5f601",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Dan's skepticism but misattributes his acceptance and willingness to go along with the group's decisions, which is not fully aligned with the gold answer's emphasis on his deflecting remarks."
+    },
+    {
+      "qa_id": "Q1_c3d4e5f602",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Priya's focus on practical matters but fails to address her lack of response to off-topic content, which is crucial for understanding her engagement pattern."
+    },
+    {
+      "qa_id": "Q1_c3d4e5f603",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Amir's preference for gatherings at his cafe, but it inaccurately attributes the excitement about the BBQ and dessert suggestion to the wrong session, which affects the overall accuracy."
+    },
+    {
+      "qa_id": "Q1_c3d4e5f604",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Ruth has a high comfort level, contradicting the gold answer which indicates she struggles to track conversation threads."
+    },
+    {
+      "qa_id": "Q2_c3d4e5f601",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_c3d4e5f602",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_c3d4e5f601",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c3d4e5f601",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Carmen's knowledge of Sandra's schedule to her response in Session 5, which does not align with the gold answer's specific evidence of Carmen's prior knowledge."
+    },
+    {
+      "qa_id": "Q7_c3d4e5f601",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies that Carmen had a previous experience with Marcus as the superintendent at her old place on Elm Street, but it misattributes the specific quote and does not mention the confirmation from Marcus, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_c3d4e5f602",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the quote to Priya and includes incorrect details about the context of their relationship."
+    },
+    {
+      "qa_id": "Q8_c3d4e5f601",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dan's initial skepticism and his later acceptance of the chat, but it misattributes the positive response to Amir instead of Dan, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_c3d4e5f602",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the session where Yuki's engagement changes but incorrectly uses 'they' instead of 'she', which is a critical attribution error."
+    }
+  ]
+}

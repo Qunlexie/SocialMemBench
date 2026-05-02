@@ -1,0 +1,181 @@
+{
+  "network_id": "grp_d2e3f4a5",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:01:59.850023+00:00",
+  "sessions_used": 8,
+  "total_pairs": 26,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.162,
+  "mean_context_words": 71.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.05
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.086
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1f9b2e3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nkechi's explicit instruction to prefer text over voice messages and lacks specific details about her responses."
+    },
+    {
+      "qa_id": "Q1_4a9c7e2f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Aunty Oby's stance as negative or dismissive, contradicting the gold answer which indicates a conditional acceptance of Funmi."
+    },
+    {
+      "qa_id": "Q1_4b7d9e3f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Adaeze's feelings as discomfort and reluctance, rather than the correct interpretation of quiet exhaustion, and fails to mention specific textual cues from the sessions."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e4",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nkechi's approach to planning Christmas food, misrepresenting her authoritative decision-making as careful management and collaboration, which contradicts the gold answer's emphasis on her fixed menu and lack of negotiation."
+    },
+    {
+      "qa_id": "Q1_c2d3e4f5",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Kingsley's role as 'the provider' instead of specifically stating he takes charge of the meat, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ifeoma's approach as open and assertive, while the gold answer emphasizes her matter-of-fact communication style and desire not to be a burden."
+    },
+    {
+      "qa_id": "Q4_2a5f8c1d",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_6c0e5a8d",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer captures Adaeze's reluctance but does not accurately attribute Aunty Oby's specific prior knowledge or the key observable signal from the conversation."
+    },
+    {
+      "qa_id": "Q5_7e1a3c6b",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific details from Emeka's message or Chisom's response, leading to a critical error in understanding their emotional states."
+    },
+    {
+      "qa_id": "Q6_d3e4f5a6",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_2f7a4c9e",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the pattern of disappointment and distrust but does not attribute specific statements or reactions to Nkechi or the group, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q7_5e8b0d3a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific evidence or correctly attribute the details of Aunty Oby's message, failing to mention the critical reference to 'Our mother' and the specific memory of their mother's ankle trouble."
+    },
+    {
+      "qa_id": "Q7_8d2e6f1b",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific evidence or quotes from the sessions that demonstrate the private channel or the nature of Emeka and Adaeze's working relationship."
+    },
+    {
+      "qa_id": "Q7_1c4e9a2d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details from Sessions 3 and 5, nor does it accurately reflect the nature of Tobenna's relationship with Chisom as described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_5d3a7b1e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Emeka's disclosure or the group's reactions, leading to a misattribution of the nature of their relationship."
+    },
+    {
+      "qa_id": "Q7_0e6c2f8a",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Aunty Oby's role as one of authority and responsibility, but it lacks specific attribution to her protective relationship with Adaeze and does not mention the key details from the sessions."
+    },
+    {
+      "qa_id": "Q7_a8b9c0d1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nkechi's sharing to a discussion about gender biases instead of Chisom's self-doubt, and it fails to mention her specific career choice and the context of her ambivalence."
+    },
+    {
+      "qa_id": "Q8_9d2b4f7e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Emeka's reconsideration to a discussion about emotional impact rather than his daughter's question, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details from either session, fails to identify the shift signal or the trigger, and lacks correct attribution of the core facts."
+    },
+    {
+      "qa_id": "Q8_d4e5f6a7",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately capture the specific details of Adaeze's earlier deflections and the shift in her approach, leading to a critical misattribution of her motivations and the context of her change."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the trigger for Ifeoma's shift to Aunty Oby's public call-out, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f7a2b3c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Chisom's insights about her career plan and does not accurately reflect her specific words or the context of her experiences in the psychiatry rotation."
+    },
+    {
+      "qa_id": "Q8_c3d4e5f6",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Kingsley's behavior to his new job responsibilities and awareness of family dynamics, which does not match the gold answer's explanation of accountability triggered by Adaeze's direct address."
+    }
+  ]
+}

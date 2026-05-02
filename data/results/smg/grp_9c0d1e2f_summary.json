@@ -2,12 +2,12 @@
   "network_id": "grp_9c0d1e2f",
   "condition": "smg",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:33:11.134077+00:00",
+  "evaluated_at": "2026-04-28T03:30:18.183244+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 6,
+  "new_pairs_this_run": 0,
   "mean_score": 0.167,
-  "mean_context_words": 441.5,
+  "mean_context_words": 438.2,
   "by_query_type": {
     "Q3": {
       "count": 1,
@@ -44,12 +44,6 @@
       "rationale": "The generated answer misidentifies the core tension Raj was describing; the gold answer focuses on the commercial pressure and the dilemma of submitting old work versus creating new, while the generated answer focuses on Raj's feeling of disconnection from the existing work. Since Part 1 is incorrect, Part 2's explanation of Luca's prior knowledge, though identifying a correct mechanism (unprompted advice), is tied to the wrong specific tension."
     },
     {
-      "qa_id": "Q8_ph9s3c1",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer misidentifies the timing of the signal of erosion, using a quote from Session 5 instead of earlier sessions, and identifies a different quote and interpretation for the 'turning point' in Session 3 compared to the gold answer."
-    },
-    {
       "qa_id": "Q8_ph9s4c1",
       "query_type": "Q8",
       "score": 0.0,
@@ -60,6 +54,12 @@
       "query_type": "Q7",
       "score": 0.0,
       "rationale": "The generated answer completely misses the core revelation of the conversation, which is the significant shift in the relationship dynamic from mentor-mentee to peer. It only describes a static 'supportive' aspect, failing to capture the evolution and explicit acknowledgment of this change by Anika."
+    },
+    {
+      "qa_id": "Q8_ph9s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the sentiment about feeling disconnected from the Karachi selects to Session 2, while the gold answer correctly identifies the progression of Raj's thoughts across multiple sessions."
     }
   ]
 }

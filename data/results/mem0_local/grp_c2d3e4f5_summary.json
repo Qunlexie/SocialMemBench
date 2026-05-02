@@ -1,0 +1,181 @@
+{
+  "network_id": "grp_c2d3e4f5",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:37:48.761216+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.2,
+  "mean_context_words": 120.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.05
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_cf13s1c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information, which does not address the question and fails to provide any relevant details."
+    },
+    {
+      "qa_id": "Q1_cf13s2c1",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Marcus's communication style by stating he will be out of town without quoting his actual responses, which are brief and lack elaboration."
+    },
+    {
+      "qa_id": "Q1_cf13s5c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Rory's behavior or explanation, which is essential to address the question."
+    },
+    {
+      "qa_id": "Q1_cf13s7c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dan's priorities, focusing on existing commitments rather than his concern for group size, which is the key aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q4_cf13s1c2",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_cf13s3c4",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Kezia's choice to abstain from alcohol but lacks the specific detail about Jess's use of the word 'solidarity' and the implications of that choice, which are crucial for understanding Jess's prior knowledge."
+    },
+    {
+      "qa_id": "Q5_cf13s6c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Zoe's deflection strategy and incorrectly interprets Jess's message, failing to capture the specific pattern of Zoe's responses and the significance of Jess's observation."
+    },
+    {
+      "qa_id": "Q6_cf13s8c2",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_cf13s8c4",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_cf13s1c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the specific exchange between Tom and Rory or the details of their connection, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q7_cf13s4c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute specific details from the exchange, such as Jess's direct response and Rory's use of 'ancient history,' which are crucial for understanding their shared history."
+    },
+    {
+      "qa_id": "Q7_cf13s6c1",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Marcus helped Tom move without being asked, but it fails to capture the nuance of their relationship dynamics and the specific details that reveal the basis of their connection."
+    },
+    {
+      "qa_id": "Q7_cf13s7c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information about the Portugal trip, which is incorrect as the gold answer provides specific details about the exchange."
+    },
+    {
+      "qa_id": "Q7_cf13s8c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_cf13s2c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the cause of Dan's shift to his 'minor adjustments' rather than identifying the specific trigger and fails to accurately describe the signals of genuine change."
+    },
+    {
+      "qa_id": "Q8_cf13c4c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to address the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_cf13c4c2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies Aisha's anxiety about hosting and the role of her new flat, but it lacks specific details about her previous role as an external event coordinator and does not mention her explicit framing of the session."
+    },
+    {
+      "qa_id": "Q1_cf13s3c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Zoe's communication style, suggesting she is open and honest, while the gold answer indicates she deflects personal questions with humor."
+    },
+    {
+      "qa_id": "Q8_cf13s6c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Zoe's use of hospital-related topics as a way to avoid thinking about her mum getting older, rather than acknowledging the specific deflection pattern and the trigger identified by Jess."
+    },
+    {
+      "qa_id": "Q8_cf13s6c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the initial engagement to opinions about Tom's spreadsheet rather than Marcus's consistent declines and closed responses, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_cf13s7c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Jess's change in approach to Aisha's hosting environment rather than Jess's own acknowledgment of her past hesitancy and her commitment to change."
+    },
+    {
+      "qa_id": "Q8_cf13c3c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the change in Kezia's drinking habits and fails to accurately identify the specific signals and context that indicate the shift."
+    },
+    {
+      "qa_id": "Q8_cf13c5c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "network_id": "grp_6f7a8b9c",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T22:10:50.044598+00:00",
+  "sessions_used": 5,
+  "total_pairs": 7,
+  "new_pairs_this_run": 7,
+  "mean_score": 0.586,
+  "mean_context_words": 179.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 1,
+      "mean_score": 0.7
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.55
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q8_cf6s2c2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer identifies Dev's commitment to his PhD as a reason for his reduced participation, but it inaccurately attributes the shift signal to a vague statement about Amsterdam instead of the specific acknowledgment of his absence and the timeline of responses."
+    },
+    {
+      "qa_id": "Q5_cf6s3c2",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dev's situation but attributes Kwame's statement incorrectly, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_cf6s5c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Kwame and Dev's relationship, failing to capture the protective and private aspects described in the gold answer."
+    }
+  ]
+}

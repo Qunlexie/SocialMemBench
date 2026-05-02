@@ -1,0 +1,179 @@
+{
+  "network_id": "grp_f4a5b6c7",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:11:01.939190+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 24,
+  "mean_score": 0.125,
+  "mean_context_words": 58.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 8,
+      "mean_score": 0.087
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q9": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f4a5b6c7",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the general idea of collaboration but lacks specific details about Sandra's actions and expectations, missing key elements from the gold answer."
+    },
+    {
+      "qa_id": "Q1_a8b9c0d1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Sandra's belief about home-cooked food being the appropriate standard for neighborhood gatherings, missing the key aspect of her attitude."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Yuki's specific food choices or her realization about the gap between her contributions and the group's needs, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Marcus's typical behavior or the specific details of his candid response, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Yuki's specific feelings about her attachment to Maple Street and lacks key details from the gold answer, such as her realization of missing Marcus and her acknowledgment of the need for in-person presence."
+    },
+    {
+      "qa_id": "Q1_e4f5a6b7",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures Sandra's preference for direct communication but misattributes her approach as a conversation rather than a friendly note, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_b7c8d9e0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Sandra's preference by stating she prefers hosting by community members rather than at her own home, which contradicts the gold answer."
+    },
+    {
+      "qa_id": "Q1_d9e0f1a2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dev's emotional connection to the street, suggesting a strong attachment when the gold answer indicates a lack of emotional framing and low embeddedness."
+    },
+    {
+      "qa_id": "Q4_d4e5f6a7",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b9c0d1e2",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c0d1e2f3",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Marcus's preference as vegetarian food instead of a proper sit-down meal, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_d7e8f9a0",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b2c3d4e5",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of the relationship, attributing mentorship and guidance incorrectly, while the gold answer accurately describes practical help and reciprocal appreciation."
+    },
+    {
+      "qa_id": "Q7_c3d4e5f6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific prior interaction regarding the VPN setup, misrepresenting the nature of their relationship."
+    },
+    {
+      "qa_id": "Q7_f3a4b5c6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific reactions or details from the conversation, failing to mention Claire's immediate engagement and follow-up questions, which are critical to understanding her relationship with Marcus."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f9",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures a general sense of a positive relationship but fails to accurately attribute the mentorship role to Sandra and lacks specific details about their interaction."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e4",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Yuki described a farewell gift, which is a critical error as the gold answer specifies an act of helping with her bike."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d7",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Sandra's communication style or the events that triggered the shift, leading to a fundamentally incorrect attribution of her behavior."
+    },
+    {
+      "qa_id": "Q8_f9a0b1c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details about the sessions or the quotes from Marcus, leading to a lack of factual correctness and missing key elements of the gold answer."
+    },
+    {
+      "qa_id": "Q8_c2d3e4f5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Claire's shift in approach or the driving factors, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q8_c8d9e0f1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's experiences and uses 'he' instead of 'she', leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q9_a0b1c2d3",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's emotional state as 'anxiety and uncertainty' instead of 'cautious readiness' and fails to accurately describe the earlier sessions, leading to a critical error in factual correctness."
+    }
+  ]
+}

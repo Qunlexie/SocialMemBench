@@ -2,12 +2,12 @@
   "network_id": "grp_9c0d1e2f",
   "condition": "mem0_local",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:24:56.828086+00:00",
+  "evaluated_at": "2026-04-28T03:31:05.331633+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 6,
+  "new_pairs_this_run": 1,
   "mean_score": 0.217,
-  "mean_context_words": 119.0,
+  "mean_context_words": 120.8,
   "by_query_type": {
     "Q3": {
       "count": 1,
@@ -44,16 +44,16 @@
       "rationale": "wrong letter"
     },
     {
-      "qa_id": "Q8_ph9s3c1",
-      "query_type": "Q8",
-      "score": 0.3,
-      "rationale": "The generated answer correctly identifies a signal of erosion but incorrectly states that Session 3 reveals the new contract is 'set to start next month' as the turning point; the contract was already in effect and causing issues by Session 2, and Session 3 was an acknowledgment of its ongoing impact, not its start."
-    },
-    {
       "qa_id": "Q8_ph9s4c1",
       "query_type": "Q8",
       "score": 0.0,
       "rationale": "The generated answer incorrectly identifies the submission of the sixth print as the driver and first visible sign of Diane's shift to independence. In the gold answer, the sixth print submission was an act of deference to Anika, not independence. The actual shift to independence was driven by Diane's independent Barbican submission."
+    },
+    {
+      "qa_id": "Q8_ph9s3c1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the erosion of Raj's ability to make personal work but misattributes the turning point and lacks specific details from the sessions."
     }
   ]
 }

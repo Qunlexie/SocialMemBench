@@ -1,0 +1,123 @@
+{
+  "network_id": "grp_f2e3d4c5",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:40:29.519947+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.294,
+  "mean_context_words": 302.6,
+  "by_query_type": {
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.35
+    },
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.22
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.26
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q7_f2e3d401",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the idea of a social connection between the children but lacks specific details about the nature of the relationship and the implications of their interaction."
+    },
+    {
+      "qa_id": "Q1_f2e3d402",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the proactive nature of Mike's handling of childcare logistics but lacks the specific detail about his casual and self-sufficient reassurance, which is key to understanding his typical approach."
+    },
+    {
+      "qa_id": "Q4_f2e3d403",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_f2e3d406",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q1_f2e3d407",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Priya's inquiry as being for someone else, which is a critical error, while it correctly identifies Sharon's response about vegan options."
+    },
+    {
+      "qa_id": "Q8_f2e3d408",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f2e3d409",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f2e3d410",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies that Sharon posts in the evening, but it inaccurately states the time of her Session 6 post and lacks specific details about her late-night habit."
+    },
+    {
+      "qa_id": "Q1_f2e3d413",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mike is somewhat comfortable asking for favours, while the gold answer indicates he finds it genuinely uncomfortable, which is a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_f2e3d418",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sharon's realization about the mismatch between ambition and volunteer capacity but misattributes the specific phrasing and details of her earlier approach, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_f2e3d416",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Mike's behavior and does not accurately reflect the specific messaging times or the contrast with Sharon's acknowledgment of the group's norms."
+    },
+    {
+      "qa_id": "Q8_f2e3d414",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the supportive tone to a general collaborative atmosphere rather than accurately identifying the specific shift in Anita's communication style and the lack of explicit cause for the change."
+    },
+    {
+      "qa_id": "Q8_f2e3d415",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the sessions and misattributes Mike's statements, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q7_f2e3d417",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a history of mutual support but fails to accurately attribute specific details and lacks the depth of the documented instances mentioned in the gold answer."
+    }
+  ]
+}

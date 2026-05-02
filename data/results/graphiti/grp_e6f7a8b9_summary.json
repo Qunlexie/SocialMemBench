@@ -1,0 +1,127 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:13:16.605302+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.237,
+  "mean_context_words": 133.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.117
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer identifies Tom's preference for varied terrain and challenges but lacks specific examples of his behavior and does not accurately attribute his suggestions to the correct context."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and indicates a lack of information, which does not address the question and fails to provide any relevant details about Yuki's responses."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute Tom's specific preference for pubs and instead suggests ambiguity, which contradicts the gold answer's clear indication of his preference."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Rafe's habitual approach is unclear, which contradicts the gold answer's clear description of his habit."
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the collaborative aspect of Nadia and Tom's history but fails to accurately attribute the initiative to Nadia and does not mention Tom's specific role, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_e6f7a8b9",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the positive relationship but lacks specific details about the conversation and the context of their shared experience."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's remark to him being acknowledged as a designer, which misrepresents the core fact about Nadia's role in recruiting members."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Cass's change in desire to run more frequently to her conversation with Rafe, rather than her retrospective realization about her previous preference."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the slip to 'he' instead of 'she' (Yuki is female) and misrepresents the context and details of the shift in Yuki's footwear approach."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the sign-up for the Harrogate Half Marathon as a trigger for Nadia's shift in thinking, but it fails to accurately reflect her previous training distances and does not provide a specific observable action that shows her earlier approach."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the acknowledgment of the need for electrolytes to Rafe's communication with Tom, rather than Nadia's identification of the issue."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bf",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the trigger as a coaching podcast, but it lacks specific details about Tom's previous approach and how it differed in Session 6."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Leo's decision to Tom's encouragement, while the gold answer correctly identifies Nadia's repeated advice and Leo's own admission about his prior behavior."
+    }
+  ]
+}

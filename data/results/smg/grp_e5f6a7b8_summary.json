@@ -1,0 +1,127 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:42:42.296229+00:00",
+  "sessions_used": 10,
+  "total_pairs": 17,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.253,
+  "mean_context_words": 463.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e5f6a7b801",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sam's preferences to lamb and kitchen quality, while the gold answer correctly identifies his aversion to cilantro."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b802",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nina's preference by stating she prefers practical support instead of acknowledging her explicit desire for acknowledgment and presence, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b803",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Jake's preference for smaller gatherings but inaccurately attributes a suggestion to session 10, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b804",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer attributes specific statements to the wrong sessions and misrepresents Priya's behavior regarding advance notice, leading to incorrect details."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b805",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Will's direct quote and incorrectly states his flexibility regarding the cottage, which contradicts the gold answer's emphasis on his consistent push for camping."
+    },
+    {
+      "qa_id": "Q2_e5f6a7b801",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b801",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nina's difficult situation and lacks specific details about Lily's behavior that demonstrate prior knowledge."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b802",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the timing of Priya's notice requirement to session 2 instead of her medical residency schedule, and it misidentifies Tom's behavior in session 4 instead of session 1."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b803",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Alex's struggle as a concern about the cost of the cottage instead of the dissertation setback, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_e5f6a7b801",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e5f6a7b802",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the quote to Sam and does not accurately reflect the specific details of their shared experience, which affects the overall correctness."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b801",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the driving factor for Alex's engagement shift to Nina instead of Maya, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b802",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Raj's old preference to focusing on challenges, while the gold answer correctly identifies his high-energy focus on milestones; it also misidentifies the trigger for the shift."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b801",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Maya's relationship with Jake, failing to address the question."
+    }
+  ]
+}

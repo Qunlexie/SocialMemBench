@@ -1,0 +1,111 @@
+{
+  "network_id": "grp_a3b4c5d6",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:35:15.697986+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.439,
+  "mean_context_words": 275.8,
+  "by_query_type": {
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.3
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.3
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.65
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a3b4c603",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Otto's preference for the chat to focus on members' own work but misattributes the idea of reference material belonging in session discussion, which is not stated in the gold answer."
+    },
+    {
+      "qa_id": "Q2_a3b4c606",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_a3b4c607",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Callum's preference for the collective darkroom but lacks specific details about his earlier habit and the trigger for the shift."
+    },
+    {
+      "qa_id": "Q7_a3b4c608",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Fen's response and does not capture the conditional nature of her commitment, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a3b4c611",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the critique as a factor in Sol's change but fails to accurately describe the early state and the specific shift signal, leading to a wrong attribution of the details."
+    },
+    {
+      "qa_id": "Q8_a3b4c613",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Yuki's shift in understanding about colour photography but lacks specific details and direct quotations from the sessions that are crucial for a complete and accurate response."
+    },
+    {
+      "qa_id": "Q7_a3b4c601",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies that Bex joined through an open workshop, but it lacks details about the context and evaluation of Bex's entry, which are key elements of the gold answer."
+    },
+    {
+      "qa_id": "Q1_a3b4c604",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Nora's specific message about full fix times or the importance of archival stability, leading to a misunderstanding of her emphasis on process precision."
+    },
+    {
+      "qa_id": "Q5_a3b4c610",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's preference for full-size prints but fails to mention the specific phrase 'as usual' and the proactive nature of Nora's actions, which are critical for full attribution."
+    },
+    {
+      "qa_id": "Q7_a3b4c614",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the supportive and mentoring nature of the relationship but lacks specific details about the Canonet, the number of keepers, and the predictive aspect of Nora's statement."
+    },
+    {
+      "qa_id": "Q8_a3b4c615",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the shift to Session 5 instead of correctly identifying it as occurring in Session 4, leading to a critical error in the assessment."
+    },
+    {
+      "qa_id": "Q7_a3b4c618",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures some aspects of their collaboration but misattributes the necessity of Callum's involvement and lacks specific details from Fen's message."
+    }
+  ]
+}

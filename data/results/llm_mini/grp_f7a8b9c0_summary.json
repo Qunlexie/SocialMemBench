@@ -1,0 +1,109 @@
+{
+  "network_id": "grp_f7a8b9c0",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:19:50.487776+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.447,
+  "mean_context_words": 3998.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.467
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.4
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.383
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f7a8b001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the context of Callum's feelings and behaviors, particularly regarding his relationship with family and the implications of his statements."
+    },
+    {
+      "qa_id": "Q1_f7a8b003",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer identifies a shift in Callum's behavior but lacks specific details about the opening message and does not mention the significance of the proactive reach-out for support."
+    },
+    {
+      "qa_id": "Q5_f7a8b002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer misattributes Rachel's attitude as positive toward family gatherings, while the gold answer correctly identifies a shift from obligation to desire, leading to a critical error in understanding."
+    },
+    {
+      "qa_id": "Q7_f7a8b001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the quote about helping with the kitchen to Sophie, while it is not directly supported by the chat context, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_f7a8b002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the relationship as between Derek and his son, while the gold answer correctly identifies the relationship as between Derek and Callum."
+    },
+    {
+      "qa_id": "Q7_f7a8b003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific arrangement between Rachel and Sophie regarding sharing personal news, nor does it mention the direct quote from Rachel that establishes this relationship."
+    },
+    {
+      "qa_id": "Q7_f7a8b004",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jamie's reaction as indicating a close, affectionate relationship, while the gold answer emphasizes a history of distance and surprise, leading to a critical error in interpretation."
+    },
+    {
+      "qa_id": "Q8_f7a8b002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about having company making a difference to Pat instead of Margaret, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f7a8b003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the shift in Rachel's behavior and the driving force behind it, but it fails to accurately attribute the context of the shift and the specific details of her earlier behavior, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_f7a8b004",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the shift and the driving factor but fails to attribute the initial established attitude to Jamie, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f7a8b006",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the emotional response to Derek's acknowledgment, which is not mentioned in the gold answer, leading to a critical error in attribution."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "network_id": "grp_f4a5b6c7",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:11:18.944923+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.363,
+  "mean_context_words": 4218.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 8,
+      "mean_score": 0.438
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.26
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q9": {
+      "count": 1,
+      "mean_score": 0.4
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f4a5b6c7",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific actions or statements to Sandra, failing to mention her immediate email to the residents' association or her explicit refusal to speak for everyone, which are critical details in the gold answer."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Yuki's contributions and her reflection on the event, but it inaccurately states her intention to provide substantial food rather than acknowledging her preference for lighter options."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d3",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Marcus's typical demeanor and his change in response, but it lacks specific details about his previous minimal responses and does not clearly articulate the shift in his personal disclosure."
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Yuki's initial feelings and does not accurately reflect her genuine attachment and emotional evolution as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_b7c8d9e0",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sandra's preference for hosting at home but misattributes specific quotes and details, leading to a critical error."
+    },
+    {
+      "qa_id": "Q2_a6b7c8d9",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_d7e8f9a0",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b2c3d4e5",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the quote about gratitude to Sandra instead of correctly identifying Marcus as the one who offered help."
+    },
+    {
+      "qa_id": "Q7_c3d4e5f6",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies that Dev helped Yuki set up a VPN, but it fails to attribute the specific context of the conversation and misrepresents the nature of their relationship by suggesting a general supportive dynamic rather than a specific technical interaction."
+    },
+    {
+      "qa_id": "Q7_f3a4b5c6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Claire's knowledge of Marcus's situation to prior awareness rather than her immediate reaction, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e4",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the act of helping with the bike but fails to capture the depth of Yuki's reflection on their relationship and misattributes the nature of their bond."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d7",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Sandra's communication style by not correctly identifying the BBQ organized by Yuki as the specific trigger for the change."
+    },
+    {
+      "qa_id": "Q8_f9a0b1c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the session and turn where Marcus's willingness to talk changed, and it does not accurately reflect the trigger for his change in openness."
+    },
+    {
+      "qa_id": "Q8_c2d3e4f5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Claire's earlier skepticism and does not accurately reflect her initial casual suggestion, leading to a critical error in understanding her approach."
+    },
+    {
+      "qa_id": "Q8_c8d9e0f1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Yuki's relationship to the community and lacks specific details about the early and later states, as well as the trigger for the shift."
+    },
+    {
+      "qa_id": "Q9_a0b1c2d3",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Marcus's last known emotional state but inaccurately describes his earlier presentation, attributing calmness and acceptance to Session 5 instead of Sessions 1-3."
+    }
+  ]
+}

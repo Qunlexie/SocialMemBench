@@ -1,0 +1,169 @@
+{
+  "network_id": "grp_c2d3e4f5",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:37:18.847897+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.333,
+  "mean_context_words": 3583.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.34
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.287
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_cf13s1c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis related to Jess's relationship to group travel commitments or her expectations about the Edinburgh experience."
+    },
+    {
+      "qa_id": "Q1_cf13s2c1",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Marcus's reasons for absence, stating he cites work commitments instead of the correct minimal explanations given in the gold answer."
+    },
+    {
+      "qa_id": "Q1_cf13s5c2",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Rory's behavioral change but fails to mention the key detail of his deflection and the group's recognition of his evasion, which are crucial for understanding what he was actually dealing with."
+    },
+    {
+      "qa_id": "Q2_cf13s8c4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_cf13s3c4",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Kezia's relationship to alcohol or Jess's response, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q5_cf13s6c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or attempt to address the question."
+    },
+    {
+      "qa_id": "Q6_cf13s8c2",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_cf13s1c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding the exchange between Tom and Rory."
+    },
+    {
+      "qa_id": "Q7_cf13s4c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the shared history and discomfort but fails to attribute specific reactions and implications to the correct individuals, particularly missing the nuances of Jess's and Rory's responses."
+    },
+    {
+      "qa_id": "Q7_cf13s6c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the significance of Marcus's actions and fails to capture the specific details that reveal the nature of their connection, leading to a misunderstanding of their dynamic."
+    },
+    {
+      "qa_id": "Q7_cf13s7c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the group's response, failing to capture the specific dynamics and details outlined in the gold answer."
+    },
+    {
+      "qa_id": "Q7_cf13s8c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dan's acknowledgment of the phrase's effectiveness to him, rather than Aisha's specific comment and Jess's reinforcement, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_cf13s2c3",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Dan's shift and mentions his comments about adjustments, but it inaccurately attributes the cause to his experience during the quiz night instead of the trigger identified in the gold answer."
+    },
+    {
+      "qa_id": "Q8_cf13c4c1",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Tom's shift in expectations and Jess's comment, but it lacks the necessary detail about Tom's early state and the specific trigger for the shift."
+    },
+    {
+      "qa_id": "Q8_cf13c4c2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the shift toward hosting and mentions Aisha's previous anxiety, but it lacks specific details about her prior role and the explicit trigger for her change."
+    },
+    {
+      "qa_id": "Q1_cf13s3c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Zoe's specific responses or the humor and deflection pattern described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_cf13s6c3",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Zoe's shift in response and mentions Jess's inquiry as a trigger, but it lacks the specific early state details and the mechanism of being seen clearly by someone she trusts."
+    },
+    {
+      "qa_id": "Q8_cf13s6c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Marcus's engagement with the group, which is a critical requirement for the question."
+    },
+    {
+      "qa_id": "Q8_cf13s7c1",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Jess's quick commitment and her desire to change her indecisive behavior, but it lacks specific details about the earlier conversation and the 'Edinburgh effect' that are crucial for a complete answer."
+    },
+    {
+      "qa_id": "Q8_cf13c3c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the context of Kezia's change in drinking habits and fails to accurately reflect the specific signals and nuances described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_cf13c5c1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's shift to a mushroom burger and Zoe's reaction, but it fails to attribute the established pattern of ordering chicken to Zoe, which is a critical error."
+    }
+  ]
+}

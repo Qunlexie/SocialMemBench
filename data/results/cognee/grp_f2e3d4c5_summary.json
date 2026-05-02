@@ -1,0 +1,147 @@
+{
+  "network_id": "grp_f2e3d4c5",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:03:01.393534+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.022,
+  "mean_context_words": 58.3,
+  "by_query_type": {
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.1
+    },
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q7_f2e3d401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding the exchange between Priya and Mike, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_f2e3d402",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q4_f2e3d403",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f2e3d405",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the collaborative nature of their involvement but lacks specific details about the established pattern and historical context mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q2_f2e3d406",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q1_f2e3d407",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_f2e3d408",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f2e3d409",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f2e3d410",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_f2e3d411",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q4_f2e3d412",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q1_f2e3d413",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_f2e3d418",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Sharon's motivations and fails to accurately describe her earlier approach, which was focused on ambitious planning rather than unilateral decision-making."
+    },
+    {
+      "qa_id": "Q1_f2e3d416",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Mike's behavior and does not accurately reflect the timing or framing of his messages, leading to incorrect conclusions about his understanding of the group's norms."
+    },
+    {
+      "qa_id": "Q5_f2e3d404",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Priya's preference and does not accurately reflect Mike's prior knowledge of her preference."
+    },
+    {
+      "qa_id": "Q8_f2e3d414",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Anita's corrections and fails to provide specific examples or details from the conversation, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q8_f2e3d415",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately address the specific details of Mike's requests or the context of the shift, failing to mention the key elements of reciprocity and social credit."
+    },
+    {
+      "qa_id": "Q7_f2e3d417",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Priya's message regarding the documented instances of support and the acknowledgment of a reciprocal debt."
+    }
+  ]
+}

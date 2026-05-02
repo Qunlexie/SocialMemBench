@@ -2,10 +2,10 @@
   "network_id": "grp_6f7a8b9c",
   "condition": "cognee",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:48:39.677687+00:00",
+  "evaluated_at": "2026-04-28T04:56:51.676747+00:00",
   "sessions_used": 5,
   "total_pairs": 7,
-  "new_pairs_this_run": 7,
+  "new_pairs_this_run": 0,
   "mean_score": 0.143,
   "mean_context_words": 43.4,
   "by_query_type": {

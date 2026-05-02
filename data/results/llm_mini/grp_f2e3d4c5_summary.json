@@ -1,0 +1,117 @@
+{
+  "network_id": "grp_f2e3d4c5",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:40:28.919158+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.317,
+  "mean_context_words": 3601.0,
+  "by_query_type": {
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.525
+    },
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.4
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f2e3d402",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Mike's response, attributing uncertainty and reliance on others, while the gold answer emphasizes his self-sufficiency and independent management."
+    },
+    {
+      "qa_id": "Q4_f2e3d403",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f2e3d405",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the supportive nature of their relationship but lacks specific details about the established pattern of covering for each other and the historical context mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q2_f2e3d406",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q1_f2e3d407",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's concern about dietary restrictions but incorrectly attributes her inquiry to a friend rather than suggesting it reflects her own dietary habits."
+    },
+    {
+      "qa_id": "Q8_f2e3d408",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content to address the question."
+    },
+    {
+      "qa_id": "Q7_f2e3d409",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the collaborative nature of their relationship but does not accurately attribute the specific reference to the shared document, which is a critical detail."
+    },
+    {
+      "qa_id": "Q1_f2e3d410",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Sharon's posting pattern."
+    },
+    {
+      "qa_id": "Q1_f2e3d413",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mike is comfortable asking for favours, while the gold answer indicates he finds it uncomfortable and requires cushioning in his requests."
+    },
+    {
+      "qa_id": "Q1_f2e3d416",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mike is attuned to the group's norms, while the gold answer shows he disregards them by messaging late without acknowledgment."
+    },
+    {
+      "qa_id": "Q5_f2e3d404",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer attributes the correct preference to Priya but misattributes Mike's statement, which affects the score due to incorrect attribution."
+    },
+    {
+      "qa_id": "Q8_f2e3d414",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the later session to Session 5 instead of Session 6 and fails to accurately identify the specific shift in Anita's communication style."
+    },
+    {
+      "qa_id": "Q8_f2e3d415",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific early and later states of Mike's requests, nor does it mention the trigger or the evolved state, leading to a complete mismatch with the gold answer."
+    }
+  ]
+}

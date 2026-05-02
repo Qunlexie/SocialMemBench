@@ -1,0 +1,187 @@
+{
+  "network_id": "grp_dba9214c",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:38:59.131742+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.156,
+  "mean_context_words": 300.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.267
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 10,
+      "mean_score": 0.2
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_dba9214c01",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Seun's commitment to a plant-based diet but misattributes her defensiveness and struggle with dietary identity, which were key elements in the gold answer."
+    },
+    {
+      "qa_id": "Q1_dba9214c02",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q2_dba9214c01",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_dba9214c02",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_dba9214c01",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_dba9214c01",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_dba9214c02",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c03",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c04",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the phrase 'I love that you said that honestly' to Seun, which is not present in the gold answer, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_dba9214c05",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Funke's expression of appreciation and does not accurately reflect the specific details of the cooking session or the significance of the language used, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_dba9214c06",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute the private conversation and its implications, missing key details about Bisi's pushback and the nature of their relationship."
+    },
+    {
+      "qa_id": "Q8_dba9214c01",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c02",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Emeka's response but fails to mention the key signal from Tolu about the missed church, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q8_dba9214c04",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Funke's shift in attitude and mentions learning from Adaeze, but it misattributes the phrase 'changed my life' and lacks the specific detail about the private cooking session as the trigger."
+    },
+    {
+      "qa_id": "Q8_dba9214c05",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the shift in Uncle Dele's view but misattributes the phrasing to 'I must say this is genuinely impressive' instead of the correct 'I will admit I have not always understood the nature of your work but this recognition is clear,' which is a critical error."
+    },
+    {
+      "qa_id": "Q8_dba9214c06",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nkem's shift in confidence to Adaeze's affirmation in Session 5, while the gold answer identifies a private conversation with Seun as the trigger, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_dba9214c07",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shift signal in Session 7 but misattributes earlier signals and lacks specific details about the progression in the chat."
+    },
+    {
+      "qa_id": "Q8_dba9214c09",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the influence of the change to conversations with Seun without mentioning the explicit statement about giving advice she hasn't followed, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q4_db01s1c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_db04s4c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c02",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tolu's role and actions, focusing on different aspects of his behavior that do not align with the gold answer's description."
+    },
+    {
+      "qa_id": "Q8_dba9214c03",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Kayode's participation but misattributes Adaeze's message by stating she expresses hope for continued participation, which is not in the gold answer."
+    },
+    {
+      "qa_id": "Q8_dba9214c08",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific shift in Bisi's communication or the trigger for that shift, leading to a critical error in attribution and detail."
+    },
+    {
+      "qa_id": "Q8_dba9214c10",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Adaeze's relationship to Seun's dietary choices and mentions her experimentation with recipes, but it inaccurately attributes the driving force of the change to Seun's preferences rather than the health results, which is a critical error."
+    }
+  ]
+}

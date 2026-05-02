@@ -1,0 +1,199 @@
+{
+  "network_id": "grp_a5b6c7d8",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:35:44.610534+00:00",
+  "sessions_used": 12,
+  "total_pairs": 34,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.326,
+  "mean_context_words": 254.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 9,
+      "mean_score": 0.356
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.433
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.12
+    },
+    "Q8": {
+      "count": 11,
+      "mean_score": 0.182
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a5b6c7d8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's values and focuses on planning and communication rather than his specific preference for routes with clear endpoints, which is a critical aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's dissatisfaction with day hikes but misattributes her later suggestion about an overnight trip to Session 5 instead of linking it to her earlier comments."
+    },
+    {
+      "qa_id": "Q1_c5d6e7f8",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Dmitri's lack of enthusiasm but fails to accurately explain how 'Noted' functions as a deflection or its implications regarding his view on group debrief circles."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b8",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Saoirse's interest in technical routes but lacks specific details about her motivations and the context of her statements in both sessions."
+    },
+    {
+      "qa_id": "Q1_b6c7d8e9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's approach by emphasizing inclusivity and comfort without accurately reflecting his specific habit of using calibrated references to the group's capabilities."
+    },
+    {
+      "qa_id": "Q4_b5c6d7e8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a5b6c7d8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "Saoirse's attitude is misrepresented as flexible instead of non-negotiable, and the answer does not accurately reflect Elena's understanding of Saoirse's work schedule."
+    },
+    {
+      "qa_id": "Q5_c5d6e7f8",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's change in attitude towards steep descents but misattributes the specific details of Elena's comment, leading to a critical error."
+    },
+    {
+      "qa_id": "Q6_a5b6c7d8",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a5b6c7d8",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the incident involving the headtorch and teamwork but lacks specific attribution to Tomas and Elena's direct quotes, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b5c6d7e8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that there is no information about Bridget's history, contradicting the gold answer which provides specific details about her past with a rival hiking club."
+    },
+    {
+      "qa_id": "Q7_c5d6e7f8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the original dispute to a disagreement about bringing a second compass, while the gold answer specifies it was about route authority and navigation accuracy."
+    },
+    {
+      "qa_id": "Q7_d5e6f7a8",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a supportive dynamic between Dmitri and Kwame but fails to accurately attribute their relationship as instructor and student, which is a critical detail."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Tomas and Bridget have a positive relationship, while the gold answer describes a low-grade territorial tension between them."
+    },
+    {
+      "qa_id": "Q8_b5c6d7e8",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the old and new preferences but fails to attribute the specific trigger (Priya's injury) and lacks detail on the shift signal."
+    },
+    {
+      "qa_id": "Q8_c5d6e7f8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Nadia's behavior to an action involving Kwame in Session 8, while the gold answer correctly identifies the shift as occurring in Session 5 with a direct question to Saoirse."
+    },
+    {
+      "qa_id": "Q8_d5e6f7a8",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the 'Millstone argument' instead of the correct 'route dispute before Session 5,' leading to a critical error in detail."
+    },
+    {
+      "qa_id": "Q8_f5a6b7c8",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Priya's motivation for the reversal as a desire to build confidence rather than addressing her avoidance due to fear, and it lacks specific details about the solo descent that signaled the change."
+    },
+    {
+      "qa_id": "Q8_a6b7c8d9",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies Kwame's feeling of guilt and his commitment to change, but it lacks specific details about the prior state and the trigger event, making it ambiguous."
+    },
+    {
+      "qa_id": "Q8_b6c7d8e9",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Elena's frustration and intention to improve, but it misattributes her earlier statement about wanting to try again to Session 8 instead of correctly linking it to the context of her shift in Session 9."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Saoirse's change in behavior to a statement made in Session 5, while the gold answer identifies Session 9 as the first instance of her proactive involvement."
+    },
+    {
+      "qa_id": "Q8_d6e7f8a9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's shift to her previous suggestion of an overnight and a bothy, which is incorrect; the gold answer specifies that she opened the proposal unprompted in Session 10, indicating a clear shift in her advocacy."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Saoirse's comment about the north face and does not accurately reflect her perspective on cognitive engagement, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a5b6c7d8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Elena's shift in approach or the conversation context, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Bridget's tone to her acknowledgment of Marcus's point and her willingness to take on planning responsibilities, which are not the key factors identified in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e6f7a8b9",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Dmitri's shift and mentions his suggestion in Session 11, but it lacks details about the early state and the specific trigger for the change."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "network_id": "grp_b6c7d8e9",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:36:47.874942+00:00",
+  "sessions_used": 12,
+  "total_pairs": 42,
+  "new_pairs_this_run": 3,
+  "mean_score": 0.41,
+  "mean_context_words": 365.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 15,
+      "mean_score": 0.473
+    },
+    "Q2": {
+      "count": 5,
+      "mean_score": 0.6
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 6,
+      "mean_score": 0.567
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.078
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_55017d4f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or correct details about Marcus's listening round selections or his interests."
+    },
+    {
+      "qa_id": "Q1_ed304b2a",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's preference for solitary listening but misattributes his willingness to participate in group sessions, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q1_c2d91281",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Carmen's specific preference for focused, quiet listening environments as stated in the gold answer."
+    },
+    {
+      "qa_id": "Q1_2b0f9399",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Nadia's preference for home listening and her comment about shoegaze, but it inaccurately suggests a shift in her perspective without clearly connecting it to observable actions in the chat."
+    },
+    {
+      "qa_id": "Q1_b0a0ce68",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_fa5facec",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's preference against canonical records and her value for rarity, but it misattributes the instruction about drawing to her instead of the gift record swap context."
+    },
+    {
+      "qa_id": "Q1_eab2e915",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the two specifications but does not attribute the stereo requirement to Elliot's conversion in Session 4, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q1_77e1ae4d",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q2_ddb085fc",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b3a793d5",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_9e67f95e",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_6094ffc3",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_9ed93c1c",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_d0135ea1",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_6ce45d9b",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the nature of Priya and Marcus's relationship as described in the gold answer, focusing instead on Marcus's engagement without mentioning Priya's anticipatory behavior or their close friendship."
+    },
+    {
+      "qa_id": "Q7_f06d2aa6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_86d79c89",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the cause of Tom's shift to Raj's assertion, which is not mentioned in the gold answer; the correct trigger is the group consensus and Tom's own observations."
+    },
+    {
+      "qa_id": "Q8_f18788d5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_cbf238d6",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the moment of change in Priya's thinking but incorrectly attributes the driving factor to her owning the original record instead of Tom's side-by-side comparison."
+    },
+    {
+      "qa_id": "Q8_c679aebc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Carmen's previous view of Latin jazz and does not accurately reflect her admission of uncertainty, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_cc26c1ee",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's realization about sharing to a different statement and fails to accurately capture the specific details and context of her shift."
+    },
+    {
+      "qa_id": "Q8_14671ddb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the influence of Priya and incorrectly states the new preference without accurately reflecting Raj's acknowledgment of value beyond market data."
+    },
+    {
+      "qa_id": "Q8_b35ef985",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the prompt for Finn's realization to Tom instead of Marcus, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e579be7d",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the change and the reason for secrecy but lacks details about the early state, the specific trigger, and the evolved state."
+    },
+    {
+      "qa_id": "Q8_997793a0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the session where Marcus's behavior signaled a shift in focus and misattributes the reasoning behind the shift, failing to align with the gold answer."
+    }
+  ]
+}

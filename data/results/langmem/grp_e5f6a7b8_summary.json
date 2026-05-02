@@ -1,0 +1,133 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:50:50.158862+00:00",
+  "sessions_used": 10,
+  "total_pairs": 17,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.153,
+  "mean_context_words": 875.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.15
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e5f6a7b801",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Sam's preferences or approach to group meals, which is required to address the question."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b802",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nina's preference to work through difficulties, but it incorrectly attributes the support she seeks to her peers, rather than focusing on the acknowledgment and presence she explicitly states she wants."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b803",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jake's behavior as a cautious approach rather than correctly identifying his preference for smaller gatherings, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b804",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Priya's behavior and does not address her need for advance notice when committing to plans."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b805",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Will's preferences, focusing on collaborative decision-making rather than his clear preference for camping or outdoor accommodations."
+    },
+    {
+      "qa_id": "Q2_e5f6a7b801",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e5f6a7b801",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b801",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Nina's difficult situation as related to a story falling apart instead of the aftermath of a bad breakup."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b802",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not specify the significant advance notice Priya needs for her medical residency schedule, nor does it accurately describe Tom's specific knowledge about her cardiology conference."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b803",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify Alex's specific struggle and incorrectly suggests Maya's awareness is based on group dynamics rather than a specific prior knowledge of Alex's situation."
+    },
+    {
+      "qa_id": "Q6_e5f6a7b801",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e5f6a7b802",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific details of the connection between Sam and Priya, failing to mention the actual quotes or the context of their shared cooking experience."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b801",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_e5f6a7b802",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer identifies a shift in Raj's tone but incorrectly attributes the trigger to 'work stress' rather than the likely funding or business setback mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b801",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Maya's relationship with Jake, which is necessary to address the question."
+    }
+  ]
+}

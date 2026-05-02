@@ -1,0 +1,121 @@
+{
+  "network_id": "grp_a9b0c1d2",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:36:18.945914+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.421,
+  "mean_context_words": 216.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.325
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a9b0c1d201",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's preference for structured plans but misattributes her profession as midwifery instead of emergency room nursing, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d202",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Marcus's phrase as a default response but lacks specific examples and details from the sessions that demonstrate his habitual use and the group's understanding of it."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d203",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priyanka's decision to participate in cold-water swimming to encouragement from her friend Jess, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_a9b0c1d209",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priyanka's understanding of Seb's health situation and fails to connect her comment to Marcus's physiotherapy expertise, which is essential for a correct response."
+    },
+    {
+      "qa_id": "Q5_a9b0c1d210",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Seb appeals to Zara's interest in books, but it does not accurately attribute the specific persuasion technique or the context of his knowledge about her reading habits."
+    },
+    {
+      "qa_id": "Q6_a9b0c1d211",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a9b0c1d212",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a9b0c1d213",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the core subgroup to Nadia and Marcus instead of Theo, Nadia, and Zara, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d214",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Nadia and Marcus as the original pair but fails to mention the context of the hospital incident and does not address the subsequent formation of the group or Priyanka's reaction."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d215",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer identifies a shared interest and suggests ongoing interactions, but it lacks specific details about the nature of their relationship and does not mention the phrase 'for a while' that confirms the pattern."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d216",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift trigger to Seb's acknowledgment of the knee issue's impact, rather than the specific incident of his knee locking up after coaching."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d217",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Marcus's change in behavior to Session 4 instead of the correct Session 7, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d219",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift triggered by Seb's interest but fails to mention the early state of Theo's solo activity, which is a critical detail."
+    }
+  ]
+}

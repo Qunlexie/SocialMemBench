@@ -1,0 +1,127 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:04:07.908890+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.2,
+  "mean_context_words": 282.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.433
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.217
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Tom's preference for interesting routes but misattributes the focus on enjoyment to him rather than emphasizing his specific suggestions for technical terrain."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's value to the social aspect of the outings, while the gold answer correctly identifies that she finds the run itself worthwhile but the social aspect draining."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tom's preference for ending runs at a pub, but it inaccurately attributes the specific voting detail to him without sufficient evidence from the provided sessions."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e6f7a8b5",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the observation to Nadia without acknowledging the specific context of her prior restraint, which is a critical detail missing from the response."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Nadia took the initiative to organize the group and acknowledges Tom's role, but it inaccurately attributes the start of their relationship to three years ago instead of the repeated encounters at the parkrun."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's significant role but misattributes the quote to Tom, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Cass's earlier approach and does not correctly identify the trigger for her change in frequency, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the insistence on trail shoes to Tom, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Nadia's old preference as 12km instead of the correct 10-15km range, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the electrolyte tablet as a factor in Rafe's change but fails to attribute the observation of his cramping and the connection to his habit to Nadia, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Leo's acknowledgment of deprioritizing stretching, but it fails to mention the critical trigger of his hamstring strain, which is essential for understanding his decision."
+    }
+  ]
+}

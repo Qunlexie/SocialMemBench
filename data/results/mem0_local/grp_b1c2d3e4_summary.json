@@ -2,23 +2,23 @@
   "network_id": "grp_b1c2d3e4",
   "condition": "mem0_local",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-18T15:04:51.745109+00:00",
+  "evaluated_at": "2026-04-28T03:42:31.035904+00:00",
   "sessions_used": 12,
-  "total_pairs": 21,
-  "new_pairs_this_run": 21,
-  "mean_score": 0.305,
-  "mean_context_words": 128.0,
+  "total_pairs": 32,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.272,
+  "mean_context_words": 129.3,
   "by_query_type": {
     "Q1": {
       "count": 5,
       "mean_score": 0.48
     },
     "Q2": {
-      "count": 1,
-      "mean_score": 0.0
+      "count": 2,
+      "mean_score": 0.5
     },
     "Q4": {
-      "count": 2,
+      "count": 3,
       "mean_score": 1.0
     },
     "Q5": {
@@ -30,12 +30,12 @@
       "mean_score": 1.0
     },
     "Q7": {
-      "count": 4,
+      "count": 7,
       "mean_score": 0.0
     },
     "Q8": {
-      "count": 6,
-      "mean_score": 0.117
+      "count": 12,
+      "mean_score": 0.083
     }
   },
   "low_scoring": [
@@ -106,28 +106,88 @@
       "rationale": "The generated answer incorrectly attributes the change in training volume to a hamstring flare without mentioning the specific speed session flare as the trigger, and it also misstates the mileage as 30 instead of 32."
     },
     {
-      "qa_id": "Q8_b1c2d3e403",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer incorrectly attributes Sonia's change in relationship to trail running to cheering club members instead of the Parkfield trail sessions, which is a critical error."
-    },
-    {
       "qa_id": "Q8_b1c2d3e404",
       "query_type": "Q8",
       "score": 0.0,
       "rationale": "The generated answer incorrectly states Tasha's old preference as focusing on tracking performance times, while the gold answer correctly identifies it as a preference for a process-oriented approach."
     },
     {
+      "qa_id": "Q7_b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the focus of the exchange, discussing preferences unrelated to the direct interaction between Yuki and Chloe, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q8_b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Owen's motivation for considering a Wednesday session to a celebratory 5K, which is not mentioned in the gold answer, and fails to accurately reflect his earlier messages."
+    },
+    {
+      "qa_id": "Q8_b1c2d307",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that there was no prior indication of Joel's ambition to run a 10K, but it incorrectly attributes the driving factor for his decision to excitement after completing the run instead of the specific trigger of the reservoir extension run."
+    },
+    {
+      "qa_id": "Q8_b1c2d309",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Yuki signed up for the 10K in Session 2, which is a misattribution of her actions and contradicts the gold answer."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e402",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the change in Marcus's race plans but misattributes the original target as a full marathon instead of a full race, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sonia's change in relationship to trail running to cheering club members instead of the Parkfield trail sessions, which is a critical error."
+    },
+    {
       "qa_id": "Q8_b1c2d3e405",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer incorrectly attributes Priya's change in attitude to training with Fatima before she joined the club, which is not supported by the gold answer."
+      "rationale": "The generated answer incorrectly attributes Priya's shift in attitude to training with Fatima on the Parkfield trail, while the gold answer specifies that her change was enabled by her direct experience of the actual trail surface and Fatima's support during the run."
     },
     {
       "qa_id": "Q8_b1c2d3e406",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer incorrectly attributes Chloe's earlier attitude as excitement about participating in trail runs, which contradicts the gold answer's description of her dismissive attitude toward injury concerns."
+      "rationale": "The generated answer incorrectly attributes Chloe's earlier attitude as positive excitement about running, while the gold answer states she was dismissive of injury concerns."
+    },
+    {
+      "qa_id": "Q7_b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Marcus's relationship with Greg as described in the gold answer and instead focuses on their differing preferences, leading to a misunderstanding of their partnership."
+    },
+    {
+      "qa_id": "Q7_b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Lionel's response as supportive, while the gold answer correctly identifies a competitive undercurrent in his remarks."
+    },
+    {
+      "qa_id": "Q8_b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the core facts about the group's previous norm regarding fuelling, misattributing the focus to pacing instead of the fuelling approach discussed by Ahmed."
+    },
+    {
+      "qa_id": "Q8_b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Ahmed's involvement and does not correctly identify the specific observable actions that demonstrate the escalation."
+    },
+    {
+      "qa_id": "Q8_b1c2d308",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Bernard's increased running distance and the cardiologist clearance but inaccurately states he kept to eight kilometers instead of eight miles, which is a key detail."
     }
   ]
 }

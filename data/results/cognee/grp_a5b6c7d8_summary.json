@@ -1,0 +1,229 @@
+{
+  "network_id": "grp_a5b6c7d8",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:00:41.976400+00:00",
+  "sessions_used": 12,
+  "total_pairs": 34,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.126,
+  "mean_context_words": 61.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 9,
+      "mean_score": 0.144
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 11,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a5b6c7d8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's values and does not accurately reflect his specific preferences for hike structures, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures a sense of dissatisfaction but does not accurately reflect Nadia's specific comments or the nuances of her feelings as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_c5d6e7f8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dmitri's response as dismissive or indifferent without correctly identifying the specific nature of his acknowledgment, which is critical for understanding his view."
+    },
+    {
+      "qa_id": "Q1_d5e6f7a8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Bridget's attitude as inflexible and frustrated, while the gold answer emphasizes her meticulous tracking of time and preference for planned routes."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Saoirse's specific question or the context of her later statement, leading to a critical error in understanding her motivations."
+    },
+    {
+      "qa_id": "Q1_f5a6b7c8",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Dmitri's preference for longer outings but lacks specific details about his endorsement of the outing length and the context of his comment."
+    },
+    {
+      "qa_id": "Q1_a6b7c8d9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bridget's preference, suggesting she values communal living when the gold answer indicates she prefers individual sleeping space."
+    },
+    {
+      "qa_id": "Q1_b6c7d8e9",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's focus on the group's comfort level but fails to mention his specific use of calibrated references, leading to a wrong attribution of his approach."
+    },
+    {
+      "qa_id": "Q4_a5b6c7d8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b5c6d7e8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a5b6c7d8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify Saoirse's specific attitude and does not provide the necessary details about Elena's behavior that demonstrate her prior knowledge."
+    },
+    {
+      "qa_id": "Q5_b5c6d7e8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's role and does not accurately reflect Tomas's specific observation about her photography, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_c5d6e7f8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Elena had not closely tracked Priya's earlier hesitation, contradicting the gold answer which indicates that Elena demonstrated comprehensive knowledge of Priya's progress."
+    },
+    {
+      "qa_id": "Q6_a5b6c7d8",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a5b6c7d8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific incident central to Marcus and Elena's relationship, nor does it attribute the details correctly, leading to a lack of factual correctness."
+    },
+    {
+      "qa_id": "Q7_b5c6d7e8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Bridget's history as involving conflicts or issues, which is not supported by the gold answer, and fails to accurately describe Tomas's use of this information."
+    },
+    {
+      "qa_id": "Q7_c5d6e7f8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute the founding story and the specific details of Marcus and Tomas's dispute, providing vague and incorrect information instead."
+    },
+    {
+      "qa_id": "Q7_d5e6f7a8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly describes their relationship as a friendship or acquaintance without mentioning the specific instructor-student dynamic, which is a critical detail."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of Tomas and Bridget's relationship, failing to capture the specific tension and dynamics described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b5c6d7e8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific reasons for Marcus's change in managing group pace, nor does it mention the incident with Priya that triggered the shift."
+    },
+    {
+      "qa_id": "Q8_c5d6e7f8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about Nadia's early behavior, the session where the shift occurs, and the trigger for her change, leading to a complete failure to address the question."
+    },
+    {
+      "qa_id": "Q8_d5e6f7a8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tomas's shift in authority to a loss of trust or confidence, which is not supported by the gold answer's explanation of the shift being due to a specific route dispute and subsequent division of responsibilities."
+    },
+    {
+      "qa_id": "Q8_f5a6b7c8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific actions or statements that signaled Priya's change, failing to mention the solo descent as the key shift signal."
+    },
+    {
+      "qa_id": "Q8_a6b7c8d9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately describe the specific reasons for Kwame's change in approach and does not identify the key moment that triggered this change."
+    },
+    {
+      "qa_id": "Q8_b6c7d8e9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Elena's shift in approach or the trigger for this change, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific session (Session 9) that shows the change in behavior and fails to mention the trigger (the hypoglycaemic episode) that caused Saoirse to begin involving herself in group planning."
+    },
+    {
+      "qa_id": "Q8_d6e7f8a9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify the specific signals and details of Nadia's shift in advocacy, and it does not reference the correct context or actions from the sessions."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Saoirse's motivation for choosing technically demanding terrain, focusing on challenge and mastery rather than cognitive decompression, which is the core aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q8_a5b6c7d8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Elena's shift to a preference for local food options, which is not supported by the gold answer, and fails to identify the specific conversation moment where the shift became visible."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately describe Bridget's early state, the specific shift signal, or the trigger for her changed tone, leading to a critical error in attribution and factual correctness."
+    },
+    {
+      "qa_id": "Q8_e6f7a8b9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Dmitri's shift or the trigger for this change, and it lacks the necessary attribution to the correct context and statements."
+    }
+  ]
+}

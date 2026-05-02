@@ -2,16 +2,16 @@
   "network_id": "grp_a1b2c3d4",
   "condition": "llm_mini",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-18T14:58:22.377261+00:00",
+  "evaluated_at": "2026-04-28T03:32:16.309054+00:00",
   "sessions_used": 8,
-  "total_pairs": 25,
-  "new_pairs_this_run": 25,
-  "mean_score": 0.256,
+  "total_pairs": 28,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.225,
   "mean_context_words": 4276.0,
   "by_query_type": {
     "Q1": {
-      "count": 5,
-      "mean_score": 0.14
+      "count": 6,
+      "mean_score": 0.283
     },
     "Q3": {
       "count": 1,
@@ -34,12 +34,12 @@
       "mean_score": 1.0
     },
     "Q7": {
-      "count": 4,
-      "mean_score": 0.1
+      "count": 6,
+      "mean_score": 0.067
     },
     "Q8": {
       "count": 8,
-      "mean_score": 0.225
+      "mean_score": 0.087
     }
   },
   "low_scoring": [
@@ -122,18 +122,6 @@
       "rationale": "The generated answer correctly identifies the shift in Priya's relationship to competitive board games but incorrectly attributes the cause to her peers' praise rather than her own experience of winning, which is a critical error."
     },
     {
-      "qa_id": "Q8_a1b2c302",
-      "query_type": "Q8",
-      "score": 0.4,
-      "rationale": "The answer correctly identifies Kezia's shift and mentions Tomasz's support, but it lacks specific details about her earlier state and does not clearly articulate the mechanism of her shift."
-    },
-    {
-      "qa_id": "Q8_a1b2c303",
-      "query_type": "Q8",
-      "score": 0.4,
-      "rationale": "The generated answer correctly identifies Marcus's acknowledgment of Lena's argument as a signal of change, but it lacks the necessary details about his early preference and the specific trigger for the shift."
-    },
-    {
       "qa_id": "Q8_a1b2c304",
       "query_type": "Q8",
       "score": 0.4,
@@ -146,22 +134,46 @@
       "rationale": "The generated answer incorrectly states that Soo-Yeon's position has genuinely shifted, while the gold answer clarifies that her response indicates a hypothesis rather than a definitive shift."
     },
     {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the earlier state to comments made in Session 4 instead of accurately describing her earlier preference and engagement in Session 2."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the trigger for Marcus's change in preference, which is Lena's academic reframing of variance, and does not mention the evolved state of Marcus's preference."
+    },
+    {
       "qa_id": "Q8_a1b2c306",
       "query_type": "Q8",
-      "score": 0.3,
-      "rationale": "The generated answer correctly identifies the shift in Tomasz's approach but misattributes the specific adjustment he allowed and does not accurately reflect the trigger event."
+      "score": 0.0,
+      "rationale": "The generated answer fails to mention the early state of Tomasz's strict no-house-rules position, which is critical for understanding the change."
     },
     {
       "qa_id": "Q8_a1b2c307",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer incorrectly states that Derek asks for a rematch in Session 7, while the gold answer indicates he does not repeat the request, which is a critical error."
+      "rationale": "The generated answer incorrectly states that Derek repeatedly asked for a rematch in Session 7, contradicting the gold answer which indicates he did not contest the rematch count."
     },
     {
       "qa_id": "Q8_a1b2c308",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer misattributes the cause of Felix's change in view by not clearly identifying the mechanism of change and fails to mention the specific trigger, which is crucial for a correct response."
+      "rationale": "The generated answer incorrectly attributes the framing shift solely to Soo-Yeon without acknowledging Felix's prior dismissal of abstract games or the specific mechanism of change."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Raj's response as merely collaborative and respectful, failing to capture the critical aspect of it being a parallel authority move, which is essential for understanding the relationship dynamics."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_02",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Felix's message and discusses his hesitance about games instead of his referral by Kezia, which is the core fact in the gold answer."
     }
   ]
 }

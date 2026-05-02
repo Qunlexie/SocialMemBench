@@ -1,0 +1,147 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:57:06.916448+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 18,
+  "mean_score": 0.033,
+  "mean_context_words": 117.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.15
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d4e5f601",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Zara's relationship with meat-based dishes to her consideration of veganism, which is not supported by the gold answer's focus on her established vegetarianism and habitual practices."
+    },
+    {
+      "qa_id": "Q1_d4e5f602",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dom's intensity level to his experience with yoga, which does not align with the gold answer's focus on his overall training intensity and specific activities."
+    },
+    {
+      "qa_id": "Q1_d4e5f603",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Priya's responses or instincts, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_d4e5f604",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer mentions a shift towards ingredient-focused cooking but fails to accurately attribute the specific details and validation signal that demonstrate Marcus's new metric for success."
+    },
+    {
+      "qa_id": "Q1_d4e5f605",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Felix's comments and does not accurately reflect his skepticism towards food trends as described in the gold answer."
+    },
+    {
+      "qa_id": "Q4_d4e5f606",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d4e5f607",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states what Dom typically does before events and misattributes Zara's knowledge, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_d4e5f608",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Felix's position as one of reluctance rather than a long-standing aversion, and it misrepresents Zara's comment as expressing disbelief rather than recalling a known joke, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q2_d4e5f609",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_d4e5f610",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_d4e5f611",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Dom's approach to exercise to his preference for yoga, rather than correctly identifying the injury as the trigger and fails to accurately reflect the contrast with his previous routine."
+    },
+    {
+      "qa_id": "Q8_d4e5f612",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Zara's prior position as 'unclear' and fails to accurately identify the specific observable actions and triggers that led to her dietary change."
+    },
+    {
+      "qa_id": "Q8_d4e5f613",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to address the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_d4e5f614",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Kezia's awareness of her earlier stance and fails to mention her explicit acknowledgment of her previous position on video calls."
+    },
+    {
+      "qa_id": "Q8_d4e5f615",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Felix's shift to Dom's revelation about playing on Sunday, rather than Felix's own historical views and his neighbor's persistence, which are critical to understanding his change in position."
+    },
+    {
+      "qa_id": "Q8_d4e5f616",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the acknowledgment of Priya's change to Marcus instead of the correct group members, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_d4e5f617",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there are no specific remarks from Felix to Priya, which is incorrect as the gold answer provides a clear example of their shared history."
+    },
+    {
+      "qa_id": "Q7_d4e5f618",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a supportive relationship and mentions challenges, but it misattributes the nature of their relationship as merely supportive rather than a committed romantic partnership."
+    }
+  ]
+}

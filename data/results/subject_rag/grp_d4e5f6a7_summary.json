@@ -1,0 +1,123 @@
+{
+  "network_id": "grp_d4e5f6a7",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:51:24.006052+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 18,
+  "mean_score": 0.294,
+  "mean_context_words": 207.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.2
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.217
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.35
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d4e5f601",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Zara as vegetarian but misattributes her relationship with meat-based dishes and includes incorrect details about her preferences."
+    },
+    {
+      "qa_id": "Q1_d4e5f602",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Dom's high intensity level but includes incorrect details about a 'three-hour workout' and misinterprets the significance of his summer absence, which does not support the claim of consistent intensity."
+    },
+    {
+      "qa_id": "Q1_d4e5f603",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Priya has strong enthusiasm for social occasions, which contradicts the gold answer's depiction of her flat responses and preference for smaller gatherings."
+    },
+    {
+      "qa_id": "Q1_d4e5f604",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's new approach to cooking and incorrectly quotes him, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_d4e5f605",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Felix's skepticism about food trends to a specific quote that is not present in the gold answer, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_d4e5f607",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Dom disappears for two months before events, which contradicts the gold answer's information about him fitting in gym sessions."
+    },
+    {
+      "qa_id": "Q5_d4e5f608",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's aversion to team sports but fails to attribute the specific joke to Zara and Dom, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_d4e5f609",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_d4e5f611",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Dom's approach to a general recovery from a knee injury without specifying the injury's details or the specific shift trigger, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_d4e5f612",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift trigger (documentary about dairy farming) but fails to attribute the prior position accurately to Zara's casual language in Session 1, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_d4e5f613",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the old and new preferences but misattributes the trigger and lacks specific details from the sessions."
+    },
+    {
+      "qa_id": "Q8_d4e5f615",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about Felix's entrenched view to Dom, while the gold answer specifies that it was Dom and Zara who revealed this information."
+    },
+    {
+      "qa_id": "Q8_d4e5f616",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's previous enthusiasm as 'off the charts,' which contradicts the gold answer's description of her earlier discomfort and misrepresents her prior state."
+    },
+    {
+      "qa_id": "Q7_d4e5f617",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Felix and Priya's relationship by focusing on a tradition rather than their shared childhood history, which is the core fact in the gold answer."
+    }
+  ]
+}

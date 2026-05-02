@@ -2,16 +2,16 @@
   "network_id": "grp_a1b2c3d4",
   "condition": "graphiti",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T22:06:50.212350+00:00",
+  "evaluated_at": "2026-04-28T04:32:41.930950+00:00",
   "sessions_used": 8,
-  "total_pairs": 25,
-  "new_pairs_this_run": 25,
-  "mean_score": 0.312,
-  "mean_context_words": 131.7,
+  "total_pairs": 28,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.257,
+  "mean_context_words": 131.6,
   "by_query_type": {
     "Q1": {
-      "count": 5,
-      "mean_score": 0.2
+      "count": 6,
+      "mean_score": 0.167
     },
     "Q3": {
       "count": 1,
@@ -34,12 +34,12 @@
       "mean_score": 1.0
     },
     "Q7": {
-      "count": 4,
-      "mean_score": 0.55
+      "count": 6,
+      "mean_score": 0.367
     },
     "Q8": {
       "count": 8,
-      "mean_score": 0.075
+      "mean_score": 0.0
     }
   },
   "low_scoring": [
@@ -104,18 +104,6 @@
       "rationale": "The generated answer incorrectly identifies the shift in Priya's relationship to competitive board games and completely misidentifies the trigger. The gold answer correctly identifies the shift from aesthetic enjoyment to caring about winning, triggered by winning a game."
     },
     {
-      "qa_id": "Q8_a1b2c302",
-      "query_type": "Q8",
-      "score": 0.3,
-      "rationale": "The generated answer correctly identifies the trigger for Kezia's shift (Tomasz walking her through Terra Mystica). However, its description of the 'earlier state' is inaccurate, describing a state during the transition rather than the initial preference for light games. The 'current state' is also too vague compared to the specific examples in the gold answer."
-    },
-    {
-      "qa_id": "Q8_a1b2c303",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer incorrectly attributes the softening of Marcus's preference to his appreciation for Brass Birmingham, which is a pure-strategy game that aligns with his original preference, not a reason for softening it. The actual trigger and signal for the shift are completely missed and replaced with a contradictory explanation."
-    },
-    {
       "qa_id": "Q8_a1b2c304",
       "query_type": "Q8",
       "score": 0.0,
@@ -128,22 +116,52 @@
       "rationale": "The generated answer incorrectly states Soo-Yeon agreed to try Fuse as a warm-up and claims her post-game response is unclear, directly contradicting the gold answer which provides specific details about her reasoning and her surprise after playing."
     },
     {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Kezia's earlier state to working on her confidence in heavier games like Viticulture, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's change in preference to the marathon rule instead of Lena's reframing of luck, which is a critical error."
+    },
+    {
       "qa_id": "Q8_a1b2c306",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer completely misunderstands the question's topic, discussing Tomasz's preference for Dune factions instead of his approach to house rules."
+      "rationale": "The generated answer misattributes the change in Tomasz's approach to house rules by incorrectly focusing on Kezia instead of the specific incident with a new player leaving mid-game, failing to identify the correct trigger and context."
     },
     {
       "qa_id": "Q8_a1b2c307",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer identifies a different behavioral change (suggesting a lighter game) and a different signal of awareness than the gold answer, which focuses on Derek's rematch-seeking pattern and his acknowledgment of it."
+      "rationale": "The generated answer misattributes Derek's behavior and does not correctly identify the specific shift or trigger as outlined in the gold answer."
     },
     {
       "qa_id": "Q8_a1b2c308",
       "query_type": "Q8",
-      "score": 0.3,
-      "rationale": "The generated answer correctly identifies Felix's old and new preferences regarding abstract games, but completely misidentifies the trigger for the change. The gold answer states the trigger was Soo-Yeon's reframing of Azul, while the generated answer incorrectly attributes it to Felix's own explanation of Oath's mechanics, which is a factual error regarding the cause of the change."
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Felix's earlier view to surprise at Kezia's pitch instead of his consistent framing of games through theme and narrative, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Raj's response as simple agreement rather than a parallel authority move, failing to capture the nuanced relationship dynamics described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_02",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Felix's connection to the group as being influenced by Soo-Yeon, rather than correctly identifying Kezia as the person who referred him."
+    },
+    {
+      "qa_id": "Q1_a1b2c3d4_01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's prior view to her statement about not eating during sessions, which does not align with the gold answer's focus on her acknowledgment of a shared concern."
     }
   ]
 }

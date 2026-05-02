@@ -1,0 +1,323 @@
+{
+  "network_id": "grp_c1d2e3f7",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T17:16:16.092967+00:00",
+  "sessions_used": 10,
+  "total_pairs": 48,
+  "new_pairs_this_run": 48,
+  "mean_score": 0.142,
+  "mean_context_words": 134.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 23,
+      "mean_score": 0.122
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q3": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 10,
+      "mean_score": 0.14
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c1d2e3f701",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's preference against early starts but misattributes his specific proposal and does not accurately reflect his aversion as a settled pattern."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f702",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Lionel's preference for earl grey but fails to mention his refusal of coffee and the explicit framing of his preference, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f703",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Derek's behavior or preferences, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f704",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Fatima's preference for multi-day trips but lacks specific details about her dismissive attitude towards single-day races and does not mention her active contributions to the planning."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f705",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Derek's relationship with wearable data, which is essential to address the question."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f706",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Fatima's preference to a structured approach rather than her actual preference for freeze-dried meals, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f707",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Iris's preference and does not accurately reflect her discomfort with the group's competitiveness, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f708",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's preference against early starts but misattributes his proposal for a 6:12am meet as accommodating, rather than recognizing it as a compromise, which misrepresents his stance."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f709",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Ravi's response, which contradicts the gold answer that provides specific details about his discomfort."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f70a",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information available, which does not address the question and fails to provide any relevant details."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f70b",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lionel's preferences and does not accurately reflect his specific mention of night hikes and astronomy outings, leading to a critical error."
+    },
+    {
+      "qa_id": "Q3_c1d2e3f70e",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer contains multiple incorrect attributions and misrepresents the preferences of several group members."
+    },
+    {
+      "qa_id": "Q3_c1d2e3f70f",
+      "query_type": "Q3",
+      "score": 0.3,
+      "rationale": "The generated answer attributes preferences incorrectly to 'User' instead of naming the correct individuals, leading to a critical error."
+    },
+    {
+      "qa_id": "Q4_c1d2e3f710",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_c1d2e3f711",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c1d2e3f712",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Priya's preference is unclear and fails to provide any specific details or evidence from the conversation, which contradicts the gold answer."
+    },
+    {
+      "qa_id": "Q5_c1d2e3f713",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Yuki's preference for multi-pitch climbing but fails to attribute the correct details about how Helen demonstrates her prior knowledge, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_c1d2e3f714",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_c1d2e3f715",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_c1d2e3f716",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no specific information about Lionel and Beatrix's relationship, which contradicts the gold answer that provides clear evidence of their close friendship."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f717",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a collaborative relationship but fails to attribute specific details and actions that demonstrate their partnership, leading to a critical error in detail."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f718",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Derek or his relationship with Marcus, which is incorrect as the gold answer provides specific details about their relationship."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f719",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute the confirmation of the relationship to Tasha and does not mention the key details about the public airing of the relationship or Ravi's discomfort."
+    },
+    {
+      "qa_id": "Q8_c1d2e3f71a",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Helen's default climbing partner shifted from Yuki, when in fact it shifted from Bernard to Yuki."
+    },
+    {
+      "qa_id": "Q8_c1d2e3f71b",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Greg's footwear preference change, which is required to score."
+    },
+    {
+      "qa_id": "Q8_c1d2e3f71c",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Iris's shift in relationship to the group's pace order by incorrectly stating that it is driven by her love for trail work and interest in scouting, rather than her internal realization and the group's validation of a slow option."
+    },
+    {
+      "qa_id": "Q8_c1d2e3f71d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Tasha's previous activity and does not accurately reflect the shift in her weekend activities or the reasons behind it."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f71e",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute Sonia's specific quotes or her consistent advocacy for large gatherings, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f71f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer attributes Cyrus's cooking preferences and behaviors to Sonia's praise instead of correctly identifying Cyrus's own actions and statements regarding pre-packaged food."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f720",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Beatrix's contributions or her role in the group's social dynamics."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f721",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Chloe's focus on competitive racing but lacks specific details and examples from the chat that would demonstrate her relationship to recreational outings."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f722",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Theo's engagement by focusing on his commitments rather than his lack of participation in social interactions, which is the key aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f723",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus and Ana as cousins, but it fails to attribute the specific evidence of their relationship to Ana's direct quote, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f724",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies a collaborative relationship and mentions shuttling cars, but it lacks specific details about their proximity as neighbors and the routine nature of their arrangement."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f725",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of their working relationship and does not accurately reflect the established routine and dynamics described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f726",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately describe the nature of Helen and Bernard's relationship and does not identify any specific interactions that reveal their dynamics."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f727",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Yuki's preference for climbing but lacks specific details about her choices and actions that demonstrate this preference."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f728",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f729",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tasha's role and contributions, focusing on her personal preferences rather than her caretaking behavior, which is the core aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q3_c1d2e3f72a",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes preferences to Sonia, Marcus, and Chloe, stating they prefer the brewery, which contradicts the gold answer."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f72b",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Iris's dietary practice and food contributions, focusing on oat milk and onigiri instead of her veganism and specific food items mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f72c",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer identifies Greg's logistical role but lacks specific details about his communication style and the cumulative nature of his contributions."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f72d",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Helen's professional background to climbing rather than geology, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_c1d2e3f72e",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Ana's prioritization of individual commitments but misattributes her scheduling behavior and lacks specific details about her explicit availability and reasons for declining outings."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f72f",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Sonia and Cyrus's relationship, focusing on positive sentiments rather than the specific co-organizing dynamic and coordination described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_c1d2e3f730",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer identifies a collaborative relationship but lacks specific details about the mentor-mentee dynamic and the evolution of their relationship, missing key elements from the gold answer."
+    }
+  ]
+}

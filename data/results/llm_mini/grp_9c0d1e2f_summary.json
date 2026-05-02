@@ -2,11 +2,12 @@
   "network_id": "grp_9c0d1e2f",
   "condition": "llm_mini",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T06:06:30.210413+00:00",
+  "evaluated_at": "2026-04-28T03:30:07.945876+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.833,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.733,
+  "mean_context_words": 155.8,
   "by_query_type": {
     "Q3": {
       "count": 1,
@@ -18,7 +19,7 @@
     },
     "Q8": {
       "count": 2,
-      "mean_score": 0.95
+      "mean_score": 0.65
     },
     "Q7": {
       "count": 1,
@@ -29,6 +30,12 @@
       "mean_score": 1.0
     }
   },
-  "low_scoring": [],
-  "options_fix_applied": true
+  "low_scoring": [
+    {
+      "qa_id": "Q8_ph9s3c1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the erosion of Raj's ability to make personal work but misattributes the statement about feeling disconnected from his work to Session 2 instead of the correct context provided in the gold answer."
+    }
+  ]
 }

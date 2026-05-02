@@ -1,0 +1,157 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:39:56.443006+00:00",
+  "sessions_used": 10,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.371,
+  "mean_context_words": 223.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.233
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.087
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Sana's attendance pattern but fails to attribute the specific details about Jade's message accurately, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Sana's social style and Dev's recognition of her value, but it misattributes the phrasing of her contribution and lacks the specific observable indicator of Dev's assessment."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Callum's relationship to stress and disclosure or Temi's understanding of it."
+    },
+    {
+      "qa_id": "Q6_e8f9a0b102",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies a shared history of collaboration but lacks specific details about the school newspaper and the precise nature of their interactions, leading to ambiguity."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the significance of the falling-out to Dev, rather than accurately reflecting the sequence of events and the specific details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Callum's near decision to bail and his relief at attending, but it incorrectly attributes the emotional disclosure to Jade's role instead of focusing on the significance of his communication with Marcus."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that the turning point was her attendance at a pub night in Session 10, while the gold answer identifies the January pub night as the actual trigger for her shift."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's shift in preference and mentions Session 6, but it inaccurately attributes the realization solely to his experience with the full-class event rather than the specific dinner experience that served as the trigger."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rachel's emphasis on venue selection to a general prioritization of quality rather than specifically focusing on wine, which is her primary criterion."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Temi's values and suggestions, focusing on casual interactions rather than her emphasis on substantive content and the impact of format on group connection."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Jade's specific statements and insights, leading to a critical error in understanding her perspective."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Callum's behavior by focusing on punctuality and attendance rather than his consistent early departures, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Temi's earlier position and does not accurately reflect her actions or statements in the sessions, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Dev's change in attendance to a realization about group dynamics rather than his relocation from London, which is the key factor in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b104",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the reason for Jade's lighter presence and the trigger but lacks detail about her earlier active contributions and the specific phrasing she used to signal the change."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Omar's involvement to a change in his preference rather than identifying the specific trigger and context that led to his new behavior."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's change in openness to the reunion dinner instead of the escape room experience, which is a critical error."
+    }
+  ]
+}

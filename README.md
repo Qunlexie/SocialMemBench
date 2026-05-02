@@ -1,55 +1,40 @@
 # SocialMemBench
 
-A synthetic benchmark for evaluating AI memory architectures in multi-party social group conversations.
+**A benchmark for evaluating AI memory architectures in multi-party social group conversations.**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Dataset: 1031 QA × 43 networks](https://img.shields.io/badge/QA-1%2C031%20across%2043%20networks-blue)](#dataset-at-a-glance)
+[![Quality: 0.952 blind-critic](https://img.shields.io/badge/blind--critic%20mean-0.952-green)](#data-quality)
 
-## What this benchmark tests
+---
 
-Existing memory benchmarks evaluate either (a) language model reasoning given long context (LongMemEval, RULER), or (b) single-user / dyadic dialogue (LaMP, LoCoMo, MSC). **SocialMemBench is the first benchmark that evaluates external memory systems — the write/index/retrieve substrate between sessions — in social group settings with 3+ co-present speakers.**
+## The problem
 
-The benchmark exposes architectural failures that single-stream memory designs (Mem0, LangMem, Cognee, Graphiti) make when faced with multi-party attribution, group-norm vs. individual preference distinctions, and preference evolution across sessions.
+Every AI embedded in a group chat uses single-stream memory that conflates speakers. When Sarah says "Mike hates steep trails," the system must attribute this to **Mike** — not Sarah, not the group. No deployed memory architecture does this reliably across 3+ co-present speakers.
 
-## Dataset summary
+Existing memory benchmarks evaluate either (a) language model reasoning given context (LongMemEval, RULER) or (b) single-user / dyadic dialogue (LaMP, LoCoMo, MSC). **SocialMemBench is the first benchmark that evaluates external memory systems — the write/index/retrieve substrate between sessions — in social group settings.**
+
+## Headline result
+
+| Reference / system | Score | Notes |
+|---|---:|---|
+| Full-context ceiling (LLM with full corpus in window) | **0.721** | Upper-bound; not a memory system |
+| Uncompressed retrieval baseline | **0.423** | Naive concatenation + retrieve, not a memory system |
+| **Best deployed memory system** (Graphiti) | **0.293** | 59% gap vs. ceiling |
+| LangMem | 0.241 | |
+| Mem0 | 0.198 | |
+| Cognee | 0.186 | |
+
+The 0.43-point gap between the full-context ceiling and the best deployed system isn't a model-capacity limit; it's an **architectural failure mode** of single-stream memory designs facing multi-party attribution. The benchmark localizes the failure across nine query types so designers can target the specific architectural weakness.
+
+## Dataset at a glance
 
 - **43 ego networks** spanning 5 social-group types (close friends, family, recreational clubs, interest communities, acquaintance networks)
-- **1,033 question–answer pairs** across 9 query types (Q1–Q9)
+- **1,031 question–answer pairs** across **9 query types** (Q1–Q9)
 - **3 size tiers**: small (4–6 members), medium (8–14), large (15–30)
-- **9 query types** probing single-contact recall, group decisions, multi-contact aggregation, attribution under contamination, theory-of-mind, group-norm vs. individual, relational edges, temporal preference evolution, and departed-member recall
-- **Blind-critic dataset quality**: corpus-wide mean 0.952, 99.9% pass-rate (≥0.70), 1 pair below 0.70
-- All conversations validated to be em-dash-free and to preserve ground-truth challenge anchors
-
-## Repository layout
-
-```
-.
-├── data/
-│   ├── manifest.json            # central manifest (auto-managed)
-│   ├── raw/                     # Stage 1: ego networks
-│   ├── conversations/           # Stage 2: WhatsApp-style corpora
-│   ├── qa/                      # Stage 3: QA pairs + QC reports
-│   ├── verify/                  # structural verification reports (canonical schema 2.0)
-│   └── results/                 # eval outputs per condition
-│
-├── socialmembench/              # data generation infrastructure (Pydantic schemas, manifest, planner, smb CLI)
-│   ├── schemas/                 # data contracts: persona, conversation, qa
-│   ├── pipeline/                # scale planner
-│   ├── utils/                   # manifest, metrics, serialization
-│   └── cli/                     # smb command-line tool
-│
-├── eval/                        # evaluation pipeline (8 memory-system adapters + judge)
-│   ├── adapters/                # cognee, graphiti, langmem, mem0, naive_rag, subject_rag, smg, llm
-│   ├── core/                    # evaluator, answerer, data bridge
-│   └── config/                  # YAML configs per adapter
-│
-├── scripts/                     # reusable utilities (build_hf_dataset, build_croissant, recompute_bootstrap, etc.)
-├── figures/                     # paper figures + generator
-├── viewer/                      # interactive web viewer for the dataset
-├── paper/                       # NeurIPS 2026 paper sources
-├── docs/                        # research notes and literature
-├── plans/                       # working planning documents
-└── skills/            # Claude Code skills used to drive generation
-```
+- **7,355 conversation turns** across **348 sessions**
+- **430 personas** with structured profiles (Big Five, communication style, preferences, speaking quirks)
+- **Quality**: corpus-wide blind-critic mean **0.952**, pass-rate **99.9 %** (≥0.70). Every QA pair is checked by a blind critic that has never seen the planted-challenge metadata. Validator runs over the parquet release: 0 schema violations, 0 non-verbatim evidence anchors, 0 em-dashes in unprotected message text.
 
 ## Query types
 
@@ -65,46 +50,108 @@ The benchmark exposes architectural failures that single-stream memory designs (
 | Q8 | Temporal preference evolution | How a person's preference changed across sessions |
 | Q9 | Departed-member recall | Last known preference of a member who left the group |
 
-## Data shape
+## Quick start
 
-Four logical tables when loaded via `scripts/build_hf_dataset.py`:
+Load the dataset from HuggingFace:
 
-- **networks** — one row per ego network (network_id, group_type, group_size, sessions, etc.)
-- **personas** — one row per persona, indexed by network_id (communication_profile, big_five, preferences, speaking_quirks)
-- **conversations** — one row per turn (network_id, session_index, turn_index, speaker, message, timestamp)
-- **qa** — one row per QA pair (qa_id, network_id, query_type, question, answer, evidence_anchors, qc_phase1_score)
+```python
+from datasets import load_dataset
 
-Source files on disk are JSON / JSONL; HuggingFace release is parquet with auto-generated Croissant metadata.
+networks      = load_dataset("SocialMemBench", "networks",      split="data")
+personas      = load_dataset("SocialMemBench", "personas",      split="data")
+conversations = load_dataset("SocialMemBench", "conversations", split="data")
+qa            = load_dataset("SocialMemBench", "qa",            split="data")
 
-## Reproducing the evaluations
+# All four configs share `network_id` as the join key
+print(qa[0]["question"], "→", qa[0]["answer"])
+```
 
-Memory system adapters live in `eval/adapters/`. Each adapter has a YAML config in `eval/config/adapters/`. To run an evaluation:
+Run an evaluation locally:
 
 ```bash
-pip install -e .                       # installs the socialmembench package + smb CLI
+pip install -e .
 python -m eval.cli --condition graphiti --network grp_a0b1c2d3
 ```
 
-Reproducibility note: regenerating adapter caches (graphiti / cognee / chroma DBs) from scratch requires API keys (OPENAI / ANTHROPIC) and incurs ~$150–500 in embedding + extraction calls. Final per-pair scores are checked into `data/results/`.
+Adapter caches (graphiti / cognee / chroma) regenerate from `data/conversations/` on first run; expect ~$150–500 in embedding + extraction calls for a full corpus rebuild. Final per-pair scores are checked into `data/results/`, so you can do analysis without re-running.
 
-## Generation pipeline
+## Data shape
 
-Networks were generated through `skills/smb-*` Claude Code skills (no separate API key needed). The skills are:
+Four logical tables joinable on `network_id`:
+
+| Table | Rows | Description |
+|-------|------|-------------|
+| `networks` | 43 | One row per ego network — group type, size, tier, edges, group norms |
+| `personas` | 430 | One row per persona — Big Five, communication profile, preferences, speaking quirks |
+| `conversations` | 7,355 | One row per turn — speaker, message, timestamp, session metadata |
+| `qa` | 1,031 | One row per question — query type, answer, evidence anchors, blind-critic score |
+
+Source files on disk are JSON / JSONL under `data/`. The HuggingFace release ships parquet with [Croissant](https://docs.mlcommons.org/croissant/) metadata including the Responsible AI fields NeurIPS requires.
+
+## Methodology
+
+### Generation
+Synthetic group conversations are generated with **planted memory challenges** — implicit preferences, group decisions, theory-of-mind references, temporal shifts — embedded at known `(speaker, session, turn)` coordinates. The QA pairs are generated against those planted challenges; the planted-challenge index is stripped from the public release so reviewers and downstream researchers test against the QA pairs, not against leaked ground-truth metadata.
+
+Generation specs live in `skills/`. Each stage (network → conversations → QA → verify → QC) is a deterministic, reproducible procedure documented with explicit pass/fail criteria.
+
+### Validation pipeline
+
+| Stage | What it checks |
+|-------|----------------|
+| `smb-verify` | Structural integrity — schemas, evidence-span verbatim, ISO timestamps, persona distinctness |
+| `smb-qc` | Blind-critic QA quality — an evaluator that hasn't seen planted-challenge metadata answers each QA from the conversation alone, and the answer is scored against the recorded ground truth |
+
+`scripts/validate_hf_dataset.py` runs comprehensive checks on the parquet output: foreign-key consistency across the four tables, schema invariants, JSON validity in nested fields, value ranges, semantic-empty allowlist (e.g., `options` is correctly empty for non-multiple-choice questions), and em-dash absence in unprotected text. Required to pass before any HuggingFace push.
+
+### Reproducible data fixes
+
+The `scripts/` directory ships fix-and-validate utilities for common data-drift patterns we encountered during scaling:
+
+| Script | Purpose |
+|--------|---------|
+| `validate_hf_dataset.py` | Pre-upload validator (run after every parquet emit) |
+| `build_hf_dataset.py` | Build the 4-table parquet release |
+| `build_croissant.py` | Generate Croissant 1.0 + RAI metadata |
+| `fix_pci_verbatim.py` | Repair planted-challenge-index spans → verbatim corpus content |
+| `fix_qa_anchor_verbatim.py` | Repair QA evidence-anchor excerpts → verbatim |
+| `scrub_em_dashes.py` | Replace em-dashes lockstep across messages and any anchors that reference them |
+| `backfill_session_topics.py` | Per-network topic backfill |
+| `backfill_active_participants.py` | Derive session active-participants from speakers |
+| `recompute_bootstrap.py` | Regenerate paper bootstrap CIs |
+| `print_paper_numbers.py` | Recompute paper headline numbers from `data/results/` |
+
+## Repository layout
 
 ```
-smb-generate-network         Stage 1: ego network → data/raw/{id}.json
-smb-generate-conversations   Stage 2: corpus     → data/conversations/{id}.json
-smb-generate-qa              Stage 3: QA pairs   → data/qa/{id}.jsonl
-smb-verify                   structural verify   → data/verify/{id}.json
-smb-qc                       blind-critic QC     → data/qa/{id}_qc.json
-smb-status                   manifest summary
+.
+├── data/
+│   ├── manifest.json            # central manifest
+│   ├── raw/                     # Stage 1: 43 ego-network JSON files
+│   ├── conversations/           # Stage 2: 43 corpora (348 sessions, 7,355 turns)
+│   ├── qa/                      # Stage 3: QA pairs + per-network QC reports
+│   ├── verify/                  # Structural verification reports (canonical schema 2.0)
+│   └── results/                 # Per-condition × per-network eval outputs
+│
+├── socialmembench/              # Generation infrastructure + smb CLI
+│   ├── schemas/                 # Pydantic data contracts (persona, conversation, qa)
+│   ├── pipeline/                # Scale planner
+│   ├── utils/                   # Manifest, metrics, serialization
+│   └── cli/                     # smb command-line tool
+│
+├── eval/                        # Evaluation pipeline
+│   ├── adapters/                # cognee, graphiti, langmem, mem0, naive_rag, subject_rag, smg, llm
+│   ├── core/                    # Evaluator, answerer, data bridge
+│   └── config/                  # YAML configs per adapter
+│
+├── skills/                      # Generation specs (read by Claude / human / either)
+├── scripts/                     # Reusable build, fix, validate, backfill utilities
+├── figures/                     # Paper figures + generator
+├── viewer/                      # Interactive web viewer for the dataset
+└── paper/                       # NeurIPS 2026 paper sources
 ```
-
-Schemas, manifest tracking, and the scale planner are in `socialmembench/`. See [CLAUDE.md](CLAUDE.md) for the full project guide and [`plans/`](plans/) for design documents.
 
 ## Citation
-
-If you use this benchmark, please cite:
 
 ```bibtex
 @misc{socialmembench2026,
@@ -118,4 +165,4 @@ See [CITATION.cff](CITATION.cff) for machine-readable metadata.
 
 ## License
 
-Dataset and generation code released under [CC BY 4.0](LICENSE).
+Dataset and accompanying code released under [CC BY 4.0](LICENSE). Attribution is the only requirement; commercial and derivative use is permitted.

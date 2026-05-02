@@ -17,7 +17,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 4, 11:33am",
-          "message": "Last night was brilliant!! 🥂 What did everyone make of the ending? I found it so interesting how it resolved.",
+          "message": "Last night was brilliant!! \ud83e\udd42 What did everyone make of the ending? I found it so interesting how it resolved.",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -77,7 +77,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 4, 12:08pm",
-          "message": "Blessing that is such a beautiful reading 🥹 I was going to say something similar, yes, the exhaustion. Whose turn to pick next month?",
+          "message": "Blessing that is such a beautiful reading \ud83e\udd79 I was going to say something similar, yes, the exhaustion. Whose turn to pick next month?",
           "message_index": 6,
           "planted_challenges": [
             {
@@ -86,8 +86,8 @@
               "subject_persona_id": "p_bk8b2c3d4",
               "speaker_persona_id": "p_bk8b2c3d4",
               "fact_attribute": "non_reader_camouflage",
-              "fact_value": "Nadia claims Blessing's interpretation was what she 'was going to say' — she didn't read the book fully and is borrowing Blessing's reading; she pivots immediately to logistics to change the subject",
-              "evidence_span": "I was going to say something similar — yes, the exhaustion. Whose turn to pick next month?",
+              "fact_value": "Nadia claims Blessing's interpretation was what she 'was going to say' \u2014 she didn't read the book fully and is borrowing Blessing's reading; she pivots immediately to logistics to change the subject",
+              "evidence_span": "I was going to say something similar \u2014 yes, the exhaustion. Whose turn to pick next month?",
               "implicitness_level": 3,
               "session_index": 1,
               "turn_index": 5
@@ -114,7 +114,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 4, 12:17pm",
-          "message": "wow okay 😭 yes yes proper pick next time",
+          "message": "wow okay \ud83d\ude2d yes yes proper pick next time",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s01_t006",
@@ -145,7 +145,14 @@
           "timestamp": "2025-08-04T12:26:00"
         }
       ],
-      "date": "2025-08-04"
+      "date": "2025-08-04",
+      "active_participants": [
+        "p_bk8b2c3d4",
+        "p_bk8c3d4e5",
+        "p_bk8a1b2c3",
+        "p_bk8d4e5f6",
+        "p_bk8e5f6a7"
+      ]
     },
     {
       "session_id": "grp_8b9c0d1e_s02",
@@ -163,7 +170,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 11, 4:12pm",
-          "message": "My pick!! I want to do that new Dolly Alderton. I know we usually do literary but it's so addictive and there's loads to talk about 📚🥂",
+          "message": "My pick!! I want to do that new Dolly Alderton. I know we usually do literary but it's so addictive and there's loads to talk about \ud83d\udcda\ud83e\udd42",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -184,7 +191,7 @@
               "subject_persona_id": "p_bk8a1b2c3",
               "speaker_persona_id": "p_bk8a1b2c3",
               "fact_attribute": "book_selection_veto",
-              "fact_value": "Harriet dismisses Nadia's pick as 'holiday reading' and proposes an alternative — effectively vetoing the rotation norm",
+              "fact_value": "Harriet dismisses Nadia's pick as 'holiday reading' and proposes an alternative \u2014 effectively vetoing the rotation norm",
               "evidence_span": "That's holiday reading, Nadia. What about the new Sally Rooney?",
               "implicitness_level": 2,
               "session_index": 2,
@@ -212,7 +219,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 11, 4:44pm",
-          "message": "okay okay Sally Rooney is fine with me honestly 😂 I just thought we could do something fun but I'm happy either way!",
+          "message": "okay okay Sally Rooney is fine with me honestly \ud83d\ude02 I just thought we could do something fun but I'm happy either way!",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s02_t002",
@@ -272,7 +279,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 11, 5:17pm",
-          "message": "I'm fine honestly but next time I am keeping my silly girl pick 😂",
+          "message": "I'm fine honestly but next time I am keeping my silly girl pick \ud83d\ude02",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s02_t007",
@@ -291,7 +298,14 @@
           "timestamp": "2025-08-11T17:22:00"
         }
       ],
-      "date": "2025-08-11"
+      "date": "2025-08-11",
+      "active_participants": [
+        "p_bk8b2c3d4",
+        "p_bk8a1b2c3",
+        "p_bk8d4e5f6",
+        "p_bk8c3d4e5",
+        "p_bk8e5f6a7"
+      ]
     },
     {
       "session_id": "grp_8b9c0d1e_s03",
@@ -370,7 +384,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 18, 10:41am",
-          "message": "Blessing I love how you read things 🥹 what did everyone make of the middle section? I found it so interesting",
+          "message": "Blessing I love how you read things \ud83e\udd79 what did everyone make of the middle section? I found it so interesting",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s03_t003",
@@ -443,14 +457,21 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 18, 11:05am",
-          "message": "I just liked the scene by the kitchen window 😭 everyone is so much smarter than me",
+          "message": "I just liked the scene by the kitchen window \ud83d\ude2d everyone is so much smarter than me",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s03_t008",
           "timestamp": "2025-08-18T11:05:00"
         }
       ],
-      "date": "2025-08-18"
+      "date": "2025-08-18",
+      "active_participants": [
+        "p_bk8a1b2c3",
+        "p_bk8d4e5f6",
+        "p_bk8b2c3d4",
+        "p_bk8c3d4e5",
+        "p_bk8e5f6a7"
+      ]
     },
     {
       "session_id": "grp_8b9c0d1e_s04",
@@ -477,7 +498,7 @@
               "subject_persona_id": "p_bk8e5f6a7",
               "speaker_persona_id": "p_bk8e5f6a7",
               "fact_attribute": "defensive_about_readings",
-              "fact_value": "Graham takes criticism of books he championed personally and follows up the next day in the chat to defend his reading — he does not let perceived dismissals go",
+              "fact_value": "Graham takes criticism of books he championed personally and follows up the next day in the chat to defend his reading \u2014 he does not let perceived dismissals go",
               "evidence_span": "The dismissal of my reading of the first chapter as 'surface' was a bit much. I actually thought it was rather good.",
               "implicitness_level": 2,
               "session_index": 4,
@@ -529,7 +550,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 25, 7:54pm",
-          "message": "can we not get competitive about who read what 😂 the point is we all engage with it differently and that's beautiful right? 📚",
+          "message": "can we not get competitive about who read what \ud83d\ude02 the point is we all engage with it differently and that's beautiful right? \ud83d\udcda",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s04_t003",
@@ -565,7 +586,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Aug 25, 8:07pm",
-          "message": "Tea before next meeting? everyone sounds one note away from murder 😂",
+          "message": "Tea before next meeting? everyone sounds one note away from murder \ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s04_t006",
@@ -596,7 +617,14 @@
           "timestamp": "2025-08-25T20:16:00"
         }
       ],
-      "date": "2025-08-25"
+      "date": "2025-08-25",
+      "active_participants": [
+        "p_bk8e5f6a7",
+        "p_bk8d4e5f6",
+        "p_bk8a1b2c3",
+        "p_bk8c3d4e5",
+        "p_bk8b2c3d4"
+      ]
     },
     {
       "session_id": "grp_8b9c0d1e_s05",
@@ -626,7 +654,7 @@
           "speaker_persona_id": "p_bk8d4e5f6",
           "speaker_display_name": "Blessing",
           "timestamp_label": "Sep 1, 9:08pm",
-          "message": "That's the most generous thing you've ever said to me Harriet 😂 I'll take it.",
+          "message": "That's the most generous thing you've ever said to me Harriet \ud83d\ude02 I'll take it.",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s05_t000",
@@ -638,7 +666,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Sep 1, 9:13pm",
-          "message": "Blessing you are brilliant and the rest of us know it even when Harriet needs reminding 😂🥂 can we talk about next pick?",
+          "message": "Blessing you are brilliant and the rest of us know it even when Harriet needs reminding \ud83d\ude02\ud83e\udd42 can we talk about next pick?",
           "message_index": 3,
           "planted_challenges": [
             {
@@ -675,7 +703,7 @@
           "speaker_persona_id": "p_bk8b2c3d4",
           "speaker_display_name": "Nadia",
           "timestamp_label": "Sep 1, 9:21pm",
-          "message": "So whose turn actually is it before Harriet appoints herself again 😂",
+          "message": "So whose turn actually is it before Harriet appoints herself again \ud83d\ude02",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_8b9c0d1e_s05_t003",
@@ -742,7 +770,14 @@
           "timestamp": "2025-09-01T21:44:00"
         }
       ],
-      "date": "2025-09-01"
+      "date": "2025-09-01",
+      "active_participants": [
+        "p_bk8a1b2c3",
+        "p_bk8d4e5f6",
+        "p_bk8b2c3d4",
+        "p_bk8c3d4e5",
+        "p_bk8e5f6a7"
+      ]
     }
   ],
   "total_turns": 50,
@@ -750,32 +785,80 @@
     {
       "challenge_id": "ch_bk8s1c1",
       "session_index": 1,
-      "turn_id": "grp_8b9c0d1e_s01_t005"
+      "turn_id": "grp_8b9c0d1e_s01_t005",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_bk8b2c3d4",
+      "speaker_persona_id": "p_bk8b2c3d4",
+      "fact_attribute": "non_reader_camouflage",
+      "fact_value": "Nadia claims Blessing's interpretation was what she 'was going to say' \u2014 she didn't read the book fully and is borrowing Blessing's reading; she pivots immediately to logistics to change the subject",
+      "evidence_span": "I actually thought it was rather good. The ending felt earned to me, Harriet's reading resonates.",
+      "implicitness_level": 3,
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_bk8s2c1",
       "session_index": 2,
-      "turn_id": "grp_8b9c0d1e_s02_t001"
+      "turn_id": "grp_8b9c0d1e_s02_t001",
+      "challenge_type": "norm_violation",
+      "subject_persona_id": "p_bk8a1b2c3",
+      "speaker_persona_id": "p_bk8a1b2c3",
+      "fact_attribute": "book_selection_veto",
+      "fact_value": "Harriet dismisses Nadia's pick as 'holiday reading' and proposes an alternative \u2014 effectively vetoing the rotation norm",
+      "evidence_span": "That's holiday reading, Nadia. What about the new Sally Rooney?",
+      "implicitness_level": 2,
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_bk8s3c1",
       "session_index": 3,
-      "turn_id": "grp_8b9c0d1e_s03_t003"
+      "turn_id": "grp_8b9c0d1e_s03_t003",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_bk8d4e5f6",
+      "speaker_persona_id": "p_bk8d4e5f6",
+      "fact_attribute": "dissent_confidence",
+      "fact_value": "Blessing now presents her interpretations with professional authority and directly rebuts Harriet's dismissals rather than retreating",
+      "evidence_span": "I appreciate the reading, Blessing, but I do think that misses the point. The novel is operating on a specific register of Irish social mobility that you need the context to get.",
+      "implicitness_level": 2,
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_bk8s3c2",
       "session_index": 3,
-      "turn_id": "grp_8b9c0d1e_s03_t005"
+      "turn_id": "grp_8b9c0d1e_s03_t005",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "p_bk8b2c3d4",
+      "speaker_persona_id": "p_bk8c3d4e5",
+      "fact_attribute": "nadia_non_reading_known_by_tomasz",
+      "fact_value": "Tomasz asks Nadia a specific page-reference question, implying he knows she doesn't read the full book and is testing her or revealing her vagueness",
+      "evidence_span": "Do you mean the section from page 147 onwards? Or the chapter break at 189?",
+      "implicitness_level": 3,
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_bk8s4c1",
       "session_index": 4,
-      "turn_id": "grp_8b9c0d1e_s04_t000"
+      "turn_id": "grp_8b9c0d1e_s04_t000",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_bk8e5f6a7",
+      "speaker_persona_id": "p_bk8e5f6a7",
+      "fact_attribute": "defensive_about_readings",
+      "fact_value": "Graham takes criticism of books he championed personally and follows up the next day in the chat to defend his reading \u2014 he does not let perceived dismissals go",
+      "evidence_span": "I've been thinking about last night. The dismissal of my reading of the first chapter as 'surface' was a bit much. I actually thought it was rather good, the ambiguity is the point from the very first page.",
+      "implicitness_level": 2,
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_bk8s5c1",
       "session_index": 5,
-      "turn_id": "grp_8b9c0d1e_s05_t002"
+      "turn_id": "grp_8b9c0d1e_s05_t002",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "p_bk8d4e5f6",
+      "speaker_persona_id": "p_bk8b2c3d4",
+      "fact_attribute": "nadia_blessing_friendship",
+      "fact_value": "Nadia and Blessing are the closest pair in the group outside Harriet's founding relationship with Nadia; Nadia publicly champions Blessing against Harriet",
+      "evidence_span": "Blessing you are brilliant and the rest of us know it even when Harriet needs reminding",
+      "implicitness_level": 2,
+      "turn_index": 3
     }
   ],
   "start_date": "2025-08-04"

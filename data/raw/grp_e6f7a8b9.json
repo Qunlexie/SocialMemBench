@@ -11,12 +11,24 @@
       "age": 34,
       "gender": "female",
       "occupation": "Physiotherapist, NHS outpatient clinic",
-      "background": "Grew up in Birmingham, moved to Leeds for university, stayed. Has been running for seven years, started with parkrun and worked up to trail running. Naturally sociable and enthusiastic — she tends to be the one who organises social events and checks in on people. Works long clinic hours but protects Sunday mornings fiercely.",
+      "background": "Grew up in Birmingham, moved to Leeds for university, stayed. Has been running for seven years, started with parkrun and worked up to trail running. Naturally sociable and enthusiastic \u2014 she tends to be the one who organises social events and checks in on people. Works long clinic hours but protects Sunday mornings fiercely.",
       "skills_list": [
-        {"skill": "running form coaching", "proficiency": "strong"},
-        {"skill": "injury prevention and rehab advice", "proficiency": "strong"},
-        {"skill": "route scouting", "proficiency": "medium"},
-        {"skill": "motivating others mid-run", "proficiency": "strong"}
+        {
+          "skill": "running form coaching",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "injury prevention and rehab advice",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "route scouting",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "motivating others mid-run",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -35,10 +47,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "post-run brunch over pub — prefers eggs and coffee to a pint", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers routes with a clear summit or destination over loops", "confidence": "High", "implicit": true}],
-        "social": [{"value": "enjoys the group coffee stop more than the run itself sometimes", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "prefers organised races over casual group runs — needs a goal to train toward", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "post-run brunch over pub \u2014 prefers eggs and coffee to a pint",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers routes with a clear summit or destination over loops",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys the group coffee stop more than the run itself sometimes",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers organised races over casual group runs \u2014 needs a goal to train toward",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -47,7 +83,7 @@
           "old_value": "10-15km comfortable distance",
           "new_value": "half marathon training distances (18-22km)",
           "changed_at_session": 4,
-          "trigger": "Signed up for a half marathon after Cass's challenge — the target changed her training mindset entirely"
+          "trigger": "Signed up for a half marathon after Cass's challenge \u2014 the target changed her training mindset entirely"
         }
       ],
       "speaking_quirks": [
@@ -63,12 +99,24 @@
       "age": 38,
       "gender": "male",
       "occupation": "Secondary school PE teacher and cross-country coach",
-      "background": "From Sheffield, always been sporty — rugby through school, switched to running in his late twenties after a knee injury ruled out contact sport. Competitive by instinct but tries to mask it in group settings. Has been with the Ridgeline Runners since near the beginning. Practical, no-fuss communicator.",
+      "background": "From Sheffield, always been sporty \u2014 rugby through school, switched to running in his late twenties after a knee injury ruled out contact sport. Competitive by instinct but tries to mask it in group settings. Has been with the Ridgeline Runners since near the beginning. Practical, no-fuss communicator.",
       "skills_list": [
-        {"skill": "interval and tempo training", "proficiency": "strong"},
-        {"skill": "map reading and navigation", "proficiency": "strong"},
-        {"skill": "pace-setting for groups", "proficiency": "medium"},
-        {"skill": "kit and gear advice", "proficiency": "medium"}
+        {
+          "skill": "interval and tempo training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "map reading and navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "pace-setting for groups",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "kit and gear advice",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -87,19 +135,43 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "post-run pub rather than cafe — a pint is non-negotiable after 15km+", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers technical trails with elevation over flat routes — bores easily on tarmac", "confidence": "High", "implicit": true}],
-        "social": [{"value": "would rather talk times and segments than personal life on runs", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "sceptical of running tech — relies on feel over gadgets", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "post-run pub rather than cafe \u2014 a pint is non-negotiable after 15km+",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers technical trails with elevation over flat routes \u2014 bores easily on tarmac",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "would rather talk times and segments than personal life on runs",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "sceptical of running tech \u2014 relies on feel over gadgets",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "training",
           "attribute": "pacing strategy",
           "old_value": "goes out hard, fades in the second half",
-          "new_value": "negative splits — deliberately holds back early and builds",
+          "new_value": "negative splits \u2014 deliberately holds back early and builds",
           "changed_at_session": 6,
-          "trigger": "Listened to an endurance coaching podcast while recovering from a cold — changed how he thinks about effort distribution"
+          "trigger": "Listened to an endurance coaching podcast while recovering from a cold \u2014 changed how he thinks about effort distribution"
         }
       ],
       "speaking_quirks": [
@@ -115,12 +187,24 @@
       "age": 31,
       "gender": "female",
       "occupation": "UX designer at a fintech startup",
-      "background": "Japanese-British, grew up in London, moved to Leeds three years ago for a job. Joined the group as a way to meet people outside work. Quiet and observant; says less but means more. Runs efficiently and quietly — rarely the fastest but almost never drops out. Dislikes crowds and prolonged social obligations but values this group specifically.",
+      "background": "Japanese-British, grew up in London, moved to Leeds three years ago for a job. Joined the group as a way to meet people outside work. Quiet and observant; says less but means more. Runs efficiently and quietly \u2014 rarely the fastest but almost never drops out. Dislikes crowds and prolonged social obligations but values this group specifically.",
       "skills_list": [
-        {"skill": "pacing and race strategy", "proficiency": "strong"},
-        {"skill": "route data analysis (Strava, elevation profiles)", "proficiency": "strong"},
-        {"skill": "navigation via GPS", "proficiency": "medium"},
-        {"skill": "stretching and yoga", "proficiency": "medium"}
+        {
+          "skill": "pacing and race strategy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "route data analysis (Strava, elevation profiles)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "navigation via GPS",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "stretching and yoga",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -139,10 +223,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "skips post-run social stops — prefers going straight home to eat and decompress", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers solo or small-group runs over the full group — less noise, more focus", "confidence": "High", "implicit": true}],
-        "social": [{"value": "values the group but finds the post-run social time draining rather than restorative", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "takes trail running very seriously — studies routes in advance and does not like improvising", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "skips post-run social stops \u2014 prefers going straight home to eat and decompress",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers solo or small-group runs over the full group \u2014 less noise, more focus",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values the group but finds the post-run social time draining rather than restorative",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "takes trail running very seriously \u2014 studies routes in advance and does not like improvising",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -151,13 +259,13 @@
           "old_value": "road shoes on all terrain",
           "new_value": "proper trail shoes with grip for wet and technical ground",
           "changed_at_session": 3,
-          "trigger": "Slipped badly on a wet descent during session 3's run — bought trail shoes that week"
+          "trigger": "Slipped badly on a wet descent during session 3's run \u2014 bought trail shoes that week"
         }
       ],
       "speaking_quirks": [
         "responds with single complete sentences ending in full stops",
         "never uses exclamation marks or emoji",
-        "uses precise technical vocabulary — 'descent,' 'elevation gain,' 'cadence' — even in casual messages"
+        "uses precise technical vocabulary \u2014 'descent,' 'elevation gain,' 'cadence' \u2014 even in casual messages"
       ],
       "participation_rate": 1.0
     },
@@ -167,12 +275,24 @@
       "age": 42,
       "gender": "male",
       "occupation": "Freelance investigative journalist",
-      "background": "Grew up in Bristol, has lived all over the place for work, settled in Leeds five years ago. Came to running late — started at 38 as stress relief between assignments. Opinionated and articulate, tends to hold court at post-run stops. Appreciates the discipline of running but is not particularly competitive about times — he runs to think.",
+      "background": "Grew up in Bristol, has lived all over the place for work, settled in Leeds five years ago. Came to running late \u2014 started at 38 as stress relief between assignments. Opinionated and articulate, tends to hold court at post-run stops. Appreciates the discipline of running but is not particularly competitive about times \u2014 he runs to think.",
       "skills_list": [
-        {"skill": "storytelling and route description", "proficiency": "strong"},
-        {"skill": "long-distance endurance pacing", "proficiency": "medium"},
-        {"skill": "nutrition and fuelling strategy", "proficiency": "medium"},
-        {"skill": "photography on the trail", "proficiency": "medium"}
+        {
+          "skill": "storytelling and route description",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "long-distance endurance pacing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "nutrition and fuelling strategy",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "photography on the trail",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -191,10 +311,34 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "pub stop after long runs — passionate about real ale and proper food", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers scenic routes with interesting terrain over pure speed routes", "confidence": "High", "implicit": true}],
-        "social": [{"value": "enjoys post-run conversation as much as the run — sometimes more", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "suspicious of wearable tech that gamifies running — prefers to run by feel and scenery", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "pub stop after long runs \u2014 passionate about real ale and proper food",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers scenic routes with interesting terrain over pure speed routes",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys post-run conversation as much as the run \u2014 sometimes more",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "suspicious of wearable tech that gamifies running \u2014 prefers to run by feel and scenery",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -203,7 +347,7 @@
           "old_value": "pub pint immediately after any run over 12km",
           "new_value": "electrolytes and food first, then pub if the group is staying",
           "changed_at_session": 5,
-          "trigger": "Bad cramping episode mid-run in session 4 — Nadia identified poor recovery nutrition as the likely cause"
+          "trigger": "Bad cramping episode mid-run in session 4 \u2014 Nadia identified poor recovery nutrition as the likely cause"
         }
       ],
       "speaking_quirks": [
@@ -219,12 +363,24 @@
       "age": 29,
       "gender": "female",
       "occupation": "Primary school teacher, Year 4",
-      "background": "From Leeds originally, never left. Joined the running group two years ago after a colleague recommended it. The social glue of the group — always remembers birthdays, checks in after difficult runs, organises the WhatsApp polls. Competitive but self-deprecating about it. Has a habit of talking too much when nervous, especially on climbs.",
+      "background": "From Leeds originally, never left. Joined the running group two years ago after a colleague recommended it. The social glue of the group \u2014 always remembers birthdays, checks in after difficult runs, organises the WhatsApp polls. Competitive but self-deprecating about it. Has a habit of talking too much when nervous, especially on climbs.",
       "skills_list": [
-        {"skill": "group morale and motivation", "proficiency": "strong"},
-        {"skill": "uphill running", "proficiency": "medium"},
-        {"skill": "event and social organisation", "proficiency": "strong"},
-        {"skill": "parkrun volunteering and marshalling", "proficiency": "medium"}
+        {
+          "skill": "group morale and motivation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "uphill running",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "event and social organisation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "parkrun volunteering and marshalling",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -243,10 +399,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "cafe brunch over pub — specifically likes a good flat white and avocado toast", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers running with company over solo — finds motivation drops significantly alone", "confidence": "High", "implicit": true}],
-        "social": [{"value": "values the post-run coffee just as much as the run itself", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "enjoys signing up for group races more than individual ones — the shared experience matters more than the result", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "cafe brunch over pub \u2014 specifically likes a good flat white and avocado toast",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers running with company over solo \u2014 finds motivation drops significantly alone",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values the post-run coffee just as much as the run itself",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "enjoys signing up for group races more than individual ones \u2014 the shared experience matters more than the result",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -255,13 +435,13 @@
           "old_value": "one group run per month was enough",
           "new_value": "two Sundays plus one midweek run per month",
           "changed_at_session": 2,
-          "trigger": "Enjoyed the first midweek run so much it reset her expectations — the smaller group and midweek timing suited her"
+          "trigger": "Enjoyed the first midweek run so much it reset her expectations \u2014 the smaller group and midweek timing suited her"
         }
       ],
       "speaking_quirks": [
         "uses 'haha' mid-sentence even when only mildly amused",
         "often ends messages with a question to keep the conversation going",
-        "uses 'we' even when describing personal achievements — 'we smashed that climb'"
+        "uses 'we' even when describing personal achievements \u2014 'we smashed that climb'"
       ],
       "participation_rate": 1.0
     },
@@ -271,12 +451,24 @@
       "age": 45,
       "gender": "male",
       "occupation": "GP, partner at a Leeds practice",
-      "background": "From Edinburgh, moved to Leeds for medical school, stayed. Took up running in his late thirties as a cardiovascular maintenance activity — very honest with himself that it is health-motivated rather than passion-driven. Precise and measured in everything he does, including running. Sometimes gives unsolicited medical context that the group finds either reassuring or patronising depending on the day.",
+      "background": "From Edinburgh, moved to Leeds for medical school, stayed. Took up running in his late thirties as a cardiovascular maintenance activity \u2014 very honest with himself that it is health-motivated rather than passion-driven. Precise and measured in everything he does, including running. Sometimes gives unsolicited medical context that the group finds either reassuring or patronising depending on the day.",
       "skills_list": [
-        {"skill": "injury assessment and triage", "proficiency": "strong"},
-        {"skill": "cardiovascular training theory", "proficiency": "strong"},
-        {"skill": "consistent pacing", "proficiency": "medium"},
-        {"skill": "nutrition science basics", "proficiency": "medium"}
+        {
+          "skill": "injury assessment and triage",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cardiovascular training theory",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "consistent pacing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "nutrition science basics",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -295,19 +487,43 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "tends to skip the post-run pub stop on medical grounds — avoids alcohol after long efforts", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers consistent aerobic effort over intervals — dislikes erratic pace variation", "confidence": "High", "implicit": true}],
-        "social": [{"value": "appreciates the group but rarely initiates social contact outside of runs", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "uses a heart rate monitor religiously — trains strictly by zones", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "tends to skip the post-run pub stop on medical grounds \u2014 avoids alcohol after long efforts",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers consistent aerobic effort over intervals \u2014 dislikes erratic pace variation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "appreciates the group but rarely initiates social contact outside of runs",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "uses a heart rate monitor religiously \u2014 trains strictly by zones",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "training",
           "attribute": "post-run recovery routine",
-          "old_value": "skips stretching — always too tired or rushed",
+          "old_value": "skips stretching \u2014 always too tired or rushed",
           "new_value": "10-minute post-run stretch is now non-negotiable",
           "changed_at_session": 7,
-          "trigger": "Developed a minor hamstring strain he'd been dismissing — finally took Nadia's advice seriously"
+          "trigger": "Developed a minor hamstring strain he'd been dismissing \u2014 finally took Nadia's advice seriously"
         }
       ],
       "speaking_quirks": [
@@ -326,7 +542,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Nadia and Tom started the Ridgeline Runners together three years ago after meeting at a parkrun. They share the WhatsApp admin duties and generally agree on routes and logistics, though Tom is more competitive and Nadia more social.",
-      "shared_events": ["founding the group", "first trail half-marathon together", "weekly route planning calls"]
+      "shared_events": [
+        "founding the group",
+        "first trail half-marathon together",
+        "weekly route planning calls"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a801",
@@ -335,7 +555,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Nadia recruited Yuki after seeing her at a parkrun and noticing her efficient form. They occasionally do mid-week runs together in smaller groups. Nadia appreciates Yuki's focus; Yuki appreciates Nadia's practical injury advice.",
-      "shared_events": ["first trail route together", "midweek hill sessions"]
+      "shared_events": [
+        "first trail route together",
+        "midweek hill sessions"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a801",
@@ -343,8 +566,11 @@
       "relationship_type": "friends within the group",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Rafe and Nadia get on well — they both enjoy the social side of running and often end up sitting together at post-run stops. Nadia helped Rafe when he had cramping issues on a long run.",
-      "shared_events": ["long coastal run trip", "post-run pub conversations"]
+      "history_summary": "Rafe and Nadia get on well \u2014 they both enjoy the social side of running and often end up sitting together at post-run stops. Nadia helped Rafe when he had cramping issues on a long run.",
+      "shared_events": [
+        "long coastal run trip",
+        "post-run pub conversations"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a801",
@@ -352,8 +578,12 @@
       "relationship_type": "close friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Cass and Nadia have become close friends beyond running — they occasionally meet for coffee outside the group. Cass sees Nadia as the group's emotional centre; Nadia sees Cass as easy, uncomplicated company.",
-      "shared_events": ["half marathon sign-up pact", "group birthday dinners", "race day support"]
+      "history_summary": "Cass and Nadia have become close friends beyond running \u2014 they occasionally meet for coffee outside the group. Cass sees Nadia as the group's emotional centre; Nadia sees Cass as easy, uncomplicated company.",
+      "shared_events": [
+        "half marathon sign-up pact",
+        "group birthday dinners",
+        "race day support"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a801",
@@ -362,7 +592,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Nadia and Leo have a collegial warmth based on both working in healthcare. They occasionally discuss running injuries from a professional standpoint but are not socially close outside the group.",
-      "shared_events": ["injury assessment discussions on the trail", "group Christmas run"]
+      "shared_events": [
+        "injury assessment discussions on the trail",
+        "group Christmas run"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a802",
@@ -371,7 +604,9 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Tom and Yuki have never spent much time together one-on-one. They run at a similar pace on technical terrain but have little else in common conversationally. Tom finds her quietness a bit hard to read; she finds his bluntness occasionally abrasive.",
-      "shared_events": ["group routes only"]
+      "shared_events": [
+        "group routes only"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a802",
@@ -379,8 +614,11 @@
       "relationship_type": "friendly sparring partners",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Tom and Rafe enjoy trading opinions — Tom thinks Rafe overcomplicates everything, Rafe thinks Tom is too narrowly focused on times. The friction is mostly good-natured.",
-      "shared_events": ["competitive Strava segment battles", "post-run pub debates"]
+      "history_summary": "Tom and Rafe enjoy trading opinions \u2014 Tom thinks Rafe overcomplicates everything, Rafe thinks Tom is too narrowly focused on times. The friction is mostly good-natured.",
+      "shared_events": [
+        "competitive Strava segment battles",
+        "post-run pub debates"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a802",
@@ -388,8 +626,11 @@
       "relationship_type": "familiar group members",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Tom and Cass are friendly but not particularly close — Cass occasionally teases Tom about his competitive nature; Tom tolerates it with a dry grin.",
-      "shared_events": ["group intervals session", "race support volunteering"]
+      "history_summary": "Tom and Cass are friendly but not particularly close \u2014 Cass occasionally teases Tom about his competitive nature; Tom tolerates it with a dry grin.",
+      "shared_events": [
+        "group intervals session",
+        "race support volunteering"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a802",
@@ -398,7 +639,10 @@
       "closeness": "Medium",
       "sentiment": "neutral",
       "history_summary": "Tom and Leo share a no-nonsense communication style and mutual respect, but neither seeks the other out socially. They occasionally exchange brief technical notes about training.",
-      "shared_events": ["group navigation session", "winter training runs"]
+      "shared_events": [
+        "group navigation session",
+        "winter training runs"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a803",
@@ -406,8 +650,10 @@
       "relationship_type": "polite but distant",
       "closeness": "Low",
       "sentiment": "neutral",
-      "history_summary": "Yuki and Rafe have little in common — she is quiet and data-focused, he is verbose and social. They are perfectly civil but would not choose to run together without the group.",
-      "shared_events": ["group runs only"]
+      "history_summary": "Yuki and Rafe have little in common \u2014 she is quiet and data-focused, he is verbose and social. They are perfectly civil but would not choose to run together without the group.",
+      "shared_events": [
+        "group runs only"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a803",
@@ -415,8 +661,11 @@
       "relationship_type": "friendly group members",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Cass has made an effort with Yuki and they have a warm dynamic on runs — Cass chats; Yuki listens and occasionally responds with a dry observation that Cass finds funny.",
-      "shared_events": ["midweek runs", "post-run cafe stops"]
+      "history_summary": "Cass has made an effort with Yuki and they have a warm dynamic on runs \u2014 Cass chats; Yuki listens and occasionally responds with a dry observation that Cass finds funny.",
+      "shared_events": [
+        "midweek runs",
+        "post-run cafe stops"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a803",
@@ -424,8 +673,10 @@
       "relationship_type": "mutually reserved professionals",
       "closeness": "Low",
       "sentiment": "neutral",
-      "history_summary": "Yuki and Leo have the least interaction in the group — both are introverted, both arrive and depart efficiently. They occasionally exchange data-related notes (elevation, heart rate zones) via the group chat.",
-      "shared_events": ["group runs only"]
+      "history_summary": "Yuki and Leo have the least interaction in the group \u2014 both are introverted, both arrive and depart efficiently. They occasionally exchange data-related notes (elevation, heart rate zones) via the group chat.",
+      "shared_events": [
+        "group runs only"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a804",
@@ -433,8 +684,12 @@
       "relationship_type": "warm group friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Rafe and Cass enjoy each other's company a lot — they are both social, warm, and talkative. They tend to fall to the back of the group on long climbs and chat the whole way up.",
-      "shared_events": ["long training runs", "post-run pub days", "group trip planning"]
+      "history_summary": "Rafe and Cass enjoy each other's company a lot \u2014 they are both social, warm, and talkative. They tend to fall to the back of the group on long climbs and chat the whole way up.",
+      "shared_events": [
+        "long training runs",
+        "post-run pub days",
+        "group trip planning"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a804",
@@ -442,8 +697,11 @@
       "relationship_type": "occasionally tense",
       "closeness": "Medium",
       "sentiment": "mixed",
-      "history_summary": "Rafe and Leo have a recurring mild friction — Leo sometimes offers medical or nutritional notes that Rafe interprets as unsolicited lecturing. Rafe's more expansive, intuitive approach to running irritates Leo's precision-oriented style. They are cordial but occasionally pointed with each other.",
-      "shared_events": ["group runs", "post-run discussions where they disagree on training philosophy"]
+      "history_summary": "Rafe and Leo have a recurring mild friction \u2014 Leo sometimes offers medical or nutritional notes that Rafe interprets as unsolicited lecturing. Rafe's more expansive, intuitive approach to running irritates Leo's precision-oriented style. They are cordial but occasionally pointed with each other.",
+      "shared_events": [
+        "group runs",
+        "post-run discussions where they disagree on training philosophy"
+      ]
     },
     {
       "persona_a_id": "p_e6f7a805",
@@ -451,20 +709,25 @@
       "relationship_type": "friendly but different",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Cass finds Leo a bit serious but likes him — she occasionally tries to draw him into social conversation and he occasionally obliges with a dry observation. They get on better than their personalities suggest.",
-      "shared_events": ["group social events", "race day logistics"]
+      "history_summary": "Cass finds Leo a bit serious but likes him \u2014 she occasionally tries to draw him into social conversation and he occasionally obliges with a dry observation. They get on better than their personalities suggest.",
+      "shared_events": [
+        "group social events",
+        "race day logistics"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "Everyone does their own stretches and cool-down after a run — the group doesn't wait around as a unit",
+      "norm_text": "Everyone does their own stretches and cool-down after a run \u2014 the group doesn't wait around as a unit",
       "truly_universal": true,
       "dissenters": []
     },
     {
       "norm_text": "Post-run coffee or pub stop is the expected thing after longer Sunday runs",
       "truly_universal": false,
-      "dissenters": ["p_e6f7a803"]
+      "dissenters": [
+        "p_e6f7a803"
+      ]
     },
     {
       "norm_text": "Routes and start times go out in the group chat at least 48 hours before each run",
@@ -480,6 +743,10 @@
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "recreational",
+    "group_size": 6
   }
 }

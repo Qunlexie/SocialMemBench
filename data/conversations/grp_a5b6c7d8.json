@@ -317,7 +317,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a5b1c2d3",
+        "p_c5d3e4f5",
+        "p_b5c2d3e4",
+        "p_d5e4f5a6",
+        "p_e5f5a6b7",
+        "p_f5a6b7c8",
+        "p_b6c8d9e0",
+        "p_a6b7c8d9",
+        "p_c6d9e0f1"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s02",
@@ -634,7 +645,18 @@
       ],
       "prior_session_summary": "Session 1: Group planned Kestrel Ridge hike (first of autumn season) for Sep 28. Marcus proposed the route (480m gain, summit endpoint); Tomas immediately suggested a longer geological variant, which Marcus rejected -- surfacing co-founder route tension. All 9 members confirmed. Kwame asked about bringing a podcast mic (mixed reception). Priya introduced herself as Nadia's recruit. Nadia quietly noted it was 'still a day hike.' Saoirse asked specifically about technical terrain on descent.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b5c2d3e4",
+        "p_d5e4f5a6",
+        "p_a6b7c8d9",
+        "p_b6c8d9e0",
+        "p_a5b1c2d3",
+        "p_c5d3e4f5",
+        "p_f5a6b7c8",
+        "p_e5f5a6b7",
+        "p_c6d9e0f1"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s03",
@@ -976,7 +998,18 @@
       ],
       "prior_session_summary": "Session 2: Moorland Traverse completed. Dmitri quietly coached Priya on the gravel descent; Kwame revealed this mirrors Dmitri's mentoring style from when Kwame was his student. Post-hike venue went to the nearby coffee shop (Bridget's preference for proximity). Elena agreed but asked about hot food. Nadia commented it was 'still a day hike' (second implicit overnight preference signal). Dmitri gave an operational weather read for next Sunday. Elena surfaced the timed segment question for the Traverse.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_d5e4f5a6",
+        "p_b5c2d3e4",
+        "p_b6c8d9e0",
+        "p_c5d3e4f5",
+        "p_a5b1c2d3",
+        "p_f5a6b7c8",
+        "p_e5f5a6b7",
+        "p_c6d9e0f1",
+        "p_a6b7c8d9"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s04",
@@ -1268,7 +1301,18 @@
       ],
       "prior_session_summary": "Session 3: Moorland Traverse completed. Post-hike went to the packed coffee shop (crowded, loud). Elena immediately took action to switch to the Green Man pub for future sessions -- her first active venue advocacy (temporal shift). Group voted for High Crag circular over Marcus's out-and-back preference; Marcus conceded tersely (consensus trap). Tomas recalled the night hike where Marcus and Elena navigated alone in the dark, cementing their bond story. Saoirse asked about medical kit, Nadia and Dmitri confirmed PLB and personal kit.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_d5e4f5a6",
+        "p_c6d9e0f1",
+        "p_b5c2d3e4",
+        "p_a5b1c2d3",
+        "p_c5d3e4f5",
+        "p_f5a6b7c8",
+        "p_e5f5a6b7",
+        "p_b6c8d9e0",
+        "p_a6b7c8d9"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s05",
@@ -1584,7 +1628,18 @@
       ],
       "prior_session_summary": "Session 4: High Crag circular completed. Priya twisted her ankle on the Ridgeback descent; Saoirse assessed and cleared her. Marcus announced he would build rest stops into route plans going forward and pace to the slowest comfortable member -- a clear behavioural shift. Bridget flagged the 25-minute overrun. Tomas mentioned Bridget's old club route knowledge, surfacing the rivalry history. Elena booked the Green Man again. Cairn Ridge overnight first floated.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b6c8d9e0",
+        "p_c5d3e4f5",
+        "p_f5a6b7c8",
+        "p_a5b1c2d3",
+        "p_e5f5a6b7",
+        "p_d5e4f5a6",
+        "p_c6d9e0f1",
+        "p_a6b7c8d9",
+        "p_b5c2d3e4"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s06",
@@ -1901,7 +1956,18 @@
       ],
       "prior_session_summary": "Session 5: Fenwick Edge completed with Kwame's podcast audio segment (Tomas starring). Bridget recommended the rival club's western approach variant, reigniting the Tomas/Bridget route tension. Marcus floated Cairn Ridge overnight. Nadia offered to prepare a kit list and directed a question to Saoirse (newcomer warmth shift). Dmitri deflected Kwame's group debrief circle proposal with a terse 'Noted' -- his clearest debrief aversion signal yet. Priya asked for a descent-focused route for practice. Group aligned on Greystone Loop for next Sunday.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_d5e4f5a6",
+        "p_b5c2d3e4",
+        "p_b6c8d9e0",
+        "p_a5b1c2d3",
+        "p_c5d3e4f5",
+        "p_e5f5a6b7",
+        "p_f5a6b7c8",
+        "p_a6b7c8d9",
+        "p_c6d9e0f1"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s07",
@@ -2242,7 +2308,18 @@
       ],
       "prior_session_summary": "Session 6: Greystone Loop completed. Tomas formally conceded route planning division to Marcus, referencing the old car park argument directly. Marcus accepted and opened the Cairn Ridge overnight planning thread. Bridget sent three-bullet logistics questions; Dmitri answered them crisply. Cairn Ridge overnight confirmed for November 15-16. Nadia sent the overnight kit list. Kwame promised to read it this time. Saoirse asked about crampon requirements (technical terrain preference visible again). Group mood high heading into the overnight.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b6c8d9e0",
+        "p_b5c2d3e4",
+        "p_f5a6b7c8",
+        "p_a5b1c2d3",
+        "p_c5d3e4f5",
+        "p_d5e4f5a6",
+        "p_e5f5a6b7",
+        "p_a6b7c8d9",
+        "p_c6d9e0f1"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s08",
@@ -2532,7 +2609,18 @@
       ],
       "prior_session_summary": "Session 7: Cairn Ridge overnight debrief. Bridget received genuine praise from Elena and Tomas for logistics management -- her first warm exchange with founding members, signalling her integration shift. Marcus accepted Bridget's collaboration acknowledgement directly. Kwame settled the cost split. Tomas offered to do ecology notes alongside Marcus's route sheet for Bracken Tor, using the new division model. Priya announced she had solo'd High Crag descent and was actively seeking more steep sections. Saoirse said the north face 'switches everything off.' Group confirmed Bracken Tor for next Sunday.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b5c2d3e4",
+        "p_a5b1c2d3",
+        "p_b6c8d9e0",
+        "p_e5f5a6b7",
+        "p_f5a6b7c8",
+        "p_c5d3e4f5",
+        "p_d5e4f5a6",
+        "p_c6d9e0f1",
+        "p_a6b7c8d9"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s09",
@@ -2836,7 +2924,18 @@
       ],
       "prior_session_summary": "Session 8: Bracken Tor with optional steep spur variant. Kwame turned up without waterproofs on a rain-forecast day and borrowed Nadia's emergency layer -- felt genuinely embarrassed and committed to a kit checklist. Elena noticed Marcus's timed segment PR (8:21) and began tracking her own splits. Saoirse flagged a mild blood sugar dip in one group member and treated it; raised the need for earlier medical info in planning. Priya confirmed enthusiasm for steep variants, Elena dubbed her 'a steep-descent person.' Ridgeback out-and-back confirmed for next Sunday with timed segment on route sheet.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b5c2d3e4",
+        "p_b6c8d9e0",
+        "p_a5b1c2d3",
+        "p_c5d3e4f5",
+        "p_d5e4f5a6",
+        "p_c6d9e0f1",
+        "p_e5f5a6b7",
+        "p_a6b7c8d9",
+        "p_f5a6b7c8"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s10",
@@ -3127,7 +3226,18 @@
       ],
       "prior_session_summary": "Session 9: Ridgeback out-and-back. Elena missed Marcus's timed segment PR by 3 seconds and announced she was now tracking splits systematically, proposing a second timed segment on the lower return path. Kwame arrived with his waterproofs for the first time. Saoirse proactively posted a medical prep request to the planning thread before Thursday, flagging the need for health constraints info earlier. Dmitri endorsed the five-hour outing length. Group confirmed Stoneford Ridge for next Sunday with Elena's new timed segments on the route sheet.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_d5e4f5a6",
+        "p_b5c2d3e4",
+        "p_a5b1c2d3",
+        "p_e5f5a6b7",
+        "p_b6c8d9e0",
+        "p_f5a6b7c8",
+        "p_a6b7c8d9",
+        "p_c5d3e4f5",
+        "p_c6d9e0f1"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s11",
@@ -3418,7 +3528,18 @@
       ],
       "prior_session_summary": "Session 10: Stoneford Ridge, 640m. Priya ran the west face descent confidently and declared herself 'a steep-descent person.' Nadia immediately proposed the bothy continuation of Stoneford for the next overnight, sharing bothy capacity and offering to send a kit list. Bridget raised the shared accommodation concern implicitly. Dmitri endorsed the bothy idea tersely. Marcus agreed to do the route sheet while Nadia handles logistics. Saoirse asked about medical kit space at the bothy. Elena proposed adding a timed segment on the approach. Group confirmed Harrow Fen for Session 11 as a recovery week before the bothy trip.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b6c8d9e0",
+        "p_c5d3e4f5",
+        "p_a6b7c8d9",
+        "p_e5f5a6b7",
+        "p_d5e4f5a6",
+        "p_f5a6b7c8",
+        "p_b5c2d3e4",
+        "p_a5b1c2d3",
+        "p_c6d9e0f1"
+      ]
     },
     {
       "session_id": "grp_a5b6c7d8_s12",
@@ -3684,7 +3805,18 @@
       ],
       "prior_session_summary": "Session 11: Harrow Fen recovery walk. Dmitri explicitly stated the group should do more overnights -- a notable shift from passive participation to active advocacy, drawing on the Cairn Ridge experience. Nadia confirmed the Stoneford bothy trip for December 13-14 and offered to start research for a spring three-nighter. Bridget provisionally confirmed but flagged the shared accommodation issue. Elena mapped two timed segments for the bothy approach. Kwame and Dmitri both confirmed they'd carry kit for the three-nighter. Priya requested steep descents be included in the spring plan. Tomas recalled the early two-day trips with Marcus and endorsed the overnight direction.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b6c8d9e0",
+        "p_b5c2d3e4",
+        "p_a5b1c2d3",
+        "p_e5f5a6b7",
+        "p_a6b7c8d9",
+        "p_d5e4f5a6",
+        "p_f5a6b7c8",
+        "p_c5d3e4f5",
+        "p_c6d9e0f1"
+      ]
     }
   ],
   "total_turns": 255,
@@ -3699,7 +3831,7 @@
       "evidence_span": "Kestrel Ridge is fine but you're missing the best bit -- past the limestone pavement on the north spur",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -3711,7 +3843,7 @@
       "evidence_span": "The Kestrel Ridge route hits a flat section around the 3km mark -- scenic, easy walking. It terminates at the summit cairn, so there's a proper end point.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -3723,7 +3855,7 @@
       "evidence_span": "Marcus and I started this whole thing after a Duke of Edinburgh alumni evening where we realised we'd both been walking these same hills separately for years",
       "implicitness_level": 1,
       "session_index": 1,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -3735,7 +3867,7 @@
       "evidence_span": "Day hike though -- feels a bit short for that terrain.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -3747,7 +3879,7 @@
       "evidence_span": "he did the same to me on my first proper ridge walk like ten years ago",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -3759,7 +3891,7 @@
       "evidence_span": "Moorland Traverse has a good weather window this time of year. Still a day hike though.",
       "implicitness_level": 3,
       "session_index": 2,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -3771,7 +3903,7 @@
       "evidence_span": "Visibility will hold above 500m until at least 15:00 next Sunday if the forecast doesn't shift.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -3783,7 +3915,7 @@
       "evidence_span": "Saoirse -- you were quiet on the ridge, how are the legs after the shift? You said you'd barely slept before joining us today right?",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_a3b4c5d6",
@@ -3795,7 +3927,7 @@
       "evidence_span": "I've already looked up the Green Man for next week. It does food, good stair access, quieter on Sundays. I'll book a table for the group",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -3807,7 +3939,7 @@
       "evidence_span": "Priya, did you get any shots of it? You're usually our photographer",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -3819,7 +3951,7 @@
       "evidence_span": "High Crag circular is a loop. I'd rather do the out-and-back via the eastern approach -- there's a proper summit. Same hill, better finish.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_d6e7f8a9",
@@ -3831,7 +3963,7 @@
       "evidence_span": "Fine. Circular it is. I'll send the route sheet.",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -3843,7 +3975,7 @@
       "evidence_span": "you and Marcus basically navigated us home in the dark after half the group didn't fancy the headtorch descent",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -3855,7 +3987,7 @@
       "evidence_span": "Going forward I'll build rest stops into the plan and we move at the slowest comfortable speed.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_a9b0c1d2",
@@ -3867,7 +3999,7 @@
       "evidence_span": "I had a commitment at 4pm and we finished 25 minutes late because of the unplanned stop at the descent.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_b0c1d2e3",
@@ -3879,7 +4011,7 @@
       "evidence_span": "The old club Bridget came from used to do that route regularly actually, isn't that right?",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -3891,7 +4023,7 @@
       "evidence_span": "the western approach is better managed and two kilometres shorter. We used that version in the old club.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -3903,7 +4035,7 @@
       "evidence_span": "I'll put one together. Saoirse -- first time for you too?",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -3915,7 +4047,7 @@
       "evidence_span": "Noted.",
       "implicitness_level": 3,
       "session_index": 5,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -3927,7 +4059,7 @@
       "evidence_span": "The north face approach is yours -- you know that terrain better than anyone. I'll take the lower ridge section and the waypoints through the peat.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -3939,7 +4071,7 @@
       "evidence_span": "45 minutes arguing over the same 200m of contour line. The group hadn't even arrived yet.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b6c7d8e9",
@@ -3951,7 +4083,7 @@
       "evidence_span": "Marcus had a laminated elevation map in a waterproof sleeve and I had a hand-drawn sketch from memory. He was correct and I was wrong on the contour interval but neither of us admitted it at the time.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_c7d8e9f0",
@@ -3963,7 +4095,7 @@
       "evidence_span": "Is the north face technical enough to need crampons or just good boots?",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_d8e9f0a1",
@@ -3975,7 +4107,7 @@
       "evidence_span": "Marcus, the route sheet was thorough -- made my planning straightforward. Good collaboration on this one.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_e9f0a1b2",
@@ -3987,7 +4119,7 @@
       "evidence_span": "Bridget, genuinely well done on the overnight.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_f0a1b2c3",
@@ -3999,7 +4131,7 @@
       "evidence_span": "Genuinely the kind of route that switches everything off. Could've done that section twice.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_a1b3c4d5",
@@ -4008,7 +4140,7 @@
       "speaker_persona_id": "p_d5e4f5a6",
       "fact_attribute": "steep_terrain_stance",
       "fact_value": "Priya shifts from avoiding steep descents after her ankle injury to actively choosing routes with steep sections to build confidence, triggered by successfully completing the High Crag descent solo",
-      "evidence_span": "is there anything with a steeper descent section on it? I want to keep building the confidence while I have it \ud83d\ude4c the High Crag thing showed me I can do it so I want to keep going",
+      "evidence_span": "Wednesday. I'll remember.",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 21
@@ -4023,7 +4155,7 @@
       "evidence_span": "I'm putting a kit checklist on my phone as a reminder before every outing. no more borrowing people's gear, it's not fair",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_c3d5e6f7",
@@ -4035,7 +4167,7 @@
       "evidence_span": "I have my splits from the last four attempts and I'm doing this properly from now on",
       "implicitness_level": 2,
       "session_index": 9,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_d4e6f7a8",
@@ -4047,7 +4179,7 @@
       "evidence_span": "can someone flag any dietary or health constraints in the planning thread before Thursday? After last time I'd rather have the right supplies packed than improvise at the summit.",
       "implicitness_level": 2,
       "session_index": 9,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_e5f7a8b9",
@@ -4059,7 +4191,7 @@
       "evidence_span": "Five hours total is the right length for this group in November light.",
       "implicitness_level": 2,
       "session_index": 9,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_f6a8b9c0",
@@ -4071,7 +4203,7 @@
       "evidence_span": "There's a bothy two kilometres past the summit that sleeps ten. The ridge continuation past the second col is only accessible if you're not rushing back to a car park. Worth doing it properly.",
       "implicitness_level": 2,
       "session_index": 10,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_a7b9c0d1",
@@ -4083,7 +4215,7 @@
       "evidence_span": "Bothy has no individual rooms. Shared space. I'll need to think about that.",
       "implicitness_level": 2,
       "session_index": 10,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b8c0d1e2",
@@ -4095,7 +4227,7 @@
       "evidence_span": "The Stoneford continuation is the kind of terrain you can only do properly with a night on it. We should do more of these.",
       "implicitness_level": 2,
       "session_index": 11,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_c9d1e2f3",
@@ -4107,7 +4239,7 @@
       "evidence_span": "Priya has gone from asking about her knees on a moderate to requesting scree",
       "implicitness_level": 2,
       "session_index": 11,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_d0e2f3a4",
@@ -4119,7 +4251,7 @@
       "evidence_span": "Anyway -- 6pm, Green Man. See you all there.",
       "implicitness_level": 3,
       "session_index": 12,
-      "turn_index": 17
+      "turn_index": 18
     }
   ]
 }

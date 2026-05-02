@@ -1,0 +1,1988 @@
+{
+  "network_id": "grp_b8c9dae0",
+  "group_name": "Maple Hill Neighbours",
+  "group_type": "acquaintance_network",
+  "group_size": 18,
+  "seed": 37,
+  "personas": [
+    {
+      "persona_id": "p_mh01aa01",
+      "display_name": "Diane",
+      "age": 58,
+      "gender": "female",
+      "occupation": "Retired postal worker, now a part-time crossing guard",
+      "background": "Has lived on Maple Hill Lane for 27 years. Knows everyone's car, everyone's dog. Started this chat after the snowstorm of three winters ago when the plough skipped their cul-de-sac. Acts as the unofficial head of the block association.",
+      "skills_list": [
+        {
+          "skill": "neighbourhood logistics and contact lists",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "snow shovelling rota organising",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur baking",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers homemade bakes over shop-bought, judges store cake harshly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves the annual block barbecue but quietly dreads the late-evening firepit gatherings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers small organised gatherings to spontaneous drop-ins",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly dislikes the new short-term rental on the corner",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "neighbourhood_governance",
+          "attribute": "stance_on_short_term_rentals",
+          "old_value": "vocally opposed all short-term rentals on the street",
+          "new_value": "willing to tolerate well-managed ones after a positive experience with the Hartleys' guesthouse",
+          "changed_at_session": 6,
+          "trigger": "the Hartleys' guests fixed her broken gate latch as a thank-you and she warmed to the idea"
+        }
+      ],
+      "speaking_quirks": [
+        "opens messages with 'Right then' or 'OK folks'",
+        "always signs off with first initial 'D' on longer messages",
+        "uses 'lovely' as a soft accept and 'we'll see' as a soft refuse"
+      ],
+      "participation_rate": 0.95
+    },
+    {
+      "persona_id": "p_mh02bb02",
+      "display_name": "Tom\u00e1s",
+      "age": 34,
+      "gender": "male",
+      "occupation": "Software developer (remote)",
+      "background": "Moved onto the street four years ago with his partner. Quiet, polite, mostly seen walking his elderly beagle at strange hours. Joins the chat mainly for parking and parcel issues.",
+      "skills_list": [
+        {
+          "skill": "home networking and Wi-Fi troubleshooting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur woodworking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Spanish-English translation",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian, quiet about it, hates being asked to bring 'the salad'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "avoids loud street events, prefers small coffee meetups",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable with door-knocking and unannounced visits",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly opposed to anyone parking in front of his driveway, even briefly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social_engagement",
+          "attribute": "willingness_to_attend_block_events",
+          "old_value": "skipped most block events, sent partner alone",
+          "new_value": "started attending after the August barbecue went better than expected",
+          "changed_at_session": 5,
+          "trigger": "good conversation with Henry about woodworking changed his read on the group"
+        }
+      ],
+      "speaking_quirks": [
+        "ends short messages with a period when others would not",
+        "uses 'fine by me' as his standard agreement",
+        "very occasionally drops a wry one-liner that lands flat with people who don't know him"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_mh03cc03",
+      "display_name": "Lateefah",
+      "age": 41,
+      "gender": "female",
+      "occupation": "Hospital pharmacist",
+      "background": "Lives in the cul-de-sac with two kids, both at the local primary. Friendly with most parents on the street. Practical, busy, often catches up on chat during her commute.",
+      "skills_list": [
+        {
+          "skill": "medication and dosage advice",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "carpooling logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "sourdough baking",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "doesn't eat pork \u2014 quietly vetoes it from group catering decisions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "actively dislikes long meetings, prefers quick decisions in chat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "happy to host kids' play afternoons but does not enjoy adult-only events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly favours formal community-fund spending over informal collections",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "neighbourhood_finance",
+          "attribute": "comfort_with_informal_collections",
+          "old_value": "refused to participate in informal cash collections for street things",
+          "new_value": "willing if there's a written record and named treasurer",
+          "changed_at_session": 7,
+          "trigger": "Henry volunteering to keep a public spreadsheet won her over"
+        }
+      ],
+      "speaking_quirks": [
+        "double-taps the \ud83d\ude4f emoji at end of grateful messages",
+        "often replies with just 'on it' for tasks she's accepted",
+        "asks 'can we do this in chat instead?' when meetings are proposed"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_mh04dd04",
+      "display_name": "Henry",
+      "age": 67,
+      "gender": "male",
+      "occupation": "Retired civil engineer",
+      "background": "On the block for 19 years. Widowed three years ago. Volunteers as the chat's de-facto record keeper, keeps a spreadsheet of who paid what. Polite, almost old-fashioned in tone.",
+      "skills_list": [
+        {
+          "skill": "spreadsheet bookkeeping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "minor home repair (electric, plumbing)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vegetable gardening",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers traditional pub food, dislikes anything 'fusion'",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys daytime gatherings, leaves evening events early",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "comfortable in small groups, uneasy when conversations turn to politics",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly values keeping written records of community decisions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social_role",
+          "attribute": "willingness_to_take_organising_role",
+          "old_value": "stayed in the background, only kept records",
+          "new_value": "willing to chair the next AGM after Diane's encouragement",
+          "changed_at_session": 8,
+          "trigger": "Diane's repeated nudge plus a quiet word from Lateefah at school pickup"
+        }
+      ],
+      "speaking_quirks": [
+        "uses full sentences and proper punctuation always",
+        "addresses people by name: 'Yes, Diane, that's correct'",
+        "signs off longer messages with 'Best, Henry'"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_mh05ee05",
+      "display_name": "Bex",
+      "age": 28,
+      "gender": "female",
+      "occupation": "Veterinary nurse",
+      "background": "Renting the small flat above the corner store with her partner. Newest to the block (one year). Energetic, social, organises the dog walks.",
+      "skills_list": [
+        {
+          "skill": "dog behaviour and basic vet first aid",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "informal event planning",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "amateur photography",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves anything spicy, complains if a shared meal isn't seasoned enough",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "happy to host street dog walks, dislikes formal residents' association meetings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers spontaneous plans to scheduled ones",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "actively pushes to expand the chat to nearby streets",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "engagement_style",
+          "attribute": "patience_with_governance_topics",
+          "old_value": "opted out of governance threads, only joined dog walks",
+          "new_value": "engaged in governance after the parking dispute affected her flat",
+          "changed_at_session": 4,
+          "trigger": "her landlord threatened to evict over street parking complaints"
+        }
+      ],
+      "speaking_quirks": [
+        "uses lots of exclamation marks and \ud83d\udc15 emoji",
+        "writes 'pls' and 'thx' often",
+        "describes things as 'literally' frequently ('literally so cute')"
+      ],
+      "participation_rate": 0.65
+    },
+    {
+      "persona_id": "p_mh06ff06",
+      "display_name": "Greg",
+      "age": 52,
+      "gender": "male",
+      "occupation": "Plumber, runs his own small firm",
+      "background": "Lifelong local, grew up two streets over. On the block for 14 years. Direct, sometimes blunt. Often the one called when someone has a leak.",
+      "skills_list": [
+        {
+          "skill": "plumbing diagnosis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "small van logistics and parking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "basic carpentry",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Moderate",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "lifelong meat-and-two-veg, suspicious of vegetarian options",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys the quarterly pub night, dislikes anything described as a 'celebration'",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers practical chat to social chat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly opposed to spending community money on aesthetic things (planters, signs)",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "neighbourhood_finance",
+          "attribute": "stance_on_aesthetic_spending",
+          "old_value": "vetoed every aesthetic spend proposal on principle",
+          "new_value": "begrudgingly agreed to a planter project after Mei made a personal ask",
+          "changed_at_session": 9,
+          "trigger": "Mei caught him at his van and asked one-to-one"
+        }
+      ],
+      "speaking_quirks": [
+        "drops vowels: 'cn do', 'gng to be tight'",
+        "ends practical messages with 'right'",
+        "uses 'mate' once in a while"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_mh07gg07",
+      "display_name": "Mei",
+      "age": 47,
+      "gender": "female",
+      "occupation": "Primary school teacher",
+      "background": "On the block for 11 years. Quiet, careful, soft-spoken. Active in the chat mainly around school pickup logistics and the planter project she runs out of her front garden.",
+      "skills_list": [
+        {
+          "skill": "container gardening",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "primary school curriculum",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "watercolour painting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers light vegetarian food, finds heavy cooking off-putting",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves daylight community gardening, dislikes loud evening gatherings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers small one-to-one chats over group conversations",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly favours expanding street planters, will quietly fundraise for them herself",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "advocacy",
+          "attribute": "willingness_to_publicly_push_for_planters",
+          "old_value": "kept planter advocacy private and one-to-one",
+          "new_value": "started bringing it up openly in chat after Bex publicly backed her",
+          "changed_at_session": 6,
+          "trigger": "Bex's vocal support gave her cover to be more direct"
+        }
+      ],
+      "speaking_quirks": [
+        "uses \ud83c\udf31 and \ud83c\udf3f emojis sparingly but consistently",
+        "starts proposals with 'I was thinking maybe...'",
+        "thanks people by name: 'thank you Lateefah'"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_mh08hh08",
+      "display_name": "Owen",
+      "age": 39,
+      "gender": "male",
+      "occupation": "Solicitor (commercial property)",
+      "background": "Moved to the street six years ago after his divorce. Reserved, professional, a bit stiff in casual chat. Tends to weigh in only when he sees a legal or contractual dimension.",
+      "skills_list": [
+        {
+          "skill": "property law and contract review",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "dispute mediation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers fine dining or skipping food, indifferent to most casual options",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "uncomfortable with door-to-door collections, prefers structured email contact",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers very small gatherings of 4-6, finds large block events tiresome",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly insists every street agreement be put in writing",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "engagement",
+          "attribute": "social_warmth_in_chat",
+          "old_value": "responded mainly to legal questions, otherwise silent",
+          "new_value": "started replying to non-legal threads after the Hartleys invited him to a small dinner",
+          "changed_at_session": 8,
+          "trigger": "a single warm dinner with the Hartleys shifted his stance on the group"
+        }
+      ],
+      "speaking_quirks": [
+        "begins many messages with 'Just to flag,' or 'For clarity,'",
+        "uses 'we should be careful that...' framing",
+        "rarely uses contractions"
+      ],
+      "participation_rate": 0.45
+    },
+    {
+      "persona_id": "p_mh09ii09",
+      "display_name": "Sasha",
+      "age": 31,
+      "gender": "non-binary",
+      "occupation": "Freelance graphic designer",
+      "background": "Renting one of the converted houses near the top of the hill. Two cats, no kids. Active on local social media. Friendly with Bex.",
+      "skills_list": [
+        {
+          "skill": "poster and flyer design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "social media community management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur baking",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegan, but quiet about it, hates being singled out for it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys creative collaborations, dislikes purely admin meetings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers chat-based interaction to in-person, finds doorstep visits intrusive",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly favours moving the chat to a different platform with better moderation",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "platform",
+          "attribute": "platform_advocacy",
+          "old_value": "actively pushed for moving to Signal in early sessions",
+          "new_value": "dropped the campaign after Diane and Henry opposed it together",
+          "changed_at_session": 5,
+          "trigger": "the pushback was clearly going to fragment the group, not worth it"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'tbh' often",
+        "follows up serious points with a \ud83d\ude43 emoji",
+        "occasionally types in lowercase only for emphasis"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_mh10jj10",
+      "display_name": "Reggie",
+      "age": 71,
+      "gender": "male",
+      "occupation": "Retired bus driver",
+      "background": "On the street for 35 years. Knows every house's history. Often the one who notices when something is wrong (a leak, an unfamiliar car). Speaks plainly, dislikes long threads.",
+      "skills_list": [
+        {
+          "skill": "local street history and trivia",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vintage car maintenance",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "minor exterior repairs",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "High",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers traditional Sunday roast, suspicious of any takeaway except chippy",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys daytime block events, dislikes anything after 9pm",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers two or three close neighbours over big gatherings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly dislikes any change to street parking rules",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "parking",
+          "attribute": "stance_on_resident_permit_scheme",
+          "old_value": "flat refusal to consider permits",
+          "new_value": "open to a permit scheme after his car was blocked in twice in one week",
+          "changed_at_session": 7,
+          "trigger": "two consecutive parking incidents at his own driveway"
+        }
+      ],
+      "speaking_quirks": [
+        "leaves out apostrophes ('its fine', 'cant make it')",
+        "uses 'aye' as agreement",
+        "writes as if speaking, often lowercase"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_mh11kk11",
+      "display_name": "Priya",
+      "age": 38,
+      "gender": "female",
+      "occupation": "GP at the local surgery",
+      "background": "Lives mid-street with her husband and one teenager. Calm, well-organised. Joined the chat to coordinate the after-school activities run.",
+      "skills_list": [
+        {
+          "skill": "first aid and triage advice",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "after-school carpooling logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "tennis",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian, unfussy about it, fine with whatever's offered",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys structured weekend events, dislikes ad-hoc evening plans on weeknights",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers professional contact (school WhatsApp, surgery list) to social",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly favours data-led decisions in the chat, dislikes anecdotal reasoning",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "engagement",
+          "attribute": "willingness_to_share_medical_views",
+          "old_value": "deflected when neighbours asked clinical questions in chat",
+          "new_value": "started giving short factual answers after the flu outbreak",
+          "changed_at_session": 6,
+          "trigger": "felt obliged after misinformation circulated during the flu outbreak"
+        }
+      ],
+      "speaking_quirks": [
+        "writes in clear short paragraphs",
+        "uses 'a quick note' to introduce factual corrections",
+        "prefers numbers to vague terms ('two weeks', not 'a while')"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_mh12ll12",
+      "display_name": "Marek",
+      "age": 44,
+      "gender": "male",
+      "occupation": "Construction site supervisor",
+      "background": "On the block for nine years with his wife and three kids. Loud, friendly, the heart of the block barbecue. Polish background, often hosts.",
+      "skills_list": [
+        {
+          "skill": "small construction projects and site safety",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "barbecue cooking for crowds",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur football coaching",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "passionate about meat barbecue, mildly dismissive of vegetarian alternatives",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves big loud block events, finds quiet meetings dull",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers hosting to attending",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly opposes any noise complaint procedure, sees it as paranoid",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "noise",
+          "attribute": "openness_to_noise_complaint_procedure",
+          "old_value": "rejected the idea outright",
+          "new_value": "willing to discuss it after his eldest's birthday party generated complaints",
+          "changed_at_session": 8,
+          "trigger": "a complaint reached him directly that he hadn't expected"
+        }
+      ],
+      "speaking_quirks": [
+        "uses \ud83d\udd25 and \ud83c\udf7b a lot",
+        "ALL CAPS for excitement once or twice per session",
+        "introduces ideas with 'listen,'"
+      ],
+      "participation_rate": 0.65
+    },
+    {
+      "persona_id": "p_mh13mm13",
+      "display_name": "Aisling",
+      "age": 36,
+      "gender": "female",
+      "occupation": "PR account manager",
+      "background": "Renting a maisonette near the school. Three years on the street. Polished tone, even in casual chat. Often nudges the group toward 'better optics'.",
+      "skills_list": [
+        {
+          "skill": "press release drafting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "event sponsorship outreach",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "amateur running",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers small-plates dining, dislikes anything described as 'hearty'",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys themed events with a story, dislikes 'just standing around in the road'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers networking-style mingling to long sit-down meals",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly favours the block having a small public-facing identity (a name, a sign)",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "identity",
+          "attribute": "stance_on_block_signage",
+          "old_value": "pushed actively for a 'Maple Hill Neighbours' sign",
+          "new_value": "backed off after Greg's strong opposition and quiet pressure from Reggie",
+          "changed_at_session": 7,
+          "trigger": "social cost of pushing further outweighed the benefit"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'tbh' and 'imo' in chat",
+        "frames suggestions as 'what if we...'",
+        "uses \u2728 when supporting another's idea"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_mh14nn14",
+      "display_name": "Walter",
+      "age": 63,
+      "gender": "male",
+      "occupation": "Independent accountant (semi-retired)",
+      "background": "Long-term resident, 22 years. Quiet, careful, uses the chat almost only for community-fund discussions. Friendly with Henry.",
+      "skills_list": [
+        {
+          "skill": "small-business accounts",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "tax advice (informal)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "chess",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers traditional roast pub food, indifferent to social meal choices",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "comfortable in finance/admin discussions, dislikes social events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers very limited contact, mostly on functional matters",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly opposes carrying community-fund balances above 200 pounds",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "fund_management",
+          "attribute": "comfortable_balance_threshold",
+          "old_value": "would only ever keep up to about 100 pounds in the float",
+          "new_value": "raised the threshold to 250 pounds at Henry's request after the unforeseen pothole repair",
+          "changed_at_session": 9,
+          "trigger": "an unbudgeted pothole repair forced the rule to flex"
+        }
+      ],
+      "speaking_quirks": [
+        "uses numbered points (1., 2., 3.) when listing",
+        "addresses the chat with 'Members,' or 'All,'",
+        "rarely posts more than two messages per session"
+      ],
+      "participation_rate": 0.35
+    },
+    {
+      "persona_id": "p_mh15oo15",
+      "display_name": "Yara",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Junior architect",
+      "background": "House-sharing in one of the converted Victorians. Two years on the street. Curious, chatty, often asks about local history.",
+      "skills_list": [
+        {
+          "skill": "architectural drawing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur photography",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "city cycling",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves trying new cuisines, gets bored by repetition of any one cuisine",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys block events that involve walking the area, dislikes static gatherings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers larger mixed-age gatherings, finds same-age socialising stale",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "actively interested in the heritage character of the buildings, dislikes any plan that looks generic",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "engagement",
+          "attribute": "stance_on_local_planning_consultation",
+          "old_value": "too busy to attend planning consultations",
+          "new_value": "started attending after a development proposal threatened the corner pub",
+          "changed_at_session": 5,
+          "trigger": "the corner pub redevelopment notice arrived"
+        }
+      ],
+      "speaking_quirks": [
+        "asks 'has anyone else noticed...' to start observations",
+        "uses 'ha!' as a soft laugh",
+        "writes longer messages when local history comes up"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_mh16pp16",
+      "display_name": "Nadia",
+      "age": 49,
+      "gender": "female",
+      "occupation": "Independent textile designer",
+      "background": "On the block 13 years. Hosts the annual Christmas mulled wine evening on her front porch. Warm but particular about how things are done.",
+      "skills_list": [
+        {
+          "skill": "textile and pattern design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "small-event hosting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "baking traditional cakes",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "extremely particular about Christmas mulled wine recipe, will not host if asked to use shop-bought",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves small home gatherings, dislikes loud street events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers hosting on her own terms over being a guest",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly opposes the chat being used for political discussions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "hosting",
+          "attribute": "openness_to_co_hosting",
+          "old_value": "always hosted the mulled wine evening alone",
+          "new_value": "agreed to co-host with Mei after a positive joint planter event",
+          "changed_at_session": 8,
+          "trigger": "shared planter project went well with Mei, built trust"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'I'd suggest...' to soften suggestions",
+        "rarely uses emojis except a single \ud83c\udf39 around Christmas",
+        "writes long when describing recipes or arrangements"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_mh17qq17",
+      "display_name": "Joel",
+      "age": 22,
+      "gender": "male",
+      "occupation": "Final-year university student (engineering)",
+      "background": "Lives at home with his parents (the Hartleys). Joined the chat reluctantly. Gets pulled in for tech help. Mostly silent unless directly addressed.",
+      "skills_list": [
+        {
+          "skill": "device and software help",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "video gaming",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur DJ-ing",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "lives on takeaway, mildly embarrassed when this is brought up",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "actively avoids block events, will only attend his parents' Christmas",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers chat-only contact, dislikes voice or video calls",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly favours moving the chat off SMS to Discord",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "engagement",
+          "attribute": "platform_advocacy",
+          "old_value": "actively pushed for Discord migration",
+          "new_value": "dropped the campaign once Sasha did, didn't want to be the lone voice",
+          "changed_at_session": 6,
+          "trigger": "Sasha gave up the platform fight; he didn't want to push solo"
+        }
+      ],
+      "speaking_quirks": [
+        "uses \ud83d\ude02 and \ud83d\udc80 emojis often",
+        "writes lowercase only",
+        "shrugs verbally with 'idk' or 'whatever'"
+      ],
+      "participation_rate": 0.3
+    },
+    {
+      "persona_id": "p_mh18rr18",
+      "display_name": "Constance",
+      "age": 78,
+      "gender": "female",
+      "occupation": "Retired schoolteacher",
+      "background": "On the block for 41 years. The longest-standing resident. Has clear opinions on everything, expresses them charmingly. Walks the cul-de-sac daily.",
+      "skills_list": [
+        {
+          "skill": "neighbourhood history (decades of context)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "letter writing and formal correspondence",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "rose gardening",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers tea and cake gatherings, mildly disapproves of late-evening drinks events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enjoys daytime gatherings of any size, avoids evening ones",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "comfortable correcting younger residents, less so the long-standing ones",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly believes the cul-de-sac character must be preserved against the new short-term rentals",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "rentals",
+          "attribute": "stance_on_short_term_rentals",
+          "old_value": "campaigned to ban all short-term rentals on the street",
+          "new_value": "softened to a 'one per street' rule after Diane shifted",
+          "changed_at_session": 7,
+          "trigger": "Diane's change of position removed her main ally for an outright ban"
+        }
+      ],
+      "speaking_quirks": [
+        "writes in full sentences, sometimes with semi-colons",
+        "uses 'I must say,' or 'I do think,' as openers",
+        "occasionally uses an old-fashioned phrase ('beggars belief', 'rather hoping')"
+      ],
+      "participation_rate": 0.45
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_mh01aa01",
+      "persona_b_id": "p_mh04dd04",
+      "relationship_type": "co-organisers",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Diane and Henry have run the practical side of the block chat together for years. Diane organises, Henry keeps records.",
+      "shared_events": [
+        "winter snow rota",
+        "summer barbecue planning",
+        "Henry's wife's funeral attendance"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh01aa01",
+      "persona_b_id": "p_mh18rr18",
+      "relationship_type": "long-standing neighbours",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Diane and Constance have known each other 27 years. They walk together most mornings around the cul-de-sac.",
+      "shared_events": [
+        "daily morning walks",
+        "Constance's husband's care during illness",
+        "annual rose-cutting"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh01aa01",
+      "persona_b_id": "p_mh10jj10",
+      "relationship_type": "long-standing neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Diane and Reggie have lived near each other for decades and check in informally about the street. Reggie tends to defer to Diane's organising.",
+      "shared_events": [
+        "multi-decade overlap on the street",
+        "joint snow shovelling year"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh04dd04",
+      "persona_b_id": "p_mh14nn14",
+      "relationship_type": "old colleagues turned neighbours",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Henry and Walter worked at the same firm in the 90s and ended up two doors apart by accident. They share the community-fund spreadsheet.",
+      "shared_events": [
+        "worked together pre-retirement",
+        "joint community fund custody"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh05ee05",
+      "persona_b_id": "p_mh09ii09",
+      "relationship_type": "close friends within the block",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Bex and Sasha became close after Bex helped Sasha's elderly cat to the emergency vet at 2am. They walk dogs together and back each other's positions in chat.",
+      "shared_events": [
+        "emergency cat vet visit",
+        "co-led dog walk reorganisation"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh07gg07",
+      "persona_b_id": "p_mh16pp16",
+      "relationship_type": "shared-hobby neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Mei and Nadia share a love of plants and now co-tend a small set of street planters near Nadia's porch.",
+      "shared_events": [
+        "joint planter project",
+        "joint Christmas porch decoration year one"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh06ff06",
+      "persona_b_id": "p_mh10jj10",
+      "relationship_type": "lifelong locals",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Greg and Reggie grew up in the area; they enjoy a brief blunt back-and-forth in chat. Both prefer the street as it has been.",
+      "shared_events": [
+        "pub night regulars",
+        "joint car-tinkering Saturdays"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh06ff06",
+      "persona_b_id": "p_mh07gg07",
+      "relationship_type": "neighbours with mild tension",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Greg has consistently opposed the planter project Mei runs; she once asked him directly to stop blocking it and he begrudgingly conceded only on a single round.",
+      "shared_events": [
+        "planter funding vote",
+        "one-to-one conversation by his van"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh02bb02",
+      "persona_b_id": "p_mh04dd04",
+      "relationship_type": "shared-skill connection",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Tom\u00e1s and Henry bonded over the August barbecue when Henry showed Tom\u00e1s the bench he was making. Tom\u00e1s has since helped Henry with computer issues.",
+      "shared_events": [
+        "August barbecue conversation",
+        "computer help on Henry's tax software"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh03cc03",
+      "persona_b_id": "p_mh11kk11",
+      "relationship_type": "school-parent allies",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lateefah and Priya coordinate the after-school run together; their kids are in the same year and they often chat at pickup.",
+      "shared_events": [
+        "weekly school run share",
+        "joint sourdough swap"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh03cc03",
+      "persona_b_id": "p_mh07gg07",
+      "relationship_type": "school-adjacent acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lateefah and Mei have a friendly rapport from school events; Mei is one of Lateefah's son's teachers' colleagues.",
+      "shared_events": [
+        "school summer fete volunteering",
+        "joint sourdough swap"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh08hh08",
+      "persona_b_id": "p_mh14nn14",
+      "relationship_type": "professional acquaintances",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Owen and Walter respect each other's professionalism; they tend to align on contractual and financial threads in the chat.",
+      "shared_events": [
+        "co-drafted the chat ground rules document",
+        "annual fund audit"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh08hh08",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "neighbours with mild friction",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Owen finds Diane's organising style bossy; she finds his stiffness off-putting. They nevertheless get along when working on a defined task.",
+      "shared_events": [
+        "joint draft of chat ground rules",
+        "minor parking dispute three years ago"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh12ll12",
+      "persona_b_id": "p_mh05ee05",
+      "relationship_type": "block social allies",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marek and Bex are both energetic socialisers; Marek hosts, Bex helps run dog-friendly side events at his barbecues.",
+      "shared_events": [
+        "joint barbecue years",
+        "summer block-clean-up day"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh12ll12",
+      "persona_b_id": "p_mh06ff06",
+      "relationship_type": "trades and locals",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marek and Greg have worked together informally on small jobs and respect each other's work, though they do not socialise much.",
+      "shared_events": [
+        "jointly fixed a leak at Henry's",
+        "winter street salting day"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh17qq17",
+      "persona_b_id": "p_mh09ii09",
+      "relationship_type": "younger-cohort allies",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Joel and Sasha were the two main pushes for moving the chat off SMS; both backed off together when it became clear the older members opposed it.",
+      "shared_events": [
+        "joint Discord migration push",
+        "joint quiet exit from that thread"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh13mm13",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "neighbours with style mismatch",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Aisling pushes for an external-facing block image; Diane finds this performative. They are polite, but rarely agree.",
+      "shared_events": [
+        "block sign proposal vote",
+        "Christmas card list disagreement"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh13mm13",
+      "persona_b_id": "p_mh05ee05",
+      "relationship_type": "younger-cohort acquaintances",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Aisling and Bex catch up occasionally at the corner shop; both bring an outward-facing energy to the block.",
+      "shared_events": [
+        "informal coffee at corner cafe"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh15oo15",
+      "persona_b_id": "p_mh18rr18",
+      "relationship_type": "history-sharing neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Yara has befriended Constance specifically to learn the street's history; Constance enjoys an attentive audience and lends Yara old photographs.",
+      "shared_events": [
+        "several teas at Constance's house",
+        "shared archive viewing"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh15oo15",
+      "persona_b_id": "p_mh07gg07",
+      "relationship_type": "design and gardening overlap",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Yara and Mei talk plants and architecture briefly; Yara has helped Mei plan one planter layout.",
+      "shared_events": [
+        "one Saturday planter design session"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh11kk11",
+      "persona_b_id": "p_mh07gg07",
+      "relationship_type": "school-adjacent acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Priya and Mei know each other through Mei's teaching role at the local primary; they treat each other with professional warmth.",
+      "shared_events": [
+        "after-school logistics calls",
+        "school nativity year"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh11kk11",
+      "persona_b_id": "p_mh08hh08",
+      "relationship_type": "neighbour acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Priya and Owen interact mostly when factual issues come up; they are both formal and respect each other from a distance.",
+      "shared_events": [
+        "one factual flu-thread exchange"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh16pp16",
+      "persona_b_id": "p_mh18rr18",
+      "relationship_type": "long-standing neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Nadia and Constance both prefer the older, quieter character of the block. They occasionally take tea together.",
+      "shared_events": [
+        "tea at Constance's",
+        "joint Christmas porch year"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh02bb02",
+      "persona_b_id": "p_mh17qq17",
+      "relationship_type": "tech-talk acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Tom\u00e1s and Joel cross paths on tech threads occasionally; they have a quiet shared tolerance for the chat's older members.",
+      "shared_events": [
+        "one-time exchange about the Wi-Fi extender for the chat group"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh09ii09",
+      "persona_b_id": "p_mh13mm13",
+      "relationship_type": "creative-cohort acquaintances",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Sasha and Aisling speak when image and design come up; they are politely cool with each other.",
+      "shared_events": [
+        "block sign design conversation"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh10jj10",
+      "persona_b_id": "p_mh18rr18",
+      "relationship_type": "old-guard allies",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Reggie and Constance both believe the block has changed too much; they back each other quietly on most preservation arguments.",
+      "shared_events": [
+        "years of overlap as long-term residents",
+        "joint informal coffee mornings"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh06ff06",
+      "persona_b_id": "p_mh04dd04",
+      "relationship_type": "trades and engineering rapport",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Greg and Henry respect each other's practical knowledge. Greg defers to Henry on contractual matters and Henry to Greg on pipework.",
+      "shared_events": [
+        "Henry's pipe replacement job",
+        "joint quote review for the street drainage"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh01aa01",
+      "persona_b_id": "p_mh16pp16",
+      "relationship_type": "long-standing neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Diane and Nadia respect each other; Diane attends Nadia's Christmas mulled wine, Nadia attends the summer barbecue.",
+      "shared_events": [
+        "mutual attendance at flagship events"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh12ll12",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "neighbours with role overlap",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marek hosts the barbecue Diane organises; they coordinate logistics and disagree mildly about volume.",
+      "shared_events": [
+        "yearly barbecue planning",
+        "noise complaint conversation"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh11kk11",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "neighbour acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Priya and Diane have a warm but practical relationship, mostly around school-run logistics.",
+      "shared_events": [
+        "school run logistics",
+        "flu-thread coordination"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh02bb02",
+      "persona_b_id": "p_mh06ff06",
+      "relationship_type": "neighbours with parking friction",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Greg's van has occasionally blocked Tom\u00e1s's driveway; Tom\u00e1s has not raised it directly but is visibly cool with Greg in chat.",
+      "shared_events": [
+        "one parking incident, no explicit confrontation"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh15oo15",
+      "persona_b_id": "p_mh09ii09",
+      "relationship_type": "younger-cohort acquaintances",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Yara and Sasha catch up on creative work; they are friendly without being close.",
+      "shared_events": [
+        "informal exhibition visit"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh14nn14",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "long-standing neighbours",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Walter and Diane respect each other from years of overlap; Diane often defers to Walter on numbers.",
+      "shared_events": [
+        "multi-year overlap",
+        "annual fund report sign-off"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh03cc03",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "neighbour allies on logistics",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lateefah and Diane both like quick action in chat; Diane appreciates Lateefah's no-nonsense replies.",
+      "shared_events": [
+        "snowstorm coordination",
+        "school run logistics"
+      ]
+    },
+    {
+      "persona_a_id": "p_mh17qq17",
+      "persona_b_id": "p_mh01aa01",
+      "relationship_type": "intergenerational neighbours",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Joel barely interacts with Diane in chat but is polite when he does. Diane occasionally praises him for tech help.",
+      "shared_events": [
+        "one tech rescue, polite acknowledgements"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "Members let the chat know in advance if anyone unfamiliar will be parking on the street overnight.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Everyone helps out at the annual block barbecue in some way, even if just by showing up.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_mh02bb02",
+        "p_mh17qq17",
+        "p_mh08hh08"
+      ]
+    },
+    {
+      "norm_text": "Community-fund decisions are tracked in writing in the shared spreadsheet.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "We keep evening events on the street to a reasonable noise level out of respect for older neighbours.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_mh12ll12",
+        "p_mh05ee05"
+      ]
+    },
+    {
+      "norm_text": "Birthday and bereavement notes go in the chat so everyone can acknowledge them.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_mh02bb02",
+        "p_mh17qq17",
+        "p_mh09ii09"
+      ]
+    },
+    {
+      "norm_text": "Snow shovelling is coordinated as a rota across the cul-de-sac in winter.",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 25,
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "acquaintance_network",
+    "group_size": 18
+  }
+}

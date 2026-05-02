@@ -17,7 +17,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 4, 10:14am",
           "timestamp": "2026-01-04T10:14:00",
-          "message": "Right well here we all are in the new year! Hope everyone got back safe yesterday, it was so lovely having you all round, even if the kitchen was chaos. Callum love are you back in Edinburgh already? 🥰🎉",
+          "message": "Right well here we all are in the new year! Hope everyone got back safe yesterday, it was so lovely having you all round, even if the kitchen was chaos. Callum love are you back in Edinburgh already? \ud83e\udd70\ud83c\udf89",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -41,7 +41,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 4, 10:22am",
           "timestamp": "2026-01-04T10:22:00",
-          "message": "Oh now trust you to be on the last train out! Did you eat before you left? 🥺",
+          "message": "Oh now trust you to be on the last train out! Did you eat before you left? \ud83e\udd7a",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -77,7 +77,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 4, 10:29am",
           "timestamp": "2026-01-04T10:29:00",
-          "message": "Genuinely one of the best ones in years!! 😊❤️ Callum you actually stayed the whole afternoon, we were impressed haha",
+          "message": "Genuinely one of the best ones in years!! \ud83d\ude0a\u2764\ufe0f Callum you actually stayed the whole afternoon, we were impressed haha",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -114,7 +114,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Jan 4, 10:35am",
           "timestamp": "2026-01-04T10:35:00",
-          "message": "okay so i know i'm late to this but just woke up, honestly that was such a good day yesterday. Dad your speech at the table was actually really moving, even if you only spoke for about 45 seconds 😂",
+          "message": "okay so i know i'm late to this but just woke up, honestly that was such a good day yesterday. Dad your speech at the table was actually really moving, even if you only spoke for about 45 seconds \ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [
             {
@@ -151,7 +151,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 4, 10:39am",
           "timestamp": "2026-01-04T10:39:00",
-          "message": "haha Derek Brennan giving a speech under a minute, that tracks 😂❤️ Are you feeling okay after all that Mum?",
+          "message": "haha Derek Brennan giving a speech under a minute, that tracks \ud83d\ude02\u2764\ufe0f Are you feeling okay after all that Mum?",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -163,7 +163,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 4, 10:42am",
           "timestamp": "2026-01-04T10:42:00",
-          "message": "Right well I'm a bit tired if I'm honest but it was worth every bit of it. I just love having everyone under one roof. Rachel you barely touched your dessert though, are you eating properly? 🥺",
+          "message": "Right well I'm a bit tired if I'm honest but it was worth every bit of it. I just love having everyone under one roof. Rachel you barely touched your dessert though, are you eating properly? \ud83e\udd7a",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -224,7 +224,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 4, 10:49am",
           "timestamp": "2026-01-04T10:49:00",
-          "message": "she did mention it! haha to be fair she told us all at the table 😊 Callum when are you next back down?",
+          "message": "she did mention it! haha to be fair she told us all at the table \ud83d\ude0a Callum when are you next back down?",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -248,7 +248,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 4, 10:54am",
           "timestamp": "2026-01-04T10:54:00",
-          "message": "Oh now Callum! Easter is months away! Your dad and I miss you terribly. Sophie comes through more often than that, she was here just last month 🥺💙",
+          "message": "Oh now Callum! Easter is months away! Your dad and I miss you terribly. Sophie comes through more often than that, she was here just last month \ud83e\udd7a\ud83d\udc99",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -304,7 +304,15 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b901",
+        "p_f7a8b906",
+        "p_f7a8b902",
+        "p_f7a8b903",
+        "p_f7a8b905",
+        "p_f7a8b904"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s02",
@@ -321,7 +329,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Jan 11, 11:03am",
           "timestamp": "2026-01-11T11:03:00",
-          "message": "right, bit of an update. so foundry records offered me a proper contract, like actual retainer, three albums over two years. and i have signed a lease on a flat. ancoats. move in was thursday. 🎉🏠",
+          "message": "right, bit of an update. so foundry records offered me a proper contract, like actual retainer, three albums over two years. and i have signed a lease on a flat. ancoats. move in was thursday. \ud83c\udf89\ud83c\udfe0",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -333,7 +341,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 11, 11:05am",
           "timestamp": "2026-01-11T11:05:00",
-          "message": "Oh now!! Oh Jamie that is the most wonderful news!! I've been waiting for this, I knew something good was coming for you I just knew it!! 🥰🎉🎉💙",
+          "message": "Oh now!! Oh Jamie that is the most wonderful news!! I've been waiting for this, I knew something good was coming for you I just knew it!! \ud83e\udd70\ud83c\udf89\ud83c\udf89\ud83d\udc99",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -345,7 +353,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 11, 11:06am",
           "timestamp": "2026-01-11T11:06:00",
-          "message": "JAMIE!!! 🎉🎉🎉 I literally knew something was up when you went quiet this week! Are you okay, do you need help settling in? haha obviously I'm asking because we both know you haven't unpacked yet",
+          "message": "JAMIE!!! \ud83c\udf89\ud83c\udf89\ud83c\udf89 I literally knew something was up when you went quiet this week! Are you okay, do you need help settling in? haha obviously I'm asking because we both know you haven't unpacked yet",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -467,7 +475,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 11, 11:20am",
           "timestamp": "2026-01-11T11:20:00",
-          "message": "And about time too love! I've been saying for years you needed your own place, a proper base. Sophie can you go round and help him sort the kitchen out? Someone needs to make sure there's food in the fridge 🥺😂",
+          "message": "And about time too love! I've been saying for years you needed your own place, a proper base. Sophie can you go round and help him sort the kitchen out? Someone needs to make sure there's food in the fridge \ud83e\udd7a\ud83d\ude02",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -479,7 +487,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 11, 11:22am",
           "timestamp": "2026-01-11T11:22:00",
-          "message": "Mum I'm already planning a visit haha. Jamie I'm coming week after next if that works, I'll bring food. We can make a day of it 😊",
+          "message": "Mum I'm already planning a visit haha. Jamie I'm coming week after next if that works, I'll bring food. We can make a day of it \ud83d\ude0a",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -540,7 +548,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 11, 11:29am",
           "timestamp": "2026-01-11T11:29:00",
-          "message": "Oh now I'm just so pleased for you. Come over for dinner soon, I want to hear everything about the album. Are you eating properly now you're on your own? 🥺💙",
+          "message": "Oh now I'm just so pleased for you. Come over for dinner soon, I want to hear everything about the album. Are you eating properly now you're on your own? \ud83e\udd7a\ud83d\udc99",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -564,7 +572,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 11, 11:33am",
           "timestamp": "2026-01-11T11:33:00",
-          "message": "classic. I'm bringing food. Consider it non-negotiable 😂❤️",
+          "message": "classic. I'm bringing food. Consider it non-negotiable \ud83d\ude02\u2764\ufe0f",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -572,7 +580,15 @@
       ],
       "prior_session_summary": "Christmas debrief; Callum confirmed his tendency to leave early; family warmth re-established for new year. Rachel left early; Jamie arrived late. Group dynamic: healthy with mild Rachel-Jamie friction.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b904",
+        "p_f7a8b901",
+        "p_f7a8b905",
+        "p_f7a8b902",
+        "p_f7a8b903",
+        "p_f7a8b906"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s03",
@@ -589,7 +605,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 18, 9:47am",
           "timestamp": "2026-01-18T09:47:00",
-          "message": "Right well a bit of news from this end! Went to the GP on Thursday for my yearly check and she's told me I need to be doing more cardiovascular exercise. I said I do the walks with Bruno every night and she said that's not enough anymore apparently! 😤",
+          "message": "Right well a bit of news from this end! Went to the GP on Thursday for my yearly check and she's told me I need to be doing more cardiovascular exercise. I said I do the walks with Bruno every night and she said that's not enough anymore apparently! \ud83d\ude24",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -601,7 +617,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 18, 9:51am",
           "timestamp": "2026-01-18T09:51:00",
-          "message": "Oh Mum! Did she say anything specific? Are you okay? ❤️",
+          "message": "Oh Mum! Did she say anything specific? Are you okay? \u2764\ufe0f",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -613,7 +629,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 18, 9:52am",
           "timestamp": "2026-01-18T09:52:00",
-          "message": "I'm fine love, nothing serious, just the usual stuff about getting older. She wants me doing something with my heart rate up. I said to Derek maybe we could start going out together in the mornings but he's not interested apparently 😂",
+          "message": "I'm fine love, nothing serious, just the usual stuff about getting older. She wants me doing something with my heart rate up. I said to Derek maybe we could start going out together in the mornings but he's not interested apparently \ud83d\ude02",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -649,7 +665,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 18, 9:58am",
           "timestamp": "2026-01-18T09:58:00",
-          "message": "She said two or three times a week, twenty to thirty minutes of something proper. The thing is I've always found the walks a bit lonely now you're all gone. Bruno doesn't really answer back 😅",
+          "message": "She said two or three times a week, twenty to thirty minutes of something proper. The thing is I've always found the walks a bit lonely now you're all gone. Bruno doesn't really answer back \ud83d\ude05",
           "message_index": 6,
           "planted_challenges": [
             {
@@ -710,7 +726,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 18, 10:05am",
           "timestamp": "2026-01-18T10:05:00",
-          "message": "Mum you should absolutely go!! It would be so good to have people to go with, you'd love it 😊❤️",
+          "message": "Mum you should absolutely go!! It would be so good to have people to go with, you'd love it \ud83d\ude0a\u2764\ufe0f",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -759,7 +775,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 18, 10:11am",
           "timestamp": "2026-01-18T10:11:00",
-          "message": "Rachel confirming everything via the lens of liability haha ❤️ Mum let us know how it goes!",
+          "message": "Rachel confirming everything via the lens of liability haha \u2764\ufe0f Mum let us know how it goes!",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -783,7 +799,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 18, 10:15am",
           "timestamp": "2026-01-18T10:15:00",
-          "message": "Right well I'll report back! Oh now Derek you could come too you know, bit of fresh air wouldn't hurt you! 😂🌿",
+          "message": "Right well I'll report back! Oh now Derek you could come too you know, bit of fresh air wouldn't hurt you! \ud83d\ude02\ud83c\udf3f",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -807,7 +823,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Jan 18, 10:18am",
           "timestamp": "2026-01-18T10:18:00",
-          "message": "dad with the decisive answer there. also mum once you've been a couple of times i fully expect updates, i want to hear how you get on honestly 😊",
+          "message": "dad with the decisive answer there. also mum once you've been a couple of times i fully expect updates, i want to hear how you get on honestly \ud83d\ude0a",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -844,7 +860,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 18, 10:22am",
           "timestamp": "2026-01-18T10:22:00",
-          "message": "Callum love you do sometimes say the right thing at the right time! I think that's exactly it. Right well I'll let you all know how Thursday goes, Pat says they do tea after which honestly seals it for me 😂💙",
+          "message": "Callum love you do sometimes say the right thing at the right time! I think that's exactly it. Right well I'll let you all know how Thursday goes, Pat says they do tea after which honestly seals it for me \ud83d\ude02\ud83d\udc99",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -852,7 +868,15 @@
       ],
       "prior_session_summary": "Jamie announced flat in Ancoats and Foundry Records contract. Sophie planning to visit him. Rachel checked contract terms first. Group mood: celebratory and warm.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b901",
+        "p_f7a8b905",
+        "p_f7a8b902",
+        "p_f7a8b903",
+        "p_f7a8b906",
+        "p_f7a8b904"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s04",
@@ -881,7 +905,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 25, 11:34am",
           "timestamp": "2026-01-25T11:34:00",
-          "message": "Oh now Rachel!! That would be absolutely wonderful, I wasn't going to say anything but I've been a bit sad that we haven't had everyone together since Christmas. You are an angel 🥰💙",
+          "message": "Oh now Rachel!! That would be absolutely wonderful, I wasn't going to say anything but I've been a bit sad that we haven't had everyone together since Christmas. You are an angel \ud83e\udd70\ud83d\udc99",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -893,7 +917,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 25, 11:36am",
           "timestamp": "2026-01-25T11:36:00",
-          "message": "Yes!! 😊🎉 Half term works perfectly for me. I'm already excited haha",
+          "message": "Yes!! \ud83d\ude0a\ud83c\udf89 Half term works perfectly for me. I'm already excited haha",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1015,7 +1039,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 25, 11:52am",
           "timestamp": "2026-01-25T11:52:00",
-          "message": "Oh sweetheart 🥺💙 That sounds absolutely awful. You carry so much love for this family even when you don't always show it in the obvious way. I've always known that.",
+          "message": "Oh sweetheart \ud83e\udd7a\ud83d\udc99 That sounds absolutely awful. You carry so much love for this family even when you don't always show it in the obvious way. I've always known that.",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1027,7 +1051,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 25, 11:54am",
           "timestamp": "2026-01-25T11:54:00",
-          "message": "Rachel. ❤️❤️ Yes to all of this. And yes to February.",
+          "message": "Rachel. \u2764\ufe0f\u2764\ufe0f Yes to all of this. And yes to February.",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1039,7 +1063,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Jan 25, 11:55am",
           "timestamp": "2026-01-25T11:55:00",
-          "message": "that actually hit differently. yeah. we should do this more. genuinely 😊",
+          "message": "that actually hit differently. yeah. we should do this more. genuinely \ud83d\ude0a",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1100,7 +1124,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Jan 25, 12:02pm",
           "timestamp": "2026-01-25T12:02:00",
-          "message": "Right well I'm going to start thinking about the menu already! Rachel love do you want to ring me later so we can plan properly? I know you prefer messages but this feels like a proper phone call conversation 🥺🥰",
+          "message": "Right well I'm going to start thinking about the menu already! Rachel love do you want to ring me later so we can plan properly? I know you prefer messages but this feels like a proper phone call conversation \ud83e\udd7a\ud83e\udd70",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1124,7 +1148,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Jan 25, 12:05pm",
           "timestamp": "2026-01-25T12:05:00",
-          "message": "This is such a good Sunday. I feel properly warm about this 😊❤️ How is everyone else doing today?",
+          "message": "This is such a good Sunday. I feel properly warm about this \ud83d\ude0a\u2764\ufe0f How is everyone else doing today?",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1144,7 +1168,15 @@
       ],
       "prior_session_summary": "Margaret told to do more cardio; realises she found the solo walks lonely and decides to join Pat's park running group. Group dynamic: warm and practical. Derek declined exercise offer.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b903",
+        "p_f7a8b901",
+        "p_f7a8b905",
+        "p_f7a8b904",
+        "p_f7a8b902",
+        "p_f7a8b906"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s05",
@@ -1161,7 +1193,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 1, 10:08am",
           "timestamp": "2026-02-01T10:08:00",
-          "message": "Right well we have a situation! Derek's car is at the garage, brakes needed replacing apparently, the whole thing. Very expensive. He's been at the garage since eight this morning 😤🔧",
+          "message": "Right well we have a situation! Derek's car is at the garage, brakes needed replacing apparently, the whole thing. Very expensive. He's been at the garage since eight this morning \ud83d\ude24\ud83d\udd27",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1197,7 +1229,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 1, 10:14am",
           "timestamp": "2026-02-01T10:14:00",
-          "message": "Oh no! Dad are you okay? Will you need lifts to things? haha obviously Mum will be fine but are you managing? ❤️",
+          "message": "Oh no! Dad are you okay? Will you need lifts to things? haha obviously Mum will be fine but are you managing? \u2764\ufe0f",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1234,7 +1266,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 1, 10:17am",
           "timestamp": "2026-02-01T10:17:00",
-          "message": "He won't admit it but he was on time for once which never happens when he drives! I didn't say that 😂",
+          "message": "He won't admit it but he was on time for once which never happens when he drives! I didn't say that \ud83d\ude02",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1294,7 +1326,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 1, 10:25am",
           "timestamp": "2026-02-01T10:25:00",
-          "message": "We should probably confirm the plan actually! 😊 I was thinking Friday evening arrivals, Saturday full day together, Sunday until mid-afternoon. Does that work for everyone?",
+          "message": "We should probably confirm the plan actually! \ud83d\ude0a I was thinking Friday evening arrivals, Saturday full day together, Sunday until mid-afternoon. Does that work for everyone?",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1366,7 +1398,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 1, 10:35am",
           "timestamp": "2026-02-01T10:35:00",
-          "message": "Oh Callum I could cry! Right well that's everyone then isn't it? 🥺🎉",
+          "message": "Oh Callum I could cry! Right well that's everyone then isn't it? \ud83e\udd7a\ud83c\udf89",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1378,7 +1410,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 1, 10:37am",
           "timestamp": "2026-02-01T10:37:00",
-          "message": "Mum do not actually cry, we haven't even got there yet haha 😂❤️ Are you okay though Dad, genuinely? Car stuff is such a headache",
+          "message": "Mum do not actually cry, we haven't even got there yet haha \ud83d\ude02\u2764\ufe0f Are you okay though Dad, genuinely? Car stuff is such a headache",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1415,7 +1447,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Feb 1, 10:41am",
           "timestamp": "2026-02-01T10:41:00",
-          "message": "that is a massive shift from the man who once told me public transport was for people who couldn't plan their day properly 😂",
+          "message": "that is a massive shift from the man who once told me public transport was for people who couldn't plan their day properly \ud83d\ude02",
           "message_index": 20,
           "planted_challenges": [
             {
@@ -1452,7 +1484,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 1, 10:44am",
           "timestamp": "2026-02-01T10:44:00",
-          "message": "Right well there you go! Everyone evolving! I'm very pleased about the weekend, just focus on that everyone 🥰💙",
+          "message": "Right well there you go! Everyone evolving! I'm very pleased about the weekend, just focus on that everyone \ud83e\udd70\ud83d\udc99",
           "message_index": 22,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1460,7 +1492,15 @@
       ],
       "prior_session_summary": "Rachel proposed a full family weekend for February half term, triggered by a distressing estrangement case at work. Group committed; Callum agreed to come. Rachel's warmth toward family surfaced unusually directly.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b901",
+        "p_f7a8b903",
+        "p_f7a8b902",
+        "p_f7a8b905",
+        "p_f7a8b904",
+        "p_f7a8b906"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s06",
@@ -1477,7 +1517,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 8, 8:52pm",
           "timestamp": "2026-02-08T20:52:00",
-          "message": "Can we talk about how brilliant this weekend was?? Still thinking about Saturday 😊❤️",
+          "message": "Can we talk about how brilliant this weekend was?? Still thinking about Saturday \ud83d\ude0a\u2764\ufe0f",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1489,7 +1529,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 8, 8:54pm",
           "timestamp": "2026-02-08T20:54:00",
-          "message": "Oh now I've been floating all day! Having everyone in the house, proper meals, everyone actually staying! I was so happy I didn't know what to do with myself 🥰🎉💙",
+          "message": "Oh now I've been floating all day! Having everyone in the house, proper meals, everyone actually staying! I was so happy I didn't know what to do with myself \ud83e\udd70\ud83c\udf89\ud83d\udc99",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1513,7 +1553,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Feb 8, 8:57pm",
           "timestamp": "2026-02-08T20:57:00",
-          "message": "honestly the saturday cook-up will go down in family history. dad eating experimental food without complaining, landmark event 😂",
+          "message": "honestly the saturday cook-up will go down in family history. dad eating experimental food without complaining, landmark event \ud83d\ude02",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1549,7 +1589,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 8, 9:01pm",
           "timestamp": "2026-02-08T21:01:00",
-          "message": "Callum dancing at 11pm was also not something I had on my bingo card for 2026 haha 😂",
+          "message": "Callum dancing at 11pm was also not something I had on my bingo card for 2026 haha \ud83d\ude02",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1573,7 +1613,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Feb 8, 9:03pm",
           "timestamp": "2026-02-08T21:03:00",
-          "message": "it absolutely happened, we have photographic evidence 😂",
+          "message": "it absolutely happened, we have photographic evidence \ud83d\ude02",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1585,7 +1625,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 8, 9:05pm",
           "timestamp": "2026-02-08T21:05:00",
-          "message": "Right well I am just so glad you all came. Callum it meant the world, truly. I saw your face when your dad said he was proud of you and don't tell me you didn't feel it 🥺💙",
+          "message": "Right well I am just so glad you all came. Callum it meant the world, truly. I saw your face when your dad said he was proud of you and don't tell me you didn't feel it \ud83e\udd7a\ud83d\udc99",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1646,7 +1686,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 8, 9:13pm",
           "timestamp": "2026-02-08T21:13:00",
-          "message": "Oh Sophie what are you saying love? Are you thinking of going somewhere? 🥺",
+          "message": "Oh Sophie what are you saying love? Are you thinking of going somewhere? \ud83e\udd7a",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1695,7 +1735,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 8, 9:20pm",
           "timestamp": "2026-02-08T21:20:00",
-          "message": "Research stage, very early. haha don't audit me yet Rachel 😂",
+          "message": "Research stage, very early. haha don't audit me yet Rachel \ud83d\ude02",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1707,7 +1747,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 8, 9:21pm",
           "timestamp": "2026-02-08T21:21:00",
-          "message": "Oh now I don't know how I feel about this! I'd miss you terribly. But I also want you to be happy. I just... you'd be so far away 🥺💙",
+          "message": "Oh now I don't know how I feel about this! I'd miss you terribly. But I also want you to be happy. I just... you'd be so far away \ud83e\udd7a\ud83d\udc99",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1756,7 +1796,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 8, 9:26pm",
           "timestamp": "2026-02-08T21:26:00",
-          "message": "Usually two years. That's what Maria did. Are you okay Mum? ❤️",
+          "message": "Usually two years. That's what Maria did. Are you okay Mum? \u2764\ufe0f",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1768,7 +1808,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 8, 9:27pm",
           "timestamp": "2026-02-08T21:27:00",
-          "message": "I'm okay love. I just immediately started worrying about whether you'd be safe and whether Priya would go with you and whether I'd be able to visit. Right well that's what I do isn't it 😂🥺",
+          "message": "I'm okay love. I just immediately started worrying about whether you'd be safe and whether Priya would go with you and whether I'd be able to visit. Right well that's what I do isn't it \ud83d\ude02\ud83e\udd7a",
           "message_index": 22,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1804,7 +1844,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 8, 9:32pm",
           "timestamp": "2026-02-08T21:32:00",
-          "message": "Thanks Callum, weirdly that is exactly the kind of thing I needed to hear right now 😊",
+          "message": "Thanks Callum, weirdly that is exactly the kind of thing I needed to hear right now \ud83d\ude0a",
           "message_index": 25,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1812,7 +1852,15 @@
       ],
       "prior_session_summary": "February weekend logistics confirmed. Derek discovered the tram is faster than driving and is reconsidering car reliance. Callum committed to coming. Group mood: looking forward to gathering.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b905",
+        "p_f7a8b901",
+        "p_f7a8b903",
+        "p_f7a8b904",
+        "p_f7a8b902",
+        "p_f7a8b906"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s07",
@@ -1854,7 +1902,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 15, 3:22pm",
           "timestamp": "2026-02-15T15:22:00",
-          "message": "Callum! I'm here. What's going on? ❤️",
+          "message": "Callum! I'm here. What's going on? \u2764\ufe0f",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1866,7 +1914,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 15, 3:25pm",
           "timestamp": "2026-02-15T15:25:00",
-          "message": "Oh Callum love I'm here! Right well I was just about to sit down, tell me everything 🥺💙",
+          "message": "Oh Callum love I'm here! Right well I was just about to sit down, tell me everything \ud83e\udd7a\ud83d\udc99",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1914,7 +1962,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 15, 3:36pm",
           "timestamp": "2026-02-15T15:36:00",
-          "message": "You reached out now though, that's the thing. haha I know that took something for you. How are you actually feeling about it, not just the academic part? ❤️",
+          "message": "You reached out now though, that's the thing. haha I know that took something for you. How are you actually feeling about it, not just the academic part? \u2764\ufe0f",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1951,7 +1999,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 15, 3:40pm",
           "timestamp": "2026-02-15T15:40:00",
-          "message": "Oh now sweetheart that breaks my heart a little. You know you can ring any of us, any time. You don't have to wait for the chat 🥺💙",
+          "message": "Oh now sweetheart that breaks my heart a little. You know you can ring any of us, any time. You don't have to wait for the chat \ud83e\udd7a\ud83d\udc99",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2048,7 +2096,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Feb 15, 3:53pm",
           "timestamp": "2026-02-15T15:53:00",
-          "message": "dad that might be the best thing you've ever said in this chat, genuinely 😭",
+          "message": "dad that might be the best thing you've ever said in this chat, genuinely \ud83d\ude2d",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2060,7 +2108,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 15, 3:55pm",
           "timestamp": "2026-02-15T15:55:00",
-          "message": "I actually have tears, I'm not joking 😭❤️ Callum are you okay?",
+          "message": "I actually have tears, I'm not joking \ud83d\ude2d\u2764\ufe0f Callum are you okay?",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2096,7 +2144,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 15, 4:00pm",
           "timestamp": "2026-02-15T16:00:00",
-          "message": "This family! Right well I need a moment 😭🥰 Callum you are loved so much, the lot of you are. Will you ring me tonight?",
+          "message": "This family! Right well I need a moment \ud83d\ude2d\ud83e\udd70 Callum you are loved so much, the lot of you are. Will you ring me tonight?",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2128,7 +2176,15 @@
       ],
       "prior_session_summary": "February weekend debrief; Sophie revealed she is researching international teaching posts after colleague's Singapore experience. Group mood: warm post-weekend, some gentle anxiety from Margaret about Sophie leaving.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b906",
+        "p_f7a8b905",
+        "p_f7a8b901",
+        "p_f7a8b903",
+        "p_f7a8b904",
+        "p_f7a8b902"
+      ]
     },
     {
       "session_id": "grp_f7a8b9c0_s08",
@@ -2145,7 +2201,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 22, 6:40pm",
           "timestamp": "2026-02-22T18:40:00",
-          "message": "Right well I know it's early but I want to start thinking about Easter! Callum I'm already looking at whether I can get up to Edinburgh before then, I won't take no for an answer 😂🥺",
+          "message": "Right well I know it's early but I want to start thinking about Easter! Callum I'm already looking at whether I can get up to Edinburgh before then, I won't take no for an answer \ud83d\ude02\ud83e\udd7a",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2169,7 +2225,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 22, 6:45pm",
           "timestamp": "2026-02-22T18:45:00",
-          "message": "Mum going to Edinburgh!! 😊❤️ Callum she will rearrange all your kitchen cupboards just so you know",
+          "message": "Mum going to Edinburgh!! \ud83d\ude0a\u2764\ufe0f Callum she will rearrange all your kitchen cupboards just so you know",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2193,7 +2249,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 22, 6:48pm",
           "timestamp": "2026-02-22T18:48:00",
-          "message": "Oh now I would never! I might just neaten them slightly 😂 Rachel love how are you doing, you've been quiet this week?",
+          "message": "Oh now I would never! I might just neaten them slightly \ud83d\ude02 Rachel love how are you doing, you've been quiet this week?",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2217,7 +2273,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 22, 6:52pm",
           "timestamp": "2026-02-22T18:52:00",
-          "message": "She had a brilliant week actually, she just won't say it haha 😊",
+          "message": "She had a brilliant week actually, she just won't say it haha \ud83d\ude0a",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2241,7 +2297,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 22, 6:54pm",
           "timestamp": "2026-02-22T18:54:00",
-          "message": "She got nominated for something at work, I cannot say what because she told me on the phone and I have been sworn to secrecy. Just know she is being very modest right now haha ❤️",
+          "message": "She got nominated for something at work, I cannot say what because she told me on the phone and I have been sworn to secrecy. Just know she is being very modest right now haha \u2764\ufe0f",
           "message_index": 9,
           "planted_challenges": [
             {
@@ -2278,7 +2334,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 22, 6:57pm",
           "timestamp": "2026-02-22T18:57:00",
-          "message": "I mentioned it very vaguely! In a supportive way! haha are you annoyed? 😂",
+          "message": "I mentioned it very vaguely! In a supportive way! haha are you annoyed? \ud83d\ude02",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2302,7 +2358,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 22, 7:00pm",
           "timestamp": "2026-02-22T19:00:00",
-          "message": "Oh Rachel you brilliant girl! Whatever it is I know it's deserved! 🥰🎉 You work so hard, we all see it",
+          "message": "Oh Rachel you brilliant girl! Whatever it is I know it's deserved! \ud83e\udd70\ud83c\udf89 You work so hard, we all see it",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2314,7 +2370,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Feb 22, 7:01pm",
           "timestamp": "2026-02-22T19:01:00",
-          "message": "yeah congrats whatever the thing is! honestly the mystery makes it better. did you tell sophie first or did she find out? 😂",
+          "message": "yeah congrats whatever the thing is! honestly the mystery makes it better. did you tell sophie first or did she find out? \ud83d\ude02",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2399,7 +2455,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 22, 7:09pm",
           "timestamp": "2026-02-22T19:09:00",
-          "message": "Right well you've won! I've decided! 🥰💙",
+          "message": "Right well you've won! I've decided! \ud83e\udd70\ud83d\udc99",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2411,7 +2467,7 @@
           "speaker_display_name": "Jamie",
           "timestamp_label": "Feb 22, 7:10pm",
           "timestamp": "2026-02-22T19:10:00",
-          "message": "mum has declared it, it's official now 😂",
+          "message": "mum has declared it, it's official now \ud83d\ude02",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2435,7 +2491,7 @@
           "speaker_display_name": "Sophie",
           "timestamp_label": "Feb 22, 7:13pm",
           "timestamp": "2026-02-22T19:13:00",
-          "message": "Easter then! I've been looking at dates. What works? I also want to think about whether Priya could come this time. We have been talking about it. haha no pressure, just putting it out there 😊❤️",
+          "message": "Easter then! I've been looking at dates. What works? I also want to think about whether Priya could come this time. We have been talking about it. haha no pressure, just putting it out there \ud83d\ude0a\u2764\ufe0f",
           "message_index": 23,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2447,7 +2503,7 @@
           "speaker_display_name": "Margaret",
           "timestamp_label": "Feb 22, 7:15pm",
           "timestamp": "2026-02-22T19:15:00",
-          "message": "Oh Sophie!! Yes!! I've been hoping and not wanting to push. Yes, absolutely yes, of course Priya should come! 🥰🎉",
+          "message": "Oh Sophie!! Yes!! I've been hoping and not wanting to push. Yes, absolutely yes, of course Priya should come! \ud83e\udd70\ud83c\udf89",
           "message_index": 24,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2492,7 +2548,15 @@
       ],
       "prior_session_summary": "Callum reached out in distress about PhD supervisor conflict. Derek revealed he reads Callum's published work. Callum acknowledged needing family contact more than he admitted. Group mood: emotionally close.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f7a8b901",
+        "p_f7a8b906",
+        "p_f7a8b905",
+        "p_f7a8b903",
+        "p_f7a8b904",
+        "p_f7a8b902"
+      ]
     }
   ],
   "total_turns": 173,
@@ -2507,7 +2571,7 @@
       "evidence_span": "The implication being I usually don't. To be fair, accurate.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_f7s1c2",
@@ -2519,7 +2583,7 @@
       "evidence_span": "honestly that was such a good day yesterday. Dad your speech at the table was actually really moving",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_f7s1c3",
@@ -2543,7 +2607,7 @@
       "evidence_span": "Jamie, that is genuinely excellent news. Well done. 1. The contract, is the rate fair? Have you had anyone look at it?",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f7s2c1",
@@ -2555,7 +2619,7 @@
       "evidence_span": "genuinely feels weird having a front door that's mine. like i've been on sofas and sublets for so long i'd forgotten what it's like to have a permanent address",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_f7s2c2",
@@ -2567,7 +2631,7 @@
       "evidence_span": "Mum I'm already planning a visit haha. Jamie I'm coming week after next if that works, I'll bring food.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_f7s3c1",
@@ -2579,7 +2643,7 @@
       "evidence_span": "The thing is I've always found the walks a bit lonely now you're all gone. Bruno doesn't really answer back",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f7s3c3",
@@ -2591,7 +2655,7 @@
       "evidence_span": "I always imagined I'd just do the walks forever, but honestly I think Pat was right, having company makes such a difference.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_f7s3c2",
@@ -2603,7 +2667,7 @@
       "evidence_span": "The implication being it's more sustainable than solo exercise. That's probably right.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_f7s4c2",
@@ -2615,7 +2679,7 @@
       "evidence_span": "Are you okay Rachel? This is lovely but also slightly out of nowhere haha. How are you feeling about it?",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f7s4c1",
@@ -2624,7 +2688,7 @@
       "speaker_persona_id": "p_f7a8b903",
       "fact_attribute": "attitude_toward_family_gatherings",
       "fact_value": "Rachel actively initiating a full family weekend gathering, framing it around wanting to see each other rather than logistics",
-      "evidence_span": "I have had a difficult week at work. A case involving two adult children who had not spoken to their parents in eleven years. I would rather we see each other than not.",
+      "evidence_span": "Are you okay Rachel? This is lovely but also slightly out of nowhere haha. How are you feeling about it?",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 9
@@ -2639,7 +2703,7 @@
       "evidence_span": "Family estrangement as a late-stage outcome is documented to be deeply regretted by most parties. I will come.",
       "implicitness_level": 3,
       "session_index": 4,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_f7s5c1",
@@ -2651,7 +2715,7 @@
       "evidence_span": "Took the tram in this morning. Salford Quays in twenty minutes. No traffic.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_f7s5c2",
@@ -2663,7 +2727,7 @@
       "evidence_span": "the tram is faster for the town anyway. I may not bother with the car as much once it's back.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_f7s5c3",
@@ -2675,7 +2739,7 @@
       "evidence_span": "that is a massive shift from the man who once told me public transport was for people who couldn't plan their day properly",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_f7s6c2",
@@ -2684,7 +2748,7 @@
       "speaker_persona_id": "p_f7a8b901",
       "fact_attribute": "closeness_signal",
       "fact_value": "Derek expressed pride in Callum at the February weekend; Margaret witnessed Callum's emotional reaction",
-      "evidence_span": "I saw your face when your dad said he was proud of you and don't tell me you didn't feel it",
+      "evidence_span": "Understandable. It was a good moment.",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 12
@@ -2699,7 +2763,7 @@
       "evidence_span": "I've been at the same school for six years and I love it but I think I've stopped growing there and I didn't even notice until Maria described what she'd felt. I've started just looking at what's out there.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_f7s6c3",
@@ -2711,7 +2775,7 @@
       "evidence_span": "soph honestly if it's calling to you then look into it. life's too short to stay somewhere out of habit. genuinely",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_f7s7c3",
@@ -2723,7 +2787,7 @@
       "evidence_span": "Hi. Is anyone around? Having a difficult week.",
       "implicitness_level": 3,
       "session_index": 7,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_f7s7c1",
@@ -2735,7 +2799,7 @@
       "evidence_span": "Edinburgh is quite isolated when it is not going well. More than I had factored in. I think I needed the February weekend more than I knew at the time.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_f7s7c2",
@@ -2747,7 +2811,7 @@
       "evidence_span": "And I read the paper you published in November. The one on prosodic parsing. It was good work.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_f7s8c2",
@@ -2759,7 +2823,7 @@
       "evidence_span": "She got nominated for something at work, I cannot say what because she told me on the phone and I have been sworn to secrecy.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f7s8c1",
@@ -2771,7 +2835,7 @@
       "evidence_span": "I rang Sophie on Wednesday. She is usually the first person I tell when something happens. That is the arrangement.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_f7s8c3",
@@ -2783,7 +2847,7 @@
       "evidence_span": "I will be in Manchester for Easter. For what it's worth.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 25
+      "turn_index": 26
     }
   ]
 }

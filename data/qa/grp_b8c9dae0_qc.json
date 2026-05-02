@@ -1,0 +1,570 @@
+{
+  "network_id": "grp_b8c9dae0",
+  "total_pairs": 40,
+  "phase1_mean_score": 0.9362,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "1": 12,
+    "2": 28
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 29,
+    "easy": 5,
+    "hard": 6
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 11,
+      "mean_score": 0.954,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.912,
+      "flagged": 0
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.9,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.9,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 4,
+      "mean_score": 0.93,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.86,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.957,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.946,
+      "flagged": 0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_b8c9dae001",
+      "query_type": "Q1",
+      "question": "What does Diane's reaction to the new corner property reveal about her attitude toward how the street is changing?",
+      "blind_answer": "Diane is opposed to the new corner short-term rental and frames it as out-of-character for the street; she later softens slightly after a positive interaction with the rental's guests.",
+      "score": 0.95,
+      "score_rationale": "blind answer matches the trajectory and the explicit grounding in Diane's two messages.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae002",
+      "query_type": "Q1",
+      "question": "What does Greg's behaviour around shared meals on the street suggest about the kind of food he expects to be served?",
+      "blind_answer": "Greg is meat-centric; he expects meat at shared meals and treats vegetarian options as a separate category for other people to handle.",
+      "score": 0.95,
+      "score_rationale": "matches the ground truth; the meat/veg split is the visible signal.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae003",
+      "query_type": "Q1",
+      "question": "What was Sasha's preferred way of running the chat group, and on what grounds did Sasha argue for it?",
+      "blind_answer": "Sasha argued for moving the chat to Signal on the grounds of better moderation and audit trail.",
+      "score": 1.0,
+      "score_rationale": "blind answer is identical to the explicit statement in the chat.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae004",
+      "query_type": "Q1",
+      "question": "What does Owen's reply to a casual party invitation reveal about how he weighs whether to attend a social event?",
+      "blind_answer": "Owen weighs attendance heavily by group size; he prefers small (around 4-6) and tends to skip larger gatherings.",
+      "score": 0.95,
+      "score_rationale": "matches the ground-truth threshold framing.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae005",
+      "query_type": "Q1",
+      "question": "What does Mei's role around the street's outdoor flower setups suggest about how she invests her own time and money in the block?",
+      "blind_answer": "Mei is the planter project's quiet champion; she invests her own labour and personally lobbies for funding.",
+      "score": 0.9,
+      "score_rationale": "matches the multi-session synthesis; Greg's vote-quote is the bridging evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae006",
+      "query_type": "Q1",
+      "question": "What does Constance's reaction to the loud weekend birthday at Marek's reveal about her preference for the timing of street events?",
+      "blind_answer": "Constance prefers events that wind down by dusk; she retreated upstairs at Marek's loud birthday and stated her preference plainly.",
+      "score": 0.95,
+      "score_rationale": "matches the ground truth and the named quote.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae007",
+      "query_type": "Q1",
+      "question": "What does Marek's response to Diane's plan for the spring AGM reveal about the kind of events he gravitates toward?",
+      "blind_answer": "Marek pushes for music and lively formats even at formal events, treating quiet gatherings as too dull.",
+      "score": 0.95,
+      "score_rationale": "matches the music-at-AGM intervention and the hype-man comment.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae008",
+      "query_type": "Q1",
+      "question": "What does Constance's contribution to the AGM refreshment plan suggest about the kind of social format she is most comfortable with?",
+      "blind_answer": "Constance prefers tea-and-cake gatherings; she pulls AGM refreshments toward sponge and biscuits over a drinks event.",
+      "score": 1.0,
+      "score_rationale": "matches the explicit quote about afternoon timing and a cake gathering.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b8c9dae009",
+      "query_type": "Q2",
+      "question": "The group settled on a formal protocol for logging parking incidents and a five-incidents-per-month escalation threshold. One member's response in that moment was distinctly different from the others'. Whose reaction signalled less than full agreement, and what specifically in how they responded tells you that?",
+      "blind_answer": "Mei's '...' was the only non-verbal response in a thread of vocal yeses; this signalled her unease without blocking the decision.",
+      "score": 0.9,
+      "score_rationale": "blind reader needs to read the chat carefully to notice the ellipsis is a real dissent signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b8c9dae010",
+      "query_type": "Q2",
+      "question": "During the discussion of the resident permit scheme, the group landed on doing the permits without any block-naming campaign attached. What did Aisling's response in that exchange reveal about her actual position on the sign idea, and what specifically in how she responded tells you that?",
+      "blind_answer": "Aisling agreed in form but her doubled 'ok ok. fine. drop the sign idea' is a yielding move under pressure rather than agreement on the merits.",
+      "score": 0.9,
+      "score_rationale": "matches the framing of yielding-versus-agreeing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b8c9dae011",
+      "query_type": "Q2",
+      "question": "The group decided to raise the community fund float threshold from 200 to 250 pounds. One member's reply to that decision conveyed something different from the rest. Whose response signalled a meaningful reservation, and what specifically in how they responded tells you that?",
+      "blind_answer": "Walter said he 'will not block it' but recorded a preference for a tighter float; that phrasing flagged a real reservation while letting the decision pass.",
+      "score": 0.95,
+      "score_rationale": "matches the careful 'will not block it' parsing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_b8c9dae012",
+      "query_type": "Q3",
+      "question": "Based on the conversations, what does each member of the chat appear to want from the food at a shared block meal?",
+      "blind_answer": "Per-member synthesis of food preferences across the corpus: Greg meat-centric, Lateefah no pork and pro-vegetarian provision, Tom\u00e1s vegetarian (implicit), Sasha vegan (Bex's reveal), Mei light-veg, Priya vegetarian low-fuss, Marek meat-first, Constance tea/cake, most others unmentioned.",
+      "score": 0.9,
+      "score_rationale": "matches the multi-persona aggregation with explicit not-mentioned handling.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b8c9dae013",
+      "query_type": "Q4",
+      "question": "Two members on the street, both quiet by default, made clipped, one-line complaints about unfamiliar cars during the early parking discussions: one identified a specific incident, the other called for structured records of incidents. Which member made the call for structured records?",
+      "blind_answer": "Tom\u00e1s. The structural phrasing 'structured records of every incident' uses Tom\u00e1s's developer/period-ending register; Reggie's complaints are concrete car-specific dropped-apostrophe messages.",
+      "score": 0.9,
+      "score_rationale": "matches the true-speaker attribution and reasoning.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b8c9dae014",
+      "query_type": "Q4",
+      "question": "During the protocol-drafting discussion, two formal-register members both raised technical objections to the wording of the complaint protocol. Which member raised the point that the threshold should be defined per address rather than per residence?",
+      "blind_answer": "Owen. The 'perversely punishes' phrasing and 'streets with multiple short-term rentals' framing is solicitor register, distinct from Walter's bookkeeper documentation framing.",
+      "score": 0.9,
+      "score_rationale": "matches the attribution and the foil reasoning.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b8c9dae015",
+      "query_type": "Q5",
+      "question": "What is Tom\u00e1s's dietary preference, and how does Lateefah show that she already knew this before the barbecue food was discussed in the chat?",
+      "blind_answer": "Tom\u00e1s is vegetarian; Lateefah signals prior knowledge by listing him as one of three veggies on the street without prompting, and Tom\u00e1s's narrow objection only to the salad role implicitly accepts the diet.",
+      "score": 0.95,
+      "score_rationale": "matches the ground-truth ToM reasoning.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b8c9dae016",
+      "query_type": "Q5",
+      "question": "What is Sasha's dietary preference, and how does Bex show that she already knew this before it came up in conversation about the new tenant's house-warming?",
+      "blind_answer": "Sasha is vegan; Bex signals prior knowledge by warning Owen there will be only cheese platters and saying 'literally everyone already knew'.",
+      "score": 0.95,
+      "score_rationale": "matches the cheese-platter and 'everyone knew' anchors.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b8c9dae017",
+      "query_type": "Q5",
+      "question": "What is Walter's typical pattern around the timing of the AGM fund cross-check, and how does Henry's comment in the final pre-AGM session show he already knew about it?",
+      "blind_answer": "Walter does the cross-check the night before the AGM submission; Henry forecasts this routine pre-emptively in the final pre-AGM thread, and Walter confirms.",
+      "score": 0.9,
+      "score_rationale": "matches the forecast-and-confirm structure of the ToM signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b8c9dae018",
+      "query_type": "Q6",
+      "question": "The chat seems to operate on an unspoken understanding that street events should keep their noise level reasonable so older neighbours are not disturbed. Does that understanding apply to everyone equally, and if not, who consistently pushes against it?",
+      "blind_answer": "Marek consistently pushes against the noise norm; he hosts loud events and lobbies for music at quiet ones, with Constance's retreat upstairs and Henry's 'low volume only' as in-chat corrections.",
+      "score": 0.92,
+      "score_rationale": "matches the dissenter identification and behavioural evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b8c9dae019",
+      "query_type": "Q6",
+      "question": "The chat seems to assume that everyone helps out at the annual block barbecue in some way, even just by showing up. Does this apply equally to all members, or does at least one member visibly resist that expectation?",
+      "blind_answer": "Tom\u00e1s visibly resists the everyone-helps barbecue norm; his refusal of the salad role and clipped opt-out style place him outside the implicit obligation.",
+      "score": 0.8,
+      "score_rationale": "blind reading might also list Joel/Owen, but Tom\u00e1s is the explicit in-thread refuser.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae020",
+      "query_type": "Q7",
+      "question": "What does the conversation imply about how Walter and Henry came to know each other, and what in their exchange about the complaint protocol confirms a long shared history?",
+      "blind_answer": "Walter and Henry are old colleagues from a shared firm; Walter cites a 1998 firm protocol and Henry confirms 'the firm taught us both well'.",
+      "score": 0.95,
+      "score_rationale": "matches the ground truth and the named anchor.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae021",
+      "query_type": "Q7",
+      "question": "What does Joel's reluctant comment about the AGM reveal about his relationship to the Hartley household, and what in the exchange confirms the connection?",
+      "blind_answer": "Joel is the Hartleys' son; he calls them 'mum and dad' and references their dinner-table conversation about the pastries.",
+      "score": 1.0,
+      "score_rationale": "matches exactly.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae022",
+      "query_type": "Q7",
+      "question": "What does the closing exchange about the AGM history segment reveal about how Yara and Constance interact around the street's past, and what in the conversation confirms the depth of that interaction?",
+      "blind_answer": "Yara has been learning the street's history from Constance, who lent her old photos; Constance had hoped Yara would offer to present at the AGM.",
+      "score": 0.95,
+      "score_rationale": "matches the mentor-mentee framing with the photo reference.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae023",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Diane's relationship with the new corner short-term rental shifted, and what appeared to drive the change?",
+      "blind_answer": "Diane moved from firm opposition to qualified tolerance after the Hartleys' guests fixed her gate latch and brought pastries; she explicitly named the change as 'updated very slightly'.",
+      "score": 0.95,
+      "score_rationale": "matches the trajectory and trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae024",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Bex's relationship to the chat's governance threads changed, and what appeared to drive the shift?",
+      "blind_answer": "Bex moved from social-only engagement to active governance participation after her landlord threatened to escalate over a guest car; her procedural question 'what counts as an incident' is the visible shift.",
+      "score": 0.95,
+      "score_rationale": "matches the trigger and the visible shift.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae025",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Sasha's position on whether to migrate the chat changed, and what appeared to drive the shift?",
+      "blind_answer": "Sasha dropped the Signal-migration campaign after Diane and Henry both opposed it; the concession is graceful: 'i'm not going to keep banging that drum'.",
+      "score": 0.95,
+      "score_rationale": "matches the named retreat with the named driver.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae026",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Reggie's stance on a resident parking permit scheme changed, and what appeared to drive the change?",
+      "blind_answer": "Reggie shifted from 'signs not the answer though. its manners' to actively asking to discuss the permit scheme after being blocked in twice in one week, missing a doctor's appointment and a funeral exit.",
+      "score": 0.95,
+      "score_rationale": "matches the trigger-incidents and the explicit reversal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae027",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Constance's position on short-term rentals on the street has shifted, and what appeared to drive the change?",
+      "blind_answer": "Constance shifted from full alignment with Diane's hard-line opposition to a managed one-per-street tolerance after Diane's earlier softening; she names the trigger explicitly.",
+      "score": 0.95,
+      "score_rationale": "matches the explicit chain-reaction grounding.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae028",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Henry's role around organising has shifted, and what appeared to cause the change?",
+      "blind_answer": "Henry shifted from records-only to chairing the AGM after Diane's repeated nudges and a quiet word from Lateefah at school pickup; both triggers are named in his own message.",
+      "score": 0.95,
+      "score_rationale": "matches the explicit dual-trigger framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae029",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Greg's stance on spending community money on the planters has shifted, and what appeared to drive the change?",
+      "blind_answer": "Greg shifted from dismissing the cost ('70 quid for plants. mate.') to voting yes after Mei caught him at his van and made the case one-to-one; he names the trigger himself in the vote.",
+      "score": 0.95,
+      "score_rationale": "matches the off-chat trigger and explicit reversal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b8c9dae030",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Owen's manner in the chat has shifted, and what appeared to drive the change?",
+      "blind_answer": "Owen shifted from clipped legal-register interventions to noticeably warmer engagement after Bex's landlord situation; the 'I am sorry to hear that' opening is the inflection point and Bex's thank-you registers the change.",
+      "score": 0.92,
+      "score_rationale": "matches the warming-trajectory framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae031",
+      "query_type": "Q7",
+      "question": "What does the way Diane and Henry handle the monthly check-ins suggest about their working relationship in the group chat?",
+      "blind_answer": "Diane and Henry are co-organisers; she runs the agenda, he keeps records and drafts protocols.",
+      "score": 0.95,
+      "score_rationale": "matches the consistent observed pattern from session one onward.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae032",
+      "query_type": "Q7",
+      "question": "What does the casual back-and-forth between Bex and Sasha across the dog-walk and house-warming threads reveal about how close they are?",
+      "blind_answer": "Bex and Sasha are close friends with shared crisis history (the 2am vet trip) and ongoing dog-walk routine; Bex speaks for Sasha in the group with the certainty of close friendship.",
+      "score": 0.9,
+      "score_rationale": "matches the in-jokes and the speak-for relationship.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae033",
+      "query_type": "Q7",
+      "question": "What does the way Mei and Nadia present the planter expansion proposal reveal about how they work together on the street?",
+      "blind_answer": "Mei and Nadia are co-leads of the planter project; they speak as a unit on planters with seamless handover and shared budget.",
+      "score": 0.95,
+      "score_rationale": "matches the joint-pitch and AGM-day-card cooperation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b8c9dae034",
+      "query_type": "Q7",
+      "question": "What does the brief exchange between Greg and Reggie at the end of the planter funding vote reveal about their relationship?",
+      "blind_answer": "Greg and Reggie are pub-night regulars and lifelong locals; their teasing exchange at the planter vote ('mate are you dying' / 'pub thursday, bringing it up') confirms the standing pub night.",
+      "score": 1.0,
+      "score_rationale": "matches the explicit pub-thursday reference and the banter register.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae035",
+      "query_type": "Q1",
+      "question": "What does Tom\u00e1s's reaction during the barbecue catering thread suggest about his diet?",
+      "blind_answer": "Tom\u00e1s is vegetarian; he does not state it directly but does not contradict Lateefah's naming of him as a vegetarian, and his only objection is to being volunteered for the salad.",
+      "score": 0.92,
+      "score_rationale": "matches the implicit-acceptance interpretation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae036",
+      "query_type": "Q1",
+      "question": "What does Lateefah's contribution to the barbecue catering plan reveal about a specific food she will not eat?",
+      "blind_answer": "Lateefah will not eat pork; she states it as an aside in the barbecue planning.",
+      "score": 1.0,
+      "score_rationale": "matches the explicit statement in chat.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b8c9dae037",
+      "query_type": "Q1",
+      "question": "What does Henry's pattern of contributions across the chat reveal about how he believes the group's decisions should be handled?",
+      "blind_answer": "Henry believes group decisions should be tracked in writing; spreadsheets, protocol documents, and recorded items are his consistent move.",
+      "score": 0.92,
+      "score_rationale": "matches the synthesis across multiple anchors.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b8c9dae038",
+      "query_type": "Q5",
+      "question": "What had Diane's stance on short-term rentals previously been, and what in Constance's own announcement of softening shows that she had been tracking Diane's position closely?",
+      "blind_answer": "Diane had previously held a hard-line opposition to the corner rental; Constance signals tracking that position by naming 'after Diane's shift' as the trigger for her own softening, and her earlier 'I share Diane's view entirely' shows she had been aware throughout.",
+      "score": 0.92,
+      "score_rationale": "matches the relational ToM grounding.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b8c9dae039",
+      "query_type": "Q4",
+      "question": "During the spring discussions, two creative-cohort members both raised ideas about how the chat or the block should present itself to the outside world: one suggested branding-style framing for street-name purposes, the other pushed for moving the group to a different platform with better moderation. Which member proposed the public-facing framing approach for street and street-name things?",
+      "blind_answer": "Aisling. The PR-style 'positive optics' / 'cleaner experience' / 'what if we framed' is her register; Sasha's argument was about moderation and audit trail tooling.",
+      "score": 0.9,
+      "score_rationale": "matches the register-based attribution.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b8c9dae040",
+      "query_type": "Q2",
+      "question": "The chat settled on holding the AGM at Diane's front garden, with Henry chairing. Most members responded warmly or neutrally. Whose response in that moment carried a different quality, and what specifically in how they responded tells you that?",
+      "blind_answer": "Joel's reluctance is the different quality; his 'do i have to come?? \ud83d\udc80\ud83d\udc80' question and 'mum and dad will drag me anyway \ud83e\udd72' reveal compliance under family pressure rather than agreement with the format.",
+      "score": 0.9,
+      "score_rationale": "matches the reluctance framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Across 10 sessions: parking/rental, barbecue, complaint protocol, end-of-month, Easter check-in/Hartleys/planters, permits, AGM scheduling, planter vote/fund, AGM final prep. Mix of recurring umbrella threads (parking, planters, fund) with distinct immediate concerns per session, matching the acquaintance_network model."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "Walter is labelled Terse but functions as Formal accountant; messages are short structurally but slightly above Terse word-count median. Acceptable per group-type tolerance."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Topic shifts are character-triggered (Bex flagging cars, Reggie's two-incident week, Diane's gate-fixing admission, Mei opening the planter thread). No cold transitions or announced pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Em dashes in messages: 0"
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All planted-challenge evidence_spans verified verbatim against the source turn; no post-generation edits to planted turns."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

@@ -10,7 +10,7 @@
       "display_name": "Mum",
       "age": 60,
       "gender": "F",
-      "background": "Patience Park. Recently retired primary school teacher. Spent forty years caring for other people's children; now overwhelmed by having unstructured time. Loving but catastrophises minor family issues. Has become very active on the family chat since retirement — sometimes over-sharing.",
+      "background": "Patience Park. Recently retired primary school teacher. Spent forty years caring for other people's children; now overwhelmed by having unstructured time. Loving but catastrophises minor family issues. Has become very active on the family chat since retirement \u2014 sometimes over-sharing.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -50,7 +50,7 @@
           "domain": "social",
           "attribute": "chat_activity",
           "old_value": "read the family chat but rarely posted; left responses to Imogen",
-          "new_value": "now very active — sends multiple messages a day, good-morning photos, recipe shares; retirement removed the professional boundary she used to maintain",
+          "new_value": "now very active \u2014 sends multiple messages a day, good-morning photos, recipe shares; retirement removed the professional boundary she used to maintain",
           "changed_at_session": 1,
           "trigger": "retired between sessions 0 and 1; with no school routine, the chat became her primary social outlet"
         }
@@ -81,7 +81,7 @@
       "display_name": "Dad",
       "age": 62,
       "gender": "M",
-      "background": "Raymond Park. Accountant, still working three days a week. Quiet, measured. Has been quietly struggling since a minor health scare that he mentioned to no one in the family but Imogen noticed. Reads the chat but posts rarely — lets Patience handle the social fabric.",
+      "background": "Raymond Park. Accountant, still working three days a week. Quiet, measured. Has been quietly struggling since a minor health scare that he mentioned to no one in the family but Imogen noticed. Reads the chat but posts rarely \u2014 lets Patience handle the social fabric.",
       "big_five": {
         "openness": "Low",
         "conscientiousness": "High",
@@ -152,7 +152,7 @@
       "display_name": "Kofi",
       "age": 34,
       "gender": "M",
-      "background": "Oldest child, lives in Toronto. Works in tech. Has the most distance from the family dynamics — physically and emotionally — but calls in for big moments. Financially comfortable but the cost of transatlantic travel means he can only realistically come home once a year. Feels guilt about this.",
+      "background": "Oldest child, lives in Toronto. Works in tech. Has the most distance from the family dynamics \u2014 physically and emotionally \u2014 but calls in for big moments. Financially comfortable but the cost of transatlantic travel means he can only realistically come home once a year. Feels guilt about this.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "High",
@@ -198,7 +198,7 @@
         }
       ],
       "speaking_quirks": [
-        "calculates time zone when responding: 'just getting in — it's late here'",
+        "calculates time zone when responding: 'just getting in \u2014 it's late here'",
         "sends voice notes for emotional things",
         "uses 'from my end' to describe his situation"
       ],
@@ -223,7 +223,7 @@
       "display_name": "Imogen",
       "age": 31,
       "gender": "F",
-      "background": "Youngest child, lives 20 minutes from the family home. Works in NHS administration. Manages most of the practical family logistics — doctors' appointments, repairs, shopping — without ever naming it as a burden. Noticed Dad's health issue and is carrying that quietly. Gets slightly worn down but presents as cheerful.",
+      "background": "Youngest child, lives 20 minutes from the family home. Works in NHS administration. Manages most of the practical family logistics \u2014 doctors' appointments, repairs, shopping \u2014 without ever naming it as a burden. Noticed Dad's health issue and is carrying that quietly. Gets slightly worn down but presents as cheerful.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -263,7 +263,7 @@
           "domain": "activities",
           "attribute": "caretaking_acknowledgment",
           "old_value": "managed logistics cheerfully without any reference to the load",
-          "new_value": "starting to show subtle exhaustion — occasional 'I'm on it' with a tired emoji; still not named as a problem",
+          "new_value": "starting to show subtle exhaustion \u2014 occasional 'I'm on it' with a tired emoji; still not named as a problem",
           "changed_at_session": 3,
           "trigger": "Dad's health scare added to logistics load; Imogen is managing his appointment follow-ups on top of the usual"
         }
@@ -271,7 +271,7 @@
       "speaking_quirks": [
         "says 'already sorted' or 'I'm on it' before anyone asks who's doing logistics",
         "deflects acknowledgments with 'of course, no problem'",
-        "adds a tired emoji (😴) to messages more often in later sessions"
+        "adds a tired emoji (\ud83d\ude34) to messages more often in later sessions"
       ],
       "occupation": "NHS administrator",
       "skills_list": [
@@ -339,7 +339,7 @@
       "relationship_type": "parent-child (closest pair)",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Raymond is closest to Imogen — she is nearby and he trusts her discretion. He disclosed his cardiac scare to her alone.",
+      "history_summary": "Raymond is closest to Imogen \u2014 she is nearby and he trusts her discretion. He disclosed his cardiac scare to her alone.",
       "shared_events": [
         "Dad disclosed health scare to Imogen only"
       ]
@@ -359,7 +359,7 @@
   ],
   "group_norms": [
     {
-      "norm_text": "Everyone comes home for Christmas — no exceptions.",
+      "norm_text": "Everyone comes home for Christmas \u2014 no exceptions.",
       "truly_universal": false,
       "dissenters": [
         "p_fm7c3d4e5"
@@ -378,5 +378,10 @@
       ]
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "family",
+    "group_size": 4
+  }
 }

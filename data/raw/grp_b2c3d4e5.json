@@ -28,8 +28,33 @@
           "opens run announcements with 'OKAY SQUAD'",
           "uses 'let's gooo' or 'let's get it' to build excitement",
           "ends longer messages with a question to the group ('who's in?', 'thoughts?')"
-        ]
-      }
+        ],
+        "humor": "Expressive",
+        "directness": "High",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "running_style": "inclusive group runs that pull everyone along",
+        "tone": "high-energy and encouraging"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'OKAY SQUAD'",
+        "uses 'let's gooo' to hype the group",
+        "ends posts with 'thoughts?' or 'who's in?'"
+      ],
+      "occupation": "running club organizer (former track athlete)",
+      "skills_list": [
+        "group coaching and pace coordination",
+        "route planning"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p02",
@@ -48,8 +73,33 @@
           "references elevation gain when evaluating routes ('how much climb?')",
           "qualifies opinions with 'in my experience...'",
           "uses 'solid' to endorse a plan without enthusiasm"
-        ]
-      }
+        ],
+        "humor": "Dry",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "route_difficulty": "challenging routes with elevation",
+        "running_style": "training-focused and competitive"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "asks about elevation ('how much climb?')",
+        "qualifies with 'in my experience'",
+        "uses 'solid' as flat endorsement"
+      ],
+      "occupation": "marathon runner (semi-competitive)",
+      "skills_list": [
+        "distance running",
+        "race pacing"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p03",
@@ -68,8 +118,32 @@
           "uses 'obsessed' as a superlative ('obsessed with this route')",
           "often proposes food/social plans alongside run details",
           "starts messages with 'omg' for reactions"
-        ]
-      }
+        ],
+        "humor": "Playful",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "running_style": "social runs over time trials",
+        "post_run": "brunch with friends"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'omg' as opener",
+        "calls things she likes 'obsessed with'",
+        "ties run plans to brunch suggestions"
+      ],
+      "occupation": "newer club member (social runner)",
+      "skills_list": [
+        "organizing post-run social plans"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p04",
@@ -88,8 +162,33 @@
           "references his Garmin or heart rate data",
           "uses 'dialed in' to mean he's prepared or trained",
           "compares routes by distance in kilometres ('that's only 9k')"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "distance": "10k+ runs only",
+        "tracking": "Garmin and heart-rate zones"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "references his Garmin data",
+        "uses 'dialed in' for prepared",
+        "compares routes by distance ('that's only Xk')"
+      ],
+      "occupation": "finance professional",
+      "skills_list": [
+        "training data analysis",
+        "long-distance running"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p05",
@@ -108,8 +207,32 @@
           "uses 'honestly' to introduce candid opinions",
           "mentions 'stress relief' when explaining why she runs",
           "often confirms plans with a simple 'I'm in' or 'see you there'"
-        ]
-      }
+        ],
+        "humor": "Earnest",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "running_purpose": "stress relief and fitness",
+        "social": "post-run brunch with Jess"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "leads candid takes with 'honestly'",
+        "mentions 'stress relief' as her reason",
+        "confirms with 'I'm in' or 'see you there'"
+      ],
+      "occupation": "mid-pack recreational runner",
+      "skills_list": [
+        "steady-pace running"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p06",
@@ -118,7 +241,7 @@
       "age": 45,
       "gender": "male",
       "role": "back-of-pack runner, consistent attendee",
-      "background": "Runs purely for health. Doesn't care about pace, just wants to finish. Has a knee injury that flares up on long descents — he avoids steep downhill routes but doesn't always say so explicitly.",
+      "background": "Runs purely for health. Doesn't care about pace, just wants to finish. Has a knee injury that flares up on long descents \u2014 he avoids steep downhill routes but doesn't always say so explicitly.",
       "communication_profile": {
         "verbosity": "terse",
         "formality": "casual",
@@ -127,9 +250,33 @@
         "speaking_quirks": [
           "uses 'probably' as hedge before committing ('I'll probably make it')",
           "deflects steep route discussions with 'I'll see how I'm feeling'",
-          "signs off with just a thumbs-up emoji 👍 when confirming"
-        ]
-      }
+          "signs off with just a thumbs-up emoji \ud83d\udc4d when confirming"
+        ],
+        "humor": "Minimal",
+        "directness": "Low",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "route_terrain": "flat routes; avoids steep descents due to knee",
+        "running_purpose": "health"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "hedges with 'I'll probably make it'",
+        "deflects steep routes with 'I'll see how I'm feeling'",
+        "confirms with a single thumbs-up emoji"
+      ],
+      "occupation": "back-of-pack recreational runner (with knee issue)",
+      "skills_list": [
+        "consistent attendance"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p07",
@@ -148,8 +295,38 @@
           "references her hamstring or injury status when discussing intensity",
           "uses 'ease in' or 'not pushing it' to signal recovery caution",
           "occasionally posts Strava PB updates to the group"
-        ]
-      }
+        ],
+        "humor": "Self-deprecating",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "running_style": "fast pace pre-injury; cautious recovery post-injury",
+        "tracking": "Strava PBs"
+      },
+      "preference_history": [
+        {
+          "attribute": "pace_intensity",
+          "value": "shifted from competitive PB-pushing to 'easing in' after hamstring strain in week 2",
+          "stable_since": "session_3"
+        }
+      ],
+      "speaking_quirks": [
+        "references her hamstring status",
+        "uses 'not pushing it' to signal caution",
+        "posts Strava PB updates"
+      ],
+      "occupation": "competitive runner (recovering from hamstring strain)",
+      "skills_list": [
+        "competitive distance running"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p08",
@@ -158,7 +335,7 @@
       "age": 36,
       "gender": "non-binary",
       "role": "route planner, detail-oriented",
-      "background": "Researches routes obsessively — elevation, surface, scenic value. Has a long friendship with Tom predating the club. Provides a quieter counterbalance to Rachel's energy.",
+      "background": "Researches routes obsessively \u2014 elevation, surface, scenic value. Has a long friendship with Tom predating the club. Provides a quieter counterbalance to Rachel's energy.",
       "communication_profile": {
         "verbosity": "verbose",
         "formality": "semi-formal",
@@ -168,8 +345,32 @@
           "uses parenthetical notes for route details ('(mostly flat, one short incline)')",
           "phrases critiques as questions ('have you considered...?')",
           "mentions 'surface' type when evaluating routes (trail, road, mixed)"
-        ]
-      }
+        ],
+        "humor": "Observational",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "route_evaluation": "elevation, surface, scenic value",
+        "social_style": "quieter counterbalance to high-energy members"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses parenthetical route notes",
+        "phrases critiques as 'have you considered...?'",
+        "mentions surface type (trail/road/mixed)"
+      ],
+      "occupation": "detail-oriented route planner",
+      "skills_list": [
+        "route research and elevation analysis"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p09",
@@ -188,8 +389,32 @@
           "references her 'long run rhythm' or preferred pace",
           "politely declines race-talk with 'not my thing, but you go for it'",
           "uses 'manageable' or 'sustainable' to endorse a plan"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "pace": "her own steady 'long run rhythm'",
+        "competitive_running": "dislikes time trials and race pressure"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "references her 'long run rhythm'",
+        "deflects race talk with 'not my thing, but you go for it'",
+        "endorses with 'manageable' or 'sustainable'"
+      ],
+      "occupation": "long-time runner (health-focused)",
+      "skills_list": [
+        "sustainable long-distance pacing"
+      ]
     },
     {
       "persona_id": "grp_b2c3d4e5_p10",
@@ -198,7 +423,7 @@
       "age": 33,
       "gender": "male",
       "role": "sporadic attendee, big-picture thinker",
-      "background": "Joins runs when he can — works irregular hours. Often misses consecutive weeks. When present, contributes energy and ideas. Has proposed the club entering a local 10k race together.",
+      "background": "Joins runs when he can \u2014 works irregular hours. Often misses consecutive weeks. When present, contributes energy and ideas. Has proposed the club entering a local 10k race together.",
       "communication_profile": {
         "verbosity": "concise",
         "formality": "casual",
@@ -208,8 +433,38 @@
           "explains absences with vague references to work ('crazy week at work')",
           "uses 'hypothetically' before big proposals",
           "ends suggestions with 'thoughts?' or 'open to alternatives'"
-        ]
-      }
+        ],
+        "humor": "Witty",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "commitment": "loose attendance, picks up around big goals (e.g., 10k race)",
+        "ideas": "likes proposing group challenges"
+      },
+      "preference_history": [
+        {
+          "attribute": "rsvp_consistency",
+          "value": "shifted from never RSVPing to confirming in advance after 10k race registration",
+          "stable_since": "session_5"
+        }
+      ],
+      "speaking_quirks": [
+        "explains absences with vague work references",
+        "uses 'hypothetically' before proposals",
+        "ends ideas with 'thoughts?' or 'open to alternatives'"
+      ],
+      "occupation": "sporadic attendee with irregular work hours",
+      "skills_list": [
+        "big-picture run organization"
+      ]
     }
   ],
   "edges": [
@@ -233,17 +488,21 @@
   "group_norms": [
     {
       "norm_id": "gn_b2_01",
-      "description": "Group runs at a pace that keeps everyone together — no one gets left behind",
+      "description": "Group runs at a pace that keeps everyone together \u2014 no one gets left behind",
       "truly_universal": false,
-      "dissenters": ["grp_b2c3d4e5_p02"],
-      "dissenter_notes": "Tom prefers faster splits and sometimes peels off at the front — he nominally agrees to the group rule but consistently pushes ahead"
+      "dissenters": [
+        "grp_b2c3d4e5_p02"
+      ],
+      "dissenter_notes": "Tom prefers faster splits and sometimes peels off at the front \u2014 he nominally agrees to the group rule but consistently pushes ahead"
     },
     {
       "norm_id": "gn_b2_02",
       "description": "Members are expected to RSVP to runs 24h in advance so routes can be planned appropriately",
       "truly_universal": false,
-      "dissenters": ["grp_b2c3d4e5_p10"],
-      "dissenter_notes": "Owen almost never RSVPs in advance — he shows up if he can and explains his absence after the fact"
+      "dissenters": [
+        "grp_b2c3d4e5_p10"
+      ],
+      "dissenter_notes": "Owen almost never RSVPs in advance \u2014 he shows up if he can and explains his absence after the fact"
     }
   ],
   "planted_challenges": [
@@ -254,7 +513,7 @@
       "fact_attribute": "steep downhill routes",
       "fact_value": "Marcus has a knee injury that flares on steep descents; he deflects route discussions involving big descents with 'I'll see how I'm feeling' without explaining why",
       "implicitness_level": 2,
-      "evidence_span": "Whenever a route with significant downhill is proposed, Marcus hedges rather than committing — 'I'll see how I'm feeling on the day' — in contrast to his usual thumbs-up for flat routes"
+      "evidence_span": "Whenever a route with significant downhill is proposed, Marcus hedges rather than committing \u2014 'I'll see how I'm feeling on the day' \u2014 in contrast to his usual thumbs-up for flat routes"
     },
     {
       "challenge_id": "ch_b202",
@@ -270,9 +529,9 @@
       "challenge_type": "consensus_trap",
       "subject_persona_id": "grp_b2c3d4e5_p02",
       "fact_attribute": "group pace agreement for the Sunday long run",
-      "fact_value": "Tom nominally agrees to the group pace but clearly isn't committed — his response is noticeably unenthusiastic compared to others who are clearly relieved the pace won't be pushed",
+      "fact_value": "Tom nominally agrees to the group pace but clearly isn't committed \u2014 his response is noticeably unenthusiastic compared to others who are clearly relieved the pace won't be pushed",
       "implicitness_level": 3,
-      "evidence_span": "Tom replies 'solid' when the group agrees on a comfortable pace — single word, no elaboration, against a backdrop of enthusiastic replies from others"
+      "evidence_span": "Tom replies 'solid' when the group agrees on a comfortable pace \u2014 single word, no elaboration, against a backdrop of enthusiastic replies from others"
     },
     {
       "challenge_id": "ch_b204",
@@ -281,7 +540,7 @@
       "fact_attribute": "the Ridgeline trail route",
       "fact_value": "Marcus can't commit to the steep Ridgeline trail because of his knee but only says 'I'll see how I'm feeling' when others agree enthusiastically",
       "implicitness_level": 2,
-      "evidence_span": "When the group locks in the Ridgeline route (known to have a steep descent), Marcus's response is 'I'll see how I'm feeling' rather than a yes — the only non-affirmative response"
+      "evidence_span": "When the group locks in the Ridgeline route (known to have a steep descent), Marcus's response is 'I'll see how I'm feeling' rather than a yes \u2014 the only non-affirmative response"
     },
     {
       "challenge_id": "ch_b205",
@@ -291,7 +550,7 @@
       "fact_attribute": "Marcus's knee issue",
       "fact_value": "Marcus has a recurring knee issue on descents",
       "implicitness_level": 2,
-      "evidence_span": "Rachel suggests an alternate flat route option 'for those who prefer flatter terrain' without being asked — in a way that only makes sense if she already knows about Marcus's knee. Marcus responds with immediate relief ('perfect') rather than asking why the option was added."
+      "evidence_span": "Rachel suggests an alternate flat route option 'for those who prefer flatter terrain' without being asked \u2014 in a way that only makes sense if she already knows about Marcus's knee. Marcus responds with immediate relief ('perfect') rather than asking why the option was added."
     },
     {
       "challenge_id": "ch_b206",
@@ -299,7 +558,7 @@
       "subject_persona_id": "grp_b2c3d4e5_p08",
       "speaker_persona_id": "grp_b2c3d4e5_p02",
       "fact_attribute": "detailed route analysis including elevation profile",
-      "fact_value": "Tom was the one who first analyzed the Lakeview loop route in detail, including elevation — but Sam typically posts route analysis, making Tom easy to misattribute",
+      "fact_value": "Tom was the one who first analyzed the Lakeview loop route in detail, including elevation \u2014 but Sam typically posts route analysis, making Tom easy to misattribute",
       "implicitness_level": 2,
       "evidence_span": "Tom posts a route breakdown with elevation data for the Lakeview loop; Sam later endorses it. The natural assumption is that Sam (the usual route analyst) wrote the analysis, but it was Tom."
     },
@@ -319,9 +578,9 @@
       "subject_persona_id": "grp_b2c3d4e5_p05",
       "speaker_persona_id": "grp_b2c3d4e5_p03",
       "fact_attribute": "Jess and Priti's post-run brunch tradition",
-      "fact_value": "Jess and Priti regularly get brunch together after runs — a ritual distinct from the rest of the group's dynamic",
+      "fact_value": "Jess and Priti regularly get brunch together after runs \u2014 a ritual distinct from the rest of the group's dynamic",
       "implicitness_level": 1,
-      "evidence_span": "Jess mentions 'Priti you're coming to brunch right? we always do our usual spot after Sunday long runs' — revealing an ongoing ritual others may not be part of"
+      "evidence_span": "Jess mentions 'Priti you're coming to brunch right? we always do our usual spot after Sunday long runs' \u2014 revealing an ongoing ritual others may not be part of"
     },
     {
       "challenge_id": "ch_b209",
@@ -330,7 +589,7 @@
       "fact_attribute": "attitude toward race pace and competitive running",
       "fact_value": "Nadia starts as the club's fastest member who posts PBs and pushes pace, then pulls back after her hamstring injury, shifting to 'easing in' and 'not pushing it' language",
       "implicitness_level": 2,
-      "evidence_span": "Early sessions: Nadia references PRs and pushes for faster pacing. Post-injury (session 3 onward): Nadia explicitly says 'not pushing it this week' and 'hamstring still needs time' — a visible shift in how she talks about running"
+      "evidence_span": "Early sessions: Nadia references PRs and pushes for faster pacing. Post-injury (session 3 onward): Nadia explicitly says 'not pushing it this week' and 'hamstring still needs time' \u2014 a visible shift in how she talks about running"
     },
     {
       "challenge_id": "ch_b210",
@@ -346,7 +605,7 @@
       "challenge_type": "implicit_preference",
       "subject_persona_id": "grp_b2c3d4e5_p03",
       "fact_attribute": "competitive pace running",
-      "fact_value": "Jess runs primarily for the social aspect and feels uncomfortable when the group pushes competitive pace — she deflects with food plan proposals when race talk dominates",
+      "fact_value": "Jess runs primarily for the social aspect and feels uncomfortable when the group pushes competitive pace \u2014 she deflects with food plan proposals when race talk dominates",
       "implicitness_level": 2,
       "evidence_span": "When race strategy or speed discussions dominate the chat, Jess redirects by proposing brunch spots or post-run social plans"
     },
@@ -355,9 +614,15 @@
       "challenge_type": "implicit_preference",
       "subject_persona_id": "grp_b2c3d4e5_p04",
       "fact_attribute": "run distance under 8km",
-      "fact_value": "Derek dismisses shorter routes as not worthwhile — when routes under 8k are proposed, he comments 'that's only 9k' or similar, signaling he doesn't consider them real workouts",
+      "fact_value": "Derek dismisses shorter routes as not worthwhile \u2014 when routes under 8k are proposed, he comments 'that's only 9k' or similar, signaling he doesn't consider them real workouts",
       "implicitness_level": 1,
-      "evidence_span": "Derek dismisses a proposed 7k route with 'that's only 7k, barely a warmup' — his consistent minimum threshold for meaningful distance is around 10k"
+      "evidence_span": "Derek dismisses a proposed 7k route with 'that's only 7k, barely a warmup' \u2014 his consistent minimum threshold for meaningful distance is around 10k"
     }
-  ]
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "recreational",
+    "group_size": 10
+  }
 }

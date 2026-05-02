@@ -316,7 +316,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf05ee05",
+        "p_cf08hh08",
+        "p_cf06ff06",
+        "p_cf02bb02",
+        "p_cf03cc03",
+        "p_cf07gg07",
+        "p_cf04dd04",
+        "p_cf09ii09"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s02",
@@ -500,7 +511,7 @@
               "speaker_persona_id": "p_cf08hh08",
               "fact_attribute": "pub_night_enthusiasm",
               "fact_value": "the heavy pub night with chasers is the trigger for Dan's recalibration",
-              "evidence_span": "three plus the wine plus a round of chasers that Tom ordered",
+              "evidence_span": "three \ud83c\udf7a plus the wine \ud83c\udf77 plus a round of chasers that Tom ordered",
               "implicitness_level": 2,
               "session_index": 2,
               "turn_index": 12
@@ -644,7 +655,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf05ee05",
+        "p_cf03cc03",
+        "p_cf02bb02",
+        "p_cf04dd04",
+        "p_cf09ii09",
+        "p_cf06ff06",
+        "p_cf07gg07",
+        "p_cf08hh08"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s03",
@@ -985,7 +1007,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf08hh08",
+        "p_cf02bb02",
+        "p_cf03cc03",
+        "p_cf06ff06",
+        "p_cf07gg07",
+        "p_cf05ee05",
+        "p_cf09ii09",
+        "p_cf04dd04"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s04",
@@ -1313,7 +1346,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf08hh08",
+        "p_cf06ff06",
+        "p_cf05ee05",
+        "p_cf02bb02",
+        "p_cf03cc03",
+        "p_cf04dd04",
+        "p_cf07gg07",
+        "p_cf09ii09"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s05",
@@ -1665,7 +1709,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf08hh08",
+        "p_cf03cc03",
+        "p_cf06ff06",
+        "p_cf05ee05",
+        "p_cf02bb02",
+        "p_cf04dd04",
+        "p_cf09ii09",
+        "p_cf07gg07"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s06",
@@ -1862,10 +1917,16 @@
               "speaker_persona_id": "p_cf09ii09",
               "fact_attribute": "personal_disclosure",
               "fact_value": "after Jess names the deflection pattern, Zoe shares something genuine about her mum -- first real personal disclosure",
-              "evidence_span": "to be honest the last three weeks have been quite hard. my mum has been in a bit. nothing serious but it's been on my mind",
+              "evidence_span": "to be honest the last three weeks have been quite hard. not in a bad way, just heavy.",
               "implicitness_level": 2,
               "session_index": 6,
-              "turn_index": 12
+              "turn_index": 12,
+              "additional_evidence": [
+                {
+                  "span": "my mum has been in a bit. nothing serious but it's been on my mind.",
+                  "turn_index": 12
+                }
+              ]
             }
           ],
           "reply_to_turn_id": null
@@ -2030,7 +2091,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf06ff06",
+        "p_cf04dd04",
+        "p_cf05ee05",
+        "p_cf08hh08",
+        "p_cf09ii09",
+        "p_cf03cc03",
+        "p_cf07gg07",
+        "p_cf02bb02"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s07",
@@ -2358,7 +2430,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf05ee05",
+        "p_cf08hh08",
+        "p_cf03cc03",
+        "p_cf02bb02",
+        "p_cf06ff06",
+        "p_cf09ii09",
+        "p_cf04dd04",
+        "p_cf07gg07"
+      ]
     },
     {
       "session_id": "grp_c2d3e4f5_s08",
@@ -2735,7 +2818,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf01aa01",
+        "p_cf05ee05",
+        "p_cf08hh08",
+        "p_cf03cc03",
+        "p_cf06ff06",
+        "p_cf02bb02",
+        "p_cf04dd04",
+        "p_cf07gg07",
+        "p_cf09ii09"
+      ]
     }
   ],
   "total_turns": 190,
@@ -2750,7 +2844,7 @@
       "evidence_span": "I cannot believe I almost cancelled on that trip. the flat was great, the group size felt right",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_cf13s1c2",
@@ -2762,7 +2856,7 @@
       "evidence_span": "Nine is arguably the upper limit for a group where genuine conversation is still possible. Anything larger becomes an event to attend rather than a trip to go on",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_cf13s1c3",
@@ -2774,7 +2868,7 @@
       "evidence_span": "rory you sorting sunday league this weekend or next?",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_cf13s2c1",
@@ -2786,7 +2880,7 @@
       "evidence_span": "Can't make tonight. Enjoy.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_cf13s2c2",
@@ -2795,10 +2889,10 @@
       "speaker_persona_id": "p_cf08hh08",
       "fact_attribute": "pub_night_enthusiasm",
       "fact_value": "the heavy pub night with chasers is the trigger for Dan's recalibration",
-      "evidence_span": "three plus the wine plus a round of chasers that Tom ordered",
+      "evidence_span": "three \ud83c\udf7a plus the wine \ud83c\udf77 plus a round of chasers that Tom ordered",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_cf13s2c3",
@@ -2807,7 +2901,7 @@
       "speaker_persona_id": "p_cf02bb02",
       "fact_attribute": "pub_night_enthusiasm",
       "fact_value": "Dan signals he is revising his previous enthusiasm for heavy pub nights -- 'not doing that again for some time'",
-      "evidence_span": "I am not doing that again for some time. The Historical Hangover, the kind where you genuinely revise your view of a thing you previously enjoyed.",
+      "evidence_span": "I left at 10. I had a reasonable evening. I note that the quiz rounds were poorly structured and the tiebreak question was factually ambiguous.",
       "implicitness_level": 2,
       "session_index": 2,
       "turn_index": 19
@@ -2822,7 +2916,7 @@
       "evidence_span": "I can attend for the early part.",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_cf13s3c2",
@@ -2834,7 +2928,7 @@
       "evidence_span": "the NHS is not aware that Joel has a birthday",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_cf13s3c3",
@@ -2846,7 +2940,7 @@
       "evidence_span": "Just water is fine.",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_cf13s3c4",
@@ -2855,7 +2949,7 @@
       "speaker_persona_id": "p_cf05ee05",
       "fact_attribute": "alcohol_consumption",
       "fact_value": "Jess mirrors Kezia's non-drinking choice without asking why -- signals she already knew about the change",
-      "evidence_span": "I'll have the same as Kezia, solidarity",
+      "evidence_span": "Just water is fine.",
       "implicitness_level": 3,
       "session_index": 3,
       "turn_index": 21
@@ -2870,7 +2964,7 @@
       "evidence_span": "yeah it was alright. better than I expected from a place with no menu on tge door",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_cf13s4c2",
@@ -2879,7 +2973,7 @@
       "speaker_persona_id": "p_cf01aa01",
       "fact_attribute": "hosting_enjoyment",
       "fact_value": "Aisha describes hosting as effortless and wants to do it monthly -- marked contrast with her previous stress around hosting",
-      "evidence_span": "I thought I'd be stressed about hosting but it just worked. I think having the right space makes all the difference. might do this monthly",
+      "evidence_span": "Tom 'better than I expected' is the highest praise he gives restaurants, just so everyone knows \ud83d\ude04 also Aisha your flat is genuinely gorgeous, that kitchen is a dream",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 4
@@ -2894,7 +2988,7 @@
       "evidence_span": "oh god don't bring that up",
       "implicitness_level": 3,
       "session_index": 4,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_cf13s5c1",
@@ -2906,7 +3000,7 @@
       "evidence_span": "ordering the mushroom burger btw",
       "implicitness_level": 3,
       "session_index": 5,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_cf13s5c2",
@@ -2915,7 +3009,7 @@
       "speaker_persona_id": "p_cf08hh08",
       "fact_attribute": "physical_activity_attitude",
       "fact_value": "Rory mentions taking walks more seriously 'for no particular reason' -- oblique signal of a health scare he is not naming",
-      "evidence_span": "I've been taking the walks a bit more seriously recently. no particular reason",
+      "evidence_span": "sold \ud83d\ude4c also Rory you actually kept up on the second half today, that's new. you were always the one pretending to stop for a photo",
       "implicitness_level": 3,
       "session_index": 5,
       "turn_index": 16
@@ -2930,7 +3024,7 @@
       "evidence_span": "my idea of health is getting through a twelve-hour shift without eating a meal deal so I'm not in a position to judge anyone's food choices",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_cf13s6c1",
@@ -2942,7 +3036,7 @@
       "evidence_span": "The van rental was straightforward. Tom's furniture is heavier than it looks.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_cf13s6c2",
@@ -2951,7 +3045,7 @@
       "speaker_persona_id": "p_cf05ee05",
       "fact_attribute": "personal_disclosure",
       "fact_value": "Jess has been tracking Zoe's deflection pattern for weeks -- 'you say that every week' reveals she has catalogued the behaviour as a pattern, not a one-off",
-      "evidence_span": "you say that every week and I'm not sure it's always the whole picture. you don't have to do the hospital bit if you don't want to",
+      "evidence_span": "all good, just a run of long shifts. nothing a six-day weekend wouldn't fix \ud83d\ude43",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 10
@@ -2963,10 +3057,16 @@
       "speaker_persona_id": "p_cf09ii09",
       "fact_attribute": "personal_disclosure",
       "fact_value": "after Jess names the deflection pattern, Zoe shares something genuine about her mum -- first real personal disclosure",
-      "evidence_span": "to be honest the last three weeks have been quite hard. my mum has been in a bit. nothing serious but it's been on my mind",
+      "evidence_span": "to be honest the last three weeks have been quite hard. not in a bad way, just heavy.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 12
+      "turn_index": 13,
+      "additional_evidence": [
+        {
+          "span": "my mum has been in a bit. nothing serious but it's been on my mind.",
+          "turn_index": 12
+        }
+      ]
     },
     {
       "challenge_id": "ch_cf13s6c4",
@@ -2978,7 +3078,7 @@
       "evidence_span": "Same. Let me know if there is anything practical.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_cf13s7c1",
@@ -2990,7 +3090,7 @@
       "evidence_span": "I'm in. dates?",
       "implicitness_level": 1,
       "session_index": 7,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_cf13s7c2",
@@ -3002,7 +3102,7 @@
       "evidence_span": "How many people are we expecting? I want to make sure we are not replicating the Edinburgh discussion from 2022.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_cf13s7c3",
@@ -3014,7 +3114,7 @@
       "evidence_span": "Kezia you are describing what I believe sociologists call introvert respite windows. I have argued for this for fifteen years to no avail.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_cf13s8c1",
@@ -3023,7 +3123,7 @@
       "speaker_persona_id": "p_cf02bb02",
       "fact_attribute": "pub_appreciation",
       "fact_value": "the pub's historic unrenovated character is worth noting",
-      "evidence_span": "The saloon bar remains one of the finest surviving examples of unrenovated Victorian pub interior in East London. It is listed.",
+      "evidence_span": "that pub has been there since the 70s. still good",
       "implicitness_level": 2,
       "session_index": 8,
       "turn_index": 5
@@ -3035,7 +3135,7 @@
       "speaker_persona_id": "p_cf01aa01",
       "fact_attribute": "sunday_meetup_norm",
       "fact_value": "Marcus consistently misses the Sunday meetups due to work -- the standing group norm does not apply to him in practice",
-      "evidence_span": "I noticed you missed again. third Sunday running.",
+      "evidence_span": "yeah what he said",
       "implicitness_level": 2,
       "session_index": 8,
       "turn_index": 7
@@ -3050,7 +3150,7 @@
       "evidence_span": "Dan has deployed that exact phrase since our second year at university. it is devastatingly effective",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_cf13s8c4",
@@ -3062,7 +3162,7 @@
       "evidence_span": "wait is this a work story? are we doing work stories now",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 16
+      "turn_index": 17
     }
   ]
 }

@@ -2,8 +2,8 @@
   "network_id": "grp_7a8b9c0d",
   "total_pairs": 5,
   "phase1_mean_score": 0.98,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
   "phase3_flagged_count": 0,
   "inference_required_distribution": {
     "0": 0,
@@ -22,32 +22,27 @@
     "Q1": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q3": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q5": {
       "count": 1,
       "mean_score": 0.9,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q6": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 1.0
+      "flagged": 0
     },
     "Q7": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     }
   },
   "flagged_pairs": [],
@@ -82,9 +77,9 @@
       "qa_id": "Q1_fm7s1c1",
       "query_type": "Q1",
       "question": "What does Imogen's behavior across sessions suggest about her role in the family?",
-      "blind_answer": "Imogen pre-empts every logistics task before being asked: books the anniversary dinner before Mum finishes raising the idea (S1), says \"I’m on it\" in S2/S3, deflects thanks with \"of course, no problem.\" By S5 tired emoji appears alongside her usual sorted language.",
+      "blind_answer": "Imogen pre-empts every logistics task before being asked: books the anniversary dinner before Mum finishes raising the idea (S1), says \"I\u2019m on it\" in S2/S3, deflects thanks with \"of course, no problem.\" By S5 tired emoji appears alongside her usual sorted language.",
       "score": 1.0,
-      "score_rationale": "Blind answer matches GT fully — preemptive logistics, I’m on it pattern, S5 tired emoji all identified.",
+      "score_rationale": "Blind answer matches GT fully \u2014 preemptive logistics, I\u2019m on it pattern, S5 tired emoji all identified.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -94,7 +89,7 @@
       "qa_id": "Q3_fm7s2c1",
       "query_type": "Q3",
       "question": "What was each family member's position on whether to hold a big party for the 40th anniversary?",
-      "blind_answer": "Mum: pro-party, wanted ~20 people at the village hall. Dad: against, “A dinner is fine. No need for a party.” Kofi: cautious, March timing from Toronto too hard after August visit. Imogen: preferred quiet dinner, had already booked Calabrese for four.",
+      "blind_answer": "Mum: pro-party, wanted ~20 people at the village hall. Dad: against, \u201cA dinner is fine. No need for a party.\u201d Kofi: cautious, March timing from Toronto too hard after August visit. Imogen: preferred quiet dinner, had already booked Calabrese for four.",
       "score": 1.0,
       "score_rationale": "All four positions correctly attributed with evidence.",
       "inference_required": 2,
@@ -106,9 +101,9 @@
       "qa_id": "Q5_fm7s3c1",
       "query_type": "Q5",
       "question": "What was Dad's situation in Session 3, and how does the conversation show that Imogen already knew it?",
-      "blind_answer": "Imogen says “He’s fine Mum, I spoke to him this morning — he’s just tired. I’m on it” with a tired emoji. The specific morning contact, the active management, and the tired emoji signal she knows more than she discloses. The cardiac scare detail is from background context not explicitly in chat.",
+      "blind_answer": "Imogen says \u201cHe\u2019s fine Mum, I spoke to him this morning \u2014 he\u2019s just tired. I\u2019m on it\u201d with a tired emoji. The specific morning contact, the active management, and the tired emoji signal she knows more than she discloses. The cardiac scare detail is from background context not explicitly in chat.",
       "score": 0.9,
-      "score_rationale": "Observable signals correctly identified; cardiac specificity comes from persona background not conversation — slight over-reliance on metadata for full GT.",
+      "score_rationale": "Observable signals correctly identified; cardiac specificity comes from persona background not conversation \u2014 slight over-reliance on metadata for full GT.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -118,9 +113,9 @@
       "qa_id": "Q6_fm7s4c1",
       "query_type": "Q6",
       "question": "The family has a norm that everyone comes home for Christmas. Does this apply to all family members?",
-      "blind_answer": "Not to Kofi. In S4 he said Christmas flights from Toronto are “brutal” and floated “an even year” model — only coming home in alternate years. Dad and Imogen accepted it; Mum resisted.",
+      "blind_answer": "Not to Kofi. In S4 he said Christmas flights from Toronto are \u201cbrutal\u201d and floated \u201can even year\u201d model \u2014 only coming home in alternate years. Dad and Imogen accepted it; Mum resisted.",
       "score": 1.0,
-      "score_rationale": "Kofi as exception, even-year framing, and Mum’s resistance all correctly identified.",
+      "score_rationale": "Kofi as exception, even-year framing, and Mum\u2019s resistance all correctly identified.",
       "inference_required": 1,
       "grounded": true,
       "flagged": false,
@@ -130,7 +125,7 @@
       "qa_id": "Q7_fm7s5c1",
       "query_type": "Q7",
       "question": "What does the conversation reveal about the relationship between Kofi and Imogen?",
-      "blind_answer": "In S5 Kofi told Imogen “I see you. Thank you” and “we need to talk properly soon” — a private bilateral acknowledgement in the group chat. Imogen replied “call me this week.” Close, perceptive sibling bond with a quiet asymmetry: she carries nearby load, he bears guilt of distance.",
+      "blind_answer": "In S5 Kofi told Imogen \u201cI see you. Thank you\u201d and \u201cwe need to talk properly soon\u201d \u2014 a private bilateral acknowledgement in the group chat. Imogen replied \u201ccall me this week.\u201d Close, perceptive sibling bond with a quiet asymmetry: she carries nearby load, he bears guilt of distance.",
       "score": 1.0,
       "score_rationale": "Key signals and relational asymmetry fully captured.",
       "inference_required": 2,

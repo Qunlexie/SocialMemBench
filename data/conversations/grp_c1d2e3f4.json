@@ -292,7 +292,14 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f2",
+        "p_c1d2e3f1",
+        "p_c1d2e3f4",
+        "p_c1d2e3f5",
+        "p_c1d2e3f3"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s02",
@@ -597,7 +604,14 @@
       ],
       "prior_session_summary": "Session 1: Family checked in on Loretta's Thursday cardiology appointment. Loretta confirmed her own ride and showed she has been keeping her BP log consistently since Tanya set her up with the notebook. Loretta deflected a video call suggestion in favor of a regular voice call. Marcus confirmed he's coming Saturday to fix the faucet. Diane funneled a medical question through Tanya. The dynamic between Loretta's self-sufficiency and Diane's management instincts was visible.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f5",
+        "p_c1d2e3f4",
+        "p_c1d2e3f2",
+        "p_c1d2e3f3",
+        "p_c1d2e3f1"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s03",
@@ -876,7 +890,14 @@
       ],
       "prior_session_summary": "Session 2: Kevin's major Southside Chicago project got budget approval. He and Loretta had an extended exchange about Hayti and the Pettigrew Street destruction by Route 147 \u2014 Kevin is writing notes, Loretta gave him a family name (Chestnut) to follow up on, and they agreed to call Tuesday/Wednesday. Kevin mentioned a two-year lease renewal in passing without making it a big deal. Diane is holding back from traveling during Loretta's cardiology months. Tanya demonstrated she knows Loretta's energy patterns after bridge.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f2",
+        "p_c1d2e3f1",
+        "p_c1d2e3f3",
+        "p_c1d2e3f4",
+        "p_c1d2e3f5"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s04",
@@ -1155,7 +1176,14 @@
       ],
       "prior_session_summary": "Session 3: February 14th weekend visit locked in \u2014 Diane, Marcus, Tanya confirmed, Kevin at 80%. Restaurant dinner was proposed by Diane but immediately overridden by both Loretta (offering to cook) and Marcus (offering the portable grill). No restaurant visit will happen. Saturday plan: no scheduled alarm, Eno walk when ready, grill by noon, main meal at 2. Diane signed off 'Love, Diane' after Kevin's teasing, which Tanya defused with logistics. Group is warm and functional.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f2",
+        "p_c1d2e3f1",
+        "p_c1d2e3f4",
+        "p_c1d2e3f3",
+        "p_c1d2e3f5"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s05",
@@ -1447,7 +1475,14 @@
       ],
       "prior_session_summary": "Session 4: Loretta's cardiology appointment was clean \u2014 Dr. Mensah pleased with readings, next follow-up in three months, already on Loretta's calendar. Kevin confirmed flights for the February 14th visit at 80%. Loretta told Diane her worry came honestly \u2014 grandmother was the same way. Tanya provided the clinical bridge between Loretta's reassurances and Diane's anxiety. Group is warm and the visit is confirmed.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f1",
+        "p_c1d2e3f5",
+        "p_c1d2e3f3",
+        "p_c1d2e3f4",
+        "p_c1d2e3f2"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s06",
@@ -1739,7 +1774,14 @@
       ],
       "prior_session_summary": "Session 5: Post-February-visit glow. Diane announced she is calling Marcus directly going forward and Marcus gave a call window (Thursdays after 5). Tanya mentioned a vague 'thing at Emory' and deflected when Diane probed. April 11th is shaping up as next visit. Kevin is checking flights. The family is coordinating more openly than before, with Diane's change in approach visible.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f2",
+        "p_c1d2e3f4",
+        "p_c1d2e3f1",
+        "p_c1d2e3f3",
+        "p_c1d2e3f5"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s07",
@@ -2044,7 +2086,14 @@
       ],
       "prior_session_summary": "Session 6: Marcus revealed he drove to Durham at 11pm when Loretta called about missing BP medication, stayed two days, reorganized the kitchen. Diane expressed concern. Marcus gave a brief concession \u2014 'probably need to think about some things' \u2014 in response to Diane raising longer-term planning for Loretta. Loretta intervened to say she expected to be part of any such conversation. The family is more aligned than before but no concrete plan was made.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f4",
+        "p_c1d2e3f2",
+        "p_c1d2e3f1",
+        "p_c1d2e3f3",
+        "p_c1d2e3f5"
+      ]
     },
     {
       "session_id": "grp_c1d2e3f4_s08",
@@ -2349,7 +2398,14 @@
       ],
       "prior_session_summary": "Session 7: Tanya surfaced that Loretta has stopped driving after dark. Loretta confirmed it was her own voluntary decision, framed as a personal rule not a family concession. Diane asked about backup transport; Loretta already has two church neighbors arranged. The group reflected on how information actually flows \u2014 parallel channels (Marcus's visits, Kevin's calls, Tanya's clinical summaries, Diane's calls) rather than just this chat. Loretta named the chat's real function: Sunday dinner, not the doctor's office.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f1",
+        "p_c1d2e3f5",
+        "p_c1d2e3f4",
+        "p_c1d2e3f2",
+        "p_c1d2e3f3"
+      ]
     }
   ],
   "total_turns": 160,
@@ -2364,7 +2420,7 @@
       "evidence_span": "he said the full log. I've been keeping it in the little notebook you left me. Every morning, right after coffee.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -2376,7 +2432,7 @@
       "evidence_span": "a call is fine. I'll be ready by nine. No need for video, I'll be running around getting my coat and bag on.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -2388,7 +2444,7 @@
       "evidence_span": "I can send Tanya the note if that's easier",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -2400,7 +2456,7 @@
       "evidence_span": "the Southside actually reminds me of Hayti. the pattern of how the neighborhood got cut is almost identical. did you ever know anyone who lived on Pettigrew Street",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -2412,7 +2468,7 @@
       "evidence_span": "I renewed the lease in December, didn't really make a big thing of it but it's a two-year",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -2424,7 +2480,7 @@
       "evidence_span": "I don't want to travel during a cardiology month, just so we're all aware.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -2436,7 +2492,7 @@
       "evidence_span": "Tuesday she has bridge until about 4 and she doesn't love calls right after because she's tired. maybe Tuesday at 6 or Wednesday?",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_b8c9d0e1",
@@ -2448,7 +2504,7 @@
       "evidence_span": "I can handle Saturday too. I'll bring the portable grill. Weather looks okay for mid-February.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -2460,7 +2516,7 @@
       "evidence_span": "I know you don't love being rushed before we've all settled in, just so we plan right.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -2472,7 +2528,7 @@
       "evidence_span": "He wants to see me again in three months. I've already put it in the calendar.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -2484,7 +2540,7 @@
       "evidence_span": "Mom sent me the note, I forwarded it to the office Monday. Proactive is always better with cardiology, it lets them prepare rather than react in-room.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -2496,7 +2552,7 @@
       "evidence_span": "I'm going to keep doing that going forward. Just calling directly rather than routing through Tanya. Just so we're all aware.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_a3b4c5d6",
@@ -2508,7 +2564,7 @@
       "evidence_span": "I might have a thing at Emory that Saturday - still figuring out if I need to go in person or if I can do it remotely.",
       "implicitness_level": 3,
       "session_index": 5,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -2520,7 +2576,7 @@
       "evidence_span": "it's nothing yet. just looking into something. I'll know more in a week or two.",
       "implicitness_level": 3,
       "session_index": 5,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -2532,7 +2588,7 @@
       "evidence_span": "she called me. couldn't find her BP meds. went up Tuesday night, stayed through Wednesday.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_d6e7f8a9",
@@ -2544,7 +2600,7 @@
       "evidence_span": "yeah. probably need to think about some things.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -2556,7 +2612,7 @@
       "evidence_span": "I want to be clear that I am still here and can read this chat. Whatever you are planning, I would like to be part of that conversation when the time comes.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -2568,7 +2624,7 @@
       "evidence_span": "she just didn't stay for the 8pm part. said she didn't want to be driving that late. that's the bit I'm flagging.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_a9b0c1d2",
@@ -2580,7 +2636,7 @@
       "evidence_span": "I am not driving after dark anymore. I have given myself that rule. It is my decision and I am telling you now directly. I didn't want a conversation about it. I just wanted it to be my thing.",
       "implicitness_level": 1,
       "session_index": 7,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_b0c1d2e3",
@@ -2592,7 +2648,7 @@
       "evidence_span": "I go up. see with my own eyes. Mama tells me things she doesn't put in here.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -2604,7 +2660,7 @@
       "evidence_span": "Tanya sends me a clinical summary when something happens that she judges I need to know. Marcus shows up. Kevin calls about Durham. So this chat is the fourth or fifth information layer",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -2616,7 +2672,7 @@
       "evidence_span": "I have been in this house fifty-four years. I am not interested in leaving it.",
       "implicitness_level": 1,
       "session_index": 8,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -2628,7 +2684,7 @@
       "evidence_span": "The Emory thing is moving forward. I'll tell everyone more when there's actually something to tell.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -2640,7 +2696,7 @@
       "evidence_span": "I notice he's been more present this month, in a different way.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -2652,7 +2708,7 @@
       "evidence_span": "he texted me separately this week to ask about Grandma's meds schedule. like unprompted. that's new.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 9
+      "turn_index": 10
     }
   ]
 }

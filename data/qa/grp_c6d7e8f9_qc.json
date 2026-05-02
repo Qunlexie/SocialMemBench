@@ -1,44 +1,295 @@
 {
   "network_id": "grp_c6d7e8f9",
-  "group_name": "The Sunday Group",
-  "qc_run_at": "2026-04-22T00:00:00Z",
   "total_pairs": 17,
-  "breakdown": {
-    "Q1": 2,
-    "Q2": 1,
-    "Q4": 2,
-    "Q5": 2,
-    "Q6": 1,
-    "Q7": 3,
-    "Q8": 3,
-    "Q9": 3
+  "phase1_mean_score": 0.9912,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "2": 15,
+    "1": 2
   },
-  "difficulty": {
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
     "easy": 3,
     "medium": 10,
     "hard": 4
   },
-  "phase1": {
-    "mean_score": 1.0,
-    "pass_count": 17,
-    "fail_count": 0,
-    "flagged_ids": []
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.925,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    }
   },
-  "phase2": {
-    "all_grounded": true,
-    "ungrounded_ids": []
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_c6d7e8f901",
+      "query_type": "Q1",
+      "question": "What does Ravi's comment about venue choice in Session 1 reveal about his relationship to coffee quality?",
+      "blind_answer": "Ravi makes espresso quality a conditional prerequisite for attendance: 'As long as they do a proper espresso and not just a Nespresso pod with ambitions, fine by me.' The conditional framing reveals coffee quality as a non-negotiable minimum standard, not a preference \u2014 he will attend only if the venue meets the bar.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: espresso quality as a gate condition, 'Nespresso pod with ambitions' as dry dismissal of low standards.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_c6d7e8f902",
+      "query_type": "Q1",
+      "question": "What do Nadia's messages across Sessions 1 and 3 reveal about her food preferences, and how does the combination of those sessions give a more complete picture than either alone?",
+      "blind_answer": "Session 1: Nadia proposes Flour and Ash for the smoked fish boards and mezze, revealing preference for seafood-inclusive shared plates. Session 3: she reports not ordering lamb even though she wanted it, eating squid ink pasta, and explicitly naming herself pescatarian ('no land meat, fish yes'). Together: pescatarian with a shared-plate eating style.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly across both sessions: food style (shared plates, seafood) in Session 1 and dietary identity shift (pescatarian) in Session 3.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_c6d7e8f901",
+      "query_type": "Q2",
+      "question": "The group decided to do a Saturday pub quiz together in Session 3. Who agreed, and was there anyone whose agreement carried a meaningfully different quality than the others'?",
+      "blind_answer": "Ravi, Tom, and Nadia all confirmed the pub quiz with straightforward agreement. Cleo said 'i'm not great at quizzes but i'll come and draw on the answer sheet probably' \u2014 hedged, deflecting, committing only to presence not the activity. Correct answer: Cleo (B).",
+      "score": 1.0,
+      "score_rationale": "Cleo's qualified agreement ('probably', 'draw on the answer sheet') clearly distinguishes her low investment from the others' acceptance \u2014 exact match to ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_c6d7e8f901",
+      "query_type": "Q4",
+      "question": "In Sessions 1 and 2, two group members both engage thoughtfully with the factory farming article that Bex shared. One of them is described as having been plant-based for years; the other is lifelong vegetarian. Which of these dietary identities belongs to Bex, and what in the specific language each person uses is the key to correct attribution?",
+      "blind_answer": "Bex. In Session 1 she shared the factory farming article. In Session 2 she says 'I've been mostly plant-based for years.' Cleo says 'i've been veggie since like forever.' Plant-based practice belongs to Bex; Cleo's identity is 'veggie since childhood.' Correct answer: A (Bex).",
+      "score": 1.0,
+      "score_rationale": "Bex's 'mostly plant-based' vs Cleo's 'veggie since forever' distinction is directly in the text \u2014 blind answer matches ground truth including vocabulary analysis.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_c6d7e8f902",
+      "query_type": "Q4",
+      "question": "In Session 8's debrief of Bex's farewell dinner, both Ravi and Cleo ordered the roasted aubergine dish. Nadia notes they chose it for entirely different reasons. Whose food choice was driven by the dish's umami quality \u2014 and what in each person's phrasing throughout the conversations is the reliable signal?",
+      "blind_answer": "Ravi's choice was umami-driven. Session 8: 'I had the roasted aubergine dish. Strong umami. Better than expected for a plant-forward place.' Cleo: 'i had the roasted aubergine too. because it was the most interesting vegetarian option.' Ravi evaluates by flavour architecture; Cleo navigates by vegetarian constraint. Correct answer: C (Ravi).",
+      "score": 1.0,
+      "score_rationale": "Ravi's explicit umami framing vs Cleo's constraint-navigation framing is immediately distinguishable from the text \u2014 exact match to ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_c6d7e8f901",
+      "query_type": "Q5",
+      "question": "What does Nadia's comment in Session 2 about Tom's running reveal about what she had understood about him \u2014 and what in her phrasing shows this is prior knowledge rather than a real-time inference?",
+      "blind_answer": "Nadia says 'you used to talk about the Bristol half as the main event and now it's all about these huge off-road things. does that make sense or am I imagining it?' The phrase 'you used to talk about' shows she retained a before-model of Tom's running focus and is testing whether it was accurate. Tom confirms 'Probably a fair read.' This is prior knowledge because she names the before-state explicitly rather than reacting to new information.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: 'you used to' as the signal of retained prior model, Tom's confirmation as validation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_c6d7e8f902",
+      "query_type": "Q5",
+      "question": "In Session 7, Nadia shares something Tom told her about Ravi's quiz attendance. What does the fact that Tom tracked this \u2014 and chose to mention it to Nadia \u2014 reveal about what Tom understands about how Ravi relates to the group?",
+      "blind_answer": "Session 7 Nadia relays that Tom told her Ravi has attended the pub quiz every week for four years without cancelling. Tom later says 'Ravi treats everything like a project. Including friendships.' Ravi then discloses he moved to Bristol knowing nobody and the Sunday Group is his entire social world. Tom's model: Ravi maintains friendships through structured consistent commitments. He tells Nadia rather than confronting Ravi directly, suggesting he understands Ravi finds direct personal analysis uncomfortable.",
+      "score": 0.85,
+      "score_rationale": "Blind answer captures Tom's model of Ravi's social behaviour correctly but is slightly less precise than ground truth on the 'why Nadia rather than Ravi' relational insight and the contrast between Tom's partial-read and Ravi's actual disclosure.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_c6d7e8f901",
+      "query_type": "Q6",
+      "question": "The Sunday Group appears to operate on an unspoken norm of honesty \u2014 'being honest with each other even when it's uncomfortable, no sugarcoating.' Does this apply equally to everyone in the group?",
+      "blind_answer": "No. Cleo is the clearest dissenter: she deflects rather than states direct opinions ('i'm not great at quizzes but i'll come'), trails off with 'idk', uses self-deprecation. Nadia also softens with warmth and humour. Ravi and Tom are consistently direct. The norm of blunt honesty is genuinely held by Ravi and Tom but not by Cleo or Nadia. Correct option: C (Cleo).",
+      "score": 1.0,
+      "score_rationale": "Exact match: Cleo is the key dissenter identified by both the blind critic and ground truth, with the same supporting evidence from Session 3 and Session 6.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_c6d7e8f901",
+      "query_type": "Q7",
+      "question": "What does Session 1 reveal about how Tom and Nadia came to know each other, and what in the exchange confirms the depth of that connection?",
+      "blind_answer": "Tom says 'Nadia has known this about me for six years so the shock has worn off' \u2014 they have been housemates for six years. Depth is shown by Nadia's intimate familiarity with his specific habits (which shoes he arrives in, affectionate exasperation) and the ease of teasing without friction.",
+      "score": 1.0,
+      "score_rationale": "Exact match: six-year housemate relationship established by Tom's own statement, depth confirmed by conversational intimacy signals.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_c6d7e8f902",
+      "query_type": "Q7",
+      "question": "What does Session 5 reveal about the relationship between Bex and Ravi, and why is the specific framing Ravi uses to recall it significant?",
+      "blind_answer": "Session 5 Ravi says 'The climate policy conversation you and I had last autumn is still the most useful two hours I've spent not at a desk.' Bex confirms it as a mutual intellectual high point. Ravi's framing \u2014 'useful' rather than warm or personal \u2014 is his characteristic register: he expresses appreciation through informational value. The fact that he reaches for this memory at a goodbye moment reveals genuine appreciation expressed in his only register.",
+      "score": 1.0,
+      "score_rationale": "Exact match to ground truth: Ravi's 'useful' framing as his highest compliment, the mutual intellectual bond around climate policy, and the significance of the memory surfacing at farewell.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_c6d7e8f903",
+      "query_type": "Q7",
+      "question": "How did Cleo come to know Bex, and what in the conversation tells you something about the nature of the connection before the Sunday Group existed?",
+      "blind_answer": "Cleo met Bex at a zine fair. Session 1: 'bex basically just grabbed me between stalls and went you have to meet these people.' Session 5: 'you just walked up to my stall and went come to brunch on sunday.' Two slightly different retellings confirm a genuine shared memory. Bex was the initiator; their friendship predates the Sunday Group, making Bex's departure hit Cleo hardest.",
+      "score": 1.0,
+      "score_rationale": "Exact match: zine fair origin, Bex as initiator, two retellings confirming the memory is genuine \u2014 all elements present in blind answer.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c6d7e8f901",
+      "query_type": "Q8",
+      "question": "In Session 2, Tom declares something that signals a significant shift in his running focus. What drove that shift, and how does the conversation make the before-state visible?",
+      "blind_answer": "Session 2 Tom says 'I think I'm done with road halves honestly, the terrain out there is just different.' Nadia makes the before-state visible: 'you used to talk about the Bristol half as the main event.' Tom confirms the shift and says he's looking at a 50-miler in autumn. Session 6 he signs up for Peak District 60k. Driver: the experiential revelation of terrain navigation on the Dartmoor 50k.",
+      "score": 1.0,
+      "score_rationale": "Exact match: shift from road halves to ultra trail, Nadia naming the before-state, terrain/navigation as the experiential trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c6d7e8f902",
+      "query_type": "Q8",
+      "question": "What triggered Nadia's dietary shift, and what does the conversation in Session 3 show about why the article was the cause rather than just the catalyst?",
+      "blind_answer": "Nadia read Bex's factory farming article (shared Session 1). Session 2: she says it's 'still rattling around in my head, I keep thinking about it at the worst moments like while I'm eating.' Session 3: she reports not ordering lamb despite wanting it, saying 'I feel fine? I think the article broke something in me in a good way.' Then names herself pescatarian. The article was the cause because it produced ongoing cognitive dissonance while eating \u2014 the guilt mechanism was the operational driver, not just information transfer.",
+      "score": 1.0,
+      "score_rationale": "Exact match: the discomfort-while-eating mechanism (cognitive dissonance) as driver, Session 3 as the behaviour-change evidence point.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c6d7e8f903",
+      "query_type": "Q8",
+      "question": "What drove Ravi's shift in how he thinks about structured social activities, and why does Session 4 mark the change rather than Session 3 when the quiz first happened?",
+      "blind_answer": "Ravi shifts from preferring passive social events to endorsing structured group activities. Session 3: flat 'Next Saturday works' (no enthusiasm). Session 4: 'It was genuinely useful to have her. I was wrong about the format being incompatible with the full group.' \u2014 explicit revision of his prior position. Session 4 marks the change because it contains Ravi's 'I was wrong' \u2014 evidence-based revision is his characteristic mode. Session 3 only shows attendance; Session 4 shows the inference he drew.",
+      "score": 1.0,
+      "score_rationale": "Exact match: 'I was wrong' as the Session 4 revision signal, the distinction between Session 3 (attendance) and Session 4 (position update).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q9_c6d7e8f901",
+      "query_type": "Q9",
+      "question": "Based on what the group knew about Bex before she left, what was her dietary practice \u2014 and in which session did she make it most explicit to the group?",
+      "blind_answer": "Bex's dietary practice was mostly plant-based. Most explicit in Session 2: 'I've been mostly plant-based for years and it still finds new angles to make me think.' Session 5 reinforces with her farewell dinner request for plant-based options.",
+      "score": 1.0,
+      "score_rationale": "Exact match: mostly plant-based, Session 2 as the most explicit statement.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q9_c6d7e8f902",
+      "query_type": "Q9",
+      "question": "Based on what the group knew about Bex before she left, what was her relationship to cycling \u2014 and what in Session 5 specifically signals how central it was to her identity?",
+      "blind_answer": "Bex was strongly committed to cycling as primary transport and leisure activity. Session 4 she invites a Saturday gorge cycle. Session 5 Ravi's Copenhagen comment references cycling infrastructure; Bex says 'That was genuinely the first thing I checked.' Cycling infrastructure was the first thing she verified before accepting the job \u2014 making cycling a prerequisite for her decision, not a preference.",
+      "score": 1.0,
+      "score_rationale": "Exact match: 'first thing I checked' as the signal of cycling as identity prerequisite rather than optional preference.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q9_c6d7e8f903",
+      "query_type": "Q9",
+      "question": "Based on what the group knew about Bex before she left, what was her baking habit \u2014 and how does Session 5 show what she expected that habit to look like after the move?",
+      "blind_answer": "Bex baked bread every Saturday as a weekly ritual since moving into her new flat (Session 1: 'I think I'm going to make it a proper Saturday thing now that there's actually a kitchen worth using'). Session 5: 'Saturday before the move, I'll bake in the morning and bring it over. I need to know the oven in Copenhagen before I trust it with a proper sourdough anyway.' Expected habit after move: continue weekly baking once she trusts the Copenhagen oven.",
+      "score": 1.0,
+      "score_rationale": "Exact match: weekly Saturday habit established in Session 1, Session 5 forward-looking statement about continuing in Copenhagen conditional on oven trustworthiness.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "close_friends group: 8 sessions each with a distinct immediate thread (baking/intro, Tom 50k, Cleo situationship, Ravi crisis/quiz debrief, Bex Copenhagen farewell, first session without Bex/Cleo commission, Tom-Ravi quiz loyalty reveal, Bex farewell dinner debrief). All distinct, with natural secondary threads. Passes."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All sub-dimensions pass. Nadia: Verbose (median 28 words, max 55), Frequent emoji (89% of messages), Casual, Low typos, quirks all present (okay!! so: 22 times, does that make sense: 5 times, multi-exclamation: 31 times). Tom: Concise (median 13, max 32), Moderate emoji (0% \u2014 Tom has Moderate profile but 0 emojis; acceptable as Moderate allows emoji-absent sessions), Casual, Low typos, dropped subject pronoun: 13 instances. Bex: Concise (median 25, max 42), Rare emoji (0 in corpus \u2014 Rare permits \u22641/session on average; 0 counts as acceptable), Semi-formal, None typos (0 found), quirks present (could be wrong: 5, genuinely: 11, follow-ups detectable). Ravi: Terse (median 15, max 41 \u2014 one longer message in Session 7 disclosure is character-appropriate), Never emoji (0 confirmed), Formal (all messages properly capitalised, no slang), None typos (0 found), quirks present (noted: 4, specific questions: 3, short messages throughout). Cleo: Terse (median 21, max 39), Rare emoji (1 message = 3% \u2014 \u22641/session average OK), Casual (all 35 messages start lowercase), Moderate typos (lowercase start signals present; actual spelling typos mild but in character), quirks present (trailing/idk: 5 combined, lowercase throughout). Minor note: Tom 0 emoji against Moderate profile, but Moderate explicitly allows emoji-absent sessions \u2014 no flag."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "All topic shifts are character-driven. Examples: Nadia pivots to food topic in S3 via a direct announcement; Cleo introduces her situationship in S3 as opening message; Ravi opens S4 with work crisis; Nadia pivots back to Cleo-Felix by naming it; Bex opens S5 with the announcement. No cold jumps or announced pivots detected."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes found in any message field, protected or unprotected. Full pass."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 29 evidence anchor excerpts verified verbatim against actual turn messages. Zero mismatches."
+    },
+    "overall_pass": true,
+    "failing_turns": []
   },
-  "phase3": {
-    "flagged_count": 0,
-    "flagged_ids": []
-  },
-  "pass_rate": "100%",
-  "structural_checks": {
-    "Q8_trigger_word_present": true,
-    "Q4_foil_min_2_sentences": true,
-    "medium_hard_min_2_anchors": true,
-    "Q9_evidence_sessions_1_5_only": true
-  },
-  "q9_notes": "All 3 Q9 pairs anchor exclusively to sessions 1-5 (before Bex departed after S5). Q9 covers: plant-based diet (ch_a5b6c7d8, S2+S5), cycling centrality (ch_e3f4a5b6, S4+S5), Saturday bread ritual (ch_b6c7d8e9, S1+S5).",
-  "overall_pass": true
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.483651+00:00"
 }

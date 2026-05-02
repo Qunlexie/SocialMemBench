@@ -9,7 +9,7 @@
   "noise_level": "medium",
   "participation_rate": "moderate",
   "member_departure": "none",
-  "description": "WhatsApp group for residents of a 40-unit apartment complex in a mid-sized city. Members range from a retired tradesman to grad students and young professionals. Interactions are mostly logistical — package alerts, maintenance, building events — with occasional personal reveals.",
+  "description": "WhatsApp group for residents of a 40-unit apartment complex in a mid-sized city. Members range from a retired tradesman to grad students and young professionals. Interactions are mostly logistical \u2014 package alerts, maintenance, building events \u2014 with occasional personal reveals.",
   "personas": [
     {
       "persona_id": "grp_c3d4e5f6_p01",
@@ -22,14 +22,39 @@
       "communication_profile": {
         "verbosity": "concise",
         "formality": "semi-formal",
-        "emoji_use": "rare",
+        "emoji_use": "never",
         "typo_rate": "none",
         "speaking_quirks": [
-          "opens maintenance announcements with 'FYI all —'",
-          "signs off longer messages with '– Marcus'",
+          "opens maintenance announcements with 'FYI all \u2014'",
+          "signs off longer messages with '\u2013 Marcus'",
           "uses 'sorted' to mean a problem is resolved"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "communication": "concise, building-relevant updates",
+        "tone": "no-nonsense and practical"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens announcements with 'FYI all \u2014'",
+        "signs off longer messages with '\u2013 Marcus'",
+        "uses 'sorted' to mark issues resolved"
+      ],
+      "occupation": "building superintendent",
+      "skills_list": [
+        "building maintenance",
+        "tenant coordination"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p02",
@@ -42,14 +67,38 @@
       "communication_profile": {
         "verbosity": "concise",
         "formality": "casual",
-        "emoji_use": "moderate",
+        "emoji_use": "frequent",
         "typo_rate": "low",
         "speaking_quirks": [
           "uses 'noted!' as acknowledgment",
           "adds a thumbs-up emoji at the end of logistics confirmations",
           "phrases opinions as gentle questions ('is it just me or...')"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "chat_topic": "building-relevant only \u2014 disengages from off-topic posts",
+        "morning_routine": "yoga class"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'noted!' as acknowledgment",
+        "ends logistics with thumbs-up emoji",
+        "phrases opinions as 'is it just me or...'"
+      ],
+      "occupation": "UX designer",
+      "skills_list": [
+        "user experience design"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p03",
@@ -58,7 +107,7 @@
       "age": 67,
       "gender": "male",
       "role": "retired plumber, ground floor",
-      "background": "Has lived in Maple Heights 14 years — longer than anyone. Initially skeptical of the group chat ('another gadget thing'), but warms after a package theft incident where the group recovered his parcel quickly.",
+      "background": "Has lived in Maple Heights 14 years \u2014 longer than anyone. Initially skeptical of the group chat ('another gadget thing'), but warms after a package theft incident where the group recovered his parcel quickly.",
       "communication_profile": {
         "verbosity": "terse",
         "formality": "casual",
@@ -68,8 +117,39 @@
           "refers to digital systems as 'gadget things' or 'the computer stuff'",
           "uses 'fine by me' to signal grudging acceptance rather than enthusiasm",
           "occasionally mentions 'back when this place had a real key'"
-        ]
-      }
+        ],
+        "humor": "Dry",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "technology": "prefers mechanical key over keycard",
+        "communication_style": "in-person over chat"
+      },
+      "preference_history": [
+        {
+          "attribute": "group_chat_attitude",
+          "value": "shifted from skeptical 'gadget thing' to grudgingly engaged after package theft incident",
+          "stable_since": "session_4"
+        }
+      ],
+      "speaking_quirks": [
+        "calls digital systems 'gadget things'",
+        "signals grudging assent with 'fine by me'",
+        "references 'back when this place had a real key'"
+      ],
+      "occupation": "retired plumber",
+      "skills_list": [
+        "plumbing",
+        "building knowledge from 14 years of tenancy"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p04",
@@ -78,18 +158,42 @@
       "age": 44,
       "gender": "female",
       "role": "parent of two, 2nd floor",
-      "background": "Lived here 5 years. Very involved in building social events. Knew Marcus before — he was the super at her previous building on Elm Street. Her two kids occasionally cause noise-related complaints.",
+      "background": "Lived here 5 years. Very involved in building social events. Knew Marcus before \u2014 he was the super at her previous building on Elm Street. Her two kids occasionally cause noise-related complaints.",
       "communication_profile": {
         "verbosity": "verbose",
         "formality": "casual",
         "emoji_use": "frequent",
         "typo_rate": "low",
         "speaking_quirks": [
-          "opens updates with 'just a heads up everyone —'",
+          "opens updates with 'just a heads up everyone \u2014'",
           "mentions her kids obliquely ('the little ones', 'my crew')",
           "uses 'totally understand' to soften disagreements"
-        ]
-      }
+        ],
+        "humor": "Expressive",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "community": "actively involved in building events",
+        "tone": "warm and inclusive"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'just a heads up everyone \u2014'",
+        "calls her kids 'the little ones' or 'my crew'",
+        "softens disagreement with 'totally understand'"
+      ],
+      "occupation": "parent of two (active in building social events)",
+      "skills_list": [
+        "organizing community events"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p05",
@@ -98,18 +202,48 @@
       "age": 26,
       "gender": "female",
       "role": "PhD student, 4th floor",
-      "background": "Moved in 10 months ago. Initially very quiet in the chat — responds hours later or not at all. After getting locked out in session 3 and the group helping immediately, she becomes noticeably more responsive and eventually starts initiating threads.",
+      "background": "Moved in 10 months ago. Initially very quiet in the chat \u2014 responds hours later or not at all. After getting locked out in session 3 and the group helping immediately, she becomes noticeably more responsive and eventually starts initiating threads.",
       "communication_profile": {
-        "verbosity": "terse",
-        "formality": "semi-formal",
+        "verbosity": "concise",
+        "formality": "formal",
         "emoji_use": "rare",
         "typo_rate": "none",
         "speaking_quirks": [
           "thanks people formally ('thank you, appreciated')",
           "uses 'noted' without exclamation point",
           "sometimes responds only with a single emoji (thumbs-up) to signal acknowledgment"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "chat_engagement": "minimal initially; warmer after lockout incident",
+        "communication": "polite, formal acknowledgments"
+      },
+      "preference_history": [
+        {
+          "attribute": "chat_participation",
+          "value": "shifted from sparse delayed replies to timely engagement and initiating threads after the lockout incident",
+          "stable_since": "session_3"
+        }
+      ],
+      "speaking_quirks": [
+        "thanks formally ('thank you, appreciated')",
+        "uses 'noted' without exclamation",
+        "responds with single thumbs-up emoji"
+      ],
+      "occupation": "PhD student",
+      "skills_list": [
+        "research"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p06",
@@ -122,14 +256,38 @@
       "communication_profile": {
         "verbosity": "concise",
         "formality": "casual",
-        "emoji_use": "frequent",
+        "emoji_use": "moderate",
         "typo_rate": "moderate",
         "speaking_quirks": [
           "starts messages with 'yo' or 'lol'",
           "uses 'ngl' (not gonna lie) before honest opinions",
           "ends logistics replies with 'solid' or 'all good'"
-        ]
-      }
+        ],
+        "humor": "Playful",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "chat_style": "casual; posts memes and sports despite agreeing to keep chat building-related",
+        "schedule": "late-night work shifts"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'yo' or 'lol'",
+        "uses 'ngl' before honest takes",
+        "ends replies with 'solid' or 'all good'"
+      ],
+      "occupation": "bartender / part-time student",
+      "skills_list": [
+        "bartending"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p07",
@@ -140,16 +298,40 @@
       "role": "ICU nurse, 3rd floor",
       "background": "Has lived here 3 years. Works rotating night shifts so her available hours are irregular. Shares a morning yoga class with Priya. Practical and direct in the chat.",
       "communication_profile": {
-        "verbosity": "terse",
-        "formality": "semi-formal",
-        "emoji_use": "rare",
+        "verbosity": "concise",
+        "formality": "formal",
+        "emoji_use": "never",
         "typo_rate": "none",
         "speaking_quirks": [
           "uses 'copy that' to acknowledge instructions",
           "phrases requests as 'would appreciate if...'",
           "signs off with just her name when a matter is settled"
-        ]
-      }
+        ],
+        "humor": "Dry",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "communication": "direct and efficient",
+        "noise": "quiet building due to night-shift sleep needs"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'copy that' for acknowledgment",
+        "phrases requests as 'would appreciate if...'",
+        "signs off with just 'Sandra'"
+      ],
+      "occupation": "ICU nurse (rotating night shifts)",
+      "skills_list": [
+        "intensive care nursing"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p08",
@@ -162,14 +344,38 @@
       "communication_profile": {
         "verbosity": "concise",
         "formality": "casual",
-        "emoji_use": "rare",
+        "emoji_use": "never",
         "typo_rate": "none",
         "speaking_quirks": [
           "uses dry understatement ('not ideal', 'could be worse')",
           "occasionally notes things in the format 'for the record: ...'",
           "references working from home ('when you're home all day you notice these things')"
-        ]
-      }
+        ],
+        "humor": "Observational",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "observation_style": "dry and understated",
+        "lobby_amenities": "would welcome a coffee option in the lobby"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses dry understatement ('not ideal', 'could be worse')",
+        "introduces facts with 'for the record:'",
+        "references working from home"
+      ],
+      "occupation": "remote software engineer",
+      "skills_list": [
+        "software engineering"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p09",
@@ -182,14 +388,38 @@
       "communication_profile": {
         "verbosity": "concise",
         "formality": "semi-formal",
-        "emoji_use": "rare",
+        "emoji_use": "never",
         "typo_rate": "low",
         "speaking_quirks": [
           "often replies to old messages as if they were new ('re: the water shutoff from Tuesday...')",
           "sometimes adds 'excuse me if I missed something' before a question",
           "addresses people by name at the start of replies ('Marcus, yes that works for me')"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Low",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "chat_use": "warm but out-of-sequence; struggles with threading",
+        "social": "shares recipes occasionally"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "replies to old messages as if new ('re: the X from Tuesday...')",
+        "adds 'excuse me if I missed something'",
+        "addresses people by name at start of replies"
+      ],
+      "occupation": "retired teacher",
+      "skills_list": [
+        "teaching"
+      ]
     },
     {
       "persona_id": "grp_c3d4e5f6_p10",
@@ -200,16 +430,41 @@
       "role": "cafe owner, ground floor commercial unit",
       "background": "Runs the small cafe on the ground floor of the building. Enthusiastic and community-minded. Uses the group chat actively. Often deflects suggestions to use the building common room for social events, preferring his own cafe space.",
       "communication_profile": {
-        "verbosity": "verbose",
-        "formality": "casual",
+        "verbosity": "moderate",
+        "formality": "semi-formal",
         "emoji_use": "frequent",
         "typo_rate": "low",
         "speaking_quirks": [
           "offers free coffee to building residents when something good happens ('first round on me!')",
           "uses 'love this for us' or 'love that' to express enthusiasm",
-          "often ends suggestions with '...or we could just come to the cafe 😄'"
-        ]
-      }
+          "often ends suggestions with '...or we could just come to the cafe \ud83d\ude04'"
+        ],
+        "humor": "Expressive",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "event_venue": "his cafe over the building common room",
+        "tone": "enthusiastic and community-minded"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "offers 'first round on me!' for good news",
+        "uses 'love this for us' or 'love that'",
+        "ends suggestions with '...or we could just come to the cafe \ud83d\ude04'"
+      ],
+      "occupation": "cafe owner",
+      "skills_list": [
+        "running a small cafe",
+        "community hospitality"
+      ]
     }
   ],
   "edges": [
@@ -249,16 +504,20 @@
   "group_norms": [
     {
       "norm_id": "gn_c3_01",
-      "description": "Group members keep the chat for building-related matters — maintenance, packages, announcements",
+      "description": "Group members keep the chat for building-related matters \u2014 maintenance, packages, announcements",
       "truly_universal": false,
-      "dissenters": ["grp_c3d4e5f6_p06"],
+      "dissenters": [
+        "grp_c3d4e5f6_p06"
+      ],
       "dissenter_notes": "Kevin regularly posts off-topic content (sports scores, memes) despite agreeing to the norm"
     },
     {
       "norm_id": "gn_c3_02",
       "description": "Residents try to keep noise down after 10pm on weeknights",
       "truly_universal": false,
-      "dissenters": ["grp_c3d4e5f6_p06"],
+      "dissenters": [
+        "grp_c3d4e5f6_p06"
+      ],
       "dissenter_notes": "Kevin works late bartending shifts and sometimes has friends over after midnight; he agrees to the norm but his schedule creates tension"
     }
   ],
@@ -270,14 +529,14 @@
       "fact_attribute": "electronic keycard entry system",
       "fact_value": "Dan prefers the old mechanical key lock; he's skeptical and quietly frustrated by the keycard system, references the old key indirectly",
       "implicitness_level": 2,
-      "evidence_span": "Dan comments obliquely about 'the computer thing at the door' whenever it comes up — no explicit complaint, just sighs or terse deflection"
+      "evidence_span": "Dan comments obliquely about 'the computer thing at the door' whenever it comes up \u2014 no explicit complaint, just sighs or terse deflection"
     },
     {
       "challenge_id": "ch_c302",
       "challenge_type": "implicit_preference",
       "subject_persona_id": "grp_c3d4e5f6_p02",
       "fact_attribute": "off-topic messages in the group chat",
-      "fact_value": "Priya prefers the chat stays building-relevant; she visibly does not engage with off-topic posts — no reactions, no replies",
+      "fact_value": "Priya prefers the chat stays building-relevant; she visibly does not engage with off-topic posts \u2014 no reactions, no replies",
       "implicitness_level": 2,
       "evidence_span": "Priya consistently responds to practical messages but goes silent when Kevin posts memes or sports content"
     },
@@ -288,7 +547,7 @@
       "fact_attribute": "building BBQ on Saturday",
       "fact_value": "Kevin has a work conflict that Saturday but gives only a brief 'sounds good' after the group enthusiastically agrees, not flagging his conflict",
       "implicitness_level": 3,
-      "evidence_span": "Kevin replies 'sounds good' with a single emoji after several enthusiastic replies — noticeably shorter than his usual tone"
+      "evidence_span": "Kevin replies 'sounds good' with a single emoji after several enthusiastic replies \u2014 noticeably shorter than his usual tone"
     },
     {
       "challenge_id": "ch_c304",
@@ -317,7 +576,7 @@
       "fact_attribute": "request for a coffee option in the building lobby",
       "fact_value": "Felix was the first to mention wanting a coffee stand or improved lobby coffee, framed as dry practical commentary; Priya later echoed it more enthusiastically",
       "implicitness_level": 2,
-      "evidence_span": "Felix notes 'a coffee machine in the lobby would not be the worst idea' — dry, understated. Priya later says 'would love a coffee spot downstairs!'. The true originator is easy to misattribute to Priya due to her enthusiasm."
+      "evidence_span": "Felix notes 'a coffee machine in the lobby would not be the worst idea' \u2014 dry, understated. Priya later says 'would love a coffee spot downstairs!'. The true originator is easy to misattribute to Priya due to her enthusiasm."
     },
     {
       "challenge_id": "ch_c307",
@@ -373,7 +632,13 @@
       "fact_attribute": "chat interface / replying to messages",
       "fact_value": "Ruth regularly replies to old messages out of sequence, suggesting she hasn't mastered WhatsApp's threading and struggles with the interface",
       "implicitness_level": 1,
-      "evidence_span": "Ruth's replies often reference topics from earlier in the conversation as if they're new — 'about the water shutoff from last week...'"
+      "evidence_span": "Ruth's replies often reference topics from earlier in the conversation as if they're new \u2014 'about the water shutoff from last week...'"
     }
-  ]
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "acquaintance_network",
+    "group_size": 10
+  }
 }

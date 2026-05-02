@@ -152,7 +152,7 @@
       "display_name": "Tomasz",
       "age": 47,
       "gender": "M",
-      "background": "Systems analyst. The only person who reliably reads the entire book before every meeting. Quiet, precise, deeply unfashionable in his tastes — prefers plot-driven thrillers but goes along with the literary picks. Noticed that Harriet increasingly ignores contrary readings and is quietly frustrated.",
+      "background": "Systems analyst. The only person who reliably reads the entire book before every meeting. Quiet, precise, deeply unfashionable in his tastes \u2014 prefers plot-driven thrillers but goes along with the literary picks. Noticed that Harriet increasingly ignores contrary readings and is quietly frustrated.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -238,7 +238,7 @@
         "food": [],
         "activities": [
           {
-            "value": "reads books with attention to craft — sentence rhythm, structure, what's left unsaid; brings authorial perspective",
+            "value": "reads books with attention to craft \u2014 sentence rhythm, structure, what's left unsaid; brings authorial perspective",
             "confidence": "High",
             "implicit": true
           }
@@ -288,7 +288,7 @@
       "display_name": "Graham",
       "age": 55,
       "gender": "M",
-      "background": "Harriet's neighbour. Joined three months ago. Reads every book carefully and enjoys the discussions in theory, but gets defensive when his opinion is challenged — he takes disagreement about a book he loved as a personal attack. Still finding his footing in the group dynamic.",
+      "background": "Harriet's neighbour. Joined three months ago. Reads every book carefully and enjoys the discussions in theory, but gets defensive when his opinion is challenged \u2014 he takes disagreement about a book he loved as a personal attack. Still finding his footing in the group dynamic.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -451,26 +451,31 @@
   ],
   "group_norms": [
     {
-      "norm_text": "We rotate who picks the book — each member chooses once per cycle.",
+      "norm_text": "We rotate who picks the book \u2014 each member chooses once per cycle.",
       "truly_universal": false,
       "dissenters": [
         "p_bk8a1b2c3"
       ]
     },
     {
-      "norm_text": "Finish the book before the meeting — no skimming.",
+      "norm_text": "Finish the book before the meeting \u2014 no skimming.",
       "truly_universal": false,
       "dissenters": [
         "p_bk8b2c3d4"
       ]
     },
     {
-      "norm_text": "All readings are valid — we don't dismiss each other's interpretations.",
+      "norm_text": "All readings are valid \u2014 we don't dismiss each other's interpretations.",
       "truly_universal": false,
       "dissenters": [
         "p_bk8a1b2c3"
       ]
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "recreational",
+    "group_size": 5
+  }
 }

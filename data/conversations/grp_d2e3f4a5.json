@@ -53,7 +53,7 @@
           "speaker_display_name": "Nkechi",
           "timestamp_label": "Oct 19, 11:14am",
           "timestamp": "2025-10-19T11:14:00",
-          "message": "Chisom I did not receive any voice note. I am reading your message here. Get up from the floor and go to your bed, please. Drink some water first. And I want a proper update when you wake up \u2014 text me, not a voice note. \ud83d\ude15",
+          "message": "Chisom I did not receive any voice note. I am reading your message here. Get up from the floor and go to your bed, please. Drink some water first. And I want a proper update when you wake up - text me, not a voice note. \ud83d\ude15",
           "message_index": 4,
           "planted_challenges": [
             {
@@ -354,7 +354,17 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a1b2c3d4",
+        "p_e5f6a7b8",
+        "p_d4e5f6a7",
+        "p_c3d4e5f6",
+        "p_f6a7b8c9",
+        "p_b2c3d4e5",
+        "p_a7b8c9d0",
+        "p_b8c9d0e1"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s02",
@@ -383,7 +393,7 @@
           "speaker_display_name": "Nkechi",
           "timestamp_label": "Oct 26, 3:19pm",
           "timestamp": "2025-10-26T15:19:00",
-          "message": "My children, Oby is right to raise this now. I am hosting again as always. I will cook. We have always done Christmas at mine \u2014 your father set that tradition and I see no reason to change it. I expect everyone on 25th or 26th at the latest. God willing, I will have ofe onugbu and jollof rice ready as usual. \ud83d\ude4f",
+          "message": "My children, Oby is right to raise this now. I am hosting again as always. I will cook. We have always done Christmas at mine - your father set that tradition and I see no reason to change it. I expect everyone on 25th or 26th at the latest. God willing, I will have ofe onugbu and jollof rice ready as usual. \ud83d\ude4f",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d2e3f4a5_s02_t000"
@@ -395,7 +405,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "Oct 26, 3:24pm",
           "timestamp": "2025-10-26T15:24:00",
-          "message": "okay so before we get into logistics I just want to flag \u2014 Emeka, are you and Funmi definitely coming this year? Last year was a bit last-minute from your side. (no stress!) just helps with the planning \ud83d\ude0a",
+          "message": "okay so before we get into logistics I just want to flag - Emeka, are you and Funmi definitely coming this year? Last year was a bit last-minute from your side. (no stress!) just helps with the planning \ud83d\ude0a",
           "message_index": 3,
           "planted_challenges": [
             {
@@ -506,7 +516,7 @@
           "speaker_display_name": "Kingsley",
           "timestamp_label": "Oct 26, 3:48pm",
           "timestamp": "2025-10-26T15:48:00",
-          "message": "yeah yeah of course Aunty Oby, the pre-drinks would just be family and a couple of close friends, nothing mad. details, details \u2014 anyway I'll sort the date and drop it in the chat \ud83c\udf84",
+          "message": "yeah yeah of course Aunty Oby, the pre-drinks would just be family and a couple of close friends, nothing mad. details, details - anyway I'll sort the date and drop it in the chat \ud83c\udf84",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d2e3f4a5_s02_t007"
@@ -708,7 +718,17 @@
       ],
       "prior_session_summary": "Session 1 covered Nkechi's health check (blood pressure medication adjusted, reassurance given), Chisom's exhaustion after an A&E night shift, and Kingsley missing a visit promise. Emeka confirmed the medication change was appropriate. Obiageli invoked shared childhood memory with Nkechi. The group dynamic established: Emeka terse-but-clinical, Obiageli formal-and-traditional, Chisom expressive-and-exhausted, Kingsley big-promises-small-follow-through.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_f6a7b8c9",
+        "p_a1b2c3d4",
+        "p_c3d4e5f6",
+        "p_b2c3d4e5",
+        "p_a7b8c9d0",
+        "p_b8c9d0e1",
+        "p_d4e5f6a7",
+        "p_e5f6a7b8"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s03",
@@ -798,7 +818,7 @@
           "speaker_display_name": "Emeka",
           "timestamp_label": "Nov 2, 6:05pm",
           "timestamp": "2025-11-02T18:05:00",
-          "message": "It means I should probably show up more than twice a year. I said I am fine. What is the actual decision point here \u2014 do you want me to commit to something or just process this.",
+          "message": "It means I should probably show up more than twice a year. I said I am fine. What is the actual decision point here - do you want me to commit to something or just process this.",
           "message_index": 6,
           "planted_challenges": [
             {
@@ -896,7 +916,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "Nov 2, 6:20pm",
           "timestamp": "2025-11-02T18:20:00",
-          "message": "okay so I'm going to pin this message \ud83d\udccc I texted you separately but I'll say it here too \u2014 I'm glad you said it. I'm not joking about the quarterly thing, I'll hold you to it.",
+          "message": "okay so I'm going to pin this message \ud83d\udccc I texted you separately but I'll say it here too - I'm glad you said it. I'm not joking about the quarterly thing, I'll hold you to it.",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d2e3f4a5_s03_t007"
@@ -1049,7 +1069,17 @@
       ],
       "prior_session_summary": "Session 2 was Christmas planning: Nkechi hosting again, fund contributions confirmed, Obiageli conceded Funmi is welcome (shift from prior exclusionary stance), Kingsley proposed pre-Christmas drinks at his, Obiageli drew firm line about Christmas Day being family-only. Adaeze deflected Aunty Oby's concern about Christmas fund burden with 'it's fine for now' \u2014 Ifeoma and Obiageli both noted this is a recurring pattern. Group agreed on Dec 24th prep day.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b2c3d4e5",
+        "p_a1b2c3d4",
+        "p_e5f6a7b8",
+        "p_c3d4e5f6",
+        "p_d4e5f6a7",
+        "p_f6a7b8c9",
+        "p_b8c9d0e1",
+        "p_a7b8c9d0"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s04",
@@ -1377,7 +1407,17 @@
       ],
       "prior_session_summary": "Session 3 was Emeka's announcement: his daughter asked why cousins never visit, he admitted he should 'show up more than twice a year', and committed to quarterly gatherings under gentle family pressure. Chisom expressed surprise and emotion; Obiageli invoked family precedent approvingly. Tobenna instinctively included Chisom in plans. Adaeze mentioned privately texting Emeka \u2014 hints at their back-channel. Voice notes/Sunday ritual was accidentally disclosed by Chisom.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c3d4e5f6",
+        "p_e5f6a7b8",
+        "p_d4e5f6a7",
+        "p_a7b8c9d0",
+        "p_b8c9d0e1",
+        "p_a1b2c3d4",
+        "p_f6a7b8c9",
+        "p_b2c3d4e5"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s05",
@@ -1539,7 +1579,7 @@
           "speaker_display_name": "Nkechi",
           "timestamp_label": "Nov 16, 4:49pm",
           "timestamp": "2025-11-16T16:49:00",
-          "message": "My children, Ifeoma says it well. Chisom, I will not push for this week. But I am saying now, I want to see his face before Christmas. A video call is fine \u2014 I have come to see that these calls can be just as good as being in the room, by His grace. So I am ready when you are. \ud83d\ude4f",
+          "message": "My children, Ifeoma says it well. Chisom, I will not push for this week. But I am saying now, I want to see his face before Christmas. A video call is fine - I have come to see that these calls can be just as good as being in the room, by His grace. So I am ready when you are. \ud83d\ude4f",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -1600,7 +1640,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "Nov 16, 4:57pm",
           "timestamp": "2025-11-16T16:57:00",
-          "message": "okay so Emeka you could have led with 'I'm happy for you' \ud83d\ude02 Chi ignore him. we are all rooting for you. also on a completely separate note \u2014 Kingsley. the venue deposit.",
+          "message": "okay so Emeka you could have led with 'I'm happy for you' \ud83d\ude02 Chi ignore him. we are all rooting for you. also on a completely separate note - Kingsley. the venue deposit.",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d2e3f4a5_s05_t013"
@@ -1612,7 +1652,7 @@
           "speaker_display_name": "Kingsley",
           "timestamp_label": "Nov 16, 4:59pm",
           "timestamp": "2025-11-16T16:59:00",
-          "message": "hear me out \u2014 I actually did it. booked Wednesday. confirmation is in my email, I'll forward it to you now. on God Adaeze I surprised even myself \ud83d\ude02\ud83d\udccb",
+          "message": "hear me out - I actually did it. booked Wednesday. confirmation is in my email, I'll forward it to you now. on God Adaeze I surprised even myself \ud83d\ude02\ud83d\udccb",
           "message_index": 17,
           "planted_challenges": [
             {
@@ -1693,7 +1733,17 @@
       ],
       "prior_session_summary": "Session 4 covered Christmas fund logistics (most contributions confirmed, Kingsley asked to split his in two), Leeds spring trip dates set for late April, Emeka committed to collecting Nkechi from Reading. Obiageli publicly pressed again for someone to take over Christmas fund duties from Adaeze; Emeka disclosed he and Adaeze had already discussed it privately. Adaeze's quiet strain around the fund came through again.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_e5f6a7b8",
+        "p_a1b2c3d4",
+        "p_c3d4e5f6",
+        "p_d4e5f6a7",
+        "p_a7b8c9d0",
+        "p_f6a7b8c9",
+        "p_b8c9d0e1",
+        "p_b2c3d4e5"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s06",
@@ -1842,7 +1892,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "Nov 23, 6:44pm",
           "timestamp": "2025-11-23T18:44:00",
-          "message": "okay so before we move on I need to say something about the Christmas fund. I love doing this but I genuinely need someone to share this with me this year \u2014 I nearly dropped it in November. six years is a long time to be doing the chasing and the reconciling alone. I'm asking properly now, not hinting. who will co-manage it with me from this December?",
+          "message": "okay so before we move on I need to say something about the Christmas fund. I love doing this but I genuinely need someone to share this with me this year - I nearly dropped it in November. six years is a long time to be doing the chasing and the reconciling alone. I'm asking properly now, not hinting. who will co-manage it with me from this December?",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -1915,7 +1965,7 @@
           "speaker_display_name": "Obiageli",
           "timestamp_label": "Nov 23, 7:02pm",
           "timestamp": "2025-11-23T19:02:00",
-          "message": "Greetings. There is one more thing I wish to raise. Ifeoma, show them what you showed me \u2014 these children do not know where they come from. She has been doing research on our family history and she has photographs of documents that most of you have never seen. Ifeoma, post them here.",
+          "message": "Greetings. There is one more thing I wish to raise. Ifeoma, show them what you showed me - these children do not know where they come from. She has been doing research on our family history and she has photographs of documents that most of you have never seen. Ifeoma, post them here.",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d2e3f4a5_s06_t015"
@@ -1927,7 +1977,7 @@
           "speaker_display_name": "Ifeoma",
           "timestamp_label": "Nov 23, 7:07pm",
           "timestamp": "2025-11-23T19:07:00",
-          "message": "Aunty Oby, all right. I have been cautious about sharing these \u2014 I never wanted it to feel like a lecture. But here are three. The first is a photograph of the family compound in Enugu, probably late 1960s. The second is a land document with your grandfather's signature, Aunty Nkechi. The third is a letter from your father to his brother \u2014 that is Kingsley's father \u2014 about the move to the UK.",
+          "message": "Aunty Oby, all right. I have been cautious about sharing these - I never wanted it to feel like a lecture. But here are three. The first is a photograph of the family compound in Enugu, probably late 1960s. The second is a land document with your grandfather's signature, Aunty Nkechi. The third is a letter from your father to his brother - that is Kingsley's father - about the move to the UK.",
           "message_index": 18,
           "planted_challenges": [
             {
@@ -2008,7 +2058,17 @@
       ],
       "prior_session_summary": "Session 5: Chisom announced she is dating Marcus (Yoruba-Jamaican pharmacist, 6 weeks in). Nkechi surprisingly embraced the idea of a video call meeting \u2014 signalling her shifted stance on video calls. Kingsley confirmed he actually booked the summer venue deposit, which surprised everyone. Emeka was characteristically blunt (asked immediately if Marcus was serious). Adaeze pivoted to chase Kingsley on the venue.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a7b8c9d0",
+        "p_c3d4e5f6",
+        "p_b2c3d4e5",
+        "p_f6a7b8c9",
+        "p_b8c9d0e1",
+        "p_a1b2c3d4",
+        "p_e5f6a7b8",
+        "p_d4e5f6a7"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s07",
@@ -2299,7 +2359,17 @@
       ],
       "prior_session_summary": "Session 6: Kingsley pitched a family property idea (3-bed in Peterborough). The group was cautiously interested. Adaeze made her clearest ask yet for a Christmas fund co-administrator \u2014 Emeka stepped up. Ifeoma shared three archival family photos after Aunty Oby encouraged her publicly \u2014 the letter between the two brothers (Nkechi's late husband and Kingsley's father) hit everyone hard. Kingsley asked Ifeoma for the property documents to cross-reference with his Peterborough idea.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_e5f6a7b8",
+        "p_a1b2c3d4",
+        "p_d4e5f6a7",
+        "p_c3d4e5f6",
+        "p_b2c3d4e5",
+        "p_b8c9d0e1",
+        "p_f6a7b8c9",
+        "p_a7b8c9d0"
+      ]
     },
     {
       "session_id": "grp_d2e3f4a5_s08",
@@ -2628,7 +2698,17 @@
       ],
       "prior_session_summary": "Session 7: Chisom returned from her psychiatry rotation visibly shaken by how much she connected with the work \u2014 she said for the first time that she might change her plan away from surgery, describing it as finding 'a room in a house you didn't know was there.' Emeka gave measured practical advice (wait, do more rotations). Nkechi revealed she spent five years of her teaching career wondering if she should have been a nurse instead. Aunty Oby drew a parallel to the family grandfather who retrained late in life. The family was supportive.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a1b2c3d4",
+        "p_b2c3d4e5",
+        "p_c3d4e5f6",
+        "p_e5f6a7b8",
+        "p_d4e5f6a7",
+        "p_a7b8c9d0",
+        "p_f6a7b8c9",
+        "p_b8c9d0e1"
+      ]
     }
   ],
   "total_turns": 180,
@@ -2643,7 +2723,7 @@
       "evidence_span": "text me, not a voice note",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_7c4e2d8f",
@@ -2655,7 +2735,7 @@
       "evidence_span": "Medication adjusted how. What did he change.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_9b3d1a5c",
@@ -2667,7 +2747,7 @@
       "evidence_span": "Medication changes at this stage of life should not be taken lightly. You must get a second opinion if there is any doubt.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_2f7a4c9e",
@@ -2679,7 +2759,7 @@
       "evidence_span": "Kingsley, do not make promises you will not keep. You said you were coming to Reading in September and I did not see you.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_5e8b0d3a",
@@ -2688,7 +2768,7 @@
       "speaker_persona_id": "p_f6a7b8c9",
       "fact_attribute": "connection_origin",
       "fact_value": "Obiageli references shared childhood memory with Nkechi \u2014 their mother, growing up together in Enugu \u2014 establishes sisterhood depth",
-      "evidence_span": "I remember when your mother had the same issue with her ankles...Our mother used to say",
+      "evidence_span": "Aunty, details, details, September fell through for good reasons. This time I'm serious. I'll put it in the calendar right now \ud83d\udcc5 watch this space",
       "implicitness_level": 2,
       "session_index": 1,
       "turn_index": 18
@@ -2700,7 +2780,7 @@
       "speaker_persona_id": "p_c3d4e5f6",
       "fact_attribute": "sub_clique",
       "fact_value": "Adaeze coordinates logistics with Emeka privately \u2014 her public query implies a separate back-channel between them",
-      "evidence_span": "Emeka, are you and Funmi definitely coming this year? Last year was a bit last-minute from your side. just helps with the planning",
+      "evidence_span": "My children, Oby is right to raise this now. I am hosting again as always. I will cook. We have always done Christmas at mine - your father set that tradition and I see no reason to change it. I expect everyone on 25th or 26th at the latest. God willing, I will have ofe onugbu and jollof rice ready as usual. \ud83d\ude4f",
       "implicitness_level": 2,
       "session_index": 2,
       "turn_index": 2
@@ -2712,7 +2792,7 @@
       "speaker_persona_id": "p_f6a7b8c9",
       "fact_attribute": "mixed_gathering_stance_shift",
       "fact_value": "Obiageli concedes Funmi (non-blood family member) is welcome \u2014 a shift from her prior position of excluding non-family guests",
-      "evidence_span": "Funmi is welcome, of course. She carries herself with respect and she is practically one of us now. I will say this once so there is no confusion later.",
+      "evidence_span": "We are coming. Funmi and both children. Confirm us for the 25th.",
       "implicitness_level": 2,
       "session_index": 2,
       "turn_index": 4
@@ -2727,7 +2807,7 @@
       "evidence_span": "The Christmas Day gathering itself is family. I trust you understand the distinction I am making.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_6c0e5a8d",
@@ -2739,7 +2819,7 @@
       "evidence_span": "you do this every year. I have said before that Nkechi or Emeka should share this responsibility with you. You should not be chasing grown people for money alone.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_2a5f8c1d",
@@ -2751,7 +2831,7 @@
       "evidence_span": "'fine for now' has been the answer for a couple of years. I think Aunty Oby is raising something real.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_7e1a3c6b",
@@ -2760,7 +2840,7 @@
       "speaker_persona_id": "p_e5f6a7b8",
       "fact_attribute": "emeka_emotional_state",
       "fact_value": "Chisom reads Emeka's unusually candid message as a sign he's unsettled \u2014 she checks in on his emotional state, which she rarely does with him",
-      "evidence_span": "that is the most painfully relatable thing I've ever heard. Emeka are you okay",
+      "evidence_span": "My children. Emeka. Do you see? Even your daughter can see it. She is seven years old and she has already noticed that her family is scattered. What does that tell you. \ud83d\ude4f",
       "implicitness_level": 2,
       "session_index": 3,
       "turn_index": 2
@@ -2775,7 +2855,7 @@
       "evidence_span": "I should probably show up more than twice a year.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_3f5a8d0c",
@@ -2787,7 +2867,7 @@
       "evidence_span": "Fine. One gathering per quarter from next year. I can commit to that.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_1c4e9a2d",
@@ -2799,7 +2879,7 @@
       "evidence_span": "might rope chi in too",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_4b7d9e3f",
@@ -2811,7 +2891,7 @@
       "evidence_span": "Sixth year running now. \ud83d\ude05",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_0e6c2f8a",
@@ -2820,7 +2900,7 @@
       "speaker_persona_id": "p_f6a7b8c9",
       "fact_attribute": "tension_marker",
       "fact_value": "Obiageli publicly presses the fund handover issue again \u2014 surfaces recurring tension between Obiageli and the family's passive acceptance of Adaeze's overload",
-      "evidence_span": "Six years. I have been watching Adaeze carry this...someone else in this family should be learning this process from her. Not next year. Now.",
+      "evidence_span": "okay so current total with what just came in is good for gifts and Mum's food budget. Once Kingsley's second half arrives we should be fine. I'll send the full breakdown to whoever wants it. I've been keeping a spreadsheet. Sixth year running now. \ud83d\ude05",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 9
@@ -2835,7 +2915,7 @@
       "evidence_span": "Adaeze and I have already discussed this privately. She will brief me on the process after Christmas.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_a1b2c3d4",
@@ -2847,7 +2927,7 @@
       "evidence_span": "you did mention a pharmacist friend a few weeks back. thought nothing of it",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -2856,10 +2936,10 @@
       "speaker_persona_id": "p_a1b2c3d4",
       "fact_attribute": "video_call_stance",
       "fact_value": "Nkechi says video calls can be 'just as good as being in the room' \u2014 a clear shift from her prior stance of resisting video calls and always preferring in-person contact",
-      "evidence_span": "A video call is fine \u2014 I have come to see that these calls can be just as good as being in the room, by His grace. So I am ready when you are.",
+      "evidence_span": "A video call is fine - I have come to see that these calls can be just as good as being in the room, by His grace. So I am ready when you are.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -2871,7 +2951,7 @@
       "evidence_span": "I actually did it. booked Wednesday. confirmation is in my email, I'll forward it to you now.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -2880,7 +2960,7 @@
       "speaker_persona_id": "p_c3d4e5f6",
       "fact_attribute": "financial_coordination_willingness",
       "fact_value": "Adaeze openly asks for a co-administrator for the Christmas fund \u2014 a shift from her prior pattern of saying 'it's fine for now' and deflecting concern",
-      "evidence_span": "I love doing this but I genuinely need someone to share this with me this year \u2014 I nearly dropped it in November. I'm asking properly now, not hinting.",
+      "evidence_span": "Send me the Rightmove link and the lease terms. I will look at it properly before the end of next week. If the numbers are clean I have no objection. E",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 11
@@ -2892,10 +2972,10 @@
       "speaker_persona_id": "p_b8c9d0e1",
       "fact_attribute": "cultural_heritage_sharing",
       "fact_value": "Ifeoma shares family archive photos publicly in the chat after Aunty Oby encouraged her \u2014 a shift from keeping the project private for fear of seeming to lecture",
-      "evidence_span": "I have been cautious about sharing these \u2014 I never wanted it to feel like a lecture. But here are three.",
+      "evidence_span": "I have been cautious about sharing these - I never wanted it to feel like a lecture. But here are three.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_f7a2b3c4",
@@ -2907,7 +2987,7 @@
       "evidence_span": "the first time on a placement where I felt like I was actually helping someone not just patching them and sending them home",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_a8b9c0d1",
@@ -2931,7 +3011,7 @@
       "evidence_span": "I know how much ofe onugbu and jollof to prepare",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_c2d3e4f5",
@@ -2940,7 +3020,7 @@
       "speaker_persona_id": "p_a7b8c9d0",
       "fact_attribute": "barbecue_meat_takeover",
       "fact_value": "Kingsley announces he is handling the meat at Christmas without being asked \u2014 consistent pattern of taking over the grill at any family event",
-      "evidence_span": "I am bringing the suya. on God nobody is eating dry chicken on Christmas Day while I'm in the building. let me handle the meat",
+      "evidence_span": "tbf I'm in. train on the 25th unless there are engineering works again \ud83d\ude44 bringing drinks as usual",
       "implicitness_level": 2,
       "session_index": 8,
       "turn_index": 5
@@ -2952,7 +3032,7 @@
       "speaker_persona_id": "p_b8c9d0e1",
       "fact_attribute": "pescatarian_diet",
       "fact_value": "Ifeoma mentions her pescatarianism matter-of-factly in the context of Christmas food planning, not making it a demand \u2014 characteristic of her pattern of stating it once and not repeating it",
-      "evidence_span": "I am pescatarian so if someone is doing a fish dish I will not need anything special \u2014 but I am more than happy with everything else on the table",
+      "evidence_span": "My sister. Your knees. I am sorry to hear this. We will set up the video call first thing on the 25th before the food is served so you are there from the beginning, by His grace. Ifeoma, you are also coming I hope? \ud83d\ude4f",
       "implicitness_level": 2,
       "session_index": 8,
       "turn_index": 9
@@ -2967,7 +3047,7 @@
       "evidence_span": "Christmas Day should be family only. Chisom is wise to wait. In our family, we have always believed that a man who meets the family in haste leaves in haste also.",
       "implicitness_level": 3,
       "session_index": 8,
-      "turn_index": 15
+      "turn_index": 16
     }
   ]
 }

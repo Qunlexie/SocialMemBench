@@ -11,11 +11,20 @@
       "age": 32,
       "gender": "female",
       "occupation": "Events coordinator at a mid-size tech company",
-      "background": "Grew up in Manchester, moved to London at 22 for work. The group's de-facto organiser — she is the one who started the Sunday tradition. Closest to Jess, who was her flatmate for three years.",
+      "background": "Grew up in Manchester, moved to London at 22 for work. The group's de-facto organiser \u2014 she is the one who started the Sunday tradition. Closest to Jess, who was her flatmate for three years.",
       "skills_list": [
-        {"skill": "event planning and logistics", "proficiency": "strong"},
-        {"skill": "negotiating group decisions", "proficiency": "strong"},
-        {"skill": "amateur pottery", "proficiency": "low"}
+        {
+          "skill": "event planning and logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "negotiating group decisions",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur pottery",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -26,17 +35,35 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Concise",
-        "emoji_use": "Moderate",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
         "humor": "Playful",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "prefers relaxed cafes over loud restaurants for group hangouts", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "reluctant walker who pretends to enjoy it more than she does", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "needs a wind-down period after organising events before she can enjoy them", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "prefers relaxed cafes over loud restaurants for group hangouts",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "reluctant walker who pretends to enjoy it more than she does",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "needs a wind-down period after organising events before she can enjoy them",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -63,11 +90,20 @@
       "age": 35,
       "gender": "male",
       "occupation": "Secondary school history teacher",
-      "background": "Has been in the friend group the longest alongside Aisha — they met at university. Tends toward long-winded historical analogies when making a point. Privately quite sensitive despite the donnish exterior.",
+      "background": "Has been in the friend group the longest alongside Aisha \u2014 they met at university. Tends toward long-winded historical analogies when making a point. Privately quite sensitive despite the donnish exterior.",
       "skills_list": [
-        {"skill": "historical trivia and research", "proficiency": "strong"},
-        {"skill": "pub quiz strategy", "proficiency": "strong"},
-        {"skill": "amateur bread baking", "proficiency": "medium"}
+        {
+          "skill": "historical trivia and research",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "pub quiz strategy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur bread baking",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -77,18 +113,36 @@
         "neuroticism": "Medium"
       },
       "communication_profile": {
-        "formality": "Semi-formal",
-        "verbosity": "Verbose",
-        "emoji_use": "Rare",
+        "formality": "Formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Balanced",
         "typo_rate": "None",
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "dislikes trendy food concepts — prefers unfussy pubs with good chips", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "enthusiastic about pub quiz nights but gets competitive in a way he does not acknowledge", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers smaller gatherings to large group events", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "dislikes trendy food concepts \u2014 prefers unfussy pubs with good chips",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enthusiastic about pub quiz nights but gets competitive in a way he does not acknowledge",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers smaller gatherings to large group events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -117,9 +171,18 @@
       "occupation": "UX designer at a startup",
       "background": "Met Aisha through work two years ago and was absorbed into the Sunday group quickly. Sends messages in rapid-fire sequences rather than composing one long reply. Close to Zoe from a shared gym stint.",
       "skills_list": [
-        {"skill": "UI/UX design and prototyping", "proficiency": "strong"},
-        {"skill": "film photography", "proficiency": "medium"},
-        {"skill": "sourdough baking", "proficiency": "low"}
+        {
+          "skill": "UI/UX design and prototyping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "film photography",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "sourdough baking",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -138,9 +201,27 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "pescatarian since mid-corpus — does not announce this, just stops ordering meat", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "avoids anything that takes more than 90 minutes to complete — gets restless", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "needs 1-on-1 time with close friends in addition to group settings", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "pescatarian since mid-corpus \u2014 does not announce this, just stops ordering meat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "avoids anything that takes more than 90 minutes to complete \u2014 gets restless",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "needs 1-on-1 time with close friends in addition to group settings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -169,9 +250,18 @@
       "occupation": "Senior financial analyst",
       "background": "Aisha's neighbour who got drawn into the group three years ago. Initially kept a polite distance but gradually became a core member. Has mild social anxiety he manages well. Closest to Tom in an unlikely pairing.",
       "skills_list": [
-        {"skill": "financial modelling and spreadsheet analysis", "proficiency": "strong"},
-        {"skill": "running (half-marathon level)", "proficiency": "strong"},
-        {"skill": "amateur chess", "proficiency": "medium"}
+        {
+          "skill": "financial modelling and spreadsheet analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running (half-marathon level)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur chess",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -190,9 +280,27 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "prefers restaurants with clear menus — dislikes vague 'sharing plate' concepts", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers structured activities over unplanned hangouts", "confidence": "High", "implicit": true}],
-        "social": [{"value": "often cannot make Sunday meetups due to weekend work, does not fully explain why", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "prefers restaurants with clear menus \u2014 dislikes vague 'sharing plate' concepts",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers structured activities over unplanned hangouts",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "often cannot make Sunday meetups due to weekend work, does not fully explain why",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -207,7 +315,7 @@
       ],
       "speaking_quirks": [
         "responds to emotional disclosures by pivoting immediately to logistics or solutions",
-        "rarely initiates a new thread — responds but does not start conversations",
+        "rarely initiates a new thread \u2014 responds but does not start conversations",
         "uses precise numbers when others would say 'a few' or 'some'"
       ],
       "participation_rate": 0.75,
@@ -219,11 +327,20 @@
       "age": 31,
       "gender": "female",
       "occupation": "Physiotherapist at an NHS sports clinic",
-      "background": "Aisha's former flatmate and best friend in the group. Warm and perceptive — notices when people go quiet. Briefly dated Rory two years ago; still friends, occasionally awkward.",
+      "background": "Aisha's former flatmate and best friend in the group. Warm and perceptive \u2014 notices when people go quiet. Briefly dated Rory two years ago; still friends, occasionally awkward.",
       "skills_list": [
-        {"skill": "sports injury assessment and rehabilitation", "proficiency": "strong"},
-        {"skill": "yoga and mobility training", "proficiency": "medium"},
-        {"skill": "amateur watercolour painting", "proficiency": "low"}
+        {
+          "skill": "sports injury assessment and rehabilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga and mobility training",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "amateur watercolour painting",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -234,17 +351,35 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Verbose",
-        "emoji_use": "Rare",
-        "humor": "Playful",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "quietly avoids alcohol at group events, orders soft drinks without drawing attention to it", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "enthusiastic about group trips abroad but needs significant lead time to commit", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "checks in on quiet members of the group privately, not in the group chat", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "quietly avoids alcohol at group events, orders soft drinks without drawing attention to it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "enthusiastic about group trips abroad but needs significant lead time to commit",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "checks in on quiet members of the group privately, not in the group chat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -259,7 +394,7 @@
       ],
       "speaking_quirks": [
         "frames concern as a question rather than a statement ('are you doing OK?' not 'you seem stressed')",
-        "tells stories with good pacing — sets up context before the punchline, even in a text message",
+        "tells stories with good pacing \u2014 sets up context before the punchline, even in a text message",
         "uses 'to be fair' to soften a counterpoint"
       ],
       "participation_rate": 1.0,
@@ -273,9 +408,18 @@
       "occupation": "Self-employed carpenter and joiner",
       "background": "Dan's school friend, in the group since the beginning. Appears indifferent to most plans but reliably shows up. Helped Marcus move flat, which cemented an unlikely friendship between the two. Rarely expresses opinions unless pushed.",
       "skills_list": [
-        {"skill": "woodworking and furniture making", "proficiency": "strong"},
-        {"skill": "five-a-side football", "proficiency": "strong"},
-        {"skill": "foraging and wild cooking", "proficiency": "medium"}
+        {
+          "skill": "woodworking and furniture making",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "five-a-side football",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "foraging and wild cooking",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -287,16 +431,34 @@
       "communication_profile": {
         "formality": "Casual",
         "verbosity": "Terse",
-        "emoji_use": "Rare",
+        "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Blunt",
         "typo_rate": "Moderate",
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "finds city restaurant culture pretentious, prefers cooking himself or a proper local pub", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "strongly prefers outdoor activities — gets visibly restless indoors for more than two hours", "confidence": "High", "implicit": true}],
-        "social": [{"value": "dislikes social media and avoids being photographed at group events", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "finds city restaurant culture pretentious, prefers cooking himself or a proper local pub",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "strongly prefers outdoor activities \u2014 gets visibly restless indoors for more than two hours",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes social media and avoids being photographed at group events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -311,8 +473,8 @@
       ],
       "speaking_quirks": [
         "single-word or two-word reactions by default ('fair', 'sounds good', 'nah')",
-        "occasionally writes one long message when genuinely interested or annoyed — otherwise nothing",
-        "typos from typing on a phone with large fingers — 'tge' for 'the', doubled letters"
+        "occasionally writes one long message when genuinely interested or annoyed \u2014 otherwise nothing",
+        "typos from typing on a phone with large fingers \u2014 'tge' for 'the', doubled letters"
       ],
       "participation_rate": 0.8,
       "status": "active"
@@ -323,11 +485,20 @@
       "age": 28,
       "gender": "female",
       "occupation": "PhD candidate in sociology (studying online community formation)",
-      "background": "Dan's intellectual companion in the group — they can spiral into hour-long tangents nobody else follows. Dry and self-aware; her academic framing occasionally annoys Tom. Recently stopped drinking alcohol, has not made this a topic of conversation.",
+      "background": "Dan's intellectual companion in the group \u2014 they can spiral into hour-long tangents nobody else follows. Dry and self-aware; her academic framing occasionally annoys Tom. Recently stopped drinking alcohol, has not made this a topic of conversation.",
       "skills_list": [
-        {"skill": "qualitative research and interview technique", "proficiency": "strong"},
-        {"skill": "cycling (commuter and leisure)", "proficiency": "medium"},
-        {"skill": "board game strategy (euros and Ameritrash both)", "proficiency": "strong"}
+        {
+          "skill": "qualitative research and interview technique",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cycling (commuter and leisure)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "board game strategy (euros and Ameritrash both)",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -337,18 +508,36 @@
         "neuroticism": "Low"
       },
       "communication_profile": {
-        "formality": "Casual",
-        "verbosity": "Verbose",
+        "formality": "Formal",
+        "verbosity": "Moderate",
         "emoji_use": "Never",
-        "humor": "Dry",
+        "humor": "Minimal",
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "stopped drinking alcohol — does not announce this, just orders non-alcoholic drinks", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers activities with a clear structure or goal — open-ended social time makes her restless", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "analyses group dynamics in conversation, which some members find slightly disconcerting", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "stopped drinking alcohol \u2014 does not announce this, just orders non-alcoholic drinks",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers activities with a clear structure or goal \u2014 open-ended social time makes her restless",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "analyses group dynamics in conversation, which some members find slightly disconcerting",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -364,7 +553,7 @@
       "speaking_quirks": [
         "uses 'arguably' and 'one could say' as genuine hedges, not affectation",
         "names the social dynamic she observes when the group is deciding something ('this is a classic sunk-cost situation')",
-        "never uses abbreviations — writes full words even in casual chat"
+        "never uses abbreviations \u2014 writes full words even in casual chat"
       ],
       "participation_rate": 0.9,
       "status": "active"
@@ -377,9 +566,18 @@
       "occupation": "Head chef at a neighbourhood bistro",
       "background": "Tom's former five-a-side teammate. Briefly dated Jess two years ago; they handled it well but there is occasional residual awkwardness, usually defused with humour. The group's de-facto food planner.",
       "skills_list": [
-        {"skill": "professional cooking and flavour development", "proficiency": "strong"},
-        {"skill": "wine and natural wine knowledge", "proficiency": "strong"},
-        {"skill": "five-a-side football (goalkeeper)", "proficiency": "medium"}
+        {
+          "skill": "professional cooking and flavour development",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wine and natural wine knowledge",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "five-a-side football (goalkeeper)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -392,15 +590,33 @@
         "formality": "Casual",
         "verbosity": "Concise",
         "emoji_use": "Frequent",
-        "humor": "Playful",
+        "humor": "Expressive",
         "directness": "Direct",
         "typo_rate": "Low",
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "physically cannot go to a bad restaurant without becoming visibly pained", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "will always choose eating over any activity that conflicts with it", "confidence": "High", "implicit": true}],
-        "social": [{"value": "uncomfortable in large-group settings where he does not know most people", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "physically cannot go to a bad restaurant without becoming visibly pained",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "will always choose eating over any activity that conflicts with it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable in large-group settings where he does not know most people",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -416,7 +632,7 @@
       "speaking_quirks": [
         "uses food metaphors naturally ('this plan has no seasoning', 'we're just adding more salt to an oversalted dish')",
         "sends a food recommendation unprompted when anyone mentions a location",
-        "emoji-heavy reactions — multiple emojis in sequence to express enthusiasm"
+        "emoji-heavy reactions \u2014 multiple emojis in sequence to express enthusiasm"
       ],
       "participation_rate": 0.85,
       "status": "active"
@@ -427,11 +643,20 @@
       "age": 30,
       "gender": "female",
       "occupation": "A&E nurse at a central London hospital",
-      "background": "Met Priya at a gym about 18 months ago. Joined the Sunday group gradually — still feels slightly newer than the others, though she has been welcomed. Uses dark humour as a coping mechanism for her job; the group has learned to read it.",
+      "background": "Met Priya at a gym about 18 months ago. Joined the Sunday group gradually \u2014 still feels slightly newer than the others, though she has been welcomed. Uses dark humour as a coping mechanism for her job; the group has learned to read it.",
       "skills_list": [
-        {"skill": "emergency triage and clinical assessment", "proficiency": "strong"},
-        {"skill": "indoor climbing", "proficiency": "medium"},
-        {"skill": "illustration and zine-making", "proficiency": "low"}
+        {
+          "skill": "emergency triage and clinical assessment",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "indoor climbing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "illustration and zine-making",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -442,24 +667,42 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Terse",
-        "emoji_use": "Moderate",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
         "humor": "Dry",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "eats anything without complaint — hospital canteen has obliterated all food fussiness", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "prefers physical activities that feel purposeful — walking somewhere specific, not walking in circles", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "initially deflected all personal questions with work jokes; warming up over time", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "eats anything without complaint \u2014 hospital canteen has obliterated all food fussiness",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers physical activities that feel purposeful \u2014 walking somewhere specific, not walking in circles",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "initially deflected all personal questions with work jokes; warming up over time",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "personal_disclosure",
-          "old_value": "deflected personal questions with dark hospital humour — never shared anything about her actual life",
+          "old_value": "deflected personal questions with dark hospital humour \u2014 never shared anything about her actual life",
           "new_value": "started occasionally sharing genuine moments from her life, still via humour but with real content",
           "changed_at_session": 6,
           "trigger": "after Jess gently called her out for deflecting, Zoe made a small genuine disclosure and the group responded warmly"
@@ -482,7 +725,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Met at university, have known each other for ten years. Aisha organises; Dan contributes history lectures nobody asked for. Genuine mutual affection underneath the teasing.",
-      "shared_events": ["university house share", "Aisha's 30th birthday trip to Lisbon", "annual pub quiz team"]
+      "shared_events": [
+        "university house share",
+        "Aisha's 30th birthday trip to Lisbon",
+        "annual pub quiz team"
+      ]
     },
     {
       "persona_a_id": "p_cf01aa01",
@@ -490,8 +737,12 @@
       "relationship_type": "former flatmates, best friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Lived together for three years before Jess moved in with her partner. The closest pair in the group — communicate on a frequency the others occasionally notice.",
-      "shared_events": ["three years of flatsharing", "Edinburgh group trip", "Jess's career change from PT to NHS physio"]
+      "history_summary": "Lived together for three years before Jess moved in with her partner. The closest pair in the group \u2014 communicate on a frequency the others occasionally notice.",
+      "shared_events": [
+        "three years of flatsharing",
+        "Edinburgh group trip",
+        "Jess's career change from PT to NHS physio"
+      ]
     },
     {
       "persona_a_id": "p_cf01aa01",
@@ -500,7 +751,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Met at work two years ago. Aisha brought Priya into the Sunday group. Warm relationship with occasional friction when Priya is blunt about Aisha's event planning.",
-      "shared_events": ["work project collaboration", "first Sunday brunch Priya attended", "pottery class Aisha organised"]
+      "shared_events": [
+        "work project collaboration",
+        "first Sunday brunch Priya attended",
+        "pottery class Aisha organised"
+      ]
     },
     {
       "persona_a_id": "p_cf01aa01",
@@ -509,7 +764,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Aisha absorbed Marcus into the group from next door. Polite and warm; Aisha is one of the few people who can get Marcus to stay past 9pm.",
-      "shared_events": ["building fire alarm incident that led to their first real conversation", "Marcus joining Sunday walks"]
+      "shared_events": [
+        "building fire alarm incident that led to their first real conversation",
+        "Marcus joining Sunday walks"
+      ]
     },
     {
       "persona_a_id": "p_cf02bb02",
@@ -518,7 +776,11 @@
       "closeness": "Medium",
       "sentiment": "mixed",
       "history_summary": "Known each other since secondary school. Genuinely fond of each other but Tom finds Dan's lecturing exhausting and occasionally says so. Dan finds Tom's bluntness bracing but useful.",
-      "shared_events": ["secondary school", "first five-a-side team", "Dan's wedding (Tom was an usher)"]
+      "shared_events": [
+        "secondary school",
+        "first five-a-side team",
+        "Dan's wedding (Tom was an usher)"
+      ]
     },
     {
       "persona_a_id": "p_cf02bb02",
@@ -527,7 +789,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Connected over shared love of obscure history and argument structure. Can lose the rest of the group in a tangent for 20 minutes. Kezia respects Dan's knowledge but gently corrects his historiography.",
-      "shared_events": ["pub quiz partnership", "joint reading of a doorstop history book", "Kezia peer-reviewing Dan's MA thesis"]
+      "shared_events": [
+        "pub quiz partnership",
+        "joint reading of a doorstop history book",
+        "Kezia peer-reviewing Dan's MA thesis"
+      ]
     },
     {
       "persona_a_id": "p_cf03cc03",
@@ -536,7 +802,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Met at a climbing gym 18 months ago. Priya introduced Zoe to the Sunday group. They have a private texting dynamic separate from the group.",
-      "shared_events": ["gym climbing sessions", "Priya introducing Zoe to the Sunday group", "joint holiday planning attempt that fell through"]
+      "shared_events": [
+        "gym climbing sessions",
+        "Priya introducing Zoe to the Sunday group",
+        "joint holiday planning attempt that fell through"
+      ]
     },
     {
       "persona_a_id": "p_cf04dd04",
@@ -545,7 +815,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Tom helped Marcus move flat after Marcus's van fell through. Something clicked. They do not have much in common but have a quiet, easy comfort around each other.",
-      "shared_events": ["flat move", "occasional one-on-one football watching at Tom's local", "Marcus fixing Tom's invoicing spreadsheet"]
+      "shared_events": [
+        "flat move",
+        "occasional one-on-one football watching at Tom's local",
+        "Marcus fixing Tom's invoicing spreadsheet"
+      ]
     },
     {
       "persona_a_id": "p_cf04dd04",
@@ -554,7 +828,10 @@
       "closeness": "Low",
       "sentiment": "mixed",
       "history_summary": "Polite but there is friction. Dan makes political comments Marcus finds naive; Marcus's precise financial framing irritates Dan. They manage it through avoidance and occasional teasing.",
-      "shared_events": ["group pub debates they both regret", "the Sunday walk where they got into an argument about housing policy"]
+      "shared_events": [
+        "group pub debates they both regret",
+        "the Sunday walk where they got into an argument about housing policy"
+      ]
     },
     {
       "persona_a_id": "p_cf05ee05",
@@ -562,8 +839,12 @@
       "relationship_type": "ex-partners, now friends",
       "closeness": "Medium",
       "sentiment": "mixed",
-      "history_summary": "Dated for about four months two years ago. Ended mutually and without drama, but there is residual awkwardness that surfaces occasionally — usually defused with humour by one of them.",
-      "shared_events": ["brief relationship", "the Edinburgh trip where they navigated being exes in a group setting for the first time", "Jess being the one who told the group about the breakup"]
+      "history_summary": "Dated for about four months two years ago. Ended mutually and without drama, but there is residual awkwardness that surfaces occasionally \u2014 usually defused with humour by one of them.",
+      "shared_events": [
+        "brief relationship",
+        "the Edinburgh trip where they navigated being exes in a group setting for the first time",
+        "Jess being the one who told the group about the breakup"
+      ]
     },
     {
       "persona_a_id": "p_cf06ff06",
@@ -571,8 +852,12 @@
       "relationship_type": "old football teammates",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Five-a-side teammates for five years. Easy, companionable friendship — they communicate mostly in short sentences and rarely need to explain themselves to each other.",
-      "shared_events": ["five-a-side league", "post-match pub tradition", "Tom coming to Rory's restaurant opening"]
+      "history_summary": "Five-a-side teammates for five years. Easy, companionable friendship \u2014 they communicate mostly in short sentences and rarely need to explain themselves to each other.",
+      "shared_events": [
+        "five-a-side league",
+        "post-match pub tradition",
+        "Tom coming to Rory's restaurant opening"
+      ]
     },
     {
       "persona_a_id": "p_cf07gg07",
@@ -581,7 +866,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Started spending time together after Zoe asked Kezia about her PhD research. Kezia found Zoe's clinical observations about human behaviour genuinely useful for her work. Still building closeness.",
-      "shared_events": ["a long conversation at Aisha's birthday drinks that neither expected", "occasional shared cycling commute"]
+      "shared_events": [
+        "a long conversation at Aisha's birthday drinks that neither expected",
+        "occasional shared cycling commute"
+      ]
     },
     {
       "persona_a_id": "p_cf08hh08",
@@ -590,22 +878,29 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Rory and Priya both respond strongly to food as a social glue. Priya follows Rory's restaurant recommendations without question; Rory appreciates being deferred to on this.",
-      "shared_events": ["the izakaya dinner Rory organised that became a group tradition", "Priya photographing Rory's staff meals"]
+      "shared_events": [
+        "the izakaya dinner Rory organised that became a group tradition",
+        "Priya photographing Rory's staff meals"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "The group meets every Sunday for a walk or pub lunch — it is the standing commitment that defines the group",
+      "norm_text": "The group meets every Sunday for a walk or pub lunch \u2014 it is the standing commitment that defines the group",
       "truly_universal": false,
-      "dissenters": ["p_cf04dd04"]
+      "dissenters": [
+        "p_cf04dd04"
+      ]
     },
     {
-      "norm_text": "Nobody talks about work at Sunday meetups — the rule is unspoken but reliably enforced by Aisha redirecting any work topic",
+      "norm_text": "Nobody talks about work at Sunday meetups \u2014 the rule is unspoken but reliably enforced by Aisha redirecting any work topic",
       "truly_universal": false,
-      "dissenters": ["p_cf09ii09"]
+      "dissenters": [
+        "p_cf09ii09"
+      ]
     },
     {
-      "norm_text": "Rory picks the restaurant whenever the group goes out to eat — no one else is trusted with this",
+      "norm_text": "Rory picks the restaurant whenever the group goes out to eat \u2014 no one else is trusted with this",
       "truly_universal": true,
       "dissenters": []
     }
@@ -613,6 +908,10 @@
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "close_friends",
+    "group_size": 9
   }
 }

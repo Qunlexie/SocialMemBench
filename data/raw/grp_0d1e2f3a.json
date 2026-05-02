@@ -31,7 +31,7 @@
         "food": [],
         "activities": [
           {
-            "value": "prefers structured social events with a clear end time — not open-ended evenings",
+            "value": "prefers structured social events with a clear end time \u2014 not open-ended evenings",
             "confidence": "High",
             "implicit": true
           }
@@ -50,7 +50,7 @@
           "domain": "social",
           "attribute": "career_discussion_framing",
           "old_value": "would discuss career progression as something everyone was navigating together",
-          "new_value": "now talks about management challenges — team size, stakeholder meetings — from a position above the group",
+          "new_value": "now talks about management challenges \u2014 team size, stakeholder meetings \u2014 from a position above the group",
           "changed_at_session": 2,
           "trigger": "got promoted to team lead; her professional context shifted and the chat dynamic shifted with it"
         }
@@ -58,7 +58,7 @@
       "speaking_quirks": [
         "refers to her team as 'my team' without registering how it sounds",
         "gives unsolicited advice on career situations the others are navigating",
-        "responds to plans with a specific end time: 'I can do 7–9'"
+        "responds to plans with a specific end time: 'I can do 7\u20139'"
       ],
       "occupation": "operations team lead",
       "skills_list": [
@@ -81,7 +81,7 @@
       "display_name": "Josh",
       "age": 30,
       "gender": "M",
-      "background": "Started alongside Mei in 2018, still in the same role he started in — senior analyst, effectively. Competent, comfortable, privately envious of the others' career moves. Uses self-deprecating humour about his career stagnation to deflect real questions about it.",
+      "background": "Started alongside Mei in 2018, still in the same role he started in \u2014 senior analyst, effectively. Competent, comfortable, privately envious of the others' career moves. Uses self-deprecating humour about his career stagnation to deflect real questions about it.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "Medium",
@@ -128,7 +128,7 @@
       ],
       "speaking_quirks": [
         "jokes about 'still being in the same chair' when asked about work",
-        "follows negative self-assessments with a string of 😂",
+        "follows negative self-assessments with a string of \ud83d\ude02",
         "changes the subject after one joke; doesn't return to it"
       ],
       "occupation": "senior business analyst",
@@ -152,7 +152,7 @@
       "display_name": "Priya",
       "age": 31,
       "gender": "F",
-      "background": "Left the original company after two years and retrained as a physio. Now in her second year of practice. The most interesting life trajectory. Doesn't discuss the career change much in the group — partly because it followed a difficult patch she hasn't fully processed, partly because the field is hard to talk about casually.",
+      "background": "Left the original company after two years and retrained as a physio. Now in her second year of practice. The most interesting life trajectory. Doesn't discuss the career change much in the group \u2014 partly because it followed a difficult patch she hasn't fully processed, partly because the field is hard to talk about casually.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "High",
@@ -353,7 +353,7 @@
   ],
   "group_norms": [
     {
-      "norm_text": "Quarterly drinks — everyone makes an effort to come.",
+      "norm_text": "Quarterly drinks \u2014 everyone makes an effort to come.",
       "truly_universal": false,
       "dissenters": [
         "p_c0d4e5f6"
@@ -372,5 +372,10 @@
       "dissenters": []
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "acquaintance_network",
+    "group_size": 4
+  }
 }

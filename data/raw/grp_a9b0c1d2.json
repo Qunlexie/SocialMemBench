@@ -13,10 +13,22 @@
       "occupation": "Emergency room nurse",
       "background": "Nadia grew up in Lagos and moved to the UK for nursing school at 21. She has worked nights in the ER for four years and has a dry, unshockable humor that most people mistake for coldness until they know her. She cycles everywhere, is a skilled home cook who experiments with Nigerian and Mediterranean fusion, and has quietly been accepted onto a part-time midwifery program she hasn't fully told the group about yet.",
       "skills_list": [
-        {"skill": "emergency medicine and triage", "proficiency": "strong"},
-        {"skill": "Nigerian-Mediterranean fusion cooking", "proficiency": "strong"},
-        {"skill": "urban cycling", "proficiency": "medium"},
-        {"skill": "beginner Portuguese (started an app six months ago)", "proficiency": "low"}
+        {
+          "skill": "emergency medicine and triage",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Nigerian-Mediterranean fusion cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "urban cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "beginner Portuguese (started an app six months ago)",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -26,9 +38,9 @@
         "neuroticism": "Low"
       },
       "communication_profile": {
-        "formality": "Casual",
+        "formality": "Formal",
         "verbosity": "Concise",
-        "emoji_use": "Rare",
+        "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Direct",
         "typo_rate": "None",
@@ -36,25 +48,49 @@
       },
       "preferences": {
         "food": [
-          {"value": "will not eat overly sweet food — finds dessert menus exhausting", "confidence": "High", "implicit": true},
-          {"value": "judges a restaurant by its rice or bread before anything else", "confidence": "Medium", "implicit": true}
+          {
+            "value": "will not eat overly sweet food \u2014 finds dessert menus exhausting",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "judges a restaurant by its rice or bread before anything else",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "strongly prefers plans that start and end at a predictable time — shift work makes open-ended evenings stressful", "confidence": "High", "implicit": true},
-          {"value": "resists joining group exercise plans; prefers to exercise alone", "confidence": "High", "implicit": true}
+          {
+            "value": "strongly prefers plans that start and end at a predictable time \u2014 shift work makes open-ended evenings stressful",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "resists joining group exercise plans; prefers to exercise alone",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "cares deeply about the group but is the last to text first", "confidence": "Medium", "implicit": true}
+          {
+            "value": "cares deeply about the group but is the last to text first",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "deeply averse to people asking her medical questions at social events", "confidence": "High", "implicit": true}
+          {
+            "value": "deeply averse to people asking her medical questions at social events",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "personal_news_sharing",
-          "old_value": "kept most major life decisions close — told the group after the fact if at all",
+          "old_value": "kept most major life decisions close \u2014 told the group after the fact if at all",
           "new_value": "began sharing news earlier in the process, starting with the midwifery application; still doesn't broadcast it but mentioned it to Theo one-on-one",
           "changed_at_session": 5,
           "trigger": "Theo asked her directly what was going on after she'd been distracted for weeks; she told him about the program"
@@ -75,10 +111,22 @@
       "occupation": "Documentary film editor",
       "background": "Theo grew up in Bristol, studied film in London, and has been cutting documentaries for a mid-size production company for five years. He is the most perceptive person in the group about interpersonal dynamics and is often the one who notices when something is off with another member before they announce it. He is in a long-term relationship with a partner who the group knows but doesn't see often. He is quiet in large social settings but extremely present in small ones.",
       "skills_list": [
-        {"skill": "film editing and post-production", "proficiency": "strong"},
-        {"skill": "documentary research and narrative structuring", "proficiency": "strong"},
-        {"skill": "vinyl record collection and curation", "proficiency": "medium"},
-        {"skill": "amateur bouldering", "proficiency": "medium"}
+        {
+          "skill": "film editing and post-production",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "documentary research and narrative structuring",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vinyl record collection and curation",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "amateur bouldering",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -98,18 +146,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "particular about coffee — quietly won't go to chains if there's an independent option nearby", "confidence": "High", "implicit": true},
-          {"value": "prefers small plates and sharing food over individual mains", "confidence": "Medium", "implicit": true}
+          {
+            "value": "particular about coffee \u2014 quietly won't go to chains if there's an independent option nearby",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "prefers small plates and sharing food over individual mains",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers plans that involve doing something rather than just drinking — bouldering, a film, a walk", "confidence": "High", "implicit": true},
-          {"value": "hates hen/stag-style events and loud group social occasions", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers plans that involve doing something rather than just drinking \u2014 bouldering, a film, a walk",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "hates hen/stag-style events and loud group social occasions",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "strong preference for one-on-one or two-on-one conversations over group discussions", "confidence": "High", "implicit": true}
+          {
+            "value": "strong preference for one-on-one or two-on-one conversations over group discussions",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "gets quietly frustrated when people talk over films or documentaries he's recommended", "confidence": "Medium", "implicit": true}
+          {
+            "value": "gets quietly frustrated when people talk over films or documentaries he's recommended",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -124,7 +196,7 @@
       ],
       "speaking_quirks": [
         "references films or documentaries to explain situations ('it's like that scene in...')",
-        "asks follow-up questions that make people feel listened to — 'and how did that land?'",
+        "asks follow-up questions that make people feel listened to \u2014 'and how did that land?'",
         "rarely types more than three lines but the three lines are always exact"
       ],
       "participation_rate": 1.0
@@ -137,10 +209,22 @@
       "occupation": "Secondary school maths teacher",
       "background": "Seb is from a small town in Yorkshire and moved to London for a PGCE three years ago. He is the most sociable person in the group, usually the one who energizes flagging plans and drags people out of their houses. He has an old sports injury to his left knee that flares up unpredictably, which has made him cautious about committing to physical activities in advance. He coaches a junior football team on Saturday mornings and is quietly proud of it.",
       "skills_list": [
-        {"skill": "maths pedagogy and tutoring", "proficiency": "strong"},
-        {"skill": "football coaching", "proficiency": "strong"},
-        {"skill": "bouldering (beginner)", "proficiency": "low"},
-        {"skill": "board games strategy", "proficiency": "medium"}
+        {
+          "skill": "maths pedagogy and tutoring",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "football coaching",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "bouldering (beginner)",
+          "proficiency": "low"
+        },
+        {
+          "skill": "board games strategy",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -151,8 +235,8 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Verbose",
-        "emoji_use": "Frequent",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
         "humor": "Playful",
         "directness": "Direct",
         "typo_rate": "Moderate",
@@ -160,18 +244,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "will eat almost anything and says so — explicitly anti-fussy about food", "confidence": "High", "implicit": false},
-          {"value": "orders a round without asking if he thinks people want drinks — assumes yes", "confidence": "Medium", "implicit": true}
+          {
+            "value": "will eat almost anything and says so \u2014 explicitly anti-fussy about food",
+            "confidence": "High",
+            "implicit": false
+          },
+          {
+            "value": "orders a round without asking if he thinks people want drinks \u2014 assumes yes",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "enthusiastic about any new plan in the moment but often has to cancel last-minute due to his knee", "confidence": "High", "implicit": true},
-          {"value": "loves competitive social activities — pub quizzes, mini golf, anything with a score", "confidence": "High", "implicit": true}
+          {
+            "value": "enthusiastic about any new plan in the moment but often has to cancel last-minute due to his knee",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "loves competitive social activities \u2014 pub quizzes, mini golf, anything with a score",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "energizes the group but sometimes steamrolls quieter people — doesn't always notice he's doing it", "confidence": "High", "implicit": true}
+          {
+            "value": "energizes the group but sometimes steamrolls quieter people \u2014 doesn't always notice he's doing it",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "protective of his Saturday mornings coaching — very rarely agrees to anything before midday on Saturdays", "confidence": "High", "implicit": true}
+          {
+            "value": "protective of his Saturday mornings coaching \u2014 very rarely agrees to anything before midday on Saturdays",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -199,10 +307,22 @@
       "occupation": "Immigration solicitor",
       "background": "Zara is of Bangladeshi heritage, grew up in East London, and has been practicing immigration law for eight years. She is methodical, precise, and exceptionally well-read. She met Nadia and Theo through a shared house they all lived in during their mid-twenties. She has strong opinions about nearly everything and is not shy about sharing them, which creates friction with Seb when they diverge on something. She is the group's de facto planner and is quietly resentful about it.",
       "skills_list": [
-        {"skill": "immigration law and casework", "proficiency": "strong"},
-        {"skill": "debate and structured argumentation", "proficiency": "strong"},
-        {"skill": "Bengali cooking", "proficiency": "medium"},
-        {"skill": "reading (50+ books a year)", "proficiency": "strong"}
+        {
+          "skill": "immigration law and casework",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "debate and structured argumentation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Bengali cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "reading (50+ books a year)",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -222,32 +342,56 @@
       },
       "preferences": {
         "food": [
-          {"value": "will not go to chain restaurants — considers it a matter of principle", "confidence": "High", "implicit": true},
-          {"value": "cares about where her fish comes from — checks sourcing; won't order salmon in places that can't answer the question", "confidence": "Medium", "implicit": true}
+          {
+            "value": "will not go to chain restaurants \u2014 considers it a matter of principle",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "cares about where her fish comes from \u2014 checks sourcing; won't order salmon in places that can't answer the question",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "reads on all public transport and considers it sacred time — puts her phone away on the tube", "confidence": "High", "implicit": true},
-          {"value": "will not do escape rooms or team-bonding activities — finds them excruciating", "confidence": "High", "implicit": true}
+          {
+            "value": "reads on all public transport and considers it sacred time \u2014 puts her phone away on the tube",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "will not do escape rooms or team-bonding activities \u2014 finds them excruciating",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "organizes most group logistics but has started being less responsive to planning messages as resentment grows", "confidence": "High", "implicit": true}
+          {
+            "value": "organizes most group logistics but has started being less responsive to planning messages as resentment grows",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "talks about her cases in abstract terms; never names clients but clearly finds the work emotionally heavy", "confidence": "High", "implicit": true}
+          {
+            "value": "talks about her cases in abstract terms; never names clients but clearly finds the work emotionally heavy",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "planning_role",
-          "old_value": "proactively organized group logistics — bookings, reminders, coordination — without complaint",
+          "old_value": "proactively organized group logistics \u2014 bookings, reminders, coordination \u2014 without complaint",
           "new_value": "became noticeably less responsive to planning threads; started waiting for someone else to step up",
           "changed_at_session": 6,
-          "trigger": "she commented in session 6 that she was 'done making all the reservations' — partly joking, partly not; the group took it seriously"
+          "trigger": "she commented in session 6 that she was 'done making all the reservations' \u2014 partly joking, partly not; the group took it seriously"
         }
       ],
       "speaking_quirks": [
-        "structures disagreements formally: 'I'd push back on that — here's why'",
+        "structures disagreements formally: 'I'd push back on that \u2014 here's why'",
         "uses no emoji or abbreviations; her messages look like emails",
         "cites specific details when recommending restaurants or places: address, best dish, name of the person to ask for"
       ],
@@ -259,12 +403,24 @@
       "age": 29,
       "gender": "female",
       "occupation": "Product manager at a fintech startup",
-      "background": "Priyanka grew up in Leicester, studied economics, and has been in product for four years. She joined the friend group through Seb, who she met at a pub quiz two years ago. She is warm, socially skilled, and aware that she entered an existing group — she sometimes still feels on the outside of shared history between Nadia, Theo, and Zara. She does yoga three mornings a week and recently took up cold-water swimming after a friend challenged her.",
+      "background": "Priyanka grew up in Leicester, studied economics, and has been in product for four years. She joined the friend group through Seb, who she met at a pub quiz two years ago. She is warm, socially skilled, and aware that she entered an existing group \u2014 she sometimes still feels on the outside of shared history between Nadia, Theo, and Zara. She does yoga three mornings a week and recently took up cold-water swimming after a friend challenged her.",
       "skills_list": [
-        {"skill": "product strategy and roadmapping", "proficiency": "strong"},
-        {"skill": "yoga", "proficiency": "medium"},
-        {"skill": "cold-water swimming (recent)", "proficiency": "low"},
-        {"skill": "pub quiz general knowledge", "proficiency": "strong"}
+        {
+          "skill": "product strategy and roadmapping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cold-water swimming (recent)",
+          "proficiency": "low"
+        },
+        {
+          "skill": "pub quiz general knowledge",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -275,7 +431,7 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Verbose",
+        "verbosity": "Concise",
         "emoji_use": "Frequent",
         "humor": "Expressive",
         "directness": "Balanced",
@@ -284,18 +440,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "dairy-free — mentions it when ordering but never makes it a whole thing", "confidence": "High", "implicit": true},
-          {"value": "genuinely excited by new food experiences; will always order something she hasn't tried before", "confidence": "High", "implicit": true}
+          {
+            "value": "dairy-free \u2014 mentions it when ordering but never makes it a whole thing",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "genuinely excited by new food experiences; will always order something she hasn't tried before",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "wants to suggest plans but second-guesses herself — often phrases suggestions as questions ('has anyone thought about...')", "confidence": "High", "implicit": true},
-          {"value": "enthusiastic about the cold-water swimming but cautious about over-promoting it since the group has varying interest", "confidence": "Medium", "implicit": true}
+          {
+            "value": "wants to suggest plans but second-guesses herself \u2014 often phrases suggestions as questions ('has anyone thought about...')",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "enthusiastic about the cold-water swimming but cautious about over-promoting it since the group has varying interest",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "sensitive to exclusion dynamics within the group — notices when the older three reference things she wasn't there for", "confidence": "High", "implicit": true}
+          {
+            "value": "sensitive to exclusion dynamics within the group \u2014 notices when the older three reference things she wasn't there for",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "follows the startup ecosystem closely but self-edits in this group — knows work talk doesn't always land", "confidence": "Medium", "implicit": true}
+          {
+            "value": "follows the startup ecosystem closely but self-edits in this group \u2014 knows work talk doesn't always land",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -321,12 +501,24 @@
       "age": 35,
       "gender": "male",
       "occupation": "NHS physiotherapist",
-      "background": "Marcus is the oldest in the group by a year. He is from South London, has been an NHS physio for seven years, and coaches a community running club on weekend mornings. He is physically capable and active but deeply reluctant to make plans in advance — a legacy of shift-pattern working even though he now has a fixed schedule. He and Nadia have known each other longest; they were on the same A&E ward years ago before he moved to physiotherapy. He recently ended a long-term relationship and the group is navigating how to talk about that.",
+      "background": "Marcus is the oldest in the group by a year. He is from South London, has been an NHS physio for seven years, and coaches a community running club on weekend mornings. He is physically capable and active but deeply reluctant to make plans in advance \u2014 a legacy of shift-pattern working even though he now has a fixed schedule. He and Nadia have known each other longest; they were on the same A&E ward years ago before he moved to physiotherapy. He recently ended a long-term relationship and the group is navigating how to talk about that.",
       "skills_list": [
-        {"skill": "physiotherapy and rehabilitation", "proficiency": "strong"},
-        {"skill": "running (marathon-level fitness)", "proficiency": "strong"},
-        {"skill": "running club coaching", "proficiency": "medium"},
-        {"skill": "car mechanics (self-taught hobby)", "proficiency": "medium"}
+        {
+          "skill": "physiotherapy and rehabilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running (marathon-level fitness)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running club coaching",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "car mechanics (self-taught hobby)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -346,18 +538,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "prefers not to eat out; would always rather someone cooks or they get a takeaway than go to a restaurant", "confidence": "High", "implicit": true},
-          {"value": "eats very deliberately — high-protein, low-sugar — but never comments on what others are eating", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers not to eat out; would always rather someone cooks or they get a takeaway than go to a restaurant",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "eats very deliberately \u2014 high-protein, low-sugar \u2014 but never comments on what others are eating",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "deeply reluctant to commit to anything more than two days in advance; will usually say 'I'll try to make it' even when he plans to come", "confidence": "High", "implicit": true},
-          {"value": "finds long pub evenings draining — prefers shorter, activity-based hangouts", "confidence": "Medium", "implicit": true}
+          {
+            "value": "deeply reluctant to commit to anything more than two days in advance; will usually say 'I'll try to make it' even when he plans to come",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "finds long pub evenings draining \u2014 prefers shorter, activity-based hangouts",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "hasn't talked much about the breakup in the group chat but is visibly more subdued since it happened", "confidence": "High", "implicit": true}
+          {
+            "value": "hasn't talked much about the breakup in the group chat but is visibly more subdued since it happened",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "quietly judges plans that are sedentary for too long; gets restless sitting at a table for three hours", "confidence": "Medium", "implicit": true}
+          {
+            "value": "quietly judges plans that are sedentary for too long; gets restless sitting at a table for three hours",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -365,7 +581,7 @@
           "domain": "social",
           "attribute": "advance_commitment",
           "old_value": "rarely committed to plans more than a day in advance; perpetually vague about attendance",
-          "new_value": "started confirming plans properly after the breakup — the group has become more important to him and his attendance has improved noticeably",
+          "new_value": "started confirming plans properly after the breakup \u2014 the group has become more important to him and his attendance has improved noticeably",
           "changed_at_session": 7,
           "trigger": "Nadia said directly to him in session 7 that the group missed him being properly present; he started showing up without hedging after that"
         }
@@ -397,7 +613,7 @@
       "relationship_type": "housemates turned close friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Nadia, Theo, and Zara all lived in the same house for two years in their mid-twenties. Nadia and Theo are the closest pair from that era — they share a dry humor and an unspoken understanding of each other's silences.",
+      "history_summary": "Nadia, Theo, and Zara all lived in the same house for two years in their mid-twenties. Nadia and Theo are the closest pair from that era \u2014 they share a dry humor and an unspoken understanding of each other's silences.",
       "shared_events": [
         "lived in the same house for two years",
         "co-hosted a large birthday party that is still a reference point in group stories"
@@ -421,7 +637,7 @@
       "relationship_type": "housemates turned close friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Nadia and Zara lived together in the same house as Theo. They are close but sometimes abrasive with each other — both direct and both stubborn. Their disagreements are usually brief and resolved; residue is minimal.",
+      "history_summary": "Nadia and Zara lived together in the same house as Theo. They are close but sometimes abrasive with each other \u2014 both direct and both stubborn. Their disagreements are usually brief and resolved; residue is minimal.",
       "shared_events": [
         "lived in the same house for two years",
         "had a notable falling-out over a shared bill that they resolved and now reference as ancient history"
@@ -445,7 +661,7 @@
       "relationship_type": "housemates turned close friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Theo and Zara have been close since the shared house era. They have a more intellectual friendship than Theo has with Nadia — they discuss films, books, and politics. They disagree regularly and enjoy it.",
+      "history_summary": "Theo and Zara have been close since the shared house era. They have a more intellectual friendship than Theo has with Nadia \u2014 they discuss films, books, and politics. They disagree regularly and enjoy it.",
       "shared_events": [
         "lived in the same house for two years",
         "have a standing habit of exchanging book recommendations"
@@ -491,7 +707,7 @@
       "relationship_type": "friction pair",
       "closeness": "Low",
       "sentiment": "tense",
-      "history_summary": "Seb and Zara clash frequently on matters of opinion — politics, social issues, what counts as a good plan. Zara finds Seb loud and underinformed; Seb finds Zara dismissive. The friction is managed within the group but occasionally surfaces in text.",
+      "history_summary": "Seb and Zara clash frequently on matters of opinion \u2014 politics, social issues, what counts as a good plan. Zara finds Seb loud and underinformed; Seb finds Zara dismissive. The friction is managed within the group but occasionally surfaces in text.",
       "shared_events": [
         "had a notable argument about a political topic in the group chat that the others had to de-escalate",
         "briefly bonded over a shared complaint about someone outside the group, which reset the dynamic temporarily"
@@ -503,7 +719,7 @@
       "relationship_type": "how Priyanka joined",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Seb introduced Priyanka to the group two years ago. They are close in an easy, uncomplicated way — she is one of the few people he doesn't accidentally steamroll, and she is one of the few people he listens to when they disagree.",
+      "history_summary": "Seb introduced Priyanka to the group two years ago. They are close in an easy, uncomplicated way \u2014 she is one of the few people he doesn't accidentally steamroll, and she is one of the few people he listens to when they disagree.",
       "shared_events": [
         "met at a pub quiz and ended up at the same table",
         "Seb formally introduced Priyanka to the group at a dinner"
@@ -529,7 +745,7 @@
       "sentiment": "mixed",
       "history_summary": "Zara was reserved about Priyanka when she first joined the group, sensing she was calibrating her behavior for acceptance. Over time she has become more generous. Priyanka is still slightly wary of Zara's bluntness. The relationship is improving but uneven.",
       "shared_events": [
-        "Zara recommended a novel to Priyanka that she ended up loving — a small turning point",
+        "Zara recommended a novel to Priyanka that she ended up loving \u2014 a small turning point",
         "disagreed about a restaurant booking but resolved it without it becoming a thing"
       ]
     },
@@ -558,34 +774,46 @@
   ],
   "group_norms": [
     {
-      "norm_text": "Group plans are confirmed in the chat — no one assumes a plan is happening without a yes from everyone who said they'd come.",
+      "norm_text": "Group plans are confirmed in the chat \u2014 no one assumes a plan is happening without a yes from everyone who said they'd come.",
       "truly_universal": false,
-      "dissenters": ["p_f4a5b6c7"]
+      "dissenters": [
+        "p_f4a5b6c7"
+      ]
     },
     {
-      "norm_text": "We rotate who books the table or venue — the organizer role doesn't fall to the same person every time.",
+      "norm_text": "We rotate who books the table or venue \u2014 the organizer role doesn't fall to the same person every time.",
       "truly_universal": false,
-      "dissenters": ["p_c1d2e3f4", "p_f4a5b6c7"]
+      "dissenters": [
+        "p_c1d2e3f4",
+        "p_f4a5b6c7"
+      ]
     },
     {
-      "norm_text": "What's said in the group about personal situations stays in the group — no sharing outside.",
+      "norm_text": "What's said in the group about personal situations stays in the group \u2014 no sharing outside.",
       "truly_universal": true,
       "dissenters": []
     },
     {
-      "norm_text": "No dietary preferences are made into a big deal — everyone just quietly accommodates without comment.",
+      "norm_text": "No dietary preferences are made into a big deal \u2014 everyone just quietly accommodates without comment.",
       "truly_universal": true,
       "dissenters": []
     },
     {
       "norm_text": "Phones away when we're all sitting together at a meal.",
       "truly_universal": false,
-      "dissenters": ["p_e3f4a5b6", "p_c1d2e3f4"]
+      "dissenters": [
+        "p_e3f4a5b6",
+        "p_c1d2e3f4"
+      ]
     }
   ],
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "close_friends",
+    "group_size": 6
   }
 }

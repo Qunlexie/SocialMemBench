@@ -1,0 +1,1937 @@
+{
+  "network_id": "grp_d3e4f5a6",
+  "group_name": "Brookline House Alumni",
+  "group_type": "close_friends",
+  "group_size": 22,
+  "tier": "large",
+  "seed": 40,
+  "description": "Twenty-two close friends who originally lived in or rotated through 'Brookline House,' a shared off-campus rental at a New England university roughly eight to ten years ago. The chat has stayed alive through grad school, moves, marriages, career switches, and a pandemic. Most members are now in their late twenties or early thirties, scattered across cities. The chat handles everything from logistics for an annual reunion weekend to running jokes about the house's broken oven and quiet support during rough patches.",
+  "personas": [
+    {
+      "persona_id": "p_d3e40001",
+      "display_name": "Maya",
+      "age": 31,
+      "gender": "female",
+      "occupation": "UX researcher",
+      "background": "Maya was the first 'house mom' of Brookline back in the original lease and has carried the role into the chat. She tracks reunion logistics, quietly checks in on people who've gone quiet, and remembers everyone's birthdays. She lives in Boston with her partner. She is close to Priya from a research methods class they took together and has known Devon since freshman year.",
+      "skills_list": [
+        {
+          "skill": "Group facilitation and conflict mediation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "User interview design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Casual baking",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "quietly avoids heavy dairy at group meals, never names it as lactose intolerance",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers sit-down planning over chaotic improvisation, even on small things",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "wants reunions to be inclusive of partners and kids, not just original housemates",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "reunion_format",
+          "old_value": "always pushed for a big rented house with everyone together",
+          "new_value": "now leans toward smaller satellite gatherings plus one shorter big day",
+          "changed_at_session": 6,
+          "trigger": "Last summer's twenty-person rental left her exhausted; she has stopped advocating for the all-in format."
+        }
+      ],
+      "speaking_quirks": [
+        "opens planning messages with 'okay logistics check'",
+        "ends suggestions with 'open to other ideas though'",
+        "uses \ud83d\udc9b as a sign-off in serious moments"
+      ],
+      "participation_rate": 0.85,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40002",
+      "display_name": "Devon",
+      "age": 31,
+      "gender": "male",
+      "occupation": "Litigation associate",
+      "background": "Devon is the chat's contrarian, but a fond one. He'll argue any point for the sport of it, then concede when it stops being fun. He works long hours at a Boston firm, runs the annual fantasy football side-league for the chat, and has known Maya since freshman year. He drinks too much coffee and underplays how much he misses college.",
+      "skills_list": [
+        {
+          "skill": "Argumentation and rhetoric",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Fantasy football management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Cooking braises and stews",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "quietly hates karaoke nights, will agree but show up late",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers smaller late-night conversations to big day-trip events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "always picks contrarian fantasy football trades to stir debate",
+            "confidence": "High",
+            "implicit": false
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "reunion_attendance",
+          "old_value": "treated reunions as optional and skipped two in a row",
+          "new_value": "now anchors his calendar around reunion weekends",
+          "changed_at_session": 4,
+          "trigger": "Pat's father's funeral last fall reminded the group that turnout matters; Devon flew across the country for it."
+        }
+      ],
+      "speaking_quirks": [
+        "opens disagreements with 'counterpoint:'",
+        "uses 'not for nothing' before serious takes",
+        "rarely sends emoji except \ud83e\udee1 as a salute"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40003",
+      "display_name": "Priya",
+      "age": 30,
+      "gender": "female",
+      "occupation": "Hospital pharmacist",
+      "background": "Priya did her PharmD after Brookline and now works rotating shifts at a hospital outside Providence. She lurks more than she posts, chimes in for logistics, and is the unofficial drug-interaction helpline for the chat. She was Maya's research-methods classmate and is close to Tom\u00e1s through their shared volleyball league.",
+      "skills_list": [
+        {
+          "skill": "Pharmacology and drug-interaction lookup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Volleyball setting",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Crocheting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "avoids spicy food, will pick at it rather than say so",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "prefers small group hangouts; quiet on big chat days",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "exercise_pattern",
+          "old_value": "ran half-marathons and posted training plans to the chat",
+          "new_value": "switched to volleyball and almost never mentions running",
+          "changed_at_session": 3,
+          "trigger": "Stress fracture during her residency forced a switch; she has since fallen in love with team sport over solo training."
+        }
+      ],
+      "speaking_quirks": [
+        "responds with single words ('agreed', 'yes', 'on it') often",
+        "uses periods at the ends of casual messages",
+        "occasionally drops a clinical detail in jokes"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40004",
+      "display_name": "Tom\u00e1s",
+      "age": 32,
+      "gender": "male",
+      "occupation": "High school math teacher",
+      "background": "Tom\u00e1s teaches at a public school in New Haven, runs the volleyball league with Priya, and is the steady emotional anchor of the chat. He answers slow but thoughtfully and is the one people DM when they don't want the whole chat to see. He has been with his partner Renee since junior year and they have a toddler.",
+      "skills_list": [
+        {
+          "skill": "Listening and check-ins",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Coaching volleyball",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Home repair",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers daytime activities over late-night events since becoming a parent",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers having one slow conversation per day, not constant pings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "chat_engagement",
+          "old_value": "responded to almost every message in real time",
+          "new_value": "now responds in batches once a day, usually after his daughter's bedtime",
+          "changed_at_session": 5,
+          "trigger": "His daughter's sleep regression made constant chat checking impossible; he batches now."
+        }
+      ],
+      "speaking_quirks": [
+        "starts supportive notes with 'just want to flag'",
+        "signs off short messages with 'tom'",
+        "rarely uses exclamation points"
+      ],
+      "participation_rate": 0.65,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40005",
+      "display_name": "Aanya",
+      "age": 30,
+      "gender": "female",
+      "occupation": "Data scientist at a climate startup",
+      "background": "Aanya is sharp, dry-humored, and the chat's resident tech support. She lives in Seattle, posts in bursts late at night Eastern time, and has an ongoing affectionate rivalry with Devon about everything from sports to weather. She is closer to Lila than anyone else in the chat after they roomed together for two years.",
+      "skills_list": [
+        {
+          "skill": "Python and data analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Climbing (bouldering)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Whiskey tasting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves spicy food, the spicier the better",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers solo or pair activities (climbing, hiking) over group brunches",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers sub-group threads to the main chat for serious topics",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "reunion_attendance",
+          "old_value": "made every reunion despite the cross-country flight",
+          "new_value": "skipped last year's and has been hedging on this one",
+          "changed_at_session": 7,
+          "trigger": "She broke up with her partner of four years and the reunion crowd reminds her of him."
+        }
+      ],
+      "speaking_quirks": [
+        "uses lowercase exclusively, even at the starts of sentences",
+        "responds 'lol no' as a complete reply",
+        "drops the ball with '\ud83d\udc40' instead of asking outright"
+      ],
+      "participation_rate": 0.55,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40006",
+      "display_name": "Lila",
+      "age": 30,
+      "gender": "female",
+      "occupation": "Pediatric nurse",
+      "background": "Lila is the empath of the group. She works night shifts at a children's hospital in Boston and posts on her drive home or between shifts. She knows about Aanya's breakup before Aanya tells the chat, and she keeps it in confidence. She has a long-running soft spot for noir movies and an opinionated cat named Brisket.",
+      "skills_list": [
+        {
+          "skill": "Pediatric nursing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Movie-night curation",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Watercolor",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "loves classic noir film nights, will plan them eagerly",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [
+          {
+            "value": "tries to gently steer reunion topics away from anything that would corner Aanya",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "messaging_volume",
+          "old_value": "rarely posted long messages, kept it short",
+          "new_value": "now sends multi-paragraph reflections after late shifts",
+          "changed_at_session": 4,
+          "trigger": "She started therapy and got more comfortable expressing herself in writing."
+        }
+      ],
+      "speaking_quirks": [
+        "starts long messages with 'okay so'",
+        "uses '\ud83d\ude05' to deflate her own intensity",
+        "occasionally refers to her cat by name unprompted"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40007",
+      "display_name": "Nate",
+      "age": 31,
+      "gender": "male",
+      "occupation": "Civil engineer",
+      "background": "Nate works on bridge inspections out of Hartford. He is the chat's logistics second-in-command after Maya. He has a tense-but-not-broken relationship with Cam since they fell out over a wedding seating chart two years ago. They are civil but rarely directly address each other in the chat.",
+      "skills_list": [
+        {
+          "skill": "Project planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Long-distance cycling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Beer brewing",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers mid-range chain restaurants over trendy spots when traveling in groups",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves long cycling routes, will plan them at any opportunity",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "interaction_with_cam",
+          "old_value": "publicly joked back and forth with Cam frequently",
+          "new_value": "now keeps interactions with Cam to logistics-only",
+          "changed_at_session": 2,
+          "trigger": "The wedding-seating fight from two years prior never fully resolved; he keeps the chat civil but distant."
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'roger that' as acknowledgment",
+        "writes structured suggestions with 'option A / option B'",
+        "almost never uses humor unless responding to Devon"
+      ],
+      "participation_rate": 0.55,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40008",
+      "display_name": "Cam",
+      "age": 30,
+      "gender": "non-binary",
+      "occupation": "Graphic designer / freelance illustrator",
+      "background": "Cam went freelance after Brookline and now lives in Brooklyn. They run the chat's photo album and are the unofficial designer for any reunion swag. They are the hardest poster in the chat, often dropping ten messages in a row with a flurry of memes, and have an unresolved tension with Nate from the wedding-seating fallout.",
+      "skills_list": [
+        {
+          "skill": "Visual design and brand identity",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Meme curation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Vinyl DJing",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian for ten years; never makes a big deal of it but always orders the veg option",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers art-museum or gallery side trips on group weekends",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "openness_about_freelance_stress",
+          "old_value": "kept money worries off the chat",
+          "new_value": "now occasionally vents about freelance dry spells",
+          "changed_at_session": 5,
+          "trigger": "A three-month gap between contracts forced them to be more open with the group."
+        }
+      ],
+      "speaking_quirks": [
+        "sends multiple messages in fast bursts rather than one long one",
+        "uses \ud83d\udc80 to react to anything mildly funny",
+        "lowercase by default, no end punctuation"
+      ],
+      "participation_rate": 0.8,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40009",
+      "display_name": "Pat",
+      "age": 32,
+      "gender": "male",
+      "occupation": "Public defender",
+      "background": "Pat is the chat's quiet center of gravity. He lost his father a year ago and the group flew in for the funeral. He is back to posting now, mostly understated dad jokes and logistics. He has a calm, dry voice that makes occasional sharp comments hit harder. Lives in Philadelphia.",
+      "skills_list": [
+        {
+          "skill": "Trial advocacy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Sourdough baking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Crossword construction",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers small dinners to bar nights; doesn't drink much anymore",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "drinking_at_reunions",
+          "old_value": "matched the group drink-for-drink at past reunions",
+          "new_value": "now nurses one beer all night",
+          "changed_at_session": 3,
+          "trigger": "His father's death pushed him to reassess; he hasn't framed it that way to the group."
+        }
+      ],
+      "speaking_quirks": [
+        "uses ellipses to soften strong opinions",
+        "drops crossword references that nobody else gets",
+        "sends a single 'ha' as his typical reaction"
+      ],
+      "participation_rate": 0.55,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40010",
+      "display_name": "Renee",
+      "age": 29,
+      "gender": "female",
+      "occupation": "Elementary school librarian",
+      "background": "Renee is a Brookline rotation member from senior year \u2014 she joined the house mid-lease when Pat needed a sublet \u2014 and stayed in the chat ever since. She is gentle, bookish, and the chat's resident book recommendation source. She is the only member who consistently asks follow-up questions about people's parents.",
+      "skills_list": [
+        {
+          "skill": "Children's literature curation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Knitting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Birding",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "loves quiet morning birdwatching outings on reunion weekends",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "reunion_role",
+          "old_value": "considered herself a peripheral member, kept quiet at reunions",
+          "new_value": "now leads the morning birding offshoot and treats it as her contribution",
+          "changed_at_session": 6,
+          "trigger": "Maya privately encouraged her to host her own offshoot; she found her niche."
+        }
+      ],
+      "speaking_quirks": [
+        "asks 'how is your mom doing?' when others mention parents",
+        "shares book titles with author + year format",
+        "ends warm messages with 'xo r'"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40011",
+      "display_name": "Jules",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Climate policy analyst",
+      "background": "Jules works at a state-level climate office in Albany. She is the chat's biggest external-events poster: protests, public hearings, climate-news links. She and Aanya both work in climate-adjacent roles and have a friendly nerd rivalry. She is loud about her values and indifferent to whether everyone agrees.",
+      "skills_list": [
+        {
+          "skill": "Climate policy analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Public speaking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Pottery",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian-leaning for environmental reasons but eats fish, doesn't argue about it",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "prefers reunion weekends with at least one civic or volunteer component",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "career_intensity",
+          "old_value": "treated the job as just-a-job",
+          "new_value": "now openly identifies as 'in the fight' and frames her schedule around it",
+          "changed_at_session": 4,
+          "trigger": "A successful state hearing she ran shifted her sense of what the work was."
+        }
+      ],
+      "speaking_quirks": [
+        "drops policy acronyms without explaining them",
+        "uses '\ud83c\udf0e' instead of period at the end of relevant messages",
+        "responds to Devon's contrarian takes with a single '?'"
+      ],
+      "participation_rate": 0.6,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40012",
+      "display_name": "Eli",
+      "age": 30,
+      "gender": "male",
+      "occupation": "EM physician",
+      "background": "Eli is an emergency medicine doctor in Chicago. He posts erratically based on shifts. He is one of the rare people Devon defers to in arguments because Eli is calmer and more precise. He is also the only person who has been in the chat consistently since week one of the original lease.",
+      "skills_list": [
+        {
+          "skill": "Emergency medicine",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Trail running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Espresso making",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers active reunion components \u2014 hikes, runs \u2014 over sitting around",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "post_frequency",
+          "old_value": "posted only after major life events",
+          "new_value": "now posts weekly check-ins after losing a longtime mentor",
+          "changed_at_session": 5,
+          "trigger": "His mentor's sudden death made him want to stay closer to the group."
+        }
+      ],
+      "speaking_quirks": [
+        "writes in clipped clinical phrasing ('bp stable, plans cancelled')",
+        "uses 'copy' as acknowledgment",
+        "never uses emoji or punctuation softeners"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40013",
+      "display_name": "Sasha",
+      "age": 29,
+      "gender": "female",
+      "occupation": "Indie musician / part-time bartender",
+      "background": "Sasha tours regionally with her band, lives in Nashville, and is the most inconsistent poster in the chat (busy summers, quiet winters when she records). She is the group's emotional thermometer \u2014 when she goes quiet, others reach out. Sasha and Cam co-host the unofficial Brookline house reunion playlist.",
+      "skills_list": [
+        {
+          "skill": "Songwriting and guitar",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Cocktail making",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Photography",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers late-night reunion windows; sleeps in late mornings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "career_disclosure",
+          "old_value": "downplayed the band as a hobby in chat",
+          "new_value": "now treats the band as her job and shares tour news openly",
+          "changed_at_session": 7,
+          "trigger": "Signed with a small label between sessions; finally letting herself name it."
+        }
+      ],
+      "speaking_quirks": [
+        "uses '~' to soften statements ('maybe~')",
+        "drops vowels in casual replies ('tbh', 'idk', 'sry')",
+        "uses \ud83d\udc9c as her signature heart"
+      ],
+      "participation_rate": 0.45,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40014",
+      "display_name": "Bex",
+      "age": 30,
+      "gender": "female",
+      "occupation": "Marketing director at a mid-size nonprofit",
+      "background": "Bex was Brookline's senior year RA-equivalent \u2014 the one who held the lease. She is highly organized, lightly bossy, and has a long-running affectionate roast war with Devon. She lives in DC. She quietly does most of the financial-tracking for reunion budgets and never asks for credit.",
+      "skills_list": [
+        {
+          "skill": "Operations and budget tracking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Hosting parties",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Tennis",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers low-key brunch over multi-course dinner planning",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "tracks group expenses on a private spreadsheet she rarely mentions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "leadership_visibility",
+          "old_value": "openly volunteered as planner-in-chief",
+          "new_value": "now defers to Maya on visible planning while still doing the spreadsheet work",
+          "changed_at_session": 4,
+          "trigger": "She was promoted at work and has less bandwidth; quietly stepped back from the public-facing planner role."
+        }
+      ],
+      "speaking_quirks": [
+        "responds with 'noted' when she actually disagrees",
+        "uses 'btw' to introduce things she has been sitting on",
+        "rarely uses heart emoji, but uses \ud83d\ude43 frequently"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40015",
+      "display_name": "Hiro",
+      "age": 31,
+      "gender": "male",
+      "occupation": "Mechanical engineer at a robotics startup",
+      "background": "Hiro lives in the Bay Area and is the chat's quiet observer. He posts maybe twice a session, but his posts are dense and considered. He has been close with Eli since freshman year and they trade running routes. He has a polite, almost formal style that softens with the people he is closest to.",
+      "skills_list": [
+        {
+          "skill": "Mechanical design and CAD",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Trail running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Bonsai",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian since college, avoids fish now too",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "prefers one-on-one or pair conversations to the noisy group thread",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "diet",
+          "old_value": "lacto-ovo vegetarian, ate fish socially",
+          "new_value": "fully vegetarian, no fish",
+          "changed_at_session": 3,
+          "trigger": "Watched a documentary in spring; quiet shift, not announced."
+        }
+      ],
+      "speaking_quirks": [
+        "writes in complete sentences with proper punctuation",
+        "uses 'apologies for the slow reply' even when the gap was small",
+        "occasionally drops a single ':)' as warmth"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40016",
+      "display_name": "Nico",
+      "age": 30,
+      "gender": "male",
+      "occupation": "High school history teacher",
+      "background": "Nico teaches in Boston. He and Tom\u00e1s went to the same teacher-prep program and lean on each other for shop talk. He is wry, history-obsessed, and the chat's biggest pun offender. He has an ongoing tradition of sending one obscure historical anniversary on its actual date.",
+      "skills_list": [
+        {
+          "skill": "20th-century US history teaching",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Pickup basketball",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Gardening",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "loves walking-tour reunion components, especially historical sites",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "fitness_priority",
+          "old_value": "joked about being unathletic, opted out of physical events",
+          "new_value": "now joins pickup basketball with Eli and Hiro on reunion weekends",
+          "changed_at_session": 5,
+          "trigger": "Saw his cholesterol numbers; quietly started running last winter."
+        }
+      ],
+      "speaking_quirks": [
+        "drops random 'on this day in 19xx' facts",
+        "uses 'fellas' and 'team' as group address",
+        "writes puns and then disowns them with 'sorry'"
+      ],
+      "participation_rate": 0.55,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40017",
+      "display_name": "Ife",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Industrial designer at a consumer goods company",
+      "background": "Ife lives in Chicago and travels frequently for client visits. She has the most refined aesthetic sense in the group and is the one the chat goes to for design opinions. She is close with Cam and Sasha through a creative-friends sub-thread that meets twice a year separately from the main reunion.",
+      "skills_list": [
+        {
+          "skill": "Industrial design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Cooking (West African cuisine)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Lapidary work / stone cutting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves spicy cooking \u2014 has a higher heat tolerance than anyone in the group",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "prefers smaller curated dinners to bar nights at reunions",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "creative_subgroup",
+          "old_value": "treated the creative-friends sub-thread as marginal",
+          "new_value": "now anchors her year around the sub-thread's twice-yearly meet",
+          "changed_at_session": 6,
+          "trigger": "Realized after one quiet pandemic year that the smaller subgroup is what keeps her grounded."
+        }
+      ],
+      "speaking_quirks": [
+        "asks targeted follow-up questions about design choices",
+        "drops Yoruba phrases occasionally",
+        "uses 'genuinely' to flag sincere statements"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40018",
+      "display_name": "Jamal",
+      "age": 32,
+      "gender": "male",
+      "occupation": "Sports physical therapist",
+      "background": "Jamal works with college athletes in North Carolina. He is the go-to for any chat-member's injury question and is the chat's lowkey workout planner. He has a steady, lightly mocking dynamic with Devon and is one of the few who can defuse Devon's contrarianism with a one-liner. Father of two young kids.",
+      "skills_list": [
+        {
+          "skill": "Sports rehabilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Strength coaching",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Grilling and barbecue",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers grilling and barbecue at any group gathering",
+            "confidence": "High",
+            "implicit": false
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "kids_at_reunions",
+          "old_value": "left the kids at home for reunions",
+          "new_value": "now brings them and asks for kid-friendly windows",
+          "changed_at_session": 6,
+          "trigger": "His older one is now four and old enough; he wants the chat to know them."
+        }
+      ],
+      "speaking_quirks": [
+        "responds to Devon's takes with 'try again my guy'",
+        "uses 'fr' and 'no cap' sparingly but on point",
+        "ends supportive notes with 'take care of you'"
+      ],
+      "participation_rate": 0.55,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40019",
+      "display_name": "Anika",
+      "age": 30,
+      "gender": "female",
+      "occupation": "Public health epidemiologist",
+      "background": "Anika works at a state health department in New York. She is the chat's resident skeptic on health-fad posts and the gentle moderator when arguments get sharp. She and Priya commiserate about hospital systems even though their roles are different. She is more reserved than the average member but consistently warm.",
+      "skills_list": [
+        {
+          "skill": "Statistical epidemiology",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Mediation / conflict de-escalation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Beekeeping",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers reunion components held outdoors over indoor gatherings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "steps in early when chat conflicts escalate, never confrontationally",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "moderation_role",
+          "old_value": "stayed out of disputes entirely",
+          "new_value": "now actively de-escalates, especially Devon-versus-Jules sparring",
+          "changed_at_session": 4,
+          "trigger": "A heated thread over a climate post made her realize she had a useful role to play."
+        }
+      ],
+      "speaking_quirks": [
+        "asks 'what are we actually disagreeing about here' when threads escalate",
+        "writes long messages with no emoji",
+        "qualifies opinions with 'in my limited view'"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40020",
+      "display_name": "Theo",
+      "age": 29,
+      "gender": "male",
+      "occupation": "Product designer at a fintech startup",
+      "background": "Theo joined Brookline as a junior-year transfer and was sometimes treated as a peripheral member, even though he stayed at the house longer than most. He is fluent in chat-speak, posts a lot, and is one of the funniest writers in the group. He has a low-key but real sensitivity about being seen as an outsider.",
+      "skills_list": [
+        {
+          "skill": "Product design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Stand-up comedy (amateur)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Skateboarding",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "wants reunion plans to include the rotation members, not just the original lease",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "self_positioning",
+          "old_value": "joked about being 'the new guy' even years in",
+          "new_value": "now pushes back gently when called peripheral",
+          "changed_at_session": 5,
+          "trigger": "A flippant comment from Devon about 'real housemates only' landed harder than expected."
+        }
+      ],
+      "speaking_quirks": [
+        "starts jokes with 'ok hear me out'",
+        "uses 'literally' as an intensifier in nearly every long message",
+        "responds with \ud83e\udd21 to self-roast"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40021",
+      "display_name": "Quinn",
+      "age": 30,
+      "gender": "non-binary",
+      "occupation": "Hospice chaplain in training",
+      "background": "Quinn pivoted to divinity school after working in tech, and is now midway through chaplaincy training in Atlanta. They post the least but their messages are read carefully when they do. Quinn was Pat's rock during Pat's father's illness and the two have a deep, quiet bond. They keep chat tone calm.",
+      "skills_list": [
+        {
+          "skill": "Pastoral care and active listening",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Choir singing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Hand-bookbinding",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers quiet morning components at reunions, avoids loud bar nights",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "DMs Pat directly during difficult chat threads rather than weighing in publicly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "career_disclosure",
+          "old_value": "rarely talked about chaplaincy in chat, said only 'in school'",
+          "new_value": "now openly references hospice work and what it teaches them",
+          "changed_at_session": 7,
+          "trigger": "A particular patient's death changed how they wanted to show up in the group."
+        }
+      ],
+      "speaking_quirks": [
+        "writes in full sentences with proper grammar",
+        "uses 'thank you for sharing this' before responding to vulnerable posts",
+        "drops a 'be well' to close serious messages"
+      ],
+      "participation_rate": 0.3,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_d3e40022",
+      "display_name": "Whit",
+      "age": 31,
+      "gender": "male",
+      "occupation": "Investment banker",
+      "background": "Whit has the most stereotypically high-earner job in the chat and the lightest touch about it. He posts last-minute reunion crashings and pays for things quietly. He has a long-running affectionate ribbing dynamic with Bex about his finance-bro tendencies. He is closer to Devon than most, drawn to the contrarian streak.",
+      "skills_list": [
+        {
+          "skill": "Financial modeling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Squash",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Wine selection",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "drinks (likes nice wine), no strong food preferences",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers high-end city reunions over rural cabin formats",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "quietly covers cost overruns without telling the group",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "money_disclosure",
+          "old_value": "covered overruns silently without mention",
+          "new_value": "now mentions when he's covered things, after Bex pushed him to be transparent",
+          "changed_at_session": 6,
+          "trigger": "Bex called him on a pattern that was making the budget spreadsheet impossible to balance."
+        }
+      ],
+      "speaking_quirks": [
+        "responds in short bursts ('done', 'in', 'will sort')",
+        "drops \ud83e\udd42 instead of writing 'cheers'",
+        "uses 'easy' as universal acknowledgment"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_d3e40001",
+      "persona_b_id": "p_d3e40002",
+      "relationship_type": "freshman_year_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Maya and Devon have known each other since freshman orientation; she keeps him grounded, he keeps her honest.",
+      "shared_events": [
+        "Survived a freshman bio class together",
+        "Maya's wedding-of-the-year speech as MOH"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40001",
+      "persona_b_id": "p_d3e40003",
+      "relationship_type": "research_methods_classmates",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Maya and Priya bonded over a research methods class; Priya often answers Maya's medical questions privately.",
+      "shared_events": [
+        "Survived a brutal research methods seminar",
+        "Priya helped Maya through a wisdom-tooth recovery"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40003",
+      "persona_b_id": "p_d3e40004",
+      "relationship_type": "volleyball_league_partners",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya and Tom\u00e1s run a volleyball league together; they trade rides and gear.",
+      "shared_events": [
+        "Co-founded the Sunday league three years ago"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40004",
+      "persona_b_id": "p_d3e40016",
+      "relationship_type": "teacher_prep_alumni",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Tom\u00e1s and Nico went through the same teacher-prep program; they trade lesson plans and venting.",
+      "shared_events": [
+        "Practicum classroom partner year"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40005",
+      "persona_b_id": "p_d3e40006",
+      "relationship_type": "former_roommates",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Aanya and Lila roomed together for two years post-Brookline; Lila knows Aanya's private life better than the chat does.",
+      "shared_events": [
+        "Two-year apartment lease together",
+        "Lila held space for Aanya during her breakup"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40005",
+      "persona_b_id": "p_d3e40011",
+      "relationship_type": "climate_friend_rivals",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Aanya and Jules both work climate-adjacent and have a friendly nerd rivalry over methodology.",
+      "shared_events": [
+        "Argued for two hours about carbon offset accounting at the last reunion"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40007",
+      "persona_b_id": "p_d3e40008",
+      "relationship_type": "fallen_out_friends",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Nate and Cam had a serious falling out over a wedding seating arrangement two years ago; civil but distant since.",
+      "shared_events": [
+        "Cam's friend's wedding seating-chart fight in 2023"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40008",
+      "persona_b_id": "p_d3e40013",
+      "relationship_type": "playlist_co-curators",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Cam and Sasha have run the unofficial Brookline reunion playlist for four years.",
+      "shared_events": [
+        "Built and maintain the shared reunion playlist"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40008",
+      "persona_b_id": "p_d3e40017",
+      "relationship_type": "creative_subgroup_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Cam and Ife meet twice a year separately for design crits with Sasha.",
+      "shared_events": [
+        "Twice-yearly creative-friends offshoot"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40009",
+      "persona_b_id": "p_d3e40021",
+      "relationship_type": "deep_quiet_friendship",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Quinn was Pat's emotional support during his father's illness and death; their friendship deepened privately.",
+      "shared_events": [
+        "Quinn flew to Pat's father's hospice",
+        "Quinn gave the eulogy reading at the funeral"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40012",
+      "persona_b_id": "p_d3e40015",
+      "relationship_type": "freshman_year_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Eli and Hiro have been close since freshman year and trade running routes when they visit each other's cities.",
+      "shared_events": [
+        "Co-ran the Bay-to-Breakers when Eli visited last spring"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40014",
+      "persona_b_id": "p_d3e40002",
+      "relationship_type": "affectionate_rivals",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Bex and Devon roast each other constantly; underneath, they trust each other more than either admits.",
+      "shared_events": [
+        "Bex's promotion celebration last year, where Devon gave a roast toast"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40014",
+      "persona_b_id": "p_d3e40022",
+      "relationship_type": "money_pattern_friends",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Bex and Whit have a long history of nudging him to be transparent about his quiet spending; affectionate but occasionally exasperated.",
+      "shared_events": [
+        "Bex's pointed message last fall about his off-spreadsheet covers"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40018",
+      "persona_b_id": "p_d3e40002",
+      "relationship_type": "playful_foils",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Jamal defuses Devon's contrarianism with one-liners; they spar like cousins.",
+      "shared_events": [
+        "Jamal's barbecue at last summer's reunion"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40019",
+      "persona_b_id": "p_d3e40003",
+      "relationship_type": "healthcare_commiserators",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Anika and Priya commiserate about hospital systems even with very different roles.",
+      "shared_events": [
+        "Long DM thread during Priya's residency burnout last year"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40020",
+      "persona_b_id": "p_d3e40002",
+      "relationship_type": "rotation_member_tension",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Theo joined Brookline as a transfer and Devon's offhand 'real housemates' jokes have started to land harder than intended.",
+      "shared_events": [
+        "The 'real housemates only' incident at last summer's reunion"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40010",
+      "persona_b_id": "p_d3e40009",
+      "relationship_type": "former_houseates_subletter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Renee subletted Pat's room senior year and stayed close with him; she sees herself as an honorary lease member.",
+      "shared_events": [
+        "Pat's hospital-side support week",
+        "Their joint book swap two summers ago"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40015",
+      "persona_b_id": "p_d3e40016",
+      "relationship_type": "running_friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Hiro and Nico started running together at last summer's reunion; they trade routes by message now.",
+      "shared_events": [
+        "Reunion 5K last August"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40006",
+      "persona_b_id": "p_d3e40009",
+      "relationship_type": "movie_night_friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lila and Pat are the chat's two noir movie devotees; they trade picks.",
+      "shared_events": [
+        "Co-curated the noir film thread that's been alive for two years"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40013",
+      "persona_b_id": "p_d3e40017",
+      "relationship_type": "creative_subgroup_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Sasha and Ife are core members of the creative-friends sub-thread.",
+      "shared_events": [
+        "Co-hosted a Nashville creative weekend last spring"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40012",
+      "persona_b_id": "p_d3e40018",
+      "relationship_type": "fitness_consultants",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Eli and Jamal trade clinical perspectives on group injuries.",
+      "shared_events": [
+        "Diagnosed Hiro's runner's knee together over a chat thread"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40011",
+      "persona_b_id": "p_d3e40019",
+      "relationship_type": "policy_peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Jules and Anika both work in public-facing science roles; Anika gently calibrates Jules's hottest takes.",
+      "shared_events": [
+        "Joint long thread on a public health editorial"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40020",
+      "persona_b_id": "p_d3e40008",
+      "relationship_type": "meme_collaborators",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Theo and Cam co-write the chat's running joke threads.",
+      "shared_events": [
+        "Co-built the 'broken oven hall of fame' meme thread"
+      ]
+    },
+    {
+      "persona_a_id": "p_d3e40022",
+      "persona_b_id": "p_d3e40002",
+      "relationship_type": "city_bar_buddies",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Whit and Devon meet up for drinks when Whit is in Boston; Devon enjoys his contrarian energy.",
+      "shared_events": [
+        "Annual bar circuit in November"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We always do a group video call on the anniversary of the original Brookline lease signing in late September.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Reunion costs are split equally among everyone who attends, regardless of room size or how much each person drinks.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_d3e40002",
+        "p_d3e40020"
+      ]
+    },
+    {
+      "norm_text": "Personal news (engagements, jobs, losses) gets shared in the main chat, not in private DMs.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_d3e40005",
+        "p_d3e40021"
+      ]
+    },
+    {
+      "norm_text": "We send each other a recommendation (book, show, song) in the chat once a month even when nothing else is going on.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Whoever organizes the reunion picks the theme, even if others would have picked differently.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_d3e40008",
+        "p_d3e40017"
+      ]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 25,
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "close_friends",
+    "group_size": 22
+  }
+}

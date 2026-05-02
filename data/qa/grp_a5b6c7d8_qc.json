@@ -1,14 +1,13 @@
 {
   "network_id": "grp_a5b6c7d8",
   "total_pairs": 34,
-  "phase1_mean_score": 0.991,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
-  "phase3_flagged_count": 4,
+  "phase1_mean_score": 0.9912,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
   "inference_required_distribution": {
-    "0": 0,
-    "1": 4,
-    "2": 30
+    "2": 30,
+    "1": 4
   },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
@@ -20,72 +19,40 @@
     "Q1": {
       "count": 9,
       "mean_score": 0.967,
-      "flagged": 0,
-      "mean_inference_required": 1.78
+      "flagged": 0
     },
     "Q2": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q4": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q5": {
       "count": 3,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q6": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 1.5
+      "flagged": 0
     },
     "Q7": {
       "count": 5,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q8": {
       "count": 11,
       "mean_score": 1.0,
-      "flagged": 4,
-      "mean_inference_required": 1.91
+      "flagged": 0
     }
   },
-  "flagged_pairs": [
-    {
-      "qa_id": "Q8_a5b6c7d8",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What drove Elena's shift in how she approaches post-hike venue choices, and in which session did it "
-    },
-    {
-      "qa_id": "Q8_b5c6d7e8",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What in the conversation explains why Marcus changed how he manages group pace, and what specificall"
-    },
-    {
-      "qa_id": "Q8_a6b7c8d9",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What in Session 8 explains why Kwame's approach to kit preparation changed, and what specific moment"
-    },
-    {
-      "qa_id": "Q8_b6c7d8e9",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What in Session 9 drove Elena to begin approaching timed segments differently, and how does the conv"
-    }
-  ],
+  "flagged_pairs": [],
   "low_score_pairs": [],
   "per_pair": [
     {
@@ -373,8 +340,8 @@
       "score_rationale": "Pre-shift acceptance, crowded shop trigger, S3 shift, proactive booking pattern all match.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_b5c6d7e8",
@@ -385,8 +352,8 @@
       "score_rationale": "No early rest stops, ankle trigger, S4 policy announcement, implementation all match.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_c5d6e7f8",
@@ -445,8 +412,8 @@
       "score_rationale": "'AGAIN' pattern, Nadia's layer as trigger, phone checklist commitment, S9 follow-through all match.",
       "inference_required": 1,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_b6c7d8e9",
@@ -457,8 +424,8 @@
       "score_rationale": "Casual early participation, PR trigger, split-tracking announcement, second segment proposal, S12 follow-through all match.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_c6d7e8f9",
@@ -521,5 +488,6 @@
     "overall_pass": true,
     "failing_turns": []
   },
-  "baseline_reference": "2026-04-26T15:18:43.722008+00:00"
+  "baseline_reference": "2026-04-26T15:18:43.722008+00:00",
+  "qc_run_at": "2026-05-02T15:15:54.472255+00:00"
 }

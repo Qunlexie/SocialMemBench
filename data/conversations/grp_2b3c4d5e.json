@@ -17,7 +17,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 3, 2:11pm",
-          "message": "My darlings 🙌 we need to start planning for Christmas. Your father and I are expecting everyone home this year",
+          "message": "My darlings \ud83d\ude4c we need to start planning for Christmas. Your father and I are expecting everyone home this year",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -29,7 +29,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 3, 2:13pm",
-          "message": "YES 🎄🎄🎄 I'm there!!",
+          "message": "YES \ud83c\udf84\ud83c\udf84\ud83c\udf84 I'm there!!",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t000",
@@ -41,7 +41,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 3, 2:18pm",
-          "message": "We'll see what Adaeze's schedule looks like 😊 should know more in a few weeks",
+          "message": "We'll see what Adaeze's schedule looks like \ud83d\ude0a should know more in a few weeks",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t000",
@@ -65,7 +65,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 3, 2:22pm",
-          "message": "Adaora I will be making egusi, jollof, the full thing. You know I cook for three days before Christmas 😂❤️",
+          "message": "Adaora I will be making egusi, jollof, the full thing. You know I cook for three days before Christmas \ud83d\ude02\u2764\ufe0f",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t003",
@@ -102,7 +102,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 3, 2:26pm",
-          "message": "Of course! My family must eat well 😂 Tobenna you're eating for three when you come",
+          "message": "Of course! My family must eat well \ud83d\ude02 Tobenna you're eating for three when you come",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t005",
@@ -114,7 +114,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 3, 2:27pm",
-          "message": "Already am 😂😂",
+          "message": "Already am \ud83d\ude02\ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t006",
@@ -138,7 +138,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 3, 3:51pm",
-          "message": "Will do Dad 😊 Give me a couple of weeks to check with Adaeze",
+          "message": "Will do Dad \ud83d\ude0a Give me a couple of weeks to check with Adaeze",
           "message_index": 10,
           "planted_challenges": [
             {
@@ -148,7 +148,7 @@
               "speaker_persona_id": "p_c4d5e6f7",
               "fact_attribute": "christmas_visit_hesitation",
               "fact_value": "Emeka is reluctant to commit to Christmas dates, using Adaeze's schedule as a reason to delay",
-              "evidence_span": "Will do Dad 😊 Give me a couple of weeks to check with Adaeze",
+              "evidence_span": "Will do Dad \ud83d\ude0a Give me a couple of weeks to check with Adaeze",
               "implicitness_level": 2,
               "session_index": 1,
               "turn_index": 9
@@ -175,7 +175,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 3, 3:57pm",
-          "message": "Adaora your thesis can wait two days my love. Christmas cannot wait 😂❤️",
+          "message": "Adaora your thesis can wait two days my love. Christmas cannot wait \ud83d\ude02\u2764\ufe0f",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t010",
@@ -187,7 +187,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 3, 3:59pm",
-          "message": "Ada COME ON 🙏🙏",
+          "message": "Ada COME ON \ud83d\ude4f\ud83d\ude4f",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s01_t010",
@@ -206,7 +206,14 @@
           "timestamp": "2025-02-03T16:01:00"
         }
       ],
-      "date": "2025-02-03"
+      "date": "2025-02-03",
+      "active_participants": [
+        "p_b3c4d5e6",
+        "p_e6f7a8b9",
+        "p_c4d5e6f7",
+        "p_d5e6f7a8",
+        "p_a2b3c4d5"
+      ]
     },
     {
       "session_id": "grp_2b3c4d5e_s02",
@@ -224,7 +231,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 10, 7:38pm",
-          "message": "My people 🥰 I made the pepper soup today. Tobenna your uncle said it didn't taste the same but I don't know what he is talking about",
+          "message": "My people \ud83e\udd70 I made the pepper soup today. Tobenna your uncle said it didn't taste the same but I don't know what he is talking about",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -236,7 +243,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 10, 7:39pm",
-          "message": "Uncle Emmanuel is WRONG 😂 your pepper soup is perfect mum",
+          "message": "Uncle Emmanuel is WRONG \ud83d\ude02 your pepper soup is perfect mum",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s02_t000",
@@ -260,7 +267,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 10, 7:43pm",
-          "message": "I don't know what yu mean. Same recipee as always 😂😂 maybe ur taste buds are changing",
+          "message": "I don't know what yu mean. Same recipee as always \ud83d\ude02\ud83d\ude02 maybe ur taste buds are changing",
           "message_index": 4,
           "planted_challenges": [
             {
@@ -270,7 +277,7 @@
               "speaker_persona_id": "p_b3c4d5e6",
               "fact_attribute": "salt_reduction_in_cooking",
               "fact_value": "Ngozi has reduced salt in her cooking on doctor's advice but deflects when anyone notices, blaming their taste buds",
-              "evidence_span": "I don't know what yu mean. Same recipee as always 😂😂 maybe ur taste buds are changing",
+              "evidence_span": "I don't know what yu mean. Same recipee as always \ud83d\ude02\ud83d\ude02 maybe ur taste buds are changing",
               "implicitness_level": 2,
               "session_index": 2,
               "turn_index": 3
@@ -297,7 +304,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 10, 7:47pm",
-          "message": "Yeah. Less seasoning I think. Mum might have been told to ease off the salt 😊",
+          "message": "Yeah. Less seasoning I think. Mum might have been told to ease off the salt \ud83d\ude0a",
           "message_index": 6,
           "planted_challenges": [
             {
@@ -322,7 +329,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 10, 7:48pm",
-          "message": "Emeka what are you saying 😂😂 the soup is fine!!",
+          "message": "Emeka what are you saying \ud83d\ude02\ud83d\ude02 the soup is fine!!",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s02_t005",
@@ -334,7 +341,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 10, 7:49pm",
-          "message": "I would eat it regardless 😂 unconditional support for the soup",
+          "message": "I would eat it regardless \ud83d\ude02 unconditional support for the soup",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s02_t006",
@@ -370,7 +377,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 10, 8:23pm",
-          "message": "Thank you my husband 😂❤️",
+          "message": "Thank you my husband \ud83d\ude02\u2764\ufe0f",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s02_t009",
@@ -382,7 +389,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 10, 8:25pm",
-          "message": "Dad always has the final word 😊",
+          "message": "Dad always has the final word \ud83d\ude0a",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -407,14 +414,21 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 10, 8:26pm",
-          "message": "court is in session 👨‍⚖️",
+          "message": "court is in session \ud83d\udc68\u200d\u2696\ufe0f",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s02_t011",
           "timestamp": "2025-02-10T20:26:00"
         }
       ],
-      "date": "2025-02-10"
+      "date": "2025-02-10",
+      "active_participants": [
+        "p_b3c4d5e6",
+        "p_e6f7a8b9",
+        "p_c4d5e6f7",
+        "p_d5e6f7a8",
+        "p_a2b3c4d5"
+      ]
     },
     {
       "session_id": "grp_2b3c4d5e_s03",
@@ -432,7 +446,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 17, 11:04am",
-          "message": "My darlings 🥰 your father says maybe he will come to London in March. I nearly fell off my chair",
+          "message": "My darlings \ud83e\udd70 your father says maybe he will come to London in March. I nearly fell off my chair",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -444,7 +458,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 17, 11:05am",
-          "message": "WAIT WHAT 😱😱",
+          "message": "WAIT WHAT \ud83d\ude31\ud83d\ude31",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s03_t000",
@@ -456,7 +470,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 17, 11:07am",
-          "message": "Dad coming to London?? 😊 That would be great, we'd love to host",
+          "message": "Dad coming to London?? \ud83d\ude0a That would be great, we'd love to host",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s03_t000",
@@ -480,7 +494,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 17, 11:11am",
-          "message": "He is fine my love, just felt like a visit 😊 He had a small checkup last week and I think it reminded him life is short you know",
+          "message": "He is fine my love, just felt like a visit \ud83d\ude0a He had a small checkup last week and I think it reminded him life is short you know",
           "message_index": 5,
           "planted_challenges": [
             {
@@ -517,7 +531,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 17, 11:29am",
-          "message": "😂😂😂 Dad we are HAPPY about it",
+          "message": "\ud83d\ude02\ud83d\ude02\ud83d\ude02 Dad we are HAPPY about it",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s03_t005",
@@ -529,7 +543,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 17, 11:30am",
-          "message": "Chidi I can announce what I like in my own chat 😂😂 Tobenna how is the job search going my love?",
+          "message": "Chidi I can announce what I like in my own chat \ud83d\ude02\ud83d\ude02 Tobenna how is the job search going my love?",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s03_t006",
@@ -541,7 +555,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 17, 11:31am",
-          "message": "🙈🙈 Did anyone watch the Arsenal game?",
+          "message": "\ud83d\ude48\ud83d\ude48 Did anyone watch the Arsenal game?",
           "message_index": 9,
           "planted_challenges": [
             {
@@ -551,7 +565,7 @@
               "speaker_persona_id": "p_e6f7a8b9",
               "fact_attribute": "career_discussion_avoidance",
               "fact_value": "Tobenna deflects all questions about his job search with irrelevant topic changes or emoji",
-              "evidence_span": "🙈🙈 Did anyone watch the Arsenal game?",
+              "evidence_span": "\ud83d\ude48\ud83d\ude48 Did anyone watch the Arsenal game?",
               "implicitness_level": 3,
               "session_index": 3,
               "turn_index": 8
@@ -578,7 +592,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 17, 11:34am",
-          "message": "Ada 🙏 I'll update when there's something to update ok?",
+          "message": "Ada \ud83d\ude4f I'll update when there's something to update ok?",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s03_t009",
@@ -590,14 +604,21 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 17, 11:35am",
-          "message": "Ok my love. We are here whenever you are ready ❤️",
+          "message": "Ok my love. We are here whenever you are ready \u2764\ufe0f",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s03_t010",
           "timestamp": "2025-02-17T11:35:00"
         }
       ],
-      "date": "2025-02-17"
+      "date": "2025-02-17",
+      "active_participants": [
+        "p_b3c4d5e6",
+        "p_e6f7a8b9",
+        "p_c4d5e6f7",
+        "p_d5e6f7a8",
+        "p_a2b3c4d5"
+      ]
     },
     {
       "session_id": "grp_2b3c4d5e_s04",
@@ -615,7 +636,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 24, 6:55pm",
-          "message": "My darlings 🥰 Adaora how is the thesis going? You have been so quiet this week and I know that means stress. Also before I forget, tell me what you want me to cook for Christmas. Emeka I know you want the goat 😂",
+          "message": "My darlings \ud83e\udd70 Adaora how is the thesis going? You have been so quiet this week and I know that means stress. Also before I forget, tell me what you want me to cook for Christmas. Emeka I know you want the goat \ud83d\ude02",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -639,7 +660,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 24, 7:01pm",
-          "message": "End of March is tight. Are you getting any proper breaks in? 😊 And yes Mum, goat and jollof obviously",
+          "message": "End of March is tight. Are you getting any proper breaks in? \ud83d\ude0a And yes Mum, goat and jollof obviously",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t000",
@@ -676,7 +697,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 24, 7:09pm",
-          "message": "Of course I will make moi moi! I always do. You will also eat the goat Adaora 😂 Tobenna what do you want?",
+          "message": "Of course I will make moi moi! I always do. You will also eat the goat Adaora \ud83d\ude02 Tobenna what do you want?",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t003",
@@ -688,7 +709,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 24, 7:10pm",
-          "message": "suya and fried plantain always 😍😍 also Ada are you ok?",
+          "message": "suya and fried plantain always \ud83d\ude0d\ud83d\ude0d also Ada are you ok?",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t004",
@@ -712,7 +733,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 24, 7:12pm",
-          "message": "Ada you ok 😂 you love goat",
+          "message": "Ada you ok \ud83d\ude02 you love goat",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t006",
@@ -724,7 +745,7 @@
           "speaker_persona_id": "p_d5e6f7a8",
           "speaker_display_name": "Adaora",
           "timestamp_label": "Feb 24, 7:14pm",
-          "message": "Tobe. Just let me have the beans ok 😂 and Mum don't start monitoring my sleep from the group chat, it's under control",
+          "message": "Tobe. Just let me have the beans ok \ud83d\ude02 and Mum don't start monitoring my sleep from the group chat, it's under control",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t007",
@@ -736,7 +757,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 24, 7:16pm",
-          "message": "Mum Adaeze has a work thing on the 24th, we might arrive the 25th morning, is that ok? 😊",
+          "message": "Mum Adaeze has a work thing on the 24th, we might arrive the 25th morning, is that ok? \ud83d\ude0a",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -748,7 +769,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Feb 24, 7:17pm",
-          "message": "Emeka!! Christmas morning you must be here before we open gifts!! Please 🙏🙏",
+          "message": "Emeka!! Christmas morning you must be here before we open gifts!! Please \ud83d\ude4f\ud83d\ude4f",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t009",
@@ -772,7 +793,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Feb 24, 7:49pm",
-          "message": "Yes Dad 😊 we'll make it work",
+          "message": "Yes Dad \ud83d\ude0a we'll make it work",
           "message_index": 13,
           "planted_challenges": [
             {
@@ -782,7 +803,7 @@
               "speaker_persona_id": "p_c4d5e6f7",
               "fact_attribute": "christmas_visit_commitment",
               "fact_value": "Emeka has gone from 'we'll see' in session 1 to committing to Christmas Eve arrival under family pressure by session 4",
-              "evidence_span": "Yes Dad 😊 we'll make it work",
+              "evidence_span": "Yes Dad \ud83d\ude0a we'll make it work",
               "implicitness_level": 2,
               "session_index": 4,
               "turn_index": 11
@@ -797,14 +818,21 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Feb 24, 7:50pm",
-          "message": "see you all there 🎄🎄",
+          "message": "see you all there \ud83c\udf84\ud83c\udf84",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s04_t011",
           "timestamp": "2025-02-24T19:50:00"
         }
       ],
-      "date": "2025-02-24"
+      "date": "2025-02-24",
+      "active_participants": [
+        "p_b3c4d5e6",
+        "p_d5e6f7a8",
+        "p_c4d5e6f7",
+        "p_e6f7a8b9",
+        "p_a2b3c4d5"
+      ]
     },
     {
       "session_id": "grp_2b3c4d5e_s05",
@@ -822,7 +850,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Mar 3, 8:22pm",
-          "message": "My people ❤️ Tobenna my love did you get that job update you were waiting for? I keep thinking about you. And Adaora are you sleeping at all? 🙏",
+          "message": "My people \u2764\ufe0f Tobenna my love did you get that job update you were waiting for? I keep thinking about you. And Adaora are you sleeping at all? \ud83d\ude4f",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -834,7 +862,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Mar 3, 8:23pm",
-          "message": "Not yet Mum 🙏 soon though I think. Ada is definitely not sleeping though look at the hours she messages me",
+          "message": "Not yet Mum \ud83d\ude4f soon though I think. Ada is definitely not sleeping though look at the hours she messages me",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t000",
@@ -858,7 +886,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Mar 3, 8:26pm",
-          "message": "Adaora I am cooking! You don't need to bring anything 😂❤️",
+          "message": "Adaora I am cooking! You don't need to bring anything \ud83d\ude02\u2764\ufe0f",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t002",
@@ -882,7 +910,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Mar 3, 8:29pm",
-          "message": "Eating differently how?? 👀 Adaora what is going on",
+          "message": "Eating differently how?? \ud83d\udc40 Adaora what is going on",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t004",
@@ -919,7 +947,7 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Mar 3, 8:32pm",
-          "message": "Ada 😂 just say it",
+          "message": "Ada \ud83d\ude02 just say it",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t006",
@@ -943,7 +971,7 @@
           "speaker_persona_id": "p_c4d5e6f7",
           "speaker_display_name": "Emeka",
           "timestamp_label": "Mar 3, 8:35pm",
-          "message": "We'll figure it out when we're all together 😊 Mum there will be enough food for everyone regardless",
+          "message": "We'll figure it out when we're all together \ud83d\ude0a Mum there will be enough food for everyone regardless",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t007",
@@ -955,7 +983,7 @@
           "speaker_persona_id": "p_b3c4d5e6",
           "speaker_display_name": "Ngozi",
           "timestamp_label": "Mar 3, 8:36pm",
-          "message": "Ok. When you come home Adaora you will tell me everything ❤️ I am your mother",
+          "message": "Ok. When you come home Adaora you will tell me everything \u2764\ufe0f I am your mother",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t009",
@@ -979,7 +1007,7 @@
           "speaker_persona_id": "p_d5e6f7a8",
           "speaker_display_name": "Adaora",
           "timestamp_label": "Mar 3, 9:15pm",
-          "message": "Dad I am not ill 😂 I promise",
+          "message": "Dad I am not ill \ud83d\ude02 I promise",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t011",
@@ -991,14 +1019,21 @@
           "speaker_persona_id": "p_e6f7a8b9",
           "speaker_display_name": "Tobenna",
           "timestamp_label": "Mar 3, 9:16pm",
-          "message": "she's fine Dad 🙏🙏 see everyone at Christmas 🎄",
+          "message": "she's fine Dad \ud83d\ude4f\ud83d\ude4f see everyone at Christmas \ud83c\udf84",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_2b3c4d5e_s05_t012",
           "timestamp": "2025-03-03T21:16:00"
         }
       ],
-      "date": "2025-03-03"
+      "date": "2025-03-03",
+      "active_participants": [
+        "p_b3c4d5e6",
+        "p_e6f7a8b9",
+        "p_d5e6f7a8",
+        "p_c4d5e6f7",
+        "p_a2b3c4d5"
+      ]
     }
   ],
   "total_turns": 67,
@@ -1013,7 +1048,7 @@
       "evidence_span": "Mum that's so much food. Do you have to do all of that?",
       "implicitness_level": 3,
       "session_index": 1,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_n2s1c2",
@@ -1022,10 +1057,10 @@
       "speaker_persona_id": "p_c4d5e6f7",
       "fact_attribute": "christmas_visit_hesitation",
       "fact_value": "Emeka is reluctant to commit to Christmas dates, using Adaeze's schedule as a reason to delay",
-      "evidence_span": "Will do Dad 😊 Give me a couple of weeks to check with Adaeze",
+      "evidence_span": "Will do Dad \ud83d\ude0a Give me a couple of weeks to check with Adaeze",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_n2s2c1",
@@ -1034,10 +1069,10 @@
       "speaker_persona_id": "p_b3c4d5e6",
       "fact_attribute": "salt_reduction_in_cooking",
       "fact_value": "Ngozi has reduced salt in her cooking on doctor's advice but deflects when anyone notices",
-      "evidence_span": "I don't know what yu mean. Same recipee as always 😂😂 maybe ur taste buds are changing",
+      "evidence_span": "I don't know what yu mean. Same recipee as always \ud83d\ude02\ud83d\ude02 maybe ur taste buds are changing",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_n2s2c2",
@@ -1049,7 +1084,7 @@
       "evidence_span": "Less seasoning I think. Mum might have been told to ease off the salt",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_n2s2c3",
@@ -1061,7 +1096,7 @@
       "evidence_span": "Dad always has the final word",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_n2s3c1",
@@ -1073,7 +1108,7 @@
       "evidence_span": "He had a small checkup last week and I think it reminded him life is short you know",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_n2s3c2",
@@ -1082,10 +1117,10 @@
       "speaker_persona_id": "p_e6f7a8b9",
       "fact_attribute": "career_discussion_avoidance",
       "fact_value": "Tobenna deflects all questions about his job search with topic changes or emoji",
-      "evidence_span": "🙈🙈 Did anyone watch the Arsenal game?",
+      "evidence_span": "\ud83d\ude48\ud83d\ude48 Did anyone watch the Arsenal game?",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_n2s4c1",
@@ -1097,7 +1132,7 @@
       "evidence_span": "could you maybe do something with beans this year? Like moi moi? Or akara?",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_n2s4c2",
@@ -1106,7 +1141,7 @@
       "speaker_persona_id": "p_c4d5e6f7",
       "fact_attribute": "christmas_visit_commitment",
       "fact_value": "Emeka has gone from stalling in session 1 to committing under parental pressure by session 4",
-      "evidence_span": "Yes Dad 😊 we'll make it work",
+      "evidence_span": "Emeka!! Christmas morning you must be here before we open gifts!! Please \ud83d\ude4f\ud83d\ude4f",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 11
@@ -1121,7 +1156,7 @@
       "evidence_span": "Just being more mindful. I'll tell you properly when I'm home ok?",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 6
+      "turn_index": 7
     }
   ],
   "start_date": "2025-02-03"

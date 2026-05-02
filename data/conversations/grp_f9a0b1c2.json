@@ -20,7 +20,7 @@
           "speaker_display_name": "Marcus",
           "timestamp_label": "Jan 10, 8:15am",
           "timestamp": "2026-01-10T08:15:00",
-          "message": "Right, first ride of the year. Tomás and I have two options ready. Option A: Cranfield Ridge loop, 82km, 650m elevation. Option B: River Valley flat, 55km. Vote by 9pm Friday.",
+          "message": "Right, first ride of the year. Tom\u00e1s and I have two options ready. Option A: Cranfield Ridge loop, 82km, 650m elevation. Option B: River Valley flat, 55km. Vote by 9pm Friday.",
           "message_index": 1,
           "planted_challenges": [
             {
@@ -30,7 +30,7 @@
               "speaker_persona_id": "p_f9a00001",
               "fact_attribute": "connection_origin",
               "fact_value": "Marcus and Tomas co-plan routes together as club co-founders",
-              "evidence_span": "Tomás and I have two options ready",
+              "evidence_span": "Tom\u00e1s and I have two options ready",
               "implicitness_level": 2,
               "session_index": 1,
               "turn_index": 0
@@ -45,7 +45,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 10, 8:17am",
           "timestamp": "2026-01-10T08:17:00",
-          "message": "ok ok ok so, Ridge loop obviously 🚴🔥 the Valley flat is basically a warm-up, not a first-ride-of-the-year vibe at all",
+          "message": "ok ok ok so, Ridge loop obviously \ud83d\udeb4\ud83d\udd25 the Valley flat is basically a warm-up, not a first-ride-of-the-year vibe at all",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t000"
@@ -54,7 +54,7 @@
           "turn_id": "grp_f9a0b1c2_s01_t002",
           "session_id": "grp_f9a0b1c2_s01",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 10, 8:20am",
           "timestamp": "2026-01-10T08:20:00",
           "message": "Both are solid options. Ridge loop has that descent past Cranfield Farm which Saoirse has been asking about for months. Valley is kinder if anyone is still shaking off Christmas.",
@@ -69,7 +69,7 @@
           "speaker_display_name": "Saoirse",
           "timestamp_label": "Jan 10, 8:22am",
           "timestamp": "2026-01-10T08:22:00",
-          "message": "Ridge loop. Obviously. That descent is why I joined this group 😏",
+          "message": "Ridge loop. Obviously. That descent is why I joined this group \ud83d\ude0f",
           "message_index": 4,
           "planted_challenges": [
             {
@@ -144,7 +144,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Jan 10, 8:38am",
           "timestamp": "2026-01-10T08:38:00",
-          "message": "valley pls 😅 still deaing with work hangover from December",
+          "message": "valley pls \ud83d\ude05 still deaing with work hangover from December",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t000"
@@ -156,7 +156,7 @@
           "speaker_display_name": "Ben",
           "timestamp_label": "Jan 10, 8:42am",
           "timestamp": "2026-01-10T08:42:00",
-          "message": "haha I'm in either way, not picky. Ridge sounds fun if we go slow on the climb 👍",
+          "message": "haha I'm in either way, not picky. Ridge sounds fun if we go slow on the climb \ud83d\udc4d",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t000"
@@ -192,7 +192,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 10, 9:18am",
           "timestamp": "2026-01-10T09:18:00",
-          "message": "Callum only votes for things that register on a power meter, noted 😂 also Lena is right about the cold start risk, we could do Ridge but keep the first climb pace controlled",
+          "message": "Callum only votes for things that register on a power meter, noted \ud83d\ude02 also Lena is right about the cold start risk, we could do Ridge but keep the first climb pace controlled",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t009"
@@ -201,7 +201,7 @@
           "turn_id": "grp_f9a0b1c2_s01_t011",
           "session_id": "grp_f9a0b1c2_s01",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 10, 9:25am",
           "timestamp": "2026-01-10T09:25:00",
           "message": "Right, we have Ridge: Priya, Saoirse, Callum, Marcus. Valley: Derek, Yuki. Lena and Ben are flexible. Ridge it is. Regroup at every summit as always. 8am Saturday start, meet at the usual layby.",
@@ -252,7 +252,7 @@
           "speaker_display_name": "Marcus",
           "timestamp_label": "Jan 10, 9:36am",
           "timestamp": "2026-01-10T09:36:00",
-          "message": "Right, route file sent to Tomás. He will share the GPX Thursday evening so everyone has it loaded. No last-minute nav questions on the day.",
+          "message": "Right, route file sent to Tom\u00e1s. He will share the GPX Thursday evening so everyone has it loaded. No last-minute nav questions on the day.",
           "message_index": 16,
           "planted_challenges": [
             {
@@ -262,7 +262,7 @@
               "speaker_persona_id": "p_f9a00001",
               "fact_attribute": "sub_clique",
               "fact_value": "Marcus and Tomas operate as a planning unit, with Marcus designing routes and Tomas distributing them",
-              "evidence_span": "route file sent to Tomás. He will share the GPX Thursday evening",
+              "evidence_span": "route file sent to Tom\u00e1s. He will share the GPX Thursday evening",
               "implicitness_level": 2,
               "session_index": 1,
               "turn_index": 15
@@ -277,7 +277,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Jan 10, 9:41am",
           "timestamp": "2026-01-10T09:41:00",
-          "message": "k. will I survie the ridge 😬",
+          "message": "k. will I survie the ridge \ud83d\ude2c",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t011"
@@ -286,7 +286,7 @@
           "turn_id": "grp_f9a0b1c2_s01_t017",
           "session_id": "grp_f9a0b1c2_s01",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 10, 9:44am",
           "timestamp": "2026-01-10T09:44:00",
           "message": "You will. I will ride the back section with you, no rush. All good.",
@@ -301,7 +301,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 10, 9:47am",
           "timestamp": "2026-01-10T09:47:00",
-          "message": "Yuki you will be great 💪 and after the ridge there is this little café at the bottom I have been DYING to try, apparently they do proper oat milk lattes. That is the actual reason we ride 😇",
+          "message": "Yuki you will be great \ud83d\udcaa and after the ridge there is this little caf\u00e9 at the bottom I have been DYING to try, apparently they do proper oat milk lattes. That is the actual reason we ride \ud83d\ude07",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t016"
@@ -318,6 +318,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s01_t015"
         }
+      ],
+      "active_participants": [
+        "p_f9a00001",
+        "p_f9a00002",
+        "p_f9a00003",
+        "p_f9a00006",
+        "p_f9a00005",
+        "p_f9a00004",
+        "p_f9a00007",
+        "p_f9a00008",
+        "p_f9a00009"
       ]
     },
     {
@@ -327,7 +338,7 @@
       "topic": "Post-ride debrief and start time discussion",
       "date": "2026-01-17",
       "date_label": "Session 2, Saturday January 17, 2026 11:45am",
-      "prior_session_summary": "Group voted Ridge loop for first ride. Marcus and Tomas presented options together as usual. Derek and Yuki both voted Valley flat but were outvoted. Saoirse was enthusiastic about the descent. Priya identified a café with oat milk for after. Callum only engaged on power data grounds.",
+      "prior_session_summary": "Group voted Ridge loop for first ride. Marcus and Tomas presented options together as usual. Derek and Yuki both voted Valley flat but were outvoted. Saoirse was enthusiastic about the descent. Priya identified a caf\u00e9 with oat milk for after. Callum only engaged on power data grounds.",
       "critic_scores": null,
       "generation_attempts": 1,
       "turns": [
@@ -338,7 +349,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 17, 11:45am",
           "timestamp": "2026-01-17T11:45:00",
-          "message": "ok ok ok so that was BRILLIANT 🚴🔥🔥 that descent into the valley, Saoirse just disappeared, I genuinely lost sight of her for like 2 minutes",
+          "message": "ok ok ok so that was BRILLIANT \ud83d\udeb4\ud83d\udd25\ud83d\udd25 that descent into the valley, Saoirse just disappeared, I genuinely lost sight of her for like 2 minutes",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -408,7 +419,7 @@
           "turn_id": "grp_f9a0b1c2_s02_t005",
           "session_id": "grp_f9a0b1c2_s02",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 17, 11:57am",
           "timestamp": "2026-01-17T11:57:00",
           "message": "You did well Yuki, no drop today. I am going to raise something actually. Two people missed the 8am this morning, we waited 12 minutes. Worth a quick poll, lads, should we shift to 9am for winter?",
@@ -435,7 +446,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 17, 12:02pm",
           "timestamp": "2026-01-17T12:02:00",
-          "message": "ok but genuinely 8am in January is brutal, 9am means the sun is actually up 🌅 I vote 9am for the next few weeks at least",
+          "message": "ok but genuinely 8am in January is brutal, 9am means the sun is actually up \ud83c\udf05 I vote 9am for the next few weeks at least",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s02_t005"
@@ -468,7 +479,7 @@
           "turn_id": "grp_f9a0b1c2_s02_t010",
           "session_id": "grp_f9a0b1c2_s02",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 17, 12:14pm",
           "timestamp": "2026-01-17T12:14:00",
           "message": "Sounds like majority supports 9am through February. I will update the group description. Sorted.",
@@ -508,7 +519,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 17, 12:19pm",
           "timestamp": "2026-01-17T12:19:00",
-          "message": "ok Callum drops the data dump before the coffee has even arrived 😂 by the way I think Callum found us through Strava originally right, I spotted his segments overlapping with our usual routes and messaged him",
+          "message": "ok Callum drops the data dump before the coffee has even arrived \ud83d\ude02 by the way I think Callum found us through Strava originally right, I spotted his segments overlapping with our usual routes and messaged him",
           "message_index": 13,
           "planted_challenges": [
             {
@@ -557,7 +568,7 @@
           "speaker_display_name": "Ben",
           "timestamp_label": "Jan 17, 12:26pm",
           "timestamp": "2026-01-17T12:26:00",
-          "message": "haha we are all just data points to Callum. ok but the café was worth it though, Priya called it",
+          "message": "haha we are all just data points to Callum. ok but the caf\u00e9 was worth it though, Priya called it",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s02_t014"
@@ -569,7 +580,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 17, 12:28pm",
           "timestamp": "2026-01-17T12:28:00",
-          "message": "the oat milk was PERFECT and they had those little almond croissants 😍 ok so next week, do we want to vote now or Thursday? I was thinking the Ashdown loop but keep it to 60km-ish given Yuki's legs",
+          "message": "the oat milk was PERFECT and they had those little almond croissants \ud83d\ude0d ok so next week, do we want to vote now or Thursday? I was thinking the Ashdown loop but keep it to 60km-ish given Yuki's legs",
           "message_index": 17,
           "planted_challenges": [
             {
@@ -628,7 +639,7 @@
           "turn_id": "grp_f9a0b1c2_s02_t019",
           "session_id": "grp_f9a0b1c2_s02",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 17, 12:36pm",
           "timestamp": "2026-01-17T12:36:00",
           "message": "Ashdown works. We can always add the Millfield extension for anyone who wants extra km at the end. No one has to wait. Sorted.",
@@ -636,6 +647,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s02_t018"
         }
+      ],
+      "active_participants": [
+        "p_f9a00002",
+        "p_f9a00006",
+        "p_f9a00007",
+        "p_f9a00004",
+        "p_f9a00003",
+        "p_f9a00001",
+        "p_f9a00008",
+        "p_f9a00005",
+        "p_f9a00009"
       ]
     },
     {
@@ -656,7 +678,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 24, 12:10pm",
           "timestamp": "2026-01-24T12:10:00",
-          "message": "ok ok ok so I have been looking at the Millfield extension and there is actually a bridleway that cuts through to the reservoir, about 4km of gravel, would add a bit of variety 🗺 anyone up for trying it today?",
+          "message": "ok ok ok so I have been looking at the Millfield extension and there is actually a bridleway that cuts through to the reservoir, about 4km of gravel, would add a bit of variety \ud83d\uddfa anyone up for trying it today?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -680,7 +702,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 24, 12:13pm",
           "timestamp": "2026-01-24T12:13:00",
-          "message": "Marcus I got the new gravel bike specifically for this 😅 I used to only do tarmac and honestly I was nervous about anything unpaved but Tomas took me on that off-road loop near the valley last autumn and I completely fell for it. The bike handles it fine.",
+          "message": "Marcus I got the new gravel bike specifically for this \ud83d\ude05 I used to only do tarmac and honestly I was nervous about anything unpaved but Tomas took me on that off-road loop near the valley last autumn and I completely fell for it. The bike handles it fine.",
           "message_index": 3,
           "planted_challenges": [
             {
@@ -702,7 +724,7 @@
           "turn_id": "grp_f9a0b1c2_s03_t003",
           "session_id": "grp_f9a0b1c2_s03",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 24, 12:15pm",
           "timestamp": "2026-01-24T12:15:00",
           "message": "That loop was a good one. You were pretty hesitant at the start but you came round quickly. Bridleway today is fine by me if the surface holds, I rode something similar last week with the school kids.",
@@ -754,7 +776,7 @@
           "speaker_display_name": "Derek",
           "timestamp_label": "Jan 24, 12:21pm",
           "timestamp": "2026-01-24T12:21:00",
-          "message": "Correct. Bridleways in January are unpredictable and I have no interest in cleaning mud off a carbon frame. I will take the planned route and meet the group at the reservoir café.",
+          "message": "Correct. Bridleways in January are unpredictable and I have no interest in cleaning mud off a carbon frame. I will take the planned route and meet the group at the reservoir caf\u00e9.",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s03_t005"
@@ -766,7 +788,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Jan 24, 12:23pm",
           "timestamp": "2026-01-24T12:23:00",
-          "message": "same as derek. road for me 😅 nervous about gravel tbh",
+          "message": "same as derek. road for me \ud83d\ude05 nervous about gravel tbh",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s03_t005"
@@ -775,7 +797,7 @@
           "turn_id": "grp_f9a0b1c2_s03_t008",
           "session_id": "grp_f9a0b1c2_s03",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 24, 12:25pm",
           "timestamp": "2026-01-24T12:25:00",
           "message": "Yuki, you do not have to. Main group will meet you at the reservoir junction at roughly 1:15. All good.",
@@ -848,7 +870,7 @@
               "subject_persona_id": "p_f9a00005",
               "speaker_persona_id": "p_f9a00005",
               "fact_attribute": "post_ride_socialising",
-              "fact_value": "Derek leaves immediately after the ride rather than joining the café stop, which the group treats as a norm",
+              "fact_value": "Derek leaves immediately after the ride rather than joining the caf\u00e9 stop, which the group treats as a norm",
               "evidence_span": "I will head off now rather than stay for coffee, I have things to get on with at home.",
               "implicitness_level": 2,
               "session_index": 3,
@@ -864,7 +886,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 24, 12:52pm",
           "timestamp": "2026-01-24T12:52:00",
-          "message": "Derek always vanishes before the coffee 😂 one day we will convince him",
+          "message": "Derek always vanishes before the coffee \ud83d\ude02 one day we will convince him",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s03_t012"
@@ -897,7 +919,7 @@
           "turn_id": "grp_f9a0b1c2_s03_t016",
           "session_id": "grp_f9a0b1c2_s03",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 24, 1:02pm",
           "timestamp": "2026-01-24T13:02:00",
           "message": "Saoirse, you have been riding those descents since we were doing the Ashdown sportive together, what was that, 2022? You were the only one who came out of that final hairpin without touching the brakes.",
@@ -949,11 +971,22 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 24, 1:09pm",
           "timestamp": "2026-01-24T13:09:00",
-          "message": "Callum I love that you measured the hedge approach 😂 ok next week vote as usual Thursday, I want to find a route that ends somewhere actually pretty for once 🌄",
+          "message": "Callum I love that you measured the hedge approach \ud83d\ude02 ok next week vote as usual Thursday, I want to find a route that ends somewhere actually pretty for once \ud83c\udf04",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s03_t018"
         }
+      ],
+      "active_participants": [
+        "p_f9a00002",
+        "p_f9a00001",
+        "p_f9a00003",
+        "p_f9a00006",
+        "p_f9a00005",
+        "p_f9a00004",
+        "p_f9a00007",
+        "p_f9a00008",
+        "p_f9a00009"
       ]
     },
     {
@@ -971,7 +1004,7 @@
           "turn_id": "grp_f9a0b1c2_s04_t000",
           "session_id": "grp_f9a0b1c2_s04",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 31, 9:05am",
           "timestamp": "2026-01-31T09:05:00",
           "message": "Calling it off today, lads. Wind is 35mph from the north, gusting higher on the ridge. Not safe. See you next Saturday.",
@@ -986,7 +1019,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 31, 9:07am",
           "timestamp": "2026-01-31T09:07:00",
-          "message": "nooo but also fair enough 😭 ok what do we do with a free Saturday, someone say café",
+          "message": "nooo but also fair enough \ud83d\ude2d ok what do we do with a free Saturday, someone say caf\u00e9",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s04_t000"
@@ -1010,7 +1043,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Jan 31, 9:10am",
           "timestamp": "2026-01-31T09:10:00",
-          "message": "honestly relieved 😅",
+          "message": "honestly relieved \ud83d\ude05",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s04_t000"
@@ -1058,7 +1091,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 31, 9:22am",
           "timestamp": "2026-01-31T09:22:00",
-          "message": "ok ok ok so YES please, the current design is nice but the colourway is getting a bit tired 🎨 Saoirse you always have good opinions on this, can you take point?",
+          "message": "ok ok ok so YES please, the current design is nice but the colourway is getting a bit tired \ud83c\udfa8 Saoirse you always have good opinions on this, can you take point?",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s04_t006"
@@ -1168,7 +1201,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Jan 31, 9:44am",
           "timestamp": "2026-01-31T09:44:00",
-          "message": "thank you 🙏 you always look out for me",
+          "message": "thank you \ud83d\ude4f you always look out for me",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s04_t013"
@@ -1204,7 +1237,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 31, 9:54am",
           "timestamp": "2026-01-31T09:54:00",
-          "message": "Marcus and his 500m minimum 😂 some of us have functional knees Marcus",
+          "message": "Marcus and his 500m minimum \ud83d\ude02 some of us have functional knees Marcus",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s04_t016"
@@ -1213,7 +1246,7 @@
           "turn_id": "grp_f9a0b1c2_s04_t018",
           "session_id": "grp_f9a0b1c2_s04",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Jan 31, 9:57am",
           "timestamp": "2026-01-31T09:57:00",
           "message": "Send the route Thursday Marcus. We will vote properly. All good.",
@@ -1233,6 +1266,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s04_t016"
         }
+      ],
+      "active_participants": [
+        "p_f9a00003",
+        "p_f9a00002",
+        "p_f9a00007",
+        "p_f9a00004",
+        "p_f9a00001",
+        "p_f9a00009",
+        "p_f9a00006",
+        "p_f9a00005",
+        "p_f9a00008"
       ]
     },
     {
@@ -1277,7 +1321,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 7, 9:23am",
           "timestamp": "2026-02-07T09:23:00",
-          "message": "Foxley yes, and I looked it up, there is a farm shop café at the end with great reviews 🙌🙌",
+          "message": "Foxley yes, and I looked it up, there is a farm shop caf\u00e9 at the end with great reviews \ud83d\ude4c\ud83d\ude4c",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s05_t000"
@@ -1286,7 +1330,7 @@
           "turn_id": "grp_f9a0b1c2_s05_t003",
           "session_id": "grp_f9a0b1c2_s05",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 7, 9:25am",
           "timestamp": "2026-02-07T09:25:00",
           "message": "Foxley works. Lads, what are we doing about Ben? He has not voted in about four consecutive polls. Ben, any preference?",
@@ -1386,7 +1430,7 @@
           "speaker_display_name": "Marcus",
           "timestamp_label": "Feb 7, 9:42am",
           "timestamp": "2026-02-07T09:42:00",
-          "message": "Six for Foxley, two for Reservoir. We go Foxley. Yuki, you and Lena are welcome to do the reservoir loop and meet us at the café. Group regroups there at roughly 12:30.",
+          "message": "Six for Foxley, two for Reservoir. We go Foxley. Yuki, you and Lena are welcome to do the reservoir loop and meet us at the caf\u00e9. Group regroups there at roughly 12:30.",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s05_t009"
@@ -1398,7 +1442,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Feb 7, 9:43am",
           "timestamp": "2026-02-07T09:43:00",
-          "message": "ok deal 🙏",
+          "message": "ok deal \ud83d\ude4f",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s05_t010"
@@ -1435,7 +1479,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 7, 9:48am",
           "timestamp": "2026-02-07T09:48:00",
-          "message": "ok ok ok so we have Saoirse every week now, the descents just got significantly more intimidating 🔥",
+          "message": "ok ok ok so we have Saoirse every week now, the descents just got significantly more intimidating \ud83d\udd25",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s05_t012"
@@ -1444,7 +1488,7 @@
           "turn_id": "grp_f9a0b1c2_s05_t014",
           "session_id": "grp_f9a0b1c2_s05",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 7, 9:50am",
           "timestamp": "2026-02-07T09:50:00",
           "message": "Good to have you more regularly. You and Marcus can sort out the route arguments in person from now on.",
@@ -1517,7 +1561,7 @@
           "turn_id": "grp_f9a0b1c2_s05_t019",
           "session_id": "grp_f9a0b1c2_s05",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 7, 10:00am",
           "timestamp": "2026-02-07T10:00:00",
           "message": "Foxley it is. Meet at the layby 9am sharp. Yuki and Lena, reservoir loop, meet us at the farm shop by 12:30. Sorted.",
@@ -1525,6 +1569,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_f9a00001",
+        "p_f9a00006",
+        "p_f9a00002",
+        "p_f9a00003",
+        "p_f9a00007",
+        "p_f9a00005",
+        "p_f9a00004",
+        "p_f9a00008",
+        "p_f9a00009"
       ]
     },
     {
@@ -1545,7 +1600,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 14, 12:05pm",
           "timestamp": "2026-02-14T12:05:00",
-          "message": "ok ok ok so that Foxley descent was EVERYTHING 🔥🔥 Saoirse you absolute menace, I clocked you at the front of that hairpin and just thought, I am not following that",
+          "message": "ok ok ok so that Foxley descent was EVERYTHING \ud83d\udd25\ud83d\udd25 Saoirse you absolute menace, I clocked you at the front of that hairpin and just thought, I am not following that",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1593,7 +1648,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Feb 14, 12:13pm",
           "timestamp": "2026-02-14T12:13:00",
-          "message": "missed it again 😞",
+          "message": "missed it again \ud83d\ude1e",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1652,7 +1707,7 @@
           "turn_id": "grp_f9a0b1c2_s06_t007",
           "session_id": "grp_f9a0b1c2_s06",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 14, 12:19pm",
           "timestamp": "2026-02-14T12:19:00",
           "message": "That actually works well. Keeps the group whole socially even when the routes split. Sensible.",
@@ -1692,7 +1747,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 14, 12:26pm",
           "timestamp": "2026-02-14T12:26:00",
-          "message": "ok Derek being the voice of inclusion, I was not expecting that 😂 but yes completely agree",
+          "message": "ok Derek being the voice of inclusion, I was not expecting that \ud83d\ude02 but yes completely agree",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s06_t008"
@@ -1773,7 +1828,7 @@
           "turn_id": "grp_f9a0b1c2_s06_t016",
           "session_id": "grp_f9a0b1c2_s06",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 14, 12:42pm",
           "timestamp": "2026-02-14T12:42:00",
           "message": "Send the GPX by Thursday Marcus. Yuki, you and Lena decide on your version nearer the time. All good.",
@@ -1788,7 +1843,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 14, 12:45pm",
           "timestamp": "2026-02-14T12:45:00",
-          "message": "ok ok ok so vote open now or Thursday? also I looked up a café near Hartley village that does incredible-sounding brunch, actual proper brunch not just sad cereal bars 🥐",
+          "message": "ok ok ok so vote open now or Thursday? also I looked up a caf\u00e9 near Hartley village that does incredible-sounding brunch, actual proper brunch not just sad cereal bars \ud83e\udd50",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s06_t016"
@@ -1800,7 +1855,7 @@
           "speaker_display_name": "Marcus",
           "timestamp_label": "Feb 14, 12:47pm",
           "timestamp": "2026-02-14T12:47:00",
-          "message": "Thursday vote as usual. GPX sent Thursday evening. Noted on the café Priya.",
+          "message": "Thursday vote as usual. GPX sent Thursday evening. Noted on the caf\u00e9 Priya.",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s06_t017"
@@ -1817,13 +1872,24 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_f9a00002",
+        "p_f9a00006",
+        "p_f9a00001",
+        "p_f9a00009",
+        "p_f9a00004",
+        "p_f9a00008",
+        "p_f9a00003",
+        "p_f9a00005",
+        "p_f9a00007"
       ]
     },
     {
       "session_id": "grp_f9a0b1c2_s07",
       "network_id": "grp_f9a0b1c2",
       "session_index": 7,
-      "topic": "Hartley Moor ride; Marcus knee injury surfaces; Yuki paces middle group; Callum joins café stop",
+      "topic": "Hartley Moor ride; Marcus knee injury surfaces; Yuki paces middle group; Callum joins caf\u00e9 stop",
       "date": "2026-02-21",
       "date_label": "Session 7, Saturday February 21, 2026 11:50am",
       "prior_session_summary": "Foxley debrief. Lena and Yuki formed an explicit parallel-loop sub-group. Derek endorsed the two-route model on group retention grounds. Marcus proposed Hartley Moor 85km for next week. Callum confirmed good forecast. Derek left without coffee as usual.",
@@ -1837,7 +1903,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 21, 11:50am",
           "timestamp": "2026-02-21T11:50:00",
-          "message": "ok ok ok so YUKI 🔥🔥 you were sitting mid-pack the whole climb, I kept waiting for you to drop back and you just... did not",
+          "message": "ok ok ok so YUKI \ud83d\udd25\ud83d\udd25 you were sitting mid-pack the whole climb, I kept waiting for you to drop back and you just... did not",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1883,7 +1949,7 @@
           "turn_id": "grp_f9a0b1c2_s07_t003",
           "session_id": "grp_f9a0b1c2_s07",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 21, 11:56am",
           "timestamp": "2026-02-21T11:56:00",
           "message": "That is proper improvement Yuki. Six weeks of structured work shows. You earned that.",
@@ -1959,7 +2025,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 21, 12:08pm",
           "timestamp": "2026-02-21T12:08:00",
-          "message": "ok Marcus admitting a 55km ride counts as a ride is genuinely historic, screenshot this everyone 📸",
+          "message": "ok Marcus admitting a 55km ride counts as a ride is genuinely historic, screenshot this everyone \ud83d\udcf8",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s07_t007"
@@ -2020,7 +2086,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 21, 12:17pm",
           "timestamp": "2026-02-21T12:17:00",
-          "message": "Callum I appreciate you saying that 🙏 no one thinks that now honestly. Also you stayed for coffee today which is a whole new era",
+          "message": "Callum I appreciate you saying that \ud83d\ude4f no one thinks that now honestly. Also you stayed for coffee today which is a whole new era",
           "message_index": 13,
           "planted_challenges": [
             {
@@ -2029,7 +2095,7 @@
               "subject_persona_id": "p_f9a00009",
               "speaker_persona_id": "p_f9a00002",
               "fact_attribute": "group_integration",
-              "fact_value": "Callum who used to skip the café stop now stays after Priya told him the group felt he did not like them; Priya notices the change",
+              "fact_value": "Callum who used to skip the caf\u00e9 stop now stays after Priya told him the group felt he did not like them; Priya notices the change",
               "evidence_span": "Also you stayed for coffee today which is a whole new era",
               "implicitness_level": 2,
               "session_index": 7,
@@ -2090,7 +2156,7 @@
           "turn_id": "grp_f9a0b1c2_s07_t017",
           "session_id": "grp_f9a0b1c2_s07",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 21, 12:29pm",
           "timestamp": "2026-02-21T12:29:00",
           "message": "Right, next Saturday. Marcus needs shorter. I will put two options together, one at 55km and one at 70km. Lads, vote Thursday. Sorted.",
@@ -2105,7 +2171,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Feb 21, 12:31pm",
           "timestamp": "2026-02-21T12:31:00",
-          "message": "I can do the 70 now I think 👀",
+          "message": "I can do the 70 now I think \ud83d\udc40",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s07_t017"
@@ -2122,6 +2188,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s07_t018"
         }
+      ],
+      "active_participants": [
+        "p_f9a00002",
+        "p_f9a00004",
+        "p_f9a00003",
+        "p_f9a00008",
+        "p_f9a00001",
+        "p_f9a00007",
+        "p_f9a00009",
+        "p_f9a00006",
+        "p_f9a00005"
       ]
     },
     {
@@ -2142,7 +2219,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 28, 12:15pm",
           "timestamp": "2026-02-28T12:15:00",
-          "message": "ok ok ok so can we talk about making this weekly properly? I have had three solo sessions since the last group ride and they were all terrible 😩 I hit a PB on the Foxley segment with all of you but on my own I just... did not care",
+          "message": "ok ok ok so can we talk about making this weekly properly? I have had three solo sessions since the last group ride and they were all terrible \ud83d\ude29 I hit a PB on the Foxley segment with all of you but on my own I just... did not care",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2179,7 +2256,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 28, 12:19pm",
           "timestamp": "2026-02-28T12:19:00",
-          "message": "ok yes Marcus you were right, I said it. Can we do weekly group rides please? Fortnightly is just not enough for me any more 🙏🙏",
+          "message": "ok yes Marcus you were right, I said it. Can we do weekly group rides please? Fortnightly is just not enough for me any more \ud83d\ude4f\ud83d\ude4f",
           "message_index": 3,
           "planted_challenges": [
             {
@@ -2201,7 +2278,7 @@
           "turn_id": "grp_f9a0b1c2_s08_t003",
           "session_id": "grp_f9a0b1c2_s08",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 28, 12:22pm",
           "timestamp": "2026-02-28T12:22:00",
           "message": "Weekly is fine by me. We have been close to it the last few months anyway. Lads, any objections?",
@@ -2253,7 +2330,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Feb 28, 12:28pm",
           "timestamp": "2026-02-28T12:28:00",
-          "message": "thank you saoirse genuinely 🙏",
+          "message": "thank you saoirse genuinely \ud83d\ude4f",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s08_t005"
@@ -2262,7 +2339,7 @@
           "turn_id": "grp_f9a0b1c2_s08_t007",
           "session_id": "grp_f9a0b1c2_s08",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 28, 12:30pm",
           "timestamp": "2026-02-28T12:30:00",
           "message": "Appreciated Saoirse. The front group can still push, just not leave the rest behind on an unmarked section. That is all.",
@@ -2277,7 +2354,7 @@
           "speaker_display_name": "Derek",
           "timestamp_label": "Feb 28, 12:35pm",
           "timestamp": "2026-02-28T12:35:00",
-          "message": "For reference, I am going to stay for coffee today. I have been thinking about what Tomás said about group retention last week and frankly my wife has made a similar point about me spending less time on logistics and more on the actual socialising. So. Here I am.",
+          "message": "For reference, I am going to stay for coffee today. I have been thinking about what Tom\u00e1s said about group retention last week and frankly my wife has made a similar point about me spending less time on logistics and more on the actual socialising. So. Here I am.",
           "message_index": 9,
           "planted_challenges": [
             {
@@ -2287,7 +2364,7 @@
               "speaker_persona_id": "p_f9a00005",
               "fact_attribute": "post_ride_socialising",
               "fact_value": "Derek who always left immediately after rides now stays for coffee; his wife encouraged him to invest more in friendships after retiring",
-              "evidence_span": "I am going to stay for coffee today. I have been thinking about what Tomás said about group retention last week and frankly my wife has made a similar point about me spending less time on logistics",
+              "evidence_span": "I am going to stay for coffee today. I have been thinking about what Tom\u00e1s said about group retention last week and frankly my wife has made a similar point about me spending less time on logistics",
               "implicitness_level": 2,
               "session_index": 8,
               "turn_index": 8
@@ -2302,7 +2379,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 28, 12:37pm",
           "timestamp": "2026-02-28T12:37:00",
-          "message": "DEREK. Is staying. For COFFEE. 🎉🎉🎉 this is the best day",
+          "message": "DEREK. Is staying. For COFFEE. \ud83c\udf89\ud83c\udf89\ud83c\udf89 this is the best day",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s08_t008"
@@ -2338,7 +2415,7 @@
           "speaker_display_name": "Ben",
           "timestamp_label": "Feb 28, 12:43pm",
           "timestamp": "2026-02-28T12:43:00",
-          "message": "haha absolutely normal Derek. just a regular Saturday. welcome to the café.",
+          "message": "haha absolutely normal Derek. just a regular Saturday. welcome to the caf\u00e9.",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s08_t011"
@@ -2386,7 +2463,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Feb 28, 12:53pm",
           "timestamp": "2026-02-28T12:53:00",
-          "message": "today was my first ride with the main group all the way through 🙌🙌 no splits, no catching up, just... there",
+          "message": "today was my first ride with the main group all the way through \ud83d\ude4c\ud83d\ude4c no splits, no catching up, just... there",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2395,7 +2472,7 @@
           "turn_id": "grp_f9a0b1c2_s08_t017",
           "session_id": "grp_f9a0b1c2_s08",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Feb 28, 12:55pm",
           "timestamp": "2026-02-28T12:55:00",
           "message": "Noted, Yuki. That is a big one. Sorted.",
@@ -2422,11 +2499,22 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 28, 1:00pm",
           "timestamp": "2026-02-28T13:00:00",
-          "message": "ok ok ok so weekly rides confirmed, Saoirse on social tempo, Derek at the table, Yuki in the main group, Marcus alive 🥂 this is the best version of this club so far",
+          "message": "ok ok ok so weekly rides confirmed, Saoirse on social tempo, Derek at the table, Yuki in the main group, Marcus alive \ud83e\udd42 this is the best version of this club so far",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_f9a00002",
+        "p_f9a00001",
+        "p_f9a00003",
+        "p_f9a00007",
+        "p_f9a00006",
+        "p_f9a00004",
+        "p_f9a00005",
+        "p_f9a00009",
+        "p_f9a00008"
       ]
     },
     {
@@ -2459,7 +2547,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 7, 1:12pm",
           "timestamp": "2026-03-07T13:12:00",
-          "message": "LENA 🙌🙌 I did not know you were even doing rehab for that, you never mentioned it",
+          "message": "LENA \ud83d\ude4c\ud83d\ude4c I did not know you were even doing rehab for that, you never mentioned it",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s09_t000"
@@ -2493,7 +2581,7 @@
           "turn_id": "grp_f9a0b1c2_s09_t003",
           "session_id": "grp_f9a0b1c2_s09",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Mar 7, 1:16pm",
           "timestamp": "2026-03-07T13:16:00",
           "message": "Good. You have been careful for a long time on that section. Good to see you going through it. All good.",
@@ -2594,7 +2682,7 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Mar 7, 1:30pm",
           "timestamp": "2026-03-07T13:30:00",
-          "message": "Callum I checked your dashboard this week actually 👀",
+          "message": "Callum I checked your dashboard this week actually \ud83d\udc40",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s09_t008"
@@ -2642,7 +2730,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 7, 1:37pm",
           "timestamp": "2026-03-07T13:37:00",
-          "message": "ok ok ok so Derek staying for coffee is becoming a thing and I am absolutely here for it 🥰",
+          "message": "ok ok ok so Derek staying for coffee is becoming a thing and I am absolutely here for it \ud83e\udd70",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s09_t012"
@@ -2687,7 +2775,7 @@
           "turn_id": "grp_f9a0b1c2_s09_t017",
           "session_id": "grp_f9a0b1c2_s09",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Mar 7, 1:47pm",
           "timestamp": "2026-03-07T13:47:00",
           "message": "Next Saturday then. Route vote Thursday. I will build in the Cranfield ridge section for the climbers, option B stays flatter for anyone who wants it. Sorted.",
@@ -2714,11 +2802,22 @@
           "speaker_display_name": "Yuki",
           "timestamp_label": "Mar 7, 1:51pm",
           "timestamp": "2026-03-07T13:51:00",
-          "message": "ridge for me too now 👀 new era",
+          "message": "ridge for me too now \ud83d\udc40 new era",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s09_t017"
         }
+      ],
+      "active_participants": [
+        "p_f9a00008",
+        "p_f9a00002",
+        "p_f9a00003",
+        "p_f9a00007",
+        "p_f9a00001",
+        "p_f9a00009",
+        "p_f9a00006",
+        "p_f9a00004",
+        "p_f9a00005"
       ]
     },
     {
@@ -2736,10 +2835,10 @@
           "turn_id": "grp_f9a0b1c2_s10_t000",
           "session_id": "grp_f9a0b1c2_s10",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Mar 14, 1:30pm",
           "timestamp": "2026-03-14T13:30:00",
-          "message": "Right, end of the first ten sessions, lads. Good season. Marcus and I were talking before the ride about how we started this. Two people at a sportive arguing about a café.",
+          "message": "Right, end of the first ten sessions, lads. Good season. Marcus and I were talking before the ride about how we started this. Two people at a sportive arguing about a caf\u00e9.",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2751,7 +2850,7 @@
           "speaker_display_name": "Marcus",
           "timestamp_label": "Mar 14, 1:32pm",
           "timestamp": "2026-03-14T13:32:00",
-          "message": "Arguing about whether the café was worth stopping at or whether we should finish the loop first. I said finish the loop. Tomás said the café.",
+          "message": "Arguing about whether the caf\u00e9 was worth stopping at or whether we should finish the loop first. I said finish the loop. Tom\u00e1s said the caf\u00e9.",
           "message_index": 2,
           "planted_challenges": [
             {
@@ -2760,8 +2859,8 @@
               "subject_persona_id": "p_f9a00001",
               "speaker_persona_id": "p_f9a00001",
               "fact_attribute": "group_origin",
-              "fact_value": "Marcus and Tomas met at the Ashdown Sportive and started arguing about a café stop; that argument led to the club being founded",
-              "evidence_span": "Two people at a sportive arguing about a café. I said finish the loop. Tomás said the café.",
+              "fact_value": "Marcus and Tomas met at the Ashdown Sportive and started arguing about a caf\u00e9 stop; that argument led to the club being founded",
+              "evidence_span": "Two people at a sportive arguing about a caf\u00e9. I said finish the loop. Tom\u00e1s said the caf\u00e9.",
               "implicitness_level": 2,
               "session_index": 10,
               "turn_index": 1
@@ -2773,7 +2872,7 @@
           "turn_id": "grp_f9a0b1c2_s10_t002",
           "session_id": "grp_f9a0b1c2_s10",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Mar 14, 1:34pm",
           "timestamp": "2026-03-14T13:34:00",
           "message": "And then we stood in the car park for another hour talking about routes and decided we should do this properly. So here we are.",
@@ -2788,7 +2887,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 14, 1:36pm",
           "timestamp": "2026-03-14T13:36:00",
-          "message": "ok ok ok so the whole club exists because Marcus and Tomas could not agree on when to stop for coffee, this is genuinely perfect 🤣",
+          "message": "ok ok ok so the whole club exists because Marcus and Tomas could not agree on when to stop for coffee, this is genuinely perfect \ud83e\udd23",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s10_t002"
@@ -2812,7 +2911,7 @@
           "speaker_display_name": "Ben",
           "timestamp_label": "Mar 14, 1:40pm",
           "timestamp": "2026-03-14T13:40:00",
-          "message": "haha for the record I think the café is what makes the ride worth doing. not just the ride itself. the whole thing, travel there, suffer a bit, then sit somewhere warm and eat something good.",
+          "message": "haha for the record I think the caf\u00e9 is what makes the ride worth doing. not just the ride itself. the whole thing, travel there, suffer a bit, then sit somewhere warm and eat something good.",
           "message_index": 6,
           "planted_challenges": [
             {
@@ -2821,8 +2920,8 @@
               "subject_persona_id": "p_f9a00007",
               "speaker_persona_id": "p_f9a00007",
               "fact_attribute": "ride_motivation",
-              "fact_value": "Ben values the full social ritual of the ride including the café stop as the primary motivation, not just the cycling itself",
-              "evidence_span": "the café is what makes the ride worth doing. not just the ride itself. the whole thing, travel there, suffer a bit, then sit somewhere warm and eat something good.",
+              "fact_value": "Ben values the full social ritual of the ride including the caf\u00e9 stop as the primary motivation, not just the cycling itself",
+              "evidence_span": "the caf\u00e9 is what makes the ride worth doing. not just the ride itself. the whole thing, travel there, suffer a bit, then sit somewhere warm and eat something good.",
               "implicitness_level": 2,
               "session_index": 10,
               "turn_index": 5
@@ -2909,7 +3008,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 14, 1:54pm",
           "timestamp": "2026-03-14T13:54:00",
-          "message": "ok ok ok so dual-route obviously, let people self-select by energy level, why would we ever go back to one-size-fits-all 🙌",
+          "message": "ok ok ok so dual-route obviously, let people self-select by energy level, why would we ever go back to one-size-fits-all \ud83d\ude4c",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s10_t011"
@@ -2945,7 +3044,7 @@
           "speaker_display_name": "Ben",
           "timestamp_label": "Mar 14, 2:00pm",
           "timestamp": "2026-03-14T14:00:00",
-          "message": "haha I actually have an opinion. dual-route, as long as both routes end at the same café.",
+          "message": "haha I actually have an opinion. dual-route, as long as both routes end at the same caf\u00e9.",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_f9a0b1c2_s10_t011"
@@ -2991,7 +3090,7 @@
           "turn_id": "grp_f9a0b1c2_s10_t018",
           "session_id": "grp_f9a0b1c2_s10",
           "speaker_persona_id": "p_f9a00003",
-          "speaker_display_name": "Tomás",
+          "speaker_display_name": "Tom\u00e1s",
           "timestamp_label": "Mar 14, 2:06pm",
           "timestamp": "2026-03-14T14:06:00",
           "message": "Dual-route it is. Marcus on record as a reluctant convert. Noted by all. Good season, lads. See you next week. Sorted.",
@@ -3011,6 +3110,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_f9a00003",
+        "p_f9a00001",
+        "p_f9a00002",
+        "p_f9a00006",
+        "p_f9a00007",
+        "p_f9a00005",
+        "p_f9a00004",
+        "p_f9a00009",
+        "p_f9a00008"
       ]
     }
   ],
@@ -3023,10 +3133,10 @@
       "speaker_persona_id": "p_f9a00001",
       "fact_attribute": "connection_origin",
       "fact_value": "Marcus and Tomas co-plan routes together as club co-founders",
-      "evidence_span": "Tomás and I have two options ready",
+      "evidence_span": "Tom\u00e1s and I have two options ready",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -3038,7 +3148,7 @@
       "evidence_span": "That descent is why I joined this group",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -3050,7 +3160,7 @@
       "evidence_span": "The Ridge loop always turns into a sufferfest with that climb section, and people end up strung out for the last 20km. A proper structured start to the year is more sensible than chasing elevation numbers.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -3062,7 +3172,7 @@
       "evidence_span": "55km is barely worth getting the bike out for in January.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -3071,10 +3181,10 @@
       "speaker_persona_id": "p_f9a00001",
       "fact_attribute": "sub_clique",
       "fact_value": "Marcus and Tomas operate as a planning unit, with Marcus designing routes and Tomas distributing them",
-      "evidence_span": "route file sent to Tomás. He will share the GPX Thursday evening",
+      "evidence_span": "route file sent to Tom\u00e1s. He will share the GPX Thursday evening",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -3086,7 +3196,7 @@
       "evidence_span": "I think i need a flat one next week tbh not even joking",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -3098,7 +3208,7 @@
       "evidence_span": "Sounds like majority supports 9am through February. I will update the group description. Sorted.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_b8c9d0e1",
@@ -3110,7 +3220,7 @@
       "evidence_span": "I spotted his segments overlapping with our usual routes and messaged him",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -3122,7 +3232,7 @@
       "evidence_span": "I was thinking the Ashdown loop but keep it to 60km-ish given Yuki's legs",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -3134,7 +3244,7 @@
       "evidence_span": "Ashdown is mostly flat and barely 55km. Same problem as last week's Valley option.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -3146,7 +3256,7 @@
       "evidence_span": "I used to only do tarmac and honestly I was nervous about anything unpaved but Tomas took me on that off-road loop near the valley last autumn and I completely fell for it.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -3158,7 +3268,7 @@
       "evidence_span": "That loop was a good one. You were pretty hesitant at the start but you came round quickly.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_a3b4c5d6",
@@ -3170,7 +3280,7 @@
       "evidence_span": "Yuki, you do not have to. Main group will meet you at the reservoir junction at roughly 1:15.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -3178,11 +3288,11 @@
       "subject_persona_id": "p_f9a00005",
       "speaker_persona_id": "p_f9a00005",
       "fact_attribute": "post_ride_socialising",
-      "fact_value": "Derek leaves immediately after the ride rather than joining the café stop, which the group treats as a norm",
+      "fact_value": "Derek leaves immediately after the ride rather than joining the caf\u00e9 stop, which the group treats as a norm",
       "evidence_span": "I will head off now rather than stay for coffee, I have things to get on with at home.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -3191,7 +3301,7 @@
       "speaker_persona_id": "p_f9a00003",
       "fact_attribute": "connection_origin",
       "fact_value": "Tomas and Saoirse have cycled together for years through overlapping club memberships before Cranfield CC",
-      "evidence_span": "You have been riding those descents since we were doing the Ashdown sportive together, what was that, 2022?",
+      "evidence_span": "haha respect the commitment to leaving though. I respect commitment in any form",
       "implicitness_level": 2,
       "session_index": 3,
       "turn_index": 16
@@ -3206,7 +3316,7 @@
       "evidence_span": "I can mock something up. I am thinking a cleaner dark colourway, the current yellow is too loud for my taste.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -3218,7 +3328,7 @@
       "evidence_span": "I only noticed because I was right behind you for that section and it looked like a cleat alignment issue rather than muscle.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -3230,7 +3340,7 @@
       "evidence_span": "Ben contributing an opinion, historic occasion.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_a9b0c1d2",
@@ -3242,7 +3352,7 @@
       "evidence_span": "My racing league moved their events to Saturday evenings so the mornings are free. You will not be able to get rid of me.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b0c1d2e3",
@@ -3254,7 +3364,7 @@
       "evidence_span": "You and Marcus can sort out the route arguments in person from now on.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -3266,7 +3376,7 @@
       "evidence_span": "Lena the reservoir loop was nice though, we should make that a regular thing for low-energy weeks",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -3278,7 +3388,7 @@
       "evidence_span": "I am happy to run that loop with you whenever the main route does not suit.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -3290,7 +3400,7 @@
       "evidence_span": "A nine-person group with different ability levels needs structured options, not just a single route that suits the strongest riders. The alternative is attrition.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -3302,7 +3412,7 @@
       "evidence_span": "I have been doing this structured 6-week block, intervals twice a week. the middle group just stopped feeling unreachable? I even pulled through on the flat section before the moor.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -3314,7 +3424,7 @@
       "evidence_span": "She said reduce load for six weeks, no rides over 60km, see how it settles. I accept 50-60km is still a ride. Grudgingly.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_b6c7d8e9",
@@ -3323,7 +3433,7 @@
       "speaker_persona_id": "p_f9a00009",
       "fact_attribute": "group_integration",
       "fact_value": "Callum reveals that Priya told him the group thought he did not like them; he is making a visible effort to address it",
-      "evidence_span": "Priya mentioned half the group thought I did not like them. Wanted to address that directly. Not personal.",
+      "evidence_span": "haha take the rest Marcus, 6 weeks goes fast. I have had patients push through that and turn 6 weeks into 6 months.",
       "implicitness_level": 2,
       "session_index": 7,
       "turn_index": 11
@@ -3334,11 +3444,11 @@
       "subject_persona_id": "p_f9a00009",
       "speaker_persona_id": "p_f9a00002",
       "fact_attribute": "group_integration",
-      "fact_value": "Callum who used to skip the café stop now stays after Priya told him the group felt he did not like them; Priya notices the change",
+      "fact_value": "Callum who used to skip the caf\u00e9 stop now stays after Priya told him the group felt he did not like them; Priya notices the change",
       "evidence_span": "Also you stayed for coffee today which is a whole new era",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_d8e9f0a1",
@@ -3350,7 +3460,7 @@
       "evidence_span": "I pointed out last month you only hit PBs with us. Good that you are listening.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_e9f0a1b2",
@@ -3362,7 +3472,7 @@
       "evidence_span": "Can we do weekly group rides please? Fortnightly is just not enough for me any more",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_f0a1b2c3",
@@ -3374,7 +3484,7 @@
       "evidence_span": "Tomas had a word with me in the week. About pacing. I hear the point. I will not be setting race tempo on group rides from now on.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_a1b2c3d4_s08",
@@ -3383,10 +3493,10 @@
       "speaker_persona_id": "p_f9a00005",
       "fact_attribute": "post_ride_socialising",
       "fact_value": "Derek who always left immediately after rides now stays for coffee; his wife encouraged him to invest more in friendships after retiring",
-      "evidence_span": "I am going to stay for coffee today. I have been thinking about what Tomás said about group retention last week and frankly my wife has made a similar point about me spending less time on logistics",
+      "evidence_span": "I am going to stay for coffee today. I have been thinking about what Tom\u00e1s said about group retention last week and frankly my wife has made a similar point about me spending less time on logistics",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_b2c3d4e5_s09",
@@ -3395,7 +3505,7 @@
       "speaker_persona_id": "p_f9a00008",
       "fact_attribute": "climb_gradient_tolerance",
       "fact_value": "Lena used to avoid gradients above 8% due to a hip flexor issue; now comfortably takes on 10-12% after completing her own six-month rehabilitation programme",
-      "evidence_span": "I have been working on it for six months on my own. Today was the test. Cranfield ridge at 10-12% and no pain.",
+      "evidence_span": "LENA \ud83d\ude4c\ud83d\ude4c I did not know you were even doing rehab for that, you never mentioned it",
       "implicitness_level": 2,
       "session_index": 9,
       "turn_index": 2
@@ -3407,7 +3517,7 @@
       "speaker_persona_id": "p_f9a00001",
       "fact_attribute": "preferred_terrain",
       "fact_value": "Marcus clarifies he does not enjoy flat circuits near Millfield, correcting a group assumption; elevation is what he wants",
-      "evidence_span": "The group seemed to think everyone enjoys those long flat circuits near Millfield. That is not quite right. I do not enjoy flat circuits. I never have.",
+      "evidence_span": "haha the physio who fixed her own hip. classic Lena. well done though, genuinely.",
       "implicitness_level": 2,
       "session_index": 9,
       "turn_index": 5
@@ -3422,7 +3532,7 @@
       "evidence_span": "The Millfield flat is good for power output. I have said this before.",
       "implicitness_level": 2,
       "session_index": 9,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_e5f6a7b8_s10",
@@ -3430,8 +3540,8 @@
       "subject_persona_id": "p_f9a00001",
       "speaker_persona_id": "p_f9a00001",
       "fact_attribute": "group_origin",
-      "fact_value": "Marcus and Tomas met at the Ashdown Sportive and started arguing about a café stop; that argument led to the club being founded",
-      "evidence_span": "Two people at a sportive arguing about a café. I said finish the loop. Tomás said the café.",
+      "fact_value": "Marcus and Tomas met at the Ashdown Sportive and started arguing about a caf\u00e9 stop; that argument led to the club being founded",
+      "evidence_span": "Right, end of the first ten sessions, lads. Good season. Marcus and I were talking before the ride about how we started this. Two people at a sportive arguing about a caf\u00e9.",
       "implicitness_level": 2,
       "session_index": 10,
       "turn_index": 1
@@ -3442,11 +3552,11 @@
       "subject_persona_id": "p_f9a00007",
       "speaker_persona_id": "p_f9a00007",
       "fact_attribute": "ride_motivation",
-      "fact_value": "Ben values the full social ritual of the ride including the café stop as the primary motivation, not just the cycling itself",
-      "evidence_span": "the café is what makes the ride worth doing. not just the ride itself. the whole thing, travel there, suffer a bit, then sit somewhere warm and eat something good.",
+      "fact_value": "Ben values the full social ritual of the ride including the caf\u00e9 stop as the primary motivation, not just the cycling itself",
+      "evidence_span": "the caf\u00e9 is what makes the ride worth doing. not just the ride itself. the whole thing, travel there, suffer a bit, then sit somewhere warm and eat something good.",
       "implicitness_level": 2,
       "session_index": 10,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_a7b8c9d0_s10",
@@ -3455,7 +3565,7 @@
       "speaker_persona_id": "p_f9a00008",
       "fact_attribute": "route_format_preference",
       "fact_value": "The group appears to unanimously support dual-route but Lena points out Marcus originally pushed for a single hard route; the consensus may not reflect his true preference",
-      "evidence_span": "The consensus that everyone prefers dual-route may be slightly false. Marcus, you originally pushed for a single hard route as the standard. Is this a genuine shift?",
+      "evidence_span": "haha I actually have an opinion. dual-route, as long as both routes end at the same caf\u00e9.",
       "implicitness_level": 2,
       "session_index": 10,
       "turn_index": 16

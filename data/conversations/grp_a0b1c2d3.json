@@ -17,7 +17,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 6, 7:14pm",
           "timestamp": "2026-01-06T19:14:00",
-          "message": "Hi loves!! Happy New Year everybody!! 🎉🎉 we made it to 2026!! Just want to check in on everyone, been a quiet week here, Dad is resting his knee again but says he's fine (he always says he's fine 🙄) just let me know how you all are doing!!",
+          "message": "Hi loves!! Happy New Year everybody!! \ud83c\udf89\ud83c\udf89 we made it to 2026!! Just want to check in on everyone, been a quiet week here, Dad is resting his knee again but says he's fine (he always says he's fine \ud83d\ude44) just let me know how you all are doing!!",
           "message_index": 1,
           "planted_challenges": [
             {
@@ -66,7 +66,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Jan 6, 7:20pm",
           "timestamp": "2026-01-06T19:20:00",
-          "message": "HAPPY NEW YEAR FAM 💪💪 uncle D you gotta get that checked out no cap, my sports med professor says you can make it way worse if u just rest and dont actually treat it",
+          "message": "HAPPY NEW YEAR FAM \ud83d\udcaa\ud83d\udcaa uncle D you gotta get that checked out no cap, my sports med professor says you can make it way worse if u just rest and dont actually treat it",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s01_t001"
@@ -139,7 +139,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 6, 7:31pm",
           "timestamp": "2026-01-06T19:31:00",
-          "message": "He spent all of New Year's Day in the workshop instead of icing it like the doctor told him after the surgery, Jess 🙄 you know how he is. Tyler honey how are your classes going this semester?? 😊",
+          "message": "He spent all of New Year's Day in the workshop instead of icing it like the doctor told him after the surgery, Jess \ud83d\ude44 you know how he is. Tyler honey how are your classes going this semester?? \ud83d\ude0a",
           "message_index": 9,
           "planted_challenges": [
             {
@@ -213,7 +213,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 6, 7:40pm",
           "timestamp": "2026-01-06T19:40:00",
-          "message": "HAPPY NEW YEAR Harringtons!! We're doing good out here, the kids are already complaining about going back to school which honestly same 😂 Dennis I respect the stubbornness but a bad knee is like a bad mise en place, you CANNOT just power through it and expect good results. Trust the process!",
+          "message": "HAPPY NEW YEAR Harringtons!! We're doing good out here, the kids are already complaining about going back to school which honestly same \ud83d\ude02 Dennis I respect the stubbornness but a bad knee is like a bad mise en place, you CANNOT just power through it and expect good results. Trust the process!",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s01_t011"
@@ -262,7 +262,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 6, 7:47pm",
           "timestamp": "2026-01-06T19:47:00",
-          "message": "Yes I'll call you!! I was going to make a chicken casserole tomorrow anyway, you could stop by after your showing 😊 💗 Bev is right Dennis and you know it",
+          "message": "Yes I'll call you!! I was going to make a chicken casserole tomorrow anyway, you could stop by after your showing \ud83d\ude0a \ud83d\udc97 Bev is right Dennis and you know it",
           "message_index": 16,
           "planted_challenges": [
             {
@@ -287,7 +287,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 6, 7:49pm",
           "timestamp": "2026-01-06T19:49:00",
-          "message": "Carol I keep telling everyone the secret to a good family gathering is the food being actually made with your hands, not ordered in a box. Nobody who eats your casserole goes home sad. That's just facts! 🙌",
+          "message": "Carol I keep telling everyone the secret to a good family gathering is the food being actually made with your hands, not ordered in a box. Nobody who eats your casserole goes home sad. That's just facts! \ud83d\ude4c",
           "message_index": 17,
           "planted_challenges": [
             {
@@ -324,7 +324,7 @@
           "speaker_display_name": "Jess",
           "timestamp_label": "Jan 6, 7:54pm",
           "timestamp": "2026-01-06T19:54:00",
-          "message": "Mom you should let Bev do that. You always say it when we're all together but you never actually let anyone take you anywhere. The kids send their love by the way, Mia made a card for you and Grandpa that she's been hiding since Christmas ❤️",
+          "message": "Mom you should let Bev do that. You always say it when we're all together but you never actually let anyone take you anywhere. The kids send their love by the way, Mia made a card for you and Grandpa that she's been hiding since Christmas \u2764\ufe0f",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s01_t017"
@@ -336,7 +336,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 6, 7:56pm",
           "timestamp": "2026-01-06T19:56:00",
-          "message": "OH that is the sweetest thing 😭😭 tell Mia we want it framed!! And Jess honey I just like cooking for people, it's not a burden!! but okay Bev we can do Italian 😊 just let me know the date!!",
+          "message": "OH that is the sweetest thing \ud83d\ude2d\ud83d\ude2d tell Mia we want it framed!! And Jess honey I just like cooking for people, it's not a burden!! but okay Bev we can do Italian \ud83d\ude0a just let me know the date!!",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s01_t018"
@@ -344,7 +344,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0010001",
+        "p_a0020002",
+        "p_a0070007",
+        "p_a0100010",
+        "p_a0030003",
+        "p_a0050005",
+        "p_a0080008",
+        "p_a0040004",
+        "p_a0090009"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s02",
@@ -386,7 +397,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 13, 6:53pm",
           "timestamp": "2026-01-13T18:53:00",
-          "message": "😭😭😭😭😭😭😭 OH MY GOODNESS!!!!! PRIYA!! ROB!! A BABY!!! 👶💛 I am CRYING in the kitchen right now Dennis come in here!!",
+          "message": "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d OH MY GOODNESS!!!!! PRIYA!! ROB!! A BABY!!! \ud83d\udc76\ud83d\udc9b I am CRYING in the kitchen right now Dennis come in here!!",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s02_t000"
@@ -410,7 +421,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 13, 6:56pm",
           "timestamp": "2026-01-13T18:56:00",
-          "message": "WAIT WAIT WAIT. Did Rob just announce a baby in four sentences?? That is the most Rob thing I have ever seen and I've known you for twelve years!! Priya congratulations!! This is incredible!! 🍾🍾 I'm already thinking about the welcome-baby dinner menu",
+          "message": "WAIT WAIT WAIT. Did Rob just announce a baby in four sentences?? That is the most Rob thing I have ever seen and I've known you for twelve years!! Priya congratulations!! This is incredible!! \ud83c\udf7e\ud83c\udf7e I'm already thinking about the welcome-baby dinner menu",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s02_t002"
@@ -521,7 +532,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Jan 13, 7:07pm",
           "timestamp": "2026-01-13T19:07:00",
-          "message": "YO ROB CONGRATS BRO 👏👏 PRIYA omg this is so hype!! little baby harrington!! can i be like an honorary cousin or something",
+          "message": "YO ROB CONGRATS BRO \ud83d\udc4f\ud83d\udc4f PRIYA omg this is so hype!! little baby harrington!! can i be like an honorary cousin or something",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s02_t008"
@@ -533,7 +544,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 13, 7:09pm",
           "timestamp": "2026-01-13T19:09:00",
-          "message": "Tyler you are already family!! 💛 I need to know everything, Priya, do you have a name list yet, are you finding out the gender, when are you coming to Columbus so I can cook for you!! just let me know and I'll plan everything!! 🙌🙌",
+          "message": "Tyler you are already family!! \ud83d\udc9b I need to know everything, Priya, do you have a name list yet, are you finding out the gender, when are you coming to Columbus so I can cook for you!! just let me know and I'll plan everything!! \ud83d\ude4c\ud83d\ude4c",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s02_t009"
@@ -570,7 +581,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 13, 7:13pm",
           "timestamp": "2026-01-13T19:13:00",
-          "message": "Oh we'll keep it simple!! Just the family!! Maybe Bev, and Marcus and Dana are right here, and I'll invite Aunt Sheila from Dayton because she'll be so thrilled!! 😊 just a little gathering!! just let me know when!!",
+          "message": "Oh we'll keep it simple!! Just the family!! Maybe Bev, and Marcus and Dana are right here, and I'll invite Aunt Sheila from Dayton because she'll be so thrilled!! \ud83d\ude0a just a little gathering!! just let me know when!!",
           "message_index": 13,
           "planted_challenges": [
             {
@@ -656,7 +667,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 13, 7:20pm",
           "timestamp": "2026-01-13T19:20:00",
-          "message": "To be fair Carol a big welcome party sounds great but maybe after baby arrives? Priya you're in your second trimester, long events get tiring fast. We can do a proper celebration in the summer! Something with a grill! 🔥",
+          "message": "To be fair Carol a big welcome party sounds great but maybe after baby arrives? Priya you're in your second trimester, long events get tiring fast. We can do a proper celebration in the summer! Something with a grill! \ud83d\udd25",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s02_t016"
@@ -693,7 +704,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 13, 7:24pm",
           "timestamp": "2026-01-13T19:24:00",
-          "message": "Okay okay I hear you all 😅 just so excited!! Priya sweetheart you tell me what you want and that's what we'll do!! I'm just so happy!! 💛💛💛",
+          "message": "Okay okay I hear you all \ud83d\ude05 just so excited!! Priya sweetheart you tell me what you want and that's what we'll do!! I'm just so happy!! \ud83d\udc9b\ud83d\udc9b\ud83d\udc9b",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s02_t018"
@@ -701,7 +712,19 @@
       ],
       "prior_session_summary": "Session 1: Dennis's knee is acting up but he refuses to see anyone about it. Tyler revealed Dennis taught him single-leg squats to manage knee issues, showing their close practical bond. Dana and Marcus are tacitly the Columbus-based siblings who handle in-person check-ins on their parents. Carol defaulted to cooking for Bev, and Luis expressed an identical value about home-cooked gatherings in the same session. Bev plans to take Carol out for her birthday.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0050005",
+        "p_a0010001",
+        "p_a0020002",
+        "p_a0040004",
+        "p_a0060006",
+        "p_a0030003",
+        "p_a0080008",
+        "p_a0070007",
+        "p_a0100010",
+        "p_a0090009"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s03",
@@ -718,7 +741,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 20, 7:30pm",
           "timestamp": "2026-01-20T19:30:00",
-          "message": "Hi loves!! 💗 quiet week here. Dennis is in the workshop most days which is fine but I've just been rattling around the house a bit. The watercolor supplies Bev got me for Christmas are sitting on the dining table and I keep meaning to try them and then I don't. Is that a mood or just January 🙄",
+          "message": "Hi loves!! \ud83d\udc97 quiet week here. Dennis is in the workshop most days which is fine but I've just been rattling around the house a bit. The watercolor supplies Bev got me for Christmas are sitting on the dining table and I keep meaning to try them and then I don't. Is that a mood or just January \ud83d\ude44",
           "message_index": 1,
           "planted_challenges": [
             {
@@ -780,7 +803,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 20, 7:35pm",
           "timestamp": "2026-01-20T19:35:00",
-          "message": "Oh Marcus I'm fine!! I'm not lonely I just have a lot of time now which is an adjustment. I have you two nearby and Bev is always close and I have my shows. I'm totally fine!! 😊",
+          "message": "Oh Marcus I'm fine!! I'm not lonely I just have a lot of time now which is an adjustment. I have you two nearby and Bev is always close and I have my shows. I'm totally fine!! \ud83d\ude0a",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s03_t002"
@@ -841,7 +864,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 20, 7:42pm",
           "timestamp": "2026-01-20T19:42:00",
-          "message": "I don't need to be signed up like I'm a child Bev 🙄 but fine I will look at it this week. I just think the family is enough for me, I've never needed to go find friends outside of everything we have.",
+          "message": "I don't need to be signed up like I'm a child Bev \ud83d\ude44 but fine I will look at it this week. I just think the family is enough for me, I've never needed to go find friends outside of everything we have.",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s03_t006"
@@ -877,7 +900,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 20, 7:47pm",
           "timestamp": "2026-01-20T19:47:00",
-          "message": "What situation 🙄 I just came by to drop off those containers",
+          "message": "What situation \ud83d\ude44 I just came by to drop off those containers",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s03_t009"
@@ -939,7 +962,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 20, 7:52pm",
           "timestamp": "2026-01-20T19:52:00",
-          "message": "Dana I just wanted to see you, you live ten minutes away and I feel like I haven't actually talked to you in weeks 😢 I didn't realize I was disrupting anything I just thought you'd want the company",
+          "message": "Dana I just wanted to see you, you live ten minutes away and I feel like I haven't actually talked to you in weeks \ud83d\ude22 I didn't realize I was disrupting anything I just thought you'd want the company",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s03_t012"
@@ -988,7 +1011,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Jan 20, 7:57pm",
           "timestamp": "2026-01-20T19:57:00",
-          "message": "carol u should do it!! my friend's grandma joined a pottery class and she like made a whole new friend group, its so good for u. also sorry if this is a bad time to say this but has anyone seen the new gym near campus 😏",
+          "message": "carol u should do it!! my friend's grandma joined a pottery class and she like made a whole new friend group, its so good for u. also sorry if this is a bad time to say this but has anyone seen the new gym near campus \ud83d\ude0f",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s03_t015"
@@ -1037,7 +1060,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 20, 8:02pm",
           "timestamp": "2026-01-20T20:02:00",
-          "message": "Okay. I looked it up while you were all talking 😅 February 3rd is the first class, Tuesday mornings. I signed up. Happy? 💗 Dana, I'll text first. I'm sorry.",
+          "message": "Okay. I looked it up while you were all talking \ud83d\ude05 February 3rd is the first class, Tuesday mornings. I signed up. Happy? \ud83d\udc97 Dana, I'll text first. I'm sorry.",
           "message_index": 20,
           "planted_challenges": [
             {
@@ -1058,7 +1081,16 @@
       ],
       "prior_session_summary": "Session 2: Rob and Priya announced the pregnancy at 14 weeks. Priya subtly signalled preference for a quiet Columbus visit but Carol immediately escalated to a large gathering including Aunt Sheila; Priya quietly agreed rather than pushing back. Dennis backed Rob's call to keep it small. Jess used teacher framing to redirect without confronting Carol. Luis expressed preference for celebrating around the baby's arrival rather than now.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0010001",
+        "p_a0090009",
+        "p_a0080008",
+        "p_a0070007",
+        "p_a0030003",
+        "p_a0050005",
+        "p_a0100010"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s04",
@@ -1100,7 +1132,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 27, 7:46pm",
           "timestamp": "2026-01-27T19:46:00",
-          "message": "She absolutely crushed it. I was lowkey worried because she'd always said the flat trails were her thing but she is a NATURAL on elevation! 🔥 Already planning the next one. She wants to do the ridge route above Multnomah in March!!",
+          "message": "She absolutely crushed it. I was lowkey worried because she'd always said the flat trails were her thing but she is a NATURAL on elevation! \ud83d\udd25 Already planning the next one. She wants to do the ridge route above Multnomah in March!!",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t000"
@@ -1112,7 +1144,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Jan 27, 7:48pm",
           "timestamp": "2026-01-27T19:48:00",
-          "message": "JESS LET'S GOOO 💪 no cap elevation is a whole different cardio, your legs r gonna be sore for like 3 days the first few times but u get used to it!! happy birthday btw 🎂",
+          "message": "JESS LET'S GOOO \ud83d\udcaa no cap elevation is a whole different cardio, your legs r gonna be sore for like 3 days the first few times but u get used to it!! happy birthday btw \ud83c\udf82",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t001"
@@ -1124,7 +1156,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 27, 7:49pm",
           "timestamp": "2026-01-27T19:49:00",
-          "message": "Happy birthday Jess my darling!! 🎉🎉💛 I can't believe Luis got you shoes! That's so thoughtful!! But Jess honey you're careful on those steep trails right? Your knees were always your thing, just be careful!! just let me know you're okay!!",
+          "message": "Happy birthday Jess my darling!! \ud83c\udf89\ud83c\udf89\ud83d\udc9b I can't believe Luis got you shoes! That's so thoughtful!! But Jess honey you're careful on those steep trails right? Your knees were always your thing, just be careful!! just let me know you're okay!!",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t002"
@@ -1186,7 +1218,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 27, 7:55pm",
           "timestamp": "2026-01-27T19:55:00",
-          "message": "Rob you KNOW it, low and slow, the right gear at the right moment! You can't rush the process! 😂 Honestly though the photos she got at the top were insane. Jess share the one with the ridge view, come on",
+          "message": "Rob you KNOW it, low and slow, the right gear at the right moment! You can't rush the process! \ud83d\ude02 Honestly though the photos she got at the top were insane. Jess share the one with the ridge view, come on",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t005"
@@ -1210,7 +1242,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 27, 7:58pm",
           "timestamp": "2026-01-27T19:58:00",
-          "message": "😭😭 JESS this is beautiful!! Look at my baby on that mountain!! 💛",
+          "message": "\ud83d\ude2d\ud83d\ude2d JESS this is beautiful!! Look at my baby on that mountain!! \ud83d\udc9b",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t007"
@@ -1295,7 +1327,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Jan 27, 8:07pm",
           "timestamp": "2026-01-27T20:07:00",
-          "message": "Yes!! We'd love that Marcus!! 🎉 just send me the date and I'll bring a casserole!! just let me know!!",
+          "message": "Yes!! We'd love that Marcus!! \ud83c\udf89 just send me the date and I'll bring a casserole!! just let me know!!",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t013"
@@ -1381,7 +1413,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Jan 27, 8:15pm",
           "timestamp": "2026-01-27T20:15:00",
-          "message": "Marcus running a Harrington game night via calendar invite is somehow the most satisfying development of 2026 so far. I'm in, even if I have to video-in too. This is what family should feel like! Also Jess wants me to tell everyone her thighs are still sore 😂",
+          "message": "Marcus running a Harrington game night via calendar invite is somehow the most satisfying development of 2026 so far. I'm in, even if I have to video-in too. This is what family should feel like! Also Jess wants me to tell everyone her thighs are still sore \ud83d\ude02",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s04_t018"
@@ -1389,7 +1421,18 @@
       ],
       "prior_session_summary": "Session 3: Carol revealed she's been isolated since retirement, relying entirely on family for social connection. Bev identified the watercolor class and the family unanimously pushed Carol to join; Carol agreed without full enthusiasm. Dana called out Carol's unannounced studio visit publicly and Marcus diplomatically framed it as workspace respect. At session's end Carol signed up for a February watercolor class, marking the first step of her social shift.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0030003",
+        "p_a0040004",
+        "p_a0100010",
+        "p_a0010001",
+        "p_a0050005",
+        "p_a0080008",
+        "p_a0070007",
+        "p_a0020002",
+        "p_a0060006"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s05",
@@ -1406,7 +1449,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 3, 7:10pm",
           "timestamp": "2026-02-03T19:10:00",
-          "message": "Hi loves!! 💗💗 I just got back from my very first watercolor class and I have to tell you, it was wonderful!! There were six of us and the instructor is this lovely woman called Pat who has been painting for thirty years!! I did a very bad painting of a pear but I loved every minute!! 🍐 just so happy I went!!",
+          "message": "Hi loves!! \ud83d\udc97\ud83d\udc97 I just got back from my very first watercolor class and I have to tell you, it was wonderful!! There were six of us and the instructor is this lovely woman called Pat who has been painting for thirty years!! I did a very bad painting of a pear but I loved every minute!! \ud83c\udf50 just so happy I went!!",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1442,7 +1485,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 3, 7:15pm",
           "timestamp": "2026-02-03T19:15:00",
-          "message": "Eight weeks!! And there was a woman there called Ruth who is also retired and we already said we'd go for coffee before the next one! 😊 I told Dennis about her and he said 'good' which is basically a standing ovation from him!! Also Dad something happened tonight you need to hear about!!",
+          "message": "Eight weeks!! And there was a woman there called Ruth who is also retired and we already said we'd go for coffee before the next one! \ud83d\ude0a I told Dennis about her and he said 'good' which is basically a standing ovation from him!! Also Dad something happened tonight you need to hear about!!",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s05_t002"
@@ -1466,7 +1509,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 3, 7:19pm",
           "timestamp": "2026-02-03T19:19:00",
-          "message": "So while I was at class, Jess your Mia video called Dad on the tablet!! She wanted to show him the drawing she made of the garden and he actually stayed on the call for twenty minutes!! He called me after and said 'that tablet is actually useful.' Dennis Harrington said that. About technology!! 😱😱",
+          "message": "So while I was at class, Jess your Mia video called Dad on the tablet!! She wanted to show him the drawing she made of the garden and he actually stayed on the call for twenty minutes!! He called me after and said 'that tablet is actually useful.' Dennis Harrington said that. About technology!! \ud83d\ude31\ud83d\ude31",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s05_t004"
@@ -1515,7 +1558,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Feb 3, 7:25pm",
           "timestamp": "2026-02-03T19:25:00",
-          "message": "UNCLE D BOUGHT A TABLET lmaooo this is the best news of 2026 no cap. bro last year u said facetime was for people with nothing to say 😂😂",
+          "message": "UNCLE D BOUGHT A TABLET lmaooo this is the best news of 2026 no cap. bro last year u said facetime was for people with nothing to say \ud83d\ude02\ud83d\ude02",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s05_t007"
@@ -1552,7 +1595,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Feb 3, 7:29pm",
           "timestamp": "2026-02-03T19:29:00",
-          "message": "Dennis that is low and slow progress right there, I respect it!! Jess Mia is an absolute genius, she cracked the code your dad could not. The girls are going to be so excited when the tablet arrives!! 😂",
+          "message": "Dennis that is low and slow progress right there, I respect it!! Jess Mia is an absolute genius, she cracked the code your dad could not. The girls are going to be so excited when the tablet arrives!! \ud83d\ude02",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s05_t009"
@@ -1576,7 +1619,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 3, 7:33pm",
           "timestamp": "2026-02-03T19:33:00",
-          "message": "Speaking of the house!! I wanted to ask Bev something. Bev you know the market around here better than anyone, I was just curious, purely out of curiosity, what do you think our house is worth right now? Not that we're doing anything, just wondering!! 😊 just let me know what you think!!",
+          "message": "Speaking of the house!! I wanted to ask Bev something. Bev you know the market around here better than anyone, I was just curious, purely out of curiosity, what do you think our house is worth right now? Not that we're doing anything, just wondering!! \ud83d\ude0a just let me know what you think!!",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s05_t011"
@@ -1662,7 +1705,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 3, 7:42pm",
           "timestamp": "2026-02-03T19:42:00",
-          "message": "Saturday is perfect Bev!! 😊 Dennis it is just information, honestly!! Also Rob how is Priya doing, I keep meaning to check in!! just let me know how she's feeling!!",
+          "message": "Saturday is perfect Bev!! \ud83d\ude0a Dennis it is just information, honestly!! Also Rob how is Priya doing, I keep meaning to check in!! just let me know how she's feeling!!",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s05_t016"
@@ -1694,7 +1737,19 @@
       ],
       "prior_session_summary": "Session 4: Marcus stepped into a family game-night organiser role, setting up Wingspan for February 22nd including Rob and Priya on video. Jess's hiking shift to elevation was confirmed by her own account and Rob's aside about Luis trying for years. Dana immediately backed Marcus's game night without needing details, reinforcing the Columbus sibling sub-clique. Priya's characteristic offer of a virtual opt-out was actively overridden by Marcus who said he wanted them on video.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0010001",
+        "p_a0090009",
+        "p_a0080008",
+        "p_a0030003",
+        "p_a0020002",
+        "p_a0100010",
+        "p_a0040004",
+        "p_a0070007",
+        "p_a0050005",
+        "p_a0060006"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s06",
@@ -1711,7 +1766,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 10, 7:05pm",
           "timestamp": "2026-02-10T19:05:00",
-          "message": "Hi loves!! 💗 20-week scan today!! Rob and Priya how did it go?? I have been thinking about you both all day!! just let me know everything is okay!!",
+          "message": "Hi loves!! \ud83d\udc97 20-week scan today!! Rob and Priya how did it go?? I have been thinking about you both all day!! just let me know everything is okay!!",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1747,7 +1802,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 10, 7:12pm",
           "timestamp": "2026-02-10T19:12:00",
-          "message": "😭😭 I am so happy!! Also I had a thought today. I was on the phone with Luis's mom actually and she was telling me about the grandkids and I realized, I barely recognize Mia and Finn's voices anymore on the phone!! They grow so fast!! 😢 Columbus is so far from Portland sometimes.",
+          "message": "\ud83d\ude2d\ud83d\ude2d I am so happy!! Also I had a thought today. I was on the phone with Luis's mom actually and she was telling me about the grandkids and I realized, I barely recognize Mia and Finn's voices anymore on the phone!! They grow so fast!! \ud83d\ude22 Columbus is so far from Portland sometimes.",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s06_t002"
@@ -1809,7 +1864,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 10, 7:19pm",
           "timestamp": "2026-02-10T19:19:00",
-          "message": "Oh that would make me SO happy!! 😭😭 October in Columbus is beautiful, the leaves are just gorgeous!! I would have the guest room ready in a week!! just let me know the dates and I'll plan everything!!",
+          "message": "Oh that would make me SO happy!! \ud83d\ude2d\ud83d\ude2d October in Columbus is beautiful, the leaves are just gorgeous!! I would have the guest room ready in a week!! just let me know the dates and I'll plan everything!!",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s06_t005"
@@ -1857,7 +1912,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 10, 7:26pm",
           "timestamp": "2026-02-10T19:26:00",
-          "message": "It's been worse this week, I was going to mention it. He was up twice last night. Dennis you need to let Jess find you that PT referral, I know you said no in January but this is different, it's been flaring consistently for six weeks now 😢",
+          "message": "It's been worse this week, I was going to mention it. He was up twice last night. Dennis you need to let Jess find you that PT referral, I know you said no in January but this is different, it's been flaring consistently for six weeks now \ud83d\ude22",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s06_t009"
@@ -1930,7 +1985,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Feb 10, 7:36pm",
           "timestamp": "2026-02-10T19:36:00",
-          "message": "uncle D my sports med prof literally covered this exact thing last week. chronic joint inflammation gets 10x harder to treat if u keep loading it. also ur my fav person and i need u around for a long time so pls just go 😭 no cap",
+          "message": "uncle D my sports med prof literally covered this exact thing last week. chronic joint inflammation gets 10x harder to treat if u keep loading it. also ur my fav person and i need u around for a long time so pls just go \ud83d\ude2d no cap",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s06_t014"
@@ -1978,7 +2033,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 10, 7:44pm",
           "timestamp": "2026-02-10T19:44:00",
-          "message": "He said six this morning 🙄 Dana sweetheart thank you for going over, Marcus too. I feel better knowing you'll both be there. He'll actually eat properly if Dana comes. Jess I'll send you the name of his old orthopedist just in case. And Luis let's plan that October trip properly once things settle a bit, I am so excited!! 💗",
+          "message": "He said six this morning \ud83d\ude44 Dana sweetheart thank you for going over, Marcus too. I feel better knowing you'll both be there. He'll actually eat properly if Dana comes. Jess I'll send you the name of his old orthopedist just in case. And Luis let's plan that October trip properly once things settle a bit, I am so excited!! \ud83d\udc97",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s06_t018"
@@ -1986,7 +2041,18 @@
       ],
       "prior_session_summary": "Session 5: Carol attended her first watercolor class and met Ruth, a potential friend. Dennis ordered a tablet after Jess's daughter Mia called on video and he couldn't see her drawing; he bought the tablet without fanfare but maintained his general scepticism of video calls. Carol asked Bev to value the house 'just out of curiosity'; Bev immediately treated it as a real consultation and offered to walk the property, crossing her usual boundary of staying out of Harrington decisions. Dennis shot down the idea of selling but Bev distinguished knowing the number from selling.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0010001",
+        "p_a0050005",
+        "p_a0060006",
+        "p_a0040004",
+        "p_a0030003",
+        "p_a0020002",
+        "p_a0080008",
+        "p_a0070007",
+        "p_a0100010"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s07",
@@ -2040,7 +2106,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 17, 7:24pm",
           "timestamp": "2026-02-17T19:24:00",
-          "message": "Dana I love you so much 😭😭 He called Friday afternoon, the appointment is March 4th, I put it in my calendar!! Thank you both for going over, I've been so much less worried since Thursday!! 💗",
+          "message": "Dana I love you so much \ud83d\ude2d\ud83d\ude2d He called Friday afternoon, the appointment is March 4th, I put it in my calendar!! Thank you both for going over, I've been so much less worried since Thursday!! \ud83d\udc97",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s07_t001"
@@ -2089,7 +2155,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 17, 7:31pm",
           "timestamp": "2026-02-17T19:31:00",
-          "message": "Priya come to Columbus this weekend, both of you!! I will make everything, you just need to rest!! 💗💗 Rob I knew you'd come around eventually!! just let me know when you're arriving!!",
+          "message": "Priya come to Columbus this weekend, both of you!! I will make everything, you just need to rest!! \ud83d\udc97\ud83d\udc97 Rob I knew you'd come around eventually!! just let me know when you're arriving!!",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s07_t004"
@@ -2125,7 +2191,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Feb 17, 7:37pm",
           "timestamp": "2026-02-17T19:37:00",
-          "message": "Rob that might be the most human thing you've said in twelve years of knowing you and I say that with full love and respect. Priya you're not alone in this even from Portland. February 28th, we will absolutely be on video for the visit, no excuses. 💚",
+          "message": "Rob that might be the most human thing you've said in twelve years of knowing you and I say that with full love and respect. Priya you're not alone in this even from Portland. February 28th, we will absolutely be on video for the visit, no excuses. \ud83d\udc9a",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s07_t007"
@@ -2235,7 +2301,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Feb 17, 7:52pm",
           "timestamp": "2026-02-17T19:52:00",
-          "message": "uncle D said stay in school i am literally crying 😭😭😭 that means a lot actually no joke. ok marcus send the link. i might actually look at this seriously",
+          "message": "uncle D said stay in school i am literally crying \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d that means a lot actually no joke. ok marcus send the link. i might actually look at this seriously",
           "message_index": 16,
           "planted_challenges": [
             {
@@ -2260,7 +2326,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Feb 17, 7:54pm",
           "timestamp": "2026-02-17T19:54:00",
-          "message": "Dennis and Marcus running a two-pronged intervention on Tyler's career is the most satisfying thing to happen in this chat since the tablet announcement. Tyler you've got this! The whole family is basically your advisory board now! 😂",
+          "message": "Dennis and Marcus running a two-pronged intervention on Tyler's career is the most satisfying thing to happen in this chat since the tablet announcement. Tyler you've got this! The whole family is basically your advisory board now! \ud83d\ude02",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s07_t015"
@@ -2304,7 +2370,19 @@
       ],
       "prior_session_summary": "Session 6: 20-week scan was fine. Carol's comment about not recognising the grandkids' voices prompted Luis to push openly for twice-yearly Columbus trips; Jess conceded he'd been right about this for a year. Dennis's knee flared again; Dana and Marcus both went to check on him Thursday, marking Dana's first proactive parental check-in. Dennis agreed to call the orthopedist after Dana used a direct ultimatum approach. Carol confirmed the appointment is March 4th.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0080008",
+        "p_a0070007",
+        "p_a0010001",
+        "p_a0060006",
+        "p_a0050005",
+        "p_a0030003",
+        "p_a0040004",
+        "p_a0100010",
+        "p_a0020002",
+        "p_a0090009"
+      ]
     },
     {
       "session_id": "grp_a0b1c2d3_s08",
@@ -2333,7 +2411,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Feb 24, 7:16pm",
           "timestamp": "2026-02-24T19:16:00",
-          "message": "I UNDERSTOOD THE MECHANIC lmaooo i just played dumb so everyone would underestimate me, that's called strategy no cap 💪💪 also uncle D was lowkey amazing at the end game scoring, he figured out the egg bonus before i did",
+          "message": "I UNDERSTOOD THE MECHANIC lmaooo i just played dumb so everyone would underestimate me, that's called strategy no cap \ud83d\udcaa\ud83d\udcaa also uncle D was lowkey amazing at the end game scoring, he figured out the egg bonus before i did",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s08_t000"
@@ -2345,7 +2423,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 24, 7:18pm",
           "timestamp": "2026-02-24T19:18:00",
-          "message": "It was such a lovely afternoon!! 💗💗 I brought the casserole and Dennis ate two portions which is basically a rave review!! I thought Rob and Priya joining on video was so sweet, it felt like everyone was together even from Cleveland!! Just so happy we did this!! 😊",
+          "message": "It was such a lovely afternoon!! \ud83d\udc97\ud83d\udc97 I brought the casserole and Dennis ate two portions which is basically a rave review!! I thought Rob and Priya joining on video was so sweet, it felt like everyone was together even from Cleveland!! Just so happy we did this!! \ud83d\ude0a",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s08_t001"
@@ -2492,7 +2570,7 @@
           "speaker_display_name": "Luis",
           "timestamp_label": "Feb 24, 7:35pm",
           "timestamp": "2026-02-24T19:35:00",
-          "message": "Priya that is the best thing I've read in this chat since the pregnancy announcement and that was pretty good. Also just want to say -- watching Rob, Dana, and Marcus all run interference on Carol's guest list in real time is genuinely beautiful sibling choreography. You three have finally become a unit. 😂",
+          "message": "Priya that is the best thing I've read in this chat since the pregnancy announcement and that was pretty good. Also just want to say -- watching Rob, Dana, and Marcus all run interference on Carol's guest list in real time is genuinely beautiful sibling choreography. You three have finally become a unit. \ud83d\ude02",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -2517,7 +2595,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 24, 7:37pm",
           "timestamp": "2026-02-24T19:37:00",
-          "message": "I am NOT being managed 🙄 I am simply enthusiastic!! But fine, just Rob and Priya Saturday, Bev on Sunday, and then we'll all have a proper dinner another time!! I'm still making the soup!! 🍲",
+          "message": "I am NOT being managed \ud83d\ude44 I am simply enthusiastic!! But fine, just Rob and Priya Saturday, Bev on Sunday, and then we'll all have a proper dinner another time!! I'm still making the soup!! \ud83c\udf72",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s08_t011"
@@ -2553,7 +2631,7 @@
           "speaker_display_name": "Tyler",
           "timestamp_label": "Feb 24, 7:43pm",
           "timestamp": "2026-02-24T19:43:00",
-          "message": "saw it, bookmarked it, might have looked at the requirements already 😐 application is like 3 pages which is not as scary as i thought tbh. gonna talk to my advisor next week",
+          "message": "saw it, bookmarked it, might have looked at the requirements already \ud83d\ude10 application is like 3 pages which is not as scary as i thought tbh. gonna talk to my advisor next week",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s08_t014"
@@ -2577,7 +2655,7 @@
           "speaker_display_name": "Carol",
           "timestamp_label": "Feb 24, 7:47pm",
           "timestamp": "2026-02-24T19:47:00",
-          "message": "Ruth came back!! 😭 And she brought her friend Helen who is also retired and we all had tea after the class!! I painted a very bad apple this week but Pat says that's normal for week two!! I feel like a different person on Tuesday mornings honestly 💗💗",
+          "message": "Ruth came back!! \ud83d\ude2d And she brought her friend Helen who is also retired and we all had tea after the class!! I painted a very bad apple this week but Pat says that's normal for week two!! I feel like a different person on Tuesday mornings honestly \ud83d\udc97\ud83d\udc97",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a0b1c2d3_s08_t016"
@@ -2609,7 +2687,19 @@
       ],
       "prior_session_summary": "Session 7: Marcus's game night was set for February 22 with all family. Dana's Thursday check-in on Dennis worked -- he agreed to call the orthopedist. Priya admitted the past weeks had been harder than she let on. Rob made a significant reversal, saying Priya's difficult stretch made him rethink his resistance to longer family stays; he proposed visiting Columbus on the 28th. Marcus shared a kinesiology job market article with Tyler who actually read it and started reconsidering going straight to coaching. Dennis, Rob, and Marcus all endorsed Tyler staying in school or pursuing the cert.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a0080008",
+        "p_a0100010",
+        "p_a0010001",
+        "p_a0060006",
+        "p_a0090009",
+        "p_a0050005",
+        "p_a0070007",
+        "p_a0040004",
+        "p_a0020002",
+        "p_a0030003"
+      ]
     }
   ],
   "total_turns": 160,
@@ -2621,10 +2711,10 @@
       "speaker_persona_id": "p_a0010001",
       "fact_attribute": "doctor_avoidance",
       "fact_value": "Dennis resists seeing doctors, prefers to manage pain himself",
-      "evidence_span": "Dad is resting his knee again but says he's fine (he always says he's fine)",
+      "evidence_span": "Hi loves!! Happy New Year everybody!! \ud83c\udf89\ud83c\udf89 we made it to 2026!! Just want to check in on everyone, been a quiet week here, Dad is resting his knee again but says he's fine (he always says he's fine \ud83d\ude44) just let me know how you all are doing!!",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -2636,7 +2726,7 @@
       "evidence_span": "Been resting it for thirty years. Still here.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -2648,7 +2738,7 @@
       "evidence_span": "He spent all of New Year's Day in the workshop instead of icing it like the doctor told him after the surgery",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -2660,7 +2750,7 @@
       "evidence_span": "uncle D taught me how to do single leg squats to work around bad knees",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -2672,7 +2762,7 @@
       "evidence_span": "marcus going over wednesday sounds good, he'll actually get dad to eat something real too",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -2684,7 +2774,7 @@
       "evidence_span": "I was going to make a chicken casserole tomorrow anyway, you could stop by after your showing",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -2696,7 +2786,7 @@
       "evidence_span": "the secret to a good family gathering is the food being actually made with your hands, not ordered in a box",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_b8c9d0e1",
@@ -2705,10 +2795,10 @@
       "speaker_persona_id": "p_a0050005",
       "fact_attribute": "closeness_signal",
       "fact_value": "Rob shares major family news in the group chat efficiently and directly, consistent with his communication style and Carol's expectation that big news goes in the chat first",
-      "evidence_span": "Okay so we have something to share. Priya is pregnant. 14 weeks. Everything is fine. That's it.",
+      "evidence_span": "Okay so we have something to share. Priya is pregnant. 14 weeks. Everything is fine, doctor appointments have been good. Due date is late June. That's it.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -2720,7 +2810,7 @@
       "evidence_span": "I won't pretend the first trimester wasn't rough (it was) but we're through the hard part now",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -2732,7 +2822,7 @@
       "evidence_span": "first trimester is brutal, you're allowed to say that out loud",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -2744,7 +2834,7 @@
       "evidence_span": "I've been doing prenatal yoga which genuinely helps more than I expected",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -2756,7 +2846,7 @@
       "evidence_span": "I'd honestly just love a quiet visit (though of course your call on what to plan). No pressure on a big gathering right now.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_a3b4c5d6",
@@ -2768,7 +2858,7 @@
       "evidence_span": "Just the family!! Maybe Bev, and Marcus and Dana are right here, and I'll invite Aunt Sheila from Dayton",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -2780,7 +2870,7 @@
       "evidence_span": "Keep it small, Carol.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -2792,7 +2882,7 @@
       "evidence_span": "What I'm hearing is everyone wants to celebrate, just not all at once",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_d6e7f8a9",
@@ -2804,7 +2894,7 @@
       "evidence_span": "Dennis is in the workshop most days which is fine but I've just been rattling around the house a bit",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -2816,7 +2906,7 @@
       "evidence_span": "I noticed over Christmas that you seem less... occupied than you used to be. Which is normal for the first couple years after retiring.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -2825,7 +2915,7 @@
       "speaker_persona_id": "p_a0090009",
       "fact_attribute": "sibling_welfare_action",
       "fact_value": "Bev actively monitors Carol's wellbeing and takes concrete action when she sees Carol isolated; this is consistent with their anchor dynamic from Bev's divorce years",
-      "evidence_span": "I've been thinking about this since I saw the paints still wrapped. I'm signing you up for the February session if you don't do it yourself by Friday.",
+      "evidence_span": "mom 'i have my shows' is not a social life...",
       "implicitness_level": 2,
       "session_index": 3,
       "turn_index": 5
@@ -2837,7 +2927,7 @@
       "speaker_persona_id": "p_a0070007",
       "fact_attribute": "workspace_territory",
       "fact_value": "Dana is territorial about her apartment and workspace and strongly dislikes pop-in visits from Carol",
-      "evidence_span": "i can't work when someone is in my space, it just doesn't work that way for me. i just need people to text before coming over.",
+      "evidence_span": "What situation \ud83d\ude44 I just came by to drop off those containers",
       "implicitness_level": 2,
       "session_index": 3,
       "turn_index": 11
@@ -2852,7 +2942,7 @@
       "evidence_span": "the workspace is the same as an office. You wouldn't walk into someone's office and hang out for two hours.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -2864,7 +2954,7 @@
       "evidence_span": "This is exactly why you need the watercolor class. Go meet some people who are not us.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -2876,7 +2966,7 @@
       "evidence_span": "Bev signed herself up for her power-walking group after her divorce. She told me it changed things for her.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -2888,7 +2978,7 @@
       "evidence_span": "February 3rd is the first class, Tuesday mornings. I signed up.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -2900,7 +2990,7 @@
       "evidence_span": "Luis got me trail running shoes for my birthday last week and we did a proper mountain hike on Saturday. Like, actual elevation.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -2912,7 +3002,7 @@
       "evidence_span": "I used to stick to flat routes because I thought the elevation would kill my knees but honestly it felt okay.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_b6c7d8e9",
@@ -2924,7 +3014,7 @@
       "evidence_span": "Luis that was a solid birthday move. You've been trying to get her on elevation hikes for years.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_c7d8e9f0",
@@ -2936,7 +3026,7 @@
       "evidence_span": "i'll come. you always pick good ones.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_d8e9f0a1",
@@ -2948,7 +3038,7 @@
       "evidence_span": "Rob and I could do it virtually if everyone else is in Columbus (just a thought, obviously understand if it's easier in person).",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_e9f0a1b2",
@@ -2957,7 +3047,7 @@
       "speaker_persona_id": "p_a0080008",
       "fact_attribute": "game_night_organizer_role",
       "fact_value": "Marcus has found a natural family role as game night organiser; he handles logistics with clarity and brings people in deliberately",
-      "evidence_span": "I would genuinely prefer you both in on video. The game runs fine with remote players. Let's say February 22nd, 3pm. I'll send a proper calendar invite.",
+      "evidence_span": "Rob and I could do it virtually if everyone else is in Columbus (just a thought, obviously understand if it's easier in person). Marcus sounds like a fun host. :)",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 17
@@ -2972,7 +3062,7 @@
       "evidence_span": "Couldn't see it well enough. Ordered a tablet.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_2b3c4d5e",
@@ -2984,7 +3074,7 @@
       "evidence_span": "Still true for most people.",
       "implicitness_level": 3,
       "session_index": 5,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_3c4d5e6f",
@@ -2996,7 +3086,7 @@
       "evidence_span": "Do you want me to walk through it properly? I can be there Saturday morning.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_4d5e6f7a",
@@ -3008,7 +3098,7 @@
       "evidence_span": "Nobody said sell, Dennis. Carol asked what it's worth. Those are different things.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_5e6f7a8b",
@@ -3017,7 +3107,7 @@
       "speaker_persona_id": "p_a0040004",
       "fact_attribute": "family_visit_frequency",
       "fact_value": "Luis, previously fine with annual Columbus visits, is now pushing for twice-yearly visits after Carol's comment about not recognising the grandkids' voices",
-      "evidence_span": "One Columbus trip a year isn't enough anymore. I want to talk about doing a second trip this year.",
+      "evidence_span": "\ud83d\ude2d\ud83d\ude2d I am so happy!! Also I had a thought today. I was on the phone with Luis's mom actually and she was telling me about the grandkids and I realized, I barely recognize Mia and Finn's voices anymore on the phone!! They grow so fast!! \ud83d\ude22 Columbus is so far from Portland sometimes.",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 4
@@ -3032,7 +3122,7 @@
       "evidence_span": "Luis has been saying this for a year actually and I kept saying flights are expensive but I think he's right.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_7a8b9c0d",
@@ -3044,7 +3134,7 @@
       "evidence_span": "i'm going to come over thursday. not to make it a thing. just to check in.",
       "implicitness_level": 3,
       "session_index": 6,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_8b9c0d1e",
@@ -3056,7 +3146,7 @@
       "evidence_span": "i told him if he didn't call i'd make the appointment myself. he called.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_9c0d1e2f",
@@ -3065,7 +3155,7 @@
       "speaker_persona_id": "p_a0050005",
       "fact_attribute": "family_gathering_stance",
       "fact_value": "Rob, who previously resisted multi-day family stays, now openly advocates for longer visits after Priya's difficult weeks showed him how isolated they were without family support",
-      "evidence_span": "But the last few weeks with Priya having a rough time and it just being the two of us has made me think differently. I think we should talk about being closer to family.",
+      "evidence_span": "Really glad to hear that about Dennis. On a different note -- I want to mention something. The past few weeks have been harder than I let on earlier (though of course nothing alarming, just more fatigue and some nausea that came back which apparently is normal). Rob has been great but I've been thinking a lot about how far Cleveland is from everyone.",
       "implicitness_level": 2,
       "session_index": 7,
       "turn_index": 4
@@ -3080,7 +3170,7 @@
       "evidence_span": "i've always said i'm going straight to coaching but now i'm like... maybe a cert in sports science isn't the worst idea? still figuring it out",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_1a2b3c4e",
@@ -3092,7 +3182,7 @@
       "evidence_span": "Tyler has been asking me oblique questions about grad applications for about three weeks and I've been waiting to see if he'd say it out loud.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_2b3c4d6e",
@@ -3101,7 +3191,7 @@
       "speaker_persona_id": "p_a0100010",
       "fact_attribute": "post_graduation_anxiety",
       "fact_value": "Tyler's emotional response to Dennis's endorsement shows his underlying anxiety about post-graduation plans beneath the confident coaching persona",
-      "evidence_span": "uncle D said stay in school i am literally crying. that means a lot actually no joke.",
+      "evidence_span": "Tyler. Stay in school if you can.",
       "implicitness_level": 3,
       "session_index": 7,
       "turn_index": 15
@@ -3116,7 +3206,7 @@
       "evidence_span": "I will be honest: I didn't expect to enjoy that format. But Dennis engaged, which I've never seen in a family activity that wasn't football or the vegetable garden.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_4d5e6f8a",
@@ -3128,7 +3218,7 @@
       "evidence_span": "Bev can you come for dinner Saturday? And Marcus and Dana are right here anyway!!",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_5e6f7b8c",
@@ -3140,7 +3230,7 @@
       "evidence_span": "I genuinely want to come. Not just to be a good sport.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_6f7a8c9d",
@@ -3149,7 +3239,7 @@
       "speaker_persona_id": "p_a0040004",
       "fact_attribute": "sibling_coordination",
       "fact_value": "Luis observes that Rob, Dana, and Marcus have begun operating as a coordinated unit in managing Carol's tendency to expand gatherings",
-      "evidence_span": "Watching Rob, Dana, and Marcus all run interference on Carol's guest list in real time is genuinely beautiful sibling choreography.",
+      "evidence_span": "Dana I would actually love that (though of course if you have work don't worry). Rob and I are getting better at asking for what we actually need, I think. :) I genuinely want to come. Not just to be a good sport.",
       "implicitness_level": 2,
       "session_index": 8,
       "turn_index": 11

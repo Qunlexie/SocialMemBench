@@ -30,7 +30,7 @@
       "preferences": {
         "food": [
           {
-            "value": "strong aversion to cilantro — describes it as 'that horrible soap herb'",
+            "value": "strong aversion to cilantro \u2014 describes it as 'that horrible soap herb'",
             "confidence": "High",
             "implicit": true
           },
@@ -42,7 +42,7 @@
         ],
         "activities": [
           {
-            "value": "enjoys running but only after 8am — hates early morning starts",
+            "value": "enjoys running but only after 8am \u2014 hates early morning starts",
             "confidence": "Medium",
             "implicit": true
           },
@@ -117,12 +117,12 @@
       "preferences": {
         "food": [
           {
-            "value": "pescatarian — never orders meat, never explains why unless directly asked",
+            "value": "pescatarian \u2014 never orders meat, never explains why unless directly asked",
             "confidence": "High",
             "implicit": true
           },
           {
-            "value": "dislikes overly sweet food — will push the dessert menu away without comment",
+            "value": "dislikes overly sweet food \u2014 will push the dessert menu away without comment",
             "confidence": "Medium",
             "implicit": true
           }
@@ -152,7 +152,7 @@
         {
           "domain": "social",
           "attribute": "group_logistics_role",
-          "old_value": "used to organize all group logistics — bookings, times, directions",
+          "old_value": "used to organize all group logistics \u2014 bookings, times, directions",
           "new_value": "now stays completely passive on logistics, doesn't engage",
           "changed_at_session": 2,
           "trigger": "burned out from always being the organizer; became visibly disengaged after session 2"
@@ -204,7 +204,7 @@
       "preferences": {
         "food": [
           {
-            "value": "vegetarian — always has been, but doesn't make a fuss",
+            "value": "vegetarian \u2014 always has been, but doesn't make a fuss",
             "confidence": "High",
             "implicit": false
           },
@@ -221,7 +221,7 @@
         ],
         "activities": [
           {
-            "value": "committed yoga practitioner — does it 5 mornings a week",
+            "value": "committed yoga practitioner \u2014 does it 5 mornings a week",
             "confidence": "High",
             "implicit": false
           },
@@ -253,7 +253,7 @@
       "speaking_quirks": [
         "sends multiple short texts in a row instead of one combined message",
         "uses 'honestly' very frequently at the start of sentences",
-        "adds 🙌 or 😭 at the end of thoughts to soften tone"
+        "adds \ud83d\ude4c or \ud83d\ude2d at the end of thoughts to soften tone"
       ],
       "occupation": "UX researcher",
       "skills_list": [
@@ -296,7 +296,7 @@
       "preferences": {
         "food": [
           {
-            "value": "strong aversion to mushrooms — the texture; will quietly avoid any dish containing them",
+            "value": "strong aversion to mushrooms \u2014 the texture; will quietly avoid any dish containing them",
             "confidence": "High",
             "implicit": true
           },
@@ -388,7 +388,7 @@
       "preferences": {
         "food": [
           {
-            "value": "gluten intolerant — quietly checks menus and orders gluten-free without making it a topic",
+            "value": "gluten intolerant \u2014 quietly checks menus and orders gluten-free without making it a topic",
             "confidence": "High",
             "implicit": true
           },
@@ -405,7 +405,7 @@
             "implicit": false
           },
           {
-            "value": "avoids anything competitive — sports, trivia nights, etc.",
+            "value": "avoids anything competitive \u2014 sports, trivia nights, etc.",
             "confidence": "Medium",
             "implicit": true
           }
@@ -569,12 +569,12 @@
   ],
   "group_norms": [
     {
-      "norm_text": "The group votes before booking a restaurant — no one books without checking with everyone first.",
+      "norm_text": "The group votes before booking a restaurant \u2014 no one books without checking with everyone first.",
       "truly_universal": true,
       "dissenters": []
     },
     {
-      "norm_text": "Sunday brunches are sacred — no cancellations after Friday night.",
+      "norm_text": "Sunday brunches are sacred \u2014 no cancellations after Friday night.",
       "truly_universal": false,
       "dissenters": [
         "p_j2b3c4d5"
@@ -588,5 +588,10 @@
       ]
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "close_friends",
+    "group_size": 5
+  }
 }

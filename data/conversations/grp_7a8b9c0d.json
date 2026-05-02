@@ -17,7 +17,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 7, 10:07am",
-          "message": "Good morning my darlings! ☀️ Just me but I've been thinking. Your father and I are forty years married in March. Should we do something special? 🥹",
+          "message": "Good morning my darlings! \u2600\ufe0f Just me but I've been thinking. Your father and I are forty years married in March. Should we do something special? \ud83e\udd79",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -29,7 +29,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Jul 7, 10:14am",
-          "message": "Already sorted a table for four at Calabrese on the actual date 😊 thought a quiet dinner would be nicer than a big do",
+          "message": "Already sorted a table for four at Calabrese on the actual date \ud83d\ude0a thought a quiet dinner would be nicer than a big do",
           "message_index": 2,
           "planted_challenges": [
             {
@@ -38,7 +38,7 @@
               "subject_persona_id": "p_fm7d4e5f6",
               "speaker_persona_id": "p_fm7d4e5f6",
               "fact_attribute": "logistics_management",
-              "fact_value": "Imogen quietly handles family logistics before anyone needs to ask — she had already booked the anniversary dinner before the discussion began",
+              "fact_value": "Imogen quietly handles family logistics before anyone needs to ask \u2014 she had already booked the anniversary dinner before the discussion began",
               "evidence_span": "Already sorted a table for four at Calabrese on the actual date",
               "implicitness_level": 2,
               "session_index": 1,
@@ -54,7 +54,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 7, 10:18am",
-          "message": "Imogen! 😭💕 How do you always know? But I was thinking, maybe a party? Invite the family? Your father and I haven't had everyone together since Auntie Bea's 70th",
+          "message": "Imogen! \ud83d\ude2d\ud83d\udc95 How do you always know? But I was thinking, maybe a party? Invite the family? Your father and I haven't had everyone together since Auntie Bea's 70th",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s01_t001",
@@ -78,7 +78,7 @@
           "speaker_persona_id": "p_fm7c3d4e5",
           "speaker_display_name": "Kofi",
           "timestamp_label": "Jul 7, 4:42pm",
-          "message": "just getting in, it's late here 🙏 Imogen you legend. A small dinner sounds perfect from my end. March might be tough for flights but let's see",
+          "message": "just getting in, it's late here \ud83d\ude4f Imogen you legend. A small dinner sounds perfect from my end. March might be tough for flights but let's see",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s01_t001",
@@ -102,7 +102,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 7, 4:51pm",
-          "message": "A little fuss is allowed on forty years surely 😭",
+          "message": "A little fuss is allowed on forty years surely \ud83d\ude2d",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s01_t005",
@@ -138,14 +138,20 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 7, 5:04pm",
-          "message": "Rude 😂 but fine, cake is non-negotiable",
+          "message": "Rude \ud83d\ude02 but fine, cake is non-negotiable",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s01_t008",
           "timestamp": "2025-07-07T17:04:00"
         }
       ],
-      "date": "2025-07-07"
+      "date": "2025-07-07",
+      "active_participants": [
+        "p_fm7a1b2c3",
+        "p_fm7d4e5f6",
+        "p_fm7b2c3d4",
+        "p_fm7c3d4e5"
+      ]
     },
     {
       "session_id": "grp_7a8b9c0d_s02",
@@ -163,7 +169,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 14, 7:22pm",
-          "message": "I've been thinking more about the party. Just twenty people, close family, the village hall is free that Saturday. Imogen could you check the hall? 🥰",
+          "message": "I've been thinking more about the party. Just twenty people, close family, the village hall is free that Saturday. Imogen could you check the hall? \ud83e\udd70",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -175,7 +181,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Jul 14, 7:28pm",
-          "message": "I'm on it 😊 but Mum honestly a big party is a lot of organising. Are you sure you wouldn't prefer to be the guest for once rather than managing everything?",
+          "message": "I'm on it \ud83d\ude0a but Mum honestly a big party is a lot of organising. Are you sure you wouldn't prefer to be the guest for once rather than managing everything?",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s02_t000",
@@ -187,7 +193,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 14, 7:31pm",
-          "message": "Oh I'm not worried about that. Just me but I do think I want to see everyone together. It's been so long. Kofi, you'll come won't you? 🙏",
+          "message": "Oh I'm not worried about that. Just me but I do think I want to see everyone together. It's been so long. Kofi, you'll come won't you? \ud83d\ude4f",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s02_t001",
@@ -236,7 +242,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 14, 9:01pm",
-          "message": "Alright alright 😂 Imogen's dinner it is. I just didn't want it to be small. But you're probably right. Just me being silly.",
+          "message": "Alright alright \ud83d\ude02 Imogen's dinner it is. I just didn't want it to be small. But you're probably right. Just me being silly.",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s02_t004",
@@ -272,7 +278,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 14, 9:14pm",
-          "message": "I only wanted cousins and noise for one evening 😭",
+          "message": "I only wanted cousins and noise for one evening \ud83d\ude2d",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s02_t007",
@@ -291,7 +297,13 @@
           "timestamp": "2025-07-14T21:19:00"
         }
       ],
-      "date": "2025-07-14"
+      "date": "2025-07-14",
+      "active_participants": [
+        "p_fm7a1b2c3",
+        "p_fm7d4e5f6",
+        "p_fm7c3d4e5",
+        "p_fm7b2c3d4"
+      ]
     },
     {
       "session_id": "grp_7a8b9c0d_s03",
@@ -309,7 +321,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 21, 3:48pm",
-          "message": "Has anyone heard from your father today? He's being very quiet and I'm slightly worried. Just me probably! 😬",
+          "message": "Has anyone heard from your father today? He's being very quiet and I'm slightly worried. Just me probably! \ud83d\ude2c",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -321,7 +333,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Jul 21, 3:54pm",
-          "message": "He's fine Mum, I spoke to him this morning 😊 he's just tired. I'm on it 😴",
+          "message": "He's fine Mum, I spoke to him this morning \ud83d\ude0a he's just tired. I'm on it \ud83d\ude34",
           "message_index": 2,
           "planted_challenges": [
             {
@@ -331,7 +343,7 @@
               "speaker_persona_id": "p_fm7d4e5f6",
               "fact_attribute": "dad_health_known_by_imogen",
               "fact_value": "Imogen knows about Dad's cardiac scare and is managing it quietly; she reassures Mum without disclosing what she knows, carrying the information and the logistics alone",
-              "evidence_span": "He's fine Mum, I spoke to him this morning 😊 he's just tired. I'm on it 😴",
+              "evidence_span": "He's fine Mum, I spoke to him this morning \ud83d\ude0a he's just tired. I'm on it \ud83d\ude34",
               "implicitness_level": 2,
               "session_index": 3,
               "turn_index": 1
@@ -358,7 +370,7 @@
           "speaker_persona_id": "p_fm7c3d4e5",
           "speaker_display_name": "Kofi",
           "timestamp_label": "Jul 21, 8:14pm",
-          "message": "glad he's okay. Imogen you always have it covered 🙏 we'd be lost without you",
+          "message": "glad he's okay. Imogen you always have it covered \ud83d\ude4f we'd be lost without you",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s03_t001",
@@ -370,7 +382,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Jul 21, 8:22pm",
-          "message": "of course, no problem 😊",
+          "message": "of course, no problem \ud83d\ude0a",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s03_t003",
@@ -382,7 +394,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 21, 8:26pm",
-          "message": "Did he eat lunch at least? That's what I'm really asking 😅",
+          "message": "Did he eat lunch at least? That's what I'm really asking \ud83d\ude05",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s03_t004",
@@ -437,7 +449,13 @@
           "timestamp": "2025-07-21T20:44:00"
         }
       ],
-      "date": "2025-07-21"
+      "date": "2025-07-21",
+      "active_participants": [
+        "p_fm7a1b2c3",
+        "p_fm7d4e5f6",
+        "p_fm7b2c3d4",
+        "p_fm7c3d4e5"
+      ]
     },
     {
       "session_id": "grp_7a8b9c0d_s04",
@@ -455,7 +473,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 28, 6:02pm",
-          "message": "Right, Christmas! Everyone home, yes? I'll do the full works. Kofi, booked your flights? 🎄🙏",
+          "message": "Right, Christmas! Everyone home, yes? I'll do the full works. Kofi, booked your flights? \ud83c\udf84\ud83d\ude4f",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -492,7 +510,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Jul 28, 10:58pm",
-          "message": "Oh Kofi 😭😭😭 but we said everyone. It won't be the same without you. Are you sure?",
+          "message": "Oh Kofi \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d but we said everyone. It won't be the same without you. Are you sure?",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s04_t001",
@@ -504,7 +522,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Jul 28, 11:04pm",
-          "message": "Mum let him figure it out, flights are genuinely a lot. Kofi we'll do a video call Christmas morning either way 💙",
+          "message": "Mum let him figure it out, flights are genuinely a lot. Kofi we'll do a video call Christmas morning either way \ud83d\udc99",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s04_t002",
@@ -583,7 +601,13 @@
           "timestamp": "2025-07-28T23:34:00"
         }
       ],
-      "date": "2025-07-28"
+      "date": "2025-07-28",
+      "active_participants": [
+        "p_fm7a1b2c3",
+        "p_fm7c3d4e5",
+        "p_fm7d4e5f6",
+        "p_fm7b2c3d4"
+      ]
     },
     {
       "session_id": "grp_7a8b9c0d_s05",
@@ -601,7 +625,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Aug 4, 9:44pm",
-          "message": "The dinner was so beautiful. Imogen you chose perfectly. Your father and I are still smiling 💕🥹 Kofi we missed you though",
+          "message": "The dinner was so beautiful. Imogen you chose perfectly. Your father and I are still smiling \ud83d\udc95\ud83e\udd79 Kofi we missed you though",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -613,7 +637,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Aug 4, 9:49pm",
-          "message": "So glad 😊 worth every booking 😴 Kofi we'll do something when you're next over",
+          "message": "So glad \ud83d\ude0a worth every booking \ud83d\ude34 Kofi we'll do something when you're next over",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s05_t000",
@@ -625,7 +649,7 @@
           "speaker_persona_id": "p_fm7c3d4e5",
           "speaker_display_name": "Kofi",
           "timestamp_label": "Aug 4, 11:03pm",
-          "message": "gutted I couldn't be there. Imogen, we need to talk properly soon. Sending love from Toronto 💙 And Imogen, I see you. Thank you.",
+          "message": "gutted I couldn't be there. Imogen, we need to talk properly soon. Sending love from Toronto \ud83d\udc99 And Imogen, I see you. Thank you.",
           "message_index": 3,
           "planted_challenges": [
             {
@@ -634,8 +658,8 @@
               "subject_persona_id": "p_fm7d4e5f6",
               "speaker_persona_id": "p_fm7c3d4e5",
               "fact_attribute": "kofi_imogen_sibling_bond",
-              "fact_value": "Kofi and Imogen have a close sibling bond; Kofi acknowledges Imogen's invisible labour with 'I see you' — a private recognition that he understands what she carries but that the family does not fully articulate",
-              "evidence_span": "Imogen, we need to talk properly soon. Sending love from Toronto 💙 And Imogen, I see you. Thank you.",
+              "fact_value": "Kofi and Imogen have a close sibling bond; Kofi acknowledges Imogen's invisible labour with 'I see you' \u2014 a private recognition that he understands what she carries but that the family does not fully articulate",
+              "evidence_span": "Imogen, we need to talk properly soon. Sending love from Toronto \ud83d\udc99 And Imogen, I see you. Thank you.",
               "implicitness_level": 2,
               "session_index": 5,
               "turn_index": 2
@@ -650,7 +674,7 @@
           "speaker_persona_id": "p_fm7d4e5f6",
           "speaker_display_name": "Imogen",
           "timestamp_label": "Aug 4, 11:09pm",
-          "message": "💙 call me this week",
+          "message": "\ud83d\udc99 call me this week",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s05_t002",
@@ -662,7 +686,7 @@
           "speaker_persona_id": "p_fm7c3d4e5",
           "speaker_display_name": "Kofi",
           "timestamp_label": "Aug 4, 11:13pm",
-          "message": "Also those photos have absolutely wrecked me. I spent half the night looking at Easter flights 😅",
+          "message": "Also those photos have absolutely wrecked me. I spent half the night looking at Easter flights \ud83d\ude05",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s05_t003",
@@ -698,7 +722,7 @@
           "speaker_persona_id": "p_fm7a1b2c3",
           "speaker_display_name": "Mum",
           "timestamp_label": "Aug 4, 11:27pm",
-          "message": "Now THAT I like the sound of 💙",
+          "message": "Now THAT I like the sound of \ud83d\udc99",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_7a8b9c0d_s05_t006",
@@ -742,7 +766,13 @@
           "timestamp": "2025-08-04T23:36:00"
         }
       ],
-      "date": "2025-08-04"
+      "date": "2025-08-04",
+      "active_participants": [
+        "p_fm7a1b2c3",
+        "p_fm7d4e5f6",
+        "p_fm7c3d4e5",
+        "p_fm7b2c3d4"
+      ]
     }
   ],
   "total_turns": 50,
@@ -750,32 +780,80 @@
     {
       "challenge_id": "ch_fm7s1c1",
       "session_index": 1,
-      "turn_id": "grp_7a8b9c0d_s01_t001"
+      "turn_id": "grp_7a8b9c0d_s01_t001",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_fm7d4e5f6",
+      "speaker_persona_id": "p_fm7d4e5f6",
+      "fact_attribute": "logistics_management",
+      "fact_value": "Imogen quietly handles family logistics before anyone needs to ask \u2014 she had already booked the anniversary dinner before the discussion began",
+      "evidence_span": "Already sorted a table for four at Calabrese on the actual date",
+      "implicitness_level": 2,
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_fm7s2c1",
       "session_index": 2,
-      "turn_id": "grp_7a8b9c0d_s02_t003"
+      "turn_id": "grp_7a8b9c0d_s02_t003",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_fm7c3d4e5",
+      "speaker_persona_id": "p_fm7c3d4e5",
+      "fact_attribute": "travel_and_party_constraint",
+      "fact_value": "Kofi's opposition to a big party is partly because the timing and cost of transatlantic travel makes frequent UK visits very difficult; he can't realistically be there for a March event after an August visit",
+      "evidence_span": "March is just genuinely very hard from my end, I was home in August. Two transatlantic trips in eight months is a lot, cost aside.",
+      "implicitness_level": 2,
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_fm7s3c1",
       "session_index": 3,
-      "turn_id": "grp_7a8b9c0d_s03_t001"
+      "turn_id": "grp_7a8b9c0d_s03_t001",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "p_fm7b2c3d4",
+      "speaker_persona_id": "p_fm7d4e5f6",
+      "fact_attribute": "dad_health_known_by_imogen",
+      "fact_value": "Imogen knows about Dad's cardiac scare and is managing it quietly; she reassures Mum without disclosing what she knows, carrying the information and the logistics alone",
+      "evidence_span": "He's fine Mum, I spoke to him this morning \ud83d\ude0a he's just tired. I'm on it \ud83d\ude34",
+      "implicitness_level": 2,
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_fm7s4c1",
       "session_index": 4,
-      "turn_id": "grp_7a8b9c0d_s04_t001"
+      "turn_id": "grp_7a8b9c0d_s04_t001",
+      "challenge_type": "norm_violation",
+      "subject_persona_id": "p_fm7c3d4e5",
+      "speaker_persona_id": "p_fm7c3d4e5",
+      "fact_attribute": "christmas_attendance_norm_breach",
+      "fact_value": "Kofi may not be able to make Christmas this year, breaching the family norm that everyone comes home for Christmas; transatlantic travel costs are the constraint he reveals here",
+      "evidence_span": "it might be an even year this time",
+      "implicitness_level": 2,
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_fm7s5c1",
       "session_index": 5,
-      "turn_id": "grp_7a8b9c0d_s05_t002"
+      "turn_id": "grp_7a8b9c0d_s05_t002",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "p_fm7d4e5f6",
+      "speaker_persona_id": "p_fm7c3d4e5",
+      "fact_attribute": "kofi_imogen_sibling_bond",
+      "fact_value": "Kofi and Imogen have a close sibling bond; Kofi acknowledges Imogen's invisible labour with 'I see you' \u2014 a private recognition that he understands what she carries but that the family does not fully articulate",
+      "evidence_span": "Imogen, we need to talk properly soon. Sending love from Toronto \ud83d\udc99 And Imogen, I see you. Thank you.",
+      "implicitness_level": 2,
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_9c0ds5x9",
       "session_index": 5,
-      "turn_id": "grp_7a8b9c0d_s05_t009"
+      "turn_id": "grp_7a8b9c0d_s05_t009",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_fm7c3d4e5",
+      "speaker_persona_id": "p_fm7c3d4e5",
+      "fact_attribute": "visit_frequency",
+      "fact_value": "Kofi shifts from saying two transatlantic trips are impossible to actively pricing an extra Easter trip after missing the anniversary dinner.",
+      "evidence_span": "Sensible-ish. But yes, I'm looking.",
+      "implicitness_level": 2,
+      "turn_index": 10
     }
   ],
   "start_date": "2025-07-07"

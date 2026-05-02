@@ -17,7 +17,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "jan 6, 7:00pm",
           "timestamp": "2025-01-06T19:00:00",
-          "message": "Good evening my children! Happy New Year to all of you. God willing this year will bring health and peace to every one of you. 🙏",
+          "message": "Good evening my children! Happy New Year to all of you. God willing this year will bring health and peace to every one of you. \ud83d\ude4f",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -29,7 +29,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 6, 7:02pm",
           "timestamp": "2025-01-06T19:02:00",
-          "message": "Happy New Year family!! Literally cannot believe it is 2025 already 🎉🥂✨🙏 hope everyone had an amazing time!!",
+          "message": "Happy New Year family!! Literally cannot believe it is 2025 already \ud83c\udf89\ud83e\udd42\u2728\ud83d\ude4f hope everyone had an amazing time!!",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -77,7 +77,7 @@
           "speaker_display_name": "Tolu",
           "timestamp_label": "jan 6, 7:14pm",
           "timestamp": "2025-01-06T19:14:00",
-          "message": "Happy New Year. Hope everyone rested well. Any injuries to report? 😂",
+          "message": "Happy New Year. Hope everyone rested well. Any injuries to report? \ud83d\ude02",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -125,7 +125,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "jan 6, 7:27pm",
           "timestamp": "2025-01-06T19:27:00",
-          "message": "My dears, wishing you all a blessed new year 🙏 make sure you are starting the year with enough sleep and not rushing back to old habits too fast",
+          "message": "My dears, wishing you all a blessed new year \ud83d\ude4f make sure you are starting the year with enough sleep and not rushing back to old habits too fast",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -137,7 +137,7 @@
           "speaker_display_name": "Seun",
           "timestamp_label": "jan 6, 7:29pm",
           "timestamp": "2025-01-06T19:29:00",
-          "message": "Tolu 😂 no injuries but I did eat more fish than I wanted over Christmas honestly I am back on strictly plant-based now I mean I only slipped because of mum's pepper soup",
+          "message": "Tolu \ud83d\ude02 no injuries but I did eat more fish than I wanted over Christmas honestly I am back on strictly plant-based now I mean I only slipped because of mum's pepper soup",
           "message_index": 11,
           "planted_challenges": [
             {
@@ -149,7 +149,7 @@
               "fact_value": "flexitarian tipping toward full veganism - describes slip as an exception, reasserts plant-based identity",
               "implicitness_level": 2,
               "notes": "Seun frames the fish as a lapse she already regrets, establishing pre-vegan baseline",
-              "evidence_span": "Tolu 😂 no injuries but I did eat more fish than I wanted over Christmas honestly I am back on strictly plant-based now I mean I only slipped because of mum's pepper soup",
+              "evidence_span": "Tolu \ud83d\ude02 no injuries but I did eat more fish than I wanted over Christmas honestly I am back on strictly plant-based now I mean I only slipped because of mum's pepper soup",
               "session_index": 1,
               "turn_index": 10
             }
@@ -175,7 +175,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 6, 7:36pm",
           "timestamp": "2025-01-06T19:36:00",
-          "message": "Nkem you lot have to tell her she has been lurking in this chat for months! Welcome properly 😂🎉",
+          "message": "Nkem you lot have to tell her she has been lurking in this chat for months! Welcome properly \ud83d\ude02\ud83c\udf89",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -225,7 +225,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "jan 6, 7:45pm",
           "timestamp": "2025-01-06T19:45:00",
-          "message": "omg Nkem we love u 😭😭 welcome to the chaos lmaoo",
+          "message": "omg Nkem we love u \ud83d\ude2d\ud83d\ude2d welcome to the chaos lmaoo",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -287,7 +287,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "jan 6, 7:56pm",
           "timestamp": "2025-01-06T19:56:00",
-          "message": "My children please no arguments in the new year. We are all grateful. God willing this year brings only blessings. 🙏",
+          "message": "My children please no arguments in the new year. We are all grateful. God willing this year brings only blessings. \ud83d\ude4f",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -295,7 +295,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db01aa01",
+        "p_db04dd04",
+        "p_db08hh08",
+        "p_db05ee05",
+        "p_db06ff06",
+        "p_db03cc03",
+        "p_db07gg07",
+        "p_db09ii09",
+        "p_db02bb02",
+        "p_db10jj10"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s02",
@@ -336,7 +348,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 13, 6:35pm",
           "timestamp": "2025-01-13T18:35:00",
-          "message": "Yes!! So excited you lot, literally been waiting for an excuse to use the new dining chairs 🪑🍽✨😍 say 3pm? That gives everyone time to travel",
+          "message": "Yes!! So excited you lot, literally been waiting for an excuse to use the new dining chairs \ud83e\ude91\ud83c\udf7d\u2728\ud83d\ude0d say 3pm? That gives everyone time to travel",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -360,7 +372,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "jan 13, 6:41pm",
           "timestamp": "2025-01-13T18:41:00",
-          "message": "omg yes SEUN's jollof 🙌🙌🙌 what do I bring",
+          "message": "omg yes SEUN's jollof \ud83d\ude4c\ud83d\ude4c\ud83d\ude4c what do I bring",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -410,7 +422,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 13, 6:50pm",
           "timestamp": "2025-01-13T18:50:00",
-          "message": "Adaeze I know you feel strongly about everyone contributing a dish - and you are absolutely right - but maybe Kayode can bring drinks AND the puff puff? That way we are covered 😂",
+          "message": "Adaeze I know you feel strongly about everyone contributing a dish - and you are absolutely right - but maybe Kayode can bring drinks AND the puff puff? That way we are covered \ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [
             {
@@ -422,7 +434,7 @@
               "fact_value": "Adaeze expects everyone to bring food to gatherings - Funke demonstrates prior knowledge by framing her workaround around Adaeze's preference",
               "implicitness_level": 2,
               "notes": "Funke says 'I know you feel strongly' before Adaeze has restated the norm in this message - implies established knowledge from prior experience",
-              "evidence_span": "Adaeze I know you feel strongly about everyone contributing a dish - and you are absolutely right - but maybe Kayode can bring drinks AND the puff puff? That way we are covered 😂",
+              "evidence_span": "Adaeze I know you feel strongly about everyone contributing a dish - and you are absolutely right - but maybe Kayode can bring drinks AND the puff puff? That way we are covered \ud83d\ude02",
               "session_index": 2,
               "turn_index": 7
             }
@@ -460,7 +472,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "jan 13, 6:59pm",
           "timestamp": "2025-01-13T18:59:00",
-          "message": "My dear I will make moin moin on the day. And Kayode please make sure you eat something proper before you arrive 🙏",
+          "message": "My dear I will make moin moin on the day. And Kayode please make sure you eat something proper before you arrive \ud83d\ude4f",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -534,7 +546,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 13, 7:15pm",
           "timestamp": "2025-01-13T19:15:00",
-          "message": "LITERALLY 😂 Tolu you are so proud of that yam 🙏🙌😂",
+          "message": "LITERALLY \ud83d\ude02 Tolu you are so proud of that yam \ud83d\ude4f\ud83d\ude4c\ud83d\ude02",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -590,7 +602,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db01aa01",
+        "p_db03cc03",
+        "p_db04dd04",
+        "p_db05ee05",
+        "p_db08hh08",
+        "p_db06ff06",
+        "p_db09ii09",
+        "p_db10jj10",
+        "p_db02bb02",
+        "p_db07gg07"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s03",
@@ -633,7 +657,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "jan 20, 8:02pm",
           "timestamp": "2025-01-20T20:02:00",
-          "message": "omg SEUN 🙌🙌 okay queen",
+          "message": "omg SEUN \ud83d\ude4c\ud83d\ude4c okay queen",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -645,7 +669,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 20, 8:05pm",
           "timestamp": "2025-01-20T20:05:00",
-          "message": "Seun this is incredible you lot!! She literally glows every time I see her 🌟✨😍💚",
+          "message": "Seun this is incredible you lot!! She literally glows every time I see her \ud83c\udf1f\u2728\ud83d\ude0d\ud83d\udc9a",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -769,7 +793,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "jan 20, 8:29pm",
           "timestamp": "2025-01-20T20:29:00",
-          "message": "dad 😭😭",
+          "message": "dad \ud83d\ude2d\ud83d\ude2d",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -781,7 +805,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 20, 8:32pm",
           "timestamp": "2025-01-20T20:32:00",
-          "message": "EMEKA 💀 said what he said 😂",
+          "message": "EMEKA \ud83d\udc80 said what he said \ud83d\ude02",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -853,7 +877,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "jan 20, 8:50pm",
           "timestamp": "2025-01-20T20:50:00",
-          "message": "My dear Seun, your body will thank you. I have seen what poor diet does over the years 🙏 make sure you are still eating enough iron-rich foods",
+          "message": "My dear Seun, your body will thank you. I have seen what poor diet does over the years \ud83d\ude4f make sure you are still eating enough iron-rich foods",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -885,7 +909,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db05ee05",
+        "p_db08hh08",
+        "p_db04dd04",
+        "p_db03cc03",
+        "p_db06ff06",
+        "p_db07gg07",
+        "p_db01aa01",
+        "p_db02bb02",
+        "p_db09ii09",
+        "p_db10jj10"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s04",
@@ -902,7 +938,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 27, 5:00pm",
           "timestamp": "2025-01-27T17:00:00",
-          "message": "Yesterday was honestly so beautiful you lot 😭🍽💛 thank you all for coming - and Seun your jollof was literally unmatched, zero meat and I could not tell the difference",
+          "message": "Yesterday was honestly so beautiful you lot \ud83d\ude2d\ud83c\udf7d\ud83d\udc9b thank you all for coming - and Seun your jollof was literally unmatched, zero meat and I could not tell the difference",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -914,7 +950,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "jan 27, 5:02pm",
           "timestamp": "2025-01-27T17:02:00",
-          "message": "best saturday in ages omg 😭😭 also mum your moin moin was different?? better than usual??",
+          "message": "best saturday in ages omg \ud83d\ude2d\ud83d\ude2d also mum your moin moin was different?? better than usual??",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1112,7 +1148,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "jan 27, 5:41pm",
           "timestamp": "2025-01-27T17:41:00",
-          "message": "My dear Emeka, please listen to Tolu. I see too many patients who push through when they should be resting 🙏 a missed Sunday is fine, just rest",
+          "message": "My dear Emeka, please listen to Tolu. I see too many patients who push through when they should be resting \ud83d\ude4f a missed Sunday is fine, just rest",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1136,7 +1172,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "jan 27, 5:47pm",
           "timestamp": "2025-01-27T17:47:00",
-          "message": "Okay can we talk about the good things though?? Uncle Dele you laughed three times yesterday and I counted! That is a record literally 😂🎉",
+          "message": "Okay can we talk about the good things though?? Uncle Dele you laughed three times yesterday and I counted! That is a record literally \ud83d\ude02\ud83c\udf89",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1172,7 +1208,7 @@
           "speaker_display_name": "Adaeze",
           "timestamp_label": "jan 27, 5:56pm",
           "timestamp": "2025-01-27T17:56:00",
-          "message": "Your father is fine. He is just resting. Thank you all for a lovely gathering. God willing next time will be even better. 🙏",
+          "message": "Your father is fine. He is just resting. Thank you all for a lovely gathering. God willing next time will be even better. \ud83d\ude4f",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1180,7 +1216,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db04dd04",
+        "p_db08hh08",
+        "p_db01aa01",
+        "p_db05ee05",
+        "p_db03cc03",
+        "p_db06ff06",
+        "p_db02bb02",
+        "p_db09ii09",
+        "p_db07gg07",
+        "p_db10jj10"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s05",
@@ -1271,7 +1319,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 3, 7:44pm",
           "timestamp": "2025-02-03T19:44:00",
-          "message": "Kayode!! you lot honestly this is so wholesome 😭💛🙌🎉",
+          "message": "Kayode!! you lot honestly this is so wholesome \ud83d\ude2d\ud83d\udc9b\ud83d\ude4c\ud83c\udf89",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1359,7 +1407,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "feb 3, 7:59pm",
           "timestamp": "2025-02-03T19:59:00",
-          "message": "My dear Nkem that is completely natural. The Oyelaran gatherings are a lot even for people who have been coming for thirty years 🙏",
+          "message": "My dear Nkem that is completely natural. The Oyelaran gatherings are a lot even for people who have been coming for thirty years \ud83d\ude4f",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1407,7 +1455,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 3, 8:11pm",
           "timestamp": "2025-02-03T20:11:00",
-          "message": "Okay Valentine's plans who is doing what 👀👀 Tolu is taking me to that place in Shoreditch obviously 🥂✨",
+          "message": "Okay Valentine's plans who is doing what \ud83d\udc40\ud83d\udc40 Tolu is taking me to that place in Shoreditch obviously \ud83e\udd42\u2728",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1431,7 +1479,7 @@
           "speaker_display_name": "Seun",
           "timestamp_label": "feb 3, 8:17pm",
           "timestamp": "2025-02-03T20:17:00",
-          "message": "honestly Tolu 😂 yes he is the most organised person I know I mean it is impressive and slightly frightening",
+          "message": "honestly Tolu \ud83d\ude02 yes he is the most organised person I know I mean it is impressive and slightly frightening",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1455,7 +1503,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "feb 3, 8:24pm",
           "timestamp": "2025-02-03T20:24:00",
-          "message": "omg Kayode 🥺🥺 Nkem you better be impressed",
+          "message": "omg Kayode \ud83e\udd7a\ud83e\udd7a Nkem you better be impressed",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1475,7 +1523,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db01aa01",
+        "p_db06ff06",
+        "p_db05ee05",
+        "p_db08hh08",
+        "p_db03cc03",
+        "p_db04dd04",
+        "p_db07gg07",
+        "p_db10jj10",
+        "p_db09ii09",
+        "p_db02bb02"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s06",
@@ -1504,7 +1564,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 10, 6:02pm",
           "timestamp": "2025-02-10T18:02:00",
-          "message": "KAYODEEEEE 🎉🎉🎉🎉🎉 you lot I literally knew this was coming!! He has been working so hard 😭💛",
+          "message": "KAYODEEEEE \ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89 you lot I literally knew this was coming!! He has been working so hard \ud83d\ude2d\ud83d\udc9b",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1516,7 +1576,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "feb 10, 6:05pm",
           "timestamp": "2025-02-10T18:05:00",
-          "message": "YESSSSS big bro 🙌🙌🙌 omg im crying",
+          "message": "YESSSSS big bro \ud83d\ude4c\ud83d\ude4c\ud83d\ude4c omg im crying",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1640,7 +1700,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "feb 10, 6:29pm",
           "timestamp": "2025-02-10T18:29:00",
-          "message": "My dear Kayode, well done. Make sure you are not working yourself into the ground with the extra responsibility 🙏",
+          "message": "My dear Kayode, well done. Make sure you are not working yourself into the ground with the extra responsibility \ud83d\ude4f",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1676,7 +1736,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 10, 6:38pm",
           "timestamp": "2025-02-10T18:38:00",
-          "message": "Okay I also have news and it is not a promotion but it IS important - you lot Adaeze taught me to make egusi soup last week and I genuinely think it changed my life? Like I finally understand what food is supposed to feel like in a kitchen. No more apologising for not knowing the old recipes. I am learning them now. Properly. 🍲💚✨",
+          "message": "Okay I also have news and it is not a promotion but it IS important - you lot Adaeze taught me to make egusi soup last week and I genuinely think it changed my life? Like I finally understand what food is supposed to feel like in a kitchen. No more apologising for not knowing the old recipes. I am learning them now. Properly. \ud83c\udf72\ud83d\udc9a\u2728",
           "message_index": 14,
           "planted_challenges": [
             {
@@ -1775,7 +1835,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "feb 10, 6:56pm",
           "timestamp": "2025-02-10T18:56:00",
-          "message": "okay wait the Oyelaran cooking school era has begun lmaoo I WANT IN 😭🙌",
+          "message": "okay wait the Oyelaran cooking school era has begun lmaoo I WANT IN \ud83d\ude2d\ud83d\ude4c",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1783,7 +1843,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db06ff06",
+        "p_db04dd04",
+        "p_db08hh08",
+        "p_db05ee05",
+        "p_db03cc03",
+        "p_db01aa01",
+        "p_db09ii09",
+        "p_db02bb02",
+        "p_db07gg07",
+        "p_db10jj10"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s07",
@@ -1800,7 +1872,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 17, 8:00pm",
           "timestamp": "2025-02-17T20:00:00",
-          "message": "Okay I know it is only February but can we talk about Christmas? I just want to start early you lot before it becomes a crisis 🎄✨🙏😂",
+          "message": "Okay I know it is only February but can we talk about Christmas? I just want to start early you lot before it becomes a crisis \ud83c\udf84\u2728\ud83d\ude4f\ud83d\ude02",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1862,7 +1934,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 17, 8:11pm",
           "timestamp": "2025-02-17T20:11:00",
-          "message": "Tolu... 😭😭😭 I was not going to ask you lot I genuinely was not expecting this",
+          "message": "Tolu... \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d I was not going to ask you lot I genuinely was not expecting this",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1886,7 +1958,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "feb 17, 8:18pm",
           "timestamp": "2025-02-17T20:18:00",
-          "message": "OMG YES!! 🎉🎉🎉🎉",
+          "message": "OMG YES!! \ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1946,7 +2018,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 17, 8:32pm",
           "timestamp": "2025-02-17T20:32:00",
-          "message": "Nkem that is EXACTLY it and I am not crying you are crying 😭💛💛",
+          "message": "Nkem that is EXACTLY it and I am not crying you are crying \ud83d\ude2d\ud83d\udc9b\ud83d\udc9b",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2034,7 +2106,7 @@
           "speaker_display_name": "Seun",
           "timestamp_label": "feb 17, 8:47pm",
           "timestamp": "2025-02-17T20:47:00",
-          "message": "Bisi!!! honestly I mean we have been waiting for this I am so happy 🥹🥹",
+          "message": "Bisi!!! honestly I mean we have been waiting for this I am so happy \ud83e\udd79\ud83e\udd79",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2058,7 +2130,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "feb 17, 8:54pm",
           "timestamp": "2025-02-17T20:54:00",
-          "message": "My dear Bisi I am so pleased. Make sure you are sleeping and eating properly through this period 🙏",
+          "message": "My dear Bisi I am so pleased. Make sure you are sleeping and eating properly through this period \ud83d\ude4f",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2078,7 +2150,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db04dd04",
+        "p_db01aa01",
+        "p_db09ii09",
+        "p_db03cc03",
+        "p_db05ee05",
+        "p_db08hh08",
+        "p_db02bb02",
+        "p_db07gg07",
+        "p_db06ff06",
+        "p_db10jj10"
+      ]
     },
     {
       "session_id": "grp_dba9214c_s08",
@@ -2095,7 +2179,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "feb 24, 7:00pm",
           "timestamp": "2025-02-24T19:00:00",
-          "message": "My dears, I have some news. I have booked a trip. Just myself. Barbados, ten days, April. I decided after speaking with Seun last month that I have been giving advice for twenty years that I have not been following myself. 🙏",
+          "message": "My dears, I have some news. I have booked a trip. Just myself. Barbados, ten days, April. I decided after speaking with Seun last month that I have been giving advice for twenty years that I have not been following myself. \ud83d\ude4f",
           "message_index": 1,
           "planted_challenges": [
             {
@@ -2134,7 +2218,7 @@
           "speaker_display_name": "Seun",
           "timestamp_label": "feb 24, 7:02pm",
           "timestamp": "2025-02-24T19:02:00",
-          "message": "AUNTIE GRACE 🙌🙌🙌🙌 honestly this is the most important announcement of the year I mean she deserves this more than anyone",
+          "message": "AUNTIE GRACE \ud83d\ude4c\ud83d\ude4c\ud83d\ude4c\ud83d\ude4c honestly this is the most important announcement of the year I mean she deserves this more than anyone",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2146,7 +2230,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 24, 7:05pm",
           "timestamp": "2025-02-24T19:05:00",
-          "message": "AUNTIE GRACE YOU LOT 😭🌊✈💛 this is ICONIC",
+          "message": "AUNTIE GRACE YOU LOT \ud83d\ude2d\ud83c\udf0a\u2708\ud83d\udc9b this is ICONIC",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2158,7 +2242,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "feb 24, 7:09pm",
           "timestamp": "2025-02-24T19:09:00",
-          "message": "omg auntie grace YES 🙌🙌 queen behaviour",
+          "message": "omg auntie grace YES \ud83d\ude4c\ud83d\ude4c queen behaviour",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2230,7 +2314,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "feb 24, 7:27pm",
           "timestamp": "2025-02-24T19:27:00",
-          "message": "My dears thank you. I also want to say - Seun, those conversations we had about rest and about listening to your body, they stayed with me. I had not taken a holiday alone since 2021. It was time. 🙏",
+          "message": "My dears thank you. I also want to say - Seun, those conversations we had about rest and about listening to your body, they stayed with me. I had not taken a holiday alone since 2021. It was time. \ud83d\ude4f",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2254,7 +2338,7 @@
           "speaker_display_name": "Auntie Grace",
           "timestamp_label": "feb 24, 7:32pm",
           "timestamp": "2025-02-24T19:32:00",
-          "message": "My dear Nkem, you may be a researcher but you have the instincts of a nurse. You are completely right. 🙏",
+          "message": "My dear Nkem, you may be a researcher but you have the instincts of a nurse. You are completely right. \ud83d\ude4f",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2304,7 +2388,7 @@
           "speaker_display_name": "Seun",
           "timestamp_label": "feb 24, 7:41pm",
           "timestamp": "2025-02-24T19:41:00",
-          "message": "MUM 😭😭😭 I mean - honestly - this is the most motherly thing you have ever done I mean coming from someone who thought veganism was oyinbo food last year, this is everything",
+          "message": "MUM \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d I mean - honestly - this is the most motherly thing you have ever done I mean coming from someone who thought veganism was oyinbo food last year, this is everything",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2328,7 +2412,7 @@
           "speaker_display_name": "Funke",
           "timestamp_label": "feb 24, 7:47pm",
           "timestamp": "2025-02-24T19:47:00",
-          "message": "Adaeze you are literally the best I love her so much you lot 😭💛✨",
+          "message": "Adaeze you are literally the best I love her so much you lot \ud83d\ude2d\ud83d\udc9b\u2728",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2352,7 +2436,7 @@
           "speaker_display_name": "Bisi",
           "timestamp_label": "feb 24, 7:54pm",
           "timestamp": "2025-02-24T19:54:00",
-          "message": "tolu 😭😭 data point lmaoo",
+          "message": "tolu \ud83d\ude2d\ud83d\ude2d data point lmaoo",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2372,7 +2456,19 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_db10jj10",
+        "p_db05ee05",
+        "p_db04dd04",
+        "p_db08hh08",
+        "p_db03cc03",
+        "p_db06ff06",
+        "p_db01aa01",
+        "p_db09ii09",
+        "p_db02bb02",
+        "p_db07gg07"
+      ]
     }
   ],
   "total_turns": 160,
@@ -2386,9 +2482,9 @@
       "fact_value": "flexitarian tipping toward full veganism - describes slip as an exception, reasserts plant-based identity",
       "implicitness_level": 2,
       "notes": "Seun frames the fish as a lapse she already regrets, establishing pre-vegan baseline",
-      "evidence_span": "Tolu 😂 no injuries but I did eat more fish than I wanted over Christmas honestly I am back on strictly plant-based now I mean I only slipped because of mum's pepper soup",
+      "evidence_span": "Tolu \ud83d\ude02 no injuries but I did eat more fish than I wanted over Christmas honestly I am back on strictly plant-based now I mean I only slipped because of mum's pepper soup",
       "session_index": 1,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_db01s1c2",
@@ -2401,7 +2497,7 @@
       "notes": "Nkem gives precise date of her first proper message - establishes she has been quietly integrated for months",
       "evidence_span": "I think I have said hello before, Funke. That was the Sunday in mid-October, just after Kayode's sprint review. But yes - hello, properly, everyone. I am glad to be here.",
       "session_index": 1,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_db01s1c3",
@@ -2414,7 +2510,7 @@
       "notes": "Emeka and Uncle Dele both express traditional-food-only stance in adjacent turns with different phrasing - seed for Q4 false attribution",
       "evidence_span": "Good. The fish was from Nigeria last trip. Worth it.",
       "session_index": 1,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_db02s2c1",
@@ -2427,7 +2523,7 @@
       "notes": "Kayode frames it as easier logistics but the pattern of drinks-over-food is the tell",
       "evidence_span": "Can do drinks? Easier for me to sort drinks than food?",
       "session_index": 2,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_db02s2c2",
@@ -2438,9 +2534,9 @@
       "fact_value": "Adaeze expects everyone to bring food to gatherings - Funke demonstrates prior knowledge by framing her workaround around Adaeze's preference",
       "implicitness_level": 2,
       "notes": "Funke says 'I know you feel strongly' before Adaeze has restated the norm in this message - implies established knowledge from prior experience",
-      "evidence_span": "Adaeze I know you feel strongly about everyone contributing a dish - and you are absolutely right - but maybe Kayode can bring drinks AND the puff puff? That way we are covered 😂",
+      "evidence_span": "Adaeze I know you feel strongly about everyone contributing a dish - and you are absolutely right - but maybe Kayode can bring drinks AND the puff puff? That way we are covered \ud83d\ude02",
       "session_index": 2,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_db02s2c3",
@@ -2453,7 +2549,7 @@
       "notes": "Tolu steps in with the yam unprompted - part of an established pattern where he fills gaps before anyone asks",
       "evidence_span": "Good. I will do the yam. Clinically speaking it is the foundation of any proper Nigerian gathering.",
       "session_index": 2,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_db03s3c1",
@@ -2466,7 +2562,7 @@
       "notes": "Seun marks the shift explicitly here via health results - Session 1 established the flexitarian baseline",
       "evidence_span": "honestly family I have news and I need to share it here because you lot are going to be affected - I got my annual bloods back last week and the results were genuinely incredible I mean my inflammator",
       "session_index": 3,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_db03s3c3",
@@ -2479,7 +2575,7 @@
       "notes": "Kayode's 'Knew this was coming' implies prior knowledge from private conversations not visible to the rest of the group",
       "evidence_span": "Knew this was coming lol. Still making jollof for the family though right?",
       "session_index": 3,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_db03s3c2",
@@ -2492,7 +2588,7 @@
       "notes": "Emeka's 'Noted.' is his verbal equivalent of silence - contrast with his warm oxtail contribution in Session 2 makes the gap visible",
       "evidence_span": "Noted.",
       "session_index": 3,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_db04s4c1",
@@ -2505,7 +2601,7 @@
       "notes": "Tolu flags the absence as notable rather than expected - implies it violates an established norm around Emeka's church attendance",
       "evidence_span": "No complaints about the food. Just to note though - did anyone else notice Dad missed church this morning?",
       "session_index": 4,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_db04s4c3",
@@ -2518,7 +2614,7 @@
       "notes": "Dele's 'Rest is important at our age' and Tolu's 'Clinically speaking, rest after exertion is appropriate' are near-identical in substance but differ in relationship framing",
       "evidence_span": "EMEKA I trust you are well. Rest is important at our age. I note the same. Best regards, Dele",
       "session_index": 4,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_db04s4c2",
@@ -2531,7 +2627,7 @@
       "notes": "Nkem asking whether the call happened prompts Adaeze to reveal Emeka was on only briefly - implicit signal of the norm eroding for him",
       "evidence_span": "I think it is quite natural after a full day like yesterday - I may be wrong but the drive back alone must have been tiring. Did the Sunday call happen this afternoon?",
       "session_index": 4,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_db05s5c1",
@@ -2544,7 +2640,7 @@
       "notes": "Adaeze flagging it as notable ('I notice these things') implies it is different from the prior baseline",
       "evidence_span": "Good evening my children. Kayode, you have been on every call this month. I notice these things. God willing this continues.",
       "session_index": 5,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_db05s5c2",
@@ -2557,7 +2653,7 @@
       "notes": "Nkem admits it was 'full-on at first' then deflects - the combination of admission and pivot reveals her preference without stating it directly",
       "evidence_span": "I think Kayode has been making a real effort recently - I may be wrong but I notice the same. Also I had a lovely time at the January gathering. I perhaps found it a little full-on at first but once t",
       "session_index": 5,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_db05s5c3",
@@ -2570,7 +2666,7 @@
       "notes": "Seun's 'no one expects you to perform being fine' implies prior knowledge of Nkem's experience that goes beyond what was just said in the chat",
       "evidence_span": "Nkem I love that you said that honestly I mean you are allowed to find it a lot, no one expects you to perform being fine with ten people in one room",
       "session_index": 5,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_db06s6c2",
@@ -2583,7 +2679,7 @@
       "notes": "The phrase 'I have not always understood' acknowledges the prior skepticism; 'I am proud' is the shift marker",
       "evidence_span": "KAYODE I must say this is genuinely impressive. I will admit I have not always understood the nature of your work but this recognition is clear. I am proud of what you have built. Best regards, Dele",
       "session_index": 6,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_db06s6c4",
@@ -2596,7 +2692,7 @@
       "notes": "Contrast with Session 2 where Nkem's contributions were tentative and hedged with 'I may be wrong' - here she is directing the conversation",
       "evidence_span": "Kayode, I am very glad you shared this here. I think the family should hear it. I may be wrong but I believe this is the most important professional news in the group for some time - would that be fai",
       "session_index": 6,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_db06s6c1",
@@ -2609,7 +2705,7 @@
       "notes": "The phrase 'No more apologising' marks the conscious shift; 'learning them now. Properly.' is the new state",
       "evidence_span": "Okay I also have news and it is not a promotion but it IS important - you lot Adaeze taught me to make egusi soup last week and I genuinely think it changed my life? Like I finally understand what foo",
       "session_index": 6,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_db06s6c3",
@@ -2622,7 +2718,7 @@
       "notes": "The egusi lesson happened privately; Funke surfacing it here is the first the group hears of it - establishes the bond milestone",
       "evidence_span": "Okay I also have news and it is not a promotion but it IS important - you lot Adaeze taught me to make egusi soup last week and I genuinely think it changed my life? Like I finally understand what foo",
       "session_index": 6,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_db07s7c1",
@@ -2635,7 +2731,7 @@
       "notes": "The fact Tolu raises it himself rather than being asked is the shift marker - Funke's prior persistence and Adaeze's warmth toward Funke's mother were the triggers",
       "evidence_span": "Agreed on location. I also wanted to say - Funke's parents have not been to a Christmas with us before. I think it is time we invited them this year.",
       "session_index": 7,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_db07s7c2",
@@ -2648,7 +2744,7 @@
       "notes": "The stripped-down directness ('okay so. I am sitting them. May. Already registered.') is striking contrast to her usual deflection pattern",
       "evidence_span": "okay so. I am sitting them. May. Already registered.",
       "session_index": 7,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_db07s7c3",
@@ -2661,7 +2757,7 @@
       "notes": "Kayode already knows because of the private conversation - signals the close Kayode-Bisi sub-bond that influences Bisi's decisions",
       "evidence_span": "She is. We talked. She is doing it?",
       "session_index": 7,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_db08s8c1",
@@ -2674,7 +2770,7 @@
       "notes": "The phrase 'I have been giving advice that I have not been following myself' is the explicit self-diagnosis; the solo trip is the new behaviour",
       "evidence_span": "My dears, I have some news. I have booked a trip. Just myself. Barbados, ten days, April. I decided after speaking with Seun last month that I have been giving advice for twenty years that I have not ",
       "session_index": 8,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_db08s8c3",
@@ -2687,7 +2783,7 @@
       "notes": "Grace references speaking with Seun last month as the catalyst - first the group hears of this connection as a formative influence on Grace's behaviour",
       "evidence_span": "My dears, I have some news. I have booked a trip. Just myself. Barbados, ten days, April. I decided after speaking with Seun last month that I have been giving advice for twenty years that I have not ",
       "session_index": 8,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_db08s8c2",
@@ -2700,7 +2796,7 @@
       "notes": "Adaeze frames it as an experiment - her tone of pride rather than reluctance marks the shift from resistance to genuine accommodation",
       "evidence_span": "Good morning my children. I also have something to share. I have been experimenting. Since Seun told us about her results I have been adapting some of my recipes - I made the egusi with coconut oil an",
       "session_index": 8,
-      "turn_index": 13
+      "turn_index": 14
     }
   ]
 }

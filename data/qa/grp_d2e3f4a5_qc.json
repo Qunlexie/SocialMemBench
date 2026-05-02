@@ -1,14 +1,13 @@
 {
   "network_id": "grp_d2e3f4a5",
-  "total_pairs": 26,
-  "phase1_mean_score": 0.87,
-  "phase1_pass_rate": 88.5,
-  "phase2_grounded_rate": 95.7,
-  "phase3_flagged_count": 4,
+  "total_pairs": 24,
+  "phase1_mean_score": 0.9125,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
   "inference_required_distribution": {
-    "0": 0,
-    "1": 6,
-    "2": 20
+    "1": 2,
+    "2": 23
   },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 1,
@@ -20,103 +19,42 @@
   "by_query_type": {
     "Q1": {
       "count": 6,
-      "mean_score": 0.9,
-      "flagged": 0,
-      "mean_inference_required": 1.67
+      "mean_score": 0.925,
+      "flagged": 0
     },
     "Q2": {
       "count": 3,
-      "mean_score": 0.87,
-      "flagged": 1,
-      "mean_inference_required": 2.0
+      "mean_score": 0.85,
+      "flagged": 0
     },
     "Q4": {
       "count": 1,
       "mean_score": 0.9,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q5": {
       "count": 2,
       "mean_score": 0.9,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q6": {
       "count": 1,
       "mean_score": 0.95,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q7": {
-      "count": 7,
-      "mean_score": 0.87,
-      "flagged": 1,
-      "mean_inference_required": 1.86
+      "count": 6,
+      "mean_score": 0.917,
+      "flagged": 0
     },
     "Q8": {
       "count": 6,
-      "mean_score": 0.82,
-      "flagged": 2,
-      "mean_inference_required": 2.0
+      "mean_score": 0.883,
+      "flagged": 0
     }
   },
-  "flagged_pairs": [
-    {
-      "qa_id": "Q2_e4f5a6b7",
-      "query_type": "Q2",
-      "flag": "q2_silence_as_evidence",
-      "question": "In Session 8 the group affirmed that Christmas Day should remain family only. What did one family member's response to this affirmation reveal about how they actually feel about this rule, and what would a careful reader have needed to notice \u2014 in both what that person said and what they chose not to say \u2014 to catch it?"
-    },
-    {
-      "qa_id": "Q7_5d3a7b1e",
-      "query_type": "Q7",
-      "flag": "q7_overlaps_q7_8d2e6f1b",
-      "question": "In Session 4, what does Emeka's disclosure about his arrangement with Adaeze reveal about the nature of their sibling relationship, and what does the group's reaction tell you about how long this dynamic has been operating?"
-    },
-    {
-      "qa_id": "Q8_9d2b4f7e",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What in Session 3 prompted Emeka to reconsider how often he attends family gatherings, and what in that session and the next tells you this was a genuine shift rather than a statement made in the heat of a family conversation?"
-    },
-    {
-      "qa_id": "Q8_c3d4e5f6",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "In which session did Kingsley's behaviour around family event planning first appear to change, and what in that session explains why it happened when it did rather than in the sessions before it?"
-    }
-  ],
-  "low_score_pairs": [
-    {
-      "qa_id": "Q2_e4f5a6b7",
-      "query_type": "Q2",
-      "score": 0.65,
-      "your_answer": "The most notable non-response is from Emeka, who had already confirmed Funmi (a non-blood family member) would attend Christmas. His silence after Aunty Oby's family-only declaration is significant, but this is a demanding inference \u2014 a reader must notice an absence rather than a statement, and cross-reference an earlier turn.",
-      "ground_truth": "Emeka said nothing after Aunty Oby's family-only affirmation in Session 8. His silence is significant because he had already confirmed Funmi's attendance. The answer requires noticing active participants going silent and cross-referencing S8 t001 with S8 t015."
-    },
-    {
-      "qa_id": "Q8_9d2b4f7e",
-      "query_type": "Q8",
-      "score": 0.75,
-      "your_answer": "Session 3, triggered by his daughter asking why cousins never visit. Confirmed genuine by Session 4 when Emeka proactively offers to collect Nkechi from Reading. Temporal anchors are in Sessions 1 and 3 but the confirmation evidence is only one session later (Session 4).",
-      "ground_truth": "Session 3 trigger (daughter's question), Session 4 evolution (Emeka offers to collect Nkechi). Temporal anchors at sessions 1 and 3. The question asks for both trigger and confirmation of genuineness \u2014 answer covers both."
-    },
-    {
-      "qa_id": "Q7_5d3a7b1e",
-      "query_type": "Q7",
-      "score": 0.75,
-      "your_answer": "Session 4 disclosure (Emeka: 'Adaeze and I have already discussed this privately'), confirmed by Chisom's S3 reference to 'Sunday voice notes.' The pair operates a private coordination channel that predates this chat. Partial overlap with Q7_8d2e6f1b which covers the same relational fact.",
-      "ground_truth": "Emeka and Adaeze operate a private logistics partnership \u2014 confirmed in S3 by Adaeze's separate text reference and Chisom's voice notes comment, formalised in S4 by Emeka's explicit disclosure."
-    },
-    {
-      "qa_id": "Q8_c3d4e5f6",
-      "query_type": "Q8",
-      "score": 0.75,
-      "your_answer": "Session 5. Adaeze named Kingsley explicitly as the accountable party in a short public message ('Kingsley. the venue deposit.'), and he responded by having actually booked it. Temporal anchors at Sessions 1 and 5 are consecutive in the sense that the shift is only one data point forward.",
-      "ground_truth": "Session 5. Trigger: Adaeze's public name-alone accountability. Temporal anchors at sessions 1 (established unreliability) and 5 (first follow-through). The flag is that both anchors are in adjacent sessions relative to the shift \u2014 not well-spaced across the corpus."
-    }
-  ],
+  "flagged_pairs": [],
+  "low_score_pairs": [],
   "per_pair": [
     {
       "qa_id": "Q1_a1f9b2e3",
@@ -224,8 +162,8 @@
       "score_rationale": "Blind answer correctly identifies Emeka's silence and the Funmi tension, but the inference chain requires comparing S8t001 with S8t015 and noticing a non-event \u2014 notably the hardest inference type; also Funmi is Emeka's wife so arguably 'family' by Session 2's established ruling, creating ambiguity not fully resolved in the answer.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_hard_inference: relies on absence-of-response as sole evidence; the ground truth implicitness_level=3 (highest in corpus) reflects genuine ambiguity since Funmi was explicitly accepted as 'practically family' by Aunty Oby in S2"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q4_2a5f8c1d",
@@ -368,8 +306,8 @@
       "score_rationale": "Blind answer correctly identifies trigger (daughter's question) and S4 confirmation (Leeds initiative), but temporal anchors are only Sessions 1 and 3 \u2014 the confirming evidence in S4 is one session after the shift, meeting the consecutive-only flag threshold.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only: temporal_anchors are in Sessions 1 and 3; the only confirming evolved-state evidence is in Session 4 (one session after the shift), which is not well-spaced across the corpus"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_b2c3d4e5",
@@ -392,8 +330,8 @@
       "score_rationale": "Blind answer correctly identifies S5 and the Adaeze accountability message as the trigger, but the temporal anchors (S1 and S5) are at the extremes of the corpus with no mid-point anchor confirming the unchanged pattern \u2014 mild consecutive-only issue (anchors not truly consecutive but the shift evidence is in S5 alone).",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only: the evolved-state evidence exists only in Session 5 with no intermediate anchor between Sessions 1 and 5 confirming the pattern held \u2014 the question relies on Sessions 1 and 5 temporal anchors which are the only two data points"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_d4e5f6a7",
@@ -456,5 +394,6 @@
     "overall_pass": true,
     "failing_turns": []
   },
-  "baseline_reference": "none"
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.485572+00:00"
 }

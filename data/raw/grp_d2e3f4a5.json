@@ -11,12 +11,24 @@
       "age": 64,
       "gender": "female",
       "occupation": "Retired secondary school principal",
-      "background": "Matriarch of the Okonkwo family, originally from Enugu state and now living in Reading. Ran a school for 22 years before retiring. Firmly holds the family together — organises reunions, coordinates logistics, and is the emotional anchor for disputes. Has strong opinions on how family events should be run and does not soften them.",
+      "background": "Matriarch of the Okonkwo family, originally from Enugu state and now living in Reading. Ran a school for 22 years before retiring. Firmly holds the family together \u2014 organises reunions, coordinates logistics, and is the emotional anchor for disputes. Has strong opinions on how family events should be run and does not soften them.",
       "skills_list": [
-        {"skill": "event coordination and logistics", "proficiency": "strong"},
-        {"skill": "Nigerian cooking (Igbo cuisine)", "proficiency": "strong"},
-        {"skill": "conflict mediation", "proficiency": "medium"},
-        {"skill": "gardening", "proficiency": "medium"}
+        {
+          "skill": "event coordination and logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Nigerian cooking (Igbo cuisine)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "conflict mediation",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -36,23 +48,39 @@
       },
       "preferences": {
         "food": [
-          {"value": "insists on cooking ofe onugbu and jollof rice for any family gathering of more than four people — becomes visibly offended if someone orders takeaway instead", "confidence": "High", "implicit": true}
+          {
+            "value": "insists on cooking ofe onugbu and jollof rice for any family gathering of more than four people \u2014 becomes visibly offended if someone orders takeaway instead",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers in-person visits to phone or video calls — will explicitly say 'you should come and see me' rather than arrange a call", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers in-person visits to phone or video calls \u2014 will explicitly say 'you should come and see me' rather than arrange a call",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "dislikes WhatsApp voice messages — always replies with text even when sent a voice note", "confidence": "Medium", "implicit": true}
+          {
+            "value": "dislikes WhatsApp voice messages \u2014 always replies with text even when sent a voice note",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "expects full family attendance at Christmas and Easter — treats partial attendance as a personal slight", "confidence": "High", "implicit": true}
+          {
+            "value": "expects full family attendance at Christmas and Easter \u2014 treats partial attendance as a personal slight",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "video_call_stance",
-          "old_value": "resistant to video calls — prefers in-person contact and has declined many family Zoom sessions",
+          "old_value": "resistant to video calls \u2014 prefers in-person contact and has declined many family Zoom sessions",
           "new_value": "accepts regular video calls as a genuine substitute when travel is not possible, initiated by herself during a health episode",
           "changed_at_session": 5,
           "trigger": "had a minor health scare and could not travel for three weeks; the family set up a weekly Sunday video call and she found she looked forward to it"
@@ -73,9 +101,18 @@
       "occupation": "NHS consultant cardiologist",
       "background": "Eldest of Nkechi's children. Lives in Leeds with his wife and two young children. High-pressure career means he is frequently the least available family member but tries to compensate by being decisive about logistics when he does engage. Has a habit of reframing family discussions in terms of 'what we actually need to decide here.'",
       "skills_list": [
-        {"skill": "clinical decision-making under pressure", "proficiency": "strong"},
-        {"skill": "distance running", "proficiency": "strong"},
-        {"skill": "wine knowledge", "proficiency": "medium"}
+        {
+          "skill": "clinical decision-making under pressure",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "distance running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wine knowledge",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -95,26 +132,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "maintains a strict low-fat diet and avoids heavy fried food — never mentions it but consistently declines those dishes at family meals", "confidence": "High", "implicit": true}
+          {
+            "value": "maintains a strict low-fat diet and avoids heavy fried food \u2014 never mentions it but consistently declines those dishes at family meals",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "runs every morning regardless of location — has declined family breakfast plans that start before 9am because of his run", "confidence": "High", "implicit": true}
+          {
+            "value": "runs every morning regardless of location \u2014 has declined family breakfast plans that start before 9am because of his run",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "prefers to communicate in the group only for decisions — does not engage in chat threads that are purely social", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers to communicate in the group only for decisions \u2014 does not engage in chat threads that are purely social",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "reluctant to take on family financial coordination — defers to Adaeze even when asked directly", "confidence": "Medium", "implicit": true}
+          {
+            "value": "reluctant to take on family financial coordination \u2014 defers to Adaeze even when asked directly",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "family_gathering_frequency",
-          "old_value": "attends family events only at Christmas and summer — declines all other gatherings citing work schedule",
+          "old_value": "attends family events only at Christmas and summer \u2014 declines all other gatherings citing work schedule",
           "new_value": "has committed to attending at least one additional family event per quarter after his children started asking why they never saw their cousins",
           "changed_at_session": 3,
-          "trigger": "his daughter asked at dinner why the cousins from London 'never come here' — he mentioned it in the chat the following week and Nkechi immediately locked him in"
+          "trigger": "his daughter asked at dinner why the cousins from London 'never come here' \u2014 he mentioned it in the chat the following week and Nkechi immediately locked him in"
         }
       ],
       "speaking_quirks": [
@@ -130,12 +183,24 @@
       "age": 37,
       "gender": "female",
       "occupation": "Chartered accountant and part-time finance lecturer",
-      "background": "Second of Nkechi's children, lives in London. Manages the family's shared financial arrangements — the Christmas fund, the Mum's-birthday pot, and any joint purchases. Everyone assumes she enjoys this role but she has quietly found it exhausting for two years. Very close to her brother Emeka but occasionally frustrated by his tendency to disengage.",
+      "background": "Second of Nkechi's children, lives in London. Manages the family's shared financial arrangements \u2014 the Christmas fund, the Mum's-birthday pot, and any joint purchases. Everyone assumes she enjoys this role but she has quietly found it exhausting for two years. Very close to her brother Emeka but occasionally frustrated by his tendency to disengage.",
       "skills_list": [
-        {"skill": "financial planning and budgeting", "proficiency": "strong"},
-        {"skill": "spreadsheet and data modelling", "proficiency": "strong"},
-        {"skill": "Afrobeats dance", "proficiency": "medium"},
-        {"skill": "baking", "proficiency": "medium"}
+        {
+          "skill": "financial planning and budgeting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "spreadsheet and data modelling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Afrobeats dance",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "baking",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -155,26 +220,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "always brings chin chin or puff puff to family events — her contribution is so reliable it is never discussed", "confidence": "High", "implicit": true}
+          {
+            "value": "always brings chin chin or puff puff to family events \u2014 her contribution is so reliable it is never discussed",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "attends a Afrobeats dance class on Thursday evenings that she refuses to cancel for any reason short of emergency", "confidence": "High", "implicit": true}
+          {
+            "value": "attends a Afrobeats dance class on Thursday evenings that she refuses to cancel for any reason short of emergency",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "prefers to sort logistics in private DMs rather than the group chat to avoid public disagreements", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers to sort logistics in private DMs rather than the group chat to avoid public disagreements",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "growing reluctance to manage the Christmas fund alone — has hinted several times that she needs a co-administrator but no one has picked it up", "confidence": "High", "implicit": true}
+          {
+            "value": "growing reluctance to manage the Christmas fund alone \u2014 has hinted several times that she needs a co-administrator but no one has picked it up",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "family_role",
           "attribute": "financial_coordination_willingness",
-          "old_value": "happily manages all family financial coordination — treats it as her contribution",
+          "old_value": "happily manages all family financial coordination \u2014 treats it as her contribution",
           "new_value": "openly asking for help with the Christmas fund management after two consecutive years of running it solo through stressful periods",
           "changed_at_session": 6,
-          "trigger": "sent a message in session 6 saying 'I love doing this but I genuinely need someone to share this with me this year — I nearly dropped it in November'"
+          "trigger": "sent a message in session 6 saying 'I love doing this but I genuinely need someone to share this with me this year \u2014 I nearly dropped it in November'"
         }
       ],
       "speaking_quirks": [
@@ -182,7 +263,7 @@
         "follows up every group announcement with a numbered list if there are more than two action items",
         "adds '(no stress!)' after requests to soften the ask"
       ],
-      "participation_rate": 0.90
+      "participation_rate": 0.9
     },
     {
       "persona_id": "p_d4e5f6a7",
@@ -190,11 +271,20 @@
       "age": 34,
       "gender": "male",
       "occupation": "Software engineer at a fintech startup",
-      "background": "Third child of Nkechi, the quietest of the siblings. Lives in Manchester. Works long hours in a fast-moving startup and finds family group dynamics slightly overwhelming — tends to lurk and react rather than initiate. Closest to his younger sister Chisom and occasionally protective of her in the family chat.",
+      "background": "Third child of Nkechi, the quietest of the siblings. Lives in Manchester. Works long hours in a fast-moving startup and finds family group dynamics slightly overwhelming \u2014 tends to lurk and react rather than initiate. Closest to his younger sister Chisom and occasionally protective of her in the family chat.",
       "skills_list": [
-        {"skill": "backend software engineering", "proficiency": "strong"},
-        {"skill": "home cinema and AV setup", "proficiency": "strong"},
-        {"skill": "football statistics and analysis", "proficiency": "medium"}
+        {
+          "skill": "backend software engineering",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "home cinema and AV setup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "football statistics and analysis",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -214,24 +304,40 @@
       },
       "preferences": {
         "food": [
-          {"value": "dislikes cooking but always offers to handle drinks and snacks — shows up with a specific set of drinks nobody asked for but everyone appreciates", "confidence": "Medium", "implicit": true}
+          {
+            "value": "dislikes cooking but always offers to handle drinks and snacks \u2014 shows up with a specific set of drinks nobody asked for but everyone appreciates",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "watches football every weekend without exception — has declined Sunday family calls that clash with a match without apology", "confidence": "High", "implicit": true}
+          {
+            "value": "watches football every weekend without exception \u2014 has declined Sunday family calls that clash with a match without apology",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "almost never initiates conversations in the group — responds to others or reacts with emojis, rarely adds new threads", "confidence": "High", "implicit": true}
+          {
+            "value": "almost never initiates conversations in the group \u2014 responds to others or reacts with emojis, rarely adds new threads",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "finds big group gatherings draining — tends to disappear to a quieter room at family events after about two hours", "confidence": "High", "implicit": true}
+          {
+            "value": "finds big group gatherings draining \u2014 tends to disappear to a quieter room at family events after about two hours",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "activities",
           "attribute": "gaming_engagement",
-          "old_value": "spends most free evenings gaming alone — does not engage with the family group outside of reply obligations",
-          "new_value": "started a family FIFA tournament chat subgroup with Chisom and two cousins — shows noticeably more spontaneous engagement",
+          "old_value": "spends most free evenings gaming alone \u2014 does not engage with the family group outside of reply obligations",
+          "new_value": "started a family FIFA tournament chat subgroup with Chisom and two cousins \u2014 shows noticeably more spontaneous engagement",
           "changed_at_session": 4,
           "trigger": "Chisom challenged him to a FIFA match over video call during lockdown boredom and it became a regular thing; he built it into a proper bracket"
         }
@@ -249,11 +355,20 @@
       "age": 28,
       "gender": "female",
       "occupation": "Junior doctor (Foundation Year 2)",
-      "background": "Youngest of Nkechi's children, currently rotating through hospital placements in Birmingham. High-energy and emotionally expressive — the most vocal in the chat by message count. She overshares her shift experiences and invites the family into her emotional state in real time. Close to Tobenna and less close to Emeka, whom she finds hard to read.",
+      "background": "Youngest of Nkechi's children, currently rotating through hospital placements in Birmingham. High-energy and emotionally expressive \u2014 the most vocal in the chat by message count. She overshares her shift experiences and invites the family into her emotional state in real time. Close to Tobenna and less close to Emeka, whom she finds hard to read.",
       "skills_list": [
-        {"skill": "clinical medicine (junior doctor)", "proficiency": "medium"},
-        {"skill": "social media content creation", "proficiency": "strong"},
-        {"skill": "cooking jollof rice and Nigerian street food", "proficiency": "medium"}
+        {
+          "skill": "clinical medicine (junior doctor)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "social media content creation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking jollof rice and Nigerian street food",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -273,32 +388,48 @@
       },
       "preferences": {
         "food": [
-          {"value": "lives off hospital canteen food and deliveroo during placements — is excited by any homemade food without being selective", "confidence": "Medium", "implicit": true}
+          {
+            "value": "lives off hospital canteen food and deliveroo during placements \u2014 is excited by any homemade food without being selective",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "loves surprise plans and last-minute spontaneity — often the one to say 'let's just go!' without consulting her schedule", "confidence": "High", "implicit": true}
+          {
+            "value": "loves surprise plans and last-minute spontaneity \u2014 often the one to say 'let's just go!' without consulting her schedule",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "sends voice messages exclusively when tired or emotional — switches to text only for calm practical exchanges", "confidence": "High", "implicit": true}
+          {
+            "value": "sends voice messages exclusively when tired or emotional \u2014 switches to text only for calm practical exchanges",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "deeply uncomfortable when family conflict stays unresolved — will push for a resolution conversation even when others want to leave it alone", "confidence": "High", "implicit": true}
+          {
+            "value": "deeply uncomfortable when family conflict stays unresolved \u2014 will push for a resolution conversation even when others want to leave it alone",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "career",
           "attribute": "specialty_preference",
-          "old_value": "planning to pursue surgery after foundation years — has told the whole family this multiple times",
+          "old_value": "planning to pursue surgery after foundation years \u2014 has told the whole family this multiple times",
           "new_value": "now considering psychiatry after a rotation she found unexpectedly meaningful",
           "changed_at_session": 7,
-          "trigger": "completed a psychiatry rotation in session 7's timeframe and came back to the family chat describing it as 'the first time I felt like I was actually helping not just fixing' — mentioned she might change her plan"
+          "trigger": "completed a psychiatry rotation in session 7's timeframe and came back to the family chat describing it as 'the first time I felt like I was actually helping not just fixing' \u2014 mentioned she might change her plan"
         }
       ],
       "speaking_quirks": [
         "starts dramatic updates with 'okay SO' in all caps",
         "uses 'I can't' as an expression of strong emotion ('I actually can't with this shift')",
-        "double-messages constantly — sends a thought, then immediately sends a follow-up correction or addition"
+        "double-messages constantly \u2014 sends a thought, then immediately sends a follow-up correction or addition"
       ],
       "participation_rate": 0.88
     },
@@ -308,11 +439,20 @@
       "age": 68,
       "gender": "female",
       "occupation": "Retired civil servant (former Ministry of Works, Nigeria)",
-      "background": "Nkechi's older sister, based in Enugu but visits the UK twice a year. Known in the family as 'Aunty Oby'. The most traditional member of the group — her messages carry the weight of family custom. Frequently the one to invoke extended-family expectations and the first to reference what 'the family has always done.' Not always agreed with, but always heard.",
+      "background": "Nkechi's older sister, based in Enugu but visits the UK twice a year. Known in the family as 'Aunty Oby'. The most traditional member of the group \u2014 her messages carry the weight of family custom. Frequently the one to invoke extended-family expectations and the first to reference what 'the family has always done.' Not always agreed with, but always heard.",
       "skills_list": [
-        {"skill": "oral family history and genealogy", "proficiency": "strong"},
-        {"skill": "Nigerian civic and government procedure", "proficiency": "medium"},
-        {"skill": "traditional Igbo ceremony coordination", "proficiency": "strong"}
+        {
+          "skill": "oral family history and genealogy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Nigerian civic and government procedure",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "traditional Igbo ceremony coordination",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "Low",
@@ -332,23 +472,39 @@
       },
       "preferences": {
         "food": [
-          {"value": "eats only traditional Igbo food at family gatherings — politely but visibly declines anything she considers 'oyinbo food'", "confidence": "High", "implicit": true}
+          {
+            "value": "eats only traditional Igbo food at family gatherings \u2014 politely but visibly declines anything she considers 'oyinbo food'",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "expects formal acknowledgement of elders at the start of any family gathering — has corrected her nieces and nephews when they skipped this", "confidence": "High", "implicit": true}
+          {
+            "value": "expects formal acknowledgement of elders at the start of any family gathering \u2014 has corrected her nieces and nephews when they skipped this",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "does not use voice messages or video calls — prefers written text and expects proper sentences with greetings", "confidence": "High", "implicit": true}
+          {
+            "value": "does not use voice messages or video calls \u2014 prefers written text and expects proper sentences with greetings",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "strongly opposed to Christmas gatherings that include non-family guests — believes family time should be uncontaminated by outsiders", "confidence": "High", "implicit": true}
+          {
+            "value": "strongly opposed to Christmas gatherings that include non-family guests \u2014 believes family time should be uncontaminated by outsiders",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "mixed_gathering_stance",
-          "old_value": "flatly refuses to attend any family event that includes non-family guests — has declined two gatherings on this basis",
+          "old_value": "flatly refuses to attend any family event that includes non-family guests \u2014 has declined two gatherings on this basis",
           "new_value": "will tolerate non-family guests if they are partners of family members, following Emeka's wife attending Christmas",
           "changed_at_session": 2,
           "trigger": "Emeka's wife Funmi was present at the Christmas gathering Aunty Oby attended; she observed the dynamic for a full day before conceding privately to Nkechi that 'Funmi is practically family now'"
@@ -357,9 +513,9 @@
       "speaking_quirks": [
         "opens messages with a formal salutation ('Greetings my people,') before any content",
         "invokes family precedent by name ('As your grandfather used to say...' or 'In our family, we have always...')",
-        "never uses abbreviations — writes out full words including 'WhatsApp' in full"
+        "never uses abbreviations \u2014 writes out full words including 'WhatsApp' in full"
       ],
-      "participation_rate": 0.70
+      "participation_rate": 0.7
     },
     {
       "persona_id": "p_a7b8c9d0",
@@ -367,11 +523,20 @@
       "age": 42,
       "gender": "male",
       "occupation": "Property developer",
-      "background": "Nkechi's nephew through her late husband's side — his father and Nkechi's husband were brothers. Based in South East London. Loud, generative, and commercially minded. Constantly proposing ideas for family ventures — a family Airbnb property, a reunion in Lagos, a family investment pool. Most ideas land with varying enthusiasm. He is the family's optimist and occasionally its irritant.",
+      "background": "Nkechi's nephew through her late husband's side \u2014 his father and Nkechi's husband were brothers. Based in South East London. Loud, generative, and commercially minded. Constantly proposing ideas for family ventures \u2014 a family Airbnb property, a reunion in Lagos, a family investment pool. Most ideas land with varying enthusiasm. He is the family's optimist and occasionally its irritant.",
       "skills_list": [
-        {"skill": "property investment and development", "proficiency": "strong"},
-        {"skill": "negotiation and deal-making", "proficiency": "strong"},
-        {"skill": "party planning and hosting", "proficiency": "medium"}
+        {
+          "skill": "property investment and development",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "negotiation and deal-making",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "party planning and hosting",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -391,16 +556,32 @@
       },
       "preferences": {
         "food": [
-          {"value": "always offers to 'handle the meat' at any family barbecue — takes over the grill regardless of whether he was asked", "confidence": "High", "implicit": true}
+          {
+            "value": "always offers to 'handle the meat' at any family barbecue \u2014 takes over the grill regardless of whether he was asked",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "pushes for Lagos or Enugu as the reunion destination every year — enthusiastic about showing the next generation Nigeria but has not been in three years himself", "confidence": "High", "implicit": true}
+          {
+            "value": "pushes for Lagos or Enugu as the reunion destination every year \u2014 enthusiastic about showing the next generation Nigeria but has not been in three years himself",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "uses the group chat to pitch ideas before he has thought them through — drops half-formed proposals and expects others to build on them", "confidence": "High", "implicit": true}
+          {
+            "value": "uses the group chat to pitch ideas before he has thought them through \u2014 drops half-formed proposals and expects others to build on them",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "strongly resists being the one to plan logistics — generates ideas but consistently redirects execution to Adaeze or Nkechi", "confidence": "High", "implicit": true}
+          {
+            "value": "strongly resists being the one to plan logistics \u2014 generates ideas but consistently redirects execution to Adaeze or Nkechi",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -408,9 +589,9 @@
           "domain": "family_role",
           "attribute": "reunion_planning_commitment",
           "old_value": "enthusiastically pitches family reunion plans but drops out of the planning process once others are invested",
-          "new_value": "followed through on one planning task for the first time — booked venue deposits for the summer gathering after Adaeze called him out publicly",
+          "new_value": "followed through on one planning task for the first time \u2014 booked venue deposits for the summer gathering after Adaeze called him out publicly",
           "changed_at_session": 5,
-          "trigger": "Adaeze sent a message saying 'Kingsley, you proposed this one — you book the venue this time, I'll do everything else.' He went quiet for two days then sent a booking confirmation."
+          "trigger": "Adaeze sent a message saying 'Kingsley, you proposed this one \u2014 you book the venue this time, I'll do everything else.' He went quiet for two days then sent a booking confirmation."
         }
       ],
       "speaking_quirks": [
@@ -418,7 +599,7 @@
         "uses 'on God' to signal that he is being serious for once",
         "responds to practical objections with 'details, details' and pivots to the bigger picture"
       ],
-      "participation_rate": 0.80
+      "participation_rate": 0.8
     },
     {
       "persona_id": "p_b8c9d0e1",
@@ -426,12 +607,24 @@
       "age": 31,
       "gender": "female",
       "occupation": "Secondary school history teacher",
-      "background": "Kingsley's younger sister, also on the extended Okonkwo side. Lives in Bristol. Thoughtful, socially careful, and frequently the voice of moderation when Kingsley or Nkechi escalate. Often the one to send a quiet DM to the person who just got called out. Has a deep interest in the family's history and cultural heritage that she shares tactfully — never lecturing, always offering.",
+      "background": "Kingsley's younger sister, also on the extended Okonkwo side. Lives in Bristol. Thoughtful, socially careful, and frequently the voice of moderation when Kingsley or Nkechi escalate. Often the one to send a quiet DM to the person who just got called out. Has a deep interest in the family's history and cultural heritage that she shares tactfully \u2014 never lecturing, always offering.",
       "skills_list": [
-        {"skill": "historical research and archiving", "proficiency": "strong"},
-        {"skill": "teaching and classroom facilitation", "proficiency": "strong"},
-        {"skill": "Igbo language (conversational)", "proficiency": "medium"},
-        {"skill": "photography and family documentation", "proficiency": "medium"}
+        {
+          "skill": "historical research and archiving",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "teaching and classroom facilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Igbo language (conversational)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "photography and family documentation",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -451,26 +644,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "pescatarian — announces it once when joining any shared meal planning discussion and does not bring it up again unless directly asked", "confidence": "High", "implicit": true}
+          {
+            "value": "pescatarian \u2014 announces it once when joining any shared meal planning discussion and does not bring it up again unless directly asked",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "strongly prefers structured family activities over unstructured gatherings — suggests games, storytelling rounds, or cooking projects to give events a spine", "confidence": "High", "implicit": true}
+          {
+            "value": "strongly prefers structured family activities over unstructured gatherings \u2014 suggests games, storytelling rounds, or cooking projects to give events a spine",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "sends individual check-in messages after difficult family threads — always checks in privately with whoever was called out or upset", "confidence": "High", "implicit": true}
+          {
+            "value": "sends individual check-in messages after difficult family threads \u2014 always checks in privately with whoever was called out or upset",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "quietly working on a family history project — photographs old documents and asks elders gentle questions about the past without making it a group announcement", "confidence": "Medium", "implicit": true}
+          {
+            "value": "quietly working on a family history project \u2014 photographs old documents and asks elders gentle questions about the past without making it a group announcement",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "family_role",
           "attribute": "cultural_heritage_sharing",
-          "old_value": "keeps family history interest private — does not share findings in the group for fear of being seen as lecturing",
+          "old_value": "keeps family history interest private \u2014 does not share findings in the group for fear of being seen as lecturing",
           "new_value": "began sharing occasional photos of old family documents and brief captions in the group after Aunty Oby explicitly encouraged her in session 6",
           "changed_at_session": 6,
-          "trigger": "Aunty Oby said in the chat 'Ifeoma, show them what you showed me — these children do not know where they come from.' Ifeoma posted three archive photos that same evening."
+          "trigger": "Aunty Oby said in the chat 'Ifeoma, show them what you showed me \u2014 these children do not know where they come from.' Ifeoma posted three archive photos that same evening."
         }
       ],
       "speaking_quirks": [
@@ -489,7 +698,11 @@
       "closeness": "High",
       "sentiment": "mixed",
       "history_summary": "Nkechi is enormously proud of Emeka and his career but finds his detachment from the family emotionally hurtful. She has learned to read his brevity as love but occasionally calls him out in the chat. He sends her a private voice note every Sunday, which the rest of the family does not know about.",
-      "shared_events": ["Emeka's medical school graduation", "Nkechi's retirement celebration", "first family Christmas after the father's death"]
+      "shared_events": [
+        "Emeka's medical school graduation",
+        "Nkechi's retirement celebration",
+        "first family Christmas after the father's death"
+      ]
     },
     {
       "persona_a_id": "p_a1b2c3d4",
@@ -498,7 +711,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "The most consistently functional parent-child pairing in the family. Adaeze is Nkechi's logistical right hand and they speak multiple times a week. Nkechi praises Adaeze publicly and frequently. The only real friction is around Adaeze's unspoken exhaustion with family coordination duties.",
-      "shared_events": ["Adaeze's accountancy qualification ceremony", "weekly planning calls", "coordinating the family's Christmas fund for six consecutive years"]
+      "shared_events": [
+        "Adaeze's accountancy qualification ceremony",
+        "weekly planning calls",
+        "coordinating the family's Christmas fund for six consecutive years"
+      ]
     },
     {
       "persona_a_id": "p_a1b2c3d4",
@@ -507,7 +724,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Nkechi finds Tobenna hard to read and occasionally wonders if he is unhappy. He is consistent at Christmas and calls on birthdays but does not volunteer personal information. She has asked Adaeze whether something is wrong with him more than once.",
-      "shared_events": ["Tobenna's university graduation", "his move to Manchester", "Christmas dinners"]
+      "shared_events": [
+        "Tobenna's university graduation",
+        "his move to Manchester",
+        "Christmas dinners"
+      ]
     },
     {
       "persona_a_id": "p_a1b2c3d4",
@@ -516,7 +737,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Nkechi dotes on Chisom in a way she is less guarded about than with her older children. Chisom rings her mother most frequently of all the siblings and Nkechi responds with lengthy advice that Chisom rarely follows but always receives warmly.",
-      "shared_events": ["Chisom's medical school entry", "Chisom's first rotation report", "late-night calls during difficult shifts"]
+      "shared_events": [
+        "Chisom's medical school entry",
+        "Chisom's first rotation report",
+        "late-night calls during difficult shifts"
+      ]
     },
     {
       "persona_a_id": "p_a1b2c3d4",
@@ -525,7 +750,12 @@
       "closeness": "High",
       "sentiment": "mixed",
       "history_summary": "Nkechi and Obiageli have the warmth of a lifelong sisterhood and the friction of two strong-willed women who have occasionally disagreed sharply on how to raise children and manage family money. They speak candidly to each other in ways they cannot with anyone else. Obiageli's traditionalism and Nkechi's pragmatism create recurring low-level tension.",
-      "shared_events": ["childhood in Enugu", "Nkechi's wedding", "care of their mother in her final years", "Nkechi's husband's funeral"]
+      "shared_events": [
+        "childhood in Enugu",
+        "Nkechi's wedding",
+        "care of their mother in her final years",
+        "Nkechi's husband's funeral"
+      ]
     },
     {
       "persona_a_id": "p_a1b2c3d4",
@@ -534,7 +764,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Nkechi has been fond of Kingsley since he was a teenager. She indulges his big talk more than her own children do. But she has told Adaeze privately that she wishes he would follow through more. She backs him publicly and gives him quiet corrections in private.",
-      "shared_events": ["Kingsley's father's funeral", "multiple family reunions", "Kingsley's first property project where Nkechi gave character advice"]
+      "shared_events": [
+        "Kingsley's father's funeral",
+        "multiple family reunions",
+        "Kingsley's first property project where Nkechi gave character advice"
+      ]
     },
     {
       "persona_a_id": "p_a1b2c3d4",
@@ -543,7 +777,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Nkechi has a quiet respect for Ifeoma's steadiness and her interest in the family's history. They share a sensibility around cultural preservation even if Nkechi is too busy to pursue it actively. She has been generous with Ifeoma during difficult periods.",
-      "shared_events": ["Ifeoma's visit to Reading for family history research", "shared conversations about the late Mr Okonkwo"]
+      "shared_events": [
+        "Ifeoma's visit to Reading for family history research",
+        "shared conversations about the late Mr Okonkwo"
+      ]
     },
     {
       "persona_a_id": "p_b2c3d4e5",
@@ -552,7 +789,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "The most functional sibling pairing. Emeka trusts Adaeze's judgement completely on financial matters. They have a running thread where they coordinate family logistics away from the main group. Occasionally Adaeze finds his bluntness too much when directed at the younger ones.",
-      "shared_events": ["joint management of family finances post-father's death", "private logistics calls before Christmas", "Adaeze's London flat purchase (Emeka consulted)"]
+      "shared_events": [
+        "joint management of family finances post-father's death",
+        "private logistics calls before Christmas",
+        "Adaeze's London flat purchase (Emeka consulted)"
+      ]
     },
     {
       "persona_a_id": "p_b2c3d4e5",
@@ -561,7 +802,11 @@
       "closeness": "Medium",
       "sentiment": "neutral",
       "history_summary": "Chisom has always found Emeka slightly intimidating. He is supportive of her career in an abstract way but their communication is sparse. He acknowledged her FY2 progress with a brief 'well done, keep it up' which she told Tobenna was 'typical Emeka.'",
-      "shared_events": ["Chisom's medical school entry", "family Christmas dinners", "one joint video call during a family health scare"]
+      "shared_events": [
+        "Chisom's medical school entry",
+        "family Christmas dinners",
+        "one joint video call during a family health scare"
+      ]
     },
     {
       "persona_a_id": "p_c3d4e5f6",
@@ -570,7 +815,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Adaeze checks in on Tobenna more than anyone else. She is the family member who noticed he was withdrawn and raised it with Emeka. Tobenna appreciates her without being demonstrative about it.",
-      "shared_events": ["Tobenna's move to Manchester", "Adaeze's regular sibling check-ins", "joint FIFA sessions with Chisom"]
+      "shared_events": [
+        "Tobenna's move to Manchester",
+        "Adaeze's regular sibling check-ins",
+        "joint FIFA sessions with Chisom"
+      ]
     },
     {
       "persona_a_id": "p_d4e5f6a7",
@@ -578,17 +827,24 @@
       "relationship_type": "protective older brother and younger sister",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "The tightest sibling bond in the group. Tobenna is one of very few people Chisom does not overshare with — she tells him only what she wants to, which he seems to understand intuitively. He backed her when she was criticised in the group chat for cancelling Christmas at short notice.",
-      "shared_events": ["FIFA tournament tradition", "Tobenna defending Chisom in the Christmas cancellation thread", "regular direct message check-ins"]
+      "history_summary": "The tightest sibling bond in the group. Tobenna is one of very few people Chisom does not overshare with \u2014 she tells him only what she wants to, which he seems to understand intuitively. He backed her when she was criticised in the group chat for cancelling Christmas at short notice.",
+      "shared_events": [
+        "FIFA tournament tradition",
+        "Tobenna defending Chisom in the Christmas cancellation thread",
+        "regular direct message check-ins"
+      ]
     },
     {
       "persona_a_id": "p_f6a7b8c9",
       "persona_b_id": "p_b8c9d0e1",
-      "relationship_type": "aunt and niece — generational bridge",
+      "relationship_type": "aunt and niece \u2014 generational bridge",
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Obiageli approved of Ifeoma's interest in family history from the start and has been a source for the project. She views Ifeoma as the kind of young person who carries culture forward correctly. This is one of the few relationships where Obiageli does not resort to instruction.",
-      "shared_events": ["sessions where Obiageli shared oral history with Ifeoma", "Ifeoma's archive photo posts in the chat"]
+      "shared_events": [
+        "sessions where Obiageli shared oral history with Ifeoma",
+        "Ifeoma's archive photo posts in the chat"
+      ]
     },
     {
       "persona_a_id": "p_a7b8c9d0",
@@ -597,25 +853,35 @@
       "closeness": "Medium",
       "sentiment": "mixed",
       "history_summary": "They are close but frequently frustrated with each other. Kingsley finds Ifeoma overly cautious and she finds him all talk. She was the one who suggested Adaeze call him out over the venue booking. He is still slightly cool about that.",
-      "shared_events": ["growing up together", "multiple family gatherings in the UK", "the Adaeze callout thread"]
+      "shared_events": [
+        "growing up together",
+        "multiple family gatherings in the UK",
+        "the Adaeze callout thread"
+      ]
     },
     {
       "persona_a_id": "p_f6a7b8c9",
       "persona_b_id": "p_c3d4e5f6",
-      "relationship_type": "aunt and niece — sometimes at odds",
+      "relationship_type": "aunt and niece \u2014 sometimes at odds",
       "closeness": "Medium",
       "sentiment": "tense",
-      "history_summary": "Obiageli disapproves of what she sees as Adaeze doing everything herself without demanding proper family participation — she has said directly that Adaeze 'enables laziness.' Adaeze finds Aunty Oby's traditionalism exhausting when it manifests as criticism. They are respectful but there is real friction.",
-      "shared_events": ["public disagreement over the Christmas fund approach", "Aunty Oby's comments about Adaeze 'not delegating properly'"]
+      "history_summary": "Obiageli disapproves of what she sees as Adaeze doing everything herself without demanding proper family participation \u2014 she has said directly that Adaeze 'enables laziness.' Adaeze finds Aunty Oby's traditionalism exhausting when it manifests as criticism. They are respectful but there is real friction.",
+      "shared_events": [
+        "public disagreement over the Christmas fund approach",
+        "Aunty Oby's comments about Adaeze 'not delegating properly'"
+      ]
     },
     {
       "persona_a_id": "p_b2c3d4e5",
       "persona_b_id": "p_f6a7b8c9",
-      "relationship_type": "nephew and aunt — formal distance",
+      "relationship_type": "nephew and aunt \u2014 formal distance",
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Emeka is polite and correct with Aunty Oby. He respects her seniority but has never sought her counsel or engaged with her traditionalism. She privately considers him too Westernised. They coexist comfortably at a distance.",
-      "shared_events": ["family gatherings", "Obiageli's UK visits"]
+      "shared_events": [
+        "family gatherings",
+        "Obiageli's UK visits"
+      ]
     },
     {
       "persona_a_id": "p_a7b8c9d0",
@@ -624,23 +890,32 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Kingsley and Chisom bring similar energy to the group chat and frequently riff off each other. She hypes his ideas and he enthusiastically supports her updates. Neither takes the other very seriously but both enjoy the dynamic.",
-      "shared_events": ["joint hype threads in the family chat", "one summer gathering where they planned the entertainment together"]
+      "shared_events": [
+        "joint hype threads in the family chat",
+        "one summer gathering where they planned the entertainment together"
+      ]
     },
     {
       "persona_a_id": "p_d4e5f6a7",
       "persona_b_id": "p_a7b8c9d0",
-      "relationship_type": "quiet one and loud one — tolerated distance",
+      "relationship_type": "quiet one and loud one \u2014 tolerated distance",
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Tobenna and Kingsley have little in common. Tobenna finds Kingsley's noise level grating in a group context. Kingsley does not notice. They are perfectly pleasant at gatherings but do not seek each other out.",
-      "shared_events": ["family gatherings", "the FIFA group chat Tobenna created (Kingsley is a member but never plays)"]
+      "shared_events": [
+        "family gatherings",
+        "the FIFA group chat Tobenna created (Kingsley is a member but never plays)"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "Family news — jobs, relationships, health — gets announced in the group first before going to social media",
+      "norm_text": "Family news \u2014 jobs, relationships, health \u2014 gets announced in the group first before going to social media",
       "truly_universal": false,
-      "dissenters": ["p_e5f6a7b8", "p_a7b8c9d0"]
+      "dissenters": [
+        "p_e5f6a7b8",
+        "p_a7b8c9d0"
+      ]
     },
     {
       "norm_text": "Everyone contributes to the Christmas fund by 1 December each year",
@@ -648,19 +923,29 @@
       "dissenters": []
     },
     {
-      "norm_text": "When Mum cooks for a gathering, you eat what she makes — no requesting alternatives",
+      "norm_text": "When Mum cooks for a gathering, you eat what she makes \u2014 no requesting alternatives",
       "truly_universal": false,
-      "dissenters": ["p_b2c3d4e5", "p_b8c9d0e1"]
+      "dissenters": [
+        "p_b2c3d4e5",
+        "p_b8c9d0e1"
+      ]
     },
     {
       "norm_text": "We greet elders first when entering any family gathering before greeting peers",
       "truly_universal": false,
-      "dissenters": ["p_d4e5f6a7", "p_e5f6a7b8"]
+      "dissenters": [
+        "p_d4e5f6a7",
+        "p_e5f6a7b8"
+      ]
     }
   ],
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "family",
+    "group_size": 8
   }
 }

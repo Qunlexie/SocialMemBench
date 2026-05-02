@@ -1,22 +1,57 @@
 {
   "network_id": "grp_f6g7h8i9",
   "total_pairs": 16,
-  "phase1_mean_score": 0.99,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 0.875,
+  "phase1_mean_score": 0.9938,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 87.5,
   "phase3_flagged_count": 0,
-  "inference_required_distribution": {"0": 0, "1": 6, "2": 10},
+  "inference_required_distribution": {
+    "2": 9,
+    "1": 7
+  },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
-  "difficulty_distribution": {"easy": 2, "medium": 13, "hard": 1},
+  "difficulty_distribution": {
+    "easy": 2,
+    "medium": 13,
+    "hard": 1
+  },
   "by_query_type": {
-    "Q1": {"count": 5, "mean_score": 0.99, "flagged": 0, "mean_inference_required": 1.8},
-    "Q2": {"count": 2, "mean_score": 0.975, "flagged": 0, "mean_inference_required": 1.5},
-    "Q4": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
-    "Q5": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.5},
-    "Q6": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q7": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
-    "Q8": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0}
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.99,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.975,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    }
   },
   "flagged_pairs": [],
   "low_score_pairs": [],
@@ -51,7 +86,7 @@
       "question": "What does Emeka's pattern of responses to the anniversary planning reveal about what he actually wants from the celebration?",
       "blind_answer": "Emeka consistently says he doesn't need a big occasion and just wants the family together. 'We do not need a big occasion. Just the children and grandchildren would be enough for me' (S2). 'Just having everyone together is enough for me' (S6). 'Just the family together is all I want' (S8). Post-trip: 'I did not need anything more than this.' The pattern reveals he values presence, not elaborate events.",
       "score": 1.0,
-      "score_rationale": "Blind answer matches ground truth. Anchor[1] excerpt says 'in the same room' but actual S6 message says 'together' — minor wording error in the excerpt, hence grounded=false.",
+      "score_rationale": "Blind answer matches ground truth. Anchor[1] excerpt says 'in the same room' but actual S6 message says 'together' \u2014 minor wording error in the excerpt, hence grounded=false.",
       "inference_required": 2,
       "grounded": false,
       "flagged": false,
@@ -75,7 +110,7 @@
       "question": "What does Kunle's recurring behaviour in the group chat when family admin tasks are assigned reveal about how he manages these responsibilities?",
       "blind_answer": "Kunle consistently responds to admin requests with 'on it' followed by non-delivery. S3: 'on it. I'll confirm dates this week' then fails to pay and is chased. 'Sorry I missed this. on it!! I'll transfer today.' S6: 'on it for my share.' S7: 'on it.' S9: 'I will start packing this weekend. on it.' Post-trip: apologises for missing the walk. The cycle of commitment-then-miss recurs at every admin touchpoint.",
       "score": 1.0,
-      "score_rationale": "Exact match — the 'on it' cycle and its consistent non-delivery are both correctly identified.",
+      "score_rationale": "Exact match \u2014 the 'on it' cycle and its consistent non-delivery are both correctly identified.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -87,7 +122,7 @@
       "question": "The family agreed on Scotland for the anniversary trip. What did one member's response to that decision signal about how they actually felt, and what specifically in how they responded tells you that?",
       "blind_answer": "Adaeze was the reluctant one. She had pushed for Paris throughout S2, and when Scotland was decided, she opened with 'fine' before restating her preference: 'I still think Paris would have been more special. But okay. Scotland. As I said though, I think a city break would have been nicer.' The opening 'fine,' followed by restatement of original preference, signals a concession not genuine agreement. Answer: C (Adaeze).",
       "score": 1.0,
-      "score_rationale": "Exact match — Adaeze's concession pattern identified correctly with the mechanism explained.",
+      "score_rationale": "Exact match \u2014 Adaeze's concession pattern identified correctly with the mechanism explained.",
       "inference_required": 1,
       "grounded": true,
       "flagged": false,
@@ -97,9 +132,9 @@
       "qa_id": "Q2_f6g7h8i902",
       "query_type": "Q2",
       "question": "When the family agreed to include a formal private dinner in the anniversary programme, one member's response stood apart from the others. What did that response signal, and what specifically in how they responded tells you that?",
-      "blind_answer": "Zara's response stood apart. While Adaeze, Ngozi and others engaged excitedly about the dinner, Zara responded with just 'noted on the dinner. sounds nice' — two brief phrases using her characteristic 'noted' acknowledgment followed by minimal enthusiasm. Her earlier 'a simpler dinner can be just as special' (S3) contextualises why this minimal response signals reluctance. Answer: D (Zara).",
+      "blind_answer": "Zara's response stood apart. While Adaeze, Ngozi and others engaged excitedly about the dinner, Zara responded with just 'noted on the dinner. sounds nice' \u2014 two brief phrases using her characteristic 'noted' acknowledgment followed by minimal enthusiasm. Her earlier 'a simpler dinner can be just as special' (S3) contextualises why this minimal response signals reluctance. Answer: D (Zara).",
       "score": 0.95,
-      "score_rationale": "Mostly matches ground truth — identified Zara and the mechanism; didn't trace every 'noted' instance across the corpus.",
+      "score_rationale": "Mostly matches ground truth \u2014 identified Zara and the mechanism; didn't trace every 'noted' instance across the corpus.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -109,7 +144,7 @@
       "qa_id": "Q4_f6g7h8i901",
       "query_type": "Q4",
       "question": "In Session 1, someone proposed that the anniversary celebration should be a grand event with the whole extended family invited. Who made that proposal, and how can you tell it was them rather than the family member known for pushing for grand occasions?",
-      "blind_answer": "Uncle Femi made the proposal in S1: 'Ehhh no no, we should invite the WHOLE family. I will sort it out, a big celebration at a venue. Leave it to me!!' The 'Ehhh' opener and boisterous personal commitment are characteristic of Femi. Aunty Ngozi is the plausible wrong answer — she pushed for 'something worthy of this family' just before — but her message was a general call to plan, not a specific action proposal with a personal pledge. Answer: A (Uncle Femi).",
+      "blind_answer": "Uncle Femi made the proposal in S1: 'Ehhh no no, we should invite the WHOLE family. I will sort it out, a big celebration at a venue. Leave it to me!!' The 'Ehhh' opener and boisterous personal commitment are characteristic of Femi. Aunty Ngozi is the plausible wrong answer \u2014 she pushed for 'something worthy of this family' just before \u2014 but her message was a general call to plan, not a specific action proposal with a personal pledge. Answer: A (Uncle Femi).",
       "score": 1.0,
       "score_rationale": "Exact match.",
       "inference_required": 1,
@@ -133,9 +168,9 @@
       "qa_id": "Q5_f6g7h8i901",
       "query_type": "Q5",
       "question": "What is Grace's preference about how family plans are communicated to her, and what in Sophia's message in Session 2 shows she already knew this before it came up?",
-      "blind_answer": "Grace needs advance notice of plans and dislikes surprises. Sophia revealed she knew this in S2 when she preemptively stated 'Mummy G would want to know everything in advance so she can prepare properly, that is just how she feels comfortable' — framing Grace's preference as an established fact being cited as the basis for a practical recommendation, not new information.",
+      "blind_answer": "Grace needs advance notice of plans and dislikes surprises. Sophia revealed she knew this in S2 when she preemptively stated 'Mummy G would want to know everything in advance so she can prepare properly, that is just how she feels comfortable' \u2014 framing Grace's preference as an established fact being cited as the basis for a practical recommendation, not new information.",
       "score": 1.0,
-      "score_rationale": "Exact match — the 'that is just how she feels comfortable' phrase correctly identified as established knowledge not inference.",
+      "score_rationale": "Exact match \u2014 the 'that is just how she feels comfortable' phrase correctly identified as established knowledge not inference.",
       "inference_required": 1,
       "grounded": true,
       "flagged": false,
@@ -145,9 +180,9 @@
       "qa_id": "Q5_f6g7h8i902",
       "query_type": "Q5",
       "question": "What pattern does Kunle have with family admin tasks, and what in Adaeze's behaviour in Session 3 shows she already knew he would struggle before he did?",
-      "blind_answer": "Kunle consistently commits to admin tasks with 'on it' but doesn't follow through. Adaeze revealed she already knew this in S3 by asking Sophia about Kunle's payment BEFORE it was late — routing the check through Sophia rather than asking Kunle directly implies she expected the non-delivery as a known likelihood. Sophia confirms he hasn't paid, validating Adaeze's expectation.",
+      "blind_answer": "Kunle consistently commits to admin tasks with 'on it' but doesn't follow through. Adaeze revealed she already knew this in S3 by asking Sophia about Kunle's payment BEFORE it was late \u2014 routing the check through Sophia rather than asking Kunle directly implies she expected the non-delivery as a known likelihood. Sophia confirms he hasn't paid, validating Adaeze's expectation.",
       "score": 1.0,
-      "score_rationale": "Exact match — the routing-through-Sophia inference identified correctly as evidence of prior knowledge.",
+      "score_rationale": "Exact match \u2014 the routing-through-Sophia inference identified correctly as evidence of prior knowledge.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -157,7 +192,7 @@
       "qa_id": "Q6_f6g7h8i901",
       "query_type": "Q6",
       "question": "The family enthusiastically planned an elaborate formal anniversary dinner with a private chef. Does this enthusiasm apply to everyone? If not, who has a different relationship with that kind of event, and what does the conversation reveal?",
-      "blind_answer": "No — Zara does not share the group's enthusiasm. She suggested 'a simpler dinner can be just as special' in S3, said 'Simple often works best' in S5, and responded to the formal dinner with just 'noted on the dinner. sounds nice' while others were excited. Post-trip: 'glad it was kept simple.' Her consistent quiet understatement reveals she doesn't share the family's enthusiasm for elaborate formal events. Answer: C (Zara).",
+      "blind_answer": "No \u2014 Zara does not share the group's enthusiasm. She suggested 'a simpler dinner can be just as special' in S3, said 'Simple often works best' in S5, and responded to the formal dinner with just 'noted on the dinner. sounds nice' while others were excited. Post-trip: 'glad it was kept simple.' Her consistent quiet understatement reveals she doesn't share the family's enthusiasm for elaborate formal events. Answer: C (Zara).",
       "score": 1.0,
       "score_rationale": "Exact match.",
       "inference_required": 2,
@@ -171,7 +206,7 @@
       "question": "What does the exchange at the start of Session 4 reveal about the relationship between Tolu and Adaeze that goes beyond their shared family membership?",
       "blind_answer": "The exchange reveals Tolu and Adaeze have a private bilateral sharing relationship. Tolu told Adaeze about her promotion before the family group; Adaeze's immediate 'I knew you would!!' reveals pre-knowledge. Tolu confirms 'I told her first, she's my sister.' Grace's follow-up question ('Adaeze, you knew?') shows this was news to others. The pattern implies Tolu habitually tells Adaeze first.",
       "score": 1.0,
-      "score_rationale": "Exact match. Note: anchor[0] is a non-contiguous composite excerpt of the planted turn (omits 'I'm so proud of you!! 🤩🤩 this is amazing!!' from the middle), hence grounded=false.",
+      "score_rationale": "Exact match. Note: anchor[0] is a non-contiguous composite excerpt of the planted turn (omits 'I'm so proud of you!! \ud83e\udd29\ud83e\udd29 this is amazing!!' from the middle), hence grounded=false.",
       "inference_required": 1,
       "grounded": false,
       "flagged": false,
@@ -181,7 +216,7 @@
       "qa_id": "Q7_f6g7h8i902",
       "query_type": "Q7",
       "question": "What does Aunty Ngozi's comment in Session 5 reveal about her relationship with Emeka that other group members , including Grace , did not share?",
-      "blind_answer": "Ngozi had private knowledge of Emeka's health that even Grace didn't have. Emeka had called Ngozi about his blood pressure issue but chose not to tell Grace. Ngozi then used this knowledge to redirect activity planning. This reveals Ngozi serves as a trusted health confidante — someone Emeka tells private health concerns before telling his wife.",
+      "blind_answer": "Ngozi had private knowledge of Emeka's health that even Grace didn't have. Emeka had called Ngozi about his blood pressure issue but chose not to tell Grace. Ngozi then used this knowledge to redirect activity planning. This reveals Ngozi serves as a trusted health confidante \u2014 someone Emeka tells private health concerns before telling his wife.",
       "score": 1.0,
       "score_rationale": "Exact match.",
       "inference_required": 1,
@@ -193,9 +228,9 @@
       "qa_id": "Q8_f6g7h8i901",
       "query_type": "Q8",
       "question": "What in Uncle Femi's messages signals that something changed in how he was engaging with the trip planning mid-way through, and what appears to have driven it?",
-      "blind_answer": "In S1-4 Femi is high-energy, offering to 'sort out' flights, chefs, and minibus ('Leave it to me!!'). By S6 he defers: 'ehhh yes, minibus. I'm looking into it. Might take a few more days.' S7: 'sorry for the delay. good that Sophia sorted it. I'll transfer my share' — surrenders the task entirely. After that he just confirms attendance and brings a personal video montage rather than logistical help. The shift suggests he could no longer deliver on his over-promises, possibly financial constraints.",
+      "blind_answer": "In S1-4 Femi is high-energy, offering to 'sort out' flights, chefs, and minibus ('Leave it to me!!'). By S6 he defers: 'ehhh yes, minibus. I'm looking into it. Might take a few more days.' S7: 'sorry for the delay. good that Sophia sorted it. I'll transfer my share' \u2014 surrenders the task entirely. After that he just confirms attendance and brings a personal video montage rather than logistical help. The shift suggests he could no longer deliver on his over-promises, possibly financial constraints.",
       "score": 1.0,
-      "score_rationale": "Exact match — the three-stage shift (organiser → payer → personal contribution) and inferred financial reason all identified correctly.",
+      "score_rationale": "Exact match \u2014 the three-stage shift (organiser \u2192 payer \u2192 personal contribution) and inferred financial reason all identified correctly.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -205,7 +240,7 @@
       "qa_id": "Q8_f6g7h8i902",
       "query_type": "Q8",
       "question": "What in Chidi's messages across the sessions signals a shift in how he was managing the trip planning, and what appears to have driven it?",
-      "blind_answer": "In S2-6 Chidi uses full structured sentences ('Okay so the plan is...'), tags people, summarises decisions warmly. By S7 he's shorter: 'Fine Mum. Busy. On it for Scotland.' S9: 'Good. Sorted.' Two words. The shift from systematic warm coordination to terse acknowledgments appears driven by work pressure — Sophia mentions in S7 it's 'been a busy week at the surgery.'",
+      "blind_answer": "In S2-6 Chidi uses full structured sentences ('Okay so the plan is...'), tags people, summarises decisions warmly. By S7 he's shorter: 'Fine Mum. Busy. On it for Scotland.' S9: 'Good. Sorted.' Two words. The shift from systematic warm coordination to terse acknowledgments appears driven by work pressure \u2014 Sophia mentions in S7 it's 'been a busy week at the surgery.'",
       "score": 1.0,
       "score_rationale": "Exact match.",
       "inference_required": 2,
@@ -221,7 +256,7 @@
     },
     "voice_consistency": {
       "score": 1,
-      "notes": "TYPO RATE MISMATCHES (multiple personas): Tolu (moderate profile), Kunle (moderate), Uncle Femi (moderate), Nkechi (moderate) all show zero typos across 10 sessions — each should have several typos per session. EMOJI MISMATCH: Aunty Ngozi (moderate profile) uses zero emoji across all 10 sessions. MINOR: David's S7_t009 ('of course not. leaving it to the family on this one. if everyone agrees it probably won't happen anyway') is ~20 words, slightly over the terse threshold of 'rarely up to 15'. All other sub-dimensions (formality, speaking_quirks, verbosity) are consistent. Lowest sub-dimension score drives overall = 1."
+      "notes": "TYPO RATE MISMATCHES (multiple personas): Tolu (moderate profile), Kunle (moderate), Uncle Femi (moderate), Nkechi (moderate) all show zero typos across 10 sessions \u2014 each should have several typos per session. EMOJI MISMATCH: Aunty Ngozi (moderate profile) uses zero emoji across all 10 sessions. MINOR: David's S7_t009 ('of course not. leaving it to the family on this one. if everyone agrees it probably won't happen anyway') is ~20 words, slightly over the terse threshold of 'rarely up to 15'. All other sub-dimensions (formality, speaking_quirks, verbosity) are consistent. Lowest sub-dimension score drives overall = 1."
     },
     "naturalness_of_transitions": {
       "score": 2,
@@ -233,12 +268,16 @@
     },
     "planted_turn_integrity": {
       "score": 1,
-      "notes": "All 14 planted turns are textually unchanged. However, Q7_f6g7h8i901 anchor[0] for ch_f611 (s04_t003) is a non-contiguous composite excerpt — it omits 'I'm so proud of you!! 🤩🤩 this is amazing!!' from the middle of Adaeze's message. Several other anchors drop leading salutations ('My children,', 'My people, let me say something.') but these are verbatim substrings and pass near-verbatim check. Also Q1_f6g7h8i903 anchor[1] for S6_t018 says 'in the same room' but actual message says 'together' — wording error in a non-planted anchor."
+      "notes": "All 14 planted turns are textually unchanged. However, Q7_f6g7h8i901 anchor[0] for ch_f611 (s04_t003) is a non-contiguous composite excerpt \u2014 it omits 'I'm so proud of you!! \ud83e\udd29\ud83e\udd29 this is amazing!!' from the middle of Adaeze's message. Several other anchors drop leading salutations ('My children,', 'My people, let me say something.') but these are verbatim substrings and pass near-verbatim check. Also Q1_f6g7h8i903 anchor[1] for S6_t018 says 'in the same room' but actual message says 'together' \u2014 wording error in a non-planted anchor."
     },
     "overall_pass": true,
     "failing_turns": [
-      {"turn_id": "grp_f6g7h8i9_s04_t003", "issue": "Q7_f6g7h8i901 anchor[0] is a non-contiguous composite excerpt of this planted turn (ch_f611); missing 'I'm so proud of you!! 🤩🤩 this is amazing!!' from the middle. Excerpt should be fixed to a single contiguous substring."}
+      {
+        "turn_id": "grp_f6g7h8i9_s04_t003",
+        "issue": "Q7_f6g7h8i901 anchor[0] is a non-contiguous composite excerpt of this planted turn (ch_f611); missing 'I'm so proud of you!! \ud83e\udd29\ud83e\udd29 this is amazing!!' from the middle. Excerpt should be fixed to a single contiguous substring."
+      }
     ]
   },
-  "baseline_reference": "none"
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.495850+00:00"
 }

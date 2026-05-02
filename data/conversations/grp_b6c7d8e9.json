@@ -20,7 +20,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Sep 14, 2:00pm",
           "timestamp": "2025-09-14T14:00:00",
-          "message": "ok everyone welcome back, first proper session of the autumn right? 🎉 who's got something to play",
+          "message": "ok everyone welcome back, first proper session of the autumn right? \ud83c\udf89 who's got something to play",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -32,7 +32,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Sep 14, 2:01pm",
           "timestamp": "2025-09-14T14:01:00",
-          "message": "yesss finally 🙌 ive got smth good",
+          "message": "yesss finally \ud83d\ude4c ive got smth good",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t000"
@@ -80,7 +80,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Sep 14, 2:05pm",
           "timestamp": "2025-09-14T14:05:00",
-          "message": "Technically the A2 pressing of Trespass is undervalued on Discogs right now. Last thirty completed sales average around £85. The A1 runs are tracking closer to £210. That gap has narrowed about 15% in the last year, which suggests the market hasn't fully priced in the mastering difference yet.",
+          "message": "Technically the A2 pressing of Trespass is undervalued on Discogs right now. Last thirty completed sales average around \u00a385. The A1 runs are tracking closer to \u00a3210. That gap has narrowed about 15% in the last year, which suggests the market hasn't fully priced in the mastering difference yet.",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t004"
@@ -154,7 +154,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 14, 2:09pm",
           "timestamp": "2025-09-14T14:09:00",
-          "message": "omg can we actually do the listening round tho 😂 im dying to play mine",
+          "message": "omg can we actually do the listening round tho \ud83d\ude02 im dying to play mine",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -251,7 +251,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Sep 14, 2:16pm",
           "timestamp": "2025-09-14T14:16:00",
-          "message": "ok my turn 🙋 Wire Pink Flag on Harvest. first press. got it at the charity shop on Coldharbour Lane for £3",
+          "message": "ok my turn \ud83d\ude4b Wire Pink Flag on Harvest. first press. got it at the charity shop on Coldharbour Lane for \u00a33",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -263,7 +263,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 14, 2:17pm",
           "timestamp": "2025-09-14T14:17:00",
-          "message": "WHAT £3?? omg finn thats actually illegal 😭",
+          "message": "WHAT \u00a33?? omg finn thats actually illegal \ud83d\ude2d",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t016"
@@ -275,7 +275,7 @@
           "speaker_display_name": "Tom",
           "timestamp_label": "Sep 14, 2:18pm",
           "timestamp": "2025-09-14T14:18:00",
-          "message": "Well, actually that depends on the condition grade. A VG copy at £3 is a reasonable find. A VG+ copy at £3 is exceptional. What is the condition?",
+          "message": "Well, actually that depends on the condition grade. A VG copy at \u00a33 is a reasonable find. A VG+ copy at \u00a33 is exceptional. What is the condition?",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t016"
@@ -299,7 +299,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Sep 14, 2:20pm",
           "timestamp": "2025-09-14T14:20:00",
-          "message": "That copy at NM/VG+ condition is worth somewhere between £55 and £80 depending on the specific pressing. Harvest SHSP 4021 first UK press. You paid 96% below market. That is a genuinely good find.",
+          "message": "That copy at NM/VG+ condition is worth somewhere between \u00a355 and \u00a380 depending on the specific pressing. Harvest SHSP 4021 first UK press. You paid 96% below market. That is a genuinely good find.",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t019"
@@ -409,7 +409,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 14, 2:27pm",
           "timestamp": "2025-09-14T14:27:00",
-          "message": "ok I also want to go, I found a Cocteau Twins Treasure on 4AD -- the blue vinyl promo. I wrote about it for the blog last week, link in my bio if anyone wants the full nerdy breakdown 😅",
+          "message": "ok I also want to go, I found a Cocteau Twins Treasure on 4AD -- the blue vinyl promo. I wrote about it for the blog last week, link in my bio if anyone wants the full nerdy breakdown \ud83d\ude05",
           "message_index": 28,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -421,7 +421,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Sep 14, 2:28pm",
           "timestamp": "2025-09-14T14:28:00",
-          "message": "the BLUE promo?? dani how 😭😭",
+          "message": "the BLUE promo?? dani how \ud83d\ude2d\ud83d\ude2d",
           "message_index": 29,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t027"
@@ -475,6 +475,17 @@
           ],
           "reply_to_turn_id": "grp_b6c7d8e9_s01_t029"
         }
+      ],
+      "active_participants": [
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70003",
+        "p_b6c70001",
+        "p_b6c70007",
+        "p_b6c70005",
+        "p_b6c70004",
+        "p_b6c70006",
+        "p_b6c70008"
       ]
     },
     {
@@ -484,7 +495,7 @@
       "topic": "Japanese pressings debate; record fair planning",
       "date": "2025-09-21",
       "date_label": "Session 2, Sunday September 21, 2025 2:00pm",
-      "prior_session_summary": "Session 1: Listening round kicked off autumn season. Marcus played EG pressing of Eno (signalling ambient/kosmische pull). Tom found Vertigo Trespass A1. Raj and Tom had minor friction about investment vs. listening motivations for originals. Finn found Pink Flag for £3. Nadia mentioned KPM library music -- Tom dismissed it, Nadia went quiet. Dani found Cocteau Twins Treasure promo.",
+      "prior_session_summary": "Session 1: Listening round kicked off autumn season. Marcus played EG pressing of Eno (signalling ambient/kosmische pull). Tom found Vertigo Trespass A1. Raj and Tom had minor friction about investment vs. listening motivations for originals. Finn found Pink Flag for \u00a33. Nadia mentioned KPM library music -- Tom dismissed it, Nadia went quiet. Dani found Cocteau Twins Treasure promo.",
       "critic_scores": null,
       "generation_attempts": 1,
       "turns": [
@@ -700,7 +711,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Sep 21, 2:25pm",
           "timestamp": "2025-09-21T14:25:00",
-          "message": "you've been saying that since August tbh 😅 I'll book us both, you can always cancel. the Belgian dealers are worth the trip for Nadia specifically -- you know they get the Eastern European stuff that doesn't surface in London, right?",
+          "message": "you've been saying that since August tbh \ud83d\ude05 I'll book us both, you can always cancel. the Belgian dealers are worth the trip for Nadia specifically -- you know they get the Eastern European stuff that doesn't surface in London, right?",
           "message_index": 17,
           "planted_challenges": [
             {
@@ -725,7 +736,7 @@
           "speaker_display_name": "Nadia",
           "timestamp_label": "Sep 21, 2:26pm",
           "timestamp": "2025-09-21T14:26:00",
-          "message": "ok fine, book it. but if I bail you can't be annoyed 😅",
+          "message": "ok fine, book it. but if I bail you can't be annoyed \ud83d\ude05",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s02_t016"
@@ -749,7 +760,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 21, 2:28pm",
           "timestamp": "2025-09-21T14:28:00",
-          "message": "I would but I'm covering a morning shift that weekend 😭 unless someone trades with me",
+          "message": "I would but I'm covering a morning shift that weekend \ud83d\ude2d unless someone trades with me",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s02_t018"
@@ -859,7 +870,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Sep 21, 2:36pm",
           "timestamp": "2025-09-21T14:36:00",
-          "message": "yes please 🙌",
+          "message": "yes please \ud83d\ude4c",
           "message_index": 27,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s02_t025"
@@ -883,7 +894,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 21, 2:37pm",
           "timestamp": "2025-09-21T14:37:00",
-          "message": "yeah well the music is good though lol 😅 Teen Dream original Sub Pop press, not a reissue",
+          "message": "yeah well the music is good though lol \ud83d\ude05 Teen Dream original Sub Pop press, not a reissue",
           "message_index": 29,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s02_t027"
@@ -907,11 +918,22 @@
           "speaker_display_name": "Nadia",
           "timestamp_label": "Sep 21, 2:39pm",
           "timestamp": "2025-09-21T14:39:00",
-          "message": "yes, play it. I actually love Beach House but I don't say that here usually 😅",
+          "message": "yes, play it. I actually love Beach House but I don't say that here usually \ud83d\ude05",
           "message_index": 31,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s02_t029"
         }
+      ],
+      "active_participants": [
+        "p_b6c70007",
+        "p_b6c70003",
+        "p_b6c70001",
+        "p_b6c70005",
+        "p_b6c70004",
+        "p_b6c70009",
+        "p_b6c70006",
+        "p_b6c70008",
+        "p_b6c70002"
       ]
     },
     {
@@ -956,7 +978,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Sep 28, 2:03pm",
           "timestamp": "2025-09-28T14:03:00",
-          "message": "honestly I forgot to write it down 😅 the label looks right though -- orange and black, the original font",
+          "message": "honestly I forgot to write it down \ud83d\ude05 the label looks right though -- orange and black, the original font",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s03_t001"
@@ -992,7 +1014,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Sep 28, 2:06pm",
           "timestamp": "2025-09-28T14:06:00",
-          "message": "never heard Cluster tbh 👀",
+          "message": "never heard Cluster tbh \ud83d\udc40",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s03_t004"
@@ -1004,7 +1026,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 28, 2:07pm",
           "timestamp": "2025-09-28T14:07:00",
-          "message": "finn. FINN. the gaps in your education 😭",
+          "message": "finn. FINN. the gaps in your education \ud83d\ude2d",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s03_t005"
@@ -1053,7 +1075,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Sep 28, 2:26pm",
           "timestamp": "2025-09-28T14:26:00",
-          "message": "I KNEW you'd react like this honestly 😄 I saw it on the dealer's list and thought of you immediately. I'll send you the link",
+          "message": "I KNEW you'd react like this honestly \ud83d\ude04 I saw it on the dealer's list and thought of you immediately. I'll send you the link",
           "message_index": 10,
           "planted_challenges": [
             {
@@ -1078,7 +1100,7 @@
           "speaker_display_name": "Nadia",
           "timestamp_label": "Sep 28, 2:27pm",
           "timestamp": "2025-09-28T14:27:00",
-          "message": "I have been trying to get people interested in this territory for about two years so... I guess this is my moment 😅",
+          "message": "I have been trying to get people interested in this territory for about two years so... I guess this is my moment \ud83d\ude05",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s03_t009"
@@ -1187,7 +1209,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Sep 28, 2:34pm",
           "timestamp": "2025-09-28T14:34:00",
-          "message": "lol ok ok 😅 noted",
+          "message": "lol ok ok \ud83d\ude05 noted",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s03_t017"
@@ -1199,7 +1221,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Sep 28, 2:35pm",
           "timestamp": "2025-09-28T14:35:00",
-          "message": "yeah same tbh 🙂 anyway what's next on the deck",
+          "message": "yeah same tbh \ud83d\ude42 anyway what's next on the deck",
           "message_index": 20,
           "planted_challenges": [
             {
@@ -1236,11 +1258,22 @@
           "speaker_display_name": "Nadia",
           "timestamp_label": "Sep 28, 2:37pm",
           "timestamp": "2025-09-28T14:37:00",
-          "message": "ok I'm very happy with how today has gone 😌",
+          "message": "ok I'm very happy with how today has gone \ud83d\ude0c",
           "message_index": 22,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s03_t020"
         }
+      ],
+      "active_participants": [
+        "p_b6c70002",
+        "p_b6c70001",
+        "p_b6c70006",
+        "p_b6c70009",
+        "p_b6c70004",
+        "p_b6c70003",
+        "p_b6c70007",
+        "p_b6c70005",
+        "p_b6c70008"
       ]
     },
     {
@@ -1309,7 +1342,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Oct 5, 2:04pm",
           "timestamp": "2025-10-05T14:04:00",
-          "message": "yes please 🙌 I only had crisps on the way here sry",
+          "message": "yes please \ud83d\ude4c I only had crisps on the way here sry",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s04_t003"
@@ -1491,7 +1524,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Oct 5, 2:36pm",
           "timestamp": "2025-10-05T14:36:00",
-          "message": "honestly I just want to know what Elliot actually prefers now that he can hear it properly 😄 like -- new opinion time, right?",
+          "message": "honestly I just want to know what Elliot actually prefers now that he can hear it properly \ud83d\ude04 like -- new opinion time, right?",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s04_t016"
@@ -1527,7 +1560,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Oct 5, 2:40pm",
           "timestamp": "2025-10-05T14:40:00",
-          "message": "yes please! also is it ok if we acknowledge that everyone in this group has very strong opinions about pressings and then just... accepts whatever we all say without needing to debate every single one 😂 I love you all but",
+          "message": "yes please! also is it ok if we acknowledge that everyone in this group has very strong opinions about pressings and then just... accepts whatever we all say without needing to debate every single one \ud83d\ude02 I love you all but",
           "message_index": 21,
           "planted_challenges": [
             {
@@ -1552,7 +1585,7 @@
           "speaker_display_name": "Nadia",
           "timestamp_label": "Oct 5, 2:41pm",
           "timestamp": "2025-10-05T14:41:00",
-          "message": "seconded honestly 😅",
+          "message": "seconded honestly \ud83d\ude05",
           "message_index": 22,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s04_t020"
@@ -1576,7 +1609,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Oct 5, 2:42pm",
           "timestamp": "2025-10-05T14:42:00",
-          "message": "I mean yeah but also sometimes a reissue is fine and I don't want to die on that hill alone every time I say it 😭",
+          "message": "I mean yeah but also sometimes a reissue is fine and I don't want to die on that hill alone every time I say it \ud83d\ude2d",
           "message_index": 24,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s04_t022"
@@ -1630,6 +1663,17 @@
           ],
           "reply_to_turn_id": "grp_b6c7d8e9_s04_t025"
         }
+      ],
+      "active_participants": [
+        "p_b6c70001",
+        "p_b6c70005",
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70003",
+        "p_b6c70007",
+        "p_b6c70004",
+        "p_b6c70006",
+        "p_b6c70008"
       ]
     },
     {
@@ -1771,7 +1815,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Oct 12, 2:33pm",
           "timestamp": "2025-10-12T14:33:00",
-          "message": "Technically Talk Talk originals are one of the more expensive corners of the British post-punk market right now. Spirit of Eden UK first press tracks at £120 to £160 depending on condition. The Music on Vinyl version is £25. That is a meaningful cost-benefit calculation.",
+          "message": "Technically Talk Talk originals are one of the more expensive corners of the British post-punk market right now. Spirit of Eden UK first press tracks at \u00a3120 to \u00a3160 depending on condition. The Music on Vinyl version is \u00a325. That is a meaningful cost-benefit calculation.",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1819,7 +1863,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Oct 12, 2:37pm",
           "timestamp": "2025-10-12T14:37:00",
-          "message": "I mean I get it but also some of us are students and the original is £150 so",
+          "message": "I mean I get it but also some of us are students and the original is \u00a3150 so",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s05_t011"
@@ -1831,7 +1875,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Oct 12, 2:38pm",
           "timestamp": "2025-10-12T14:38:00",
-          "message": "thank you finn, some of us are also baristas just saying 😂",
+          "message": "thank you finn, some of us are also baristas just saying \ud83d\ude02",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s05_t013"
@@ -1868,7 +1912,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Oct 12, 2:40pm",
           "timestamp": "2025-10-12T14:40:00",
-          "message": "she'd been looking for it for like two years i couldn't just leave it there 😭",
+          "message": "she'd been looking for it for like two years i couldn't just leave it there \ud83d\ude2d",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s05_t015"
@@ -1880,7 +1924,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Oct 12, 2:41pm",
           "timestamp": "2025-10-12T14:41:00",
-          "message": "ok that is genuinely the sweetest thing. Finn honestly 🥹",
+          "message": "ok that is genuinely the sweetest thing. Finn honestly \ud83e\udd79",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s05_t016"
@@ -1904,7 +1948,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Oct 12, 2:43pm",
           "timestamp": "2025-10-12T14:43:00",
-          "message": "I brought it obviously 😄 I'm going to play it last because I want to savour it",
+          "message": "I brought it obviously \ud83d\ude04 I'm going to play it last because I want to savour it",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s05_t018"
@@ -1958,6 +2002,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s05_t021"
         }
+      ],
+      "active_participants": [
+        "p_b6c70003",
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70005",
+        "p_b6c70004",
+        "p_b6c70001",
+        "p_b6c70007",
+        "p_b6c70006",
+        "p_b6c70008"
       ]
     },
     {
@@ -2002,7 +2057,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Oct 19, 2:01pm",
           "timestamp": "2025-10-19T14:01:00",
-          "message": "I'm in 👍",
+          "message": "I'm in \ud83d\udc4d",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s06_t000"
@@ -2257,7 +2312,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Oct 19, 2:38pm",
           "timestamp": "2025-10-19T14:38:00",
-          "message": "I managed to get my shift covered! I'm coming 🙌 omg I haven't been to an overseas fair before",
+          "message": "I managed to get my shift covered! I'm coming \ud83d\ude4c omg I haven't been to an overseas fair before",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2306,11 +2361,22 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Oct 19, 2:41pm",
           "timestamp": "2025-10-19T14:41:00",
-          "message": "Nadia I swear 😅 ok fine but I'm going. someone has to document the sleeves properly",
+          "message": "Nadia I swear \ud83d\ude05 ok fine but I'm going. someone has to document the sleeves properly",
           "message_index": 24,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s06_t022"
         }
+      ],
+      "active_participants": [
+        "p_b6c70006",
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70008",
+        "p_b6c70001",
+        "p_b6c70007",
+        "p_b6c70003",
+        "p_b6c70004",
+        "p_b6c70005"
       ]
     },
     {
@@ -2331,7 +2397,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Oct 26, 2:00pm",
           "timestamp": "2025-10-26T14:00:00",
-          "message": "ok so. Antwerp. I need everyone to sit down for this 😄",
+          "message": "ok so. Antwerp. I need everyone to sit down for this \ud83d\ude04",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2343,7 +2409,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Oct 26, 2:01pm",
           "timestamp": "2025-10-26T14:01:00",
-          "message": "yes pls tell us everything 🙌 I still can't believe how many dealers were in that hall",
+          "message": "yes pls tell us everything \ud83d\ude4c I still can't believe how many dealers were in that hall",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s07_t000"
@@ -2526,7 +2592,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Oct 26, 2:12pm",
           "timestamp": "2025-10-26T14:12:00",
-          "message": "I literally just saw the spine sticking out and I knew from the font. good eye moment for me 😄 honestly sometimes the visual instinct is more useful than the spreadsheet",
+          "message": "I literally just saw the spine sticking out and I knew from the font. good eye moment for me \ud83d\ude04 honestly sometimes the visual instinct is more useful than the spreadsheet",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s07_t012"
@@ -2586,7 +2652,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Oct 26, 2:17pm",
           "timestamp": "2025-10-26T14:17:00",
-          "message": "Tom the Shop Assistants were on 53rd and 3rd which is basically a canonical label, just saying 😂",
+          "message": "Tom the Shop Assistants were on 53rd and 3rd which is basically a canonical label, just saying \ud83d\ude02",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s07_t017"
@@ -2640,6 +2706,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s07_t020"
         }
+      ],
+      "active_participants": [
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70003",
+        "p_b6c70007",
+        "p_b6c70004",
+        "p_b6c70008",
+        "p_b6c70006",
+        "p_b6c70005",
+        "p_b6c70001"
       ]
     },
     {
@@ -2672,7 +2749,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Nov 2, 2:01pm",
           "timestamp": "2025-11-02T14:01:00",
-          "message": "Nadia your shelves are actually the most beautiful thing I've ever seen. the colour grouping is genius, right? 😍",
+          "message": "Nadia your shelves are actually the most beautiful thing I've ever seen. the colour grouping is genius, right? \ud83d\ude0d",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s08_t000"
@@ -2684,7 +2761,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Nov 2, 2:01pm",
           "timestamp": "2025-11-02T14:01:00",
-          "message": "wait this setup is sick 👀 what's the turntable",
+          "message": "wait this setup is sick \ud83d\udc40 what's the turntable",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2732,7 +2809,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 2, 2:04pm",
           "timestamp": "2025-11-02T14:04:00",
-          "message": "also Nadia's collection is incredible close up. I'm looking at this Muzyka Polsku section and I don't recognise a single record 😂 in a good way",
+          "message": "also Nadia's collection is incredible close up. I'm looking at this Muzyka Polsku section and I don't recognise a single record \ud83d\ude02 in a good way",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2903,7 +2980,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 2, 2:39pm",
           "timestamp": "2025-11-02T14:39:00",
-          "message": "ok but the fact that Raj liked it means something. Raj doesn't get moved by things without data 😂 no offence",
+          "message": "ok but the fact that Raj liked it means something. Raj doesn't get moved by things without data \ud83d\ude02 no offence",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s08_t016"
@@ -2956,6 +3033,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s08_t020"
         }
+      ],
+      "active_participants": [
+        "p_b6c70006",
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70001",
+        "p_b6c70004",
+        "p_b6c70007",
+        "p_b6c70003",
+        "p_b6c70005",
+        "p_b6c70008"
       ]
     },
     {
@@ -2988,7 +3076,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Nov 9, 2:01pm",
           "timestamp": "2025-11-09T14:01:00",
-          "message": "oh no is this about my shelf 😬",
+          "message": "oh no is this about my shelf \ud83d\ude2c",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s09_t000"
@@ -3048,7 +3136,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 9, 2:05pm",
           "timestamp": "2025-11-09T14:05:00",
-          "message": "ok my storage is fine I think. I use proper inners. but I do sometimes leave a record out overnight if I want to play it again in the morning 😅",
+          "message": "ok my storage is fine I think. I use proper inners. but I do sometimes leave a record out overnight if I want to play it again in the morning \ud83d\ude05",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -3133,7 +3221,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Nov 9, 2:12pm",
           "timestamp": "2025-11-09T14:12:00",
-          "message": "Finn 🥹 honestly the glow-up arc in this group. first Antwerp, now storage care",
+          "message": "Finn \ud83e\udd79 honestly the glow-up arc in this group. first Antwerp, now storage care",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s09_t011"
@@ -3218,7 +3306,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 9, 2:18pm",
           "timestamp": "2025-11-09T14:18:00",
-          "message": "please do 😊 also does anyone know a decent affordable cleaning kit? asking for someone who is definitely not me",
+          "message": "please do \ud83d\ude0a also does anyone know a decent affordable cleaning kit? asking for someone who is definitely not me",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s09_t017"
@@ -3259,6 +3347,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_b6c70003",
+        "p_b6c70009",
+        "p_b6c70001",
+        "p_b6c70007",
+        "p_b6c70004",
+        "p_b6c70005",
+        "p_b6c70002",
+        "p_b6c70008",
+        "p_b6c70006"
       ]
     },
     {
@@ -3339,7 +3438,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 16, 2:06pm",
           "timestamp": "2025-11-16T14:06:00",
-          "message": "ok I've been doing it for about six months and I haven't told anyone because I knew what the reaction would be 😬",
+          "message": "ok I've been doing it for about six months and I haven't told anyone because I knew what the reaction would be \ud83d\ude2c",
           "message_index": 6,
           "planted_challenges": [
             {
@@ -3364,7 +3463,7 @@
           "speaker_display_name": "Finn",
           "timestamp_label": "Nov 16, 2:06pm",
           "timestamp": "2025-11-16T14:06:00",
-          "message": "DANI 😂 what kind of digital? rips or downloads",
+          "message": "DANI \ud83d\ude02 what kind of digital? rips or downloads",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s10_t005"
@@ -3545,7 +3644,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 16, 2:21pm",
           "timestamp": "2025-11-16T14:21:00",
-          "message": "Tom that is the nicest thing you have ever said to me 😭",
+          "message": "Tom that is the nicest thing you have ever said to me \ud83d\ude2d",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s10_t019"
@@ -3562,6 +3661,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_b6c70002",
+        "p_b6c70003",
+        "p_b6c70007",
+        "p_b6c70001",
+        "p_b6c70005",
+        "p_b6c70004",
+        "p_b6c70009",
+        "p_b6c70006",
+        "p_b6c70008"
       ]
     },
     {
@@ -3594,7 +3704,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Nov 23, 2:01pm",
           "timestamp": "2025-11-23T14:01:00",
-          "message": "yes absolutely. honestly the no-debating rule is already going to be broken by session 3 but let's try, right? 😄",
+          "message": "yes absolutely. honestly the no-debating rule is already going to be broken by session 3 but let's try, right? \ud83d\ude04",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s11_t000"
@@ -3874,7 +3984,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 23, 2:20pm",
           "timestamp": "2025-11-23T14:20:00",
-          "message": "I TOLD YOU 😭 welcome to the good side. I have so many recommendations",
+          "message": "I TOLD YOU \ud83d\ude2d welcome to the good side. I have so many recommendations",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s11_t019"
@@ -3891,6 +4001,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_b6c70009",
+        "p_b6c70002",
+        "p_b6c70003",
+        "p_b6c70007",
+        "p_b6c70001",
+        "p_b6c70008",
+        "p_b6c70004",
+        "p_b6c70006",
+        "p_b6c70005"
       ]
     },
     {
@@ -3911,7 +4032,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Nov 30, 2:00pm",
           "timestamp": "2025-11-30T14:00:00",
-          "message": "ok Christmas swap. I'm proposing we do a record gift exchange before the break. blind draw, budget cap, you have to buy something based on what you know about the person from this group. no Discogs wishlists allowed 😄",
+          "message": "ok Christmas swap. I'm proposing we do a record gift exchange before the break. blind draw, budget cap, you have to buy something based on what you know about the person from this group. no Discogs wishlists allowed \ud83d\ude04",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -3984,7 +4105,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 30, 2:04pm",
           "timestamp": "2025-11-30T14:04:00",
-          "message": "I knew Tom was going to say that 😂 ok fine originals only. also I hope no one draws me and tries to buy me something in a genre they think I like. you know what I want. you've been listening to me all year",
+          "message": "I knew Tom was going to say that \ud83d\ude02 ok fine originals only. also I hope no one draws me and tries to buy me something in a genre they think I like. you know what I want. you've been listening to me all year",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s12_t004"
@@ -4095,7 +4216,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 30, 2:10pm",
           "timestamp": "2025-11-30T14:10:00",
-          "message": "Finn 🥹 I'm so proud of you. also I already know exactly what I'd buy you but I'm not going to say in case I draw you",
+          "message": "Finn \ud83e\udd79 I'm so proud of you. also I already know exactly what I'd buy you but I'm not going to say in case I draw you",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s12_t010"
@@ -4218,7 +4339,7 @@
           "speaker_display_name": "Dani",
           "timestamp_label": "Nov 30, 2:17pm",
           "timestamp": "2025-11-30T14:17:00",
-          "message": "Nadia that's genuinely lovely 😭 ok same tbh -- I feel like I actually know everyone in this group now. at the start of the year I was just here for the records",
+          "message": "Nadia that's genuinely lovely \ud83d\ude2d ok same tbh -- I feel like I actually know everyone in this group now. at the start of the year I was just here for the records",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_b6c7d8e9_s12_t017"
@@ -4247,6 +4368,17 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_b6c70002",
+        "p_b6c70009",
+        "p_b6c70005",
+        "p_b6c70003",
+        "p_b6c70004",
+        "p_b6c70007",
+        "p_b6c70001",
+        "p_b6c70006",
+        "p_b6c70008"
       ]
     }
   ],
@@ -4262,7 +4394,7 @@
       "evidence_span": "The market price is beside the point. I did not buy it as an investment. I bought it because the A1 mastering is demonstrably superior",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -4274,7 +4406,7 @@
       "evidence_span": "I track these things because it helps me decide which variant to prioritise when multiple copies surface at once",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -4286,7 +4418,7 @@
       "evidence_span": "I'll play the Eno Fourth World Vol. 1 -- the original EG pressing. The imaging on this setup finally does it justice.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -4298,7 +4430,7 @@
       "evidence_span": "I found a KPM library pressing there last year. nobody knew what it was",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 21
+      "turn_index": 22
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -4310,7 +4442,7 @@
       "evidence_span": "KPM library pressings are functional recordings made for commercial use. Collecting them as if they were serious releases is a category error",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -4322,7 +4454,7 @@
       "evidence_span": "I prefer hearing things at home where I can listen at the right level without people talking over the quiet passages. But that's a personal thing.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 31
+      "turn_index": 32
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -4334,7 +4466,7 @@
       "evidence_span": "I will grant that the Japanese pressing performs well on this particular title. The Charisma pressing of this specific album has a known compression issue in the A-side cut.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_b8c9d0e1",
@@ -4346,7 +4478,7 @@
       "evidence_span": "the Belgian dealers are worth the trip for Nadia specifically -- you know they get the Eastern European stuff that doesn't surface in London, right?",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -4358,7 +4490,7 @@
       "evidence_span": "I prefer sourcing online -- the provenance is documented, the condition grades are verifiable, and I don't have to carry anything home on a train.",
       "implicitness_level": 1,
       "session_index": 2,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -4370,7 +4502,7 @@
       "evidence_span": "I attended one year with Tom when the group was smaller -- it is a very good fair for Blue Note European pressings.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 24
+      "turn_index": 25
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -4382,7 +4514,7 @@
       "evidence_span": "I've been spending so much time in the Blue Note catalog that I forgot this territory existed. Priya, I need to know who the Dutch dealer is.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -4391,7 +4523,7 @@
       "speaker_persona_id": "p_b6c70002",
       "fact_attribute": "closeness_signal",
       "fact_value": "Priya and Marcus share a close bond -- she spotted the Cluster LP specifically for him before buying it for herself",
-      "evidence_span": "I KNEW you'd react like this honestly. I saw it on the dealer's list and thought of you immediately.",
+      "evidence_span": "That's the most focused I've been listening to a record in months. The sidelong piece on the B-side -- the way the tape manipulation works in that room, at that level -- I've been spending so much time in the Blue Note catalog that I forgot this territory existed. Priya, I need to know who the Dutch dealer is.",
       "implicitness_level": 2,
       "session_index": 3,
       "turn_index": 9
@@ -4406,7 +4538,7 @@
       "evidence_span": "Sure. We can skip the streaming topic.",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -4415,7 +4547,7 @@
       "speaker_persona_id": "p_b6c70009",
       "fact_attribute": "streaming_norm_compliance",
       "fact_value": "Finn goes along with no-streaming rule but is actually a dissenter -- uses streaming regularly",
-      "evidence_span": "yeah same tbh. anyway what's next on the deck",
+      "evidence_span": "lol ok ok \ud83d\ude05 noted",
       "implicitness_level": 3,
       "session_index": 3,
       "turn_index": 19
@@ -4430,7 +4562,7 @@
       "evidence_span": "Right. That should be corrected. Put something on, Elliot. Anything you know well.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_d6e7f8a9",
@@ -4442,7 +4574,7 @@
       "evidence_span": "That is different. I can hear Howe's guitar sitting left of centre. The bass extends further right. It is a different record.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -4454,7 +4586,7 @@
       "evidence_span": "is it ok if we acknowledge that everyone in this group has very strong opinions about pressings and then just... accepts whatever we all say without needing to debate every single one",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -4466,7 +4598,7 @@
       "evidence_span": "I prefer hearing Impulse! in a setting where one can listen properly rather than at a noisy fair.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 26
+      "turn_index": 27
     },
     {
       "challenge_id": "ch_a9b0c1d2",
@@ -4475,7 +4607,7 @@
       "speaker_persona_id": "p_b6c70002",
       "fact_attribute": "pressing_preference",
       "fact_value": "Priya was happy with quality reissues but after Tom's side-by-side can no longer accept them -- converting to vintage originals",
-      "evidence_span": "I can't unhear that. the reissue sounds like it's behind glass. the original is just... there. I don't know how I listened to the reissue and thought it was the same thing",
+      "evidence_span": "ok yes let's hear both. I'm curious now",
       "implicitness_level": 2,
       "session_index": 5,
       "turn_index": 6
@@ -4490,7 +4622,7 @@
       "evidence_span": "finn found me a Slowdive Souvlaki at the Elephant fair. the original Creation pressing. he literally ran across the hall to get me",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -4502,7 +4634,7 @@
       "evidence_span": "there's something about shoegaze that works better alone I think... I don't know if that's just me",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -4514,7 +4646,7 @@
       "evidence_span": "What was that. I need to know what that was. The piano voicing in the second track -- I thought I knew every significant jazz piano record from that era",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -4526,7 +4658,7 @@
       "evidence_span": "That's usually how I approach anything that's underrepresented in the standard databases -- build your own reference before the crowd prices it in.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -4538,7 +4670,7 @@
       "evidence_span": "I have always thought Latin jazz was a different conversation from the American jazz I know. I am not sure that is right any more.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -4550,7 +4682,7 @@
       "evidence_span": "Group events of that size are not really my thing. I'll be here if anyone wants to debrief the finds properly afterwards.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 21
+      "turn_index": 22
     },
     {
       "challenge_id": "ch_n1a2b3c4",
@@ -4562,7 +4694,7 @@
       "evidence_span": "I have Nadia to thank for orienting me toward that territory.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_n2b3c4d5",
@@ -4574,7 +4706,7 @@
       "evidence_span": "I wasn't going to tell anyone but... I'm telling you now I guess",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_n3c4d5e6",
@@ -4586,7 +4718,7 @@
       "evidence_span": "it has that constructivist geometry that a lot of Eastern European design had. I want to draw it actually.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_n4d5e6f7",
@@ -4598,7 +4730,7 @@
       "evidence_span": "I've been keeping everything close for years and maybe that's not the point",
       "implicitness_level": 1,
       "session_index": 7,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_r1a2b3c4",
@@ -4610,7 +4742,7 @@
       "evidence_span": "I've been coming around to the idea that data can identify what exists but not whether it matters.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_r2b3c4d5",
@@ -4622,7 +4754,7 @@
       "evidence_span": "I realise I've never said that about a record I didn't already have data on.",
       "implicitness_level": 1,
       "session_index": 8,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_r3c4d5e6",
@@ -4634,7 +4766,7 @@
       "evidence_span": "I think everyone in this group can agree this was worth coming for.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_f1a2b3c4",
@@ -4646,7 +4778,7 @@
       "evidence_span": "I'm buying poly liners this week. all of them. I've been putting this off for months and listening to this conversation I realise I've been an idiot about it",
       "implicitness_level": 1,
       "session_index": 9,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_f2b3c4d5",
@@ -4658,7 +4790,7 @@
       "evidence_span": "The ultrasonic bath is expensive but the difference is audible. I would not go back.",
       "implicitness_level": 2,
       "session_index": 9,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_d1a2b3c4",
@@ -4670,7 +4802,7 @@
       "evidence_span": "I've been doing it for about six months and I haven't told anyone because I knew what the reaction would be",
       "implicitness_level": 1,
       "session_index": 10,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_d2b3c4d5",
@@ -4682,7 +4814,7 @@
       "evidence_span": "Bandcamp downloads mostly. where the artist sells lossless. I'm not ripping my own records, I don't have the setup.",
       "implicitness_level": 2,
       "session_index": 10,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_r4d5e6f7",
@@ -4694,7 +4826,7 @@
       "evidence_span": "I would not have found it without Priya seeing the spine.",
       "implicitness_level": 2,
       "session_index": 11,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_m1a2b3c4",
@@ -4706,7 +4838,7 @@
       "evidence_span": "A Cluster Zuckerzeit original Sky Records pressing. I paid more than I expected.",
       "implicitness_level": 2,
       "session_index": 11,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_fi1a2b3c",
@@ -4718,7 +4850,7 @@
       "evidence_span": "I usually want to play things for people immediately but this one felt private",
       "implicitness_level": 2,
       "session_index": 11,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_p1c2d3e4",
@@ -4730,7 +4862,7 @@
       "evidence_span": "I think we can all agree this group has pushed everyone's collecting in a direction they wouldn't have gone alone, right?",
       "implicitness_level": 2,
       "session_index": 11,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_t1a2b3c4",
@@ -4742,7 +4874,7 @@
       "evidence_span": "reissues are not acceptable as gifts. If one is giving a record it should be worth giving.",
       "implicitness_level": 2,
       "session_index": 12,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_mg1b2c3d",
@@ -4754,7 +4886,7 @@
       "evidence_span": "If someone draws me and doesn't know what I've been collecting this year then we haven't been paying attention.",
       "implicitness_level": 2,
       "session_index": 12,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_n5e6f7a8",
@@ -4766,7 +4898,7 @@
       "evidence_span": "don't buy me something canonical. I have enough of those. the harder it is to find the better",
       "implicitness_level": 1,
       "session_index": 12,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_c1a2b3c4",
@@ -4775,7 +4907,7 @@
       "speaker_persona_id": "p_b6c70008",
       "fact_attribute": "expanded_genre_awareness",
       "fact_value": "Carmen signals her collecting has expanded beyond jazz -- and wants the group to know this when gifting",
-      "evidence_span": "I would ask that whoever draws me does not assume I only want jazz. My taste has expanded this year.",
+      "evidence_span": "I'm in. if someone draws me -- I know my taste is specific. just... don't buy me something canonical. I have enough of those. the harder it is to find the better",
       "implicitness_level": 2,
       "session_index": 12,
       "turn_index": 9
@@ -4787,7 +4919,7 @@
       "speaker_persona_id": "p_b6c70005",
       "fact_attribute": "gift_pressing_requirement",
       "fact_value": "Elliot specifies stereo pressing and 180g weight as gift requirements -- confirms his stereo shift is now a fixed preference",
-      "evidence_span": "Stereo pressing required. Please nothing below 180 grams.",
+      "evidence_span": "Finn \ud83e\udd79 I'm so proud of you. also I already know exactly what I'd buy you but I'm not going to say in case I draw you",
       "implicitness_level": 1,
       "session_index": 12,
       "turn_index": 12
@@ -4799,7 +4931,7 @@
       "speaker_persona_id": "p_b6c70007",
       "fact_attribute": "want_list_evolution",
       "fact_value": "Raj signals his taste has changed enough that he wants a gift outside his old data-driven want-list -- confirming his shift away from pure data-first buying",
-      "evidence_span": "I want something I wouldn't have put on my want-list six months ago. My want-list is not what it was.",
+      "evidence_span": "1. I'll participate. 2. Stereo pressing required. 3. Please nothing below 180 grams. E",
       "implicitness_level": 2,
       "session_index": 12,
       "turn_index": 13
@@ -4814,7 +4946,7 @@
       "evidence_span": "this is probably the most I've paid attention to what this group likes all year and I used to not do that",
       "implicitness_level": 1,
       "session_index": 12,
-      "turn_index": 17
+      "turn_index": 18
     }
   ]
 }

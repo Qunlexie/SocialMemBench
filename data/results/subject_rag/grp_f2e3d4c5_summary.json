@@ -1,0 +1,111 @@
+{
+  "network_id": "grp_f2e3d4c5",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:40:36.002702+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.367,
+  "mean_context_words": 209.8,
+  "by_query_type": {
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.425
+    },
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.3
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.28
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q7_f2e3d401",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies that Aanya and Zac have a social connection, but it lacks specific details about the nature of their relationship and the implications for the families' interactions."
+    },
+    {
+      "qa_id": "Q4_f2e3d403",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_f2e3d408",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies a shift in Claire's behavior regarding non-school topics but fails to accurately attribute the trigger for this change, which was specifically linked to Sharon's idea of the quiz night."
+    },
+    {
+      "qa_id": "Q7_f2e3d409",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the essence of collaboration but misattributes the reference to the figures from the January committee, which should specifically mention the shared document."
+    },
+    {
+      "qa_id": "Q1_f2e3d410",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sharon's posting pattern to her response to positive feedback, which is not supported by the gold answer's focus on her late-night posting habit."
+    },
+    {
+      "qa_id": "Q1_f2e3d413",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mike is comfortable asking for favours, while the gold answer indicates he finds it uncomfortable and uses strategies to cushion his requests."
+    },
+    {
+      "qa_id": "Q8_f2e3d418",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f2e3d416",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mike is aware of the group's implicit norms, while the gold answer indicates he does not acknowledge the timing of his messages, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_f2e3d404",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Mike's knowledge of Priya's preference and does not provide the correct evidence from his message."
+    },
+    {
+      "qa_id": "Q8_f2e3d414",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the reason for Anita's shift in approach, incorrectly linking it to appreciation from Sharon rather than the correct acknowledgment of Sharon's good instinct."
+    },
+    {
+      "qa_id": "Q8_f2e3d415",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding the shift in Mike's framing of requests for help."
+    },
+    {
+      "qa_id": "Q7_f2e3d417",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a history of mutual support but inaccurately attributes the number of instances and lacks specific details about the nature of their arrangement."
+    }
+  ]
+}

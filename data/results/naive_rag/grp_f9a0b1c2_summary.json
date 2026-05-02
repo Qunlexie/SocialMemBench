@@ -1,0 +1,151 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:41:04.026868+00:00",
+  "sessions_used": 10,
+  "total_pairs": 22,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.286,
+  "mean_context_words": 321.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.36
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f9a0b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Saoirse values elevation, contradicting the gold answer which clearly indicates she prioritizes descents."
+    },
+    {
+      "qa_id": "Q1_f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f9a0b103",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Saoirse's proactive role but misattributes Priya's invitation to take point, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f9a0b105",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Ben's motivation but lacks specific attribution to his comment in Session 10 and does not fully convey the significance of the caf\u00e9 stop as the primary reason for participation."
+    },
+    {
+      "qa_id": "Q2_f9a0b101",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's preference and misidentifies the relevant messages and context, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_f9a0b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's understanding of Priya's motivation by focusing on her request for weekly rides instead of referencing his prior observation about her performance, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f9a0b103",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shared cycling history and the specific event in 2022, but it lacks the detail about the mutual recall of the hairpin incident and the established norms of candour in their relationship."
+    },
+    {
+      "qa_id": "Q7_f9a0b104",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the supportive relationship and some actions but misattributes the session numbers and lacks specific details about the established pattern of care from their previous relationship."
+    },
+    {
+      "qa_id": "Q8_f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's earlier position and fails to accurately reflect the shift in his approach to ride distance, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_f9a0b102",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Yuki's old and new preferences but inaccurately attributes her old preference to Session 3 instead of earlier sessions and lacks specific details about her early state."
+    },
+    {
+      "qa_id": "Q8_f9a0b104",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the old and new preferences but lacks specific details about the earlier characterization and the explicit signal of the shift."
+    },
+    {
+      "qa_id": "Q8_f9a0b105",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Lena's avoidance of gradients above 8% due to her hip flexor issue, but it fails to accurately attribute the retrospective disclosure to her and does not mention the long timeline of avoidance."
+    }
+  ]
+}

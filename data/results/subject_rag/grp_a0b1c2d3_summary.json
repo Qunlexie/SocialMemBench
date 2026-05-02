@@ -1,0 +1,145 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:31:31.423641+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.312,
+  "mean_context_words": 225.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.267
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.433
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.175
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures some aspects of Dennis's relationship to medical care but misattributes his stance as 'stubbornness and denial' without recognizing the deliberate self-reliance and resistance described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d302",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dana's statement and does not accurately reflect her complaint about the lack of prior notice, leading to a critical error."
+    },
+    {
+      "qa_id": "Q2_a0b1c2d302",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Priya struggles with admitting difficulty, but it does not accurately capture the specific phrasing and implications of Jess's response, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_a0b1c2d302",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Dana understands Dennis responds better to direct persuasion, but it fails to mention the contrast with other group members' approaches and does not attribute the insight about Dennis's response to Marcus, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a0b1c2d302",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Tyler's disclosure and does not accurately reflect the content or context of the original statement about Dennis."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bev's statement about Carol's history of self-sacrifice and does not accurately reflect the specific details and context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information regarding Dennis's shift in stance, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Bev's shift to joining a power-walking group after her divorce, which is not mentioned in the gold answer, and fails to accurately describe the context and trigger of her involvement."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the old and new preferences but fails to accurately attribute the emotional trigger to Carol's comment and does not mention the private formation of Luis's stance."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dana's shift in relationship to her parents and does not accurately reflect the specific trigger or the nature of her evolved state."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes a statement to Session 6, which is not mentioned in the gold answer, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the new preference to a statement that does not accurately reflect Rob's change in position, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tyler's old and new preferences, but it incorrectly attributes the influence of family advice to his uncle D instead of recognizing the self-driven nature of his questioning prior to the article."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Carol's shift to her planning a visit to Columbus, which is not supported by the gold answer and fails to identify the correct trigger of family influence and Bev's specific actions."
+    }
+  ]
+}

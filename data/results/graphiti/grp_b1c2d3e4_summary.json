@@ -1,0 +1,229 @@
+{
+  "network_id": "grp_b1c2d3e4",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:35:21.447393+00:00",
+  "sessions_used": 12,
+  "total_pairs": 32,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.031,
+  "mean_context_words": 56.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 12,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b1c2d3e401",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Greg's reaction to route suggestions, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e402",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_b1c2d3e403",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Bernard's preference for post-run socials."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e404",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_b1c2d3e405",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Miriam's relationship to competitive race events, which is required to score."
+    },
+    {
+      "qa_id": "Q2_b1c2d3e401",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "The generated answer did not provide any information regarding the group's decision or the member who expressed dissent."
+    },
+    {
+      "qa_id": "Q4_b1c2d3e401",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b1c2d3e401",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide Priya's specific concern about uneven surfaces, which is a critical part of the question."
+    },
+    {
+      "qa_id": "Q5_b1c2d3e402",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Helen's comment suggests she knew about Tasha's preference for tracking running times, while the gold answer correctly identifies Tasha's preference against tracking times and provides the specific evidence from Helen's comment."
+    },
+    {
+      "qa_id": "Q6_b1c2d3e401",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b1c2d3e401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding the relationship between Marcus and Greg, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e402",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Priya's relationship with Fatima, which contradicts the factual content provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e403",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b1c2d3e404",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding the exchange between Lionel and Bernard, resulting in a complete lack of content."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e401",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b1c2d3e404",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant details about Tasha's attitude or the trigger for the shift."
+    },
+    {
+      "qa_id": "Q7_b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding the exchange between Yuki and Chloe."
+    },
+    {
+      "qa_id": "Q8_b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Owen's consideration for a Wednesday session to Marcus's announcement rather than his own stated need for increased training volume."
+    },
+    {
+      "qa_id": "Q8_b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b1c2d309",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q2_b1c2d310",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b1c2d311",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b1c2d3e402",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Marcus's change in race plans or the trigger related to his knee complaint, instead discussing a celebratory 5K unrelated to the question."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Sonia's relationship to trail running and does not provide the correct experience that drove the shift."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e405",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Priya's attitude or the factors that enabled a shift, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e406",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Chloe has decided to participate in the Riverside 10K, while the gold answer states she is sitting out."
+    },
+    {
+      "qa_id": "Q7_b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the focus of Marcus's message, emphasizing personal invitations rather than the partnership and shared responsibility during a challenging time."
+    },
+    {
+      "qa_id": "Q7_b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Lionel's response, which is incorrect as the gold answer provides specific details about his response."
+    },
+    {
+      "qa_id": "Q8_b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Derek's change in fuelling approach to the completion of a race rather than the gastric variance he experienced, and it fails to accurately describe the group's previous norm."
+    },
+    {
+      "qa_id": "Q8_b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Ahmed's involvement or the change in route planning."
+    },
+    {
+      "qa_id": "Q8_b1c2d308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Bernard's comment to a discussion with Lionel about past achievements, rather than his medical constraints and cardiologist clearance."
+    }
+  ]
+}

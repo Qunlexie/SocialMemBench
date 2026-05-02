@@ -2,12 +2,12 @@
   "network_id": "grp_8b9c0d1e",
   "condition": "naive_rag",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:29:47.793294+00:00",
+  "evaluated_at": "2026-04-28T03:29:13.882697+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 6,
+  "new_pairs_this_run": 0,
   "mean_score": 0.433,
-  "mean_context_words": 279.8,
+  "mean_context_words": 281.2,
   "by_query_type": {
     "Q1": {
       "count": 1,
@@ -21,10 +21,6 @@
       "count": 1,
       "mean_score": 1.0
     },
-    "Q8": {
-      "count": 1,
-      "mean_score": 0.0
-    },
     "Q5": {
       "count": 1,
       "mean_score": 0.0
@@ -32,6 +28,10 @@
     "Q7": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.0
     }
   },
   "low_scoring": [
@@ -42,16 +42,16 @@
       "rationale": "The generated answer claims there is insufficient information, which directly contradicts the gold answer that provides detailed insights into each member's reading habits."
     },
     {
-      "qa_id": "Q8_bk8s3c1",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer incorrectly identifies Blessing's old and new approaches to challenging interpretations, focusing on the content of her interpretations rather than her method of challenging. It also provides an incorrect trigger for the change, missing the key detail of her novel's publication."
-    },
-    {
       "qa_id": "Q5_bk8s3c2",
       "query_type": "Q5",
       "score": 0.0,
       "rationale": "The generated answer identifies the wrong reading habit and fails to pinpoint the specific observable action by Tomasz that reveals his prior knowledge, instead offering a vague explanation."
+    },
+    {
+      "qa_id": "Q8_bk8s3c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Blessing's shift in approach and incorrectly identifies the sessions and details of her responses, failing to accurately reflect the core facts of the gold answer."
     }
   ]
 }

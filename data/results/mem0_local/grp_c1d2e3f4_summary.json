@@ -1,0 +1,177 @@
+{
+  "network_id": "grp_c1d2e3f4",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:34:09.507819+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.08,
+  "mean_context_words": 139.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.25
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_98e809a0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's communication preference, stating she prefers open and direct communication, while the gold answer highlights her preference for voice calls over video calls, indicating a deflection rather than transparency."
+    },
+    {
+      "qa_id": "Q1_fca07c65",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Kevin's long-term living situation to a fifty-four-year residence, which is not mentioned in the gold answer, and fails to accurately reflect his shift in perspective regarding his future in Chicago."
+    },
+    {
+      "qa_id": "Q1_4b2b7ad8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Marcus's immediate physical presence and actions in response to Loretta's call, and it fails to mention the specific details of his response."
+    },
+    {
+      "qa_id": "Q1_8cfe0300",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's message about her living situation and focuses incorrectly on her health, failing to address her specific statement about not wanting to leave her home."
+    },
+    {
+      "qa_id": "Q2_48eb480d",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_1128be29",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_00fb42d9",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_91076c64",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_5d399566",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Loretta's preference is unclear, which contradicts the gold answer that clearly states her preference."
+    },
+    {
+      "qa_id": "Q5_17b38e7a",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer states that Loretta's preference is unclear and does not provide any correct information about Diane's behavior, which contradicts the requirement for a complete answer."
+    },
+    {
+      "qa_id": "Q5_3ae93cd7",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Loretta's change in driving behavior to relying on Reverend Cooper's wife, which is not mentioned in the gold answer, and fails to accurately capture the source of Tanya's knowledge."
+    },
+    {
+      "qa_id": "Q7_5beebc9d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and fails to provide any relevant information about the relationship between Loretta and Tanya, which contradicts the gold answer."
+    },
+    {
+      "qa_id": "Q7_014b5caf",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Kevin's interest in Pettigrew Street to a planned phone call, which is not mentioned in the gold answer, and fails to capture the specific historical context and the nature of their conversation."
+    },
+    {
+      "qa_id": "Q7_8cf98402",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Tanya's role, failing to address the question."
+    },
+    {
+      "qa_id": "Q7_a072b871",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Tanya's behavior or the information boundary with her mother."
+    },
+    {
+      "qa_id": "Q7_fc8d0944",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Marcus's relationship with Loretta, focusing on general support rather than the specific details of their communication and access to information."
+    },
+    {
+      "qa_id": "Q7_dc350f4e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the coordination structure of information flow as described in the gold answer and fails to mention the specific channels of communication."
+    },
+    {
+      "qa_id": "Q7_dab43da5",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Tanya's management of information disclosure, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_ce7e4cf8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's old preference and fails to identify the correct trigger for the change in her relationship to appointments."
+    },
+    {
+      "qa_id": "Q8_a436aea5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the core facts about Diane's coordination with Marcus, misidentifying the motivations and failing to mention the correct trigger or shift signal."
+    },
+    {
+      "qa_id": "Q8_4f5ee135",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information or analysis regarding Tanya's relationship to her clinical role, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_9d588767",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information related to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_1f49317d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information, which does not address the question and fails to provide any relevant details."
+    }
+  ]
+}

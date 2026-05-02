@@ -1,0 +1,223 @@
+{
+  "network_id": "grp_b1c2d3e4",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:03:58.839017+00:00",
+  "sessions_used": 12,
+  "total_pairs": 32,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.069,
+  "mean_context_words": 48.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.22
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.4
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 12,
+      "mean_score": 0.025
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b1c2d3e402",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's concern to endurance or safety rather than her specific vulnerability related to uneven surfaces and her ankle."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e403",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Bernard's preference, which is essential to answer the question."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e404",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the idea that running is important for Nkechi's mental well-being but lacks specific details from her comment and does not accurately reflect her self-awareness about the impact of not running."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e405",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Miriam's relationship to competitive race events."
+    },
+    {
+      "qa_id": "Q2_b1c2d3e401",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly names Alex as the dissenting member instead of Greg, which is a critical error."
+    },
+    {
+      "qa_id": "Q4_b1c2d3e401",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b1c2d3e402",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b1c2d3e401",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's concern but misattributes Fatima's knowledge, as it does not accurately reflect the specific wording or context of Fatima's response."
+    },
+    {
+      "qa_id": "Q6_b1c2d3e401",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b1c2d3e401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to mention the co-founding aspect and the specific historical context of their relationship, leading to a significant mismatch in factual content."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e402",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture the specific nature of Priya and Fatima's relationship, failing to mention the training and mentorship aspects, and thus lacks correct attribution of the relationship dynamics."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e403",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Ravi's comment or the nature of the relationship, failing to mention the established routine and independent operation of the sub-group."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e404",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of the relationship by suggesting mutual respect and collaboration, while the gold answer emphasizes a competitive dynamic and unresolved grievances."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e401",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Lionel's training volume has increased, while the gold answer specifies a decrease in volume."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e404",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tasha's old preference as indifference rather than a process-oriented approach and fails to identify the specific trigger and observable actions that confirm the shift."
+    },
+    {
+      "qa_id": "Q7_b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of the exchange between Yuki and Chloe, missing the direct address and immediate agreement that indicate their social closeness."
+    },
+    {
+      "qa_id": "Q8_b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Owen's consideration for a Wednesday session to participant needs or feedback, rather than his own stated desire for increased training volume."
+    },
+    {
+      "qa_id": "Q8_b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide specific details about Joel's earlier state and the trigger for his decision, leading to a lack of factual correctness."
+    },
+    {
+      "qa_id": "Q8_b1c2d309",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Yuki's specific statements or the details of her shift in attitude towards race participation, nor does it identify a clear trigger for the change."
+    },
+    {
+      "qa_id": "Q2_b1c2d310",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b1c2d311",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b1c2d3e402",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Marcus is taking the race more seriously and attributes the change to a conversation with a friend, which does not match the gold answer's details about the half marathon and the knee complaint."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Sonia's shift in relationship to trail running and does not mention the Parkfield trail sessions, which are crucial to understanding the change."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e405",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a shift from skepticism to enthusiasm but fails to attribute specific statements or experiences to Priya, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e406",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Chloe has decided to participate in the Riverside 10K, while the gold answer states she is sitting out, which is a critical factual error."
+    },
+    {
+      "qa_id": "Q7_b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific relationship dynamics between Marcus and Greg as described in the gold answer, failing to mention their active role in sustaining the club together."
+    },
+    {
+      "qa_id": "Q7_b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Lionel's response, suggesting a supportive relationship when the gold answer indicates a competitive undercurrent."
+    },
+    {
+      "qa_id": "Q8_b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details about the previous norm or Derek's reasons for changing his approach, leading to a lack of factual correctness."
+    },
+    {
+      "qa_id": "Q8_b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific actions and quotes from Ahmed in the earlier and later conversations, leading to a critical error in attribution and factual correctness."
+    },
+    {
+      "qa_id": "Q8_b1c2d308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details about Bernard's earlier comments or the context of his conservative approach, failing to address the required elements of the question."
+    }
+  ]
+}

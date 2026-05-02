@@ -1,0 +1,157 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:41:19.029211+00:00",
+  "sessions_used": 10,
+  "total_pairs": 22,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.2,
+  "mean_context_words": 436.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.08
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.175
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f9a0b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Saoirse's statement about her ideal route to session 4 instead of session 5, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_f9a0b102",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures Yuki's attentiveness to her physical limits and preferences but lacks specific details and direct quotes from the sessions that demonstrate her self-assessment and communication of her needs."
+    },
+    {
+      "qa_id": "Q1_f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Saoirse's focus on technical aspects rather than her authoritative role in aesthetic decisions, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f9a0b105",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Ben's motivation, which is required to score."
+    },
+    {
+      "qa_id": "Q5_f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_f9a0b102",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Tom\u00e1s's understanding of Yuki's needs by stating he offered to ride the back section with her, which is incorrect; he actually provided her an option to opt out."
+    },
+    {
+      "qa_id": "Q5_f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Priya's relationship with group rides or Marcus's understanding of it."
+    },
+    {
+      "qa_id": "Q6_f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f9a0b101",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shared history of Marcus and Tom\u00e1s but misattributes the founding moment to a disagreement about coffee without mentioning the specific context of their planning unit or the division of labor."
+    },
+    {
+      "qa_id": "Q7_f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of how Priya and Callum came to know each other or Priya's behavior toward him, missing key elements from the gold answer."
+    },
+    {
+      "qa_id": "Q7_f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the specific prior history between Tom\u00e1s and Saoirse, nor does it mention their shared experiences or interactions that reveal their long-standing relationship."
+    },
+    {
+      "qa_id": "Q7_f9a0b104",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the caring relationship and proactive support but lacks specific details about the conversations and the established pattern of Lena's attention to Yuki's condition."
+    },
+    {
+      "qa_id": "Q8_f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute the specific reasons for Derek's change in behavior, omitting the critical mention of Tom\u00e1s's argument and his wife's comment, leading to a misunderstanding of the trigger."
+    },
+    {
+      "qa_id": "Q4_f9a0b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Marcus's shift in approach to ride distance, which is a critical requirement for scoring."
+    },
+    {
+      "qa_id": "Q8_f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address any aspect of Saoirse's pacing shift or its trigger."
+    },
+    {
+      "qa_id": "Q8_f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    }
+  ]
+}

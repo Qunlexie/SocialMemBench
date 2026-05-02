@@ -2,10 +2,10 @@
   "network_id": "grp_1a2b3c4d",
   "condition": "langmem",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:17:41.702450+00:00",
+  "evaluated_at": "2026-04-28T04:46:43.559658+00:00",
   "sessions_used": 5,
   "total_pairs": 12,
-  "new_pairs_this_run": 12,
+  "new_pairs_this_run": 0,
   "mean_score": 0.317,
   "mean_context_words": 510.0,
   "by_query_type": {

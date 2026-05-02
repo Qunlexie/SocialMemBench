@@ -1,0 +1,169 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:39:46.279780+00:00",
+  "sessions_used": 10,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.304,
+  "mean_context_words": 310.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.233
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.087
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e8f9a0b101",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures the core idea of Marcus prioritizing substantial meals but misattributes specific phrases and details, leading to a critical error."
+    },
+    {
+      "qa_id": "Q4_e8f9a0b102",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jade's awareness of Sana's attendance pattern and does not provide the correct specific evidence from Session 2."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dev's observation and does not accurately reflect his specific comment about Sana's contributions, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's admission about work stress to Session 8 instead of recognizing that Temi's understanding was based on prior observations, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_e8f9a0b102",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies a collaborative relationship and shared history but lacks specific details about the school magazine incident and the dynamics of their interactions."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the details of the conversation, particularly the sequence of events and the specific contributions of Marcus and Omar."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer correctly summarizes Callum's disclosure but incorrectly attributes the observation about his struggles to Temi instead of noting that it was an external observation made by her in a previous session."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the turning point to Lena's participation in a pub night without correctly identifying the specific event (January pub night) that triggered her shift, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's shift in preference and the turning point in Session 6, but it inaccurately attributes the realization about the full-class event feeling thin solely to Marcus's statement without acknowledging the critical role of the March dinner experience as the trigger."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Temi's old and new preferences but lacks specific details about her earlier resistance and the trigger for her shift."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Rachel's primary criterion as the quality of the venue rather than specifically focusing on the wine list, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures some aspects of Temi's values regarding meaningful interactions but lacks specific details and direct quotes from the sessions that are crucial for a complete understanding."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jade's reflection by suggesting she views the chat merely as a logistics thread, which contradicts the gold answer's emphasis on her acknowledgment of the chat's value."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Callum's comments and does not accurately reflect his pattern of behavior or the context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Temi's shift to Lena's return, while the gold answer identifies the features editor's commission as the actual trigger."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dev's change in relationship to a falling-out between Marcus and Omar, which is not mentioned in the gold answer, and fails to identify the correct trigger of his relocation from London."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Jade's presence to Lena's return instead of Jade's own declaration about her increased workload."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Omar's shift in involvement to a falling-out with Marcus, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's prior resistance to using his children as an excuse, which is not supported by the gold answer."
+    }
+  ]
+}

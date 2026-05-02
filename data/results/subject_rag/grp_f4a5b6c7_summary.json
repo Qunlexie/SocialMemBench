@@ -1,0 +1,155 @@
+{
+  "network_id": "grp_f4a5b6c7",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:15:02.415416+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 24,
+  "mean_score": 0.283,
+  "mean_context_words": 235.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 8,
+      "mean_score": 0.375
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.5
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q9": {
+      "count": 1,
+      "mean_score": 0.3
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f4a5b6c7",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the collaborative nature of Sandra's expectations but lacks specific details about her actions in Sessions 1 and 2, which are critical to fully understanding her behavior."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Yuki's preference for simple, homemade dishes but fails to address her specific choices and observations about the food needs of the group, leading to an incomplete understanding of her approach."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d3",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Marcus's typical demeanor and his shift in honesty but lacks specific details about his previous minimal responses and the context of his guardedness."
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures Yuki's growing need for connection and acknowledges her shift towards valuing in-person interactions, but it lacks specific details about her feelings regarding Marcus's departure and her reluctance to leave Maple Street."
+    },
+    {
+      "qa_id": "Q1_b7c8d9e0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Sandra prefers to host social occasions 'on the street,' which contradicts the gold answer's emphasis on her preference for hosting at her own home."
+    },
+    {
+      "qa_id": "Q1_d9e0f1a2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Dev values his connection to the street, which contradicts the gold answer's assertion that he shows low embeddedness and treats the news as a scheduling note."
+    },
+    {
+      "qa_id": "Q2_a6b7c8d9",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_d7e8f9a0",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b2c3d4e5",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of the relationship, suggesting a collaborative dynamic rather than the asymmetric practical help described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_c3d4e5f6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes a different type of help (carrying a bike) instead of the correct help (setting up a VPN), which is a critical error."
+    },
+    {
+      "qa_id": "Q7_f3a4b5c6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer attributes specific quotes and actions to Claire that are not present in the gold answer, leading to incorrect attributions and a lack of factual correctness."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific mentorship role Sandra has taken on, misrepresenting the nature of their relationship and omitting key details about their interactions."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e4",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's description to an event involving onigiri, which is not relevant to the core fact about Marcus helping her with her bike."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d7",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Sandra's preferences and does not correctly identify the early and later states or the trigger for the shift in her use of the group chat."
+    },
+    {
+      "qa_id": "Q8_f9a0b1c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the prompting question to Claire instead of Dev, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_c2d3e4f5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the driving factor for Claire's shift to her experiences during the corporate wellness day, which is incorrect; the actual trigger was Marcus's departure."
+    },
+    {
+      "qa_id": "Q8_c8d9e0f1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Yuki's feelings to Sandra's comments rather than Yuki's own realization and actions, which is a critical error."
+    },
+    {
+      "qa_id": "Q9_a0b1c2d3",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's last known emotional state but misattributes his earlier presentation as 'pretty chill' instead of noting his close-lipped nature."
+    }
+  ]
+}

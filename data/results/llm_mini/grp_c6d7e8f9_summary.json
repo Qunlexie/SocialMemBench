@@ -1,0 +1,131 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:44:02.979310+00:00",
+  "sessions_used": 8,
+  "total_pairs": 17,
+  "new_pairs_this_run": 17,
+  "mean_score": 0.318,
+  "mean_context_words": 4790.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.567
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c6d7e8f901",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the comment about Bex and does not accurately reflect Ravi's specific views on coffee quality as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f902",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Nadia's shift to pescatarianism and mentions her enjoyment of communal dining, but it inaccurately attributes her dietary change to external influences rather than her own stated preferences."
+    },
+    {
+      "qa_id": "Q4_c6d7e8f901",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c6d7e8f901",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's understanding of Tom's running habits and focuses on a different aspect of his behavior, failing to address the specific shift in his running focus that the gold answer highlights."
+    },
+    {
+      "qa_id": "Q5_c6d7e8f902",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tom's understanding of Ravi's loyalty and commitment, but it lacks specific details about Tom's analysis and the implications of Ravi's behavior, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_c6d7e8f901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_c6d7e8f901",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the length of Tom and Nadia's relationship but misattributes the emotional connection statement to Nadia, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific memory Ravi recalls or the emotional significance of that memory, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f903",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the zine fair and Bex's role in introducing Cleo, but it inaccurately attributes the quote about Bex's encouragement to Cleo instead of directly quoting her."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f901",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shift in focus from road races to off-road events and mentions the Bristol half marathon, but it inaccurately attributes the trigger to a 50k route instead of the Dartmoor 50k and lacks specific details about Tom's experience."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f902",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the emotional response and cognitive dissonance to the article without accurately reflecting the specific details and mechanisms described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f903",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information or analysis regarding Ravi's shift in thinking, which is essential to the question."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f902",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The answer indicates a positive relationship with cycling but lacks the depth and specific details about Bex's commitment and the significance of cycling in her life, leading to an incomplete understanding."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f903",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Bex's baking habit but attributes the wrong type of bread (sourdough instead of the weekly bread-baking ritual) and lacks the detail about it being a Saturday morning practice."
+    }
+  ]
+}

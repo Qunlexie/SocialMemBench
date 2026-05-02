@@ -1,0 +1,149 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:01:54.534438+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.142,
+  "mean_context_words": 149.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.55
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.2
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures Nadia's preference for maintaining group energy but lacks specific details about her proactive approach to group composition and the context of her actions."
+    },
+    {
+      "qa_id": "Q2_d7e8f9a002",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d7e8f9a001",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d7e8f9a002",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's understanding of Nadia's values and does not accurately reflect his comment or the specific evidence of prior knowledge."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's preference to shelf placement rather than his priority for consistency in functional ceramics, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture Reuben's specific claims about the causal mechanisms behind Simone's improvement and fails to provide the necessary details about his phrasing that indicate prior knowledge."
+    },
+    {
+      "qa_id": "Q6_d7e8f9a001",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about the studio booking role or its transfer, which is critical to the question."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify the specific incident that confirms Nadia and Simone's relationship outside the group sessions, and it does not provide correct details about their interactions."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the involvement in Callum's projects and lacks the specific details and context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information regarding Nadia's shift in firing method or the prior commitment to electric kiln use."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift to her earlier work and does not mention the critical Instagram engagement data that triggered the change."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's motivation for resistance and fails to accurately capture the qualitative shift in his critique approach."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Callum's preference for studio session timing, which is a critical error."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies that Callum brought dinner plates, but it lacks specific details about the project and misrepresents the context of their use."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The core fact about Callum's preference for porcelain is correct, but the attributions of his reasoning are inaccurate and do not match his actual statements."
+    }
+  ]
+}

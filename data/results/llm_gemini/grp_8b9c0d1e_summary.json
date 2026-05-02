@@ -2,11 +2,12 @@
   "network_id": "grp_8b9c0d1e",
   "condition": "llm_gemini",
   "model": "gemini-2.5-flash",
-  "evaluated_at": "2026-04-10T06:08:01.033880+00:00",
+  "evaluated_at": "2026-04-28T03:30:07.449238+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
-  "mean_score": 0.567,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.55,
+  "mean_context_words": 191.2,
   "by_query_type": {
     "Q1": {
       "count": 1,
@@ -15,10 +16,6 @@
     "Q3": {
       "count": 1,
       "mean_score": 0.4
-    },
-    "Q8": {
-      "count": 1,
-      "mean_score": 0.1
     },
     "Q5": {
       "count": 1,
@@ -31,19 +28,24 @@
     "Q6": {
       "count": 1,
       "mean_score": 1.0
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.0
     }
   },
   "low_scoring": [
     {
       "qa_id": "Q3_bk8s1c1",
       "query_type": "Q3",
-      "score": 0.4
+      "score": 0.4,
+      "rationale": "The generated answer only addresses Nadia's reading habits and provides a less precise explanation than the golden answer, completely omitting details about Tomasz, Blessing, Harriet, and Graham, which are required to answer 'how thoroughly each member' reads."
     },
     {
       "qa_id": "Q8_bk8s3c1",
       "query_type": "Q8",
-      "score": 0.1
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Blessing's shift in approach or provide specific examples from the conversation, leading to a critical error in factual correctness."
     }
-  ],
-  "options_fix_applied": true
+  ]
 }

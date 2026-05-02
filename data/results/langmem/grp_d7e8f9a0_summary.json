@@ -1,0 +1,131 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:53:51.414367+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.311,
+  "mean_context_words": 1477.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.133
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d7e8f9a001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's focus on texture revisions to tool inconsistencies rather than his principle of resolving structural form before surface treatment, leading to a critical error in understanding his methodology."
+    },
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Nadia's preference for maintaining group dynamics but lacks specific details about her proactive approach and the context of her actions."
+    },
+    {
+      "qa_id": "Q4_d7e8f9a002",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The generated answer captures the core idea of Reuben's understanding of Nadia's values but lacks specific attribution to Nadia's phrasing and does not clearly demonstrate the evidence of prior knowledge as required."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's preference to firing porcelain mugs separately from stoneware, which is not the same as his priority for consistency in functional ceramics."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's specific claim about Simone's improvement and does not accurately reflect his phrasing or the causal mechanism he identifies."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the original studio booking role to Callum instead of Reuben, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify the specific incident involving Nadia texting Simone about her teal bowl, which is crucial for confirming their relationship outside the group sessions."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details and context of the relationship between Reuben and Callum as described in the gold answer, leading to a critical error in attribution and missing key elements."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Callum's preference for daytime studio sessions, but it lacks specific details and context about when and how this preference was expressed."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Callum preferred to have the plates photographed in daylight, which is not mentioned in the gold answer and does not reflect the actual content regarding their use."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes statements to Callum that are not found in the provided sessions, leading to a critical error in attribution."
+    }
+  ]
+}

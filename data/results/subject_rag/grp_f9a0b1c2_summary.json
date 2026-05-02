@@ -1,0 +1,145 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:41:12.316297+00:00",
+  "sessions_used": 10,
+  "total_pairs": 22,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.259,
+  "mean_context_words": 252.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.34
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.1
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.26
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f9a0b101",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Saoirse's preference for descents but misattributes her statement about the Ridge loop to Session 1 instead of Session 5, and it incorrectly references Session 10, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q1_f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Yuki's specific behaviors and statements regarding her workload and recovery, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the group's acknowledgment of Saoirse's opinions to Priya, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_f9a0b101",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_f9a0b102",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Yuki's preference and misattributes Priya's understanding, failing to capture the correct details from the gold answer."
+    },
+    {
+      "qa_id": "Q5_f9a0b102",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Yuki's nervousness about harder routes but misattributes Tom\u00e1s's understanding by stating he asked about her knees instead of addressing her directly and providing an option to opt out."
+    },
+    {
+      "qa_id": "Q5_f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute Marcus's understanding of Priya's motivation; it fails to mention his specific comment about her hitting personal bests with the group, which is crucial for the answer."
+    },
+    {
+      "qa_id": "Q6_f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's proactive intervention regarding Callum's social detachment and does not accurately reflect the specific details of their interactions as described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f9a0b104",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the supportive dynamic between Lena and Yuki but lacks specific details about Lena's actions and the established pattern of care, leading to an incomplete response."
+    },
+    {
+      "qa_id": "Q8_f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Marcus's change in approach to Lena's advice instead of the correct external trigger, which is a clinical directive from his physio."
+    },
+    {
+      "qa_id": "Q8_f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's shift to her fitness level without mentioning the structured training block, which is the explicit trigger for her change."
+    },
+    {
+      "qa_id": "Q8_f9a0b104",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the old and new preferences but misattributes the trigger to a general discussion rather than a private intervention from Tom\u00e1s."
+    },
+    {
+      "qa_id": "Q8_f9a0b105",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Lena's avoidance of gradients above 8% due to her hip flexor issue, but it fails to accurately attribute the retrospective disclosure about her avoidance to the correct session and does not mention the internal mechanism of her rehabilitation."
+    }
+  ]
+}

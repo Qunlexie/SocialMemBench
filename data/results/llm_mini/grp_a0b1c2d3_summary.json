@@ -1,0 +1,139 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:31:13.768481+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.321,
+  "mean_context_words": 5986.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.433
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.567
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dennis's dismissive attitude and the specific phrasing, but it misattributes his relationship to medical care as 'stubbornness' rather than 'deliberate self-reliance and resistance,' which is a critical error."
+    },
+    {
+      "qa_id": "Q2_a0b1c2d301",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a0b1c2d303",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the core insight about Priya's relationship with admitting difficulty and does not accurately reflect Jess's understanding or the specific evidence from the sessions."
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the relationship and context, focusing on concern and playful teasing rather than the practical skill transfer and established fact of their interactions."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific historical pattern to Bev's actions before retirement, nor does it mention the gym sign-up incident, which is crucial for establishing the timeline."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Jess's disclosure about Luis, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger to a personal connection and emotional engagement rather than identifying the specific practical problem that led to Dennis's shift."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bev's shift to her concern for Carol's social life rather than the professional engagement prompted by Carol's request for a house valuation."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the emotional trigger and Luis's realization but lacks specific attribution to Jess's revelation about his private concerns and does not mention the shift in his advocacy for more visits."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Dana's relationship to her parents by not correctly identifying the emotional context and the specific anxiety that triggered her change in behavior."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dana's behavior and does not accurately reflect the specific interactions and dynamics described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Rob's change in perspective to a proactive desire rather than correctly identifying the specific trigger of Priya's difficult weeks and fails to accurately reflect his previous stance."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Tyler's thinking and the self-driven nature of the change, but it misattributes the realization of the salary gap solely to the article, missing the prior context of his oblique questioning."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the encouragement to Marcus instead of correctly identifying Bev as the specific catalyst for Carol's shift."
+    }
+  ]
+}

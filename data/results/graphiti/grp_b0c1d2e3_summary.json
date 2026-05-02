@@ -1,0 +1,187 @@
+{
+  "network_id": "grp_b0c1d2e3",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:33:45.296071+00:00",
+  "sessions_used": 8,
+  "total_pairs": 28,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.164,
+  "mean_context_words": 192.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.033
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.125
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b0c1d001",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures Nadia's preference for better visibility but misattributes her emphasis on distance and scientific necessity, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_b0c1d007",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nadia's preference for visual observing over astrophotography and misattributes her values."
+    },
+    {
+      "qa_id": "Q8_b0c1d003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's change in attitude to galaxy season instead of Ruth lending him a book, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the relationship dynamics and incorrectly identifies the book, failing to address the correct context of Ruth lending Marcus a specific book on planetary observation."
+    },
+    {
+      "qa_id": "Q4_b0c1d004",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b0c1d006",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the role of proposing session logistics to Ruth alone, while the gold answer emphasizes the joint administrative role of both Nadia and Ruth."
+    },
+    {
+      "qa_id": "Q7_b0c1d008",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the dynamic as a mentor-mentee relationship, while the gold answer describes a pattern of tension and disagreement between Tom\u00e1s and Jerome."
+    },
+    {
+      "qa_id": "Q5_b0c1d009",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Dev's focus was on Albireo, while the gold answer correctly identifies his focus as primarily the Moon."
+    },
+    {
+      "qa_id": "Q5_b0c1d012",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's recognition of Dev's curiosity and fails to mention the specific question about double stars, which is central to the gold answer."
+    },
+    {
+      "qa_id": "Q8_b0c1d013",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jerome's shift in focus and incorrectly describes his motivations and the events leading to the change."
+    },
+    {
+      "qa_id": "Q8_b0c1d014",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's old preference and fails to accurately describe the shift in her feelings about group observing sessions."
+    },
+    {
+      "qa_id": "Q4_b0c1d015",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b0c1d017",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's change in position to experiencing a dark night instead of the specific event of seeing the Veil Nebula through Jerome's telescope."
+    },
+    {
+      "qa_id": "Q7_b0c1d018",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents the nature of the collaboration as positive and supportive, while the gold answer describes an asymmetric relationship with critique and specific technical interactions."
+    },
+    {
+      "qa_id": "Q8_b0c1d019",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Tom\u00e1s began questioning his tracker after seeing Jerome's work, but it fails to specify the sessions and details of the progression, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b0c1d020",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Harriet's shift in standards and fails to accurately identify the trigger and permanence of her change, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_b0c1d022",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Ruth's proposal for a compromise to her reasoning for the shift, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q5_b0c1d024",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dev's experience to viewing Albireo instead of M13, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d025",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Nadia and Ruth started the group together in Nadia's back garden, but it fails to accurately attribute the specific details of their meeting and the context of their relationship, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q4_b0c1d026",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b0c1d027",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Cecilia's change in attitude to Ruth instead of Jerome, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d028",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about who named the dynamic or what was said, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_b0c1d029",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to address the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q7_b0c1d030",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Ruth and Nadia started their astronomy group together in Nadia's back garden without mentioning the correct details of their initial meeting or the specific context of their relationship."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:55:30.656517+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.321,
+  "mean_context_words": 310.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.35
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.233
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not attribute the correct details about Nadia's role and actions, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q2_d7e8f9a001",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's understanding of Nadia's values and focuses incorrectly on specific gravity and technical aspects, which are not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for consistency but fails to mention the specific functional ceramics priority and does not provide sufficient detail about Reuben's technical elaboration, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's specific claims about Simone's development and does not accurately reflect his phrasing or the causal mechanism he identifies."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Nadia originally held the studio booking role, while the gold answer correctly identifies Reuben as the original booker."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the specific incident and does not accurately reflect the private communication and mentoring role described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute the key insights about the relationship to Callum's farewell statement, which is essential for a complete understanding of their connection."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the trigger as the gas reduction workshop but lacks specific details about Nadia's prior commitment to electric kiln use and does not mention the group norm or Reuben's observation."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift to Session 6 instead of the correct Session 4, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's critique philosophy and does not accurately reflect the qualitative shift described in the gold answer."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for daytime over evening sessions, but it lacks specific attribution to the context of the group conversation and does not mention the key details from Session 1."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Callum would send a photo of the plates and does not mention the specific details about the plates or their intended use, leading to a critical error in factual accuracy."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Callum's preference for porcelain but only partially addresses the requirement by citing a quote from Session 3 without including his explicit preference stated in Session 1."
+    }
+  ]
+}

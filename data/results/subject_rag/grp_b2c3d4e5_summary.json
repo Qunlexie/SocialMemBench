@@ -1,0 +1,91 @@
+{
+  "network_id": "grp_b2c3d4e5",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-27T12:54:45.831634+00:00",
+  "sessions_used": 8,
+  "total_pairs": 13,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.485,
+  "mean_context_words": 197.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.5
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b2c3d4e501",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Marcus's hesitance towards steep descents and preference for flat routes, but it inaccurately attributes a statement about not being too hilly to Session 4 instead of correctly referencing the specific sessions mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q1_b2c3d4e502",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures Lisa's disinterest in competitive running but fails to accurately convey her polite boundary-setting and the consistent pattern of her responses, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q1_b2c3d4e503",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Jess's motivation as social but fails to attribute specific examples of her behavior during conversations, leading to a critical error in detail."
+    },
+    {
+      "qa_id": "Q2_b2c3d4e502",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b2c3d4e501",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Marcus's knee issue but incorrectly attributes Rachel's knowledge to her recommendation for the Canal Path without mentioning her specific behavior that revealed prior knowledge."
+    },
+    {
+      "qa_id": "Q7_b2c3d4e502",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the ongoing ritual of brunch planning established in previous sessions, missing the critical detail of their established tradition."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e501",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's old preference to easy runs for recovery, while the gold answer correctly identifies her competitive nature in earlier sessions and the shift due to her hamstring injury."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e502",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Owen's shift in commitment to his completion of the 10k in Session 8, while the gold answer identifies the proposal of the 10k in Session 4 as the actual trigger."
+    }
+  ]
+}

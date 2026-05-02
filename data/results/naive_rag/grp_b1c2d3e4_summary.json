@@ -1,0 +1,181 @@
+{
+  "network_id": "grp_b1c2d3e4",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:41:56.000900+00:00",
+  "sessions_used": 12,
+  "total_pairs": 32,
+  "new_pairs_this_run": 9,
+  "mean_score": 0.322,
+  "mean_context_words": 271.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.4
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.4
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.143
+    },
+    "Q8": {
+      "count": 12,
+      "mean_score": 0.208
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b1c2d3e401",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_b1c2d3e402",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's concern about uneven surfaces but fails to attribute her specific vulnerability related to her ankle, which is a critical detail."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e405",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q2_b1c2d3e401",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_b1c2d3e401",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Fatima's knowledge of Priya's concern by suggesting it was based on Priya's statement rather than indicating pre-existing knowledge."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the core facts about Marcus and Greg's co-founding relationship and their competitive dynamic, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e402",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer did not provide any information or analysis regarding Priya's comment or her relationship with Fatima."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e403",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b1c2d3e404",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b1c2d3e401",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The training volume is slightly incorrect (30 miles instead of 32), and the injury attribution is vague ('flare in his hamstring' instead of 'speed session flare')."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e404",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b1c2d302",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Yuki's invitation to Chloe but misrepresents the nature of their relationship by focusing on a creative endeavor rather than the shared decision-making and automatic agreement that indicates a deeper social closeness."
+    },
+    {
+      "qa_id": "Q8_b1c2d306",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Owen's consideration for a Wednesday session and the reason related to volume, but it incorrectly attributes the earlier indication of his usual pattern to Session 2 instead of Sessions 3-4, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b1c2d309",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the encouragement and support to Marcus and Lionel, while the gold answer does not name any specific individuals, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q2_b1c2d310",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b1c2d3e402",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the old and new preferences, which do not relate to Marcus's race plans or the trigger for the change."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Sonia's shift from road running to wanting to do more trail running, but it lacks the specific trigger of the Parkfield trail sessions and does not accurately reflect the nature of her change in preference."
+    },
+    {
+      "qa_id": "Q8_b1c2d3e406",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly states Chloe's decision to sit out the Riverside 10K and mentions Fatima's assessment, but it misattributes Chloe's earlier attitude by not accurately reflecting her dismissive and humorous response."
+    },
+    {
+      "qa_id": "Q7_b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misinterprets Lionel's response as supportive, while the gold answer highlights a competitive undercurrent, indicating a misunderstanding of the relationship dynamics."
+    },
+    {
+      "qa_id": "Q8_b1c2d304",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the reason for Derek's change but fails to accurately attribute the previous norm to Ahmed's statement, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_b1c2d305",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the old and new preferences but fails to accurately attribute the trigger for the change, misrepresenting the context of Ahmed's escalation."
+    },
+    {
+      "qa_id": "Q8_b1c2d308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Bernard's cautious approach to comments from Sessions 7 and 11, which are not relevant to the context of his long run distance and medical clearance."
+    }
+  ]
+}

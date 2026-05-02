@@ -1,0 +1,173 @@
+{
+  "network_id": "grp_f4a5b6c7",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:56:46.333438+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 24,
+  "mean_score": 0.188,
+  "mean_context_words": 942.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 8,
+      "mean_score": 0.125
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.2
+    },
+    "Q9": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f4a5b6c7",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Sandra's expectation of being consulted before decisions are made and misrepresents her actions and attitudes in the group chat."
+    },
+    {
+      "qa_id": "Q1_a8b9c0d1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Sandra's specific belief about home-cooked food as a standard for neighborhood gatherings, missing key elements of her attitude and the context of her actions."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer attributes Yuki's observations and preferences incorrectly, suggesting she hosted a gathering rather than contributing to a BBQ, and misrepresents her approach to food."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available, which does not address the question and fails to provide any relevant details about Marcus's typical presentation or changes."
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Yuki's actions and statements, failing to accurately reflect her evolving relationship with Maple Street as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_b7c8d9e0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Sandra prefers hosting in a communal setting, while the gold answer specifies her preference for hosting at her own home."
+    },
+    {
+      "qa_id": "Q1_d9e0f1a2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dev's emotional framing and concern for the group's dynamics, contradicting the gold answer's assertion of his low embeddedness and lack of emotional engagement."
+    },
+    {
+      "qa_id": "Q2_a6b7c8d9",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b9c0d1e2",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c0d1e2f3",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer states that Marcus's preference is unclear and provides no information about Claire's knowledge, which contradicts the gold answer."
+    },
+    {
+      "qa_id": "Q6_d7e8f9a0",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b2c3d4e5",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the essence of mutual assistance but lacks specific details about the nature of their exchanges and the context of their interactions."
+    },
+    {
+      "qa_id": "Q7_c3d4e5f6",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies that Dev helped Yuki with a VPN, but it lacks specific attribution to the prior technical interaction and does not mention the context of the conversation."
+    },
+    {
+      "qa_id": "Q7_f3a4b5c6",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no specific information available, which does not address the question and fails to provide any relevant details."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no specific conversation about the bins, which contradicts the gold answer that details their interaction."
+    },
+    {
+      "qa_id": "Q7_b1c2d3e4",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's description to a gathering and onigiri, which is not mentioned in the gold answer, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a4b5c6d7",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies a shift in Sandra's focus but lacks specific details about her earlier and later messages, and does not accurately capture the nature of the shift or the trigger event."
+    },
+    {
+      "qa_id": "Q8_f9a0b1c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_c2d3e4f5",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies a shift in Claire's approach and the trigger (Marcus's departure), but it lacks specific details about her earlier passive suggestion and the urgency in her later proposal."
+    },
+    {
+      "qa_id": "Q8_c8d9e0f1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki as 'he' instead of 'she' and misrepresents the details of Yuki's relationship shift and the specific events that triggered it."
+    },
+    {
+      "qa_id": "Q9_a0b1c2d3",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Marcus's emotional state or the comparison to earlier sessions, which is required to answer the question."
+    }
+  ]
+}

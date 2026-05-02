@@ -1,0 +1,145 @@
+{
+  "network_id": "grp_a9b0c1d2",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:44:08.153561+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.142,
+  "mean_context_words": 1031.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a9b0c1d201",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's pressure to a part-time midwifery program instead of her shift work as an emergency room nurse, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d202",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's vague language to emotional struggles after a breakup, which is not supported by the gold answer's explanation of his habitual response pattern."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d203",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Priyanka's experience with cold-water swimming, failing to address the question."
+    },
+    {
+      "qa_id": "Q2_a9b0c1d204",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_a9b0c1d205",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a9b0c1d207",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a9b0c1d208",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a9b0c1d209",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the preferences to Seb and Zara instead of correctly identifying Marcus's expertise, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_a9b0c1d210",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Seb's argument to a focus on Zara's emotional state rather than her love of reading, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_a9b0c1d212",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a9b0c1d213",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that there are no specific comments from Theo and Nadia, which contradicts the factual details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d214",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Marcus and Nadia as the original pair but fails to mention the specific incident at the hospital and does not attribute the remark to Theo."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d215",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available, which does not address the question and fails to provide any relevant details."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d216",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Seb's old communication pattern and fails to accurately identify the trigger and the specific observable actions that indicate the shift."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d217",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Marcus's change in behavior to the group's support and recent activities, rather than Nadia's direct confrontation, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d218",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the change in Nadia's sharing approach and the influence of Theo, but it lacks specific details about the old and new patterns and does not mention the trigger mechanism clearly."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d219",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Theo's shift in behavior or the specific moment that triggered it."
+    }
+  ]
+}

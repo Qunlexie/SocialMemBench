@@ -1,0 +1,109 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:42:32.667537+00:00",
+  "sessions_used": 10,
+  "total_pairs": 17,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.424,
+  "mean_context_words": 4184.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.55
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.2
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e5f6a7b801",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Sam's aversion to cilantro but misattributes the emphasis on needing a proper kitchen, which is not relevant to his ingredient preferences."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b803",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer attributes Jake's preference for smaller gatherings to a desire for practicality and ease, which is not supported by the gold answer's emphasis on his lack of stated reasons for his behavior."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b804",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's statements and includes incorrect quotes that do not match the gold answer."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b805",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b801",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Nina's difficult situation as related to a story falling apart instead of the aftermath of a bad breakup."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b802",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Priya's need for advance notice but misattributes the specific knowledge about her conference to a vague mention, failing to capture Tom's proactive advocacy and the close relationship implied."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b803",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Alex's struggle with his chapter but lacks the detail about the dissertation setback and the impact on his confidence, which are key elements of the gold answer."
+    },
+    {
+      "qa_id": "Q6_e5f6a7b801",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_e5f6a7b801",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Alex's engagement shift as moving from reserved to enthusiastic, while the gold answer correctly identifies a shift from active engagement to minimal responses and deflections."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b802",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies a shift in Raj's tone and mentions 'recalibrating,' but it lacks specificity about the trigger and misrepresents the context of his statements."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b801",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the essence of Maya and Jake's relationship but lacks specific details about their prior conversation and does not mention that the rest of the group was not part of it."
+    }
+  ]
+}

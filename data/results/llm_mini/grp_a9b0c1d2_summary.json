@@ -1,0 +1,109 @@
+{
+  "network_id": "grp_a9b0c1d2",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:35:57.687438+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.484,
+  "mean_context_words": 3798.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.367
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.35
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.35
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a9b0c1d201",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Nadia's preference for structure and the influence of her work schedule, but it lacks specific details and direct quotes from the sessions that demonstrate her insistence on fixed end times."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d202",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the general idea of Marcus's hedging behavior but lacks specific details and examples from the sessions that demonstrate the habitual nature of his phrasing and the group's understanding of it."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d203",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer attributes Priyanka's decision to try cold-water swimming to encouragement from her friend Jess, which is incorrect; it also lacks key details about her genuine enjoyment and the framing of her experiences."
+    },
+    {
+      "qa_id": "Q2_a9b0c1d205",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a9b0c1d209",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the understanding of Seb's health situation and does not correctly identify the connection between Priyanka, Seb, and Marcus as required."
+    },
+    {
+      "qa_id": "Q6_a9b0c1d212",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a9b0c1d213",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the subgroup to Marcus, Nadia, and Theo instead of the correct trio of Theo, Nadia, and Zara."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d214",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Marcus and Nadia as the original pair but fails to mention the specific incident at the hospital, which is a critical detail."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d216",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the old pattern and the shift but lacks specific details about the trigger and does not mention the consistent flagging of the knee in the new state."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d217",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the emotional state and vague commitments but fails to accurately attribute the shift trigger to Nadia's direct confrontation, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d219",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the shift and the moment but fails to mention the early state of Theo's bouldering as a private activity, which is a key element of the question."
+    }
+  ]
+}

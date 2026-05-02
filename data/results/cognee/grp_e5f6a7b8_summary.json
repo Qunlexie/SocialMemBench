@@ -1,0 +1,145 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:04:10.707037+00:00",
+  "sessions_used": 10,
+  "total_pairs": 17,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.041,
+  "mean_context_words": 55.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e5f6a7b801",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Sam's preferences as inclusive and accessible, while the gold answer highlights his specific aversion to cilantro."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b802",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures Nina's desire for emotional support but fails to accurately attribute her explicit rejection of advice to take a break, which is a critical detail."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b803",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Jake's preference for smaller gatherings but lacks specific examples from the sessions and does not accurately reflect his behavior of redirecting plans."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b804",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Priya's specific behavior of needing to check her schedule before committing, and it introduces incorrect interpretations about her priorities and feelings."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b805",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Will's preferences, suggesting he favors individualistic arrangements rather than the clearly stated preference for camping and outdoor options."
+    },
+    {
+      "qa_id": "Q2_e5f6a7b801",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_e5f6a7b802",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e5f6a7b801",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e5f6a7b802",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b801",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Nina's difficult situation as a significant loss of a loved one instead of the correct context of a bad breakup."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b802",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's scheduling constraint to her working odd hours instead of her medical residency schedule, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b803",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Alex was struggling with transitioning into a new role at work, which is a different issue than the dissertation setback mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q6_e5f6a7b801",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e5f6a7b802",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide specific details or direct quotes from the conversation that reveal the connection between Sam and Priya, making it too vague and lacking factual correctness."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b801",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Alex's shift in engagement to frustration and lack of support, which is not supported by the gold answer's details."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b802",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Raj's shift in tone and incorrectly identifies the trigger, failing to align with the specifics of the gold answer."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b801",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Maya's message or the context of her relationship with Jake, failing to mention the pre-coordination aspect and the absence of the rest of the group."
+    }
+  ]
+}

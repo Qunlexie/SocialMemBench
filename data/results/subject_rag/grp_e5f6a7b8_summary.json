@@ -1,0 +1,115 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:42:38.397382+00:00",
+  "sessions_used": 10,
+  "total_pairs": 17,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.353,
+  "mean_context_words": 205.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.3
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.35
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.25
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e5f6a7b801",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Sam's avoidance of cilantro as a preference for control and consideration for others, rather than indicating a specific aversion to cilantro."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b803",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Jake's preference for smaller groups but lacks specific details and examples from the sessions, leading to ambiguity."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b804",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's behavior by suggesting she confirmed availability for a specific weekend and sorted overnight cover, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b805",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Will's preference for camping but inaccurately states that he is willing to accept the cottage, which contradicts the gold answer's emphasis on his consistent push for camping options."
+    },
+    {
+      "qa_id": "Q2_e5f6a7b802",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e5f6a7b801",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Nina's difficult personal situation, attributing it to a story falling apart instead of the correct reason, which was a bad breakup."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b802",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the timing of Priya's scheduling needs to Session 2 instead of Session 1, and it does not accurately reflect Tom's specific knowledge of her cardiology conference."
+    },
+    {
+      "qa_id": "Q5_e5f6a7b803",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Alex's struggle with his chapter but fails to mention the specific dissertation setback and the impact on his confidence, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_e5f6a7b801",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e5f6a7b802",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a past cooking experience between Sam and Priya, but it lacks specific attribution to the dialogue in Session 8 and does not mention the context of their ongoing friendship."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b801",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Alex's engagement shift to Session 3 instead of the correct early sessions (1-2) and fails to identify the trigger for the shift."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b801",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies that Maya and Jake have a collaborative relationship, but it lacks specific details about their prior conversation and does not mention the exclusivity of their interaction, which is key to understanding the depth of their relationship."
+    }
+  ]
+}

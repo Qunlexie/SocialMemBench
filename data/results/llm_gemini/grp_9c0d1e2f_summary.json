@@ -2,11 +2,12 @@
   "network_id": "grp_9c0d1e2f",
   "condition": "llm_gemini",
   "model": "gemini-2.5-flash",
-  "evaluated_at": "2026-04-10T06:08:07.367151+00:00",
+  "evaluated_at": "2026-04-28T03:31:06.818887+00:00",
   "sessions_used": 5,
   "total_pairs": 6,
-  "new_pairs_this_run": 1,
+  "new_pairs_this_run": 0,
   "mean_score": 0.833,
+  "mean_context_words": 155.8,
   "by_query_type": {
     "Q3": {
       "count": 1,
@@ -29,6 +30,5 @@
       "mean_score": 1.0
     }
   },
-  "low_scoring": [],
-  "options_fix_applied": true
+  "low_scoring": []
 }

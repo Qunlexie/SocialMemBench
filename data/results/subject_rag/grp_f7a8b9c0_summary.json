@@ -1,0 +1,127 @@
+{
+  "network_id": "grp_f7a8b9c0",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:23:23.791778+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.342,
+  "mean_context_words": 210.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.2
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.175
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.333
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f7a8b001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Callum's feelings and behaviors, suggesting a mix of love and isolation rather than framing his family gatherings as obligations, which is the core fact in the gold answer."
+    },
+    {
+      "qa_id": "Q1_f7a8b002",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Margaret's need for social interaction but misattributes her feelings about loneliness and the importance of company, leading to a lack of clarity on her actual needs from exercise."
+    },
+    {
+      "qa_id": "Q1_f7a8b003",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the significant shift to a statement from Session 4 instead of the correct opening message from Session 7."
+    },
+    {
+      "qa_id": "Q5_f7a8b001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Margaret's preference by stating it is for cardiovascular exercise rather than the need for social interaction, leading to a critical error in understanding her underlying preference."
+    },
+    {
+      "qa_id": "Q5_f7a8b002",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies that Sophie's question indicates something unusual about Rachel's attitude, but it misrepresents Rachel's attitude as mixed or uncertain rather than a shift from obligation to wanting to attend."
+    },
+    {
+      "qa_id": "Q6_f7a8b001",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f7a8b001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific dynamics of Sophie and Jamie's relationship as described in the gold answer, particularly failing to mention Sophie's proactive support and affectionate teasing."
+    },
+    {
+      "qa_id": "Q7_f7a8b002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Derek's message or their relationship."
+    },
+    {
+      "qa_id": "Q7_f7a8b004",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately reflect Jamie's specific reaction to Derek's speech and does not correctly attribute the emotional significance of the interaction."
+    },
+    {
+      "qa_id": "Q8_f7a8b001",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Jamie's housing situation and describes the old state, but it incorrectly attributes the quote about the old state to Jamie instead of including the context of the contract as the trigger."
+    },
+    {
+      "qa_id": "Q8_f7a8b002",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the old routine and the GP's advice but fails to attribute the invitation to the running group to the correct person, Pat, and does not mention Margaret's feelings of loneliness, which are crucial for understanding her motivation."
+    },
+    {
+      "qa_id": "Q8_f7a8b003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies Rachel's shift and the driving factor but fails to attribute the correct context and details from the conversations, leading to a critical error in understanding the nuances of her behavior."
+    },
+    {
+      "qa_id": "Q8_f7a8b004",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement 'I've revised my position' to Derek without mentioning Jamie's prior statement that establishes Derek's old attitude, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_f7a8b006",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Callum's old and new preferences but misattributes specific statements and lacks detail on the observable actions that signal the shift."
+    }
+  ]
+}

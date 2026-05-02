@@ -1,0 +1,232 @@
+{
+  "network_id": "grp_a5b6c7d8",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:35:57.919633+00:00",
+  "sessions_used": 12,
+  "total_pairs": 34,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.115,
+  "mean_context_words": 128.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 9,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 11,
+      "mean_score": 0.055
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a5b6c7d8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address Marcus's approach or the group's response."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any information or analysis regarding Nadia's feelings about day hikes, which is essential to address the question."
+    },
+    {
+      "qa_id": "Q1_c5d6e7f8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Dmitri's response or his view on the activity, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_d5e6f7a8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Bridget's response or her relationship to route schedules and unexpected delays."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q1_f5a6b7c8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Dmitri's comment, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_a6b7c8d9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Bridget's reaction or preferences, which is essential to address the question."
+    },
+    {
+      "qa_id": "Q1_b6c7d8e9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Marcus's approach to leading outings, which is required to address the question."
+    },
+    {
+      "qa_id": "Q4_a5b6c7d8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b5c6d7e8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a5b6c7d8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and claims there is no information about Saoirse's attitude or Elena's behavior, which contradicts the factual details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q5_b5c6d7e8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer states there is not enough information, which does not address the question and fails to provide any relevant details about Priya or Tomas."
+    },
+    {
+      "qa_id": "Q5_c5d6e7f8",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's positive relationship with steep terrain but misattributes Elena's comment and fails to accurately reflect the specific details of Priya's earlier hesitation and progress."
+    },
+    {
+      "qa_id": "Q6_a5b6c7d8",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a5b6c7d8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the central incident to Elena teaching Marcus about descent techniques, whereas the gold answer specifies a night hike where they navigated together, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b5c6d7e8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Bridget's history with a hiking group or how Tomas uses this information."
+    },
+    {
+      "qa_id": "Q7_c5d6e7f8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about the founding of the group or the dispute between Marcus and Tomas."
+    },
+    {
+      "qa_id": "Q7_d5e6f7a8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information about Dmitri, which contradicts the gold answer that provides specific details about their relationship."
+    },
+    {
+      "qa_id": "Q7_e5f6a7b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no specific information available, which contradicts the detailed insights provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b5c6d7e8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's change in managing group pace to a record-setting achievement rather than the incident with Priya's ankle, which is the actual trigger."
+    },
+    {
+      "qa_id": "Q8_c5d6e7f8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that the shift is first shown in session 1 and attributes the invitation to Priya, which is not accurate."
+    },
+    {
+      "qa_id": "Q8_d5e6f7a8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tomas's shift in authority and incorrectly describes the trigger and evolved state, failing to align with the gold answer."
+    },
+    {
+      "qa_id": "Q8_f5a6b7c8",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's old and new preferences but misattributes the trigger and shift signal, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a6b7c8d9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Kwame's change in approach to kit preparation to a focus on descent techniques learned from Elena, which is unrelated to the actual reasons provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_b6c7d8e9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Elena's approach to a User's influence rather than the specific trigger of Marcus's performance, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Saoirse's change in behavior to her interest in a group debrief circle, which is not mentioned in the gold answer, and fails to identify the correct session that shows this change."
+    },
+    {
+      "qa_id": "Q8_d6e7f8a9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Nadia's advocacy to inviting Priya, which is not supported by the gold answer's details."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Saoirse's comment or the development of the conversation."
+    },
+    {
+      "qa_id": "Q8_a5b6c7d8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Elena's approach to the user's preference for coffee shops, rather than the chaotic experience at the coffee shop after Session 2."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Bridget's changed tone, which is essential to the question."
+    },
+    {
+      "qa_id": "Q8_e6f7a8b9",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly attributes Dmitri's shift to excitement about a specific trip rather than the broader realization from the Cairn Ridge overnight, which is a critical detail."
+    }
+  ]
+} of his advocacy."
+    }
+  ]
+}

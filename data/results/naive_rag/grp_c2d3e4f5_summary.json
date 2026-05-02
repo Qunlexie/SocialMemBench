@@ -1,0 +1,163 @@
+{
+  "network_id": "grp_c2d3e4f5",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:37:28.290709+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 6,
+  "mean_score": 0.315,
+  "mean_context_words": 248.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.06
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.188
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_cf13s1c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_cf13s2c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the observation about Marcus's absences to Dan instead of Jess, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_cf13s5c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rory's explanation to him stating he was 'thinking more about the physical side of things,' which is not part of the gold answer."
+    },
+    {
+      "qa_id": "Q1_cf13s7c2",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Dan prioritizes group size, but it does not attribute the specific headcount request to him, which is a critical error."
+    },
+    {
+      "qa_id": "Q4_cf13s1c2",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_cf13s3c4",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Kezia's relationship to alcohol or Jess's response, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q5_cf13s6c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_cf13s1c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of the exchange, such as the mention of Gaz confirming the schedule and Tom being in the starting 11, which are crucial for understanding their connection."
+    },
+    {
+      "qa_id": "Q7_cf13s4c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_cf13s6c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the humor to Rory instead of Jess, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_cf13s7c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the group's response and lacks specific details about the group's reaction, leading to a critical error in understanding the exchange."
+    },
+    {
+      "qa_id": "Q8_cf13s2c3",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies the shift and reflects on Dan's change in behavior, but it lacks specific details about the trigger and the early state, making it ambiguous."
+    },
+    {
+      "qa_id": "Q8_cf13c4c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the early state of Tom's minimal approval, which is a critical part of the question."
+    },
+    {
+      "qa_id": "Q8_cf13c4c2",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the shift toward hosting but lacks specific details about Aisha's previous role and the anticipatory anxiety that was the obstacle."
+    },
+    {
+      "qa_id": "Q1_cf13s3c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Zoe's responses and does not accurately reflect her consistent pattern of deflection, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_cf13s6c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the timing of the shift to Session 8 instead of Session 6, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_cf13s6c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the trigger for Marcus's change in behavior and includes incorrect details about his engagement, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_cf13s7c1",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Jess's earlier hesitancy and her desire to change, but it fails to accurately attribute the specific statements and details from the sessions, leading to ambiguity."
+    },
+    {
+      "qa_id": "Q8_cf13c3c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the observation about Aisha's anxiety to Kezia's drinking change, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_cf13c5c1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's change in food choice and Zoe's comment about her usual order, but it misattributes Priya's reaction, which was not mentioned in the gold answer."
+    }
+  ]
+}

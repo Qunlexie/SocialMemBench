@@ -2,15 +2,15 @@
   "network_id": "grp_a1b2c3d4",
   "condition": "langmem",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:56:50.848832+00:00",
+  "evaluated_at": "2026-04-28T04:49:34.795952+00:00",
   "sessions_used": 8,
-  "total_pairs": 25,
-  "new_pairs_this_run": 25,
-  "mean_score": 0.196,
-  "mean_context_words": 1206.0,
+  "total_pairs": 28,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.154,
+  "mean_context_words": 1141.4,
   "by_query_type": {
     "Q1": {
-      "count": 5,
+      "count": 6,
       "mean_score": 0.0
     },
     "Q3": {
@@ -34,12 +34,12 @@
       "mean_score": 0.0
     },
     "Q7": {
-      "count": 4,
-      "mean_score": 0.2
+      "count": 6,
+      "mean_score": 0.133
     },
     "Q8": {
       "count": 8,
-      "mean_score": 0.2
+      "mean_score": 0.125
     }
   },
   "low_scoring": [
@@ -122,18 +122,6 @@
       "rationale": "The generated answer correctly identifies a long history and collaboration but fails to state that Tomasz and Raj co-founded the Collective, which is the core revelation and basis of their shared standing according to the gold answer. It attributes their standing to 'complementary roles' rather than their foundational role as institutional memory."
     },
     {
-      "qa_id": "Q8_a1b2c302",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer incorrectly identifies the trigger for Kezia's shift as her enjoyment of Brass Birmingham, whereas the gold answer correctly states it was Tomasz's guidance during a Terra Mystica session."
-    },
-    {
-      "qa_id": "Q8_a1b2c303",
-      "query_type": "Q8",
-      "score": 0.0,
-      "rationale": "The generated answer completely misunderstands the question. It describes Marcus's suggestion for streamlining game setup, which is unrelated to his long-standing preference for pure-strategy games (i.e., games with minimal luck/variance)."
-    },
-    {
       "qa_id": "Q8_a1b2c304",
       "query_type": "Q8",
       "score": 0.0,
@@ -146,16 +134,52 @@
       "rationale": "The generated answer incorrectly states that Soo-Yeon's response afterward is not documented and that there is no indication her position shifted, directly contradicting the gold answer which details her positive reaction and the shift in her perspective."
     },
     {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information regarding Kezia's shift or earlier state, which does not address the question."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Marcus's change in preference, which is a critical requirement for the question."
+    },
+    {
       "qa_id": "Q8_a1b2c306",
       "query_type": "Q8",
-      "score": 0.4,
-      "rationale": "The generated answer correctly identifies the new state (Tomasz proposing house rules for new players, specifically one free worker placement). However, it inaccurately describes the old state and completely misses the specific trigger for the change, providing a general motivation instead of the concrete event."
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Tomasz's prior strict no-house-rules position or the specific trigger that led to his change in approach."
     },
     {
       "qa_id": "Q8_a1b2c307",
       "query_type": "Q8",
       "score": 0.0,
-      "rationale": "The generated answer misidentifies both the early state of Derek's behavior (claiming he went quiet during cooperative gameplay discussions) and the specific signal of change in Session 7 (claiming he playfully questioned his win-loss record), which contradicts the gold answer's description of his rematch-seeking behavior and his terse acknowledgment of the pattern."
+      "rationale": "The generated answer fails to address the question about changes in Derek's behavior and does not provide any relevant details or observations from the conversations."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the influence of Soo-Yeon on Felix's change in perspective but lacks specific details about his earlier dismissal of abstract games and the mechanism of change."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Raj's response as simple agreement rather than a parallel authority move, failing to capture the nuanced dynamics of their relationship."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_02",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Felix's message to his interest in Azul and Soo-Yeon's encouragement, which does not match the gold answer's focus on Kezia's referral and the established relationship."
+    },
+    {
+      "qa_id": "Q1_a1b2c3d4_01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's concern about the table setup to her willingness to try Mysterium based on Tomasz's recommendation, which is not relevant to the specific concern raised by Soo-Yeon."
     }
   ]
 }

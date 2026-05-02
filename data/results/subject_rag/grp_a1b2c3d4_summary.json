@@ -1,0 +1,185 @@
+{
+  "network_id": "grp_a1b2c3d4",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:32:37.652822+00:00",
+  "sessions_used": 8,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.286,
+  "mean_context_words": 199.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.433
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 6,
+      "mean_score": 0.167
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.225
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1b2c301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Derek's behavior and does not accurately reflect his competitive nature or the specific details about his interactions regarding winning and losing."
+    },
+    {
+      "qa_id": "Q1_a1b2c302",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer attributes Soo-Yeon's request for lighter food directly to her, while the gold answer indicates she avoids direct requests, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a1b2c303",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's preference for keeping food away from game components, but it incorrectly attributes a statement about not participating in food arrangement to Session 8, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q3_a1b2c301",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer attributes incorrect preferences and actions to several members, such as misrepresenting Lena's and Raj's roles, leading to critical errors in attribution."
+    },
+    {
+      "qa_id": "Q4_a1b2c301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a1b2c301",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's strictness about luck mechanics but fails to provide the specific context or observable action that shows Lena's prior knowledge, leading to a critical attribution error."
+    },
+    {
+      "qa_id": "Q5_a1b2c302",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Soo-Yeon prefers cooperative real-time activities, while the gold answer indicates she finds real-time games overwhelming."
+    },
+    {
+      "qa_id": "Q5_a1b2c303",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies that Soo-Yeon understood Felix's need for a different perspective, but it misattributes his previous experience with abstract games and lacks specific details about her prior reasoning."
+    },
+    {
+      "qa_id": "Q6_a1b2c301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a1b2c301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the focus of the relationship, emphasizing Lena's observations rather than the closeness and social bridging role of Priya, which is central to the gold answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the ownership of the base game and does not accurately reflect the specific interactions and trust established between Tomasz and Nadia."
+    },
+    {
+      "qa_id": "Q7_a1b2c304",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Raj's acknowledgment of Tomasz's perspective but fails to mention their co-founding of the Collective, which is a critical detail."
+    },
+    {
+      "qa_id": "Q8_a1b2c301",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Priya's attitude towards competitive board games but misattributes the cause of the shift by not clearly linking it to winning, which is a critical detail."
+    },
+    {
+      "qa_id": "Q8_a1b2c304",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Lena's earlier aversion and her new understanding but fails to mention the earlier state of her preference for strategic depth and does not clearly identify the trigger for her shift."
+    },
+    {
+      "qa_id": "Q8_a1b2c305",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Soo-Yeon's reasoning and her evolved state but fails to mention the trigger for her shift, which is crucial for a complete answer."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Raj's message as a simple agreement rather than a parallel authority move, failing to capture the nuance of their relationship."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_02",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the context of Soo-Yeon's response and misrepresents the nature of her acknowledgment, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_a1b2c3d4_01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's statement about not wanting to interrupt the game, which is not part of the gold answer, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a1b2c302",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the shift mechanism involving Tomasz and Terra Mystica, but it inaccurately states that Kezia had never tried heavier games before, which contradicts the gold answer's details about her earlier preferences."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's acknowledgment of Lena's argument to a different context and misquotes his response, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_a1b2c306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the early state of Tomasz's strict no-house-rules position and does not mention the trigger or the evolved state, resulting in an incomplete response."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the rematch requests to Derek in Session 7, while the gold answer states that Marcus explicitly names the pattern, indicating a misunderstanding of the conversation dynamics."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Felix's earlier view of abstract games but fails to accurately attribute the shift mechanism to Soo-Yeon's reframing, leading to a critical error in attribution."
+    }
+  ]
+}

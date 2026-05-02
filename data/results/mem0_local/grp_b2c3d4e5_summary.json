@@ -1,0 +1,115 @@
+{
+  "network_id": "grp_b2c3d4e5",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-27T12:54:44.295191+00:00",
+  "sessions_used": 8,
+  "total_pairs": 13,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.085,
+  "mean_context_words": 123.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.175
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.2
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b2c3d4e501",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Marcus will sign up for the race if the course is flat, which misrepresents his behavior and does not accurately reflect his responses to route proposals."
+    },
+    {
+      "qa_id": "Q1_b2c3d4e502",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lisa's feelings and does not accurately reflect her consistent boundary-setting behavior during competitive discussions."
+    },
+    {
+      "qa_id": "Q1_b2c3d4e504",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Derek's criteria for a worthwhile training run, focusing on heart rate instead of the distance threshold he explicitly states."
+    },
+    {
+      "qa_id": "Q2_b2c3d4e501",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b2c3d4e502",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b2c3d4e501",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b2c3d4e501",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's physical issue to a preference for flat courses rather than specifying his knee issue, and it fails to accurately describe Rachel's behavior that indicates prior knowledge."
+    },
+    {
+      "qa_id": "Q6_b2c3d4e501",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b2c3d4e501",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that there is no specific information about Sam and Tom's relationship, contradicting the gold answer which provides clear details about their five-year running history."
+    },
+    {
+      "qa_id": "Q7_b2c3d4e502",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the specific details of Jess's ongoing brunch proposal with Priti and instead focuses on general emotions, missing the core fact about their established tradition."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e501",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's old preference to an easy jog or walk, which is not supported by the gold answer, and fails to accurately reflect the shift in her approach due to her hamstring injury."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e502",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies a shift in Owen's commitment and mentions increased participation, but it lacks specific details about his prior sporadic attendance and does not correctly identify the 10k proposal as the trigger."
+    }
+  ]
+}

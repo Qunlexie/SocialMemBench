@@ -1,0 +1,85 @@
+{
+  "network_id": "grp_2b3c4d5e",
+  "condition": "hybrid_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T21:48:21.863007+00:00",
+  "sessions_used": 5,
+  "total_pairs": 10,
+  "new_pairs_this_run": 10,
+  "mean_score": 0.37,
+  "mean_context_words": 206.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.467
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_n2a1b2c3",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer identifies some of Adaora's food preferences but lacks the critical detail of her avoiding meat and animal products, which is essential for a complete understanding of her dietary restrictions."
+    },
+    {
+      "qa_id": "Q1_n2c3d4e5",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tobenna's reluctance to discuss his job search but misattributes his reaction in Session 3, which was a deflection rather than surprise."
+    },
+    {
+      "qa_id": "Q2_n2d4e5f6",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_n2f6a7b8",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Emeka as the person who figured out the change, but it inaccurately describes the nature of the change in Ngozi's cooking and lacks the context of the doctor's advice."
+    },
+    {
+      "qa_id": "Q7_n2b8c9d0",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Chidi's role as a coordinator and facilitator, while the gold answer correctly identifies him as infrequent but decisive in discussions."
+    },
+    {
+      "qa_id": "Q8_n2c9d0e1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Chidi's old preference and misattributes his new preference, leading to a fundamental misunderstanding of the conversation's context."
+    },
+    {
+      "qa_id": "Q8_n2d0e1f2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Emeka's change in stance to family excitement and Ngozi's insistence, rather than parental pressure as stated in the gold answer."
+    }
+  ]
+}

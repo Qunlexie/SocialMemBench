@@ -1,0 +1,109 @@
+{
+  "network_id": "grp_f6g7h8i9",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:43:09.255109+00:00",
+  "sessions_used": 10,
+  "total_pairs": 16,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.381,
+  "mean_context_words": 506.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.36
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f6g7h8i902",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Grace's need for advance information but misattributes her dislike for surprises to session 9 instead of session 6."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i903",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures Emeka's preference for family togetherness but incorrectly cites session 9 instead of session 10, which affects the accuracy of the details."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i904",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Zara's preference for simplicity but incorrectly attributes a session (session 2) that is not mentioned in the gold answer, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_f6g7h8i905",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Kunle's behavior as proactive and responsible, while the gold answer highlights his consistent failure to follow through on commitments."
+    },
+    {
+      "qa_id": "Q5_f6g7h8i901",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Grace's preference but fails to attribute the full context of Sophia's message that demonstrates prior knowledge, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_f6g7h8i902",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Adaeze's behavior and does not accurately reflect her proactive check-in about Kunle's payment, leading to a critical error."
+    },
+    {
+      "qa_id": "Q6_f6g7h8i901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f6g7h8i902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the source of Aunty Ngozi's knowledge about Emeka's health issue, stating she found out from him last week, which contradicts the gold answer that specifies Emeka told her before informing Grace."
+    },
+    {
+      "qa_id": "Q8_f6g7h8i901",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Femi's shift in engagement to taking on more responsibilities, while the gold answer highlights a decline in his enthusiasm and a shift to personal contributions, indicating a misunderstanding of the core change."
+    },
+    {
+      "qa_id": "Q8_f6g7h8i902",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the sessions and does not accurately reflect Chidi's shift in communication style or the driving factors, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_f6g7h8i901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding the relationship between Tolu and Adaeze, failing to address the question."
+    }
+  ]
+}

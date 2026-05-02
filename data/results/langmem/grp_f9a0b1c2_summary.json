@@ -1,0 +1,157 @@
+{
+  "network_id": "grp_f9a0b1c2",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:50:37.533645+00:00",
+  "sessions_used": 10,
+  "total_pairs": 22,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.168,
+  "mean_context_words": 1127.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f9a0b101",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures a general idea of Saoirse valuing excitement in cycling but fails to accurately attribute her specific statements and motivations regarding descents, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer attributes Yuki's behavior to a structured training regimen and mentions a different gender pronoun, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Derek's focus on social engagement and camaraderie, which is not supported by the gold answer's emphasis on structured plurality and group retention."
+    },
+    {
+      "qa_id": "Q1_f9a0b105",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the general idea of Ben valuing the social aspect of cycling, but it lacks specific details about his motivations and behaviors that were highlighted in the gold answer."
+    },
+    {
+      "qa_id": "Q5_f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Yuki's preference and misattributes Priya's understanding, leading to a critical error."
+    },
+    {
+      "qa_id": "Q5_f9a0b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Tom\u00e1s's understanding of Yuki's situation by suggesting he offered support to less experienced riders generally, rather than addressing her specific needs."
+    },
+    {
+      "qa_id": "Q5_f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's understanding of Priya's motivation to a comment about his bike setup, which does not relate to her performance or group dynamics."
+    },
+    {
+      "qa_id": "Q6_f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Marcus and Tom\u00e1s's relationship, focusing on humor and support rather than their co-leadership and division of labor in planning routes."
+    },
+    {
+      "qa_id": "Q7_f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address how Priya and Callum came to know each other or explain Priya's behavior towards him, missing key elements from the gold answer."
+    },
+    {
+      "qa_id": "Q7_f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_f9a0b104",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Lena's role as a physiotherapist and misrepresents the nature of her relationship with Yuki, failing to capture the specific dynamics and observations mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide specific details about Derek's prior behavior and the exact reasons for his change, misattributing the cause to group dynamics rather than the specific influences from Tom\u00e1s and his wife."
+    },
+    {
+      "qa_id": "Q4_f9a0b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Marcus's approach to ride distance or the triggering change, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Yuki's shift, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address any aspect of Saoirse's pacing shift or its trigger."
+    },
+    {
+      "qa_id": "Q8_f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    }
+  ]
+}

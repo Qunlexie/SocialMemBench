@@ -1,0 +1,141 @@
+{
+  "network_id": "grp_f2e3d4c5",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:40:39.601946+00:00",
+  "sessions_used": 8,
+  "total_pairs": 18,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.122,
+  "mean_context_words": 383.9,
+  "by_query_type": {
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.1
+    },
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.22
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.14
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q7_f2e3d401",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the interaction, focusing on school pickup rather than the children's social relationship, which is the key aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q1_f2e3d402",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Mike's self-sufficiency but incorrectly implies he does not book in advance, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q4_f2e3d403",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f2e3d405",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the supportive relationship but lacks specific details about the established pattern and historical context mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q2_f2e3d406",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_f2e3d408",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Claire's interest in the quiz night as a shift in behavior, but it fails to mention her previous logistics-only communication style and does not clearly identify the specific trigger for the change."
+    },
+    {
+      "qa_id": "Q7_f2e3d409",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the content of James's message, focusing on his absence rather than the shared document and established workflow, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_f2e3d410",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the content of Sharon's posts and does not accurately reflect the timing or nature of her communication, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_f2e3d411",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Yvonne's schedule but misattributes the session where she indicated her previous limitations, leading to a critical error."
+    },
+    {
+      "qa_id": "Q4_f2e3d412",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q1_f2e3d413",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mike is comfortable asking for favours, contradicting the gold answer which indicates he finds it uncomfortable."
+    },
+    {
+      "qa_id": "Q8_f2e3d418",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_f2e3d416",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Mike's messaging behavior and fails to address the group's implicit norms regarding messaging times, focusing instead on his enthusiasm and attendance, which is not relevant to the question."
+    },
+    {
+      "qa_id": "Q5_f2e3d404",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Priya's preference or Mike's prior knowledge, thus failing to address the question."
+    },
+    {
+      "qa_id": "Q8_f2e3d414",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Anita's approach to correcting others, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_f2e3d415",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding the shift in Mike's framing of requests for help."
+    },
+    {
+      "qa_id": "Q7_f2e3d417",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Priya's message, failing to address the question."
+    }
+  ]
+}

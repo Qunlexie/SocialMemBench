@@ -1,0 +1,109 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:03:43.831494+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.362,
+  "mean_context_words": 3900.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.7
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.333
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Tom's preference for challenging terrain but misattributes the mention of pacing strategies and negative split approach, which are not part of the gold answer."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Yuki's prioritization of personal commitments but misrepresents her attitude towards the social aspect, suggesting she values it when the gold answer indicates she finds it draining."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's preference for a cafe, which contradicts the gold answer's emphasis on his consistent preference for the pub."
+    },
+    {
+      "qa_id": "Q4_e6f7a8b5",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer correctly describes Rafe's habit and Nadia's observation, but it fails to attribute the quote to Nadia correctly, as it does not clarify that she was the one who made the observation."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Nadia's initiative and Tom's participation but lacks precise attribution of their roles and the specific details of their founding dynamic."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the confirmation of the shift to Yuki asking Cass for a recommendation on trail shoes, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Rafe's realization of the negative impact of his habits and mentions Nadia's observation, but it misattributes the specific trigger for the change and lacks the detail about the km 17 cramp."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bf",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the trigger but fails to accurately describe Tom's previous approach, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Leo's earlier neglect of stretching but fails to mention the specific trigger of his hamstring strain, which is critical for understanding his decision."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Subject RAG — subject-indexed retrieval
+# Extracts (subject, fact) pairs at ingestion, stored as "[About: {subject}] {fact}".
+# Indexes facts by who they are ABOUT, not who said them.
+# Retrieval is unchanged cosine similarity — improvement is indexing-only.
+# Requires: OPENAI_API_KEY
+
+name: "subject_rag"
+
+model: "gpt-4o-mini"
+embed_model: "text-embedding-3-small"
+
+chroma_path: "./data/.subject_rag_chroma"
+collection_name: "socialmembench_subject"
+
+top_k: 10

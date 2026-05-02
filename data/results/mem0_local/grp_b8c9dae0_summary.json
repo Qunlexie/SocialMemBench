@@ -1,0 +1,269 @@
+{
+  "network_id": "grp_b8c9dae0",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T16:43:59.230088+00:00",
+  "sessions_used": 10,
+  "total_pairs": 40,
+  "new_pairs_this_run": 40,
+  "mean_score": 0.1,
+  "mean_context_words": 121.8,
+  "by_query_type": {
+    "Q1": {
+      "count": 11,
+      "mean_score": 0.064
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.25
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q5": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.037
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b8c9dae001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Diane's reaction or attitude, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_b8c9dae002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Greg's behavior, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_b8c9dae003",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Sasha's preferred way of running the chat group or the grounds for that preference."
+    },
+    {
+      "qa_id": "Q1_b8c9dae004",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Owen's preference to avoiding missing appointments rather than focusing on group size, which is the key aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q1_b8c9dae005",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Mei's role as a champion for the planters and misattributes her actions, focusing instead on unrelated activities like the cake stand."
+    },
+    {
+      "qa_id": "Q1_b8c9dae006",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any information regarding Constance's preferences or reactions, which is critical to the question."
+    },
+    {
+      "qa_id": "Q1_b8c9dae007",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information about Marek's response, which is incorrect as the gold answer provides specific details about his preferences."
+    },
+    {
+      "qa_id": "Q1_b8c9dae008",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer identifies Constance's preference for a casual social format but lacks specific details about her contributions and the shift in the AGM's refreshment plan."
+    },
+    {
+      "qa_id": "Q2_b8c9dae009",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b8c9dae011",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q3_b8c9dae012",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer contains incorrect attributions and misrepresents the preferences of several members, failing to accurately reflect the gold answer."
+    },
+    {
+      "qa_id": "Q4_b8c9dae013",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b8c9dae015",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Tom\u00e1s's dietary preference is unclear, which contradicts the gold answer that clearly identifies him as vegetarian."
+    },
+    {
+      "qa_id": "Q5_b8c9dae016",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Sasha's dietary preference or how Bex demonstrated prior knowledge, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q5_b8c9dae017",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the timing of the cross-check to finalizing the fund report and does not accurately reflect Henry's knowledge or the observable behavior that indicates prior knowledge."
+    },
+    {
+      "qa_id": "Q6_b8c9dae019",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b8c9dae020",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific details of Walter and Henry's shared history or their conversation about the complaint protocol, leading to a misunderstanding of their relationship."
+    },
+    {
+      "qa_id": "Q7_b8c9dae021",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Joel's comments or relationship, which is incorrect as the gold answer provides specific details about his connection to the Hartley household."
+    },
+    {
+      "qa_id": "Q7_b8c9dae022",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information about the interaction, which contradicts the gold answer that provides specific details about Yara and Constance's relationship."
+    },
+    {
+      "qa_id": "Q8_b8c9dae023",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the cause of Diane's relationship shift and incorrectly identifies the context of her gratitude, leading to a fundamentally incorrect response."
+    },
+    {
+      "qa_id": "Q8_b8c9dae024",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Bex's engagement in governance threads to her involvement in providing food for the AGM, which is not mentioned in the gold answer and misrepresents the reason for her shift."
+    },
+    {
+      "qa_id": "Q8_b8c9dae025",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about Sasha's position change or the factors driving it."
+    },
+    {
+      "qa_id": "Q8_b8c9dae026",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Reggie's stance change or the driving factors, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b8c9dae027",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Constance's position or the factors driving any change, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b8c9dae028",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Henry's shift to chairing the AGM but inaccurately attributes the cause solely to Diane, missing the mention of Lateefah's influence."
+    },
+    {
+      "qa_id": "Q8_b8c9dae029",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Greg's stance or the cause of the change, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b8c9dae030",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Owen's shift in manner to a concern about threshold definitions, which is not mentioned in the gold answer, and fails to capture the specific warmth and personal engagement described."
+    },
+    {
+      "qa_id": "Q7_b8c9dae031",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is a lack of specific details, which contradicts the gold answer that provides clear information about their roles and relationship."
+    },
+    {
+      "qa_id": "Q7_b8c9dae032",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Bex and Sasha's interactions, which contradicts the requirement to provide an analysis of their closeness."
+    },
+    {
+      "qa_id": "Q7_b8c9dae033",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the roles and contributions of Mei and Nadia, failing to accurately reflect their collaboration on the planter expansion proposal."
+    },
+    {
+      "qa_id": "Q7_b8c9dae034",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information about the exchange, which is incorrect as the gold answer provides specific details about their relationship."
+    },
+    {
+      "qa_id": "Q1_b8c9dae035",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and fails to provide any relevant information about Tom\u00e1s's dietary preferences, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_b8c9dae036",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly states that Lateefah does not eat pork, but it lacks attribution to her specific message and context, which is critical for a complete answer."
+    },
+    {
+      "qa_id": "Q1_b8c9dae037",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Henry's belief about decision-making to structured discussions rather than his emphasis on written records, which is a critical error."
+    },
+    {
+      "qa_id": "Q5_b8c9dae038",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any correct information about Diane's previous stance on short-term rentals and does not accurately reflect Constance's acknowledgment of Diane's position."
+    },
+    {
+      "qa_id": "Q4_b8c9dae039",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b8c9dae040",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    }
+  ]
+}

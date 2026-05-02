@@ -1,0 +1,133 @@
+{
+  "network_id": "grp_e6f7a8b9",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:17:46.597035+00:00",
+  "sessions_used": 8,
+  "total_pairs": 16,
+  "new_pairs_this_run": 16,
+  "mean_score": 0.113,
+  "mean_context_words": 127.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.233
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e6f7a8b1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tom's preferences to midweek runs and social aspects, which contradicts the gold answer's focus on his preference for technical terrain."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Yuki values social interaction and expresses a desire to socialize, contradicting the gold answer which indicates she consistently declines invitations."
+    },
+    {
+      "qa_id": "Q1_e6f7a8b3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Tom prefers a cafe, contradicting the gold answer which indicates he prefers a pub."
+    },
+    {
+      "qa_id": "Q2_e6f7a8b4",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_e6f7a8b5",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e6f7a8b6",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Rafe's post-run nutrition habits or Nadia's understanding, failing to address the question."
+    },
+    {
+      "qa_id": "Q6_e6f7a8b7",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e6f7a8b8",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the idea of regular encounters leading to the group's formation but lacks specific details about Nadia's initiative and Tom's role, making it ambiguous."
+    },
+    {
+      "qa_id": "Q7_e6f7a8b9",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information available, which does not address the question and fails to provide any relevant details about Rafe's relationship with Cass."
+    },
+    {
+      "qa_id": "Q7_e6f7a8ba",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide any information regarding Nadia's role, which is essential to the question."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bb",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address any part of the required response."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bc",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Yuki's recognition of the inadequacy of road shoes to an interest in receiving a recommendation for trail shoes, which is not mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e6f7a8bd",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Nadia's shift in preference but lacks specific details about her previous training distances and does not mention the key trigger of signing up for the marathon."
+    },
+    {
+      "qa_id": "Q8_e6f7a8be",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_e6f7a8c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Not enough information,' which does not address the question and provides no relevant details."
+    }
+  ]
+}

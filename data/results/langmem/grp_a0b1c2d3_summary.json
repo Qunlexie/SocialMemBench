@@ -1,0 +1,175 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:48:28.924002+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.096,
+  "mean_context_words": 791.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dennis's stance as needing encouragement to seek care, contradicting the gold answer's depiction of his deliberate self-reliance and resistance."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d302",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_a0b1c2d303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's response and discusses her pregnancy cravings instead of her clear preference for a quiet visit, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_a0b1c2d301",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_a0b1c2d302",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a0b1c2d303",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's difficulty to Jess's understanding of family health matters rather than the specific pattern of downplaying difficulty, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_a0b1c2d302",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Dana's approach involves direct communication, but it fails to attribute the specific ultimatum she used and does not mention the contrast with other group members' approaches."
+    },
+    {
+      "qa_id": "Q5_a0b1c2d303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and fails to provide any factual information about Jess's revelation regarding Bev's history or her understanding of Bev's investment in Carol, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a0b1c2d302",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Tyler's disclosure and focuses on a different context, failing to address the core facts about their relationship and the specific context of the disclosure."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Bev's approach to Carol or their historical relationship."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Jess's disclosure about Luis, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger to a humorous anecdote by Carol instead of Jess's daughter Mia's video call, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Luis's shift in stance or the emotional trigger, thus failing to address the question."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Dana's relationship to her parents, failing to address the question."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Dana's behavior toward Marcus's plan, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address any part of Rob's reversal or the evidence of a genuine change."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to address the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Carol's social orientation shift, thus failing to address the question."
+    }
+  ]
+}

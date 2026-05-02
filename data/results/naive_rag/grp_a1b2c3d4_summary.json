@@ -2,16 +2,16 @@
   "network_id": "grp_a1b2c3d4",
   "condition": "naive_rag",
   "model": "gpt-4o-mini",
-  "evaluated_at": "2026-04-10T21:34:59.911587+00:00",
+  "evaluated_at": "2026-04-28T03:32:29.679285+00:00",
   "sessions_used": 8,
-  "total_pairs": 25,
-  "new_pairs_this_run": 25,
-  "mean_score": 0.48,
-  "mean_context_words": 257.4,
+  "total_pairs": 28,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.336,
+  "mean_context_words": 254.1,
   "by_query_type": {
     "Q1": {
-      "count": 5,
-      "mean_score": 0.66
+      "count": 6,
+      "mean_score": 0.55
     },
     "Q3": {
       "count": 1,
@@ -34,12 +34,12 @@
       "mean_score": 0.0
     },
     "Q7": {
-      "count": 4,
-      "mean_score": 0.075
+      "count": 6,
+      "mean_score": 0.117
     },
     "Q8": {
       "count": 8,
-      "mean_score": 0.737
+      "mean_score": 0.362
     }
   },
   "low_scoring": [
@@ -110,10 +110,52 @@
       "rationale": "The generated answer correctly identifies the trigger for Lena's shift (reflection and design theory). However, it misidentifies the 'old state' by presenting Lena's re-analysis of her past feelings as the old state itself, and it misidentifies the 'new state' by describing her general understanding of variance rather than her personal shift in preference/openness to reconsidering luck-heavy games."
     },
     {
-      "qa_id": "Q8_a1b2c308",
+      "qa_id": "Q8_a1b2c302",
       "query_type": "Q8",
       "score": 0.3,
-      "rationale": "The generated answer correctly identifies Felix's evolved position (positive view of abstract games) and the signal (pitching Azul), but completely misidentifies the cause of the shift. The gold answer states the cause is Soo-Yeon's reframing of Azul as a 'visual design problem' (a specific event Felix mentions in Session 8), while the generated answer speculates about a general group dynamic from Session 4, which is factually incorrect as the specific trigger for this change."
+      "rationale": "The generated answer correctly identifies the shift mechanism involving Tomasz's support but misattributes the earlier state to Session 4 instead of Session 2, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a1b2c303",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Marcus's earlier preference and acknowledges Lena's argument, but it fails to specify the earlier established preference and the trigger for the change."
+    },
+    {
+      "qa_id": "Q8_a1b2c306",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the old and new preferences but misattributes the statement about the old preference to Session 6 instead of the earlier sessions."
+    },
+    {
+      "qa_id": "Q8_a1b2c307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the awareness of the pattern to Derek's acknowledgment of the situation rather than correctly identifying Marcus as the one who explicitly names the pattern."
+    },
+    {
+      "qa_id": "Q8_a1b2c308",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the earlier state of Felix's view on abstract games or the specific trigger for his change, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Raj's response, framing it as supportive rather than a parallel authority move, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_a1b2c3d4_02",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Felix's connection to Kezia and the referral aspect, but it misattributes Soo-Yeon's response and lacks the specific context of her casual acknowledgment of Kezia."
+    },
+    {
+      "qa_id": "Q1_a1b2c3d4_01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's earlier statement to Session 3, which is not supported by the gold answer, leading to a critical error in attribution."
     }
   ]
 }

@@ -1,0 +1,169 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:28:13.643926+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.171,
+  "mean_context_words": 170.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.143
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the observation about Dennis's behavior to Luis instead of correctly identifying Carol, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d302",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Dana's preference for space but lacks specific details about her phrasing and the principled nature of her request."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's preference and context, discussing Dana instead of Carol and failing to accurately reflect Priya's expressed desire for a quiet visit."
+    },
+    {
+      "qa_id": "Q2_a0b1c2d301",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_a0b1c2d302",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a0b1c2d301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a0b1c2d303",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's difficulty to admitting tiredness instead of downplaying difficulty, and it does not correctly identify Jess's understanding of Priya's pattern."
+    },
+    {
+      "qa_id": "Q5_a0b1c2d303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect what Jess reveals about Bev's history or how it relates to Bev's investment in Carol, leading to a critical error in attribution and factual correctness."
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no specific disclosure from Tyler about Dennis, which contradicts the gold answer that provides a detailed disclosure."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific statements or actions to Bev, missing critical details about the nature of her intervention and the historical context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the disagreement to Dennis's knee instead of the ongoing disagreement about flights and Columbus visits, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the shift in Dennis's stance and the trigger but misattributes the reason for the effectiveness of the trigger, stating it engaged him emotionally rather than addressing the practical problem."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the reason for Bev's shift and does not correctly identify the specific trigger or the nature of her evolving role in family decisions."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in preference but fails to attribute the emotional trigger to the correct source, misrepresenting the context of Luis's change."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the old and new preferences but lacks specific attribution to the observable actions in the chat that demonstrate Dana's shift."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dana's behavior and motivations, failing to accurately reflect her endorsement of Marcus's plan and the nature of their relationship."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Rob's old preference as wanting to spend more time with extended family, which contradicts the gold answer that describes his previous stance as managing family visit expectations and being against extended family stays."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift to discussions with Marcus, while the gold answer specifies that Tyler's questioning was private and not directly about compliance with family advice."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Carol's social orientation to Jess's encouragement instead of the correct catalyst involving Bev and the family, leading to a critical error in attribution."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:58:20.308019+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.242,
+  "mean_context_words": 636.9,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.35
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.1
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_d7e8f9a001",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures the idea of Reuben wanting to focus on form studies first, but it lacks the detail about his disciplined approach and the reasoning behind it, leading to an incomplete understanding of his methodology."
+    },
+    {
+      "qa_id": "Q1_d7e8f9a002",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer captures Nadia's concern for group dynamics but misattributes her preference as solely about cohesion rather than actively seeking to expand the group, which is a critical aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q2_d7e8f9a002",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_d7e8f9a001",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_d7e8f9a001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture Reuben's specific phrasing or the core concept of 'the craft comes first,' leading to a misunderstanding of his prior knowledge of Nadia's values."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer identifies Reuben's understanding of Callum's preference but fails to specify the correct preference (functional ceramics priority) and lacks detail on how Reuben's response demonstrates prior knowledge."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture Reuben's specific claims about the causal mechanism behind Simone's improvement, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the original studio booking role to Nadia instead of Reuben, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the specific incident involving the teal bowl and misattributes the nature of their relationship, lacking the necessary details to confirm the mentor-student bond."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the context of Callum's feedback to Reuben and fails to accurately capture the nature of their relationship, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's shift to a vague statement rather than the specific experience of the workshop, and it fails to accurately describe her prior commitment to electric kiln use."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a002",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift to bold colors and mentions positive feedback, but it misattributes the reason for the shift and lacks specific details about the Instagram engagement data and the earlier sessions."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Reuben's resistance as a preference to keep making time separate from critique, which contradicts the gold answer's explanation of his evolving stance from managing format to focusing on work quality."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Callum's preference and does not address his preference for studio session timing."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the project as a set of twelve porcelain plates but fails to provide details about the glazing, the context of the project as a legacy, and the specific use of the plates, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Callum's statements and does not provide the correct quotes or reasoning for his preference for porcelain."
+    }
+  ]
+}

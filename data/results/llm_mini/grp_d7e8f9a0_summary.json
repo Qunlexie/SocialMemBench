@@ -1,0 +1,107 @@
+{
+  "network_id": "grp_d7e8f9a0",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:52:03.462365+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.521,
+  "mean_context_words": 6403.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.85
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.3
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q5_d7e8f9a002",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for consistency but fails to accurately attribute the specific functional ceramics priority and the context of Reuben's understanding."
+    },
+    {
+      "qa_id": "Q5_d7e8f9a003",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture the specific causal mechanism Reuben attributes to Simone's improvement, which is a critical detail missing from the response."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about the studio booking role or its transfer, which is critical to the question."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a002",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies a supportive relationship but misattributes the specific incident and lacks details about the private communication regarding the teal bowl."
+    },
+    {
+      "qa_id": "Q7_d7e8f9a003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the feedback about the foot ring to Reuben instead of Callum, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a001",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute the specific trigger of Nadia's shift and does not mention the critical observation from Reuben that indicates the prior group norm."
+    },
+    {
+      "qa_id": "Q8_d7e8f9a003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a001",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Callum's preference for daytime sessions but misattributes the quote to a different context, which affects the score."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a002",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the completed project as a set of twelve porcelain plates but misattributes the quote and lacks specific details about the project and its context."
+    },
+    {
+      "qa_id": "Q9_d7e8f9a003",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Callum's preference for porcelain but fails to accurately attribute his full reasoning and quotes, leading to a critical error."
+    }
+  ]
+}

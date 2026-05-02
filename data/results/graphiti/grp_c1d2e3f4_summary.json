@@ -1,0 +1,165 @@
+{
+  "network_id": "grp_c1d2e3f4",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:27:13.360803+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.184,
+  "mean_context_words": 165.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.075
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.1
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.06
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_98e809a0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's communication style, suggesting she prefers open and direct communication, while the gold answer highlights her preference for voice calls over video calls and her use of practical excuses to deflect video communication."
+    },
+    {
+      "qa_id": "Q1_fca07c65",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Kevin's approach to housing or his future in the city, which is a critical requirement for the question."
+    },
+    {
+      "qa_id": "Q1_4b2b7ad8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Marcus's willingness to help but fails to mention key details about his immediate physical presence and the lack of communication with the group, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_8cfe0300",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's statement about her intention to stay in her home and fails to capture the context of her unprompted declaration, leading to a critical error."
+    },
+    {
+      "qa_id": "Q2_48eb480d",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_1128be29",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_91076c64",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_5d399566",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Loretta's preference is unclear, which contradicts the gold answer that clearly identifies her preference."
+    },
+    {
+      "qa_id": "Q5_17b38e7a",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's preference and does not correctly identify Diane's behavior that reveals prior knowledge."
+    },
+    {
+      "qa_id": "Q5_3ae93cd7",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Loretta's change in driving behavior but fails to accurately attribute Tanya's knowledge to a specific private conversation, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_5beebc9d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of the relationship, describing it as supportive and familial rather than the clinically grounded peer-level relationship indicated in the gold answer."
+    },
+    {
+      "qa_id": "Q7_014b5caf",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Kevin's interest to family connections through meals instead of his specific historical question about Hayti, which is the core aspect of the relationship with Loretta."
+    },
+    {
+      "qa_id": "Q7_a072b871",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of Tanya's response and fails to capture the key aspect of her withholding information, leading to a critical error in understanding the information boundary."
+    },
+    {
+      "qa_id": "Q7_fc8d0944",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Marcus's actual contribution regarding how he learns about Loretta, and it attributes a different context that is not relevant to the question."
+    },
+    {
+      "qa_id": "Q7_dc350f4e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific coordination structure and channels of information flow described in the gold answer, leading to a critical error in attribution and detail."
+    },
+    {
+      "qa_id": "Q7_dab43da5",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Tanya's specific statements or the context of her information management, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_ce7e4cf8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the reason for Loretta's shift in attitude and fails to identify the correct trigger event, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a436aea5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the trigger for the change in Diane's coordination with Marcus and fails to accurately describe the old and new states."
+    },
+    {
+      "qa_id": "Q8_4f5ee135",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the core facts about Tanya's shift in her clinical role or the specific trigger, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q8_9d588767",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the old and new preferences but fails to accurately attribute the shift to the specific trigger and lacks a clear observable action that demonstrates the shift."
+    },
+    {
+      "qa_id": "Q8_1f49317d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the support for Loretta's decision to Kevin and Marcus, rather than accurately reflecting the conversation's context and Loretta's own assertion of the decision."
+    }
+  ]
+}

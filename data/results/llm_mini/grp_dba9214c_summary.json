@@ -1,0 +1,199 @@
+{
+  "network_id": "grp_dba9214c",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:38:51.218373+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.074,
+  "mean_context_words": 3764.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.043
+    },
+    "Q8": {
+      "count": 10,
+      "mean_score": 0.07
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_dba9214c01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Seun's dietary identity or her self-description in Session 1."
+    },
+    {
+      "qa_id": "Q1_dba9214c02",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Emeka's response to Seun's announcement."
+    },
+    {
+      "qa_id": "Q1_dba9214c03",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q2_dba9214c02",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_dba9214c01",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Adaeze's expectations or Funke's prior knowledge, resulting in a complete lack of factual content."
+    },
+    {
+      "qa_id": "Q6_dba9214c01",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_dba9214c02",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Nkem's history in the group chat or her positioning within the group."
+    },
+    {
+      "qa_id": "Q7_dba9214c03",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c04",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Seun's response to Nkem's admission."
+    },
+    {
+      "qa_id": "Q7_dba9214c05",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Funke's announcement or the significance of their relationship development."
+    },
+    {
+      "qa_id": "Q7_dba9214c06",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis related to the exchange between Kayode and Bisi."
+    },
+    {
+      "qa_id": "Q7_dba9214c07",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Auntie Grace's announcement or her relationship with Seun."
+    },
+    {
+      "qa_id": "Q8_dba9214c01",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c02",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Emeka's attendance or response, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_dba9214c04",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c05",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Uncle Dele's message or the shift in his views about Kayode's professional choices."
+    },
+    {
+      "qa_id": "Q8_dba9214c06",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Nkem's confidence change, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_dba9214c07",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content to address the question."
+    },
+    {
+      "qa_id": "Q8_dba9214c09",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Auntie Grace's announcement or the shift in her professional values."
+    },
+    {
+      "qa_id": "Q4_db01s1c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_db04s4c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c02",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures Tolu's responsible role but misattributes the specific example of volunteering the yam and lacks the nuance of his behavior being treated as a given."
+    },
+    {
+      "qa_id": "Q8_dba9214c03",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Kayode's increased participation and Adaeze's acknowledgment of it, but it inaccurately attributes the phrase 'God willing this continues' to Adaeze, which is not part of the provided gold answer."
+    },
+    {
+      "qa_id": "Q8_dba9214c08",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Bisi's communication shift, thus failing to address the question."
+    },
+    {
+      "qa_id": "Q8_dba9214c10",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a shift in Adaeze's attitude but misattributes the driving factor to Seun's health results instead of the explicit statement about adapting recipes."
+    }
+  ]
+}

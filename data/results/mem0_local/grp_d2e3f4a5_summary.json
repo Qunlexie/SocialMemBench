@@ -1,0 +1,199 @@
+{
+  "network_id": "grp_d2e3f4a5",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:38:43.644263+00:00",
+  "sessions_used": 8,
+  "total_pairs": 26,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.015,
+  "mean_context_words": 126.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.067
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a1f9b2e3",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_4a9c7e2f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_4b7d9e3f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information or analysis regarding Adaeze's communication style or feelings, which is required to address the question."
+    },
+    {
+      "qa_id": "Q1_b1c2d3e4",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Nkechi's active role in hosting and her commitment to traditional dishes, but it lacks specific details about her communication style and does not mention her framing of the menu as fixed or her response to suggestions."
+    },
+    {
+      "qa_id": "Q1_c2d3e4f5",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_d3e4f5a6",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Ifeoma's dietary communication to a specific event (driving from Bristol to Reading on Christmas morning) that is not mentioned in the gold answer, leading to a critical error."
+    },
+    {
+      "qa_id": "Q2_1b6d3f9a",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_3f5a8d0c",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_e4f5a6b7",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_2a5f8c1d",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_6c0e5a8d",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content to address the question."
+    },
+    {
+      "qa_id": "Q5_7e1a3c6b",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Emeka's emotional state as anxiety about travel plans instead of recognizing his unsettled feelings about family, and it inaccurately describes Chisom's response."
+    },
+    {
+      "qa_id": "Q6_d3e4f5a6",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_2f7a4c9e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_5e8b0d3a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_8d2e6f1b",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_1c4e9a2d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_5d3a7b1e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Emeka's disclosure or the group's reaction, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q7_0e6c2f8a",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Aunty Oby's relationship to Adaeze or her role in the family, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q7_a8b9c0d1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_9d2b4f7e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the commitment to sorting dates for family gatherings to Emeka, while the gold answer correctly identifies the shift as stemming from his daughter's question."
+    },
+    {
+      "qa_id": "Q8_b2c3d4e5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content to address the question."
+    },
+    {
+      "qa_id": "Q8_d4e5f6a7",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_f7a2b3c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or details regarding Chisom's career plan or her reflections on the psychiatry rotation."
+    },
+    {
+      "qa_id": "Q8_c3d4e5f6",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the change in Kingsley's behavior to a specific statement about bringing suya, which is not mentioned in the gold answer, and fails to identify the correct session and trigger for the change."
+    }
+  ]
+}

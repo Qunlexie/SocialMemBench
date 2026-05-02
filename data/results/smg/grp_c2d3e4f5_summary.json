@@ -1,0 +1,175 @@
+{
+  "network_id": "grp_c2d3e4f5",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:37:38.850127+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.196,
+  "mean_context_words": 382.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_cf13s1c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jess's feelings about the trip, suggesting she had a positive relationship with group travel, which contradicts the gold answer's emphasis on her hesitancy and relief at attending."
+    },
+    {
+      "qa_id": "Q1_cf13s2c1",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's communication style and does not accurately reflect his pattern of declining invitations, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_cf13s5c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rory's explanation to feeling 'fine' after the pub night in Session 2, which is not mentioned in the gold answer and misrepresents the context of his behavior."
+    },
+    {
+      "qa_id": "Q1_cf13s7c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dan's priorities, focusing on personal space rather than his emphasis on group size, which is the core aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q4_cf13s1c2",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_cf13s3c4",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Kezia's preference for water but misattributes Jess's understanding of Kezia's situation, failing to capture the nuance of 'solidarity' as a sign of prior knowledge."
+    },
+    {
+      "qa_id": "Q5_cf13s6c2",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Zoe's response style and incorrectly quotes Jess's message, leading to a critical error in both content and attribution."
+    },
+    {
+      "qa_id": "Q6_cf13s8c2",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_cf13s1c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the specific exchange between Tom and Rory and misattributes the context of their connection."
+    },
+    {
+      "qa_id": "Q7_cf13s4c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the conversation to Priya and fails to mention the key exchange between Jess and Rory, which is essential for understanding their shared history."
+    },
+    {
+      "qa_id": "Q7_cf13s6c1",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information about the exchange or the dynamics between Marcus and Tom, failing to address the question."
+    },
+    {
+      "qa_id": "Q7_cf13s7c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Dan's focus on past discussions and does not accurately reflect the intellectual exchange or the group's response, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_cf13s8c3",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Aisha's specific comment about Dan's rhetorical style or the confirmation of their history, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_cf13s2c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dan's shift to his poor experience at the quiz night, while the gold answer identifies the trigger as Rory's revelation about the scale of the night."
+    },
+    {
+      "qa_id": "Q8_cf13c4c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Tom's expectations to Priya's feedback rather than Rory's detailed description of the restaurant, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_cf13c4c2",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about Aisha's anxiety to another person instead of Aisha herself, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_cf13s3c2",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Zoe's way of responding, which is essential to address the question."
+    },
+    {
+      "qa_id": "Q8_cf13s6c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Zoe's change in response, thus failing to address the question."
+    },
+    {
+      "qa_id": "Q8_cf13s6c4",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Marcus's engagement with the group, which is required to address the question."
+    },
+    {
+      "qa_id": "Q8_cf13s7c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information or analysis regarding Jess's change in approach to group trips."
+    },
+    {
+      "qa_id": "Q8_cf13c3c3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Kezia's relationship to drinking, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_cf13c5c1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Priya's eating habits or the group's reaction, thus failing to address the question."
+    }
+  ]
+}

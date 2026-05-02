@@ -1,0 +1,119 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:48:00.457617+00:00",
+  "sessions_used": 8,
+  "total_pairs": 17,
+  "new_pairs_this_run": 17,
+  "mean_score": 0.335,
+  "mean_context_words": 223.3,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.3
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.467
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c6d7e8f901",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Ravi's preference for high-quality coffee but does not capture the critical detail that it is a non-negotiable baseline for him, leading to a misattribution of the strength of his stance."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f902",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's pescatarian preference and mentions her avoidance of land meat, but it misattributes her dietary choice as a 'diet plan' rather than a settled dietary identity, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_c6d7e8f901",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c6d7e8f901",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's understanding of Tom's running preferences, focusing incorrectly on a short run behavior instead of the shift from road half-marathons to ultra trail events."
+    },
+    {
+      "qa_id": "Q5_c6d7e8f902",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Tom understands Ravi treats friendships like a project, but it lacks the necessary detail about Tom's specific observations and the implications of Ravi's attendance, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_c6d7e8f901",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_c6d7e8f901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Nadia met Tom at a pottery class three years ago, which contradicts the gold answer that specifies they have been housemates for six years."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ravi's approach to friendships and fails to accurately reflect the significance of the specific memory he recalls, leading to a critical error in understanding their relationship."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f901",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the old and new preferences but fails to attribute the trigger and before-state correctly, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f903",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information regarding Ravi's shift in thinking or the context of the conversation."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f902",
+      "query_type": "Q9",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Bex's strong preference for cycling and her focus on cycling before her move, but it lacks specific details about her commitment to cycling as a primary mode of transport and does not mention the theory-of-mind aspect related to Ravi's comment."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f903",
+      "query_type": "Q9",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Bex's Saturday baking habit but lacks specific details about its establishment and the context of her baking ritual."
+    }
+  ]
+}

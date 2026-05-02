@@ -1,0 +1,193 @@
+{
+  "network_id": "grp_b0c1d2e3",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:36:17.058085+00:00",
+  "sessions_used": 8,
+  "total_pairs": 28,
+  "new_pairs_this_run": 1,
+  "mean_score": 0.211,
+  "mean_context_words": 254.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.144
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.162
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.667
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b0c1d001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nadia's specific requirements for distance from town, which is a critical aspect of her values regarding dark-sky observing sites."
+    },
+    {
+      "qa_id": "Q1_b0c1d007",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nadia's preference for visual observing but misattributes her rethinking of aperture to a different context, which affects the overall accuracy."
+    },
+    {
+      "qa_id": "Q8_b0c1d003",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's shift in attitude and includes his quote, but it incorrectly attributes the book as 'Dickinson' without mentioning Ruth's role in lending it, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d002",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Ruth's supportive role but misattributes the book's details and does not fully capture the nature of their relationship."
+    },
+    {
+      "qa_id": "Q7_b0c1d006",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the roles and contributions of Nadia and Ruth, failing to accurately reflect their established administrative and logistical functions as described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_b0c1d008",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the dynamic by suggesting admiration from Tom\u00e1s towards Jerome, while the gold answer highlights a pattern of tension and disagreement."
+    },
+    {
+      "qa_id": "Q5_b0c1d009",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Dev's focus was on star-hopping, while the gold answer specifies it was primarily the Moon."
+    },
+    {
+      "qa_id": "Q6_b0c1d010",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_b0c1d011",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b0c1d012",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Priya's recognition of Dev's curiosity by not mentioning that she had prior knowledge of his question from a post-session conversation, which is a critical detail."
+    },
+    {
+      "qa_id": "Q8_b0c1d013",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies poor transparency as a factor but lacks specific attribution to Jerome's statements and misses the mention of Cecilia's nebula images as a critical trigger for the shift."
+    },
+    {
+      "qa_id": "Q8_b0c1d014",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's shift to her thesis submission date rather than her evolving perspective on group participation and Dev's influence."
+    },
+    {
+      "qa_id": "Q8_b0c1d017",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the event that triggered Nadia's change in position but fails to mention her prior commitment to refractors and the specific details of her long-held position."
+    },
+    {
+      "qa_id": "Q7_b0c1d018",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the nature of their relationship as a mentor-mentee dynamic, while the gold answer describes a recurring asymmetric collaboration, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b0c1d019",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Tom\u00e1s's doubt to seeing Jerome's rig, while the gold answer correctly identifies it as Jerome's Rosette image."
+    },
+    {
+      "qa_id": "Q8_b0c1d020",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer incorrectly attributes Harriet's experience to Northumberland instead of the Cairngorms, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b0c1d022",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to mention Ruth's earlier position and the specific trigger of her shift, leading to a lack of critical context and detail."
+    },
+    {
+      "qa_id": "Q5_b0c1d024",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nadia's response to her Dobsonian telescope instead of her 12-inch telescope, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b0c1d025",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the founding of the group solely to a shared preference for stargazing without mentioning the specific details of their meeting and the context provided by Harriet, leading to a critical error in factual accuracy."
+    },
+    {
+      "qa_id": "Q4_b0c1d026",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_b0c1d027",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide the specific details of Cecilia's early state or the trigger in Session 7 that convinced her, leading to a lack of factual correctness."
+    },
+    {
+      "qa_id": "Q7_b0c1d028",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the naming of the dynamic to Dev instead of Ruth, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b0c1d029",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Tom\u00e1s resolved the Hourglass Nebula, which is not mentioned in the gold answer, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b0c1d030",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the meeting at the county natural-history society but fails to provide specific details about their first gathering and misattributes the nature of Ruth's response."
+    },
+    {
+      "qa_id": "Q7_b0c1d023",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer captures the collaborative nature of Ruth and Harriet's relationship but lacks specific details about the quote and the asymmetry in their roles."
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "network_id": "grp_a6b7c8d9",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T19:05:33.239119+00:00",
+  "sessions_used": 10,
+  "total_pairs": 64,
+  "new_pairs_this_run": 64,
+  "mean_score": 0.173,
+  "mean_context_words": 121.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 27,
+      "mean_score": 0.159
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q3": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 6,
+      "mean_score": 0.117
+    },
+    "Q8": {
+      "count": 20,
+      "mean_score": 0.105
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f846be30",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes a lenient approach to Brendan, while the gold answer states he enforces the rules strictly."
+    },
+    {
+      "qa_id": "Q1_69cef899",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lena's feelings and actions regarding the trees, suggesting she is willing to accept changes, which contradicts the gold answer that states she resists their replacement."
+    },
+    {
+      "qa_id": "Q1_ef5abe3c",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer captures Reggie's enthusiasm and willingness to contribute but lacks specific details about his unprompted offers and the pattern of his behavior, which are key elements in the gold answer."
+    },
+    {
+      "qa_id": "Q1_87c5ccbc",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Marcus's attendance pattern and does not accurately reflect his behavior or the context of the events."
+    },
+    {
+      "qa_id": "Q1_b571624c",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Sasha's feelings, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_2a287716",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Mr. Hoffman's preference to contribute financially instead of attending, but it fails to mention the specific instances or the shift in his pattern when Donna intervenes."
+    },
+    {
+      "qa_id": "Q1_3f3e715e",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer fails to specify what Reggie reliably brings (meat, specifically smoked ribs and brisket) and does not accurately reflect his consistent contributions, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_55d2d6af",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Priya's behavior or the context of the group meals, which is essential to answer the question."
+    },
+    {
+      "qa_id": "Q1_60e18537",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Kenji's contribution or how the neighbours treat it, which is a complete lack of response."
+    },
+    {
+      "qa_id": "Q1_9296770d",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information, which does not address the question and fails to provide any relevant details about Aaron's tone."
+    },
+    {
+      "qa_id": "Q1_4dcb1fcd",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes Olivia's willingness to coordinate by suggesting she acknowledges Priya's involvement due to her heavy schedule, which is not supported by the gold answer's emphasis on her firm decision to step back."
+    },
+    {
+      "qa_id": "Q3_c6a61d43",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Brendan's initial position and fails to accurately reflect the changes in all members' positions on visitor parking enforcement."
+    },
+    {
+      "qa_id": "Q3_d39baf8e",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer contains multiple inaccuracies and fails to correctly attribute preferences and contributions to the individuals mentioned."
+    },
+    {
+      "qa_id": "Q5_1da70fa3",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Marcus confirmed attendance, while the gold answer indicates he does not attend, leading to a critical factual error."
+    },
+    {
+      "qa_id": "Q5_9b7e45fc",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the revelation of Priya's knowledge to Mr. Hoffman informing her, rather than her spontaneous question, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_24bd6785",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_f8c149cd",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_204a90ff",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer mischaracterizes the relationship as supportive rather than uneasy and fails to address the specific incident that defined their dynamic."
+    },
+    {
+      "qa_id": "Q7_ae79484f",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer identifies the relationship as supportive but lacks the necessary details about the dynamic, such as the slightly bossy nature and specific examples from the conversation."
+    },
+    {
+      "qa_id": "Q7_c570c21e",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about the connection between Sasha and Cody, failing to address the question."
+    },
+    {
+      "qa_id": "Q7_dd9e1a03",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that there is no information about Devon and Quentin's dynamic, while the gold answer provides specific details about their interactions."
+    },
+    {
+      "qa_id": "Q7_b113453d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Mr. Hoffman is not attending the block party and fails to mention the recurring chess evening, which is the core fact of the question."
+    },
+    {
+      "qa_id": "Q8_e48b1d61",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Brendan's change in stance to Rosa's granddaughter's experience instead of Brendan's sister-in-law's near-miss, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_fb63a6d1",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Lena's position and the trigger (the storm), but it lacks specific details about her initial objections and the context of her acceptance."
+    },
+    {
+      "qa_id": "Q8_4af4eed3",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's initial engagement as seeking help from Reggie, while the gold answer correctly identifies his terse, dismissive replies and the specific trigger of the contractor damage."
+    },
+    {
+      "qa_id": "Q8_8c9bf029",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Mia's change in presentation and does not accurately identify the trigger for her change, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_6eb0e8f1",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Olivia's change in role to her focus on checking in with Lena, rather than the correct trigger of her hard quarter at the clinic."
+    },
+    {
+      "qa_id": "Q8_f0f89860",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Hannah's energy changed from a lack of attendance concern to confirming plans, while the gold answer correctly identifies her shift from organizing runs to dropping the schedule entirely due to low turnout."
+    },
+    {
+      "qa_id": "Q8_1891754d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Stefan takes on a more responsible role, while the gold answer indicates he shifts to running solo, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_4e6d5d8e",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer identifies a budget discrepancy as the cause for Carla's insistence on written minutes, but it lacks specific details about the substantial amount and the consequences of the error."
+    },
+    {
+      "qa_id": "Q8_b7be3993",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information related to Sasha's support for quiet hours or her change of heart, thus failing to address the question."
+    },
+    {
+      "qa_id": "Q8_c0247a0e",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information or analysis regarding Devon's tone or the factors driving its change, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_7cfa9a6c",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Donna's willingness to host but fails to attribute the specific observable action and context from the chat that proves her prior knowledge and change."
+    },
+    {
+      "qa_id": "Q8_13109a68",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the trigger for Henry's shift in leadership to Brendan assigning him a subcommittee, while the gold answer correctly identifies the messy parking thread as the trigger."
+    },
+    {
+      "qa_id": "Q8_526aeb9f",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Beth's change in conversation or who prompted it, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_f6e02dc3",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the near-tow incident as a trigger for Rosa's softened stance but fails to accurately attribute her initial supportive position and does not fully capture the nuance of her shift."
+    },
+    {
+      "qa_id": "Q8_9c959175",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Anand's shift in engagement and does not mention his specific statements or the trigger that drove his change in behavior."
+    },
+    {
+      "qa_id": "Q8_717da9c0",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the driving factor of Yuki's hosting shift to Beth and Mia, rather than Trevor, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_5484e257",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger for Mr. Hoffman's change in health discussion to a reminder about the lindens, which is not mentioned in the gold answer; it fails to identify the correct trigger involving Donna."
+    },
+    {
+      "qa_id": "Q8_61cdb139",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Diego's involvement in designing materials but fails to attribute the formalization of his role to Carla, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e0dd627c",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies a change in Kenji's sharing pattern but attributes the trigger to the wrong person (Brendan instead of the information vacuum during the contractor dispute)."
+    },
+    {
+      "qa_id": "Q8_f180f869",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Priya taking over coordination but misattributes Olivia's role and fails to mention the specific context of Olivia's burnout as the trigger."
+    },
+    {
+      "qa_id": "Q1_83e37dab",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures the structured voting process but fails to mention Carla's emphasis on formal mechanisms and her specific nudges towards deadlines and written minutes."
+    },
+    {
+      "qa_id": "Q1_d20f37b5",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Devon's principle, focusing on HOA responsibility instead of civil-liberties or fairness, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_4135fa25",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures the general idea of Stefan valuing clear communication but lacks specific details about his use of 24-hour format and precise language, which are critical to understanding his approach to scheduling."
+    },
+    {
+      "qa_id": "Q1_51789817",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Mr. Hoffman's pattern of addressing himself and others, which is necessary to answer the question."
+    },
+    {
+      "qa_id": "Q1_c4deae76",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lena's role, describing her as a supportive participant rather than the historian and institutional memory as stated in the gold answer."
+    },
+    {
+      "qa_id": "Q1_f2f736af",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures the essence of Tariq's role as a clarifier but lacks specific details about his infrequent participation and the formal way he frames his contributions."
+    },
+    {
+      "qa_id": "Q1_03cdfe19",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marlene's role as a contributor and decision-maker rather than recognizing her as the de facto landscape voice, and it fails to mention her specific habits like using Latin names and her consistent opener."
+    },
+    {
+      "qa_id": "Q1_04805643",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer identifies Cody's preference for practical help but lacks details about his reluctance to engage in broader conversation and does not mention his communication style or specific examples from the chat."
+    },
+    {
+      "qa_id": "Q1_6fc298c8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Pastor Imani's participation or her position in the group, which is required to address the question."
+    },
+    {
+      "qa_id": "Q1_a7747d7f",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Aaron's tone or specific phrasings, which is required to address the question."
+    },
+    {
+      "qa_id": "Q1_8e479005",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Trevor's voice or contributions, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_25334772",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Tabitha's contributions, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_f7c4e777",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Beth's word choice or emoji habit, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q1_ce7cebac",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nathan's focus on financial matters but fails to attribute his distinctive style and signature phrases, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_dd428aac",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Mr. Hoffman's pattern as sharing results rather than not informing others in advance, and it fails to capture Donna's specific expectation and the context of her response."
+    },
+    {
+      "qa_id": "Q7_fbcb0758",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer identifies the exchange of early lettuces but lacks specific details about the nature of their relationship and the context of the chat."
+    }
+  ]
+}

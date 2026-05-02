@@ -1,0 +1,67 @@
+{
+  "network_id": "grp_3c4d5e6f",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-26T22:10:50.440567+00:00",
+  "sessions_used": 5,
+  "total_pairs": 8,
+  "new_pairs_this_run": 8,
+  "mean_score": 0.587,
+  "mean_context_words": 212.4,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.35
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q8": {
+      "count": 1,
+      "mean_score": 0.4
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_r3b2c3d4",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about Marcus's knee handling road running to him directly, while the gold answer states he never mentions it directly."
+    },
+    {
+      "qa_id": "Q5_r3e5f6a7",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Cass's dietary preference as plant-based options and attributes the knowledge to Bev, but it fails to mention that Cass did not reveal this herself, which is a critical detail."
+    },
+    {
+      "qa_id": "Q7_r3a7b8c9",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Bev's concern for Marcus's knee issue but fails to attribute the specific actions and observations to the correct context of their relationship as allies."
+    },
+    {
+      "qa_id": "Q8_r3b8c9d0",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer captures the general evolution of Cass's approach but lacks specific details about the escalation in advocacy and the use of data in later sessions."
+    }
+  ]
+}

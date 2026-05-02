@@ -1,0 +1,187 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:34:35.955171+00:00",
+  "sessions_used": 10,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.143,
+  "mean_context_words": 3.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.75
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e8f9a0b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Marcus's behavior or priorities, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q4_e8f9a0b102",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Callum's relationship to stress and disclosure or Temi's understanding of it."
+    },
+    {
+      "qa_id": "Q2_e8f9a0b102",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_e8f9a0b101",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding the conversation between Marcus and Omar."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Callum's disclosure about his attendance at the escape room event."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to explain Lena's investment shift, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Marcus's change in thinking about reunion scale."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Rachel's behavior or criteria for venue selection."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e8f9a0b104",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e8f9a0b105",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Callum's pattern or constraints, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Temi's shift in role or her earlier positioning, resulting in a complete failure to address the question."
+    },
+    {
+      "qa_id": "Q4_e8f9a0b101",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Dev's relationship to group events or the trigger for any change."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b104",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Jade's change in presence or the trigger for that change."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Omar's involvement or the changes in his behavior, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information to address the question, resulting in a score of 0.0."
+    }
+  ]
+}

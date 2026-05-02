@@ -1,0 +1,139 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:31:21.106599+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.379,
+  "mean_context_words": 427.6,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.233
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.25
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.2
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dennis's dismissive attitude but fails to capture the deliberate self-reliance and resistance aspect, and it does not include the specific phrasing that makes his stance unmistakable."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a0b1c2d302",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Tyler's disclosure or the nature of his relationship with Dennis."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the nurturing and directive role of Bev but misattributes the specific quote about signing up for the watercolor class and does not mention the gym sign-up, which is critical for establishing the historical context."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Dennis's stance and the trigger involving Jess's daughter Mia, but it misattributes the specific interaction and does not accurately reflect the nature of Dennis's previous resistance or the practical problem he faced."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately describe Bev's prior role and the specific trigger for her shift, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the old and new preferences but fails to accurately attribute the emotional trigger to Carol's comment and does not mention the specific emotional impact Luis expressed."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Dana's relationship to her parents and lacks specific details about her previous emotional distance and the context of her response."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the context and details of Dana's behavior, failing to accurately reflect the specific interactions and dynamics described in the gold answer."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Priya's situation as the driving factor for Rob's change but misattributes the phrasing of his later message, which does not clearly indicate a genuine change."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tyler's shift to family encouragement, while the gold answer emphasizes that the change was self-driven and based on his own questioning and reflection."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the old and new preferences but lacks specific details about the trigger and the externally catalyzed nature of the change."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "network_id": "grp_c6d7e8f9",
+  "condition": "langmem",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:52:14.960729+00:00",
+  "sessions_used": 8,
+  "total_pairs": 17,
+  "new_pairs_this_run": 17,
+  "mean_score": 0.271,
+  "mean_context_words": 1370.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.15
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 3,
+      "mean_score": 0.2
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.233
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_c6d7e8f901",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute Ravi's specific comment about coffee quality and fails to capture the critical details of his relationship to coffee as described in the gold answer."
+    },
+    {
+      "qa_id": "Q1_c6d7e8f902",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies Nadia's preference as vegetarian instead of pescatarian, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_c6d7e8f901",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_c6d7e8f901",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Tom's focus but fails to attribute the specific phrasing and context that demonstrate Nadia's prior knowledge, leading to a critical error in detail."
+    },
+    {
+      "qa_id": "Q5_c6d7e8f902",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Tom's understanding of Ravi's social behavior, misattributing the interpretation of loyalty and enjoyment without addressing the specific analysis Tom provided."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f901",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the relationship to Nadia and Bex instead of Tom and Nadia, providing a completely wrong fact about their connection."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f902",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the significance of the conversation and fails to address the specific memory Ravi recalls, leading to a completely incorrect interpretation of their relationship."
+    },
+    {
+      "qa_id": "Q7_c6d7e8f903",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not correctly attribute the details of how Cleo met Bex, missing the specific actions and quotes that establish Bex as the initiator."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f901",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tom's old and new preferences but incorrectly attributes the observation of his transition to Nadia, rather than Tom's own declaration."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f902",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the article as the trigger for Nadia's shift but fails to accurately attribute the specific emotional responses and cognitive dissonance that were crucial to the explanation."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f903",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Ravi's shift to providing project management advice, which is not supported by the gold answer's focus on his experience during the quiz and the subsequent realization of the value of structured activities."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f902",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Bex's relationship to cycling, which is a critical requirement."
+    },
+    {
+      "qa_id": "Q9_c6d7e8f903",
+      "query_type": "Q9",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately capture Bex's established weekly Saturday bread-baking ritual and fails to mention the context of her baking habit before leaving."
+    }
+  ]
+}

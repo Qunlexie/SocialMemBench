@@ -1,0 +1,169 @@
+{
+  "network_id": "grp_a0b1c2d3",
+  "condition": "smg",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:31:36.283981+00:00",
+  "sessions_used": 8,
+  "total_pairs": 24,
+  "new_pairs_this_run": 0,
+  "mean_score": 0.167,
+  "mean_context_words": 517.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.133
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.075
+    },
+    "Q8": {
+      "count": 7,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a0b1c2d301",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the phrase 'Been resting it for thirty years' to Tyler instead of Dennis, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d302",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Dana's preference for prior notice but lacks key details about her reasoning and the context that shows it is a principled position."
+    },
+    {
+      "qa_id": "Q1_a0b1c2d303",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Priya's preference to a conversation in Session 8 instead of the relevant context in Session 2, leading to a critical error."
+    },
+    {
+      "qa_id": "Q4_a0b1c2d301",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a0b1c2d303",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a0b1c2d301",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jess's understanding of Priya's difficulty to a different context and does not accurately reflect the specific message from Session 2 that demonstrates Jess's prior knowledge."
+    },
+    {
+      "qa_id": "Q5_a0b1c2d302",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Dana's approach is direct, but it fails to attribute the specific understanding of Dennis's response to the correct context and lacks the detail about the ultimatum and comparison with other group members' approaches."
+    },
+    {
+      "qa_id": "Q5_a0b1c2d303",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the action of signing Carol up for the gym to Bev, which is a critical error, as the gold answer discusses Bev's history and her advocacy for Carol's watercolor class."
+    },
+    {
+      "qa_id": "Q6_a0b1c2d301",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a0b1c2d302",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a0b1c2d301",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the disclosure to Tyler and provides incorrect information about the nature of their relationship, failing to address the specifics of the context as outlined in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d303",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Bev's supportive role but misattributes the gym sign-up statement to Bev instead of Rob, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d304",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Jess's acknowledgment of being wrong and does not accurately reflect her statement or the context of the disagreement with Luis."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d301",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the trigger to a positive interaction with Mia without mentioning the specific action of her holding up a drawing, which is crucial to understanding why the trigger worked."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d302",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Bev's shift to her friendship with Carol and misidentifies the signal of change, failing to address the specific professional context and actions that marked the shift."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d303",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Luis's old preference and fails to identify the emotional trigger correctly, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d304",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly identifies the signal and trigger for Dana's shift, failing to accurately reflect the details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q7_a0b1c2d302",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Dana's behavior or the dynamics between Dana and Marcus, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d305",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, failing to address any part of Rob's reversal or the evidence of a genuine change."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d306",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Tyler's shift or the reasons behind it."
+    },
+    {
+      "qa_id": "Q8_a0b1c2d307",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Carol's social orientation shift, thus failing to address the question."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "network_id": "grp_c1d2e3f4",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:19:53.747469+00:00",
+  "sessions_used": 8,
+  "total_pairs": 25,
+  "new_pairs_this_run": 25,
+  "mean_score": 0.332,
+  "mean_context_words": 332.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 4,
+      "mean_score": 0.225
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.75
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.467
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.286
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_98e809a0",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Loretta's communication preference, stating she prefers direct and open communication, while the gold answer correctly identifies her preference for voice calls over video calls."
+    },
+    {
+      "qa_id": "Q1_fca07c65",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Kevin's commitment to staying in Chicago but fails to attribute the specific details about his lease renewal and the shift in his thinking to the correct context and nuances provided in the gold answer."
+    },
+    {
+      "qa_id": "Q1_4b2b7ad8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly describes Marcus's immediate action but fails to attribute the specific details of his response and the nature of his support accurately, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_8cfe0300",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Loretta's intention to stay in her home but misattributes her reflection on the forsythia as a prompt for her statement, rather than acknowledging it as part of her unprompted opening."
+    },
+    {
+      "qa_id": "Q2_48eb480d",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_91076c64",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_3ae93cd7",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies the new preference but misattributes Tanya's knowledge to her observation of Loretta's behavior rather than a private conversation."
+    },
+    {
+      "qa_id": "Q7_5beebc9d",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes details to Sessions 4 and 6, which are not part of the provided context, and fails to accurately reflect the nature of the relationship as described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_014b5caf",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Kevin's behavior and does not accurately reflect the specific historical interest he expressed towards Loretta, which is central to the question."
+    },
+    {
+      "qa_id": "Q7_8cf98402",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tanya's role in coordinating communication but misattributes the specific actions and details, leading to a critical error."
+    },
+    {
+      "qa_id": "Q7_a072b871",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer attributes the wrong quote to Tanya, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_fc8d0944",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Marcus's relationship with Loretta as direct and attentive, but it misattributes the specific quote and lacks the detail about the nature of the information shared."
+    },
+    {
+      "qa_id": "Q8_ce7e4cf8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Loretta's change in relationship to her cardiology appointments to her decision about driving after dark, which is not mentioned in the gold answer and does not address the actual reasons for her shift."
+    },
+    {
+      "qa_id": "Q8_a436aea5",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift signal to Diane's statement about a voicemail, which is incorrect; the gold answer specifies a direct call made the previous Thursday and a clear declaration of the change."
+    },
+    {
+      "qa_id": "Q8_4f5ee135",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Tanya's relationship to her clinical role to a conversation with Marcus about Grandma's medication, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q8_9d588767",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Marcus's perspective to a Tuesday incident rather than the late-night medication call, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_1f49317d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to mention the early state of Loretta's driving habits and the trigger for her decision, which are critical elements in explaining the context of her self-directed change."
+    }
+  ]
+}

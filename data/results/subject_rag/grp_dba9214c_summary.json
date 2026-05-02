@@ -1,0 +1,187 @@
+{
+  "network_id": "grp_dba9214c",
+  "condition": "subject_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:39:07.713958+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.167,
+  "mean_context_words": 210.7,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.1
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.3
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.086
+    },
+    "Q8": {
+      "count": 10,
+      "mean_score": 0.13
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_dba9214c01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Seun's experience to a slip caused by his mum's pepper soup, while the gold answer correctly identifies her regret over eating fish and her internal commitment to a plant-based diet."
+    },
+    {
+      "qa_id": "Q1_dba9214c02",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'not enough information,' which does not address the question and fails to provide any relevant details about Emeka's response."
+    },
+    {
+      "qa_id": "Q1_dba9214c03",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Nkem's preference for smaller gatherings but attributes the observation of her discomfort to Kayode instead of Nkem herself, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_dba9214c01",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_dba9214c02",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_dba9214c01",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Adaeze's expectation but fails to accurately attribute Funke's prior knowledge, as it does not reference the specific observable behavior that demonstrates this knowledge."
+    },
+    {
+      "qa_id": "Q6_dba9214c02",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Nkem's history in the group chat or her positioning within the group."
+    },
+    {
+      "qa_id": "Q7_dba9214c03",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Kayode's knowledge of Seun's vegan decision as supportive rather than acknowledging that he already knew about it, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_dba9214c04",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c05",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Funke's statement about her relationship with Adaeze, incorrectly stating she declared love for Adaeze in Session 8, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q7_dba9214c06",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Kayode's role and does not correctly identify the private conversation or Bisi's pushback, leading to a critical error in understanding the exchange."
+    },
+    {
+      "qa_id": "Q7_dba9214c07",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies the influence of Seun on Grace's decision but misattributes the conversations as being initiated by Seun rather than Grace, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_dba9214c01",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the old preference to a different session and misrepresents the core facts about Seun's dietary identity and the trigger for her change."
+    },
+    {
+      "qa_id": "Q8_dba9214c02",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Emeka's statement about the pattern, but it fails to mention the initial signal of the absence and misattributes the awareness of the shift solely to his response without acknowledging the family's concern."
+    },
+    {
+      "qa_id": "Q8_dba9214c04",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify the specific turning point and the trigger for Funke's shift, misattributing the significance to Tolu's acknowledgment instead of Funke's own declaration."
+    },
+    {
+      "qa_id": "Q8_dba9214c05",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c06",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Nkem's old preference to feeling overwhelmed in Session 5, while the gold answer correctly identifies her tentative contributions in Session 2 as the early state."
+    },
+    {
+      "qa_id": "Q8_dba9214c07",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tolu's acknowledgment of his father's happiness to Session 7 instead of correctly identifying it as a factor from earlier sessions, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q8_dba9214c09",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the shift in Auntie Grace's behavior to Seun's wellness conversations, which is a critical error."
+    },
+    {
+      "qa_id": "Q4_db04s4c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c02",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Tolu's proactive role and mentions his responsibility for preparing the yam, but it misattributes the suggestion for the gathering and other details, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_dba9214c08",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bisi's shift in communication and does not accurately reflect the details of her academic situation or the context of the conversations."
+    },
+    {
+      "qa_id": "Q8_dba9214c10",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the shift in Adaeze's relationship to Seun's dietary choices and mentions the experimentation with recipes, but it misattributes the proactive nature of Adaeze's actions as being solely in support of Seun's preferences rather than reflecting her own initiative."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "network_id": "grp_f7a8b9c0",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T04:34:28.540888+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.121,
+  "mean_context_words": 70.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 4,
+      "mean_score": 0.075
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_f7a8b001",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Callum's behavior as feeling distant or disconnected, which contradicts the gold answer's emphasis on his view of gatherings as obligations."
+    },
+    {
+      "qa_id": "Q1_f7a8b002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Margaret's needs by focusing on emotional well-being and stress relief rather than her expressed need for social connection, which is a critical aspect of the gold answer."
+    },
+    {
+      "qa_id": "Q1_f7a8b003",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific opening message to Callum and lacks the necessary details about his established pattern of communication."
+    },
+    {
+      "qa_id": "Q4_f7a8b002",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_f7a8b001",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Margaret's preference and does not accurately reflect Callum's understanding or the specific phrasing that demonstrates prior knowledge."
+    },
+    {
+      "qa_id": "Q5_f7a8b002",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Rachel has a negative or reluctant attitude toward family gatherings, which contradicts the gold answer that describes a positive shift in her attitude."
+    },
+    {
+      "qa_id": "Q6_f7a8b001",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_f7a8b001",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific behaviors and dynamics described in the gold answer, such as Sophie's proactive support and affectionate teasing."
+    },
+    {
+      "qa_id": "Q7_f7a8b002",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer captures the essence of a shift in their relationship but fails to accurately attribute the specific content of Derek's message and lacks detail about the observable actions in the chat."
+    },
+    {
+      "qa_id": "Q7_f7a8b003",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific arrangement and details of Rachel and Sophie's communication as described in the gold answer."
+    },
+    {
+      "qa_id": "Q7_f7a8b004",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Jamie's specific reaction or the significance of the word 'actually,' and it fails to correctly attribute the insights about their relationship to the text."
+    },
+    {
+      "qa_id": "Q8_f7a8b001",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Jamie's housing situation change to moving out of their parent's house, which is not supported by the conversation details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_f7a8b002",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Margaret's motivations and fails to mention the specific details of her old routine and the reasons for the shift, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_f7a8b003",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer lacks specific details about Rachel's behavior in previous sessions and does not accurately identify the trigger for her shift, leading to a critical error in factual correctness."
+    },
+    {
+      "qa_id": "Q8_f7a8b004",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately attribute Derek's shift to the specific trigger of his car being taken off the road and does not mention his direct statements that confirm the change."
+    },
+    {
+      "qa_id": "Q8_f7a8b005",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Sophie's specific shift in career plans or the trigger for that shift, and it lacks correct attribution to the details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_f7a8b006",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Callum's change in attitude to ongoing discussions and emotional support rather than accurately identifying the specific events and triggers described in the gold answer."
+    }
+  ]
+}

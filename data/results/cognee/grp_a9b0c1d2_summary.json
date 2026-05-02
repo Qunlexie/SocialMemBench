@@ -1,0 +1,157 @@
+{
+  "network_id": "grp_a9b0c1d2",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-30T03:47:41.371916+00:00",
+  "sessions_used": 8,
+  "total_pairs": 19,
+  "new_pairs_this_run": 19,
+  "mean_score": 0.058,
+  "mean_context_words": 73.1,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.367
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 4,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a9b0c1d201",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Nadia's discomfort with uncertainty and need for predictability, but it fails to attribute her specific pressure to her shift work as an emergency room nurse, which is a critical detail."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d202",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer correctly identifies Marcus's reluctance to commit but lacks specific examples from the sessions and does not mention the group's understanding of his pattern, which are key elements in the gold answer."
+    },
+    {
+      "qa_id": "Q1_a9b0c1d203",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The answer captures the essence of Priyanka's enthusiasm for physical challenges but lacks specific details and examples from the sessions that demonstrate her genuine shift and intrinsic motivation."
+    },
+    {
+      "qa_id": "Q2_a9b0c1d204",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_a9b0c1d205",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a9b0c1d206",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a9b0c1d207",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_a9b0c1d208",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a9b0c1d209",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer fails to accurately identify the specifics of Seb's health situation and does not correctly name the individuals involved, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_a9b0c1d210",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Seb's argument to Zara's competitive nature instead of her love of reading, which is a critical error."
+    },
+    {
+      "qa_id": "Q6_a9b0c1d211",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_a9b0c1d212",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a9b0c1d213",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific individuals involved or the details of their shared living situation, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d214",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer fails to identify the correct original pair (Nadia and Marcus) and does not provide specific details about how the group formed, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_a9b0c1d215",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes a romantic nature to Theo and Priyanka's relationship, which is not supported by the gold answer."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d216",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific trigger for Seb's change in communication, nor does it provide the correct details about the old and new states."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d217",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately describe Marcus's specific behaviors or the trigger for his change, leading to a complete mismatch with the gold answer."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d218",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately identify the specific trigger for Nadia's change in sharing behavior, nor does it provide the correct details about her old and new patterns."
+    },
+    {
+      "qa_id": "Q8_a9b0c1d219",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Theo's shift to a personal achievement rather than the specific trigger of Seb's invitation, which is a critical error."
+    }
+  ]
+}

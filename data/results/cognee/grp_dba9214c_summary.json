@@ -1,0 +1,205 @@
+{
+  "network_id": "grp_dba9214c",
+  "condition": "cognee",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T05:02:16.445774+00:00",
+  "sessions_used": 8,
+  "total_pairs": 27,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.011,
+  "mean_context_words": 72.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.043
+    },
+    "Q8": {
+      "count": 10,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.0
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_dba9214c01",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Seun's dietary identity or self-description."
+    },
+    {
+      "qa_id": "Q1_dba9214c02",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_dba9214c03",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Nkem's preference for smaller gatherings and misattributes her self-awareness, failing to mention specific phrases or actions that demonstrate her awareness."
+    },
+    {
+      "qa_id": "Q2_dba9214c01",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q2_dba9214c02",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_dba9214c01",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information regarding Adaeze's expectations or Funke's prior knowledge, resulting in a complete lack of factual content."
+    },
+    {
+      "qa_id": "Q6_dba9214c01",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q6_dba9214c02",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c01",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Nkem's history in the group chat or her positioning within the group."
+    },
+    {
+      "qa_id": "Q7_dba9214c03",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c04",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c05",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c06",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_dba9214c07",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Auntie Grace's announcement or her relationship with Seun."
+    },
+    {
+      "qa_id": "Q8_dba9214c01",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c02",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c04",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c05",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Uncle Dele's message or the shift in his views about Kayode's professional choices."
+    },
+    {
+      "qa_id": "Q8_dba9214c06",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to provide specific examples of Nkem's earlier tentative contributions or her later direct engagement, and it incorrectly attributes the explanation for the shift to vague 'underlying tensions' rather than the specific trigger mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_dba9214c07",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_dba9214c09",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q4_db01s1c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_db04s4c3",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_dba9214c02",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer suggests Tolu has a coordinating role, but it lacks specific details about his behavior and the context that indicate he is the family's practical anchor."
+    },
+    {
+      "qa_id": "Q8_dba9214c03",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Kayode's prior behavior or the explicit signals of change mentioned in the gold answer."
+    },
+    {
+      "qa_id": "Q8_dba9214c08",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not address the specific details of Bisi's communication shift, lacks correct attribution, and does not identify the required early state, shift signal, or trigger."
+    },
+    {
+      "qa_id": "Q8_dba9214c10",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Seun's dietary choices to a male ('his decisions') and fails to accurately reflect the specific details of Adaeze's shift in attitude and the reasons behind it."
+    }
+  ]
+}

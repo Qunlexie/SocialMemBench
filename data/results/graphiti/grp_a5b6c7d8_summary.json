@@ -1,0 +1,223 @@
+{
+  "network_id": "grp_a5b6c7d8",
+  "condition": "graphiti",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T04:33:38.535546+00:00",
+  "sessions_used": 12,
+  "total_pairs": 34,
+  "new_pairs_this_run": 4,
+  "mean_score": 0.138,
+  "mean_context_words": 159.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 9,
+      "mean_score": 0.033
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 5,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 11,
+      "mean_score": 0.036
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_a5b6c7d8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the route suggestion to Marcus and fails to accurately reflect his preference for summit-terminated routes, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_b5c6d7e8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Nadia's feelings and does not accurately reflect her expressed dissatisfaction with day hikes."
+    },
+    {
+      "qa_id": "Q1_c5d6e7f8",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Dmitri's lack of support but fails to attribute the specific word 'Noted' and its implications accurately, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_d5e6f7a8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bridget's response and focuses incorrectly on her disagreement with Marcus, rather than her specific reaction to the unplanned stop and its impact on her schedule."
+    },
+    {
+      "qa_id": "Q1_e5f6a7b8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Saoirse's enjoyment to a later session about confirming attendance rather than her actual comments about the technical nature of the route, failing to capture the essence of her interest in demanding terrain."
+    },
+    {
+      "qa_id": "Q1_f5a6b7c8",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about Dmitri's comment or his preferred approach, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_a6b7c8d9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bridget's preference, focusing on group participation rather than her specific concern about shared sleeping arrangements."
+    },
+    {
+      "qa_id": "Q1_b6c7d8e9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Marcus's approach to leading outings."
+    },
+    {
+      "qa_id": "Q4_a5b6c7d8",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_a5b6c7d8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Saoirse's attitude as enthusiasm rather than treating hiking as non-negotiable recovery time, and it incorrectly describes Elena's behavior, failing to reference the specific observable action that demonstrates her prior knowledge."
+    },
+    {
+      "qa_id": "Q5_b5c6d7e8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_c5d6e7f8",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q6_a5b6c7d8",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_a5b6c7d8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_b5c6d7e8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_c5d6e7f8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_d5e6f7a8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_e5f6a7b8",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b5c6d7e8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_c5d6e7f8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_d5e6f7a8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tomas's proactive role in planning to suggesting Fenwick Edge, which is not mentioned in the gold answer, and fails to accurately describe the shift in authority and the driving factors behind it."
+    },
+    {
+      "qa_id": "Q8_f5a6b7c8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_a6b7c8d9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_b6c7d8e9",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer identifies a shift in Elena's approach but lacks specific details about her previous casual participation and the trigger for the change."
+    },
+    {
+      "qa_id": "Q8_c6d7e8f9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Saoirse's change in behavior to her enthusiasm expressed to Elena and misidentifies the first session showing this change as Session 1 instead of Session 9."
+    },
+    {
+      "qa_id": "Q8_d6e7f8a9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q1_c6d7e8f9",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Saoirse's comment about the north face and fails to capture the cognitive aspect of her preference, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_a5b6c7d8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Elena's shift to her interest in hiking Kestrel Ridge, which is not mentioned in the gold answer, and fails to accurately describe the initial visibility of her change in approach."
+    },
+    {
+      "qa_id": "Q8_e5f6a7b8",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the specific details of Bridget's changed tone or the context of her interactions with Marcus, leading to a critical error in attribution and missing key elements of the shift."
+    },
+    {
+      "qa_id": "Q8_e6f7a8b9",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Dmitri's shift to the north face approach on Cairn Ridge instead of the correct trigger related to his experiences and reflections on overnight trips."
+    }
+  ]
+}

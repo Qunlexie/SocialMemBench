@@ -1,0 +1,329 @@
+{
+  "network_id": "grp_f1a2b3c5",
+  "condition": "mem0_local",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T18:42:55.049302+00:00",
+  "sessions_used": 10,
+  "total_pairs": 54,
+  "new_pairs_this_run": 54,
+  "mean_score": 0.159,
+  "mean_context_words": 133.5,
+  "by_query_type": {
+    "Q1": {
+      "count": 14,
+      "mean_score": 0.079
+    },
+    "Q2": {
+      "count": 5,
+      "mean_score": 1.0
+    },
+    "Q3": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q5": {
+      "count": 7,
+      "mean_score": 0.0
+    },
+    "Q6": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.057
+    },
+    "Q8": {
+      "count": 12,
+      "mean_score": 0.092
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b3c50001",
+      "query_type": "Q1",
+      "score": 0.4,
+      "rationale": "The generated answer identifies a preference for dark sites but lacks specific details about Bex's consistent enthusiasm and avoidance of backyard sessions."
+    },
+    {
+      "qa_id": "Q1_b3c50002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's choice of imaging locations to sky clarity rather than his consistent preference for backyard imaging over road trips."
+    },
+    {
+      "qa_id": "Q1_b3c50003",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information about Sven, which is incorrect and does not address the question."
+    },
+    {
+      "qa_id": "Q1_b3c50004",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information related to the question, indicating a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q1_b3c50006",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information regarding Hana's aesthetic preference or her comments, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q1_b3c50007",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and indicates a lack of information, which does not address Rafiq's preferences or choices."
+    },
+    {
+      "qa_id": "Q3_b3c5000d",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Marcus's preference and does not accurately reflect Bex's specific imaging location preference, leading to a critical error."
+    },
+    {
+      "qa_id": "Q4_b3c5000e",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q4_b3c5000f",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b3c50010",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Ines's attitude and fails to correctly identify Hana's prior knowledge, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q5_b3c50011",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, resulting in a score of 0.0."
+    },
+    {
+      "qa_id": "Q5_b3c50012",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about Lena's professional role or Esme's behavior, resulting in a complete lack of relevant content."
+    },
+    {
+      "qa_id": "Q6_b3c50013",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b3c50014",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer identifies Theo's mentorship role but lacks specific details about his supportive actions and Maya's acceptance of his guidance."
+    },
+    {
+      "qa_id": "Q7_b3c50015",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that there are no specific details about the relationship history, contradicting the gold answer which provides clear information about their long-standing friendship."
+    },
+    {
+      "qa_id": "Q7_b3c50016",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Sven and Henrik's connection or friendship, failing to address the question."
+    },
+    {
+      "qa_id": "Q7_b3c50017",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information about the relationship between Marcus and Tomas, failing to address the question."
+    },
+    {
+      "qa_id": "Q7_b3c50018",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that there are no details about Bex and Clara's relationship regarding dark-site trips, contradicting the gold answer which provides specific information about their partnership."
+    },
+    {
+      "qa_id": "Q7_b3c50019",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information about Henrik and Sven's relationship or activities, failing to address the question."
+    },
+    {
+      "qa_id": "Q8_b3c5001a",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the shift in Bex's relationship to dark-site trips but fails to accurately attribute the trigger as the cloud cancellations and does not clearly state the evolved state."
+    },
+    {
+      "qa_id": "Q8_b3c5001b",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect Camila's shift from SGP to NINA due to crashes, and it misattributes her old preference and the cause of her new preference."
+    },
+    {
+      "qa_id": "Q8_b3c5001c",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies the change in recommendation and the reason for it, but it lacks specific details about Theo's long history with Sky-Watcher mounts and does not mention the specific failures or the post-2023 belt rubber compound."
+    },
+    {
+      "qa_id": "Q8_b3c5001d",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information relevant to the question, indicating a complete lack of content."
+    },
+    {
+      "qa_id": "Q8_b3c5001e",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the change in Marcus's imaging interests and the retirement gift as a driving factor, but it does not accurately attribute the specific early focus on deep-sky targets or the details of the transition."
+    },
+    {
+      "qa_id": "Q8_b3c5001f",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not address Yara's imaging targets or the specific factors driving her shift, instead focusing on a personal situation unrelated to her imaging preferences."
+    },
+    {
+      "qa_id": "Q8_b3c50020",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Luc's old preference to a C8 and does not mention the correct travel setup or the trigger for the change."
+    },
+    {
+      "qa_id": "Q8_b3c50021",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the shift in Boris's imaging habit to seeing conditions and a dark site experience, rather than the correct trigger of Otis dragging him to a public outreach night."
+    },
+    {
+      "qa_id": "Q8_b3c50022",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Clara's shift in rig plans to a preference for NINA and does not mention the correct trigger or evolved state related to her car-trip constraints with Bex."
+    },
+    {
+      "qa_id": "Q8_b3c50023",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Ravi's shift in attitude and fails to mention the specific image that triggered the change, leading to a critical error."
+    },
+    {
+      "qa_id": "Q8_b3c50024",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information related to Lena's views or the factors driving her update, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b3c50025",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer provides no relevant information regarding Esme's stance on AI processing tools, failing to address the question."
+    },
+    {
+      "qa_id": "Q6_b3c50065",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b3c50067",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Boris had been using his AP130 refractor consistently, contradicting the gold answer that states he had barely set it up in eight months."
+    },
+    {
+      "qa_id": "Q5_b3c50068",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Marcus's attitude and does not correctly identify the observable signal of prior knowledge, leading to a critical error."
+    },
+    {
+      "qa_id": "Q1_b3c50069",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Tomas's priority to seeing conditions instead of long total integration time, which is a critical error."
+    },
+    {
+      "qa_id": "Q1_b3c5006a",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states 'Unclear' and provides no relevant information about Aida's behavior or approach, which does not address the question."
+    },
+    {
+      "qa_id": "Q1_b3c5006b",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is not enough information, which does not address the question and fails to provide any relevant details."
+    },
+    {
+      "qa_id": "Q1_b3c5006c",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Otis's attitude, focusing on portability instead of his consistent argument for used gear being sufficient."
+    },
+    {
+      "qa_id": "Q1_b3c5006d",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Maya's emotional experience, focusing on excitement and relief instead of her high emotional volatility and anxiety, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q3_b3c5006e",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer provides no information about the group's positions on using AI-based image enhancement tools, which is a critical error."
+    },
+    {
+      "qa_id": "Q3_b3c5006f",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately reflect the group's positions on attending the dark-site road trips and misattributes preferences and experiences."
+    },
+    {
+      "qa_id": "Q5_b3c50070",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Marcus's history with Cherry Springs and fails to accurately attribute Otis's knowledge, leading to a critical error."
+    },
+    {
+      "qa_id": "Q4_b3c50071",
+      "query_type": "Q4",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q5_b3c50072",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer states there is no information about Otis's involvement, which contradicts the factual details provided in the gold answer."
+    },
+    {
+      "qa_id": "Q1_b3c50073",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer states that there is no information available about Bex and Clara's interactions, which contradicts the gold answer that provides specific details about their communication and social experiences."
+    },
+    {
+      "qa_id": "Q7_b3c50074",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Felix and Priya's relationship, failing to address the question."
+    },
+    {
+      "qa_id": "Q1_b3c50075",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or analysis regarding Lena's role, which is necessary to address the question."
+    }
+  ]
+}

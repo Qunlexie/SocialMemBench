@@ -1,0 +1,157 @@
+{
+  "network_id": "grp_e8f9a0b1",
+  "condition": "llm_mini",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-28T03:39:35.454955+00:00",
+  "sessions_used": 10,
+  "total_pairs": 28,
+  "new_pairs_this_run": 5,
+  "mean_score": 0.361,
+  "mean_context_words": 4934.0,
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.167
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.333
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.75
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.138
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_e8f9a0b101",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Jade's concern for Sana's attendance but misattributes the message to Jade instead of correctly identifying the speaker."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "score": 0.4,
+      "rationale": "The generated answer captures the essence of Sana's social style and Dev's observation but lacks precision in attributing the specific observable action that reveals Dev's prior knowledge."
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Callum's tendency to internalize stress, but it misattributes the specific phrasing and key observable action to Temi, which is a critical error."
+    },
+    {
+      "qa_id": "Q2_e8f9a0b101",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding the conversation between Marcus and Omar."
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "judge failed"
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Lena's shift to reunion planning discussions and positive experiences during a dinner, rather than correctly identifying the January pub night as the turning point."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the shift in Marcus's thinking and the session marking the turning point, but it fails to attribute the specific realization about intimacy and connection to the experience of the March dinner, which is a critical detail in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any relevant information or analysis regarding Temi's shift, resulting in a complete failure to address the question."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes Rachel's primary criterion to the quality of food and overall dining experience, while the gold answer correctly identifies her focus on wine as her main selection criterion."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific quotes or details to Temi, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b105",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer does not provide any information or relevant content regarding Sana's preferences, resulting in a complete lack of response."
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Callum's comments and does not accurately reflect the specific details and context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Temi's role and does not accurately reflect the specific details and context provided in the gold answer."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the shift in Dev's relationship to group events by focusing on his feelings rather than the established pattern of non-attendance due to a London conflict, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the driving force behind Omar's shift to positive experiences from previous events, rather than the challenge posed by Jade, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies Callum's initial resistance and the positive experience at the escape room as the trigger for his change, but it inaccurately attributes the quote 'I'm not a fossil' to him, which is not mentioned in the gold answer."
+    }
+  ]
+}

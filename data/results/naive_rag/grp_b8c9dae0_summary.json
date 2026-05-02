@@ -1,0 +1,197 @@
+{
+  "network_id": "grp_b8c9dae0",
+  "condition": "naive_rag",
+  "model": "gpt-4o-mini",
+  "evaluated_at": "2026-04-29T16:23:52.634423+00:00",
+  "sessions_used": 10,
+  "total_pairs": 40,
+  "new_pairs_this_run": 40,
+  "mean_score": 0.425,
+  "mean_context_words": 243.2,
+  "by_query_type": {
+    "Q1": {
+      "count": 11,
+      "mean_score": 0.482
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.75
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0
+    },
+    "Q5": {
+      "count": 4,
+      "mean_score": 0.5
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.5
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.2
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 0.163
+    }
+  },
+  "low_scoring": [
+    {
+      "qa_id": "Q1_b8c9dae001",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Diane's concern about the changes but misrepresents her attitude as merely apprehensive rather than strongly opposed, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q1_b8c9dae002",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misrepresents Greg's behavior, suggesting he accommodates vegetarian options when he actually treats meat as the default and separates himself from non-meat contributors."
+    },
+    {
+      "qa_id": "Q1_b8c9dae005",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The answer correctly identifies Mei's investment of time and labor but lacks specific attribution to Greg's acknowledgment and misrepresents her role as merely 'decoration' rather than a champion of the planters."
+    },
+    {
+      "qa_id": "Q1_b8c9dae006",
+      "query_type": "Q1",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Constance's preference for events that wind down by dusk but fails to attribute the specific behavioral signal of retiring upstairs to her preference, which is a critical detail."
+    },
+    {
+      "qa_id": "Q2_b8c9dae009",
+      "query_type": "Q2",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q3_b8c9dae012",
+      "query_type": "Q3",
+      "score": 0.0,
+      "rationale": "The generated answer contains multiple inaccuracies and misattributions regarding the food preferences of the group members, failing to correctly represent their stated desires."
+    },
+    {
+      "qa_id": "Q5_b8c9dae015",
+      "query_type": "Q5",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states Tom\u00e1s's dietary preference and misattributes Lateefah's knowledge, failing to provide the correct context or evidence."
+    },
+    {
+      "qa_id": "Q5_b8c9dae017",
+      "query_type": "Q5",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies Walter's timing pattern but fails to attribute Henry's knowledge to his specific comment and observable behavior, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q6_b8c9dae019",
+      "query_type": "Q6",
+      "score": 0.0,
+      "rationale": "wrong letter"
+    },
+    {
+      "qa_id": "Q7_b8c9dae020",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies that Walter and Henry have a shared history and references their past experiences, but it misattributes Henry's acknowledgment of Walter's expertise, which is not the same as the gold answer's specific quote."
+    },
+    {
+      "qa_id": "Q7_b8c9dae021",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the statement about living with the Hartleys to Diane instead of Joel, which is a critical error."
+    },
+    {
+      "qa_id": "Q7_b8c9dae022",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The generated answer captures the collaborative nature of Yara and Constance's interaction but lacks specific details about Constance lending Yara material and the mentor-style relationship, leading to an incomplete understanding of their dynamic."
+    },
+    {
+      "qa_id": "Q8_b8c9dae023",
+      "query_type": "Q8",
+      "score": 0.3,
+      "rationale": "The generated answer correctly identifies the positive interaction with the guests as a factor in the shift but misattributes Diane's description of the interaction and lacks detail about her previous stance and the context of the change."
+    },
+    {
+      "qa_id": "Q8_b8c9dae024",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Bex's feelings and does not correctly identify the specific events or triggers that led to the change in her relationship to the chat's governance threads."
+    },
+    {
+      "qa_id": "Q8_b8c9dae025",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes the acknowledgment of older members' preference to Diane instead of correctly identifying it as a joint pushback from Henry and Diane."
+    },
+    {
+      "qa_id": "Q8_b8c9dae026",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly attributes the influence on Reggie's change in stance to Diane instead of his personal experiences, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b8c9dae027",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer fails to correctly attribute Constance's earlier hard-line stance to her explicit echoing of Diane's opposition, which is a critical detail missing from the response."
+    },
+    {
+      "qa_id": "Q8_b8c9dae028",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer correctly identifies the shift in Henry's role and the causes, but it does not attribute the specific statements to Henry, which is a critical error."
+    },
+    {
+      "qa_id": "Q8_b8c9dae030",
+      "query_type": "Q8",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly states that Owen's manner has shifted to being more reserved, while the gold answer describes a shift to warmer engagement, indicating a fundamental misunderstanding of the core fact."
+    },
+    {
+      "qa_id": "Q7_b8c9dae031",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute specific actions and roles to Diane and Henry as described in the gold answer, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b8c9dae032",
+      "query_type": "Q7",
+      "score": 0.4,
+      "rationale": "The answer correctly identifies that Bex and Sasha have a close relationship, but it lacks specific details and examples from the conversation that demonstrate their closeness, such as the shared context and teasing nature of their exchanges."
+    },
+    {
+      "qa_id": "Q7_b8c9dae033",
+      "query_type": "Q7",
+      "score": 0.0,
+      "rationale": "The generated answer does not accurately attribute the specific actions and contributions of Mei and Nadia, leading to a critical error in attribution."
+    },
+    {
+      "qa_id": "Q7_b8c9dae034",
+      "query_type": "Q7",
+      "score": 0.3,
+      "rationale": "The generated answer misattributes the tone of the exchange, suggesting underlying tensions which are not present in the gold answer, but it does capture some aspects of their familiarity."
+    },
+    {
+      "qa_id": "Q1_b8c9dae035",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer incorrectly suggests that Tom\u00e1s may not have a strong preference for vegetarian options, contradicting the gold answer which clearly states he is vegetarian."
+    },
+    {
+      "qa_id": "Q1_b8c9dae037",
+      "query_type": "Q1",
+      "score": 0.0,
+      "rationale": "The generated answer misattributes Henry's beliefs about decision-making, focusing on collaboration and input rather than his emphasis on a written canonical record."
+    }
+  ]
+}

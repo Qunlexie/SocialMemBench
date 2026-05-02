@@ -51,17 +51,17 @@
       "graphiti": {
         "mean_score": 0.025,
         "total_pairs": 12,
-        "evaluated_at": "2026-04-10T21:39:47.164039+00:00"
+        "evaluated_at": "2026-04-28T04:24:35.711290+00:00"
       },
       "cognee": {
         "mean_score": 0.233,
         "total_pairs": 12,
-        "evaluated_at": "2026-04-10T21:18:38.322594+00:00"
+        "evaluated_at": "2026-04-28T04:56:48.859795+00:00"
       },
       "langmem": {
         "mean_score": 0.317,
         "total_pairs": 12,
-        "evaluated_at": "2026-04-10T21:17:41.702450+00:00"
+        "evaluated_at": "2026-04-28T04:46:43.559658+00:00"
       },
       "smg": {
         "mean_score": 0.283,
@@ -72,6 +72,26 @@
         "mean_score": 0.65,
         "total_pairs": 12,
         "evaluated_at": "2026-04-11T00:28:09.254443+00:00"
+      },
+      "attributed_rag": {
+        "mean_score": 0.317,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-26T21:29:21.866650+00:00"
+      },
+      "norm_aware_rag": {
+        "mean_score": 0.333,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-26T21:31:11.533638+00:00"
+      },
+      "hybrid_rag": {
+        "mean_score": 0.375,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-26T21:48:11.984826+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.358,
+        "total_pairs": 12,
+        "evaluated_at": "2026-04-26T22:02:16.256515+00:00"
       }
     },
     "grp_2b3c4d5e": {
@@ -117,7 +137,7 @@
       "graphiti": {
         "mean_score": 0.2,
         "total_pairs": 10,
-        "evaluated_at": "2026-04-10T21:43:50.209113+00:00"
+        "evaluated_at": "2026-04-28T04:24:36.344650+00:00"
       },
       "naive_rag": {
         "mean_score": 0.32,
@@ -127,12 +147,12 @@
       "cognee": {
         "mean_score": 0.3,
         "total_pairs": 10,
-        "evaluated_at": "2026-04-10T21:40:56.580011+00:00"
+        "evaluated_at": "2026-04-28T04:56:49.460052+00:00"
       },
       "langmem": {
         "mean_score": 0.06,
         "total_pairs": 10,
-        "evaluated_at": "2026-04-10T21:40:48.891976+00:00"
+        "evaluated_at": "2026-04-28T04:46:44.127976+00:00"
       },
       "smg": {
         "mean_score": 0.29,
@@ -143,6 +163,16 @@
         "mean_score": 0.35,
         "total_pairs": 10,
         "evaluated_at": "2026-04-11T00:34:01.107837+00:00"
+      },
+      "hybrid_rag": {
+        "mean_score": 0.37,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-26T21:48:21.863007+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.33,
+        "total_pairs": 10,
+        "evaluated_at": "2026-04-26T22:11:07.216213+00:00"
       }
     },
     "grp_3c4d5e6f": {
@@ -187,7 +217,7 @@
       "graphiti": {
         "mean_score": 0.675,
         "total_pairs": 8,
-        "evaluated_at": "2026-04-10T21:46:44.077158+00:00"
+        "evaluated_at": "2026-04-28T04:24:37.149387+00:00"
       },
       "naive_rag": {
         "mean_score": 0.562,
@@ -197,12 +227,12 @@
       "cognee": {
         "mean_score": 0.312,
         "total_pairs": 8,
-        "evaluated_at": "2026-04-10T21:42:46.343006+00:00"
+        "evaluated_at": "2026-04-28T04:56:50.005413+00:00"
       },
       "langmem": {
         "mean_score": 0.375,
         "total_pairs": 8,
-        "evaluated_at": "2026-04-10T21:41:57.409695+00:00"
+        "evaluated_at": "2026-04-28T04:46:44.668501+00:00"
       },
       "smg": {
         "mean_score": 0.375,
@@ -213,6 +243,11 @@
         "mean_score": 0.825,
         "total_pairs": 8,
         "evaluated_at": "2026-04-11T00:36:30.418822+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.587,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-26T22:10:50.440567+00:00"
       }
     },
     "grp_4d5e6f7a": {
@@ -257,7 +292,7 @@
       "graphiti": {
         "mean_score": 0.156,
         "total_pairs": 9,
-        "evaluated_at": "2026-04-10T21:48:56.274805+00:00"
+        "evaluated_at": "2026-04-28T04:24:38.733696+00:00"
       },
       "naive_rag": {
         "mean_score": 0.278,
@@ -267,12 +302,12 @@
       "cognee": {
         "mean_score": 0.0,
         "total_pairs": 9,
-        "evaluated_at": "2026-04-10T21:44:48.206588+00:00"
+        "evaluated_at": "2026-04-28T04:56:50.557909+00:00"
       },
       "langmem": {
         "mean_score": 0.322,
         "total_pairs": 9,
-        "evaluated_at": "2026-04-10T21:43:39.800816+00:00"
+        "evaluated_at": "2026-04-28T04:46:45.203780+00:00"
       },
       "smg": {
         "mean_score": 0.356,
@@ -283,6 +318,16 @@
         "mean_score": 0.5,
         "total_pairs": 9,
         "evaluated_at": "2026-04-11T00:38:54.993877+00:00"
+      },
+      "hybrid_rag": {
+        "mean_score": 0.422,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-26T21:48:32.584388+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.256,
+        "total_pairs": 9,
+        "evaluated_at": "2026-04-26T22:10:49.803712+00:00"
       }
     },
     "grp_5e6f7a8b": {
@@ -330,7 +375,7 @@
       "graphiti": {
         "mean_score": 0.588,
         "total_pairs": 8,
-        "evaluated_at": "2026-04-10T21:51:54.290380+00:00"
+        "evaluated_at": "2026-04-28T04:24:39.608144+00:00"
       },
       "naive_rag": {
         "mean_score": 0.35,
@@ -340,12 +385,12 @@
       "cognee": {
         "mean_score": 0.087,
         "total_pairs": 8,
-        "evaluated_at": "2026-04-10T21:46:49.472480+00:00"
+        "evaluated_at": "2026-04-28T04:56:51.119805+00:00"
       },
       "langmem": {
         "mean_score": 0.075,
         "total_pairs": 8,
-        "evaluated_at": "2026-04-10T21:45:47.339033+00:00"
+        "evaluated_at": "2026-04-28T04:46:45.762195+00:00"
       },
       "smg": {
         "mean_score": 0.588,
@@ -356,6 +401,11 @@
         "mean_score": 0.625,
         "total_pairs": 8,
         "evaluated_at": "2026-04-11T00:41:30.493032+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.338,
+        "total_pairs": 8,
+        "evaluated_at": "2026-04-26T22:10:50.989663+00:00"
       }
     },
     "grp_6f7a8b9c": {
@@ -398,7 +448,7 @@
       "graphiti": {
         "mean_score": 0.271,
         "total_pairs": 7,
-        "evaluated_at": "2026-04-10T21:54:46.531773+00:00"
+        "evaluated_at": "2026-04-28T04:24:40.300685+00:00"
       },
       "naive_rag": {
         "mean_score": 0.464,
@@ -408,12 +458,12 @@
       "cognee": {
         "mean_score": 0.143,
         "total_pairs": 7,
-        "evaluated_at": "2026-04-10T21:48:39.677687+00:00"
+        "evaluated_at": "2026-04-28T04:56:51.676747+00:00"
       },
       "langmem": {
         "mean_score": 0.343,
         "total_pairs": 7,
-        "evaluated_at": "2026-04-10T21:47:51.279336+00:00"
+        "evaluated_at": "2026-04-28T04:46:46.323943+00:00"
       },
       "smg": {
         "mean_score": 0.4,
@@ -424,6 +474,11 @@
         "mean_score": 0.5,
         "total_pairs": 7,
         "evaluated_at": "2026-04-11T00:43:56.780029+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.586,
+        "total_pairs": 7,
+        "evaluated_at": "2026-04-26T22:10:50.044598+00:00"
       }
     },
     "grp_7a8b9c0d": {
@@ -464,7 +519,7 @@
       "graphiti": {
         "mean_score": 0.4,
         "total_pairs": 5,
-        "evaluated_at": "2026-04-10T21:56:53.466245+00:00"
+        "evaluated_at": "2026-04-28T04:24:40.932821+00:00"
       },
       "naive_rag": {
         "mean_score": 0.41,
@@ -474,12 +529,12 @@
       "cognee": {
         "mean_score": 0.08,
         "total_pairs": 5,
-        "evaluated_at": "2026-04-10T21:50:56.877425+00:00"
+        "evaluated_at": "2026-04-28T04:56:52.221275+00:00"
       },
       "langmem": {
         "mean_score": 0.36,
         "total_pairs": 5,
-        "evaluated_at": "2026-04-10T21:49:47.780299+00:00"
+        "evaluated_at": "2026-04-28T04:46:46.846063+00:00"
       },
       "smg": {
         "mean_score": 0.3,
@@ -490,6 +545,11 @@
         "mean_score": 0.59,
         "total_pairs": 5,
         "evaluated_at": "2026-04-11T00:46:22.385690+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.4,
+        "total_pairs": 5,
+        "evaluated_at": "2026-04-26T22:10:48.369615+00:00"
       }
     },
     "grp_8b9c0d1e": {
@@ -516,47 +576,52 @@
       "mem0_local": {
         "mean_score": 0.0,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:23:41.300154+00:00"
+        "evaluated_at": "2026-04-28T03:30:05.450970+00:00"
       },
       "llm_mini": {
-        "mean_score": 0.5,
+        "mean_score": 0.4,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T06:06:28.682307+00:00"
+        "evaluated_at": "2026-04-28T03:29:13.254876+00:00"
       },
       "graphiti": {
         "mean_score": 0.233,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:58:48.918029+00:00"
+        "evaluated_at": "2026-04-28T04:26:09.754107+00:00"
       },
       "llm_gemini": {
-        "mean_score": 0.567,
+        "mean_score": 0.55,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T06:08:01.033880+00:00"
+        "evaluated_at": "2026-04-28T03:30:07.449238+00:00"
       },
       "naive_rag": {
         "mean_score": 0.433,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:29:47.793294+00:00"
+        "evaluated_at": "2026-04-28T03:29:13.882697+00:00"
       },
       "cognee": {
-        "mean_score": 0.183,
+        "mean_score": 0.083,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:52:48.050580+00:00"
+        "evaluated_at": "2026-04-28T04:57:37.213901+00:00"
       },
       "langmem": {
         "mean_score": 0.05,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:51:59.664234+00:00"
+        "evaluated_at": "2026-04-28T04:47:28.016175+00:00"
       },
       "smg": {
         "mean_score": 0.083,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:30:45.847809+00:00"
+        "evaluated_at": "2026-04-28T03:29:22.995129+00:00"
       },
       "smg_gemini": {
         "mean_score": 0.25,
         "total_pairs": 6,
         "evaluated_at": "2026-04-11T00:48:24.033584+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.333,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-28T03:29:19.230204+00:00"
       }
     },
     "grp_9c0d1e2f": {
@@ -584,47 +649,52 @@
       "mem0_local": {
         "mean_score": 0.217,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:24:56.828086+00:00"
+        "evaluated_at": "2026-04-28T03:31:05.331633+00:00"
       },
       "llm_mini": {
-        "mean_score": 0.833,
+        "mean_score": 0.733,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T06:06:30.210413+00:00"
+        "evaluated_at": "2026-04-28T03:30:07.945876+00:00"
       },
       "graphiti": {
-        "mean_score": 0.5,
+        "mean_score": 0.55,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T22:01:42.804734+00:00"
+        "evaluated_at": "2026-04-28T04:28:03.160038+00:00"
       },
       "llm_gemini": {
         "mean_score": 0.833,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T06:08:07.367151+00:00"
+        "evaluated_at": "2026-04-28T03:31:06.818887+00:00"
       },
       "naive_rag": {
-        "mean_score": 0.567,
+        "mean_score": 0.617,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:32:01.204637+00:00"
+        "evaluated_at": "2026-04-28T03:30:08.428000+00:00"
       },
       "cognee": {
         "mean_score": 0.217,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:54:48.612844+00:00"
+        "evaluated_at": "2026-04-28T04:58:23.642005+00:00"
       },
       "langmem": {
-        "mean_score": 0.567,
+        "mean_score": 0.517,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:53:56.159182+00:00"
+        "evaluated_at": "2026-04-28T04:48:22.047469+00:00"
       },
       "smg": {
         "mean_score": 0.167,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:33:11.134077+00:00"
+        "evaluated_at": "2026-04-28T03:30:18.183244+00:00"
       },
       "smg_gemini": {
         "mean_score": 0.833,
         "total_pairs": 6,
         "evaluated_at": "2026-04-11T00:50:46.684859+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.1,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-28T03:30:17.572526+00:00"
       }
     },
     "grp_0d1e2f3a": {
@@ -666,7 +736,7 @@
       "graphiti": {
         "mean_score": 0.0,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:41:39.827866+00:00"
+        "evaluated_at": "2026-04-28T04:24:35.091647+00:00"
       },
       "naive_rag": {
         "mean_score": 0.3,
@@ -676,12 +746,12 @@
       "cognee": {
         "mean_score": 0.333,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:38:40.814919+00:00"
+        "evaluated_at": "2026-04-28T04:56:48.273417+00:00"
       },
       "langmem": {
         "mean_score": 0.25,
         "total_pairs": 6,
-        "evaluated_at": "2026-04-10T21:38:53.488934+00:00"
+        "evaluated_at": "2026-04-28T04:46:42.926409+00:00"
       },
       "smg": {
         "mean_score": 0.317,
@@ -692,6 +762,11 @@
         "mean_score": 0.517,
         "total_pairs": 6,
         "evaluated_at": "2026-04-11T00:30:37.429758+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.317,
+        "total_pairs": 6,
+        "evaluated_at": "2026-04-26T22:10:06.709888+00:00"
       }
     },
     "grp_a1b2c3d4": {
@@ -732,34 +807,34 @@
         "ch_m7ip01"
       ],
       "smg": {
-        "mean_score": 0.3,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-10T21:36:48.157963+00:00"
+        "mean_score": 0.257,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:32:48.263121+00:00"
       },
       "naive_rag": {
-        "mean_score": 0.48,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-10T21:34:59.911587+00:00"
+        "mean_score": 0.336,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:32:29.679285+00:00"
       },
       "mem0_local": {
-        "mean_score": 0.278,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-10T21:27:49.997642+00:00"
+        "mean_score": 0.246,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:35:12.461778+00:00"
       },
       "langmem": {
-        "mean_score": 0.196,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-10T21:56:50.848832+00:00"
+        "mean_score": 0.154,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:49:34.795952+00:00"
       },
       "cognee": {
-        "mean_score": 0.284,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-10T21:57:47.499300+00:00"
+        "mean_score": 0.236,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:59:43.458086+00:00"
       },
       "graphiti": {
-        "mean_score": 0.312,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-10T22:06:50.212350+00:00"
+        "mean_score": 0.257,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:32:41.930950+00:00"
       },
       "smg_gemini": {
         "mean_score": 0.548,
@@ -767,14 +842,27 @@
         "evaluated_at": "2026-04-11T00:56:56.864136+00:00"
       },
       "llm_mini": {
-        "mean_score": 0.256,
-        "total_pairs": 25,
-        "evaluated_at": "2026-04-18T14:58:22.377261+00:00"
+        "mean_score": 0.225,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:32:16.309054+00:00"
       },
       "oracle_eval": {
         "mean_score": 0.99,
         "total_pairs": 28,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "subject_rag": {
+        "mean_score": 0.286,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:32:37.652822+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T15:40:37Z"
       }
     },
     "grp_b1c2d3e4": {
@@ -783,7 +871,7 @@
       "group_size": 18,
       "tier": "large",
       "seed": 12,
-      "status": "stage3_done",
+      "status": "verified",
       "n_sessions": 12,
       "n_qa": 32,
       "consumed_challenge_ids": [
@@ -821,19 +909,57 @@
         "ch_rc11s11c1"
       ],
       "llm_mini": {
-        "mean_score": 0.567,
-        "total_pairs": 21,
-        "evaluated_at": "2026-04-18T14:59:17.621962+00:00"
+        "mean_score": 0.434,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T03:41:46.423733+00:00"
       },
       "mem0_local": {
-        "mean_score": 0.305,
-        "total_pairs": 21,
-        "evaluated_at": "2026-04-18T15:04:51.745109+00:00"
+        "mean_score": 0.272,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T03:42:31.035904+00:00"
       },
       "oracle_eval": {
         "mean_score": 1.0,
         "total_pairs": 32,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.031,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T04:35:21.447393+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.069,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T05:03:58.839017+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.322,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T03:41:56.000900+00:00"
+      },
+      "smg": {
+        "mean_score": 0.125,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T03:42:15.314951+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.3,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T03:42:06.142287+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.084,
+        "total_pairs": 32,
+        "evaluated_at": "2026-04-28T04:50:44.738448+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T15:45:58.500557Z"
       }
     },
     "grp_dba9214c": {
@@ -876,6 +1002,54 @@
         "mean_score": 1.0,
         "total_pairs": 27,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.011,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T04:34:25.255044+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.011,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T05:02:16.445774+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.074,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:38:51.218373+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.011,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:39:19.911575+00:00"
+      },
+      "smg": {
+        "mean_score": 0.037,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:39:11.683046+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.156,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:38:59.131742+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.167,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:39:07.713958+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.089,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T04:50:22.388713+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-30T12:00:00Z"
       }
     },
     "grp_c2d3e4f5": {
@@ -919,6 +1093,54 @@
         "mean_score": 1.0,
         "total_pairs": 27,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.237,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T04:34:02.761763+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.174,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T05:01:37.020355+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.333,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:37:18.847897+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.2,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:37:48.761216+00:00"
+      },
+      "smg": {
+        "mean_score": 0.196,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:37:38.850127+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.115,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:37:37.994076+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.315,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T03:37:28.290709+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.248,
+        "total_pairs": 27,
+        "evaluated_at": "2026-04-28T04:50:08.974386+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T15:40:37Z"
       }
     },
     "grp_c3d4e5f6": {
@@ -949,6 +1171,54 @@
         "mean_score": 0.985,
         "total_pairs": 13,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.346,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T04:34:10.096788+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.0,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T05:01:49.066089+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.023,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T03:37:54.527836+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.0,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T03:38:11.961803+00:00"
+      },
+      "smg": {
+        "mean_score": 0.0,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T03:38:05.143051+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.0,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T03:38:03.868129+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.254,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T03:37:58.881095+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.108,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T04:50:13.311901+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T15:41:56+00:00"
       }
     },
     "grp_b2c3d4e5": {
@@ -979,6 +1249,54 @@
         "mean_score": 1.0,
         "total_pairs": 13,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.177,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T04:33:47.144299+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.023,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T05:00:57.823825+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.231,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-27T12:54:43.328785+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.085,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-27T12:54:44.295191+00:00"
+      },
+      "smg": {
+        "mean_score": 0.223,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-27T12:54:45.097327+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.485,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-27T12:54:45.831634+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.385,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-27T04:25:20.947736+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.169,
+        "total_pairs": 13,
+        "evaluated_at": "2026-04-28T04:49:58.840771+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T02:56:57.661885+00:00"
       }
     },
     "grp_e5f6a7b8": {
@@ -1013,6 +1331,54 @@
         "mean_score": 0.97,
         "total_pairs": 17,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.059,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T04:35:29.593441+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.424,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:42:32.667537+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.441,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:42:33.166703+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.135,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:42:48.208067+00:00"
+      },
+      "smg": {
+        "mean_score": 0.253,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:42:42.296229+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.353,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:42:38.397382+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.041,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T05:04:10.707037+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.153,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T04:50:50.158862+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-30T00:00:00Z"
       }
     },
     "grp_f6g7h8i9": {
@@ -1043,6 +1409,54 @@
         "mean_score": 1.0,
         "total_pairs": 16,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.269,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T03:43:01.026528+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.413,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T03:43:01.517053+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.125,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T03:43:15.364116+00:00"
+      },
+      "smg": {
+        "mean_score": 0.381,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T03:43:09.255109+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.388,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T03:43:06.594228+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.188,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T04:35:38.031701+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.169,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T05:04:22.074965+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.062,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-28T04:50:55.810143+00:00"
+      },
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T15:41:56+00:00"
       }
     },
     "grp_f2e3d4c5": {
@@ -1086,6 +1500,46 @@
         "mean_score": 1.0,
         "total_pairs": 18,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.0,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T04:34:57.605605+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.022,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T05:03:01.393534+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.317,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:40:28.919158+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.294,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:40:29.519947+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.05,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:40:46.768541+00:00"
+      },
+      "smg": {
+        "mean_score": 0.122,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:40:39.601946+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.367,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:40:36.002702+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.072,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T04:50:32.114904+00:00"
       }
     },
     "grp_d4e5f6a7": {
@@ -1129,6 +1583,46 @@
         "mean_score": 0.99,
         "total_pairs": 18,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.367,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T03:47:57.406248+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.411,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T03:48:23.917254+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.294,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T03:51:24.006052+00:00"
+      },
+      "smg": {
+        "mean_score": 0.228,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T03:53:24.349742+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.033,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T03:57:06.916448+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.067,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T03:58:34.806653+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.172,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T04:01:30.360694+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.167,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-30T04:03:10.742428+00:00"
       }
     },
     "grp_a3b4c5d6": {
@@ -1172,6 +1666,46 @@
         "mean_score": 1.0,
         "total_pairs": 18,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.383,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:35:14.696105+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.233,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T04:33:26.084015+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.111,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T05:00:15.190256+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.089,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:35:27.607780+00:00"
+      },
+      "smg": {
+        "mean_score": 0.078,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:35:16.142656+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.439,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:35:15.697986+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.428,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T03:35:15.161984+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.0,
+        "total_pairs": 18,
+        "evaluated_at": "2026-04-28T04:49:45.217019+00:00"
       }
     },
     "grp_e6f7a8b9": {
@@ -1213,6 +1747,46 @@
         "mean_score": 1.0,
         "total_pairs": 16,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.362,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:03:43.831494+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.2,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:04:07.908890+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.125,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:07:22.211838+00:00"
+      },
+      "smg": {
+        "mean_score": 0.162,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:09:30.489565+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.237,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:13:16.605302+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.044,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:15:15.851532+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.113,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:17:46.597035+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.019,
+        "total_pairs": 16,
+        "evaluated_at": "2026-04-30T04:19:09.210903+00:00"
       }
     },
     "grp_f7a8b9c0": {
@@ -1256,6 +1830,46 @@
         "mean_score": 1.0,
         "total_pairs": 19,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.447,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:19:50.487776+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.447,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:20:23.895599+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.342,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:23:23.791778+00:00"
+      },
+      "smg": {
+        "mean_score": 0.142,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:25:08.430455+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.142,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:28:10.147771+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.247,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:30:11.876886+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.195,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:32:50.036907+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.121,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T04:34:28.540888+00:00"
       }
     },
     "grp_c6d7e8f9": {
@@ -1297,6 +1911,46 @@
         "mean_score": 0.99,
         "total_pairs": 17,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.318,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:44:02.979310+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.276,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:44:23.641388+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.335,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:48:00.457617+00:00"
+      },
+      "smg": {
+        "mean_score": 0.271,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:50:25.260625+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.1,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T03:52:01.620042+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.176,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T04:35:39.828510+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.271,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T04:52:14.960729+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.171,
+        "total_pairs": 17,
+        "evaluated_at": "2026-04-28T05:05:47.555355+00:00"
       }
     },
     "grp_d7e8f9a0": {
@@ -1333,6 +1987,46 @@
         "mean_score": 1.0,
         "total_pairs": 19,
         "evaluated_at": "2026-04-23T00:00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.521,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T03:52:03.462365+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.432,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T03:52:19.888030+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.321,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T03:55:30.656517+00:00"
+      },
+      "smg": {
+        "mean_score": 0.242,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T03:58:20.308019+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.142,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T04:01:54.534438+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.279,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T04:39:47.768177+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.311,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T04:53:51.414367+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.068,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-28T05:07:12.167069+00:00"
       }
     },
     "grp_e8f9a0b1": {
@@ -1376,6 +2070,46 @@
         "mean_score": 1.0,
         "total_pairs": 28,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.143,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:34:35.955171+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.207,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T05:02:37.938721+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.361,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:39:35.454955+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.304,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:39:46.279780+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.239,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:40:16.622622+00:00"
+      },
+      "smg": {
+        "mean_score": 0.257,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:40:06.230915+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.371,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:39:56.443006+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.229,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:50:27.459180+00:00"
       }
     },
     "grp_f9a0b1c2": {
@@ -1423,6 +2157,46 @@
         "mean_score": 1.0,
         "total_pairs": 22,
         "evaluated_at": "2026-04-23T00:00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.091,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T04:35:08.093388+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.064,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T05:03:28.904879+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.173,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T03:40:56.846778+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.286,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T03:41:04.026868+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.177,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T03:41:27.341665+00:00"
+      },
+      "smg": {
+        "mean_score": 0.2,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T03:41:19.029211+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.259,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T03:41:12.316297+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.168,
+        "total_pairs": 22,
+        "evaluated_at": "2026-04-28T04:50:37.533645+00:00"
       }
     },
     "grp_a0b1c2d3": {
@@ -1464,6 +2238,46 @@
         "mean_score": 1.0,
         "total_pairs": 24,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.321,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T03:31:13.768481+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.171,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:28:13.643926+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.171,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T03:31:46.783292+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.137,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:58:44.272235+00:00"
+      },
+      "smg": {
+        "mean_score": 0.167,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T03:31:36.283981+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.312,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T03:31:31.423641+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.379,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T03:31:21.106599+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.096,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:48:28.924002+00:00"
       }
     },
     "grp_a9b0c1d2": {
@@ -1472,7 +2286,7 @@
       "group_size": 6,
       "tier": "small",
       "seed": 29,
-      "status": "stage3_done",
+      "status": "verified",
       "n_sessions": 8,
       "n_qa": 19,
       "consumed_challenge_ids": [
@@ -1497,16 +2311,56 @@
       ],
       "verify": {
         "overall_pass": true,
-        "stage1_pass": null,
+        "stage1_pass": true,
         "stage2_pass": true,
         "stage3_pass": true,
         "failure_count": 0,
-        "verified_at": "2026-04-22T00:00:00Z"
+        "verified_at": "2026-04-30T00:00:00+00:00"
       },
       "oracle_eval": {
         "mean_score": 1.0,
         "total_pairs": 19,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.484,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:35:57.687438+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.421,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:36:18.945914+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.342,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:38:54.010841+00:00"
+      },
+      "smg": {
+        "mean_score": 0.242,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:40:16.944159+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.358,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:42:56.079301+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.142,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:44:08.153561+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.205,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:46:11.689439+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.058,
+        "total_pairs": 19,
+        "evaluated_at": "2026-04-30T03:47:41.371916+00:00"
       }
     },
     "grp_b0c1d2e3": {
@@ -1552,6 +2406,46 @@
         "mean_score": 0.9964,
         "total_pairs": 28,
         "evaluated_at": "2026-04-23T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.164,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:33:45.296071+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.1,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T05:00:56.356260+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.311,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:36:05.645079+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.118,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:36:25.401612+00:00"
+      },
+      "smg": {
+        "mean_score": 0.321,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:36:20.443432+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.211,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:36:17.058085+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.214,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T03:36:10.925978+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.189,
+        "total_pairs": 28,
+        "evaluated_at": "2026-04-28T04:49:58.117354+00:00"
       }
     },
     "grp_c1d2e3f4": {
@@ -1594,6 +2488,46 @@
         "mean_score": 0.99,
         "total_pairs": 25,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.348,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:19:27.053666+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.332,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:19:53.747469+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.304,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:22:41.532873+00:00"
+      },
+      "smg": {
+        "mean_score": 0.184,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:24:09.003396+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.184,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:27:13.360803+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.096,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:32:03.161854+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.08,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:34:09.507819+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.116,
+        "total_pairs": 25,
+        "evaluated_at": "2026-04-30T03:35:42.018051+00:00"
       }
     },
     "grp_e3f4a5b6": {
@@ -1604,7 +2538,7 @@
       "seed": 33,
       "status": "stage3_done",
       "n_sessions": 8,
-      "n_qa": 32,
+      "n_qa": 30,
       "consumed_challenge_ids": [
         "ch_a1b2c3d4",
         "ch_d0e1f2a3",
@@ -1643,6 +2577,46 @@
         "mean_score": 1.0,
         "total_pairs": 32,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.443,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:01:56.934876+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.317,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:01:57.349598+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.277,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:06:28.229723+00:00"
+      },
+      "smg": {
+        "mean_score": 0.263,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:09:35.723979+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.08,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:11:17.612645+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.12,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:43:35.440958+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.15,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T04:55:16.302741+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.053,
+        "total_pairs": 30,
+        "evaluated_at": "2026-04-28T05:09:28.131746+00:00"
       }
     },
     "grp_d2e3f4a5": {
@@ -1685,6 +2659,46 @@
         "mean_score": 1.0,
         "total_pairs": 26,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.115,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T04:34:17.470069+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.162,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T05:01:59.850023+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.0,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T03:38:32.572133+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.015,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T03:38:43.644263+00:00"
+      },
+      "smg": {
+        "mean_score": 0.038,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T03:38:37.000761+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.054,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T03:38:34.034654+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.196,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T03:38:33.417324+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.108,
+        "total_pairs": 26,
+        "evaluated_at": "2026-04-28T04:50:17.472065+00:00"
       }
     },
     "grp_f4a5b6c7": {
@@ -1725,6 +2739,46 @@
         "mean_score": 1.0,
         "total_pairs": 24,
         "evaluated_at": "2026-04-24T00:00:00Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.363,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:11:18.944923+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.346,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:11:40.863017+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.283,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:15:02.415416+00:00"
+      },
+      "smg": {
+        "mean_score": 0.212,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:16:54.588479+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.1,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:18:18.161831+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.162,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:46:39.255855+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.188,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T04:56:46.333438+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.125,
+        "total_pairs": 24,
+        "evaluated_at": "2026-04-28T05:11:01.939190+00:00"
       }
     },
     "grp_a5b6c7d8": {
@@ -1779,6 +2833,46 @@
         "stage3_pass": true,
         "failure_count": 0,
         "verified_at": "2026-04-26T15:15:52.288332+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.138,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T04:33:38.535546+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.221,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T03:35:29.683906+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.126,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T05:00:41.976400+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.106,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T03:35:57.920009+00:00"
+      },
+      "smg": {
+        "mean_score": 0.174,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T03:35:50.334188+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.326,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T03:35:44.610534+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.241,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T03:35:35.992752+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.135,
+        "total_pairs": 34,
+        "evaluated_at": "2026-04-28T04:49:53.620931+00:00"
       }
     },
     "grp_b6c7d8e9": {
@@ -1838,33 +2932,787 @@
         "stage3_pass": null,
         "failure_count": 0,
         "verified_at": "2026-04-24T00:00:00Z"
+      },
+      "graphiti": {
+        "mean_score": 0.19,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T04:33:53.438394+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.281,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T05:01:13.560390+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.438,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T03:36:38.066104+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.129,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T03:37:01.928750+00:00"
+      },
+      "smg": {
+        "mean_score": 0.26,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T03:36:55.234447+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.419,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T03:36:54.149000+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.41,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T03:36:47.874942+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.181,
+        "total_pairs": 42,
+        "evaluated_at": "2026-04-28T04:50:03.036928+00:00"
+      }
+    },
+    "grp_a4b5c6d7": {
+      "network_id": "grp_a4b5c6d7",
+      "group_type": "interest_community",
+      "group_size": 15,
+      "tier": "large",
+      "seed": 38,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 41,
+      "consumed_challenge_ids": [
+        "ch_a4b5003",
+        "ch_a4b5005",
+        "ch_a4b5007",
+        "ch_a4b5008",
+        "ch_a4b5009",
+        "ch_a4b5010",
+        "ch_a4b5018",
+        "ch_a4b5031",
+        "ch_a4b5037",
+        "ch_a4b5040",
+        "ch_a4b5028",
+        "ch_a4b5041",
+        "ch_a4b5_q3_volume",
+        "ch_a4b5_q3_format",
+        "ch_a4b5016",
+        "ch_a4b5017",
+        "ch_a4b5043",
+        "ch_a4b5044",
+        "ch_a4b5023",
+        "ch_a4b5025",
+        "ch_a4b5051",
+        "ch_a4b5_q6_yuko",
+        "ch_a4b5_q6_dev",
+        "ch_a4b5_q6_roo",
+        "ch_a4b5_q6_marcy",
+        "ch_a4b5047",
+        "ch_a4b5048",
+        "ch_a4b5022",
+        "ch_a4b5027",
+        "ch_a4b5029",
+        "ch_a4b5030",
+        "ch_a4b5032",
+        "ch_a4b5034",
+        "ch_a4b5035",
+        "ch_a4b5036",
+        "ch_a4b5038",
+        "ch_a4b5039",
+        "ch_a4b5042",
+        "ch_a4b5045",
+        "ch_a4b5046",
+        "ch_a4b5049"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T02:57:38Z",
+        "notes": "Re-verified after on-disk report regenerated. Stage 1 comm-distinctness flags 5 pairs at diff=1 (none at diff=0) which is the accepted large-tier exception (15 personas; 4-tuple abstraction is coarse at this size; voice consistency carried by speaking_quirks). Same exception applies to grp_e5f6a7b8 and grp_f6g7h8i9. Stage 2 voice consistency passes; Stage 3 evidence verbatim 71/71 anchors after ellipsis normalization."
+      },
+      "qc_phase1_mean": 0.925,
+      "qc_overall_pass": true,
+      "llm_mini": {
+        "mean_score": 0.451,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T15:55:06.707267+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.434,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T15:56:04.608417+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.441,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T16:01:50.819098+00:00"
+      },
+      "smg": {
+        "mean_score": 0.222,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T16:05:31.380998+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.176,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T16:14:05.917159+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.188,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T16:16:07.513102+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.11,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T16:19:39.822432+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.134,
+        "total_pairs": 41,
+        "evaluated_at": "2026-04-29T16:22:01.408888+00:00"
+      }
+    },
+    "grp_c1d2e3f7": {
+      "network_id": "grp_c1d2e3f7",
+      "group_type": "recreational",
+      "group_size": 20,
+      "tier": "large",
+      "seed": 39,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 48,
+      "consumed_challenge_ids": [
+        "ch_c1d2001",
+        "ch_c1d2005",
+        "ch_c1d2006",
+        "ch_c1d2007",
+        "ch_c1d2011",
+        "ch_c1d2012",
+        "ch_c1d2019",
+        "ch_c1d2022",
+        "ch_c1d2026",
+        "ch_c1d2029",
+        "ch_c1d2032",
+        "ch_c1d2021",
+        "ch_c1d2030",
+        "ch_c1d2031",
+        "ch_c1d2004",
+        "ch_c1d2003",
+        "ch_c1d2009",
+        "ch_c1d2017",
+        "ch_c1d2020",
+        "ch_c1d2013",
+        "ch_c1d2023",
+        "ch_c1d2025",
+        "ch_c1d2015",
+        "ch_c1d2018",
+        "ch_c1d2027",
+        "ch_c1d2033",
+        "ch_c1d2002",
+        "ch_c1d2008",
+        "ch_c1d2028",
+        "ch_c1d2016"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-29T04:37:00.879205+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.39,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T16:48:26.102931+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.375,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T16:49:20.978025+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.402,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T16:55:44.157488+00:00"
+      },
+      "smg": {
+        "mean_score": 0.225,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T16:59:40.991496+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.206,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T17:07:42.643039+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.175,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T17:10:27.437647+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.142,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T17:16:16.092967+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.077,
+        "total_pairs": 48,
+        "evaluated_at": "2026-04-29T17:19:26.193914+00:00"
+      }
+    },
+    "grp_b8c9dae0": {
+      "network_id": "grp_b8c9dae0",
+      "group_type": "acquaintance_network",
+      "group_size": 18,
+      "tier": "large",
+      "seed": 37,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 40,
+      "consumed_challenge_ids": [
+        "ch_01a",
+        "ch_01b",
+        "ch_02a",
+        "ch_02b",
+        "ch_02c",
+        "ch_03a",
+        "ch_03b",
+        "ch_03c",
+        "ch_03d",
+        "ch_04a",
+        "ch_04b",
+        "ch_04c",
+        "ch_05a",
+        "ch_05b",
+        "ch_05c",
+        "ch_06a",
+        "ch_06b",
+        "ch_06c",
+        "ch_07a",
+        "ch_07b",
+        "ch_07c",
+        "ch_07d",
+        "ch_08a",
+        "ch_08b",
+        "ch_08c",
+        "ch_09a",
+        "ch_09b",
+        "ch_09c",
+        "ch_10a",
+        "ch_10b",
+        "ch_10c"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-29T04:12:24.083926Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.443,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:23:11.800179+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.425,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:23:52.634423+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.36,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:29:18.905634+00:00"
+      },
+      "smg": {
+        "mean_score": 0.223,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:32:41.033336+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.153,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:38:51.071585+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.143,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:41:10.069245+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.1,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:43:59.230088+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.092,
+        "total_pairs": 40,
+        "evaluated_at": "2026-04-29T16:46:22.608174+00:00"
+      }
+    },
+    "grp_d3e4f5a6": {
+      "network_id": "grp_d3e4f5a6",
+      "group_type": "close_friends",
+      "group_size": 22,
+      "tier": "large",
+      "seed": 40,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 52,
+      "consumed_challenge_ids": [
+        "ch_0939e0a4",
+        "ch_10a603dc",
+        "ch_133a9747",
+        "ch_13bfe530",
+        "ch_17e1c626",
+        "ch_1bda2e0e",
+        "ch_1f39e553",
+        "ch_29c816c6",
+        "ch_2a356112",
+        "ch_2dd26a12",
+        "ch_39b7f65f",
+        "ch_3fb0515d",
+        "ch_4b3d1e0e",
+        "ch_4e9c0797",
+        "ch_5210cdbb",
+        "ch_55a68691",
+        "ch_5c0881a2",
+        "ch_6877c553",
+        "ch_69eaaa81",
+        "ch_761c0a2a",
+        "ch_7869bea4",
+        "ch_7e13c69a",
+        "ch_844438a6",
+        "ch_972d5a5e",
+        "ch_97beab32",
+        "ch_97eb6b86",
+        "ch_9badec04",
+        "ch_9fab7e83",
+        "ch_9fdf521f",
+        "ch_afce35bc",
+        "ch_afebebe7",
+        "ch_b072d216",
+        "ch_b21e2b5c",
+        "ch_b3635829",
+        "ch_bdd35e00",
+        "ch_c8345b4e",
+        "ch_d1bbd962",
+        "ch_d38c4ab4",
+        "ch_d3fb80a9",
+        "ch_e1ac8ea3",
+        "ch_e2971a8d",
+        "ch_e7f4d247",
+        "ch_ea2c5ccf",
+        "ch_ea7778d8",
+        "ch_ef5f8c02",
+        "ch_f209c7a5",
+        "ch_ffbd1222"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-29T04:39:36.415839Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.446,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:21:03.582448+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.381,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:22:21.671108+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.392,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:27:08.904104+00:00"
+      },
+      "smg": {
+        "mean_score": 0.263,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:30:22.540463+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.19,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:37:01.939763+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.219,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:39:25.203865+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.2,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:43:01.781558+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.108,
+        "total_pairs": 52,
+        "evaluated_at": "2026-04-29T17:45:36.016051+00:00"
+      }
+    },
+    "grp_e7f8a9b1": {
+      "group_type": "family",
+      "group_size": 25,
+      "seed": 41,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 57,
+      "consumed_challenge_ids": [
+        "ch_031d5ae5",
+        "ch_040ca277",
+        "ch_0ddf19df",
+        "ch_1805641e",
+        "ch_1ab42472",
+        "ch_1be37330",
+        "ch_22146298",
+        "ch_260dc521",
+        "ch_28be0a7b",
+        "ch_2b11cd22",
+        "ch_2f8d8337",
+        "ch_3201725d",
+        "ch_38b21519",
+        "ch_3c567f96",
+        "ch_3e405ed9",
+        "ch_4218af86",
+        "ch_460747e5",
+        "ch_46575056",
+        "ch_490094b6",
+        "ch_4a330853",
+        "ch_54285fe3",
+        "ch_60676586",
+        "ch_76ed7c21",
+        "ch_7c7250ff",
+        "ch_7ffea4c1",
+        "ch_8a543fb7",
+        "ch_8ad9a8f9",
+        "ch_8dbbc46e",
+        "ch_9aa5c741",
+        "ch_a7c53b7e",
+        "ch_abb556ab",
+        "ch_af3fbe1a",
+        "ch_b26fdae4",
+        "ch_bbd62b64",
+        "ch_c50eda3a",
+        "ch_c9fd404f",
+        "ch_d74dcf8f",
+        "ch_d7a54c52",
+        "ch_d966fc78",
+        "ch_dcfeed7f",
+        "ch_e5ca3ddc",
+        "ch_e6c376a6",
+        "ch_e73053c9",
+        "ch_f9ae1cb1",
+        "ch_fd6c9235",
+        "ch_fe3d6ce4",
+        "ch_fed0a798"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-05-02T15:41:56+00:00"
+      },
+      "llm_mini": {
+        "mean_score": 0.286,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T17:47:56.901185+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.296,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T17:49:08.979909+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.263,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T17:55:54.591528+00:00"
+      },
+      "smg": {
+        "mean_score": 0.153,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T17:59:17.853835+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.168,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T18:06:38.484034+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.089,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T18:09:33.616860+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.14,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T18:13:55.960944+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.126,
+        "total_pairs": 57,
+        "evaluated_at": "2026-04-29T18:17:00.055529+00:00"
+      }
+    },
+    "grp_a6b7c8d9": {
+      "group_type": "acquaintance_network",
+      "group_size": 30,
+      "seed": 42,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 64,
+      "consumed_challenge_ids": [
+        "ch_c4d1f6b3",
+        "ch_87a720a6",
+        "ch_140f1d6a",
+        "ch_693e814d",
+        "ch_f41ad540",
+        "ch_5b8a5732",
+        "ch_fb9da3ef",
+        "ch_61ae169c",
+        "ch_19a7b868",
+        "ch_ad6d01a2",
+        "ch_e65b7afe",
+        "ch_e19127cb",
+        "ch_d1150a4e",
+        "ch_68ec7bd4",
+        "ch_f3b0aac1",
+        "ch_a6b7c8d9_p",
+        "ch_a6b7c8d9_f",
+        "ch_421f2c90",
+        "ch_0147a002",
+        "ch_b21a9036",
+        "ch_ff01d532",
+        "ch_norm_block",
+        "ch_norm_parking",
+        "ch_13e99e89",
+        "ch_a0fae294",
+        "ch_4203f5ab",
+        "ch_8de4d0e6",
+        "ch_ff5eda24",
+        "ch_01877444",
+        "ch_0cab28cc",
+        "ch_6ac7acb4",
+        "ch_c6bcc241",
+        "ch_1296ebcc",
+        "ch_cddc06f5",
+        "ch_a59dd023",
+        "ch_c04fe7a6",
+        "ch_e28f6423",
+        "ch_799cabca",
+        "ch_3535b6dd",
+        "ch_33111863",
+        "ch_33060405",
+        "ch_af79ccbb",
+        "ch_ff3f2cd4",
+        "ch_a57c6b89",
+        "ch_5c4ab573",
+        "ch_38ce8b96",
+        "ch_4f740083",
+        "ch_87211928",
+        "ch_carla_formal",
+        "ch_devon_civlib",
+        "ch_stefan_precision",
+        "ch_hoffman_title",
+        "ch_lena_historian",
+        "ch_tariq_pro",
+        "ch_marlene_bot",
+        "ch_cody_dm",
+        "ch_imani_mod",
+        "ch_aaron_tone",
+        "ch_trevor_style",
+        "ch_tabitha_fwiw",
+        "ch_beth_host",
+        "ch_nathan_budget",
+        "ch_tom_donna_hoffman",
+        "ch_aaron_priya"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-29T15:19:12Z"
+      },
+      "llm_mini": {
+        "mean_score": 0.316,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T18:49:05.023311+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.305,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T18:50:14.088406+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.311,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T18:55:00.461740+00:00"
+      },
+      "smg": {
+        "mean_score": 0.194,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T18:58:06.461594+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.173,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T19:05:33.239119+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.069,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T19:08:21.385284+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.12,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T19:11:50.161480+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.094,
+        "total_pairs": 64,
+        "evaluated_at": "2026-04-29T19:14:51.619526+00:00"
+      }
+    },
+    "grp_f1a2b3c5": {
+      "network_id": "grp_f1a2b3c5",
+      "group_type": "interest_community",
+      "group_size": 27,
+      "tier": "large",
+      "seed": 43,
+      "status": "verified",
+      "n_sessions": 10,
+      "n_qa": 54,
+      "consumed_challenge_ids": [
+        "ch_b3c50005",
+        "ch_b3c50017",
+        "ch_b3c50002",
+        "ch_b3c50031",
+        "ch_b3c50001",
+        "ch_b3c50011",
+        "ch_b3c50012",
+        "ch_b3c50028",
+        "ch_b3c50035",
+        "ch_b3c50023",
+        "ch_b3c50013",
+        "ch_b3c50018",
+        "ch_b3c50032",
+        "ch_b3c50030",
+        "ch_b3c50034",
+        "ch_b3c50003",
+        "ch_b3c50008",
+        "ch_b3c50004",
+        "ch_b3c50033",
+        "ch_b3c50022",
+        "ch_b3c50007",
+        "ch_b3c50025",
+        "ch_b3c50019",
+        "ch_b3c50024",
+        "ch_b3c50021",
+        "ch_b3c50009",
+        "ch_b3c50027",
+        "ch_b3c50020",
+        "ch_b3c50016",
+        "ch_b3c50029",
+        "ch_b3c50015",
+        "ch_b3c50010",
+        "ch_b3c50014",
+        "ch_b3c50006",
+        "ch_b3c50026"
+      ],
+      "verify": {
+        "overall_pass": true,
+        "stage1_pass": true,
+        "stage2_pass": true,
+        "stage3_pass": true,
+        "failure_count": 0,
+        "verified_at": "2026-04-29T08:52:25.611386"
+      },
+      "llm_mini": {
+        "mean_score": 0.485,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:19:14.485154+00:00"
+      },
+      "naive_rag": {
+        "mean_score": 0.409,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:20:08.050644+00:00"
+      },
+      "subject_rag": {
+        "mean_score": 0.439,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:25:32.439073+00:00"
+      },
+      "smg": {
+        "mean_score": 0.263,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:28:38.766170+00:00"
+      },
+      "graphiti": {
+        "mean_score": 0.237,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:36:18.092021+00:00"
+      },
+      "langmem": {
+        "mean_score": 0.291,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:39:48.141401+00:00"
+      },
+      "mem0_local": {
+        "mean_score": 0.159,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:42:55.049302+00:00"
+      },
+      "cognee": {
+        "mean_score": 0.12,
+        "total_pairs": 54,
+        "evaluated_at": "2026-04-29T18:46:47.958933+00:00"
       }
     }
   },
-  "next_seed": 32,
-  "qa_pairs_total": 679,
+  "next_seed": 44,
+  "qa_pairs_total": 1033,
   "query_type_counts": {
-    "Q1": 144,
-    "Q2": 62,
-    "Q3": 9,
-    "Q4": 59,
-    "Q5": 62,
-    "Q6": 38,
-    "Q7": 124,
-    "Q8": 168,
-    "Q9": 12
+    "Q1": 249,
+    "Q2": 82,
+    "Q4": 80,
+    "Q5": 92,
+    "Q6": 54,
+    "Q7": 182,
+    "Q8": 262,
+    "Q9": 10,
+    "Q3": 22
   },
   "group_type_counts": {
-    "close_friends": 7,
+    "close_friends": 8,
     "family": 7,
-    "recreational": 7,
-    "interest_community": 7,
-    "acquaintance_network": 6
+    "recreational": 8,
+    "interest_community": 9,
+    "acquaintance_network": 7
   },
   "size_tier_counts": {
     "small": 18,
     "medium": 12,
-    "large": 1
+    "large": 6
   },
   "tier_counts": {
     "medium": 2

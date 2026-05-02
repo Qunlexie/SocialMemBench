@@ -1,0 +1,74 @@
+{
+  "network_id": "grp_b1c2d3e4",
+  "verified_at": "2026-05-02T15:45:58.500557Z",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "checks": {
+        "required_fields": true,
+        "persona_count": true,
+        "closeness_variety": true,
+        "tense_mixed_edge": true,
+        "contested_norm": true,
+        "pref_history_coverage": true,
+        "communication_distinctness": true,
+        "edge_coverage": true,
+        "no_null_display_names": true,
+        "unique_persona_ids": true
+      },
+      "passed_count": 10,
+      "total": 10
+    },
+    "stage2": {
+      "passed": true,
+      "checks": {
+        "sessions_present": true,
+        "turn_count_per_session": true,
+        "message_format": true,
+        "no_ooc_narration": true,
+        "planted_challenges_exist": true,
+        "pci_field_completeness": true,
+        "challenge_type_variety": true,
+        "speaker_coverage": true,
+        "temporal_shift_present": true,
+        "evidence_spans_nonempty": true,
+        "evidence_span_verbatim": true,
+        "timestamp_label_consistency": true,
+        "day_of_week_accuracy": true,
+        "session_date_continuity": true,
+        "message_length_ceiling": true,
+        "topic_variation": true,
+        "verbosity_realized": true,
+        "no_em_dashes": true
+      },
+      "passed_count": 18,
+      "total": 18
+    },
+    "stage3": {
+      "passed": true,
+      "checks": {
+        "qa_pairs_exist": true,
+        "no_empty_questions": true,
+        "no_empty_answers": true,
+        "answer_length": true,
+        "evidence_anchors": true,
+        "evidence_verbatim": true,
+        "query_type_coverage": true,
+        "q5_two_part": true,
+        "q4_has_foil": true,
+        "q4_foil_quality": true,
+        "q5_grounded_tom": true,
+        "q8_has_anchors": true,
+        "difficulty_distribution": true,
+        "inference_depth_present": true
+      },
+      "passed_count": 14,
+      "total": 14
+    }
+  },
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0"
+}

@@ -1,28 +1,88 @@
 {
   "network_id": "grp_d4e5f6a7",
   "verified_at": "2026-04-19T00:00:00Z",
-  "stage1_pass": null,
-  "stage2_pass": true,
-  "stage3_pass": null,
   "overall_pass": true,
-  "failure_count": 0,
+  "stages": {
+    "stage1": {
+      "passed": true
+    },
+    "stage2": {
+      "passed": true
+    },
+    "stage3": {
+      "passed": true
+    }
+  },
+  "failures": [],
   "warnings": [],
-  "stage2_checks": {
-    "sessions_present": {"pass": true, "detail": "8 sessions"},
-    "turn_count_per_session": {"pass": true, "detail": "20/20/22/20/22/22/22/22 turns (all within 10-25 range)"},
-    "planted_challenges_exist": {"pass": true, "detail": "21 planted challenges"},
-    "planted_challenge_field_completeness": {"pass": true, "detail": "All 10 required fields present in all 21 challenges"},
-    "challenge_type_variety": {"pass": true, "detail": "7 distinct types: implicit_preference, temporal_shift, relational_disclosure, false_attribution_seed, consensus_trap, theory_of_mind, relational_graph"},
-    "speaker_coverage": {"pass": true, "detail": "All 6 personas appear as speakers: Zara, Dom, Priya, Marcus, Kezia, Felix"},
-    "temporal_shift_present": {"pass": true, "detail": "5 temporal_shift challenges covering Dom, Zara, Marcus, Kezia, Felix, Priya preference histories"},
-    "evidence_spans_non_empty": {"pass": true, "detail": "All 21 evidence spans non-empty"},
-    "evidence_span_verbatim": {"pass": true, "detail": "All 21 checked verbatim against corpus: all match after fixing 5 spans (ch_d4e5f6a706, ch_d4e5f6a712, ch_d4e5f6a713, ch_d4e5f6a715, ch_d4e5f6a719)"},
-    "session_date_continuity": {"pass": true, "detail": "8 weekly Mondays: 2025-09-01 through 2025-10-20, strictly monotonic"},
-    "day_of_week_accuracy": {"pass": true, "detail": "All sessions are Mondays, consistent with dates"},
-    "message_length_ceiling": {"pass": true, "detail": "Max message length under 400 chars; 0 over 400, 0 over 600"},
-    "no_em_dashes": {"pass": true, "detail": "0 em dashes in all message fields"},
-    "no_out_of_character_narration": {"pass": true, "detail": "No 3rd-person narration detected"},
-    "topic_variation": {"pass": true, "detail": "close_friends: each session has distinct primary concern — summer recap/dinner planning, pre-dinner prep, dinner debrief+injury+birthday planning, birthday logistics, birthday debrief+vegan announcement+Marcus philosophy shift, Kezia's Bristol move, Felix's five-a-side+Marcus new menu, year-end reflections"},
-    "verbosity_realized": {"pass": true, "detail": "Zara (Verbose/Frequent emoji) has consistently longer messages with multiple emoji; Marcus (Verbose/Rare emoji) has longer explanatory messages with food metaphors; Priya (Terse/Never emoji) stays at 1-12 words; Felix (Concise/Formal/Never emoji) stays measured; Dom (Concise) punchy; Kezia (Concise) warm and medium length"}
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "stage2_checks": {
+      "sessions_present": {
+        "pass": true,
+        "detail": "8 sessions"
+      },
+      "turn_count_per_session": {
+        "pass": true,
+        "detail": "20/20/22/20/22/22/22/22 turns (all within 10-25 range)"
+      },
+      "planted_challenges_exist": {
+        "pass": true,
+        "detail": "21 planted challenges"
+      },
+      "planted_challenge_field_completeness": {
+        "pass": true,
+        "detail": "All 10 required fields present in all 21 challenges"
+      },
+      "challenge_type_variety": {
+        "pass": true,
+        "detail": "7 distinct types: implicit_preference, temporal_shift, relational_disclosure, false_attribution_seed, consensus_trap, theory_of_mind, relational_graph"
+      },
+      "speaker_coverage": {
+        "pass": true,
+        "detail": "All 6 personas appear as speakers: Zara, Dom, Priya, Marcus, Kezia, Felix"
+      },
+      "temporal_shift_present": {
+        "pass": true,
+        "detail": "5 temporal_shift challenges covering Dom, Zara, Marcus, Kezia, Felix, Priya preference histories"
+      },
+      "evidence_spans_non_empty": {
+        "pass": true,
+        "detail": "All 21 evidence spans non-empty"
+      },
+      "evidence_span_verbatim": {
+        "pass": true,
+        "detail": "All 21 checked verbatim against corpus: all match after fixing 5 spans (ch_d4e5f6a706, ch_d4e5f6a712, ch_d4e5f6a713, ch_d4e5f6a715, ch_d4e5f6a719)"
+      },
+      "session_date_continuity": {
+        "pass": true,
+        "detail": "8 weekly Mondays: 2025-09-01 through 2025-10-20, strictly monotonic"
+      },
+      "day_of_week_accuracy": {
+        "pass": true,
+        "detail": "All sessions are Mondays, consistent with dates"
+      },
+      "message_length_ceiling": {
+        "pass": true,
+        "detail": "Max message length under 400 chars; 0 over 400, 0 over 600"
+      },
+      "no_em_dashes": {
+        "pass": true,
+        "detail": "0 em dashes in all message fields"
+      },
+      "no_out_of_character_narration": {
+        "pass": true,
+        "detail": "No 3rd-person narration detected"
+      },
+      "topic_variation": {
+        "pass": true,
+        "detail": "close_friends: each session has distinct primary concern \u2014 summer recap/dinner planning, pre-dinner prep, dinner debrief+injury+birthday planning, birthday logistics, birthday debrief+vegan announcement+Marcus philosophy shift, Kezia's Bristol move, Felix's five-a-side+Marcus new menu, year-end reflections"
+      },
+      "verbosity_realized": {
+        "pass": true,
+        "detail": "Zara (Verbose/Frequent emoji) has consistently longer messages with multiple emoji; Marcus (Verbose/Rare emoji) has longer explanatory messages with food metaphors; Priya (Terse/Never emoji) stays at 1-12 words; Felix (Concise/Formal/Never emoji) stays measured; Dom (Concise) punchy; Kezia (Concise) warm and medium length"
+      }
+    }
   }
 }

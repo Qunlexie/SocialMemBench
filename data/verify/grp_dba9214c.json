@@ -1,0 +1,245 @@
+{
+  "network_id": "grp_dba9214c",
+  "verified_at": "2026-04-30T12:00:00Z",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "pass": true,
+      "checks": 10,
+      "failures": 0,
+      "check_details": [
+        {
+          "name": "required_fields",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "persona_count",
+          "passed": true,
+          "detail": "10 vs 10"
+        },
+        {
+          "name": "closeness_variety",
+          "passed": true,
+          "detail": "set=['High', 'Low', 'Medium']"
+        },
+        {
+          "name": "tense_mixed_edge",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "contested_norm",
+          "passed": true,
+          "detail": "2 contested"
+        },
+        {
+          "name": "preference_history",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "comm_distinctness",
+          "passed": true,
+          "detail": "5-tuple distinctness over (verbosity, emoji_use, formality, humor, speaking_quirks); all C(10,2)=45 pairs differ on >=2 dims. Previously weak pairs now pass via non-identical speaking_quirks sets: Adaeze vs Uncle Dele (emoji_use + speaking_quirks), Funke vs Bisi (verbosity + speaking_quirks), Kayode vs Auntie Grace (humor + speaking_quirks)."
+        },
+        {
+          "name": "edge_coverage",
+          "passed": true,
+          "detail": "17 edges (min 6)"
+        },
+        {
+          "name": "display_names",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "persona_ids_unique",
+          "passed": true,
+          "detail": "ok"
+        }
+      ]
+    },
+    "stage2": {
+      "passed": true,
+      "pass": true,
+      "checks": 18,
+      "failures": 0,
+      "check_details": [
+        {
+          "name": "sessions_present",
+          "passed": true,
+          "detail": "8 sessions"
+        },
+        {
+          "name": "turn_count",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "message_format",
+          "passed": true,
+          "detail": "ok (timestamp_label + speaker_display_name + message all present)"
+        },
+        {
+          "name": "no_ooc_narration",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "planted_challenges_exist",
+          "passed": true,
+          "detail": "25 challenges"
+        },
+        {
+          "name": "planted_field_completeness",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "challenge_type_variety",
+          "passed": true,
+          "detail": "7 types"
+        },
+        {
+          "name": "speaker_coverage",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "temporal_shift_present",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "evidence_non_empty",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "evidence_verbatim",
+          "passed": true,
+          "detail": "ok (sample 3, 1-based session, 0-based turn)"
+        },
+        {
+          "name": "timestamp_consistency",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "dow_accuracy",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "date_continuity",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "msg_length_ceiling",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "no_em_dashes",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "verbosity_realized",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "topic_variation",
+          "passed": true,
+          "detail": "8 unique"
+        }
+      ]
+    },
+    "stage3": {
+      "passed": true,
+      "pass": true,
+      "checks": 14,
+      "failures": 0,
+      "check_details": [
+        {
+          "name": "qa_pairs_exist",
+          "passed": true,
+          "detail": "27 pairs"
+        },
+        {
+          "name": "non_empty_questions",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "non_empty_answers",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "answer_length",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "evidence_anchors",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "evidence_verbatim_qa",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "query_type_coverage",
+          "passed": true,
+          "detail": "['Q1', 'Q2', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8']"
+        },
+        {
+          "name": "q5_two_part",
+          "passed": true,
+          "detail": "ok (1 Q5)"
+        },
+        {
+          "name": "q4_has_foil",
+          "passed": true,
+          "detail": "ok (2 Q4)"
+        },
+        {
+          "name": "q4_foil_quality",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "q5_grounded_tom",
+          "passed": true,
+          "detail": "ok"
+        },
+        {
+          "name": "q8_temporal_anchors",
+          "passed": true,
+          "detail": "ok (10 Q8)"
+        },
+        {
+          "name": "difficulty_distribution",
+          "passed": true,
+          "detail": "easy=0.00 hard=2"
+        },
+        {
+          "name": "inference_depth",
+          "passed": true,
+          "detail": "set; zero_pct=0.00"
+        }
+      ]
+    }
+  },
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0"
+}

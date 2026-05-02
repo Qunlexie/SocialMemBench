@@ -1,0 +1,30 @@
+{
+  "network_id": "grp_c1d2e3f7",
+  "verified_at": "2026-04-29T04:37:00.879205+00:00",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true
+    },
+    "stage2": {
+      "passed": true
+    },
+    "stage3": {
+      "passed": true
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "S1: 27 turns (>25 warning)",
+    "S5: 27 turns (>25 warning)",
+    "S6: 26 turns (>25 warning)",
+    "S9: 26 turns (>25 warning)"
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "stage1_failures": [],
+    "stage2_failures": [],
+    "stage3_failures": []
+  }
+}

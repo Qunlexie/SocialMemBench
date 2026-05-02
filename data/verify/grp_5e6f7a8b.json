@@ -4,149 +4,18 @@
   "overall_pass": true,
   "stages": {
     "stage1": {
-      "pass": true,
-      "checks": {
-        "required_fields_present": {
-          "pass": true,
-          "detail": ""
-        },
-        "correct_persona_count": {
-          "pass": true,
-          "detail": ""
-        },
-        "closeness_variety": {
-          "pass": true,
-          "detail": ""
-        },
-        "tense_or_mixed_edge_exists": {
-          "pass": true,
-          "detail": ""
-        },
-        "contested_norm_exists": {
-          "pass": true,
-          "detail": ""
-        },
-        "preference_history_coverage": {
-          "pass": true,
-          "detail": ""
-        },
-        "communication_distinctness": {
-          "pass": true,
-          "detail": ""
-        },
-        "edge_coverage": {
-          "pass": true,
-          "detail": "edges=10"
-        },
-        "no_null_display_names": {
-          "pass": true,
-          "detail": ""
-        },
-        "persona_ids_unique": {
-          "pass": true,
-          "detail": ""
-        }
-      }
+      "passed": true
     },
     "stage2": {
-      "pass": true,
-      "checks": {
-        "sessions_present": {
-          "pass": true,
-          "detail": ""
-        },
-        "turn_count_per_session": {
-          "pass": true,
-          "detail": "s1=10 s2=10 s3=10 s4=10 s5=10"
-        },
-        "message_format": {
-          "pass": true,
-          "detail": ""
-        },
-        "no_out_of_character_narration": {
-          "pass": true,
-          "detail": ""
-        },
-        "planted_challenges_exist": {
-          "pass": true,
-          "detail": ""
-        },
-        "challenge_type_variety": {
-          "pass": true,
-          "detail": ""
-        },
-        "speaker_coverage": {
-          "pass": true,
-          "detail": "missing=[]"
-        },
-        "temporal_shift_present": {
-          "pass": true,
-          "detail": ""
-        },
-        "evidence_spans_non_empty": {
-          "pass": true,
-          "detail": ""
-        },
-        "topic_variation_matches_group_type": {
-          "pass": true,
-          "detail": "Planning objection to no. 22 loft conversion | Street party planning; residents' parking scheme consultation | Near-miss at school gate; Vera's noise complaint | Street party planning; Femi steps up as organiser | Post-party; Femi and Claudette relationship"
-        },
-        "verbosity_realized_in_transcript": {
-          "pass": true,
-          "detail": ""
-        },
-        "no_em_dashes_in_messages": {
-          "pass": true,
-          "detail": "[]"
-        }
-      }
+      "passed": true
     },
     "stage3": {
-      "pass": true,
-      "checks": {
-        "qa_pairs_exist": {
-          "pass": true,
-          "detail": ""
-        },
-        "no_empty_questions": {
-          "pass": true,
-          "detail": ""
-        },
-        "no_empty_answers": {
-          "pass": true,
-          "detail": ""
-        },
-        "answer_length": {
-          "pass": true,
-          "detail": ""
-        },
-        "evidence_anchors": {
-          "pass": true,
-          "detail": ""
-        },
-        "evidence_verbatim": {
-          "pass": true,
-          "detail": ""
-        },
-        "query_type_coverage": {
-          "pass": true,
-          "detail": ""
-        },
-        "q5_two_part": {
-          "pass": true,
-          "detail": ""
-        },
-        "q4_has_foil": {
-          "pass": true,
-          "detail": ""
-        },
-        "q8_has_anchors": {
-          "pass": true,
-          "detail": ""
-        }
-      }
+      "passed": true
     }
   },
   "failures": [],
-  "fix_suggestions": []
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {}
 }

@@ -1,60 +1,122 @@
 {
   "network_id": "grp_f4a5b6c7",
-  "stage": 2,
-  "overall_pass": true,
-  "stage2_pass": true,
-  "failure_count": 3,
   "verified_at": "2026-04-23T00:00:00Z",
-  "checks": {
-    "sessions_present": {"pass": true, "detail": "8 sessions found"},
-    "turn_count_per_session": {"pass": true, "detail": "S1:21 S2:22 S3:25 S4:22 S5:23 S6:20 S7:22 S8:23 -- all within 10-25; S3 at ceiling (25), warning only"},
-    "message_format": {"pass": true, "detail": "5 sampled turns all match [Session N, H:MMam/pm] Name: message pattern"},
-    "no_out_of_character_narration": {"pass": true, "detail": "No 'As [Name]' or '*[Name]' patterns found"},
-    "planted_challenges_exist": {"pass": true, "detail": "27 planted challenges in planted_challenge_index"},
-    "planted_challenge_field_completeness": {"pass": true, "detail": "All 27 entries have non-null required fields"},
-    "challenge_type_variety": {"pass": true, "detail": "8 distinct types: implicit_preference(9), relational_graph(3), false_attribution_seed(2), theory_of_mind(2), consensus_trap(3), relational_disclosure(4), temporal_shift(4), departure(1)"},
-    "speaker_coverage": {"pass": true, "detail": "All 5 personas appear as speakers: Sandra(S1-S8), Dev(S1-S8), Claire(S1-S8), Marcus(S1-S5), Yuki(S1-S8)"},
-    "temporal_shift_present": {"pass": true, "detail": "4 temporal_shift challenges: ch_a4b5c6d7, ch_f9a0b1c2, ch_c2d3e4f5, ch_c8d9e0f1"},
-    "evidence_spans_non_empty": {"pass": true, "detail": "All 27 challenges have non-empty evidence_span"},
-    "evidence_span_verbatim": {
-      "pass": false,
-      "detail": "FAILURE: ch_a1b2c3d4 evidence_span combines text from turns 000 and 004 -- not verbatim in a single turn. FAILURE: ch_c2d3e4f5 evidence_span combines turns 007 and 008. NOTE: ch_d4e5f6a7 passes verbatim check.",
-      "failures": [
-        {
-          "challenge_id": "ch_a1b2c3d4",
-          "issue": "Evidence span 'I do think we deserve a bit more notice than that... I have already emailed the residents' association.' spans turns s01_t000 and s01_t004 -- not a single verbatim turn excerpt. Each segment is verbatim but the combined span is not.",
-          "fix": "Use only the evidence from turn t004: 'I have already emailed the residents' association.' or turn t000: 'I do think we deserve a bit more notice than that.' for the evidence anchor."
-        },
-        {
-          "challenge_id": "ch_c2d3e4f5",
-          "issue": "Evidence span 'what if we just committed to a walk every Sunday morning? Nothing long, an hour maybe... I just feel like we can't let the group get smaller in every direction at once.' spans turns s06_t007 and s06_t008.",
-          "fix": "Split into two anchors or use t008 alone: 'Honestly I just feel like we can't let the group get smaller in every direction at once.' as the key evidence."
-        }
-      ]
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true
     },
-    "timestamp_label_consistency": {
-      "pass": false,
-      "detail": "FAILURE: grp_f4a5b6c7_s04_t003 has timestamp_label 'Nov 2, 12:19am' but timestamp is 2025-11-02T12:19:00 (noon, should be pm). All other sampled turns pass.",
-      "failures": [
-        {
-          "turn_id": "grp_f4a5b6c7_s04_t003",
-          "timestamp_label": "Nov 2, 12:19am",
-          "timestamp": "2025-11-02T12:19:00",
-          "issue": "am/pm mismatch: 12:19 is noon (pm), label says 'am'",
-          "fix": "Change timestamp_label to 'Nov 2, 12:19pm'"
-        }
-      ]
+    "stage2": {
+      "passed": true
     },
-    "day_of_week_accuracy": {"pass": true, "detail": "Oct 12 2025=Sunday, Nov 2 2025=Sunday, Dec 7 2025=Sunday -- all correct"},
-    "session_date_continuity": {"pass": true, "detail": "Dates strictly increasing: Oct 12 → Oct 19 → Oct 26 → Nov 2 → Nov 16 → Nov 23 → Nov 30 → Dec 7"},
-    "message_length_ceiling": {"pass": true, "detail": "Longest message checked ~263 chars; no message exceeds 600 chars"},
-    "topic_variation": {"pass": true, "detail": "acquaintance_network moderate variance: bins/parcels/wifi → parking/BBQ → BBQ logistics/personal news → post-BBQ/Airbnb → departure → post-departure/walks → noise/Christmas lights → year-end/Edinburgh"},
-    "verbosity_realized": {"pass": true, "detail": "Sandra(Verbose): messages 200-260 chars, clearly longer than others. Dev(Terse): 3-30 word messages throughout. Marcus(Terse): consistent one-word to short phrase responses. Claire(Verbose): multiple-message bursts, longer takes. Yuki(Concise): 10-40 word typical range."},
-    "no_em_dashes": {"pass": true, "detail": "No em dash (—) characters found in any message field; double-hyphen (--) used throughout, which is acceptable"}
+    "stage3": {
+      "passed": true
+    }
   },
+  "failures": [],
   "warnings": [
     "S3 has exactly 25 turns -- at the ceiling",
     "ch_a1b2c3d4 evidence_span is a cross-turn composite (non-blocking -- QA generation should use turn t004 excerpt only)",
     "ch_c2d3e4f5 evidence_span is a cross-turn composite (non-blocking -- QA generation should split anchors or use t008)"
-  ]
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "stage": 2,
+    "checks": {
+      "sessions_present": {
+        "pass": true,
+        "detail": "8 sessions found"
+      },
+      "turn_count_per_session": {
+        "pass": true,
+        "detail": "S1:21 S2:22 S3:25 S4:22 S5:23 S6:20 S7:22 S8:23 -- all within 10-25; S3 at ceiling (25), warning only"
+      },
+      "message_format": {
+        "pass": true,
+        "detail": "5 sampled turns all match [Session N, H:MMam/pm] Name: message pattern"
+      },
+      "no_out_of_character_narration": {
+        "pass": true,
+        "detail": "No 'As [Name]' or '*[Name]' patterns found"
+      },
+      "planted_challenges_exist": {
+        "pass": true,
+        "detail": "27 planted challenges in planted_challenge_index"
+      },
+      "planted_challenge_field_completeness": {
+        "pass": true,
+        "detail": "All 27 entries have non-null required fields"
+      },
+      "challenge_type_variety": {
+        "pass": true,
+        "detail": "8 distinct types: implicit_preference(9), relational_graph(3), false_attribution_seed(2), theory_of_mind(2), consensus_trap(3), relational_disclosure(4), temporal_shift(4), departure(1)"
+      },
+      "speaker_coverage": {
+        "pass": true,
+        "detail": "All 5 personas appear as speakers: Sandra(S1-S8), Dev(S1-S8), Claire(S1-S8), Marcus(S1-S5), Yuki(S1-S8)"
+      },
+      "temporal_shift_present": {
+        "pass": true,
+        "detail": "4 temporal_shift challenges: ch_a4b5c6d7, ch_f9a0b1c2, ch_c2d3e4f5, ch_c8d9e0f1"
+      },
+      "evidence_spans_non_empty": {
+        "pass": true,
+        "detail": "All 27 challenges have non-empty evidence_span"
+      },
+      "evidence_span_verbatim": {
+        "pass": false,
+        "detail": "FAILURE: ch_a1b2c3d4 evidence_span combines text from turns 000 and 004 -- not verbatim in a single turn. FAILURE: ch_c2d3e4f5 evidence_span combines turns 007 and 008. NOTE: ch_d4e5f6a7 passes verbatim check.",
+        "failures": [
+          {
+            "challenge_id": "ch_a1b2c3d4",
+            "issue": "Evidence span 'I do think we deserve a bit more notice than that... I have already emailed the residents' association.' spans turns s01_t000 and s01_t004 -- not a single verbatim turn excerpt. Each segment is verbatim but the combined span is not.",
+            "fix": "Use only the evidence from turn t004: 'I have already emailed the residents' association.' or turn t000: 'I do think we deserve a bit more notice than that.' for the evidence anchor."
+          },
+          {
+            "challenge_id": "ch_c2d3e4f5",
+            "issue": "Evidence span 'what if we just committed to a walk every Sunday morning? Nothing long, an hour maybe... I just feel like we can't let the group get smaller in every direction at once.' spans turns s06_t007 and s06_t008.",
+            "fix": "Split into two anchors or use t008 alone: 'Honestly I just feel like we can't let the group get smaller in every direction at once.' as the key evidence."
+          }
+        ]
+      },
+      "timestamp_label_consistency": {
+        "pass": false,
+        "detail": "FAILURE: grp_f4a5b6c7_s04_t003 has timestamp_label 'Nov 2, 12:19am' but timestamp is 2025-11-02T12:19:00 (noon, should be pm). All other sampled turns pass.",
+        "failures": [
+          {
+            "turn_id": "grp_f4a5b6c7_s04_t003",
+            "timestamp_label": "Nov 2, 12:19am",
+            "timestamp": "2025-11-02T12:19:00",
+            "issue": "am/pm mismatch: 12:19 is noon (pm), label says 'am'",
+            "fix": "Change timestamp_label to 'Nov 2, 12:19pm'"
+          }
+        ]
+      },
+      "day_of_week_accuracy": {
+        "pass": true,
+        "detail": "Oct 12 2025=Sunday, Nov 2 2025=Sunday, Dec 7 2025=Sunday -- all correct"
+      },
+      "session_date_continuity": {
+        "pass": true,
+        "detail": "Dates strictly increasing: Oct 12 \u2192 Oct 19 \u2192 Oct 26 \u2192 Nov 2 \u2192 Nov 16 \u2192 Nov 23 \u2192 Nov 30 \u2192 Dec 7"
+      },
+      "message_length_ceiling": {
+        "pass": true,
+        "detail": "Longest message checked ~263 chars; no message exceeds 600 chars"
+      },
+      "topic_variation": {
+        "pass": true,
+        "detail": "acquaintance_network moderate variance: bins/parcels/wifi \u2192 parking/BBQ \u2192 BBQ logistics/personal news \u2192 post-BBQ/Airbnb \u2192 departure \u2192 post-departure/walks \u2192 noise/Christmas lights \u2192 year-end/Edinburgh"
+      },
+      "verbosity_realized": {
+        "pass": true,
+        "detail": "Sandra(Verbose): messages 200-260 chars, clearly longer than others. Dev(Terse): 3-30 word messages throughout. Marcus(Terse): consistent one-word to short phrase responses. Claire(Verbose): multiple-message bursts, longer takes. Yuki(Concise): 10-40 word typical range."
+      },
+      "no_em_dashes": {
+        "pass": true,
+        "detail": "No em dash (\u2014) characters found in any message field; double-hyphen (--) used throughout, which is acceptable"
+      }
+    }
+  }
 }

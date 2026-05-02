@@ -1,0 +1,37 @@
+{
+  "network_id": "grp_b8c9dae0",
+  "verified_at": "2026-04-29T04:12:24.082514Z",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "pass": true,
+      "failures": []
+    },
+    "stage2": {
+      "passed": true,
+      "pass": true,
+      "failures": []
+    },
+    "stage3": {
+      "passed": true,
+      "pass": true,
+      "failures": []
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "S2: session 1 has 26 turns (>25)",
+    "S2: session 3 has 26 turns (>25)",
+    "S2: session 4 has 26 turns (>25)",
+    "S2: session 5 has 26 turns (>25)",
+    "S2: session 6 has 27 turns (>25)",
+    "S2: session 7 has 28 turns (>25)",
+    "S2: session 8 has 26 turns (>25)",
+    "S2: session 9 has 28 turns (>25)",
+    "S2: session 10 has 30 turns (>25)"
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {}
+}

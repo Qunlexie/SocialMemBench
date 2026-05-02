@@ -1,0 +1,32 @@
+{
+  "network_id": "grp_c3d4e5f6",
+  "verified_at": "2026-05-02T15:41:56+00:00",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "notes": "All 10 stage-1 checks passed; distinctness via surface OR quirks tiebreaker."
+    },
+    "stage2": {
+      "passed": true,
+      "checks_passed": 18,
+      "checks_total": 18,
+      "notes": "All 18 stage-2 checks passed. 2 warning(s)."
+    },
+    "stage3": {
+      "passed": true,
+      "checks_passed": 14,
+      "checks_total": 14,
+      "notes": "All 14 stage-3 checks passed."
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "Message field does not embed [Session N, time] Name: prefix; assuming render-time concat",
+    "primary_topic absent on sessions; topic variation not strictly checked"
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0"
+}

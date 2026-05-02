@@ -24,38 +24,13 @@ tags:
   - synthetic
 configs:
   - config_name: networks
-    data_files:
-      - split: data
-        path: networks/data/*.parquet
+    data_files: networks.parquet
   - config_name: personas
-    data_files:
-      - split: data
-        path: personas/data/*.parquet
+    data_files: personas.parquet
   - config_name: conversations
-    data_files:
-      - split: data
-        path: conversations/data/*.parquet
+    data_files: conversations.parquet
   - config_name: qa
-    data_files:
-      - split: data
-        path: qa/data/*.parquet
-dataset_info:
-  - config_name: networks
-    splits:
-      - name: data
-        num_examples: {{ n_networks }}
-  - config_name: personas
-    splits:
-      - name: data
-        num_examples: {{ n_personas }}
-  - config_name: conversations
-    splits:
-      - name: data
-        num_examples: {{ n_turns }}
-  - config_name: qa
-    splits:
-      - name: data
-        num_examples: {{ n_qa_pairs }}
+    data_files: qa.parquet
 ---
 
 # SocialMemBench
@@ -72,9 +47,9 @@ evolve across sessions.
 ```python
 from datasets import load_dataset
 
-networks = load_dataset("{{ hf_dataset_id }}", "networks", split="data")
-conversations = load_dataset("{{ hf_dataset_id }}", "conversations", split="data")
-qa = load_dataset("{{ hf_dataset_id }}", "qa", split="data")
+networks = load_dataset("{{ hf_dataset_id }}", "networks", split="train")
+conversations = load_dataset("{{ hf_dataset_id }}", "conversations", split="train")
+qa = load_dataset("{{ hf_dataset_id }}", "qa", split="train")
 
 # All three configs share `network_id` as the join key.
 print(qa[0]["question"], qa[0]["answer"])
@@ -244,6 +219,6 @@ CC BY 4.0. You are free to use, share, and adapt with attribution.
 
 ## Acknowledgements
 
-Generated with Claude (Anthropic) via the SocialMemBench pipeline. See the
-GitHub repository for generation skills, schemas, and evaluation code:
-{{ github_url | default("https://anonymous.4open.science/r/SocialMemBench") }}.
+Generated with Claude (Anthropic) via the SocialMemBench pipeline. The
+generation skills, schemas, and evaluation code will be released alongside
+the paper after acceptance.

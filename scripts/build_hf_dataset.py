@@ -10,11 +10,16 @@ This script merges the three on-disk SocialMemBench data sources
 into the layout HuggingFace expects for a multi-config dataset:
 
     hf_dataset/
-        README.md                            # rendered from the Jinja template
-        networks/train/networks.parquet      # one row per ego network (no personas)
-        personas/train/personas.parquet      # one row per persona, indexed by network_id
-        conversations/train/conversations.parquet  # one row per conversation turn
-        qa/train/qa.parquet                  # one row per QA pair
+        README.md                # rendered from the Jinja template
+        networks.parquet         # one row per ego network (no personas)
+        personas.parquet         # one row per persona, indexed by network_id
+        conversations.parquet    # one row per conversation turn
+        qa.parquet               # one row per QA pair
+
+Flat top-level layout: each config maps to a single parquet file, no
+per-config subdirectory and no explicit split. HuggingFace auto-detects a
+default split, which keeps the dataset viewer clean (no spurious "data" /
+"train" selectors when there is no meaningful split).
 
 Four configs are exposed (`networks`, `personas`, `conversations`, `qa`),
 mirroring how EverMemBench-Dynamic is laid out on the Hub (configs `dialogues`,
@@ -74,7 +79,6 @@ CONFIG_NETWORKS = "networks"
 CONFIG_PERSONAS = "personas"
 CONFIG_CONVERSATIONS = "conversations"
 CONFIG_QA = "qa"
-SPLIT = "data"  # neutral split name; benchmark has no train/test concept
 
 # Fields stripped from the public release.
 STRIP_FROM_TURNS = ("planted_challenges",)
@@ -316,7 +320,6 @@ class BuildPlan:
             "=" * 72,
             f"  output dir         : {self.out_dir}",
             f"  configs            : {CONFIG_NETWORKS}, {CONFIG_PERSONAS}, {CONFIG_CONVERSATIONS}, {CONFIG_QA}",
-            f"  split              : {SPLIT}",
             f"  networks (rows)    : {self.n_networks}",
             f"  personas (rows)    : {self.n_personas}",
             f"  conversations files: {self.n_conversations_files}",
@@ -447,10 +450,10 @@ def main(argv: list[str] | None = None) -> int:
     print(plan.report())
 
     out_paths = {
-        CONFIG_NETWORKS: args.out_dir / CONFIG_NETWORKS / SPLIT / f"{CONFIG_NETWORKS}.parquet",
-        CONFIG_PERSONAS: args.out_dir / CONFIG_PERSONAS / SPLIT / f"{CONFIG_PERSONAS}.parquet",
-        CONFIG_CONVERSATIONS: args.out_dir / CONFIG_CONVERSATIONS / SPLIT / f"{CONFIG_CONVERSATIONS}.parquet",
-        CONFIG_QA: args.out_dir / CONFIG_QA / SPLIT / f"{CONFIG_QA}.parquet",
+        CONFIG_NETWORKS: args.out_dir / f"{CONFIG_NETWORKS}.parquet",
+        CONFIG_PERSONAS: args.out_dir / f"{CONFIG_PERSONAS}.parquet",
+        CONFIG_CONVERSATIONS: args.out_dir / f"{CONFIG_CONVERSATIONS}.parquet",
+        CONFIG_QA: args.out_dir / f"{CONFIG_QA}.parquet",
     }
 
     print("\nFiles that would be written:")

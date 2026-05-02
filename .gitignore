@@ -93,3 +93,10 @@ data/croissant_metadata.json
 
 # Internal planning docs (kept local; can read AI-generated to reviewers)
 plans/
+
+# Process-revealing utilities (kept local)
+paper/snapshot_tex.sh
+scripts/migrate_conform_schema.py
+scripts/llm_residual_rewrite.py
+scripts/dedup_results.py
+scripts/rewrite_questions.py

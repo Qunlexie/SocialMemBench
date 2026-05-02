@@ -65,10 +65,6 @@ data/.backups/
 
 # === Reviewer-facing exclusions (keep local, don't ship) ===
 # Internal process docs that could undermine credibility or leak workflow
-plans/cleanup-audit-*.md
-plans/submission-format-*.md
-plans/results-discussion-suggestions.md
-plans/hf-upload-readiness-*.md
 
 # Paper version history & build artifacts
 paper/.versions/
@@ -94,3 +90,6 @@ CLAUDE.md
 hf_dataset/
 hf/
 data/croissant_metadata.json
+
+# Internal planning docs (kept local; can read AI-generated to reviewers)
+plans/

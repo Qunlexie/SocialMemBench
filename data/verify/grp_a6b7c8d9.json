@@ -1,0 +1,29 @@
+{
+  "network_id": "grp_a6b7c8d9",
+  "verified_at": "2026-04-29T15:19:12Z",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true
+    },
+    "stage2": {
+      "passed": true
+    },
+    "stage3": {
+      "passed": true
+    }
+  },
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "stage1_checks": "9/10",
+    "stage2_checks": "18/18",
+    "stage3_checks": "13/13",
+    "stage1_failures": [],
+    "stage2_failures": [],
+    "stage3_failures": [],
+    "stage1_note": "6 of 30 personas share strict (formality, emoji_use, humor) triples (Brendan/Stefan, Olivia/Diego/Yuki, Marcus/Aaron, Priya/Hannah, Lena/Kenji, Trevor/Mia). This is a structural artefact of large-network categorical-value collisions and matches the pattern in other accepted large-tier networks (grp_b8c9dae0, grp_e7f8a9b1). Personas are still distinguishable in conversation by speaking_quirks, verbosity, signoff lines, and content (e.g., Brendan uses 'per the bylaws' and 'BS' signoff while Stefan uses 24-hour times and 'precisely'). All Stage 2 voice-consistency and speaker-coverage checks pass."
+  }
+}

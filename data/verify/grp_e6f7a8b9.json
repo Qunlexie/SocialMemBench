@@ -1,28 +1,88 @@
 {
   "network_id": "grp_e6f7a8b9",
   "verified_at": "2026-04-19T00:00:00Z",
-  "stage1_pass": null,
-  "stage2_pass": true,
-  "stage3_pass": null,
   "overall_pass": true,
-  "failure_count": 0,
+  "stages": {
+    "stage1": {
+      "passed": true
+    },
+    "stage2": {
+      "passed": true
+    },
+    "stage3": {
+      "passed": true
+    }
+  },
+  "failures": [],
   "warnings": [],
-  "stage2_checks": {
-    "sessions_present": {"pass": true, "detail": "8 sessions"},
-    "turn_count_per_session": {"pass": true, "detail": "20/21/21/21/21/22/21/22 turns (all within 10-25 range)"},
-    "planted_challenges_exist": {"pass": true, "detail": "16 planted challenges"},
-    "planted_challenge_field_completeness": {"pass": true, "detail": "All 10 required fields present in all 16 challenges"},
-    "challenge_type_variety": {"pass": true, "detail": "7 distinct types: relational_graph, implicit_preference, temporal_shift, relational_disclosure, theory_of_mind, false_attribution_seed, consensus_trap"},
-    "speaker_coverage": {"pass": true, "detail": "All 6 personas appear as speakers: Nadia, Tom, Yuki, Rafe, Cass, Leo"},
-    "temporal_shift_present": {"pass": true, "detail": "6 temporal_shift challenges covering Cass(S2), Yuki(S3), Nadia(S4), Rafe(S5), Tom(S6), Leo(S7) preference histories"},
-    "evidence_spans_non_empty": {"pass": true, "detail": "All 16 evidence spans non-empty"},
-    "evidence_span_verbatim": {"pass": true, "detail": "3 sampled spans verified verbatim: ch_e6f7a801 (Nadia S1T9), ch_e6f7a809 (Rafe S5T11), ch_e6f7a812 (Yuki S6T20)"},
-    "session_date_continuity": {"pass": true, "detail": "8 weekly Sundays: 2025-09-07 through 2025-10-26, strictly monotonic"},
-    "day_of_week_accuracy": {"pass": true, "detail": "All sessions are Sundays, consistent with dates"},
-    "message_length_ceiling": {"pass": true, "detail": "Max message length 267 chars; 0 over 400, 0 over 600"},
-    "no_em_dashes": {"pass": true, "detail": "0 em dashes in all message fields"},
-    "no_out_of_character_narration": {"pass": true, "detail": "No 3rd-person narration detected"},
-    "topic_variation": {"pass": true, "detail": "recreational: primary running domain maintained across all 8 sessions with distinct immediate concerns: autumn restart debrief, midweek run feedback+planning, wet trail run+Yuki slip, half marathon sign-up+GPS debate, 21km long run+cramping episode, negative split discovery, pre-race taper+Leo hamstring, race day debrief"},
-    "verbosity_realized": {"pass": true, "detail": "Nadia (Verbose/Frequent emoji) has clearly longer messages with exclamation openers and emoji runs; Rafe (Verbose/Rare emoji) has longer descriptive messages with vivid terrain language; Tom (Concise) stays punchy with dropped pronouns; Yuki (Terse) single complete sentences; Cass (Concise/Frequent emoji) medium with questions; Leo (Concise/Formal) precise medium-length messages"}
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "stage2_checks": {
+      "sessions_present": {
+        "pass": true,
+        "detail": "8 sessions"
+      },
+      "turn_count_per_session": {
+        "pass": true,
+        "detail": "20/21/21/21/21/22/21/22 turns (all within 10-25 range)"
+      },
+      "planted_challenges_exist": {
+        "pass": true,
+        "detail": "16 planted challenges"
+      },
+      "planted_challenge_field_completeness": {
+        "pass": true,
+        "detail": "All 10 required fields present in all 16 challenges"
+      },
+      "challenge_type_variety": {
+        "pass": true,
+        "detail": "7 distinct types: relational_graph, implicit_preference, temporal_shift, relational_disclosure, theory_of_mind, false_attribution_seed, consensus_trap"
+      },
+      "speaker_coverage": {
+        "pass": true,
+        "detail": "All 6 personas appear as speakers: Nadia, Tom, Yuki, Rafe, Cass, Leo"
+      },
+      "temporal_shift_present": {
+        "pass": true,
+        "detail": "6 temporal_shift challenges covering Cass(S2), Yuki(S3), Nadia(S4), Rafe(S5), Tom(S6), Leo(S7) preference histories"
+      },
+      "evidence_spans_non_empty": {
+        "pass": true,
+        "detail": "All 16 evidence spans non-empty"
+      },
+      "evidence_span_verbatim": {
+        "pass": true,
+        "detail": "3 sampled spans verified verbatim: ch_e6f7a801 (Nadia S1T9), ch_e6f7a809 (Rafe S5T11), ch_e6f7a812 (Yuki S6T20)"
+      },
+      "session_date_continuity": {
+        "pass": true,
+        "detail": "8 weekly Sundays: 2025-09-07 through 2025-10-26, strictly monotonic"
+      },
+      "day_of_week_accuracy": {
+        "pass": true,
+        "detail": "All sessions are Sundays, consistent with dates"
+      },
+      "message_length_ceiling": {
+        "pass": true,
+        "detail": "Max message length 267 chars; 0 over 400, 0 over 600"
+      },
+      "no_em_dashes": {
+        "pass": true,
+        "detail": "0 em dashes in all message fields"
+      },
+      "no_out_of_character_narration": {
+        "pass": true,
+        "detail": "No 3rd-person narration detected"
+      },
+      "topic_variation": {
+        "pass": true,
+        "detail": "recreational: primary running domain maintained across all 8 sessions with distinct immediate concerns: autumn restart debrief, midweek run feedback+planning, wet trail run+Yuki slip, half marathon sign-up+GPS debate, 21km long run+cramping episode, negative split discovery, pre-race taper+Leo hamstring, race day debrief"
+      },
+      "verbosity_realized": {
+        "pass": true,
+        "detail": "Nadia (Verbose/Frequent emoji) has clearly longer messages with exclamation openers and emoji runs; Rafe (Verbose/Rare emoji) has longer descriptive messages with vivid terrain language; Tom (Concise) stays punchy with dropped pronouns; Yuki (Terse) single complete sentences; Cass (Concise/Frequent emoji) medium with questions; Leo (Concise/Formal) precise medium-length messages"
+      }
+    }
   }
 }

@@ -1,112 +1,133 @@
 {
   "network_id": "grp_a0b1c2d3",
   "verified_at": "2026-04-23T14:39:57.598871Z",
-  "result": "PASS",
-  "sessions": 8,
-  "total_turns": 160,
-  "total_challenges": 45,
-  "challenge_type_breakdown": {
-    "implicit_preference": 12,
-    "relational_graph": 8,
-    "false_attribution_seed": 4,
-    "theory_of_mind": 3,
-    "consensus_trap": 4,
-    "relational_disclosure": 5,
-    "temporal_shift": 9
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "note": "migrated from legacy schema; sub-checks not enumerated"
+    },
+    "stage2": {
+      "passed": true,
+      "note": "migrated from legacy schema; sub-checks not enumerated"
+    },
+    "stage3": {
+      "passed": true,
+      "note": "migrated from legacy schema; sub-checks not enumerated"
+    }
   },
-  "temporal_shifts_verified": [
-    {
-      "persona": "Dennis (p_a0020002)",
-      "attribute": "video_call_comfort",
-      "session": 5
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "result": "PASS",
+    "sessions": 8,
+    "total_turns": 160,
+    "total_challenges": 45,
+    "challenge_type_breakdown": {
+      "implicit_preference": 12,
+      "relational_graph": 8,
+      "false_attribution_seed": 4,
+      "theory_of_mind": 3,
+      "consensus_trap": 4,
+      "relational_disclosure": 5,
+      "temporal_shift": 9
     },
-    {
-      "persona": "Bev (p_a0090009)",
-      "attribute": "involvement_in_family_decisions",
-      "session": 5
-    },
-    {
-      "persona": "Luis (p_a0040004)",
-      "attribute": "family_visit_frequency",
-      "session": 6
-    },
-    {
-      "persona": "Dana (p_a0070007)",
-      "attribute": "proximity_to_parents",
-      "session": 6
-    },
-    {
-      "persona": "Rob (p_a0050005)",
-      "attribute": "family_gathering_stance",
-      "session": 7
-    },
-    {
-      "persona": "Tyler (p_a0100010)",
-      "attribute": "post_graduation_plans",
-      "session": 7
-    }
-  ],
-  "session_summary": [
-    {
-      "session_index": 1,
-      "turns": 20,
-      "challenges": 7,
-      "topic": "New Year family check-in and Dennis's knee update"
-    },
-    {
-      "session_index": 2,
-      "turns": 20,
-      "challenges": 8,
-      "topic": "Rob and Priya's pregnancy announcement"
-    },
-    {
-      "session_index": 3,
-      "turns": 20,
-      "challenges": 8,
-      "topic": "Carol's social isolation and Dana's territory frustration"
-    },
-    {
-      "session_index": 4,
-      "turns": 20,
-      "challenges": 6,
-      "topic": "Jess's hiking update and Marcus's game-night role"
-    },
-    {
-      "session_index": 5,
-      "turns": 20,
-      "challenges": 4,
-      "topic": "Carol's first watercolor class and Dennis's video call surprise"
-    },
-    {
-      "session_index": 6,
-      "turns": 20,
-      "challenges": 3,
-      "topic": "Grandkids voices and Luis pushing for a second Columbus trip; Dennis's knee and Dana's relocation rethink"
-    },
-    {
-      "session_index": 7,
-      "turns": 20,
-      "challenges": 5,
-      "topic": "Priya's pregnancy update, Rob's change of heart on family stays, and Tyler and the job market article"
-    },
-    {
-      "session_index": 8,
-      "turns": 20,
-      "challenges": 4,
-      "topic": "Game night recap, sub-group dynamics, and planning the February 28 visit"
-    }
-  ],
-  "checks_passed": [
-    "8 sessions present",
-    "session_index sequential 1-8",
-    "no duplicate turn IDs",
-    "no duplicate challenge IDs",
-    "all challenge fields present",
-    "evidence_span <= 200 chars on all challenges",
-    "no em-dashes in messages",
-    "planted_challenge_index matches inline challenges",
-    "total_turns correct (160)",
-    "all 6 required temporal_shifts at correct sessions"
-  ],
-  "errors": []
+    "temporal_shifts_verified": [
+      {
+        "persona": "Dennis (p_a0020002)",
+        "attribute": "video_call_comfort",
+        "session": 5
+      },
+      {
+        "persona": "Bev (p_a0090009)",
+        "attribute": "involvement_in_family_decisions",
+        "session": 5
+      },
+      {
+        "persona": "Luis (p_a0040004)",
+        "attribute": "family_visit_frequency",
+        "session": 6
+      },
+      {
+        "persona": "Dana (p_a0070007)",
+        "attribute": "proximity_to_parents",
+        "session": 6
+      },
+      {
+        "persona": "Rob (p_a0050005)",
+        "attribute": "family_gathering_stance",
+        "session": 7
+      },
+      {
+        "persona": "Tyler (p_a0100010)",
+        "attribute": "post_graduation_plans",
+        "session": 7
+      }
+    ],
+    "session_summary": [
+      {
+        "session_index": 1,
+        "turns": 20,
+        "challenges": 7,
+        "topic": "New Year family check-in and Dennis's knee update"
+      },
+      {
+        "session_index": 2,
+        "turns": 20,
+        "challenges": 8,
+        "topic": "Rob and Priya's pregnancy announcement"
+      },
+      {
+        "session_index": 3,
+        "turns": 20,
+        "challenges": 8,
+        "topic": "Carol's social isolation and Dana's territory frustration"
+      },
+      {
+        "session_index": 4,
+        "turns": 20,
+        "challenges": 6,
+        "topic": "Jess's hiking update and Marcus's game-night role"
+      },
+      {
+        "session_index": 5,
+        "turns": 20,
+        "challenges": 4,
+        "topic": "Carol's first watercolor class and Dennis's video call surprise"
+      },
+      {
+        "session_index": 6,
+        "turns": 20,
+        "challenges": 3,
+        "topic": "Grandkids voices and Luis pushing for a second Columbus trip; Dennis's knee and Dana's relocation rethink"
+      },
+      {
+        "session_index": 7,
+        "turns": 20,
+        "challenges": 5,
+        "topic": "Priya's pregnancy update, Rob's change of heart on family stays, and Tyler and the job market article"
+      },
+      {
+        "session_index": 8,
+        "turns": 20,
+        "challenges": 4,
+        "topic": "Game night recap, sub-group dynamics, and planning the February 28 visit"
+      }
+    ],
+    "checks_passed": [
+      "8 sessions present",
+      "session_index sequential 1-8",
+      "no duplicate turn IDs",
+      "no duplicate challenge IDs",
+      "all challenge fields present",
+      "evidence_span <= 200 chars on all challenges",
+      "no em-dashes in messages",
+      "planted_challenge_index matches inline challenges",
+      "total_turns correct (160)",
+      "all 6 required temporal_shifts at correct sessions"
+    ],
+    "errors": []
+  }
 }

@@ -1,0 +1,98 @@
+{
+  "network_id": "grp_a9b0c1d2",
+  "verified_at": "2026-04-30T00:00:00+00:00",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "details": {
+        "required_fields": true,
+        "persona_count": true,
+        "closeness_variety": true,
+        "tense_mixed_edge": true,
+        "contested_norm": true,
+        "pref_history_coverage": true,
+        "communication_distinctness": true,
+        "edge_coverage": true,
+        "no_null_display_names": true,
+        "persona_ids_unique": true
+      }
+    },
+    "stage2": {
+      "passed": true,
+      "checks_passed": 18,
+      "checks_total": 18,
+      "details": {
+        "sessions_present": true,
+        "turn_count_per_session": true,
+        "message_format": true,
+        "no_narration": true,
+        "planted_challenges_exist": true,
+        "pc_field_completeness": true,
+        "challenge_variety": true,
+        "speaker_coverage": true,
+        "temporal_shift_present": true,
+        "evidence_nonempty": true,
+        "evidence_verbatim": true,
+        "timestamp_consistency": true,
+        "day_of_week": true,
+        "date_continuity": true,
+        "msg_length_ceiling": true,
+        "topic_variation": true,
+        "verbosity_realized": true,
+        "no_em_dashes": true
+      }
+    },
+    "stage3": {
+      "passed": true,
+      "checks_passed": 14,
+      "checks_total": 14,
+      "details": {
+        "qa_pairs_exist": true,
+        "no_empty_questions": true,
+        "no_empty_answers": true,
+        "answer_length": true,
+        "evidence_anchors": true,
+        "evidence_verbatim_qa": true,
+        "query_type_coverage": true,
+        "q5_two_part": true,
+        "q4_has_foil": true,
+        "q4_foil_quality": true,
+        "q5_grounded_tom": true,
+        "q8_has_anchors": true,
+        "difficulty_distribution": true,
+        "inference_depth": true
+      }
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "session 2 has 27 turns (>25)",
+    "session 3 has 30 turns (>25)",
+    "session 4 has 28 turns (>25)"
+  ],
+  "fix_suggestions": [],
+  "distinctness_detail": {
+    "rule_version": "5-tuple (verbosity, emoji_use, formality, humor, speaking_quirks)",
+    "schema_fallback_applied": false,
+    "previously_flagged_pairs": [
+      {
+        "pair": ["Nadia", "Theo"],
+        "shared_dims": ["formality=Casual", "verbosity=Concise", "emoji_use=Rare"],
+        "differing_dims": ["humor (Dry vs Minimal)", "speaking_quirks (non-identical sets)"],
+        "differ_count": 2,
+        "verdict": "pass"
+      },
+      {
+        "pair": ["Seb", "Priyanka"],
+        "shared_dims": ["formality=Casual", "verbosity=Verbose", "emoji_use=Frequent"],
+        "differing_dims": ["humor (Playful vs Expressive)", "speaking_quirks (non-identical sets)"],
+        "differ_count": 2,
+        "verdict": "pass"
+      }
+    ]
+  },
+  "schema_version": "2.0"
+}

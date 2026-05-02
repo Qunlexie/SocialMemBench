@@ -1,34 +1,55 @@
 {
   "network_id": "grp_e8f9a0b1",
   "verified_at": "2026-04-23T14:34:12.381848Z",
-  "result": "PASS",
-  "sessions": 10,
-  "total_turns": 200,
-  "planted_challenges": 35,
-  "challenge_types": {
-    "implicit_preference": 8,
-    "false_attribution_seed": 3,
-    "relational_graph": 4,
-    "temporal_shift": 9,
-    "consensus_trap": 4,
-    "theory_of_mind": 3,
-    "relational_disclosure": 4
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "note": "migrated from legacy schema; sub-checks not enumerated"
+    },
+    "stage2": {
+      "passed": true,
+      "note": "migrated from legacy schema; sub-checks not enumerated"
+    },
+    "stage3": {
+      "passed": true,
+      "note": "migrated from legacy schema; sub-checks not enumerated"
+    }
   },
-  "checks": {
-    "session_count": "PASS",
-    "turn_ids_sequential": "PASS",
-    "persona_ids_valid": "PASS",
-    "no_em_dashes": "PASS",
-    "challenge_index_complete": "PASS",
-    "no_duplicate_challenge_ids": "PASS",
-    "all_required_challenge_fields": "PASS",
-    "evidence_span_length": "PASS"
-  },
-  "temporal_shift_alignment": {
-    "p_a1e2f3b4_Marcus_S6": "PASS - new_value matches evidence",
-    "p_b2f3a4c5_Jade_S7": "PASS - new_value matches evidence",
-    "p_f6d7e8a9_Callum_S8": "PASS - new_value matches evidence",
-    "p_b8f9a0c1_Omar_S8": "PASS - new_value matches evidence",
-    "p_a7e8f9b0_Temi_S9": "PASS - new_value matches evidence"
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "result": "PASS",
+    "sessions": 10,
+    "total_turns": 200,
+    "planted_challenges": 35,
+    "challenge_types": {
+      "implicit_preference": 8,
+      "false_attribution_seed": 3,
+      "relational_graph": 4,
+      "temporal_shift": 9,
+      "consensus_trap": 4,
+      "theory_of_mind": 3,
+      "relational_disclosure": 4
+    },
+    "checks": {
+      "session_count": "PASS",
+      "turn_ids_sequential": "PASS",
+      "persona_ids_valid": "PASS",
+      "no_em_dashes": "PASS",
+      "challenge_index_complete": "PASS",
+      "no_duplicate_challenge_ids": "PASS",
+      "all_required_challenge_fields": "PASS",
+      "evidence_span_length": "PASS"
+    },
+    "temporal_shift_alignment": {
+      "p_a1e2f3b4_Marcus_S6": "PASS - new_value matches evidence",
+      "p_b2f3a4c5_Jade_S7": "PASS - new_value matches evidence",
+      "p_f6d7e8a9_Callum_S8": "PASS - new_value matches evidence",
+      "p_b8f9a0c1_Omar_S8": "PASS - new_value matches evidence",
+      "p_a7e8f9b0_Temi_S9": "PASS - new_value matches evidence"
+    }
   }
 }

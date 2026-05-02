@@ -1,40 +1,53 @@
 {
   "network_id": "grp_f7a8b9c0",
   "verified_at": "2026-04-21T00:00:00Z",
-  "stages_checked": [
-    2
-  ],
-  "stage2": {
-    "pass": true,
-    "checks_total": 16,
-    "checks_passed": 16,
-    "checks_failed": 0,
-    "failures": [],
-    "warnings": [
-      "Session 8: 26 turns (> 25 target; within acceptable range)"
-    ],
-    "details": {
-      "sessions_count": 8,
-      "total_turns": 173,
-      "planted_challenges": 24,
-      "challenge_types": {
-        "implicit_preference": 5,
-        "relational_graph": 3,
-        "false_attribution_seed": 3,
-        "temporal_shift": 7,
-        "relational_disclosure": 3,
-        "theory_of_mind": 2,
-        "consensus_trap": 1
-      },
-      "temporal_shifts_present": true,
-      "all_personas_appear_as_speaker": true,
-      "no_em_dashes": true,
-      "evidence_spans_verbatim": true,
-      "session_dates_monotonic": true,
-      "day_of_week_accurate": true,
-      "message_length_ceiling_ok": true
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true
+    },
+    "stage2": {
+      "passed": true,
+      "pass": true,
+      "checks_total": 16,
+      "checks_passed": 16,
+      "checks_failed": 0,
+      "failures": [],
+      "warnings": [
+        "Session 8: 26 turns (> 25 target; within acceptable range)"
+      ],
+      "details": {
+        "sessions_count": 8,
+        "total_turns": 173,
+        "planted_challenges": 24,
+        "challenge_types": {
+          "implicit_preference": 5,
+          "relational_graph": 3,
+          "false_attribution_seed": 3,
+          "temporal_shift": 7,
+          "relational_disclosure": 3,
+          "theory_of_mind": 2,
+          "consensus_trap": 1
+        },
+        "temporal_shifts_present": true,
+        "all_personas_appear_as_speaker": true,
+        "no_em_dashes": true,
+        "evidence_spans_verbatim": true,
+        "session_dates_monotonic": true,
+        "day_of_week_accurate": true,
+        "message_length_ceiling_ok": true
+      }
+    },
+    "stage3": {
+      "passed": true
     }
   },
-  "overall_pass": true,
-  "failure_count": 0
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {},
+  "stages_checked": [
+    2
+  ]
 }

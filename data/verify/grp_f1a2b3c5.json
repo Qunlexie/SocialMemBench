@@ -1,0 +1,232 @@
+{
+  "network_id": "grp_f1a2b3c5",
+  "verified_at": "2026-04-29T08:52:25.611386",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "legacy_value": [
+        {
+          "check": "Required fields present",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Correct persona count",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Closeness variety",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Tense/mixed edge exists",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Contested norm exists",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Preference history coverage",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Communication distinctness (6-dim, prompt rule)",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Edge coverage",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "No null display_names",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Persona IDs unique",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Every persona has occupation",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Skills_list 2-4 items",
+          "pass": true,
+          "info": ""
+        }
+      ]
+    },
+    "stage2": {
+      "passed": true,
+      "legacy_value": [
+        {
+          "check": "Sessions present",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Turn count >=10 per session (warn >25)",
+          "pass": true,
+          "info": "counts: [29, 28, 29, 30, 30, 28, 30, 36, 30, 32]"
+        },
+        {
+          "check": "No 3rd-person narration",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Planted challenges exist",
+          "pass": true,
+          "info": "count: 35"
+        },
+        {
+          "check": "Planted challenge field completeness",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Challenge type variety (>=3)",
+          "pass": true,
+          "info": "types: 7"
+        },
+        {
+          "check": "Speaker coverage",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "temporal_shift present",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Evidence spans non-empty",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Evidence span verbatim (sample)",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Timestamp consistency (sample)",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Day-of-week accuracy",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Session date continuity",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Message length <=600 (hard fail)",
+          "pass": true,
+          "info": "over400(warn): 0"
+        },
+        {
+          "check": "No em dashes in messages",
+          "pass": true,
+          "info": ""
+        }
+      ]
+    },
+    "stage3": {
+      "passed": true,
+      "legacy_value": [
+        {
+          "check": "QA pairs exist",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "No empty questions",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "No empty answers",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Answer length >=5 words",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "All have evidence_anchors",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Evidence verbatim (sample 5)",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Query type coverage (>=4)",
+          "pass": true,
+          "info": "types: ['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8']"
+        },
+        {
+          "check": "Q5 two-part",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Q4 has foil",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Q4 foil quality",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Q8 has temporal_anchors >=2",
+          "pass": true,
+          "info": ""
+        },
+        {
+          "check": "Difficulty distribution acceptable",
+          "pass": true,
+          "info": "easy=4 medium=38 hard=12"
+        },
+        {
+          "check": "Inference depth \u2014 <=20% trivially answerable",
+          "pass": true,
+          "info": "ir distribution: {1: 42, 2: 12}"
+        },
+        {
+          "check": "Question phrasing rule (no Session N)",
+          "pass": true,
+          "info": ""
+        }
+      ]
+    }
+  },
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {}
+}

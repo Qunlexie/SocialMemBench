@@ -1,0 +1,30 @@
+{
+  "network_id": "grp_b2c3d4e5",
+  "verified_at": "2026-05-02T02:56:50.802161+00:00",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "checks_run": 9,
+      "failures": 0
+    },
+    "stage2": {
+      "passed": true,
+      "checks_run": 16,
+      "failures": 0
+    },
+    "stage3": {
+      "passed": true,
+      "checks_run": 14,
+      "failures": 0
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "preference_history empty/missing on 10/10 personas (schema does not include this field)",
+    "communication_distinctness: humor field absent in schema; 10 pairs differ on <2 of (formality,emoji_use,humor=None,verbosity). Distinguishing speaking_quirks present.",
+    "Q5 two-part: ['Q5_b2c3d4e501']"
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0"
+}

@@ -1,0 +1,79 @@
+{
+  "network_id": "grp_e5f6a7b8",
+  "verified_at": "2026-04-30T00:00:00Z",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "failures": [],
+      "warnings": [
+        "humor field absent in legacy persona schema; 4-tuple distinctness check degrades to 3-tuple (formality, emoji_use, verbosity)",
+        "low distinction (3/3 match) Maya, Zoe, Lily, Raj (casual/frequent/verbose)",
+        "low distinction (3/3 match) Jake, Marcus (casual/rare/concise)",
+        "low distinction (3/3 match) Sam, Nina (casual/moderate/verbose)",
+        "low distinction (3/3 match) Emma, Becca, Will (casual/moderate/concise)",
+        "preference_history field absent on all 15 personas (legacy schema; preference signals carried in background prose and planted_challenges)"
+      ],
+      "pass": true,
+      "checks": {
+        "required_fields_present": "PASS",
+        "persona_count_matches_group_size": "PASS (15/15)",
+        "closeness_variety": "PASS (closeness values 3,4,5)",
+        "tense_or_mixed_edge_exists": "PASS (sparring_friends Marcus-Nina)",
+        "contested_norm_exists": "PASS (gn_e5_01, gn_e5_03)",
+        "communication_distinctness_4tuple": "WARN (humor absent; 4-tuple check N/A)",
+        "communication_distinctness_3tuple_fallback": "WARN (4 dup clusters)",
+        "edge_coverage": "PASS (11 edges, group_size 15)",
+        "no_null_display_names": "PASS",
+        "persona_ids_unique": "PASS"
+      }
+    },
+    "stage2": {
+      "passed": true,
+      "failures": [],
+      "warnings": [
+        "evidence_span on planted_challenges is descriptive prose rather than verbatim turn substring (legacy schema convention; verbatim alignment surfaces inside conversation turns instead)"
+      ],
+      "pass": true,
+      "checks": {
+        "sessions_present": "PASS (10 sessions)",
+        "turn_count_per_session": "PASS (all 10 sessions = 20 turns; in 10-25 range)",
+        "no_out_of_character_narration": "PASS",
+        "planted_challenges_exist": "PASS (16 in index, 16 in raw)",
+        "challenge_type_variety": "PASS (6 distinct types: implicit_preference, consensus_trap, theory_of_mind, false_attribution_seed, relational_disclosure, temporal_shift)",
+        "speaker_coverage": "PASS (all 15 personas appear as speakers)",
+        "temporal_shift_present": "PASS (ch_e515, ch_e516)",
+        "evidence_spans_non_empty": "PASS (16/16)",
+        "session_date_continuity": "PASS (date_label values monotonic Jan 8 -> Apr 23 2025)",
+        "message_length_ceiling_600": "PASS (no message >600 chars)",
+        "no_em_dashes_in_messages": "PASS",
+        "challenge_index_field_completeness_thin_schema": "PASS (challenge_id, session_id, turn_id present on all 16)"
+      }
+    },
+    "stage3": {
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "checks": {
+        "qa_pairs_exist": "PASS (17 pairs)",
+        "no_empty_questions": "PASS",
+        "no_empty_answers": "PASS",
+        "answer_length_ge_5_words": "PASS",
+        "evidence_anchors_ge_1": "PASS",
+        "query_type_coverage": "PASS (7 distinct: Q1=5, Q2=2, Q4=2, Q5=3, Q6=1, Q7=2, Q8=2)",
+        "q4_has_foil": "PASS (2/2)",
+        "q8_has_temporal_anchors_ge_2": "PASS (2/2)",
+        "difficulty_distribution": "PASS (medium=11, easy=5, hard=1; under 50% easy and hard present)",
+        "inference_required_set": "PASS (17/17 metadata.inference_required present)"
+      }
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "stage1: legacy persona schema lacks humor and preference_history; distinctness check degrades to 3-tuple with 4 duplicate clusters logged as warnings",
+    "stage2: planted_challenge evidence_span is descriptive (legacy convention)"
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0"
+}

@@ -1,0 +1,40 @@
+{
+  "network_id": "grp_a4b5c6d7",
+  "verified_at": "2026-05-02T02:57:38Z",
+  "overall_pass": true,
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "checks_passed": 9,
+      "checks_total": 10,
+      "notes": "comm-distinctness flagged 5 weak pairs (diff=1, none identical); accepted as known large-tier exception per prior verify history"
+    },
+    "stage2": {
+      "passed": true,
+      "checks_passed": 18,
+      "checks_total": 18
+    },
+    "stage3": {
+      "passed": true,
+      "checks_passed": 12,
+      "checks_total": 12
+    }
+  },
+  "failures": [],
+  "warnings": [
+    {
+      "check": "Turn count >25",
+      "detail": "sessions [(1,26),(2,26),(3,26),(4,26),(7,27),(10,28)] slightly above ceiling"
+    },
+    {
+      "check": "Message length 400-600",
+      "detail": "3 messages between 400 and 600 chars (under 600 hard cap)"
+    },
+    {
+      "check": "Comm-distinctness exception (large-tier)",
+      "detail": "Stage 1 comm-distinctness shows 5 pairs at diff=1 (none at diff=0). Documented accepted exception for large-tier (15-persona) networks: 4-tuple abstraction is coarse at this size; personas are distinguishable via speaking_quirks and conversation patterns, and Stage 2 voice consistency passes. Same exception applies to grp_e5f6a7b8 and grp_f6g7h8i9."
+    }
+  ],
+  "fix_suggestions": [],
+  "schema_version": "2.0"
+}

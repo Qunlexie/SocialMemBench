@@ -2,59 +2,70 @@
   "network_id": "grp_a5b6c7d8",
   "verified_at": "2026-04-26T15:15:52.288332+00:00",
   "overall_pass": true,
-  "stage1": {
-    "pass": true,
-    "checks_passed": 11,
-    "checks_total": 11,
-    "failures": [],
-    "warnings": [
-      {
-        "check": "Communication pair distinctness",
-        "note": "8 persona pairs share \u22652 identical profile dims. Mathematical upper bound for the 2\u00d73\u00d74 profile space is 6 personas \u2014 this constraint cannot be satisfied for group_size=9. Treated as WARN (not FAIL) for networks with group_size > 6. Personas are still distinguishable in conversation through speaking_quirks and content."
-      }
-    ]
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "pass": true,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "failures": [],
+      "warnings": [
+        {
+          "check": "Communication pair distinctness",
+          "note": "8 persona pairs share \u22652 identical profile dims. Mathematical upper bound for the 2\u00d73\u00d74 profile space is 6 personas \u2014 this constraint cannot be satisfied for group_size=9. Treated as WARN (not FAIL) for networks with group_size > 6. Personas are still distinguishable in conversation through speaking_quirks and content."
+        }
+      ]
+    },
+    "stage2": {
+      "passed": true,
+      "pass": true,
+      "checks_passed": 18,
+      "checks_total": 18,
+      "failures": [],
+      "warnings": [
+        {
+          "check": "Message length ceiling",
+          "note": "1 message at 469 chars (grp_a5b6c7d8_s12_t009) \u2014 warning only, under 600 char hard limit"
+        }
+      ],
+      "fixes_applied": [
+        "ch_a1b3c4d5: corrected session_index 7\u21926, turn_index 20\u219221, updated evidence_span to include \ud83d\ude4c emoji"
+      ]
+    },
+    "stage3": {
+      "passed": true,
+      "pass": true,
+      "checks_passed": 14,
+      "checks_total": 14,
+      "failures": [],
+      "notes": [
+        {
+          "check": "Q5 two-part",
+          "note": "All 3 Q5 questions correctly contain both preference and ToM components; keyword-based check was too strict"
+        },
+        {
+          "check": "Difficulty distribution",
+          "note": "medium=29, hard=5 \u2014 no easy pairs (good distribution)"
+        },
+        {
+          "check": "Inference depth",
+          "note": "inference_required=0: 0% (excellent)"
+        }
+      ],
+      "fixes_applied": [
+        "6 QA evidence anchor excerpts updated to be verbatim substrings of actual messages (emoji omissions corrected): Q1_b6c7d8e9, Q6_a5b6c7d8, Q8_a5b6c7d8, Q8_f5a6b7c8 (\u00d72), Q8_a6b7c8d9"
+      ]
+    }
   },
-  "stage2": {
-    "pass": true,
-    "checks_passed": 18,
-    "checks_total": 18,
-    "failures": [],
-    "warnings": [
-      {
-        "check": "Message length ceiling",
-        "note": "1 message at 469 chars (grp_a5b6c7d8_s12_t009) \u2014 warning only, under 600 char hard limit"
-      }
-    ],
-    "fixes_applied": [
-      "ch_a1b3c4d5: corrected session_index 7\u21926, turn_index 20\u219221, updated evidence_span to include \ud83d\ude4c emoji"
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {
+    "all_fixes_applied": [
+      "data/conversations/grp_a5b6c7d8.json: removed generation artifact prefix from grp_a5b6c7d8_s02_t019 message",
+      "data/conversations/grp_a5b6c7d8.json: fixed ch_a1b3c4d5 planted challenge (session_index 7\u21926, turn_index 20\u219221, span updated with emoji)",
+      "data/qa/grp_a5b6c7d8.jsonl: 6 evidence anchor excerpts corrected to verbatim substrings"
     ]
-  },
-  "stage3": {
-    "pass": true,
-    "checks_passed": 14,
-    "checks_total": 14,
-    "failures": [],
-    "notes": [
-      {
-        "check": "Q5 two-part",
-        "note": "All 3 Q5 questions correctly contain both preference and ToM components; keyword-based check was too strict"
-      },
-      {
-        "check": "Difficulty distribution",
-        "note": "medium=29, hard=5 \u2014 no easy pairs (good distribution)"
-      },
-      {
-        "check": "Inference depth",
-        "note": "inference_required=0: 0% (excellent)"
-      }
-    ],
-    "fixes_applied": [
-      "6 QA evidence anchor excerpts updated to be verbatim substrings of actual messages (emoji omissions corrected): Q1_b6c7d8e9, Q6_a5b6c7d8, Q8_a5b6c7d8, Q8_f5a6b7c8 (\u00d72), Q8_a6b7c8d9"
-    ]
-  },
-  "all_fixes_applied": [
-    "data/conversations/grp_a5b6c7d8.json: removed generation artifact prefix from grp_a5b6c7d8_s02_t019 message",
-    "data/conversations/grp_a5b6c7d8.json: fixed ch_a1b3c4d5 planted challenge (session_index 7\u21926, turn_index 20\u219221, span updated with emoji)",
-    "data/qa/grp_a5b6c7d8.jsonl: 6 evidence anchor excerpts corrected to verbatim substrings"
-  ]
+  }
 }

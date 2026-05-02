@@ -2,24 +2,34 @@
   "network_id": "grp_f9a0b1c2",
   "verified_at": "2026-04-23T04:30:09.183720Z",
   "overall_pass": true,
-  "stage1": {
-    "pass": true,
-    "checks_passed": 11,
-    "checks_total": 11,
-    "failures": [],
-    "warnings": [
-      "Near-dup comm profile pairs (verbosity/emoji/formality differ on <2 dims): Marcus/Tom\u00e1s, Marcus/Lena, Tom\u00e1s/Saoirse, Tom\u00e1s/Ben, Yuki/Saoirse, Yuki/Ben, Yuki/Callum, Saoirse/Ben \u2014 pre-existing network data, not blocking"
-    ]
+  "stages": {
+    "stage1": {
+      "passed": true,
+      "pass": true,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "failures": [],
+      "warnings": [
+        "Near-dup comm profile pairs (verbosity/emoji/formality differ on <2 dims): Marcus/Tom\u00e1s, Marcus/Lena, Tom\u00e1s/Saoirse, Tom\u00e1s/Ben, Yuki/Saoirse, Yuki/Ben, Yuki/Callum, Saoirse/Ben \u2014 pre-existing network data, not blocking"
+      ]
+    },
+    "stage2": {
+      "passed": true,
+      "pass": true,
+      "checks_passed": 15,
+      "checks_total": 15,
+      "failures": [],
+      "warnings": []
+    },
+    "stage3": {
+      "passed": false,
+      "pass": null,
+      "note": "QA file not yet generated \u2014 run smb-generate-qa"
+    }
   },
-  "stage2": {
-    "pass": true,
-    "checks_passed": 15,
-    "checks_total": 15,
-    "failures": [],
-    "warnings": []
-  },
-  "stage3": {
-    "pass": null,
-    "note": "QA file not yet generated \u2014 run smb-generate-qa"
-  }
+  "failures": [],
+  "warnings": [],
+  "fix_suggestions": [],
+  "schema_version": "2.0",
+  "legacy_payload": {}
 }

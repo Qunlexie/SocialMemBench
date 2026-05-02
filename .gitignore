@@ -100,3 +100,6 @@ scripts/migrate_conform_schema.py
 scripts/llm_residual_rewrite.py
 scripts/dedup_results.py
 scripts/rewrite_questions.py
+
+# Claude Code config (skills are now in skills/ — symlinked from .claude/commands)
+.claude/

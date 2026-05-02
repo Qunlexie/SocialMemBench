@@ -48,7 +48,7 @@ The benchmark exposes architectural failures that single-stream memory designs (
 ├── paper/                       # NeurIPS 2026 paper sources
 ├── docs/                        # research notes and literature
 ├── plans/                       # working planning documents
-└── .claude/commands/            # Claude Code skills used to drive generation
+└── skills/            # Claude Code skills used to drive generation
 ```
 
 ## Query types
@@ -89,7 +89,7 @@ Reproducibility note: regenerating adapter caches (graphiti / cognee / chroma DB
 
 ## Generation pipeline
 
-Networks were generated through `.claude/commands/smb-*` Claude Code skills (no separate API key needed). The skills are:
+Networks were generated through `skills/smb-*` Claude Code skills (no separate API key needed). The skills are:
 
 ```
 smb-generate-network         Stage 1: ego network → data/raw/{id}.json

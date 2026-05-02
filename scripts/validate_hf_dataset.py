@@ -87,7 +87,7 @@ class Issue:
 def load_tables(hf_dir: Path) -> dict[str, pd.DataFrame]:
     out = {}
     for tbl in REQUIRED_TABLES:
-        path = hf_dir / tbl / "data" / f"{tbl}.parquet"
+        path = hf_dir / f"{tbl}.parquet"
         if not path.exists():
             raise FileNotFoundError(f"Missing parquet: {path}")
         out[tbl] = pd.read_parquet(path)

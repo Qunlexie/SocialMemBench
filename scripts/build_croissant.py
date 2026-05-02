@@ -45,8 +45,7 @@ DEFAULT_OUT = REPO_ROOT / "data" / "croissant_metadata.json"
 
 DATASET_NAME = "SocialMemBench"
 DATASET_VERSION = "0.1.0"
-DATASET_HF_ID = "TODO/SocialMemBench"  # set when HF repo is created
-DATASET_URL = f"https://huggingface.co/datasets/{DATASET_HF_ID}"
+DEFAULT_HF_ID = "ORG/SocialMemBench"  # override via --hf-id (e.g. user/repo on the Hub)
 DATASET_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 DATASET_LANGUAGE = "en"
 
@@ -61,13 +60,16 @@ DATASET_DESCRIPTION = (
     "memory architectures (write/index/retrieve) rather than raw LLM context."
 )
 
-DATASET_CITATION_BIBTEX = r"""@misc{socialmembench2026,
-  title  = {SocialMemBench: Evaluating AI Memory Systems in Social Group Conversations},
-  author = {Anonymous Submission},
-  year   = {2026},
-  note   = {NeurIPS 2026 Datasets and Benchmarks Track submission},
-  url    = {https://huggingface.co/datasets/TODO/SocialMemBench}
-}"""
+def _citation_bibtex(hf_id: str) -> str:
+    return (
+        "@misc{socialmembench2026,\n"
+        "  title  = {SocialMemBench: Evaluating AI Memory Systems in Social Group Conversations},\n"
+        "  author = {Anonymous Submission},\n"
+        "  year   = {2026},\n"
+        "  note   = {NeurIPS 2026 Datasets and Benchmarks Track submission},\n"
+        f"  url    = {{https://huggingface.co/datasets/{hf_id}}}\n"
+        "}"
+    )
 
 # Responsible AI strings — keep these specific. NeurIPS reviewers and the
 # Croissant validator both look for non-empty content here.
@@ -282,14 +284,15 @@ def _record_set_from_fields(
     }
 
 
-def build_handrolled_croissant() -> dict:
+def build_handrolled_croissant(hf_id: str = DEFAULT_HF_ID) -> dict:
+    dataset_url = f"https://huggingface.co/datasets/{hf_id}"
     today = date.today().isoformat()
     repo_obj = {
         "@type": "cr:FileObject",
         "@id": "repo",
         "name": "repo",
         "description": "The HuggingFace git repository hosting the parquet release.",
-        "contentUrl": f"{DATASET_URL}/tree/main",
+        "contentUrl": f"{dataset_url}/tree/main",
         "encodingFormat": "git+https",
         "sha256": "https://github.com/mlcommons/croissant/issues/80",
     }
@@ -336,9 +339,9 @@ def build_handrolled_croissant() -> dict:
         "@type": "sc:Dataset",
         "conformsTo": "http://mlcommons.org/croissant/1.1",
         "name": DATASET_NAME,
-        "alternateName": [DATASET_HF_ID],
+        "alternateName": [hf_id],
         "description": DATASET_DESCRIPTION,
-        "url": DATASET_URL,
+        "url": dataset_url,
         "version": DATASET_VERSION,
         "datePublished": today,
         "license": DATASET_LICENSE,
@@ -356,9 +359,8 @@ def build_handrolled_croissant() -> dict:
         "creator": {
             "@type": "Person",
             "name": "Anonymous Authors",
-            "url": "https://anonymous.4open.science/r/SocialMemBench",  # TODO: replace at de-anonymization
         },
-        "citeAs": DATASET_CITATION_BIBTEX,
+        "citeAs": _citation_bibtex(hf_id),
         # Responsible AI fields (NeurIPS Croissant requirement).
         "dataCollection": DATA_COLLECTION,
         "personalSensitiveInformation": PERSONAL_SENSITIVE_INFORMATION,
@@ -372,7 +374,7 @@ def build_handrolled_croissant() -> dict:
 # mlcroissant backend (preferred, validates while building).
 # --------------------------------------------------------------------------- #
 
-def build_with_mlcroissant() -> dict | None:
+def build_with_mlcroissant(hf_id: str = DEFAULT_HF_ID) -> dict | None:
     """Try to build via mlcroissant. Returns a JSON-LD dict on success,
     or None if the library is missing.
 
@@ -389,7 +391,7 @@ def build_with_mlcroissant() -> dict | None:
     # Defer to the hand-rolled JSON-LD; mlcroissant.Metadata accepts a JSON-LD
     # dict via Metadata.from_json which validates against the spec without
     # forcing us to track the rapidly-evolving Pydantic API.
-    json_ld = build_handrolled_croissant()
+    json_ld = build_handrolled_croissant(hf_id)
     try:
         meta = mlc.Metadata.from_json(json_ld)
         # `to_json` round-trips through validation; if it fails, mlcroissant
@@ -420,6 +422,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                    help="Force dry-run mode (default).")
     p.add_argument("--no-mlcroissant", action="store_true",
                    help="Skip mlcroissant validation; emit hand-rolled JSON-LD only.")
+    p.add_argument("--hf-id", default=DEFAULT_HF_ID,
+                   help=f"HuggingFace dataset id (default: {DEFAULT_HF_ID}).")
     return p.parse_args(argv)
 
 
@@ -429,15 +433,15 @@ def main(argv: list[str] | None = None) -> int:
 
     metadata: dict[str, Any]
     if args.no_mlcroissant:
-        metadata = build_handrolled_croissant()
+        metadata = build_handrolled_croissant(args.hf_id)
         backend = "hand-rolled"
     else:
-        meta = build_with_mlcroissant()
+        meta = build_with_mlcroissant(args.hf_id)
         if meta is not None:
             metadata = meta
             backend = "mlcroissant"
         else:
-            metadata = build_handrolled_croissant()
+            metadata = build_handrolled_croissant(args.hf_id)
             backend = "hand-rolled (mlcroissant not installed)"
 
     print(f"Croissant backend: {backend}")

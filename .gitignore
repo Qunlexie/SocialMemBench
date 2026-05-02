@@ -103,3 +103,6 @@ scripts/rewrite_questions.py
 
 # Claude Code config (skills are now in skills/ — symlinked from .claude/commands)
 .claude/
+
+# Paper submitted separately via OpenReview (kept local for editing)
+paper/

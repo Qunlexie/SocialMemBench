@@ -2,7 +2,7 @@
 Print all the headline numbers needed to update the paper.
 
 Reads from data/results/{condition}/{network_id}.jsonl and computes:
-- Per-condition mean^Q (question-weighted) on 27 evaluated networks
+- Per-condition mean^Q (question-weighted) on 43 evaluated networks
 - Per-condition mean^N (network-weighted) with bootstrap CIs
 - Per-category means (heatmap rows)
 - Per-tier means
@@ -39,7 +39,7 @@ NETS_DM = ["grp_c6d7e8f9", "grp_d7e8f9a0", "grp_e3f4a5b6", "grp_f4a5b6c7"]
 # Small-tier now includes the 4 DM networks (small with departures)
 NETS_SMALL = NETS_SMALL + NETS_DM
 
-NETS_ALL = NETS_SMALL + NETS_MEDIUM + NETS_LARGE  # 38 evaluated networks
+NETS_ALL = NETS_SMALL + NETS_MEDIUM + NETS_LARGE  # 43 evaluated networks
 CONDITIONS = ["llm_mini", "naive_rag", "subject_rag", "smg",
               "graphiti", "langmem", "mem0_local", "cognee"]
 GEMINI = "llm_gemini"
@@ -85,11 +85,11 @@ def bootstrap_ci(values, n_boot=10000, seed=42):
 
 def main():
     print("=" * 78)
-    print("HEADLINE NUMBERS — 27 evaluated networks + 4 DM networks")
+    print("HEADLINE NUMBERS — 43 evaluated networks")
     print("=" * 78)
 
     print("\n## Mean^Q (question-weighted) and Mean^N (network-weighted, with 95% CI)")
-    print("Networks evaluated: 27 (excluding DM-only networks)\n")
+    print("Networks evaluated: 43\n")
     print(f'{"Condition":<14} {"Mean^Q":>8} {"Mean^N":>8} {"CI_lo":>7} {"CI_hi":>7} {"±half":>6} {"n":>3}')
 
     cond_data_27 = {}
@@ -107,7 +107,7 @@ def main():
         cond_data_27[cond] = {"mean_q": mean_q, "mean_n": mean_n, "ci_lo": ci_lo, "ci_hi": ci_hi, "half": half, "n": len(per_net)}
         print(f"{cond:<14} {mean_q:>8.3f} {mean_n:>8.3f} {ci_lo:>7.3f} {ci_hi:>7.3f} {half:>6.3f} {len(per_net):>3}")
 
-    print("\n## Per-category Mean^Q (heatmap rows, 27 evaluated networks)\n")
+    print("\n## Per-category Mean^Q (heatmap rows, 43 evaluated networks)\n")
     print(f'{"Cond":<14} ' + " ".join(f"{c:>5}" for c in CATS))
     cat_data_27 = {}
     for cond in CONDITIONS:
@@ -163,8 +163,8 @@ def main():
         if not np.isnan(m):
             print(f"  Graphiti large-tier {cat}: {m:.3f} (n={n})")
 
-    # Pairwise tests on 27 networks
-    print("\n## Pairwise bootstrap p-values (one-sided A > B, 27 networks)")
+    # Pairwise tests on 43 networks
+    print("\n## Pairwise bootstrap p-values (one-sided A > B, 43 networks)")
     pairs = [
         ("subject_rag", "graphiti"),
         ("subject_rag", "langmem"),
@@ -191,6 +191,49 @@ def main():
         p = float((np.array(diffs) <= 0).mean())
         obs = float(arr_a.mean() - arr_b.mean())
         print(f"  {a:<12} > {b:<12}: obs_diff={obs:+.4f}, p={p:.4f}")
+
+    # Answerer comparison (per-category, full-context oracle)
+    # Same networks for both: those where Gemini was evaluated.
+    print("\n## Answerer model comparison (per-category, full-context oracle)")
+    gemini_rows = load_results(GEMINI, NETS_SMALL)
+    gemini_nets = sorted({nid for _, nid, _, _ in gemini_rows})
+    mini_rows = load_results("llm_mini", gemini_nets)
+    print(f"Networks where both ran: {len(gemini_nets)} ({', '.join(gemini_nets)})")
+
+    cats_no_dm = [c for c in CATS if c != "DM"]
+
+    def cat_means(rows):
+        by_cat = collections.defaultdict(list)
+        for _, _, qt, s in rows:
+            cat = QUERY_MAP.get(qt)
+            if cat:
+                by_cat[cat].append(s)
+        means = {c: (float(np.mean(by_cat[c])) if by_cat.get(c) else float("nan")) for c in cats_no_dm}
+        ns = {c: len(by_cat.get(c, [])) for c in cats_no_dm}
+        overall = float(np.mean([s for _, _, _, s in rows])) if rows else float("nan")
+        n_total = len(rows)
+        return means, ns, overall, n_total
+
+    g_means, g_ns, g_overall, g_n = cat_means(gemini_rows)
+    m_means, m_ns, m_overall, m_n = cat_means(mini_rows)
+
+    header = f'{"Cat":<5} {"n":<4} {"GPT-4o-mini":>12} {"Gemini-2.5":>12} {"delta":>8}'
+    print(header)
+    print("-" * len(header))
+    for c in cats_no_dm:
+        n = m_ns.get(c, 0)
+        mm = m_means.get(c, float("nan"))
+        gm = g_means.get(c, float("nan"))
+        d = gm - mm
+        print(f"{c:<5} {n:<4} {mm:>12.3f} {gm:>12.3f} {d:>+8.3f}")
+    print(f'{"Mean":<5} {m_n:<4} {m_overall:>12.3f} {g_overall:>12.3f} {g_overall - m_overall:>+8.3f}')
+
+    print("\n## LaTeX rows for Table 6 (per-category answerer comparison)")
+    print("    \\textbf{Model} & \\textbf{Mean} & " + " & ".join(f"\\textbf{{{c}}}" for c in cats_no_dm) + " \\\\")
+    print("                   & ($n$=" + str(m_n) + ") & " + " & ".join(f"({m_ns[c]})" for c in cats_no_dm) + " \\\\")
+    print("    \\midrule")
+    print("    GPT-4o-mini (full ctx) & " + f"{m_overall:.3f}" + " & " + " & ".join(f"{m_means[c]:.2f}" for c in cats_no_dm) + " \\\\")
+    print("    Gemini 2.5 Flash (full ctx) & " + f"{g_overall:.3f}" + " & " + " & ".join(f"{g_means[c]:.2f}" for c in cats_no_dm) + " \\\\")
 
     # DM tier results
     print("\n## DM scores by condition (4 DM networks)")

@@ -4,7 +4,7 @@ title: "SocialMemBench: Evaluating AI Memory Architectures in Social Group Conve
 abstract: >-
   SocialMemBench is the first benchmark that evaluates external memory systems
   (the write/index/retrieve substrate between sessions) in social group settings
-  with 3+ co-present speakers. It comprises 43 ego networks, 1,033 question-answer
+  with 3+ co-present speakers. It comprises 43 ego networks, 1,031 question-answer
   pairs across 9 query types, and evaluation results across 8+ memory-system
   conditions including Mem0, LangMem, Cognee, and Graphiti.
 authors:

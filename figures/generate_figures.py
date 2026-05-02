@@ -35,7 +35,7 @@ NETS_LARGE = ['grp_b1c2d3e4', 'grp_e5f6a7b8', 'grp_f6g7h8i9',
 # DM-containing networks (4) — small-tier with departures
 NETS_DM = ['grp_c6d7e8f9', 'grp_d7e8f9a0', 'grp_e3f4a5b6', 'grp_f4a5b6c7']
 
-# All 38 evaluated networks
+# All 43 evaluated networks
 NETS_ALL = NETS_SMALL + NETS_MEDIUM + NETS_LARGE
 
 NETS_BY_CONDITION = {
@@ -201,7 +201,7 @@ def make_heatmap(data, means):
               ncol=3, fontsize=9, frameon=False)
 
     ax.set_title('SocialMemBench: Score by Condition and Query Category\n'
-                 '(27 networks across all tiers, question-weighted)',
+                 '(43 networks across all tiers, question-weighted)',
                  fontsize=11, pad=12)
 
     plt.savefig(os.path.join(FIGURES_DIR, 'heatmap.pdf'), bbox_inches='tight', dpi=150)
@@ -256,15 +256,15 @@ def make_bar_chart(means):
                 color='#222222')
 
     # Blind-critic reference line
-    ax.axvline(x=0.997, color='#888888', linestyle=':', linewidth=1.2, alpha=0.8)
-    ax.text(0.997 + 0.004, len(cond_keys) - 0.6, 'Blind-critic\n0.997', va='top',
+    ax.axvline(x=0.952, color='#888888', linestyle=':', linewidth=1.2, alpha=0.8)
+    ax.text(0.952 + 0.004, len(cond_keys) - 0.6, 'Blind-critic\n0.952', va='top',
             ha='left', fontsize=7.5, color='#888888')
 
     ax.set_yticks(y)
     ax.set_yticklabels(labels, fontsize=9.5)
     ax.set_xlabel('Network-weighted Mean Score (0\u20131),  bars show 95% bootstrap CI', fontsize=10)
     ax.set_xlim(0, 1.12)
-    ax.set_title('SocialMemBench: Overall Performance by Condition\n(27 networks, 10k bootstrap resamples over networks)',
+    ax.set_title('SocialMemBench: Overall Performance by Condition\n(43 networks, 10k bootstrap resamples over networks)',
                  fontsize=11, pad=10)
     ax.grid(axis='x', alpha=0.25, linestyle='--')
     ax.spines['top'].set_visible(False)
@@ -308,7 +308,7 @@ def make_tier_curve():
         return np.mean(s) if s else float('nan')
 
     fig, ax = plt.subplots(figsize=(9, 5.2))
-    tiers = ['Small\n(3-6)', 'Medium\n(7-14)', 'Large\n(15-30)']
+    tiers = ['Small\n(4-6)', 'Medium\n(8-14)', 'Large\n(15-30)']
     x = [0, 1, 2]
 
     style_by_group = {
@@ -366,6 +366,85 @@ def make_tier_curve():
     plt.close()
 
 
+def make_answerer_comparison():
+    """Per-category bars comparing GPT-4o-mini vs Gemini 2.5 Flash on the same
+    small-tier subset Gemini was evaluated on (full-context oracle, same judge)."""
+    cats_no_dm = [c for c in CATEGORIES if c != 'DM']
+    cat_label_short = {c: l for c, l in zip(CATEGORIES, CAT_LABELS)}
+
+    def collect(condition, networks):
+        by_cat = collections.defaultdict(list)
+        all_scores = []
+        for nid in networks:
+            pf = os.path.join(RESULTS_DIR, condition, f'{nid}.jsonl')
+            if not os.path.exists(pf):
+                continue
+            for ln in open(pf):
+                if not ln.strip():
+                    continue
+                d = json.loads(ln)
+                cat = QUERY_MAP.get(d.get('query_type'))
+                if cat:
+                    by_cat[cat].append(d.get('score', 0.0))
+                    all_scores.append(d.get('score', 0.0))
+        return by_cat, all_scores
+
+    # Use the 10 networks where Gemini ran (intersection)
+    gemini_files = [f for f in os.listdir(os.path.join(RESULTS_DIR, 'llm_gemini'))
+                    if f.startswith('grp_') and f.endswith('.jsonl')]
+    gemini_nets = sorted([f.replace('.jsonl', '') for f in gemini_files])
+
+    g_cat, g_all = collect('llm_gemini', gemini_nets)
+    m_cat, m_all = collect('llm_mini', gemini_nets)
+
+    g_means = [np.mean(g_cat[c]) if g_cat.get(c) else np.nan for c in cats_no_dm]
+    m_means = [np.mean(m_cat[c]) if m_cat.get(c) else np.nan for c in cats_no_dm]
+    n_per_cat = [len(g_cat.get(c, [])) for c in cats_no_dm]
+    g_overall = float(np.mean(g_all)) if g_all else np.nan
+    m_overall = float(np.mean(m_all)) if m_all else np.nan
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    x = np.arange(len(cats_no_dm) + 1)  # +1 for Mean
+    width = 0.4
+    labels = [c for c in cats_no_dm] + ['Mean']
+    m_vals = m_means + [m_overall]
+    g_vals = g_means + [g_overall]
+
+    bars_m = ax.bar(x - width/2, m_vals, width, label='GPT-4o-mini', color='#1F2937')
+    bars_g = ax.bar(x + width/2, g_vals, width, label='Gemini 2.5 Flash', color='#3B82F6')
+
+    for i, n in enumerate(n_per_cat):
+        ax.text(x[i], -0.04, f'n={n}', ha='center', va='top', fontsize=8, color='#666')
+    ax.text(x[-1], -0.04, f'n={sum(n_per_cat)}', ha='center', va='top', fontsize=8, color='#666')
+
+    for bars in (bars_m, bars_g):
+        for b in bars:
+            h = b.get_height()
+            if not np.isnan(h):
+                ax.text(b.get_x() + b.get_width()/2, h + 0.01, f'{h:.2f}',
+                        ha='center', va='bottom', fontsize=8)
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, fontsize=10)
+    ax.set_ylabel('Mean score', fontsize=11)
+    ax.set_xlabel('')
+    ax.set_ylim(0, 1.15)
+    ax.set_yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
+    ax.set_title('Answerer Model Comparison: per-category, full-context oracle on shared 77-question subset',
+                 fontsize=11, pad=10)
+    ax.grid(True, axis='y', alpha=0.3, linestyle='--')
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.legend(loc='upper right', fontsize=9, frameon=True, framealpha=0.9)
+
+    plt.tight_layout()
+    out = os.path.join(FIGURES_DIR, 'answerer_comparison.pdf')
+    plt.savefig(out, bbox_inches='tight', dpi=150)
+    plt.savefig(out.replace('.pdf', '.png'), bbox_inches='tight', dpi=150)
+    print(f'Saved: {out}')
+    plt.close()
+
+
 if __name__ == '__main__':
     data, means = load_data()
     print('Loaded data for:', list(data.keys()))
@@ -373,4 +452,5 @@ if __name__ == '__main__':
     make_heatmap(data, means)
     make_bar_chart(means)
     make_tier_curve()
+    make_answerer_comparison()
     print('Done.')

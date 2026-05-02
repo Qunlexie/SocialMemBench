@@ -2,31 +2,58 @@
   "network_id": "grp_e6f7a8b9",
   "total_pairs": 16,
   "phase1_mean_score": 1.0,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
-  "phase3_flagged_count": 1,
-  "inference_required_distribution": {"0": 0, "1": 4, "2": 12},
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "2": 12,
+    "1": 4
+  },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
-  "difficulty_distribution": {"easy": 3, "medium": 10, "hard": 3},
-  "by_query_type": {
-    "Q1": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q2": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q3": {"count": 0, "mean_score": 0.0, "flagged": 0, "mean_inference_required": 0.0},
-    "Q4": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q5": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
-    "Q6": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q7": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.0},
-    "Q8": {"count": 6, "mean_score": 1.0, "flagged": 1, "mean_inference_required": 2.0}
+  "difficulty_distribution": {
+    "easy": 3,
+    "medium": 10,
+    "hard": 3
   },
-  "flagged_pairs": [
-    {
-      "qa_id": "Q8_e6f7a8bb",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What drove the change in how frequently Cass wanted to run with the group, and what in Session 2 signals her earlier approach had been different?"
+  "by_query_type": {
+    "Q1": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 6,
+      "mean_score": 1.0,
+      "flagged": 0
     }
-  ],
+  },
+  "flagged_pairs": [],
   "low_score_pairs": [],
   "per_pair": [
     {
@@ -35,7 +62,7 @@
       "question": "What does Tom's behaviour when the group discusses route options reveal about what he considers worthwhile on a run?",
       "blind_answer": "Tom consistently proposes harder, more technical route variants unprompted: eastern ridge in S1 ('more interesting than the main path') and eastern descent variation in S2 ('better terrain'). This reveals a preference for demanding, technical trails over flat or straightforward ground.",
       "score": 1.0,
-      "score_rationale": "Blind answer matches ground truth exactly — same two evidence turns, same conclusion about preference for technical terrain over predictable routes.",
+      "score_rationale": "Blind answer matches ground truth exactly \u2014 same two evidence turns, same conclusion about preference for technical terrain over predictable routes.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -45,7 +72,7 @@
       "qa_id": "Q1_e6f7a8b2",
       "query_type": "Q1",
       "question": "What pattern in how Yuki responds to invitations to join the group after runs reveals about what she finds valuable in the group's outings?",
-      "blind_answer": "Yuki declines every post-run social invitation with brief, topic-avoiding phrases — 'Not today. I need to get home' (S3), 'I have things to do this afternoon' (S6), 'I need to get back' (S8). The pattern across three sessions signals she values the run but not the social stop.",
+      "blind_answer": "Yuki declines every post-run social invitation with brief, topic-avoiding phrases \u2014 'Not today. I need to get home' (S3), 'I have things to do this afternoon' (S6), 'I need to get back' (S8). The pattern across three sessions signals she values the run but not the social stop.",
       "score": 1.0,
       "score_rationale": "Blind answer names same three sessions, same deflection phrases, same inference about values.",
       "inference_required": 2,
@@ -69,7 +96,7 @@
       "qa_id": "Q2_e6f7a8b4",
       "query_type": "Q2",
       "question": "The group agreed to go to the pub after the Session 6 run. What did one member's response in that moment signal about their actual position, and what specifically in how they responded tells you that?",
-      "blind_answer": "Yuki says 'I have things to do this afternoon' when the pub is proposed. Unlike Leo who explicitly joins briefly, Yuki doesn't acknowledge the invitation at all — her response bypasses the decision entirely, signalling consistent disengagement from post-run socials.",
+      "blind_answer": "Yuki says 'I have things to do this afternoon' when the pub is proposed. Unlike Leo who explicitly joins briefly, Yuki doesn't acknowledge the invitation at all \u2014 her response bypasses the decision entirely, signalling consistent disengagement from post-run socials.",
       "score": 1.0,
       "score_rationale": "Blind answer correctly identifies Yuki and the specific mechanism (bypassing the invitation, not declining it), matching ground truth.",
       "inference_required": 2,
@@ -81,9 +108,9 @@
       "qa_id": "Q4_e6f7a8b5",
       "query_type": "Q4",
       "question": "In Session 4, one group member argued that using running technology during a run is counterproductive to performance. Who made this specific claim, and what distinguishes their reasoning from a similar view expressed in the same exchange?",
-      "blind_answer": "Tom said 'Gadgets slow you down mentally' — a claim about cognitive performance overhead. Rafe spoke just before with a related but different concern: running to satisfy the watch rather than actually running (authenticity/experience). Tom's is a performance claim; Rafe's is philosophical.",
+      "blind_answer": "Tom said 'Gadgets slow you down mentally' \u2014 a claim about cognitive performance overhead. Rafe spoke just before with a related but different concern: running to satisfy the watch rather than actually running (authenticity/experience). Tom's is a performance claim; Rafe's is philosophical.",
       "score": 1.0,
-      "score_rationale": "Blind answer correctly identifies Tom as the source, distinguishes his performance framing from Rafe's authenticity framing — exact match to ground truth.",
+      "score_rationale": "Blind answer correctly identifies Tom as the source, distinguishes his performance framing from Rafe's authenticity framing \u2014 exact match to ground truth.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -93,7 +120,7 @@
       "qa_id": "Q5_e6f7a8b6",
       "query_type": "Q5",
       "question": "What is Rafe's habitual approach to post-run nutrition after long efforts, and how does Nadia's message in Session 5 show she had built this understanding well before raising it?",
-      "blind_answer": "Rafe's habit is going straight to the pub after long runs. Nadia's S5 message: 'I've been watching this pattern for months' — explicitly marks that she had observed this across the corpus and waited for a triggering event (the km 17 cramp) to raise it.",
+      "blind_answer": "Rafe's habit is going straight to the pub after long runs. Nadia's S5 message: 'I've been watching this pattern for months' \u2014 explicitly marks that she had observed this across the corpus and waited for a triggering event (the km 17 cramp) to raise it.",
       "score": 1.0,
       "score_rationale": "Blind answer matches ground truth exactly: Rafe's pub-first habit, Nadia's 'watching for months' phrase as evidence of prior knowledge.",
       "inference_required": 1,
@@ -105,7 +132,7 @@
       "qa_id": "Q6_e6f7a8b7",
       "query_type": "Q6",
       "question": "The Ridgeline Runners have a consistent expectation about what follows a longer Sunday run. Does this expectation hold for every member? What in the conversation shows otherwise, and for whom?",
-      "blind_answer": "No — Yuki opts out in S3, S6, and S8 with brief deflections ('Not today. I need to get home,' 'I have things to do this afternoon,' 'I need to get back'). Leo also doesn't drink at the pub but does attend; Yuki is the one who consistently doesn't participate at all.",
+      "blind_answer": "No \u2014 Yuki opts out in S3, S6, and S8 with brief deflections ('Not today. I need to get home,' 'I have things to do this afternoon,' 'I need to get back'). Leo also doesn't drink at the pub but does attend; Yuki is the one who consistently doesn't participate at all.",
       "score": 1.0,
       "score_rationale": "Blind answer correctly identifies Yuki (not Leo) as the exception, with same three evidence instances.",
       "inference_required": 2,
@@ -117,7 +144,7 @@
       "qa_id": "Q7_e6f7a8b8",
       "query_type": "Q7",
       "question": "What does the exchange in Session 1 about how the Ridgeline Runners started reveal about the history between Nadia and Tom?",
-      "blind_answer": "They co-founded the group after Nadia formalised a series of repeated parkrun encounters — Tom kept showing up, Nadia made it official. Tom confirms: 'She did the organising. I just showed up.'",
+      "blind_answer": "They co-founded the group after Nadia formalised a series of repeated parkrun encounters \u2014 Tom kept showing up, Nadia made it official. Tom confirms: 'She did the organising. I just showed up.'",
       "score": 1.0,
       "score_rationale": "Blind answer matches ground truth: co-founders via repeated parkrun meetings, Nadia organised, Tom participated.",
       "inference_required": 1,
@@ -129,7 +156,7 @@
       "qa_id": "Q7_e6f7a8b9",
       "query_type": "Q7",
       "question": "What does Rafe's message about the Wednesday midweek run in Session 2 reveal about his relationship with Cass during group runs?",
-      "blind_answer": "Rafe describes falling to the back with Cass on the Chevin climb and having twenty minutes of excellent conversation about nothing — framing it as his favourite kind. Shows they are established back-of-group companions who enjoy each other's company during the slow climbs.",
+      "blind_answer": "Rafe describes falling to the back with Cass on the Chevin climb and having twenty minutes of excellent conversation about nothing \u2014 framing it as his favourite kind. Shows they are established back-of-group companions who enjoy each other's company during the slow climbs.",
       "score": 1.0,
       "score_rationale": "Blind answer matches: back-of-group dynamic, extended aimless conversation, valued bond.",
       "inference_required": 1,
@@ -141,7 +168,7 @@
       "qa_id": "Q7_e6f7a8ba",
       "query_type": "Q7",
       "question": "What does Tom's remark in Session 7 reveal about Nadia's role in building the Ridgeline Runners group?",
-      "blind_answer": "Tom states flatly 'Nadia recruited half this group from parkrun' — framing her as the active membership builder, not just a co-founder.",
+      "blind_answer": "Tom states flatly 'Nadia recruited half this group from parkrun' \u2014 framing her as the active membership builder, not just a co-founder.",
       "score": 1.0,
       "score_rationale": "Blind answer matches: Nadia as primary recruiter, Tom's matter-of-fact attribution.",
       "inference_required": 1,
@@ -153,19 +180,19 @@
       "qa_id": "Q8_e6f7a8bb",
       "query_type": "Q8",
       "question": "What drove the change in how frequently Cass wanted to run with the group, and what in Session 2 signals her earlier approach had been different?",
-      "blind_answer": "The first midweek run triggered the change — Cass says she 'didn't know I needed that in my life.' In the same session she names the old state: 'one Sunday a month was fine but now I'm wondering why I wasn't doing more.' The shift was driven by discovery, not deliberate decision.",
+      "blind_answer": "The first midweek run triggered the change \u2014 Cass says she 'didn't know I needed that in my life.' In the same session she names the old state: 'one Sunday a month was fine but now I'm wondering why I wasn't doing more.' The shift was driven by discovery, not deliberate decision.",
       "score": 1.0,
-      "score_rationale": "Blind answer matches ground truth exactly — same trigger (midweek discovery), same old-state quote, same characterisation of the shift.",
+      "score_rationale": "Blind answer matches ground truth exactly \u2014 same trigger (midweek discovery), same old-state quote, same characterisation of the shift.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q8_e6f7a8bc",
       "query_type": "Q8",
       "question": "What in Session 3 signalled that Yuki's approach to footwear on wet technical terrain was about to change, and what in Session 8 confirms the shift had occurred?",
-      "blind_answer": "S3: Yuki slips in road shoes and says 'My road shoes have insufficient traction on wet clay. Noted.' — 'Noted' is the only signal. S8: five sessions later she reports 'Grip from the trail shoes was adequate' in icy conditions — trail shoes are now existing equipment, never announced.",
+      "blind_answer": "S3: Yuki slips in road shoes and says 'My road shoes have insufficient traction on wet clay. Noted.' \u2014 'Noted' is the only signal. S8: five sessions later she reports 'Grip from the trail shoes was adequate' in icy conditions \u2014 trail shoes are now existing equipment, never announced.",
       "score": 1.0,
       "score_rationale": "Blind answer identifies 'Noted' as the only forward signal and the S8 confirmation, matching ground truth precisely.",
       "inference_required": 2,
@@ -177,7 +204,7 @@
       "qa_id": "Q8_e6f7a8bd",
       "query_type": "Q8",
       "question": "What explains Nadia's shift in thinking about her target training distances, and what in Session 5 shows that her earlier approach had been different?",
-      "blind_answer": "Trigger: half marathon sign-up in S4 ('something clicked when I pressed sign up'). S5 confirms earlier state: 'four months ago I thought 15km was a big deal' — retroactively naming the prior ceiling at 10-15km.",
+      "blind_answer": "Trigger: half marathon sign-up in S4 ('something clicked when I pressed sign up'). S5 confirms earlier state: 'four months ago I thought 15km was a big deal' \u2014 retroactively naming the prior ceiling at 10-15km.",
       "score": 1.0,
       "score_rationale": "Blind answer matches: same trigger (sign-up), same S5 retrospective quote, same characterisation of old state.",
       "inference_required": 2,
@@ -229,7 +256,7 @@
     },
     "voice_consistency": {
       "score": 1,
-      "notes": "Minor issue: Tom's communication_profile specifies emoji_use='Moderate' but zero emoji appear in any of his 40+ messages across the corpus. All other voice dimensions are strong — pronoun-dropping, 'lads' address, dry brevity, tech-skepticism are all clearly realized. Nadia (Verbose/Frequent), Yuki (Terse/Never), Rafe (Verbose/Rare), Cass (Concise/Frequent), Leo (Concise/Never) all consistent."
+      "notes": "Minor issue: Tom's communication_profile specifies emoji_use='Moderate' but zero emoji appear in any of his 40+ messages across the corpus. All other voice dimensions are strong \u2014 pronoun-dropping, 'lads' address, dry brevity, tech-skepticism are all clearly realized. Nadia (Verbose/Frequent), Yuki (Terse/Never), Rafe (Verbose/Rare), Cass (Concise/Frequent), Leo (Concise/Never) all consistent."
     },
     "naturalness_of_transitions": {
       "score": 2,
@@ -246,5 +273,6 @@
     "overall_pass": true,
     "failing_turns": []
   },
-  "baseline_reference": "none"
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.487401+00:00"
 }

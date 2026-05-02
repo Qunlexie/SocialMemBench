@@ -1,0 +1,714 @@
+{
+  "network_id": "grp_d3e4f5a6",
+  "total_pairs": 52,
+  "phase1_mean_score": 0.9369,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "1": 6,
+    "2": 46
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 30,
+    "hard": 16,
+    "easy": 6
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 8,
+      "mean_score": 0.934,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.93,
+      "flagged": 0
+    },
+    "Q3": {
+      "count": 1,
+      "mean_score": 0.92,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.962,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 4,
+      "mean_score": 0.935,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 0.94,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 9,
+      "mean_score": 0.93,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 20,
+      "mean_score": 0.938,
+      "flagged": 0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_2d6b0e16",
+      "query_type": "Q1",
+      "question": "What does Hiro's behavior in the reunion food planning suggest about his eating pattern, and how is it visible without him stating it directly?",
+      "blind_answer": "Hiro is a strict vegetarian who needs a vegetarian main; in the health thread he also says he's no longer eating fish socially after a documentary in the spring.",
+      "score": 0.95,
+      "score_rationale": "Matches ground truth closely on both vegetarian-main and no-fish update.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b61ea518",
+      "query_type": "Q1",
+      "question": "What does Maya's behavior around the reunion morning food planning quietly reveal about what she avoids, and how would you spot it from the chat alone?",
+      "blind_answer": "Maya quietly avoids dairy; she pitches almond cream cheese for the morning bagels and Lila calls out that she does this every reunion and skips the latte too.",
+      "score": 0.95,
+      "score_rationale": "Captures both Maya's substitution and Lila's call-out.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_7cebcf97",
+      "query_type": "Q1",
+      "question": "How does Aanya quietly signal her preference about the size of the saturday-night reunion component, and what makes the signal easy to miss?",
+      "blind_answer": "Aanya prefers smaller settings to a big bar night; in the format-vote she explicitly says she'd rather do a smaller dinner side or skip that night, and earlier Lila has been steering away from share-circles around her.",
+      "score": 0.92,
+      "score_rationale": "Matches the smaller-component preference and the protective Lila context.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_2756d565",
+      "query_type": "Q1",
+      "question": "What pattern does Whit's contributions to the reunion logistics planning reveal about the kind of reunion he prefers, and what specific moments make that visible?",
+      "blind_answer": "Whit consistently leans high-end urban; he chips in for nicer rooms in the kickoff, covers the rooftop overrun, and his bar-tab/wine-list shorthand fits with that.",
+      "score": 0.9,
+      "score_rationale": "Matches the urban/high-end pattern across multiple sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_8ecdd68b",
+      "query_type": "Q1",
+      "question": "What does Tom\u00e1s's pattern of reunion-day participation reveal about his preference, and what triggered the shift?",
+      "blind_answer": "Tom\u00e1s now prefers daytime reunion components; he commits to the saturday afternoon park slot with his daughter and skips the rooftop, naming the toddler year as the reason.",
+      "score": 0.95,
+      "score_rationale": "Direct match: he states the daytime preference and trigger.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_3adbc02d",
+      "query_type": "Q2",
+      "question": "After the theme-picking debate, the group settles on letting whoever organizes pick the theme. What did Cam's response in that thread signal about how they actually felt about the rule, and what specifically in how they responded tells you that?",
+      "blind_answer": "The group keeps the org-picks-theme rule; Cam goes along with a terse 'yeah cosign on that one ife', riding Ife's pushback rather than affirming the rule independently \u2014 that's the dissent signal.",
+      "score": 0.92,
+      "score_rationale": "Matches the implicit dissent through the cosign rather than direct affirmation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_9121947f",
+      "query_type": "Q2",
+      "question": "The group decides to apply the equal cost-split rule for this year's reunion. What did Devon's reaction in that moment reveal about how he actually felt, and how would you have known?",
+      "blind_answer": "Devon dissents on the equal split: he answers '...' followed by 'fine. paying it.' rather than the affirming 'sent' / 'in' / 'easy' that Whit, Priya, Pat, Tom\u00e1s use; he had also objected on the record in the budget thread about the bar tab.",
+      "score": 0.95,
+      "score_rationale": "Matches the implicit dissent via terseness plus prior on-record objection.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_32565b7e",
+      "query_type": "Q2",
+      "question": "When Bex closes the headcount for the saturday rooftop component, what did Aanya's response signal about her actual position, and what specifically in how she responded tells you that?",
+      "blind_answer": "Aanya is the dissenter; while everyone else sends one-word 'in' confirmations, she replies 'leaning in but tbd, ill let you know by wed' and accepts Lila's smaller sunday-morning alternative with 'appreciated'.",
+      "score": 0.95,
+      "score_rationale": "Direct match on Aanya's hedge as the implicit dissent.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_c82b2317",
+      "query_type": "Q3",
+      "question": "Based on the conversations during the reunion-planning months, what are each group member's food and diet preferences as they appear in the chat?",
+      "blind_answer": "Hiro: vegetarian, no fish. Cam: quiet vegetarian. Jules: veg-leaning but eats fish. Maya: avoids dairy. Pat: minimal alcohol now. Whit: leans wine/upscale. Tom\u00e1s: daytime food slots since the toddler year. Most other members don't surface a clear food preference.",
+      "score": 0.92,
+      "score_rationale": "Matches the per-persona breakdown and the 'not mentioned' coverage for those without signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_bcee487d",
+      "query_type": "Q4",
+      "question": "Who in the kickoff thread argued that the reunion food plan was leaning too heavily on meat and used environmental framing about it?",
+      "blind_answer": "Cam said it ('the veg headcount is bigger than yall realize, just letting it sit'); their pragmatic, lowercase, no-end-punctuation style separates them from Jules's planet-on-fire / globe-emoji framing.",
+      "score": 0.95,
+      "score_rationale": "Matches speaker plus discriminator.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_51c1631b",
+      "query_type": "Q4",
+      "question": "In the budget reconciliation thread, who first re-framed the bar-tab argument as worth a real conversation but not the right time to have it?",
+      "blind_answer": "Anika said it; her 'what are we actually disagreeing about here' opener is her signature de-escalation move and she qualifies with 'in my limited view'. Jules came in next to second her with a structural reframe.",
+      "score": 0.95,
+      "score_rationale": "Direct match on speaker plus discriminator from style.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_ce56c918",
+      "query_type": "Q5",
+      "question": "What is Aanya's attitude toward being put on the spot at reunion gatherings, and how does Lila show in the chat that she had this knowledge already?",
+      "blind_answer": "Aanya wants to avoid forced-share moments at reunions. Lila pre-empts a share-circle format ('can we please not do anything that puts people on the spot at this reunion, like no big circle-up-share-your-year stuff') before Aanya posts anything in that thread; Aanya's eyes-emoji response confirms it landed as cover.",
+      "score": 0.92,
+      "score_rationale": "Matches Lila's pre-emptive protective fronting and Aanya's confirming reaction.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_4c2de953",
+      "query_type": "Q5",
+      "question": "What is Whit's longstanding pattern around reunion overruns, and how does Bex show in the chat that she had this knowledge before bringing it up?",
+      "blind_answer": "Whit historically absorbed overruns silently. Bex shows the prior knowledge by saying 'i know you used to do these silently' when she asks for the rooftop receipt; the 'this time' framing presupposes a tracked pattern.",
+      "score": 0.95,
+      "score_rationale": "Matches the knowing-reference grounding.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_539c6a91",
+      "query_type": "Q5",
+      "question": "What does Tom\u00e1s reveal about Renee's preference around reunion-day timing, and how does the chat show he had this knowledge?",
+      "blind_answer": "Renee prefers daytime/morning components. Tom\u00e1s makes the assumption first ('renee i think you mentioned wanting daytime focused windows last summer too, am i remembering that right') and Renee then confirms he was right even though she hadn't said it directly in the chat.",
+      "score": 0.95,
+      "score_rationale": "Direct match on the ToM exchange.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_f5af87b4",
+      "query_type": "Q6",
+      "question": "The group has a long-running rule that reunion costs are split equally regardless of how much each person drinks. Does this rule actually fit everyone, or is there at least one member whose preference clearly cuts against it, and what would you point to?",
+      "blind_answer": "The norm doesn't fit everyone; Devon and Theo run on a different preference and say so on the record (Devon about high-drinker drift, Theo about rotation members getting the worst of it). Devon also pays under protest with '...fine. paying it.'",
+      "score": 0.95,
+      "score_rationale": "Matches the norm-vs-individual distinction.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_91d22939",
+      "query_type": "Q6",
+      "question": "The group has a tradition that whoever organizes the reunion picks the theme, even if others would have picked differently. Does this tradition apply to everyone? If not, who has a different preference and what is it?",
+      "blind_answer": "Ife's preference cuts against the rule for heavier choices: 'fine for vibe but I don't think it should bind us on heavier choices'. Cam piggybacks on her line. The norm holds for vibe but doesn't actually express her view on format-and-tone.",
+      "score": 0.93,
+      "score_rationale": "Matches the dissenter and reasoning.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_96709d1a",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the relationship between Pat and Renee, and what specifically in the book-recs conversation makes it visible?",
+      "blind_answer": "Renee subletted Pat's room and they have an ongoing book swap; in the recs thread she callbacks the Joan Didion swap from two summers ago when she was sub-letting through him.",
+      "score": 0.95,
+      "score_rationale": "Direct match on the relationship and evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_2f144a41",
+      "query_type": "Q7",
+      "question": "How does the chat reveal the relationship between Pat and Lila around films, and what specific exchange shows the shape of it?",
+      "blind_answer": "They run a long-standing two-person noir-film recommendation thread; Lila's 'you've been telling me to watch it for two years and you were right' and Pat's 'told you. mitchum was the move.' make it visible.",
+      "score": 0.93,
+      "score_rationale": "Direct match on relationship and evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b2859aff",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the relationship between Eli and Hiro around running, and what specific moment makes it visible?",
+      "blind_answer": "They are running partners who trade routes; Hiro joins Eli's saturday 5K immediately ('I'm in. We'll be back in time for the bird walk.') and earlier Hiro had said he'd join Eli's trail loops 'as usual' when he visits.",
+      "score": 0.93,
+      "score_rationale": "Direct match on the running-partner relationship.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_8c9b6d6c",
+      "query_type": "Q7",
+      "question": "How does the chat reveal the working relationship between Whit and Bex around the reunion finances, and what specifically makes the dynamic visible?",
+      "blind_answer": "Whit historically covered overruns silently and Bex has been pushing him to put receipts on the spreadsheet; Bex's 'see this is the version of you i prefer' confirms a long-running, slightly exasperated accountability dynamic.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_7ddf931a",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the current state of the relationship between Cam and Nate, and what specifically makes it visible?",
+      "blind_answer": "They are civil but distant; Theo names that the rooftop-spot exchange was their first direct messages in two months. Their interactions are functional logistics only.",
+      "score": 0.92,
+      "score_rationale": "Matches the civil-but-cold framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_75d136f5",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Priya's relationship to running and team sport has shifted, and what appeared to drive it?",
+      "blind_answer": "Priya shifted from running half-marathons to volleyball after a stress fracture during residency; she now mentions league finals and treats running as past-tense.",
+      "score": 0.93,
+      "score_rationale": "Matches early state, shift signal, and trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_48643e0f",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Pat's pattern around drinking at group events has changed, and what appears to have driven the shift?",
+      "blind_answer": "Pat shifted from matching the group drink-for-drink to one beer/water all night; he flags it ahead of saturday and Devon confirms the pattern has been ongoing since last year.",
+      "score": 0.93,
+      "score_rationale": "Matches early-evolved state pair and Devon's confirming context.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_ba8cb4b6",
+      "query_type": "Q8",
+      "question": "How did Hiro's diet shift over the months of reunion planning, and what in the conversation explains why?",
+      "blind_answer": "Hiro shifted from lacto-ovo / fish-okay to fully vegetarian after a documentary in the spring; he flags it cleanly in the health thread and double-checks at final logistics.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_4891d627",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Devon's posture toward reunion attendance has shifted, and what appears to have driven the change?",
+      "blind_answer": "Devon shifted from skipping reunions to anchoring his calendar around them; trigger is Pat's father's funeral the prior fall, which he names directly.",
+      "score": 0.95,
+      "score_rationale": "Direct match with named trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_7d4b00dd",
+      "query_type": "Q8",
+      "question": "What in the chat shows that Tom\u00e1s's pattern of responding has changed, and what appears to have driven it?",
+      "blind_answer": "Tom\u00e1s shifted from real-time replies to batched once-a-day after his daughter's sleep regression; he names the change and the pattern shows up in the timing of his subsequent posts.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_cbfc5e7c",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Maya's stance on the reunion format has shifted, and what appears to have caused the change?",
+      "blind_answer": "Maya pivoted from pushing the all-in big rental to championing satellite gatherings + one shared saturday after last summer's twenty-person rental left her exhausted ('the all-in house is wrecking me').",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_7342818c",
+      "query_type": "Q8",
+      "question": "How did Bex's role in reunion planning shift over the months, and what in the conversation explains why?",
+      "blind_answer": "Bex stepped back from the visible planner role after a promotion and handed format choice to Maya, while still running the spreadsheet; she keeps the budget projection in the budget thread.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_eacf8761",
+      "query_type": "Q8",
+      "question": "What signals that Theo's self-positioning in the chat has shifted, and what appeared to drive the change?",
+      "blind_answer": "Theo shifted from joking about being 'the new guy' to pushing back; trigger is Devon's flippant 'real housemates only' line that landed harder than expected, which Devon publicly concedes was a bad bit.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_813d8aaf",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Whit's posture around money has shifted, and what appears to have driven it?",
+      "blind_answer": "Whit shifted from silently absorbing overruns to flagging them up front; trigger was Bex calling him on the spreadsheet pattern. He confirms the new posture by saying he'll send the rooftop receipt this time.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_c9746814",
+      "query_type": "Q8",
+      "question": "What signals that Sasha's posture about her music career has shifted, and what appears to have driven the change?",
+      "blind_answer": "Sasha shifted from calling the band a hobby to naming it as her work after signing with a small label; she frames the prior 'hobby' framing as self-protection.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_8a371f10",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Quinn's level of disclosure about their work has shifted, and what appears to have driven the change?",
+      "blind_answer": "Quinn shifted from saying only 'in school' to publicly naming hospice chaplaincy training, after a particular patient's death changed how they wanted to show up in the group.",
+      "score": 0.95,
+      "score_rationale": "Direct match with named trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_8a005915",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Eli's posting pattern has changed, and what does the conversation say drove it?",
+      "blind_answer": "Eli shifted from rare posting to weekly check-ins after his mentor passed; he flags it directly as wanting to stay closer to the group.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_347b5cff",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Cam's posture about freelance stress has shifted, and what appears to have driven it?",
+      "blind_answer": "Cam shifted from hiding freelance stress to openly venting; trigger is the prior three-month gap between contracts that taught them not to hide it.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_fcdcc511",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Renee's role at reunions has shifted, and what appears to have driven it?",
+      "blind_answer": "Renee shifted from peripheral to leading the saturday morning birding offshoot; the satellite-format vote gave her the structural opening to claim it.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_9d7e9fe7",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Jamal's pattern about bringing his kids to reunions has changed, and why?",
+      "blind_answer": "Jamal shifted from leaving kids at home to bringing the older one (now four) and asking for kid-friendly windows; he wants the group to know him.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_7cf51a83",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Anika's role around chat conflict has shifted, and what appears to have driven the change?",
+      "blind_answer": "Anika shifted from staying out of disputes to actively de-escalating; her 'what are we actually disagreeing about here' move appears in two separate fights, marking a settled new role.",
+      "score": 0.93,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_efcb40e4",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Aanya's pattern of reunion attendance has shifted, and what appears to be driving it?",
+      "blind_answer": "Aanya shifted from making every reunion to hedging on this one; her 'leaning in but tbd' contrasts with the rest of the chat's clean 'in' confirmations and Lila offers her a smaller alternative.",
+      "score": 0.92,
+      "score_rationale": "Matches the hedge-as-shift reading.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_8756622e",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Ife's relationship with the creative-friends sub-thread has shifted, and what appears to have driven the change?",
+      "blind_answer": "Ife shifted from treating the twice-yearly creative-friends meet as marginal to treating it as the thing that grounds her year; she protects its schedule independent of the main reunion.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_0e6c7026",
+      "query_type": "Q8",
+      "question": "What in the chat signals that Nico's posture toward physical activity has shifted, and what does the conversation say drove the change?",
+      "blind_answer": "Nico shifted from joking about being unathletic to running quietly and joining pickup basketball; Jamal names cholesterol numbers as the trigger and Nico mock-objects but doesn't deny it.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_9ca38ec2",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Jules's relationship with her climate work has shifted, and what appears to have driven the change?",
+      "blind_answer": "Jules shifted from treating the climate work as a job to identifying as 'in the fight' after the SREC carve-out hearing she'd been prepping for moved through.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_337c92c6",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the dynamic between Maya and Devon, and what specifically in the kickoff thread makes the closeness visible?",
+      "blind_answer": "Affectionate freshman-year ribbing dynamic; Devon's 'counterpoint:' undercut of Maya's logistics opener and Maya's no-pushback response signals long-standing closeness.",
+      "score": 0.92,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_7286b3e3",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the working relationship between Cam and Sasha, and what specifically in the theme-debate thread surfaces it?",
+      "blind_answer": "They co-curate the unofficial reunion playlist; Sasha plants 'me and cam already started the reunion playlist so dont fight us on the music tag' and they trade trim/keep votes in the budget thread.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_e9102c3e",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about how Renee fits into the group, and what specifically in the kickoff and book-rec threads makes it visible?",
+      "blind_answer": "Renee reads as a sublet-era honorary member who carries personal continuity in the chat through her recurring parent-check questions and the book-swap callback to Pat's sublet.",
+      "score": 0.92,
+      "score_rationale": "Matches the connection-origin / role-in-group framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_2c54fcdc",
+      "query_type": "Q7",
+      "question": "What does the kickoff exchange between Theo and Devon reveal about Devon's history with reunion attendance, and what shows that this is treated as group memory rather than a fresh complaint?",
+      "blind_answer": "Devon had been the chat's notable reunion-skipper; Theo lands the line about him skipping two in a row and Devon concedes with 'different era theo. different era.' The exchange treats it as known group history.",
+      "score": 0.92,
+      "score_rationale": "Matches the established-group-memory framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_6fb9e2bc",
+      "query_type": "Q5",
+      "question": "What does Renee know about Pat's family circumstances, and how does the conversation show she had this knowledge?",
+      "blind_answer": "Renee knows Pat's father has died and his mother is the surviving parent he is caring for; she shows it by asking specifically 'how is your mom holding up right now?' immediately after Pat flags the death anniversary, not as a generic condolence.",
+      "score": 0.92,
+      "score_rationale": "Matches the targeted, knowing-reference signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_f2e0907a",
+      "query_type": "Q2",
+      "question": "When Bex confirms the rooftop saturday 8pm reservation in the book-recs thread, what did Devon's response in that moment reveal about how he actually felt about the rooftop choice, and what specifically in how he responded tells you that?",
+      "blind_answer": "Devon goes quiet on the rooftop confirmation, deflecting with the Overstory book joke ('ill say nothing about the overstory since the last time i had thoughts on it i nearly lost a friendship') instead of confirming or pushing back; the deflection-in-place is the dissent.",
+      "score": 0.9,
+      "score_rationale": "Matches the deflection-as-dissent reading.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_1cf2c5dc",
+      "query_type": "Q4",
+      "question": "Who in the health and reunion-food thread observed that the vegetarian headcount in the group is larger than members realize, and let the comment sit without further argument?",
+      "blind_answer": "",
+      "score": 1.0,
+      "score_rationale": "",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_c7af8b46",
+      "query_type": "Q4",
+      "question": "In the budget reconciliation thread, who reframed the bar-tab argument as being not about the money but about whose preferences set the default, and used policy-style language to do it?",
+      "blind_answer": "Jules: 'the dispute isnt about the money, it's about whose preferences set the default', signed off with the globe emoji. Anika opened the de-escalation but Jules made the policy-style structural reframe.",
+      "score": 0.95,
+      "score_rationale": "Direct match.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_0cbed2b1",
+      "query_type": "Q1",
+      "question": "What does Pat's behavior in the reunion drinks planning suggest about how he engages with alcohol now, and what does the rest of the group's reaction tell you about whether this is new?",
+      "blind_answer": "Pat keeps to one drink at most now; he tells the chat he'll be on water/one beer and Devon notes the pattern has been ongoing since last year.",
+      "score": 0.95,
+      "score_rationale": "Captures both Pat's flag and Devon's confirming context.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_32edccf3",
+      "query_type": "Q1",
+      "question": "What does Cam's contributions in the health-and-food thread suggest about their own eating pattern, and how is it visible without them stating it directly?",
+      "blind_answer": "Cam reads as a quiet long-time vegetarian; they push the veg-headcount line as observation and avoid rib-platter framing in the kickoff.",
+      "score": 0.9,
+      "score_rationale": "Matches the implicit-vegetarian signal across the kickoff and health thread.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a9549bf6",
+      "query_type": "Q1",
+      "question": "What does Renee's pattern of contributions across the planning months suggest about the kind of reunion component she wants for herself, and what makes it visible?",
+      "blind_answer": "Renee anchors herself in quiet morning components; she offers a morning offshoot in the kickoff, asks if anyone's awake at 6:30 in the health thread, and claims the saturday morning birding offshoot in the format vote.",
+      "score": 0.95,
+      "score_rationale": "Cleanly matches the morning-component pattern across sessions.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Each session has a distinct primary thread (anniversary kickoff, theme debate, health/exercise, news/role shifts, anniversary call, format vote, attendance/disclosures, budget reconciliation, book and film recs, final logistics) with reunion-planning as the umbrella concern, fitting the close-friends large-extended-group model with sub-clique drift."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "Personas are distinguishable by signature: Maya 'okay logistics check'/\ud83d\udc9b, Devon 'counterpoint:'/'not for nothing', Priya terse semi-formal periods, Tom\u00e1s 'just want to flag'/'tom' sign-off, Aanya lowercase exclusive/'lol no', Lila 'okay so'/brisket/\ud83d\ude05, Cam lowercase fast bursts/\ud83d\udc80, Pat ellipsis/'ha', Renee 'warm hello'/'xo r'/parent-checks, Jules globe emoji/'?', Nico 'fellas'/'on this day in 19xx', Bex 'noted'/'btw'/\ud83d\ude43, Hiro 'Apologies'/full sentences, Ife 'genuinely', Sasha '~'/'tbh'/\ud83d\udc9c, Whit 'easy'/\ud83e\udd42, Theo 'literally'/'ok hear me out'/\ud83e\udd21, Quinn 'be well', Eli 'copy'. The Maya/Theo, Devon/Nico, Lila/Jules, Bex/Jamal triple-overlap pairs from Stage 1 are distinguishable in conversation through their speaking_quirks despite matching profile triples."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Transitions are character-driven: Pat's death-anniversary disclosure shifts the theme thread, Eli's mentor-loss check-in opens the anniversary call, Sasha's label signing opens disclosure thread, Bex pivoting from book recs to logistics is even called out by Cam ('iconic'). No unannounced topic jumps."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes in any message field; verified programmatically."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 48 planted-challenge evidence_spans verified verbatim against turn messages; all 52 QA evidence_anchors verbatim against turn messages."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

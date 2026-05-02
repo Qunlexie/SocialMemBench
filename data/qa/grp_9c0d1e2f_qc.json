@@ -2,8 +2,8 @@
   "network_id": "grp_9c0d1e2f",
   "total_pairs": 6,
   "phase1_mean_score": 1.0,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 0.833,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 83.33,
   "phase3_flagged_count": 0,
   "inference_required_distribution": {
     "0": 0,
@@ -21,32 +21,27 @@
     "Q3": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 1.0
+      "flagged": 0
     },
     "Q4": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q5": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q7": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q8": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 2,
-      "mean_inference_required": 2.0
+      "flagged": 0
     }
   },
   "flagged_pairs": [],
@@ -55,8 +50,8 @@
     {
       "qa_id": "Q3_ph9s1c1",
       "query_type": "Q3",
-      "question": "In Session 1, all four collective members gave their positions on entering the Shoreditch Photo House group show. What was each person’s stance and reason?",
-      "blind_answer": "Anika: proposer, wants 3 deliberate works over 4 dutiful. Diane: immediately enthusiastic, Peckham set ready, “so in.” Luca: declining, Clyde not ready, “I’d rather not submit than submit something I’m not behind.” Raj: tentative, offering archive Karachi series while commercial shoots consume him.",
+      "question": "In Session 1, all four collective members gave their positions on entering the Shoreditch Photo House group show. What was each person\u2019s stance and reason?",
+      "blind_answer": "Anika: proposer, wants 3 deliberate works over 4 dutiful. Diane: immediately enthusiastic, Peckham set ready, \u201cso in.\u201d Luca: declining, Clyde not ready, \u201cI\u2019d rather not submit than submit something I\u2019m not behind.\u201d Raj: tentative, offering archive Karachi series while commercial shoots consume him.",
       "score": 1.0,
       "score_rationale": "All four positions correctly attributed with evidence from S1.",
       "inference_required": 1,
@@ -68,9 +63,9 @@
       "qa_id": "Q4_ph9s1c2",
       "query_type": "Q4",
       "question": "Both Diane and Anika are enthusiastic about entering group shows. Who enters shows primarily to get external validation, and who enters because she considers exhibition the only meaningful measure of professional worth?",
-      "blind_answer": "Diane = external validation: buzzing about two guest book comments, enters for the deadline and the feedback. Anika = professional standard: “better three deliberate works than four dutiful ones”; one-line verdicts signal she treats exhibition as the only legitimate measure.",
+      "blind_answer": "Diane = external validation: buzzing about two guest book comments, enters for the deadline and the feedback. Anika = professional standard: \u201cbetter three deliberate works than four dutiful ones\u201d; one-line verdicts signal she treats exhibition as the only legitimate measure.",
       "score": 1.0,
-      "score_rationale": "Both correctly distinguished. Grounded=false because Anika’s professional-worth motivation is not evidenced by an anchor; it requires reading non-anchored turns.",
+      "score_rationale": "Both correctly distinguished. Grounded=false because Anika\u2019s professional-worth motivation is not evidenced by an anchor; it requires reading non-anchored turns.",
       "inference_required": 2,
       "grounded": false,
       "flagged": false,
@@ -79,10 +74,10 @@
     {
       "qa_id": "Q5_ph9s2c1",
       "query_type": "Q5",
-      "question": "What tension in Raj’s work habits was he describing in Session 2, and how does the conversation show that Luca already knew it?",
-      "blind_answer": "Raj described the day job eating personal creative hours. Luca’s “yes. That’s exactly what happens.” is immediate recognition not discovery — then gave specific practical advice (“Submit the Karachi for now... when the studio clears”) that implies prior bilateral knowledge of Raj’s situation.",
+      "question": "What tension in Raj\u2019s work habits was he describing in Session 2, and how does the conversation show that Luca already knew it?",
+      "blind_answer": "Raj described the day job eating personal creative hours. Luca\u2019s \u201cyes. That\u2019s exactly what happens.\u201d is immediate recognition not discovery \u2014 then gave specific practical advice (\u201cSubmit the Karachi for now... when the studio clears\u201d) that implies prior bilateral knowledge of Raj\u2019s situation.",
       "score": 1.0,
-      "score_rationale": "Both parts of Q5 answered: tension identified, Luca’s prior knowledge evidenced by observable chat behavior (immediate validation + specific advice).",
+      "score_rationale": "Both parts of Q5 answered: tension identified, Luca\u2019s prior knowledge evidenced by observable chat behavior (immediate validation + specific advice).",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -92,9 +87,9 @@
       "qa_id": "Q8_ph9s3c1",
       "query_type": "Q8",
       "question": "What in the conversations signals that Raj's ability to make personal photographic work was being eroded, and what does Session 3 reveal as the turning point?",
-      "blind_answer": "S1: offering archive Karachi as workaround — parallel track still viable. S2-S3: “the day job eats the hours” then “Nothing new for a while. The day job doesn’t stop” — personal work has effectively stopped. S5: aspiration to return (“I mean it this time”) without certainty.",
+      "blind_answer": "S1: offering archive Karachi as workaround \u2014 parallel track still viable. S2-S3: \u201cthe day job eats the hours\u201d then \u201cNothing new for a while. The day job doesn\u2019t stop\u201d \u2014 personal work has effectively stopped. S5: aspiration to return (\u201cI mean it this time\u201d) without certainty.",
       "score": 1.0,
-      "score_rationale": "Four-stage evolution correctly traced with session evidence; flagged q8_shallow_framing — question asks what changed not what triggered it.",
+      "score_rationale": "Four-stage evolution correctly traced with session evidence; flagged q8_shallow_framing \u2014 question asks what changed not what triggered it.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -104,7 +99,7 @@
       "qa_id": "Q8_ph9s4c1",
       "query_type": "Q8",
       "question": "What drove Diane's shift from seeking Anika's approval on submissions to making independent curatorial decisions, and where in the conversation does that shift first become visible?",
-      "blind_answer": "S1-S2: fully deferred to Anika (“okay okay I hear you”), accepted the sixth over her own preference. S4: submitted to Barbican independently without asking anyone, got shortlisted. S5: Anika formally released her (“You don’t need me to review your selections anymore”).",
+      "blind_answer": "S1-S2: fully deferred to Anika (\u201cokay okay I hear you\u201d), accepted the sixth over her own preference. S4: submitted to Barbican independently without asking anyone, got shortlisted. S5: Anika formally released her (\u201cYou don\u2019t need me to review your selections anymore\u201d).",
       "score": 1.0,
       "score_rationale": "Old state, trigger, and new state all correctly identified across sessions; flagged q8_shallow_framing.",
       "inference_required": 2,
@@ -116,7 +111,7 @@
       "qa_id": "Q7_ph9s5c1",
       "query_type": "Q7",
       "question": "What does the conversation reveal about the relationship between Anika and Diane in the collective?",
-      "blind_answer": "Classic mentor-mentee arc: Anika brought Diane in, gatekept her submissions (S2: “It’s a single submission. The sixth.”), and formally released her in S5 (“You don’t need me to review your selections anymore”). Diane had to actively resist the habit of deferring (S4: “I nearly sent it to Anika three times”).",
+      "blind_answer": "Classic mentor-mentee arc: Anika brought Diane in, gatekept her submissions (S2: \u201cIt\u2019s a single submission. The sixth.\u201d), and formally released her in S5 (\u201cYou don\u2019t need me to review your selections anymore\u201d). Diane had to actively resist the habit of deferring (S4: \u201cI nearly sent it to Anika three times\u201d).",
       "score": 1.0,
       "score_rationale": "Full mentor-to-peer arc correctly identified; both anchors found verbatim; relational dynamic well characterised.",
       "inference_required": 2,

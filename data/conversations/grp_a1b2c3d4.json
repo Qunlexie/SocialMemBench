@@ -9,7 +9,18 @@
       "topic": "Game night logistics and Collective history",
       "date": "2026-03-02",
       "date_label": "Session 1, Monday March 2, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_dd44ee55","p_ee55ff66","p_ff66aa77","p_aa77bb88","p_bb88cc99","p_cc99dd00","p_dd00ee11"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_dd44ee55",
+        "p_ee55ff66",
+        "p_ff66aa77",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_cc99dd00",
+        "p_dd00ee11"
+      ],
       "gap_days": null,
       "prior_session_summary": null,
       "critic_scores": null,
@@ -22,7 +33,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 2, 7:00pm",
           "timestamp": "2026-03-02T19:00:00",
-          "message": "ok everyone!! next session is at Raj's place on the 9th, right? 🎲 just confirming before i send the calendar invite. also what are we playing, any votes?",
+          "message": "ok everyone!! next session is at Raj's place on the 9th, right? \ud83c\udfb2 just confirming before i send the calendar invite. also what are we playing, any votes?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -34,7 +45,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 2, 7:02pm",
           "timestamp": "2026-03-02T19:02:00",
-          "message": "Confirmed, my place on the 9th. I'll set up the table early so we're not scrambling again like last time 😄",
+          "message": "Confirmed, my place on the 9th. I'll set up the table early so we're not scrambling again like last time \ud83d\ude04",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t000"
@@ -108,7 +119,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 2, 7:06pm",
           "timestamp": "2026-03-02T19:06:00",
-          "message": "ok ok teacher mode activated lol 😂 i'll send a poll for the game. Felix you and Kezia are the newest so do you have anything you've been wanting to try?",
+          "message": "ok ok teacher mode activated lol \ud83d\ude02 i'll send a poll for the game. Felix you and Kezia are the newest so do you have anything you've been wanting to try?",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -120,7 +131,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 2, 7:08pm",
           "timestamp": "2026-03-02T19:08:00",
-          "message": "YES ok so honestly I've been obsessed with Oath lately 🙌",
+          "message": "YES ok so honestly I've been obsessed with Oath lately \ud83d\ude4c",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t005"
@@ -132,7 +143,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 2, 7:08pm",
           "timestamp": "2026-03-02T19:08:00",
-          "message": "it's like if a 4X strategy game and a narrative RPG had a baby and the baby was also a legacy game 🎮",
+          "message": "it's like if a 4X strategy game and a narrative RPG had a baby and the baby was also a legacy game \ud83c\udfae",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -168,7 +179,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Mar 2, 7:12pm",
           "timestamp": "2026-03-02T19:12:00",
-          "message": "sounds good to me 🙂",
+          "message": "sounds good to me \ud83d\ude42",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -205,7 +216,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 2, 7:14pm",
           "timestamp": "2026-03-02T19:14:00",
-          "message": "ok ok fair enough 😅 what about something like Dune Imperium, it's like a worker placement deckbuilder hybrid, honestly way more accessible",
+          "message": "ok ok fair enough \ud83d\ude05 what about something like Dune Imperium, it's like a worker placement deckbuilder hybrid, honestly way more accessible",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t011"
@@ -229,7 +240,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 2, 7:16pm",
           "timestamp": "2026-03-02T19:16:00",
-          "message": "poll sent! 🗳️ also can we talk about snacks? i was thinking since it's Dune themed we could do spiced nuts and flatbread, like a desert planet situation lol",
+          "message": "poll sent! \ud83d\uddf3\ufe0f also can we talk about snacks? i was thinking since it's Dune themed we could do spiced nuts and flatbread, like a desert planet situation lol",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -277,7 +288,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 2, 7:20pm",
           "timestamp": "2026-03-02T19:20:00",
-          "message": "7:30 target start honestly, a little warmup time first 😊 Raj how long do you want for setup?",
+          "message": "7:30 target start honestly, a little warmup time first \ud83d\ude0a Raj how long do you want for setup?",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t017"
@@ -289,7 +300,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 2, 7:21pm",
           "timestamp": "2026-03-02T19:21:00",
-          "message": "20 mins is enough if I do the insert sorting beforehand 😄",
+          "message": "20 mins is enough if I do the insert sorting beforehand \ud83d\ude04",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t018"
@@ -301,7 +312,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 2, 7:22pm",
           "timestamp": "2026-03-02T19:22:00",
-          "message": "omg Raj your inserts are always so good 😍 how long have you been doing the custom ones",
+          "message": "omg Raj your inserts are always so good \ud83d\ude0d how long have you been doing the custom ones",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t019"
@@ -350,7 +361,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 2, 7:25pm",
           "timestamp": "2026-03-02T19:25:00",
-          "message": "wait you two literally started this whole thing?? like it was just you both at the beginning? 👀",
+          "message": "wait you two literally started this whole thing?? like it was just you both at the beginning? \ud83d\udc40",
           "message_index": 24,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t022"
@@ -362,7 +373,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 2, 7:26pm",
           "timestamp": "2026-03-02T19:26:00",
-          "message": "Three of us. Marcus joined in the first month 😄",
+          "message": "Three of us. Marcus joined in the first month \ud83d\ude04",
           "message_index": 25,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t023"
@@ -423,7 +434,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 2, 7:29pm",
           "timestamp": "2026-03-02T19:29:00",
-          "message": "lol 47% is so specific 😂",
+          "message": "lol 47% is so specific \ud83d\ude02",
           "message_index": 29,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s01_t027"
@@ -449,7 +460,16 @@
       "topic": "Game selection debate and upcoming session prep",
       "date": "2026-03-09",
       "date_label": "Session 2, Monday March 9, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_dd44ee55","p_ee55ff66","p_aa77bb88","p_bb88cc99","p_dd00ee11"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_dd44ee55",
+        "p_ee55ff66",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_dd00ee11"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Agreed on Dune Imperium for next session at Raj's. Established the pre-reading rule. Tomasz and Raj's co-founding history surfaced. Marcus revealed he tracks Derek's win-loss record. Group has clear voice patterns: Marcus terse-precise, Felix multi-message enthusiastic.",
       "critic_scores": null,
@@ -462,7 +482,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 9, 7:00pm",
           "timestamp": "2026-03-09T19:00:00",
-          "message": "ok we're live at Raj's!! 🎉 rulebooks were sent out Wednesday like Marcus asked, everyone had a chance to look? honestly the Dune theme is doing a lot of heavy lifting for me already",
+          "message": "ok we're live at Raj's!! \ud83c\udf89 rulebooks were sent out Wednesday like Marcus asked, everyone had a chance to look? honestly the Dune theme is doing a lot of heavy lifting for me already",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -534,7 +554,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 9, 7:07pm",
           "timestamp": "2026-03-09T19:07:00",
-          "message": "The uncertainty is load-bearing. Remove it and the whole faction balance collapses 🎲",
+          "message": "The uncertainty is load-bearing. Remove it and the whole faction balance collapses \ud83c\udfb2",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -558,7 +578,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 9, 7:10pm",
           "timestamp": "2026-03-09T19:10:00",
-          "message": "exactly!! like in Crusader Kings the political maneuvering is what makes the violence meaningful 🎮",
+          "message": "exactly!! like in Crusader Kings the political maneuvering is what makes the violence meaningful \ud83c\udfae",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s02_t007"
@@ -582,7 +602,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 9, 7:11pm",
           "timestamp": "2026-03-09T19:11:00",
-          "message": "she texted, late shift at the cafe. she'll be at the next one! 😊 Nadia also skipping tonight, i think",
+          "message": "she texted, late shift at the cafe. she'll be at the next one! \ud83d\ude0a Nadia also skipping tonight, i think",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s02_t009"
@@ -594,7 +614,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 9, 7:12pm",
           "timestamp": "2026-03-09T19:12:00",
-          "message": "honestly Kezia got me into this group, we know each other from the design community online, she basically said you all are the real deal 👾",
+          "message": "honestly Kezia got me into this group, we know each other from the design community online, she basically said you all are the real deal \ud83d\udc7e",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -619,7 +639,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Mar 9, 7:13pm",
           "timestamp": "2026-03-09T19:13:00",
-          "message": "she has good taste in groups 🙂",
+          "message": "she has good taste in groups \ud83d\ude42",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s02_t011"
@@ -679,7 +699,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 9, 7:21pm",
           "timestamp": "2026-03-09T19:21:00",
-          "message": "ok before this turns into a two-hour pregame theory session, can we also talk about what's after Dune for the next few weeks? i have a list 😄 Wingspan is on there, Marcus haven't you been saying it's good for mixed groups?",
+          "message": "ok before this turns into a two-hour pregame theory session, can we also talk about what's after Dune for the next few weeks? i have a list \ud83d\ude04 Wingspan is on there, Marcus haven't you been saying it's good for mixed groups?",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -740,7 +760,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Mar 9, 7:26pm",
           "timestamp": "2026-03-09T19:26:00",
-          "message": "Priya mentioned pizza for tonight. Can we do something lighter? I had a heavy lunch 😅",
+          "message": "Priya mentioned pizza for tonight. Can we do something lighter? I had a heavy lunch \ud83d\ude05",
           "message_index": 22,
           "planted_challenges": [
             {
@@ -765,7 +785,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 9, 7:27pm",
           "timestamp": "2026-03-09T19:27:00",
-          "message": "ooh good call, Raj do you have any of those rice crackers left from last time? or we could do hummus and stuff 😊",
+          "message": "ooh good call, Raj do you have any of those rice crackers left from last time? or we could do hummus and stuff \ud83d\ude0a",
           "message_index": 23,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s02_t021"
@@ -777,7 +797,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 9, 7:28pm",
           "timestamp": "2026-03-09T19:28:00",
-          "message": "I can do that 😄 also grabbed some mixed nuts",
+          "message": "I can do that \ud83d\ude04 also grabbed some mixed nuts",
           "message_index": 24,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s02_t022"
@@ -825,7 +845,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 9, 7:32pm",
           "timestamp": "2026-03-09T19:32:00",
-          "message": "lol of course you did Derek 😂 ok Soo-Yeon, Felix, what are you taking?",
+          "message": "lol of course you did Derek \ud83d\ude02 ok Soo-Yeon, Felix, what are you taking?",
           "message_index": 28,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s02_t026"
@@ -839,7 +859,16 @@
       "topic": "Post-Dune debrief drifting into personal chat and Priya's Wingspan surprise",
       "date": "2026-03-16",
       "date_label": "Session 3, Monday March 16, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_ee55ff66","p_ff66aa77","p_aa77bb88","p_bb88cc99","p_cc99dd00"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_ee55ff66",
+        "p_ff66aa77",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_cc99dd00"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Played Dune Imperium. Theory discussion before the game. Felix's connection to Kezia surfaced. Lena revealed she knows Marcus dislikes luck. Soo-Yeon avoided pizza for lighter food. Derek took Harkonnen, Tomasz took Atreides, fitting their personalities. Next game: Wingspan.",
       "critic_scores": null,
@@ -852,7 +881,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 16, 7:00pm",
           "timestamp": "2026-03-16T19:00:00",
-          "message": "ok we're at Soo-Yeon's tonight for Wingspan 🦅 and honestly I am SO ready for this. Tomasz you owe us all an explanation for that last-round Dune betrayal last week btw",
+          "message": "ok we're at Soo-Yeon's tonight for Wingspan \ud83e\udd85 and honestly I am SO ready for this. Tomasz you owe us all an explanation for that last-round Dune betrayal last week btw",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -900,7 +929,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 16, 7:04pm",
           "timestamp": "2026-03-16T19:04:00",
-          "message": "fine fine the rules lawyers have spoken 😤 ok Wingspan, who's setting up? Nadia can you do the bird tray?",
+          "message": "fine fine the rules lawyers have spoken \ud83d\ude24 ok Wingspan, who's setting up? Nadia can you do the bird tray?",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s03_t003"
@@ -937,7 +966,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 16, 7:06pm",
           "timestamp": "2026-03-16T19:06:00",
-          "message": "omg the bird cards are so pretty 😍 Priya did you pick this game because of the art",
+          "message": "omg the bird cards are so pretty \ud83d\ude0d Priya did you pick this game because of the art",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -949,7 +978,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 16, 7:07pm",
           "timestamp": "2026-03-16T19:07:00",
-          "message": "honestly yes but also Marcus said the engine-building is really satisfying even if you lose, which, coming from him is basically a five-star review 😄",
+          "message": "honestly yes but also Marcus said the engine-building is really satisfying even if you lose, which, coming from him is basically a five-star review \ud83d\ude04",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s03_t006"
@@ -961,7 +990,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 16, 7:10pm",
           "timestamp": "2026-03-16T19:10:00",
-          "message": "ok so that was genuinely wonderful 🥹 I went full forest-bird engine and won! Honestly i came in expecting to just enjoy the art and ended up actually caring about winning. is this what you all feel every session??",
+          "message": "ok so that was genuinely wonderful \ud83e\udd79 I went full forest-bird engine and won! Honestly i came in expecting to just enjoy the art and ended up actually caring about winning. is this what you all feel every session??",
           "message_index": 9,
           "planted_challenges": [
             {
@@ -1010,7 +1039,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 16, 7:14pm",
           "timestamp": "2026-03-16T19:14:00",
-          "message": "ok i'll take it 😊 we should definitely put this in the rotation. do you think cooperative and competitive can coexist in a rotation or does one crowd the other out?",
+          "message": "ok i'll take it \ud83d\ude0a we should definitely put this in the rotation. do you think cooperative and competitive can coexist in a rotation or does one crowd the other out?",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s03_t010"
@@ -1022,7 +1051,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Mar 16, 7:15pm",
           "timestamp": "2026-03-16T19:15:00",
-          "message": "they coexist fine if we alternate 🙂",
+          "message": "they coexist fine if we alternate \ud83d\ude42",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s03_t011"
@@ -1082,7 +1111,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 16, 7:19pm",
           "timestamp": "2026-03-16T19:19:00",
-          "message": "fine with pizza 🍕",
+          "message": "fine with pizza \ud83c\udf55",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s03_t016"
@@ -1119,7 +1148,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 16, 7:21pm",
           "timestamp": "2026-03-16T19:21:00",
-          "message": "lol ok pizza it is i guess 😅 majority wins. Nadia you want in on the order?",
+          "message": "lol ok pizza it is i guess \ud83d\ude05 majority wins. Nadia you want in on the order?",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s03_t018"
@@ -1194,7 +1223,16 @@
       "topic": "Hosting rotation change and Kezia's game weight evolution",
       "date": "2026-03-23",
       "date_label": "Session 4, Monday March 23, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_ff66aa77","p_aa77bb88","p_bb88cc99","p_cc99dd00","p_dd00ee11"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_ff66aa77",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_cc99dd00",
+        "p_dd00ee11"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Played Wingspan, Priya surprised herself by winning with an engine build and showed genuine competitive investment. Soo-Yeon quietly avoided pizza. Nadia doesn't eat at table at all. Lena flagged Derek-Priya tension. Marcus said the rotation handles it. Tomasz defended the Dune betrayal with rules citations.",
       "critic_scores": null,
@@ -1207,7 +1245,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 23, 7:00pm",
           "timestamp": "2026-03-23T19:00:00",
-          "message": "ok we're at Marcus's tonight!! 🎲 Tomasz what's on the table today?",
+          "message": "ok we're at Marcus's tonight!! \ud83c\udfb2 Tomasz what's on the table today?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1231,7 +1269,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 23, 7:02pm",
           "timestamp": "2026-03-23T19:02:00",
-          "message": "omg Tomasz you've been slowly corrupting me with actual strategy games 😂 been playing Cascadia solo to practice, loving it",
+          "message": "omg Tomasz you've been slowly corrupting me with actual strategy games \ud83d\ude02 been playing Cascadia solo to practice, loving it",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t001"
@@ -1292,7 +1330,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 23, 7:07pm",
           "timestamp": "2026-03-23T19:07:00",
-          "message": "Kezia and Felix have been a good addition to be fair. Different energy than the founding crowd 😄",
+          "message": "Kezia and Felix have been a good addition to be fair. Different energy than the founding crowd \ud83d\ude04",
           "message_index": 7,
           "planted_challenges": [
             {
@@ -1317,7 +1355,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 23, 7:08pm",
           "timestamp": "2026-03-23T19:08:00",
-          "message": "aww thanks Raj!! 🥹",
+          "message": "aww thanks Raj!! \ud83e\udd79",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t006"
@@ -1341,7 +1379,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 23, 7:09pm",
           "timestamp": "2026-03-23T19:09:00",
-          "message": "it's both for me honestly 😊 the social part is like half the reason i come. also speaking of logistics, Raj should we talk about the hosting schedule? you've been at it a lot",
+          "message": "it's both for me honestly \ud83d\ude0a the social part is like half the reason i come. also speaking of logistics, Raj should we talk about the hosting schedule? you've been at it a lot",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t008"
@@ -1353,7 +1391,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 23, 7:11pm",
           "timestamp": "2026-03-23T19:11:00",
-          "message": "Honestly yeah, I need a break from the constant setup and teardown. I love hosting the marathon once a year but ten sessions in a row at my place takes it out of you 😅",
+          "message": "Honestly yeah, I need a break from the constant setup and teardown. I love hosting the marathon once a year but ten sessions in a row at my place takes it out of you \ud83d\ude05",
           "message_index": 11,
           "planted_challenges": [
             {
@@ -1378,7 +1416,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 23, 7:12pm",
           "timestamp": "2026-03-23T19:12:00",
-          "message": "ok we are definitely doing a rotation then! honestly i should have organized this earlier. who's comfortable hosting? i can make a sign-up sheet 😊",
+          "message": "ok we are definitely doing a rotation then! honestly i should have organized this earlier. who's comfortable hosting? i can make a sign-up sheet \ud83d\ude0a",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t010"
@@ -1438,7 +1476,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 23, 7:18pm",
           "timestamp": "2026-03-23T19:18:00",
-          "message": "written down it is 😄 making the sheet now. also game time, what are we playing? Cascadia anyone?",
+          "message": "written down it is \ud83d\ude04 making the sheet now. also game time, what are we playing? Cascadia anyone?",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t015"
@@ -1450,7 +1488,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 23, 7:19pm",
           "timestamp": "2026-03-23T19:19:00",
-          "message": "yes!! 🦦 i've actually been reading up on it, Tomasz you were right about the spatial scoring",
+          "message": "yes!! \ud83e\udda6 i've actually been reading up on it, Tomasz you were right about the spatial scoring",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t016"
@@ -1474,7 +1512,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 23, 7:21pm",
           "timestamp": "2026-03-23T19:21:00",
-          "message": "honestly Cascadia gives me Stardew Valley vibes, like peaceful but deep 🌿",
+          "message": "honestly Cascadia gives me Stardew Valley vibes, like peaceful but deep \ud83c\udf3f",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t018"
@@ -1486,7 +1524,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 23, 7:22pm",
           "timestamp": "2026-03-23T19:22:00",
-          "message": "The tile arrangement in Cascadia is genuinely elegant. Strong structural design 😄",
+          "message": "The tile arrangement in Cascadia is genuinely elegant. Strong structural design \ud83d\ude04",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s04_t019"
@@ -1500,7 +1538,17 @@
       "topic": "Marcus and Lena debate complexity vs luck; Lena's vegetarian preference surfaces",
       "date": "2026-03-30",
       "date_label": "Session 5, Monday March 30, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_dd44ee55","p_ee55ff66","p_ff66aa77","p_aa77bb88","p_bb88cc99","p_dd00ee11"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_dd44ee55",
+        "p_ee55ff66",
+        "p_ff66aa77",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_dd00ee11"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Hosting rotation established after Raj flagged burnout. Kezia revealed her game tolerance has widened thanks to Tomasz. Felix and Kezia are the newer-member sub-clique. Priya is now genuinely engaged by competitive games. Group played Cascadia.",
       "critic_scores": null,
@@ -1513,7 +1561,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Mar 30, 7:00pm",
           "timestamp": "2026-03-30T19:00:00",
-          "message": "ok Lena's hosting tonight 🎉 i brought veggie samosas as snacks, hope that works for everyone? or i can grab something else if needed",
+          "message": "ok Lena's hosting tonight \ud83c\udf89 i brought veggie samosas as snacks, hope that works for everyone? or i can grab something else if needed",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1525,7 +1573,7 @@
           "speaker_display_name": "Lena",
           "timestamp_label": "Mar 30, 7:01pm",
           "timestamp": "2026-03-30T19:01:00",
-          "message": "veggie samosas are perfect tbh, thank you 😊",
+          "message": "veggie samosas are perfect tbh, thank you \ud83d\ude0a",
           "message_index": 2,
           "planted_challenges": [
             {
@@ -1598,7 +1646,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Mar 30, 7:06pm",
           "timestamp": "2026-03-30T19:06:00",
-          "message": "gonna try to keep up 😅 this is definitely heavier than what i was playing six months ago",
+          "message": "gonna try to keep up \ud83d\ude05 this is definitely heavier than what i was playing six months ago",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s05_t005"
@@ -1610,7 +1658,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 30, 7:07pm",
           "timestamp": "2026-03-30T19:07:00",
-          "message": "honestly same, but like in a good way 🎮",
+          "message": "honestly same, but like in a good way \ud83c\udfae",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s05_t006"
@@ -1658,7 +1706,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Mar 30, 7:49pm",
           "timestamp": "2026-03-30T19:49:00",
-          "message": "To be fair, the Coventry route is the load-bearing play for the merchant engine. Your read was right, the execution needed one more canal tile 😄",
+          "message": "To be fair, the Coventry route is the load-bearing play for the merchant engine. Your read was right, the execution needed one more canal tile \ud83d\ude04",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s05_t010"
@@ -1670,7 +1718,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Mar 30, 7:51pm",
           "timestamp": "2026-03-30T19:51:00",
-          "message": "Felix you did well for a first game 🙂",
+          "message": "Felix you did well for a first game \ud83d\ude42",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1682,7 +1730,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Mar 30, 7:52pm",
           "timestamp": "2026-03-30T19:52:00",
-          "message": "honestly I just kept asking 'what would Marcus do' and doing the opposite for fun 😂",
+          "message": "honestly I just kept asking 'what would Marcus do' and doing the opposite for fun \ud83d\ude02",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s05_t012"
@@ -1804,7 +1852,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Mar 30, 8:02pm",
           "timestamp": "2026-03-30T20:02:00",
-          "message": "I have Codenames. Quick and deduction-focused 🙂",
+          "message": "I have Codenames. Quick and deduction-focused \ud83d\ude42",
           "message_index": 22,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s05_t020"
@@ -1818,7 +1866,16 @@
       "topic": "Tomasz's house rules shift and Soo-Yeon's real-time game experiment",
       "date": "2026-04-06",
       "date_label": "Session 6, Monday April 6, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_ee55ff66","p_ff66aa77","p_aa77bb88","p_bb88cc99","p_cc99dd00"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_ee55ff66",
+        "p_ff66aa77",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_cc99dd00"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Played Brass Birmingham at Lena's. Marcus softened on luck after Lena's reframe. Lena acknowledged her own shift on dice. Tomasz quoted poker as design precedent. Lena's veggie preference emerged via samosa reaction. Derek pushed for a second game, Soo-Yeon had Codenames.",
       "critic_scores": null,
@@ -1831,7 +1888,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 6, 7:00pm",
           "timestamp": "2026-04-06T19:00:00",
-          "message": "Tomasz's tonight!! 🏰 what are we playing and please tell me you made pierogi again",
+          "message": "Tomasz's tonight!! \ud83c\udff0 what are we playing and please tell me you made pierogi again",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1892,7 +1949,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 6, 7:04pm",
           "timestamp": "2026-04-06T19:04:00",
-          "message": "honestly I am so glad you're trying it. I know real-time stuff has always felt like a lot for you, I figured the cooperative format might make it less overwhelming since we can all just yell at each other instead 😂",
+          "message": "honestly I am so glad you're trying it. I know real-time stuff has always felt like a lot for you, I figured the cooperative format might make it less overwhelming since we can all just yell at each other instead \ud83d\ude02",
           "message_index": 5,
           "planted_challenges": [
             {
@@ -1917,7 +1974,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 6, 7:05pm",
           "timestamp": "2026-04-06T19:05:00",
-          "message": "that was the reasoning, yes 🙂",
+          "message": "that was the reasoning, yes \ud83d\ude42",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s06_t004"
@@ -1965,7 +2022,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Apr 6, 7:09pm",
           "timestamp": "2026-04-06T19:09:00",
-          "message": "Soo-Yeon you're going to crush it, i promise 😊 the cooperative thing makes it way less stressful",
+          "message": "Soo-Yeon you're going to crush it, i promise \ud83d\ude0a the cooperative thing makes it way less stressful",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1977,7 +2034,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 6, 7:30pm",
           "timestamp": "2026-04-06T19:30:00",
-          "message": "that was actually fine 🙂 I will note that team communication absorbed most of the pressure. aigoo, I did not expect to enjoy that.",
+          "message": "that was actually fine \ud83d\ude42 I will note that team communication absorbed most of the pressure. aigoo, I did not expect to enjoy that.",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -1989,7 +2046,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 6, 7:31pm",
           "timestamp": "2026-04-06T19:31:00",
-          "message": "YES!! 🎉 told you!! ok now Viticulture. Tomasz can we talk house rules for first-timers since Felix isn't here tonight but we have Kezia who's still building her heavy-game confidence",
+          "message": "YES!! \ud83c\udf89 told you!! ok now Viticulture. Tomasz can we talk house rules for first-timers since Felix isn't here tonight but we have Kezia who's still building her heavy-game confidence",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s06_t010"
@@ -2062,7 +2119,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Apr 6, 7:36pm",
           "timestamp": "2026-04-06T19:36:00",
-          "message": "omg that is so helpful actually 😭 thank you Tomasz",
+          "message": "omg that is so helpful actually \ud83d\ude2d thank you Tomasz",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s06_t015"
@@ -2074,7 +2131,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Apr 6, 7:37pm",
           "timestamp": "2026-04-06T19:37:00",
-          "message": "To be fair, that is elegant scaffolding. Load-bearing choice deferred by one round 😄",
+          "message": "To be fair, that is elegant scaffolding. Load-bearing choice deferred by one round \ud83d\ude04",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s06_t016"
@@ -2098,7 +2155,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 6, 7:39pm",
           "timestamp": "2026-04-06T19:39:00",
-          "message": "noted 🙂",
+          "message": "noted \ud83d\ude42",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2124,7 +2181,16 @@
       "topic": "Derek's rematch pattern acknowledged; Tomasz and Nadia wargame bond surfaces",
       "date": "2026-04-13",
       "date_label": "Session 7, Monday April 13, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_dd44ee55","p_ee55ff66","p_aa77bb88","p_bb88cc99","p_cc99dd00"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_dd44ee55",
+        "p_ee55ff66",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_cc99dd00"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Played Fuse warmup then Viticulture at Tomasz's. Soo-Yeon tried real-time cooperative game and enjoyed it. Tomasz accepted a house rule for new members, a notable shift. Priya revealed she understands Soo-Yeon's real-time discomfort well. Nadia observed rather than played Fuse.",
       "critic_scores": null,
@@ -2137,7 +2203,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 13, 7:00pm",
           "timestamp": "2026-04-13T19:00:00",
-          "message": "ok Soo-Yeon hosting again tonight 🎲 what's on the menu game-wise?",
+          "message": "ok Soo-Yeon hosting again tonight \ud83c\udfb2 what's on the menu game-wise?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2149,7 +2215,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 13, 7:01pm",
           "timestamp": "2026-04-13T19:01:00",
-          "message": "Mysterium. Seven players, deduction, cooperative 🙂",
+          "message": "Mysterium. Seven players, deduction, cooperative \ud83d\ude42",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s07_t000"
@@ -2222,7 +2288,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 13, 7:06pm",
           "timestamp": "2026-04-13T19:06:00",
-          "message": "wait you two did a full wargame campaign together?? when was this, i didn't know that 👀",
+          "message": "wait you two did a full wargame campaign together?? when was this, i didn't know that \ud83d\udc40",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s07_t005"
@@ -2258,7 +2324,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Apr 13, 7:09pm",
           "timestamp": "2026-04-13T19:09:00",
-          "message": "That tracks. Those two are the most rules-precise people in the group, to be fair 😄",
+          "message": "That tracks. Those two are the most rules-precise people in the group, to be fair \ud83d\ude04",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s07_t008"
@@ -2318,7 +2384,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 13, 7:33pm",
           "timestamp": "2026-04-13T19:33:00",
-          "message": "i mean honestly we've run long a few times recently and it's been because of extra rounds. not pointing fingers but 😅",
+          "message": "i mean honestly we've run long a few times recently and it's been because of extra rounds. not pointing fingers but \ud83d\ude05",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s07_t013"
@@ -2355,7 +2421,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 13, 7:35pm",
           "timestamp": "2026-04-13T19:35:00",
-          "message": "I also want to flag, can we keep food off the card table area. The Mysterium cards got a bit close to the chip bowl 😅",
+          "message": "I also want to flag, can we keep food off the card table area. The Mysterium cards got a bit close to the chip bowl \ud83d\ude05",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2392,7 +2458,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Apr 13, 7:37pm",
           "timestamp": "2026-04-13T19:37:00",
-          "message": "My bad, I'll move the bowl 😄 Nadia you should have said something earlier",
+          "message": "My bad, I'll move the bowl \ud83d\ude04 Nadia you should have said something earlier",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s07_t017"
@@ -2430,7 +2496,16 @@
       "topic": "Marathon planning and Felix's abstract game conversion",
       "date": "2026-04-20",
       "date_label": "Session 8, Monday April 20, 2026 7:00pm",
-      "active_participants": ["p_aa11bb22","p_bb22cc33","p_cc33dd44","p_ee55ff66","p_ff66aa77","p_aa77bb88","p_bb88cc99","p_dd00ee11"],
+      "active_participants": [
+        "p_aa11bb22",
+        "p_bb22cc33",
+        "p_cc33dd44",
+        "p_ee55ff66",
+        "p_ff66aa77",
+        "p_aa77bb88",
+        "p_bb88cc99",
+        "p_dd00ee11"
+      ],
       "gap_days": 7,
       "prior_session_summary": "Played Mysterium at Soo-Yeon's. Derek asked for a rematch and was called out by Marcus and Priya. Derek's terse 'fine. noted' acknowledged the pattern. Nadia and Tomasz's wargame history surfaced. Nadia endorsed Soo-Yeon's food-near-cards concern without raising it herself first.",
       "critic_scores": null,
@@ -2443,7 +2518,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 20, 7:00pm",
           "timestamp": "2026-04-20T19:00:00",
-          "message": "ok marathon planning time!! 🎲🎲 Raj you always run this, what's the format looking like this year? and yes i'm already bringing themed snacks don't even try to stop me",
+          "message": "ok marathon planning time!! \ud83c\udfb2\ud83c\udfb2 Raj you always run this, what's the format looking like this year? and yes i'm already bringing themed snacks don't even try to stop me",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2455,7 +2530,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Apr 20, 7:01pm",
           "timestamp": "2026-04-20T19:01:00",
-          "message": "June 14th, my place, noon to midnight. I'll do the inserts and tables, everyone brings a game to pitch. We vote on five games to play through the day 😄",
+          "message": "June 14th, my place, noon to midnight. I'll do the inserts and tables, everyone brings a game to pitch. We vote on five games to play through the day \ud83d\ude04",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t000"
@@ -2467,7 +2542,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 20, 7:02pm",
           "timestamp": "2026-04-20T19:02:00",
-          "message": "love that. also we need to talk about the bring-something rule. last year two people showed up empty-handed, no snacks no game nothing 😅",
+          "message": "love that. also we need to talk about the bring-something rule. last year two people showed up empty-handed, no snacks no game nothing \ud83d\ude05",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t001"
@@ -2540,7 +2615,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 20, 7:07pm",
           "timestamp": "2026-04-20T19:07:00",
-          "message": "that totally counts Nadia! honestly a good game pitch is worth more than another bag of chips 😊",
+          "message": "that totally counts Nadia! honestly a good game pitch is worth more than another bag of chips \ud83d\ude0a",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t006"
@@ -2552,7 +2627,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Apr 20, 7:08pm",
           "timestamp": "2026-04-20T19:08:00",
-          "message": "ok so I want to pitch something for the marathon that I would NEVER have said two months ago 👀",
+          "message": "ok so I want to pitch something for the marathon that I would NEVER have said two months ago \ud83d\udc40",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": null
@@ -2576,7 +2651,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Apr 20, 7:10pm",
           "timestamp": "2026-04-20T19:10:00",
-          "message": "wait Felix pitching an abstract game?? who are you 😂",
+          "message": "wait Felix pitching an abstract game?? who are you \ud83d\ude02",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t009"
@@ -2588,7 +2663,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Apr 20, 7:11pm",
           "timestamp": "2026-04-20T19:11:00",
-          "message": "honestly Soo-Yeon basically told me to just look at the tiles and think about it as a visual design problem and like, it actually clicked 🎨",
+          "message": "honestly Soo-Yeon basically told me to just look at the tiles and think about it as a visual design problem and like, it actually clicked \ud83c\udfa8",
           "message_index": 12,
           "planted_challenges": [
             {
@@ -2613,7 +2688,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 20, 7:12pm",
           "timestamp": "2026-04-20T19:12:00",
-          "message": "I knew the design angle would land. He was always going to like it once the framing matched his background 🙂",
+          "message": "I knew the design angle would land. He was always going to like it once the framing matched his background \ud83d\ude42",
           "message_index": 13,
           "planted_challenges": [
             {
@@ -2650,7 +2725,7 @@
           "speaker_display_name": "Felix",
           "timestamp_label": "Apr 20, 7:14pm",
           "timestamp": "2026-04-20T19:14:00",
-          "message": "honestly you could just say she's a good friend 😂",
+          "message": "honestly you could just say she's a good friend \ud83d\ude02",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t013"
@@ -2662,7 +2737,7 @@
           "speaker_display_name": "Raj",
           "timestamp_label": "Apr 20, 7:15pm",
           "timestamp": "2026-04-20T19:15:00",
-          "message": "Azul is in the marathon pitch pile. To be fair it plays fast, so it works well as a palate cleanser between heavier games 😄",
+          "message": "Azul is in the marathon pitch pile. To be fair it plays fast, so it works well as a palate cleanser between heavier games \ud83d\ude04",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t014"
@@ -2686,7 +2761,7 @@
           "speaker_display_name": "Kezia",
           "timestamp_label": "Apr 20, 7:17pm",
           "timestamp": "2026-04-20T19:17:00",
-          "message": "can i pitch something too? there's a social deduction game i want to try with a big group 👀",
+          "message": "can i pitch something too? there's a social deduction game i want to try with a big group \ud83d\udc40",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t016"
@@ -2710,7 +2785,7 @@
           "speaker_display_name": "Priya",
           "timestamp_label": "Apr 20, 7:19pm",
           "timestamp": "2026-04-20T19:19:00",
-          "message": "yes!! bring your pitches and your snacks and let's make this year's marathon the best one yet 🎉 who's in?",
+          "message": "yes!! bring your pitches and your snacks and let's make this year's marathon the best one yet \ud83c\udf89 who's in?",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t018"
@@ -2722,7 +2797,7 @@
           "speaker_display_name": "Soo-Yeon",
           "timestamp_label": "Apr 20, 7:20pm",
           "timestamp": "2026-04-20T19:20:00",
-          "message": "Confirmed 🙂",
+          "message": "Confirmed \ud83d\ude42",
           "message_index": 21,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_a1b2c3d4_s08_t019"
@@ -2742,7 +2817,7 @@
       "evidence_span": "agree. read the rules people",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_m1d1fa02",
@@ -2754,7 +2829,7 @@
       "evidence_span": "whoever owns it should send the rulebook link by Wednesday. Cuts setup time by at least 30 minutes.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_m1rg01",
@@ -2766,7 +2841,7 @@
       "evidence_span": "Tomasz is right, to be fair. Oath's structural design is beautiful but the load-bearing mechanic is the oath itself",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_m1rg02",
@@ -2778,7 +2853,7 @@
       "evidence_span": "Raj brought his first printed insert to the very first session we ran together, five years ago. That is how I knew he was serious about this.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_m1ip01",
@@ -2790,7 +2865,7 @@
       "evidence_span": "how long have i been in",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 25
+      "turn_index": 26
     },
     {
       "challenge_id": "ch_m2rg01",
@@ -2802,7 +2877,7 @@
       "evidence_span": "Kezia got me into this group, we know each other from the design community online, she basically said you all are the real deal",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_m2tom01",
@@ -2814,7 +2889,7 @@
       "evidence_span": "doesn't the bird feeder die add variance Marcus would usually object to?",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_m2ip01",
@@ -2826,7 +2901,7 @@
       "evidence_span": "Can we do something lighter? I had a heavy lunch",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 21
+      "turn_index": 22
     },
     {
       "challenge_id": "ch_m3ip01",
@@ -2838,7 +2913,7 @@
       "evidence_span": "Everyone keep their food away from the card area please.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_m3ts01",
@@ -2850,7 +2925,7 @@
       "evidence_span": "I went full forest-bird engine and won! Honestly i came in expecting to just enjoy the art and ended up actually caring about winning.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_m3ct01",
@@ -2862,7 +2937,7 @@
       "evidence_span": "I'll just have Raj's flatbread.",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_m3rd01",
@@ -2874,7 +2949,7 @@
       "evidence_span": "you and Derek seem to have different vibes about the session energy. like i've noticed he tends to go quiet when cooperative options are even mentioned",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 21
+      "turn_index": 22
     },
     {
       "challenge_id": "ch_m4ts01",
@@ -2886,7 +2961,7 @@
       "evidence_span": "you walking me through that Terra Mystica session even when i was totally lost kind of changed how i think about heavier games",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_m4rd01",
@@ -2898,7 +2973,7 @@
       "evidence_span": "Kezia and Felix have been a good addition to be fair. Different energy than the founding crowd",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_m4ip01",
@@ -2910,7 +2985,7 @@
       "evidence_span": "I need a break from the constant setup and teardown. I love hosting the marathon once a year but ten sessions in a row at my place takes it out of you",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_m5ip01",
@@ -2922,7 +2997,7 @@
       "evidence_span": "veggie samosas are perfect tbh, thank you",
       "implicitness_level": 3,
       "session_index": 5,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_m5ts01",
@@ -2934,7 +3009,7 @@
       "evidence_span": "That's... actually a fair reframe. Variance as a constraint set rather than randomness. I'd still rather have deterministic design but I can see the argument.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_m5ts02",
@@ -2946,7 +3021,7 @@
       "evidence_span": "I've been so allergic to dice-heavy games for ages and I think it was more about feeling out of control than about the design being bad",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_m6ts01",
@@ -2958,7 +3033,7 @@
       "evidence_span": "I said I would try it. Cooperative real-time is less intimidating than solo speed. I want to see if the team element changes the experience.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_m6tom01",
@@ -2970,7 +3045,7 @@
       "evidence_span": "I know real-time stuff has always felt like a lot for you, I figured the cooperative format might make it less overwhelming since we can all just yell at each other instead",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_m6ts02",
@@ -2982,7 +3057,7 @@
       "evidence_span": "I would normally say no to house rules on principle. But after that session two months ago where the new player left mid-game because the worker placement felt punishing, I think one quality-of-life adjustment for new members is reasonable.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_m7rd01",
@@ -2994,7 +3069,7 @@
       "evidence_span": "You played the wargame campaign with me last spring, so I trust your read on social deduction overlap.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_m7ts01",
@@ -3006,7 +3081,7 @@
       "evidence_span": "fine. noted",
       "implicitness_level": 3,
       "session_index": 7,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_m7ip01",
@@ -3018,7 +3093,7 @@
       "evidence_span": "Thank you. I did not say anything but I noticed that as well.",
       "implicitness_level": 3,
       "session_index": 7,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_m8ct01",
@@ -3030,7 +3105,7 @@
       "evidence_span": "I will bring a game. I do not participate in the food arrangement.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_m8ts01",
@@ -3042,7 +3117,7 @@
       "evidence_span": "Soo-Yeon basically told me to just look at the tiles and think about it as a visual design problem and like, it actually clicked",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_m8tom01",
@@ -3051,10 +3126,10 @@
       "speaker_persona_id": "p_ee55ff66",
       "fact_attribute": "abstract_game_framing",
       "fact_value": "Soo-Yeon understood that Felix would only engage with abstract games if presented through a visual design lens, and deliberately reframed Azul that way",
-      "evidence_span": "I knew the design angle would land. He was always going to like it once the framing matched his background.",
+      "evidence_span": "I knew the design angle would land. He was always going to like it once the framing matched his background",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 12
+      "turn_index": 13
     }
   ]
 }

@@ -13,9 +13,18 @@
       "occupation": "Freelance graphic designer",
       "background": "Grew up in Manchester, moved to London at 22 to study design. Met Dom and Marcus through the local scene. Has always been socially oriented and the group's unofficial event planner.",
       "skills_list": [
-        {"skill": "illustration and branding", "proficiency": "strong"},
-        {"skill": "vegetarian and vegan cooking", "proficiency": "medium"},
-        {"skill": "yoga", "proficiency": "low"}
+        {
+          "skill": "illustration and branding",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vegetarian and vegan cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "yoga",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -35,17 +44,37 @@
       },
       "preferences": {
         "food": [
-          {"value": "avoids meat and fish entirely", "confidence": "High", "implicit": true},
-          {"value": "loves spicy food", "confidence": "Medium", "implicit": true}
+          {
+            "value": "avoids meat and fish entirely",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "loves spicy food",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers morning yoga to gym sessions", "confidence": "Medium", "implicit": true}
+          {
+            "value": "prefers morning yoga to gym sessions",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "loves hosting and being the one who organises things", "confidence": "High", "implicit": true}
+          {
+            "value": "loves hosting and being the one who organises things",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "animated by ethical consumption and sustainability", "confidence": "High", "implicit": true}
+          {
+            "value": "animated by ethical consumption and sustainability",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -74,9 +103,18 @@
       "occupation": "Secondary school PE teacher",
       "background": "From Liverpool, came to London for uni, stayed. Has been with Kezia for two years. The group's go-to for anything sport or fitness related.",
       "skills_list": [
-        {"skill": "football coaching and tactics", "proficiency": "strong"},
-        {"skill": "fitness programming", "proficiency": "strong"},
-        {"skill": "barbecue cooking", "proficiency": "medium"}
+        {
+          "skill": "football coaching and tactics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "fitness programming",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "barbecue cooking",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -96,13 +134,25 @@
       },
       "preferences": {
         "food": [
-          {"value": "high-protein meals, heavy on meat", "confidence": "High", "implicit": true}
+          {
+            "value": "high-protein meals, heavy on meat",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers high-intensity training over low-impact exercise", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers high-intensity training over low-impact exercise",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "prefers active social plans over sitting around", "confidence": "Medium", "implicit": true}
+          {
+            "value": "prefers active social plans over sitting around",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "domain_specific": []
       },
@@ -132,9 +182,18 @@
       "occupation": "Backend software engineer",
       "background": "Born in Leicester, moved to London after graduating. Met Felix at secondary school, reconnected in London years later. Introverted but fiercely loyal. Values one-on-one time over group settings.",
       "skills_list": [
-        {"skill": "software architecture and systems design", "proficiency": "strong"},
-        {"skill": "rock climbing", "proficiency": "medium"},
-        {"skill": "chess", "proficiency": "medium"}
+        {
+          "skill": "software architecture and systems design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "rock climbing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "chess",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -154,13 +213,25 @@
       },
       "preferences": {
         "food": [
-          {"value": "no strong restrictions but dislikes overly rich or heavy food", "confidence": "Medium", "implicit": true}
+          {
+            "value": "no strong restrictions but dislikes overly rich or heavy food",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers solo or paired activities over group ones", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers solo or paired activities over group ones",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "uncomfortable in large or loud group settings, prefers small gatherings of four or fewer", "confidence": "High", "implicit": true}
+          {
+            "value": "uncomfortable in large or loud group settings, prefers small gatherings of four or fewer",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": []
       },
@@ -190,9 +261,18 @@
       "occupation": "Head chef and co-owner of a neighbourhood restaurant",
       "background": "Grew up in South London. Has been running his restaurant for four years. Has known Zara since they were teenagers in the same area. Loves talking about food, cooking, and culture.",
       "skills_list": [
-        {"skill": "professional cooking and menu development", "proficiency": "strong"},
-        {"skill": "wine and natural wine knowledge", "proficiency": "strong"},
-        {"skill": "storytelling and entertaining people", "proficiency": "medium"}
+        {
+          "skill": "professional cooking and menu development",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wine and natural wine knowledge",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "storytelling and entertaining people",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -212,17 +292,37 @@
       },
       "preferences": {
         "food": [
-          {"value": "obsessed with seasonal, locally sourced ingredients", "confidence": "High", "implicit": true},
-          {"value": "prefers natural wine over conventional", "confidence": "High", "implicit": true}
+          {
+            "value": "obsessed with seasonal, locally sourced ingredients",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "prefers natural wine over conventional",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "cooking for others as primary social activity", "confidence": "High", "implicit": true}
+          {
+            "value": "cooking for others as primary social activity",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "loves hosting big meals and events", "confidence": "High", "implicit": true}
+          {
+            "value": "loves hosting big meals and events",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "experimentally inclined in cooking, enjoys challenging techniques and unusual pairings", "confidence": "High", "implicit": true}
+          {
+            "value": "experimentally inclined in cooking, enjoys challenging techniques and unusual pairings",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -251,9 +351,18 @@
       "occupation": "Social worker, children and families team",
       "background": "Originally from Bristol, came to London seven years ago. Started dating Dom two years ago. Deeply empathetic and good at reading group dynamics. Joined the friend group through Dom.",
       "skills_list": [
-        {"skill": "emotional support and active listening", "proficiency": "strong"},
-        {"skill": "community event organising", "proficiency": "medium"},
-        {"skill": "salsa dancing", "proficiency": "low"}
+        {
+          "skill": "emotional support and active listening",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "community event organising",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "salsa dancing",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -273,13 +382,25 @@
       },
       "preferences": {
         "food": [
-          {"value": "loves spicy Caribbean food", "confidence": "High", "implicit": true}
+          {
+            "value": "loves spicy Caribbean food",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers in-person socialising to anything virtual", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers in-person socialising to anything virtual",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "strongly values being physically present with people she cares about", "confidence": "High", "implicit": true}
+          {
+            "value": "strongly values being physically present with people she cares about",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": []
       },
@@ -309,9 +430,18 @@
       "occupation": "Freelance investigative journalist",
       "background": "Grew up in Leicester with Priya, both moved to London independently and reconnected through mutual friends. Analytical, occasionally aloof. Went through a breakup at the start of the year, which the group has been gently supportive about.",
       "skills_list": [
-        {"skill": "investigative research and writing", "proficiency": "strong"},
-        {"skill": "pub quiz knowledge across politics, culture, and history", "proficiency": "strong"},
-        {"skill": "political and cultural analysis", "proficiency": "medium"}
+        {
+          "skill": "investigative research and writing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "pub quiz knowledge across politics, culture, and history",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "political and cultural analysis",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -331,16 +461,32 @@
       },
       "preferences": {
         "food": [
-          {"value": "classic European food, skeptical of food trends", "confidence": "High", "implicit": true}
+          {
+            "value": "classic European food, skeptical of food trends",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers individual activities (reading, running alone, climbing) over team sports", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers individual activities (reading, running alone, climbing) over team sports",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "small group settings only, finds large social events draining", "confidence": "High", "implicit": true}
+          {
+            "value": "small group settings only, finds large social events draining",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "skeptical of food fads and wellness culture", "confidence": "High", "implicit": true}
+          {
+            "value": "skeptical of food fads and wellness culture",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -370,7 +516,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Met in freshers week in London, have been close ever since. Zara is the only one who can get Dom to talk about feelings.",
-      "shared_events": ["multiple holidays together", "attended each other's family events"]
+      "shared_events": [
+        "multiple holidays together",
+        "attended each other's family events"
+      ]
     },
     {
       "persona_a_id": "p_za01b2c3",
@@ -379,7 +528,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Met at a design agency three years ago, hit it off over a shared dislike of open-plan offices. Zara appreciates Priya's directness.",
-      "shared_events": ["shared a flat briefly", "took a climbing course together"]
+      "shared_events": [
+        "shared a flat briefly",
+        "took a climbing course together"
+      ]
     },
     {
       "persona_a_id": "p_za01b2c3",
@@ -388,7 +540,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Grew up two streets apart in South London. Marcus taught Zara to cook. She was his first unpaid taster when he started experimenting with menus.",
-      "shared_events": ["secondary school years", "Marcus's restaurant opening"]
+      "shared_events": [
+        "secondary school years",
+        "Marcus's restaurant opening"
+      ]
     },
     {
       "persona_a_id": "p_za01b2c3",
@@ -397,7 +552,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Became friends when Dom and Kezia started dating. They get on well but the friendship is still relatively new.",
-      "shared_events": ["joint birthday dinner for Dom", "a few group holidays"]
+      "shared_events": [
+        "joint birthday dinner for Dom",
+        "a few group holidays"
+      ]
     },
     {
       "persona_a_id": "p_za01b2c3",
@@ -405,8 +563,10 @@
       "relationship_type": "acquaintances who tolerate each other",
       "closeness": "Low",
       "sentiment": "mixed",
-      "history_summary": "Met through Priya. They clash on lifestyle values — Zara finds Felix dismissive of things she cares about; Felix finds Zara too enthusiastic. Both make an effort for Priya's sake.",
-      "shared_events": ["group dinners where they avoid direct conversation"]
+      "history_summary": "Met through Priya. They clash on lifestyle values \u2014 Zara finds Felix dismissive of things she cares about; Felix finds Zara too enthusiastic. Both make an effort for Priya's sake.",
+      "shared_events": [
+        "group dinners where they avoid direct conversation"
+      ]
     },
     {
       "persona_a_id": "p_do02c3d4",
@@ -415,7 +575,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Get on well but not close. Dom respects Priya's no-nonsense approach; Priya appreciates that Dom doesn't push for deep conversation.",
-      "shared_events": ["group runs", "several group dinners"]
+      "shared_events": [
+        "group runs",
+        "several group dinners"
+      ]
     },
     {
       "persona_a_id": "p_do02c3d4",
@@ -424,7 +587,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Have been training together for six years. Dom is one of Marcus's first testers for new menu ideas. They have a standing Thursday-night arrangement.",
-      "shared_events": ["gym sessions", "Marcus cooked for Dom's birthday every year"]
+      "shared_events": [
+        "gym sessions",
+        "Marcus cooked for Dom's birthday every year"
+      ]
     },
     {
       "persona_a_id": "p_do02c3d4",
@@ -433,7 +599,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Together for two years. The group is aware of the relationship dynamics and tries not to take sides when they disagree. Kezia's move to Bristol is a major stress point.",
-      "shared_events": ["joint holiday to Portugal", "moving Kezia's flat together"]
+      "shared_events": [
+        "joint holiday to Portugal",
+        "moving Kezia's flat together"
+      ]
     },
     {
       "persona_a_id": "p_do02c3d4",
@@ -442,7 +611,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Respect each other without being close. Felix is the reason Dom gets quiz night questions right. Dom is the reason Felix occasionally goes outside.",
-      "shared_events": ["multiple pub quizzes", "Felix came to one football match"]
+      "shared_events": [
+        "multiple pub quizzes",
+        "Felix came to one football match"
+      ]
     },
     {
       "persona_a_id": "p_pr03d4e5",
@@ -451,7 +623,9 @@
       "closeness": "Low",
       "sentiment": "tense",
       "history_summary": "Never quite clicked. Priya finds Marcus loud; Marcus finds Priya hard to read. They are polite at group events but never seek each other out.",
-      "shared_events": ["group dinners where they sit at opposite ends"]
+      "shared_events": [
+        "group dinners where they sit at opposite ends"
+      ]
     },
     {
       "persona_a_id": "p_pr03d4e5",
@@ -460,7 +634,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Kezia's warmth tends to draw out Priya slightly. They have had a few one-on-one coffees and Priya has opened up more to Kezia than to most of the group.",
-      "shared_events": ["two one-on-one coffee meetups", "gym class together"]
+      "shared_events": [
+        "two one-on-one coffee meetups",
+        "gym class together"
+      ]
     },
     {
       "persona_a_id": "p_pr03d4e5",
@@ -469,7 +646,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Known each other since age 11. Went to different universities but stayed in touch. The longest friendship in the group. Understand each other without explanation.",
-      "shared_events": ["grew up in Leicester together", "both moved to London independently and reconnected"]
+      "shared_events": [
+        "grew up in Leicester together",
+        "both moved to London independently and reconnected"
+      ]
     },
     {
       "persona_a_id": "p_ma04e5f6",
@@ -478,7 +658,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Like each other. Marcus appreciates Kezia's capacity to manage Dom's mood; Kezia enjoys the free meals. They bond over Caribbean food.",
-      "shared_events": ["Marcus cooked for Kezia's birthday", "a few two-couple dinners"]
+      "shared_events": [
+        "Marcus cooked for Kezia's birthday",
+        "a few two-couple dinners"
+      ]
     },
     {
       "persona_a_id": "p_ma04e5f6",
@@ -487,7 +670,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Both care about food quality, though they differ on philosophy. Felix respects Marcus's expertise even if he finds the natural wine enthusiasm a bit much.",
-      "shared_events": ["shared a table at a food festival", "a few group dinners"]
+      "shared_events": [
+        "shared a table at a food festival",
+        "a few group dinners"
+      ]
     },
     {
       "persona_a_id": "p_ke05f6a7",
@@ -496,7 +682,9 @@
       "closeness": "Low",
       "sentiment": "positive",
       "history_summary": "Barely know each other outside group settings. Felix is polite; Kezia is warm. No friction, just no overlap.",
-      "shared_events": ["group dinners and group outings only"]
+      "shared_events": [
+        "group dinners and group outings only"
+      ]
     }
   ],
   "group_norms": [
@@ -508,7 +696,9 @@
     {
       "norm_text": "Everyone brings or contributes something when we do group dinners at someone's place",
       "truly_universal": false,
-      "dissenters": ["p_pr03d4e5"]
+      "dissenters": [
+        "p_pr03d4e5"
+      ]
     },
     {
       "norm_text": "We celebrate each other's wins in the group chat, no matter how small",
@@ -519,6 +709,10 @@
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "close_friends",
+    "group_size": 6
   }
 }

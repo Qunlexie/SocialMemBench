@@ -13,10 +13,22 @@
       "occupation": "Retired maternity nurse, NHS",
       "background": "Grew up in Cork, moved to Manchester in her twenties for nursing training. Met Derek there and stayed. Raised four children mostly on her own while Derek worked long stints away on infrastructure projects. Now retired, she is the emotional centre of the family and the one who keeps everyone in contact. Very active on the family WhatsApp, sends voice notes no one fully listens to, and celebrates every achievement with a string of emojis. Worries chronically about each of her children but expresses it as enthusiasm rather than anxiety.",
       "skills_list": [
-        {"skill": "family coordination and event planning", "proficiency": "strong"},
-        {"skill": "cooking traditional Irish and British meals", "proficiency": "strong"},
-        {"skill": "first aid and medical triage", "proficiency": "strong"},
-        {"skill": "gardening", "proficiency": "medium"}
+        {
+          "skill": "family coordination and event planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking traditional Irish and British meals",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "first aid and medical triage",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -35,10 +47,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "prefers home-cooked Sunday roast over restaurants — finds eating out stressful rather than relaxing", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers structured group activities over solo exercise — finds solo walks lonely now the children are grown", "confidence": "High", "implicit": true}],
-        "social": [{"value": "needs everyone present and engaged at family gatherings — absence upsets her even if not stated directly", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "prefers phone calls over text for important family news — feels texting is impersonal for serious matters", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "prefers home-cooked Sunday roast over restaurants \u2014 finds eating out stressful rather than relaxing",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers structured group activities over solo exercise \u2014 finds solo walks lonely now the children are grown",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "needs everyone present and engaged at family gatherings \u2014 absence upsets her even if not stated directly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers phone calls over text for important family news \u2014 feels texting is impersonal for serious matters",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -63,12 +99,24 @@
       "age": 67,
       "gender": "male",
       "occupation": "Retired civil engineer, former infrastructure project manager",
-      "background": "From Manchester originally. Spent much of his working life on infrastructure projects around the UK and Europe — railways, bridges, tunnels. Was often absent during the children's early years, something he regrets but cannot easily articulate. Now retired and home full time, which has been an adjustment for both him and Margaret. Very practical; his emotional expression is entirely action-based. Has a dry humour that goes over people's heads unless they know him well.",
+      "background": "From Manchester originally. Spent much of his working life on infrastructure projects around the UK and Europe \u2014 railways, bridges, tunnels. Was often absent during the children's early years, something he regrets but cannot easily articulate. Now retired and home full time, which has been an adjustment for both him and Margaret. Very practical; his emotional expression is entirely action-based. Has a dry humour that goes over people's heads unless they know him well.",
       "skills_list": [
-        {"skill": "structural assessment and DIY maintenance", "proficiency": "strong"},
-        {"skill": "map reading and route planning", "proficiency": "strong"},
-        {"skill": "vegetable gardening", "proficiency": "medium"},
-        {"skill": "chess", "proficiency": "medium"}
+        {
+          "skill": "structural assessment and DIY maintenance",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "map reading and route planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vegetable gardening",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "chess",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Low",
@@ -87,10 +135,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "prefers plain food cooked simply — suspicious of anything described as 'fusion' or with too many ingredients", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers practical outdoor activities over social events — would rather fix the fence than attend a dinner party", "confidence": "High", "implicit": true}],
-        "social": [{"value": "finds large family gatherings exhausting after about two hours and quietly disappears to the garden or shed", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "prefers physical newspapers over online news — dislikes push notifications and screen-based reading", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "prefers plain food cooked simply \u2014 suspicious of anything described as 'fusion' or with too many ingredients",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers practical outdoor activities over social events \u2014 would rather fix the fence than attend a dinner party",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "finds large family gatherings exhausting after about two hours and quietly disappears to the garden or shed",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers physical newspapers over online news \u2014 dislikes push notifications and screen-based reading",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -105,7 +177,7 @@
       "speaking_quirks": [
         "responds to most questions with a single factual sentence, no elaboration",
         "uses 'Right' or 'Fair enough' to signal a topic is closed",
-        "makes extremely dry observations that land as jokes only if you know him — otherwise they read as statements"
+        "makes extremely dry observations that land as jokes only if you know him \u2014 otherwise they read as statements"
       ],
       "participation_rate": 1.0
     },
@@ -115,12 +187,24 @@
       "age": 39,
       "gender": "female",
       "occupation": "Partner, family law solicitor at a Manchester firm",
-      "background": "Eldest child — took on a lot of family responsibility growing up while Derek was away. Studied law at Leeds, came back to Manchester. Recently made partner. Single after a long relationship ended two years ago. Has a tendency to manage everyone around her whether they want it or not. Close to Sophie, complicated relationship with Jamie whose unreliability frustrates her, and a respectful but slightly distant relationship with Derek. More emotionally invested in the family than she lets on.",
+      "background": "Eldest child \u2014 took on a lot of family responsibility growing up while Derek was away. Studied law at Leeds, came back to Manchester. Recently made partner. Single after a long relationship ended two years ago. Has a tendency to manage everyone around her whether they want it or not. Close to Sophie, complicated relationship with Jamie whose unreliability frustrates her, and a respectful but slightly distant relationship with Derek. More emotionally invested in the family than she lets on.",
       "skills_list": [
-        {"skill": "legal drafting and negotiation", "proficiency": "strong"},
-        {"skill": "household and family logistics", "proficiency": "strong"},
-        {"skill": "running (half marathon level)", "proficiency": "medium"},
-        {"skill": "wine knowledge", "proficiency": "medium"}
+        {
+          "skill": "legal drafting and negotiation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "household and family logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running (half marathon level)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "wine knowledge",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -139,10 +223,34 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "prefers restaurants with fixed menus or set courses — finds open menus overwhelming after a full day of decisions at work", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "prefers solo structured exercise (running, gym) over group activities — needs the quiet to decompress", "confidence": "High", "implicit": true}],
-        "social": [{"value": "values family time more than she outwardly shows — organises gatherings framed as logistics rather than sentiment", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "prefers written messages over unexpected phone calls for non-urgent matters — finds unscheduled calls intrusive", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "prefers restaurants with fixed menus or set courses \u2014 finds open menus overwhelming after a full day of decisions at work",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers solo structured exercise (running, gym) over group activities \u2014 needs the quiet to decompress",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values family time more than she outwardly shows \u2014 organises gatherings framed as logistics rather than sentiment",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers written messages over unexpected phone calls for non-urgent matters \u2014 finds unscheduled calls intrusive",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -157,7 +265,7 @@
       "speaking_quirks": [
         "opens messages by addressing the person by name: 'Jamie, I need...' or 'Mum, the thing is...'",
         "uses numbered or bullet-point phrasing even in casual family messages",
-        "rarely uses contractions in writing — 'I would not' rather than 'I wouldn't'"
+        "rarely uses contractions in writing \u2014 'I would not' rather than 'I wouldn't'"
       ],
       "participation_rate": 1.0
     },
@@ -167,12 +275,24 @@
       "age": 36,
       "gender": "male",
       "occupation": "Freelance music producer and session guitarist",
-      "background": "Second child. Always went his own way — dropped out of university after one year to pursue music, which caused tension with Derek for years. Has lived in London, Berlin, and Manchester, often crashing in friends' places. Recently landed a long-term production contract with a Manchester label and finally has stable income. Has a habit of disappearing from the family chat for weeks then reappearing with a massive life update. Full of warmth but genuinely unreliable. Gets on with everyone except Rachel, with whom there is a low-level friction that neither fully acknowledges.",
+      "background": "Second child. Always went his own way \u2014 dropped out of university after one year to pursue music, which caused tension with Derek for years. Has lived in London, Berlin, and Manchester, often crashing in friends' places. Recently landed a long-term production contract with a Manchester label and finally has stable income. Has a habit of disappearing from the family chat for weeks then reappearing with a massive life update. Full of warmth but genuinely unreliable. Gets on with everyone except Rachel, with whom there is a low-level friction that neither fully acknowledges.",
       "skills_list": [
-        {"skill": "music production and mixing", "proficiency": "strong"},
-        {"skill": "guitar and bass", "proficiency": "strong"},
-        {"skill": "cooking — improvisational and generous", "proficiency": "medium"},
-        {"skill": "storytelling and entertaining", "proficiency": "strong"}
+        {
+          "skill": "music production and mixing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "guitar and bass",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking \u2014 improvisational and generous",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "storytelling and entertaining",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -191,17 +311,41 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "loves cooking for others and prefers informal shared meals over formal sit-down occasions", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers spontaneous unplanned days over scheduled ones — resists being locked into dates more than a week out", "confidence": "High", "implicit": true}],
-        "social": [{"value": "enjoys large family gatherings but gets restless when conversation loops back to the same topics", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "prefers recording on analogue equipment for his own projects but uses digital for clients — treats this as a meaningful distinction others find eccentric", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "loves cooking for others and prefers informal shared meals over formal sit-down occasions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers spontaneous unplanned days over scheduled ones \u2014 resists being locked into dates more than a week out",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys large family gatherings but gets restless when conversation loops back to the same topics",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers recording on analogue equipment for his own projects but uses digital for clients \u2014 treats this as a meaningful distinction others find eccentric",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "housing",
           "attribute": "living situation",
           "old_value": "staying in friends' spare rooms or short-term sublets during Manchester stays; no permanent base",
-          "new_value": "has his own flat in Ancoats — first stable address in five years",
+          "new_value": "has his own flat in Ancoats \u2014 first stable address in five years",
           "changed_at_session": 2,
           "trigger": "Long-term production contract with a Manchester-based independent label gave him enough regular income to commit to a proper rental"
         }
@@ -209,7 +353,7 @@
       "speaking_quirks": [
         "opens messages mid-thought as if continuing a prior conversation ('okay so the thing is...' or 'right, bit of an update')",
         "uses 'honestly' and 'genuinely' as frequent emphasis markers",
-        "makes consistent small typos — drops final letters, never goes back to fix them"
+        "makes consistent small typos \u2014 drops final letters, never goes back to fix them"
       ],
       "participation_rate": 1.0
     },
@@ -219,12 +363,24 @@
       "age": 33,
       "gender": "female",
       "occupation": "Secondary school history teacher, sixth form lead",
-      "background": "Third child. The family peacemaker — has always been the one to translate between Rachel and Jamie, or interpret Derek's silences for Margaret. Genuinely loves her job; well-liked by students. Has a long-term partner, Priya, who has been mentioned in the chat but has not yet appeared at a full family Christmas. Sophie is working up to it. Active on the chat, keeps the energy positive. Has started to feel professionally stagnant and is entertaining the idea of teaching abroad, though she hasn't fully committed to the idea.",
+      "background": "Third child. The family peacemaker \u2014 has always been the one to translate between Rachel and Jamie, or interpret Derek's silences for Margaret. Genuinely loves her job; well-liked by students. Has a long-term partner, Priya, who has been mentioned in the chat but has not yet appeared at a full family Christmas. Sophie is working up to it. Active on the chat, keeps the energy positive. Has started to feel professionally stagnant and is entertaining the idea of teaching abroad, though she hasn't fully committed to the idea.",
       "skills_list": [
-        {"skill": "conflict mediation and de-escalation", "proficiency": "strong"},
-        {"skill": "historical research and narrative", "proficiency": "strong"},
-        {"skill": "baking and meal planning", "proficiency": "medium"},
-        {"skill": "travel research and itinerary planning", "proficiency": "medium"}
+        {
+          "skill": "conflict mediation and de-escalation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "historical research and narrative",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "baking and meal planning",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "travel research and itinerary planning",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -243,16 +399,40 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "prefers trying new cuisines and unusual independent restaurants — gets excited about places others overlook", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers activities with a social component — avoids solo exercise even when it would be more efficient", "confidence": "High", "implicit": true}],
-        "social": [{"value": "comfortable as the bridge between family factions — prefers everyone present even if it creates some tension", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "researches every trip extensively before booking anything — prefers having all details confirmed well in advance", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "prefers trying new cuisines and unusual independent restaurants \u2014 gets excited about places others overlook",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers activities with a social component \u2014 avoids solo exercise even when it would be more efficient",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "comfortable as the bridge between family factions \u2014 prefers everyone present even if it creates some tension",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "researches every trip extensively before booking anything \u2014 prefers having all details confirmed well in advance",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "career",
           "attribute": "long-term career intention",
-          "old_value": "planned to stay at current school indefinitely — comfortable, secure, no pressure to change",
+          "old_value": "planned to stay at current school indefinitely \u2014 comfortable, secure, no pressure to change",
           "new_value": "actively researching international teaching posts, particularly in Southeast Asia",
           "changed_at_session": 6,
           "trigger": "A colleague returned from two years teaching in Singapore and described a profound change in perspective; Sophie had been feeling quietly stagnant and the conversation opened something up"
@@ -271,12 +451,24 @@
       "age": 31,
       "gender": "male",
       "occupation": "PhD candidate in computational linguistics, University of Edinburgh",
-      "background": "Youngest child. Moved to Edinburgh for his PhD and rarely comes home. Introverted and sarcastic; the most academically focused of the four. Has a complicated relationship with family gatherings — finds them loud and overwhelming but misses them more than he admits. Often goes silent in the chat for weeks, then sends a long, overly formal message as if responding to minutes of a meeting. Derek is privately proud of his academic path but has never said so directly. Callum suspects this but has never raised it.",
+      "background": "Youngest child. Moved to Edinburgh for his PhD and rarely comes home. Introverted and sarcastic; the most academically focused of the four. Has a complicated relationship with family gatherings \u2014 finds them loud and overwhelming but misses them more than he admits. Often goes silent in the chat for weeks, then sends a long, overly formal message as if responding to minutes of a meeting. Derek is privately proud of his academic path but has never said so directly. Callum suspects this but has never raised it.",
       "skills_list": [
-        {"skill": "programming and data analysis (Python, R)", "proficiency": "strong"},
-        {"skill": "academic writing and argumentation", "proficiency": "strong"},
-        {"skill": "chess", "proficiency": "medium"},
-        {"skill": "long-distance cycling", "proficiency": "medium"}
+        {
+          "skill": "programming and data analysis (Python, R)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "academic writing and argumentation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "chess",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "long-distance cycling",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -295,10 +487,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "prefers cooking simple efficient meals alone — finds elaborate family cooking processes anxiety-inducing", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers long solo cycling trips over group activities — values solitude and the absence of coordination overhead", "confidence": "High", "implicit": true}],
-        "social": [{"value": "treats the family chat as background noise — mutes it and checks in in batches; finds real-time group chats cognitively expensive", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "prefers Edinburgh as his primary home and feels ambivalent about returning to Manchester long-term, though does not say this aloud", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "prefers cooking simple efficient meals alone \u2014 finds elaborate family cooking processes anxiety-inducing",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers long solo cycling trips over group activities \u2014 values solitude and the absence of coordination overhead",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "treats the family chat as background noise \u2014 mutes it and checks in in batches; finds real-time group chats cognitively expensive",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers Edinburgh as his primary home and feels ambivalent about returning to Manchester long-term, though does not say this aloud",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -307,13 +523,13 @@
           "old_value": "treats family dinners as obligations to be managed; goes quiet in the chat for weeks; declines most non-essential calls",
           "new_value": "initiating more frequent contact; turning up to family things without being chased; responding to messages on the same day",
           "changed_at_session": 7,
-          "trigger": "A difficult period in his PhD — conflict with supervisor and growing isolation in Edinburgh — made him realise he needed the family connection more than he had admitted to himself"
+          "trigger": "A difficult period in his PhD \u2014 conflict with supervisor and growing isolation in Edinburgh \u2014 made him realise he needed the family connection more than he had admitted to himself"
         }
       ],
       "speaking_quirks": [
         "responds hours or days after a message thread, then replies as if no time has passed",
         "uses precise, slightly formal vocabulary in casual contexts ('to clarify', 'the implication being', 'that tracks')",
-        "delivers dry observations with no tonal markers — reads as statement unless you know him"
+        "delivers dry observations with no tonal markers \u2014 reads as statement unless you know him"
       ],
       "participation_rate": 1.0
     }
@@ -325,8 +541,12 @@
       "relationship_type": "married couple",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Married 41 years. Margaret adapted to Derek's long absences during his career and built the family largely on her own. Now that he is retired and home, they are adjusting to being together full-time. Fundamentally solid but they communicate very differently — she through words and warmth, he through action and silence.",
-      "shared_events": ["40th wedding anniversary", "children's milestones", "retirement transition"]
+      "history_summary": "Married 41 years. Margaret adapted to Derek's long absences during his career and built the family largely on her own. Now that he is retired and home, they are adjusting to being together full-time. Fundamentally solid but they communicate very differently \u2014 she through words and warmth, he through action and silence.",
+      "shared_events": [
+        "40th wedding anniversary",
+        "children's milestones",
+        "retirement transition"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b901",
@@ -334,8 +554,12 @@
       "relationship_type": "mother and eldest daughter",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Rachel and Margaret are close, though their communication styles clash — Rachel finds Margaret's emotional intensity overwhelming at times; Margaret wishes Rachel would be warmer and less managed. They do not argue but speak carefully around each other on tender subjects.",
-      "shared_events": ["Rachel's partnership announcement", "Margaret's retirement party", "Sunday dinners"]
+      "history_summary": "Rachel and Margaret are close, though their communication styles clash \u2014 Rachel finds Margaret's emotional intensity overwhelming at times; Margaret wishes Rachel would be warmer and less managed. They do not argue but speak carefully around each other on tender subjects.",
+      "shared_events": [
+        "Rachel's partnership announcement",
+        "Margaret's retirement party",
+        "Sunday dinners"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b901",
@@ -344,7 +568,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Margaret has always been Jamie's staunchest defender. She intervened repeatedly during the years Derek and Jamie clashed over his career choice. She loves his warmth and humour but genuinely worries about his financial stability, though she keeps this to expressions of food and visits.",
-      "shared_events": ["Jamie's first gig she attended", "rescuing him from a particularly bad period in London", "celebrating his new flat"]
+      "shared_events": [
+        "Jamie's first gig she attended",
+        "rescuing him from a particularly bad period in London",
+        "celebrating his new flat"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b901",
@@ -352,8 +580,12 @@
       "relationship_type": "mother and daughter",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Sophie and Margaret are uncomplicated in their relationship — Sophie is emotionally available in a way that suits Margaret's style, and Margaret appreciates that Sophie checks in proactively. Margaret knows about Priya but is waiting for Sophie to bring her home properly.",
-      "shared_events": ["Sophie's teaching award", "joint baking sessions", "family holiday planning"]
+      "history_summary": "Sophie and Margaret are uncomplicated in their relationship \u2014 Sophie is emotionally available in a way that suits Margaret's style, and Margaret appreciates that Sophie checks in proactively. Margaret knows about Priya but is waiting for Sophie to bring her home properly.",
+      "shared_events": [
+        "Sophie's teaching award",
+        "joint baking sessions",
+        "family holiday planning"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b901",
@@ -362,7 +594,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Margaret worries most about Callum because he is furthest away and hardest to read. She sends him care packages, rings him on his birthday with a long message he replies to in three words. She has learned to interpret his terse responses as his form of presence rather than absence.",
-      "shared_events": ["Callum's PhD admission", "his rare visits home", "a care package she sent during his first year in Edinburgh"]
+      "shared_events": [
+        "Callum's PhD admission",
+        "his rare visits home",
+        "a care package she sent during his first year in Edinburgh"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b902",
@@ -370,8 +606,12 @@
       "relationship_type": "father and eldest daughter",
       "closeness": "Medium",
       "sentiment": "mixed",
-      "history_summary": "Rachel took on responsibilities Derek should have been there for during his working years. She does not hold this against him explicitly but it creates a slight formality — she respects him, accepts his help with practical things, but does not rely on him emotionally. Derek is warmer toward Rachel than he appears.",
-      "shared_events": ["Rachel's law degree", "fixing her flat when she moved in", "stilted phone calls after her relationship ended"]
+      "history_summary": "Rachel took on responsibilities Derek should have been there for during his working years. She does not hold this against him explicitly but it creates a slight formality \u2014 she respects him, accepts his help with practical things, but does not rely on him emotionally. Derek is warmer toward Rachel than he appears.",
+      "shared_events": [
+        "Rachel's law degree",
+        "fixing her flat when she moved in",
+        "stilted phone calls after her relationship ended"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b902",
@@ -380,7 +620,11 @@
       "closeness": "Low",
       "sentiment": "mixed",
       "history_summary": "Derek's initial reaction to Jamie dropping out of university was harsh and prolonged. The tension softened over the years but never fully resolved. Derek has not explicitly apologised and Jamie has not explicitly forgiven him. They are cordial at family events; Derek quietly follows Jamie's musical output online without mentioning it.",
-      "shared_events": ["the university dropout argument", "Jamie's first album release Derek didn't attend", "a rare good conversation at Christmas three years ago"]
+      "shared_events": [
+        "the university dropout argument",
+        "Jamie's first album release Derek didn't attend",
+        "a rare good conversation at Christmas three years ago"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b902",
@@ -388,8 +632,12 @@
       "relationship_type": "father and daughter",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Sophie has always been easy with Derek — she doesn't need much from him emotionally and doesn't hold his absences against him. He occasionally gives her unsolicited practical advice she doesn't need, which she accepts graciously.",
-      "shared_events": ["Sophie's teaching post celebration", "joint gardening project", "Sophie asking his opinion on a flat purchase she was considering"]
+      "history_summary": "Sophie has always been easy with Derek \u2014 she doesn't need much from him emotionally and doesn't hold his absences against him. He occasionally gives her unsolicited practical advice she doesn't need, which she accepts graciously.",
+      "shared_events": [
+        "Sophie's teaching post celebration",
+        "joint gardening project",
+        "Sophie asking his opinion on a flat purchase she was considering"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b902",
@@ -397,8 +645,12 @@
       "relationship_type": "father and son, proud but unexpressed",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Derek is privately proud that Callum is doing a PhD — the academic path aligns with his values. He has never said this directly. Callum suspects it but neither has raised it. They communicate mostly through Derek asking practical questions about Edinburgh and Callum answering them.",
-      "shared_events": ["Callum's Edinburgh acceptance", "a cycling trip they took together when Callum was a teenager", "Derek quietly reading Callum's published paper"]
+      "history_summary": "Derek is privately proud that Callum is doing a PhD \u2014 the academic path aligns with his values. He has never said this directly. Callum suspects it but neither has raised it. They communicate mostly through Derek asking practical questions about Edinburgh and Callum answering them.",
+      "shared_events": [
+        "Callum's Edinburgh acceptance",
+        "a cycling trip they took together when Callum was a teenager",
+        "Derek quietly reading Callum's published paper"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b903",
@@ -406,8 +658,12 @@
       "relationship_type": "siblings, ongoing friction",
       "closeness": "Medium",
       "sentiment": "tense",
-      "history_summary": "Rachel finds Jamie's unreliability maddening — he misses plans, disappears from the chat, asks for help then doesn't follow up. Jamie finds Rachel controlling and humourless. They love each other but bring out the worst in each other's defaults. Sophie often mediates.",
-      "shared_events": ["the incident where Jamie missed Rachel's partnership dinner", "arguments over Christmas logistics", "Sophie's birthday where they managed a full day without incident"]
+      "history_summary": "Rachel finds Jamie's unreliability maddening \u2014 he misses plans, disappears from the chat, asks for help then doesn't follow up. Jamie finds Rachel controlling and humourless. They love each other but bring out the worst in each other's defaults. Sophie often mediates.",
+      "shared_events": [
+        "the incident where Jamie missed Rachel's partnership dinner",
+        "arguments over Christmas logistics",
+        "Sophie's birthday where they managed a full day without incident"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b903",
@@ -415,8 +671,12 @@
       "relationship_type": "close sisters",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Rachel and Sophie are the family's closest sibling pair — they speak separately as well as in the group chat, share a running language from shared childhood references, and support each other on personal matters. Sophie has met Priya; Rachel has confided about the relationship that ended.",
-      "shared_events": ["sister trips to Edinburgh and London", "Sophie being the first person Rachel called after her breakup", "regular separate calls outside the family chat"]
+      "history_summary": "Rachel and Sophie are the family's closest sibling pair \u2014 they speak separately as well as in the group chat, share a running language from shared childhood references, and support each other on personal matters. Sophie has met Priya; Rachel has confided about the relationship that ended.",
+      "shared_events": [
+        "sister trips to Edinburgh and London",
+        "Sophie being the first person Rachel called after her breakup",
+        "regular separate calls outside the family chat"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b903",
@@ -424,8 +684,11 @@
       "relationship_type": "siblings, distant",
       "closeness": "Low",
       "sentiment": "neutral",
-      "history_summary": "Rachel and Callum have little shared ground — six years apart in age and very different lives. They are polite and briefly warm at family events but do not seek each other out. Rachel occasionally sends him articles she thinks are relevant to his research; he reads them and doesn't respond.",
-      "shared_events": ["group family events only", "Callum attending Rachel's partnership dinner briefly"]
+      "history_summary": "Rachel and Callum have little shared ground \u2014 six years apart in age and very different lives. They are polite and briefly warm at family events but do not seek each other out. Rachel occasionally sends him articles she thinks are relevant to his research; he reads them and doesn't respond.",
+      "shared_events": [
+        "group family events only",
+        "Callum attending Rachel's partnership dinner briefly"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b904",
@@ -433,8 +696,12 @@
       "relationship_type": "close siblings",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Jamie and Sophie are close in temperament and mutual affection. Sophie has always defended Jamie to Rachel and helped smooth things with Derek. Jamie brings her into his world — she's been to his gigs, helped him move between flats, knows his friends. They talk on the phone regularly.",
-      "shared_events": ["Sophie attending his gigs", "helping him move into the Ancoats flat", "joint trip to Berlin two years ago"]
+      "history_summary": "Jamie and Sophie are close in temperament and mutual affection. Sophie has always defended Jamie to Rachel and helped smooth things with Derek. Jamie brings her into his world \u2014 she's been to his gigs, helped him move between flats, knows his friends. They talk on the phone regularly.",
+      "shared_events": [
+        "Sophie attending his gigs",
+        "helping him move into the Ancoats flat",
+        "joint trip to Berlin two years ago"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b904",
@@ -442,8 +709,12 @@
       "relationship_type": "older-younger brothers",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Jamie and Callum share a bond as the younger boys — united by being less conventional than Rachel, and by having both had complicated relationships with Derek. Callum appreciates Jamie's lack of judgment; Jamie appreciates Callum's dry wit even if no one else does. They don't talk often but when they do it's easy.",
-      "shared_events": ["a festival they went to together before Callum started his PhD", "occasional late-night video calls", "texting during family occasions when both are finding it hard"]
+      "history_summary": "Jamie and Callum share a bond as the younger boys \u2014 united by being less conventional than Rachel, and by having both had complicated relationships with Derek. Callum appreciates Jamie's lack of judgment; Jamie appreciates Callum's dry wit even if no one else does. They don't talk often but when they do it's easy.",
+      "shared_events": [
+        "a festival they went to together before Callum started his PhD",
+        "occasional late-night video calls",
+        "texting during family occasions when both are finding it hard"
+      ]
     },
     {
       "persona_a_id": "p_f7a8b905",
@@ -452,24 +723,32 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Sophie is the family member who most reliably checks on Callum. She sends him messages without requiring a response, lets him know he is thought of. He finds her attentiveness slightly overwhelming at times but it is also the thing that keeps him tethered to the family during long absences.",
-      "shared_events": ["Sophie visiting Edinburgh twice", "a video call she initiated when he went quiet for six weeks", "joint family occasions where she makes sure he isn't stranded in a corner"]
+      "shared_events": [
+        "Sophie visiting Edinburgh twice",
+        "a video call she initiated when he went quiet for six weeks",
+        "joint family occasions where she makes sure he isn't stranded in a corner"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "Sunday dinners at Margaret and Derek's place when anyone is in Manchester — presence is assumed unless you say otherwise",
+      "norm_text": "Sunday dinners at Margaret and Derek's place when anyone is in Manchester \u2014 presence is assumed unless you say otherwise",
       "truly_universal": false,
-      "dissenters": ["p_f7a8b906"]
+      "dissenters": [
+        "p_f7a8b906"
+      ]
     },
     {
-      "norm_text": "Big family news goes in the group chat before individual calls — no one should hear it secondhand",
+      "norm_text": "Big family news goes in the group chat before individual calls \u2014 no one should hear it secondhand",
       "truly_universal": true,
       "dissenters": []
     },
     {
-      "norm_text": "No prolonged political arguments in the chat — keep it to banter",
+      "norm_text": "No prolonged political arguments in the chat \u2014 keep it to banter",
       "truly_universal": false,
-      "dissenters": ["p_f7a8b902"]
+      "dissenters": [
+        "p_f7a8b902"
+      ]
     },
     {
       "norm_text": "If someone goes quiet for more than two weeks, someone checks in",
@@ -480,6 +759,10 @@
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "family",
+    "group_size": 6
   }
 }

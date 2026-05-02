@@ -17,7 +17,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 6, 11:23am",
-          "message": "ok plans for sunday 🙌 are we doing brunch again?",
+          "message": "ok plans for sunday \ud83d\ude4c are we doing brunch again?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -77,7 +77,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 6, 11:33am",
-          "message": "I'm definitely in! Should we book ahead? Last time we waited 45 minutes 😅",
+          "message": "I'm definitely in! Should we book ahead? Last time we waited 45 minutes \ud83d\ude05",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s01_t002",
@@ -101,7 +101,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 6, 11:42am",
-          "message": "maybe 11:30? 😊",
+          "message": "maybe 11:30? \ud83d\ude0a",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s01_t006",
@@ -211,7 +211,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 6, 11:55am",
-          "message": "Works for me! Should I book for 11:30? 😊",
+          "message": "Works for me! Should I book for 11:30? \ud83d\ude0a",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s01_t013",
@@ -223,7 +223,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 6, 11:55am",
-          "message": "yes please! honestly I just want somewhere you can actually have a conversation 😭",
+          "message": "yes please! honestly I just want somewhere you can actually have a conversation \ud83d\ude2d",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s01_t014",
@@ -247,7 +247,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 6, 11:58am",
-          "message": "Booked! Table for 5 at 11:30 on Sunday 😊",
+          "message": "Booked! Table for 5 at 11:30 on Sunday \ud83d\ude0a",
           "message_index": 18,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s01_t015",
@@ -259,7 +259,7 @@
           "speaker_persona_id": "p_m1a2b3c4",
           "speaker_display_name": "Maya",
           "timestamp_label": "Jan 6, 11:59am",
-          "message": "ok so perfect, see everyone Sunday 🙌",
+          "message": "ok so perfect, see everyone Sunday \ud83d\ude4c",
           "message_index": 19,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s01_t017",
@@ -278,7 +278,14 @@
           "timestamp": "2025-01-06T14:14:00"
         }
       ],
-      "date": "2025-01-06"
+      "date": "2025-01-06",
+      "active_participants": [
+        "p_p3c4d5e6",
+        "p_m1a2b3c4",
+        "p_l5e6f7a8",
+        "p_j2b3c4d5",
+        "p_s4d5e6f7"
+      ]
     },
     {
       "session_id": "grp_1a2b3c4d_s02",
@@ -308,7 +315,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 13, 7:15pm",
-          "message": "yes!! 🙌 Wednesday?",
+          "message": "yes!! \ud83d\ude4c Wednesday?",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s02_t000",
@@ -332,7 +339,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 13, 7:17pm",
-          "message": "Wednesday works for me 😊 which place?",
+          "message": "Wednesday works for me \ud83d\ude0a which place?",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s02_t002",
@@ -344,7 +351,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 13, 7:17pm",
-          "message": "Tanuki on 9th! the mushroom broth ramen is their signature apparently, and three people at work told me the queue is worth it 🍜",
+          "message": "Tanuki on 9th! the mushroom broth ramen is their signature apparently, and three people at work told me the queue is worth it \ud83c\udf5c",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s02_t003",
@@ -490,7 +497,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 13, 7:51pm",
-          "message": "ok ok 😂 Wednesday 7pm Tanuki confirmed",
+          "message": "ok ok \ud83d\ude02 Wednesday 7pm Tanuki confirmed",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s02_t013",
@@ -502,7 +509,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 13, 7:53pm",
-          "message": "Perfect! Are we definitely all going? Just checking 😊",
+          "message": "Perfect! Are we definitely all going? Just checking \ud83d\ude0a",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s02_t014",
@@ -594,7 +601,14 @@
           "timestamp": "2025-01-13T20:37:00"
         }
       ],
-      "date": "2025-01-13"
+      "date": "2025-01-13",
+      "active_participants": [
+        "p_m1a2b3c4",
+        "p_p3c4d5e6",
+        "p_l5e6f7a8",
+        "p_s4d5e6f7",
+        "p_j2b3c4d5"
+      ]
     },
     {
       "session_id": "grp_1a2b3c4d_s03",
@@ -602,7 +616,7 @@
       "session_index": 3,
       "topic": "Night-out plans, Sam's venue hesitation, and Jordan stepping back",
       "date_label": "Session 3, Monday January 20, 2025 5:47pm",
-      "prior_session_summary": "Group had ramen at Tanuki on Wednesday. Sam quietly avoided the mushroom dish. Maya vetoed Mariposa earlier in the week over cilantro. Jordan confirmed for ramen but showed no interest in organizing. Mt. Tam incident referenced between Sam and Jordan — clearly a shared low point, details not given.",
+      "prior_session_summary": "Group had ramen at Tanuki on Wednesday. Sam quietly avoided the mushroom dish. Maya vetoed Mariposa earlier in the week over cilantro. Jordan confirmed for ramen but showed no interest in organizing. Mt. Tam incident referenced between Sam and Jordan \u2014 clearly a shared low point, details not given.",
       "critic_scores": null,
       "generation_attempts": 1,
       "turns": [
@@ -636,7 +650,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 20, 5:51pm",
-          "message": "Ooh I've been wanting to go! 😊",
+          "message": "Ooh I've been wanting to go! \ud83d\ude0a",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s03_t001",
@@ -721,7 +735,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 20, 6:26pm",
-          "message": "Should I book? Or does someone else want to? 😊",
+          "message": "Should I book? Or does someone else want to? \ud83d\ude0a",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -733,7 +747,7 @@
           "speaker_persona_id": "p_m1a2b3c4",
           "speaker_display_name": "Maya",
           "timestamp_label": "Jan 20, 6:27pm",
-          "message": "Jordan used to handle all the bookings remember 😂",
+          "message": "Jordan used to handle all the bookings remember \ud83d\ude02",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s03_t008",
@@ -782,7 +796,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 20, 6:32pm",
-          "message": "Of course! Happy to 😊 I'll grab a table for 5 after 9",
+          "message": "Of course! Happy to \ud83d\ude0a I'll grab a table for 5 after 9",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s03_t011",
@@ -830,7 +844,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 20, 7:02pm",
-          "message": "sorry just catching up, sounds fun! 🙌",
+          "message": "sorry just catching up, sounds fun! \ud83d\ude4c",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -861,7 +875,14 @@
           "timestamp": "2025-01-20T19:04:00"
         }
       ],
-      "date": "2025-01-20"
+      "date": "2025-01-20",
+      "active_participants": [
+        "p_m1a2b3c4",
+        "p_l5e6f7a8",
+        "p_j2b3c4d5",
+        "p_s4d5e6f7",
+        "p_p3c4d5e6"
+      ]
     },
     {
       "session_id": "grp_1a2b3c4d_s04",
@@ -869,7 +890,7 @@
       "session_index": 4,
       "topic": "Sonoma plans, Sam's ankle, and Maya's no-drinks shift",
       "date_label": "Session 4, Monday January 27, 2025 10:15am",
-      "prior_session_summary": "Went to Rooftop Fox after ramen. Sam agreed but was quiet about it — clearly not enthusiastic about the loud venue. Jordan deflected on organizing and passed it to Lena. Maya continues to be the social glue. Group seems in good form overall.",
+      "prior_session_summary": "Went to Rooftop Fox after ramen. Sam agreed but was quiet about it \u2014 clearly not enthusiastic about the loud venue. Jordan deflected on organizing and passed it to Lena. Maya continues to be the social glue. Group seems in good form overall.",
       "critic_scores": null,
       "generation_attempts": 1,
       "turns": [
@@ -879,7 +900,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 10:15am",
-          "message": "ok weekend trip!! 🙌 🙌 I found this place in Sonoma",
+          "message": "ok weekend trip!! \ud83d\ude4c \ud83d\ude4c I found this place in Sonoma",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -927,7 +948,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 10:29am",
-          "message": "thinking last weekend of the month? 😊",
+          "message": "thinking last weekend of the month? \ud83d\ude0a",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s04_t003",
@@ -939,7 +960,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 27, 10:31am",
-          "message": "That works for me! Is it a driving trip? 😊",
+          "message": "That works for me! Is it a driving trip? \ud83d\ude0a",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s04_t004",
@@ -951,7 +972,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 10:32am",
-          "message": "yeah we can carpool! there are hiking trails too if people want 🙌",
+          "message": "yeah we can carpool! there are hiking trails too if people want \ud83d\ude4c",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s04_t005",
@@ -1024,7 +1045,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 10:56am",
-          "message": "Maya they have an amazing wine bar at the estate, you'll love it 🍷",
+          "message": "Maya they have an amazing wine bar at the estate, you'll love it \ud83c\udf77",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -1061,7 +1082,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 10:58am",
-          "message": "oh wait are you still off drinks? I'll see if they do good mocktails 😊",
+          "message": "oh wait are you still off drinks? I'll see if they do good mocktails \ud83d\ude0a",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s04_t012",
@@ -1085,7 +1106,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 27, 11:01am",
-          "message": "Do they have food there too? I always like to check menus in advance 😊",
+          "message": "Do they have food there too? I always like to check menus in advance \ud83d\ude0a",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -1097,7 +1118,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 11:01am",
-          "message": "yes! small plates and charcuterie 🙌",
+          "message": "yes! small plates and charcuterie \ud83d\ude4c",
           "message_index": 17,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s04_t015",
@@ -1109,7 +1130,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Jan 27, 11:03am",
-          "message": "Great. I'll just check for my usual... dietary things when we get there 😊",
+          "message": "Great. I'll just check for my usual... dietary things when we get there \ud83d\ude0a",
           "message_index": 18,
           "planted_challenges": [
             {
@@ -1146,14 +1167,21 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Jan 27, 11:10am",
-          "message": "I'll send the full link! 🙌",
+          "message": "I'll send the full link! \ud83d\ude4c",
           "message_index": 20,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s04_t018",
           "timestamp": "2025-01-27T11:10:00"
         }
       ],
-      "date": "2025-01-27"
+      "date": "2025-01-27",
+      "active_participants": [
+        "p_p3c4d5e6",
+        "p_m1a2b3c4",
+        "p_j2b3c4d5",
+        "p_l5e6f7a8",
+        "p_s4d5e6f7"
+      ]
     },
     {
       "session_id": "grp_1a2b3c4d_s05",
@@ -1161,7 +1189,7 @@
       "session_index": 5,
       "topic": "Jordan bails for cycling, brunch chemistry goes on",
       "date_label": "Session 5, Monday February 3, 2025 9:47am",
-      "prior_session_summary": "Trip to Sonoma is being planned for end of month. Sam is sitting out the hiking. Maya has quietly stopped drinking — Priya seemed to know already. Lena manages a dietary restriction she doesn't name directly. Jordan is as passive as ever on logistics.",
+      "prior_session_summary": "Trip to Sonoma is being planned for end of month. Sam is sitting out the hiking. Maya has quietly stopped drinking \u2014 Priya seemed to know already. Lena manages a dietary restriction she doesn't name directly. Jordan is as passive as ever on logistics.",
       "critic_scores": null,
       "generation_attempts": 1,
       "turns": [
@@ -1171,7 +1199,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Feb 3, 9:47am",
-          "message": "Are we still on for today? 😊",
+          "message": "Are we still on for today? \ud83d\ude0a",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -1183,7 +1211,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 3, 9:48am",
-          "message": "yes!! on my way 🙌",
+          "message": "yes!! on my way \ud83d\ude4c",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s05_t000",
@@ -1244,7 +1272,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 3, 9:52am",
-          "message": "Jordan!! 😭 this is like the third time",
+          "message": "Jordan!! \ud83d\ude2d this is like the third time",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s05_t003",
@@ -1256,7 +1284,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Feb 3, 9:53am",
-          "message": "It's fine, it's fine 😅",
+          "message": "It's fine, it's fine \ud83d\ude05",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s05_t005",
@@ -1328,7 +1356,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Feb 3, 9:56am",
-          "message": "Haha sorry Sam! Running ten minutes behind 😊",
+          "message": "Haha sorry Sam! Running ten minutes behind \ud83d\ude0a",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s05_t011",
@@ -1340,7 +1368,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 3, 9:57am",
-          "message": "Lena and I will grab the table, she needs someone to help decode the menu anyway 😂",
+          "message": "Lena and I will grab the table, she needs someone to help decode the menu anyway \ud83d\ude02",
           "message_index": 14,
           "planted_challenges": [
             {
@@ -1349,7 +1377,7 @@
               "subject_persona_id": "p_l5e6f7a8",
               "speaker_persona_id": "p_p3c4d5e6",
               "fact_attribute": "priya_lena_closeness",
-              "fact_value": "Priya and Lena have a close, complementary relationship — Priya helps Lena navigate social situations (including menus) and they have developed routines together within the group",
+              "fact_value": "Priya and Lena have a close, complementary relationship \u2014 Priya helps Lena navigate social situations (including menus) and they have developed routines together within the group",
               "evidence_span": "Lena and I will grab the table, she needs someone to help decode the menu anyway",
               "implicitness_level": 2,
               "session_index": 5,
@@ -1365,7 +1393,7 @@
           "speaker_persona_id": "p_l5e6f7a8",
           "speaker_display_name": "Lena",
           "timestamp_label": "Feb 3, 9:57am",
-          "message": "Honestly Priya is the reason I survive these brunches 😊",
+          "message": "Honestly Priya is the reason I survive these brunches \ud83d\ude0a",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s05_t013",
@@ -1377,7 +1405,7 @@
           "speaker_persona_id": "p_p3c4d5e6",
           "speaker_display_name": "Priya",
           "timestamp_label": "Feb 3, 9:58am",
-          "message": "we have our system 🙌",
+          "message": "we have our system \ud83d\ude4c",
           "message_index": 16,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_1a2b3c4d_s05_t014",
@@ -1432,7 +1460,14 @@
           "timestamp": "2025-02-03T10:04:00"
         }
       ],
-      "date": "2025-02-03"
+      "date": "2025-02-03",
+      "active_participants": [
+        "p_l5e6f7a8",
+        "p_p3c4d5e6",
+        "p_m1a2b3c4",
+        "p_j2b3c4d5",
+        "p_s4d5e6f7"
+      ]
     }
   ],
   "total_turns": 101,
@@ -1447,7 +1482,7 @@
       "evidence_span": "wait I just looked closer, they put cilantro in like everything on this menu",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_1a2b3c4d",
@@ -1459,7 +1494,7 @@
       "evidence_span": "Quieter. Better.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_2a1b2c3d",
@@ -1471,7 +1506,7 @@
       "evidence_span": "just prefer the chicken...",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_2b1c2d3e",
@@ -1483,7 +1518,7 @@
       "evidence_span": "yeah figured, team sports aren't really your thing",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_2c1d2e3f",
@@ -1495,7 +1530,7 @@
       "evidence_span": "Jordan did you ever fully recover from the Mt. Tam thing",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_3a1b2c3d",
@@ -1507,7 +1542,7 @@
       "evidence_span": "...",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_3b1c2d3e",
@@ -1519,7 +1554,7 @@
       "evidence_span": "Lena can do it.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_4a1b2c3d",
@@ -1531,7 +1566,7 @@
       "evidence_span": "ngl I'll probably just get the sparkling water",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_4b1c2d3e",
@@ -1543,7 +1578,7 @@
       "evidence_span": "I'll sit the hiking out",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_4c1d2e3f",
@@ -1555,7 +1590,7 @@
       "evidence_span": "I'll just check for my usual... dietary things when we get there",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_5a1b2c3d",
@@ -1567,7 +1602,7 @@
       "evidence_span": "Not coming. Weather is perfect. Riding.",
       "implicitness_level": 1,
       "session_index": 5,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_5b1c2d3e",
@@ -1579,7 +1614,7 @@
       "evidence_span": "Lena and I will grab the table, she needs someone to help decode the menu anyway",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 13
+      "turn_index": 14
     }
   ],
   "start_date": "2025-01-06"

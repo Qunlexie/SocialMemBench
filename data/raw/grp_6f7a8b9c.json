@@ -10,7 +10,7 @@
       "display_name": "Abi",
       "age": 33,
       "gender": "F",
-      "background": "Marketing manager in Manchester. Was the most social one at university. Now has a 2-year-old and a demanding job, and her availability for meetups has quietly collapsed — but she never cites the child or exhaustion as reasons. Makes optimistic plans she increasingly can't keep.",
+      "background": "Marketing manager in Manchester. Was the most social one at university. Now has a 2-year-old and a demanding job, and her availability for meetups has quietly collapsed \u2014 but she never cites the child or exhaustion as reasons. Makes optimistic plans she increasingly can't keep.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "High",
@@ -81,7 +81,7 @@
       "display_name": "Kwame",
       "age": 33,
       "gender": "M",
-      "background": "Software engineer in London. The group's most reliable planner — follows through on what he says. Dry, perceptive, occasionally blunt when plans keep falling apart. Has known Dev since they were 11 and quietly covers for his absences with the group.",
+      "background": "Software engineer in London. The group's most reliable planner \u2014 follows through on what he says. Dry, perceptive, occasionally blunt when plans keep falling apart. Has known Dev since they were 11 and quietly covers for his absences with the group.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -173,14 +173,14 @@
         "food": [],
         "activities": [
           {
-            "value": "avoids expensive plans — flights, hotels, expensive restaurants — without stating the financial reason; always reframes as a preference for simpler things",
+            "value": "avoids expensive plans \u2014 flights, hotels, expensive restaurants \u2014 without stating the financial reason; always reframes as a preference for simpler things",
             "confidence": "High",
             "implicit": true
           }
         ],
         "social": [
           {
-            "value": "prefers domestic meetups: one person's flat, a local pub, a walk — easy to participate in cheaply",
+            "value": "prefers domestic meetups: one person's flat, a local pub, a walk \u2014 easy to participate in cheaply",
             "confidence": "High",
             "implicit": true
           }
@@ -223,7 +223,7 @@
       "display_name": "Dev",
       "age": 32,
       "gender": "M",
-      "background": "PhD student (History) in Edinburgh. Was the most engaged planner in the group at university. Now disappears for weeks at a time, replies to messages in batches, and is perpetually in the middle of 'a crucial chapter.' The group cuts him slack because he was always the most invested — and because Kwame vouches for him.",
+      "background": "PhD student (History) in Edinburgh. Was the most engaged planner in the group at university. Now disappears for weeks at a time, replies to messages in batches, and is perpetually in the middle of 'a crucial chapter.' The group cuts him slack because he was always the most invested \u2014 and because Kwame vouches for him.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "Medium",
@@ -330,7 +330,7 @@
       "relationship_type": "good friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Kwame and Sasha are both grounded and practical. Kwame knows about Sasha's financial situation — she told him in a call between sessions — and quietly protects it.",
+      "history_summary": "Kwame and Sasha are both grounded and practical. Kwame knows about Sasha's financial situation \u2014 she told him in a call between sessions \u2014 and quietly protects it.",
       "shared_events": [
         "had a call between session 1 and 2 where Sasha mentioned money stress"
       ]
@@ -359,7 +359,7 @@
   ],
   "group_norms": [
     {
-      "norm_text": "Monthly check-in in the chat minimum — even if it's just a meme.",
+      "norm_text": "Monthly check-in in the chat minimum \u2014 even if it's just a meme.",
       "truly_universal": false,
       "dissenters": [
         "p_cf6d4e5f6"
@@ -371,12 +371,17 @@
       "dissenters": []
     },
     {
-      "norm_text": "Whoever proposes the plan books the first thing — no leaving it to air.",
+      "norm_text": "Whoever proposes the plan books the first thing \u2014 no leaving it to air.",
       "truly_universal": false,
       "dissenters": [
         "p_cf6a1b2c3"
       ]
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "close_friends",
+    "group_size": 4
+  }
 }

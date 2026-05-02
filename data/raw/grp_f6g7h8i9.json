@@ -28,8 +28,33 @@
           "opens messages with 'My children,' when addressing the group",
           "redirects conflict with a Nigerian proverb or 'let us not lose the forest for the trees'",
           "signs off important messages with 'Your father, Emeka'"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "Low",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "celebration_style": "small intimate gathering with children and grandchildren only",
+        "conflict": "redirects with proverbs"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'My children,'",
+        "redirects conflict with a proverb ('let us not lose the forest for the trees')",
+        "signs off with 'Your father, Emeka'"
+      ],
+      "occupation": "retired civil engineer",
+      "skills_list": [
+        "civil engineering",
+        "family stewardship"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p02",
@@ -48,8 +73,33 @@
           "opens check-ins with 'How is everyone? I have not heard from [name] in days'",
           "uses 'God willing' or 'by God's grace' when discussing future plans",
           "ends worry messages with 'please reply so I know you are fine'"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "preferences": {
+        "surprises": "strongly dislikes them \u2014 needs advance notice",
+        "communication": "frequent check-ins with everyone"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens check-ins with 'How is everyone? I have not heard from [name] in days'",
+        "uses 'God willing' or 'by God's grace'",
+        "ends worry messages with 'please reply so I know you are fine'"
+      ],
+      "occupation": "retired nurse",
+      "skills_list": [
+        "nursing",
+        "family caregiving"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p03",
@@ -68,8 +118,39 @@
           "uses 'Let me just check with everyone first' before committing to anything",
           "summarises group decisions with 'Okay, so the plan is\u2014'",
           "often tags relevant siblings rather than addressing the whole group"
-        ]
-      }
+        ],
+        "humor": "Earnest",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "role": "responsible eldest mediator",
+        "communication_style": "checks in before committing"
+      },
+      "preference_history": [
+        {
+          "attribute": "tone",
+          "value": "shifted from methodical and warm to clipped and short, suggesting unspoken work stress",
+          "stable_since": "session_7"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'Let me just check with everyone first'",
+        "summarises with 'Okay, so the plan is\u2014'",
+        "tags relevant siblings rather than addressing the whole group"
+      ],
+      "occupation": "GP (general practitioner)",
+      "skills_list": [
+        "general medical practice",
+        "family logistics coordination"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p04",
@@ -88,8 +169,33 @@
           "leads strong opinions with 'Can I just say something?'",
           "uses 'as I said before' when repeating a point she feels was ignored",
           "tags her husband David in logistical messages"
-        ]
-      }
+        ],
+        "humor": "Expressive",
+        "directness": "High",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "trip_venue": "European city break (Paris/Lisbon) over Scotland",
+        "planning_style": "wants to be consulted on schedule"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "leads with 'Can I just say something?'",
+        "uses 'as I said before' when repeating",
+        "tags her husband David in logistical messages"
+      ],
+      "occupation": "secondary school teacher",
+      "skills_list": [
+        "teaching",
+        "family event planning"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p05",
@@ -108,8 +214,32 @@
           "uses 'honestly though' before honest opinions",
           "de-escalates tension with a joke or 'okay let's not do this in the chat'",
           "sends voice notes described as '[voice note]' rather than typing when emotional"
-        ]
-      }
+        ],
+        "humor": "Playful",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "event_size": "smaller sub-group gatherings over all-15",
+        "conflict": "de-escalates and goes quiet when tense"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'honestly though' before honest takes",
+        "de-escalates with 'okay let's not do this in the chat'",
+        "sends '[voice note]' when emotional"
+      ],
+      "occupation": "marketing manager",
+      "skills_list": [
+        "marketing"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p06",
@@ -128,8 +258,32 @@
           "responds to admin requests with 'on it' then forgets",
           "uses 'tbf' (to be fair) to soften an honest point",
           "adds 'sorry I missed this' when catching up on multiple unread messages"
-        ]
-      }
+        ],
+        "humor": "Self-deprecating",
+        "directness": "Low",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "admin_follow_through": "overpromises but rarely follows through due to PhD load",
+        "tone": "casual, scattered"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "responds with 'on it' then forgets",
+        "uses 'tbf' to soften points",
+        "adds 'sorry I missed this' when catching up"
+      ],
+      "occupation": "PhD student",
+      "skills_list": [
+        "academic research"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p07",
@@ -148,8 +302,33 @@
           "checks in on Grace with 'Mummy G, how are you doing?'",
           "uses 'just to confirm' to nail down logistics others have left vague",
           "prefaces suggestions with 'not to overstep but\u2014' when addressing family dynamics"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "plans": "dislikes last-minute changes",
+        "role": "supports without overstepping"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "checks in with 'Mummy G, how are you doing?'",
+        "uses 'just to confirm' to nail down logistics",
+        "prefaces with 'not to overstep but \u2014'"
+      ],
+      "occupation": "NHS admin manager",
+      "skills_list": [
+        "administrative coordination",
+        "family logistics"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p08",
@@ -168,8 +347,32 @@
           "uses 'leaving it to the family on this one' to stay neutral",
           "dry humour with no emoji \u2014 'if everyone agrees, it probably won't happen'",
           "tags Adaeze in logistics messages"
-        ]
-      }
+        ],
+        "humor": "Dry",
+        "directness": "Low",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "event_size": "smaller relaxed gatherings over large formal ones",
+        "role": "deferential to the Okafor family"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'leaving it to the family on this one' to stay neutral",
+        "lands dry humour with no emoji ('if everyone agrees, it probably won't happen')",
+        "tags Adaeze in logistics messages"
+      ],
+      "occupation": "IT contractor",
+      "skills_list": [
+        "IT contracting"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p09",
@@ -188,8 +391,32 @@
           "opens strong opinions with 'My people, let me say something'",
           "uses 'ehen!' as an affirmation when someone says something she agrees with",
           "refers to family events as 'occasions' and expects them to be planned well in advance"
-        ]
-      }
+        ],
+        "humor": "Witty",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "event_scale": "wants grand 'occasions' planned well in advance",
+        "stance": "vocal with strong opinions"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'My people, let me say something'",
+        "uses 'Ehen!' as affirmation",
+        "calls events 'occasions'"
+      ],
+      "occupation": "retired civil servant",
+      "skills_list": [
+        "public administration"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p10",
@@ -208,8 +435,38 @@
           "offers to 'sort it out' for things he may not follow through on",
           "uses 'ehhh' as an energetic opener",
           "introduces tangential family news mid-conversation"
-        ]
-      }
+        ],
+        "humor": "Expressive",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "style": "big gestures and offers to 'sort it out'",
+        "scale": "favours large extended-family events"
+      },
+      "preference_history": [
+        {
+          "attribute": "energy",
+          "value": "shifted from boisterous big offers to quieter deflective participation, suggesting an unannounced financial change",
+          "stable_since": "session_6"
+        }
+      ],
+      "speaking_quirks": [
+        "offers to 'sort it out'",
+        "opens with 'Ehhh'",
+        "introduces tangential family news mid-conversation"
+      ],
+      "occupation": "businessman",
+      "skills_list": [
+        "business operations"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p11",
@@ -228,8 +485,32 @@
           "reacts with strings of emoji rather than full sentences",
           "uses 'omg' or 'wait actually' before a genuine opinion",
           "asks grandparents how they are in standalone short messages"
-        ]
-      }
+        ],
+        "humor": "Playful",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "voice": "wants a say in family plans even when not consulted",
+        "engagement": "social side over logistics"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "reacts with strings of emoji rather than full sentences",
+        "uses 'omg' or 'wait actually' before opinions",
+        "asks grandparents how they are in short standalone messages"
+      ],
+      "occupation": "secondary school student",
+      "skills_list": [
+        "photography (school-level)"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p12",
@@ -248,8 +529,32 @@
           "asks questions about food or activities for the trip",
           "uses ALL CAPS for excitement",
           "says 'hi everybody' when joining a conversation already in progress"
-        ]
-      }
+        ],
+        "humor": "Earnest",
+        "directness": "High",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "trip_focus": "food, activities, and dessert",
+        "engagement": "sporadic and excited"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "asks about food or trip activities",
+        "uses ALL CAPS for excitement",
+        "says 'hi everybody' when joining mid-conversation"
+      ],
+      "occupation": "primary school student",
+      "skills_list": [
+        "primary-school enthusiasm"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p13",
@@ -268,8 +573,33 @@
           "nudges Kunle with 'Kunle did you see this??' when he hasn't responded",
           "uses 'aww' for emotional family moments",
           "occasionally posts in Yoruba or Igbo with no translation"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "role": "supportive of grandparents; chases up Kunle on admin",
+        "language": "occasionally posts in Yoruba or Igbo"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "nudges Kunle with 'Kunle did you see this??'",
+        "uses 'aww' for emotional family moments",
+        "occasionally posts in Yoruba or Igbo without translation"
+      ],
+      "occupation": "undergraduate student",
+      "skills_list": [
+        "studies",
+        "extended-family communication"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p14",
@@ -288,8 +618,32 @@
           "opens messages with 'God bless this family'",
           "uses 'I will endeavour to' when confirming plans tentatively",
           "closes with 'In His name'"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "Low",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "events": "wants a thanksgiving/prayer element in family events",
+        "style": "formal and brief"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'God bless this family'",
+        "uses 'I will endeavour to' when confirming tentatively",
+        "closes with 'In His name'"
+      ],
+      "occupation": "pastor",
+      "skills_list": [
+        "pastoral ministry"
+      ]
     },
     {
       "persona_id": "grp_f6g7h8i9_p15",
@@ -308,8 +662,32 @@
           "uses 'just to say' before a practical observation",
           "responds with 'noted' to logistical updates",
           "uses 'no pressure but' before flagging something that is actually urgent"
-        ]
-      }
+        ],
+        "humor": "Observational",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "event_style": "simple low-key celebrations over elaborate formal ones",
+        "communication": "observations kept to herself unless asked"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'just to say' before practical observations",
+        "responds with 'noted' to logistics",
+        "uses 'no pressure but' before urgent items"
+      ],
+      "occupation": "NHS nurse",
+      "skills_list": [
+        "nursing"
+      ]
     }
   ],
   "edges": [
@@ -575,6 +953,10 @@
   "metadata": {
     "sessions_planned": 10,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "family",
+    "group_size": 15
   }
 }

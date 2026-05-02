@@ -28,8 +28,33 @@
           "starts planning messages with 'OKAY hear me out \u2014'",
           "follows up with 'thoughts??' after proposals",
           "uses '!!' liberally to convey excitement"
-        ]
-      }
+        ],
+        "humor": "Expressive",
+        "directness": "High",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "social": "big group plans, lots of follow-up",
+        "tone": "high-energy and caring"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens with 'OKAY hear me out \u2014'",
+        "ends proposals with 'thoughts??'",
+        "uses '!!' liberally"
+      ],
+      "occupation": "product manager",
+      "skills_list": [
+        "group coordination",
+        "product management"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p02",
@@ -48,8 +73,32 @@
           "deflects large-group plans with 'what if just a few of us did [x] instead'",
           "uses dry humour with no emoji \u2014 punchline is always understated",
           "often references a relevant movie or TV show with no explanation"
-        ]
-      }
+        ],
+        "humor": "Dry",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "social_size": "smaller sub-groups over 15-person events",
+        "humor_style": "deadpan with no emoji"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "deflects with 'what if just a few of us did X instead'",
+        "lands punchlines with no emoji",
+        "drops references to movies/TV without explanation"
+      ],
+      "occupation": "software engineer",
+      "skills_list": [
+        "software engineering"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p03",
@@ -68,8 +117,32 @@
           "responds to spontaneous plans with 'I need to check my schedule' or 'how far out is this?'",
           "uses 'I'll try' rather than 'yes' when capacity is uncertain",
           "occasionally sends a voice note description ('sent voice') but it's always a reschedule"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "planning_horizon": "needs 2\u20133 weeks notice minimum",
+        "social": "values long-standing close friends like Tom"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "responds to spontaneous plans with 'I need to check my schedule'",
+        "uses 'I'll try' rather than 'yes' when uncertain",
+        "asks 'how far out is this?'"
+      ],
+      "occupation": "medical resident",
+      "skills_list": [
+        "clinical medicine"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p04",
@@ -88,8 +161,33 @@
           "opens supportive messages with 'just want to say \u2014'",
           "often anticipates logistics before others ask ('also note: Priya has that conference week')",
           "rarely uses slang but never sounds stiff"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "role": "emotional anchor; advocates for friends like Priya",
+        "tone": "thoughtful and steady"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens supportive messages with 'just want to say \u2014'",
+        "anticipates logistics ('also note: Priya has that conference week')",
+        "rarely uses slang"
+      ],
+      "occupation": "high school teacher",
+      "skills_list": [
+        "teaching",
+        "emotional support and mediation"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p05",
@@ -108,8 +206,33 @@
           "uses 'okay but what if we...' to pitch creative variations of already-agreed plans",
           "sends aesthetic moodboards or references when planning events",
           "trails off with 'anyway' when she thinks she's gone too deep into detail"
-        ]
-      }
+        ],
+        "humor": "Playful",
+        "directness": "Low",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "plans": "thematic, aesthetic-driven group events",
+        "creative_input": "moodboards and design references"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "pitches with 'okay but what if we...'",
+        "sends moodboards or aesthetic references",
+        "trails off with 'anyway'"
+      ],
+      "occupation": "graphic designer / illustrator",
+      "skills_list": [
+        "graphic design",
+        "illustration"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p06",
@@ -128,8 +251,32 @@
           "uses 'sure, whatever works' to nominally agree while clearly skeptical",
           "often follows agreements with a sarcastic aside ('bold of us to assume everyone will show')",
           "frames disagreements as hypotheticals ('I'm just saying \u2014 what if someone couldn't afford that')"
-        ]
-      }
+        ],
+        "humor": "Sarcastic",
+        "directness": "High",
+        "warmth": "Low"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "role": "devil's advocate; questions cost fairness",
+        "communication_style": "skeptical and sarcastic"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'sure, whatever works' to nominally agree",
+        "follows agreement with sarcastic asides",
+        "frames pushback as hypotheticals ('I'm just saying \u2014')"
+      ],
+      "occupation": "finance analyst",
+      "skills_list": [
+        "financial analysis"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p07",
@@ -148,8 +295,32 @@
           "celebrates everything with 'omg YES' even minor updates",
           "hypes others with 'you're literally amazing' when someone shares good news",
           "ends suggestions with 'but totally if not no pressure!'"
-        ]
-      }
+        ],
+        "humor": "Expressive",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "social": "warmth and hyping others up",
+        "loyalty": "protective of close friends Becca and Nina"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "celebrates with 'omg YES'",
+        "hypes others with 'you're literally amazing'",
+        "softens with 'but totally if not no pressure!'"
+      ],
+      "occupation": "marketing manager",
+      "skills_list": [
+        "marketing"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p08",
@@ -168,8 +339,38 @@
           "adds 'anyway' to change the subject when career topics land too close",
           "deflects milestone questions with a redirect ('enough about me, how's [someone else]')",
           "uses precise language where others would be casual ('I'd frame it differently')"
-        ]
-      }
+        ],
+        "humor": "Observational",
+        "directness": "Low",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "High"
+      },
+      "preferences": {
+        "topic_avoidance": "career milestones \u2014 finds 'what's next?' questions stressful",
+        "communication_style": "precise language"
+      },
+      "preference_history": [
+        {
+          "attribute": "chat_engagement",
+          "value": "shifted from active and intellectually engaged to quieter and deflecting after a dissertation setback",
+          "stable_since": "session_6"
+        }
+      ],
+      "speaking_quirks": [
+        "adds 'anyway' to change subject",
+        "redirects milestone questions ('enough about me, how's [someone else]')",
+        "uses precise language ('I'd frame it differently')"
+      ],
+      "occupation": "PhD student (sociology)",
+      "skills_list": [
+        "research and academic writing"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p09",
@@ -188,8 +389,33 @@
           "evaluates restaurants by ingredient quality rather than ambiance",
           "quietly re-routes food plans away from cilantro-heavy dishes without explanation",
           "will send a 3-paragraph message about a single dish if it's really good"
-        ]
-      }
+        ],
+        "humor": "Earnest",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "food": "quietly avoids cilantro",
+        "evaluation_style": "judges restaurants by ingredient quality"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "evaluates restaurants by ingredient quality",
+        "quietly re-routes plans away from cilantro-heavy dishes",
+        "writes 3-paragraph messages about a single dish"
+      ],
+      "occupation": "sous-chef",
+      "skills_list": [
+        "cooking",
+        "ingredient sourcing"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p10",
@@ -208,8 +434,33 @@
           "uses 'okay but actually' before pushing back on someone's take",
           "switches to lowercase for emotional moments ('im fine. really')",
           "often brings current events into group conversations unprompted"
-        ]
-      }
+        ],
+        "humor": "Witty",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Low",
+        "neuroticism": "High"
+      },
+      "preferences": {
+        "work_pace": "high intensity; bristles at 'take a break' suggestions",
+        "engagement_style": "opinionated and high-energy"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "pushes back with 'okay but actually'",
+        "switches to lowercase for emotional moments ('im fine. really')",
+        "brings current events into chat unprompted"
+      ],
+      "occupation": "journalist",
+      "skills_list": [
+        "journalism",
+        "writing"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p11",
@@ -228,8 +479,32 @@
           "explains absences with 'work thing came up' or 'deal season'",
           "uses 'noted' to acknowledge messages when he can't respond more",
           "when he's in, commits fully: 'yes, I'm in, blocking my calendar now'"
-        ]
-      }
+        ],
+        "humor": "Minimal",
+        "directness": "High",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "availability": "constrained by deal cycles",
+        "commitment_style": "blocks calendar firmly when in"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "explains absences with 'work thing came up' or 'deal season'",
+        "uses 'noted' to acknowledge",
+        "commits with 'yes, I'm in, blocking my calendar now'"
+      ],
+      "occupation": "junior associate (corporate law)",
+      "skills_list": [
+        "corporate legal practice"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p12",
@@ -248,8 +523,32 @@
           "opens catch-up messages with 'hi loves, been a minute'",
           "checks in on quiet members by name ('how are YOU doing, Alex?')",
           "signs off with 'sending love' or 'miss you all'"
-        ]
-      }
+        ],
+        "humor": "Warm",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "chat_presence": "infrequent due to shifts but warm when present",
+        "tone": "supportive and check-in oriented"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "opens catch-ups with 'hi loves, been a minute'",
+        "checks in by name ('how are YOU doing, Alex?')",
+        "signs off with 'sending love'"
+      ],
+      "occupation": "pediatric nurse",
+      "skills_list": [
+        "pediatric nursing"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p13",
@@ -268,8 +567,39 @@
           "works startup mentions into unrelated conversations ('speaking of which \u2014 we just hit a milestone')",
           "uses 'building in public' ironically to justify oversharing",
           "responds to others' good news with his own update shortly after"
-        ]
-      }
+        ],
+        "humor": "Playful",
+        "directness": "Medium",
+        "warmth": "Medium"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "preferences": {
+        "self_promotion": "works startup updates into conversations",
+        "tone": "high-energy networker"
+      },
+      "preference_history": [
+        {
+          "attribute": "chat_energy",
+          "value": "shifted from frequent loud startup updates to subdued reflection after an implied funding setback",
+          "stable_since": "session_7"
+        }
+      ],
+      "speaking_quirks": [
+        "works in startup mentions ('speaking of which \u2014 we just hit a milestone')",
+        "uses 'building in public' ironically",
+        "responds to others' news with his own update"
+      ],
+      "occupation": "startup founder",
+      "skills_list": [
+        "startup operations",
+        "fundraising"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p14",
@@ -288,8 +618,33 @@
           "uses 'tbh' to soften honest opinions",
           "often adds a caveat after agreeing ('though I'll need to check my budget')",
           "tags Lily specifically when asking for reassurance"
-        ]
-      }
+        ],
+        "humor": "Self-deprecating",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "High"
+      },
+      "preferences": {
+        "social_size": "smaller settings",
+        "money": "anxious about group trip costs"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "uses 'tbh' before honest takes",
+        "adds budget caveats after agreeing",
+        "tags Lily for reassurance"
+      ],
+      "occupation": "teacher's assistant / master's student",
+      "skills_list": [
+        "teaching support",
+        "academic study"
+      ]
     },
     {
       "persona_id": "grp_e5f6a7b8_p15",
@@ -308,8 +663,33 @@
           "redirects accommodation discussions toward 'what about camping instead?'",
           "uses 'low-key would be down for...' before pitching outdoor alternatives",
           "describes routes and trails with specific detail even in casual conversation"
-        ]
-      }
+        ],
+        "humor": "Earnest",
+        "directness": "Medium",
+        "warmth": "High"
+      },
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "preferences": {
+        "accommodation": "camping over hotels",
+        "activities": "outdoor and trail-focused"
+      },
+      "preference_history": [],
+      "speaking_quirks": [
+        "redirects to 'what about camping instead?'",
+        "pitches with 'low-key would be down for...'",
+        "describes routes with specific outdoor detail"
+      ],
+      "occupation": "outdoor guide / freelance",
+      "skills_list": [
+        "wilderness guiding",
+        "trail and route knowledge"
+      ]
     }
   ],
   "edges": [
@@ -575,6 +955,10 @@
   "metadata": {
     "sessions_planned": 10,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "close_friends",
+    "group_size": 15
   }
 }

@@ -1,37 +1,74 @@
 {
   "network_id": "grp_e3f4a5b6",
-  "total_pairs": 32,
-  "phase1_mean_score": 0.875,
-  "phase1_pass_rate": 93.75,
-  "phase2_grounded_rate": 96.77,
+  "total_pairs": 30,
+  "phase1_mean_score": 0.9173,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
   "phase3_flagged_count": 0,
-  "inference_required_distribution": {"0": 0, "1": 6, "2": 26},
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 3,
+    "2": 27
+  },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
-  "difficulty_distribution": {"easy": 0, "medium": 24, "hard": 8},
+  "difficulty_distribution": {
+    "easy": 0,
+    "medium": 24,
+    "hard": 8
+  },
   "by_query_type": {
-    "Q1": {"count": 6, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 1.67},
-    "Q2": {"count": 4, "mean_score": 0.88, "flagged": 0, "mean_inference_required": 1.75},
-    "Q4": {"count": 1, "mean_score": 0.80, "flagged": 0, "mean_inference_required": 2.0},
-    "Q5": {"count": 2, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 2.0},
-    "Q6": {"count": 1, "mean_score": 0.85, "flagged": 0, "mean_inference_required": 2.0},
-    "Q7": {"count": 8, "mean_score": 0.93, "flagged": 0, "mean_inference_required": 1.50},
-    "Q8": {"count": 5, "mean_score": 0.84, "flagged": 0, "mean_inference_required": 2.0},
-    "Q9": {"count": 5, "mean_score": 0.86, "flagged": 0, "mean_inference_required": 1.60}
+    "Q1": {
+      "count": 6,
+      "mean_score": 0.935,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.907,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 0.8,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.94,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.85,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 0.948,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 5,
+      "mean_score": 0.882,
+      "flagged": 0
+    },
+    "Q9": {
+      "count": 3,
+      "mean_score": 0.92,
+      "flagged": 0
+    }
   },
   "flagged_pairs": [],
-  "low_score_pairs": [
-    {"qa_id": "Q4_509f4b31", "query_type": "Q4", "score": 0.80, "your_answer": "Simone made this request — she used 'just to flag', asked for Friday confirmation, and said she needed to 'lock down' the dates for her calendar. Marcus is the planner but requests confirmation for others; Simone's request is personal.", "ground_truth": "Simone requested the advance confirmation. The foil (Marcus) is plausible because he is the planner, but the 'just to flag' phrasing and personal calendar-check framing distinguish Simone."},
-    {"qa_id": "Q8_f1c0131e", "query_type": "Q8", "score": 0.80, "your_answer": "Simone kept plans private through Sessions 1-5; the shift happens in Session 6 when Marcus checks in after she is quiet on the train. She names Marcus's noticing as the reason she finally says something.", "ground_truth": "Simone's shift is from private to open. The mechanism is Marcus's perceptive check-in removing the protective value of her silence — she names this explicitly."}
-  ],
+  "low_score_pairs": [],
   "per_pair": [
     {
       "qa_id": "Q1_9dd1f77c",
       "query_type": "Q1",
       "question": "What does Marcus's approach to suggesting group outings reveal about his preferences when it comes to choosing places to eat?",
-      "blind_answer": "Marcus consistently suggests sit-down restaurants rather than pubs or takeout, and he includes specific details — opening hours, Yelp ratings, and a brief review — whenever he makes a recommendation. This pattern appears in Sessions 1 and 5, and his comments about wanting somewhere 'you can actually hear the conversation' reinforce his preference for quieter, sit-down dining.",
+      "blind_answer": "Marcus consistently suggests sit-down restaurants rather than pubs or takeout, and he includes specific details \u2014 opening hours, Yelp ratings, and a brief review \u2014 whenever he makes a recommendation. This pattern appears in Sessions 1 and 5, and his comments about wanting somewhere 'you can actually hear the conversation' reinforce his preference for quieter, sit-down dining.",
       "score": 0.95,
-      "score_rationale": "Blind answer matches the ground truth closely — identifies the research-pattern (Yelp, hours, review quote) and the preference for sit-down dining across multiple sessions.",
+      "score_rationale": "Blind answer matches the ground truth closely \u2014 identifies the research-pattern (Yelp, hours, review quote) and the preference for sit-down dining across multiple sessions.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -43,7 +80,7 @@
       "question": "What does Dev's reaction to hearing a restaurant described in a certain way suggest about his actual food preferences?",
       "blind_answer": "Dev says 'Fusion is a red flag' in Session 3 when Priya describes her date's restaurant as a fusion place. This tells us he dislikes food that lacks a clear national or culinary identity. Marcus immediately agrees, and Priya's subsequent description of 'miso chicken tacos' supports the position. Dev's preference is for food that is clearly one thing.",
       "score": 0.95,
-      "score_rationale": "Blind answer correctly identifies Dev's anti-fusion stance, the supporting context from Marcus, and the specific session — matches ground truth well.",
+      "score_rationale": "Blind answer correctly identifies Dev's anti-fusion stance, the supporting context from Marcus, and the specific session \u2014 matches ground truth well.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -53,7 +90,7 @@
       "qa_id": "Q1_95d52657",
       "query_type": "Q1",
       "question": "What does Simone's behaviour around choosing where the group meets suggest about what she values in a social setting?",
-      "blind_answer": "Simone consistently prefers quiet venues. She says in Session 3 that 'somewhere quiet would be ideal' for the post-hike dinner, explicitly because she wants to be able to debrief properly. In Session 6 for her farewell she asks for 'something quiet. Not a party, just us.' She does not debate aesthetics or cuisine — her primary concern is acoustic quality.",
+      "blind_answer": "Simone consistently prefers quiet venues. She says in Session 3 that 'somewhere quiet would be ideal' for the post-hike dinner, explicitly because she wants to be able to debrief properly. In Session 6 for her farewell she asks for 'something quiet. Not a party, just us.' She does not debate aesthetics or cuisine \u2014 her primary concern is acoustic quality.",
       "score": 0.93,
       "score_rationale": "Blind answer correctly identifies the noise preference as the consistent value, cites both key turns, and matches the ground truth's interpretation. Minor omission of S1 endorsement.",
       "inference_required": 2,
@@ -65,8 +102,8 @@
       "qa_id": "Q1_ed752db0",
       "query_type": "Q1",
       "question": "What does Dev's pattern of responding to group events reveal about his relationship to social participation?",
-      "blind_answer": "Dev participates in all group events without enthusiasm or resistance. He confirms with one-word replies ('Yes.', 'In.', 'Both.') and shows up in person even when he hasn't responded in the chat. Jonah names this pattern explicitly in Session 1 as his 'classic' behaviour. Dev's participation is quiet but reliable — he attends rather than misses things.",
-      "score": 0.90,
+      "blind_answer": "Dev participates in all group events without enthusiasm or resistance. He confirms with one-word replies ('Yes.', 'In.', 'Both.') and shows up in person even when he hasn't responded in the chat. Jonah names this pattern explicitly in Session 1 as his 'classic' behaviour. Dev's participation is quiet but reliable \u2014 he attends rather than misses things.",
+      "score": 0.9,
       "score_rationale": "Blind answer captures the reliable attendance pattern and the one-word confirmation style. Correctly identifies the FOMO-driven dynamic. Ground truth adds slightly more interpretation about disliking FOMO more than the effort.",
       "inference_required": 2,
       "grounded": true,
@@ -77,7 +114,7 @@
       "qa_id": "Q1_fe87950a",
       "query_type": "Q1",
       "question": "What does the way Dev's baking came to the group's attention suggest about how he tends to introduce personal interests or skills?",
-      "blind_answer": "Dev brought sourdough bread to Marcus's without announcing it — Priya's shocked reaction in Session 5 reveals this was the first the group knew. Dev confirms he started during lockdown with a single word. Marcus says he has 'been at it for a while' and 'been quietly holding out on us'. Dev develops skills privately and introduces them through action rather than announcement.",
+      "blind_answer": "Dev brought sourdough bread to Marcus's without announcing it \u2014 Priya's shocked reaction in Session 5 reveals this was the first the group knew. Dev confirms he started during lockdown with a single word. Marcus says he has 'been at it for a while' and 'been quietly holding out on us'. Dev develops skills privately and introduces them through action rather than announcement.",
       "score": 0.95,
       "score_rationale": "Blind answer identifies the core pattern (private development, unannounced introduction) and cites the key turns. Matches ground truth.",
       "inference_required": 2,
@@ -101,7 +138,7 @@
       "qa_id": "Q2_2f220aea",
       "query_type": "Q2",
       "question": "The group voted to go to the Peak District on November 8th and everyone registered some form of agreement. What did one member's response to that decision signal about how they actually felt, and what specifically in how they responded tells you that?",
-      "blind_answer": "Priya is the dissenter. She said 'yeah ok fine I'm in if it doesn't clash with the thing. but someone is buying me proper waterproof trousers if my jeans end up destroyed.' The resigned 'yeah ok fine' and the jeans comment signal she was not genuinely on board — she hadn't even prepared appropriate gear, and the jeans comment is a complaint about an activity she hadn't engaged with seriously enough to buy waterproofs for.",
+      "blind_answer": "Priya is the dissenter. She said 'yeah ok fine I'm in if it doesn't clash with the thing. but someone is buying me proper waterproof trousers if my jeans end up destroyed.' The resigned 'yeah ok fine' and the jeans comment signal she was not genuinely on board \u2014 she hadn't even prepared appropriate gear, and the jeans comment is a complaint about an activity she hadn't engaged with seriously enough to buy waterproofs for.",
       "score": 0.93,
       "score_rationale": "Blind answer identifies Priya as dissenter, explains the 'yeah ok fine' signal, and analyses the jeans comment correctly. Matches ground truth.",
       "inference_required": 2,
@@ -113,8 +150,8 @@
       "qa_id": "Q2_839a6534",
       "query_type": "Q2",
       "question": "After the group confirmed there would be a post-hike pub visit in Session 3, one member's agreement contained a condition that revealed their real position on the trip. What did that condition signal about their actual attitude, and how would you have known from the way they phrased it?",
-      "blind_answer": "Priya said 'yes fine I'll do the pub, as long as nobody forces me back up a hill on Sunday morning.' The condition — no Sunday morning hiking — reveals she is already anticipating the Saturday hike will be enough and pre-emptively closing off an extension. The pre-emptive framing ('as long as nobody forces me') implies she expects pressure and is setting a boundary in advance, not just expressing a casual preference.",
-      "score": 0.90,
+      "blind_answer": "Priya said 'yes fine I'll do the pub, as long as nobody forces me back up a hill on Sunday morning.' The condition \u2014 no Sunday morning hiking \u2014 reveals she is already anticipating the Saturday hike will be enough and pre-emptively closing off an extension. The pre-emptive framing ('as long as nobody forces me') implies she expects pressure and is setting a boundary in advance, not just expressing a casual preference.",
+      "score": 0.9,
       "score_rationale": "Correctly identifies Priya and the condition as the signal. Correct analysis of pre-emptive boundary-setting. Matches ground truth.",
       "inference_required": 2,
       "grounded": true,
@@ -124,9 +161,9 @@
     {
       "qa_id": "Q2_9ce580d7",
       "query_type": "Q2",
-      "question": "In Session 8, when Marcus asked the group to confirm plans for New Year, one member responded in a way that had become a recognisable pattern across multiple sessions. What did that response reveal about how they actually approach group commitments, and what in how they phrased it — across the whole conversation — makes that visible?",
-      "blind_answer": "Priya said 'I'm in if it doesn't clash with the thing.' This is at least the third time she has used this exact phrase across sessions 1, 2, and 8. 'The thing' is never specified. The pattern shows she participates provisionally — she signals intent but reserves the right to withdraw without committing to a reason. The group has adapted to this and Marcus builds contingency around it.",
-      "score": 0.90,
+      "question": "In Session 8, when Marcus asked the group to confirm plans for New Year, one member responded in a way that had become a recognisable pattern across multiple sessions. What did that response reveal about how they actually approach group commitments, and what in how they phrased it \u2014 across the whole conversation \u2014 makes that visible?",
+      "blind_answer": "Priya said 'I'm in if it doesn't clash with the thing.' This is at least the third time she has used this exact phrase across sessions 1, 2, and 8. 'The thing' is never specified. The pattern shows she participates provisionally \u2014 she signals intent but reserves the right to withdraw without committing to a reason. The group has adapted to this and Marcus builds contingency around it.",
+      "score": 0.9,
       "score_rationale": "Blind answer identifies the cross-session pattern, the unspecified 'thing', and the provisional commitment structure. Matches ground truth.",
       "inference_required": 2,
       "grounded": true,
@@ -137,8 +174,8 @@
       "qa_id": "Q2_3e9956ac",
       "query_type": "Q2",
       "question": "After the Peak District trip, the group debriefed in Session 8 and one member confirmed they had run on the descent. What did that confirmation signal about their actual preference for the kind of group trip this was, and what in their phrasing reveals that this was more than just neutral attendance?",
-      "blind_answer": "Dev said 'About four kilometres. It was a good surface.' The surface assessment reveals a trail runner's evaluation — he was thinking about the descent as running terrain, not just as a hill to walk down. Context from Session 5 (trail running three times a week, canal is just a warmup) confirms this preference had been developing privately. Dev's countryside preference is now active rather than neutral.",
-      "score": 0.90,
+      "blind_answer": "Dev said 'About four kilometres. It was a good surface.' The surface assessment reveals a trail runner's evaluation \u2014 he was thinking about the descent as running terrain, not just as a hill to walk down. Context from Session 5 (trail running three times a week, canal is just a warmup) confirms this preference had been developing privately. Dev's countryside preference is now active rather than neutral.",
+      "score": 0.9,
       "score_rationale": "Blind answer correctly identifies Dev, the surface assessment as the trail runner signal, and correctly connects it to Session 5 context. Matches ground truth.",
       "inference_required": 2,
       "grounded": true,
@@ -150,7 +187,7 @@
       "query_type": "Q4",
       "question": "In Session 2, one group member made a point of requesting that the exact trip dates be confirmed before the end of the week, expressing a need to check their calendar before fully committing. Which member made this specific request?",
       "blind_answer": "Simone made this request. She said 'I'd need the exact dates locked down so I can check my calendar properly. Can we confirm Friday at the latest?' and framed it as a personal calendar need. Marcus is also involved in confirming logistics but always as the organiser (sending emails, booking things) rather than requesting confirmation for himself.",
-      "score": 0.80,
+      "score": 0.8,
       "score_rationale": "Blind answer correctly identifies Simone and the personal-calendar framing. The foil analysis (Marcus as organiser vs requester) is partially developed but less explicit than the ground truth.",
       "inference_required": 2,
       "grounded": true,
@@ -160,8 +197,8 @@
     {
       "qa_id": "Q5_f89c074a",
       "query_type": "Q5",
-      "question": "What is Priya's actual position on countryside hiking, and how does Jonah demonstrate — through what he says to her in Session 2 — that he already has knowledge of her prior stance on it?",
-      "blind_answer": "Priya dislikes countryside hiking — by Session 2 she is already resistant before any direct evidence of a bad experience. Jonah's question 'Priya didn't you say you'd try a proper walk again?' uses a memory framing ('didn't you say') that implies he is recalling a prior statement rather than making a new suggestion. Priya corrects him: 'I said I'd consider it' — she had once expressed willingness to consider a walk, and Jonah is leveraging that as a fuller commitment than it was.",
+      "question": "What is Priya's actual position on countryside hiking, and how does Jonah demonstrate \u2014 through what he says to her in Session 2 \u2014 that he already has knowledge of her prior stance on it?",
+      "blind_answer": "Priya dislikes countryside hiking \u2014 by Session 2 she is already resistant before any direct evidence of a bad experience. Jonah's question 'Priya didn't you say you'd try a proper walk again?' uses a memory framing ('didn't you say') that implies he is recalling a prior statement rather than making a new suggestion. Priya corrects him: 'I said I'd consider it' \u2014 she had once expressed willingness to consider a walk, and Jonah is leveraging that as a fuller commitment than it was.",
       "score": 0.93,
       "score_rationale": "Blind answer identifies Priya's position, correctly reads Jonah's 'didn't you say' as a memory reference, and correctly notes Priya's correction of the overstatement. Matches ground truth.",
       "inference_required": 2,
@@ -172,10 +209,10 @@
     {
       "qa_id": "Q5_7bb66265",
       "query_type": "Q5",
-      "question": "What is Priya's preference regarding noisy restaurants, and how does Simone's behaviour in Session 3 demonstrate that she had prior knowledge of this — not because someone told her in this session, but because of something she observed in Priya's own words?",
-      "blind_answer": "Priya dislikes noisy restaurants where she cannot hear conversation. Simone demonstrates prior knowledge in Session 3 by quoting Priya's own earlier words back to her: 'Priya, didn't you say that place near the canal last month was so loud you had to lean in to hear each other?' Priya confirms enthusiastically. Simone's recall of the specific complaint is the observable evidence of prior knowledge — she had heard and retained what Priya said about a previous venue.",
+      "question": "What is Priya's preference regarding noisy restaurants, and how does Simone's behaviour in Session 3 demonstrate that she had prior knowledge of this \u2014 not because someone told her in this session, but because of something she observed in Priya's own words?",
+      "blind_answer": "Priya dislikes noisy restaurants where she cannot hear conversation. Simone demonstrates prior knowledge in Session 3 by quoting Priya's own earlier words back to her: 'Priya, didn't you say that place near the canal last month was so loud you had to lean in to hear each other?' Priya confirms enthusiastically. Simone's recall of the specific complaint is the observable evidence of prior knowledge \u2014 she had heard and retained what Priya said about a previous venue.",
       "score": 0.95,
-      "score_rationale": "Blind answer exactly matches the ground truth — identifies the preference, the mechanism (Simone quoting Priya's own words), and Priya's confirmation.",
+      "score_rationale": "Blind answer exactly matches the ground truth \u2014 identifies the preference, the mechanism (Simone quoting Priya's own words), and Priya's confirmation.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -185,7 +222,7 @@
       "qa_id": "Q6_673dca4e",
       "query_type": "Q6",
       "question": "The group operates on the understanding that when someone cannot make a plan, they give as much notice as possible. Does this hold for everyone in the group? If not, who behaves differently and what in the conversation shows it?",
-      "blind_answer": "No — Priya does not give advance notice. Her repeated 'I'm in if it doesn't clash with the thing' across sessions 1, 2, and 8 is a provisional signal that never resolves into a firm commitment or a clear reason. 'The thing' is never named. The group's norm around advance notice doesn't apply to Priya — she perpetually hedges rather than confirming or cancelling with information.",
+      "blind_answer": "No \u2014 Priya does not give advance notice. Her repeated 'I'm in if it doesn't clash with the thing' across sessions 1, 2, and 8 is a provisional signal that never resolves into a firm commitment or a clear reason. 'The thing' is never named. The group's norm around advance notice doesn't apply to Priya \u2014 she perpetually hedges rather than confirming or cancelling with information.",
       "score": 0.85,
       "score_rationale": "Blind answer identifies Priya as the norm dissenter and correctly notes the 'I'm in if it doesn't clash with the thing' pattern. Slightly less developed on the mechanism (why the phrase matters structurally) than the ground truth, but the core answer is correct.",
       "inference_required": 2,
@@ -196,8 +233,8 @@
     {
       "qa_id": "Q7_c5e76e87",
       "query_type": "Q7",
-      "question": "What does the group's behaviour toward Dev in the chat — and how he responds to it — reveal about his social pattern with them?",
-      "blind_answer": "Dev's social pattern is: read messages without responding, show up in person. Jonah names this 'his classic' behaviour in Session 1, and Dev responds with 'Yes.' In Session 4 he says 'I'll get the same train.' without prompting. In Session 8 he says 'Both.' for two event invitations. The group treats this as accepted and even affectionate — Priya calls his Session 1 reply 'iconic'.",
+      "question": "What does the group's behaviour toward Dev in the chat \u2014 and how he responds to it \u2014 reveal about his social pattern with them?",
+      "blind_answer": "Dev's social pattern is: read messages without responding, show up in person. Jonah names this 'his classic' behaviour in Session 1, and Dev responds with 'Yes.' In Session 4 he says 'I'll get the same train.' without prompting. In Session 8 he says 'Both.' for two event invitations. The group treats this as accepted and even affectionate \u2014 Priya calls his Session 1 reply 'iconic'.",
       "score": 0.95,
       "score_rationale": "Blind answer identifies the pattern precisely and cites multiple confirming instances. Matches ground truth.",
       "inference_required": 1,
@@ -221,7 +258,7 @@
       "qa_id": "Q7_5898b876",
       "query_type": "Q7",
       "question": "Based on what is said in the conversations, what is the relationship between Marcus and Priya and what does it tell you about how long they have known each other?",
-      "blind_answer": "Marcus and Priya grew up two houses apart — Priya says this in Session 2 while introducing them to Simone. She calls him 'my annoying older brother who takes the seating plan at dinner too seriously.' Their shorthand throughout the corpus (she calls him out directly, he arranges things with her in mind) is consistent with decades of familiarity.",
+      "blind_answer": "Marcus and Priya grew up two houses apart \u2014 Priya says this in Session 2 while introducing them to Simone. She calls him 'my annoying older brother who takes the seating plan at dinner too seriously.' Their shorthand throughout the corpus (she calls him out directly, he arranges things with her in mind) is consistent with decades of familiarity.",
       "score": 0.95,
       "score_rationale": "Blind answer identifies the childhood origin precisely and cites Priya's direct statement. Matches ground truth.",
       "inference_required": 1,
@@ -233,7 +270,7 @@
       "qa_id": "Q7_9ca2ef5c",
       "query_type": "Q7",
       "question": "Based on what is said in the conversation, what is the connection between Priya and Simone, and what does it tell you about how Simone came to know the group?",
-      "blind_answer": "Priya and Simone were former flatmates. Simone confirms this in Session 2 when she references 'when we were still in the flat.' She knew about the group's dynamics (e.g., Marcus's seating plan reputation) from Priya before joining. In Session 6 Simone tells Priya about the Singapore acceptance on the same day she signs — three weeks before telling the group. Priya brought Simone in and remains her confidant.",
+      "blind_answer": "Priya and Simone were former flatmates. Simone confirms this in Session 2 when she references 'when we were still in the flat.' She knew about the group's dynamics (e.g., Marcus's seating plan reputation) from Priya before joining. In Session 6 Simone tells Priya about the Singapore acceptance on the same day she signs \u2014 three weeks before telling the group. Priya brought Simone in and remains her confidant.",
       "score": 0.95,
       "score_rationale": "Blind answer correctly identifies the flatmate origin and the confidant pattern, with multiple supporting turns. Matches ground truth.",
       "inference_required": 2,
@@ -269,7 +306,7 @@
       "qa_id": "Q7_a3911288",
       "query_type": "Q7",
       "question": "Based only on what the conversation reveals, what does Simone's response to Priya in Session 5 tell you about the dynamic between them within the group?",
-      "blind_answer": "Simone positions herself alongside Priya without negotiation: 'We can be at the back together.' This shows an established sub-alliance. Neither Simone nor Priya needs to discuss it — Simone simply joins Priya's side in the group's hiking-vs-urban debate without being asked. The ease and the 'we' framing suggest this is an existing dynamic, not a new one.",
+      "blind_answer": "Simone positions herself alongside Priya without negotiation: 'We can be at the back together.' This shows an established sub-alliance. Neither Simone nor Priya needs to discuss it \u2014 Simone simply joins Priya's side in the group's hiking-vs-urban debate without being asked. The ease and the 'we' framing suggest this is an existing dynamic, not a new one.",
       "score": 0.95,
       "score_rationale": "Blind answer identifies the alliance signal, the lack of negotiation, and the ease of alignment. Matches ground truth.",
       "inference_required": 2,
@@ -281,7 +318,7 @@
       "qa_id": "Q7_4eca1710",
       "query_type": "Q7",
       "question": "Based on what Priya reveals in Session 7, what does the conversation tell you about how long Simone had been considering working abroad, and what does this tell you about the nature of the relationship between Priya and Simone?",
-      "blind_answer": "Priya reveals in Session 7 that Simone told her 'when we were still flatmates she wanted to work internationally at some point.' This means Simone's Singapore secondment was a long-held aspiration shared with Priya years before the group existed as a regular fixture. In Session 6 Simone tells Priya the day she signs — weeks before the group. Priya is Simone's primary confidant for significant life decisions.",
+      "blind_answer": "Priya reveals in Session 7 that Simone told her 'when we were still flatmates she wanted to work internationally at some point.' This means Simone's Singapore secondment was a long-held aspiration shared with Priya years before the group existed as a regular fixture. In Session 6 Simone tells Priya the day she signs \u2014 weeks before the group. Priya is Simone's primary confidant for significant life decisions.",
       "score": 0.95,
       "score_rationale": "Blind answer correctly identifies the pre-group origin of the aspiration and the confidant pattern. Matches ground truth.",
       "inference_required": 2,
@@ -294,7 +331,7 @@
       "query_type": "Q8",
       "question": "In which session did Jonah's behaviour around his personal film project first change, and what in that session explains why it shifted from the private pattern he had maintained before?",
       "blind_answer": "Session 4. Before this Jonah had mentioned the project once in passing and then gone silent. In Session 4 Marcus presses with genuine interest ('not being polite') and specifically recalls the August mention. Jonah then describes the project in detail for the first time and commits to sending a rough cut, designating Marcus as first recipient. The trigger is Marcus's explicitly non-performative interest.",
-      "score": 0.90,
+      "score": 0.9,
       "score_rationale": "Blind answer correctly identifies Session 4 as the shift point and Marcus's non-performative interest as the trigger. Matches ground truth.",
       "inference_required": 2,
       "grounded": true,
@@ -305,7 +342,7 @@
       "qa_id": "Q8_c938c74b",
       "query_type": "Q8",
       "question": "What in the conversations signals that Dev's preference for outdoor versus urban activities shifted, and what appeared to drive that shift given what was revealed about his private behaviour?",
-      "blind_answer": "Before Session 5 Dev had no expressed preference about trip type — he just showed up. In Session 5 Simone mentions seeing him running near the canal and Dev reveals he trail runs three times a week and considers the canal 'just a warmup.' This signals a significant outdoor preference that had been developing privately. Jonah reacts with surprise and says he has been trying to recruit trail runners for two years. By Session 8 Dev assesses the Kinder Scout descent surface quality. The shift happened privately, possibly during the pandemic ('Lockdown.' was also his answer for sourdough timing).",
+      "blind_answer": "Before Session 5 Dev had no expressed preference about trip type \u2014 he just showed up. In Session 5 Simone mentions seeing him running near the canal and Dev reveals he trail runs three times a week and considers the canal 'just a warmup.' This signals a significant outdoor preference that had been developing privately. Jonah reacts with surprise and says he has been trying to recruit trail runners for two years. By Session 8 Dev assesses the Kinder Scout descent surface quality. The shift happened privately, possibly during the pandemic ('Lockdown.' was also his answer for sourdough timing).",
       "score": 0.88,
       "score_rationale": "Blind answer correctly identifies the pre/post states, the 'canal is just a warmup' as the shift signal, and the private development. The lockdown timing inference is plausible but slightly uncertain since Dev says 'Lockdown.' only for sourdough, not for trail running.",
       "inference_required": 2,
@@ -328,9 +365,9 @@
     {
       "qa_id": "Q8_0564c52e",
       "query_type": "Q8",
-      "question": "In which session does Priya's position on hiking shift from reluctant tolerance to something harder, and what in that session signals the mechanism — not just the fact of the change?",
-      "blind_answer": "Session 6. Before Session 6 Priya was reluctantly tolerant (agreed with conditions in Sessions 2 and 3). In Session 6 she says 'I am never doing that again' after the actual trip. The mechanism is the physical experience: ankle pain, mud, four minutes of views before cloud. In the same session she says 'I literally said this before we went and I am now saying it with evidence' — framing the shift as evidence-based confirmation of a prior prediction, not just post-hoc emotion.",
-      "score": 0.90,
+      "question": "In which session does Priya's position on hiking shift from reluctant tolerance to something harder, and what in that session signals the mechanism \u2014 not just the fact of the change?",
+      "blind_answer": "Session 6. Before Session 6 Priya was reluctantly tolerant (agreed with conditions in Sessions 2 and 3). In Session 6 she says 'I am never doing that again' after the actual trip. The mechanism is the physical experience: ankle pain, mud, four minutes of views before cloud. In the same session she says 'I literally said this before we went and I am now saying it with evidence' \u2014 framing the shift as evidence-based confirmation of a prior prediction, not just post-hoc emotion.",
+      "score": 0.9,
       "score_rationale": "Blind answer correctly identifies Session 6, the word 'never' as the categorical shift signal, and the evidence-based framing. Matches ground truth.",
       "inference_required": 2,
       "grounded": true,
@@ -340,10 +377,10 @@
     {
       "qa_id": "Q8_f1c0131e",
       "query_type": "Q8",
-      "question": "What drove Simone's shift from keeping personal plans private to sharing the Singapore decision openly with the group in Session 6, and what in the conversations shows the mechanism — not just the announcement itself?",
-      "blind_answer": "Simone's shift from private to open in Session 6 is triggered by Marcus checking in after she was quiet on the train. She says 'I think Marcus already knows something is up, so I should just say it.' The mechanism is that Marcus's noticing removed the concealment's value — once he had already perceived the change, continued silence served no purpose. This is confirmed by her phrasing naming Marcus's awareness as the direct reason.",
-      "score": 0.80,
-      "score_rationale": "Blind answer captures the mechanism correctly — Marcus's noticing removes the value of continued silence. Slightly less developed on the pattern through sessions 1-5 (the 'before' state) compared to the ground truth.",
+      "question": "What drove Simone's shift from keeping personal plans private to sharing the Singapore decision openly with the group in Session 6, and what in the conversations shows the mechanism \u2014 not just the announcement itself?",
+      "blind_answer": "Simone's shift from private to open in Session 6 is triggered by Marcus checking in after she was quiet on the train. She says 'I think Marcus already knows something is up, so I should just say it.' The mechanism is that Marcus's noticing removed the concealment's value \u2014 once he had already perceived the change, continued silence served no purpose. This is confirmed by her phrasing naming Marcus's awareness as the direct reason.",
+      "score": 0.8,
+      "score_rationale": "Blind answer captures the mechanism correctly \u2014 Marcus's noticing removes the value of continued silence. Slightly less developed on the pattern through sessions 1-5 (the 'before' state) compared to the ground truth.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -353,8 +390,8 @@
       "qa_id": "Q9_323a36e5",
       "query_type": "Q9",
       "question": "Before Simone left for Singapore, what preference had she consistently expressed about the kinds of social venues or settings she preferred for group gatherings?",
-      "blind_answer": "Simone preferred quiet venues where conversation was possible. In Session 3 she volunteered 'somewhere quiet would be ideal.' In Session 6 she requested 'something quiet. Not a party, just us.' for her farewell. Her concern is acoustic — she wants to hear the people she is with. Evidence only from Sessions 1-6.",
-      "score": 0.90,
+      "blind_answer": "Simone preferred quiet venues where conversation was possible. In Session 3 she volunteered 'somewhere quiet would be ideal.' In Session 6 she requested 'something quiet. Not a party, just us.' for her farewell. Her concern is acoustic \u2014 she wants to hear the people she is with. Evidence only from Sessions 1-6.",
+      "score": 0.9,
       "score_rationale": "Blind answer correctly identifies the preference and cites both key turns from Sessions 1-6. Matches ground truth.",
       "inference_required": 1,
       "grounded": true,
@@ -374,34 +411,10 @@
       "flag_reason": null
     },
     {
-      "qa_id": "Q9_2b126fa8",
-      "query_type": "Q9",
-      "question": "What were the last known details of Simone's departure — the dates, the destination, and how she wanted the group to mark her leaving — based only on what was said in the pre-departure sessions?",
-      "blind_answer": "Simone announced in Session 6: last day at firm December 19th, flying January 6th, Singapore, twelve-month secondment. She wanted 'something quiet. Not a party, just us.' for the farewell. She confirmed she would return ('It's twelve months, not forever'). All from Session 6 which is within the departure window.",
-      "score": 0.95,
-      "score_rationale": "Blind answer captures all factual details precisely: dates, destination, farewell preference, and return intention. Matches ground truth.",
-      "inference_required": 1,
-      "grounded": true,
-      "flagged": false,
-      "flag_reason": null
-    },
-    {
-      "qa_id": "Q9_e7e9216f",
-      "query_type": "Q9",
-      "question": "Before Simone left the group, what was her pattern of personal disclosure within the group, and what does the conversation in Session 6 reveal about the specific catalyst that caused a change in that pattern just before her departure?",
-      "blind_answer": "Through Sessions 1-5, Simone only engaged around logistics and group activities — no personal news. In Session 6 she announces the Singapore secondment after Marcus checks in following the hike. She names his noticing as the trigger: 'I think Marcus already knows something is up, so I should just say it.' Marcus's perception removed the protective value of silence.",
-      "score": 0.88,
-      "score_rationale": "Blind answer correctly identifies the pre-disclosure pattern and the Marcus check-in as catalyst. Slightly less detailed on the multi-session private behaviour than the ground truth, but the mechanism is correct.",
-      "inference_required": 2,
-      "grounded": true,
-      "flagged": false,
-      "flag_reason": null
-    },
-    {
       "qa_id": "Q9_4e67c2ca",
       "query_type": "Q9",
       "question": "What did the group learn about Simone's relationship with Priya through things said in the pre-departure sessions, and what does it tell you about how well-established this closeness was before Simone joined the wider group?",
-      "blind_answer": "The conversations reveal Priya and Simone were flatmates before Simone joined the group — Simone references 'when we were still in the flat' in Session 2. Simone told Priya about accepting the Singapore offer on the day she signed, weeks before the group. In Session 5 Simone aligns with Priya naturally ('we can be at the back together'). The closeness predates the group and Priya is Simone's confidant for major decisions.",
+      "blind_answer": "The conversations reveal Priya and Simone were flatmates before Simone joined the group \u2014 Simone references 'when we were still in the flat' in Session 2. Simone told Priya about accepting the Singapore offer on the day she signed, weeks before the group. In Session 5 Simone aligns with Priya naturally ('we can be at the back together'). The closeness predates the group and Priya is Simone's confidant for major decisions.",
       "score": 0.93,
       "score_rationale": "Blind answer identifies pre-group flatmate origin, the confidant pattern, and the natural alignment. Matches ground truth.",
       "inference_required": 2,
@@ -413,11 +426,11 @@
   "conversation_quality": {
     "topic_diversity": {
       "score": 2,
-      "notes": "8 sessions with distinct primary threads: S1 work stress and dinner plans, S2 Peak District trip planning and hiking debate, S3 dating life and relationships, S4 Jonah's financial/work stress and pre-trip logistics, S5 pre-trip nerves and sourdough/trail running reveals, S6 post-trip debrief and Singapore announcement, S7 career doubts and reading, S8 December planning and trivia revival. Close_friends type requires distinct immediate concerns per session — all 8 pass."
+      "notes": "8 sessions with distinct primary threads: S1 work stress and dinner plans, S2 Peak District trip planning and hiking debate, S3 dating life and relationships, S4 Jonah's financial/work stress and pre-trip logistics, S5 pre-trip nerves and sourdough/trail running reveals, S6 post-trip debrief and Singapore announcement, S7 career doubts and reading, S8 December planning and trivia revival. Close_friends type requires distinct immediate concerns per session \u2014 all 8 pass."
     },
     "voice_consistency": {
       "score": 2,
-      "notes": "All 5 sub-dimensions pass. Emoji: Priya (Frequent) uses emoji in most messages; Jonah (Frequent) uses emoji regularly; Marcus (Moderate) uses occasional emoji; Simone (Rare) uses almost none; Dev (Never) uses none throughout. Typos: Jonah (High) has consistent typos ('thsi', 'deffo', 'lmao', 'tbf', 'ur', 'lmk'); Dev (None) is error-free; others match profiles. Verbosity: Marcus (Verbose) has consistently long detailed messages across all sessions; Dev (Terse) almost all messages are 1-5 words; Priya (Concise) medium length; Jonah (Verbose) lively multi-sentence; Simone (Concise) crisp structured. Formality: Simone (Semi-formal) uses full sentences and punctuation throughout; Dev (Casual) is sparse but consistent; others are casual-appropriate. Quirks: Marcus uses 'I'll be honest with you —' multiple times and historical analogies (Somme, Waterloo, Dunkirk, Nuremberg); Jonah starts mid-thought and uses 'tbf'; Priya uses 'literally' as emphasis and 'I'm in if it doesn't clash with the thing'; Simone uses 'just to flag —' and ends with bullet summaries; Dev responds to threads with single words."
+      "notes": "All 5 sub-dimensions pass. Emoji: Priya (Frequent) uses emoji in most messages; Jonah (Frequent) uses emoji regularly; Marcus (Moderate) uses occasional emoji; Simone (Rare) uses almost none; Dev (Never) uses none throughout. Typos: Jonah (High) has consistent typos ('thsi', 'deffo', 'lmao', 'tbf', 'ur', 'lmk'); Dev (None) is error-free; others match profiles. Verbosity: Marcus (Verbose) has consistently long detailed messages across all sessions; Dev (Terse) almost all messages are 1-5 words; Priya (Concise) medium length; Jonah (Verbose) lively multi-sentence; Simone (Concise) crisp structured. Formality: Simone (Semi-formal) uses full sentences and punctuation throughout; Dev (Casual) is sparse but consistent; others are casual-appropriate. Quirks: Marcus uses 'I'll be honest with you \u2014' multiple times and historical analogies (Somme, Waterloo, Dunkirk, Nuremberg); Jonah starts mid-thought and uses 'tbf'; Priya uses 'literally' as emphasis and 'I'm in if it doesn't clash with the thing'; Simone uses 'just to flag \u2014' and ends with bullet summaries; Dev responds to threads with single words."
     },
     "naturalness_of_transitions": {
       "score": 2,
@@ -425,11 +438,11 @@
     },
     "em_dash_free": {
       "score": 2,
-      "notes": "Zero em dashes (—) found in any message field across all 182 turns. Verified against all sessions."
+      "notes": "Zero em dashes (\u2014) found in any message field across all 182 turns. Verified against all sessions."
     },
     "planted_turn_integrity": {
       "score": 2,
-      "notes": "Checked all QA evidence_anchor message_excerpts against turn text. Sample verified: ch_a1b2c3d4 (S1 t009) — excerpt matches verbatim; ch_a3b4c5d6 (S3 t022) — 'somewhere quiet would be ideal. I'd rather be able to debrief properly than sit in a place where everyone is shouting.' matches verbatim; ch_b0c1d2e3 (S5 t015) — 'The half-marathon training. Cutting alcohol for the duration. I told you all in October and nobody listened because Dev was doing something amusing with the bread rolls.' matches verbatim; ch_e3f4a5b6 (S6 t010) — 'There's something I've been putting off telling you all and I think Marcus already knows something is up, so I should just say it. I've accepted a secondment offer. Singapore. Twelve months, starting January.' matches verbatim. All integrity checks pass."
+      "notes": "Checked all QA evidence_anchor message_excerpts against turn text. Sample verified: ch_a1b2c3d4 (S1 t009) \u2014 excerpt matches verbatim; ch_a3b4c5d6 (S3 t022) \u2014 'somewhere quiet would be ideal. I'd rather be able to debrief properly than sit in a place where everyone is shouting.' matches verbatim; ch_b0c1d2e3 (S5 t015) \u2014 'The half-marathon training. Cutting alcohol for the duration. I told you all in October and nobody listened because Dev was doing something amusing with the bread rolls.' matches verbatim; ch_e3f4a5b6 (S6 t010) \u2014 'There's something I've been putting off telling you all and I think Marcus already knows something is up, so I should just say it. I've accepted a secondment offer. Singapore. Twelve months, starting January.' matches verbatim. All integrity checks pass."
     },
     "overall_pass": true,
     "failing_turns": []

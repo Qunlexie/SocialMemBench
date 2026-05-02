@@ -1,0 +1,739 @@
+{
+  "network_id": "grp_f1a2b3c5",
+  "total_pairs": 54,
+  "phase1_mean_score": 0.9674,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 42,
+    "2": 12
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "medium": 38,
+    "hard": 12,
+    "easy": 4
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 14,
+      "mean_score": 0.96,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 5,
+      "mean_score": 0.97,
+      "flagged": 0
+    },
+    "Q3": {
+      "count": 3,
+      "mean_score": 0.97,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.97,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 7,
+      "mean_score": 0.97,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 3,
+      "mean_score": 0.97,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.97,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 12,
+      "mean_score": 0.97,
+      "flagged": 0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_b3c50001",
+      "query_type": "Q1",
+      "question": "Looking at how Bex talks about her imaging routine across the chat, what does her behavior suggest about where she actually likes to do astrophotography?",
+      "blind_answer": "Bex consistently expresses enthusiasm for mobile, dark-site sessions and either avoids or downplays backyard sessions",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50002",
+      "query_type": "Q1",
+      "question": "Across multiple weekend planning threads, what pattern does Marcus show in how he chooses where to image?",
+      "blind_answer": "Marcus consistently chooses backyard imaging on his C14 over road trips",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50003",
+      "query_type": "Q1",
+      "question": "What does the way Sven describes his hobby moments reveal about which part of astrophotography he actually finds most rewarding?",
+      "blind_answer": "Sven consistently presents the engineering and modification side as the primary draw, with imaging as a side effect",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50004",
+      "query_type": "Q1",
+      "question": "What does Henrik repeatedly emphasize whenever the topic of long-integration imaging comes up?",
+      "blind_answer": "Henrik repeatedly emphasizes dithering every three frames as a non-negotiable practice",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50005",
+      "query_type": "Q1",
+      "question": "Across discussions of imaging conditions, what does Diego's framing suggest he actually prioritizes when assessing a night?",
+      "blind_answer": "Diego prioritizes atmospheric seeing over light pollution",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50006",
+      "query_type": "Q1",
+      "question": "What aesthetic does Hana favor in her processing, and what comment does she make that hints at where the preference came from?",
+      "blind_answer": "Hana favors muted, low-saturation processing",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50007",
+      "query_type": "Q1",
+      "question": "Throughout the group's planning conversations, what does Rafiq's choice of imaging mode reveal about how he actually likes to operate?",
+      "blind_answer": "Rafiq consistently prefers operating remote rigs over local setups",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b3c50008",
+      "query_type": "Q2",
+      "question": "After the group enthusiastically planned the Cherry Springs road trip in the early conversations, what did Marcus's reaction to the trip plan reveal about his actual stance, and what specifically in how he responded tells you that?",
+      "blind_answer": "Marcus opted out, framing it as 'as usual' for him: he announced he would skip Cherry Springs and stick to backyard imaging while telling the others to enjoy",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b3c50009",
+      "query_type": "Q2",
+      "question": "When Bex defended ASIAir as the right choice for her mobile setup and Priya supported the platform, what did Felix's response signal about his actual position on ASIAir versus NINA, and what specifically in how he responded tells you that?",
+      "blind_answer": "Felix's actual position is that he prefers PC-based stacks over ASIAir, but in this thread he answered with a single-word 'fair' rather than pushing back",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b3c5000a",
+      "query_type": "Q2",
+      "question": "When Bex organized a Bortle 3 group trip and several members signed up, what did Marcus's response reveal about whether he was on board with the group trip, and what specifically tells you that?",
+      "blind_answer": "Marcus was not on board: he announced he would be on the C14 at home 'as usual' and wished the trip-goers well",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b3c5000b",
+      "query_type": "Q2",
+      "question": "As the Cherry Springs roster filled out and ten then eleven members confirmed, what did Marcus's response signal about his own attendance, and what specifically in how he responded tells you that?",
+      "blind_answer": "Marcus declined again, saying he would be on backyard solar all weekend",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b3c5000c",
+      "query_type": "Q2",
+      "question": "As the Cherry Springs roster was being firmed up, what did Otis's response reveal about how committed he was to actually attending, and what specifically in how he responded tells you that?",
+      "blind_answer": "Otis hedged: 'fellas if there's room I might come along' is conditional rather than a commitment, despite the trip being open and his having space in his own van",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_b3c5000d",
+      "query_type": "Q3",
+      "question": "Based on the conversations, where do Marcus and Bex each most prefer to do their imaging, and how does the chat reveal it?",
+      "blind_answer": "Marcus prefers backyard imaging on his C14 \u2014 he reports backyard hour totals after clear weekends and consistently opts out of road trips",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b3c5000e",
+      "query_type": "Q4",
+      "question": "In the spring season planning thread, who in the chat said something to the effect of 'an old C8 with about 6 hours of luminance is enough for a respectable galaxy result'?",
+      "blind_answer": "Otis said this",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b3c5000f",
+      "query_type": "Q4",
+      "question": "After the group discussed how cloud cancellations had reshaped a member's site choice, who said something to the effect that good-enough conditions every night beat perfect conditions a few times a year?",
+      "blind_answer": "Camila said this",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50010",
+      "query_type": "Q5",
+      "question": "What is Ines's current attitude toward her acquisition software, and how does Hana show that she had this knowledge before Ines stated it publicly?",
+      "blind_answer": "Ines is reconsidering ASIAir and reading the NINA documentation; she eventually confirms a switch",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50011",
+      "query_type": "Q5",
+      "question": "What does Priya prefer when it comes to imaging-control platforms, and how does Felix show that he already knew this about her before she confirmed it in the trip-planning thread?",
+      "blind_answer": "Priya prefers Linux-based stacks (Ekos under KStars) and avoids Windows acquisition software when possible",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50012",
+      "query_type": "Q5",
+      "question": "What is Lena's professional role in astronomy, and how does Esme show that she has internalized this knowledge through how she talks to Lena?",
+      "blind_answer": "Lena is a professional astronomer who travels for observing runs and assists on telescope-time campaigns",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b3c50013",
+      "query_type": "Q6",
+      "question": "Many in the chat treat dark-site road trips as the social high point of the season. Does this apply to everyone, and if not, who has a different preference and what is it?",
+      "blind_answer": "No",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50014",
+      "query_type": "Q7",
+      "question": "What is the nature of Theo's relationship with Maya as it shows up in the chat?",
+      "blind_answer": "Theo functions as Maya's mentor",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50015",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about how far back Marcus and Otis go and what they have shared?",
+      "blind_answer": "They go back decades",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50016",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about how Sven and Henrik first connected and what kind of friendship they have?",
+      "blind_answer": "They are friends from a maker space",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50017",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the in-person relationship between Marcus and Tomas?",
+      "blind_answer": "Marcus and Tomas are in-person friends who run real-life backyard sessions together",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50018",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about the relationship between Bex and Clara when it comes to dark-site trips?",
+      "blind_answer": "Bex and Clara are weekend trip partners who drive to dark sites together",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50019",
+      "query_type": "Q7",
+      "question": "What does the chat reveal about how Henrik and Sven know each other and what they typically do together?",
+      "blind_answer": "Henrik and Sven know each other from a maker space and bond over hardware tinkering",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c5001a",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Bex's relationship to dark-site trips shifted, and what appeared to drive it?",
+      "blind_answer": "Early in the conversations Bex was actively prepping for a Bortle 3 weekend run and presenting dark-site travel as a routine commitment",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c5001b",
+      "query_type": "Q8",
+      "question": "What in Camila's posts shows that her imaging software preference shifted, and what appeared to cause it?",
+      "blind_answer": "Earlier in the conversations Camila presents herself as a long-running SGP user with a stable pier setup",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c5001c",
+      "query_type": "Q8",
+      "question": "What in Theo's posts signals that his mount recommendation changed, and why does he say it changed?",
+      "blind_answer": "Theo's earlier posts in the chat reflect his standing as the patient mentor who has trusted Sky-Watcher mounts for years",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c5001d",
+      "query_type": "Q8",
+      "question": "What in Saira's posts shows that her processing workflow shifted, and what appeared to drive the change?",
+      "blind_answer": "Earlier in the corpus Saira posts about narrowband under the moon without referencing star removal",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c5001e",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Marcus's imaging interests broadened, and what drove the change?",
+      "blind_answer": "In the early sessions Marcus talks exclusively about deep-sky targets on his C14 (PEC training, M81 hour totals, RA/Dec coordinates)",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c5001f",
+      "query_type": "Q8",
+      "question": "What in Yara's contributions shows her imaging targets shifted, and what appeared to drive it?",
+      "blind_answer": "Earlier sessions show Yara asking why-questions about luminance versus color, framed around bright Messier objects",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c50020",
+      "query_type": "Q8",
+      "question": "What in Luc's posts shows his travel setup shifted, and what drove the change?",
+      "blind_answer": "Earlier Luc imaged from hotel balconies with a small refractor and a tracker totaling around 5",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c50021",
+      "query_type": "Q8",
+      "question": "What in Boris's posts signals that his imaging habit shifted, and what appeared to drive it?",
+      "blind_answer": "Earlier sessions show Boris responding only with one-word punchlines and rarely posting about active imaging",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c50022",
+      "query_type": "Q8",
+      "question": "What in Clara's posts signals that her rig plans shifted, and what appeared to drive the change?",
+      "blind_answer": "Earlier in the corpus Clara is content with her small William Optics setup and brings no upgrade up",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c50023",
+      "query_type": "Q8",
+      "question": "What in Ravi's responses signals his attitude toward narrowband palettes shifted, and what appeared to drive it?",
+      "blind_answer": "Early sessions show Ravi calling narrowband palettes 'pseudo-scientific' and dismissive of the SHO/HOO crowd",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c50024",
+      "query_type": "Q8",
+      "question": "What in Lena's posts signals that her view of AI processing tools shifted, and what appeared to drive the update?",
+      "blind_answer": "Earlier in the corpus Lena describes AI noise-reduction tools as 'pretty but unscientific' and refuses to use them",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b3c50025",
+      "query_type": "Q8",
+      "question": "What in Esme's posts signals that her stance on AI processing tools shifted, and what specifically explains why?",
+      "blind_answer": "Early in the corpus Esme echoes Lena's anti-AI position, saying scientific accuracy in image presentation matters more than cosmetic edits",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b3c50065",
+      "query_type": "Q6",
+      "question": "Many in the chat treat AI-based image enhancement tools like BlurXTerminator as a routine part of processing. Does this apply to everyone, and if not, who has a different position and what is it?",
+      "blind_answer": "No",
+      "score": 0.97,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b3c50066",
+      "query_type": "Q6",
+      "question": "The narrowband-favoring camp in the chat treats SHO and HOO palettes as the default for emission nebulae. Does this apply to everyone, and if not, who pushes back and what is their position?",
+      "blind_answer": "No",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50067",
+      "query_type": "Q5",
+      "question": "What had been Boris's pattern with his AP130 refractor before he set it up at the outreach night, and how does Otis's reaction at the moment show that he already knew this about Boris?",
+      "blind_answer": "Boris had barely been setting up his AP130 \u2014 he writes that the night was the first time in eight months",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50068",
+      "query_type": "Q5",
+      "question": "What does Tomas reveal about Marcus's actual attitude toward the social side of group trips, and how does what Tomas says show prior knowledge?",
+      "blind_answer": "Tomas reveals that Marcus accepts the social value of group trips intellectually but does not partake himself",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50069",
+      "query_type": "Q1",
+      "question": "What does Tomas's posting pattern suggest he prioritizes when assessing astrophotography quality, and what makes the priority unmistakable?",
+      "blind_answer": "Tomas prioritizes long total integration time",
+      "score": 0.96,
+      "score_rationale": "Grounded (3/3 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c5006a",
+      "query_type": "Q1",
+      "question": "What does Aida's behavior across the chat reveal about how she approaches imaging sessions, and what makes the approach distinctive?",
+      "blind_answer": "Aida treats calibration as the determining factor of session quality",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c5006b",
+      "query_type": "Q1",
+      "question": "What does the way Theo addresses newer members of the group reveal about how he positions himself in the chat?",
+      "blind_answer": "Theo positions himself as the patient mentor for newer members",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c5006c",
+      "query_type": "Q1",
+      "question": "What attitude does Otis express across the chat about gear choice and budget, and what specifically makes the attitude visible?",
+      "blind_answer": "Otis consistently argues that used gear is sufficient and that the new-gear chase misses the point",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c5006d",
+      "query_type": "Q1",
+      "question": "What does Maya's emotional pattern across her contributions reveal about how she experiences the hobby, and what makes the pattern distinctive?",
+      "blind_answer": "Maya experiences the hobby with high emotional volatility \u2014 anxiety on gear purchases, joy when she gets validation, tearful at her first dark-site experience",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_b3c5006e",
+      "query_type": "Q3",
+      "question": "Based on the conversations, how do members of the group position themselves on using AI-based image enhancement tools like BlurXTerminator?",
+      "blind_answer": "Felix automates BlurXTerminator as step 4 of his 12-step processing macro",
+      "score": 0.97,
+      "score_rationale": "Grounded (6/6 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_b3c5006f",
+      "query_type": "Q3",
+      "question": "Based on the conversations, how do different members of the group position themselves on attending the dark-site road trips?",
+      "blind_answer": "Bex and Clara organize and attend every trip together; Nia, Yara, Maya, Ines, Hana, Otis, Aida, Diego, and Felix all confirmed for the Cherry Springs run",
+      "score": 0.97,
+      "score_rationale": "Grounded (10/10 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50070",
+      "query_type": "Q5",
+      "question": "What is the nature of Marcus's history with Cherry Springs and the site host Bob, and how does Otis's reply show that Otis already knows that history?",
+      "blind_answer": "Marcus has a long history at Cherry Springs that goes back to a 1998 outreach night and a 2007 deck-board replacement project at the site",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b3c50071",
+      "query_type": "Q4",
+      "question": "In the trip-planning conversations, who in the chat said something to the effect that they were stepping back from chasing Bortle 1 dark sites after repeated cloud cancellations?",
+      "blind_answer": "Bex said this",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b3c50072",
+      "query_type": "Q5",
+      "question": "What was Otis's pattern of involvement at Cherry Springs in the past, and how does Marcus's question show that he already knows that history?",
+      "blind_answer": "Otis was a Cherry Springs regular years ago and helped replace observation-deck boards there in 2007 alongside Marcus",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50073",
+      "query_type": "Q1",
+      "question": "What does the pattern of how Bex and Clara talk to each other across the chat reveal about how Bex experiences the social side of imaging?",
+      "blind_answer": "Bex experiences the social side of imaging through trip partnership with Clara \u2014 they drive together, Clara packs the snacks, and Bex tags Clara consistently in trip threads",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b3c50074",
+      "query_type": "Q7",
+      "question": "What does the way Felix interacts with Priya reveal about how the two of them know each other?",
+      "blind_answer": "Felix and Priya know each other from outside the chat \u2014 Felix references Priya's specific platform commitments without needing to ask, and follows up with respectful banter ('the kstars ekos stack is ",
+      "score": 0.97,
+      "score_rationale": "Grounded (1/1 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b3c50075",
+      "query_type": "Q1",
+      "question": "What does Lena's pattern of interventions in technical threads reveal about what she sees as her role in the chat?",
+      "blind_answer": "Lena positions herself as the scientific-rigor gatekeeper",
+      "score": 0.96,
+      "score_rationale": "Grounded (2/2 anchors verified verbatim); no structural flags; answer is reconstructible from cited evidence.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Primary astrophotography domain anchors all sessions; sessions vary across spring imaging prep, weekend recap, software debate, mount tinkering, AI-tools debate, trip planning/recap, and season wrap. Clear primary domain with natural sub-topic variation."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "27 personas with distinct fingerprints maintained across the corpus. Verbose personas (Marcus, Theo, Sven, Rafiq, Henrik, Otis, Saira, Tomas, Ravi) write longer technical messages; Terse personas (Mei, Nia, Boris) keep messages short. Casual personas use lowercase and abbreviations; Formal personas (Lena, Rafiq, Henrik, Boris) use complete sentences."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Topic shifts are character-triggered (e.g., Sven introduces belt mod, Camila announces NINA switch, Theo announces mount recommendation update). No cold pivots."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Em dashes in messages: 0"
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All planted challenge evidence spans verbatim in source turns (verified)."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

@@ -330,7 +330,15 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f4",
+        "p_e3f4a5b6",
+        "p_a9b0c1d2",
+        "p_f4a5b6c7",
+        "p_b0c1d2e3",
+        "p_d2e3f4a5"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s02",
@@ -745,7 +753,15 @@
       ],
       "prior_session_summary": "The group is back after the Christmas break. Nadia is deep into a brutal run of night shifts and flagged needing early finishes on plans. Marcus gave a vague yes to Sunday plans. Zara organized a dinner last Sunday with some grumbling about the logistics. Seb is keen on a pub quiz this coming Sunday. Priyanka has just tried cold-water swimming for the first time and is already hooked, which the group received with mild skepticism and mild interest.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_e3f4a5b6",
+        "p_c1d2e3f4",
+        "p_b0c1d2e3",
+        "p_f4a5b6c7",
+        "p_a9b0c1d2",
+        "p_d2e3f4a5"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s03",
@@ -1144,7 +1160,15 @@
       ],
       "prior_session_summary": "Priyanka has been converted to cold-water swimming and is now going regularly. The group did a pub quiz together last Sunday. Zara organized it with minimal enthusiasm, Seb is pleased with himself, Marcus came. Seb recounted a terrible date with a money-focused woman. Zara and Seb had a minor but visible clash about first-date etiquette, defused by Priyanka. Theo invited Seb bouldering and Marcus offered to look at Seb's knee first -- a new dynamic forming.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f4",
+        "p_e3f4a5b6",
+        "p_b0c1d2e3",
+        "p_a9b0c1d2",
+        "p_d2e3f4a5",
+        "p_f4a5b6c7"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s04",
@@ -1571,7 +1595,15 @@
       ],
       "prior_session_summary": "Seb's knee flared up after coaching and he cancelled on the planned Peak District hike, apologizing and acknowledging he should have flagged the knee earlier. Marcus offered to assess him properly. The group pivoted to an escape room on Feb 14. Zara gave a one-word 'sure' -- visible non-enthusiasm. Nadia agreed to escape room subject to a fixed end time. Theo proposed splitting: hike for some, escape room for others. Priyanka is organizing the booking.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_e3f4a5b6",
+        "p_c1d2e3f4",
+        "p_f4a5b6c7",
+        "p_d2e3f4a5",
+        "p_b0c1d2e3",
+        "p_a9b0c1d2"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s05",
@@ -1876,7 +1908,15 @@
       ],
       "prior_session_summary": "The escape room on Feb 14 is booked. Seb's knee was assessed by Marcus and is recovering. Zara organized the last outing with visible resignation. The group hasn't seen each other in person since the escape room planning session. Nadia has been quieter than usual for a few weeks.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c1d2e3",
+        "p_a9b0c1d2",
+        "p_e3f4a5b6",
+        "p_d2e3f4a5",
+        "p_c1d2e3f4",
+        "p_f4a5b6c7"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s06",
@@ -2168,7 +2208,15 @@
       ],
       "prior_session_summary": "Priyanka's dinner at hers last Saturday went well. Nadia's midwifery news was properly celebrated. Zara was in a noticeably better mood in a quieter setting. Marcus came, Seb's knee is improving. The group has Valentine's Day on Saturday and the escape room is now booked.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f4",
+        "p_d2e3f4a5",
+        "p_e3f4a5b6",
+        "p_b0c1d2e3",
+        "p_a9b0c1d2",
+        "p_f4a5b6c7"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s07",
@@ -2460,7 +2508,15 @@
       ],
       "prior_session_summary": "The escape room on Feb 14 was a success. Marcus solved the final puzzle and was the quiet star of the day. Zara found it less awful than expected. Seb's knee held up. The group is now planning the next thing. Marcus has been visibly more subdued recently due to his breakup.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c1d2e3f4",
+        "p_e3f4a5b6",
+        "p_f4a5b6c7",
+        "p_d2e3f4a5",
+        "p_b0c1d2e3",
+        "p_a9b0c1d2"
+      ]
     },
     {
       "session_id": "grp_a9b0c1d2_s08",
@@ -2791,7 +2847,15 @@
       ],
       "prior_session_summary": "Marcus was direct about the breakup for the first time. Nadia called him out and he acknowledged it. The group is in a warmer place than it has been in months. Marcus arrived at the escape room last Saturday without hedging, the first time in a long time. Ramen at Borough is being floated for the next meetup.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_e3f4a5b6",
+        "p_c1d2e3f4",
+        "p_b0c1d2e3",
+        "p_d2e3f4a5",
+        "p_f4a5b6c7",
+        "p_a9b0c1d2"
+      ]
     }
   ],
   "total_turns": 186,
@@ -2806,7 +2870,7 @@
       "evidence_span": "January is always the worst for A&E. Always",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -2818,7 +2882,7 @@
       "evidence_span": "You were the one who told me never to book annual leave in January because the ward would guilt you into canceling it.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -2830,7 +2894,7 @@
       "evidence_span": "somewhere decent, not a chain obv",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -2842,7 +2906,7 @@
       "evidence_span": "I would rather not go somewhere with a two-hour wait listed as a feature.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -2854,7 +2918,7 @@
       "evidence_span": "Sunday works if it finishes at a sensible time. I have an early start Monday.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -2866,7 +2930,7 @@
       "evidence_span": "it was completely insane but also kind of amazing?? my whole body was awake in a way I haven't felt in ages",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -2878,7 +2942,7 @@
       "evidence_span": "Nadia and Theo used to live in a house where the boiler broke for a full week in February.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b8c9d0e1",
@@ -2890,7 +2954,7 @@
       "evidence_span": "Zara had a full-length coat she refused to take off inside for three days.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -2902,7 +2966,7 @@
       "evidence_span": "should be able to make it if it's not too late a start",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -2914,7 +2978,7 @@
       "evidence_span": "Fine by me. I would push back on sitting in a garden in January but I suppose a pub quiz ends at a fixed time, which is the main thing.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 23
+      "turn_index": 24
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -2926,7 +2990,7 @@
       "evidence_span": "Zara you'll love it, there's a whole books and literature round",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 25
+      "turn_index": 26
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -2938,7 +3002,7 @@
       "evidence_span": "I go Tuesday evenings mostly. Come along if you want, I'll show you the basics.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_a3b4c5d6",
@@ -2950,7 +3014,7 @@
       "evidence_span": "does your knee still give you problems a lot? would it be weird to ask Marcus about it, he knows knee injuries better than anyone surely",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -2962,7 +3026,7 @@
       "evidence_span": "I can do Feb 14 as long as we are back in London by 7. I have a shift Sunday morning.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -2971,7 +3035,7 @@
       "speaker_persona_id": "p_c1d2e3f4",
       "fact_attribute": "physical_activity_commitment",
       "fact_value": "Seb commits confidently without flagging the knee, then has to cancel; this is the last time he does this -- after this session he begins flagging the knee upfront",
-      "evidence_span": "knee completely went this afternoon, like proper locked up after coaching. I don't think I can do the hike on the 14th... I'm so sorry I know I keep doing this",
+      "evidence_span": "knee completely went this afternoon, like proper locked up after coaching. I don't think I can do the hike on the 14th",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 13
@@ -2986,7 +3050,7 @@
       "evidence_span": "come in tomorrow morning, I'll do a proper assessment. you should not be coaching on it when it's like this",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -2995,7 +3059,7 @@
       "speaker_persona_id": "p_a9b0c1d2",
       "fact_attribute": "medical_questions_at_social_events",
       "fact_value": "Nadia gives clinical advice and immediately disclaims off-duty status; she is averse to being the group's medical resource",
-      "evidence_span": "Go to Marcus, Seb. Not as a friend thing, as a clinical thing. That kind of locking up needs to be looked at properly. I'm off duty.",
+      "evidence_span": "Go to Marcus, Seb. Not as a friend thing, as a clinical thing. That kind of locking up needs to be looked at properly.",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 17
@@ -3010,7 +3074,7 @@
       "evidence_span": "I should have told you lot upfront that the knee was dodgy again before signing up for a hike. I keep doing this",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_a9b0c1d2",
@@ -3022,7 +3086,7 @@
       "evidence_span": "sure",
       "implicitness_level": 3,
       "session_index": 4,
-      "turn_index": 25
+      "turn_index": 26
     },
     {
       "challenge_id": "ch_b0c1d2e3",
@@ -3034,7 +3098,7 @@
       "evidence_span": "I've been sitting on something for a while. I applied to a part-time midwifery program in December. Found out last week I got in.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -3046,7 +3110,7 @@
       "evidence_span": "Theo actually pushed me to say something earlier this week, so here we are.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -3058,7 +3122,7 @@
       "evidence_span": "You get quiet in a particular way when something big is running in the background.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -3070,7 +3134,7 @@
       "evidence_span": "I would prefer that to a restaurant, actually. Quieter. I have had two brutal weeks and I do not need loud background music.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -3082,7 +3146,7 @@
       "evidence_span": "I am done making all the reservations. I have done it for every single outing this month. Someone else can do it.",
       "implicitness_level": 1,
       "session_index": 6,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -3094,7 +3158,7 @@
       "evidence_span": "Priyanka and I ended up at that new cinema on Shaftesbury last week. the one doing the Tarkovsky retrospective. it was genuinely good",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_b6c7d8e9",
@@ -3106,7 +3170,7 @@
       "evidence_span": "we have been for a while. you would not have enjoyed a three-hour Tarkovsky film, Seb",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_c7d8e9f0",
@@ -3118,7 +3182,7 @@
       "evidence_span": "The group misses you being properly here. Saturday was the first time in months you've actually shown up without hedging.",
       "implicitness_level": 1,
       "session_index": 7,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_d8e9f0a1",
@@ -3130,7 +3194,7 @@
       "evidence_span": "I'll try to just show up properly going forward",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_e9f0a1b2",
@@ -3142,7 +3206,7 @@
       "evidence_span": "You were always reliable in a crisis. It is allowed to work the other way.",
       "implicitness_level": 3,
       "session_index": 7,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_f0a1b2c3",
@@ -3154,7 +3218,7 @@
       "evidence_span": "the whole point is the landscape and the cold and waking up in the hills. no organised fun required",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_a1b2c3d5",
@@ -3166,7 +3230,7 @@
       "evidence_span": "I'm in. March weekend works. I'll sort the kit list if someone else books the site.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b2c3d4e6",
@@ -3178,7 +3242,7 @@
       "evidence_span": "we met because Marcus accidentally walked into the wrong A&E bay and Nadia was the one who had to redirect him.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_c3d4e5f7",
@@ -3190,7 +3254,7 @@
       "evidence_span": "so wait, that's actually how the group started?? I always assumed you'd all met at uni or something",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_d4e5f6a8",
@@ -3202,7 +3266,7 @@
       "evidence_span": "Nadia and Marcus were the nucleus. Zara and I joined later through the shared house. Seb through you, basically.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_e5f6a7b9",
@@ -3214,7 +3278,7 @@
       "evidence_span": "I'll come whatever date you pick. Just say when.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 19
+      "turn_index": 20
     }
   ]
 }

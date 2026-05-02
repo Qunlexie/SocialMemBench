@@ -406,6 +406,13 @@
           ],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_na01c6d7",
+        "p_be03e8f9",
+        "p_cl05a0b1",
+        "p_to02d7e8",
+        "p_ra04f9a0"
       ]
     },
     {
@@ -773,6 +780,13 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s02_t021"
         }
+      ],
+      "active_participants": [
+        "p_na01c6d7",
+        "p_to02d7e8",
+        "p_ra04f9a0",
+        "p_be03e8f9",
+        "p_cl05a0b1"
       ]
     },
     {
@@ -1137,6 +1151,13 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s03_t024"
         }
+      ],
+      "active_participants": [
+        "p_cl05a0b1",
+        "p_na01c6d7",
+        "p_be03e8f9",
+        "p_ra04f9a0",
+        "p_to02d7e8"
       ]
     },
     {
@@ -1537,6 +1558,13 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s04_t027"
         }
+      ],
+      "active_participants": [
+        "p_ra04f9a0",
+        "p_na01c6d7",
+        "p_to02d7e8",
+        "p_be03e8f9",
+        "p_cl05a0b1"
       ]
     },
     {
@@ -1892,6 +1920,13 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s05_t020"
         }
+      ],
+      "active_participants": [
+        "p_be03e8f9",
+        "p_na01c6d7",
+        "p_cl05a0b1",
+        "p_ra04f9a0",
+        "p_to02d7e8"
       ]
     },
     {
@@ -2195,6 +2230,12 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s06_t020"
         }
+      ],
+      "active_participants": [
+        "p_na01c6d7",
+        "p_cl05a0b1",
+        "p_ra04f9a0",
+        "p_to02d7e8"
       ]
     },
     {
@@ -2524,6 +2565,12 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s07_t020"
         }
+      ],
+      "active_participants": [
+        "p_na01c6d7",
+        "p_ra04f9a0",
+        "p_to02d7e8",
+        "p_cl05a0b1"
       ]
     },
     {
@@ -2853,6 +2900,12 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_c6d7e8f9_s08_t020"
         }
+      ],
+      "active_participants": [
+        "p_na01c6d7",
+        "p_cl05a0b1",
+        "p_to02d7e8",
+        "p_ra04f9a0"
       ]
     }
   ],
@@ -2868,7 +2921,7 @@
       "evidence_span": "Did a seeded rye last Saturday and it actually held its shape for once. The old oven ran about 15 degrees cold and I never knew.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -2880,7 +2933,7 @@
       "evidence_span": "They do that whole spread with the smoked fish boards and the mezze bits, it's perfect for everyone",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -2892,7 +2945,7 @@
       "evidence_span": "As long as they do a proper espresso and not just a Nespresso pod with ambitions, fine by me.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -2904,7 +2957,7 @@
       "evidence_span": "I DID NOT COMBUST I simply asked a question about whether the mud was strictly necessary",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -2916,7 +2969,7 @@
       "evidence_span": "Nadia has known this about me for six years so the shock has worn off.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -2928,7 +2981,7 @@
       "evidence_span": "I lived with Tom for two years and somehow also failed to become a runner.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -2940,7 +2993,7 @@
       "evidence_span": "Nadia and I met at a pottery class about three years back. First session we both collapsed the same bowl at the same moment and just looked at each other.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_b8c9d0e1",
@@ -2952,7 +3005,7 @@
       "evidence_span": "lucky to have been introduced to you lot via the zine fair tbh. bex basically just grabbed me between stalls and went 'you have to meet these people'",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -2964,7 +3017,7 @@
       "evidence_span": "I shared that Guardian long-read in the other chat but dropping it here too. The factory farming piece. Genuinely worth reading even if you don't want to.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -2976,7 +3029,7 @@
       "evidence_span": "I think I'm done with road halves honestly, the terrain out there is just different. You're actually navigating, reading ground. Nothing like it.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -2988,7 +3041,7 @@
       "evidence_span": "you used to talk about the Bristol half as the main event and now it's all about these huge off-road things",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -3000,7 +3053,7 @@
       "evidence_span": "Tom and I have a standing Tuesday quiz. He turned up last week barely able to sit down from a hill session and still managed to beat me on the science round.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_a3b4c5d6",
@@ -3012,7 +3065,7 @@
       "evidence_span": "Pasta at every aid station and about 900 calories of oat bars. Learned from last time.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -3024,7 +3077,7 @@
       "evidence_span": "i've been veggie since like forever but still. the bit about the supply chain was genuinely grim",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -3036,7 +3089,7 @@
       "evidence_span": "I've been mostly plant-based for years and it still finds new angles to make me think.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_d6e7f8a9",
@@ -3048,7 +3101,7 @@
       "evidence_span": "I ordered the squid ink pasta on Thursday at that place in Clifton and specifically did not order the lamb even though I wanted it. and I feel fine?",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -3060,7 +3113,7 @@
       "evidence_span": "bex is this how you and nadia ended up doing a whole pottery course together after the first one",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -3072,7 +3125,7 @@
       "evidence_span": "i'm not great at quizzes but i'll come and draw on the answer sheet probably",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 24
+      "turn_index": 25
     },
     {
       "challenge_id": "ch_a9b0c1d2",
@@ -3084,7 +3137,7 @@
       "evidence_span": "There's a conversation I've been having with some people in another country that I'm taking seriously for the first time. I'm not ready to say more yet but it's real.",
       "implicitness_level": 3,
       "session_index": 4,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_b0c1d2e3",
@@ -3096,7 +3149,7 @@
       "evidence_span": "It was genuinely useful to have her. I was wrong about the format being incompatible with the full group.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -3105,7 +3158,7 @@
       "speaker_persona_id": "p_be03e8f9",
       "fact_attribute": "transport_and_activity_preference",
       "fact_value": "Bex organises leisure time around cycling; prefers cycling over motorised transport",
-      "evidence_span": "I want to cycle on Saturday morning before it all gets busy, the route past the gorge is actually good in winter light.",
+      "evidence_span": "Works. Same time.",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 26
@@ -3120,7 +3173,7 @@
       "evidence_span": "I've accepted the Copenhagen job. I'm moving in six weeks.",
       "implicitness_level": 1,
       "session_index": 5,
-      "turn_index": 0
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_e3f4a5b6",
@@ -3132,7 +3185,7 @@
       "evidence_span": "That was genuinely the first thing I checked. The cycling infrastructure there is extraordinary.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -3144,7 +3197,7 @@
       "evidence_span": "you introduced me to pottery and to Cleo and you are the reason this group exists in its current form",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_a5b6c7d8",
@@ -3156,7 +3209,7 @@
       "evidence_span": "Somewhere that does decent plant-based options so I'm not just eating around the edges of a menu for my own farewell.",
       "implicitness_level": 1,
       "session_index": 5,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_b6c7d8e9",
@@ -3168,7 +3221,7 @@
       "evidence_span": "Saturday before the move, I'll bake in the morning and bring it over. I need to know the oven in Copenhagen before I trust it with a proper sourdough anyway.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_c7d8e9f0",
@@ -3180,7 +3233,7 @@
       "evidence_span": "The climate policy conversation you and I had last autumn is still the most useful two hours I've spent not at a desk.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_d8e9f0a1",
@@ -3192,7 +3245,7 @@
       "evidence_span": "i actually pitched them. like, properly. sent them a full deck with my rates and a brief concept. which i have never done before with anyone at that level.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_e9f0a1b2",
@@ -3204,7 +3257,7 @@
       "evidence_span": "this group norm of everyone sharing something every week is actually what keeps me going idk. even when i have nothing i still show up bc you lot are here",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_f0a1b2c3",
@@ -3216,7 +3269,7 @@
       "evidence_span": "Tom told me last Tuesday that Ravi has been showing up to the pub quiz every single week since Ravi moved out and has never once cancelled. That is four years of showing up.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_a1b2c3de",
@@ -3228,7 +3281,7 @@
       "evidence_span": "It requires analysis because four years is a long time to like a quiz.",
       "implicitness_level": 3,
       "session_index": 7,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_b2c3d4ef",
@@ -3240,7 +3293,7 @@
       "evidence_span": "Ended up doing 34k. The thinking works better when there's no defined endpoint.",
       "implicitness_level": 3,
       "session_index": 7,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_c3d4e5fa",
@@ -3252,7 +3305,7 @@
       "evidence_span": "I moved to Bristol knowing nobody. The people in this group are the only ones I see outside of work. That is not a project. That is just what I have.",
       "implicitness_level": 1,
       "session_index": 7,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_d4e5f6ab",
@@ -3264,7 +3317,7 @@
       "evidence_span": "Glad Nadia found somewhere plant-based friendly so Bex wasn't navigating around the menu at her own goodbye.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_e5f6a7bc",
@@ -3276,7 +3329,7 @@
       "evidence_span": "She knows I am awake and that I will not respond with a string of emoji. Both of those things matter at 6am.",
       "implicitness_level": 3,
       "session_index": 8,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f6a7b8cd",
@@ -3288,7 +3341,7 @@
       "evidence_span": "I had the roasted aubergine dish. Strong umami. Better than expected for a plant-forward place.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_a7b8c9de",
@@ -3300,7 +3353,7 @@
       "evidence_span": "i had the roasted aubergine too. because it was the most interesting vegetarian option and it didn't disappoint",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 10
+      "turn_index": 11
     }
   ]
 }

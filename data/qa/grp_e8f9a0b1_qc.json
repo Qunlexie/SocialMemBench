@@ -1,96 +1,436 @@
 {
   "network_id": "grp_e8f9a0b1",
-  "qc_run_at": "2026-04-22T00:00:00Z",
-  "n_pairs": 28,
-  "phase1_blind_critic": {
-    "method": "inference_required scoring 0-2; 0=keyword-matchable, 1=single-hop easy, 2=multi-hop or cross-session inference required",
-    "scores": {
-      "Q1_e8f9a0b101": {"score": 0.87, "inference_required": 2, "notes": "cross-session pattern across S1+S4; derogatory food framing as the signal"},
-      "Q1_e8f9a0b102": {"score": 0.85, "inference_required": 2, "notes": "wine criterion implicit; made explicit via S5+S10 confirmation"},
-      "Q1_e8f9a0b103": {"score": 0.85, "inference_required": 2, "notes": "format-shapes-connection thesis requires reading S4+S6"},
-      "Q1_e8f9a0b104": {"score": 0.85, "inference_required": 2, "notes": "in-person hierarchy requires S9+S10; well-supported"},
-      "Q1_e8f9a0b105": {"score": 0.80, "inference_required": 1, "notes": "Sana's preference stated explicitly in S10; single anchor sufficient; straightforward"},
-      "Q1_e8f9a0b106": {"score": 0.85, "inference_required": 2, "notes": "departure pattern tracked across S3+S6+S10; reframing move at S6 is the insight"},
-      "Q4_e8f9a0b101": {"score": 0.85, "inference_required": 2, "notes": "contamination_foil correctly distinguishes Marcus (food register) vs Callum (operational risk register)"},
-      "Q4_e8f9a0b102": {"score": 0.85, "inference_required": 2, "notes": "Omar's explicit 'yeah temi's rite' is the attribution marker; foil explains why Omar seems plausible"},
-      "Q5_e8f9a0b101": {"score": 0.83, "inference_required": 2, "notes": "Jade's November timestamp is unprompted and precise; theory-of-mind read is valid"},
-      "Q5_e8f9a0b102": {"score": 0.83, "inference_required": 2, "notes": "Dev's volume-to-impact framing shows prior model; not prompted by Sana"},
-      "Q5_e8f9a0b103": {"score": 0.85, "inference_required": 2, "notes": "Temi's explicit 'I don't think he'd say that here' is the indicator; clean ToM pair"},
-      "Q2_e8f9a0b101": {"score": 0.88, "inference_required": 2, "notes": "minimal two-word capitulation; 'sure whatever' vs genuine agreement distinction is well-explained"},
-      "Q2_e8f9a0b102": {"score": 0.80, "inference_required": 2, "notes": "cross-session wine inference required to decode 'good venue'; slightly harder to see than stated"},
-      "Q2_e8f9a0b103": {"score": 0.83, "inference_required": 2, "notes": "S5 headcount framing vs S6 revised preference; two anchors span the shift"},
-      "Q2_e8f9a0b104": {"score": 0.82, "inference_required": 2, "notes": "'We are all adults' as deflection rather than genuine consent; well-argued"},
-      "Q6_e8f9a0b101": {"score": 0.80, "inference_required": 1, "notes": "answer derivable from identifying norm dissenters; MC makes it accessible; evidence grounded"},
-      "Q6_e8f9a0b102": {"score": 0.80, "inference_required": 1, "notes": "Omar's fait accompli booking is explicit; Dev's reactive pattern less overt but supported"},
-      "Q7_e8f9a0b101": {"score": 0.82, "inference_required": 1, "notes": "school magazine reference explicit; shared history derivable from one turn"},
-      "Q7_e8f9a0b102": {"score": 0.85, "inference_required": 1, "notes": "falling-out details explicit in S10; in-person apology resolution well-evidenced"},
-      "Q7_e8f9a0b103": {"score": 0.83, "inference_required": 1, "notes": "Callum's near-miss disclosure is explicit; trust-signal interpretation is the inference step"},
-      "Q8_e8f9a0b101": {"score": 0.72, "inference_required": 2, "notes": "trigger-seeking framing present; temporal anchors S1-S2 gap only 1 session — below hard threshold"},
-      "Q8_e8f9a0b102": {"score": 0.72, "inference_required": 2, "notes": "trigger-seeking framing present; temporal anchors S2-S3 gap only 1 session — below hard threshold"},
-      "Q8_e8f9a0b103": {"score": 0.72, "inference_required": 2, "notes": "trigger-seeking framing present; temporal anchors S5-S6 gap only 1 session — below hard threshold"},
-      "Q8_e8f9a0b104": {"score": 0.85, "inference_required": 2, "notes": "anchors S1-S7, gap 6 sessions; explicit trigger named in S7; clean hard Q8"},
-      "Q8_e8f9a0b105": {"score": 0.85, "inference_required": 2, "notes": "anchors S1-S8, gap 7 sessions; 'sorted it myself' is the trigger marker"},
-      "Q8_e8f9a0b106": {"score": 0.87, "inference_required": 2, "notes": "anchors S1-S8, gap 7 sessions; prediction-falsification logic cleanly explained"},
-      "Q8_e8f9a0b107": {"score": 0.85, "inference_required": 2, "notes": "anchors S5-S9, gap 4 sessions; editor commission as external validation trigger is legible"},
-      "Q8_e8f9a0b108": {"score": 0.85, "inference_required": 2, "notes": "anchors S3-S9, gap 6 sessions; shift from deferrer to active analyst well-documented"}
+  "total_pairs": 28,
+  "phase1_mean_score": 0.9821,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 96.43,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "2": 28
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "easy": 0,
+    "medium": 15,
+    "hard": 13
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 6,
+      "mean_score": 1.0,
+      "flagged": 0
     },
-    "mean_score": 0.833,
-    "flagged_low": ["Q8_e8f9a0b101", "Q8_e8f9a0b102", "Q8_e8f9a0b103"]
+    "Q2": {
+      "count": 4,
+      "mean_score": 0.9,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 3,
+      "mean_score": 0.967,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 8,
+      "mean_score": 1.0,
+      "flagged": 0
+    }
   },
-  "phase2_evidence_grounding": {
-    "method": "verify each evidence anchor corresponds to an actual turn in the conversation corpus",
-    "all_grounded": true,
-    "issues": []
-  },
-  "phase3_structural_flags": {
-    "flags": [
-      {
-        "qa_id": "Q8_e8f9a0b101",
-        "flag": "temporal_anchor_gap_too_small",
-        "detail": "temporal_anchors span S1-S2 (gap = 1 session); hard difficulty requires anchors ≥3 sessions apart; recommend downgrade to 'medium' or revise anchors to span S1 and a later session"
-      },
-      {
-        "qa_id": "Q8_e8f9a0b102",
-        "flag": "temporal_anchor_gap_too_small",
-        "detail": "temporal_anchors span S2-S3 (gap = 1 session); hard difficulty requires anchors ≥3 sessions apart; recommend downgrade to 'medium' or revise anchors to span S2 and a later session (e.g. S5 where Lena independently handles gallery logistics)"
-      },
-      {
-        "qa_id": "Q8_e8f9a0b103",
-        "flag": "temporal_anchor_gap_too_small",
-        "detail": "temporal_anchors span S5-S6 (gap = 1 session); hard difficulty requires anchors ≥3 sessions apart; recommend downgrade to 'medium' or add a third anchor from S1-S2 (where Marcus's large-event preference is first established)"
-      }
-    ],
-    "n_flagged": 3,
-    "flag_types": ["temporal_anchor_gap_too_small"]
-  },
-  "phase4_conversation_quality": {
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_e8f9a0b101",
+      "query_type": "Q1",
+      "question": "What does Marcus's behavior around venue selection for group dinners reveal about his actual priorities when it comes to where the group eats?",
+      "blind_answer": "Marcus steers the group toward substantial pub-style food and away from sharing-plate formats. In S1 he says 'proper food spread. none of that small plates business'; in S4 he tells Omar the set menu is 'proper food Omar, not tapas nonsense. I already checked.' He routinely positions himself as having already verified food substance, framing his advocacy through what the food is not.",
+      "score": 1.0,
+      "score_rationale": "Blind answer identifies the same two-session pattern and the identical derogatory-framing-for-sharing-plates insight as the ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_e8f9a0b101",
+      "query_type": "Q4",
+      "question": "In Session 1, one member said the group should stick to known reliable pubs for the reunion \u2014 arguing specifically that unfamiliar venues create problems and things always go wrong. In Session 2, a different member endorsed a familiar pub using almost identical reasoning. Which member made the original Session 1 argument?",
+      "blind_answer": "Callum (option B). In S1 he said 'The Crown or somewhere similar. new venues take longer to sort and then something always goes wrong, but that's just me.' Marcus also pushed for The Crown in S1 but on food grounds ('proper food spread, none of that small plates business'), not operational risk. The register difference is the distinguishing marker.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Callum and correctly isolates the operational-risk vs food-advocacy register distinction that separates him from Marcus.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_e8f9a0b102",
+      "query_type": "Q4",
+      "question": "In Session 7, one member first observed aloud that Callum was carrying more stress than usual and that his work had been difficult \u2014 framing it as something they had noticed but that Callum himself would not say in the chat. A different member in the same session agreed with this reading. Which member made the original observation about Callum's stress?",
+      "blind_answer": "Temi (option C). In S7_t008 she says 'Callum's been carrying more than usual lately. work's been tough on him. I don't think he'd say that here but it was obvious at the reunion dinner when he relaxed around nine.' Omar replies in t010 'yeah temi's rite bruv callum doesnt say much but you can tell' \u2014 the 'temi's rite' makes clear Omar is endorsing Temi's view, not originating one.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies Temi and notes the key distinguishing marker: Omar's explicit 'temi's rite' signals attribution and echoing, not origination.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_e8f9a0b101",
+      "query_type": "Q5",
+      "question": "What is Sana's attendance pattern in group events, and what in Jade's message in Session 2 shows she had already been tracking this about Sana \u2014 before Sana had said anything about her schedule that evening?",
+      "blind_answer": "Sana attends infrequently with long gaps between events. Jade reveals she has been consciously tracking this in S2 by naming the precise last shared occasion unprompted: 'last time we were in the same room was Jade's birthday back in November' \u2014 she supplies the specific timestamp without being asked, showing it has been stored as a datum, not passively experienced.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth: Sana's reduced attendance pattern plus the specific timestamp as the tell of active tracking.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_e8f9a0b102",
+      "query_type": "Q5",
+      "question": "What is Sana's social style at group events, and what in Dev's message in Session 3 reveals he had already formed a clear read on this about her \u2014 without Sana having invited the observation?",
+      "blind_answer": "Sana participates selectively at events \u2014 quiet but her contributions count. Dev in S3_t008 says 'sana said three words all night but somehow still the most useful person at the table. checks notes, this is a compliment' \u2014 volunteered in response to Sana's brief check-in, revealing he has been sitting with a precise volume-to-impact assessment.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: Dev's volume-to-impact framing shows a considered prior view, not a throwaway reaction.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_e8f9a0b103",
+      "query_type": "Q5",
+      "question": "What is Callum's relationship to stress and disclosure in the group, and what in Temi's message in Session 7 shows she had already understood this about him \u2014 before Callum had said anything himself that session?",
+      "blind_answer": "Callum absorbs pressure privately and does not surface difficulty in the group chat. Temi in S7 says unprompted: 'I don't think he'd say that here but it was obvious at the reunion dinner when he relaxed around nine' \u2014 she explicitly names his disclosure boundary and acts on a prior working model of his behaviour before Callum has posted anything that session.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth: the 'I don't think he'd say that here' phrase is the explicit ToM marker showing a prior model Temi is already acting on.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e8f9a0b101",
+      "query_type": "Q2",
+      "question": "In Session 2, the group settled on The Griffin pub for the January meetup. What did Lena's response to that decision reveal about her actual position, and what specifically in how she replied signals that she did not endorse it?",
+      "blind_answer": "Lena had proposed the wine bar on Castle Street; Dev flatly vetoed it; Lena replied 'sure whatever.' This is the barest possible social acquiescence \u2014 she does not say The Griffin is fine, does not agree, does not engage with it positively anywhere in the session. 'Sure whatever' reads as concession under pressure, not endorsement.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth: 'sure whatever' correctly identified as capitulation, and the absence of follow-up positive engagement is noted.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e8f9a0b102",
+      "query_type": "Q2",
+      "question": "In Session 3, after agreeing to March 21st as the reunion date, Rachel weighed in on what the group should prioritise. What did her comment signal about a preference she had never stated directly \u2014 and what in how she phrased it reveals this?",
+      "blind_answer": "Rachel's 'Good venue matters more than format' in S3_t019 encodes her wine-list preference \u2014 but this reading is only legible retroactively through her S5 wine-list enquiry ('Does Parlour & Co have a wine list or is it a house white situation') and S10 confirmation ('Same venue, good wine list. Understood.'). The S3 phrase alone reads as generic quality advocacy; the wine-list interpretation requires cross-session evidence not listed as anchors.",
+      "score": 0.9,
+      "score_rationale": "Blind answer correctly identifies the wine-list preference encoding and recognises the cross-session dependency; minor shortfall because the full analytical unpacking in the ground truth is slightly more developed.",
+      "inference_required": 2,
+      "grounded": false,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e8f9a0b103",
+      "query_type": "Q2",
+      "question": "In Session 5, Marcus announced a headcount update and framed the reunion as an event to maximise attendance. What did his framing in that moment reveal about a position he had not yet adjusted \u2014 and what changed his view later?",
+      "blind_answer": "Marcus in S5 posts 'current headcount is 7 confirmed, 2 pending (Sana, Rachel). I'll chase closer to the 28th' \u2014 framing higher attendance as the goal. In S6 he explicitly recalibrates: 'the full-class thing last year had 22 of 87 and it felt thin. this actually felt full even with nine. I think the sweet spot is a table of ten or twelve.' Dev marks this as unprecedented. The March dinner served as counter-evidence that updated his position.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: S5 chase-the-headcount framing as last expression of old preference, S6 explicit recalibration, experiential counter-evidence as trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_e8f9a0b104",
+      "query_type": "Q2",
+      "question": "In Session 9, Temi asked the group whether people would be okay with her writing about the group's internal dynamics and tensions. Rachel responded and the thread moved on as though everyone had agreed. What did Rachel's specific phrasing signal about whether her consent was straightforward \u2014 and what in the conversation makes this legible?",
+      "blind_answer": "Rachel replied 'Fine by me. We are all adults.' The phrase 'We are all adults' closes the thread with a rationality appeal rather than engaging with what Temi described (tensions, sub-cliques). The deflection is observable from the chat. The fuller reading \u2014 that the returnee subject is personally charged for Rachel \u2014 relies on the relationship data in the raw network file rather than anything visible in the conversation messages.",
+      "score": 0.7,
+      "score_rationale": "Blind answer correctly identifies the deflection in 'We are all adults' but cannot fully reconstruct the returnee-subject charge from conversation text alone; partial match to ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_e8f9a0b101",
+      "query_type": "Q6",
+      "question": "The group has an unspoken norm of keeping the chat focused on reunion planning and alumni news, with personal life updates handled in smaller threads or DMs. Does this genuinely apply to all members? If not, who treats this differently and what does their behaviour show?",
+      "blind_answer": "No \u2014 Jade and Temi (option A). Jade's genuine emotional check-ins ('how is everyone actually doing' in S1) and S9 reflective observation ('this chat has been incredible this year...') have no logistical content. Temi shares professional news (essay commission in S9) and proposes narrative threads about group dynamics. Rachel and Callum, by contrast, stay logistics-focused.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies both dissenters and the evidential behaviours that mark their divergence from the norm.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_e8f9a0b102",
+      "query_type": "Q6",
+      "question": "The group seems to operate with an expectation that events should be planned at least three weeks in advance, so that people with families or work shifts can arrange cover. Does this expectation reflect how all members actually behave? If not, who does not follow it and what signals this?",
+      "blind_answer": "Dev and Omar (option A). Dev confirms attendance only once logistics are settled, never advances planning. Omar in S8 announces the five-a-side booking as a fait accompli: 'I've booked the astro at the rec centre, Saturday 10th October, 10am. sorted it myself' \u2014 a decision already made, not a 3-week consultation.",
+      "score": 1.0,
+      "score_rationale": "Blind answer correctly identifies both dissenters and cites the identical evidence as the ground truth.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_e8f9a0b101",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about the relationship between Marcus and Jade \u2014 specifically, what shared history connects them and how does it shape their dynamic in the chat?",
+      "blind_answer": "Marcus and Jade collaborated on the school magazine. In S4_t010 Jade references 'the school magazine last issue and you two ended up editing each other's edits for a week'; Dev notes it's '19 years later and still litigating.' Their chat dynamic is warm mutual accountability: Jade holds Marcus to familiar patterns and he deflects with warmth ('I can hear you Jade').",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches the core history and dynamic; ground truth integrates the corpus-wide pattern slightly more thoroughly but the essential reading is identical.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_e8f9a0b102",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about what actually happened between Marcus and Omar in 2023, and what does it suggest about the nature of their friendship?",
+      "blind_answer": "Dev surfaces the 2023 falling-out in S10; Omar confirms: 'marcus said something out of turn, I blanked him for a month, then he showed up at five-a-side and said his piece.' Marcus adds 'I'm still sorry.' The resolution was an in-person apology. Dev frames this as proof the group was 'actually invested enough to fall out' \u2014 a turning point for genuine closeness.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: incident, withdrawal, in-person resolution, and the investment-in-friendship interpretation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_e8f9a0b103",
+      "query_type": "Q7",
+      "question": "What do the conversations reveal about what Callum disclosed about his attendance at the September escape room event \u2014 and what does it suggest about his relationship to the group at that point?",
+      "blind_answer": "Callum said in S8_t006: 'I almost didn't come Saturday. things have been difficult at work and I nearly texted Marcus to bail at 5pm. glad I didn't.' Callum typically does not surface personal difficulty in the group; the disclosure post-event suggests trust has been earned and the event lowered something. Marcus is his individual contact point for attendance.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth: disclosure details, novelty given Callum's pattern, trust signal, Marcus as contact.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b101",
+      "query_type": "Q8",
+      "question": "What in the conversations signals that Dev's relationship to showing up for group events shifted around Session 2, and what triggered the change \u2014 given that his prior pattern had been established across multiple years?",
+      "blind_answer": "Early state: Dev was enthusiastic in chat but never available; Jade in S2 revokes the 'London clash card' as an established excuse pattern. Trigger: S2_t000 'officially a local again as of saturday' \u2014 relocation removes the structural barrier to attendance. Evolved state: he attends from S2 onward; Jade notes in S3 he is 'even more chaotic in person.' The shift is structural, not preferential.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: London-clash-card as established prior pattern, relocation as structural trigger, consistent attendance as evolved state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b102",
+      "query_type": "Q8",
+      "question": "What explains why Lena's investment in the group shifted so markedly around Sessions 3-5, and what drove that change \u2014 given that her prior relationship to the group was described as peripheral?",
+      "blind_answer": "Early state: Lena peripheral \u2014 S2 'sure whatever' signals minimal investment. Shift S3: 'it was actually a good night. hadn't expected that from a Monday-after pub'; Jade confirms Lena seemed to genuinely enjoy herself. By S5 Lena proactively confirms gallery logistics. Trigger: the January pub night \u2014 she connected with Sana and Marcus. Temi in S10 identifies this as the group's turning point.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: pub night as trigger, 'hadn't expected that' as inflection signal, S5 proactive logistics as evolved state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b103",
+      "query_type": "Q8",
+      "question": "What drove Marcus's change in thinking about reunion scale \u2014 specifically, what in the conversations explains why he shifted from insisting on large full-class events toward preferring a smaller curated format, and what session marks the turning point?",
+      "blind_answer": "Early state: Marcus frames reunion success through headcount in S5 ('I'll chase closer to the 28th'). Shift S6: 'the full-class thing last year had 22 of 87 and it felt thin. this actually felt full even with nine. I think the sweet spot is a table of ten or twelve.' Dev marks this as unprecedented. Trigger: the March dinner experience as counter-evidence. By S10: 'table of ten' is the unquestioned default.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: S5 framing, S6 explicit recalibration, dinner as trigger, S10 as embedded evolved state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b104",
+      "query_type": "Q8",
+      "question": "What in the conversations explains why Jade's presence in the group chat became lighter around Session 7, and what triggered the change \u2014 given how active she had been in earlier sessions?",
+      "blind_answer": "Early state (S1-S6): Jade is highly active \u2014 emotional check-ins, logistics pushback, group dynamics observations. Shift S7: 'brain's full rn. took on an extra class this term and I am genuinely running on fumes. I'll check in when I can but might be a bit quieter on here for a while.' Trigger: extra GCSE class in autumn term. Evolved state S7-S10: episodic burst contributions rather than sustained thread presence.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: active early state, explicit S7 announcement naming the trigger, episodic evolved state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b105",
+      "query_type": "Q8",
+      "question": "What in the conversations signals that Omar's involvement in organising group events changed significantly around Session 8, and what drove that shift \u2014 given the pattern that had been consistent across all earlier sessions?",
+      "blind_answer": "Early state: Omar endorses plans reactively; S1 he advocates for something fun but takes no ownership. Shift S8: 'I've booked the astro at the rec centre, Saturday 10th October, 10am. sorted it myself' \u2014 'sorted it myself' signals self-awareness of the shift. Marcus: 'Omar actually sorted the logistics himself. I'm genuinely impressed.' Trigger: Jade challenged the group to suggest something active; Omar has the rec centre connections and stepped up.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: S1 passive advocate pattern, S8 fait-accompli announcement with self-awareness marker, Marcus's explicit recognition.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b106",
+      "query_type": "Q8",
+      "question": "What explains why Callum's openness to novel group activities changed by Session 8 \u2014 and what in the conversations shows how resistant he had been before, and what specifically triggered the shift?",
+      "blind_answer": "Early state: S1 'new venues always goes wrong'; S3 double-header runs long; S5 skip the gallery; S7 lukewarm on escape room \u2014 Dev marks as 'growth.' Shift S8: 'Saturday was the best-attended event in two years and we did an escape room. I'll admit I would not have predicted that.' Trigger: escape room experience falsified his operational risk prediction.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: prior resistance pattern documented across multiple sessions, S7 growth marker, S8 explicit prediction-failure acknowledgement.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b107",
+      "query_type": "Q8",
+      "question": "What drove Temi's shift from avoiding the role of group archivist to actively documenting and writing about the group \u2014 and what in the conversation shows how clearly opposed her earlier stance was before the change in Session 9?",
+      "blind_answer": "Early state: Temi drafts group comms as a service (S5: 'I'll draft the group invite text so it doesn't go out as a logistics spreadsheet'); essay pitched in S8 cautiously ('not naming anyone specifically'). Shift S9: essay published, editor commissioned a series; 'I'm actually quite proud of it.' By S10: 'Dev that is going in the article verbatim'; Marcus assigns the archival role explicitly. Trigger: external professional validation freed her from restraint.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: service framing in S5, cautious pitch in S8, editor commission as structural trigger, active archival role in S10.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e8f9a0b102",
+      "query_type": "Q1",
+      "question": "What does Rachel's behaviour around venue selection across the planning sessions suggest about the criterion she is actually using when she weighs in on where the group eats?",
+      "blind_answer": "Rachel's only venue contributions concern wine provision. S5: 'Does Parlour & Co have a wine list or is it a house white situation. asking for practical reasons.' She independently checks the menu and confirms: 'Parlour & Co does have a proper list, I checked their menu page. Noted.' S10: 'Same venue, good wine list. Understood.' She never comments on food, format, or accessibility.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: wine-list criterion, understatement of 'practical reasons,' independent verification, and S10 confirmation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e8f9a0b103",
+      "query_type": "Q1",
+      "question": "What does Temi's approach to the reunion format across multiple sessions suggest about what she values most in how the group spends time together?",
+      "blind_answer": "Temi consistently pushes for culturally substantive activity before dinner \u2014 content that generates conversation, not filler. S4: 'something with a bit of texture to it.' S6: 'the gallery beforehand set a tone that a pub never would have. I think what we proved is that the format matters as much as who shows up.' She treats format as a causal design choice with effects on quality of connection.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: 'texture' framing, S6 thesis statement, format-as-design-choice principle.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e8f9a0b104",
+      "query_type": "Q1",
+      "question": "What does Jade's reflection on the group across Sessions 9 and 10 suggest about how she rates the value of the group chat itself compared to seeing people in person?",
+      "blind_answer": "Jade is explicit: in-person is categorically more valuable. S9: 'this chat has been incredible this year but the group nights have been even better...there is something about being in the same room that this just cannot replicate.' S10: 'how did we end up actually close when for years this chat was basically just anyone fancy a pub in January' \u2014 framing the chat's prior role as proximity-without-connection.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: both anchor excerpts, the hierarchy noted, not anti-digital but in-person as irreplaceable.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e8f9a0b105",
+      "query_type": "Q1",
+      "question": "What does Sana's end-of-year reflection in Session 10 reveal about how she actually prefers to engage with the group's social calendar?",
+      "blind_answer": "Sana in S10: 'I found this year easier with fewer big events. two or three evenings where I could actually be present was better than five I partly missed.' She distinguishes complete presence from partial attendance. Consistent with her date-checking pattern, calendar-protecting behavior, and 'sorry, hectic week' re-entry messages across the corpus.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: explicit S10 statement plus the corpus-wide pattern confirming it.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_e8f9a0b106",
+      "query_type": "Q1",
+      "question": "What does Callum's pattern around leaving group events suggest about a constraint he manages across the corpus but only acknowledges obliquely?",
+      "blind_answer": "Callum consistently leaves around 9-9:30pm. Omar in S3: 'callum left at like 9:30 as usual haha' \u2014 'as usual' marks the pattern as entrenched. Callum: 'Kids. already an excuse, but that's just me.' In S6: 'had to leave at nine but the first part was the best part anyway, if I'm honest' \u2014 reframes departure as preference. S10: 'setting an alarm for midnight for the first time in four years' confirms the norm across years.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: pattern, 'as usual' confirmation, S6 dignity-preserving reframe, S10 arc-closing callback.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_e8f9a0b108",
+      "query_type": "Q8",
+      "question": "What drove Temi's shift from avoiding the role of group archivist to actively documenting and writing about the group \u2014 and what in the earlier sessions shows how differently she had positioned herself before?",
+      "blind_answer": "Early state: Temi defers on group decisions ('I'll defer to what the group actually wants' S3), turns observations back to others ('what's your read on that?'), and holds analytical views to herself. Shift S9: names tensions, sub-cliques, and the person who never shows up directly to the group \u2014 no deferral, no deflection. In S10: claims Dev's verdict for the article verbatim. Trigger: features editor commission validates the analytical perspective as professionally valuable.",
+      "score": 1.0,
+      "score_rationale": "Blind answer matches ground truth exactly: S3 deferral as early state, S9 direct naming as shift, editor commission as trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
     "topic_diversity": {
-      "score": 0.88,
-      "notes": "10 sessions cover reunion planning, venue debates, post-event debriefs, personal milestones (Dev relocation, Jade workload, Temi essay commission, Omar five-a-side), group dynamics and retrospective. Good variety."
+      "score": 2,
+      "notes": "10 sessions cover reunion planning, venue debates, post-event debriefs, personal milestones (Dev relocation, Jade workload, Temi essay commission, Omar five-a-side), relational disclosures (Callum stress, 2023 falling-out), and year-end retrospective. Appropriate variance for acquaintance_network with alumni planning as the consistent primary thread and natural personal digressions in each session."
     },
     "voice_consistency": {
-      "score": 0.90,
-      "notes": "9 personas maintain distinct registers throughout: Marcus (logistics + food register), Jade (reflective, double-exclamation emotional), Dev (sardonic commentary), Omar (casual spelling, enthusiasm), Callum (terse, operational), Temi (journalistic, analytical), Sana (sparse and deliberate), Lena (terse, gradually warmer), Rachel (minimal, practical). No voice bleed observed."
+      "score": 1,
+      "notes": "Two issues found: (1) Dev (p_c3a4b5d6) \u2014 profile typo_rate=Moderate but zero typos across all messages. His messages are very short (mostly 5-15 words) which limits opportunity, but Moderate should produce at least 1 detectable typo per session on average. No typos found anywhere across 10 sessions. (2) Temi (p_a7e8f9b0) \u2014 speaking quirk listed as 'uses em-dashes mid-sentence for rhetorical pause' but no em-dashes appear in any of her messages. Two of her three quirks are strongly present ('what's your read on that?' across 7 sessions; 'okay so I've been thinking about this' across 6 sessions). All other 7 personas pass all sub-dimensions: Marcus (alright everyone / lmk if there's an issue / sorted all present), Jade (!! enthusiasm / . disapproval / are we going to actually talk about this or \u2014 all present), Sana (what date is this again / not my area but / all well \u2014 all present), Lena (what if we just / yep or nope / parenthetical design critique \u2014 all present), Callum (but that's just me / mate at Dev / financial caveat where applicable \u2014 present), Omar (frequent typos / bro+bruv / thumbs-up emoji \u2014 all present), Rachel (cites specifics / sends one message / noted or understood \u2014 all present). Formality levels all appropriate. Emoji densities all appropriate."
     },
     "naturalness_of_transitions": {
-      "score": 0.82,
-      "notes": "Sessions flow organically via planning thread → event → debrief → next event cycle. Minor: S7-S8 escape room suggestion appears slightly abrupt — Jade's idea lands without much prior build-up of the 'we should do something different' thread. Minor issue only."
+      "score": 2,
+      "notes": "Every session opens with a character-driven trigger: Dev announces his move (S2), Jade opens the pub-night debrief (S3), Marcus opens the promised format thread (S4), Omar spontaneously announces the five-a-side booking (S8), Temi opens with essay news (S9). No cold jumps or announced pivots detected. Within-session topic transitions are all character-cued."
     },
     "em_dash_free": {
-      "score": 1.0,
-      "notes": "No em-dashes observed in conversation turns during corpus review."
+      "score": 2,
+      "notes": "Grep for both \u2014 (U+2014) and \\u2014 in the conversation file returns zero matches across all 200 turns and all message fields. Protected and unprotected fields both clean. Note: Temi's communication profile specifies em-dash use as a speaking quirk but this is correctly not manifested in messages \u2014 the profile description describes a persona trait that was deliberately suppressed in the corpus per the em_dash_free requirement. This creates a minor internal inconsistency (see voice_consistency) but the em_dash_free dimension itself passes."
     },
     "planted_turn_integrity": {
-      "score": 0.87,
-      "notes": "All 35 planted challenges appear as natural conversation turns. False attribution seeds (Callum/Marcus venue, Temi/Omar attribution) land plausibly with realistic register differences. Relational disclosure turns (falling-out, near-miss, school magazine) feel organic to the group's debrief rhythm. Consensus trap turns ('sure whatever', 'Fine by me', 'Good venue') read naturally as minimal acquiescence. No turn reads as written specifically for a test."
+      "score": 2,
+      "notes": "All evidence anchors verified verbatim against actual turn messages: Q1_101 S1_t006 (proper food spread. none of that small plates business), Q4_101 S1_t009 (The Crown or somewhere similar. new venues take longer to sort and then something always goes wrong, but that's just me), Q4_102 S7_t008 (Callum's been carrying more than usual lately. work's been tough on him. I don't think he'd say that here), Q5_101 S2_t013 (it's been ages. last time we were in the same room was Jade's birthday back in November), Q2_101 S2_t010 (sure whatever), Q8_101 S2_t000 (officially a local again as of saturday. spare room full of boxes. send help), Q8_101 S2_t003 (the 'London clash' card is revoked as of now), Q8_103 S10_t000 (December dinner is Saturday 19th, Parlour & Co, 7pm. same private room. table of ten.), Q5_103 S7_t008 (I don't think he'd say that here but it was obvious at the reunion dinner when he relaxed around nine), Q7_101 S4_t010 (remember when we did the school magazine last issue and you two ended up editing each other's edits for a week), Q8_106 S8_t004 (Saturday was the best-attended event in two years and we did an escape room. I'll admit I would not have predicted that. good shout Jade.), Q8_105 S8_t000 (I've booked the astro at the rec centre, Saturday 10th October, 10am. sorted it myself). All match verbatim. No anchor altered."
     },
-    "overall_mean": 0.894
+    "overall_pass": true,
+    "failing_turns": [
+      {
+        "dimension": "voice_consistency",
+        "sub_dimension": "typo_rate",
+        "persona": "Dev (p_c3a4b5d6)",
+        "issue": "Profile typo_rate=Moderate but zero typos detected across all Dev messages in all 10 sessions. Expected: several typos per session on average.",
+        "turns": "all Dev turns (S1_t003, S1_t013, S2_t004, S2_t009, S2_t015, S3_t001, S3_t008, S3_t016, S4_t007, S4_t013, S5_t005, S5_t016, S6_t005, S6_t018, S7_t006, S7_t015, S8_t002, S8_t013, S9_t004, S9_t015, S10_t004, S10_t014)"
+      },
+      {
+        "dimension": "voice_consistency",
+        "sub_dimension": "speaking_quirks",
+        "persona": "Temi (p_a7e8f9b0)",
+        "issue": "Profile quirk 'uses em-dashes mid-sentence for rhetorical pause' not manifested in any message. Two of three quirks are strongly present ('what's your read on that?' and 'okay so I've been thinking about this'). Minimum of 1 quirk met; but the em-dash quirk in the profile description implies the corpus should contain em-dashes in Temi's messages, which contradicts the em_dash_free requirement. The profile quirk should be updated to describe a different rhetorical device.",
+        "turns": "all Temi turns"
+      }
+    ]
   },
-  "summary": {
-    "n_pass": 25,
-    "n_flagged": 3,
-    "flagged_qa_ids": ["Q8_e8f9a0b101", "Q8_e8f9a0b102", "Q8_e8f9a0b103"],
-    "flag_reason_summary": "Three hard Q8 pairs have temporal anchor gaps of only 1 session; hard difficulty label requires ≥3 sessions between anchors. Recommend downgrading to 'medium' difficulty. This does not affect the validity of the pairs — the shift and trigger are real and well-evidenced — only the difficulty label is mis-calibrated.",
-    "recommendation": "Accept all 28 pairs. Downgrade Q8_e8f9a0b101, Q8_e8f9a0b102, Q8_e8f9a0b103 from 'hard' to 'medium'. Conversation corpus is high quality (mean 0.894 across 5 dimensions). All evidence anchors grounded."
-  }
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.491853+00:00"
 }

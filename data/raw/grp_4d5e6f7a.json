@@ -31,7 +31,7 @@
         "food": [],
         "activities": [
           {
-            "value": "strongly prefers original pressings over reissues — will not buy a reissue if an original exists at any price",
+            "value": "strongly prefers original pressings over reissues \u2014 will not buy a reissue if an original exists at any price",
             "confidence": "High",
             "implicit": false
           }
@@ -87,7 +87,7 @@
       "display_name": "Rashida",
       "age": 31,
       "gender": "F",
-      "background": "Graphic designer. Buys records primarily for the artwork and the ritual — the listening experience, the sleeve notes, the whole aesthetic. Theo considers her taste casual; she considers his taste joyless.",
+      "background": "Graphic designer. Buys records primarily for the artwork and the ritual \u2014 the listening experience, the sleeve notes, the whole aesthetic. Theo considers her taste casual; she considers his taste joyless.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "Medium",
@@ -108,7 +108,7 @@
         "food": [],
         "activities": [
           {
-            "value": "buys records for aesthetic experience — cover art, ritual, the feel of a sleeve; pressing quality is secondary",
+            "value": "buys records for aesthetic experience \u2014 cover art, ritual, the feel of a sleeve; pressing quality is secondary",
             "confidence": "High",
             "implicit": true
           }
@@ -139,7 +139,7 @@
         }
       ],
       "speaking_quirks": [
-        "uses 🎶 after every music recommendation",
+        "uses \ud83c\udfb6 after every music recommendation",
         "describes records as 'so beautiful' regardless of genre",
         "asks 'is it worth it?' whenever Theo recommends something expensive"
       ],
@@ -164,7 +164,7 @@
       "display_name": "Gil",
       "age": 44,
       "gender": "M",
-      "background": "Librarian. The group's most eclectic collector. Specializes in global music — West African highlife, Brazilian tropicália, Turkish psych. Quiet, observational. Has two copies of every record he loves.",
+      "background": "Librarian. The group's most eclectic collector. Specializes in global music \u2014 West African highlife, Brazilian tropic\u00e1lia, Turkish psych. Quiet, observational. Has two copies of every record he loves.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "High",
@@ -263,7 +263,7 @@
         ],
         "social": [
           {
-            "value": "loves the community aspect of the group — prefers the discussions to the hunting itself",
+            "value": "loves the community aspect of the group \u2014 prefers the discussions to the hunting itself",
             "confidence": "High",
             "implicit": false
           }
@@ -333,7 +333,7 @@
         "food": [],
         "activities": [
           {
-            "value": "prefers smaller, curated fairs over large commercial events — goes in, finds what she wants, leaves",
+            "value": "prefers smaller, curated fairs over large commercial events \u2014 goes in, finds what she wants, leaves",
             "confidence": "High",
             "implicit": true
           }
@@ -364,7 +364,7 @@
         }
       ],
       "speaking_quirks": [
-        "sends finds to the group chat with just the artist name and year — no other context",
+        "sends finds to the group chat with just the artist name and year \u2014 no other context",
         "uses 'regardless' when closing a discussion she's bored by",
         "never uses emoji"
       ],
@@ -487,7 +487,7 @@
   ],
   "group_norms": [
     {
-      "norm_text": "What you find at a fair stays in the group chat — no gatekeeping finds.",
+      "norm_text": "What you find at a fair stays in the group chat \u2014 no gatekeeping finds.",
       "truly_universal": false,
       "dissenters": [
         "p_v4e5f6a7"
@@ -507,5 +507,10 @@
       "dissenters": []
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "interest_community",
+    "group_size": 5
+  }
 }

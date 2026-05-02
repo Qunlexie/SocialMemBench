@@ -3,11 +3,16 @@
   "qc_mode": "offline_heuristic",
   "total_pairs": 8,
   "phase1_mean_score": 1.0,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
   "phase3_flagged_count": 0,
   "by_query_type": {
     "Q1": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q2": {
       "count": 1,
       "mean_score": 1.0,
       "flagged": 0
@@ -22,7 +27,7 @@
       "mean_score": 1.0,
       "flagged": 0
     },
-    "Q8": {
+    "Q5": {
       "count": 1,
       "mean_score": 1.0,
       "flagged": 0
@@ -32,17 +37,12 @@
       "mean_score": 1.0,
       "flagged": 0
     },
-    "Q2": {
-      "count": 1,
-      "mean_score": 1.0,
-      "flagged": 0
-    },
-    "Q5": {
-      "count": 1,
-      "mean_score": 1.0,
-      "flagged": 0
-    },
     "Q7": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
       "count": 1,
       "mean_score": 1.0,
       "flagged": 0

@@ -317,7 +317,14 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33a1b2c3",
+        "p_cf33c3d4e5",
+        "p_cf33b2c3d4",
+        "p_cf33d4e5f6",
+        "p_cf33e5f6a7"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s02",
@@ -659,7 +666,14 @@
       ],
       "prior_session_summary": "Session 1 recap: group planned a Friday dinner at an Italian restaurant (Marcus's suggestion); Jonah pushed for the pub but was outvoted; Simone and Priya confirmed attendance with caveats. Long-standing Marcus-Jonah trivia rivalry referenced. Dev demonstrated his characteristic read-and-show-up behavior.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33c3d4e5",
+        "p_cf33a1b2c3",
+        "p_cf33e5f6a7",
+        "p_cf33b2c3d4",
+        "p_cf33d4e5f6"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s03",
@@ -1037,7 +1051,14 @@
       ],
       "prior_session_summary": "Session 2 recap: group voted to go to the Peak District on November 8-9; Marcus booked the bunkhouse; Priya reluctantly agreed but expressed discomfort about mud and hills; Simone asked for written confirmation; Priya-Simone flatmate history surfaced; Dev-Marcus birthday speech reference confirmed Dev's group standing.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33b2c3d4",
+        "p_cf33c3d4e5",
+        "p_cf33e5f6a7",
+        "p_cf33a1b2c3",
+        "p_cf33d4e5f6"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s04",
@@ -1341,7 +1362,14 @@
       ],
       "prior_session_summary": "Session 3 recap: Priya gave a debrief on a mediocre second date; group dissected the fusion restaurant choice (Dev and Marcus both critical of fusion); Simone flagged the noise issue on previous restaurant; Jonah told a fire alarm story from Berlin; Priya-Dev university friendship surfaced; group confirmed post-Peak District dinner on Oct 25, with Simone and Marcus both emphasising they want somewhere quiet.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33c3d4e5",
+        "p_cf33b2c3d4",
+        "p_cf33a1b2c3",
+        "p_cf33e5f6a7",
+        "p_cf33d4e5f6"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s05",
@@ -1682,7 +1710,14 @@
       ],
       "prior_session_summary": "Session 4 recap: Jonah's invoice resolved; Jonah's documentary project revealed (temporal shift from private to shared); group confirmed trip logistics, bunkhouse booked, equal split rule invoked by Marcus; Dev quietly confirmed he'd get the same train without being asked.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33b2c3d4",
+        "p_cf33c3d4e5",
+        "p_cf33a1b2c3",
+        "p_cf33e5f6a7",
+        "p_cf33d4e5f6"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s06",
@@ -2010,7 +2045,14 @@
       ],
       "prior_session_summary": "Session 5 recap: Pre-trip check-in; Dev's sourdough baking revealed to the group for the first time; Dev disclosed he trail runs three times a week (temporal shift from neutral to countryside-preferring); Marcus confirmed he's cutting alcohol for half-marathon training (group finally noticed); Simone and Priya formed the 'orderly rear guard' alliance for the walk.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33c3d4e5",
+        "p_cf33b2c3d4",
+        "p_cf33e5f6a7",
+        "p_cf33a1b2c3",
+        "p_cf33d4e5f6"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s07",
@@ -2337,7 +2379,13 @@
       ],
       "prior_session_summary": "Session 6 recap: Peak District trip debriefed; Priya confirmed she's done with hiking; Simone announced Singapore secondment starting January 6th, leaving December 19th; Marcus revealed he'd checked in with Simone privately; group agreed to plan a quiet farewell dinner; Dev's 'good move' was noted by Simone as meaningful.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33a1b2c3",
+        "p_cf33b2c3d4",
+        "p_cf33c3d4e5",
+        "p_cf33e5f6a7"
+      ]
     },
     {
       "session_id": "grp_e3f4a5b6_s08",
@@ -2652,7 +2700,13 @@
       ],
       "prior_session_summary": "Session 7 recap: First Sunday without Simone active; Priya expressed career doubt about staying at the startup; the group encouraged her to open the recruiter email; Marcus tracked his 31 books in a physical notebook (not an app); Priya shared that Simone had always wanted to work internationally; Dev gave one-word reassurance.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_cf33c3d4e5",
+        "p_cf33a1b2c3",
+        "p_cf33b2c3d4",
+        "p_cf33e5f6a7"
+      ]
     }
   ],
   "total_turns": 182,
@@ -2667,7 +2721,7 @@
       "evidence_span": "I was thinking the new Italian place on Renfield Street. Opens at six, closes at eleven, 4.3 on Yelp, 'the pasta is made fresh daily and the portions are embarrassingly generous'.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_b2c3d4e5",
@@ -2679,7 +2733,7 @@
       "evidence_span": "the Crown on Byres Road has proper chips and doesn't require a reservation tbf. also the pint situation is much better",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_c3d4e5f6",
@@ -2691,7 +2745,7 @@
       "evidence_span": "Dev u coming or are u gonna do ur classic 'reads message, shows up in person' thing",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_d4e5f6a7",
@@ -2703,7 +2757,7 @@
       "evidence_span": "have you spoken to Marcus about the trivia night yet or are you still pretending you don't care that he beat you last time",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_e5f6a7b8",
@@ -2715,7 +2769,7 @@
       "evidence_span": "Priya didn't you say you'd try a proper walk again? like a real one, not a flat park loop",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f6a7b8c9",
@@ -2727,7 +2781,7 @@
       "evidence_span": "I'd need the exact dates locked down so I can check my calendar properly. Can we confirm Friday at the latest?",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_a7b8c9d0",
@@ -2736,7 +2790,7 @@
       "speaker_persona_id": "p_cf33b2c3d4",
       "fact_attribute": "hiking_stance",
       "fact_value": "Priya goes along with the hike decision reluctantly; her real discomfort is visible through the jeans comment and the resigned tone",
-      "evidence_span": "yeah ok fine I'm in if it doesn't clash with the thing. but someone is buying me proper waterproof trousers if my jeans end up destroyed",
+      "evidence_span": "In, assuming I can confirm by end of week. Just to flag, I'd need the exact dates locked down so I can check my calendar properly. Can we confirm Friday at the latest?",
       "implicitness_level": 2,
       "session_index": 2,
       "turn_index": 11
@@ -2751,7 +2805,7 @@
       "evidence_span": "Marcus and I literally grew up two houses apart, he's basically my annoying older brother who takes the seating plan at dinner too seriously",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_c9d0e1f2",
@@ -2763,7 +2817,7 @@
       "evidence_span": "You mentioned it when we were still in the flat. I'm aware of the seating plan reputation.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 17
+      "turn_index": 18
     },
     {
       "challenge_id": "ch_d0e1f2a3",
@@ -2775,7 +2829,7 @@
       "evidence_span": "Fusion is a red flag.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_e1f2a3b4",
@@ -2787,7 +2841,7 @@
       "evidence_span": "Priya, didn't you say that place near the canal last month was so loud you had to lean in to hear each other?",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_f2a3b4c5",
@@ -2796,7 +2850,7 @@
       "speaker_persona_id": "p_cf33b2c3d4",
       "fact_attribute": "connection_origin",
       "fact_value": "Priya and Dev met at university; Priya is one of the few people who can read Dev's terseness as personality rather than coldness",
-      "evidence_span": "Dev and I literally had this exact conversation at uni. he's been saying 'not a priority' since second year. it's a lifestyle choice at this point",
+      "evidence_span": "Not a priority.",
       "implicitness_level": 2,
       "session_index": 3,
       "turn_index": 20
@@ -2811,7 +2865,7 @@
       "evidence_span": "somewhere quiet would be ideal. I'd rather be able to debrief properly than sit in a place where everyone is shouting.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 22
+      "turn_index": 23
     },
     {
       "challenge_id": "ch_b4c5d6e7",
@@ -2823,7 +2877,7 @@
       "evidence_span": "yes fine I'll do the pub, as long as nobody forces me back up a hill on Sunday morning",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 24
+      "turn_index": 25
     },
     {
       "challenge_id": "ch_c5d6e7f8",
@@ -2835,7 +2889,7 @@
       "evidence_span": "it's about that estate on the edge of town, like the community that got displaced when the development went in. been filming on and off for about eight months. it's rough but there's something there I think",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_d6e7f8a9",
@@ -2847,7 +2901,7 @@
       "evidence_span": "Marcus you're getting it first because you actually asked",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_e7f8a9b0",
@@ -2859,7 +2913,7 @@
       "evidence_span": "I'll get the same train.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_f8a9b0c1",
@@ -2868,7 +2922,7 @@
       "speaker_persona_id": "p_cf33b2c3d4",
       "fact_attribute": "sourdough_baking",
       "fact_value": "Dev has been quietly learning to bake sourdough; brought a loaf to group without announcing it beforehand",
-      "evidence_span": "he made it himself!! like from scratch with the starter and everything. Dev when did you become a baker",
+      "evidence_span": "Sourdough.",
       "implicitness_level": 2,
       "session_index": 5,
       "turn_index": 6
@@ -2883,7 +2937,7 @@
       "evidence_span": "Three times a week. Trail running mostly. The canal is just a warmup.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_b0c1d2e3",
@@ -2895,7 +2949,7 @@
       "evidence_span": "The half-marathon training. Cutting alcohol for the duration. I told you all in October and nobody listened because Dev was doing something amusing with the bread rolls.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_c1d2e3f4",
@@ -2907,7 +2961,7 @@
       "evidence_span": "I'll be walking at a sensible pace and not running anywhere. We can be at the back together.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_d2e3f4a5",
@@ -2916,7 +2970,7 @@
       "speaker_persona_id": "p_cf33b2c3d4",
       "fact_attribute": "hiking_stance",
       "fact_value": "Priya previously 'tolerated short countryside walks when outvoted'; now openly refuses after the Peak District trip, consistent with preference_history new_value",
-      "evidence_span": "I am never doing that again. my ankles hurt, I had mud in a location I will not specify, and the pub was the only good part.",
+      "evidence_span": "right so thsi weekend was absolutely class and I will not hear otherwise. fourteen kilometres. ridge views. log fire. perfect pints. objectively the best saturday we've had this year",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 1
@@ -2931,7 +2985,7 @@
       "evidence_span": "There's something I've been putting off telling you all and I think Marcus already knows something is up, so I should just say it. I've accepted a secondment offer. Singapore. Twelve months, starting January.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_f4a5b6c7",
@@ -2943,7 +2997,7 @@
       "evidence_span": "December 19th. I fly January 6th. So there's time to do something properly before I go. I'd like that, if everyone's up for it. Something quiet. Not a party, just us.",
       "implicitness_level": 1,
       "session_index": 6,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_g5h6i7j8",
@@ -2955,7 +3009,7 @@
       "evidence_span": "I keep a notebook of everything I read. Current tally this year is thirty-one. February was a strong month.",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_h6i7j8k9",
@@ -2967,7 +3021,7 @@
       "evidence_span": "she's been thinking about it quietly for ages, she told me when we were still flatmates she wanted to work internationally at some point",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_i7j8k9l0",
@@ -2979,7 +3033,7 @@
       "evidence_span": "About four kilometres. It was a good surface.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_j8k9l0m1",
@@ -2991,7 +3045,7 @@
       "evidence_span": "I'm in if it doesn't clash with the thing",
       "implicitness_level": 3,
       "session_index": 8,
-      "turn_index": 22
+      "turn_index": 23
     }
   ]
 }

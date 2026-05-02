@@ -10,7 +10,7 @@
       "display_name": "Femi",
       "age": 42,
       "gender": "M",
-      "background": "Semi-retired IT consultant. Has lived on Maple Street for eight years and considers himself the de facto organiser — starts most threads, chases replies, books the village hall. Slightly over-involved. Means well.",
+      "background": "Semi-retired IT consultant. Has lived on Maple Street for eight years and considers himself the de facto organiser \u2014 starts most threads, chases replies, books the village hall. Slightly over-involved. Means well.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -81,7 +81,7 @@
       "display_name": "Claudette",
       "age": 67,
       "gender": "F",
-      "background": "Retired school librarian. Has lived on Maple Street for 30 years. The street's institutional memory. Deeply opposed to any development that changes the street's character — new builds, conversions, additional parking. Warmly social but immovable on planning matters.",
+      "background": "Retired school librarian. Has lived on Maple Street for 30 years. The street's institutional memory. Deeply opposed to any development that changes the street's character \u2014 new builds, conversions, additional parking. Warmly social but immovable on planning matters.",
       "big_five": {
         "openness": "Low",
         "conscientiousness": "High",
@@ -102,7 +102,7 @@
         "food": [],
         "activities": [
           {
-            "value": "opposes any planning application that would change the street's residential character — new builds, loft conversions, additional hardstanding",
+            "value": "opposes any planning application that would change the street's residential character \u2014 new builds, loft conversions, additional hardstanding",
             "confidence": "High",
             "implicit": false
           }
@@ -158,7 +158,7 @@
       "display_name": "Jordan",
       "age": 29,
       "gender": "NB",
-      "background": "Graphic designer. Rents a flat at no. 14. Has lived there for just over a year. Uses the group chat for practical things — lost parcels, bin day queries — and enjoys the community spirit without getting drawn into politics. Aware that as a renter they have less stake in planning disputes.",
+      "background": "Graphic designer. Rents a flat at no. 14. Has lived there for just over a year. Uses the group chat for practical things \u2014 lost parcels, bin day queries \u2014 and enjoys the community spirit without getting drawn into politics. Aware that as a renter they have less stake in planning disputes.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "Medium",
@@ -235,7 +235,7 @@
       "display_name": "Vera",
       "age": 55,
       "gender": "F",
-      "background": "GP. Bought her house twelve years ago. Uses the group chat minimally — reads everything, replies rarely, but when she does it is direct and final. Has strong views about noise (she works early) and parking (she does home visits). Bypasses the group chat when she has a serious complaint and goes straight to the council.",
+      "background": "GP. Bought her house twelve years ago. Uses the group chat minimally \u2014 reads everything, replies rarely, but when she does it is direct and final. Has strong views about noise (she works early) and parking (she does home visits). Bypasses the group chat when she has a serious complaint and goes straight to the council.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -312,7 +312,7 @@
       "display_name": "Marcus",
       "age": 38,
       "gender": "M",
-      "background": "Stay-at-home parent, two children aged 5 and 7. Has lived on the street for five years. The most active poster — knows everyone through the school run and playground. Uses the chat partly for practical updates and partly to keep an eye on things. Worries about traffic and child safety more than anything else.",
+      "background": "Stay-at-home parent, two children aged 5 and 7. Has lived on the street for five years. The most active poster \u2014 knows everyone through the school run and playground. Uses the chat partly for practical updates and partly to keep an eye on things. Worries about traffic and child safety more than anything else.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -333,7 +333,7 @@
         "food": [],
         "activities": [
           {
-            "value": "prioritises child safety on the street above all other concerns — traffic, speeding, parking on pavements",
+            "value": "prioritises child safety on the street above all other concerns \u2014 traffic, speeding, parking on pavements",
             "confidence": "High",
             "implicit": false
           }
@@ -491,14 +491,14 @@
   ],
   "group_norms": [
     {
-      "norm_text": "Post to the chat before calling the council — we sort things on the street first.",
+      "norm_text": "Post to the chat before calling the council \u2014 we sort things on the street first.",
       "truly_universal": false,
       "dissenters": [
         "p_a5d4e5f6"
       ]
     },
     {
-      "norm_text": "Reply if you're coming to street events — silence means no.",
+      "norm_text": "Reply if you're coming to street events \u2014 silence means no.",
       "truly_universal": false,
       "dissenters": [
         "p_a5d4e5f6",
@@ -513,5 +513,10 @@
       ]
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "acquaintance_network",
+    "group_size": 5
+  }
 }

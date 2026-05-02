@@ -17,7 +17,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 3, 7:12pm",
-          "message": "Ok team! 🏔️ Two options for Saturday: the Heron Ridgeline (12k, 600m ascent) or the Millbrook loop (8k, flat). Ridgeline is obviously the better hike 😂",
+          "message": "Ok team! \ud83c\udfd4\ufe0f Two options for Saturday: the Heron Ridgeline (12k, 600m ascent) or the Millbrook loop (8k, flat). Ridgeline is obviously the better hike \ud83d\ude02",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -29,7 +29,7 @@
           "speaker_persona_id": "p_r3b2c3d4",
           "speaker_display_name": "Marcus",
           "timestamp_label": "Mar 3, 7:19pm",
-          "message": "Ridgeline should be fine weather permitting 👍",
+          "message": "Ridgeline should be fine weather permitting \ud83d\udc4d",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t000",
@@ -41,7 +41,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 3, 7:22pm",
-          "message": "Is there a cafe on the ridgeline route? 🙏 I need to know the tea situation before I commit 😂",
+          "message": "Is there a cafe on the ridgeline route? \ud83d\ude4f I need to know the tea situation before I commit \ud83d\ude02",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t000",
@@ -53,7 +53,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 3, 7:23pm",
-          "message": "BEV 😂 we can do the Heron Cafe at the end! No stopping mid-route though, we need to maintain pace",
+          "message": "BEV \ud83d\ude02 we can do the Heron Cafe at the end! No stopping mid-route though, we need to maintain pace",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t002",
@@ -102,7 +102,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 3, 7:37pm",
-          "message": "Cass makes a fair point about Millbrook honestly! Plus we could actually talk on the flat 😂 the ridgeline everyone is too breathless for a conversation",
+          "message": "Cass makes a fair point about Millbrook honestly! Plus we could actually talk on the flat \ud83d\ude02 the ridgeline everyone is too breathless for a conversation",
           "message_index": 7,
           "planted_challenges": [
             {
@@ -111,8 +111,8 @@
               "subject_persona_id": "p_r3e5f6a7",
               "speaker_persona_id": "p_r3c3d4e5",
               "fact_attribute": "preference_for_easier_routes",
-              "fact_value": "Bev prefers easier routes for social reasons — she wants to be able to have conversations, not push for harder terrain; this is easily confused with Cass's ecology-based preference for woodland routes",
-              "evidence_span": "Plus we could actually talk on the flat 😂 the ridgeline everyone is too breathless for a conversation",
+              "fact_value": "Bev prefers easier routes for social reasons \u2014 she wants to be able to have conversations, not push for harder terrain; this is easily confused with Cass's ecology-based preference for woodland routes",
+              "evidence_span": "Plus we could actually talk on the flat \ud83d\ude02 the ridgeline everyone is too breathless for a conversation",
               "implicitness_level": 2,
               "session_index": 1,
               "turn_index": 6
@@ -127,7 +127,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 3, 7:38pm",
-          "message": "The whole point is to push ourselves 😤 vote: ridgeline or Millbrook? I'm ridgeline obviously",
+          "message": "The whole point is to push ourselves \ud83d\ude24 vote: ridgeline or Millbrook? I'm ridgeline obviously",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t006",
@@ -139,7 +139,7 @@
           "speaker_persona_id": "p_r3b2c3d4",
           "speaker_display_name": "Marcus",
           "timestamp_label": "Mar 3, 7:41pm",
-          "message": "Millbrook 👍",
+          "message": "Millbrook \ud83d\udc4d",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t007",
@@ -151,7 +151,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 3, 7:41pm",
-          "message": "Millbrook!! 🙌",
+          "message": "Millbrook!! \ud83d\ude4c",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t007",
@@ -187,14 +187,21 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 3, 7:44pm",
-          "message": "Fine 😤 but I'm planning a proper ridgeline for next month. Parking is the layby on Mill Lane, 8:30am 🏔️",
+          "message": "Fine \ud83d\ude24 but I'm planning a proper ridgeline for next month. Parking is the layby on Mill Lane, 8:30am \ud83c\udfd4\ufe0f",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s01_t011",
           "timestamp": "2025-03-03T19:44:00"
         }
       ],
-      "date": "2025-03-03"
+      "date": "2025-03-03",
+      "active_participants": [
+        "p_r3a1b2c3",
+        "p_r3b2c3d4",
+        "p_r3c3d4e5",
+        "p_r3e5f6a7",
+        "p_r3d4e5f6"
+      ]
     },
     {
       "session_id": "grp_3c4d5e6f_s02",
@@ -212,7 +219,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 10, 4:45pm",
-          "message": "Great walk today everyone!! 🏔️🏔️ Right, I've been sitting on this one for months so here goes: I'm proposing the Blackmoor Scramble for September. 15k, 800m of ascent, class A scrambling on the north ridge. It's not just a walk. There are two or three sections where you actually use your hands, proper exposure on the crest, and the summit view is one of the best in the region if the weather plays ball 🙌 I've done the approach three times now so I know how to pace it so we're not wrecked before the scramble section even starts. There's a solid descent option on the south side for anyone who wants to skip the hands-on bits. Who's in?? 🏔️🏔️",
+          "message": "Great walk today everyone!! \ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f Right, I've been sitting on this one for months so here goes: I'm proposing the Blackmoor Scramble for September. 15k, 800m of ascent, class A scrambling on the north ridge. It's not just a walk. There are two or three sections where you actually use your hands, proper exposure on the crest, and the summit view is one of the best in the region if the weather plays ball \ud83d\ude4c I've done the approach three times now so I know how to pace it so we're not wrecked before the scramble section even starts. There's a solid descent option on the south side for anyone who wants to skip the hands-on bits. Who's in?? \ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -224,7 +231,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 10, 4:51pm",
-          "message": "Dani... 800m and a scramble?? 😅 whatever happened to the social side of this group",
+          "message": "Dani... 800m and a scramble?? \ud83d\ude05 whatever happened to the social side of this group",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s02_t000",
@@ -248,7 +255,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 10, 4:58pm",
-          "message": "Ravens are fine in September!! They're not nesting then 😂 Marcus? Yusuf? What do you think",
+          "message": "Ravens are fine in September!! They're not nesting then \ud83d\ude02 Marcus? Yusuf? What do you think",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s02_t002",
@@ -272,7 +279,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 10, 5:00pm",
-          "message": "Technical on the north face, straightforward on the south. Total scrambling maybe 200m? It's class A, totally manageable 🙌",
+          "message": "Technical on the north face, straightforward on the south. Total scrambling maybe 200m? It's class A, totally manageable \ud83d\ude4c",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s02_t004",
@@ -284,7 +291,7 @@
           "speaker_persona_id": "p_r3b2c3d4",
           "speaker_display_name": "Marcus",
           "timestamp_label": "Mar 10, 5:03pm",
-          "message": "I can take the south route on descent 👍",
+          "message": "I can take the south route on descent \ud83d\udc4d",
           "message_index": 7,
           "planted_challenges": [
             {
@@ -321,7 +328,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 10, 5:12pm",
-          "message": "Yusuf you always say that about September! 😂 We'll do a Saturday so you can come",
+          "message": "Yusuf you always say that about September! \ud83d\ude02 We'll do a Saturday so you can come",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s02_t007",
@@ -333,7 +340,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 10, 5:15pm",
-          "message": "Does the Blackmoor Cafe at the trailhead have plant-based options? asking for Cass 😊",
+          "message": "Does the Blackmoor Cafe at the trailhead have plant-based options? asking for Cass \ud83d\ude0a",
           "message_index": 10,
           "planted_challenges": [
             {
@@ -370,14 +377,21 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 10, 5:18pm",
-          "message": "Ok ok I'll check the cafe 😂 September it is, I'll send dates!",
+          "message": "Ok ok I'll check the cafe \ud83d\ude02 September it is, I'll send dates!",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s02_t010",
           "timestamp": "2025-03-10T17:18:00"
         }
       ],
-      "date": "2025-03-10"
+      "date": "2025-03-10",
+      "active_participants": [
+        "p_r3a1b2c3",
+        "p_r3c3d4e5",
+        "p_r3e5f6a7",
+        "p_r3b2c3d4",
+        "p_r3d4e5f6"
+      ]
     },
     {
       "session_id": "grp_3c4d5e6f_s03",
@@ -395,7 +409,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 17, 6:22pm",
-          "message": "Brilliant day!! 🏔️🏔️🏔️ Marcus how's the knee?",
+          "message": "Brilliant day!! \ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f Marcus how's the knee?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -419,7 +433,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 17, 6:31pm",
-          "message": "Marcus I saw you limping at the end 😟 the knee has been bothering you for a while hasn't it",
+          "message": "Marcus I saw you limping at the end \ud83d\ude1f the knee has been bothering you for a while hasn't it",
           "message_index": 3,
           "planted_challenges": [
             {
@@ -428,8 +442,8 @@
               "subject_persona_id": "p_r3b2c3d4",
               "speaker_persona_id": "p_r3c3d4e5",
               "fact_attribute": "marcus_bev_alliance_awareness",
-              "fact_value": "Bev has been observing Marcus's knee issues and voices concern on his behalf — she knows about it even though Marcus doesn't talk about it directly",
-              "evidence_span": "Marcus I saw you limping at the end 😟 the knee has been bothering you for a while hasn't it",
+              "fact_value": "Bev has been observing Marcus's knee issues and voices concern on his behalf \u2014 she knows about it even though Marcus doesn't talk about it directly",
+              "evidence_span": "Marcus I saw you limping at the end \ud83d\ude1f the knee has been bothering you for a while hasn't it",
               "implicitness_level": 2,
               "session_index": 3,
               "turn_index": 2
@@ -481,7 +495,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 17, 6:46pm",
-          "message": "We're not rerouting a whole hike for skylarks Cass 😂 they cope fine with walkers",
+          "message": "We're not rerouting a whole hike for skylarks Cass \ud83d\ude02 they cope fine with walkers",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s03_t004",
@@ -505,7 +519,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 17, 6:51pm",
-          "message": "Cass is right tbh! And honestly if we're routing anyway let's find somewhere with a better cafe on the return 😂",
+          "message": "Cass is right tbh! And honestly if we're routing anyway let's find somewhere with a better cafe on the return \ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s03_t006",
@@ -529,7 +543,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 17, 6:56pm",
-          "message": "Yusuf we went on a Saturday! 😂 You were there!",
+          "message": "Yusuf we went on a Saturday! \ud83d\ude02 You were there!",
           "message_index": 10,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s03_t008",
@@ -553,7 +567,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 17, 7:04pm",
-          "message": "totally off topic but I signed up for the Thornfield charity half marathon in May!! 😬😬 I honestly don't know how it happened, someone at work mentioned it and I thought yeah ok why not, and then before I knew it I'd paid the entry fee and committed to training. It's raising money for the local hospice which is a genuinely lovely cause and the whole vibe of the event is very much not competitive, more of a community thing. The route is flat, goes along the river path and through the village centre, about as far from a Dani-style suffer-fest as you can get 😂 And there is a massive tea tent with proper cake stalls at the finish, which honestly was probably the deciding factor. Anyone want to come? Even just to spectate and eat cake? I think we'd have a brilliant time 🍰😊",
+          "message": "totally off topic but I signed up for the Thornfield charity half marathon in May!! \ud83d\ude2c\ud83d\ude2c I honestly don't know how it happened, someone at work mentioned it and I thought yeah ok why not, and then before I knew it I'd paid the entry fee and committed to training. It's raising money for the local hospice which is a genuinely lovely cause and the whole vibe of the event is very much not competitive, more of a community thing. The route is flat, goes along the river path and through the village centre, about as far from a Dani-style suffer-fest as you can get \ud83d\ude02 And there is a massive tea tent with proper cake stalls at the finish, which honestly was probably the deciding factor. Anyone want to come? Even just to spectate and eat cake? I think we'd have a brilliant time \ud83c\udf70\ud83d\ude0a",
           "message_index": 12,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -565,7 +579,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 17, 7:05pm",
-          "message": "BEV a FLAT half? 😂😂 I'll do it but only if we find a proper hilly one to enter at the same time 🏔️",
+          "message": "BEV a FLAT half? \ud83d\ude02\ud83d\ude02 I'll do it but only if we find a proper hilly one to enter at the same time \ud83c\udfd4\ufe0f",
           "message_index": 13,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s03_t011",
@@ -577,7 +591,7 @@
           "speaker_persona_id": "p_r3b2c3d4",
           "speaker_display_name": "Marcus",
           "timestamp_label": "Mar 17, 7:09pm",
-          "message": "That's quite a lot of road running. Not sure my knee is up to it right now. 👍",
+          "message": "That's quite a lot of road running. Not sure my knee is up to it right now. \ud83d\udc4d",
           "message_index": 14,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s03_t011",
@@ -589,14 +603,21 @@
           "speaker_persona_id": "p_r3e5f6a7",
           "speaker_display_name": "Cass",
           "timestamp_label": "Mar 17, 7:13pm",
-          "message": "the route goes through Thornfield nature reserve actually, there's a section through the fen. I'd consider it for that bit alone 🌿",
+          "message": "the route goes through Thornfield nature reserve actually, there's a section through the fen. I'd consider it for that bit alone \ud83c\udf3f",
           "message_index": 15,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s03_t011",
           "timestamp": "2025-03-17T19:13:00"
         }
       ],
-      "date": "2025-03-17"
+      "date": "2025-03-17",
+      "active_participants": [
+        "p_r3a1b2c3",
+        "p_r3b2c3d4",
+        "p_r3c3d4e5",
+        "p_r3e5f6a7",
+        "p_r3d4e5f6"
+      ]
     },
     {
       "session_id": "grp_3c4d5e6f_s04",
@@ -614,7 +635,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 24, 7:05pm",
-          "message": "Ok autumn dates! 🍂 I'm thinking a big one in October, the Cairngorms if we can get transport sorted. Who's in? 🏔️",
+          "message": "Ok autumn dates! \ud83c\udf42 I'm thinking a big one in October, the Cairngorms if we can get transport sorted. Who's in? \ud83c\udfd4\ufe0f",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -651,7 +672,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 24, 7:10pm",
-          "message": "Yusuf!! every year 😂 ok then, do we shift this to September before marking swallows you whole?",
+          "message": "Yusuf!! every year \ud83d\ude02 ok then, do we shift this to September before marking swallows you whole?",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s04_t001",
@@ -675,7 +696,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 24, 7:14pm",
-          "message": "We should really write this down 😂😂 Yusuf: no autumn. Got it",
+          "message": "We should really write this down \ud83d\ude02\ud83d\ude02 Yusuf: no autumn. Got it",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s04_t003",
@@ -711,7 +732,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 24, 7:26pm",
-          "message": "CASS 😂😂 ok fine. let me look at September dates before Yusuf vanishes on us. send your availability everyone!",
+          "message": "CASS \ud83d\ude02\ud83d\ude02 ok fine. let me look at September dates before Yusuf vanishes on us. send your availability everyone!",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s04_t006",
@@ -723,7 +744,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 24, 7:28pm",
-          "message": "Please make it somewhere with a decent tea stop this time 😂 if we're doing September I want morale built in",
+          "message": "Please make it somewhere with a decent tea stop this time \ud83d\ude02 if we're doing September I want morale built in",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s04_t007",
@@ -742,7 +763,14 @@
           "timestamp": "2025-03-24T19:31:00"
         }
       ],
-      "date": "2025-03-24"
+      "date": "2025-03-24",
+      "active_participants": [
+        "p_r3a1b2c3",
+        "p_r3d4e5f6",
+        "p_r3c3d4e5",
+        "p_r3b2c3d4",
+        "p_r3e5f6a7"
+      ]
     },
     {
       "session_id": "grp_3c4d5e6f_s05",
@@ -760,7 +788,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 31, 6:48pm",
-          "message": "OK NEW PLAN 🏔️ I found a brilliant ridgeline, Stanmore Edge. 14k, 700m, mostly exposed ridge. Last week of August so Yusuf can come! Vote?",
+          "message": "OK NEW PLAN \ud83c\udfd4\ufe0f I found a brilliant ridgeline, Stanmore Edge. 14k, 700m, mostly exposed ridge. Last week of August so Yusuf can come! Vote?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -784,7 +812,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 31, 6:55pm",
-          "message": "I was going to say mostly exposed ridge means nowhere to stop for tea either 😂 is there a woodland variant?",
+          "message": "I was going to say mostly exposed ridge means nowhere to stop for tea either \ud83d\ude02 is there a woodland variant?",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s05_t000",
@@ -796,7 +824,7 @@
           "speaker_persona_id": "p_r3b2c3d4",
           "speaker_display_name": "Marcus",
           "timestamp_label": "Mar 31, 6:58pm",
-          "message": "What's the descent like on the south side? 👍",
+          "message": "What's the descent like on the south side? \ud83d\udc4d",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s05_t000",
@@ -808,7 +836,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 31, 6:59pm",
-          "message": "Marcus the south face is a gentle grassy slope! 😂 Cass I'm going to need sources on the lapwing thing. Bev there's a cafe in the village at the end",
+          "message": "Marcus the south face is a gentle grassy slope! \ud83d\ude02 Cass I'm going to need sources on the lapwing thing. Bev there's a cafe in the village at the end",
           "message_index": 5,
           "planted_challenges": [
             {
@@ -857,7 +885,7 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 31, 7:08pm",
-          "message": "Cass and I vote woodland. Marcus probably does too. Dani the group speaks 😂",
+          "message": "Cass and I vote woodland. Marcus probably does too. Dani the group speaks \ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s05_t006",
@@ -869,7 +897,7 @@
           "speaker_persona_id": "p_r3a1b2c3",
           "speaker_display_name": "Dani",
           "timestamp_label": "Mar 31, 7:10pm",
-          "message": "FINE. Someone find a woodland route with 700m gain and I'll consider it 😤🏔️",
+          "message": "FINE. Someone find a woodland route with 700m gain and I'll consider it \ud83d\ude24\ud83c\udfd4\ufe0f",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s05_t007",
@@ -893,14 +921,21 @@
           "speaker_persona_id": "p_r3c3d4e5",
           "speaker_display_name": "Bev",
           "timestamp_label": "Mar 31, 7:13pm",
-          "message": "Unfashionable and elite tea potential, that's my kind of route 😂",
+          "message": "Unfashionable and elite tea potential, that's my kind of route \ud83d\ude02",
           "message_index": 11,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_3c4d5e6f_s05_t009",
           "timestamp": "2025-03-31T19:13:00"
         }
       ],
-      "date": "2025-03-31"
+      "date": "2025-03-31",
+      "active_participants": [
+        "p_r3a1b2c3",
+        "p_r3e5f6a7",
+        "p_r3c3d4e5",
+        "p_r3b2c3d4",
+        "p_r3d4e5f6"
+      ]
     }
   ],
   "total_turns": 61,
@@ -915,7 +950,7 @@
       "evidence_span": "I'd actually prefer a woodland section, the Millbrook loop goes through Hartley Wood",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_r3s1c2",
@@ -923,11 +958,11 @@
       "subject_persona_id": "p_r3e5f6a7",
       "speaker_persona_id": "p_r3c3d4e5",
       "fact_attribute": "preference_for_easier_routes",
-      "fact_value": "Bev prefers easier routes for social/conversational reasons — this is easily confused with Cass's ecology-based woodland preference",
-      "evidence_span": "Plus we could actually talk on the flat 😂 the ridgeline everyone is too breathless for a conversation",
+      "fact_value": "Bev prefers easier routes for social/conversational reasons \u2014 this is easily confused with Cass's ecology-based woodland preference",
+      "evidence_span": "Plus we could actually talk on the flat \ud83d\ude02 the ridgeline everyone is too breathless for a conversation",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_r3s2c1",
@@ -939,7 +974,7 @@
       "evidence_span": "I can take the south route on descent",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_r3s2c2",
@@ -951,7 +986,7 @@
       "evidence_span": "Does the Blackmoor Cafe at the trailhead have plant-based options? asking for Cass",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_r3s3c1",
@@ -960,10 +995,10 @@
       "speaker_persona_id": "p_r3c3d4e5",
       "fact_attribute": "marcus_bev_alliance_awareness",
       "fact_value": "Bev has been observing Marcus's knee issues and voices concern on his behalf",
-      "evidence_span": "Marcus I saw you limping at the end 😟 the knee has been bothering you for a while hasn't it",
+      "evidence_span": "Marcus I saw you limping at the end \ud83d\ude1f the knee has been bothering you for a while hasn't it",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_r3s3c2",
@@ -975,7 +1010,7 @@
       "evidence_span": "I actually saw three skylarks nesting near the top path. we should route around that section in future",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_r3s4c1",
@@ -987,7 +1022,7 @@
       "evidence_span": "Regrettably I'm unavailable weekends from the 1st of October through to December. Marking season. I have mentioned this before.",
       "implicitness_level": 1,
       "session_index": 4,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_r3s5c1",
@@ -999,7 +1034,7 @@
       "evidence_span": "I'm going to need sources on the lapwing thing",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 4
+      "turn_index": 5
     }
   ],
   "start_date": "2025-03-03"

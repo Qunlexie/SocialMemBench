@@ -1,0 +1,1944 @@
+{
+  "network_id": "grp_c1d2e3f7",
+  "group_name": "Cascade Trail Collective",
+  "group_type": "recreational",
+  "group_size": 20,
+  "seed": 39,
+  "personas": [
+    {
+      "persona_id": "p_ct01a001",
+      "display_name": "Marcus",
+      "age": 44,
+      "gender": "male",
+      "occupation": "High school PE teacher and weekend trail-run coach",
+      "background": "Founded the collective eight years ago after moving to the area for a teaching job. Knows every regional trailhead, organizes most of the logistics, and has a habit of texting weather updates the night before group outings.",
+      "skills_list": [
+        {
+          "skill": "trail navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "group logistics and permits",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wilderness first aid",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "race pacing",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "carb-loads with pasta the night before long runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers well-marked moderate trails over technical scrambles",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable when members no-show without notice",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes outings that start before 6am",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "racing",
+          "attribute": "preferred_distance",
+          "old_value": "marathon",
+          "new_value": "half-marathon",
+          "changed_at_session": 4,
+          "trigger": "lingering knee tendinitis"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'crew' instead of 'group'",
+        "ends practical messages with a clarifying question",
+        "drops weather notes unprompted"
+      ],
+      "participation_rate": 0.85
+    },
+    {
+      "persona_id": "p_ct02b002",
+      "display_name": "Priya",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Pediatric nurse",
+      "background": "Joined two years ago when she moved cross-country. Originally a road runner, has gradually come around to trail running. Often brings a friend to introduce them to the group.",
+      "skills_list": [
+        {
+          "skill": "first aid",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "speed work",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian, avoids dairy at trail breakfasts",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers shaded forest trails over exposed ridge runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "happiest when the group has at least one new face",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "trail_terrain",
+          "attribute": "preferred_terrain",
+          "old_value": "flat fire roads",
+          "new_value": "rolling singletrack",
+          "changed_at_session": 3,
+          "trigger": "knee felt better on softer ground"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '!!' for excitement",
+        "asks who else is in via name tag",
+        "uses sun and tree emojis"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_ct03c003",
+      "display_name": "Derek",
+      "age": 52,
+      "gender": "male",
+      "occupation": "Civil engineer (bridges)",
+      "background": "Long-time member, started in mountain biking, transitioned to ultras in his forties. Reads obsessively about training science and posts weekly nutrition takes.",
+      "skills_list": [
+        {
+          "skill": "ultra-distance running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "training science / heart-rate zones",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "bike repair",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "obsessive about pre-run electrolyte mix, won't eat solid food in last hour",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers technical climbs and steep descents over flat distance",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dismissive of GPS-watch dependence, likes pace-by-feel",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "training",
+          "attribute": "training_method",
+          "old_value": "high-mileage base building",
+          "new_value": "low-volume polarized training",
+          "changed_at_session": 5,
+          "trigger": "read a study and tried it"
+        }
+      ],
+      "speaking_quirks": [
+        "cites studies casually",
+        "uses 'fwiw' a lot",
+        "lowercases 'i'"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_ct04d004",
+      "display_name": "Fatima",
+      "age": 36,
+      "gender": "female",
+      "occupation": "Architect",
+      "background": "Joined after a bad ankle injury cut her marathon career short. Splits time between gentle trail walks and serious backpacking trips. Plans most of the multi-day outings.",
+      "skills_list": [
+        {
+          "skill": "backpacking and gear selection",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "route planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "knot tying",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers freeze-dried meals over fresh-cooked at camp",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers multi-day trips over single-day races",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values quiet evenings at camp, avoids large group dinners",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "running_format",
+          "attribute": "race_participation",
+          "old_value": "weekly road races",
+          "new_value": "no formal races, only training",
+          "changed_at_session": 2,
+          "trigger": "ankle reinjury made racing unsustainable"
+        }
+      ],
+      "speaking_quirks": [
+        "asks logistical clarifying questions",
+        "lists items with bullets in chat",
+        "rarely uses exclamation points"
+      ],
+      "participation_rate": 0.65
+    },
+    {
+      "persona_id": "p_ct05e005",
+      "display_name": "Greg",
+      "age": 49,
+      "gender": "male",
+      "occupation": "Plumber",
+      "background": "Joined through Marcus, his neighbor. Doesn't say much. Shows up consistently, hauls more than his share, finishes everything. Nicknamed 'the diesel'.",
+      "skills_list": [
+        {
+          "skill": "endurance hiking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vehicle shuttling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "fixing things in the field",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "pulls a turkey sandwich and a thermos out at every stop",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "happiest on long flat hauls with heavy packs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable with sing-alongs, drum circles, party-style camp scenes",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "gear",
+          "attribute": "boot_preference",
+          "old_value": "leather full-grain",
+          "new_value": "trail runners",
+          "changed_at_session": 6,
+          "trigger": "kept getting blisters on long descents"
+        }
+      ],
+      "speaking_quirks": [
+        "one-word answers ('yep', 'nope', 'in')",
+        "no end punctuation",
+        "drops subject pronouns"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_ct06f006",
+      "display_name": "Yuki",
+      "age": 28,
+      "gender": "female",
+      "occupation": "UX designer",
+      "background": "Joined a year ago via a coworker (Chloe). Pulled into the climbing offshoot of the group. Brings excellent trail snacks and posts photos relentlessly.",
+      "skills_list": [
+        {
+          "skill": "sport climbing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail photography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "snack prep",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "brings homemade onigiri to every outing",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers climbing over running, will skip pure trail days",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "always organizes the post-trip photo dump",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "climbing_style",
+          "attribute": "preferred_grade",
+          "old_value": "5.10a sport",
+          "new_value": "5.9 multi-pitch trad",
+          "changed_at_session": 7,
+          "trigger": "got hooked on a multi-pitch trip with Helen"
+        }
+      ],
+      "speaking_quirks": [
+        "uses \u2728 and \ud83e\udd72 a lot",
+        "trails off with '...' a lot",
+        "narrates her gear failures"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_ct07a007",
+      "display_name": "Lionel",
+      "age": 58,
+      "gender": "male",
+      "occupation": "Retired physics teacher",
+      "background": "Oldest active member. Teaches everyone about astronomy at camp. Lost his wife two years ago and joined to be around people again.",
+      "skills_list": [
+        {
+          "skill": "astronomy / star identification",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "long-distance hiking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "tea brewing in the field",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "earl grey tea at every camp morning, refuses coffee",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers night hikes and astronomy outings over crowded weekend trips",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values one-on-one walks over big group dynamics",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "outing_pace",
+          "attribute": "pace_preference",
+          "old_value": "front of pack",
+          "new_value": "sweep at the back",
+          "changed_at_session": 4,
+          "trigger": "started enjoying conversations with newer members"
+        }
+      ],
+      "speaking_quirks": [
+        "opens with 'Friends,'",
+        "quotes physicists and poets",
+        "uses semicolons in chat"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_ct08b008",
+      "display_name": "Chloe",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Software engineer",
+      "background": "Recruited Yuki. Loud, fast, type-A. Holds the women's record on the local 14-mile loop and won't shut up about it. Trains for ultras.",
+      "skills_list": [
+        {
+          "skill": "ultra-distance running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "training programming",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "trail repair / volunteer work",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "lives on gels and Honey Stinger waffles, no real food on trail",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers competitive racing over recreational outings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "publicly tracks every mile on Strava",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "race_distance",
+          "attribute": "target_race",
+          "old_value": "50k",
+          "new_value": "100-mile attempt",
+          "changed_at_session": 5,
+          "trigger": "got into the lottery for a 100-miler"
+        }
+      ],
+      "speaking_quirks": [
+        "talks in bursts of caps for emphasis",
+        "uses \ud83d\udd25 emoji",
+        "drops Strava links"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_ct09c009",
+      "display_name": "Bernard",
+      "age": 61,
+      "gender": "male",
+      "occupation": "Retired corporate lawyer",
+      "background": "Oldest of the climbers. Sticklish about safety, knows the legal liability for every trail in the region. Runs the club's permit and waiver paperwork.",
+      "skills_list": [
+        {
+          "skill": "climbing safety / belay technique",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "permit and waiver administration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "knot work",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "brings only black coffee and apples, dislikes group catering",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers route-planned climbs with redundant systems over alpine improvisation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dismissive of fast-and-light style, considers it reckless",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "climbing_attitude",
+          "attribute": "risk_tolerance",
+          "old_value": "alpine fast-and-light approved when conditions allow",
+          "new_value": "rejects fast-and-light entirely",
+          "changed_at_session": 6,
+          "trigger": "near-miss on a Cascade traverse"
+        }
+      ],
+      "speaking_quirks": [
+        "full sentences with Oxford commas",
+        "uses 'one' instead of 'you'",
+        "links to incident reports"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_ct10d010",
+      "display_name": "Tasha",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Veterinarian",
+      "background": "Brings her dog Banjo to most outings. Acts as the group's unofficial therapist when conflicts come up. Recently started dating Ravi (also in the group), which is mostly an open secret.",
+      "skills_list": [
+        {
+          "skill": "wilderness first aid",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "dog handling on trail",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "conflict mediation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "always brings extra trail bars to share",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers dog-friendly hikes over running races",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "checks in privately with quiet members after outings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "outing_choice",
+          "attribute": "weekend_default",
+          "old_value": "solo trail runs",
+          "new_value": "couple's hikes with Ravi",
+          "changed_at_session": 4,
+          "trigger": "started dating Ravi"
+        }
+      ],
+      "speaking_quirks": [
+        "adds Banjo's name to every dog reference",
+        "uses '<3'",
+        "asks 'how's everyone holding up'"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_ct11e011",
+      "display_name": "Owen",
+      "age": 39,
+      "gender": "male",
+      "occupation": "Carpenter",
+      "background": "Quiet, lives on a small farm. Does most of the trail-maintenance volunteer days. Doesn't run, primarily a backpacker and forager.",
+      "skills_list": [
+        {
+          "skill": "trail maintenance",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wild foraging / mushroom ID",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "axe work",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "forages chanterelles, shares them at camp",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers off-trail bushwhacking over marked trails",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "skips the post-outing brewery stops",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "trail_activity",
+          "attribute": "preferred_pace_role",
+          "old_value": "back of pack hauling tools",
+          "new_value": "front, scouting and clearing",
+          "changed_at_session": 5,
+          "trigger": "took over coordinating the maintenance days"
+        }
+      ],
+      "speaking_quirks": [
+        "clipped imperative sentences",
+        "uses 'noted'",
+        "drops articles in some sentences"
+      ],
+      "participation_rate": 0.45
+    },
+    {
+      "persona_id": "p_ct12f012",
+      "display_name": "Sonia",
+      "age": 47,
+      "gender": "female",
+      "occupation": "Marketing director",
+      "background": "Joined for the social side. Loves big group dinners after outings. Talks more than she trails. Also runs the club's Instagram.",
+      "skills_list": [
+        {
+          "skill": "social media / event promotion",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "pace-line cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "wine pairing for camp dinners",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "brings a French press and pour-over kit on every camping trip",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers shorter outings with longer dinner afterward",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "thrives in large camp gatherings, hates two-person outings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "outing_format",
+          "attribute": "preferred_size",
+          "old_value": "any group of 3+",
+          "new_value": "outings of 8 or more only",
+          "changed_at_session": 3,
+          "trigger": "had a great big-group October trip"
+        }
+      ],
+      "speaking_quirks": [
+        "uses lots of emojis \ud83e\udd42\ud83c\udf77",
+        "speaks in full paragraphs",
+        "tags people by @display_name"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_ct13a013",
+      "display_name": "Ravi",
+      "age": 35,
+      "gender": "male",
+      "occupation": "ER physician",
+      "background": "Brought to the group two years ago by Tasha. They're now dating. Strong runner, reserved in chat, often offers medical advice when injuries come up.",
+      "skills_list": [
+        {
+          "skill": "emergency medicine",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "freediving",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "skips lunch on long runs, eats one big meal after",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers point-to-point routes over loops, dislikes repeating terrain",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable being publicly paired with Tasha in group chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "race_format",
+          "attribute": "race_participation",
+          "old_value": "weekly trail races",
+          "new_value": "no races, only training runs",
+          "changed_at_session": 5,
+          "trigger": "ER schedule got worse"
+        }
+      ],
+      "speaking_quirks": [
+        "short clinical-sounding messages",
+        "uses 'fine' as a complete sentence",
+        "rarely tags people"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_ct14b014",
+      "display_name": "Helen",
+      "age": 42,
+      "gender": "female",
+      "occupation": "Geology professor",
+      "background": "The technical climbing lead. Brought Yuki onto her first multi-pitch. Patient teacher, fierce climber. Frequently disappears for solo trips.",
+      "skills_list": [
+        {
+          "skill": "trad climbing / multi-pitch",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "regional geology",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "rope rescue",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "lives on jerky and oranges at the wall",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers solo or two-person climbing days over big group outings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers trad over sport climbing for the headspace",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "partner_choice",
+          "attribute": "climb_partner_default",
+          "old_value": "Bernard for safety/redundancy",
+          "new_value": "Yuki for the new energy",
+          "changed_at_session": 7,
+          "trigger": "Yuki has been improving fast and is fun to climb with"
+        }
+      ],
+      "speaking_quirks": [
+        "geology references in chat",
+        "uses 'rad' unironically",
+        "writes long messages when explaining gear"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_ct15c015",
+      "display_name": "Kasper",
+      "age": 29,
+      "gender": "male",
+      "occupation": "Bike mechanic",
+      "background": "Mountain biking specialist. Newer to trail running. Brought to the group by Derek. Tunes the group's bikes for free.",
+      "skills_list": [
+        {
+          "skill": "mountain bike repair / tuning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "downhill riding",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "race-day support / sag wagon",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "drinks chocolate milk after rides, bizarre about it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers downhill / lift-served riding over cross-country",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "would rather work in the bike shop than chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "discipline",
+          "attribute": "primary_sport",
+          "old_value": "downhill mountain biking only",
+          "new_value": "trail running plus mountain biking",
+          "changed_at_session": 3,
+          "trigger": "broke wrist on a downhill, told to cross-train"
+        }
+      ],
+      "speaking_quirks": [
+        "typos common",
+        "uses 'lol' as filler",
+        "\ud83d\udeb4 emoji"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_ct16d016",
+      "display_name": "Iris",
+      "age": 24,
+      "gender": "female",
+      "occupation": "Graduate student in ecology",
+      "background": "Newest member, joined six months ago through her advisor. Birds and plants nerd. Slows the group down to identify everything.",
+      "skills_list": [
+        {
+          "skill": "bird identification",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "plant identification",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegan, makes big batches of trail granola for the group",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers slow nature walks over fitness-oriented outings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "uncomfortable with group competitiveness around pace",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "outing_pace",
+          "attribute": "pace_engagement",
+          "old_value": "tries to keep up with the front pack",
+          "new_value": "stays at the back identifying species",
+          "changed_at_session": 4,
+          "trigger": "felt like she was missing the whole point of being outside"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'omg' and 'literally'",
+        "drops latin names in chat",
+        "\ud83e\udd89 emoji"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_ct17e017",
+      "display_name": "Theo",
+      "age": 51,
+      "gender": "male",
+      "occupation": "Wildland firefighter (seasonal), arborist (off-season)",
+      "background": "Quiet, intense, joined four years ago. Strong friendship with Greg. Disappears for fire season every summer; the group plans around his absence.",
+      "skills_list": [
+        {
+          "skill": "wilderness fire safety",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "tree work / chainsaw",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "long-distance hiking",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "subsists on tortillas and peanut butter on long trips",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers hard, fast, light backpacking, dislikes 'glamping'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "rarely engages in chat banter, only logistics",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "seasonal_role",
+          "attribute": "summer_availability",
+          "old_value": "available weekends",
+          "new_value": "completely unavailable June-September",
+          "changed_at_session": 6,
+          "trigger": "took on more fire crew shifts"
+        }
+      ],
+      "speaking_quirks": [
+        "military-style brevity",
+        "uses 'copy' for acknowledgment",
+        "rarely uses contractions"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_ct18f018",
+      "display_name": "Ana",
+      "age": 38,
+      "gender": "female",
+      "occupation": "High school principal",
+      "background": "Intense, time-strapped, fits running into a brutally tight schedule. Cousins with Marcus, which is how she joined. Often the voice of pragmatism in planning.",
+      "skills_list": [
+        {
+          "skill": "structured running training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "scheduling logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "swimming",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "eats the same overnight oats every morning, including at camp",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers tightly scheduled outings with start and end times",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "cuts conversations short when she has work calls pending",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "outing_attendance",
+          "attribute": "weekend_attendance",
+          "old_value": "every other weekend",
+          "new_value": "monthly at most due to school year",
+          "changed_at_session": 3,
+          "trigger": "promoted to principal, school crisis schedule"
+        }
+      ],
+      "speaking_quirks": [
+        "complete sentences with proper punctuation",
+        "uses 'regrettably'",
+        "tags messages with start/end times"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_ct19a019",
+      "display_name": "Beatrix",
+      "age": 56,
+      "gender": "female",
+      "occupation": "Therapist (private practice)",
+      "background": "Joined three years ago after a divorce. The group has become her primary social anchor. Notices group dynamics more than anyone. Close to Lionel.",
+      "skills_list": [
+        {
+          "skill": "yoga / mobility",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "long-distance walking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "campsite cooking",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "brings a beautiful spread, hates eating out of foil packets",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers slow walks and yoga sessions over running",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "checks in on quiet members, names tensions when they appear",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "weekend_default",
+          "attribute": "outing_intensity",
+          "old_value": "long fast hikes",
+          "new_value": "yoga retreats and gentle walks",
+          "changed_at_session": 4,
+          "trigger": "knee surgery recovery"
+        }
+      ],
+      "speaking_quirks": [
+        "asks reflective questions",
+        "uses 'I notice that...'",
+        "writes longer messages on relationship topics"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_ct20b020",
+      "display_name": "Cyrus",
+      "age": 41,
+      "gender": "male",
+      "occupation": "Restaurant owner (small bistro)",
+      "background": "Brings catered food to every group dinner. Knows everyone's dietary restrictions. Was a competitive cyclist in his twenties, now mostly a hiker and occasional runner.",
+      "skills_list": [
+        {
+          "skill": "cooking / catering",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "road cycling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "wine selection",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "won't eat anything pre-packaged, brings real food everywhere",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers leisurely day hikes ending at a good restaurant",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "happiest hosting post-outing dinners at his bistro",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "outing_role",
+          "attribute": "outing_organization",
+          "old_value": "active hiker on trail",
+          "new_value": "primarily organizes the food, then catches up",
+          "changed_at_session": 5,
+          "trigger": "bistro got busier, less time for full days"
+        }
+      ],
+      "speaking_quirks": [
+        "mentions wine pairings",
+        "uses 'one'",
+        "addresses the group as 'team'"
+      ],
+      "participation_rate": 0.5
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_ct01a001",
+      "persona_b_id": "p_ct13a013",
+      "relationship_type": "couple_in_group",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Marcus introduced Ravi and Tasha to each other on a 2024 group trip; aware of their relationship but doesn't pry.",
+      "shared_events": [
+        "the 2024 ridge weekend",
+        "Tasha-Ravi connection trip"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct01a001",
+      "persona_b_id": "p_ct18f018",
+      "relationship_type": "cousins",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Ana grew up together in the same small town. He brought her into the club when she moved to the area.",
+      "shared_events": [
+        "family reunions",
+        "Ana's joining the club"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct01a001",
+      "persona_b_id": "p_ct05e005",
+      "relationship_type": "neighbors_and_close_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Live two doors down. Marcus recruited Greg years ago, they shuttle each other to trailheads.",
+      "shared_events": [
+        "weekly logistics",
+        "shuttling for races"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct01a001",
+      "persona_b_id": "p_ct03c003",
+      "relationship_type": "old_co-founders",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Marcus and Derek co-founded the running side eight years ago. Recently disagree on training philosophy. Mutual respect, low-grade friction.",
+      "shared_events": [
+        "club founding",
+        "early ultra trips"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct01a001",
+      "persona_b_id": "p_ct19a019",
+      "relationship_type": "friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus appreciates how Beatrix smooths group tensions; mostly a chat-based friendship.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct10d010",
+      "persona_b_id": "p_ct13a013",
+      "relationship_type": "dating_partners",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Started dating four months ago after a year of friendship. Open secret in the group, but they don't publicly acknowledge it in the chat.",
+      "shared_events": [
+        "first date hike",
+        "Christmas party"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct06f006",
+      "persona_b_id": "p_ct08b008",
+      "relationship_type": "coworkers_and_close_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Yuki was Chloe's mentee at work; Chloe brought her into the club a year ago.",
+      "shared_events": [
+        "work hires",
+        "first multi-pitch"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct06f006",
+      "persona_b_id": "p_ct14b014",
+      "relationship_type": "climbing_partners",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Helen was Yuki's first multi-pitch lead. Mentor-mentee dynamic that has matured into a real partnership.",
+      "shared_events": [
+        "Devil's Spire trip",
+        "winter trad season"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct09c009",
+      "persona_b_id": "p_ct14b014",
+      "relationship_type": "former_climbing_partners",
+      "closeness": "Medium",
+      "sentiment": "tense",
+      "history_summary": "Bernard and Helen were the climbing core for years. Helen drifted toward Yuki recently; Bernard reads it as recklessness.",
+      "shared_events": [
+        "Cascade traverse near-miss",
+        "old multi-pitch days"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct09c009",
+      "persona_b_id": "p_ct06f006",
+      "relationship_type": "uneasy_acquaintances",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Bernard sees Yuki as inexperienced; Yuki finds him stiff and risk-averse. Civil but cool.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct05e005",
+      "persona_b_id": "p_ct17e017",
+      "relationship_type": "close_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Greg and Theo bonded over silence on a 2022 backpacking trip. Closest non-verbal friendship in the group.",
+      "shared_events": [
+        "Wonderland Trail 2022",
+        "fire-season check-ins"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct05e005",
+      "persona_b_id": "p_ct11e011",
+      "relationship_type": "friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Greg and Owen do trail maintenance together every spring. Comfortable working alongside each other.",
+      "shared_events": [
+        "spring maintenance day"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct07a007",
+      "persona_b_id": "p_ct19a019",
+      "relationship_type": "close_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lionel and Beatrix share long evening walks and talks. Both processed grief together (his wife, her divorce).",
+      "shared_events": [
+        "weekly Sunday walks"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct07a007",
+      "persona_b_id": "p_ct16d016",
+      "relationship_type": "mentor_friendship",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lionel is Iris's quasi-mentor on natural history; teaches her astronomy at camp.",
+      "shared_events": [
+        "spring star party"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct03c003",
+      "persona_b_id": "p_ct15c015",
+      "relationship_type": "recruiter_recruit",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Derek brought Kasper into the club after Kasper repaired his bike. Now they cross-train together.",
+      "shared_events": [
+        "Kasper's intro outing"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct02b002",
+      "persona_b_id": "p_ct16d016",
+      "relationship_type": "friendly_acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Priya and Iris connect over the slower-pace group; both prefer the back of the pack.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct02b002",
+      "persona_b_id": "p_ct10d010",
+      "relationship_type": "close_friends",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya and Tasha became close after Priya's tough patch a year back; Tasha mediated her conflict with another member.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct04d004",
+      "persona_b_id": "p_ct11e011",
+      "relationship_type": "friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Fatima and Owen are the backpacking core. Plan most multi-day trips together.",
+      "shared_events": [
+        "Olympic loop",
+        "Wonderland Trail planning"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct04d004",
+      "persona_b_id": "p_ct17e017",
+      "relationship_type": "friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Fatima and Theo respect each other's gear philosophy and quiet style.",
+      "shared_events": [
+        "off-season backpacking"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct12f012",
+      "persona_b_id": "p_ct20b020",
+      "relationship_type": "social_collaborators",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Sonia handles the social-media side, Cyrus handles the food. They co-organize every group dinner.",
+      "shared_events": [
+        "all post-trip dinners"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct12f012",
+      "persona_b_id": "p_ct11e011",
+      "relationship_type": "minor_friction",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Sonia's loud-group preferences clash with Owen's quiet style. They tolerate each other.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct08b008",
+      "persona_b_id": "p_ct03c003",
+      "relationship_type": "training_rivals",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Chloe and Derek both push training opinions, often in conflict. Competitive in a friendly-but-edged way.",
+      "shared_events": [
+        "weekly track session"
+      ]
+    },
+    {
+      "persona_a_id": "p_ct14b014",
+      "persona_b_id": "p_ct11e011",
+      "relationship_type": "respectful_acquaintances",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Helen and Owen share a love for off-trail terrain. Don't talk much but cooperate well.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct18f018",
+      "persona_b_id": "p_ct20b020",
+      "relationship_type": "logistical_allies",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Ana and Cyrus cooperate on event logistics. Cyrus jokes about her tight scheduling.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct13a013",
+      "persona_b_id": "p_ct02b002",
+      "relationship_type": "professional_peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both medical (Ravi ER, Priya pediatric nursing). Sometimes share work war stories.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct15c015",
+      "persona_b_id": "p_ct06f006",
+      "relationship_type": "casual_friends",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Kasper and Yuki overlap in age and casual style; not close but cordial.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct09c009",
+      "persona_b_id": "p_ct18f018",
+      "relationship_type": "ideological_allies",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Bernard and Ana both like rules and structure. Aligned in planning meetings, otherwise distant.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct01a001",
+      "persona_b_id": "p_ct09c009",
+      "relationship_type": "club_co-officers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Bernard share leadership of permits. Mutually respectful, occasionally exasperated.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct19a019",
+      "persona_b_id": "p_ct10d010",
+      "relationship_type": "friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Beatrix and Tasha both watch group dynamics. Beatrix sometimes asks Tasha what she's noticing.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct04d004",
+      "persona_b_id": "p_ct14b014",
+      "relationship_type": "friendly_peers",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Fatima and Helen share a route-planning interest, occasionally swap gear.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct16d016",
+      "persona_b_id": "p_ct11e011",
+      "relationship_type": "ecology_collaborators",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Iris and Owen identify mushrooms and plants together; she cites his foraging knowledge.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_ct05e005",
+      "persona_b_id": "p_ct09c009",
+      "relationship_type": "minor_friction",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Greg ignores half of Bernard's safety memos. Bernard finds it irritating.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We always meet at the trailhead 30 minutes before sunrise on race-prep days.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ct01a001",
+        "p_ct12f012",
+        "p_ct16d016"
+      ]
+    },
+    {
+      "norm_text": "We carb-load with pasta dinners the night before long outings.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ct03c003",
+        "p_ct09c009",
+        "p_ct16d016"
+      ]
+    },
+    {
+      "norm_text": "Everyone is welcome to bring a guest as long as they post in advance.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Post-outing brewery stops are optional but most of the group goes.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ct11e011",
+        "p_ct09c009",
+        "p_ct18f018"
+      ]
+    },
+    {
+      "norm_text": "We never run a race solo as representing the club; group registrations only.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_ct08b008"
+      ]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 25,
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "recreational",
+    "group_size": 20
+  }
+}

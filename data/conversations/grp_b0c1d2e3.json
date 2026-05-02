@@ -356,7 +356,18 @@
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10007",
+        "p_b0c10006",
+        "p_b0c10001",
+        "p_b0c10005",
+        "p_b0c10004",
+        "p_b0c10009",
+        "p_b0c10008",
+        "p_b0c10002",
+        "p_b0c10003"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s02",
@@ -673,7 +684,18 @@
       ],
       "prior_session_summary": "Group agreed on Blackmoor Hill for Wednesday Jan 14. Nadia expressed preference for darker sites at least 60 miles out but accepted the compromise. Jerome outlined a galaxy imaging project for M65/M66. Marcus confirmed he has become a dedicated planetary sketcher after Ruth's book recommendation. Dev showed enthusiasm about Saturn and Nadia offered to mentor him at the session.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10007",
+        "p_b0c10004",
+        "p_b0c10002",
+        "p_b0c10003",
+        "p_b0c10009",
+        "p_b0c10001",
+        "p_b0c10008",
+        "p_b0c10005",
+        "p_b0c10006"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s03",
@@ -977,7 +999,18 @@
       ],
       "prior_session_summary": "February 17th session happened at Blackmoor Hill. Dev had his first Albireo view and was transformed. Jerome continued to struggle with transparency for his galaxy project. Cecilia posted nebula images from the session that Jerome grudgingly praised. Jerome expressed frustration with galaxy targets due to poor transparency. The group agreed on Thai at Cecilia's before the next session; Jerome and Priya both skipped the pre-session meal.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10008",
+        "p_b0c10001",
+        "p_b0c10006",
+        "p_b0c10003",
+        "p_b0c10002",
+        "p_b0c10007",
+        "p_b0c10004",
+        "p_b0c10009",
+        "p_b0c10005"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s04",
@@ -1294,7 +1327,17 @@
       ],
       "prior_session_summary": "Group debated darker site options; Nadia and Harriet pushed for a further rural site while Cecilia and Marcus favoured Blackmoor's convenience. Ruth proposed a compromise of one dark-sky session per season. Jerome declared his galaxy project dead and pivoted firmly to emission nebulae. Priya mentioned thesis pressure. Dev's double star enthusiasm was growing after Albireo. Jerome and Priya both absent from the pre-session meal.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10001",
+        "p_b0c10005",
+        "p_b0c10007",
+        "p_b0c10002",
+        "p_b0c10004",
+        "p_b0c10008",
+        "p_b0c10006",
+        "p_b0c10009"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s05",
@@ -1598,7 +1641,18 @@
       ],
       "prior_session_summary": "Messier marathon on April 12th at Blackmoor. Nadia led the visual marathon attempt. Jerome imaged the Rosette and Cone Nebula in Ha. Dev attended with 70mm and got his first proper deep-sky dark-site experience. Nadia confirmed she is actively researching 12-inch Dobsonians. Cecilia handled pre-session logistics.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10002",
+        "p_b0c10007",
+        "p_b0c10004",
+        "p_b0c10006",
+        "p_b0c10009",
+        "p_b0c10001",
+        "p_b0c10003",
+        "p_b0c10005",
+        "p_b0c10008"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s06",
@@ -1915,7 +1969,18 @@
       ],
       "prior_session_summary": "Group planned the Kielder dark-sky weekend for July new moon. Tom\u00e1s confirmed intent to upgrade from barn-door tracker to equatorial mount. Harriet was firm about Bortle 2-3 being the new minimum after her Cairngorms assignment. Cecilia began organising the trip.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10007",
+        "p_b0c10005",
+        "p_b0c10001",
+        "p_b0c10006",
+        "p_b0c10009",
+        "p_b0c10002",
+        "p_b0c10003",
+        "p_b0c10004",
+        "p_b0c10008"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s07",
@@ -2219,7 +2284,18 @@
       ],
       "prior_session_summary": "Autumn dark-sky weekend at Kielder hill site happened. Ruth voted to make the hill site the group default after achieving limiting magnitude 7.2. Jerome logged SQM 22.07 on best night. Tom\u00e1s confirmed HEQ5 mount purchase. Group voted unanimously for hill site as new default. Harriet disclosed the group origin story of starting in Nadia's back garden.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10007",
+        "p_b0c10002",
+        "p_b0c10004",
+        "p_b0c10006",
+        "p_b0c10003",
+        "p_b0c10005",
+        "p_b0c10009",
+        "p_b0c10008",
+        "p_b0c10001"
+      ]
     },
     {
       "session_id": "grp_b0c1d2e3_s08",
@@ -2523,7 +2599,18 @@
       ],
       "prior_session_summary": "Jerome's PixInsight walkthrough in chat converted Cecilia to Ha-RGB blending. Tom\u00e1s confirmed HEQ5 purchase arriving. Cecilia uploaded the improved Orion Ha-RGB image to the group album. Priya confirmed thesis submitted and available for August session. Ruth and Jerome voted in favour of hill site as default.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_b0c10007",
+        "p_b0c10004",
+        "p_b0c10002",
+        "p_b0c10006",
+        "p_b0c10003",
+        "p_b0c10001",
+        "p_b0c10009",
+        "p_b0c10005",
+        "p_b0c10008"
+      ]
     }
   ],
   "total_turns": 168,
@@ -2538,7 +2625,7 @@
       "evidence_span": "For the Herschel objects I really want to reach this season, 60 miles minimum would make a meaningful difference.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 7
+      "turn_index": 8
     },
     {
       "challenge_id": "ch_b0c1d002",
@@ -2550,7 +2637,7 @@
       "evidence_span": "Terence Dickinson's book on planetary observation covers it beautifully.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_b0c1d003",
@@ -2562,7 +2649,7 @@
       "evidence_span": "used to think sketching was a total waste of time ngl. like why draw it when you can photograph it. the book changed my mind completely",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_b0c1d004",
@@ -2574,7 +2661,7 @@
       "evidence_span": "galaxy season starts in earnest from February so I'll be pulling data on the Leo Triplet first chance the sky opens up. I've got a 10-hour integration plan for M65 and M66",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_b0c1d005",
@@ -2586,7 +2673,7 @@
       "evidence_span": "I always love galaxy season, even on the wide field you can get Virgo cluster in frame which looks amazin",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 16
+      "turn_index": 17
     },
     {
       "challenge_id": "ch_b0c1d006",
@@ -2598,7 +2685,7 @@
       "evidence_span": "Nadia and I will sort the session reminder on Monday as usual.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 18
+      "turn_index": 19
     },
     {
       "challenge_id": "ch_b0c1d007",
@@ -2610,7 +2697,7 @@
       "evidence_span": "That is precisely why I keep coming back to the eyepiece rather than outsourcing it to a sensor.",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_b0c1d008",
@@ -2622,7 +2709,7 @@
       "evidence_span": "Jerome mate we're not publishing in a journal, its a beautiful photo",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b0c1d009",
@@ -2634,7 +2721,7 @@
       "evidence_span": "You should also have a go at the Double Cluster in Perseus and Albireo in Cygnus if it clears by midnight. Those will show beautifully in 70mm.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_b0c1d010",
@@ -2646,7 +2733,7 @@
       "evidence_span": "I will go straight to site. I need to be set up and aligned by 7:45 to make the most of the window. dinner beforehand doesn't work with my acquisition schedule.",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 19
+      "turn_index": 20
     },
     {
       "challenge_id": "ch_b0c1d011",
@@ -2658,7 +2745,7 @@
       "evidence_span": "same, I'll probably head direct. I've got a supervision call until 6 anyway so I'd barely make the food",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_b0c1d012",
@@ -2670,7 +2757,7 @@
       "evidence_span": "Dev you asked me after the session what makes double stars different colours and I've been thinking about that question all week. like actually it's the best question because it gets straight to stellar astrophysics",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 3
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_b0c1d013",
@@ -2682,7 +2769,7 @@
       "evidence_span": "I'm done chasing galaxy targets for this season. Cecilia's nebula images from the 17th actually looked reasonable and I've been reconsidering the target strategy. Emission nebulae don't care about transparency in the same way.",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 6
+      "turn_index": 7
     },
     {
       "challenge_id": "ch_b0c1d014",
@@ -2694,7 +2781,7 @@
       "evidence_span": "that's why I keep doing this even when it eats into my thesis hours. Dev you should come along when I have my solar H-alpha setup out too",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b0c1d015",
@@ -2706,7 +2793,7 @@
       "evidence_span": "come for the planets, jupiter will be in gemini and you'll see all 4 galilean moons before 10pm. the marathon is great but the planets are better",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_b0c1d016",
@@ -2718,7 +2805,7 @@
       "evidence_span": "ok JUPITER YES. ngl I actually might try both, start with planets then do as much Messier as I can before I fall asleep",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_b0c1d017",
@@ -2730,7 +2817,7 @@
       "evidence_span": "For years I insisted a good refractor was sufficient and I could get the critical objects at the horizon with a quality 4-inch. After Jerome showed me the Veil Nebula through his 16-inch Dob at the autumn star party last year, I have been rethinking that rather firmly.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b0c1d018",
@@ -2739,7 +2826,7 @@
       "speaker_persona_id": "p_b0c10002",
       "fact_attribute": "sub_clique",
       "fact_value": "Jerome and Cecilia collaborate on imaging with Jerome providing technical depth; he gives PixInsight tutorials to Cecilia",
-      "evidence_span": "send me the FITS file. I will walk you through the correct sequence. it will take 20 minutes.",
+      "evidence_span": "ok while we're on the gear subject, Jerome I need your brain. I processed my Orion Nebula again and the Ha channel looks muddy compared to what I see in your images. I know you hate my DSLR workflow but I'm genuinely asking for help here \ud83d\ude4f\ud83c\udf1f",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 18
@@ -2751,7 +2838,7 @@
       "speaker_persona_id": "p_b0c10004",
       "fact_attribute": "equipment_preference",
       "fact_value": "Tom\u00e1s moving away from his barn-door star tracker toward wanting a proper equatorial mount after seeing Jerome's Ha Rosette detail",
-      "evidence_span": "my barn door tracker has been good enough for wide field milky way stuff but it can't do this. I think I've been fooling myself that a tracker is sufficient if you want to actually grow as an astrophotographer",
+      "evidence_span": "just looked at that image properly mate... ok I get it now. that's on a completely different level to anything I can pull with the barn door and DSLR. the fine shell detail, the way the central star cluster sits in it... I've never seen the Rosette like that \ud83c\udf0c\u2728",
       "implicitness_level": 2,
       "session_index": 5,
       "turn_index": 4
@@ -2766,7 +2853,7 @@
       "evidence_span": "I am genuinely not able to go back to treating Bortle 4 as acceptable for a proper session. The two-hour drive is worth it.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_b0c1d021",
@@ -2775,7 +2862,7 @@
       "speaker_persona_id": "p_b0c10007",
       "fact_attribute": "dark_sky_site_preference",
       "fact_value": "Cecilia agrees to the dark-sky trip as a special occasion but still prefers Blackmoor's convenience as the default; this is not a permanent site preference shift for her",
-      "evidence_span": "maybe we do need to do one proper dark-sky trip this summer. Two-hour drive is doable if we make a weekend of it",
+      "evidence_span": "I have been saying this since session one. In my experience there is no substitute for genuine darkness. The Milky Way shadow phenomenon happens around SQM 22.0 or above. You cannot replicate it closer to town, full stop.",
       "implicitness_level": 2,
       "session_index": 5,
       "turn_index": 12
@@ -2790,7 +2877,7 @@
       "evidence_span": "I think we should make the hill site our default and treat the town park as the fallback for when we cannot make the drive.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 2
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_b0c1d023",
@@ -2802,7 +2889,7 @@
       "evidence_span": "you said something on Saturday night that I think is going to be the opening line of the episode. About how you have been recommending books about dark skies for years but had never actually experienced one.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_b0c1d024",
@@ -2811,7 +2898,7 @@
       "speaker_persona_id": "p_b0c10001",
       "fact_attribute": "dark_site_aperture_revelation",
       "fact_value": "Nadia knows Dev saw M13 resolved through her 12-inch Dobsonian and understands how transformative the dark-site aperture combination is for a beginner",
-      "evidence_span": "That view through the 12-inch is why I finally made the change, Dev. I am glad you had it.",
+      "evidence_span": "ok the weekend was the best thing I have ever done. I saw M13 as a resolved ball of stars with my OWN EYES. ngl I actually cried a bit. Nadia you were right about the aperture thing too, looking through your Dob at the globular was something else",
       "implicitness_level": 2,
       "session_index": 6,
       "turn_index": 11
@@ -2826,7 +2913,7 @@
       "evidence_span": "this group started in Nadia's back garden, did it not? Nadia, Ruth, you two dragged everyone here. I think people forget that the whole thing was your idea originally.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 20
+      "turn_index": 21
     },
     {
       "challenge_id": "ch_b0c1d026",
@@ -2838,7 +2925,7 @@
       "evidence_span": "I have absolutely no idea what's happening technically but I can tell from the before and after results you two post that it works. Jerome you'd never do this kind of thing for my DSLR workflow though would you",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_b0c1d027",
@@ -2847,7 +2934,7 @@
       "speaker_persona_id": "p_b0c10007",
       "fact_attribute": "imaging_filter_preference",
       "fact_value": "Cecilia now blends Ha data into RGB after Jerome's tutorial; previously strictly broadband and found narrowband too monochromatic",
-      "evidence_span": "I had completely written off narrowband blending as too technical for me and too cold-looking. This is totally different from what I imagined. I genuinely thought I hated narrowband because it looked monochromatic but you've just shown me I was wrong about the whole thing!!!",
+      "evidence_span": "starting with the 200mm telephoto so I know the camera side already, then saving for a proper fast refractor. baby steps mate \ud83d\udd2d\u2728",
       "implicitness_level": 2,
       "session_index": 7,
       "turn_index": 9
@@ -2862,7 +2949,7 @@
       "evidence_span": "what you have both done this evening is exactly the kind of collaboration that makes this group worth belonging to",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_b0c1d029",
@@ -2871,7 +2958,7 @@
       "speaker_persona_id": "p_b0c10004",
       "fact_attribute": "equipment_preference",
       "fact_value": "Tom\u00e1s has completed the upgrade from barn-door tracker to equatorial mount (HEQ5); confirms the preference shift first signalled in session 5",
-      "evidence_span": "8-minute guided subs with zero trailing. the difference between a proper equatorial mount and a tracker is genuinely not comparable, I feel like I've been driving a pushbike on the motorway and someone just gave me a car",
+      "evidence_span": "@all August new moon debrief!!! Tom\u00e1s, I need FULL details on the HEQ5 first light. Everyone is waiting!!! \ud83c\udf0c\ud83d\udd2d\u2728",
       "implicitness_level": 2,
       "session_index": 8,
       "turn_index": 1
@@ -2886,7 +2973,7 @@
       "evidence_span": "Ruth and I met at the county natural-history society in 2021 and discovered within about twenty minutes that we both preferred the stars to anything else on the programme. We agreed to meet the following Friday with our own telescopes in my back garden.",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_b0c1d031",
@@ -2898,7 +2985,7 @@
       "evidence_span": "everyone is in for September then!!! I'll send the formal group announcement Monday with three days notice",
       "implicitness_level": 2,
       "session_index": 8,
-      "turn_index": 18
+      "turn_index": 19
     }
   ]
 }

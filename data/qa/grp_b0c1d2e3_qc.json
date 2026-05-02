@@ -1,49 +1,60 @@
 {
   "network_id": "grp_b0c1d2e3",
   "total_pairs": 28,
-  "phase1_mean_score": 0.993,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
-  "phase3_flagged_count": 1,
-  "inference_required_distribution": {"0": 0, "1": 1, "2": 27},
+  "phase1_mean_score": 0.9929,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "2": 27,
+    "1": 1
+  },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
-  "difficulty_distribution": {"easy": 0, "medium": 20, "hard": 8},
-  "by_query_type": {
-    "Q1": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q2": {"count": 2, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q4": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q5": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q6": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.0},
-    "Q7": {"count": 7, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.86},
-    "Q8": {"count": 9, "mean_score": 0.978, "flagged": 1, "mean_inference_required": 2.0},
-    "Q3": {"count": 0, "mean_score": null, "flagged": 0, "mean_inference_required": null},
-    "Q9": {"count": 0, "mean_score": null, "flagged": 0, "mean_inference_required": null}
+  "difficulty_distribution": {
+    "easy": 0,
+    "medium": 20,
+    "hard": 8
   },
-  "flagged_pairs": [
-    {
-      "qa_id": "Q8_b0c1d003",
-      "query_type": "Q8",
-      "flag": "q8_consecutive_only",
-      "question": "What triggered Marcus's change in attitude toward planetary sketching, and what does he say in Session 1 that signals this shift had already happened before the group conversations began?"
-    }
-  ],
-  "low_score_pairs": [
-    {
-      "qa_id": "Q8_b0c1d003",
-      "query_type": "Q8",
-      "score": 0.9,
-      "your_answer": "Marcus used to think planetary sketching was a waste of time but Terence Dickinson's book changed his mind completely; he had already converted before Session 1 and by S01T008 is already actively sketching Saturn's ring tilt all autumn.",
-      "ground_truth": "Shift already occurred before group chat, triggered by Ruth lending Marcus 'The Planet Observer's Handbook'; Marcus states 'used to think sketching was a total waste of time ngl... the book changed my mind completely' in S01T010."
+  "by_query_type": {
+    "Q1": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
     },
-    {
-      "qa_id": "Q8_b0c1d013",
-      "query_type": "Q8",
-      "score": 0.9,
-      "your_answer": "Jerome abandoned galaxies after 12 hours of failed integration (transparency destroyed faint outer arms) and seeing Cecilia's Ha nebula images work despite the same conditions; shift stated explicitly in S03T006 citing both failures and Cecilia's counterexample.",
-      "ground_truth": "Trigger was combination of repeated transparency failures (12 hours, outer arms unrecoverable) AND Cecilia's nebula images from the 17th showing Ha work was viable; Priya's S02 note also primed the case; evolved state confirmed in S04T003."
+    "Q2": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 8,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 0.978,
+      "flagged": 0
     }
-  ],
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
   "per_pair": [
     {
       "qa_id": "Q1_b0c1d001",
@@ -60,7 +71,7 @@
     {
       "qa_id": "Q1_b0c1d007",
       "query_type": "Q1",
-      "question": "What does the way Nadia talks about astronomy — and how she describes the difference between observing methods — reveal about which approach she personally values most?",
+      "question": "What does the way Nadia talks about astronomy \u2014 and how she describes the difference between observing methods \u2014 reveal about which approach she personally values most?",
       "blind_answer": "Nadia consistently frames visual observing at the eyepiece as superior to astrophotography. She describes the camera as 'outsourcing it to a sensor' and says the eye 'adapts in ways a sensor does not.' This preference is expressed across multiple sessions and is framed as an absolute conviction, not a preference among equals.",
       "score": 1.0,
       "score_rationale": "Blind answer captures both key evidence turns (S01T020 and S02T009) and the framing of astrophotography as an outsourced intermediary, matching ground truth exactly.",
@@ -73,13 +84,13 @@
       "qa_id": "Q8_b0c1d003",
       "query_type": "Q8",
       "question": "What triggered Marcus's change in attitude toward planetary sketching, and what does he say in Session 1 that signals this shift had already happened before the group conversations began?",
-      "blind_answer": "The trigger was a book Ruth recommended — Terence Dickinson's book on planetary observation. Marcus says in S01T010 'used to think sketching was a total waste of time ngl... the book changed my mind completely.' S01T008 confirms the shift had already occurred: he is actively 'sketching the ring tilt all autumn,' meaning by Session 1 he is already a committed sketcher, not in the process of converting.",
+      "blind_answer": "The trigger was a book Ruth recommended \u2014 Terence Dickinson's book on planetary observation. Marcus says in S01T010 'used to think sketching was a total waste of time ngl... the book changed my mind completely.' S01T008 confirms the shift had already occurred: he is actively 'sketching the ring tilt all autumn,' meaning by Session 1 he is already a committed sketcher, not in the process of converting.",
       "score": 0.9,
       "score_rationale": "Core content matches ground truth; minor gap is that the answer refers to 'The Planet Observer's Handbook' by name but the conversation only uses 'the Dickinson.' Both temporal anchors are at session_index=1 (shift pre-corpus), not spanning multiple sessions.",
       "inference_required": 2,
       "grounded": true,
-      "flagged": true,
-      "flag_reason": "q8_consecutive_only"
+      "flagged": false,
+      "flag_reason": null
     },
     {
       "qa_id": "Q7_b0c1d002",
@@ -97,9 +108,9 @@
       "qa_id": "Q4_b0c1d004",
       "query_type": "Q4",
       "question": "In Session 1, someone in the group expressed strong enthusiasm for galaxy season and revealed a specific multi-hour integration plan for a galaxy pair. Who was that person?",
-      "blind_answer": "Jerome said this. S01T015: 'galaxy season starts in earnest from February so I'll be pulling data on the Leo Triplet first chance the sky opens up. I've got a 10-hour integration plan for M65 and M66.' The technical register (integration hours, named targets, SNR framing) is Jerome's voice. Tomás also expresses galaxy enthusiasm in S01T016 but frames it as wide-field landscape composition with emojis — not an integration plan.",
+      "blind_answer": "Jerome said this. S01T015: 'galaxy season starts in earnest from February so I'll be pulling data on the Leo Triplet first chance the sky opens up. I've got a 10-hour integration plan for M65 and M66.' The technical register (integration hours, named targets, SNR framing) is Jerome's voice. Tom\u00e1s also expresses galaxy enthusiasm in S01T016 but frames it as wide-field landscape composition with emojis \u2014 not an integration plan.",
       "score": 1.0,
-      "score_rationale": "Blind answer correctly identifies Jerome (option C) and distinguishes from the Tomás foil using voice register differences exactly as ground truth specifies.",
+      "score_rationale": "Blind answer correctly identifies Jerome (option C) and distinguishes from the Tom\u00e1s foil using voice register differences exactly as ground truth specifies.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -120,8 +131,8 @@
     {
       "qa_id": "Q7_b0c1d008",
       "query_type": "Q7",
-      "question": "What does the chat reveal about the dynamic between Tomás and Jerome when Jerome comments on Tomás's photographic work or approach?",
-      "blind_answer": "Jerome dismisses DSLR work on technical grounds and Tomás pushes back when it goes too far. S02T006: 'Jerome mate we're not publishing in a journal, its a beautiful photo' — direct rebuke with humor. Jerome defends himself (S02T007). In S07T004 Tomás accepts the divide with ironic self-deprecation ('Jerome you'd never do this kind of thing for my DSLR workflow though would you'). The dynamic is tense but not hostile; Tomás fires back then moves on.",
+      "question": "What does the chat reveal about the dynamic between Tom\u00e1s and Jerome when Jerome comments on Tom\u00e1s's photographic work or approach?",
+      "blind_answer": "Jerome dismisses DSLR work on technical grounds and Tom\u00e1s pushes back when it goes too far. S02T006: 'Jerome mate we're not publishing in a journal, its a beautiful photo' \u2014 direct rebuke with humor. Jerome defends himself (S02T007). In S07T004 Tom\u00e1s accepts the divide with ironic self-deprecation ('Jerome you'd never do this kind of thing for my DSLR workflow though would you'). The dynamic is tense but not hostile; Tom\u00e1s fires back then moves on.",
       "score": 1.0,
       "score_rationale": "Blind answer captures both key instances of the dynamic and the correct characterisation (tense but not hostile, ironic acceptance) matching ground truth.",
       "inference_required": 2,
@@ -133,7 +144,7 @@
       "qa_id": "Q5_b0c1d009",
       "query_type": "Q5",
       "question": "What does Dev's experience at the dark-sky weekend indicate about his observing focus had been before a key session, and how does Nadia's behavior in Session 2 show she already knew this about him?",
-      "blind_answer": "Dev revealed in S01T011 that he 'mostly just does the moon.' Nadia in S02T011 does not ask what Dev had been doing — she immediately prescribes specific targets (Double Cluster, Albireo) 'in 70mm,' framing this as what he 'should also have a go at.' This prescriptive framing without inquiry implies she had already assessed his experience level as Moon-only and was mapping his next steps before being asked.",
+      "blind_answer": "Dev revealed in S01T011 that he 'mostly just does the moon.' Nadia in S02T011 does not ask what Dev had been doing \u2014 she immediately prescribes specific targets (Double Cluster, Albireo) 'in 70mm,' framing this as what he 'should also have a go at.' This prescriptive framing without inquiry implies she had already assessed his experience level as Moon-only and was mapping his next steps before being asked.",
       "score": 1.0,
       "score_rationale": "Blind answer correctly identifies Dev's Moon-focus from S01T011 and Nadia's proactive prescriptive framing in S02T011 as the ToM evidence, matching ground truth.",
       "inference_required": 2,
@@ -144,8 +155,8 @@
     {
       "qa_id": "Q6_b0c1d010",
       "query_type": "Q6",
-      "question": "The group regularly does a shared meal before dark-sky sessions — Cecilia organises these and they seem like part of the tradition. Does this actually apply to all members? If not, who opts out and how does the chat show this?",
-      "blind_answer": "No — the norm is not universal. Jerome explicitly opts out in S02T019 ('I will go straight to site. dinner beforehand doesn't work with my acquisition schedule.') and Priya follows in S02T020 ('same, I'll probably head direct'). Jerome's reason is structural (acquisition schedule), not circumstantial, making it a permanent opt-out. Correct option: A (Jerome is the primary dissenter).",
+      "question": "The group regularly does a shared meal before dark-sky sessions \u2014 Cecilia organises these and they seem like part of the tradition. Does this actually apply to all members? If not, who opts out and how does the chat show this?",
+      "blind_answer": "No \u2014 the norm is not universal. Jerome explicitly opts out in S02T019 ('I will go straight to site. dinner beforehand doesn't work with my acquisition schedule.') and Priya follows in S02T020 ('same, I'll probably head direct'). Jerome's reason is structural (acquisition schedule), not circumstantial, making it a permanent opt-out. Correct option: A (Jerome is the primary dissenter).",
       "score": 1.0,
       "score_rationale": "Blind answer correctly identifies both dissenters, cites the exact turns, and distinguishes Jerome's structural vs Priya's situational framing as ground truth specifies.",
       "inference_required": 2,
@@ -169,7 +180,7 @@
       "qa_id": "Q5_b0c1d012",
       "query_type": "Q5",
       "question": "What does Dev's approach to astronomy questions reveal about his intellectual curiosity, and what in Session 3 shows Priya had already recognised this quality in him?",
-      "blind_answer": "Dev asks substantive physics questions framed self-deprecatingly as 'dumb questions.' Priya in S03T003 reveals she had been 'thinking about that question all week' — Dev's post-session question about double star colours — describing it as 'the best question because it gets straight to stellar astrophysics.' This shows she had prior knowledge from a conversation after the February session and had been preparing a serious answer, indicating she had already assessed Dev as someone whose questions warranted real engagement.",
+      "blind_answer": "Dev asks substantive physics questions framed self-deprecatingly as 'dumb questions.' Priya in S03T003 reveals she had been 'thinking about that question all week' \u2014 Dev's post-session question about double star colours \u2014 describing it as 'the best question because it gets straight to stellar astrophysics.' This shows she had prior knowledge from a conversation after the February session and had been preparing a serious answer, indicating she had already assessed Dev as someone whose questions warranted real engagement.",
       "score": 1.0,
       "score_rationale": "Blind answer captures the post-session conversation element, Priya's week-long preparation, and the 'best question' assessment exactly as ground truth specifies.",
       "inference_required": 2,
@@ -193,7 +204,7 @@
       "qa_id": "Q8_b0c1d014",
       "query_type": "Q8",
       "question": "What signalled a shift in how Priya felt about group observing sessions, and what in Session 3 explains why that shift occurred at that point?",
-      "blind_answer": "Priya's pre-shift state: solo observing preferred to avoid distracting from thesis work. Shift signal (S03T012): 'that's why I keep doing this even when it eats into my thesis hours. Dev you should come along when I have my solar H-alpha setup out too.' The trigger was Dev's questions in Session 3 — especially his post-session question about double star colours (S03T003) that Priya describes as 'the best question because it gets straight to stellar astrophysics.' His curiosity reconnected Priya to why she became an astronomer.",
+      "blind_answer": "Priya's pre-shift state: solo observing preferred to avoid distracting from thesis work. Shift signal (S03T012): 'that's why I keep doing this even when it eats into my thesis hours. Dev you should come along when I have my solar H-alpha setup out too.' The trigger was Dev's questions in Session 3 \u2014 especially his post-session question about double star colours (S03T003) that Priya describes as 'the best question because it gets straight to stellar astrophysics.' His curiosity reconnected Priya to why she became an astronomer.",
       "score": 1.0,
       "score_rationale": "Blind answer captures pre-shift state, trigger (Dev's curiosity), and the shift statement in S03T012 exactly matching ground truth.",
       "inference_required": 2,
@@ -240,10 +251,10 @@
     {
       "qa_id": "Q8_b0c1d019",
       "query_type": "Q8",
-      "question": "What triggered Tomás to begin questioning whether his barn-door tracker was sufficient, and across which sessions can you trace the arc from first doubt to completed equipment upgrade?",
-      "blind_answer": "Early state (S01): happy with barn-door tracker for wide-field Milky Way. Trigger (S05T004): after seeing Jerome's 22.4-hour Rosette Ha image, Tomás says 'my barn door tracker has been good enough for wide field milky way stuff but it can't do this... I think I've been fooling myself that a tracker is sufficient.' S07T006: HEQ5 announced as 'arrives next Thursday.' S08T001: first-light results — 8-minute guided subs, dark pillars resolved in Lagoon Nebula. The upgrade is decisive and complete.",
+      "question": "What triggered Tom\u00e1s to begin questioning whether his barn-door tracker was sufficient, and across which sessions can you trace the arc from first doubt to completed equipment upgrade?",
+      "blind_answer": "Early state (S01): happy with barn-door tracker for wide-field Milky Way. Trigger (S05T004): after seeing Jerome's 22.4-hour Rosette Ha image, Tom\u00e1s says 'my barn door tracker has been good enough for wide field milky way stuff but it can't do this... I think I've been fooling myself that a tracker is sufficient.' S07T006: HEQ5 announced as 'arrives next Thursday.' S08T001: first-light results \u2014 8-minute guided subs, dark pillars resolved in Lagoon Nebula. The upgrade is decisive and complete.",
       "score": 1.0,
-      "score_rationale": "Blind answer traces the full arc (S1→S5 trigger→S7 announcement→S8 completion) exactly as ground truth specifies, including the specific Rosette image as trigger.",
+      "score_rationale": "Blind answer traces the full arc (S1\u2192S5 trigger\u2192S7 announcement\u2192S8 completion) exactly as ground truth specifies, including the specific Rosette image as trigger.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -265,7 +276,7 @@
       "qa_id": "Q8_b0c1d022",
       "query_type": "Q8",
       "question": "What drove Ruth to publicly reverse her long-held position on dark-sky site preference, and what in Session 6 shows she understood the shift as a matter of kind rather than just degree?",
-      "blind_answer": "Pre-shift: Ruth consistently argued for closer, more accessible sites (town park over Blackmoor, Blackmoor over further). Trigger (S06T001): Kielder hill site, limiting magnitude 7.2 — 'I have never logged 7.2 from anywhere I have observed before.' Reversal (S06T002): 'I think we should make the hill site our default and treat the town park as the fallback.' The 'kind not degree' framing: 'The rural hill gives you a sky that is genuinely different in kind, not just in degree' — she draws a categorical, not a scalar, distinction.",
+      "blind_answer": "Pre-shift: Ruth consistently argued for closer, more accessible sites (town park over Blackmoor, Blackmoor over further). Trigger (S06T001): Kielder hill site, limiting magnitude 7.2 \u2014 'I have never logged 7.2 from anywhere I have observed before.' Reversal (S06T002): 'I think we should make the hill site our default and treat the town park as the fallback.' The 'kind not degree' framing: 'The rural hill gives you a sky that is genuinely different in kind, not just in degree' \u2014 she draws a categorical, not a scalar, distinction.",
       "score": 1.0,
       "score_rationale": "Blind answer captures the pre-shift stance, the specific observational trigger (LM 7.2), the explicit reversal statement, and the 'kind not degree' language exactly as ground truth specifies.",
       "inference_required": 2,
@@ -277,7 +288,7 @@
       "qa_id": "Q7_b0c1d023",
       "query_type": "Q7",
       "question": "What does Session 6 reveal about the working relationship between Ruth and Harriet, and what role does Ruth's book-recommending identity play in it?",
-      "blind_answer": "Harriet and Ruth collaborate on outreach/podcast content. Harriet records Ruth's words and experiences as podcast material. S06T005: Harriet tells Ruth she plans to use as an episode opening line something Ruth said about 'recommending books about dark skies for years but had never actually experienced one.' Ruth immediately responds by recommending a Sky at Night Magazine piece — demonstrating the same behaviour Harriet is about to document. Ruth supplies authenticity; Harriet supplies editorial frame.",
+      "blind_answer": "Harriet and Ruth collaborate on outreach/podcast content. Harriet records Ruth's words and experiences as podcast material. S06T005: Harriet tells Ruth she plans to use as an episode opening line something Ruth said about 'recommending books about dark skies for years but had never actually experienced one.' Ruth immediately responds by recommending a Sky at Night Magazine piece \u2014 demonstrating the same behaviour Harriet is about to document. Ruth supplies authenticity; Harriet supplies editorial frame.",
       "score": 1.0,
       "score_rationale": "Blind answer captures the asymmetric collaboration, the specific irony of Ruth recommending something immediately after the quote, and Ruth's book-recommender identity as the content exactly as ground truth specifies.",
       "inference_required": 2,
@@ -289,7 +300,7 @@
       "qa_id": "Q5_b0c1d024",
       "query_type": "Q5",
       "question": "What does Dev's experience at the dark-sky weekend indicate about how a Dobsonian and a dark site together affected him, and how does Nadia's response in Session 6 show she had already understood what the weekend meant for Dev specifically?",
-      "blind_answer": "Dev (S06T010) saw M13 resolved as a ball of stars through Nadia's 12-inch Dobsonian and 'actually cried a bit.' Nadia's response (S06T011) immediately connects this to her own aperture conversion: 'That view through the 12-inch is why I finally made the change, Dev. In my experience M13 through large aperture at a dark site is the most effective argument for aperture I know of. I am glad you had it.' She doesn't ask what Dev saw — she already knows the specific experience and names M13 as the expected revelation, showing she had anticipated this outcome for Dev.",
+      "blind_answer": "Dev (S06T010) saw M13 resolved as a ball of stars through Nadia's 12-inch Dobsonian and 'actually cried a bit.' Nadia's response (S06T011) immediately connects this to her own aperture conversion: 'That view through the 12-inch is why I finally made the change, Dev. In my experience M13 through large aperture at a dark site is the most effective argument for aperture I know of. I am glad you had it.' She doesn't ask what Dev saw \u2014 she already knows the specific experience and names M13 as the expected revelation, showing she had anticipated this outcome for Dev.",
       "score": 1.0,
       "score_rationale": "Blind answer captures Dev's experience, Nadia's proactive framing (connecting to own aperture conversion without asking), and the M13 specificity exactly as ground truth specifies.",
       "inference_required": 2,
@@ -313,9 +324,9 @@
       "qa_id": "Q4_b0c1d026",
       "query_type": "Q4",
       "question": "In Session 7, while Jerome was walking Cecilia through a PixInsight Ha-RGB blending workflow, someone in the chat acknowledged following the walkthrough closely but explicitly positioned themselves as outside the narrowband-PixInsight process. Who was that person?",
-      "blind_answer": "Tomás said this. S07T004: 'I'm reading this walkthrough and I have absolutely no idea what's happening technically but I can tell from the before and after results you two post that it works. Jerome you'd never do this kind of thing for my DSLR workflow though would you.' Dev also engages in T015 but asks 'where would I even start?' — a learning question, not an exclusion statement. Tomás explicitly names the DSLR divide.",
+      "blind_answer": "Tom\u00e1s said this. S07T004: 'I'm reading this walkthrough and I have absolutely no idea what's happening technically but I can tell from the before and after results you two post that it works. Jerome you'd never do this kind of thing for my DSLR workflow though would you.' Dev also engages in T015 but asks 'where would I even start?' \u2014 a learning question, not an exclusion statement. Tom\u00e1s explicitly names the DSLR divide.",
       "score": 1.0,
-      "score_rationale": "Correctly identifies Tomás (option D) and distinguishes from Dev foil by the positioning statement vs learning question distinction exactly as ground truth specifies.",
+      "score_rationale": "Correctly identifies Tom\u00e1s (option D) and distinguishes from Dev foil by the positioning statement vs learning question distinction exactly as ground truth specifies.",
       "inference_required": 2,
       "grounded": true,
       "flagged": false,
@@ -348,8 +359,8 @@
     {
       "qa_id": "Q8_b0c1d029",
       "query_type": "Q8",
-      "question": "What in Session 8 confirms that Tomás fully completed the equipment shift he first signalled in Session 5, and how does his description of first-light results explain why the upgrade was decisive for him?",
-      "blind_answer": "S08T001: Tomás reports '8-minute guided subs with zero trailing. I shot the Lagoon Nebula at 200mm and pulled out the dark pillars inside the bright core that I have never once seen in anything I shot on the barn door.' The dark pillar detail is a structural feature requiring longer tracked exposures — it was invisible in all his previous work. The pushbike/motorway analogy confirms the upgrade resolved his core limitation rather than being incremental.",
+      "question": "What in Session 8 confirms that Tom\u00e1s fully completed the equipment shift he first signalled in Session 5, and how does his description of first-light results explain why the upgrade was decisive for him?",
+      "blind_answer": "S08T001: Tom\u00e1s reports '8-minute guided subs with zero trailing. I shot the Lagoon Nebula at 200mm and pulled out the dark pillars inside the bright core that I have never once seen in anything I shot on the barn door.' The dark pillar detail is a structural feature requiring longer tracked exposures \u2014 it was invisible in all his previous work. The pushbike/motorway analogy confirms the upgrade resolved his core limitation rather than being incremental.",
       "score": 1.0,
       "score_rationale": "Blind answer captures the first-light results, the specific dark pillar detail as the decisive evidence, and the pushbike/motorway analogy exactly as ground truth specifies.",
       "inference_required": 2,
@@ -373,7 +384,7 @@
       "qa_id": "Q2_b0c1d031",
       "query_type": "Q2",
       "question": "In Session 8, Cecilia announced everyone was 'in' for September and mentioned sending the group meal and session announcement as usual. What did Jerome's response in that same session reveal about his actual position on the group meal tradition, and what in his reply tells you this is a persistent pattern rather than a one-time conflict?",
-      "blind_answer": "S08T016: Jerome confirms 'September 22nd confirmed for me. I will be targeting the Cygnus Wall in Ha at the hill site.' No mention of the meal. His silence on it — when Cecilia framed the announcement as 'everyone is in' — is consistent with his S02T019 explicit opt-out. The persistent pattern: across Sessions 2, 4, and 8, Jerome's confirmations are always framed around imaging targets and logistics, never the social meal. The meal is structurally absent from his participation model.",
+      "blind_answer": "S08T016: Jerome confirms 'September 22nd confirmed for me. I will be targeting the Cygnus Wall in Ha at the hill site.' No mention of the meal. His silence on it \u2014 when Cecilia framed the announcement as 'everyone is in' \u2014 is consistent with his S02T019 explicit opt-out. The persistent pattern: across Sessions 2, 4, and 8, Jerome's confirmations are always framed around imaging targets and logistics, never the social meal. The meal is structurally absent from his participation model.",
       "score": 1.0,
       "score_rationale": "Blind answer correctly identifies Jerome (option B), cites the silence-based evidence at S08T016, and grounds it in the S02T019 establishment of the pattern exactly as ground truth specifies.",
       "inference_required": 2,
@@ -397,7 +408,7 @@
     },
     "em_dash_free": {
       "score": 2,
-      "notes": "Zero em dashes found in any message field across all 168 turns. Grep confirmed 0 occurrences of U+2014 (—) in the full conversation JSON."
+      "notes": "Zero em dashes found in any message field across all 168 turns. Grep confirmed 0 occurrences of U+2014 (\u2014) in the full conversation JSON."
     },
     "planted_turn_integrity": {
       "score": 2,
@@ -406,5 +417,6 @@
     "overall_pass": true,
     "failing_turns": []
   },
-  "baseline_reference": "none"
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.477430+00:00"
 }

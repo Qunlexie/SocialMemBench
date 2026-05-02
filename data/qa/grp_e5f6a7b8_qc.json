@@ -1,9 +1,9 @@
 {
   "network_id": "grp_e5f6a7b8",
   "total_pairs": 17,
-  "phase1_mean_score": 0.991,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
+  "phase1_mean_score": 0.9912,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
   "phase3_flagged_count": 0,
   "inference_required_distribution": {
     "0": 0,
@@ -21,44 +21,37 @@
     "Q1": {
       "count": 5,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 1.2
+      "flagged": 0
     },
     "Q2": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 1.5
+      "flagged": 0
     },
     "Q4": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q5": {
       "count": 3,
       "mean_score": 0.95,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q6": {
       "count": 1,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     },
     "Q7": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 1.0
+      "flagged": 0
     },
     "Q8": {
       "count": 2,
       "mean_score": 1.0,
-      "flagged": 0,
-      "mean_inference_required": 2.0
+      "flagged": 0
     }
   },
   "flagged_pairs": [],

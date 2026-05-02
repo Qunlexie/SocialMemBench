@@ -11,7 +11,7 @@
       "age": 34,
       "gender": "M",
       "occupation": "high school history teacher",
-      "background": "Grew up with Priya and Jonah in the same neighbourhood; the group's de facto planner and memory keeper. Organises group trips and birthday dinners without being asked. Reads everything, opinionated about food, quietly competitive at trivia nights. The most central member — everyone orbits him a little.",
+      "background": "Grew up with Priya and Jonah in the same neighbourhood; the group's de facto planner and memory keeper. Organises group trips and birthday dinners without being asked. Reads everything, opinionated about food, quietly competitive at trivia nights. The most central member \u2014 everyone orbits him a little.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "High",
@@ -74,15 +74,27 @@
         }
       ],
       "speaking_quirks": [
-        "starts opinions with 'I'll be honest with you —' before saying something mildly controversial",
+        "starts opinions with 'I'll be honest with you \u2014' before saying something mildly controversial",
         "uses historical analogies in everyday situations ('this is very much a Dunkirk situation')",
         "sends restaurant suggestions with opening times, Yelp rating, and a one-sentence review"
       ],
       "skills_list": [
-        {"skill": "pub trivia", "proficiency": "strong"},
-        {"skill": "cooking (Italian)", "proficiency": "strong"},
-        {"skill": "route planning / logistics", "proficiency": "medium"},
-        {"skill": "running", "proficiency": "medium"}
+        {
+          "skill": "pub trivia",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking (Italian)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "route planning / logistics",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "running",
+          "proficiency": "medium"
+        }
       ],
       "participation_rate": 1.0
     },
@@ -92,7 +104,7 @@
       "age": 33,
       "gender": "F",
       "occupation": "UX designer at a fintech startup",
-      "background": "Childhood friend of Marcus and Jonah. Works long hours and is often the last to confirm plans. Opinionated about design in everything — furniture, menus, the choice of pub. Has a running bit with Jonah about who gives worse life advice. Briefly dated someone in the group years ago (not currently).",
+      "background": "Childhood friend of Marcus and Jonah. Works long hours and is often the last to confirm plans. Opinionated about design in everything \u2014 furniture, menus, the choice of pub. Has a running bit with Jonah about who gives worse life advice. Briefly dated someone in the group years ago (not currently).",
       "big_five": {
         "openness": "High",
         "conscientiousness": "Medium",
@@ -149,14 +161,23 @@
         }
       ],
       "speaking_quirks": [
-        "replies to plans with 'I'm in if it doesn't clash with the thing' — never specifying what 'the thing' is",
+        "replies to plans with 'I'm in if it doesn't clash with the thing' \u2014 never specifying what 'the thing' is",
         "uses 'literally' as emphasis even for non-literal statements",
         "sends voice notes instead of typing when she has something longer to say"
       ],
       "skills_list": [
-        {"skill": "UX / product design", "proficiency": "strong"},
-        {"skill": "interior styling", "proficiency": "medium"},
-        {"skill": "Spotify playlist curation", "proficiency": "medium"}
+        {
+          "skill": "UX / product design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "interior styling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Spotify playlist curation",
+          "proficiency": "medium"
+        }
       ],
       "participation_rate": 1.0
     },
@@ -228,10 +249,22 @@
         "punctuates with 'tbf' (to be fair) when conceding a point"
       ],
       "skills_list": [
-        {"skill": "video editing", "proficiency": "strong"},
-        {"skill": "hiking / navigation", "proficiency": "strong"},
-        {"skill": "documentary storytelling", "proficiency": "medium"},
-        {"skill": "cycling", "proficiency": "medium"}
+        {
+          "skill": "video editing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hiking / navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "documentary storytelling",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cycling",
+          "proficiency": "medium"
+        }
       ],
       "participation_rate": 1.0
     },
@@ -300,13 +333,22 @@
       ],
       "speaking_quirks": [
         "uses full sentences and punctuation in a group chat of typos and fragments",
-        "prefaces corrections with 'just to flag —' rather than contradicting directly",
-        "ends long messages with a summary bullet: '— so: venue, time, headcount. Confirm by Thursday?'"
+        "prefaces corrections with 'just to flag \u2014' rather than contradicting directly",
+        "ends long messages with a summary bullet: '\u2014 so: venue, time, headcount. Confirm by Thursday?'"
       ],
       "skills_list": [
-        {"skill": "contract drafting / legal research", "proficiency": "strong"},
-        {"skill": "yoga", "proficiency": "medium"},
-        {"skill": "Mandarin (conversational)", "proficiency": "low"}
+        {
+          "skill": "contract drafting / legal research",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Mandarin (conversational)",
+          "proficiency": "low"
+        }
       ],
       "participation_rate": 1.0,
       "status": "departed",
@@ -318,7 +360,7 @@
       "age": 36,
       "gender": "M",
       "occupation": "software engineer at a mid-size tech company",
-      "background": "Priya's university friend; joined the group three years ago. The quietest member in the chat but reliably shows up in person. Has strong opinions he rarely volunteers — if pressed, he'll give a clear view. Extremely dry sense of humour that newcomers sometimes miss. Mildly famous within the group for giving a speech at Marcus's birthday that made everyone cry.",
+      "background": "Priya's university friend; joined the group three years ago. The quietest member in the chat but reliably shows up in person. Has strong opinions he rarely volunteers \u2014 if pressed, he'll give a clear view. Extremely dry sense of humour that newcomers sometimes miss. Mildly famous within the group for giving a speech at Marcus's birthday that made everyone cry.",
       "big_five": {
         "openness": "Medium",
         "conscientiousness": "High",
@@ -386,9 +428,18 @@
         "never uses emoji; his thumbs-up reactions are the only acknowledgment he gives"
       ],
       "skills_list": [
-        {"skill": "software engineering", "proficiency": "strong"},
-        {"skill": "trail running", "proficiency": "medium"},
-        {"skill": "sourdough baking", "proficiency": "medium"}
+        {
+          "skill": "software engineering",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "sourdough baking",
+          "proficiency": "medium"
+        }
       ],
       "participation_rate": 1.0
     }
@@ -413,7 +464,7 @@
       "relationship_type": "childhood friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Marcus and Jonah also grew up together and have a long history of friendly competition — trivia nights, who can find the best pub, whose camping kit is better. Marcus encouraged Jonah's personal film projects; Jonah credits Marcus with pushing him to take them seriously.",
+      "history_summary": "Marcus and Jonah also grew up together and have a long history of friendly competition \u2014 trivia nights, who can find the best pub, whose camping kit is better. Marcus encouraged Jonah's personal film projects; Jonah credits Marcus with pushing him to take them seriously.",
       "shared_events": [
         "grew up on the same street",
         "went on a two-week interrail trip together at 22",
@@ -450,7 +501,7 @@
       "relationship_type": "childhood friends with ongoing banter",
       "closeness": "High",
       "sentiment": "mixed",
-      "history_summary": "Priya and Jonah grew up together and have a long-running bit about who gives worse life advice. Genuinely fond of each other but their personalities clash periodically — Priya finds Jonah's political monologuing exhausting; Jonah finds Priya's bail-on-plans behaviour maddening. The tension is familiar and mostly affectionate, but it has occasionally been real.",
+      "history_summary": "Priya and Jonah grew up together and have a long-running bit about who gives worse life advice. Genuinely fond of each other but their personalities clash periodically \u2014 Priya finds Jonah's political monologuing exhausting; Jonah finds Priya's bail-on-plans behaviour maddening. The tension is familiar and mostly affectionate, but it has occasionally been real.",
       "shared_events": [
         "grew up on the same street",
         "argument in session 3 when Jonah called Priya out for bailing on the Peak District trip at the last minute"
@@ -506,7 +557,7 @@
       "relationship_type": "friendly acquaintances",
       "closeness": "Low",
       "sentiment": "tense",
-      "history_summary": "Simone and Dev have the least history in the group. Dev found Simone's precision slightly guarded when she first joined; Simone found Dev's one-word replies hard to interpret as friendliness. There is a low-level awkwardness between them that neither has addressed — made slightly more pointed by the fact that everyone else in the group has stronger bonds with both of them.",
+      "history_summary": "Simone and Dev have the least history in the group. Dev found Simone's precision slightly guarded when she first joined; Simone found Dev's one-word replies hard to interpret as friendliness. There is a low-level awkwardness between them that neither has addressed \u2014 made slightly more pointed by the fact that everyone else in the group has stronger bonds with both of them.",
       "shared_events": []
     }
   ],
@@ -519,14 +570,14 @@
       ]
     },
     {
-      "norm_text": "The group chat is kept light — no heavy personal venting or political arguments in the main thread.",
+      "norm_text": "The group chat is kept light \u2014 no heavy personal venting or political arguments in the main thread.",
       "truly_universal": false,
       "dissenters": [
         "p_cf33c3d4e5"
       ]
     },
     {
-      "norm_text": "Everyone contributes equally to shared costs on group trips — no separate billing.",
+      "norm_text": "Everyone contributes equally to shared costs on group trips \u2014 no separate billing.",
       "truly_universal": true,
       "dissenters": []
     },
@@ -541,6 +592,10 @@
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 1
+    "departures": 1,
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "close_friends",
+    "group_size": 5
   }
 }

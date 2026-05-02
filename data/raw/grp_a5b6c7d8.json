@@ -13,10 +13,22 @@
       "occupation": "Civil engineer (infrastructure projects)",
       "background": "Has been trail running and hiking in the region for six years. Became the unofficial trip planner after he showed up with a laminated elevation map to the group's second outing. Methodical, respected for logistics, occasionally rigid about route selection. Close with Elena from a night hike they navigated together after a missed junction.",
       "skills_list": [
-        {"skill": "route planning and topographic map reading", "proficiency": "strong"},
-        {"skill": "trail maintenance and terrain assessment", "proficiency": "strong"},
-        {"skill": "GPS and navigation tech", "proficiency": "strong"},
-        {"skill": "structural risk assessment", "proficiency": "medium"}
+        {
+          "skill": "route planning and topographic map reading",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail maintenance and terrain assessment",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "GPS and navigation tech",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "structural risk assessment",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -35,16 +47,40 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "brings only high-calorie trail bars — visibly sceptical of anyone who turns up with sandwiches on a long day", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers routes with a clear summit or end-point — resists loop trails that feel purposeless", "confidence": "High", "implicit": true}],
-        "social": [{"value": "dislikes last-minute route changes proposed in the group chat — wants plans confirmed 48 hours out", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "strongly prefers technical trails over scenic easy walks — gets visibly restless on flat terrain", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "brings only high-calorie trail bars \u2014 visibly sceptical of anyone who turns up with sandwiches on a long day",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers routes with a clear summit or end-point \u2014 resists loop trails that feel purposeless",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes last-minute route changes proposed in the group chat \u2014 wants plans confirmed 48 hours out",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly prefers technical trails over scenic easy walks \u2014 gets visibly restless on flat terrain",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "activities",
           "attribute": "group_pace_tolerance",
-          "old_value": "sets a fast pace and expects others to keep up — minimal stops",
+          "old_value": "sets a fast pace and expects others to keep up \u2014 minimal stops",
           "new_value": "builds rest stops into the plan and adjusts pace to the slowest comfortable member",
           "changed_at_session": 4,
           "trigger": "Priya turned her ankle trying to keep up on the Ridgeback descent and had to be helped down; Marcus reorganised the rest of the day and took it as a lesson"
@@ -63,12 +99,24 @@
       "age": 31,
       "gender": "female",
       "occupation": "Physiotherapist (sports clinic)",
-      "background": "Joined the group 18 months ago after a colleague recommended it. Quickly became known as the injury consultant — she does a quiet visual check of everyone's footwear at the trailhead. Has a relaxed persona but is fiercely competitive on timed segments. Closest to Marcus.",
+      "background": "Joined the group 18 months ago after a colleague recommended it. Quickly became known as the injury consultant \u2014 she does a quiet visual check of everyone's footwear at the trailhead. Has a relaxed persona but is fiercely competitive on timed segments. Closest to Marcus.",
       "skills_list": [
-        {"skill": "sports injury prevention and taping", "proficiency": "strong"},
-        {"skill": "biomechanics and gait analysis", "proficiency": "strong"},
-        {"skill": "trail running technique", "proficiency": "strong"},
-        {"skill": "yoga and flexibility training", "proficiency": "medium"}
+        {
+          "skill": "sports injury prevention and taping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "biomechanics and gait analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running technique",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga and flexibility training",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -87,17 +135,41 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "avoids processed energy gels — always brings real food (dates, cheese, rice cakes) and shares without being asked", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "loves timed segments and quietly records her splits — gets annoyed if the group cuts a marked segment short", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers post-hike meals at the pub over coffee shop debrief — says pubs have better stair access for tired legs", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "checks everyone's footwear at the trailhead and will suggest alternatives if she sees risks — rarely resisted", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "avoids processed energy gels \u2014 always brings real food (dates, cheese, rice cakes) and shares without being asked",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves timed segments and quietly records her splits \u2014 gets annoyed if the group cuts a marked segment short",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers post-hike meals at the pub over coffee shop debrief \u2014 says pubs have better stair access for tired legs",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "checks everyone's footwear at the trailhead and will suggest alternatives if she sees risks \u2014 rarely resisted",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "post_hike_venue_preference",
           "old_value": "happy to go wherever the group agrees, no strong view",
-          "new_value": "consistently advocates for the pub over coffee shops — becomes the de facto post-hike venue organiser",
+          "new_value": "consistently advocates for the pub over coffee shops \u2014 becomes the de facto post-hike venue organiser",
           "changed_at_session": 3,
           "trigger": "the coffee shop visit after Session 2 was crowded and loud; she organised the pub for Session 3 and the atmosphere was noticeably better"
         },
@@ -113,22 +185,34 @@
       "speaking_quirks": [
         "uses 'form check' as a header before any technique note",
         "refers to hills by their nickname ('the Wall', 'that bloody ramp past the reservoir')",
-        "responds to plans with a thumbs up followed by a short question ('up for it — what's the start time?')"
+        "responds to plans with a thumbs up followed by a short question ('up for it \u2014 what's the start time?')"
       ],
       "participation_rate": 0.95
     },
     {
       "persona_id": "p_c5d3e4f5",
-      "display_name": "Tomás",
+      "display_name": "Tom\u00e1s",
       "age": 44,
       "gender": "male",
       "occupation": "Secondary school geography teacher",
-      "background": "Has been with the group from the beginning — helped found it with Marcus after a shared Duke of Edinburgh alumni event. Knows local trails by memory. Talks a lot but nearly always usefully. Has a slight tension with Bridget, who joined from a rival hiking club and sometimes questions his route selections.",
+      "background": "Has been with the group from the beginning \u2014 helped found it with Marcus after a shared Duke of Edinburgh alumni event. Knows local trails by memory. Talks a lot but nearly always usefully. Has a slight tension with Bridget, who joined from a rival hiking club and sometimes questions his route selections.",
       "skills_list": [
-        {"skill": "orienteering and wilderness navigation", "proficiency": "strong"},
-        {"skill": "ecological trail knowledge", "proficiency": "strong"},
-        {"skill": "group instruction and safety briefing", "proficiency": "strong"},
-        {"skill": "photography (landscape)", "proficiency": "medium"}
+        {
+          "skill": "orienteering and wilderness navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "ecological trail knowledge",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "group instruction and safety briefing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "photography (landscape)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -147,10 +231,34 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "brings homemade energy balls and insists everyone tries one — offended if declined", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "prefers routes with ecological or geographical points of interest — stops to explain formations without being asked", "confidence": "High", "implicit": true}],
-        "social": [{"value": "loves the pre-hike chat as much as the hike itself — arrives 30 minutes early to talk", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "dislikes using commercial hiking apps — prefers paper OS maps and will argue for them", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "brings homemade energy balls and insists everyone tries one \u2014 offended if declined",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers routes with ecological or geographical points of interest \u2014 stops to explain formations without being asked",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "loves the pre-hike chat as much as the hike itself \u2014 arrives 30 minutes early to talk",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes using commercial hiking apps \u2014 prefers paper OS maps and will argue for them",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -175,11 +283,20 @@
       "age": 29,
       "gender": "female",
       "occupation": "UX designer (tech startup)",
-      "background": "Joined the group after a friend dropped out and gave her the slot. Initially the least experienced hiker but has progressed faster than expected. Works from home most days, so is often first to reply. Close with Nadia — they carpooled for the first few sessions and have stayed tight.",
+      "background": "Joined the group after a friend dropped out and gave her the slot. Initially the least experienced hiker but has progressed faster than expected. Works from home most days, so is often first to reply. Close with Nadia \u2014 they carpooled for the first few sessions and have stayed tight.",
       "skills_list": [
-        {"skill": "UX research and prototyping", "proficiency": "strong"},
-        {"skill": "trail running (beginner to intermediate)", "proficiency": "medium"},
-        {"skill": "photography (candid, mobile)", "proficiency": "medium"}
+        {
+          "skill": "UX research and prototyping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running (beginner to intermediate)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "photography (candid, mobile)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -198,10 +315,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "vegetarian — doesn't mention it but always asks 'is there a veggie option' at the post-hike pub", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "initially avoided steep descents after her ankle injury; recently started volunteering for them to build confidence", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "prefers group chats to stay warm and social rather than purely logistical — posts reaction content to keep energy up", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "takes candid trail photos throughout and posts them to the group chat without tagging anyone — others have come to expect them", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "vegetarian \u2014 doesn't mention it but always asks 'is there a veggie option' at the post-hike pub",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "initially avoided steep descents after her ankle injury; recently started volunteering for them to build confidence",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers group chats to stay warm and social rather than purely logistical \u2014 posts reaction content to keep energy up",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "takes candid trail photos throughout and posts them to the group chat without tagging anyone \u2014 others have come to expect them",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -226,11 +367,20 @@
       "age": 35,
       "gender": "female",
       "occupation": "Freelance translator (German and Spanish)",
-      "background": "Found the group through a local outdoor notice board. Has a quiet but steady presence — never the loudest but always well-prepared. Carpooled with Priya early on and they became close. Has a dry sense of humour that only the regulars pick up on. Slightly reserved around newer members.",
+      "background": "Found the group through a local outdoor notice board. Has a quiet but steady presence \u2014 never the loudest but always well-prepared. Carpooled with Priya early on and they became close. Has a dry sense of humour that only the regulars pick up on. Slightly reserved around newer members.",
       "skills_list": [
-        {"skill": "multilingual communication", "proficiency": "strong"},
-        {"skill": "wilderness first aid (basic certification)", "proficiency": "medium"},
-        {"skill": "lightweight camping and overnight prep", "proficiency": "strong"}
+        {
+          "skill": "multilingual communication",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wilderness first aid (basic certification)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "lightweight camping and overnight prep",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -249,10 +399,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "avoids caffeinated drinks on the day of a hike — always brings herbal tea in a thermos, occasionally shares without offering", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "strongly prefers overnight hikes over day trips — finds day hikes feel incomplete", "confidence": "High", "implicit": true}],
-        "social": [{"value": "dislikes large-group photos at summits — steps to the edge or offers to take it instead", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "packs for every weather contingency — has bailed out at least two other group members with spare layers and a rain cover", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "avoids caffeinated drinks on the day of a hike \u2014 always brings herbal tea in a thermos, occasionally shares without offering",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "strongly prefers overnight hikes over day trips \u2014 finds day hikes feel incomplete",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes large-group photos at summits \u2014 steps to the edge or offers to take it instead",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "packs for every weather contingency \u2014 has bailed out at least two other group members with spare layers and a rain cover",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -275,9 +449,9 @@
       "speaking_quirks": [
         "replies to long threads with a single sentence that cuts to the conclusion",
         "uses 'weather window' as shorthand for any brief good-weather gap",
-        "follows a dry joke with nothing — no emoji, no elaboration, leaving it to land or not"
+        "follows a dry joke with nothing \u2014 no emoji, no elaboration, leaving it to land or not"
       ],
-      "participation_rate": 0.80
+      "participation_rate": 0.8
     },
     {
       "persona_id": "p_f5a6b7c8",
@@ -285,11 +459,20 @@
       "age": 46,
       "gender": "female",
       "occupation": "Operations manager (logistics firm)",
-      "background": "Former member of a rival hiking club who joined after a group merger fell apart. Brings strong organisational instincts but a slightly cliquey history that a few members remember. Has a low-grade tension with Tomás over route authority. Gets on well with Dmitri and Kwame, who don't care about the club politics.",
+      "background": "Former member of a rival hiking club who joined after a group merger fell apart. Brings strong organisational instincts but a slightly cliquey history that a few members remember. Has a low-grade tension with Tom\u00e1s over route authority. Gets on well with Dmitri and Kwame, who don't care about the club politics.",
       "skills_list": [
-        {"skill": "logistics planning and schedule management", "proficiency": "strong"},
-        {"skill": "budget tracking and cost sharing", "proficiency": "strong"},
-        {"skill": "mountain rescue protocol awareness", "proficiency": "medium"}
+        {
+          "skill": "logistics planning and schedule management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "budget tracking and cost sharing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "mountain rescue protocol awareness",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -308,19 +491,43 @@
         "warmth": "Cool"
       },
       "preferences": {
-        "food": [{"value": "strict about not eating at trail stops — only eats at the designated lunch point she builds into any route she plans", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers pre-planned routes with no spontaneous diversions — has left a group mid-hike once when a diversion added an unplanned two hours", "confidence": "High", "implicit": true}],
-        "social": [{"value": "dislikes shared accommodation for group overnight stays — prefers her own tent or separate room", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "tracks shared costs meticulously and settles at the end of each outing — gets visibly tense if anyone tries to hand-wave expenses", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "strict about not eating at trail stops \u2014 only eats at the designated lunch point she builds into any route she plans",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers pre-planned routes with no spontaneous diversions \u2014 has left a group mid-hike once when a diversion added an unplanned two hours",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes shared accommodation for group overnight stays \u2014 prefers her own tent or separate room",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "tracks shared costs meticulously and settles at the end of each outing \u2014 gets visibly tense if anyone tries to hand-wave expenses",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "social",
           "attribute": "group_integration_stance",
           "old_value": "relates primarily to Dmitri and Kwame, keeps distance from founding members",
-          "new_value": "engages directly with Marcus on planning and defers to Elena on safety — old club identity less prominent",
+          "new_value": "engages directly with Marcus on planning and defers to Elena on safety \u2014 old club identity less prominent",
           "changed_at_session": 7,
-          "trigger": "led the logistics for the Cairn Ridge overnight and received genuine appreciation from Marcus and Tomás — shifted her sense of belonging in the group"
+          "trigger": "led the logistics for the Cairn Ridge overnight and received genuine appreciation from Marcus and Tom\u00e1s \u2014 shifted her sense of belonging in the group"
         }
       ],
       "speaking_quirks": [
@@ -338,10 +545,22 @@
       "occupation": "Retired army officer, now a part-time outdoor education instructor",
       "background": "The oldest active member of the group. Joined through Kwame, a former student of his. Brings an unhurried, unflappable energy that younger members find calming under pressure. Rarely initiates messages but when he speaks it lands. Dislikes drama and usually waits for a thread to settle before contributing.",
       "skills_list": [
-        {"skill": "navigation and field craft", "proficiency": "strong"},
-        {"skill": "group safety and risk management", "proficiency": "strong"},
-        {"skill": "outdoor education facilitation", "proficiency": "strong"},
-        {"skill": "load-bearing and ruck carrying", "proficiency": "medium"}
+        {
+          "skill": "navigation and field craft",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "group safety and risk management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "outdoor education facilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "load-bearing and ruck carrying",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -360,19 +579,43 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "eats whatever is in front of him without comment — has never expressed a food preference in the group chat", "confidence": "Low", "implicit": true}],
-        "activities": [{"value": "strongly prefers longer slower days over fast-and-light approaches — says speed removes the point", "confidence": "High", "implicit": true}],
-        "social": [{"value": "dislikes group debrief circles — finds them performative; prefers one-on-one conversations on the walk back", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "won't carry a personal tracking device on leisure hikes — views them as a crutch; has agreed to carry a group PLB", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "eats whatever is in front of him without comment \u2014 has never expressed a food preference in the group chat",
+            "confidence": "Low",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "strongly prefers longer slower days over fast-and-light approaches \u2014 says speed removes the point",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "dislikes group debrief circles \u2014 finds them performative; prefers one-on-one conversations on the walk back",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "won't carry a personal tracking device on leisure hikes \u2014 views them as a crutch; has agreed to carry a group PLB",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "activities",
           "attribute": "younger_member_mentoring",
-          "old_value": "provides safety guidance only when asked — does not volunteer instruction",
+          "old_value": "provides safety guidance only when asked \u2014 does not volunteer instruction",
           "new_value": "proactively pairs with less experienced members on technical sections and offers instruction naturally",
           "changed_at_session": 2,
-          "trigger": "watched Priya struggle on the first steep descent and quietly shadowed her — she thanked him at the bottom and he realised it was more useful than standing back"
+          "trigger": "watched Priya struggle on the first steep descent and quietly shadowed her \u2014 she thanked him at the bottom and he realised it was more useful than standing back"
         },
         {
           "domain": "activities",
@@ -398,9 +641,18 @@
       "occupation": "Podcast producer (outdoor and adventure content)",
       "background": "Was Dmitri's outdoor education student in his early twenties and stayed in touch. Brought Dmitri into the group. Enthusiastic, visibly excited by everything, a bit chaotic with logistics but great at keeping morale up on hard days. Close with Dmitri and increasingly close with Elena.",
       "skills_list": [
-        {"skill": "audio recording and podcast production", "proficiency": "strong"},
-        {"skill": "social media and content creation", "proficiency": "strong"},
-        {"skill": "scrambling and basic rock skills", "proficiency": "medium"}
+        {
+          "skill": "audio recording and podcast production",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "social media and content creation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "scrambling and basic rock skills",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -419,25 +671,49 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "always brings too much food and distributes it liberally — hates hiking hungry and assumes everyone does", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "prefers routes with scrambling sections or summit panoramas — gets bored on purely walk-through terrain", "confidence": "High", "implicit": true}],
-        "social": [{"value": "wants to record short trail audio clips for his podcast — has asked the group three times; gets a mixed response", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "chronically late to the trailhead — the group has adopted a Kwame-adjusted start time of 15 minutes later than advertised", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "always brings too much food and distributes it liberally \u2014 hates hiking hungry and assumes everyone does",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers routes with scrambling sections or summit panoramas \u2014 gets bored on purely walk-through terrain",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "wants to record short trail audio clips for his podcast \u2014 has asked the group three times; gets a mixed response",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "chronically late to the trailhead \u2014 the group has adopted a Kwame-adjusted start time of 15 minutes later than advertised",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "activities",
           "attribute": "logistics_reliability",
-          "old_value": "misses group logistics messages and turns up unprepared — borrows kit regularly",
+          "old_value": "misses group logistics messages and turns up unprepared \u2014 borrows kit regularly",
           "new_value": "reads the planning thread before each outing and confirms kit list two days ahead",
           "changed_at_session": 8,
-          "trigger": "turned up without waterproofs on a rain-forecast day and borrowed Nadia's emergency layer — felt genuinely embarrassed and self-corrected"
+          "trigger": "turned up without waterproofs on a rain-forecast day and borrowed Nadia's emergency layer \u2014 felt genuinely embarrassed and self-corrected"
         }
       ],
       "speaking_quirks": [
         "uses 'absolute scenes' to describe any memorable moment on trail",
         "precedes any apology with 'my bad, my bad' doubled up",
-        "sends voice notes instead of typing when excited — transcribes them as a follow-up if no one replies"
+        "sends voice notes instead of typing when excited \u2014 transcribes them as a follow-up if no one replies"
       ],
       "participation_rate": 0.82
     },
@@ -447,11 +723,20 @@
       "age": 27,
       "gender": "female",
       "occupation": "Junior doctor (first year Foundation Programme)",
-      "background": "The newest member of the group, joined partway through the first year. Was introduced by Elena through the hospital sports club. Works punishing hours but treats hiking as non-negotiable recovery time. Often joins late to planning threads and accepts whatever has been decided. Quietly capable on trail — stronger than her age and experience suggest.",
+      "background": "The newest member of the group, joined partway through the first year. Was introduced by Elena through the hospital sports club. Works punishing hours but treats hiking as non-negotiable recovery time. Often joins late to planning threads and accepts whatever has been decided. Quietly capable on trail \u2014 stronger than her age and experience suggest.",
       "skills_list": [
-        {"skill": "emergency medicine and on-trail medical assessment", "proficiency": "strong"},
-        {"skill": "trail running (intermediate)", "proficiency": "medium"},
-        {"skill": "mental load management and decision fatigue coping", "proficiency": "medium"}
+        {
+          "skill": "emergency medicine and on-trail medical assessment",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "trail running (intermediate)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "mental load management and decision fatigue coping",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -470,10 +755,34 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "avoids eating anything sugary before long ascents — quietly declines Tomás's energy balls and substitutes with her own savoury snacks", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers technically demanding routes that require focus — says they're the only thing that actually switches her brain off", "confidence": "High", "implicit": true}],
-        "social": [{"value": "joins planning threads late and accepts the group decision without complaint — values not having to think", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "carries a full blister kit and basic field med supplies as default — has quietly treated three group members without making a fuss of it", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "avoids eating anything sugary before long ascents \u2014 quietly declines Tom\u00e1s's energy balls and substitutes with her own savoury snacks",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers technically demanding routes that require focus \u2014 says they're the only thing that actually switches her brain off",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "joins planning threads late and accepts the group decision without complaint \u2014 values not having to think",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "carries a full blister kit and basic field med supplies as default \u2014 has quietly treated three group members without making a fuss of it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -482,7 +791,7 @@
           "old_value": "accepts all decisions passively, does not contribute to route or logistics planning",
           "new_value": "flags medical or safety constraints early in planning threads and offers to plan medical kit for overnights",
           "changed_at_session": 9,
-          "trigger": "a mild hypoglycaemic episode in another member during Session 8 that she managed — made her realise she should be involved earlier in planning"
+          "trigger": "a mild hypoglycaemic episode in another member during Session 8 that she managed \u2014 made her realise she should be involved earlier in planning"
         }
       ],
       "speaking_quirks": [
@@ -501,7 +810,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Navigated together through a missed junction on a night hike early in the group. Marcus's planning and Elena's calmness under pressure complemented each other. Mutual respect has grown into genuine friendship.",
-      "shared_events": ["night hike navigation incident", "Ridgeback descent route-setting", "group kit review session"]
+      "shared_events": [
+        "night hike navigation incident",
+        "Ridgeback descent route-setting",
+        "group kit review session"
+      ]
     },
     {
       "persona_a_id": "p_a5b1c2d3",
@@ -510,7 +823,12 @@
       "closeness": "High",
       "sentiment": "mixed",
       "history_summary": "Co-founded the group together but have competing ideas about route authority. A car park argument before Session 5 led to an informal division of responsibilities. Respect each other's expertise but have to consciously avoid overlap.",
-      "shared_events": ["group founding", "Duke of Edinburgh alumni event", "car park route dispute", "route responsibility split"]
+      "shared_events": [
+        "group founding",
+        "Duke of Edinburgh alumni event",
+        "car park route dispute",
+        "route responsibility split"
+      ]
     },
     {
       "persona_a_id": "p_d5e4f5a6",
@@ -519,7 +837,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Carpooled for the first three sessions and talked extensively en route. Have become the closest friendship pair in the group. Cover for each other on availability queries.",
-      "shared_events": ["carpooling for first three sessions", "post-hike pub regulars", "planning the overnight Cairn Ridge trip together"]
+      "shared_events": [
+        "carpooling for first three sessions",
+        "post-hike pub regulars",
+        "planning the overnight Cairn Ridge trip together"
+      ]
     },
     {
       "persona_a_id": "p_a6b7c8d9",
@@ -527,8 +849,12 @@
       "relationship_type": "mentor and former student",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Dmitri was Kwame's outdoor education instructor in his early twenties. Kwame brought him into the group. They have a warm, slightly asymmetric dynamic — Kwame still defers to Dmitri in the field.",
-      "shared_events": ["outdoor education programme (years ago)", "group founding introduction", "Cairn Ridge overnight"]
+      "history_summary": "Dmitri was Kwame's outdoor education instructor in his early twenties. Kwame brought him into the group. They have a warm, slightly asymmetric dynamic \u2014 Kwame still defers to Dmitri in the field.",
+      "shared_events": [
+        "outdoor education programme (years ago)",
+        "group founding introduction",
+        "Cairn Ridge overnight"
+      ]
     },
     {
       "persona_a_id": "p_b5c2d3e4",
@@ -537,7 +863,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Elena introduced Saoirse through the hospital sports club. Shares a clinical background and a relaxed trail manner. Elena checks in on Saoirse's work-life balance unprompted.",
-      "shared_events": ["hospital sports club introduction", "first hike together", "trail running session"]
+      "shared_events": [
+        "hospital sports club introduction",
+        "first hike together",
+        "trail running session"
+      ]
     },
     {
       "persona_a_id": "p_c5d3e4f5",
@@ -545,8 +875,12 @@
       "relationship_type": "low-grade territorial tension",
       "closeness": "Medium",
       "sentiment": "tense",
-      "history_summary": "Bridget's origin in a rival hiking club and her habit of questioning Tomás's route selections has created persistent friction. Neither has addressed it directly. The rest of the group quietly notices.",
-      "shared_events": ["route dispute on the Moorland Traverse", "car park pre-hike planning clash", "Cairn Ridge overnight (tension eased somewhat)"]
+      "history_summary": "Bridget's origin in a rival hiking club and her habit of questioning Tom\u00e1s's route selections has created persistent friction. Neither has addressed it directly. The rest of the group quietly notices.",
+      "shared_events": [
+        "route dispute on the Moorland Traverse",
+        "car park pre-hike planning clash",
+        "Cairn Ridge overnight (tension eased somewhat)"
+      ]
     },
     {
       "persona_a_id": "p_f5a6b7c8",
@@ -555,7 +889,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Both are practical, non-dramatic, and results-oriented. Bonded over organising the Cairn Ridge overnight logistics together. Dmitri's steadiness and Bridget's precision work well.",
-      "shared_events": ["Cairn Ridge overnight logistics", "shared transport arrangement", "weather decision-making on a marginal day"]
+      "shared_events": [
+        "Cairn Ridge overnight logistics",
+        "shared transport arrangement",
+        "weather decision-making on a marginal day"
+      ]
     },
     {
       "persona_a_id": "p_f5a6b7c8",
@@ -564,7 +902,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Bridget finds Kwame chaotic but likeable. Kwame finds Bridget funny without trying to be. They have a jokey rapport around his perpetual lateness.",
-      "shared_events": ["Kwame lateness incident (multiple)", "Cairn Ridge overnight", "post-hike pub session"]
+      "shared_events": [
+        "Kwame lateness incident (multiple)",
+        "Cairn Ridge overnight",
+        "post-hike pub session"
+      ]
     },
     {
       "persona_a_id": "p_a5b1c2d3",
@@ -573,7 +915,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Both value precision and preparation. Have never socialised outside the group but consistently rely on each other for safety decisions on technical days.",
-      "shared_events": ["storm call on exposed ridge", "navigation check on Ridgeback", "safety briefing co-delivery"]
+      "shared_events": [
+        "storm call on exposed ridge",
+        "navigation check on Ridgeback",
+        "safety briefing co-delivery"
+      ]
     },
     {
       "persona_a_id": "p_b5c2d3e4",
@@ -582,7 +928,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Both are high-energy and competitive. Have run the same timed segments and compare results. Elena has unofficially adopted Kwame's scrambling enthusiasm.",
-      "shared_events": ["timed segment competition", "scramble route on the Crag", "post-hike pub debrief"]
+      "shared_events": [
+        "timed segment competition",
+        "scramble route on the Crag",
+        "post-hike pub debrief"
+      ]
     },
     {
       "persona_a_id": "p_e5f5a6b7",
@@ -591,7 +941,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Both are reserved, precise, and well-prepared. Have traded one-liners on the walk back that others didn't catch. Neither has sought a closer connection but neither has avoided it.",
-      "shared_events": ["Cairn Ridge overnight overnight tent proximity", "post-hike walk-back conversations"]
+      "shared_events": [
+        "Cairn Ridge overnight overnight tent proximity",
+        "post-hike walk-back conversations"
+      ]
     },
     {
       "persona_a_id": "p_c5d3e4f5",
@@ -599,8 +952,12 @@
       "relationship_type": "enthusiast and apprentice",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Tomás has taken Priya under his wing for trail ecology and navigation basics. Priya finds his enthusiasm charming. He occasionally talks too much but she's learnt a lot.",
-      "shared_events": ["navigation coaching session", "ecological trail detour", "session photo sharing"]
+      "history_summary": "Tom\u00e1s has taken Priya under his wing for trail ecology and navigation basics. Priya finds his enthusiasm charming. He occasionally talks too much but she's learnt a lot.",
+      "shared_events": [
+        "navigation coaching session",
+        "ecological trail detour",
+        "session photo sharing"
+      ]
     },
     {
       "persona_a_id": "p_d5e4f5a6",
@@ -609,7 +966,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Both joined later than the founding cohort and bonded over navigating an established group dynamic. Priya helped orient Saoirse in her first session.",
-      "shared_events": ["Saoirse's first hike", "shared carpooling to remote trailhead", "post-hike debrief over chips"]
+      "shared_events": [
+        "Saoirse's first hike",
+        "shared carpooling to remote trailhead",
+        "post-hike debrief over chips"
+      ]
     },
     {
       "persona_a_id": "p_a5b1c2d3",
@@ -618,7 +979,11 @@
       "closeness": "Medium",
       "sentiment": "neutral",
       "history_summary": "Marcus appreciates Bridget's organisational contributions. Bridget respects Marcus's technical knowledge but was initially wary of the founding-member dynamic. Relationship has warmed since the Cairn Ridge overnight.",
-      "shared_events": ["route planning meetings", "Cairn Ridge overnight", "cost-splitting coordination"]
+      "shared_events": [
+        "route planning meetings",
+        "Cairn Ridge overnight",
+        "cost-splitting coordination"
+      ]
     },
     {
       "persona_a_id": "p_e5f5a6b7",
@@ -627,7 +992,10 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Have shared a trail for many sessions but have rarely spoken directly. Both are somewhat introverted in group settings and have not found a natural opening for more.",
-      "shared_events": ["several shared hikes", "Cairn Ridge overnight (different tent clusters)"]
+      "shared_events": [
+        "several shared hikes",
+        "Cairn Ridge overnight (different tent clusters)"
+      ]
     },
     {
       "persona_a_id": "p_b5c2d3e4",
@@ -636,7 +1004,10 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Both tend to form their main connection with specific people in the group rather than distributing social energy. Have been on the same hike many times but rarely walked together.",
-      "shared_events": ["group sessions", "pub visit after Ridgeback"]
+      "shared_events": [
+        "group sessions",
+        "pub visit after Ridgeback"
+      ]
     },
     {
       "persona_a_id": "p_c5d3e4f5",
@@ -644,8 +1015,11 @@
       "relationship_type": "cheerful acquaintances",
       "closeness": "Low",
       "sentiment": "positive",
-      "history_summary": "Kwame enjoys Tomás's trail stories and Tomás is charmed by Kwame's enthusiasm. Neither has pursued a closer connection but they reliably animate each other in group settings.",
-      "shared_events": ["group sessions", "Cairn Ridge overnight campfire conversation"]
+      "history_summary": "Kwame enjoys Tom\u00e1s's trail stories and Tom\u00e1s is charmed by Kwame's enthusiasm. Neither has pursued a closer connection but they reliably animate each other in group settings.",
+      "shared_events": [
+        "group sessions",
+        "Cairn Ridge overnight campfire conversation"
+      ]
     }
   ],
   "group_norms": [
@@ -657,12 +1031,18 @@
     {
       "norm_text": "Everyone carries a full personal first aid kit and a foil emergency blanket",
       "truly_universal": false,
-      "dissenters": ["p_b6c8d9e0", "p_d5e4f5a6"]
+      "dissenters": [
+        "p_b6c8d9e0",
+        "p_d5e4f5a6"
+      ]
     },
     {
       "norm_text": "No Strava or social media posts that reveal a route before the group has completed it",
       "truly_universal": false,
-      "dissenters": ["p_b6c8d9e0", "p_d5e4f5a6"]
+      "dissenters": [
+        "p_b6c8d9e0",
+        "p_d5e4f5a6"
+      ]
     },
     {
       "norm_text": "The group waits at every junction for all members before moving on",
@@ -670,7 +1050,7 @@
       "dissenters": []
     },
     {
-      "norm_text": "Post-hike social (pub or café) is optional but the group always offers a time and place",
+      "norm_text": "Post-hike social (pub or caf\u00e9) is optional but the group always offers a time and place",
       "truly_universal": true,
       "dissenters": []
     }
@@ -678,6 +1058,10 @@
   "metadata": {
     "sessions_planned": 12,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "recreational",
+    "group_size": 9
   }
 }

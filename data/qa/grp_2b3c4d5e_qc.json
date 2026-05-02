@@ -2,27 +2,47 @@
   "network_id": "grp_2b3c4d5e",
   "total_pairs": 10,
   "phase1_mean_score": 1.0,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
-  "phase3_flagged_count": 1,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
   "by_query_type": {
-    "Q1": {"count": 3, "mean_score": 1.0, "flagged": 0},
-    "Q2": {"count": 1, "mean_score": 1.0, "flagged": 1},
-    "Q4": {"count": 1, "mean_score": 1.0, "flagged": 0},
-    "Q5": {"count": 1, "mean_score": 1.0, "flagged": 0},
-    "Q6": {"count": 1, "mean_score": 1.0, "flagged": 0},
-    "Q7": {"count": 1, "mean_score": 1.0, "flagged": 0},
-    "Q8": {"count": 2, "mean_score": 1.0, "flagged": 0}
-  },
-  "flagged_pairs": [
-    {
-      "qa_id": "Q2_n2d4e5f6",
-      "query_type": "Q2",
-      "flag": "correct_option_mismatch",
-      "question": "What was decided about the Christmas dinner menu, and did all family members seem equally happy with that plan?",
-      "detail": "Original correct_option was D (Ngozi) but the written answer identifies Adaora as the dissenter. Corrected to A (Adaora)."
+    "Q1": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 2,
+      "mean_score": 1.0,
+      "flagged": 0
     }
-  ],
+  },
+  "flagged_pairs": [],
   "low_score_pairs": [],
   "conversation_quality": {
     "topic_diversity": {
@@ -33,11 +53,26 @@
       "score": 1,
       "notes": "Overall score = lowest sub-dimension (typo_rate = 1). All other sub-dimensions score 2. Typo sub-dimension: Tobenna is profiled as Moderate typo rate but has zero typos across all 13 messages. Minor issue -- does not fail the corpus. Other sub-dimensions: emoji_use all in profile; verbosity passes (Ngozi and Adaora both Verbose-family, median well above 12 words, Ngozi peaks at ~44 words in s04_t000); formality correct for all personas; speaking_quirks all detectable.",
       "sub_dimensions": {
-        "emoji_use": {"score": 2, "notes": "Chidi (Never): 0 emoji. Ngozi (Frequent): every message has emoji. Emeka (Moderate): 😊 in most but not all messages. Adaora (Moderate): some sessions have emoji. Tobenna (Frequent): every message has emoji."},
-        "typo_rate": {"score": 1, "notes": "Tobenna is Moderate profile but consistently error-free across 13 messages. Ngozi (Moderate) has clear typos: 'yu', 'recipee'. All others match profiles."},
-        "verbosity": {"score": 2, "notes": "Family group type threshold applied. Ngozi (Verbose) median ~20 words, peak ~44 words (s04_t000) -- well above 12-word flag threshold. Adaora (Verbose) median ~15 words, peak ~37 words (s04_t001) -- passes. Chidi (Terse) consistently 2-7 words. Concise personas (Emeka, Tobenna) within range."},
-        "formality": {"score": 2, "notes": "Chidi (Formal): complete sentences, no slang, no emoji -- 'The soup was fine.' 'Emeka. You are coming on Christmas Eve.' Ngozi (Casual): fragments, emoji, typos. Emeka (Semi-formal): mostly complete sentences, 😊 softening. Adaora (Casual): 'I mean' openers, fragments. Tobenna (Casual): all-caps, emoji-heavy. All correct."},
-        "speaking_quirks": {"score": 2, "notes": "All detectable. Ngozi: 'My darlings/My people' openers in every session, food=love metaphors ('My family must eat well'). Emeka: 😊 softening pattern, 'Adaeze' as domestic complication proxy, 'we'll figure it out'. Adaora: 'I mean' when frustrated, pointed questions, CAPS emphasis ('Tobe I SWEAR'). Tobenna: emoji deflection (🙈🙈 + Arsenal), 'Ada' as peace gesture. Chidi: 2-7 word messages, period finality ('The soup was fine.')."}
+        "emoji_use": {
+          "score": 2,
+          "notes": "Chidi (Never): 0 emoji. Ngozi (Frequent): every message has emoji. Emeka (Moderate): \ud83d\ude0a in most but not all messages. Adaora (Moderate): some sessions have emoji. Tobenna (Frequent): every message has emoji."
+        },
+        "typo_rate": {
+          "score": 1,
+          "notes": "Tobenna is Moderate profile but consistently error-free across 13 messages. Ngozi (Moderate) has clear typos: 'yu', 'recipee'. All others match profiles."
+        },
+        "verbosity": {
+          "score": 2,
+          "notes": "Family group type threshold applied. Ngozi (Verbose) median ~20 words, peak ~44 words (s04_t000) -- well above 12-word flag threshold. Adaora (Verbose) median ~15 words, peak ~37 words (s04_t001) -- passes. Chidi (Terse) consistently 2-7 words. Concise personas (Emeka, Tobenna) within range."
+        },
+        "formality": {
+          "score": 2,
+          "notes": "Chidi (Formal): complete sentences, no slang, no emoji -- 'The soup was fine.' 'Emeka. You are coming on Christmas Eve.' Ngozi (Casual): fragments, emoji, typos. Emeka (Semi-formal): mostly complete sentences, \ud83d\ude0a softening. Adaora (Casual): 'I mean' openers, fragments. Tobenna (Casual): all-caps, emoji-heavy. All correct."
+        },
+        "speaking_quirks": {
+          "score": 2,
+          "notes": "All detectable. Ngozi: 'My darlings/My people' openers in every session, food=love metaphors ('My family must eat well'). Emeka: \ud83d\ude0a softening pattern, 'Adaeze' as domestic complication proxy, 'we'll figure it out'. Adaora: 'I mean' when frustrated, pointed questions, CAPS emphasis ('Tobe I SWEAR'). Tobenna: emoji deflection (\ud83d\ude48\ud83d\ude48 + Arsenal), 'Ada' as peace gesture. Chidi: 2-7 word messages, period finality ('The soup was fine.')."
+        }
       }
     },
     "naturalness_of_transitions": {

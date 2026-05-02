@@ -2,21 +2,57 @@
   "network_id": "grp_b6c7d8e9",
   "total_pairs": 42,
   "phase1_mean_score": 1.0,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 1.0,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
   "phase3_flagged_count": 0,
-  "inference_required_distribution": {"0": 0, "1": 12, "2": 30},
+  "inference_required_distribution": {
+    "0": 0,
+    "1": 12,
+    "2": 30
+  },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
-  "difficulty_distribution": {"easy": 6, "medium": 28, "hard": 8},
+  "difficulty_distribution": {
+    "easy": 6,
+    "medium": 28,
+    "hard": 8
+  },
   "by_query_type": {
-    "Q1": {"count": 15, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.60},
-    "Q2": {"count": 5, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.60},
-    "Q4": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.00},
-    "Q5": {"count": 1, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.00},
-    "Q6": {"count": 3, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 2.00},
-    "Q7": {"count": 6, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.50},
-    "Q8": {"count": 9, "mean_score": 1.0, "flagged": 0, "mean_inference_required": 1.89}
+    "Q1": {
+      "count": 15,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 5,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 1,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 3,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 6,
+      "mean_score": 1.0,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 9,
+      "mean_score": 1.0,
+      "flagged": 0
+    }
   },
   "flagged_pairs": [],
   "low_score_pairs": [],

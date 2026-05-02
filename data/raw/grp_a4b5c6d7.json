@@ -1,0 +1,1515 @@
+{
+  "network_id": "grp_a4b5c6d7",
+  "group_name": "Vinyl Heads",
+  "group_type": "interest_community",
+  "group_size": 15,
+  "seed": 38,
+  "personas": [
+    {
+      "persona_id": "p_vh01a4b5",
+      "display_name": "Theo",
+      "age": 52,
+      "gender": "male",
+      "occupation": "Retired electrical engineer (Bell Labs alum), now repairs vintage receivers from his garage",
+      "background": "Has owned the same Marantz 2270 since 1991. Got the group started after years of trading restoration tips on a defunct forum. Considered the technical authority on tube amps and capacitor recapping.",
+      "skills_list": [
+        {
+          "skill": "tube amp restoration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "capacitor recapping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "turntable cartridge alignment",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "schematic reading",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "prefers spending Saturday afternoons alone in the workshop",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable in groups larger than four, but tolerates the chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "tube gear over solid-state for warmth, but acknowledges measurement weaknesses",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "skeptical of high-priced audiophile cables, considers it pseudoscience",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "format",
+          "attribute": "primary_listening_format",
+          "old_value": "exclusively LP, called digital lifeless",
+          "new_value": "concedes well-mastered SACDs can equal vinyl, still prefers LP",
+          "changed_at_session": 6,
+          "trigger": "Hema brought over a Steely Dan SACD that he could not dismiss"
+        }
+      ],
+      "speaking_quirks": [
+        "drops articles in technical statements ('replaced caps, sounds cleaner')",
+        "cites measurements before opinions",
+        "uses 'in my view' to soften criticism"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_vh02c6d7",
+      "display_name": "Marcy",
+      "age": 38,
+      "gender": "female",
+      "occupation": "Mastering engineer at an indie label",
+      "background": "Trained at SAE, worked on roughly 40 album masters. Joined the group two years ago after meeting Theo at a record fair. Brings a working professional's ear to debates about analog vs digital.",
+      "skills_list": [
+        {
+          "skill": "mastering for vinyl cut",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "RIAA equalization theory",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "phono preamp evaluation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian, often skips group meals at steakhouses",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "happy to host listening sessions at the studio after hours",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "thinks most analog warmth claims are confirmation bias, but loves vinyl as a ritual",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "gear",
+          "attribute": "speaker_preference",
+          "old_value": "loved BBC LS3/5a monitors, called them honest",
+          "new_value": "moved to ATC SCM11 after hearing them at the studio",
+          "changed_at_session": 4,
+          "trigger": "studio bought ATCs for a project, she lived with them for two months"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'fwiw' to introduce technical caveats",
+        "describes sound in terms of frequency ranges, not adjectives",
+        "ends pushback with 'just my read'"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_vh03e8f9",
+      "display_name": "Dev",
+      "age": 29,
+      "gender": "male",
+      "occupation": "Software developer at a fintech startup",
+      "background": "Newest member, joined eight months ago after buying his grandfather's Sansui from an estate sale and asking Theo for help. Often surprises the older members with how much he has read.",
+      "skills_list": [
+        {
+          "skill": "stylus tracking force calibration",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "DAC chip comparison",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "soldering basics",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "loves a deep dive YouTube rabbit hole on obscure Japanese amps",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "asks a lot of questions, sometimes overshares enthusiasm",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "secretly prefers digital but does not say so among the vinyl purists",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "into modern reissues, less interested in original pressings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "gear",
+          "attribute": "amplifier_preference",
+          "old_value": "convinced he wanted a Mac MA6200",
+          "new_value": "decided a Yamaha CR-2020 fits his apartment better",
+          "changed_at_session": 5,
+          "trigger": "Sander warned him about the MA6200 power draw and hum issues"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'lowkey' and 'ngl' even in technical posts",
+        "asks two questions at a time",
+        "drops the speaker emoji when excited"
+      ],
+      "participation_rate": 0.8
+    },
+    {
+      "persona_id": "p_vh04a8b9",
+      "display_name": "Hema",
+      "age": 47,
+      "gender": "female",
+      "occupation": "Architect, partner at a small firm",
+      "background": "Approaches stereo as much for industrial design as for sound. Owns a curated system, never more than three pieces of gear. Considered the group's taste arbiter when it comes to aesthetics.",
+      "skills_list": [
+        {
+          "skill": "speaker placement and room acoustics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "industrial design history",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "lacquer cleaning",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "weekend listening with one record front to back, no skipping",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers small in-person meetups over the chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "Braun and B&O over Pioneer or Marantz, design first",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "skeptical of large floorstanding speakers in residential rooms",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "format",
+          "attribute": "format_openness",
+          "old_value": "vinyl only, dismissed digital",
+          "new_value": "now plays high-res digital files in the studio, vinyl at home",
+          "changed_at_session": 8,
+          "trigger": "her firm got an architectural commission that involved a digital archive of recordings"
+        }
+      ],
+      "speaking_quirks": [
+        "starts replies with 'Yes, but'",
+        "describes gear by year and country first",
+        "rarely uses exclamation points"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_vh05c0d1",
+      "display_name": "Sander",
+      "age": 61,
+      "gender": "male",
+      "occupation": "Retired commercial pilot",
+      "background": "Has been collecting since 1978. Knows serial numbers, factory revisions, and which capacitor brands were used in which year of Pioneer SX series. The group's living archive.",
+      "skills_list": [
+        {
+          "skill": "Pioneer SX series identification",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vintage receiver repair",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "estate sale negotiation",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "old-school pub food, dislikes trendy small plates",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "drives long distances to estate sales, often alone",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "Pioneer fan first, dislikes Marantz price inflation",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "thinks NOS tubes are overpriced and refuses to pay current asking",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "buying",
+          "attribute": "tolerance_for_eBay_prices",
+          "old_value": "would pay any price for the right unit",
+          "new_value": "now refuses anything over book value, calls the market broken",
+          "changed_at_session": 3,
+          "trigger": "got outbid on a Pioneer SX-1980 by 3x book value, vowed to walk away"
+        }
+      ],
+      "speaking_quirks": [
+        "introduces gear with 'circa 197X'",
+        "warns about specific failure modes ('they all blow that resistor')",
+        "signs off with 'safe travels'"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_vh06e2f3",
+      "display_name": "Pippa",
+      "age": 34,
+      "gender": "female",
+      "occupation": "DJ and crate digger, runs a small reissue label",
+      "background": "Half her income is buying and reselling original pressings. Joined the group via Marcy. Has a genuine working knowledge of jazz and soul pressings nobody else can match.",
+      "skills_list": [
+        {
+          "skill": "first pressing identification",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "soul/jazz discography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "record cleaning chemistry",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "loves all-day digs at warehouses, hates record fairs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "more loyal to dealers she trusts than to the group itself",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "playback is secondary to provenance, the pressing matters most",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "would rather play a clean reissue than a noisy original at a party",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "speakers",
+          "attribute": "preferred_speaker_size",
+          "old_value": "wanted huge JBL studio monitors at home",
+          "new_value": "downsized to small bookshelves after moving",
+          "changed_at_session": 7,
+          "trigger": "moved to a smaller flat near the canal"
+        }
+      ],
+      "speaking_quirks": [
+        "drops vowels ('grt find')",
+        "uses fire and disc emojis often",
+        "calls everyone by first initial in casual replies"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_vh07a6b7",
+      "display_name": "Bram",
+      "age": 44,
+      "gender": "male",
+      "occupation": "High school physics teacher",
+      "background": "Came in through Sander, they met at a swap meet in 2019. Has a small but very dialed-in system. Plays peacemaker when Theo and Sander disagree about repair philosophy.",
+      "skills_list": [
+        {
+          "skill": "speaker crossover design",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "basic electronics theory",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DIY cable making",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "weekend cycling, often skips Sunday meetups for it",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "smooths over disagreements, rarely takes a hard side",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "DIY first, would rather build than buy",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "thinks subjective listening tests are valid alongside measurements",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "approach",
+          "attribute": "DIY_vs_buy",
+          "old_value": "advocated DIY only, dismissed boutique gear",
+          "new_value": "now thinks some boutique pieces are worth it for finish quality",
+          "changed_at_session": 9,
+          "trigger": "borrowed Lina's First Watt amp for a weekend"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'on the other hand' often",
+        "translates technical terms for newer members unprompted",
+        "ends with 'cheers' rather than emoji"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_vh08e0f1",
+      "display_name": "Lina",
+      "age": 50,
+      "gender": "female",
+      "occupation": "Veterinarian, partner in a small animal practice",
+      "background": "Inherited her father's hi-fi collection, learned the hobby from him. Owns several rare amps including a First Watt F5. Quieter in the group but well respected.",
+      "skills_list": [
+        {
+          "skill": "single-ended triode amp listening evaluation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vintage tonearm rewiring",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "classical music repertoire",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "long walks alone with classical music in headphones",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "shows up to in-person events but rarely posts in chat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "low-power tube amps over high-power solid-state",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "rejects the loudness norm, listens at conversational volume",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "listening",
+          "attribute": "preferred_listening_volume",
+          "old_value": "preferred quiet background listening",
+          "new_value": "started doing focused loud sessions after a hearing test",
+          "changed_at_session": 5,
+          "trigger": "audiologist visit suggested some compensation, she leaned in"
+        }
+      ],
+      "speaking_quirks": [
+        "uses full sentences with proper capitalization",
+        "starts critiques with 'I would gently push back'",
+        "cites composers and conductors by full name"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_vh09c2d3",
+      "display_name": "Roo",
+      "age": 27,
+      "gender": "non-binary",
+      "occupation": "Graphic designer, freelance",
+      "background": "Found the group through a Mastodon post by Dev. Younger sensibility, into shoegaze and ambient pressings, sometimes feels the older members talk past them. Sharp sense of humor.",
+      "skills_list": [
+        {
+          "skill": "record sleeve design history",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "stylus selection by genre",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "DJ basics",
+          "proficiency": "low"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "celiac, has to vet group dinners carefully",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "posts a lot of one-line reactions, rarely starts threads",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "shoegaze/ambient over jazz/soul, leans modern",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "thinks the group fetishizes original pressings, prefers reissues",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "gear",
+          "attribute": "headphones_vs_speakers",
+          "old_value": "headphone-only listener",
+          "new_value": "got their first speaker setup mid-corpus",
+          "changed_at_session": 6,
+          "trigger": "moved into a place with a sympathetic neighbor and could finally use speakers"
+        }
+      ],
+      "speaking_quirks": [
+        "deadpan one-liners as full messages",
+        "uses lower-case throughout",
+        "interjects with 'fair' or 'mood'"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_vh10b6c7",
+      "display_name": "Yuko",
+      "age": 41,
+      "gender": "female",
+      "occupation": "Acoustic consultant for concert halls",
+      "background": "Brings a measurement-first mindset that sometimes clashes with Theo's listening-first approach. Splits time between Tokyo and the local city, joins the chat from both. Quietly the group's most credentialed member on acoustics.",
+      "skills_list": [
+        {
+          "skill": "room measurement (REW)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "concert hall acoustics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DIY room treatment",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "prefers async messaging due to time zones, posts in clusters",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "room treatment matters more than gear, full stop",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "skeptical of audiophile mythology, will cite measurements to push back",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "gear_priority",
+          "attribute": "what_to_upgrade_first",
+          "old_value": "speakers first, room second",
+          "new_value": "room first, speakers second after a renovation gone wrong",
+          "changed_at_session": 4,
+          "trigger": "her own home renovation revealed how much the previous walls had been masking"
+        }
+      ],
+      "speaking_quirks": [
+        "cites dB and Hz figures",
+        "begins with 'A measurement-based view'",
+        "leaves long gaps between posts due to time zones"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_vh11f6a7",
+      "display_name": "Quint",
+      "age": 56,
+      "gender": "male",
+      "occupation": "Antique furniture restorer",
+      "background": "Brings hands-on craftsmanship to cabinet refurbishing. Older school, rougher around the edges, occasionally pushes Pippa's buttons over what counts as a 'real' record. Theo's neighbor and oldest friend in the group.",
+      "skills_list": [
+        {
+          "skill": "wood veneer restoration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "speaker cabinet refurbishing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vintage radio repair",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Low",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "Moderate",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "meat-and-potatoes traditionalist, complains about brunch culture",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "happy to host but expects punctuality and no phones at the table",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "all-original cabinets only, refuses replicas or aftermarket grilles",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "thinks DJ culture is killing the hobby",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "format",
+          "attribute": "openness_to_streaming",
+          "old_value": "called streaming a scourge",
+          "new_value": "uses Tidal at the workshop because it is convenient, still prefers vinyl at home",
+          "changed_at_session": 7,
+          "trigger": "his daughter set up a Tidal account on his shop laptop and he found himself using it"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'youngsters' and 'old enough to know better'",
+        "writes in long sentences without commas",
+        "doesnt apostrophize contractions"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_vh12d4e5",
+      "display_name": "Maeve",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Sound editor for a streaming-platform documentary unit",
+      "background": "Pippa's roommate from college, joined after coming to a few of Pippa's listening parties. Has the most opinions about modern recording techniques and how they translate to vinyl.",
+      "skills_list": [
+        {
+          "skill": "field recording",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vinyl pressing flaw identification",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "loudness war analysis",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "hosts midweek movie-and-LP nights, skips weekend meetups",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "pulls Pippa into her threads even when Pippa is silent",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "loves loud dynamic mastering, hates compression",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "thinks the group is too male-dominated about jazz and soul, brings Brazilian and West African pressings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "gear",
+          "attribute": "primary_listening_room",
+          "old_value": "listened mostly through studio nearfields",
+          "new_value": "moved to her grandmother's old console stereo as primary",
+          "changed_at_session": 8,
+          "trigger": "inherited the console after her grandmother passed mid-corpus"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '!!!' for emphasis",
+        "throws in Portuguese or French phrases when describing recordings",
+        "uses laughing emoji at her own jokes"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_vh13b8c9",
+      "display_name": "Olin",
+      "age": 67,
+      "gender": "male",
+      "occupation": "Retired classical music critic, occasional liner-note writer",
+      "background": "Wrote for a regional newspaper for 30 years. The most well-read member when it comes to music itself, less interested in gear. Keeps Lina engaged on classical recordings; mild rivalry with Marcy over mastering politics.",
+      "skills_list": [
+        {
+          "skill": "classical recording history",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "liner-note research",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "musicology basics",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Low",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "attends every chamber concert in town, mentions them in chat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "writes long-form opinions, ignores reaction-only posts",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "thinks gear obsession is a distraction from the music itself",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "prefers unobstructed listening, dismisses surround/multichannel",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "format",
+          "attribute": "preferred_classical_format",
+          "old_value": "championed analog reissues over digital",
+          "new_value": "now thinks the latest Berlin Phil hi-res streams beat most reissues",
+          "changed_at_session": 9,
+          "trigger": "received a Berlin Phil Digital Concert Hall subscription as a birthday gift"
+        }
+      ],
+      "speaking_quirks": [
+        "uses semicolons in chat",
+        "drops conductor names without context ('the Klemperer would shame you')",
+        "writes in numbered points when arguing"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_vh14a0b1",
+      "display_name": "Ines",
+      "age": 39,
+      "gender": "female",
+      "occupation": "Pediatric nurse, weekend used-record dealer",
+      "background": "Sells records part-time at the local market. Connects the dealer-side reality with the listener side. Friendly with everyone, particularly close to Bram from neighborhood ties.",
+      "skills_list": [
+        {
+          "skill": "record condition grading",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "pricing/market knowledge",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "soul/funk discography",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves group dinners, picks the venue without complaint",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "sets up dealer-friendly meetups and brings inventory to share",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "thinks Mint condition grading is mostly fictional, advocates honest grading",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "prefers playable copies over collector-grade sealed copies",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "selling",
+          "attribute": "selling_strategy",
+          "old_value": "sold everything online at full market price",
+          "new_value": "now reserves rarities for in-person regulars and prices below market",
+          "changed_at_session": 6,
+          "trigger": "frustrated by online buyers reselling immediately for profit"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'come thru' as invitation",
+        "tags personas by first letter of name in shorthand",
+        "ends positive replies with a heart"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_vh15c4d5",
+      "display_name": "Felix",
+      "age": 45,
+      "gender": "male",
+      "occupation": "Independent bookstore owner",
+      "background": "Owns a small bookstore where the group sometimes meets. Has the most catholic taste, reads more about music than he listens. Often the host of in-person gatherings and the one who remembers everyone's birthdays.",
+      "skills_list": [
+        {
+          "skill": "music writing/criticism reading",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "event hosting/logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "record cataloging",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian, hosts potluck-style gatherings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [],
+        "social": [
+          {
+            "value": "the social glue, follows up after disagreements to keep the peace",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers reading about music to debating gear, but plays along",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "hosting",
+          "attribute": "willingness_to_host",
+          "old_value": "hosted meetups every other month at the bookstore",
+          "new_value": "limited hosting to once a quarter due to staff shortage",
+          "changed_at_session": 6,
+          "trigger": "lost his weekend assistant manager and could not staff the events"
+        }
+      ],
+      "speaking_quirks": [
+        "remembers and references prior conversations ('you mentioned a few weeks back...')",
+        "ends planning posts with a calendar emoji",
+        "addresses the group as 'all'"
+      ],
+      "participation_rate": 0.7
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_vh01a4b5",
+      "persona_b_id": "p_vh02c6d7",
+      "relationship_type": "friend_through_hobby",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Met at a record fair two years ago; respect each other's expertise.",
+      "shared_events": [
+        "record fair 2023",
+        "joint listening session at Theo's garage"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh01a4b5",
+      "persona_b_id": "p_vh05c0d1",
+      "relationship_type": "co-founder",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Co-founders of the group; have known each other since the late 90s through a defunct online forum.",
+      "shared_events": [
+        "forum era",
+        "founding the chat"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh01a4b5",
+      "persona_b_id": "p_vh11f6a7",
+      "relationship_type": "neighbor_friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Live two blocks apart, oldest in-person friendship in the group.",
+      "shared_events": [
+        "weekly garage sessions",
+        "Quint's daughter's wedding"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh01a4b5",
+      "persona_b_id": "p_vh10b6c7",
+      "relationship_type": "respectful_rival",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Yuko's measurement-first stance regularly clashes with Theo's listening-first; respectful but pointed disagreements.",
+      "shared_events": [
+        "debate about cable rolling in early sessions"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh01a4b5",
+      "persona_b_id": "p_vh03e8f9",
+      "relationship_type": "mentor_mentee",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Theo helped Dev get his grandfather's Sansui working; ongoing technical mentor relationship.",
+      "shared_events": [
+        "Sansui restoration"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh02c6d7",
+      "persona_b_id": "p_vh06e2f3",
+      "relationship_type": "professional_friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcy mastered some of Pippa's reissue label releases; trust each other's ears completely.",
+      "shared_events": [
+        "reissue project for Pippa's label"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh02c6d7",
+      "persona_b_id": "p_vh13b8c9",
+      "relationship_type": "occasional_sparring",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Marcy and Olin disagree publicly about mastering politics for classical reissues.",
+      "shared_events": [
+        "heated thread about a Karajan remaster"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh06e2f3",
+      "persona_b_id": "p_vh12d4e5",
+      "relationship_type": "former_roommates",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Roommates in college; Maeve joined the group through Pippa.",
+      "shared_events": [
+        "college years",
+        "monthly LP nights"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh11f6a7",
+      "persona_b_id": "p_vh06e2f3",
+      "relationship_type": "tense",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Quint's traditionalism rubs Pippa the wrong way; ongoing low-grade disagreement about what counts as a 'real' record.",
+      "shared_events": [
+        "argument about reissues at Felix's bookstore"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh05c0d1",
+      "persona_b_id": "p_vh07a6b7",
+      "relationship_type": "swap_meet_friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Met at a 2019 swap meet; Bram sees Sander as a kind older brother figure.",
+      "shared_events": [
+        "swap meet 2019",
+        "joint trip to estate sale 2022"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh07a6b7",
+      "persona_b_id": "p_vh14a0b1",
+      "relationship_type": "neighborhood_friends",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Live in the same neighborhood, see each other outside the group at the local market.",
+      "shared_events": [
+        "weekend market regulars"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh08e0f1",
+      "persona_b_id": "p_vh13b8c9",
+      "relationship_type": "music_kinship",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Both gravitate toward classical; Olin recommends recordings to Lina.",
+      "shared_events": [
+        "chamber music meetups"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh07a6b7",
+      "persona_b_id": "p_vh08e0f1",
+      "relationship_type": "borrower_lender",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Lina lent Bram her First Watt amp for a weekend, which shifted his views on boutique gear.",
+      "shared_events": [
+        "First Watt loan"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh04a8b9",
+      "persona_b_id": "p_vh01a4b5",
+      "relationship_type": "polite_disagreement",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Hema and Theo disagree often about aesthetics vs technical priority; civil but cool.",
+      "shared_events": [
+        "argument about Marantz facia colors"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh09c2d3",
+      "persona_b_id": "p_vh03e8f9",
+      "relationship_type": "intro_buddy",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Dev brought Roo into the group via Mastodon.",
+      "shared_events": [
+        "Mastodon thread that became the introduction"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh09c2d3",
+      "persona_b_id": "p_vh11f6a7",
+      "relationship_type": "generational_friction",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Roo finds Quint's traditionalism dismissive; rarely interact directly.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_vh12d4e5",
+      "persona_b_id": "p_vh06e2f3",
+      "relationship_type": "advocate",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Maeve frequently pulls Pippa into discussions Pippa would otherwise sit out.",
+      "shared_events": [
+        "co-hosted listening session for new arrivals"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh15c4d5",
+      "persona_b_id": "p_vh01a4b5",
+      "relationship_type": "trusted_host",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Felix hosts in-person events and respects Theo as the technical anchor.",
+      "shared_events": [
+        "bookstore events"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh15c4d5",
+      "persona_b_id": "p_vh11f6a7",
+      "relationship_type": "old_acquaintance",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Quint refurbished a cabinet for Felix's bookstore; long-standing low-key friendship.",
+      "shared_events": [
+        "bookstore cabinet restoration"
+      ]
+    },
+    {
+      "persona_a_id": "p_vh10b6c7",
+      "persona_b_id": "p_vh02c6d7",
+      "relationship_type": "professional_kinship",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Yuko and Marcy share a measurement-and-engineering worldview that often aligns.",
+      "shared_events": [
+        "debates with Theo on tube vs solid-state"
+      ]
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We all prefer in-person listening sessions to virtual ones.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_vh10b6c7"
+      ]
+    },
+    {
+      "norm_text": "Vinyl is the primary format; digital is acceptable but secondary.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_vh03e8f9",
+        "p_vh09c2d3"
+      ]
+    },
+    {
+      "norm_text": "Original pressings are valued more than reissues for a serious collection.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_vh09c2d3",
+        "p_vh06e2f3"
+      ]
+    },
+    {
+      "norm_text": "We share repair tips freely and never charge each other for help.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "We do post-meetup dinners together at a chosen restaurant.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_vh02c6d7",
+        "p_vh09c2d3",
+        "p_vh15c4d5"
+      ]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 25,
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "interest_community",
+    "group_size": 15
+  }
+}

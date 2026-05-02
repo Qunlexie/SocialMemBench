@@ -1,0 +1,2524 @@
+{
+  "network_id": "grp_e7f8a9b1",
+  "group_name": "The Adekanmbi Family WhatsApp",
+  "group_type": "family",
+  "group_size": 25,
+  "seed": 41,
+  "personas": [
+    {
+      "persona_id": "p_e7adek01",
+      "display_name": "Papa Tunde",
+      "age": 76,
+      "gender": "male",
+      "occupation": "Retired chemistry professor",
+      "background": "Family patriarch; emigrated from Lagos in 1978 to teach at a state university in Maryland. Reads The Economist daily. Slow to chat, but his messages carry weight.",
+      "skills_list": [
+        {
+          "skill": "long-form storytelling about family history",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "chess (correspondence)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "tending the backyard mango tree (winter-grown indoors)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers traditional jollof over fried rice; quietly disapproves of party jollof variants",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers small dinners over large reunions; gets overwhelmed in big gatherings",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values one-on-one phone calls over chat threads",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "skeptical of expensive destination weddings; prefers simple home ceremonies",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "travel_to_lagos",
+          "old_value": "annual trip to Lagos in December",
+          "new_value": "biennial trips, citing health concerns",
+          "changed_at_session": 4,
+          "trigger": "doctor advised reducing long-haul flights after a minor cardiac event mentioned in passing"
+        }
+      ],
+      "speaking_quirks": [
+        "addresses people by full first name even in casual messages",
+        "ends declarative messages with 'Indeed.'",
+        "uses semicolons in chat"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek02",
+      "display_name": "Mama Yemi",
+      "age": 73,
+      "gender": "female",
+      "occupation": "Retired pediatric nurse",
+      "background": "The family matriarch and emotional center. Coordinates birthdays, holidays, and crisis moments. Was a hospital ward nurse for 38 years.",
+      "skills_list": [
+        {
+          "skill": "remembering everyone's birthdays without help",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking jollof for 30+ people",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "praying for specific people by name during long phone calls",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "insists on cooking herself rather than catering even for very large events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers full family present for milestones; visibly hurt when anyone cannot attend",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "checks in on each adult child individually in side chats",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants the annual reunion at her house specifically, not a rented venue",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "annual_reunion_format",
+          "old_value": "wanted reunion at her house and resisted rented venues",
+          "new_value": "reluctantly accepts a rented venue for the larger family",
+          "changed_at_session": 6,
+          "trigger": "her knees flared up and the cousins reframed the venue as helping her rest"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'my dear' as a vocative",
+        "sends voice-note transcript style messages with 'okay so'",
+        "ends sentences with 'jare' when emphatic"
+      ],
+      "participation_rate": 0.8,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek03",
+      "display_name": "Uncle Femi",
+      "age": 54,
+      "gender": "male",
+      "occupation": "Civil engineer (transportation planning)",
+      "background": "Eldest of Tunde and Yemi's children. Lives in Houston. Family's de facto logistics coordinator. Married to Aunty Bisi.",
+      "skills_list": [
+        {
+          "skill": "spreadsheet planning for family trips",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "traffic engineering (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "barbecue pitmaster, brisket-focused",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers grilled meats over stews at gatherings; will quietly skip stew nights",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers structured itineraries; gets frustrated by loose plans",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uses chat for logistics, calls for emotional matters",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "advocates for splitting reunion costs evenly across siblings, not by household size",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "reunion_cost_splitting",
+          "old_value": "advocated equal split per sibling household",
+          "new_value": "accepts a per-adult split after pushback",
+          "changed_at_session": 7,
+          "trigger": "tola's calculations showed his household would save under per-adult"
+        }
+      ],
+      "speaking_quirks": [
+        "sends bullet-style messages with hyphens",
+        "uses 'circle back' from work",
+        "always quotes exact dollar amounts"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek04",
+      "display_name": "Aunty Bisi",
+      "age": 52,
+      "gender": "female",
+      "occupation": "Hospital administrator",
+      "background": "Femi's wife of 26 years. Originally from Ondo state. Joined the family by marriage but is treated as core. Manages the family's group photo album.",
+      "skills_list": [
+        {
+          "skill": "iPhoto / Google Photos curation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "ankara-fabric outfit coordination for events",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hospital operations management",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "is quietly vegetarian, navigates this without making it everyone's problem",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers shared meal events to outdoor activities",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "private with personal opinions, supportive of Yemi's hosting decisions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "favors matching family outfits at major events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "vegetarian_status",
+          "old_value": "ate goat and chicken at family gatherings",
+          "new_value": "fully vegetarian, navigates around stews",
+          "changed_at_session": 3,
+          "trigger": "her cardiologist visit prompted a dietary review"
+        }
+      ],
+      "speaking_quirks": [
+        "uses \ud83d\ude4f\ud83c\udffe to close emotional messages",
+        "shares photos with 'Look at our babies' captions",
+        "uses 'PSA:' to start announcements"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek05",
+      "display_name": "Aunty Tola",
+      "age": 51,
+      "gender": "female",
+      "occupation": "Tax attorney",
+      "background": "Second-eldest of Tunde and Yemi's children. Lives in DC. Single by choice. Sharp-tongued; family treats her opinions as authoritative on legal and financial matters.",
+      "skills_list": [
+        {
+          "skill": "tax law (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running the numbers on family budgets",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Pilates",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "indifferent to traditional food, openly enjoys Thai and Lebanese",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers reunion be 2 days max, not the traditional 4-5 day stretch",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "tolerates rather than enjoys large family events",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers per-adult cost split (favors her childless household financially)",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "reunion_attendance_attitude",
+          "old_value": "attended reunions reluctantly",
+          "new_value": "actively engages with the planning, especially after Femi's cost question",
+          "changed_at_session": 7,
+          "trigger": "Femi's per-household cost split would have charged her more than her share warranted"
+        }
+      ],
+      "speaking_quirks": [
+        "sends one-line lawyer-style replies",
+        "uses 'noted' to acknowledge without committing",
+        "occasionally drops citations like '(see prior message Tuesday)'"
+      ],
+      "participation_rate": 0.6,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek06",
+      "display_name": "Uncle Bayo",
+      "age": 48,
+      "gender": "male",
+      "occupation": "Software engineer (cloud infrastructure)",
+      "background": "Third of Tunde and Yemi's children. Lives in Seattle. Married to Aunty Ngozi. The family tech-support person; sets up everyone's video calls.",
+      "skills_list": [
+        {
+          "skill": "Linux command line (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "amateur photography (Fujifilm)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "fixing relatives' WiFi over the phone",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers spicy food; complains when family caters bland",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers technical or building activities (board games, escape rooms) over chatty sit-downs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "low chat volume but reliably present in crises",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "skeptical of cousin Lara's wedding photographer choice based on portfolio review",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "engagement_with_chat",
+          "old_value": "lurked, posted only logistics",
+          "new_value": "started sharing photos and small jokes",
+          "changed_at_session": 5,
+          "trigger": "his daughter Funmi joined the chat and he wanted to model engagement"
+        }
+      ],
+      "speaking_quirks": [
+        "sends sub-10-word messages almost always",
+        "uses 'k' or 'on it' as full reply",
+        "never uses exclamation marks"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek07",
+      "display_name": "Aunty Ngozi",
+      "age": 46,
+      "gender": "female",
+      "occupation": "Pharmacist",
+      "background": "Bayo's wife. Originally from Enugu. Calm, steady, the family's go-to for medical advice questions. Their daughter Funmi recently turned 16 and joined the chat.",
+      "skills_list": [
+        {
+          "skill": "explaining medications in plain English",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "knitting baby blankets for newborn cousins",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "long-distance running (half-marathon)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers home-cooked over catered; values food safety highly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers morning walks to evening drinks at gatherings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "checks in privately on cousins going through hard moments",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants the reunion to include a 'kids zone' for younger cousins",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "tunde_health_concern",
+          "old_value": "deferred to Yemi on Papa Tunde's health",
+          "new_value": "started gently raising medication adherence questions in chat",
+          "changed_at_session": 4,
+          "trigger": "Tunde mentioned a cardiac event in passing"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\ud83d\ude42' as a soft acknowledgment",
+        "writes in clean grammatical sentences with full stops",
+        "starts replies with 'Just to add'"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek08",
+      "display_name": "Auntie Kemi",
+      "age": 45,
+      "gender": "female",
+      "occupation": "Marketing director (CPG)",
+      "background": "Fourth of Tunde and Yemi's children. Lives in Atlanta. Divorced from Uncle Sola four years ago, but Sola is still in the chat for the kids' sake. Mother of Lara (24), Tobi (20), and Ade (15).",
+      "skills_list": [
+        {
+          "skill": "brand storytelling (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "co-parenting logistics with calendars",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "salsa dancing",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers spicy and adventurous food; pushes the family to try non-Nigerian restaurants",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers reunion-with-an-event (concert, beach day) rather than sitting around the house",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "carefully manages co-parenting visibility in family chat \u2014 civil with Sola but never warm",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports daughter Lara's destination wedding in Cabo (against Tunde's view)",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "interaction_with_sola_in_chat",
+          "old_value": "stiffly polite, replied only to logistics",
+          "new_value": "more relaxed after Lara's engagement, will respond to his jokes",
+          "changed_at_session": 5,
+          "trigger": "Lara's engagement reframed their identity as co-grandparents-to-be"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\ud83d\ude29' for mock-distress",
+        "starts tirades with 'okay listen'",
+        "sends triple-message bursts instead of one long one"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek09",
+      "display_name": "Uncle Sola",
+      "age": 48,
+      "gender": "male",
+      "occupation": "Insurance broker",
+      "background": "Kemi's ex-husband. Father of Lara, Tobi, and Ade. Stayed in family chat by mutual agreement. Lives in Atlanta, sees the kids weekly.",
+      "skills_list": [
+        {
+          "skill": "navigating insurance forms for the whole family",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "weekend cycling (road bike)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "low-key carpentry (built bookshelves)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers traditional Nigerian food, agrees with Papa Tunde on the jollof question",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers low-key reunions at Yemi's house",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "tries to be present without overstepping; defers to Kemi on parenting",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "privately concerned about Cabo wedding cost for Tobi and Ade attending",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "chat_engagement_after_divorce",
+          "old_value": "minimal posts, only when tagged",
+          "new_value": "more present after Lara's engagement",
+          "changed_at_session": 5,
+          "trigger": "Lara directly asked him to walk her down the aisle"
+        }
+      ],
+      "speaking_quirks": [
+        "uses initials when signing off ('OS')",
+        "writes 'will revert' instead of 'will get back to you'",
+        "rarely uses pronouns at start of message"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek10",
+      "display_name": "Aunty Chika",
+      "age": 42,
+      "gender": "female",
+      "occupation": "Stay-at-home parent / volunteer coordinator",
+      "background": "Fifth of Tunde and Yemi's children. Lives in Boston. Married to Uncle Dele. Mother of twins Eze (8) and Ifeoma (8). The family's emotional anchor in chat.",
+      "skills_list": [
+        {
+          "skill": "running PTA fundraisers",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "twin-parenting logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "watercolor painting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers food that the kids will eat \u2014 leans simple and mild",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers kid-inclusive activities at family events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "the chat empath \u2014 checks in when others go quiet",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants reunion timing to align with school holidays",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "preferred_reunion_timing",
+          "old_value": "advocated for spring break timing",
+          "new_value": "supports July 4 weekend instead",
+          "changed_at_session": 6,
+          "trigger": "twins were assigned a spring camp she did not want them to miss"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\ud83e\udd79' to soften emotional messages",
+        "writes 'how are weeeee' instead of 'how are we'",
+        "always celebrates other people's news with three emojis"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek11",
+      "display_name": "Uncle Dele",
+      "age": 44,
+      "gender": "male",
+      "occupation": "High school history teacher",
+      "background": "Chika's husband. Joined the family by marriage. From a Lagos teaching family. Quietly funny, the family's go-to fact-checker on history and trivia.",
+      "skills_list": [
+        {
+          "skill": "explaining historical context to relatives",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "barbershop-style harmony singing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "fantasy football management",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Never",
+        "humor": "Playful",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "secretly prefers his mother's recipes over Yemi's; never says this",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers long evening conversations to event-based reunions",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "deflects family conflict with historical analogies",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "neutral on Cabo wedding; would just go where he is told",
+            "confidence": "Low",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "destination_wedding_view",
+          "old_value": "neutral",
+          "new_value": "supportive after Lara explained why Cabo specifically",
+          "changed_at_session": 4,
+          "trigger": "Lara shared the personal connection to her late best friend"
+        }
+      ],
+      "speaking_quirks": [
+        "drops random history references ('reminds me of Biafra logistics')",
+        "ends teasing with 'lol but seriously'",
+        "uses parentheses for asides"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek12",
+      "display_name": "Uncle Ifeanyi",
+      "age": 39,
+      "gender": "male",
+      "occupation": "Investment banker",
+      "background": "Sixth and youngest of Tunde and Yemi's children. Lives in NYC. Married to Aunty Ada. The family's high earner; quietly subsidizes some events.",
+      "skills_list": [
+        {
+          "skill": "financial modeling (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wine pairing for events",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "weekend tennis (singles)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers fine-dining-style events; pushed for the rented venue with a chef",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers shorter reunions packed with high-quality experiences",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "tolerates extended chat threads; engages selectively",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "willing to underwrite the rented venue cost difference quietly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "subsidy_visibility",
+          "old_value": "private about subsidizing family events",
+          "new_value": "openly offered to cover venue cost difference",
+          "changed_at_session": 6,
+          "trigger": "Yemi's reluctance about the rented venue made it visible that money was the holdup"
+        }
+      ],
+      "speaking_quirks": [
+        "sends 3-word replies: 'yes', 'agreed', 'on it'",
+        "uses 'fine' as a subtle disagreement marker",
+        "occasionally drops financial jargon ('gross-up', 'opex')"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek13",
+      "display_name": "Aunty Ada",
+      "age": 37,
+      "gender": "female",
+      "occupation": "Architect",
+      "background": "Ifeanyi's wife of 7 years. Originally from Onitsha. The chat's design eye; people send her photos for her opinion. Pregnant with their first child during the chat timeframe.",
+      "skills_list": [
+        {
+          "skill": "residential architecture (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "photo composition critique",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "minimalist baby registry curation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "currently avoiding strong spices due to pregnancy",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers seated, indoor activities for the upcoming reunion",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "open about pregnancy challenges in chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports rented venue specifically because Yemi's house has stairs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "spice_tolerance",
+          "old_value": "loved spicy food, often chose hottest pepper",
+          "new_value": "currently avoiding strong spices",
+          "changed_at_session": 2,
+          "trigger": "second-trimester nausea"
+        }
+      ],
+      "speaking_quirks": [
+        "sends photos with one-word captions ('crooked', 'beautiful')",
+        "uses 'lowkey' often",
+        "asks rhetorical questions"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek14",
+      "display_name": "Lara",
+      "age": 24,
+      "gender": "female",
+      "occupation": "UX designer",
+      "background": "Kemi and Sola's eldest child. Lives in Brooklyn. Recently engaged to David (not in chat). The cousin-generation organizer.",
+      "skills_list": [
+        {
+          "skill": "Figma and design systems (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cousin-group event planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Spanish (conversational)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves fusion cooking; her wedding menu is Yoruba-Mexican",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants destination wedding in Cabo for personal reasons (her late best friend's birthplace)",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "navigates Tunde's disapproval gently; never confrontational",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants both parents at wedding without tension",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "openness_about_late_friend",
+          "old_value": "private about late friend Maria, never mentioned her in family chat",
+          "new_value": "shared the connection openly when Tunde questioned the Cabo choice",
+          "changed_at_session": 4,
+          "trigger": "needed to defend the wedding venue against Tunde's skepticism"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\u2728' for excitement",
+        "ends sentences with 'literally'",
+        "drops 'you guys' in casual address"
+      ],
+      "participation_rate": 0.7,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek15",
+      "display_name": "Tobi",
+      "age": 20,
+      "gender": "male",
+      "occupation": "College sophomore (computer science, Georgia Tech)",
+      "background": "Kemi and Sola's middle child. Lives on campus during semester. Developed a quiet vegetarian preference last year that the family hasn't fully clocked.",
+      "skills_list": [
+        {
+          "skill": "competitive programming (CodeForces)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "speedrun records (Hollow Knight)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "handling family chat as the under-25 tech translator",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "Moderate",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian for ~14 months; navigates family meals quietly",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers small cousin hangouts to large reunions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "rarely posts; engages mostly when Lara or Funmi @s him",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports Lara's wedding plans without making it a political issue",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "food",
+          "attribute": "vegetarianism",
+          "old_value": "ate meat normally",
+          "new_value": "vegetarian, declines goat at reunions",
+          "changed_at_session": 3,
+          "trigger": "ethics class in college shifted his thinking; never made an announcement"
+        }
+      ],
+      "speaking_quirks": [
+        "lowercases everything",
+        "uses 'fr' often",
+        "replies with 'bet' to confirm"
+      ],
+      "participation_rate": 0.3,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek16",
+      "display_name": "Ade",
+      "age": 15,
+      "gender": "non-binary",
+      "occupation": "High school freshman",
+      "background": "Kemi and Sola's youngest. Recently came out as non-binary; family is mostly supportive. Music-obsessed.",
+      "skills_list": [
+        {
+          "skill": "drumming (school marching band)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "TikTok video editing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "babysitting twin cousins for pay",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "High",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "loves sweets; will eat almost anything besides okra",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants to perform at the reunion (drumming or short song)",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "feels closer to Funmi (similar age) than to older cousins",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants pronouns respected without making it a recurring conversation",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "self_advocacy_in_chat",
+          "old_value": "rarely corrected misgendering in chat",
+          "new_value": "calmly correcting older relatives when they slip",
+          "changed_at_session": 5,
+          "trigger": "Funmi's encouragement, mentioned in a side conversation surfaced in chat"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'lmaoo' with extra o's",
+        "abbreviates with periods ('p.much.', 'b.day')",
+        "lots of typos but consistent ones"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek17",
+      "display_name": "Funmi",
+      "age": 16,
+      "gender": "female",
+      "occupation": "High school sophomore",
+      "background": "Bayo and Ngozi's daughter. Joined the family chat 18 months ago when she got her own phone. Articulate, opinionated, the cousins' youngest leader.",
+      "skills_list": [
+        {
+          "skill": "debate team (varsity)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yearbook layout",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "writing letters to grandparents in handwriting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "vegetarian-curious, asks Aunty Bisi about her experience",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "advocates for cousin-only events within the larger reunion",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "checks in privately on Ade about pronouns and school stress",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "knows Ade is being misgendered occasionally and gently advocates in chat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "advocacy_for_ade",
+          "old_value": "watched silently when older relatives misgendered Ade",
+          "new_value": "gently corrects in chat",
+          "changed_at_session": 4,
+          "trigger": "Ade told her in a side message that the misgendering was tiring; she decided to use her chat voice"
+        }
+      ],
+      "speaking_quirks": [
+        "uses full sentences with proper grammar",
+        "sends well-structured paragraph messages occasionally",
+        "uses 'I think' as a softener for opinions"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek18",
+      "display_name": "Eze",
+      "age": 8,
+      "gender": "male",
+      "occupation": "Third grader",
+      "background": "Chika and Dele's twin son. Posts very rarely, usually on his mom's phone. Treated as a chat mascot.",
+      "skills_list": [
+        {
+          "skill": "Lego building (large kits)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "soccer (youth league)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "memorizing dinosaur names",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Low",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers plain rice over jollof, would not say so to grandparents",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants soccer time at the reunion",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "speaks mostly to dinosaur facts and big sister",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "asks for the kids zone amenity at the reunion",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "preferred_reunion_activity",
+          "old_value": "wanted soccer",
+          "new_value": "wants Legos and soccer both",
+          "changed_at_session": 3,
+          "trigger": "got a new Lego set and excitedly added it to the wishlist"
+        }
+      ],
+      "speaking_quirks": [
+        "sends dinosaur emojis \ud83e\udd96\ud83e\udd95 randomly",
+        "uses 'Mom said' to start sentences",
+        "lots of misspellings"
+      ],
+      "participation_rate": 0.2,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek19",
+      "display_name": "Ifeoma",
+      "age": 8,
+      "gender": "female",
+      "occupation": "Third grader",
+      "background": "Chika and Dele's twin daughter. More vocal than her brother in chat, narrates everything they do.",
+      "skills_list": [
+        {
+          "skill": "violin (Suzuki book 2)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "drawing horses",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "scrupulously remembering whose turn it is",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "High",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers Yemi's fried plantains specifically",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants a group photo at the reunion",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "follows Lara closely; idolizes her",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants to wear a flower-girl outfit at Lara's wedding",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "lara_attachment",
+          "old_value": "shy around Lara",
+          "new_value": "openly excited about wedding role",
+          "changed_at_session": 4,
+          "trigger": "Lara directly asked her to be flower girl"
+        }
+      ],
+      "speaking_quirks": [
+        "narrates current activity ('I just brushed my teeth')",
+        "uses ALL CAPS for excitement",
+        "asks 'do u know what?' before announcements"
+      ],
+      "participation_rate": 0.3,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek20",
+      "display_name": "Cousin Junior",
+      "age": 32,
+      "gender": "male",
+      "occupation": "Real estate agent",
+      "background": "Tunde's brother's son (so cousin to Femi/Tola/Bayo/etc., uncle to Lara/Tobi/etc.). Lives in Lagos. The voice from Nigeria; brings family-history context.",
+      "skills_list": [
+        {
+          "skill": "Lagos real estate dealmaking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Yoruba historical lore",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "afrobeat playlist curation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Moderate",
+        "emoji_use": "Moderate",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "evangelizes Lagos street food, mocks American 'Nigerian' restaurants",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "would prefer reunion in Lagos but accepts US logistics",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "the family historian; brings up old stories often",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports Cabo wedding for the cultural-mixing angle",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "lagos_visit_advocacy",
+          "old_value": "actively pushed for reunion in Lagos",
+          "new_value": "stopped pushing after Tunde's health concerns surfaced",
+          "changed_at_session": 5,
+          "trigger": "Tunde's biennial-trip mention made him reconsider"
+        }
+      ],
+      "speaking_quirks": [
+        "sends voice-note style messages with 'oya'",
+        "uses '\u270a\ud83c\udffe' as solidarity sign-off",
+        "drops Yoruba phrases ('omo', 'sha')"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek21",
+      "display_name": "Cousin Maris",
+      "age": 28,
+      "gender": "female",
+      "occupation": "Hospital nutrition consultant (RD)",
+      "background": "Yemi's sister's daughter. Lives in Maryland. The cousins' health authority. Had a falling out with Aunty Tola two years ago over a financial loan but they've cooled.",
+      "skills_list": [
+        {
+          "skill": "registered dietitian (professional)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "meal planning for large groups",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running 10Ks",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers low-sodium options at gatherings; will quietly bring her own dish",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "neutral on reunion format",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "civil with Tola, but never warm",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "concerned about Papa Tunde's diet given his health",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "tola_interaction",
+          "old_value": "ignored Tola's messages directly",
+          "new_value": "began acknowledging Tola's points civilly",
+          "changed_at_session": 6,
+          "trigger": "they ended up agreeing on the per-adult cost split, which broke the ice"
+        }
+      ],
+      "speaking_quirks": [
+        "fact-checks with 'Per the AHA guidelines'",
+        "uses '...' to express skepticism",
+        "signs off with 'Maris'"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek22",
+      "display_name": "Cousin Wale",
+      "age": 30,
+      "gender": "male",
+      "occupation": "Physical therapist",
+      "background": "Tunde's late brother's son. Lives in California. Kept distance from family chat for years after his father's death (mentioned obliquely); now back in.",
+      "skills_list": [
+        {
+          "skill": "physical therapy practice",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "weekend surfing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "vinyl record collecting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "open to most food; not picky",
+            "confidence": "Low",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers outdoor reunion activities (beach, hike)",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "warming to chat slowly after years away",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "gives Mama Yemi exercise advice when knee comes up",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "chat_engagement",
+          "old_value": "absent for ~4 years after father's passing",
+          "new_value": "rejoined and slowly engaging",
+          "changed_at_session": 2,
+          "trigger": "responded to Mama Yemi's birthday message and stayed"
+        }
+      ],
+      "speaking_quirks": [
+        "replies with single-word affirmations ('word', 'true')",
+        "uses 'man' as filler",
+        "rarely sends emojis but uses \ud83e\udd19 occasionally"
+      ],
+      "participation_rate": 0.3,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek23",
+      "display_name": "Cousin Sade",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Veterinary technician",
+      "background": "Yemi's brother's daughter. Lives in Charlotte. Soft-spoken in chat, but a cousin-group bridge.",
+      "skills_list": [
+        {
+          "skill": "small-animal handling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "knitting",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "tracking cousin group anniversaries (everyone's job dates, moves)",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers seafood; not a red-meat fan",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants cousin bridal shower for Lara within the reunion",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "tracks everyone's life updates and reaches out privately",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "supports Lara's wedding without taking sides on Cabo specifics",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "bridal_shower_role",
+          "old_value": "wanted to be cousin shower coordinator",
+          "new_value": "stepped back when Funmi volunteered; remained on planning committee",
+          "changed_at_session": 7,
+          "trigger": "Funmi's enthusiasm and her own work travel scheduled"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\ud83e\udd7a' as a soft-please marker",
+        "always remembers small details",
+        "starts replies with 'aw'"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek24",
+      "display_name": "Cousin Kunle",
+      "age": 22,
+      "gender": "male",
+      "occupation": "College senior (mechanical engineering, UMD)",
+      "background": "Junior's younger brother. Lives in Lagos still studying via remote semester abroad. Bridge between Lagos and US sides.",
+      "skills_list": [
+        {
+          "skill": "robotics club leadership",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "afrobeats DJ-ing for parties",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "translating Lagos slang for US cousins",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "evangelist for jollof debates with younger cousins",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers party-energy reunions over sit-down meals",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "the cousin-group hype-man",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants the cousins to plan the after-party at Lara's wedding",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "afterparty_role",
+          "old_value": "wanted to DJ Lara's wedding afterparty",
+          "new_value": "agreed to DJ only the cousin pre-party, hired DJ for main event",
+          "changed_at_session": 6,
+          "trigger": "Lara expressed concern about him doing both as too much pressure"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\ud83d\udd25' generously",
+        "ends messages with 'omo'",
+        "uses '\ud83d\ude02' in clusters of 3"
+      ],
+      "participation_rate": 0.5,
+      "status": "active",
+      "departed_after_session": null
+    },
+    {
+      "persona_id": "p_e7adek25",
+      "display_name": "Aunty Ronke",
+      "age": 67,
+      "gender": "female",
+      "occupation": "Retired secondary school principal",
+      "background": "Yemi's older sister. Lives in Maryland near Tunde and Yemi. Visits weekly. Soft authority figure for the cousins.",
+      "skills_list": [
+        {
+          "skill": "running long family meetings calmly",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Yoruba prayers and proverbs",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "growing okra in a small garden",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [
+          {
+            "value": "prefers Yemi's cooking to all alternatives; will not eat at restaurants when home cooking is available",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers reunion at Yemi's house (aligned with Yemi)",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "supports Yemi quietly in any disagreement",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "uneasy about Cabo wedding but defers to Kemi's parenting authority",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "cabo_wedding_view",
+          "old_value": "openly skeptical of Cabo wedding",
+          "new_value": "softened after Lara's personal explanation",
+          "changed_at_session": 5,
+          "trigger": "Lara's disclosure about her late friend Maria"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'God bless you' as a sign-off",
+        "addresses elders by 'sir/ma'",
+        "adds 'o' to confirm ('it is so o')"
+      ],
+      "participation_rate": 0.4,
+      "status": "active",
+      "departed_after_session": null
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_e7adek01",
+      "persona_b_id": "p_e7adek02",
+      "relationship_type": "spouses",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 50 years; emigrated together from Lagos in 1978. Steady partnership.",
+      "shared_events": [
+        "wedding 1974",
+        "emigration 1978",
+        "50th anniversary celebrated 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek01",
+      "persona_b_id": "p_e7adek25",
+      "relationship_type": "in-laws (brother-in-law to sister-in-law)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Tunde and Ronke share daily calls; she is the family's emotional liaison to the elders.",
+      "shared_events": [
+        "Yemi's recovery from knee injury 2023"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek02",
+      "persona_b_id": "p_e7adek25",
+      "relationship_type": "siblings",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Older sister Ronke has visited Yemi weekly for 30 years. Ronke is Yemi's primary confidante.",
+      "shared_events": [
+        "Tunde's 70th birthday party 2018",
+        "Ronke's husband's funeral 2020"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek03",
+      "persona_b_id": "p_e7adek05",
+      "relationship_type": "siblings (eldest two)",
+      "closeness": "High",
+      "sentiment": "mixed",
+      "history_summary": "Femi and Tola often disagree on family money matters but are personally close. The cost-split debate is recurring.",
+      "shared_events": [
+        "co-organized parents' 50th anniversary"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek03",
+      "persona_b_id": "p_e7adek04",
+      "relationship_type": "spouses",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 26 years. Bisi joined the family young and is treated as a daughter by Yemi.",
+      "shared_events": [
+        "wedding 1998",
+        "Bisi's hospital promotion 2022"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek06",
+      "persona_b_id": "p_e7adek07",
+      "relationship_type": "spouses",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 18 years. Met in pharmacy school. Quiet, stable partnership.",
+      "shared_events": [
+        "Funmi's birth 2009"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek08",
+      "persona_b_id": "p_e7adek09",
+      "relationship_type": "ex-spouses, co-parents",
+      "closeness": "Medium",
+      "sentiment": "tense",
+      "history_summary": "Divorced 4 years; co-parent three children. Civil but cool in chat. The kids' events thaw them temporarily.",
+      "shared_events": [
+        "divorce 2021",
+        "Lara's college graduation 2023"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek10",
+      "persona_b_id": "p_e7adek11",
+      "relationship_type": "spouses",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 12 years. Twin parents together. Functional partnership.",
+      "shared_events": [
+        "twins' birth 2017"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek12",
+      "persona_b_id": "p_e7adek13",
+      "relationship_type": "spouses",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Married 7 years. Expecting their first child during the chat timeframe.",
+      "shared_events": [
+        "wedding 2018",
+        "pregnancy announcement 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek02",
+      "persona_b_id": "p_e7adek08",
+      "relationship_type": "mother-daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Yemi was Kemi's main support during her divorce; they speak daily.",
+      "shared_events": [
+        "Kemi's divorce 2021",
+        "Lara's engagement 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek02",
+      "persona_b_id": "p_e7adek10",
+      "relationship_type": "mother-daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Yemi flies to Boston every summer to help with the twins.",
+      "shared_events": [
+        "twins' first birthday party 2018"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek14",
+      "persona_b_id": "p_e7adek15",
+      "relationship_type": "siblings",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lara and Tobi share private jokes and check in weekly. Tobi confides his vegetarianism to her first.",
+      "shared_events": [
+        "Lara's high school graduation 2018"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek14",
+      "persona_b_id": "p_e7adek16",
+      "relationship_type": "siblings",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lara is Ade's go-to for advice on identity and family navigation.",
+      "shared_events": [
+        "Ade's coming out 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek14",
+      "persona_b_id": "p_e7adek19",
+      "relationship_type": "older cousin to younger cousin",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Ifeoma idolizes Lara; Lara invited her to be flower girl as their special bond.",
+      "shared_events": [
+        "Lara's flower-girl invitation 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek16",
+      "persona_b_id": "p_e7adek17",
+      "relationship_type": "cousins (close in age)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Funmi and Ade are confidantes; Funmi advocates for Ade in chat after Ade asked her privately.",
+      "shared_events": [
+        "Ade's coming out 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek05",
+      "persona_b_id": "p_e7adek21",
+      "relationship_type": "second cousins",
+      "closeness": "Low",
+      "sentiment": "tense",
+      "history_summary": "Maris loaned Tola money 2 years ago; repayment was awkward and they barely speak.",
+      "shared_events": [
+        "the loan dispute 2022"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek01",
+      "persona_b_id": "p_e7adek14",
+      "relationship_type": "grandfather-granddaughter",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Tunde adores Lara but is openly skeptical of her wedding choice. They navigate this with care.",
+      "shared_events": [
+        "Lara's college graduation 2023"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek20",
+      "persona_b_id": "p_e7adek24",
+      "relationship_type": "siblings",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Junior and Kunle in Lagos; brothers and best friends. Coordinate Lagos-side family updates.",
+      "shared_events": [
+        "their father's 60th birthday 2020"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek20",
+      "persona_b_id": "p_e7adek22",
+      "relationship_type": "first cousins",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Wale's father (Tunde's brother) passed away 4 years ago; Wale withdrew. Junior reaches out occasionally.",
+      "shared_events": [
+        "Wale's father's funeral 2020"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek02",
+      "persona_b_id": "p_e7adek22",
+      "relationship_type": "aunt-nephew",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Yemi reached out to Wale after his father died; her birthday message brought him back to the chat.",
+      "shared_events": [
+        "Yemi's birthday 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek14",
+      "persona_b_id": "p_e7adek09",
+      "relationship_type": "father-daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lara directly asked Sola to walk her down the aisle, which surprised and moved him.",
+      "shared_events": [
+        "Lara's wedding planning 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek14",
+      "persona_b_id": "p_e7adek08",
+      "relationship_type": "mother-daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Lara confides in Kemi about wedding logistics, including the late-friend Maria angle.",
+      "shared_events": [
+        "Lara's engagement 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek06",
+      "persona_b_id": "p_e7adek17",
+      "relationship_type": "father-daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Bayo and Funmi are quietly close; Funmi joining the chat warmed his engagement.",
+      "shared_events": [
+        "Funmi's 16th birthday 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek10",
+      "persona_b_id": "p_e7adek18",
+      "relationship_type": "mother-son",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Chika is Eze's chat conduit; he posts mostly through her phone.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_e7adek10",
+      "persona_b_id": "p_e7adek19",
+      "relationship_type": "mother-daughter",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Chika and Ifeoma are inseparable; Chika boosted the flower-girl excitement.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_e7adek02",
+      "persona_b_id": "p_e7adek12",
+      "relationship_type": "mother-son",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Ifeanyi's quiet subsidies sometimes feel paternalistic to Yemi; they negotiate this carefully.",
+      "shared_events": [
+        "50th anniversary subsidized by Ifeanyi 2024"
+      ]
+    },
+    {
+      "persona_a_id": "p_e7adek07",
+      "persona_b_id": "p_e7adek01",
+      "relationship_type": "daughter-in-law to father-in-law",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Ngozi's pharmacy expertise leads her to gently ask Tunde about medication adherence.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_e7adek03",
+      "persona_b_id": "p_e7adek12",
+      "relationship_type": "siblings (eldest and youngest)",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Femi structures, Ifeanyi pays. They rarely conflict because their roles don't overlap.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_e7adek21",
+      "persona_b_id": "p_e7adek23",
+      "relationship_type": "second cousins",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Maris and Sade run together when both visit Maryland; close enough to text outside chat.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We always cook for family events rather than catering \u2014 that's how Yemi raised us.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_e7adek12",
+        "p_e7adek13",
+        "p_e7adek05"
+      ]
+    },
+    {
+      "norm_text": "Birthdays get announced in the chat the day before; everyone reacts.",
+      "truly_universal": true,
+      "dissenters": []
+    },
+    {
+      "norm_text": "Reunion costs are split per household, not per adult.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_e7adek05",
+        "p_e7adek21"
+      ]
+    },
+    {
+      "norm_text": "Family weddings happen at home or in Lagos \u2014 not destination.",
+      "truly_universal": false,
+      "dissenters": [
+        "p_e7adek08",
+        "p_e7adek14",
+        "p_e7adek20"
+      ]
+    },
+    {
+      "norm_text": "We don't air conflict in the main chat; take it to side messages.",
+      "truly_universal": true,
+      "dissenters": []
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 28,
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "family",
+    "group_size": 25
+  }
+}

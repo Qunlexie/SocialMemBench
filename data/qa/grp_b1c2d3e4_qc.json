@@ -1,58 +1,449 @@
 {
   "network_id": "grp_b1c2d3e4",
-  "total_pairs": 21,
-  "phase1_mean_score": 0.867,
-  "phase1_pass_rate": 1.0,
-  "phase2_grounded_rate": 0.952,
+  "total_pairs": 32,
+  "phase1_mean_score": 0.8797,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 96.88,
   "phase3_flagged_count": 0,
-  "inference_required_distribution": {"0": 0, "1": 6, "2": 15},
+  "inference_required_distribution": {
+    "1": 8,
+    "2": 24
+  },
   "trivially_answerable_count": 0,
   "difficulty_label_mismatch_count": 0,
-  "difficulty_distribution": {"easy": 3, "medium": 17, "hard": 1},
+  "difficulty_distribution": {
+    "easy": 3,
+    "medium": 17,
+    "hard": 1
+  },
   "by_query_type": {
-    "Q1": {"count": 5, "mean_score": 0.88, "flagged": 0, "mean_inference_required": 1.4},
-    "Q2": {"count": 1, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 2.0},
-    "Q4": {"count": 2, "mean_score": 0.80, "flagged": 0, "mean_inference_required": 1.5},
-    "Q5": {"count": 2, "mean_score": 0.90, "flagged": 0, "mean_inference_required": 2.0},
-    "Q6": {"count": 1, "mean_score": 0.85, "flagged": 0, "mean_inference_required": 2.0},
-    "Q7": {"count": 4, "mean_score": 0.888, "flagged": 0, "mean_inference_required": 1.5},
-    "Q8": {"count": 6, "mean_score": 0.85, "flagged": 0, "mean_inference_required": 1.83}
+    "Q1": {
+      "count": 5,
+      "mean_score": 0.88,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 3,
+      "mean_score": 0.85,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 1,
+      "mean_score": 0.85,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 7,
+      "mean_score": 0.893,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 12,
+      "mean_score": 0.875,
+      "flagged": 0
+    }
   },
   "flagged_pairs": [],
-  "low_score_pairs": [
-    {"qa_id": "Q4_b1c2d3e401", "query_type": "Q4", "score": 0.75, "your_answer": "Derek raised the canal loop distance discrepancy — inferrable from Ravi's 'the numbers don't lie' response, but the specific quote cited in the answer is not present in the evidence anchor turn.", "ground_truth": "Derek said 'Canal loop distance on my GPS comes in at 14.3 km, not the 13 km on the club website' — Ravi confirmed."}
-  ],
+  "low_score_pairs": [],
   "per_pair": [
-    {"qa_id": "Q1_b1c2d3e401", "query_type": "Q1", "blind_answer": "Greg strongly prefers flat routes — endorses canal loop ('nice and flat') and explicitly objects to Ridgeway due to climb at the 4k mark ('the club doesn't need that').", "score": 0.90, "score_rationale": "Direct: Greg's preference for flat terrain stated explicitly across two turns.", "inference_required": 1, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q1_b1c2d3e402", "query_type": "Q1", "blind_answer": "Priya hesitates about Parkfield due to uneven/trail surface concern — 'honestly not sure that's for me, the surface looks pretty...' By S9 she notes it's manageable and references her ankle explicitly.", "score": 0.85, "score_rationale": "Blind answer matches: trail hesitation and ankle reference across two sessions.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q1_b1c2d3e403", "query_type": "Q1", "blind_answer": "Bernard prefers a cafe for post-run gatherings — 'I find that a cafe suits a post-run gathering rather well. I will join at the Arch.'", "score": 0.90, "score_rationale": "Direct statement in single turn.", "inference_required": 1, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q1_b1c2d3e404", "query_type": "Q1", "blind_answer": "Nkechi uses running as psychological outlet — 'three weeks offline from running' described as significant deprivation alongside a work trip, not just a physical break.", "score": 0.85, "score_rationale": "Blind answer matches: running as mental reset identified from S9 framing.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q1_b1c2d3e405", "query_type": "Q1", "blind_answer": "Miriam finds race events overwhelming — 'the race atmosphere was quite overwhelming. The crowds and the noise...' Direct statement after Riverside 10K.", "score": 0.90, "score_rationale": "Direct statement.", "inference_required": 1, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q2_b1c2d3e401", "query_type": "Q2", "blind_answer": "Group went to Arch Cafe (majority vote + Ahmed's dietary situation). Greg dissented — preferred the Greystone ('obviously'), citing Arch as too loud and tables too small. Responded 'fine' when overruled.", "score": 0.90, "score_rationale": "Blind answer matches: decision, Greg's dissent and specific objections, reluctant acceptance.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q4_b1c2d3e401", "query_type": "Q4", "blind_answer": "Derek raised a distance numbers issue (inferrable from Ravi's 'the numbers don't lie' response). But the specific canal loop 14.3 vs 13 km quote cited in the answer is not present in the evidence anchor turn (s01_t004 discusses holiday averages).", "score": 0.75, "score_rationale": "Attribution to Derek inferrable from context but evidence anchor turn does not contain the specific quote cited in the answer — grounding gap.", "inference_required": 1, "grounded": false, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q4_b1c2d3e402", "query_type": "Q4", "blind_answer": "Lionel — he mentions 'thirty miles a week it simply doesn't feel realistic anymore.' Marcus also mentioned the half but framed it as 'smarter call' without the mileage constraint.", "score": 0.85, "score_rationale": "Blind answer matches: Lionel's mileage constraint distinguishes him from Marcus's generic 'smarter call'.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q5_b1c2d3e401", "query_type": "Q5", "blind_answer": "Priya is cautious about uneven surfaces (ankle). Fatima reveals prior knowledge: 'I know uneven surfaces are a concern for you' — treating it as established, not new.", "score": 0.90, "score_rationale": "Blind answer matches: preference and Fatima's 'I know' as the prior knowledge signal.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q5_b1c2d3e402", "query_type": "Q5", "blind_answer": "Tasha previously preferred not to focus on times. Helen reveals prior knowledge: 'I remember you saying once you preferred not to focus on times' — directly citing a previous conversation.", "score": 0.90, "score_rationale": "Blind answer matches: Tasha's preference and Helen's explicit recall as the prior knowledge marker.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q6_b1c2d3e401", "query_type": "Q6", "blind_answer": "Greg opts out consistently — 'fine. going for eggs' (S3) and 'I'll make my own way' (S10). Not joining the group at the Arch Cafe.", "score": 0.85, "score_rationale": "Blind answer matches: Greg's consistent opt-out pattern identified across two sessions.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q7_b1c2d3e401", "query_type": "Q7", "blind_answer": "Marcus and Greg co-founded the club — Marcus: 'You and I were there in 2017. This club has come a long way since we were scraping together five...' Greg: 'you rang more than me.'", "score": 0.85, "score_rationale": "Blind answer matches: co-founding history, 2017 start, Greg's 'you rang more' confirming Marcus's active founding role.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q7_b1c2d3e402", "query_type": "Q7", "blind_answer": "Priya and Fatima have a training relationship predating the club — Fatima talked Priya into signing up and 'knows my pace better than I do honestly.'", "score": 0.90, "score_rationale": "Blind answer matches: Fatima as the recruiter who knows Priya's pace intimately.", "inference_required": 1, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q7_b1c2d3e403", "query_type": "Q7", "blind_answer": "Ravi, Owen, and Joel do Wednesday runs independently. Ravi tells Nkechi: 'Owen, Joel and I have been doing Wednesdays — you should join if the timing ever works.'", "score": 0.90, "score_rationale": "Direct statement: mid-week sub-group stated explicitly.", "inference_required": 1, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q7_b1c2d3e404", "query_type": "Q7", "blind_answer": "Bernard and Lionel have a competitive dynamic with a contested 2019 Riverside record — Lionel: '52:11 for me, two seconds ahead of you.' Bernard: 'The official result stands. As it always does.'", "score": 0.90, "score_rationale": "Blind answer matches: long competitive dynamic, contested historical record identified.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q8_b1c2d3e401", "query_type": "Q8", "blind_answer": "Lionel went from 50 miles/week before Christmas to 32 miles/week by S3, deliberately scaling back after overtraining or injury concern. Direct statement.", "score": 0.85, "score_rationale": "Blind answer matches: 50→32 miles, deliberate scale-back.", "inference_required": 1, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q8_b1c2d3e402", "query_type": "Q8", "blind_answer": "Marcus targeting full Riverside 10K, then by S7 reconsidering after knee niggle — 'thinking the half might be the smarter call' after acknowledging steeper terrain bothers him.", "score": 0.85, "score_rationale": "Blind answer matches: knee as trigger, shift to half marathon consideration.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q8_b1c2d3e403", "query_type": "Q8", "blind_answer": "Sonia shifted from road-only to wanting more trail running. 'I've been thinking since those Parkfield sessions — I actually want to do more trail running this year.'", "score": 0.85, "score_rationale": "Blind answer matches: Parkfield as trigger, trail aspiration as evolved state.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q8_b1c2d3e404", "query_type": "Q8", "blind_answer": "Tasha previously avoided focusing on times. By S8 she reports strong results and acknowledges the shift to Helen ('Yeah, it has' in response to 'sounds like that has changed').", "score": 0.85, "score_rationale": "Blind answer matches: before/after states, shift confirmed in conversation.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q8_b1c2d3e405", "query_type": "Q8", "blind_answer": "Priya hesitated in S2 ('honestly not sure that's for me'). By S9: 'honestly it's manageable' — shifted to seeing trail as accessible, references ankle being ok.", "score": 0.85, "score_rationale": "Blind answer matches: before/after states, ankle OK as enabler.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null},
-    {"qa_id": "Q8_b1c2d3e406", "query_type": "Q8", "blind_answer": "Chloe dismissive about injury in S1 ('I am FINE Fatima lol'). By S10 sitting out the 10K — Fatima gave her 'a proper assessment' and 'had a word' with her. Fatima's intervention was the trigger.", "score": 0.85, "score_rationale": "Blind answer matches: before/after states, Fatima's assessment as the trigger.", "inference_required": 2, "grounded": true, "flagged": false, "flag_reason": null}
+    {
+      "qa_id": "Q1_b1c2d3e401",
+      "query_type": "Q1",
+      "blind_answer": "Greg strongly prefers flat routes \u2014 endorses canal loop ('nice and flat') and explicitly objects to Ridgeway due to climb at the 4k mark ('the club doesn't need that').",
+      "score": 0.9,
+      "score_rationale": "Direct: Greg's preference for flat terrain stated explicitly across two turns.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b1c2d3e402",
+      "query_type": "Q1",
+      "blind_answer": "Priya hesitates about Parkfield due to uneven/trail surface concern \u2014 'honestly not sure that's for me, the surface looks pretty...' By S9 she notes it's manageable and references her ankle explicitly.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: trail hesitation and ankle reference across two sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b1c2d3e403",
+      "query_type": "Q1",
+      "blind_answer": "Bernard prefers a cafe for post-run gatherings \u2014 'I find that a cafe suits a post-run gathering rather well. I will join at the Arch.'",
+      "score": 0.9,
+      "score_rationale": "Direct statement in single turn.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b1c2d3e404",
+      "query_type": "Q1",
+      "blind_answer": "Nkechi uses running as psychological outlet \u2014 'three weeks offline from running' described as significant deprivation alongside a work trip, not just a physical break.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: running as mental reset identified from S9 framing.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_b1c2d3e405",
+      "query_type": "Q1",
+      "blind_answer": "Miriam finds race events overwhelming \u2014 'the race atmosphere was quite overwhelming. The crowds and the noise...' Direct statement after Riverside 10K.",
+      "score": 0.9,
+      "score_rationale": "Direct statement.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b1c2d3e401",
+      "query_type": "Q2",
+      "blind_answer": "Group went to Arch Cafe (majority vote + Ahmed's dietary situation). Greg dissented \u2014 preferred the Greystone ('obviously'), citing Arch as too loud and tables too small. Responded 'fine' when overruled.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: decision, Greg's dissent and specific objections, reluctant acceptance.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b1c2d3e401",
+      "query_type": "Q4",
+      "blind_answer": "Derek raised a distance numbers issue (inferrable from Ravi's 'the numbers don't lie' response). But the specific canal loop 14.3 vs 13 km quote cited in the answer is not present in the evidence anchor turn (s01_t004 discusses holiday averages).",
+      "score": 0.75,
+      "score_rationale": "Attribution to Derek inferrable from context but evidence anchor turn does not contain the specific quote cited in the answer \u2014 grounding gap.",
+      "inference_required": 1,
+      "grounded": false,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b1c2d3e402",
+      "query_type": "Q4",
+      "blind_answer": "Lionel \u2014 he mentions 'thirty miles a week it simply doesn't feel realistic anymore.' Marcus also mentioned the half but framed it as 'smarter call' without the mileage constraint.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: Lionel's mileage constraint distinguishes him from Marcus's generic 'smarter call'.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b1c2d3e401",
+      "query_type": "Q5",
+      "blind_answer": "Priya is cautious about uneven surfaces (ankle). Fatima reveals prior knowledge: 'I know uneven surfaces are a concern for you' \u2014 treating it as established, not new.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: preference and Fatima's 'I know' as the prior knowledge signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_b1c2d3e402",
+      "query_type": "Q5",
+      "blind_answer": "Tasha previously preferred not to focus on times. Helen reveals prior knowledge: 'I remember you saying once you preferred not to focus on times' \u2014 directly citing a previous conversation.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: Tasha's preference and Helen's explicit recall as the prior knowledge marker.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_b1c2d3e401",
+      "query_type": "Q6",
+      "blind_answer": "Greg opts out consistently \u2014 'fine. going for eggs' (S3) and 'I'll make my own way' (S10). Not joining the group at the Arch Cafe.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: Greg's consistent opt-out pattern identified across two sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d3e401",
+      "query_type": "Q7",
+      "blind_answer": "Marcus and Greg co-founded the club \u2014 Marcus: 'You and I were there in 2017. This club has come a long way since we were scraping together five...' Greg: 'you rang more than me.'",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: co-founding history, 2017 start, Greg's 'you rang more' confirming Marcus's active founding role.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d3e402",
+      "query_type": "Q7",
+      "blind_answer": "Priya and Fatima have a training relationship predating the club \u2014 Fatima talked Priya into signing up and 'knows my pace better than I do honestly.'",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: Fatima as the recruiter who knows Priya's pace intimately.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d3e403",
+      "query_type": "Q7",
+      "blind_answer": "Ravi, Owen, and Joel do Wednesday runs independently. Ravi tells Nkechi: 'Owen, Joel and I have been doing Wednesdays \u2014 you should join if the timing ever works.'",
+      "score": 0.9,
+      "score_rationale": "Direct statement: mid-week sub-group stated explicitly.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d3e404",
+      "query_type": "Q7",
+      "blind_answer": "Bernard and Lionel have a competitive dynamic with a contested 2019 Riverside record \u2014 Lionel: '52:11 for me, two seconds ahead of you.' Bernard: 'The official result stands. As it always does.'",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: long competitive dynamic, contested historical record identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d3e401",
+      "query_type": "Q8",
+      "blind_answer": "Lionel went from 50 miles/week before Christmas to 32 miles/week by S3, deliberately scaling back after overtraining or injury concern. Direct statement.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: 50\u219232 miles, deliberate scale-back.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d3e402",
+      "query_type": "Q8",
+      "blind_answer": "Marcus targeting full Riverside 10K, then by S7 reconsidering after knee niggle \u2014 'thinking the half might be the smarter call' after acknowledging steeper terrain bothers him.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: knee as trigger, shift to half marathon consideration.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d3e403",
+      "query_type": "Q8",
+      "blind_answer": "Sonia shifted from road-only to wanting more trail running. 'I've been thinking since those Parkfield sessions \u2014 I actually want to do more trail running this year.'",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: Parkfield as trigger, trail aspiration as evolved state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d3e404",
+      "query_type": "Q8",
+      "blind_answer": "Tasha previously avoided focusing on times. By S8 she reports strong results and acknowledges the shift to Helen ('Yeah, it has' in response to 'sounds like that has changed').",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: before/after states, shift confirmed in conversation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d3e405",
+      "query_type": "Q8",
+      "blind_answer": "Priya hesitated in S2 ('honestly not sure that's for me'). By S9: 'honestly it's manageable' \u2014 shifted to seeing trail as accessible, references ankle being ok.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: before/after states, ankle OK as enabler.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d3e406",
+      "query_type": "Q8",
+      "blind_answer": "Chloe dismissive about injury in S1 ('I am FINE Fatima lol'). By S10 sitting out the 10K \u2014 Fatima gave her 'a proper assessment' and 'had a word' with her. Fatima's intervention was the trigger.",
+      "score": 0.85,
+      "score_rationale": "Blind answer matches: before/after states, Fatima's assessment as the trigger.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d301",
+      "query_type": "Q7",
+      "question": "What does Marcus's message about the club's recent history reveal about his relationship with Greg?",
+      "blind_answer": "Marcus says 'Greg and I kept the Saturday runs going through the whole Covid period when we were down to 3-4 people sometimes' \u2014 naming Greg as his co-sustainer of the club through the lean years. The 'Greg and I' framing reveals a partnership built on shared commitment to the club's continuity.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: Marcus pairs himself with Greg as co-sustainers during Covid, framing a long-standing partnership of mutual commitment.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d302",
+      "query_type": "Q7",
+      "question": "What does the exchange between Yuki and Chloe suggest about how they relate to each other within the club?",
+      "blind_answer": "Yuki addresses Chloe directly ('Chloe we have to do it') and Chloe immediately replies with full commitment ('100% in!! trails are legit more fun anyway'). Yuki pitches the trail run to Chloe as a shared decision and Chloe agrees instantly \u2014 they operate as a social pair within the group.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: direct address by name and immediate full agreement reveals a tight social pairing within the club.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_b1c2d303",
+      "query_type": "Q7",
+      "question": "What does Lionel's response to Tasha's race announcement reveal about his relationship with her?",
+      "blind_answer": "Lionel \u2014 who is not entering the Fenwick 10K \u2014 replies to Tasha's announcement with an unsolicited PB citation ('My PB there is 41:02 from three years ago') before adding 'Good luck Tasha.' The unprompted PB and pointed sign-off suggest a competitive undercurrent: he's tracking how his prior performance compares to her ambition.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: unprompted PB citation, pointed sign-off, competitive subtext identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d304",
+      "query_type": "Q8",
+      "question": "What drove Derek to change his race fuelling approach by then, and what in an earlier session establishes what the group's previous norm was?",
+      "blind_answer": "Earlier (Session 2), Ahmed told the group 'you all need proper fuel not gels' when sharing his energy balls \u2014 establishing real food as the implicit fuelling norm. By Session 5 Derek announced 'I've moved to gels for this training block \u2014 the real food approach was causing some gastric variance at tempo effort,' citing the practical failure as the trigger for his switch.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: prior norm (Ahmed/real food), trigger (gastric variance at tempo), evolved state (SiS gels) all identified.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d305",
+      "query_type": "Q8",
+      "question": "What in earlier conversations and later signals that Ahmed's involvement in route planning escalated, and what appears to have driven the change?",
+      "blind_answer": "Early on (Sessions 1\u20132), Ahmed only made verbal suggestions in chat ('can we look at something a bit more interesting for February?') and complaints about Marcus changing routes without consultation. By Session 5 he had physically driven out to recce the reservoir route, came back with elevation data and a GPX file ready to share. Marcus's prior pattern of unilateral route changes appears to have driven Ahmed to pre-empt rejection by arriving with completed work.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: chat-suggestions to physical recce + GPX, with Marcus's unilateral changes as the trigger for proactive escalation.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d306",
+      "query_type": "Q8",
+      "question": "What drove Owen to consider adding a Wednesday session, and what in his earlier messages shows this would be a change from his usual pattern?",
+      "blind_answer": "Earlier sessions (3 and 4) show Owen consistently leaving immediately after the Saturday run with terse sign-offs ('I need to head off. See you next week' / 'No, heading off. See you next week'). In Session 5 he says 'Thinking about adding a Wednesday session actually, mid-week run would help with volume' \u2014 the 'actually' marks the departure from his Saturday-only pattern, and the stated trigger is wanting more training volume.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: prior Saturday-only pattern, volume goal as named trigger, 'actually' marking the shift.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d307",
+      "query_type": "Q8",
+      "question": "What appears to have driven Joel's decision to enter his first 10K race, and what in earlier sessions shows this was a genuine shift rather than a long-standing ambition?",
+      "blind_answer": "In Session 2 Joel framed shorter runs as trivial ('was ez bro, felt like a warmup honestly') with no longer-distance ambition. After completing the 12.7km reservoir extension in Session 6 ('legs completely gone lol'), he immediately announces 'I'm signing up for Riverside 10K tonight, I decided' \u2014 and Priya's reaction ('I didn't know you were thinking about longer distances?') confirms there was no prior signal. The hard reservoir run appears to be the trigger.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: prior absence of 10K ambition (Priya's reaction), reservoir run as trigger, decision follows the hard effort.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d308",
+      "query_type": "Q8",
+      "question": "What explains Bernard's comment about his long run distance, and what earlier signals indicate that his approach had been more conservative?",
+      "blind_answer": "In Session 1 Bernard hedged on the March 10K \u2014 'I shall need to check the start time first' \u2014 a timing constraint hint consistent with managing a medical schedule. In Session 6 he explains: 'first time I've pushed past ten miles since my cardiologist signed me off in January. No issues.' He confirms an eight-month precautionary cap. The cardiologist clearance in January is the trigger that allowed him to push past ten miles.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: prior medical-schedule constraint hint, January clearance as trigger, eight-month precautionary cap confirmed.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_b1c2d309",
+      "query_type": "Q8",
+      "question": "What in Sessions 2 and 8 shows that Yuki's relationship to formal race participation shifted, and what appears to have driven the change?",
+      "blind_answer": "In Session 2 Yuki framed Parkfield purely aesthetically ('omg Parkfield would be so good for photos!! the light through the trees... is like actual cinema') \u2014 runs as photo opportunities, no race ambition. In Session 8 she announces 'I've signed up for the local 10K in May. my first ever' and explicitly attributes the shift to the trail runs ('the trail runs kind of shifted smething. like I think I'm capable of more than I thought'). The harder club runs, especially the reservoir route, drove the change.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: photo-focused early framing, 'my first ever' shift, trail runs as the named trigger for new self-perception.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_b1c2d310",
+      "query_type": "Q2",
+      "question": "The group agreed to travel to the Riverside 10K together by minibus. What did one member's response at that moment reveal about their actual position on the arrangement, and what specifically in how they responded tells you that?",
+      "blind_answer": "While everyone else was confirming the minibus enthusiastically ('In', 'Yes', 'Minibus works for me'), Greg replied 'I'll make my own way' \u2014 a five-word opt-out with no apology, explanation, or acknowledgement of the group plan. The phrasing actively disengages from the shared arrangement (no 'see you there' coordination signal), revealing that he prefers independent travel even when the group has clearly converged on a joint plan.",
+      "score": 0.9,
+      "score_rationale": "Blind answer matches: Greg's terse opt-out 'I'll make my own way' contrasted against engaged group confirmations, with the absence of coordination as the dissent signal.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_b1c2d311",
+      "query_type": "Q4",
+      "question": "Who gave the most analytical case for why a conservative first half and progressive build is the correct race strategy for the upcoming event, citing a specific course feature as the reason?",
+      "blind_answer": "Derek \u2014 'The data supports negative splits for this course profile \u2014 the km 7 incline makes a fast opening pace costly. Conservative start, progressive build is the correct approach.' Ravi gave a similar but first-person plan one turn earlier ('Plan is conservative first 5K, build to target pace from there...'). Derek's framing is impersonal and analytical (course feature + data-backed prescription), not a personal race plan.",
+      "score": 0.95,
+      "score_rationale": "Blind answer matches the ground-truth attribution to Derek and identifies the same Ravi/Derek distinction (first-person plan vs. third-person prescriptive analysis).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
   ],
   "conversation_quality": {
-    "topic_diversity": {"score": 2, "notes": "Recreational running club — 12 sessions all organised around running routes, race planning, post-run socials, and training updates. Appropriate primary domain dominance with natural digressions (injury updates, personal news). Matches recreational group-type expectation."},
-    "voice_consistency": {"score": 2, "notes": "All 5 sub-dimensions pass across 18 personas. Emoji/typo/verbosity/formality all match profiles. Speaking_quirks are defined and detectable: Marcus 'let's dial it in' + 'who's in?' + time estimates; Priya drops pronouns ('just finished a 10K, legs are dead') + 'honestly' hedge; Derek cites Strava stats ('my HR data shows...') + 'noted' responses; Bernard 'I find that...' + full punctuation + precise numerics; Tasha signs off with 'T.' + 'just for fun' disclaimers; Owen single-sentence messages + 'the evidence suggests'. Prior QC report incorrectly stated quirk lists were empty — all personas in raw file have 3 speaking quirks defined."},
-    "naturalness_of_transitions": {"score": 2, "notes": "Topics arise naturally — route discussions follow run reports, race entries follow scheduling posts. No cold jumps."},
-    "em_dash_free": {"score": 2, "notes": "44 unprotected turns with em dashes fixed (replaced with ' - '). 17 protected turns retain em dashes (acceptable per QC rules). No unprotected em dashes remain."},
-    "planted_turn_integrity": {"score": 2, "notes": "All 32 evidence anchor turns verified against actual conversation messages."},
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Recreational running club \u2014 12 sessions all organised around running routes, race planning, post-run socials, and training updates. Appropriate primary domain dominance with natural digressions (injury updates, personal news). Matches recreational group-type expectation."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "All 5 sub-dimensions pass across 18 personas. Emoji/typo/verbosity/formality all match profiles. Speaking_quirks are defined and detectable: Marcus 'let's dial it in' + 'who's in?' + time estimates; Priya drops pronouns ('just finished a 10K, legs are dead') + 'honestly' hedge; Derek cites Strava stats ('my HR data shows...') + 'noted' responses; Bernard 'I find that...' + full punctuation + precise numerics; Tasha signs off with 'T.' + 'just for fun' disclaimers; Owen single-sentence messages + 'the evidence suggests'. Prior QC report incorrectly stated quirk lists were empty \u2014 all personas in raw file have 3 speaking quirks defined."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Topics arise naturally \u2014 route discussions follow run reports, race entries follow scheduling posts. No cold jumps."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "44 unprotected turns with em dashes fixed (replaced with ' - '). 17 protected turns retain em dashes (acceptable per QC rules). No unprotected em dashes remain."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All 32 evidence anchor turns verified against actual conversation messages."
+    },
     "overall_pass": true,
     "failing_turns": []
   },
-  "baseline_reference": "none"
+  "baseline_reference": "none",
+  "qc_run_at": "2026-05-02T15:15:54.479681+00:00"
 }

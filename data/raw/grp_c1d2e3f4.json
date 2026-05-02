@@ -11,12 +11,24 @@
       "age": 83,
       "gender": "female",
       "occupation": "Retired middle school principal, Durham City Schools (North Carolina)",
-      "background": "Born and raised in Durham, North Carolina. Spent thirty-eight years in education — classroom teacher, then assistant principal, then principal of the same middle school for nineteen years. Widowed six years ago when her husband Earl died of a stroke. Her children want her to consider assisted living or at least move closer to one of them, and she has resisted firmly. Lives alone in the house she and Earl bought in 1972 and has no intention of leaving it. Sharp and funny, knows exactly what is being negotiated when the family asks how she is 'managing.' Still drives, plays bridge on Tuesday afternoons, and attends First Baptist most Sundays. Uses her phone slowly but deliberately. Loretta set the family's values and everyone knows it.",
+      "background": "Born and raised in Durham, North Carolina. Spent thirty-eight years in education \u2014 classroom teacher, then assistant principal, then principal of the same middle school for nineteen years. Widowed six years ago when her husband Earl died of a stroke. Her children want her to consider assisted living or at least move closer to one of them, and she has resisted firmly. Lives alone in the house she and Earl bought in 1972 and has no intention of leaving it. Sharp and funny, knows exactly what is being negotiated when the family asks how she is 'managing.' Still drives, plays bridge on Tuesday afternoons, and attends First Baptist most Sundays. Uses her phone slowly but deliberately. Loretta set the family's values and everyone knows it.",
       "skills_list": [
-        {"skill": "institutional leadership and school administration", "proficiency": "strong"},
-        {"skill": "cooking Southern home meals — biscuits, greens, slow-cooked dishes", "proficiency": "strong"},
-        {"skill": "bridge and card games", "proficiency": "strong"},
-        {"skill": "community organizing and church commitments", "proficiency": "medium"}
+        {
+          "skill": "institutional leadership and school administration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking Southern home meals \u2014 biscuits, greens, slow-cooked dishes",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "bridge and card games",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "community organizing and church commitments",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -36,16 +48,32 @@
       },
       "preferences": {
         "food": [
-          {"value": "prefers home cooking over restaurants — will accept restaurants only for celebrations, and only if the food is 'real food, not foam and twigs'", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers home cooking over restaurants \u2014 will accept restaurants only for celebrations, and only if the food is 'real food, not foam and twigs'",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers her existing Tuesday bridge group and Sunday church over any new activity the family tries to enroll her in", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers her existing Tuesday bridge group and Sunday church over any new activity the family tries to enroll her in",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "resists video calls but will tolerate them for birthdays — strongly prefers voice calls or in-person visits; finds video call framing slightly patronizing", "confidence": "High", "implicit": true}
+          {
+            "value": "resists video calls but will tolerate them for birthdays \u2014 strongly prefers voice calls or in-person visits; finds video call framing slightly patronizing",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "deeply attached to her own house and neighbourhood — treats the topic of moving as a discussion about her competence, not her wellbeing", "confidence": "High", "implicit": true}
+          {
+            "value": "deeply attached to her own house and neighbourhood \u2014 treats the topic of moving as a discussion about her competence, not her wellbeing",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -55,7 +83,7 @@
           "old_value": "resists most medical appointments beyond annual checkup; dismisses suggestions to see specialists as overly anxious",
           "new_value": "attending cardiology follow-ups every three months and has stopped resisting; mentions them without being asked",
           "changed_at_session": 4,
-          "trigger": "A dizzy spell in the kitchen that she could not explain, followed by Tanya taking her to the ER — Tanya's clinical explanations persuaded her in a way the family's worry had not"
+          "trigger": "A dizzy spell in the kitchen that she could not explain, followed by Tanya taking her to the ER \u2014 Tanya's clinical explanations persuaded her in a way the family's worry had not"
         },
         {
           "domain": "transport",
@@ -67,9 +95,9 @@
         }
       ],
       "speaking_quirks": [
-        "opens messages with the recipient's name and a complete sentence — 'Diane, I want you to know that...' — treats the phone like a letter",
+        "opens messages with the recipient's name and a complete sentence \u2014 'Diane, I want you to know that...' \u2014 treats the phone like a letter",
         "uses 'I'll say this once' before something she considers the final word on a subject",
-        "never uses abbreviations or emoji except on birthdays, when she sends a single '🙏' after the message"
+        "never uses abbreviations or emoji except on birthdays, when she sends a single '\ud83d\ude4f' after the message"
       ],
       "participation_rate": 1.0,
       "status": "active",
@@ -81,12 +109,24 @@
       "age": 58,
       "gender": "female",
       "occupation": "Regional healthcare administrator, Piedmont Health System, Atlanta",
-      "background": "Loretta's elder child — grew up watching her mother run a school and inherited her organizational instincts. Left Durham for Atlanta in her late twenties, built a career in hospital administration. Has been married twice; currently single. Has a daughter, Tanya, from her first marriage. Diane is the primary coordinator for Loretta's wellbeing — tracks doctor appointments, researches living options Loretta refuses to acknowledge, and relays information between family members who aren't speaking directly. She manages everything with professional competence and struggles when the family does not meet that standard. Has a close but sometimes exhausting relationship with Loretta; they are too similar to be easy with each other.",
+      "background": "Loretta's elder child \u2014 grew up watching her mother run a school and inherited her organizational instincts. Left Durham for Atlanta in her late twenties, built a career in hospital administration. Has been married twice; currently single. Has a daughter, Tanya, from her first marriage. Diane is the primary coordinator for Loretta's wellbeing \u2014 tracks doctor appointments, researches living options Loretta refuses to acknowledge, and relays information between family members who aren't speaking directly. She manages everything with professional competence and struggles when the family does not meet that standard. Has a close but sometimes exhausting relationship with Loretta; they are too similar to be easy with each other.",
       "skills_list": [
-        {"skill": "healthcare systems navigation and patient advocacy", "proficiency": "strong"},
-        {"skill": "project management and logistics", "proficiency": "strong"},
-        {"skill": "yoga and stress management", "proficiency": "medium"},
-        {"skill": "reading — particularly biography and Southern literature", "proficiency": "medium"}
+        {
+          "skill": "healthcare systems navigation and patient advocacy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "project management and logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga and stress management",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "reading \u2014 particularly biography and Southern literature",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -106,31 +146,47 @@
       },
       "preferences": {
         "food": [
-          {"value": "eats carefully during the week — plant-forward, no red meat — but abandons this entirely at family gatherings and does not discuss the contradiction", "confidence": "Medium", "implicit": true}
+          {
+            "value": "eats carefully during the week \u2014 plant-forward, no red meat \u2014 but abandons this entirely at family gatherings and does not discuss the contradiction",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "attends yoga most Saturday mornings; treats this as non-negotiable even when travelling — will find a studio near wherever she is staying", "confidence": "High", "implicit": true}
+          {
+            "value": "attends yoga most Saturday mornings; treats this as non-negotiable even when travelling \u2014 will find a studio near wherever she is staying",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "prefers to receive information before family group calls rather than being surprised mid-conversation — sends Tanya a pre-brief before anything important", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers to receive information before family group calls rather than being surprised mid-conversation \u2014 sends Tanya a pre-brief before anything important",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "researches eldercare options obsessively but does not share what she finds with Loretta until she has a fully formed proposal — finds partial information more anxiety-inducing than none", "confidence": "High", "implicit": true}
+          {
+            "value": "researches eldercare options obsessively but does not share what she finds with Loretta until she has a fully formed proposal \u2014 finds partial information more anxiety-inducing than none",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "family",
           "attribute": "communication approach with Marcus",
-          "old_value": "routes all coordination through Tanya rather than engaging Marcus directly — treats his avoidance as fixed",
+          "old_value": "routes all coordination through Tanya rather than engaging Marcus directly \u2014 treats his avoidance as fixed",
           "new_value": "calling Marcus directly for family decisions, even knowing he will be evasive; stopped treating him as someone to work around",
           "changed_at_session": 5,
-          "trigger": "Tanya pointed out that Diane's workarounds were actually enabling Marcus to avoid responsibility — Diane found this accurate and uncomfortable"
+          "trigger": "Tanya pointed out that Diane's workarounds were actually enabling Marcus to avoid responsibility \u2014 Diane found this accurate and uncomfortable"
         }
       ],
       "speaking_quirks": [
-        "uses bullet points and 'Re:' prefixes in family messages as if writing a work email — 'Re: Christmas, a few things'",
-        "adds '— just flagging' or '— just so we're all aware' after pieces of information she considers important but does not want to be seen as nagging about",
+        "uses bullet points and 'Re:' prefixes in family messages as if writing a work email \u2014 'Re: Christmas, a few things'",
+        "adds '\u2014 just flagging' or '\u2014 just so we're all aware' after pieces of information she considers important but does not want to be seen as nagging about",
         "uses her full name in her sign-off when she feels she has been dismissed: 'Love, Diane' rather than just 'D'"
       ],
       "participation_rate": 1.0,
@@ -143,12 +199,24 @@
       "age": 55,
       "gender": "male",
       "occupation": "Owner, Washington Contracting LLC, residential and commercial remodeling, Charlotte NC",
-      "background": "Loretta's younger child — the one who stayed closer to home, though Charlotte is still two hours from Durham. Runs a small but stable contracting business he built from scratch after a decade working for other people. Was married for twenty years; divorced four years ago. Has a son, Kevin, who moved to Chicago after grad school. Marcus is practical and handy — he is the one who fixes things for Loretta, comes over to deal with the furnace or the gutters, and sees this physical presence as his version of caring. Has a harder time with the emotional or logistical coordination Diane runs. Avoids conflict by going quiet rather than engaging. Not unsympathetic — he just thinks things will work themselves out and hates being organized by other people.",
+      "background": "Loretta's younger child \u2014 the one who stayed closer to home, though Charlotte is still two hours from Durham. Runs a small but stable contracting business he built from scratch after a decade working for other people. Was married for twenty years; divorced four years ago. Has a son, Kevin, who moved to Chicago after grad school. Marcus is practical and handy \u2014 he is the one who fixes things for Loretta, comes over to deal with the furnace or the gutters, and sees this physical presence as his version of caring. Has a harder time with the emotional or logistical coordination Diane runs. Avoids conflict by going quiet rather than engaging. Not unsympathetic \u2014 he just thinks things will work themselves out and hates being organized by other people.",
       "skills_list": [
-        {"skill": "residential construction and remodeling", "proficiency": "strong"},
-        {"skill": "project bidding and small business operations", "proficiency": "strong"},
-        {"skill": "cooking on the grill — outdoor barbecue", "proficiency": "strong"},
-        {"skill": "college basketball — deep knowledge, NC-focused", "proficiency": "medium"}
+        {
+          "skill": "residential construction and remodeling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "project bidding and small business operations",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking on the grill \u2014 outdoor barbecue",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "college basketball \u2014 deep knowledge, NC-focused",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Low",
@@ -168,31 +236,47 @@
       },
       "preferences": {
         "food": [
-          {"value": "strongly prefers grilling and outdoor cooking over restaurant meals for family occasions — will volunteer to 'just handle the food' to avoid restaurant coordination", "confidence": "High", "implicit": true}
+          {
+            "value": "strongly prefers grilling and outdoor cooking over restaurant meals for family occasions \u2014 will volunteer to 'just handle the food' to avoid restaurant coordination",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "watches college basketball avidly — makes decisions around the ACC tournament schedule without explicitly flagging this as the reason", "confidence": "High", "implicit": true}
+          {
+            "value": "watches college basketball avidly \u2014 makes decisions around the ACC tournament schedule without explicitly flagging this as the reason",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "more comfortable with one-on-one interaction than group calls — responds to individual messages promptly but goes quiet in the group chat when the thread is heated", "confidence": "High", "implicit": true}
+          {
+            "value": "more comfortable with one-on-one interaction than group calls \u2014 responds to individual messages promptly but goes quiet in the group chat when the thread is heated",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers to show care through physical help — fixing, building, showing up with tools — rather than emotional or logistical coordination; feels displaced when this isn't recognized as contribution", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers to show care through physical help \u2014 fixing, building, showing up with tools \u2014 rather than emotional or logistical coordination; feels displaced when this isn't recognized as contribution",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "family",
           "attribute": "stance on Loretta's living situation",
-          "old_value": "maintains Mama is fine, she has always managed, stop looking for problems — resists any eldercare conversation as premature",
+          "old_value": "maintains Mama is fine, she has always managed, stop looking for problems \u2014 resists any eldercare conversation as premature",
           "new_value": "acknowledges there may need to be a plan, does not volunteer details but has stopped shutting the conversation down",
           "changed_at_session": 6,
-          "trigger": "Loretta called him at 11pm because she could not find her blood pressure medication and was scared; he drove up that night and spent two days reorganizing her kitchen — the experience changed his position without him saying so directly"
+          "trigger": "Loretta called him at 11pm because she could not find her blood pressure medication and was scared; he drove up that night and spent two days reorganizing her kitchen \u2014 the experience changed his position without him saying so directly"
         }
       ],
       "speaking_quirks": [
-        "uses 'yeah' as both agreement and topic closure — 'yeah' at the end of a message means the thread is done from his side",
-        "drops subjects from sentences — 'came by yesterday', 'fixed the gutters', 'talked to her'",
+        "uses 'yeah' as both agreement and topic closure \u2014 'yeah' at the end of a message means the thread is done from his side",
+        "drops subjects from sentences \u2014 'came by yesterday', 'fixed the gutters', 'talked to her'",
         "responds to logistical messages with a thumbs-up emoji and no text; responds to emotional messages with a longer delay and then a deflection to something practical"
       ],
       "participation_rate": 1.0,
@@ -205,12 +289,24 @@
       "age": 32,
       "gender": "female",
       "occupation": "Nurse practitioner, geriatrics and palliative care, Grady Memorial Hospital, Atlanta",
-      "background": "Diane's daughter — grew up watching her mother navigate healthcare systems and went into medicine herself, but frontline rather than administrative. Specializes in geriatrics and palliative care, which makes her the family's clinical resource for Loretta's care and also the one who can translate between medical reality and what the family wants to hear. She is the one who set up the family group chat and quietly manages its temperature. Enormously fond of Loretta — they have a directness with each other that skips the anxiety that characterizes Diane's relationship with her grandmother. Has a long-term partner, Andre, who has been invited to family occasions but has his own complicated family schedule. Tanya absorbs a lot — from patients, from her mother, from the family — and is careful about not showing the load.",
+      "background": "Diane's daughter \u2014 grew up watching her mother navigate healthcare systems and went into medicine herself, but frontline rather than administrative. Specializes in geriatrics and palliative care, which makes her the family's clinical resource for Loretta's care and also the one who can translate between medical reality and what the family wants to hear. She is the one who set up the family group chat and quietly manages its temperature. Enormously fond of Loretta \u2014 they have a directness with each other that skips the anxiety that characterizes Diane's relationship with her grandmother. Has a long-term partner, Andre, who has been invited to family occasions but has his own complicated family schedule. Tanya absorbs a lot \u2014 from patients, from her mother, from the family \u2014 and is careful about not showing the load.",
       "skills_list": [
-        {"skill": "clinical assessment and geriatric care coordination", "proficiency": "strong"},
-        {"skill": "patient communication and difficult conversations", "proficiency": "strong"},
-        {"skill": "yoga and running — consistent amateur athlete", "proficiency": "medium"},
-        {"skill": "cooking — experimental, tries new cuisines", "proficiency": "medium"}
+        {
+          "skill": "clinical assessment and geriatric care coordination",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "patient communication and difficult conversations",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "yoga and running \u2014 consistent amateur athlete",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking \u2014 experimental, tries new cuisines",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -230,31 +326,47 @@
       },
       "preferences": {
         "food": [
-          {"value": "interested in new cuisines and cooking techniques; will propose experimental restaurants no one else has heard of and be disappointed when the family defaults to somewhere familiar", "confidence": "High", "implicit": true}
+          {
+            "value": "interested in new cuisines and cooking techniques; will propose experimental restaurants no one else has heard of and be disappointed when the family defaults to somewhere familiar",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers active plans over passive ones for family visits — proposes walks, markets, outings — gets restless at purely sitting-and-talking gatherings after a few hours", "confidence": "Medium", "implicit": true}
+          {
+            "value": "prefers active plans over passive ones for family visits \u2014 proposes walks, markets, outings \u2014 gets restless at purely sitting-and-talking gatherings after a few hours",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "manages emotional temperature in the family chat deliberately — will change subject, inject humour, or break tension without making it visible that she is doing so", "confidence": "High", "implicit": true}
+          {
+            "value": "manages emotional temperature in the family chat deliberately \u2014 will change subject, inject humour, or break tension without making it visible that she is doing so",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "withholds clinical worry from the family when she judges that expressing it would increase anxiety more than it would produce useful action — this is a professional habit that her mother finds frustrating", "confidence": "High", "implicit": true}
+          {
+            "value": "withholds clinical worry from the family when she judges that expressing it would increase anxiety more than it would produce useful action \u2014 this is a professional habit that her mother finds frustrating",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "career",
           "attribute": "stance on current hospital role",
-          "old_value": "fully committed to Grady — describes it as where she is needed and where the work is real; not considering a move",
+          "old_value": "fully committed to Grady \u2014 describes it as where she is needed and where the work is real; not considering a move",
           "new_value": "quietly exploring faculty positions at Emory nursing school that would let her teach while maintaining some clinical work",
           "changed_at_session": 5,
-          "trigger": "A run of particularly hard deaths in the palliative unit over three weeks — not a breakdown but a slow recalibration; mentioned obliquely to Kevin in a side conversation, not to Diane"
+          "trigger": "A run of particularly hard deaths in the palliative unit over three weeks \u2014 not a breakdown but a slow recalibration; mentioned obliquely to Kevin in a side conversation, not to Diane"
         }
       ],
       "speaking_quirks": [
-        "uses 'so' as a sentence opener when she is about to reframe something — 'so what I'm hearing is...' or 'so here's the thing'",
-        "uses specific clinical language without explanation when talking to Loretta but translates it for everyone else — treats Loretta as an equal interlocutor on health topics",
+        "uses 'so' as a sentence opener when she is about to reframe something \u2014 'so what I'm hearing is...' or 'so here's the thing'",
+        "uses specific clinical language without explanation when talking to Loretta but translates it for everyone else \u2014 treats Loretta as an equal interlocutor on health topics",
         "sends voice messages to Kevin when she does not want a text record of something personal"
       ],
       "participation_rate": 1.0,
@@ -267,12 +379,24 @@
       "age": 29,
       "gender": "male",
       "occupation": "Urban planning analyst, Chicago Metropolitan Agency for Planning",
-      "background": "Marcus's son — grew up in Charlotte, moved to Chicago after a master's degree in urban planning at UNC. Youngest member of the chat by several years and the most digitally native. Has a complicated relationship with the family's tendency to over-coordinate and under-communicate. Gets on easily with Loretta — they have long phone calls about Durham that no one else is part of. Finds his father's silence on hard topics baffling in a different way from how Diane finds it — Kevin takes it less personally and is more likely to name it directly, which sometimes helps and sometimes makes it worse. Is the person in the chat most likely to say what others are thinking. Lives with roommates in Logan Square; has a social life the family knows little about.",
+      "background": "Marcus's son \u2014 grew up in Charlotte, moved to Chicago after a master's degree in urban planning at UNC. Youngest member of the chat by several years and the most digitally native. Has a complicated relationship with the family's tendency to over-coordinate and under-communicate. Gets on easily with Loretta \u2014 they have long phone calls about Durham that no one else is part of. Finds his father's silence on hard topics baffling in a different way from how Diane finds it \u2014 Kevin takes it less personally and is more likely to name it directly, which sometimes helps and sometimes makes it worse. Is the person in the chat most likely to say what others are thinking. Lives with roommates in Logan Square; has a social life the family knows little about.",
       "skills_list": [
-        {"skill": "spatial data analysis and GIS mapping", "proficiency": "strong"},
-        {"skill": "policy writing and municipal research", "proficiency": "strong"},
-        {"skill": "cycling — commuter and recreational", "proficiency": "medium"},
-        {"skill": "music — DJ sets and record collecting", "proficiency": "medium"}
+        {
+          "skill": "spatial data analysis and GIS mapping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "policy writing and municipal research",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cycling \u2014 commuter and recreational",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "music \u2014 DJ sets and record collecting",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -292,32 +416,48 @@
       },
       "preferences": {
         "food": [
-          {"value": "has developed strong preferences for Chicago-specific food culture and references it in ways that gently alienate the North Carolina members of the family", "confidence": "Medium", "implicit": true}
+          {
+            "value": "has developed strong preferences for Chicago-specific food culture and references it in ways that gently alienate the North Carolina members of the family",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "prefers experiences over possessions for gifts and visits — is disappointed when family events default to restaurant sit-downs rather than doing something together", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers experiences over possessions for gifts and visits \u2014 is disappointed when family events default to restaurant sit-downs rather than doing something together",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "finds the Thanksgiving and Christmas coordination via group chat performatively stressful — prefers someone just deciding and telling everyone, rather than the extended negotiation", "confidence": "High", "implicit": true}
+          {
+            "value": "finds the Thanksgiving and Christmas coordination via group chat performatively stressful \u2014 prefers someone just deciding and telling everyone, rather than the extended negotiation",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "interested in urban history and finds Loretta's accounts of old Durham more engaging than any other family conversation topic — specifically asks her questions the others don't think to ask", "confidence": "High", "implicit": true}
+          {
+            "value": "interested in urban history and finds Loretta's accounts of old Durham more engaging than any other family conversation topic \u2014 specifically asks her questions the others don't think to ask",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
         {
           "domain": "housing",
           "attribute": "plans for Chicago",
-          "old_value": "treating Chicago as temporary — mentions moving back south eventually, says it non-committally without a timeline",
+          "old_value": "treating Chicago as temporary \u2014 mentions moving back south eventually, says it non-committally without a timeline",
           "new_value": "has stopped mentioning moving south; talks about Chicago neighborhoods in ways that suggest longer-term rootedness; mentioned a two-year lease renewal without marking it as significant",
           "changed_at_session": 3,
           "trigger": "A work project on Southside neighborhood revitalization got him genuinely invested in the city; a relationship that anchored him further is implied but not stated"
         }
       ],
       "speaking_quirks": [
-        "uses lowercase throughout, no punctuation beyond occasional commas — 'yeah thats wild actually', 'ok but hear me out'",
+        "uses lowercase throughout, no punctuation beyond occasional commas \u2014 'yeah thats wild actually', 'ok but hear me out'",
         "uses 'honestly' and 'ngl' as emphasis markers, and 'lol' not as laughter but as a social softener after something uncomfortable",
-        "asks Loretta specific historical questions out of nowhere in the middle of otherwise logistical threads — the rest of the family is used to this"
+        "asks Loretta specific historical questions out of nowhere in the middle of otherwise logistical threads \u2014 the rest of the family is used to this"
       ],
       "participation_rate": 1.0,
       "status": "active",
@@ -331,8 +471,12 @@
       "relationship_type": "mother and daughter",
       "closeness": "High",
       "sentiment": "mixed",
-      "history_summary": "Loretta and Diane are deeply bonded but currently in a prolonged negotiation about control — Diane wants to coordinate Loretta's care with the thoroughness she would apply to a workplace problem; Loretta wants to remain the authority in her own life. They speak every few days, love each other clearly, and exhaust each other regularly. Diane is the child most like Loretta and neither of them finds this comfortable.",
-      "shared_events": ["Loretta's widowing six years ago and the reorganization of the family that followed", "an incident two years ago when Loretta fell in the garden and did not tell Diane for three days", "a charged conversation at Easter about assisted living that ended without resolution"]
+      "history_summary": "Loretta and Diane are deeply bonded but currently in a prolonged negotiation about control \u2014 Diane wants to coordinate Loretta's care with the thoroughness she would apply to a workplace problem; Loretta wants to remain the authority in her own life. They speak every few days, love each other clearly, and exhaust each other regularly. Diane is the child most like Loretta and neither of them finds this comfortable.",
+      "shared_events": [
+        "Loretta's widowing six years ago and the reorganization of the family that followed",
+        "an incident two years ago when Loretta fell in the garden and did not tell Diane for three days",
+        "a charged conversation at Easter about assisted living that ended without resolution"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f1",
@@ -340,8 +484,12 @@
       "relationship_type": "mother and son",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Loretta and Marcus have a warmer, less contested relationship than Loretta and Diane — partly because Marcus shows care through physical presence (he is the one who comes to fix things) and this suits Loretta's preference for action over administration. She values his proximity. His avoidance of difficult conversations does not irritate her the way it irritates Diane, because Loretta is also not eager to have those conversations.",
-      "shared_events": ["Marcus being the one who came up after Earl's death and handled the estate paperwork", "his regular maintenance visits to the Durham house", "a summer barbecue he ran at her house that she describes as 'the best one in years'"]
+      "history_summary": "Loretta and Marcus have a warmer, less contested relationship than Loretta and Diane \u2014 partly because Marcus shows care through physical presence (he is the one who comes to fix things) and this suits Loretta's preference for action over administration. She values his proximity. His avoidance of difficult conversations does not irritate her the way it irritates Diane, because Loretta is also not eager to have those conversations.",
+      "shared_events": [
+        "Marcus being the one who came up after Earl's death and handled the estate paperwork",
+        "his regular maintenance visits to the Durham house",
+        "a summer barbecue he ran at her house that she describes as 'the best one in years'"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f1",
@@ -350,7 +498,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Loretta and Tanya have the most uncomplicated close relationship in the network. Tanya does not manage Loretta; she talks to her as a peer on health topics, which Loretta finds respectful. Loretta trusts Tanya's clinical judgment in a way she resists from Diane because Tanya never conflates medical advice with family anxiety. They call each other more than either mentions in the group chat.",
-      "shared_events": ["Tanya accompanying Loretta to the cardiology appointment that changed her approach to follow-ups", "a trip they took together to visit Loretta's sister in Raleigh", "Tanya being the first call when Loretta had the dizzy spell"]
+      "shared_events": [
+        "Tanya accompanying Loretta to the cardiology appointment that changed her approach to follow-ups",
+        "a trip they took together to visit Loretta's sister in Raleigh",
+        "Tanya being the first call when Loretta had the dizzy spell"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f1",
@@ -358,8 +510,12 @@
       "relationship_type": "grandmother and grandson",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Loretta and Kevin have an unlikely strong rapport built around shared interest in Durham's history and neighbourhood change — Kevin's planning work gives them a shared vocabulary that the rest of the family lacks. She tells him stories about streets and buildings and people that she does not repeat in group settings. He finds her more interesting than any other family member and tells her so, which she appreciates without making a fuss of it.",
-      "shared_events": ["a long phone call about the old Hayti neighbourhood in Durham that Kevin later referenced in a work presentation", "Kevin's visit to Durham the summer after grad school", "a birthday card Kevin sent with a photo of a Durham neighbourhood he had found in a Chicago archive"]
+      "history_summary": "Loretta and Kevin have an unlikely strong rapport built around shared interest in Durham's history and neighbourhood change \u2014 Kevin's planning work gives them a shared vocabulary that the rest of the family lacks. She tells him stories about streets and buildings and people that she does not repeat in group settings. He finds her more interesting than any other family member and tells her so, which she appreciates without making a fuss of it.",
+      "shared_events": [
+        "a long phone call about the old Hayti neighbourhood in Durham that Kevin later referenced in a work presentation",
+        "Kevin's visit to Durham the summer after grad school",
+        "a birthday card Kevin sent with a photo of a Durham neighbourhood he had found in a Chicago archive"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f2",
@@ -368,7 +524,11 @@
       "closeness": "Medium",
       "sentiment": "mixed",
       "history_summary": "Diane and Marcus are not in conflict but are structurally mismatched in how they handle family responsibility. Diane coordinates; Marcus shows up physically and emotionally recedes from coordination. Diane finds his avoidance irresponsible; Marcus finds her coordination suffocating. They do not fight but they do not seek each other out. Their interactions in the family chat are functional rather than warm.",
-      "shared_events": ["the weeks after Earl's funeral where they divided family tasks without discussing them explicitly", "a tense call about whether Loretta should see a geriatric specialist", "a rare smooth coordination of a Thanksgiving where both children and grandchildren were at Loretta's house"]
+      "shared_events": [
+        "the weeks after Earl's funeral where they divided family tasks without discussing them explicitly",
+        "a tense call about whether Loretta should see a geriatric specialist",
+        "a rare smooth coordination of a Thanksgiving where both children and grandchildren were at Loretta's house"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f2",
@@ -376,8 +536,12 @@
       "relationship_type": "mother and daughter",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Diane and Tanya are close and collaborative, with occasional tension when Tanya withholds clinical information from Diane because she judges it will increase her mother's anxiety without being useful. Diane knows Tanya does this and has mixed feelings — she is grateful for the protection and also frustrated by it. They talk daily and share coordination of Loretta's care more than the men in the family.",
-      "shared_events": ["Tanya choosing geriatrics as her specialty, which Diane did not anticipate but was immediately proud of", "a hard conversation about Loretta's cardiology results where Tanya translated across the clinical-anxious gap", "a girls' trip to Savannah that was ostensibly about Loretta but ended up being about Diane processing her divorce"]
+      "history_summary": "Diane and Tanya are close and collaborative, with occasional tension when Tanya withholds clinical information from Diane because she judges it will increase her mother's anxiety without being useful. Diane knows Tanya does this and has mixed feelings \u2014 she is grateful for the protection and also frustrated by it. They talk daily and share coordination of Loretta's care more than the men in the family.",
+      "shared_events": [
+        "Tanya choosing geriatrics as her specialty, which Diane did not anticipate but was immediately proud of",
+        "a hard conversation about Loretta's cardiology results where Tanya translated across the clinical-anxious gap",
+        "a girls' trip to Savannah that was ostensibly about Loretta but ended up being about Diane processing her divorce"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f2",
@@ -386,7 +550,11 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Diane and Kevin have a cordial but not close relationship. Diane approves of Kevin's career and general stability but they share little common ground. Kevin finds Diane's management instincts slightly suffocating at a distance; Diane finds Kevin slightly outside the family's emotional center in ways she has not diagnosed. They are warm at gatherings but do not seek out one-on-one contact.",
-      "shared_events": ["Kevin's master's graduation where Diane attended with Loretta", "a brief exchange during a holiday call where Kevin asked about Loretta's cardiology results and Diane sent him a three-paragraph summary he found excessive", "shared attendance at Marcus's cookout the previous summer"]
+      "shared_events": [
+        "Kevin's master's graduation where Diane attended with Loretta",
+        "a brief exchange during a holiday call where Kevin asked about Loretta's cardiology results and Diane sent him a three-paragraph summary he found excessive",
+        "shared attendance at Marcus's cookout the previous summer"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f3",
@@ -394,8 +562,12 @@
       "relationship_type": "uncle and niece",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Marcus and Tanya have an easy relationship with no friction. Marcus finds Tanya's clinical practicality reassuring — she gives him information without wrapping it in anxiety. Tanya finds Marcus's avoidance frustrating from a care-coordination perspective but does not push him in the way Diane does. They interact warmly at family gatherings and exchange occasional direct messages on Loretta's medical situation that Marcus would not initiate with Diane.",
-      "shared_events": ["Marcus calling Tanya directly after the late-night blood pressure incident to ask what to look for going forward", "a family Thanksgiving barbecue where Marcus grilled and Tanya handled the family dynamics", "Tanya sending Marcus a checklist of things to look for at the Durham house on his next visit"]
+      "history_summary": "Marcus and Tanya have an easy relationship with no friction. Marcus finds Tanya's clinical practicality reassuring \u2014 she gives him information without wrapping it in anxiety. Tanya finds Marcus's avoidance frustrating from a care-coordination perspective but does not push him in the way Diane does. They interact warmly at family gatherings and exchange occasional direct messages on Loretta's medical situation that Marcus would not initiate with Diane.",
+      "shared_events": [
+        "Marcus calling Tanya directly after the late-night blood pressure incident to ask what to look for going forward",
+        "a family Thanksgiving barbecue where Marcus grilled and Tanya handled the family dynamics",
+        "Tanya sending Marcus a checklist of things to look for at the Durham house on his next visit"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f3",
@@ -404,7 +576,11 @@
       "closeness": "Medium",
       "sentiment": "mixed",
       "history_summary": "Marcus and Kevin are intermittently close and intermittently at a standoff. Kevin has more words for what he observes about his father than Marcus can receive comfortably. Marcus is proud of Kevin's career but says so awkwardly and infrequently. Kevin finds his father's silences less mysterious than other family members do but also more tiring. Their phone calls are warm when they happen and infrequent. Marcus calls Kevin when he wants someone who will not organize him.",
-      "shared_events": ["Kevin telling his father about the Chicago lease renewal before telling anyone else", "a tense exchange in the family chat where Kevin named Marcus's avoidance directly and Marcus went silent for four days", "a shared trip to see NC State play when Kevin was home for spring break during college"]
+      "shared_events": [
+        "Kevin telling his father about the Chicago lease renewal before telling anyone else",
+        "a tense exchange in the family chat where Kevin named Marcus's avoidance directly and Marcus went silent for four days",
+        "a shared trip to see NC State play when Kevin was home for spring break during college"
+      ]
     },
     {
       "persona_a_id": "p_c1d2e3f4",
@@ -412,35 +588,49 @@
       "relationship_type": "cousins, confidants",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Tanya and Kevin are the closest peer relationship in the network — near the same generation, both living away from North Carolina, both sharp observers of the family's dynamics. They have a side conversation that the older generation does not see and that both understand as a space for saying what they cannot say in the group. Tanya is Kevin's clearest source of clinical information about Loretta; Kevin is Tanya's outlet when the care weight gets heavy.",
-      "shared_events": ["a long call after the ER visit where they coordinated their responses to Diane's anxiety", "a weekend Kevin came to Atlanta and they went to a restaurant Tanya had been trying to get family to try for two years", "Kevin being the first person Tanya told about exploring the Emory faculty position"]
+      "history_summary": "Tanya and Kevin are the closest peer relationship in the network \u2014 near the same generation, both living away from North Carolina, both sharp observers of the family's dynamics. They have a side conversation that the older generation does not see and that both understand as a space for saying what they cannot say in the group. Tanya is Kevin's clearest source of clinical information about Loretta; Kevin is Tanya's outlet when the care weight gets heavy.",
+      "shared_events": [
+        "a long call after the ER visit where they coordinated their responses to Diane's anxiety",
+        "a weekend Kevin came to Atlanta and they went to a restaurant Tanya had been trying to get family to try for two years",
+        "Kevin being the first person Tanya told about exploring the Emory faculty position"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "Family calls happen on Sunday evenings — if you can't make it, you drop a message in the chat so Loretta knows you're thinking of her",
+      "norm_text": "Family calls happen on Sunday evenings \u2014 if you can't make it, you drop a message in the chat so Loretta knows you're thinking of her",
       "truly_universal": false,
-      "dissenters": ["p_c1d2e3f3"]
+      "dissenters": [
+        "p_c1d2e3f3"
+      ]
     },
     {
-      "norm_text": "Major health updates about Loretta go in the group chat, not just one-on-one — everyone needs to know",
+      "norm_text": "Major health updates about Loretta go in the group chat, not just one-on-one \u2014 everyone needs to know",
       "truly_universal": false,
-      "dissenters": ["p_c1d2e3f4"]
+      "dissenters": [
+        "p_c1d2e3f4"
+      ]
     },
     {
-      "norm_text": "Thanksgiving is at Loretta's house in Durham — that is the one gathering that doesn't move",
+      "norm_text": "Thanksgiving is at Loretta's house in Durham \u2014 that is the one gathering that doesn't move",
       "truly_universal": true,
       "dissenters": []
     },
     {
       "norm_text": "No one raises the assisted-living question in the chat where Loretta can see it",
       "truly_universal": false,
-      "dissenters": ["p_c1d2e3f5"]
+      "dissenters": [
+        "p_c1d2e3f5"
+      ]
     }
   ],
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "family",
+    "group_size": 5
   }
 }

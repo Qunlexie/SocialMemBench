@@ -13,10 +13,22 @@
       "occupation": "Retired secondary school science teacher",
       "background": "Nadia spent 32 years teaching physics and earth science before retiring to the countryside. She started stargazing as a classroom aid and gradually fell in love with visual deep-sky observing. She owns a 12-inch Dobsonian and keeps meticulous paper logbooks of every object she observes.",
       "skills_list": [
-        {"skill": "visual deep-sky observing", "proficiency": "strong"},
-        {"skill": "star-hopping navigation", "proficiency": "strong"},
-        {"skill": "telescope collimation", "proficiency": "medium"},
-        {"skill": "science outreach", "proficiency": "medium"}
+        {
+          "skill": "visual deep-sky observing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "star-hopping navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "telescope collimation",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "science outreach",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -36,18 +48,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "thermos of strong builder's tea on observing nights", "confidence": "High", "implicit": true}
+          {
+            "value": "thermos of strong builder's tea on observing nights",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "visual observing over astrophotography — prefers the unmediated experience", "confidence": "High", "implicit": true},
-          {"value": "Messier marathon sessions in spring", "confidence": "Medium", "implicit": true}
+          {
+            "value": "visual observing over astrophotography \u2014 prefers the unmediated experience",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "Messier marathon sessions in spring",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "small group star parties over large public events", "confidence": "High", "implicit": true}
+          {
+            "value": "small group star parties over large public events",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers dark rural sites at least 60 miles from town", "confidence": "High", "implicit": true},
-          {"value": "dislikes red-light-exempt phone screens at star parties", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers dark rural sites at least 60 miles from town",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "dislikes red-light-exempt phone screens at star parties",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -76,10 +112,22 @@
       "occupation": "Senior software engineer",
       "background": "Jerome works remotely for a fintech startup and channels his perfectionism into narrowband astrophotography. He has a dedicated imaging rig in a backyard roll-off shed and participates in online imaging challenges. He is methodical, data-driven, and occasionally condescending about visual-only observers.",
       "skills_list": [
-        {"skill": "narrowband astrophotography", "proficiency": "strong"},
-        {"skill": "image processing (PixInsight)", "proficiency": "strong"},
-        {"skill": "mount automation and scripting", "proficiency": "strong"},
-        {"skill": "3D printing custom adapters", "proficiency": "medium"}
+        {
+          "skill": "narrowband astrophotography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "image processing (PixInsight)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "mount automation and scripting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "3D printing custom adapters",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -99,18 +147,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "energy drinks during all-night imaging sessions", "confidence": "High", "implicit": true}
+          {
+            "value": "energy drinks during all-night imaging sessions",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "remote imaging over in-person star parties", "confidence": "High", "implicit": true},
-          {"value": "emission nebulae targets over galaxies", "confidence": "Medium", "implicit": true}
+          {
+            "value": "remote imaging over in-person star parties",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "emission nebulae targets over galaxies",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "one-on-one technical discussions over group chat noise", "confidence": "High", "implicit": true}
+          {
+            "value": "one-on-one technical discussions over group chat noise",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "strongly prefers hydrogen-alpha narrowband over broadband LRGB", "confidence": "High", "implicit": true},
-          {"value": "dismissive of DSLR imaging as insufficiently scientific", "confidence": "Medium", "implicit": true}
+          {
+            "value": "strongly prefers hydrogen-alpha narrowband over broadband LRGB",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "dismissive of DSLR imaging as insufficiently scientific",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -128,7 +200,7 @@
         "always quotes SNR ratios or integration hours when sharing images",
         "never uses punctuation except full stops"
       ],
-      "participation_rate": 0.80,
+      "participation_rate": 0.8,
       "status": "active"
     },
     {
@@ -139,10 +211,22 @@
       "occupation": "PhD student in astrophysics",
       "background": "Priya is finishing her doctorate on solar chromospheric dynamics and brings rigorous scientific literacy to the group. She's the youngest expert, sometimes intimidating to newcomers, but genuinely enthusiastic about outreach. Her personal telescope is a dedicated H-alpha solar setup.",
       "skills_list": [
-        {"skill": "solar observing (H-alpha)", "proficiency": "strong"},
-        {"skill": "spectroscopy", "proficiency": "strong"},
-        {"skill": "science communication", "proficiency": "medium"},
-        {"skill": "Python data analysis", "proficiency": "strong"}
+        {
+          "skill": "solar observing (H-alpha)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "spectroscopy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "science communication",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Python data analysis",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -162,18 +246,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "instant ramen at late-night observing sessions", "confidence": "High", "implicit": true}
+          {
+            "value": "instant ramen at late-night observing sessions",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "solar observing daytime sessions over night work when pressed for time", "confidence": "High", "implicit": true},
-          {"value": "citizen science projects like variable star reporting", "confidence": "Medium", "implicit": true}
+          {
+            "value": "solar observing daytime sessions over night work when pressed for time",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "citizen science projects like variable star reporting",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "enjoys teaching beginners even if it slows sessions down", "confidence": "High", "implicit": true}
+          {
+            "value": "enjoys teaching beginners even if it slows sessions down",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers data-driven observing with a log over casual browsing", "confidence": "High", "implicit": true},
-          {"value": "skeptical of astrology crossover events the club occasionally hosts", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers data-driven observing with a log over casual browsing",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "skeptical of astrology crossover events the club occasionally hosts",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -196,16 +304,28 @@
     },
     {
       "persona_id": "p_b0c10004",
-      "display_name": "Tomás",
+      "display_name": "Tom\u00e1s",
       "age": 44,
       "gender": "male",
       "occupation": "Freelance landscape photographer",
-      "background": "Tomás crossed over into astrophotography from landscape work two years ago and still approaches the sky as a visual artist rather than a scientist. He shoots with a DSLR on a simple star tracker and cares deeply about composition and colour palette. He is relaxed, social, and brings a creative eye that occasionally clashes with Jerome's technical rigour.",
+      "background": "Tom\u00e1s crossed over into astrophotography from landscape work two years ago and still approaches the sky as a visual artist rather than a scientist. He shoots with a DSLR on a simple star tracker and cares deeply about composition and colour palette. He is relaxed, social, and brings a creative eye that occasionally clashes with Jerome's technical rigour.",
       "skills_list": [
-        {"skill": "DSLR astrophotography (wide-field)", "proficiency": "strong"},
-        {"skill": "photo editing (Lightroom/Photoshop)", "proficiency": "strong"},
-        {"skill": "location scouting for dark skies", "proficiency": "medium"},
-        {"skill": "drone piloting", "proficiency": "low"}
+        {
+          "skill": "DSLR astrophotography (wide-field)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "photo editing (Lightroom/Photoshop)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "location scouting for dark skies",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "drone piloting",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -225,18 +345,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "cold pizza left over from the pre-session meetup", "confidence": "Medium", "implicit": true}
+          {
+            "value": "cold pizza left over from the pre-session meetup",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "Milky Way arch wide-field shots over deep-sky imaging", "confidence": "High", "implicit": true},
-          {"value": "combining landscape foreground with night sky", "confidence": "High", "implicit": true}
+          {
+            "value": "Milky Way arch wide-field shots over deep-sky imaging",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "combining landscape foreground with night sky",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "large mixed-skill star parties where he can photograph people observing", "confidence": "High", "implicit": true}
+          {
+            "value": "large mixed-skill star parties where he can photograph people observing",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers new moon periods but will go out on quarter moon for landscape shots", "confidence": "High", "implicit": true},
-          {"value": "doesn't mind moderate light pollution if the foreground is interesting", "confidence": "Medium", "implicit": true}
+          {
+            "value": "prefers new moon periods but will go out on quarter moon for landscape shots",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "doesn't mind moderate light pollution if the foreground is interesting",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -246,15 +390,15 @@
           "old_value": "happy with basic barn-door star tracker",
           "new_value": "wants to upgrade to a proper equatorial mount after seeing Jerome's results",
           "changed_at_session": 5,
-          "trigger": "Jerome's Ha image of the Rosette Nebula left Tomás genuinely envious of the detail possible with a proper mount"
+          "trigger": "Jerome's Ha image of the Rosette Nebula left Tom\u00e1s genuinely envious of the detail possible with a proper mount"
         }
       ],
       "speaking_quirks": [
-        "ends messages with relevant emojis clusters (🌌✨)",
+        "ends messages with relevant emojis clusters (\ud83c\udf0c\u2728)",
         "frequently misspells 'definitely' as 'definately'",
         "uses 'mate' as a generic address"
       ],
-      "participation_rate": 0.90,
+      "participation_rate": 0.9,
       "status": "active"
     },
     {
@@ -265,10 +409,22 @@
       "occupation": "Public librarian",
       "background": "Ruth discovered astronomy through a library astronomy night she organised five years ago and never looked back. She is a dedicated visual observer who specialises in double stars and keeps the club's lending library of astronomy books. She has a quiet persistence that leads her to always finish her observing list even in challenging conditions.",
       "skills_list": [
-        {"skill": "double-star observing", "proficiency": "strong"},
-        {"skill": "telescope optics knowledge", "proficiency": "medium"},
-        {"skill": "public programme organisation", "proficiency": "strong"},
-        {"skill": "astrophotography (basic DSLR)", "proficiency": "low"}
+        {
+          "skill": "double-star observing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "telescope optics knowledge",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "public programme organisation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "astrophotography (basic DSLR)",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -288,18 +444,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "digestive biscuits and hot chocolate on cold nights", "confidence": "High", "implicit": true}
+          {
+            "value": "digestive biscuits and hot chocolate on cold nights",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "double-star splitting over nebula hunting", "confidence": "High", "implicit": true},
-          {"value": "monthly club meetings at the library over field sessions", "confidence": "Medium", "implicit": true}
+          {
+            "value": "double-star splitting over nebula hunting",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "monthly club meetings at the library over field sessions",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "structured programme with clear agenda over free-form chat", "confidence": "High", "implicit": true}
+          {
+            "value": "structured programme with clear agenda over free-form chat",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers seeing-dependent targets so appreciates steady nights even near town", "confidence": "High", "implicit": true},
-          {"value": "resists switching to go-to mounts — values the manual skill of star-hopping", "confidence": "Medium", "implicit": true}
+          {
+            "value": "prefers seeing-dependent targets so appreciates steady nights even near town",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "resists switching to go-to mounts \u2014 values the manual skill of star-hopping",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -314,7 +494,7 @@
       ],
       "speaking_quirks": [
         "recommends a book for almost every topic that comes up",
-        "never abbreviates — types out full words even in quick messages",
+        "never abbreviates \u2014 types out full words even in quick messages",
         "phrases disagreement as a question: 'Is it possible that...?'"
       ],
       "participation_rate": 0.88,
@@ -328,10 +508,22 @@
       "occupation": "Self-employed plumber",
       "background": "Marcus got into astronomy after his kids gave him a beginner telescope as a birthday joke that he took seriously. He has since become the group's most enthusiastic planetary observer, spending clear nights tracking Jupiter's belts and Saturn's ring tilt with meticulous sketching. He is unpretentious, funny, and occasionally disruptive in group chat.",
       "skills_list": [
-        {"skill": "planetary observing and sketching", "proficiency": "strong"},
-        {"skill": "telescope maintenance and repair", "proficiency": "strong"},
-        {"skill": "weather reading and forecasting", "proficiency": "medium"},
-        {"skill": "astrophotography (planetary webcam)", "proficiency": "medium"}
+        {
+          "skill": "planetary observing and sketching",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "telescope maintenance and repair",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "weather reading and forecasting",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "astrophotography (planetary webcam)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -351,18 +543,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "bacon sandwich before early morning planetary sessions", "confidence": "High", "implicit": true}
+          {
+            "value": "bacon sandwich before early morning planetary sessions",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "planetary observing over deep-sky work", "confidence": "High", "implicit": true},
-          {"value": "casual pub dinner before star parties", "confidence": "High", "implicit": true}
+          {
+            "value": "planetary observing over deep-sky work",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "casual pub dinner before star parties",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "relaxed no-pressure atmosphere where banter is welcome", "confidence": "High", "implicit": true}
+          {
+            "value": "relaxed no-pressure atmosphere where banter is welcome",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers short focal length refractors for planetary sharpness over big Dobs", "confidence": "High", "implicit": true},
-          {"value": "happy observing from the town site if the seeing is good for planets", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers short focal length refractors for planetary sharpness over big Dobs",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "happy observing from the town site if the seeing is good for planets",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -391,10 +607,22 @@
       "occupation": "Marketing manager",
       "background": "Cecilia joined the group three years ago after attending a public star party and was immediately hooked on astrophotography. She manages the group's social media presence and organises the annual dark-sky weekend. Her imaging focuses on colourful broadband objects she can use in club promotional materials. She is well-liked but sometimes prioritises optics that photograph well over scientific merit.",
       "skills_list": [
-        {"skill": "broadband DSLR astrophotography", "proficiency": "medium"},
-        {"skill": "social media content creation", "proficiency": "strong"},
-        {"skill": "event logistics", "proficiency": "strong"},
-        {"skill": "graphic design (Canva)", "proficiency": "medium"}
+        {
+          "skill": "broadband DSLR astrophotography",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "social media content creation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "event logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "graphic design (Canva)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -414,18 +642,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "organises shared meal before every star party, always suggests Thai or Indian takeaway", "confidence": "High", "implicit": true}
+          {
+            "value": "organises shared meal before every star party, always suggests Thai or Indian takeaway",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "colourful showpiece objects (Orion Nebula, Andromeda) over subtle targets", "confidence": "High", "implicit": true},
-          {"value": "organising club social events as much as observing", "confidence": "High", "implicit": true}
+          {
+            "value": "colourful showpiece objects (Orion Nebula, Andromeda) over subtle targets",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "organising club social events as much as observing",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "inclusive events that welcome complete beginners", "confidence": "High", "implicit": true}
+          {
+            "value": "inclusive events that welcome complete beginners",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers broadband RGB imaging over narrowband monochrome", "confidence": "High", "implicit": true},
-          {"value": "advocates for the local dark-sky site 40 minutes from town as the sweet spot for accessibility", "confidence": "High", "implicit": true}
+          {
+            "value": "prefers broadband RGB imaging over narrowband monochrome",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "advocates for the local dark-sky site 40 minutes from town as the sweet spot for accessibility",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -454,10 +706,22 @@
       "occupation": "Sixth-form student (A-levels: Physics, Maths, Computer Science)",
       "background": "Dev joined the group six months ago after watching astronomy YouTube late at night. He uses a basic 70mm refractor his parents bought him and is voraciously absorbing knowledge from every member. He is the group's youngest member, sometimes intimidated but always eager. He writes a school blog about his observations.",
       "skills_list": [
-        {"skill": "constellation identification", "proficiency": "medium"},
-        {"skill": "mobile app astronomy tools (SkySafari, Stellarium)", "proficiency": "strong"},
-        {"skill": "basic astrophotography (smartphone prime focus)", "proficiency": "low"},
-        {"skill": "writing and blogging", "proficiency": "medium"}
+        {
+          "skill": "constellation identification",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "mobile app astronomy tools (SkySafari, Stellarium)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "basic astrophotography (smartphone prime focus)",
+          "proficiency": "low"
+        },
+        {
+          "skill": "writing and blogging",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -477,18 +741,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "energy drinks to stay up late for observing", "confidence": "High", "implicit": true}
+          {
+            "value": "energy drinks to stay up late for observing",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "hands-on telescope time with a mentor over listening to lectures", "confidence": "High", "implicit": true},
-          {"value": "attempting to photograph through his refractor even when conditions don't suit it", "confidence": "Medium", "implicit": true}
+          {
+            "value": "hands-on telescope time with a mentor over listening to lectures",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "attempting to photograph through his refractor even when conditions don't suit it",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "one-on-one mentoring from experienced members", "confidence": "High", "implicit": true}
+          {
+            "value": "one-on-one mentoring from experienced members",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "fascinated by the Moon and planets as accessible targets for small aperture", "confidence": "High", "implicit": true},
-          {"value": "wants to upgrade to a computerised go-to mount as first major purchase", "confidence": "High", "implicit": true}
+          {
+            "value": "fascinated by the Moon and planets as accessible targets for small aperture",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "wants to upgrade to a computerised go-to mount as first major purchase",
+            "confidence": "High",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -517,10 +805,22 @@
       "occupation": "Freelance journalist and podcast host",
       "background": "Harriet hosts a podcast called 'Dark Matters' about amateur astronomy culture and covers science for several national magazines. She joined the group as a journalist but stayed as a genuine enthusiast. She owns a compact APO refractor she takes to dark-sky sites and writes beautifully about the experience of observing. She is sociable, opinionated, and energises group discussions.",
       "skills_list": [
-        {"skill": "astronomy writing and storytelling", "proficiency": "strong"},
-        {"skill": "visual observing (wide-field refractor)", "proficiency": "medium"},
-        {"skill": "podcast production", "proficiency": "strong"},
-        {"skill": "astrophotography (tracked wide-field)", "proficiency": "medium"}
+        {
+          "skill": "astronomy writing and storytelling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "visual observing (wide-field refractor)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "podcast production",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "astrophotography (tracked wide-field)",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -540,18 +840,42 @@
       },
       "preferences": {
         "food": [
-          {"value": "proper flask of coffee, not instant — non-negotiable on dark-sky nights", "confidence": "High", "implicit": true}
+          {
+            "value": "proper flask of coffee, not instant \u2014 non-negotiable on dark-sky nights",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "activities": [
-          {"value": "dark-sky retreats where she can record ambient sound for the podcast", "confidence": "High", "implicit": true},
-          {"value": "interviewing group members about their astronomy journeys", "confidence": "High", "implicit": true}
+          {
+            "value": "dark-sky retreats where she can record ambient sound for the podcast",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "interviewing group members about their astronomy journeys",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "social": [
-          {"value": "structured post-session debrief chat so she can capture stories", "confidence": "High", "implicit": true}
+          {
+            "value": "structured post-session debrief chat so she can capture stories",
+            "confidence": "High",
+            "implicit": true
+          }
         ],
         "domain_specific": [
-          {"value": "prefers APO refractors for portability and aesthetic image quality over light-gathering brutes", "confidence": "High", "implicit": true},
-          {"value": "dislikes computerised go-to mounts — values the meditative quality of manual finding", "confidence": "Medium", "implicit": true}
+          {
+            "value": "prefers APO refractors for portability and aesthetic image quality over light-gathering brutes",
+            "confidence": "High",
+            "implicit": true
+          },
+          {
+            "value": "dislikes computerised go-to mounts \u2014 values the meditative quality of manual finding",
+            "confidence": "Medium",
+            "implicit": true
+          }
         ]
       },
       "preference_history": [
@@ -581,7 +905,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Nadia and Ruth co-founded the group after meeting at a county natural-history society event. They share a strong visual-observing philosophy and mutual respect built over five years of organising sessions together.",
-      "shared_events": ["co-organised the first public star party", "joint Messier marathon attempt in 2023", "collaborated on the club's beginner observer guide"]
+      "shared_events": [
+        "co-organised the first public star party",
+        "joint Messier marathon attempt in 2023",
+        "collaborated on the club's beginner observer guide"
+      ]
     },
     {
       "persona_a_id": "p_b0c10001",
@@ -590,7 +918,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Nadia adopted Dev as an informal mentee from his first session, patiently walking him through manual star-hopping and insisting he keep a paper logbook just as she does.",
-      "shared_events": ["Albireo and Double Cluster session that changed Dev's target preferences", "Dev's first solo star-hop to the Andromeda Galaxy", "Nadia wrote a glowing report about Dev for his school"]
+      "shared_events": [
+        "Albireo and Double Cluster session that changed Dev's target preferences",
+        "Dev's first solo star-hop to the Andromeda Galaxy",
+        "Nadia wrote a glowing report about Dev for his school"
+      ]
     },
     {
       "persona_a_id": "p_b0c10001",
@@ -599,7 +931,11 @@
       "closeness": "Medium",
       "sentiment": "mixed",
       "history_summary": "Nadia and Jerome respect each other's expertise but fundamentally disagree about whether astrophotography or visual observing is the more authentic experience. Their debates are a fixture of group discussions.",
-      "shared_events": ["co-presented at a regional astronomy society conference", "the Veil Nebula session that shifted Nadia's aperture preference", "ongoing debate about light pollution policy for star parties"]
+      "shared_events": [
+        "co-presented at a regional astronomy society conference",
+        "the Veil Nebula session that shifted Nadia's aperture preference",
+        "ongoing debate about light pollution policy for star parties"
+      ]
     },
     {
       "persona_a_id": "p_b0c10002",
@@ -608,7 +944,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Jerome and Cecilia collaborate on the club's imaging showcase, with Jerome providing technical depth and Cecilia handling presentation and promotion. They have friction when Cecilia's aesthetic choices conflict with Jerome's data standards.",
-      "shared_events": ["joint image of the Orion Nebula used on the club banner", "Jerome's PixInsight tutorial for Cecilia", "disagreement over whether to saturate colours for social media"]
+      "shared_events": [
+        "joint image of the Orion Nebula used on the club banner",
+        "Jerome's PixInsight tutorial for Cecilia",
+        "disagreement over whether to saturate colours for social media"
+      ]
     },
     {
       "persona_a_id": "p_b0c10002",
@@ -616,8 +956,12 @@
       "relationship_type": "technical_vs_artistic_tension",
       "closeness": "Low",
       "sentiment": "tense",
-      "history_summary": "Jerome finds Tomás's DSLR wide-field approach insufficiently scientific and has said so publicly in the chat more than once. Tomás brushes it off but occasionally fires back when Jerome's dismissiveness goes too far.",
-      "shared_events": ["a public argument in the chat about whether DSLR astrophotography counts as 'real' imaging", "both shortlisted for the club's image of the year award", "shared a dark-sky site where they observed in companionable silence"]
+      "history_summary": "Jerome finds Tom\u00e1s's DSLR wide-field approach insufficiently scientific and has said so publicly in the chat more than once. Tom\u00e1s brushes it off but occasionally fires back when Jerome's dismissiveness goes too far.",
+      "shared_events": [
+        "a public argument in the chat about whether DSLR astrophotography counts as 'real' imaging",
+        "both shortlisted for the club's image of the year award",
+        "shared a dark-sky site where they observed in companionable silence"
+      ]
     },
     {
       "persona_a_id": "p_b0c10003",
@@ -626,7 +970,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Priya took on Dev as someone to explain the real physics behind what he was seeing, which shifted from chore to genuine pleasure as Dev's questions grew more sophisticated.",
-      "shared_events": ["Priya helped Dev with his school astronomy project", "Dev attended one of Priya's public outreach talks", "joint attempt at variable star monitoring with Dev's small refractor"]
+      "shared_events": [
+        "Priya helped Dev with his school astronomy project",
+        "Dev attended one of Priya's public outreach talks",
+        "joint attempt at variable star monitoring with Dev's small refractor"
+      ]
     },
     {
       "persona_a_id": "p_b0c10003",
@@ -635,7 +983,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Priya and Jerome respect each other as technically rigorous members, though Priya occasionally pushes back on Jerome's arrogance toward less experienced members.",
-      "shared_events": ["co-authored a club newsletter piece on narrowband imaging", "debated the merits of visual vs. photon-counting at a club meeting", "Priya peer-reviewed Jerome's planetary atmospheric data"]
+      "shared_events": [
+        "co-authored a club newsletter piece on narrowband imaging",
+        "debated the merits of visual vs. photon-counting at a club meeting",
+        "Priya peer-reviewed Jerome's planetary atmospheric data"
+      ]
     },
     {
       "persona_a_id": "p_b0c10004",
@@ -643,8 +995,12 @@
       "relationship_type": "creative_collaborators",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Tomás and Cecilia bonded over their shared interest in astronomy as visual art and storytelling. He photographs the events she organises; she uses his images to promote the club.",
-      "shared_events": ["shot the official dark-sky weekend photo album together", "co-ran a workshop on astrophotography for beginners", "planning a joint Instagram takeover for the club"]
+      "history_summary": "Tom\u00e1s and Cecilia bonded over their shared interest in astronomy as visual art and storytelling. He photographs the events she organises; she uses his images to promote the club.",
+      "shared_events": [
+        "shot the official dark-sky weekend photo album together",
+        "co-ran a workshop on astrophotography for beginners",
+        "planning a joint Instagram takeover for the club"
+      ]
     },
     {
       "persona_a_id": "p_b0c10004",
@@ -652,8 +1008,12 @@
       "relationship_type": "fellow_artists",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Tomás and Harriet share an appreciation for the aesthetic and narrative dimension of astronomy that sets them apart from the more technical members. They often debrief sessions together over coffee.",
-      "shared_events": ["Harriet featured Tomás's Milky Way arch photograph on her podcast cover art", "co-scouted a new dark-sky location together", "ongoing WhatsApp thread about the best astronomy books for non-scientists"]
+      "history_summary": "Tom\u00e1s and Harriet share an appreciation for the aesthetic and narrative dimension of astronomy that sets them apart from the more technical members. They often debrief sessions together over coffee.",
+      "shared_events": [
+        "Harriet featured Tom\u00e1s's Milky Way arch photograph on her podcast cover art",
+        "co-scouted a new dark-sky location together",
+        "ongoing WhatsApp thread about the best astronomy books for non-scientists"
+      ]
     },
     {
       "persona_a_id": "p_b0c10005",
@@ -661,8 +1021,12 @@
       "relationship_type": "equipment_swap_friends",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Ruth and Marcus swap equipment advice regularly — she borrows his planetary eyepieces for double-star work; he occasionally uses the club telescope she curates. They have an easy, practical friendship.",
-      "shared_events": ["repaired a club telescope together", "joint session targeting both double stars and planets on the same night", "Ruth recommended a double-star catalogue that Marcus now uses"]
+      "history_summary": "Ruth and Marcus swap equipment advice regularly \u2014 she borrows his planetary eyepieces for double-star work; he occasionally uses the club telescope she curates. They have an easy, practical friendship.",
+      "shared_events": [
+        "repaired a club telescope together",
+        "joint session targeting both double stars and planets on the same night",
+        "Ruth recommended a double-star catalogue that Marcus now uses"
+      ]
     },
     {
       "persona_a_id": "p_b0c10005",
@@ -671,7 +1035,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Ruth and Harriet worked together to create a reading list and podcast episode series for beginners. Ruth supplies the book recommendations; Harriet turns them into accessible audio content.",
-      "shared_events": ["produced the 'Stargazers Starter Pack' podcast episode", "co-hosted a library astronomy night", "debated whether go-to mounts deskill beginners (both agreed they do)"]
+      "shared_events": [
+        "produced the 'Stargazers Starter Pack' podcast episode",
+        "co-hosted a library astronomy night",
+        "debated whether go-to mounts deskill beginners (both agreed they do)"
+      ]
     },
     {
       "persona_a_id": "p_b0c10006",
@@ -679,8 +1047,12 @@
       "relationship_type": "social_anchors",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Marcus and Cecilia are the social engine of the group — between them they make sure everyone knows about events and that the atmosphere stays welcoming. They organise the pre-session pub dinners together.",
-      "shared_events": ["organised every group pub dinner for the past two years", "jointly resisted a proposal to hold members-only sessions", "co-managed the WhatsApp group admin duties"]
+      "history_summary": "Marcus and Cecilia are the social engine of the group \u2014 between them they make sure everyone knows about events and that the atmosphere stays welcoming. They organise the pre-session pub dinners together.",
+      "shared_events": [
+        "organised every group pub dinner for the past two years",
+        "jointly resisted a proposal to hold members-only sessions",
+        "co-managed the WhatsApp group admin duties"
+      ]
     },
     {
       "persona_a_id": "p_b0c10006",
@@ -688,8 +1060,12 @@
       "relationship_type": "observing_buddies",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Marcus and Tomás discovered shared taste in relaxed observing sessions without overthinking the science. They often set up next to each other at star parties and provide a running commentary.",
-      "shared_events": ["stayed out till 4am watching Jupiter together during opposition", "drove together to a rural site for the Perseid meteor shower", "bet on who could image Saturn first in a season"]
+      "history_summary": "Marcus and Tom\u00e1s discovered shared taste in relaxed observing sessions without overthinking the science. They often set up next to each other at star parties and provide a running commentary.",
+      "shared_events": [
+        "stayed out till 4am watching Jupiter together during opposition",
+        "drove together to a rural site for the Perseid meteor shower",
+        "bet on who could image Saturn first in a season"
+      ]
     },
     {
       "persona_a_id": "p_b0c10007",
@@ -697,8 +1073,12 @@
       "relationship_type": "communications_allies",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Cecilia and Harriet coordinate on promoting the club — Cecilia handles social media while Harriet provides editorial and podcast reach. They occasionally disagree about tone: Harriet wants depth, Cecilia wants clicks.",
-      "shared_events": ["produced a joint Instagram-podcast cross-promotion", "mild disagreement over whether to cover an astrology-adjacent eclipse event", "both appeared on a local radio segment about the club"]
+      "history_summary": "Cecilia and Harriet coordinate on promoting the club \u2014 Cecilia handles social media while Harriet provides editorial and podcast reach. They occasionally disagree about tone: Harriet wants depth, Cecilia wants clicks.",
+      "shared_events": [
+        "produced a joint Instagram-podcast cross-promotion",
+        "mild disagreement over whether to cover an astrology-adjacent eclipse event",
+        "both appeared on a local radio segment about the club"
+      ]
     },
     {
       "persona_a_id": "p_b0c10008",
@@ -707,7 +1087,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Dev and Marcus bonded over their shared love of planets and their tendency to stay up unreasonably late chasing planetary detail. Marcus treats Dev like a younger sibling.",
-      "shared_events": ["stayed up together for a 3am Jupiter culmination", "Marcus let Dev use his planetary webcam rig", "Dev wrote about Marcus's Jupiter sketches for his school blog"]
+      "shared_events": [
+        "stayed up together for a 3am Jupiter culmination",
+        "Marcus let Dev use his planetary webcam rig",
+        "Dev wrote about Marcus's Jupiter sketches for his school blog"
+      ]
     },
     {
       "persona_a_id": "p_b0c10001",
@@ -716,7 +1100,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Nadia appeared on Harriet's podcast to discuss decades of visual observing history, and the two developed a warm respect. Harriet values Nadia's institutional memory; Nadia appreciates being heard.",
-      "shared_events": ["podcast episode recording that ran 90 minutes over schedule", "Nadia contributed to Harriet's magazine piece on Messier marathons", "Harriet read excerpts from Nadia's logbooks on air"]
+      "shared_events": [
+        "podcast episode recording that ran 90 minutes over schedule",
+        "Nadia contributed to Harriet's magazine piece on Messier marathons",
+        "Harriet read excerpts from Nadia's logbooks on air"
+      ]
     },
     {
       "persona_a_id": "p_b0c10003",
@@ -724,13 +1112,16 @@
       "relationship_type": "science_meets_storytelling",
       "closeness": "Low",
       "sentiment": "neutral",
-      "history_summary": "Priya and Harriet have a cordial but somewhat distant relationship — Harriet finds Priya slightly hard to read, and Priya is cautious about oversimplification in Harriet's writing. They collaborate only when forced to.",
-      "shared_events": ["Harriet interviewed Priya for a solar eclipse magazine piece", "a factual correction Priya requested on a podcast episode created mild awkwardness"]
+      "history_summary": "Priya and Harriet have a cordial but somewhat distant relationship \u2014 Harriet finds Priya slightly hard to read, and Priya is cautious about oversimplification in Harriet's writing. They collaborate only when forced to.",
+      "shared_events": [
+        "Harriet interviewed Priya for a solar eclipse magazine piece",
+        "a factual correction Priya requested on a podcast episode created mild awkwardness"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "We always use red lights only once observing starts — no white torches, no phone screens in normal mode",
+      "norm_text": "We always use red lights only once observing starts \u2014 no white torches, no phone screens in normal mode",
       "truly_universal": true,
       "dissenters": []
     },
@@ -740,14 +1131,20 @@
       "dissenters": []
     },
     {
-      "norm_text": "We always do a group meal before dark-sky nights — it's part of the tradition",
+      "norm_text": "We always do a group meal before dark-sky nights \u2014 it's part of the tradition",
       "truly_universal": false,
-      "dissenters": ["p_b0c10002", "p_b0c10003"]
+      "dissenters": [
+        "p_b0c10002",
+        "p_b0c10003"
+      ]
     },
     {
-      "norm_text": "Our star parties are always at the Blackmoor Hill site — it's our home base",
+      "norm_text": "Our star parties are always at the Blackmoor Hill site \u2014 it's our home base",
       "truly_universal": false,
-      "dissenters": ["p_b0c10009", "p_b0c10001"]
+      "dissenters": [
+        "p_b0c10009",
+        "p_b0c10001"
+      ]
     },
     {
       "norm_text": "We share all our images to the group album, not just the best ones",
@@ -755,14 +1152,21 @@
       "dissenters": []
     },
     {
-      "norm_text": "No gear talk in the first 30 minutes of a session — we just observe",
+      "norm_text": "No gear talk in the first 30 minutes of a session \u2014 we just observe",
       "truly_universal": false,
-      "dissenters": ["p_b0c10002", "p_b0c10006"]
+      "dissenters": [
+        "p_b0c10002",
+        "p_b0c10006"
+      ]
     }
   ],
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "interest_community",
+    "group_size": 9
   }
 }

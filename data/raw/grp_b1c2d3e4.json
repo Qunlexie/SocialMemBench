@@ -13,10 +13,22 @@
       "occupation": "High school PE teacher",
       "background": "Former collegiate cross-country runner, now coaches a youth track team on weekends. Has run four marathons. Organizes most club logistics and knows every trail within 30 miles.",
       "skills_list": [
-        {"skill": "trail navigation", "proficiency": "strong"},
-        {"skill": "group pacing strategy", "proficiency": "strong"},
-        {"skill": "first aid / blister care", "proficiency": "medium"},
-        {"skill": "race schedule planning", "proficiency": "medium"}
+        {
+          "skill": "trail navigation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "group pacing strategy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "first aid / blister care",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "race schedule planning",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -27,18 +39,42 @@
       },
       "communication_profile": {
         "formality": "Semi-formal",
-        "verbosity": "Verbose",
-        "emoji_use": "Moderate",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
         "humor": "Playful",
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "prefers carb-loading meals the night before long runs", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers road marathons over trail ultras — likes predictable pacing", "confidence": "High", "implicit": true}],
-        "social": [{"value": "organizes post-run brunch, uncomfortable when people skip without notice", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "strongly dislikes races that start before 6am", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "prefers carb-loading meals the night before long runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers road marathons over trail ultras \u2014 likes predictable pacing",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "organizes post-run brunch, uncomfortable when people skip without notice",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly dislikes races that start before 6am",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -65,9 +101,18 @@
       "occupation": "Pediatric nurse",
       "background": "Started running four years ago as stress relief. Focuses on 10Ks. Works rotating hospital shifts, which makes weekday runs difficult. Close with Fatima from a running camp.",
       "skills_list": [
-        {"skill": "injury prevention knowledge", "proficiency": "strong"},
-        {"skill": "nutrition timing", "proficiency": "medium"},
-        {"skill": "10K race tactics", "proficiency": "medium"}
+        {
+          "skill": "injury prevention knowledge",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "nutrition timing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "10K race tactics",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -86,10 +131,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "avoids anything with beets — finds the texture and taste unpleasant", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers flat road courses, finds trail running anxiety-inducing due to ankle instability", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers smaller group runs of 4-6 people over large club runs", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "dislikes compression socks — thinks they are gimmicky despite the evidence", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "avoids anything with beets \u2014 finds the texture and taste unpleasant",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers flat road courses, finds trail running anxiety-inducing due to ankle instability",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers smaller group runs of 4-6 people over large club runs",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes compression socks \u2014 thinks they are gimmicky despite the evidence",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -116,9 +185,18 @@
       "occupation": "Software engineer",
       "background": "Data-obsessed hobby runner who logs everything in Strava. Only joined the club six months ago. Runs in the 'sub-4 minute mile' fantasy category in his head; actually about 8 min/mile. Still enthusiastic.",
       "skills_list": [
-        {"skill": "GPS/running app data analysis", "proficiency": "strong"},
-        {"skill": "route mapping", "proficiency": "strong"},
-        {"skill": "gear research", "proficiency": "medium"}
+        {
+          "skill": "GPS/running app data analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "route mapping",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gear research",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -128,19 +206,43 @@
         "neuroticism": "Low"
       },
       "communication_profile": {
-        "formality": "Casual",
-        "verbosity": "Verbose",
-        "emoji_use": "Rare",
+        "formality": "Semi-formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "vegan — avoids all animal products including at post-run brunches", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "obsessed with GPS data — always checking his watch, dislikes routes without Strava segments", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers structured tempo runs over casual social jogs", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "strongly prefers morning runs before 7am; dislikes evening runs because it disrupts his sleep data", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "vegan \u2014 avoids all animal products including at post-run brunches",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "obsessed with GPS data \u2014 always checking his watch, dislikes routes without Strava segments",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers structured tempo runs over casual social jogs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "strongly prefers morning runs before 7am; dislikes evening runs because it disrupts his sleep data",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -165,12 +267,24 @@
       "age": 38,
       "gender": "female",
       "occupation": "Physical therapist",
-      "background": "Specializes in sports injuries. Has completed three 50K trail ultras. Knows Priya from a running retreat two years ago. Respected in the club for her injury expertise — people ask her about their aches between runs.",
+      "background": "Specializes in sports injuries. Has completed three 50K trail ultras. Knows Priya from a running retreat two years ago. Respected in the club for her injury expertise \u2014 people ask her about their aches between runs.",
       "skills_list": [
-        {"skill": "biomechanics and gait analysis", "proficiency": "strong"},
-        {"skill": "ultra trail racing", "proficiency": "strong"},
-        {"skill": "injury rehabilitation", "proficiency": "strong"},
-        {"skill": "strength training for runners", "proficiency": "medium"}
+        {
+          "skill": "biomechanics and gait analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "ultra trail racing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "injury rehabilitation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "strength training for runners",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -180,19 +294,43 @@
         "neuroticism": "Low"
       },
       "communication_profile": {
-        "formality": "Semi-formal",
+        "formality": "Formal",
         "verbosity": "Concise",
-        "emoji_use": "Rare",
+        "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "intermittent fasting — skips breakfast before morning runs, eats within 2 hours after", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "strongly prefers trail running over road — finds road running hard on her joints despite the irony", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers single-file quiet trail runs over chatty road runs", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "dislikes foam rollers — prefers lacrosse ball and targeted massage", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "intermittent fasting \u2014 skips breakfast before morning runs, eats within 2 hours after",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "strongly prefers trail running over road \u2014 finds road running hard on her joints despite the irony",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers single-file quiet trail runs over chatty road runs",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes foam rollers \u2014 prefers lacrosse ball and targeted massage",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -217,11 +355,20 @@
       "age": 52,
       "gender": "male",
       "occupation": "Accountant",
-      "background": "Club's most consistent presence — has not missed a Saturday group run in three years. Methodical, slow, and completely indifferent to pace metrics. Runs for the social aspect more than fitness.",
+      "background": "Club's most consistent presence \u2014 has not missed a Saturday group run in three years. Methodical, slow, and completely indifferent to pace metrics. Runs for the social aspect more than fitness.",
       "skills_list": [
-        {"skill": "consistent long-slow distance", "proficiency": "strong"},
-        {"skill": "post-run logistics (booking venues)", "proficiency": "medium"},
-        {"skill": "remembering everyone's race schedules", "proficiency": "medium"}
+        {
+          "skill": "consistent long-slow distance",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "post-run logistics (booking venues)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "remembering everyone's race schedules",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Low",
@@ -240,10 +387,34 @@
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "always orders the same post-run breakfast: scrambled eggs and toast, no substitutions", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "deeply resistant to hills — consistently routes around elevation gain", "confidence": "High", "implicit": true}],
-        "social": [{"value": "likes the pub over the cafe for post-run — finds cafes too loud", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "refuses to use a running watch — times himself with his phone", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "always orders the same post-run breakfast: scrambled eggs and toast, no substitutions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "deeply resistant to hills \u2014 consistently routes around elevation gain",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "likes the pub over the cafe for post-run \u2014 finds cafes too loud",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "refuses to use a running watch \u2014 times himself with his phone",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -270,9 +441,18 @@
       "occupation": "Graphic designer",
       "background": "Joined the club for social reasons more than running. Runs about three times a week but mostly shorter distances. Loves taking photos during runs. Does not own a GPS watch.",
       "skills_list": [
-        {"skill": "run photography / phone camera technique", "proficiency": "strong"},
-        {"skill": "social media content", "proficiency": "strong"},
-        {"skill": "route scouting for scenic spots", "proficiency": "medium"}
+        {
+          "skill": "run photography / phone camera technique",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "social media content",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "route scouting for scenic spots",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -291,10 +471,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "obsessed with matcha — always seeks out the cafe with the best matcha latte after runs", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers scenic routes over fast routes; slows down near interesting architecture", "confidence": "High", "implicit": true}],
-        "social": [{"value": "loves large group runs — finds small groups less energetic", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "gets bored on out-and-back routes — prefers loops for visual variety", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "obsessed with matcha \u2014 always seeks out the cafe with the best matcha latte after runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers scenic routes over fast routes; slows down near interesting architecture",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "loves large group runs \u2014 finds small groups less energetic",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "gets bored on out-and-back routes \u2014 prefers loops for visual variety",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -321,9 +525,18 @@
       "occupation": "Secondary school history teacher",
       "background": "Former competitive road runner in his 30s who has slowed down due to a recurring hamstring injury. Still fiercely competitive at heart but tries not to show it. Known for long mid-run monologues.",
       "skills_list": [
-        {"skill": "race strategy and pacing", "proficiency": "strong"},
-        {"skill": "hamstring injury management", "proficiency": "medium"},
-        {"skill": "club history — knows everyone's PRs", "proficiency": "medium"}
+        {
+          "skill": "race strategy and pacing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "hamstring injury management",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "club history \u2014 knows everyone's PRs",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -333,19 +546,43 @@
         "neuroticism": "Medium"
       },
       "communication_profile": {
-        "formality": "Semi-formal",
+        "formality": "Formal",
         "verbosity": "Verbose",
-        "emoji_use": "Rare",
+        "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "strictly avoids spicy food — has IBS and spicy triggers it badly before runs", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "secretly prefers solo runs where he can go at his own pace without feeling judged", "confidence": "High", "implicit": true}],
-        "social": [{"value": "uncomfortable at clubs or bars after runs — prefers coffee", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "does not like parkrun — thinks the 5K format is not serious enough for real training", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "strictly avoids spicy food \u2014 has IBS and spicy triggers it badly before runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "secretly prefers solo runs where he can go at his own pace without feeling judged",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable at clubs or bars after runs \u2014 prefers coffee",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "does not like parkrun \u2014 thinks the 5K format is not serious enough for real training",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -358,7 +595,7 @@
         }
       ],
       "speaking_quirks": [
-        "makes historical analogies ('this is like Pheidippides — great in theory, fatal in practice')",
+        "makes historical analogies ('this is like Pheidippides \u2014 great in theory, fatal in practice')",
         "uses 'to be fair' as a frequent qualifier",
         "long messages, rarely uses abbreviations or contractions"
       ],
@@ -372,9 +609,18 @@
       "occupation": "Barista and part-time personal trainer",
       "background": "Energy and enthusiasm in excess. Runs every day. Pushes herself too hard and is regularly nursing some minor injury while insisting she is fine. Friends with Yuki outside the club.",
       "skills_list": [
-        {"skill": "HIIT and cross-training", "proficiency": "strong"},
-        {"skill": "motivational encouragement", "proficiency": "strong"},
-        {"skill": "foam rolling recovery", "proficiency": "medium"}
+        {
+          "skill": "HIIT and cross-training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "motivational encouragement",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "foam rolling recovery",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -385,7 +631,7 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Concise",
+        "verbosity": "Terse",
         "emoji_use": "Frequent",
         "humor": "Expressive",
         "directness": "Blunt",
@@ -393,10 +639,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "always needs a coffee immediately post-run — will travel to get a specific flat white", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "loves interval training — finds steady-paced long runs boring", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers lively post-run venues with music over quiet ones", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "pushes through pain signals instead of resting — minimises injuries to others", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "always needs a coffee immediately post-run \u2014 will travel to get a specific flat white",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "loves interval training \u2014 finds steady-paced long runs boring",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers lively post-run venues with music over quiet ones",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "pushes through pain signals instead of resting \u2014 minimises injuries to others",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -423,9 +693,18 @@
       "occupation": "Retired civil engineer",
       "background": "Oldest active member. Took up running at 50 after a health scare. Runs for cardiovascular health, not speed or distance. A reliable voice of calm in group planning arguments.",
       "skills_list": [
-        {"skill": "long-distance walk/run pacing", "proficiency": "medium"},
-        {"skill": "route safety assessment", "proficiency": "strong"},
-        {"skill": "group morale — de-escalating conflicts", "proficiency": "strong"}
+        {
+          "skill": "long-distance walk/run pacing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "route safety assessment",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "group morale \u2014 de-escalating conflicts",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -436,18 +715,42 @@
       },
       "communication_profile": {
         "formality": "Formal",
-        "verbosity": "Concise",
+        "verbosity": "Moderate",
         "emoji_use": "Never",
-        "humor": "Dry",
+        "humor": "Minimal",
         "directness": "Balanced",
         "typo_rate": "None",
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "strict no alcohol — has been sober for 12 years, quietly declines pub sessions", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers run-walk intervals on longer distances — never pushes past comfortable heart rate", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers post-run coffee and a quiet chat to large rowdy groups", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "dislikes early-morning starts before 7:30am — health reasons related to medication timing", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "strict no alcohol \u2014 has been sober for 12 years, quietly declines pub sessions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers run-walk intervals on longer distances \u2014 never pushes past comfortable heart rate",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers post-run coffee and a quiet chat to large rowdy groups",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes early-morning starts before 7:30am \u2014 health reasons related to medication timing",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -474,9 +777,18 @@
       "occupation": "Marketing manager",
       "background": "Competitive 10K and half-marathon runner. Very image-conscious about her pace and appearance at races. Has a running nemesis in the club (Lionel) without either acknowledging it openly.",
       "skills_list": [
-        {"skill": "race-day preparation and logistics", "proficiency": "strong"},
-        {"skill": "social media and club promotion", "proficiency": "strong"},
-        {"skill": "half-marathon training plans", "proficiency": "medium"}
+        {
+          "skill": "race-day preparation and logistics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "social media and club promotion",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "half-marathon training plans",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -488,17 +800,41 @@
       "communication_profile": {
         "formality": "Semi-formal",
         "verbosity": "Concise",
-        "emoji_use": "Moderate",
+        "emoji_use": "Rare",
         "humor": "Playful",
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "orders dairy-free at cafes — lactose intolerance she does not always announce", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "fiercely competitive — always checking her ranking in local age group results", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers post-run at cafes over pubs — pubs feel unprofessional to her", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "dislikes group photos being posted without her approval", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "orders dairy-free at cafes \u2014 lactose intolerance she does not always announce",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "fiercely competitive \u2014 always checking her ranking in local age group results",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers post-run at cafes over pubs \u2014 pubs feel unprofessional to her",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes group photos being posted without her approval",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -525,9 +861,18 @@
       "occupation": "Physiotherapy student",
       "background": "Training to be a physio, uses the running club as informal field observation. Close with Fatima who has been a casual mentor. Currently writing a dissertation on running injury patterns.",
       "skills_list": [
-        {"skill": "gait analysis (developing)", "proficiency": "medium"},
-        {"skill": "taping and basic injury assessment", "proficiency": "medium"},
-        {"skill": "literature review / research", "proficiency": "strong"}
+        {
+          "skill": "gait analysis (developing)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "taping and basic injury assessment",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "literature review / research",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -546,10 +891,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "brings his own protein bars to every run, declines group food orders", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "observes more than runs during group sessions — pauses to write notes in his phone", "confidence": "High", "implicit": true}],
-        "social": [{"value": "arrives on time, leaves early — not interested in extended post-run socialising", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "uncomfortable with Fatima giving advice that contradicts current clinical literature", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "brings his own protein bars to every run, declines group food orders",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "observes more than runs during group sessions \u2014 pauses to write notes in his phone",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "arrives on time, leaves early \u2014 not interested in extended post-run socialising",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "uncomfortable with Fatima giving advice that contradicts current clinical literature",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -574,11 +943,20 @@
       "age": 44,
       "gender": "female",
       "occupation": "Primary school headteacher",
-      "background": "Runs to decompress from a high-pressure job. Does not track pace or distance — just runs by feel. Highly organised in her work life but surprisingly chaotic about running logistics.",
+      "background": "Runs to decompress from a high-pressure job. Does not track pace or distance \u2014 just runs by feel. Highly organised in her work life but surprisingly chaotic about running logistics.",
       "skills_list": [
-        {"skill": "long slow distance consistency", "proficiency": "medium"},
-        {"skill": "group communication and conflict resolution", "proficiency": "strong"},
-        {"skill": "motivating beginners", "proficiency": "strong"}
+        {
+          "skill": "long slow distance consistency",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "group communication and conflict resolution",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "motivating beginners",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -589,24 +967,48 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Verbose",
-        "emoji_use": "Moderate",
-        "humor": "Playful",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "gluten-free — coeliac diagnosis, not a lifestyle choice; quietly checks menus in advance", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "runs entirely without music or podcasts — needs the mental silence", "confidence": "High", "implicit": true}],
-        "social": [{"value": "values the social side over the athletic — would attend the post-run brunch even if she could not run", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "gets anxious about early morning wake-ups and being late to the start line", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "gluten-free \u2014 coeliac diagnosis, not a lifestyle choice; quietly checks menus in advance",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "runs entirely without music or podcasts \u2014 needs the mental silence",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "values the social side over the athletic \u2014 would attend the post-run brunch even if she could not run",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "gets anxious about early morning wake-ups and being late to the start line",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "running",
           "attribute": "run_environment",
-          "old_value": "road only — unfamiliar with trail etiquette",
+          "old_value": "road only \u2014 unfamiliar with trail etiquette",
           "new_value": "enjoys canal towpath and easy trails after the club's spring trail day",
           "changed_at_session": 7,
           "trigger": "club spring trail day she almost skipped; found the experience calming rather than stressful"
@@ -627,9 +1029,18 @@
       "occupation": "Data scientist",
       "background": "Recently moved to the area, joined the club to meet people as much as to run. Competent middle-distance runner with a background in cricket. Occasionally runs with Derek and bonds over data.",
       "skills_list": [
-        {"skill": "statistical analysis of training data", "proficiency": "strong"},
-        {"skill": "middle-distance racing", "proficiency": "medium"},
-        {"skill": "hydration planning for heat", "proficiency": "medium"}
+        {
+          "skill": "statistical analysis of training data",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "middle-distance racing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "hydration planning for heat",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -641,17 +1052,41 @@
       "communication_profile": {
         "formality": "Semi-formal",
         "verbosity": "Concise",
-        "emoji_use": "Moderate",
-        "humor": "Playful",
+        "emoji_use": "Frequent",
+        "humor": "Dry",
         "directness": "Balanced",
         "typo_rate": "None",
         "warmth": "Friendly"
       },
       "preferences": {
-        "food": [{"value": "vegetarian but not vegan; orders egg dishes at post-run brunches", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers 5K-10K distances — finds half-marathon training volume incompatible with his work schedule", "confidence": "High", "implicit": true}],
-        "social": [{"value": "enjoys the pub for post-run but moderates alcohol since moving to the area for work", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "overheats quickly — needs shorter shaded routes in summer, very vocal about it", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "vegetarian but not vegan; orders egg dishes at post-run brunches",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers 5K-10K distances \u2014 finds half-marathon training volume incompatible with his work schedule",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enjoys the pub for post-run but moderates alcohol since moving to the area for work",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "overheats quickly \u2014 needs shorter shaded routes in summer, very vocal about it",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -678,9 +1113,18 @@
       "occupation": "Yoga instructor",
       "background": "Has run alongside the club for years but only formally joined recently. Extremely flexible, annoyingly so. Brings a mindfulness and 'listen to your body' philosophy that sometimes clashes with the more data-driven members.",
       "skills_list": [
-        {"skill": "yoga and flexibility training", "proficiency": "strong"},
-        {"skill": "breathing technique for running", "proficiency": "strong"},
-        {"skill": "meditation and recovery routines", "proficiency": "medium"}
+        {
+          "skill": "yoga and flexibility training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "breathing technique for running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "meditation and recovery routines",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -690,19 +1134,43 @@
         "neuroticism": "Low"
       },
       "communication_profile": {
-        "formality": "Casual",
-        "verbosity": "Concise",
-        "emoji_use": "Moderate",
+        "formality": "Formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
         "humor": "Minimal",
         "directness": "Indirect",
         "typo_rate": "None",
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "plant-based but flexible — describes herself as 'mostly plant-based' and will eat fish", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "prefers slow meditative runs at sunrise over any competitive or structured format", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers herbal tea over coffee post-run; visibly reluctant at pub sessions", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "dislikes GPS watches and tracking — believes it creates anxiety about performance rather than joy", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "plant-based but flexible \u2014 describes herself as 'mostly plant-based' and will eat fish",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers slow meditative runs at sunrise over any competitive or structured format",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers herbal tea over coffee post-run; visibly reluctant at pub sessions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes GPS watches and tracking \u2014 believes it creates anxiety about performance rather than joy",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -727,11 +1195,20 @@
       "age": 22,
       "gender": "male",
       "occupation": "University student (sports science)",
-      "background": "Newest member — joined two months ago via a university poster. Very fit but has no road racing experience. Asks a lot of questions. Has bonded quickly with Chloe over training intensity.",
+      "background": "Newest member \u2014 joined two months ago via a university poster. Very fit but has no road racing experience. Asks a lot of questions. Has bonded quickly with Chloe over training intensity.",
       "skills_list": [
-        {"skill": "sprint and track workouts", "proficiency": "strong"},
-        {"skill": "sports nutrition (academic)", "proficiency": "medium"},
-        {"skill": "agility and plyometric drills", "proficiency": "strong"}
+        {
+          "skill": "sprint and track workouts",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "sports nutrition (academic)",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "agility and plyometric drills",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -742,18 +1219,42 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Terse",
+        "verbosity": "Concise",
         "emoji_use": "Frequent",
-        "humor": "Expressive",
+        "humor": "Dry",
         "directness": "Blunt",
         "typo_rate": "Moderate",
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "high protein diet obsessive — calculates macros, brings protein shakers to runs", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "finds steady-paced club runs too slow — wants everyone to run hard", "confidence": "High", "implicit": true}],
-        "social": [{"value": "enthusiastic about group energy, gets restless at quiet social settings", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "does not own road shoes — uses track spikes for everything, which worries Marcus", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "high protein diet obsessive \u2014 calculates macros, brings protein shakers to runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "finds steady-paced club runs too slow \u2014 wants everyone to run hard",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "enthusiastic about group energy, gets restless at quiet social settings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "does not own road shoes \u2014 uses track spikes for everything, which worries Marcus",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -780,9 +1281,18 @@
       "occupation": "GP (family doctor)",
       "background": "Club's unofficial medical conscience. Has been running recreationally for 20 years. Runs three times a week at a comfortable pace. Quietly monitors the group's health decisions and occasionally voices concern when someone is being reckless.",
       "skills_list": [
-        {"skill": "medical knowledge applied to running", "proficiency": "strong"},
-        {"skill": "long-distance steady pacing", "proficiency": "medium"},
-        {"skill": "calm under pressure (race day or otherwise)", "proficiency": "strong"}
+        {
+          "skill": "medical knowledge applied to running",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "long-distance steady pacing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "calm under pressure (race day or otherwise)",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -793,7 +1303,7 @@
       },
       "communication_profile": {
         "formality": "Formal",
-        "verbosity": "Concise",
+        "verbosity": "Moderate",
         "emoji_use": "Never",
         "humor": "Dry",
         "directness": "Direct",
@@ -801,10 +1311,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "low-sugar diet — declines post-run pastries, orders black coffee or unsweetened tea", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "runs by perceived exertion, not pace — genuinely cannot tell you her average kilometre split", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers small group coffee to large social events — finds large groups draining", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "dislikes the club entering charity runs where participants raise money as a team — thinks running clubs should be separate from fundraising pressure", "confidence": "Medium", "implicit": true}]
+        "food": [
+          {
+            "value": "low-sugar diet \u2014 declines post-run pastries, orders black coffee or unsweetened tea",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "runs by perceived exertion, not pace \u2014 genuinely cannot tell you her average kilometre split",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers small group coffee to large social events \u2014 finds large groups draining",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes the club entering charity runs where participants raise money as a team \u2014 thinks running clubs should be separate from fundraising pressure",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -829,11 +1363,20 @@
       "age": 40,
       "gender": "male",
       "occupation": "Restaurant owner",
-      "background": "Passionate about cooking and food almost as much as running. Runs 5-6 days a week, primarily for mental health. Often suggests post-run venues. Has a complex relationship with Marcus — friendly rivalry over club leadership.",
+      "background": "Passionate about cooking and food almost as much as running. Runs 5-6 days a week, primarily for mental health. Often suggests post-run venues. Has a complex relationship with Marcus \u2014 friendly rivalry over club leadership.",
       "skills_list": [
-        {"skill": "cooking and nutrition", "proficiency": "strong"},
-        {"skill": "high-frequency training", "proficiency": "strong"},
-        {"skill": "social event planning", "proficiency": "medium"}
+        {
+          "skill": "cooking and nutrition",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "high-frequency training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "social event planning",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -843,7 +1386,7 @@
         "neuroticism": "Low"
       },
       "communication_profile": {
-        "formality": "Casual",
+        "formality": "Semi-formal",
         "verbosity": "Verbose",
         "emoji_use": "Frequent",
         "humor": "Expressive",
@@ -852,10 +1395,34 @@
         "warmth": "Warm"
       },
       "preferences": {
-        "food": [{"value": "halal only — diplomatically ensures halal options are available at group dining events", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers early morning runs 5-6am before the restaurant opens — hates lunchtime or evening runs", "confidence": "High", "implicit": true}],
-        "social": [{"value": "always brings homemade energy balls or snacks to group runs — expects people to try them", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "wants to be seen as co-leader of the club, not just a member — bristles when Marcus makes unilateral decisions", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "halal only \u2014 diplomatically ensures halal options are available at group dining events",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers early morning runs 5-6am before the restaurant opens \u2014 hates lunchtime or evening runs",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "always brings homemade energy balls or snacks to group runs \u2014 expects people to try them",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "wants to be seen as co-leader of the club, not just a member \u2014 bristles when Marcus makes unilateral decisions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -868,7 +1435,7 @@
         }
       ],
       "speaking_quirks": [
-        "relates everything to food ('that hill was a slow braise — takes time but worth it')",
+        "relates everything to food ('that hill was a slow braise \u2014 takes time but worth it')",
         "uses 'come on' as a rallying or disbelieving interjection",
         "messages tend to be long with multiple points, signed off with a food emoji"
       ],
@@ -880,11 +1447,20 @@
       "age": 31,
       "gender": "female",
       "occupation": "Broadcast journalist",
-      "background": "Joined the club 18 months ago. Strong runner — quietly one of the fastest in the group. Travels frequently for work, which makes attendance patchy. When she shows up she tends to set a fast pace that catches people off guard.",
+      "background": "Joined the club 18 months ago. Strong runner \u2014 quietly one of the fastest in the group. Travels frequently for work, which makes attendance patchy. When she shows up she tends to set a fast pace that catches people off guard.",
       "skills_list": [
-        {"skill": "interval training", "proficiency": "strong"},
-        {"skill": "running in varying weather and terrain", "proficiency": "strong"},
-        {"skill": "race photography / content creation", "proficiency": "medium"}
+        {
+          "skill": "interval training",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "running in varying weather and terrain",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "race photography / content creation",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -895,7 +1471,7 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Terse",
+        "verbosity": "Concise",
         "emoji_use": "Moderate",
         "humor": "Dry",
         "directness": "Blunt",
@@ -903,10 +1479,34 @@
         "warmth": "Neutral"
       },
       "preferences": {
-        "food": [{"value": "eats what she can find — not picky, but finds long post-run brunches an inefficient use of time", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "prefers running alone or with one other person — large group runs slow her down too much", "confidence": "High", "implicit": true}],
-        "social": [{"value": "skips post-run social events more often than not — has a work call or something to file", "confidence": "High", "implicit": true}],
-        "domain_specific": [{"value": "dislikes clubs that have too many rules about pace groups and routes — wants to run how she wants", "confidence": "High", "implicit": true}]
+        "food": [
+          {
+            "value": "eats what she can find \u2014 not picky, but finds long post-run brunches an inefficient use of time",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers running alone or with one other person \u2014 large group runs slow her down too much",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "skips post-run social events more often than not \u2014 has a work call or something to file",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "dislikes clubs that have too many rules about pace groups and routes \u2014 wants to run how she wants",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
@@ -934,7 +1534,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Marcus and Fatima bonded over their shared commitment to injury-free training philosophy; Fatima trusts his organisational skills, he defers to her on physical therapy matters.",
-      "shared_events": ["club trail day", "volunteering at local 10K"]
+      "shared_events": [
+        "club trail day",
+        "volunteering at local 10K"
+      ]
     },
     {
       "persona_a_id": "p_rc01aa01",
@@ -943,7 +1546,10 @@
       "closeness": "Medium",
       "sentiment": "mixed",
       "history_summary": "Both want to shape the club's direction; Marcus controls logistics, Ahmed controls social vibe. Tension has grown as Ahmed pushes for more input.",
-      "shared_events": ["founded current route schedule together", "disagreement over Saturday route change"]
+      "shared_events": [
+        "founded current route schedule together",
+        "disagreement over Saturday route change"
+      ]
     },
     {
       "persona_a_id": "p_rc01aa01",
@@ -952,7 +1558,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Greg was in the club before Marcus joined; they became the core duo who kept the club running during Covid when numbers dropped.",
-      "shared_events": ["kept Saturday runs going during pandemic", "three consecutive half-marathons together"]
+      "shared_events": [
+        "kept Saturday runs going during pandemic",
+        "three consecutive half-marathons together"
+      ]
     },
     {
       "persona_a_id": "p_rc02bb02",
@@ -961,7 +1570,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Met at a running camp two years ago; Fatima helped Priya with her ankle instability and they stayed close. Fatima is protective of Priya in group settings.",
-      "shared_events": ["running retreat 2024", "regular Wednesday coffee runs"]
+      "shared_events": [
+        "running retreat 2024",
+        "regular Wednesday coffee runs"
+      ]
     },
     {
       "persona_a_id": "p_rc03cc03",
@@ -970,7 +1582,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Bonded over shared love of Strava analytics; often run the same tempo sessions and compare splits afterward.",
-      "shared_events": ["regular tempo runs", "competed in same local 5K"]
+      "shared_events": [
+        "regular tempo runs",
+        "competed in same local 5K"
+      ]
     },
     {
       "persona_a_id": "p_rc04dd04",
@@ -979,7 +1594,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Fatima has been an informal mentor to Owen during his physio training; she observes his assessments and gives feedback. Occasionally in tension when Owen reads research that contradicts her approach.",
-      "shared_events": ["Owen observed Fatima at a club injury clinic", "joint discussion at running injury workshop"]
+      "shared_events": [
+        "Owen observed Fatima at a club injury clinic",
+        "joint discussion at running injury workshop"
+      ]
     },
     {
       "persona_a_id": "p_rc06ff06",
@@ -988,7 +1606,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Yuki and Chloe knew each other before the club and joined together. They are the social glue in the younger cohort.",
-      "shared_events": ["joined the club on the same day", "run a 10K together outside club events"]
+      "shared_events": [
+        "joined the club on the same day",
+        "run a 10K together outside club events"
+      ]
     },
     {
       "persona_a_id": "p_rc07gg07",
@@ -997,7 +1618,10 @@
       "closeness": "Low",
       "sentiment": "tense",
       "history_summary": "Lionel and Tasha have overlapping age-group competition; Tasha has overtaken Lionel's times over the past year and he has not fully accepted this gracefully.",
-      "shared_events": ["finished within one minute of each other at two local 10Ks", "competed in same half-marathon"]
+      "shared_events": [
+        "finished within one minute of each other at two local 10Ks",
+        "competed in same half-marathon"
+      ]
     },
     {
       "persona_a_id": "p_rc08hh08",
@@ -1006,7 +1630,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Chloe and Joel both push high intensity; they egg each other on during intervals, which Marcus and Fatima both worry about.",
-      "shared_events": ["interval training sessions", "both attend Saturday and Wednesday runs"]
+      "shared_events": [
+        "interval training sessions",
+        "both attend Saturday and Wednesday runs"
+      ]
     },
     {
       "persona_a_id": "p_rc01aa01",
@@ -1015,7 +1642,10 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Marcus and Sonia are both people-wranglers; she handles pastoral issues in the group, he handles logistics. Naturally complementary.",
-      "shared_events": ["organised club anniversary run together", "co-run the club WhatsApp"]
+      "shared_events": [
+        "organised club anniversary run together",
+        "co-run the club WhatsApp"
+      ]
     },
     {
       "persona_a_id": "p_rc09ii09",
@@ -1024,7 +1654,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Bernard and Miriam are the two members most likely to quietly agree on running conservatism; they often exchange glances when younger members push too hard.",
-      "shared_events": ["sat together at club AGM", "both prefer the post-run coffee over the pub"]
+      "shared_events": [
+        "sat together at club AGM",
+        "both prefer the post-run coffee over the pub"
+      ]
     },
     {
       "persona_a_id": "p_rc10jj10",
@@ -1033,7 +1666,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Tasha and Ahmed both care about the club's social profile; they co-organised a club dinner and often agree on venue choices.",
-      "shared_events": ["co-organised club end-of-year dinner", "both advocate for better branding"]
+      "shared_events": [
+        "co-organised club end-of-year dinner",
+        "both advocate for better branding"
+      ]
     },
     {
       "persona_a_id": "p_rc02bb02",
@@ -1042,7 +1678,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Priya and Sonia run at similar paces and tend to end up together at the back of the pack. They chat easily during runs.",
-      "shared_events": ["ran the same two local road races", "regular Saturday run together"]
+      "shared_events": [
+        "ran the same two local road races",
+        "regular Saturday run together"
+      ]
     },
     {
       "persona_a_id": "p_rc05ee05",
@@ -1051,7 +1690,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Greg and Bernard are both in the slower-paced group. They share a quiet mutual respect and often run the last mile together.",
-      "shared_events": ["regular Saturday back-of-pack runs", "both ran the 10K charity event three years ago"]
+      "shared_events": [
+        "regular Saturday back-of-pack runs",
+        "both ran the 10K charity event three years ago"
+      ]
     },
     {
       "persona_a_id": "p_rc03cc03",
@@ -1060,7 +1702,10 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Derek joined six months ago. Marcus welcomed him but finds his data-obsession slightly tedious; Derek respects Marcus's experience but thinks the club's training plans are unscientific.",
-      "shared_events": ["onboarding run for Derek's first session", "data dispute over club route distances"]
+      "shared_events": [
+        "onboarding run for Derek's first session",
+        "data dispute over club route distances"
+      ]
     },
     {
       "persona_a_id": "p_rc06ff06",
@@ -1069,7 +1714,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Yuki takes photos; Ahmed wants the club to look good on social media. They have collaborated on a couple of club posts.",
-      "shared_events": ["club photo run", "Instagram post collaboration"]
+      "shared_events": [
+        "club photo run",
+        "Instagram post collaboration"
+      ]
     },
     {
       "persona_a_id": "p_rc14nn14",
@@ -1078,7 +1726,9 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Helen and Bernard both run at comfortable paces and both prioritise wellbeing over performance; they occasionally run together but are not close.",
-      "shared_events": ["ran together at easy-paced club social run"]
+      "shared_events": [
+        "ran together at easy-paced club social run"
+      ]
     },
     {
       "persona_a_id": "p_rc18rr18",
@@ -1087,7 +1737,10 @@
       "closeness": "Low",
       "sentiment": "positive",
       "history_summary": "Nkechi and Tasha are the fastest women in the club and occasionally push each other at the front. They respect each other's ability but are not close outside runs.",
-      "shared_events": ["ran together at front of group long run", "both entered local half-marathon"]
+      "shared_events": [
+        "ran together at front of group long run",
+        "both entered local half-marathon"
+      ]
     },
     {
       "persona_a_id": "p_rc07gg07",
@@ -1096,7 +1749,10 @@
       "closeness": "Medium",
       "sentiment": "neutral",
       "history_summary": "Lionel and Marcus have been in the club for years. They get along fine but Lionel thinks Marcus over-manages the group and Marcus thinks Lionel complains too much.",
-      "shared_events": ["ran multiple races together over the years", "both attended the club's 10th anniversary run"]
+      "shared_events": [
+        "ran multiple races together over the years",
+        "both attended the club's 10th anniversary run"
+      ]
     },
     {
       "persona_a_id": "p_rc11kk11",
@@ -1105,7 +1761,9 @@
       "closeness": "Low",
       "sentiment": "positive",
       "history_summary": "Owen finds Miriam's measured medical perspective a useful check against some of Fatima's more aggressive interventions. They have spoken briefly at post-run coffees.",
-      "shared_events": ["brief post-run conversation about running injury research"]
+      "shared_events": [
+        "brief post-run conversation about running injury research"
+      ]
     },
     {
       "persona_a_id": "p_rc13mm13",
@@ -1114,7 +1772,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Ravi and Ahmed bonded early when both were figuring out the group's culture; they occasionally run together mid-week and share food enthusiasms.",
-      "shared_events": ["both new-ish to the area", "mid-week easy run together"]
+      "shared_events": [
+        "both new-ish to the area",
+        "mid-week easy run together"
+      ]
     },
     {
       "persona_a_id": "p_rc15oo15",
@@ -1123,7 +1784,10 @@
       "closeness": "Low",
       "sentiment": "positive",
       "history_summary": "Joel and Ravi are friendly in the group; Ravi occasionally mentors Joel on pacing discipline.",
-      "shared_events": ["10K group run together", "post-run cafe visit"]
+      "shared_events": [
+        "10K group run together",
+        "post-run cafe visit"
+      ]
     },
     {
       "persona_a_id": "p_rc05ee05",
@@ -1132,7 +1796,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Greg and Sonia have been running together for years; they are comfortable in silence and tend to end up side by side on the slower group runs.",
-      "shared_events": ["several years of Saturday runs together", "club AGM attendance"]
+      "shared_events": [
+        "several years of Saturday runs together",
+        "club AGM attendance"
+      ]
     },
     {
       "persona_a_id": "p_rc18rr18",
@@ -1141,7 +1808,10 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Nkechi and Fatima occasionally run at the front together when Nkechi is in town; Fatima appreciates Nkechi's form, Nkechi finds Fatima's injury lectures slightly excessive.",
-      "shared_events": ["front-group long run together", "both entered trail 10K event"]
+      "shared_events": [
+        "front-group long run together",
+        "both entered trail 10K event"
+      ]
     },
     {
       "persona_a_id": "p_rc02bb02",
@@ -1150,7 +1820,10 @@
       "closeness": "Low",
       "sentiment": "neutral",
       "history_summary": "Priya and Chloe get along but Priya is privately concerned about Chloe's habit of running through pain, given her nursing background.",
-      "shared_events": ["ran same 10K event", "post-run cafe visits with Yuki"]
+      "shared_events": [
+        "ran same 10K event",
+        "post-run cafe visits with Yuki"
+      ]
     },
     {
       "persona_a_id": "p_rc07gg07",
@@ -1159,7 +1832,10 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Fatima has helped Lionel with his hamstring repeatedly; he is grateful but also frustrated that she keeps telling him to reduce mileage.",
-      "shared_events": ["injury assessment sessions", "club trail day"]
+      "shared_events": [
+        "injury assessment sessions",
+        "club trail day"
+      ]
     }
   ],
   "group_norms": [
@@ -1169,14 +1845,21 @@
       "dissenters": []
     },
     {
-      "norm_text": "Everyone does the post-run social — whether that is the cafe or the pub — it is part of the club culture.",
+      "norm_text": "Everyone does the post-run social \u2014 whether that is the cafe or the pub \u2014 it is part of the club culture.",
       "truly_universal": false,
-      "dissenters": ["p_rc18rr18", "p_rc11kk11"]
+      "dissenters": [
+        "p_rc18rr18",
+        "p_rc11kk11"
+      ]
     },
     {
       "norm_text": "The club runs at a pace where no one gets left behind on the main group run.",
       "truly_universal": false,
-      "dissenters": ["p_rc18rr18", "p_rc15oo15", "p_rc08hh08"]
+      "dissenters": [
+        "p_rc18rr18",
+        "p_rc15oo15",
+        "p_rc08hh08"
+      ]
     },
     {
       "norm_text": "Members are expected to let the group know in advance if they cannot make a session.",
@@ -1186,12 +1869,20 @@
     {
       "norm_text": "The club does a post-run coffee at the Arch Cafe after Saturday long runs.",
       "truly_universal": false,
-      "dissenters": ["p_rc05ee05", "p_rc09ii09", "p_rc07gg07"]
+      "dissenters": [
+        "p_rc05ee05",
+        "p_rc09ii09",
+        "p_rc07gg07"
+      ]
     }
   ],
   "metadata": {
     "sessions_planned": 12,
     "turns_per_session": 25,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "recreational",
+    "group_size": 18
   }
 }

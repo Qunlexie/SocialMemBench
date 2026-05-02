@@ -1,0 +1,582 @@
+{
+  "network_id": "grp_a4b5c6d7",
+  "total_pairs": 41,
+  "phase1_mean_score": 0.9249,
+  "phase1_pass_rate": 100.0,
+  "phase2_grounded_rate": 100.0,
+  "phase3_flagged_count": 0,
+  "inference_required_distribution": {
+    "1": 15,
+    "2": 26
+  },
+  "trivially_answerable_count": 0,
+  "difficulty_label_mismatch_count": 0,
+  "difficulty_distribution": {
+    "easy": 1,
+    "medium": 21,
+    "hard": 19
+  },
+  "by_query_type": {
+    "Q1": {
+      "count": 10,
+      "mean_score": 0.931,
+      "flagged": 0
+    },
+    "Q2": {
+      "count": 2,
+      "mean_score": 0.935,
+      "flagged": 0
+    },
+    "Q3": {
+      "count": 2,
+      "mean_score": 0.9,
+      "flagged": 0
+    },
+    "Q4": {
+      "count": 4,
+      "mean_score": 0.905,
+      "flagged": 0
+    },
+    "Q5": {
+      "count": 3,
+      "mean_score": 0.95,
+      "flagged": 0
+    },
+    "Q6": {
+      "count": 4,
+      "mean_score": 0.855,
+      "flagged": 0
+    },
+    "Q7": {
+      "count": 2,
+      "mean_score": 0.935,
+      "flagged": 0
+    },
+    "Q8": {
+      "count": 14,
+      "mean_score": 0.941,
+      "flagged": 0
+    }
+  },
+  "flagged_pairs": [],
+  "low_score_pairs": [],
+  "per_pair": [
+    {
+      "qa_id": "Q1_a4b5c6d701",
+      "query_type": "Q1",
+      "question": "What does Hema's description of how they listen to records reveal about how they engage with albums?",
+      "blind_answer": "Hema listens to one record front to back every Saturday morning, no skipping or shuffling. She names this directly as her listening style.",
+      "score": 0.95,
+      "score_rationale": "Hema states the pattern explicitly; ground-truth tracks her direct words.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d702",
+      "query_type": "Q1",
+      "question": "What does Yuko's recurring framing suggest about where they think the bottleneck in a hi-fi system lies?",
+      "blind_answer": "Yuko consistently argues that the room is the bottleneck and that this group spends too much money on gear and not enough on rooms; her view is room treatment over speaker upgrades.",
+      "score": 0.95,
+      "score_rationale": "Yuko's framing is direct and recurring; ground truth matches.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d703",
+      "query_type": "Q1",
+      "question": "What does Sander's repeated complaint about pricing reveal about their attitude toward the current second-hand market?",
+      "blind_answer": "Sander complains that the second-hand market is broken with sellers asking three times book; before walking away, he is still actively in the market hoping for the right unit at the right price.",
+      "score": 0.85,
+      "score_rationale": "Matches; the answer captures attitude pre-shift.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d704",
+      "query_type": "Q1",
+      "question": "What does the conversation suggest about Lina's typical listening volume and the kind of music it suits, before any later changes?",
+      "blind_answer": "Lina prefers quiet listening at conversational volume early on; she names Bach cello suites at conversational morning volume as her pattern.",
+      "score": 0.92,
+      "score_rationale": "Direct quote from Lina supports answer.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d705",
+      "query_type": "Q1",
+      "question": "What does Ines's comment about industry-wide grading reveal about how she approaches selling records?",
+      "blind_answer": "Ines treats Mint- as a fictional grade and is committed to honest grading, retiring inflated grades and using VG+ when she means VG+.",
+      "score": 0.95,
+      "score_rationale": "Ines's first-session statement is direct.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d706",
+      "query_type": "Q1",
+      "question": "What does Maeve's pattern around hosting and attendance suggest about her preferred timing for music gatherings?",
+      "blind_answer": "Maeve hosts midweek and skips weekend meetups; she repeatedly notes the group plans saturdays and she is mid-week by default.",
+      "score": 0.92,
+      "score_rationale": "Direct evidence in S1 and S3.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d707",
+      "query_type": "Q1",
+      "question": "What does Marcy's aside in the dinner-planning thread reveal about her dietary practice?",
+      "blind_answer": "Hema prefers small meetups and explicitly says she will come if it stays small; large gatherings are uncomfortable for her.",
+      "score": 0.92,
+      "score_rationale": "Direct quote in S1.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d708",
+      "query_type": "Q1",
+      "question": "What does Pippa's reaction to record-fair plans reveal about where she prefers to buy?",
+      "blind_answer": "Marcy is vegetarian and notes it casually in the dinner-planning thread.",
+      "score": 0.95,
+      "score_rationale": "Marcy says veg here, no surprise.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d709",
+      "query_type": "Q1",
+      "question": "What does Theo's reaction to large gatherings reveal about her preferred meetup size?",
+      "blind_answer": "Sander drives long distances to estate sales solo; the way I like it is his framing.",
+      "score": 0.95,
+      "score_rationale": "Direct.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q1_a4b5c6d70a",
+      "query_type": "Q1",
+      "question": "What does Bram's decision to skip a meetup reveal about a competing weekend commitment?",
+      "blind_answer": "Early in the corpus Hema treats vinyl as the only serious-listening format; the serious listening room has no streaming source.",
+      "score": 0.95,
+      "score_rationale": "Direct quote.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_a4b5c6d70b",
+      "query_type": "Q2",
+      "question": "After Felix proposed the post-meetup dinner venue, the group settled on the Steakhouse on 7th. Marcy replied with a single short word. What did that response signal about her actual position on the venue, and what specifically in how she responded tells you that?",
+      "blind_answer": "Marcy's reply was a single-word sure, indicating she was not happy. She is vegetarian, which the steakhouse choice ignored. The dissent is verbal-minimum, almost silent, and visible only against her usual longer engaged voice.",
+      "score": 0.92,
+      "score_rationale": "Reads as the same dissent reading. Marcy's brevity contrasts with usual fwiw + longer comments.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q2_a4b5c6d70c",
+      "query_type": "Q2",
+      "question": "The group settled the next listening session as a small group of Hema, Dev, Theo, and Ines at Hema's place. What did Hema's response to that lineup signal about how she actually felt about the mix of attendees?",
+      "blind_answer": "Hema agreed but with a 'Yes, but I had hoped for a different mix' caveat, naming the Theo-Hema dynamic as one that goes in circles. Acceptance is qualified.",
+      "score": 0.95,
+      "score_rationale": "Hema's qualification is verbal and direct.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_a4b5c6d70d",
+      "query_type": "Q3",
+      "question": "Across the conversations, what does each member's commentary reveal about their preferred listening volumes?",
+      "blind_answer": "Lina early prefers conversational volume, then shifts louder after a hearing test; Hema plays full orchestra at realistic SPL; Yuko provides the dB framing and endorses Lina's shift; Bram self-deprecates about keeping SPL in check.",
+      "score": 0.9,
+      "score_rationale": "Aggregation across multiple sessions; matches.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q3_a4b5c6d70e",
+      "query_type": "Q3",
+      "question": "What does the corpus reveal about each member's stance on vinyl-versus-digital, by the end of the time window covered?",
+      "blind_answer": "Theo concedes a well-mastered SACD can sit alongside vinyl; Hema admits the studio listening room has digital playback; Olin concedes hi-res streams equal or beat reissues; Quint streams Tidal at workshop only; Dev was streaming-primary all along; Roo got first speakers mid-corpus. Others did not openly state a digital position.",
+      "score": 0.9,
+      "score_rationale": "Aggregates across sessions; matches.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a4b5c6d70f",
+      "query_type": "Q4",
+      "question": "In the discussion of mono pressings versus fold-down stereo cuts, one member argues that listening will show you the difference even where measurements look clean. Who actually made that argument?",
+      "blind_answer": "Bram made the argument; his line was 'listening tests will show you, even without measurements.'",
+      "score": 0.92,
+      "score_rationale": "Question is contamination-tight; correct attribution requires reading authorship.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a4b5c6d710",
+      "query_type": "Q4",
+      "question": "In the discussion of mono pressings versus fold-down stereo cuts, one member argues that even when measurements look clean, the sound of a mono cut differs in ways those measurements undersell. Who actually made that argument?",
+      "blind_answer": "Theo made the argument with 'the sound character of a mono cut still differs in ways the measurements undersell.'",
+      "score": 0.9,
+      "score_rationale": "Correctly attributed to Theo.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a4b5c6d711",
+      "query_type": "Q4",
+      "question": "During the digital-vs-vinyl debrief, one member argues that well-mastered hi-res digital at 24/96 is indistinguishable from a clean LP for most listeners at the threshold of human hearing. Who made that argument?",
+      "blind_answer": "Yuko made the argument; explicitly framed as a measurement-based view.",
+      "score": 0.9,
+      "score_rationale": "Correctly attributed.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q4_a4b5c6d712",
+      "query_type": "Q4",
+      "question": "During the digital-vs-vinyl debrief, one member argues that mastering and pressing variance dominate format differences once you get past 24/96. Who made that argument?",
+      "blind_answer": "Marcy made the mastering-dominance argument with fwiw framing.",
+      "score": 0.9,
+      "score_rationale": "Correctly attributed.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a4b5c6d713",
+      "query_type": "Q5",
+      "question": "What is Dev's living situation in terms of his listening room conditions, and how does Sander show in the conversation that he had this knowledge?",
+      "blind_answer": "Dev's apartment is small and runs hot due to a radiator. Sander demonstrates prior knowledge by warning Dev about the radiator and small living room without prompting; when Dev asks how he knows, Sander says Dev mentioned it at the November bookstore meetup.",
+      "score": 0.95,
+      "score_rationale": "Two-part question, both parts answered cleanly.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a4b5c6d714",
+      "query_type": "Q5",
+      "question": "What is Pippa's typical pattern around brunch-format meetups, and how does Marcy demonstrate in the chat that she had prior knowledge of this?",
+      "blind_answer": "Pippa skips brunch-format meetups. Marcy predicts the no-show unprompted with 'Pippa is gonna no-show isn't she. she doesn't do brunch-format meetups,' confirming a multi-year tracked pattern.",
+      "score": 0.95,
+      "score_rationale": "Two-part Q5, evidence is in-chat behavior.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q5_a4b5c6d715",
+      "query_type": "Q5",
+      "question": "What is Theo's consistent preference for in-between meetups in terms of group size, and how does Felix show in the chat that he had retained this knowledge?",
+      "blind_answer": "Theo prefers four-to-six person meetups in his garage. Felix shows the retained knowledge by prompting Theo with the exact prior preference: 'you mentioned a few weeks back you wanted to keep the in-between meetups at four to six people.'",
+      "score": 0.95,
+      "score_rationale": "Felix's recall is observable behavior in chat.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_a4b5c6d716",
+      "query_type": "Q6",
+      "question": "The group expresses a unified preference for in-person listening sessions over virtual ones. Does that norm actually apply to everyone, and if not, who has a different preference and what specifically is it?",
+      "blind_answer": "Yuko is the dissenter; she splits time between Tokyo and the local city, posts in clusters, and pattern is async-by-default.",
+      "score": 0.85,
+      "score_rationale": "The async-by-default pattern is implicit but consistent across her quirks (long gaps between posts) and her measurement-based view turns are clearly batched.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_a4b5c6d717",
+      "query_type": "Q6",
+      "question": "The group treats vinyl as the primary format with digital relegated to a secondary, acceptable role. Does that norm actually apply to everyone, and if not, who has a different preference and what specifically is it?",
+      "blind_answer": "Dev openly admits he has been streaming as primary the whole time and treats the group's shift as vindication; he is the dissenter.",
+      "score": 0.95,
+      "score_rationale": "Direct admission in S6 and S10.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_a4b5c6d718",
+      "query_type": "Q6",
+      "question": "The group places original pressings above reissues for a serious collection. Does that norm actually apply to everyone, and if not, who has a different preference and what specifically is it?",
+      "blind_answer": "Roo is the dissenter; their long-running pattern was headphones-only and their domain is shoegaze and ambient, not jazz/soul originals; they treat original-pressing fetishism as the wrong axis.",
+      "score": 0.7,
+      "score_rationale": "Roo's stance is implicit; the corpus evidence about pressing fetishism is more in their general vibe than direct words. Score is lower because the evidence in the corpus alone is partial.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q6_a4b5c6d719",
+      "query_type": "Q6",
+      "question": "The group treats group dinners at a chosen restaurant after each meetup as a default. Does that norm actually apply to everyone, and if not, who has a different preference and what specifically is it?",
+      "blind_answer": "Marcy is the dissenter; she flagged at the wrap-up that she ate only bread and salad at the steakhouse and that the group needs to remember her vegetarianism on venue picks. The norm of meat-heavy restaurant dinners doesn't suit her.",
+      "score": 0.92,
+      "score_rationale": "Marcy's wrap-up frame plus the steakhouse signal supports the answer.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a4b5c6d71a",
+      "query_type": "Q7",
+      "question": "What does the conversation reveal about Bram and Lina's relationship, particularly through the First Watt loan exchange?",
+      "blind_answer": "Bram and Lina exchange a borrower-lender dynamic; Bram thanks her openly for the loan and Lina replies that she expected the reaction. Their exchange suggests technical trust between them.",
+      "score": 0.95,
+      "score_rationale": "Both turns visible.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q7_a4b5c6d71b",
+      "query_type": "Q7",
+      "question": "What does the conversation reveal about how Bram and Sander first met, and what does their current dynamic look like?",
+      "blind_answer": "Bram and Sander met at a 2019 swap meet; Sander references the swap meet directly and notes Bram was making the case for class D back then. Their dynamic in chat is older-brotherly with affectionate teasing.",
+      "score": 0.92,
+      "score_rationale": "Sander's S9 turn is the direct disclosure.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71c",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Sander's relationship to second-hand market pricing shifted, and what specifically appeared to drive that shift?",
+      "blind_answer": "Sander stopped at his ceiling on the SX-1980 and lost it to a 6800 winner; he names the trigger directly and vows to refuse anything over book value.",
+      "score": 0.95,
+      "score_rationale": "Sander himself names old state, trigger, new state.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71d",
+      "query_type": "Q8",
+      "question": "What in the conversation shows that Yuko's view on upgrade priority shifted, and what appeared to cause the change?",
+      "blind_answer": "Marcy moves from BBC LS3/5a to ATC SCM11 after living with them at the studio for six weeks; she names the trigger as the studio purchase and her own translation reliability.",
+      "score": 0.95,
+      "score_rationale": "Direct admission.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71e",
+      "query_type": "Q8",
+      "question": "What signals that Dev's amplifier choice shifted away from his initial plan, and what appeared to drive the change?",
+      "blind_answer": "Yuko shifts from speakers-first to room-first after a home renovation revealed how much the previous walls had been masking.",
+      "score": 0.95,
+      "score_rationale": "Trigger and shift are explicit.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d71f",
+      "query_type": "Q8",
+      "question": "What signals that Lina's listening-volume habits shifted, and what specifically caused the change?",
+      "blind_answer": "Theo concedes a well-mastered SACD can sit alongside vinyl after Hema brings him a Steely Dan Aja SACD; he names the demonstration as the trigger.",
+      "score": 0.95,
+      "score_rationale": "Trigger is explicit.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d720",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Theo's position on his primary listening format shifted, and what specifically drove the shift?",
+      "blind_answer": "Theo concedes a well-mastered SACD can sit alongside vinyl after Hema brings him a Steely Dan Aja SACD; he names the demonstration as the trigger and admits his younger self was insufferable about digital.",
+      "score": 0.95,
+      "score_rationale": "Trigger explicit; the contradiction with his early 'tube preamp first' stance is multi-session.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d721",
+      "query_type": "Q8",
+      "question": "What signals that Roo's long-standing listening configuration shifted, and what appeared to drive the change?",
+      "blind_answer": "Roo gets first speakers after moving into a place with a sympathetic neighbor; the eight-years-of-headphones backdrop is what the shift moves away from, and the move is the named trigger.",
+      "score": 0.92,
+      "score_rationale": "Roo's prior pattern is only revealed inside the shift turn itself; reading the shift requires inferring the prior eight-year configuration from the new turn rather than from a clean pre-shift anchor.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d722",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Ines's selling strategy shifted, and what explains the new approach?",
+      "blind_answer": "Ines reserves rarities for in-person regulars after seeing one of her records flipped at 4x the next day; the shift spans multiple sessions of her dealer practice.",
+      "score": 0.92,
+      "score_rationale": "Trigger explicit but synthesis across S2 (online-default) and S6 (in-person rarities).",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d723",
+      "query_type": "Q8",
+      "question": "What signals that Felix's capacity to host meetups changed, and what specifically caused the shift?",
+      "blind_answer": "Felix moves bookstore meetups to once a quarter after losing his weekend assistant manager; this changes a hosting cadence visible from S1 onward.",
+      "score": 0.95,
+      "score_rationale": "Spans 5 sessions; pre-state is the every-other-month default established in S1.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d724",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Pippa's speaker setup shifted, and what explains the change?",
+      "blind_answer": "Pippa moves to a smaller flat and gives up the JBL studio monitors for KEF LS50; the move is the named trigger.",
+      "score": 0.92,
+      "score_rationale": "Move-trigger explicit.",
+      "inference_required": 1,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d725",
+      "query_type": "Q8",
+      "question": "What signals that Quint's relationship to streaming shifted, and what explains how it happened?",
+      "blind_answer": "Quint's daughter set up Tidal on his shop laptop; he started streaming for four hours at a stretch in the workshop, conceding the music is the same.",
+      "score": 0.95,
+      "score_rationale": "Trigger explicit.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d726",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Hema's view on digital formats shifted, and what appeared to drive that change?",
+      "blind_answer": "Bram borrowed Lina's First Watt F5 for a weekend; the build quality changed his DIY-or-bust stance.",
+      "score": 0.95,
+      "score_rationale": "Trigger explicit.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d727",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Maeve's primary listening setup shifted, and what specifically drove the change?",
+      "blind_answer": "Olin's daughter gave him a Berlin Phil Digital Concert Hall subscription for his birthday; three weeks of Bartok streams convinced him hi-res streams from a serious archive can equal or beat reissued analog.",
+      "score": 0.95,
+      "score_rationale": "Trigger explicit.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d728",
+      "query_type": "Q8",
+      "question": "What in the conversation signals that Bram's DIY-versus-buy stance shifted, and what specifically drove the change?",
+      "blind_answer": "Dev gives up the MA6200 dream after Sander's earlier warning about the radiator and small apartment; he buys a Yamaha CR-2020.",
+      "score": 0.92,
+      "score_rationale": "Sander warning is the trigger across two sessions.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "qa_id": "Q8_a4b5c6d729",
+      "query_type": "Q8",
+      "question": "What signals that Olin's position on the best format for classical recordings shifted, and what appeared to cause the change?",
+      "blind_answer": "Lina starts focused louder evening sessions after a hearing test where the audiologist suggested mid-range compensation.",
+      "score": 0.95,
+      "score_rationale": "Trigger explicit.",
+      "inference_required": 2,
+      "grounded": true,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ],
+  "conversation_quality": {
+    "topic_diversity": {
+      "score": 2,
+      "notes": "Sessions follow interest_community model: vinyl/hi-fi domain anchors most sessions (estate sales, gear, mastering, format debates), with natural drifts into personal news (Roo's move, Maeve's grandmother, Pippa's flat) that are character-introduced."
+    },
+    "voice_consistency": {
+      "score": 2,
+      "notes": "Theo opens with 'in my view' (semi-formal), Sander uses 'circa 197X' and 'safe travels', Hema opens with 'Yes, but', Olin numbers points and uses semicolons, Pippa drops vowels and uses fire/disc emojis, Quint writes long sentences without commas and drops apostrophes, Lina uses full sentences with proper capitalization and 'I would gently push back', Roo uses lowercase deadpan one-liners, Felix ends with calendar emoji and addresses 'all', Bram uses 'on the other hand' and 'cheers', Yuko opens 'A measurement-based view', Marcy uses 'fwiw' and 'just my read', Maeve uses '!!!' and laughing emoji, Ines uses heart emoji and 'come thru', Dev uses 'lowkey' and 'ngl' and asks two questions at a time. Each persona's quirks are detectable."
+    },
+    "naturalness_of_transitions": {
+      "score": 2,
+      "notes": "Topic shifts are character-introduced: Sander's S3 announcement of his SX-1980 loss naturally follows from S1-S2 references; Felix's hosting limitation in S6 ties to his real-world manager loss; Maeve's S8 console arrival is a personal news intro; Bram's F5 admission in S9 is a confessional opener."
+    },
+    "em_dash_free": {
+      "score": 2,
+      "notes": "Zero em dashes in any message field (verified, em count = 0)."
+    },
+    "planted_turn_integrity": {
+      "score": 2,
+      "notes": "All planted-challenge evidence_span values are verbatim substrings of their referenced turns; verified during Stage 2 verification."
+    },
+    "overall_pass": true,
+    "failing_turns": []
+  },
+  "baseline_reference": "none"
+}

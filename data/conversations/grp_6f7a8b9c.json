@@ -17,7 +17,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 2, 11:22am",
-          "message": "Okay we HAVE to do Amsterdam this year. I'm serious. Long weekend in October, flights are cheap right now, I've been looking 👀 who's in?",
+          "message": "Okay we HAVE to do Amsterdam this year. I'm serious. Long weekend in October, flights are cheap right now, I've been looking \ud83d\udc40 who's in?",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -66,7 +66,7 @@
           "speaker_persona_id": "p_cf6d4e5f6",
           "speaker_display_name": "Dev",
           "timestamp_label": "Jun 2, 4:17pm",
-          "message": "sorry, head down in the archive all morning 🙈 Amsterdam sounds incredible and I genuinely want to come. October is tricky but I don't want to say no yet. can we talk dates?",
+          "message": "sorry, head down in the archive all morning \ud83d\ude48 Amsterdam sounds incredible and I genuinely want to come. October is tricky but I don't want to say no yet. can we talk dates?",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s01_t000",
@@ -78,7 +78,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 2, 4:31pm",
-          "message": "Sasha I get it! We could do Peak District maybe? This year it has to actually happen though, we keep saying it 😭",
+          "message": "Sasha I get it! We could do Peak District maybe? This year it has to actually happen though, we keep saying it \ud83d\ude2d",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s01_t002",
@@ -102,7 +102,7 @@
           "speaker_persona_id": "p_cf6c3d4e5",
           "speaker_display_name": "Sasha",
           "timestamp_label": "Jun 2, 4:43pm",
-          "message": "Also hotel breakfast is never the part anyone remembers 😂 I'd rather save the money and actually talk to you all.",
+          "message": "Also hotel breakfast is never the part anyone remembers \ud83d\ude02 I'd rather save the money and actually talk to you all.",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s01_t005",
@@ -114,7 +114,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 2, 4:48pm",
-          "message": "okay wow dragged by Sasha and honestly fair 😭",
+          "message": "okay wow dragged by Sasha and honestly fair \ud83d\ude2d",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s01_t006",
@@ -145,7 +145,13 @@
           "timestamp": "2025-06-02T16:57:00"
         }
       ],
-      "date": "2025-06-02"
+      "date": "2025-06-02",
+      "active_participants": [
+        "p_cf6a1b2c3",
+        "p_cf6b2c3d4",
+        "p_cf6c3d4e5",
+        "p_cf6d4e5f6"
+      ]
     },
     {
       "session_id": "grp_6f7a8b9c_s02",
@@ -163,7 +169,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 9, 7:43pm",
-          "message": "I'm so sorry everyone, October isn't going to work for me. Work thing came up. Can we look at November? This year, I promise 💔",
+          "message": "I'm so sorry everyone, October isn't going to work for me. Work thing came up. Can we look at November? This year, I promise \ud83d\udc94",
           "message_index": 1,
           "planted_challenges": [
             {
@@ -249,7 +255,7 @@
           "speaker_persona_id": "p_cf6c3d4e5",
           "speaker_display_name": "Sasha",
           "timestamp_label": "Jun 9, 11:24pm",
-          "message": "Abi are you ok though? you sounded absolutely fried earlier. no pressure if this month is cursed 😊",
+          "message": "Abi are you ok though? you sounded absolutely fried earlier. no pressure if this month is cursed \ud83d\ude0a",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s02_t000",
@@ -261,7 +267,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 9, 11:27pm",
-          "message": "just one of those weeks honestly 😅 I'm ok. slightly feral but ok",
+          "message": "just one of those weeks honestly \ud83d\ude05 I'm ok. slightly feral but ok",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s02_t005",
@@ -304,7 +310,13 @@
           "timestamp": "2025-06-09T23:40:00"
         }
       ],
-      "date": "2025-06-09"
+      "date": "2025-06-09",
+      "active_participants": [
+        "p_cf6a1b2c3",
+        "p_cf6b2c3d4",
+        "p_cf6c3d4e5",
+        "p_cf6d4e5f6"
+      ]
     },
     {
       "session_id": "grp_6f7a8b9c_s03",
@@ -312,7 +324,7 @@
       "session_index": 3,
       "topic": "November collapses; Kwame gives up on big plans and checks on Dev",
       "date_label": "Session 3, Monday June 16, 2025 6:14pm",
-      "prior_session_summary": "October cancelled by Abi. November London plan agreed — Kwame hosting. Dev still provisional.",
+      "prior_session_summary": "October cancelled by Abi. November London plan agreed \u2014 Kwame hosting. Dev still provisional.",
       "critic_scores": null,
       "generation_attempts": 1,
       "turns": [
@@ -322,7 +334,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 16, 6:14pm",
-          "message": "Kwame I'm so sorry. This year has just been relentless. November is looking impossible now too. Can we do something in the new year? I miss you all so much 😭",
+          "message": "Kwame I'm so sorry. This year has just been relentless. November is looking impossible now too. Can we do something in the new year? I miss you all so much \ud83d\ude2d",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -463,7 +475,13 @@
           "timestamp": "2025-06-16T18:59:00"
         }
       ],
-      "date": "2025-06-16"
+      "date": "2025-06-16",
+      "active_participants": [
+        "p_cf6a1b2c3",
+        "p_cf6b2c3d4",
+        "p_cf6c3d4e5",
+        "p_cf6d4e5f6"
+      ]
     },
     {
       "session_id": "grp_6f7a8b9c_s04",
@@ -481,7 +499,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 23, 8:55pm",
-          "message": "Okay! Kwame's Saturday is confirmed 🙌 Sasha, should we go to that new place in Hackney? I was reading about it, tasting menu, cocktail bar, looks incredible",
+          "message": "Okay! Kwame's Saturday is confirmed \ud83d\ude4c Sasha, should we go to that new place in Hackney? I was reading about it, tasting menu, cocktail bar, looks incredible",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -493,7 +511,7 @@
           "speaker_persona_id": "p_cf6c3d4e5",
           "speaker_display_name": "Sasha",
           "timestamp_label": "Jun 23, 9:02pm",
-          "message": "oh that sounds beautiful but tasting menus are a bit much for me honestly, not really my scene 😊 could we do a pub or Kwame cooks? I'd honestly rather have a proper catch-up than a restaurant situation",
+          "message": "oh that sounds beautiful but tasting menus are a bit much for me honestly, not really my scene \ud83d\ude0a could we do a pub or Kwame cooks? I'd honestly rather have a proper catch-up than a restaurant situation",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s04_t000",
@@ -517,7 +535,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 23, 9:12pm",
-          "message": "Kwame's cooking!! Yes perfect 🥰 Dev, can you make it? We miss you!",
+          "message": "Kwame's cooking!! Yes perfect \ud83e\udd70 Dev, can you make it? We miss you!",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -554,7 +572,7 @@
           "speaker_persona_id": "p_cf6d4e5f6",
           "speaker_display_name": "Dev",
           "timestamp_label": "Jun 23, 11:58pm",
-          "message": "sorry, I know, I know. head down in the archive. I'm trying to come for the Saturday. I genuinely want to be there. when the PhD is done this all gets easier, I promise 💙",
+          "message": "sorry, I know, I know. head down in the archive. I'm trying to come for the Saturday. I genuinely want to be there. when the PhD is done this all gets easier, I promise \ud83d\udc99",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s04_t004",
@@ -566,7 +584,7 @@
           "speaker_persona_id": "p_cf6c3d4e5",
           "speaker_display_name": "Sasha",
           "timestamp_label": "Jun 24, 12:01am",
-          "message": "no guilt spiral pls, just send us something chaotic once in a while and we're happy 😊",
+          "message": "no guilt spiral pls, just send us something chaotic once in a while and we're happy \ud83d\ude0a",
           "message_index": 7,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s04_t005",
@@ -578,7 +596,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 24, 12:02am",
-          "message": "yes literally a blurry archive corridor pic would sustain us for a month 😂",
+          "message": "yes literally a blurry archive corridor pic would sustain us for a month \ud83d\ude02",
           "message_index": 8,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s04_t006",
@@ -590,7 +608,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 24, 12:06am",
-          "message": "I'll bring wine and absolutely no itinerary 🙋‍♀️",
+          "message": "I'll bring wine and absolutely no itinerary \ud83d\ude4b\u200d\u2640\ufe0f",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s04_t007",
@@ -609,7 +627,13 @@
           "timestamp": "2025-06-24T00:11:00"
         }
       ],
-      "date": "2025-06-23"
+      "date": "2025-06-23",
+      "active_participants": [
+        "p_cf6a1b2c3",
+        "p_cf6c3d4e5",
+        "p_cf6b2c3d4",
+        "p_cf6d4e5f6"
+      ]
     },
     {
       "session_id": "grp_6f7a8b9c_s05",
@@ -627,7 +651,7 @@
           "speaker_persona_id": "p_cf6a1b2c3",
           "speaker_display_name": "Abi",
           "timestamp_label": "Jun 30, 2:48pm",
-          "message": "Yesterday was everything I needed 😭 Kwame your flat is basically a restaurant now though? Sasha I feel like we talked properly for the first time in years",
+          "message": "Yesterday was everything I needed \ud83d\ude2d Kwame your flat is basically a restaurant now though? Sasha I feel like we talked properly for the first time in years",
           "message_index": 1,
           "planted_challenges": [],
           "reply_to_turn_id": null,
@@ -660,7 +684,7 @@
               "subject_persona_id": "p_cf6d4e5f6",
               "speaker_persona_id": "p_cf6b2c3d4",
               "fact_attribute": "kwame_dev_bond",
-              "fact_value": "Kwame maintains a separate bilateral relationship with Dev — telling him things privately, covering for his absence, keeping him connected to the group even when Dev can't show up",
+              "fact_value": "Kwame maintains a separate bilateral relationship with Dev \u2014 telling him things privately, covering for his absence, keeping him connected to the group even when Dev can't show up",
               "evidence_span": "Dev, you missed a good one. I'll tell you about it when we speak. You were there in spirit.",
               "implicitness_level": 2,
               "session_index": 5,
@@ -676,7 +700,7 @@
           "speaker_persona_id": "p_cf6d4e5f6",
           "speaker_display_name": "Dev",
           "timestamp_label": "Jun 30, 6:11pm",
-          "message": "gutted I couldn't make it. Next one, I'll be there. When the PhD is done this changes, I mean it. Kwame thank you for Edinburgh last week 💙",
+          "message": "gutted I couldn't make it. Next one, I'll be there. When the PhD is done this changes, I mean it. Kwame thank you for Edinburgh last week \ud83d\udc99",
           "message_index": 4,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s05_t002",
@@ -736,7 +760,7 @@
           "speaker_persona_id": "p_cf6c3d4e5",
           "speaker_display_name": "Sasha",
           "timestamp_label": "Jun 30, 6:33pm",
-          "message": "not ridiculous, perfect 😌 next one I'll do soup and a giant salad",
+          "message": "not ridiculous, perfect \ud83d\ude0c next one I'll do soup and a giant salad",
           "message_index": 9,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_6f7a8b9c_s05_t007",
@@ -755,7 +779,13 @@
           "timestamp": "2025-06-30T18:38:00"
         }
       ],
-      "date": "2025-06-30"
+      "date": "2025-06-30",
+      "active_participants": [
+        "p_cf6a1b2c3",
+        "p_cf6c3d4e5",
+        "p_cf6b2c3d4",
+        "p_cf6d4e5f6"
+      ]
     }
   ],
   "total_turns": 50,
@@ -763,37 +793,93 @@
     {
       "challenge_id": "ch_cf6s1c1",
       "session_index": 1,
-      "turn_id": "grp_6f7a8b9c_s01_t002"
+      "turn_id": "grp_6f7a8b9c_s01_t002",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_cf6c3d4e5",
+      "speaker_persona_id": "p_cf6c3d4e5",
+      "fact_attribute": "cost_avoidance",
+      "fact_value": "Sasha steers away from expensive plans (flights, hotels) by reframing them as 'not my vibe' rather than citing financial constraints",
+      "evidence_span": "I'll book it now if you all say yes. I'm serious, give me a date and I'll sort it.",
+      "implicitness_level": 2,
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_cf6s2c1",
       "session_index": 2,
-      "turn_id": "grp_6f7a8b9c_s02_t000"
+      "turn_id": "grp_6f7a8b9c_s02_t000",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_cf6a1b2c3",
+      "speaker_persona_id": "p_cf6a1b2c3",
+      "fact_attribute": "availability_masking",
+      "fact_value": "Abi cancels plans citing 'work' without acknowledging that her underlying constraint is childcare and exhaustion from parenting a toddler",
+      "evidence_span": "October isn't going to work for me. Work thing came up.",
+      "implicitness_level": 2,
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_cf6s2c2",
       "session_index": 2,
-      "turn_id": "grp_6f7a8b9c_s02_t004"
+      "turn_id": "grp_6f7a8b9c_s02_t004",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_cf6d4e5f6",
+      "speaker_persona_id": "p_cf6d4e5f6",
+      "fact_attribute": "responsiveness_and_engagement",
+      "fact_value": "Dev's replies are increasingly delayed and provisional; he expresses genuine intent but never commits, and references 'when the PhD is done' as the future point when things will improve",
+      "evidence_span": "I can host in London. Sasha's idea is the right one. We've been trying to book hotels and trips for two years. Let's just be in the same room. Dev, you have to actually come.",
+      "implicitness_level": 2,
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_cf6s3c1",
       "session_index": 3,
-      "turn_id": "grp_6f7a8b9c_s03_t001"
+      "turn_id": "grp_6f7a8b9c_s03_t001",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_cf6b2c3d4",
+      "speaker_persona_id": "p_cf6b2c3d4",
+      "fact_attribute": "plan_ambition_preference",
+      "fact_value": "Kwame has shifted from enthusiastic support for ambitious group trips to insisting on small, definitely-happening local plans after repeated cancellations",
+      "evidence_span": "I'm not going to plan another ambitious trip. Let's do something local and actually doable.",
+      "implicitness_level": 1,
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_cf6s3c2",
       "session_index": 3,
-      "turn_id": "grp_6f7a8b9c_s03_t004"
+      "turn_id": "grp_6f7a8b9c_s03_t004",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "p_cf6d4e5f6",
+      "speaker_persona_id": "p_cf6b2c3d4",
+      "fact_attribute": "dev_situation_known_by_kwame",
+      "fact_value": "Kwame knows Dev is struggling with his PhD circumstances and makes a separate trip to see him rather than waiting for a group meetup, shielding Dev from being made accountable in the group",
+      "evidence_span": "I'm coming to Edinburgh next week actually. Separate thing. He's heads-down at the moment but I wanted to see him.",
+      "implicitness_level": 2,
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_cf6s4c1",
       "session_index": 4,
-      "turn_id": "grp_6f7a8b9c_s04_t004"
+      "turn_id": "grp_6f7a8b9c_s04_t004",
+      "challenge_type": "norm_violation",
+      "subject_persona_id": "p_cf6d4e5f6",
+      "speaker_persona_id": "p_cf6b2c3d4",
+      "fact_attribute": "monthly_checkin_norm_breach",
+      "fact_value": "Dev has gone six weeks without posting, breaching the group's norm of a monthly minimum check-in; Kwame flags this directly",
+      "evidence_span": "Dev, you've been MIA for like six weeks. The whole point of this chat is monthly minimum.",
+      "implicitness_level": 1,
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_cf6s5c1",
       "session_index": 5,
-      "turn_id": "grp_6f7a8b9c_s05_t002"
+      "turn_id": "grp_6f7a8b9c_s05_t002",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "p_cf6d4e5f6",
+      "speaker_persona_id": "p_cf6b2c3d4",
+      "fact_attribute": "kwame_dev_bond",
+      "fact_value": "Kwame maintains a separate bilateral relationship with Dev \u2014 telling him things privately, covering for his absence, keeping him connected to the group even when Dev can't show up",
+      "evidence_span": "Dev, you missed a good one. I'll tell you about it when we speak. You were there in spirit.",
+      "implicitness_level": 2,
+      "turn_index": 3
     }
   ],
   "start_date": "2025-06-02"

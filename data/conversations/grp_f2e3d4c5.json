@@ -15,10 +15,12 @@
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "love how this group keeps everyone connected!! just a reminder that SPRING TERM starts tomorrow and the Year 3 trip deposit is due by Friday - only six spots left I think!! 🎉🎉 also the PARENTS COMMITTEE meets on the 22nd if anyone wants to join!",
+          "message": "love how this group keeps everyone connected!! just a reminder that SPRING TERM starts tomorrow and the Year 3 trip deposit is due by Friday - only six spots left I think!! \ud83c\udf89\ud83c\udf89 also the PARENTS COMMITTEE meets on the 22nd if anyone wants to join!",
           "timestamp": "2025-01-15T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Jan 15, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t002",
@@ -28,7 +30,9 @@
           "message": "Two things to flag on that: deposit link is in the newsletter from the 10th, and I've confirmed with the office that bank transfer is fine if the app isn't working. C",
           "timestamp": "2025-01-15T19:06:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Jan 15, 7:06pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t003",
@@ -38,27 +42,33 @@
           "message": "As per the letter of the 10th, the deadline is Friday the 17th, not Thursday. Correct otherwise.",
           "timestamp": "2025-01-15T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Jan 15, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t004",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "oh goodness Friday yes!! thanks Anita 😅 I did double-check with Mrs Patel and she confirmed the same. sorry for the confusion!!",
+          "message": "oh goodness Friday yes!! thanks Anita \ud83d\ude05 I did double-check with Mrs Patel and she confirmed the same. sorry for the confusion!!",
           "timestamp": "2025-01-15T19:08:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Jan 15, 7:08pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t005",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "noted lads thanks. do we know what time the trip leaves? asking for school run logistics 😬",
+          "message": "noted lads thanks. do we know what time the trip leaves? asking for school run logistics \ud83d\ude2c",
           "timestamp": "2025-01-15T19:10:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Jan 15, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t006",
@@ -68,7 +78,9 @@
           "message": "8:30 drop-off at the front gate. Normal pickup time unchanged. C",
           "timestamp": "2025-01-15T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Jan 15, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t007",
@@ -78,7 +90,9 @@
           "message": "worth knowing - they're resurfacing the road by the turning circle from Monday so give yourself an extra ten minutes on pickup days next week. happened last time and it backed up past the dry cleaner on Maple",
           "timestamp": "2025-01-15T19:13:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Jan 15, 7:13pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t008",
@@ -88,37 +102,45 @@
           "message": "Useful. Thanks Dan.",
           "timestamp": "2025-01-15T19:14:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Jan 15, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t009",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "oh nooo I always forget about the road works until I'm already stuck in them 😭😭 Dan you are genuinely the best for flagging this every time, I would have been sitting there for 20 mins otherwise!! noted note to self leave earlier 👏",
+          "message": "oh nooo I always forget about the road works until I'm already stuck in them \ud83d\ude2d\ud83d\ude2d Dan you are genuinely the best for flagging this every time, I would have been sitting there for 20 mins otherwise!! noted note to self leave earlier \ud83d\udc4f",
           "timestamp": "2025-01-15T19:15:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 9,
+          "timestamp_label": "Jan 15, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t010",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_d4e5f6a7",
           "speaker_display_name": "Dan",
-          "message": "also the parking zone by the hall entrance changed to residents only from 8 to 9am, that happened last month. worth knowing before you get a ticket 👍",
+          "message": "also the parking zone by the hall entrance changed to residents only from 8 to 9am, that happened last month. worth knowing before you get a ticket \ud83d\udc4d",
           "timestamp": "2025-01-15T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Jan 15, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t011",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "no idea that had changed tbh, would have just parked there like normal 😅",
+          "message": "no idea that had changed tbh, would have just parked there like normal \ud83d\ude05",
           "timestamp": "2025-01-15T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Jan 15, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t012",
@@ -128,7 +150,9 @@
           "message": "1. Can anyone confirm whether the new zone applies on non-school days as well? 2. Is the signage updated or are we working from word of mouth? Happy to clarify if someone has the council notice.",
           "timestamp": "2025-01-15T19:18:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Jan 15, 7:18pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t013",
@@ -138,27 +162,33 @@
           "message": "signs are up, just small ones tbf. you'd miss them if you weren't looking. applies every day as far as I can tell",
           "timestamp": "2025-01-15T19:20:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 13,
+          "timestamp_label": "Jan 15, 7:20pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t014",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "Mike are you doing pickup on Thursday? Aanya has been asking if Zac is coming to the park after - she's been talking about it all week 😍😍 just me or do all the kids treat school like a full social calendar now?",
+          "message": "Mike are you doing pickup on Thursday? Aanya has been asking if Zac is coming to the park after - she's been talking about it all week \ud83d\ude0d\ud83d\ude0d just me or do all the kids treat school like a full social calendar now?",
           "timestamp": "2025-01-15T19:21:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a101"
+          "planted_challenge_ref": "ch_f2c3a101",
+          "message_index": 14,
+          "timestamp_label": "Jan 15, 7:21pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t015",
           "session_id": "grp_f2e3d4c5_s01",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "yeah I've got Thursday sorted lads, all covered. tell Aanya yes from me 😄",
+          "message": "yeah I've got Thursday sorted lads, all covered. tell Aanya yes from me \ud83d\ude04",
           "timestamp": "2025-01-15T19:22:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a102"
+          "planted_challenge_ref": "ch_f2c3a102",
+          "message_index": 15,
+          "timestamp_label": "Jan 15, 7:22pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s01_t016",
@@ -168,12 +198,25 @@
           "message": "Appreciate the heads up on the parking. I'll leave earlier next week. Y",
           "timestamp": "2025-01-15T19:24:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Jan 15, 7:24pm"
         }
       ],
       "prior_session_summary": null,
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a7b8c9d0",
+        "p_a9b1c2d3",
+        "p_c9d0e1f2",
+        "p_b8c9d0e1",
+        "p_d4e5f6a7",
+        "p_b2c3d4e5",
+        "p_c3d4e5f6",
+        "p_f6a7b8c9",
+        "p_e5f6a7b8"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s02",
@@ -188,10 +231,12 @@
           "session_id": "grp_f2e3d4c5_s02",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "love how everyone flagged the parking stuff last week - saved a few people I think!! reminder that PARENTS COMMITTEE is tonight at 8pm, dial-in link in the pinned message 📌🌟",
+          "message": "love how everyone flagged the parking stuff last week - saved a few people I think!! reminder that PARENTS COMMITTEE is tonight at 8pm, dial-in link in the pinned message \ud83d\udccc\ud83c\udf1f",
           "timestamp": "2025-01-22T19:02:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Jan 22, 7:02pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t002",
@@ -201,7 +246,9 @@
           "message": "Three things from tonight's agenda: Year 3 trip consent forms, Spring Fair committee volunteers, and a note on parking enforcement beginning the 27th. C",
           "timestamp": "2025-01-22T19:03:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a103"
+          "planted_challenge_ref": "ch_f2c3a103",
+          "message_index": 2,
+          "timestamp_label": "Jan 22, 7:03pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t003",
@@ -211,7 +258,9 @@
           "message": "The parking enforcement start date is the 27th of January. Some copies circulating say the 22nd - that is incorrect. As per the council notice of the 15th.",
           "timestamp": "2025-01-22T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Jan 22, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t004",
@@ -221,7 +270,9 @@
           "message": "yeah I clocked that on the signs Monday. the warden was already scoping out the turning circle tbf",
           "timestamp": "2025-01-22T19:06:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Jan 22, 7:06pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t005",
@@ -231,7 +282,9 @@
           "message": "Good to have the correct date confirmed. Does the enforcement cover the side street off Maple or only the main turning circle? Happy to check the council notice if someone has it.",
           "timestamp": "2025-01-22T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Jan 22, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t006",
@@ -241,7 +294,9 @@
           "message": "just the main turning circle as far as I can tell. the side road next to the dry cleaner on Maple is unaffected. worth confirming with the council though",
           "timestamp": "2025-01-22T19:09:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Jan 22, 7:09pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t007",
@@ -251,47 +306,57 @@
           "message": "Emailed the council last week. No reply. (That's all.)",
           "timestamp": "2025-01-22T19:10:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Jan 22, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t008",
           "session_id": "grp_f2e3d4c5_s02",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "slightly off topic but Divya's birthday is coming up and I was thinking about doing something in the park for the Year 3 girls? I know it's cold but honestly the park is always so much nicer than a hall, just me?? 🌳😍",
+          "message": "slightly off topic but Divya's birthday is coming up and I was thinking about doing something in the park for the Year 3 girls? I know it's cold but honestly the park is always so much nicer than a hall, just me?? \ud83c\udf33\ud83d\ude0d",
           "timestamp": "2025-01-22T19:12:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Jan 22, 7:12pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t009",
           "session_id": "grp_f2e3d4c5_s02",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "obviously the park lads, I was going to suggest the same thing - I know you'd never pick a hall 😄",
+          "message": "obviously the park lads, I was going to suggest the same thing - I know you'd never pick a hall \ud83d\ude04",
           "timestamp": "2025-01-22T19:13:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a104"
+          "planted_challenge_ref": "ch_f2c3a104",
+          "message_index": 9,
+          "timestamp_label": "Jan 22, 7:13pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t010",
           "session_id": "grp_f2e3d4c5_s02",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "THE PARK sounds absolutely lovely!! 🎂🎂 maybe I can help organise something? I have a contact at the catering van that does the school fairs - they do birthday packages too!",
+          "message": "THE PARK sounds absolutely lovely!! \ud83c\udf82\ud83c\udf82 maybe I can help organise something? I have a contact at the catering van that does the school fairs - they do birthday packages too!",
           "timestamp": "2025-01-22T19:15:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Jan 22, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t011",
           "session_id": "grp_f2e3d4c5_s02",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "Sharon YES!! the vibes would be so good 😍😍 let's chat properly this week, I'll DM you",
+          "message": "Sharon YES!! the vibes would be so good \ud83d\ude0d\ud83d\ude0d let's chat properly this week, I'll DM you",
           "timestamp": "2025-01-22T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Jan 22, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t012",
@@ -301,7 +366,9 @@
           "message": "Happy to help if you need someone on the day. Working nights through most of February but Saturday mornings before 9 should be manageable. Y",
           "timestamp": "2025-01-22T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Jan 22, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t013",
@@ -311,7 +378,9 @@
           "message": "Yvonne I'll flag anything from committee you miss if you can't make it. We've been covering for each other's gaps since the Year 2 fundraiser so this is nothing new. C",
           "timestamp": "2025-01-22T19:19:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a105"
+          "planted_challenge_ref": "ch_f2c3a105",
+          "message_index": 13,
+          "timestamp_label": "Jan 22, 7:19pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t014",
@@ -321,7 +390,9 @@
           "message": "1. On the park birthday idea - is there a booking requirement for the bandstand area on weekends? 2. What is the capacity for a children's event? Worth confirming before committing. Does that help to frame things?",
           "timestamp": "2025-01-22T19:20:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 14,
+          "timestamp_label": "Jan 22, 7:20pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t015",
@@ -331,22 +402,37 @@
           "message": "you need to book through the council website, there's a form. free for under-12 groups up to 30 people. did it last year for my lad's birthday. worth knowing",
           "timestamp": "2025-01-22T19:22:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 15,
+          "timestamp_label": "Jan 22, 7:22pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s02_t016",
           "session_id": "grp_f2e3d4c5_s02",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "no idea there was a booking form tbh, I've always just shown up 😅",
+          "message": "no idea there was a booking form tbh, I've always just shown up \ud83d\ude05",
           "timestamp": "2025-01-22T19:23:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Jan 22, 7:23pm"
         }
       ],
       "prior_session_summary": "Term started, parking zone changes flagged by Dan. Year 3 trip deposit confirmed due Friday. Priya raised idea of a park birthday for her daughter's Year 3 friends. Mike and Priya have a regular after-school park arrangement confirmed through the chat.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a7b8c9d0",
+        "p_a9b1c2d3",
+        "p_c9d0e1f2",
+        "p_d4e5f6a7",
+        "p_f6a7b8c9",
+        "p_b2c3d4e5",
+        "p_c3d4e5f6",
+        "p_b8c9d0e1",
+        "p_e5f6a7b8"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s03",
@@ -361,30 +447,36 @@
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "okay everyone THE BIRTHDAY PARK THING IS HAPPENING 🎉🎉🎉 Feb 15th, 11am, main bandstand area, booking is confirmed!! I'm already obsessed with how good this is going to be, all Year 3 families welcome!! 🌳✨",
+          "message": "okay everyone THE BIRTHDAY PARK THING IS HAPPENING \ud83c\udf89\ud83c\udf89\ud83c\udf89 Feb 15th, 11am, main bandstand area, booking is confirmed!! I'm already obsessed with how good this is going to be, all Year 3 families welcome!! \ud83c\udf33\u2728",
           "timestamp": "2025-01-29T19:05:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Jan 29, 7:05pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t002",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "I love how fast you made this happen!! 🎂🎂 can I bring cupcakes from the shop? cost price obviously!! and I have a BIRTHDAY BANNER from the SPRING FAIR kit that would be perfect for this!!",
+          "message": "I love how fast you made this happen!! \ud83c\udf82\ud83c\udf82 can I bring cupcakes from the shop? cost price obviously!! and I have a BIRTHDAY BANNER from the SPRING FAIR kit that would be perfect for this!!",
           "timestamp": "2025-01-29T19:06:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Jan 29, 7:06pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t003",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads this is going to be brilliant. Zac has already told me about it twice today 😄",
+          "message": "lads this is going to be brilliant. Zac has already told me about it twice today \ud83d\ude04",
           "timestamp": "2025-01-29T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Jan 29, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t004",
@@ -394,7 +486,9 @@
           "message": "Two quick things: checked and the bandstand does need a wet weather backup plan. Would the Parkside Room next door work if needed? Also the date clashes with Year 5 parents meeting. C",
           "timestamp": "2025-01-29T19:08:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Jan 29, 7:08pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t005",
@@ -404,17 +498,21 @@
           "message": "Confirmed. The Year 5 meeting is the 15th. I will not be at the birthday event.",
           "timestamp": "2025-01-29T19:09:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Jan 29, 7:09pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t006",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "totally fine Anita no pressure!! 😊 and yes Claire genius thinking on the backup - I'll add the Parkside Room to the booking just in case 👍",
+          "message": "totally fine Anita no pressure!! \ud83d\ude0a and yes Claire genius thinking on the backup - I'll add the Parkside Room to the booking just in case \ud83d\udc4d",
           "timestamp": "2025-01-29T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Jan 29, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t007",
@@ -424,7 +522,9 @@
           "message": "Parkside Room is free Saturday mornings before 1pm as far as I know. definitely worth booking as backup tbf",
           "timestamp": "2025-01-29T19:12:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Jan 29, 7:12pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t008",
@@ -434,7 +534,9 @@
           "message": "I can be there if it is before noon. I appreciate being included. Y",
           "timestamp": "2025-01-29T19:13:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Jan 29, 7:13pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t009",
@@ -444,7 +546,9 @@
           "message": "Sounds like it is well organised. Good luck with it.",
           "timestamp": "2025-01-29T19:14:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a106"
+          "planted_challenge_ref": "ch_f2c3a106",
+          "message_index": 9,
+          "timestamp_label": "Jan 29, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t010",
@@ -454,57 +558,69 @@
           "message": "Can't make it. Have a good one.",
           "timestamp": "2025-01-29T19:15:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Jan 29, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t011",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "also love how this group pulls together!! speaking of which the SPRING FAIR subgroup still needs one more volunteer for Tuesday evenings - anyone able to help? 🌸",
+          "message": "also love how this group pulls together!! speaking of which the SPRING FAIR subgroup still needs one more volunteer for Tuesday evenings - anyone able to help? \ud83c\udf38",
           "timestamp": "2025-01-29T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Jan 29, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t012",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "no idea what I'm doing Tuesday evenings tbh, will check and let you know 😬",
+          "message": "no idea what I'm doing Tuesday evenings tbh, will check and let you know \ud83d\ude2c",
           "timestamp": "2025-01-29T19:18:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Jan 29, 7:18pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t013",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "Sharon for the cupcakes - are any of them vegan? just asking for a friend haha 😅",
+          "message": "Sharon for the cupcakes - are any of them vegan? just asking for a friend haha \ud83d\ude05",
           "timestamp": "2025-01-29T19:19:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a107"
+          "planted_challenge_ref": "ch_f2c3a107",
+          "message_index": 13,
+          "timestamp_label": "Jan 29, 7:19pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t014",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "yes!! I always do two vegan options 🌱 the lemon drizzle and the chocolate are both vegan - I try to cover it every time!!",
+          "message": "yes!! I always do two vegan options \ud83c\udf31 the lemon drizzle and the chocolate are both vegan - I try to cover it every time!!",
           "timestamp": "2025-01-29T19:20:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 14,
+          "timestamp_label": "Jan 29, 7:20pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t015",
           "session_id": "grp_f2e3d4c5_s03",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "okay perfect tbh, thank you!! the lemon drizzle sounds incredible 🍋😍",
+          "message": "okay perfect tbh, thank you!! the lemon drizzle sounds incredible \ud83c\udf4b\ud83d\ude0d",
           "timestamp": "2025-01-29T19:21:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 15,
+          "timestamp_label": "Jan 29, 7:21pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s03_t016",
@@ -514,12 +630,25 @@
           "message": "This is shaping up well. Reminder that the Year 4 curriculum evening is the 3rd of February, 6pm at the school hall. C",
           "timestamp": "2025-01-29T19:23:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Jan 29, 7:23pm"
         }
       ],
       "prior_session_summary": "Park birthday confirmed for Feb 15th. Sharon offering cupcakes. Kofi and James both opted out of the birthday social. Priya asked about vegan cupcake options. Claire redirected back to school news at end of session.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c3d4e5f6",
+        "p_a7b8c9d0",
+        "p_b8c9d0e1",
+        "p_a9b1c2d3",
+        "p_c9d0e1f2",
+        "p_d4e5f6a7",
+        "p_e5f6a7b8",
+        "p_f6a7b8c9",
+        "p_b2c3d4e5"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s04",
@@ -534,40 +663,48 @@
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "love this community!! before the parents meeting next week - I want to float an idea: a QUIZ NIGHT in March, open to all parents!! we did it two years ago and it was brilliant!! 🎉🎉 thoughts? I'm happy to organise if there's appetite!!",
+          "message": "love this community!! before the parents meeting next week - I want to float an idea: a QUIZ NIGHT in March, open to all parents!! we did it two years ago and it was brilliant!! \ud83c\udf89\ud83c\udf89 thoughts? I'm happy to organise if there's appetite!!",
           "timestamp": "2025-02-05T19:01:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Feb 5, 7:01pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t002",
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads I am absolutely in for a quiz night tbh, been ages since the last one 😄",
+          "message": "lads I am absolutely in for a quiz night tbh, been ages since the last one \ud83d\ude04",
           "timestamp": "2025-02-05T19:03:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Feb 5, 7:03pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t003",
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "oh the vibes of a quiz night!! 🙌🙌 yes absolutely - will it be at the White Lion again? that venue was so good last time",
+          "message": "oh the vibes of a quiz night!! \ud83d\ude4c\ud83d\ude4c yes absolutely - will it be at the White Lion again? that venue was so good last time",
           "timestamp": "2025-02-05T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Feb 5, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t004",
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "thinking the White Lion yes!! they've already confirmed they can host on a Thursday in March 🍻🎉",
+          "message": "thinking the White Lion yes!! they've already confirmed they can host on a Thursday in March \ud83c\udf7b\ud83c\udf89",
           "timestamp": "2025-02-05T19:05:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Feb 5, 7:05pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t005",
@@ -577,7 +714,9 @@
           "message": "I'm in tbf, it was a good night last time. can we do 7:30 start rather than 7? getting kids down first is a lot easier",
           "timestamp": "2025-02-05T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Feb 5, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t006",
@@ -587,7 +726,9 @@
           "message": "Quiz night sounds good. Count me in for March. Two things on the parents meeting next Wednesday: can we confirm the agenda has the library budget item, and does anyone have the date the head confirmed? C",
           "timestamp": "2025-02-05T19:08:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a108"
+          "planted_challenge_ref": "ch_f2c3a108",
+          "message_index": 6,
+          "timestamp_label": "Feb 5, 7:08pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t007",
@@ -597,7 +738,9 @@
           "message": "1. Parents meeting is Wednesday the 12th of February, confirmed by the school email last week. 2. I have the library budget figures if Claire needs them ahead of the meeting. Does that work?",
           "timestamp": "2025-02-05T19:09:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Feb 5, 7:09pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t008",
@@ -607,7 +750,9 @@
           "message": "Yes please Kofi, send them over. Noted. C",
           "timestamp": "2025-02-05T19:10:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Feb 5, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t009",
@@ -617,7 +762,9 @@
           "message": "Quiz night: yes. Meeting: can't make it.",
           "timestamp": "2025-02-05T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 9,
+          "timestamp_label": "Feb 5, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t010",
@@ -627,17 +774,21 @@
           "message": "The library budget item was confirmed in the email of the 29th of January. The agenda was circulated on the 3rd of February.",
           "timestamp": "2025-02-05T19:12:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Feb 5, 7:12pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t011",
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "brilliant!! I'll set up a separate quiz night thread so it doesn't get lost in here 🎉 and SPRING FAIR subgroup still needs one more volunteer for Tuesdays if anyone has it free!!",
+          "message": "brilliant!! I'll set up a separate quiz night thread so it doesn't get lost in here \ud83c\udf89 and SPRING FAIR subgroup still needs one more volunteer for Tuesdays if anyone has it free!!",
           "timestamp": "2025-02-05T19:14:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Feb 5, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t012",
@@ -647,7 +798,9 @@
           "message": "Kofi - the figures from the January committee would do it. Same doc you pulled for the trip budget.",
           "timestamp": "2025-02-05T19:15:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a109"
+          "planted_challenge_ref": "ch_f2c3a109",
+          "message_index": 12,
+          "timestamp_label": "Feb 5, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t013",
@@ -657,27 +810,33 @@
           "message": "Correct. Will send both. Does that cover it, Claire?",
           "timestamp": "2025-02-05T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 13,
+          "timestamp_label": "Feb 5, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t014",
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "just a quick update before bed - quiz night is confirmed for March 6th!! put it in your diaries!! 🎉🎉 I've emailed the White Lion already, more details to follow!! sorry for the late message 😊",
+          "message": "just a quick update before bed - quiz night is confirmed for March 6th!! put it in your diaries!! \ud83c\udf89\ud83c\udf89 I've emailed the White Lion already, more details to follow!! sorry for the late message \ud83d\ude0a",
           "timestamp": "2025-02-05T21:14:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a110"
+          "planted_challenge_ref": "ch_f2c3a110",
+          "message_index": 14,
+          "timestamp_label": "Feb 5, 9:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t015",
           "session_id": "grp_f2e3d4c5_s04",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "nice work Sharon!! 😄",
+          "message": "nice work Sharon!! \ud83d\ude04",
           "timestamp": "2025-02-05T21:23:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 15,
+          "timestamp_label": "Feb 5, 9:23pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s04_t016",
@@ -687,12 +846,25 @@
           "message": "Appreciate the update. Will note the date. Y",
           "timestamp": "2025-02-05T21:47:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Feb 5, 9:47pm"
         }
       ],
       "prior_session_summary": "Quiz night proposed and well-received. Claire participated in the social discussion without redirecting it back to school matters - first visible shift from her usual pattern. James and Kofi showed a quiet prior working relationship around budget documents. Sharon sent a late-night message past 9pm confirming quiz night details.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a7b8c9d0",
+        "p_b8c9d0e1",
+        "p_c3d4e5f6",
+        "p_d4e5f6a7",
+        "p_a9b1c2d3",
+        "p_f6a7b8c9",
+        "p_b2c3d4e5",
+        "p_c9d0e1f2",
+        "p_e5f6a7b8"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s05",
@@ -707,30 +879,36 @@
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "just wanted to say the birthday thing on Saturday was SO GOOD you lot 🥲🥲 I'm still not over it honestly!! Aanya is still talking about it, and Sharon the cupcakes were absolutely incredible!! 😍😍",
+          "message": "just wanted to say the birthday thing on Saturday was SO GOOD you lot \ud83e\udd72\ud83e\udd72 I'm still not over it honestly!! Aanya is still talking about it, and Sharon the cupcakes were absolutely incredible!! \ud83d\ude0d\ud83d\ude0d",
           "timestamp": "2025-02-12T19:03:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Feb 12, 7:03pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t002",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "it was just MAGICAL wasn't it!! 🎂 the park looked gorgeous in the February light and the kids were so happy!! nothing makes me happier than when these things come together!! 🌸🌸",
+          "message": "it was just MAGICAL wasn't it!! \ud83c\udf82 the park looked gorgeous in the February light and the kids were so happy!! nothing makes me happier than when these things come together!! \ud83c\udf38\ud83c\udf38",
           "timestamp": "2025-02-12T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Feb 12, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t003",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "was such a good morning lads. Zac talked about it all the way home and then all through dinner 😄 credit to Priya for making it happen so fast",
+          "message": "was such a good morning lads. Zac talked about it all the way home and then all through dinner \ud83d\ude04 credit to Priya for making it happen so fast",
           "timestamp": "2025-02-12T19:05:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Feb 12, 7:05pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t004",
@@ -740,7 +918,9 @@
           "message": "good result. the park was the right call tbf, hall would have been too small for that many kids",
           "timestamp": "2025-02-12T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Feb 12, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t005",
@@ -750,7 +930,9 @@
           "message": "I was glad I could make it. Speaking as someone who has missed most events for two years because of nights - it was good to actually be there for once. The rotation changed last month, mostly days now. Should mean fewer clashes going forward. Y",
           "timestamp": "2025-02-12T19:08:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a111"
+          "planted_challenge_ref": "ch_f2c3a111",
+          "message_index": 5,
+          "timestamp_label": "Feb 12, 7:08pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t006",
@@ -760,27 +942,33 @@
           "message": "That's really good to hear Yvonne. You were missed at the last few. Looking forward to seeing more of you. C",
           "timestamp": "2025-02-12T19:10:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Feb 12, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t007",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "Yvonne this is the best news!! 🥰 we always need more sensible people at these things to balance out the general chaos (looking at no one in particular 😅)",
+          "message": "Yvonne this is the best news!! \ud83e\udd70 we always need more sensible people at these things to balance out the general chaos (looking at no one in particular \ud83d\ude05)",
           "timestamp": "2025-02-12T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Feb 12, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t008",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "hey I provide chaos AND substance lads 😬",
+          "message": "hey I provide chaos AND substance lads \ud83d\ude2c",
           "timestamp": "2025-02-12T19:12:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Feb 12, 7:12pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t009",
@@ -790,7 +978,9 @@
           "message": "On the quiz night: the White Lion's seated capacity for private events is 60. Worth noting if we expect more than 40 parents - the room gets full at that point. Does anyone have a headcount estimate yet?",
           "timestamp": "2025-02-12T19:14:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 9,
+          "timestamp_label": "Feb 12, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t010",
@@ -800,17 +990,21 @@
           "message": "Last time we had 38 adults. Given the new Year 3 and 4 cohorts I'd estimate 42 to 45. Worth capping registration at 45 to be safe. C",
           "timestamp": "2025-02-12T19:15:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a112"
+          "planted_challenge_ref": "ch_f2c3a112",
+          "message_index": 10,
+          "timestamp_label": "Feb 12, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t011",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "YES a cap is such a smart idea!! I'll set up a signup sheet right away 🎉 just name and whether you're bringing a plus-one!!",
+          "message": "YES a cap is such a smart idea!! I'll set up a signup sheet right away \ud83c\udf89 just name and whether you're bringing a plus-one!!",
           "timestamp": "2025-02-12T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Feb 12, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t012",
@@ -820,7 +1014,9 @@
           "message": "45 sounds about right tbf. also worth knowing the side road behind the White Lion fills up by 7pm on Thursdays so allow 15 mins extra",
           "timestamp": "2025-02-12T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Feb 12, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t013",
@@ -830,7 +1026,9 @@
           "message": "Noted. Signed up.",
           "timestamp": "2025-02-12T19:18:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 13,
+          "timestamp_label": "Feb 12, 7:18pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t014",
@@ -840,32 +1038,49 @@
           "message": "45 is a reasonable cap given the venue layout. I will confirm attendance by Friday.",
           "timestamp": "2025-02-12T19:19:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 14,
+          "timestamp_label": "Feb 12, 7:19pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t015",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "quick one lads - anyone doing school pickup on Thursday by any chance? Priya I know you usually are, I've got a PT session that might run late 😬 no worries at all if not",
+          "message": "quick one lads - anyone doing school pickup on Thursday by any chance? Priya I know you usually are, I've got a PT session that might run late \ud83d\ude2c no worries at all if not",
           "timestamp": "2025-02-12T19:21:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a113"
+          "planted_challenge_ref": "ch_f2c3a113",
+          "message_index": 15,
+          "timestamp_label": "Feb 12, 7:21pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s05_t016",
           "session_id": "grp_f2e3d4c5_s05",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "Mike yes of course!! Aanya will be delighted 😍",
+          "message": "Mike yes of course!! Aanya will be delighted \ud83d\ude0d",
           "timestamp": "2025-02-12T19:22:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Feb 12, 7:22pm"
         }
       ],
       "prior_session_summary": "Birthday event was a success. Yvonne mentioned her shift rotation changed to mostly days - first time she can attend events regularly. Quiz night capacity discussed: Kofi flagged 60-person venue limit, Claire suggested cap at 45. Mike asked for a pickup favour for the first time, hedging heavily.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c3d4e5f6",
+        "p_a7b8c9d0",
+        "p_b8c9d0e1",
+        "p_d4e5f6a7",
+        "p_e5f6a7b8",
+        "p_a9b1c2d3",
+        "p_f6a7b8c9",
+        "p_b2c3d4e5",
+        "p_c9d0e1f2"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s06",
@@ -880,30 +1095,36 @@
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "love how organised everyone has been for the QUIZ NIGHT!! 🎉 we have 39 sign-ups already!! last few spots going fast - link in the pinned message if you haven't registered!! also putting together team names - feel free to suggest!! 🧠🧠",
+          "message": "love how organised everyone has been for the QUIZ NIGHT!! \ud83c\udf89 we have 39 sign-ups already!! last few spots going fast - link in the pinned message if you haven't registered!! also putting together team names - feel free to suggest!! \ud83e\udde0\ud83e\udde0",
           "timestamp": "2025-02-19T19:00:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Feb 19, 7:00pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t002",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "okay 'the parent trap' as a team name?? 😂😂 just me or is that actually genius? the vibes are very good for this quiz honestly",
+          "message": "okay 'the parent trap' as a team name?? \ud83d\ude02\ud83d\ude02 just me or is that actually genius? the vibes are very good for this quiz honestly",
           "timestamp": "2025-02-19T19:02:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Feb 19, 7:02pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t003",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads 'the parent trap' is an absolutely top tier name tbh 😄",
+          "message": "lads 'the parent trap' is an absolutely top tier name tbh \ud83d\ude04",
           "timestamp": "2025-02-19T19:03:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Feb 19, 7:03pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t004",
@@ -913,7 +1134,9 @@
           "message": "works for me tbf. easy to say and people will get it straight away",
           "timestamp": "2025-02-19T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Feb 19, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t005",
@@ -923,7 +1146,9 @@
           "message": "Fine by me.",
           "timestamp": "2025-02-19T19:05:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Feb 19, 7:05pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t006",
@@ -933,7 +1158,9 @@
           "message": "Good choice. Clear and recognisable. Happy to put that forward. Does it need a formal vote or is informal consensus enough?",
           "timestamp": "2025-02-19T19:06:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Feb 19, 7:06pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t007",
@@ -943,17 +1170,21 @@
           "message": "Informal consensus is fine for team names. Three things on logistics: start time, payment method, and whether the venue has a no-phones policy this time. C",
           "timestamp": "2025-02-19T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Feb 19, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t008",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "7:30 start and yes pay on the night!! also I think the last round is double points? I remember that being what made the end so exciting last time!! 🎉",
+          "message": "7:30 start and yes pay on the night!! also I think the last round is double points? I remember that being what made the end so exciting last time!! \ud83c\udf89",
           "timestamp": "2025-02-19T19:09:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Feb 19, 7:09pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t009",
@@ -963,27 +1194,33 @@
           "message": "Good instinct on the format Sharon. The final round was triple points in 2023, not double. As per the score sheet from that event.",
           "timestamp": "2025-02-19T19:10:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a114"
+          "planted_challenge_ref": "ch_f2c3a114",
+          "message_index": 9,
+          "timestamp_label": "Feb 19, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t010",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "oh of course triple!! even better for the drama at the end!! 🎉🎉 thanks Anita!!",
+          "message": "oh of course triple!! even better for the drama at the end!! \ud83c\udf89\ud83c\udf89 thanks Anita!!",
           "timestamp": "2025-02-19T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Feb 19, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t011",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "triple points changes the WHOLE strategy omg 😂😂 okay this is going to be so good!! who else is getting competitive already just me??",
+          "message": "triple points changes the WHOLE strategy omg \ud83d\ude02\ud83d\ude02 okay this is going to be so good!! who else is getting competitive already just me??",
           "timestamp": "2025-02-19T19:13:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Feb 19, 7:13pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t012",
@@ -993,7 +1230,9 @@
           "message": "worth knowing - the back car park at the White Lion fills up by 7pm on Thursdays. the street behind it is free after 6:30 though",
           "timestamp": "2025-02-19T19:14:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Feb 19, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t013",
@@ -1003,7 +1242,9 @@
           "message": "Noted. Thanks Dan. (That's all.)",
           "timestamp": "2025-02-19T19:15:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 13,
+          "timestamp_label": "Feb 19, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t014",
@@ -1013,42 +1254,61 @@
           "message": "I have signed up. Looking forward to it. Speaking as someone who has not been to a group event in over a year - this is well overdue. Y",
           "timestamp": "2025-02-19T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 14,
+          "timestamp_label": "Feb 19, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t015",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "Yvonne genuinely so glad you can come 😄 lads this is going to be a really good one",
+          "message": "Yvonne genuinely so glad you can come \ud83d\ude04 lads this is going to be a really good one",
           "timestamp": "2025-02-19T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 15,
+          "timestamp_label": "Feb 19, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t016",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads quick one - anyone got a strong recommendation for team specialist category? thinking sports or music tbh 😬",
+          "message": "lads quick one - anyone got a strong recommendation for team specialist category? thinking sports or music tbh \ud83d\ude2c",
           "timestamp": "2025-02-19T21:35:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a116"
+          "planted_challenge_ref": "ch_f2c3a116",
+          "message_index": 16,
+          "timestamp_label": "Feb 19, 9:35pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s06_t017",
           "session_id": "grp_f2e3d4c5_s06",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "SPORTS!! the year we had sports as a specialist category we absolutely cleaned up!! just saying!! 🏆🏆",
+          "message": "SPORTS!! the year we had sports as a specialist category we absolutely cleaned up!! just saying!! \ud83c\udfc6\ud83c\udfc6",
           "timestamp": "2025-02-19T21:47:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 17,
+          "timestamp_label": "Feb 19, 9:47pm"
         }
       ],
       "prior_session_summary": "Quiz night finalised for March 6th, team name 'The Parent Trap' agreed. Anita made a correction prefaced with an acknowledgment for the first time - a shift from prior blunt style. Mike sent a late-night message at 9:35pm asking for category advice. Sharon also messaged past 9pm.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a7b8c9d0",
+        "p_c3d4e5f6",
+        "p_b8c9d0e1",
+        "p_d4e5f6a7",
+        "p_b2c3d4e5",
+        "p_f6a7b8c9",
+        "p_a9b1c2d3",
+        "p_c9d0e1f2",
+        "p_e5f6a7b8"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s07",
@@ -1063,40 +1323,48 @@
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "last night was SO MUCH FUN you lot 🎉🎉 can we please just do this every month?? The Parent Trap absolutely dominated!! I'm still buzzing honestly 😂😂",
+          "message": "last night was SO MUCH FUN you lot \ud83c\udf89\ud83c\udf89 can we please just do this every month?? The Parent Trap absolutely dominated!! I'm still buzzing honestly \ud83d\ude02\ud83d\ude02",
           "timestamp": "2025-02-26T19:02:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 1,
+          "timestamp_label": "Feb 26, 7:02pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t002",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "it was just WONDERFUL!! 🎉🎉 the whole room had such amazing energy and everyone looked so happy!! this is exactly why I love this community!! already thinking about a SUMMER EVENT!! 🌞🌞",
+          "message": "it was just WONDERFUL!! \ud83c\udf89\ud83c\udf89 the whole room had such amazing energy and everyone looked so happy!! this is exactly why I love this community!! already thinking about a SUMMER EVENT!! \ud83c\udf1e\ud83c\udf1e",
           "timestamp": "2025-02-26T19:03:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Feb 26, 7:03pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t003",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads I have not had that much fun on a Thursday in years tbh 😄 and Dan your parking directions were absolutely spot on, saved everyone I told",
+          "message": "lads I have not had that much fun on a Thursday in years tbh \ud83d\ude04 and Dan your parking directions were absolutely spot on, saved everyone I told",
           "timestamp": "2025-02-26T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Feb 26, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t004",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_d4e5f6a7",
           "speaker_display_name": "Dan",
-          "message": "always useful to know the back streets tbf. glad it helped 👍",
+          "message": "always useful to know the back streets tbf. glad it helped \ud83d\udc4d",
           "timestamp": "2025-02-26T19:05:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Feb 26, 7:05pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t005",
@@ -1106,7 +1374,9 @@
           "message": "Good night. Better than expected.",
           "timestamp": "2025-02-26T19:06:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Feb 26, 7:06pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t006",
@@ -1116,7 +1386,9 @@
           "message": "I had a very good time. Speaking as someone who was ready to leave early if it got too loud - it was exactly the right size and pace. Appreciate everyone's effort. Y",
           "timestamp": "2025-02-26T19:07:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Feb 26, 7:07pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t007",
@@ -1126,17 +1398,21 @@
           "message": "Agreed. Well organised. The triple-points final round worked well. Would attend again. Does anyone know the final score breakdown?",
           "timestamp": "2025-02-26T19:08:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Feb 26, 7:08pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t008",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "67 points!! we came second overall which honestly felt like winning given it was our first time back in two years!! 🏆🏆",
+          "message": "67 points!! we came second overall which honestly felt like winning given it was our first time back in two years!! \ud83c\udfc6\ud83c\udfc6",
           "timestamp": "2025-02-26T19:09:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Feb 26, 7:09pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t009",
@@ -1146,7 +1422,9 @@
           "message": "Two things worth capturing for next time: venue works well at 45, and 7:30 start is better than 7. Noted for the record. C",
           "timestamp": "2025-02-26T19:10:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 9,
+          "timestamp_label": "Feb 26, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t010",
@@ -1156,37 +1434,45 @@
           "message": "Good notes Claire. I would add that the quiz host was better prepared than the 2023 event. Worth requesting the same person for any future booking.",
           "timestamp": "2025-02-26T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Feb 26, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t011",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads slightly off topic but can I ask a favour - I've got a hospital appointment on Friday morning and was wondering if anyone could do school pickup? I know it's short notice 😬 I've covered Priya's pickup a few times and a couple of others so hopefully I've built up a bit of karma",
+          "message": "lads slightly off topic but can I ask a favour - I've got a hospital appointment on Friday morning and was wondering if anyone could do school pickup? I know it's short notice \ud83d\ude2c I've covered Priya's pickup a few times and a couple of others so hopefully I've built up a bit of karma",
           "timestamp": "2025-02-26T19:13:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a115"
+          "planted_challenge_ref": "ch_f2c3a115",
+          "message_index": 11,
+          "timestamp_label": "Feb 26, 7:13pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t012",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "Mike of course!! you've done mine at least three times, this is absolutely nothing 😍",
+          "message": "Mike of course!! you've done mine at least three times, this is absolutely nothing \ud83d\ude0d",
           "timestamp": "2025-02-26T19:14:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Feb 26, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t013",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "actually it's been four times if I count the one in November - you've definitely earned a favour lads 😂",
+          "message": "actually it's been four times if I count the one in November - you've definitely earned a favour lads \ud83d\ude02",
           "timestamp": "2025-02-26T19:15:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a117"
+          "planted_challenge_ref": "ch_f2c3a117",
+          "message_index": 13,
+          "timestamp_label": "Feb 26, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t014",
@@ -1196,17 +1482,21 @@
           "message": "I can cover as backup if Priya has any issue on Friday tbf. just let me know before 8am",
           "timestamp": "2025-02-26T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 14,
+          "timestamp_label": "Feb 26, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t015",
           "session_id": "grp_f2e3d4c5_s07",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "you're both legends, genuinely 😄 hospital thing is nothing major just one of those appointments that always lands on a Friday for some reason",
+          "message": "you're both legends, genuinely \ud83d\ude04 hospital thing is nothing major just one of those appointments that always lands on a Friday for some reason",
           "timestamp": "2025-02-26T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 15,
+          "timestamp_label": "Feb 26, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s07_t016",
@@ -1216,12 +1506,25 @@
           "message": "Happy to be a backup option if needed. I am on a day shift Friday. Y",
           "timestamp": "2025-02-26T19:18:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Feb 26, 7:18pm"
         }
       ],
       "prior_session_summary": "Quiz night was a success. Mike asked for a pickup favour for the first time, explicitly framing it around reciprocal credit. Priya confirmed he'd covered her four times. Anita again opened her contribution with an acknowledgment before a correction, continuing the pattern from session 6.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_c3d4e5f6",
+        "p_a7b8c9d0",
+        "p_b8c9d0e1",
+        "p_d4e5f6a7",
+        "p_b2c3d4e5",
+        "p_e5f6a7b8",
+        "p_f6a7b8c9",
+        "p_a9b1c2d3",
+        "p_c9d0e1f2"
+      ]
     },
     {
       "session_id": "grp_f2e3d4c5_s08",
@@ -1236,10 +1539,12 @@
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "okay everyone it is SPRING FAIR time!! 🌸🌸 the committee met on Tuesday and I have an update - last year's multi-activity format was honestly a bit much for the volunteer numbers we actually had, so I'm proposing we go with just tombola and bake sale this year. keeps it manageable and still raises good money. thoughts??",
+          "message": "okay everyone it is SPRING FAIR time!! \ud83c\udf38\ud83c\udf38 the committee met on Tuesday and I have an update - last year's multi-activity format was honestly a bit much for the volunteer numbers we actually had, so I'm proposing we go with just tombola and bake sale this year. keeps it manageable and still raises good money. thoughts??",
           "timestamp": "2025-03-05T19:00:00",
           "is_planted": true,
-          "planted_challenge_ref": "ch_f2c3a118"
+          "planted_challenge_ref": "ch_f2c3a118",
+          "message_index": 1,
+          "timestamp_label": "Mar 5, 7:00pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t002",
@@ -1249,7 +1554,9 @@
           "message": "Two quick points: tombola and bake sale is proven and easy to resource. Can we confirm the date this week? Is the 29th of March still available at the school? C",
           "timestamp": "2025-03-05T19:02:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 2,
+          "timestamp_label": "Mar 5, 7:02pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t003",
@@ -1259,17 +1566,21 @@
           "message": "Good thinking on simplifying. The 29th of March is available. Confirmed with the school office on the 3rd - the hall and main playground are both free that day.",
           "timestamp": "2025-03-05T19:04:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 3,
+          "timestamp_label": "Mar 5, 7:04pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t004",
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "it was a useful lesson from last year honestly - I think I had a lot more planned than we had hands for!! one good focused event is so much better than three half-finished ones, I've learnt that the hard way 😅 but tombola and bake sale is going to be brilliant!! 🌸",
+          "message": "it was a useful lesson from last year honestly - I think I had a lot more planned than we had hands for!! one good focused event is so much better than three half-finished ones, I've learnt that the hard way \ud83d\ude05 but tombola and bake sale is going to be brilliant!! \ud83c\udf38",
           "timestamp": "2025-03-05T19:05:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 4,
+          "timestamp_label": "Mar 5, 7:05pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t005",
@@ -1279,57 +1590,69 @@
           "message": "1. Agree tombola and bake sale is more achievable. 2. Should we set a minimum volunteer count before confirming? 3. What is the fundraising target? Happy to put together a simple tracker if that helps.",
           "timestamp": "2025-03-05T19:06:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 5,
+          "timestamp_label": "Mar 5, 7:06pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t006",
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "Kofi that would be AMAZING!! 🎉 yes please!! target is usually around 600 pounds for the library fund - that's what the committee agreed last year",
+          "message": "Kofi that would be AMAZING!! \ud83c\udf89 yes please!! target is usually around 600 pounds for the library fund - that's what the committee agreed last year",
           "timestamp": "2025-03-05T19:08:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 6,
+          "timestamp_label": "Mar 5, 7:08pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t007",
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_d4e5f6a7",
           "speaker_display_name": "Dan",
-          "message": "I can do tombola setup and teardown tbf. know where the tables are kept in the hall, done it before 👍",
+          "message": "I can do tombola setup and teardown tbf. know where the tables are kept in the hall, done it before \ud83d\udc4d",
           "timestamp": "2025-03-05T19:09:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 7,
+          "timestamp_label": "Mar 5, 7:09pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t008",
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_b8c9d0e1",
           "speaker_display_name": "Mike",
-          "message": "lads I can do baking, a couple of trays of something easy 😄 no idea what yet tbh but I'll figure it out",
+          "message": "lads I can do baking, a couple of trays of something easy \ud83d\ude04 no idea what yet tbh but I'll figure it out",
           "timestamp": "2025-03-05T19:10:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 8,
+          "timestamp_label": "Mar 5, 7:10pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t009",
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_c3d4e5f6",
           "speaker_display_name": "Priya",
-          "message": "I'll do baking too!! can do vegan options if that's useful 🌱 and I can design the flyer if that helps? completely free obviously, just let me know the details 😍",
+          "message": "I'll do baking too!! can do vegan options if that's useful \ud83c\udf31 and I can design the flyer if that helps? completely free obviously, just let me know the details \ud83d\ude0d",
           "timestamp": "2025-03-05T19:11:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 9,
+          "timestamp_label": "Mar 5, 7:11pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t010",
           "session_id": "grp_f2e3d4c5_s08",
           "speaker_persona_id": "p_a7b8c9d0",
           "speaker_display_name": "Sharon",
-          "message": "PRIYA yes to both!! you are so talented!! 🎨🎨 the flyer is going to look incredible!!",
+          "message": "PRIYA yes to both!! you are so talented!! \ud83c\udfa8\ud83c\udfa8 the flyer is going to look incredible!!",
           "timestamp": "2025-03-05T19:12:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 10,
+          "timestamp_label": "Mar 5, 7:12pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t011",
@@ -1339,7 +1662,9 @@
           "message": "Volunteer slots: happy to coordinate sign-ups. Kofi if you do the tracker I'll match it to roles. C",
           "timestamp": "2025-03-05T19:13:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 11,
+          "timestamp_label": "Mar 5, 7:13pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t012",
@@ -1349,7 +1674,9 @@
           "message": "I can do a 2-hour slot on the day. Morning works.",
           "timestamp": "2025-03-05T19:14:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 12,
+          "timestamp_label": "Mar 5, 7:14pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t013",
@@ -1359,7 +1686,9 @@
           "message": "I am free the 29th. Happy to take a role. Speaking as someone only recently able to commit to weekend events - appreciate being included. Y",
           "timestamp": "2025-03-05T19:15:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 13,
+          "timestamp_label": "Mar 5, 7:15pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t014",
@@ -1369,7 +1698,9 @@
           "message": "I will attend. Please send any forms by the 20th.",
           "timestamp": "2025-03-05T19:16:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 14,
+          "timestamp_label": "Mar 5, 7:16pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t015",
@@ -1379,7 +1710,9 @@
           "message": "Tracker is underway. Will share the link by Thursday. Will include: volunteer slots, bake contributions, tombola donations needed, and running fundraising total. Does that cover what is needed Claire?",
           "timestamp": "2025-03-05T19:17:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 15,
+          "timestamp_label": "Mar 5, 7:17pm"
         },
         {
           "turn_id": "grp_f2e3d4c5_s08_t016",
@@ -1389,12 +1722,25 @@
           "message": "Perfect. Noted. C",
           "timestamp": "2025-03-05T19:18:00",
           "is_planted": false,
-          "planted_challenge_ref": null
+          "planted_challenge_ref": null,
+          "message_index": 16,
+          "timestamp_label": "Mar 5, 7:18pm"
         }
       ],
       "prior_session_summary": "Spring Fair planning session. Sharon proposed a simplified tombola and bake sale format, explicitly referencing last year's over-ambitious planning as a lesson. Anita again led with acknowledgment before information. Volunteers confirmed for all major roles.",
       "critic_scores": null,
-      "generation_attempts": 1
+      "generation_attempts": 1,
+      "active_participants": [
+        "p_a7b8c9d0",
+        "p_a9b1c2d3",
+        "p_c9d0e1f2",
+        "p_f6a7b8c9",
+        "p_d4e5f6a7",
+        "p_b8c9d0e1",
+        "p_c3d4e5f6",
+        "p_b2c3d4e5",
+        "p_e5f6a7b8"
+      ]
     }
   ],
   "total_turns": 129,
@@ -1409,7 +1755,7 @@
       "evidence_span": "Aanya has been asking if Zac is coming to the park after - she's been talking about it all week",
       "implicitness_level": 1,
       "session_index": 1,
-      "turn_index": 13
+      "turn_index": 14
     },
     {
       "challenge_id": "ch_f2c3a102",
@@ -1421,7 +1767,7 @@
       "evidence_span": "yeah I've got Thursday sorted lads, all covered",
       "implicitness_level": 2,
       "session_index": 1,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_f2c3a103",
@@ -1433,7 +1779,7 @@
       "evidence_span": "a note on parking enforcement beginning the 27th",
       "implicitness_level": 1,
       "session_index": 2,
-      "turn_index": 1
+      "turn_index": 2
     },
     {
       "challenge_id": "ch_f2c3a104",
@@ -1445,7 +1791,7 @@
       "evidence_span": "obviously the park lads, I was going to suggest the same thing - I know you'd never pick a hall",
       "implicitness_level": 2,
       "session_index": 2,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f2c3a105",
@@ -1457,7 +1803,7 @@
       "evidence_span": "We've been covering for each other's gaps since the Year 2 fundraiser so this is nothing new",
       "implicitness_level": 1,
       "session_index": 2,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_f2c3a106",
@@ -1469,7 +1815,7 @@
       "evidence_span": "Sounds like it is well organised. Good luck with it.",
       "implicitness_level": 3,
       "session_index": 3,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f2c3a107",
@@ -1481,7 +1827,7 @@
       "evidence_span": "Sharon for the cupcakes - are any of them vegan? just asking for a friend haha",
       "implicitness_level": 2,
       "session_index": 3,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_f2c3a108",
@@ -1493,7 +1839,7 @@
       "evidence_span": "Quiz night sounds good. Count me in for March.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 5
+      "turn_index": 6
     },
     {
       "challenge_id": "ch_f2c3a109",
@@ -1505,7 +1851,7 @@
       "evidence_span": "Kofi - the figures from the January committee would do it. Same doc you pulled for the trip budget.",
       "implicitness_level": 2,
       "session_index": 4,
-      "turn_index": 11
+      "turn_index": 12
     },
     {
       "challenge_id": "ch_f2c3a110",
@@ -1514,7 +1860,7 @@
       "speaker_persona_id": "p_a7b8c9d0",
       "fact_attribute": "late_messaging_habit",
       "fact_value": "Sharon regularly sends messages after 9pm despite the group's informal cutoff norm, framing them as 'quick updates'",
-      "evidence_span": "just a quick update before bed - quiz night is confirmed for March 6th!! put it in your diaries!! sorry for the late message",
+      "evidence_span": "Correct. Will send both. Does that cover it, Claire?",
       "implicitness_level": 2,
       "session_index": 4,
       "turn_index": 13
@@ -1529,7 +1875,7 @@
       "evidence_span": "The rotation changed last month, mostly days now. Should mean fewer clashes going forward.",
       "implicitness_level": 1,
       "session_index": 5,
-      "turn_index": 4
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_f2c3a112",
@@ -1541,7 +1887,7 @@
       "evidence_span": "Last time we had 38 adults. Given the new Year 3 and 4 cohorts I'd estimate 42 to 45. Worth capping registration at 45 to be safe.",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 9
+      "turn_index": 10
     },
     {
       "challenge_id": "ch_f2c3a113",
@@ -1553,7 +1899,7 @@
       "evidence_span": "anyone doing school pickup on Thursday by any chance? Priya I know you usually are, I've got a PT session that might run late",
       "implicitness_level": 2,
       "session_index": 5,
-      "turn_index": 14
+      "turn_index": 15
     },
     {
       "challenge_id": "ch_f2c3a114",
@@ -1565,7 +1911,7 @@
       "evidence_span": "Good instinct on the format Sharon. The final round was triple points in 2023, not double.",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 8
+      "turn_index": 9
     },
     {
       "challenge_id": "ch_f2c3a115",
@@ -1577,7 +1923,7 @@
       "evidence_span": "I've covered Priya's pickup a few times and a couple of others so hopefully I've built up a bit of karma",
       "implicitness_level": 2,
       "session_index": 7,
-      "turn_index": 10
+      "turn_index": 11
     },
     {
       "challenge_id": "ch_f2c3a116",
@@ -1589,7 +1935,7 @@
       "evidence_span": "lads quick one - anyone got a strong recommendation for team specialist category?",
       "implicitness_level": 2,
       "session_index": 6,
-      "turn_index": 15
+      "turn_index": 16
     },
     {
       "challenge_id": "ch_f2c3a117",
@@ -1601,7 +1947,7 @@
       "evidence_span": "actually it's been four times if I count the one in November - you've definitely earned a favour lads",
       "implicitness_level": 1,
       "session_index": 7,
-      "turn_index": 12
+      "turn_index": 13
     },
     {
       "challenge_id": "ch_f2c3a118",
@@ -1613,7 +1959,7 @@
       "evidence_span": "last year's multi-activity format was honestly a bit much for the volunteer numbers we actually had, so I'm proposing we go with just tombola and bake sale this year",
       "implicitness_level": 1,
       "session_index": 8,
-      "turn_index": 0
+      "turn_index": 1
     }
   ]
 }

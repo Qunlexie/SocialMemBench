@@ -13,9 +13,18 @@
       "occupation": "Retired secondary school teacher",
       "background": "Matriarch of the family. Grew up in Lagos, moved to the UK in her 30s. Devoted to maintaining Nigerian traditions while adapting to British life. Organises all family gatherings. Slowly opening up to her children's modern lifestyles.",
       "skills_list": [
-        {"skill": "Nigerian cooking", "proficiency": "strong"},
-        {"skill": "family mediation", "proficiency": "strong"},
-        {"skill": "gardening", "proficiency": "medium"}
+        {
+          "skill": "Nigerian cooking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "family mediation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -26,18 +35,40 @@
       },
       "communication_profile": {
         "formality": "Formal",
-        "verbosity": "Concise",
-        "emoji_use": "Rare",
+        "verbosity": "Moderate",
+        "emoji_use": "Moderate",
         "humor": "Minimal",
         "directness": "Direct",
         "typo_rate": "Low",
         "warmth": "Warm",
-        "speaking_quirks": ["opens messages with 'Good morning/afternoon/evening my children' regardless of time", "ends messages with 'God willing' or 'please God'", "uses 'my children' to address everyone including in-laws"]
+        "speaking_quirks": [
+          "opens messages with 'Good morning/afternoon/evening my children' regardless of time",
+          "ends messages with 'God willing' or 'please God'",
+          "uses 'my children' to address everyone including in-laws"
+        ]
       },
       "preferences": {
-        "food": [{"value": "traditional Nigerian dishes for all family occasions — pounded yam, egusi, jollof rice", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "Sunday family video call is sacred and non-negotiable", "confidence": "High", "implicit": true}],
-        "social": [{"value": "prefers small family gatherings over large parties", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "traditional Nigerian dishes for all family occasions \u2014 pounded yam, egusi, jollof rice",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "Sunday family video call is sacred and non-negotiable",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers small family gatherings over large parties",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -50,7 +81,11 @@
           "trigger": "Seun's health explanation and the family noticing she seems genuinely healthier and happier"
         }
       ],
-      "speaking_quirks": ["opens messages with 'Good morning/afternoon/evening my children'", "ends with 'God willing' or 'please God'", "addresses everyone including in-laws as 'my children'"]
+      "speaking_quirks": [
+        "opens messages with 'Good morning/afternoon/evening my children'",
+        "ends with 'God willing' or 'please God'",
+        "addresses everyone including in-laws as 'my children'"
+      ]
     },
     {
       "persona_id": "p_db02bb02",
@@ -60,9 +95,18 @@
       "occupation": "Retired civil engineer",
       "background": "Family patriarch. Practical and reserved. Proud of his children's achievements but struggles to express warmth directly. Has been attending church less frequently since a health scare last year. Still highly respected in the group.",
       "skills_list": [
-        {"skill": "structural assessment and home repairs", "proficiency": "strong"},
-        {"skill": "financial planning", "proficiency": "strong"},
-        {"skill": "football analysis", "proficiency": "medium"}
+        {
+          "skill": "structural assessment and home repairs",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "financial planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "football analysis",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Low",
@@ -79,12 +123,34 @@
         "directness": "Blunt",
         "typo_rate": "None",
         "warmth": "Neutral",
-        "speaking_quirks": ["starts messages with just the key point, no greeting", "signs off important messages with 'E.'", "uses 'noted' to acknowledge things he does not want to discuss further"]
+        "speaking_quirks": [
+          "starts messages with just the key point, no greeting",
+          "signs off important messages with 'E.'",
+          "uses 'noted' to acknowledge things he does not want to discuss further"
+        ]
       },
       "preferences": {
-        "food": [{"value": "meat-heavy meals — does not understand why anyone would choose not to eat meat", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "Sunday church — was non-negotiable until health scare", "confidence": "Medium", "implicit": true}],
-        "social": [{"value": "prefers one-on-one conversations to group chat", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "meat-heavy meals \u2014 does not understand why anyone would choose not to eat meat",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "Sunday church \u2014 was non-negotiable until health scare",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "prefers one-on-one conversations to group chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
@@ -97,7 +163,11 @@
           "trigger": "health scare last autumn led doctor to advise rest on weekends; Emeka has quietly deprioritised church without ever discussing it with the family"
         }
       ],
-      "speaking_quirks": ["starts with key point, no greeting", "signs off with 'E.'", "uses 'noted' to close topics he doesn't want to discuss"]
+      "speaking_quirks": [
+        "starts with key point, no greeting",
+        "signs off with 'E.'",
+        "uses 'noted' to close topics he doesn't want to discuss"
+      ]
     },
     {
       "persona_id": "p_db03cc03",
@@ -107,9 +177,18 @@
       "occupation": "NHS cardiologist",
       "background": "Eldest son. High-achiever, practical, slightly formal. Married to Funke. Has been the family 'problem solver' since his teens. Can be inadvertently dismissive when he thinks he knows the answer already. Deeply proud of his Nigerian heritage.",
       "skills_list": [
-        {"skill": "medical diagnosis and health advice", "proficiency": "strong"},
-        {"skill": "negotiation and conflict resolution", "proficiency": "medium"},
-        {"skill": "cooking — yam and stew only", "proficiency": "low"}
+        {
+          "skill": "medical diagnosis and health advice",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "negotiation and conflict resolution",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "cooking \u2014 yam and stew only",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -126,11 +205,27 @@
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Neutral",
-        "speaking_quirks": ["prefaces gentle criticism with 'just to note'", "uses 'clinically speaking' as a joke when giving non-medical advice", "tends to propose solutions before anyone has finished explaining the problem"]
+        "speaking_quirks": [
+          "prefaces gentle criticism with 'just to note'",
+          "uses 'clinically speaking' as a joke when giving non-medical advice",
+          "tends to propose solutions before anyone has finished explaining the problem"
+        ]
       },
       "preferences": {
-        "food": [{"value": "prefers traditional Nigerian food at family events — privately finds Funke's fusion experiments unnecessary", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "prefers small, planned gatherings with an agenda — finds spontaneous family calls disruptive", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "prefers traditional Nigerian food at family events \u2014 privately finds Funke's fusion experiments unnecessary",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "prefers small, planned gatherings with an agenda \u2014 finds spontaneous family calls disruptive",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "social": [],
         "domain_specific": []
       },
@@ -138,13 +233,17 @@
         {
           "domain": "social",
           "attribute": "extended_family_integration",
-          "old_value": "keeps family gatherings strictly Oyelaran — resistant to including Funke's extended family",
+          "old_value": "keeps family gatherings strictly Oyelaran \u2014 resistant to including Funke's extended family",
           "new_value": "invites Funke's family to Christmas for the first time, finds it works better than expected",
           "changed_at_session": 7,
           "trigger": "Funke's gentle persistence over several sessions and Adaeze's warm reception of Funke's mother at a previous event"
         }
       ],
-      "speaking_quirks": ["prefaces criticism with 'just to note'", "uses 'clinically speaking' as a joke for non-medical opinions", "proposes solutions before problem is fully stated"]
+      "speaking_quirks": [
+        "prefaces criticism with 'just to note'",
+        "uses 'clinically speaking' as a joke for non-medical opinions",
+        "proposes solutions before problem is fully stated"
+      ]
     },
     {
       "persona_id": "p_db04dd04",
@@ -154,9 +253,18 @@
       "occupation": "Interior designer",
       "background": "Tolu's wife. Warm, creative, energetic. Grew up in a Yoruba household in South London. Loves blending Nigerian and British aesthetics. Eager to be accepted by the Oyelaran family while gently modernising their traditions. Has slowly won Adaeze's trust.",
       "skills_list": [
-        {"skill": "interior design and space styling", "proficiency": "strong"},
-        {"skill": "event planning and decoration", "proficiency": "strong"},
-        {"skill": "fusion cooking", "proficiency": "medium"}
+        {
+          "skill": "interior design and space styling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "event planning and decoration",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "fusion cooking",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -167,17 +275,33 @@
       },
       "communication_profile": {
         "formality": "Casual",
-        "verbosity": "Verbose",
+        "verbosity": "Moderate",
         "emoji_use": "Frequent",
-        "humor": "Playful",
+        "humor": "Expressive",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Warm",
-        "speaking_quirks": ["strings 3-4 emojis together at the end of excited messages", "calls the group 'you lot' affectionately", "uses 'literally' for emphasis ('that was literally the best thing ever')"]
+        "speaking_quirks": [
+          "strings 3-4 emojis together at the end of excited messages",
+          "calls the group 'you lot' affectionately",
+          "uses 'literally' for emphasis ('that was literally the best thing ever')"
+        ]
       },
       "preferences": {
-        "food": [{"value": "loves fusion — jollof rice sliders, suya tacos — finds purely traditional food limiting", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "wants to modernise family Christmas — a proper colour scheme, a gift list, a theme", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "loves fusion \u2014 jollof rice sliders, suya tacos \u2014 finds purely traditional food limiting",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "wants to modernise family Christmas \u2014 a proper colour scheme, a gift list, a theme",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "social": [],
         "domain_specific": []
       },
@@ -186,12 +310,16 @@
           "domain": "social",
           "attribute": "traditional_custom_adoption",
           "old_value": "politely tolerates traditional customs but privately finds them old-fashioned",
-          "new_value": "genuinely embraces and advocates for Adaeze's traditional customs — particularly the food and the New Year blessing ceremony",
+          "new_value": "genuinely embraces and advocates for Adaeze's traditional customs \u2014 particularly the food and the New Year blessing ceremony",
           "changed_at_session": 6,
           "trigger": "Adaeze taught Funke to make proper egusi soup during a one-on-one visit; Funke writes about it in the chat, marking a shift in how she relates to the family's traditions"
         }
       ],
-      "speaking_quirks": ["strings 3-4 emojis together", "calls group 'you lot'", "uses 'literally' for emphasis"]
+      "speaking_quirks": [
+        "strings 3-4 emojis together",
+        "calls group 'you lot'",
+        "uses 'literally' for emphasis"
+      ]
     },
     {
       "persona_id": "p_db05ee05",
@@ -199,11 +327,20 @@
       "age": 31,
       "gender": "female",
       "occupation": "Marketing manager",
-      "background": "Second child and eldest daughter. Opinionated, emotionally expressive, loves debate. Has been on a health and wellness journey for two years. Recently fully committed to veganism, which has caused some family friction — especially with Emeka. Very close to Kayode and Bisi.",
+      "background": "Second child and eldest daughter. Opinionated, emotionally expressive, loves debate. Has been on a health and wellness journey for two years. Recently fully committed to veganism, which has caused some family friction \u2014 especially with Emeka. Very close to Kayode and Bisi.",
       "skills_list": [
-        {"skill": "marketing strategy and social media", "proficiency": "strong"},
-        {"skill": "plant-based cooking", "proficiency": "medium"},
-        {"skill": "fitness and yoga", "proficiency": "medium"}
+        {
+          "skill": "marketing strategy and social media",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "plant-based cooking",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "fitness and yoga",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -220,25 +357,45 @@
         "directness": "Direct",
         "typo_rate": "Low",
         "warmth": "Warm",
-        "speaking_quirks": ["starts candid statements with 'honestly'", "uses 'I mean' as a filler mid-sentence", "writes in long flowing runs without full stops until the very end"]
+        "speaking_quirks": [
+          "starts candid statements with 'honestly'",
+          "uses 'I mean' as a filler mid-sentence",
+          "writes in long flowing runs without full stops until the very end"
+        ]
       },
       "preferences": {
-        "food": [{"value": "fully vegan — no exceptions, even at family events; initially apologetic about it, later confident", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "fully vegan \u2014 no exceptions, even at family events; initially apologetic about it, later confident",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "activities": [],
-        "social": [{"value": "needs to feel that her lifestyle choices are respected, not just tolerated", "confidence": "High", "implicit": true}],
+        "social": [
+          {
+            "value": "needs to feel that her lifestyle choices are respected, not just tolerated",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
         {
           "domain": "food",
           "attribute": "dietary_commitment",
-          "old_value": "flexitarian — occasionally eats fish, described herself as 'mostly plant-based'",
-          "new_value": "fully vegan — actively advocates for it and has stopped apologising for it",
+          "old_value": "flexitarian \u2014 occasionally eats fish, described herself as 'mostly plant-based'",
+          "new_value": "fully vegan \u2014 actively advocates for it and has stopped apologising for it",
           "changed_at_session": 3,
           "trigger": "a health check result that reinforced the benefits of her diet; she announces it in session 3 though the signs were building in sessions 1-2"
         }
       ],
-      "speaking_quirks": ["starts with 'honestly'", "uses 'I mean' mid-sentence", "writes in long runs without full stops"]
+      "speaking_quirks": [
+        "starts with 'honestly'",
+        "uses 'I mean' mid-sentence",
+        "writes in long runs without full stops"
+      ]
     },
     {
       "persona_id": "p_db06ff06",
@@ -248,9 +405,18 @@
       "occupation": "Senior software engineer",
       "background": "Third child. Easygoing, non-confrontational, occasionally non-committal about family events. Has been in a serious relationship with Nkem for 18 months. Nkem's steady presence has gradually pulled him into more consistent family engagement. Recently promoted and finally feeling settled.",
       "skills_list": [
-        {"skill": "software engineering and system design", "proficiency": "strong"},
-        {"skill": "gaming", "proficiency": "strong"},
-        {"skill": "cooking — pasta only", "proficiency": "low"}
+        {
+          "skill": "software engineering and system design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gaming",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking \u2014 pasta only",
+          "proficiency": "low"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -262,16 +428,32 @@
       "communication_profile": {
         "formality": "Casual",
         "verbosity": "Concise",
-        "emoji_use": "Moderate",
+        "emoji_use": "Never",
         "humor": "Playful",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Friendly",
-        "speaking_quirks": ["drops pronouns at start of messages ('Will sort it', 'Can do')", "uses 'lol' to soften awkward moments", "ends declarative messages with a question mark ('Should be fine?')"]
+        "speaking_quirks": [
+          "drops pronouns at start of messages ('Will sort it', 'Can do')",
+          "uses 'lol' to soften awkward moments",
+          "ends declarative messages with a question mark ('Should be fine?')"
+        ]
       },
       "preferences": {
-        "food": [{"value": "not a cook — avoids committing to bringing food to family gatherings, always volunteers for 'drinks'", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "family video calls conflict with his gaming schedule — historically finds reasons to miss them", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "not a cook \u2014 avoids committing to bringing food to family gatherings, always volunteers for 'drinks'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "family video calls conflict with his gaming schedule \u2014 historically finds reasons to miss them",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "social": [],
         "domain_specific": []
       },
@@ -279,13 +461,17 @@
         {
           "domain": "social",
           "attribute": "family_engagement",
-          "old_value": "inconsistent family presence — misses calls, commits then cancels, hard to pin down",
+          "old_value": "inconsistent family presence \u2014 misses calls, commits then cancels, hard to pin down",
           "new_value": "consistently showing up for Sunday calls and family events; initiating check-ins",
           "changed_at_session": 5,
           "trigger": "Nkem quietly flags to Kayode that he's been the one always absent; he doesn't argue back, and by the next session his engagement visibly changes"
         }
       ],
-      "speaking_quirks": ["drops pronouns at start", "uses 'lol' to soften awkward moments", "ends declarative sentences with question mark"]
+      "speaking_quirks": [
+        "drops pronouns at start",
+        "uses 'lol' to soften awkward moments",
+        "ends declarative sentences with question mark"
+      ]
     },
     {
       "persona_id": "p_db07gg07",
@@ -295,9 +481,18 @@
       "occupation": "PhD student in social anthropology",
       "background": "Kayode's girlfriend of 18 months. Quiet, observant, academically precise. Comes from a small family and finds the Oyelaran group intensity initially overwhelming. Has gradually found her footing by building one-on-one relationships within the family rather than engaging with the whole group at once.",
       "skills_list": [
-        {"skill": "qualitative research and ethnography", "proficiency": "strong"},
-        {"skill": "writing and editing", "proficiency": "strong"},
-        {"skill": "cooking — jollof rice", "proficiency": "medium"}
+        {
+          "skill": "qualitative research and ethnography",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "writing and editing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking \u2014 jollof rice",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -314,11 +509,27 @@
         "directness": "Indirect",
         "typo_rate": "None",
         "warmth": "Neutral",
-        "speaking_quirks": ["hedges opinions with 'I think' or 'I may be wrong but'", "provides precise dates and context when referencing past events ('that was the Sunday in late February, just after Kayode's sprint review')", "ends with a genuine question rather than a statement when she wants to check understanding"]
+        "speaking_quirks": [
+          "hedges opinions with 'I think' or 'I may be wrong but'",
+          "provides precise dates and context when referencing past events ('that was the Sunday in late February, just after Kayode's sprint review')",
+          "ends with a genuine question rather than a statement when she wants to check understanding"
+        ]
       },
       "preferences": {
-        "food": [{"value": "quietly prefers lighter, non-spicy food but never voices this at family gatherings", "confidence": "Medium", "implicit": true}],
-        "activities": [{"value": "finds large family gatherings overstimulating — prefers one-on-one time with individual family members", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "quietly prefers lighter, non-spicy food but never voices this at family gatherings",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "finds large family gatherings overstimulating \u2014 prefers one-on-one time with individual family members",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "social": [],
         "domain_specific": []
       },
@@ -326,13 +537,17 @@
         {
           "domain": "social",
           "attribute": "family_gathering_comfort",
-          "old_value": "goes quiet and withdraws at large family gatherings — a few words then defers to Kayode",
+          "old_value": "goes quiet and withdraws at large family gatherings \u2014 a few words then defers to Kayode",
           "new_value": "engages independently in the group chat, makes jokes, refers to family members by name without prompting from Kayode",
           "changed_at_session": 6,
           "trigger": "Seun messages Nkem privately after the Christmas planning chat and tells her she's 'part of the furniture now'; Nkem's group chat presence visibly shifts after that"
         }
       ],
-      "speaking_quirks": ["hedges with 'I think' or 'I may be wrong but'", "provides precise dates/context for references", "ends with a question to check understanding"]
+      "speaking_quirks": [
+        "hedges with 'I think' or 'I may be wrong but'",
+        "provides precise dates/context for references",
+        "ends with a question to check understanding"
+      ]
     },
     {
       "persona_id": "p_db08hh08",
@@ -340,11 +555,20 @@
       "age": 24,
       "gender": "female",
       "occupation": "Law student (final year)",
-      "background": "Youngest child. Irreverent, funny, easily distracted. Has been in her final year of law school for what feels like forever — she deferred twice and the family has been gentle but worried. Very close to Kayode. Recently decided, quietly and definitively, to commit to her final exams.",
+      "background": "Youngest child. Irreverent, funny, easily distracted. Has been in her final year of law school for what feels like forever \u2014 she deferred twice and the family has been gentle but worried. Very close to Kayode. Recently decided, quietly and definitively, to commit to her final exams.",
       "skills_list": [
-        {"skill": "legal research", "proficiency": "medium"},
-        {"skill": "social media and content creation", "proficiency": "strong"},
-        {"skill": "dancing — Afrobeats", "proficiency": "strong"}
+        {
+          "skill": "legal research",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "social media and content creation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "dancing \u2014 Afrobeats",
+          "proficiency": "strong"
+        }
       ],
       "big_five": {
         "openness": "High",
@@ -361,25 +585,45 @@
         "directness": "Direct",
         "typo_rate": "Moderate",
         "warmth": "Warm",
-        "speaking_quirks": ["uses 'omg' and 'lmaoo' liberally", "frequent typos — 'teh', 'wnat', 'od' for 'of'", "short messages in rapid succession rather than one composed reply"]
+        "speaking_quirks": [
+          "uses 'omg' and 'lmaoo' liberally",
+          "frequent typos \u2014 'teh', 'wnat', 'od' for 'of'",
+          "short messages in rapid succession rather than one composed reply"
+        ]
       },
       "preferences": {
-        "food": [{"value": "obsessed with suya and puff puff — will eat Adaeze's cooking over anything else", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "obsessed with suya and puff puff \u2014 will eat Adaeze's cooking over anything else",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "activities": [],
-        "social": [{"value": "avoids discussing law school — changes subject or deflects with a joke whenever exams come up", "confidence": "High", "implicit": true}],
+        "social": [
+          {
+            "value": "avoids discussing law school \u2014 changes subject or deflects with a joke whenever exams come up",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "domain_specific": []
       },
       "preference_history": [
         {
           "domain": "activities",
           "attribute": "academic_commitment",
-          "old_value": "evasive about her exam timeline — jokes it off, changes subject, never commits to a date",
-          "new_value": "states clearly she is sitting her finals in May and has already registered — no more deflection",
+          "old_value": "evasive about her exam timeline \u2014 jokes it off, changes subject, never commits to a date",
+          "new_value": "states clearly she is sitting her finals in May and has already registered \u2014 no more deflection",
           "changed_at_session": 7,
-          "trigger": "a late-night call with Kayode that nobody else hears about; she mentions it obliquely in Session 7 ('Kayode and I had a chat') and her behaviour in the group chat changes — less deflection, more directness about her plans"
+          "trigger": "a late-night call with Kayode that nobody else hears about; she mentions it obliquely in Session 7 ('Kayode and I had a chat') and her behaviour in the group chat changes \u2014 less deflection, more directness about her plans"
         }
       ],
-      "speaking_quirks": ["uses 'omg' and 'lmaoo' liberally", "frequent typos", "short messages in rapid succession"]
+      "speaking_quirks": [
+        "uses 'omg' and 'lmaoo' liberally",
+        "frequent typos",
+        "short messages in rapid succession"
+      ]
     },
     {
       "persona_id": "p_db09ii09",
@@ -387,11 +631,20 @@
       "age": 55,
       "gender": "male",
       "occupation": "Chartered accountant",
-      "background": "Adaeze's older brother. Formal, measured, slightly old-fashioned in his views. Has been skeptical of Kayode's tech career — 'not a real profession' — but keeps warming up as Kayode's earnings become undeniable. Treats the family chat partly as a professional accountability forum.",
+      "background": "Adaeze's older brother. Formal, measured, slightly old-fashioned in his views. Has been skeptical of Kayode's tech career \u2014 'not a real profession' \u2014 but keeps warming up as Kayode's earnings become undeniable. Treats the family chat partly as a professional accountability forum.",
       "skills_list": [
-        {"skill": "accounting and tax planning", "proficiency": "strong"},
-        {"skill": "investment and property", "proficiency": "strong"},
-        {"skill": "table tennis", "proficiency": "medium"}
+        {
+          "skill": "accounting and tax planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "investment and property",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "table tennis",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Low",
@@ -408,25 +661,51 @@
         "directness": "Direct",
         "typo_rate": "None",
         "warmth": "Neutral",
-        "speaking_quirks": ["addresses people by full first name in all caps ('KAYODE', 'ADAEZE')", "signs off messages with 'Best regards, Dele' or 'Regards, D.A.O.'", "no contractions — 'I will' not 'I'll', 'it is' not 'it's'"]
+        "speaking_quirks": [
+          "addresses people by full first name in all caps ('KAYODE', 'ADAEZE')",
+          "signs off messages with 'Best regards, Dele' or 'Regards, D.A.O.'",
+          "no contractions \u2014 'I will' not 'I'll', 'it is' not 'it's'"
+        ]
       },
       "preferences": {
-        "food": [{"value": "only eats traditional Nigerian food — views fusion cuisine with suspicion", "confidence": "High", "implicit": true}],
+        "food": [
+          {
+            "value": "only eats traditional Nigerian food \u2014 views fusion cuisine with suspicion",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
         "activities": [],
-        "social": [{"value": "views the family chat as a professional accountability check-in — regularly asks about career progress and financial goals", "confidence": "Medium", "implicit": true}],
-        "domain_specific": [{"value": "skeptical of Kayode's tech career — believes accounting and medicine are 'serious' professions", "confidence": "Medium", "implicit": true}]
+        "social": [
+          {
+            "value": "views the family chat as a professional accountability check-in \u2014 regularly asks about career progress and financial goals",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "skeptical of Kayode's tech career \u2014 believes accounting and medicine are 'serious' professions",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
       },
       "preference_history": [
         {
           "domain": "domain_specific",
           "attribute": "kayode_career_view",
-          "old_value": "openly skeptical of software engineering as a serious profession — references it obliquely ('digital work')",
-          "new_value": "acknowledges Kayode's promotion with genuine warmth — first time he uses the word 'proud' about Kayode's work",
+          "old_value": "openly skeptical of software engineering as a serious profession \u2014 references it obliquely ('digital work')",
+          "new_value": "acknowledges Kayode's promotion with genuine warmth \u2014 first time he uses the word 'proud' about Kayode's work",
           "changed_at_session": 6,
           "trigger": "Kayode announces a significant promotion and salary increase; Uncle Dele's response in the chat is notably different in register from his usual measured skepticism"
         }
       ],
-      "speaking_quirks": ["addresses people by FULL NAME IN CAPS", "signs off with 'Best regards, Dele'", "no contractions"]
+      "speaking_quirks": [
+        "addresses people by FULL NAME IN CAPS",
+        "signs off with 'Best regards, Dele'",
+        "no contractions"
+      ]
     },
     {
       "persona_id": "p_db10jj10",
@@ -436,9 +715,18 @@
       "occupation": "NHS practice nurse",
       "background": "Emeka's younger sister. Warm, practical, health-conscious to the point of giving unsolicited advice. Has been managing burnout after years of post-pandemic overwork. Starting to notice that she needs to apply her own health advice to herself. Very fond of the younger generation.",
       "skills_list": [
-        {"skill": "primary healthcare and patient counselling", "proficiency": "strong"},
-        {"skill": "cooking — Igbo dishes", "proficiency": "strong"},
-        {"skill": "gardening", "proficiency": "medium"}
+        {
+          "skill": "primary healthcare and patient counselling",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cooking \u2014 Igbo dishes",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "gardening",
+          "proficiency": "medium"
+        }
       ],
       "big_five": {
         "openness": "Medium",
@@ -448,18 +736,34 @@
         "neuroticism": "Medium"
       },
       "communication_profile": {
-        "formality": "Casual",
-        "verbosity": "Concise",
-        "emoji_use": "Moderate",
+        "formality": "Semi-formal",
+        "verbosity": "Moderate",
+        "emoji_use": "Frequent",
         "humor": "Minimal",
         "directness": "Balanced",
         "typo_rate": "Low",
         "warmth": "Warm",
-        "speaking_quirks": ["addresses people as 'my dear' at the start of a message", "adds a health-related observation even in non-medical contexts ('make sure you are sleeping enough')", "ends messages with a prayer emoji or a single praying hands emoji 🙏"]
+        "speaking_quirks": [
+          "addresses people as 'my dear' at the start of a message",
+          "adds a health-related observation even in non-medical contexts ('make sure you are sleeping enough')",
+          "ends messages with a prayer emoji or a single praying hands emoji \ud83d\ude4f"
+        ]
       },
       "preferences": {
-        "food": [{"value": "advocates strongly for home-cooked meals over takeaway — will bring food to any gathering without being asked", "confidence": "High", "implicit": true}],
-        "activities": [{"value": "secretly needs more rest than she lets on — books off-peak holiday alone to recharge, describes it as 'just a short trip'", "confidence": "Medium", "implicit": true}],
+        "food": [
+          {
+            "value": "advocates strongly for home-cooked meals over takeaway \u2014 will bring food to any gathering without being asked",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "activities": [
+          {
+            "value": "secretly needs more rest than she lets on \u2014 books off-peak holiday alone to recharge, describes it as 'just a short trip'",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
         "social": [],
         "domain_specific": []
       },
@@ -467,13 +771,17 @@
         {
           "domain": "activities",
           "attribute": "self_care_practice",
-          "old_value": "consistently prioritises family and work over herself — last holiday was over three years ago",
-          "new_value": "books a solo trip to Barbados and announces it unapologetically — signals a shift in how she talks about her own needs",
+          "old_value": "consistently prioritises family and work over herself \u2014 last holiday was over three years ago",
+          "new_value": "books a solo trip to Barbados and announces it unapologetically \u2014 signals a shift in how she talks about her own needs",
           "changed_at_session": 8,
           "trigger": "Seun's wellness conversations in the group chat gradually shift Auntie Grace's language around self-care; by Session 8 she has internalised it"
         }
       ],
-      "speaking_quirks": ["addresses people as 'my dear'", "adds health observation in non-medical contexts", "ends with 🙏"]
+      "speaking_quirks": [
+        "addresses people as 'my dear'",
+        "adds health observation in non-medical contexts",
+        "ends with \ud83d\ude4f"
+      ]
     }
   ],
   "edges": [
@@ -484,7 +792,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Married 36 years. Adaeze is the emotional centre; Emeka the practical anchor. They rarely conflict in the group chat but their different communication styles are visible.",
-      "shared_events": ["raising four children in the UK", "Emeka's retirement", "Adaeze's teaching career"]
+      "shared_events": [
+        "raising four children in the UK",
+        "Emeka's retirement",
+        "Adaeze's teaching career"
+      ]
     },
     {
       "persona_a_id": "p_db01aa01",
@@ -493,7 +805,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Tolu is the eldest and the one Adaeze leans on most. She is proud of him but sometimes treats him as a co-parent rather than a child.",
-      "shared_events": ["Tolu's medical degree", "Tolu's wedding", "Tolu managing family health crises"]
+      "shared_events": [
+        "Tolu's medical degree",
+        "Tolu's wedding",
+        "Tolu managing family health crises"
+      ]
     },
     {
       "persona_a_id": "p_db01aa01",
@@ -501,8 +817,12 @@
       "relationship_type": "mother-in-law and daughter-in-law",
       "closeness": "Medium",
       "sentiment": "mixed",
-      "history_summary": "Initially cautious — Adaeze worried Funke would westernise the family's culture. Their relationship warmed significantly after a private cooking session where Adaeze taught Funke to make egusi soup.",
-      "shared_events": ["Tolu and Funke's wedding", "the egusi soup lesson", "Christmas planning"]
+      "history_summary": "Initially cautious \u2014 Adaeze worried Funke would westernise the family's culture. Their relationship warmed significantly after a private cooking session where Adaeze taught Funke to make egusi soup.",
+      "shared_events": [
+        "Tolu and Funke's wedding",
+        "the egusi soup lesson",
+        "Christmas planning"
+      ]
     },
     {
       "persona_a_id": "p_db01aa01",
@@ -511,7 +831,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Closest relationship in the family. Seun pushes back on traditions but they communicate openly. Their flashpoint has been Seun's veganism which Adaeze initially took as a rejection of her cooking.",
-      "shared_events": ["Seun's wellness journey", "Adaeze learning to adapt jollof rice for vegans", "their weekly calls"]
+      "shared_events": [
+        "Seun's wellness journey",
+        "Adaeze learning to adapt jollof rice for vegans",
+        "their weekly calls"
+      ]
     },
     {
       "persona_a_id": "p_db01aa01",
@@ -519,8 +843,12 @@
       "relationship_type": "mother-son",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Adaeze is more lenient with Kayode than with her other children — 'my soft one'. She notices when he's absent more quickly than anyone else.",
-      "shared_events": ["worrying about Kayode's career choices", "Sunday calls", "Kayode's promotion"]
+      "history_summary": "Adaeze is more lenient with Kayode than with her other children \u2014 'my soft one'. She notices when he's absent more quickly than anyone else.",
+      "shared_events": [
+        "worrying about Kayode's career choices",
+        "Sunday calls",
+        "Kayode's promotion"
+      ]
     },
     {
       "persona_a_id": "p_db01aa01",
@@ -529,7 +857,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Adaeze is protective and occasionally exasperated by Bisi's deferments. She worries quietly about Bisi's future but never pushes hard in the group chat.",
-      "shared_events": ["Bisi's first law school deferment", "Bisi's second deferment", "Bisi committing to final exams"]
+      "shared_events": [
+        "Bisi's first law school deferment",
+        "Bisi's second deferment",
+        "Bisi committing to final exams"
+      ]
     },
     {
       "persona_a_id": "p_db01aa01",
@@ -538,7 +870,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Adaeze and Dele grew up together in Lagos. They have a warm, bantering relationship. Dele tends to side with Emeka on most family decisions.",
-      "shared_events": ["moving to the UK", "family reunions in Lagos", "their mother's passing three years ago"]
+      "shared_events": [
+        "moving to the UK",
+        "family reunions in Lagos",
+        "their mother's passing three years ago"
+      ]
     },
     {
       "persona_a_id": "p_db02bb02",
@@ -546,8 +882,12 @@
       "relationship_type": "brothers-in-law and close friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Emeka and Dele are the most similar people in the family — both formal, both traditional, both quietly proud. They communicate almost exclusively in person or on the phone; they use the family chat mainly to read, not to post.",
-      "shared_events": ["30 years of family gatherings", "Dele officiating at Tolu's wedding", "quarterly phone calls about investments"]
+      "history_summary": "Emeka and Dele are the most similar people in the family \u2014 both formal, both traditional, both quietly proud. They communicate almost exclusively in person or on the phone; they use the family chat mainly to read, not to post.",
+      "shared_events": [
+        "30 years of family gatherings",
+        "Dele officiating at Tolu's wedding",
+        "quarterly phone calls about investments"
+      ]
     },
     {
       "persona_a_id": "p_db03cc03",
@@ -555,8 +895,12 @@
       "relationship_type": "siblings",
       "closeness": "Medium",
       "sentiment": "mixed",
-      "history_summary": "Tolu and Seun argue about ideas — he finds her lifestyle choices preachy; she finds his solutions-first approach dismissive. They respect each other but rarely agree.",
-      "shared_events": ["growing up together", "debating veganism over Christmas dinner", "Seun challenging Tolu's medical opinion about nutrition"]
+      "history_summary": "Tolu and Seun argue about ideas \u2014 he finds her lifestyle choices preachy; she finds his solutions-first approach dismissive. They respect each other but rarely agree.",
+      "shared_events": [
+        "growing up together",
+        "debating veganism over Christmas dinner",
+        "Seun challenging Tolu's medical opinion about nutrition"
+      ]
     },
     {
       "persona_a_id": "p_db03cc03",
@@ -565,7 +909,11 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Tolu and Kayode are cordial but not close. Their shared language is football. Tolu occasionally gives Kayode career advice that Kayode doesn't ask for.",
-      "shared_events": ["arguing over Arsenal vs Chelsea", "Kayode's promotion celebration", "family dinners"]
+      "shared_events": [
+        "arguing over Arsenal vs Chelsea",
+        "Kayode's promotion celebration",
+        "family dinners"
+      ]
     },
     {
       "persona_a_id": "p_db05ee05",
@@ -574,7 +922,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Seun and Kayode are the closest sibling pair. They have a private shorthand the rest of the family doesn't always follow. Seun was the one who told Kayode to be more present for Nkem.",
-      "shared_events": ["gym sessions together", "Seun's health crisis that started her wellness journey", "late-night calls"]
+      "shared_events": [
+        "gym sessions together",
+        "Seun's health crisis that started her wellness journey",
+        "late-night calls"
+      ]
     },
     {
       "persona_a_id": "p_db05ee05",
@@ -583,7 +935,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Seun and Bisi are six years apart but very close. Seun is the one Bisi calls when she's struggling. It was Seun who Bisi told first about her plan to finally sit her exams.",
-      "shared_events": ["Bisi's first deferment", "Seun converting Bisi to vegan snacks", "shared Afrobeats playlist"]
+      "shared_events": [
+        "Bisi's first deferment",
+        "Seun converting Bisi to vegan snacks",
+        "shared Afrobeats playlist"
+      ]
     },
     {
       "persona_a_id": "p_db06ff06",
@@ -592,7 +948,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "18 months together. Kayode is more public about affection in the family chat than Nkem. Nkem's integration into the group has been gradual and largely successful.",
-      "shared_events": ["Nkem's first family dinner", "Kayode's promotion announcement with Nkem present", "Seun formally welcoming Nkem to 'the family WhatsApp'"]
+      "shared_events": [
+        "Nkem's first family dinner",
+        "Kayode's promotion announcement with Nkem present",
+        "Seun formally welcoming Nkem to 'the family WhatsApp'"
+      ]
     },
     {
       "persona_a_id": "p_db06ff06",
@@ -601,7 +961,11 @@
       "closeness": "High",
       "sentiment": "positive",
       "history_summary": "Closest in age and temperament of the Oyelaran children. Kayode is the one who had the conversation with Bisi that convinced her to commit to her exams.",
-      "shared_events": ["gaming sessions", "their late-night call about Bisi's exams", "defending each other from family pressure"]
+      "shared_events": [
+        "gaming sessions",
+        "their late-night call about Bisi's exams",
+        "defending each other from family pressure"
+      ]
     },
     {
       "persona_a_id": "p_db09ii09",
@@ -610,7 +974,11 @@
       "closeness": "Low",
       "sentiment": "mixed",
       "history_summary": "Uncle Dele has never quite understood software engineering. He treats Kayode with respectful skepticism. Kayode handles it with humour but it occasionally stings.",
-      "shared_events": ["family dinners where Dele quizzed Kayode about his salary", "Kayode's promotion changing Dele's tone", "Dele's rare but significant praise"]
+      "shared_events": [
+        "family dinners where Dele quizzed Kayode about his salary",
+        "Kayode's promotion changing Dele's tone",
+        "Dele's rare but significant praise"
+      ]
     },
     {
       "persona_a_id": "p_db10jj10",
@@ -618,8 +986,12 @@
       "relationship_type": "aunt-niece",
       "closeness": "Medium",
       "sentiment": "positive",
-      "history_summary": "Seun and Auntie Grace have a mutual appreciation — Seun's wellness interest converges with Grace's health expertise. Grace is one of the few family members who engaged seriously with Seun's veganism.",
-      "shared_events": ["Seun's plant-based journey", "Auntie Grace's burnout period", "their conversations about rest and self-care"]
+      "history_summary": "Seun and Auntie Grace have a mutual appreciation \u2014 Seun's wellness interest converges with Grace's health expertise. Grace is one of the few family members who engaged seriously with Seun's veganism.",
+      "shared_events": [
+        "Seun's plant-based journey",
+        "Auntie Grace's burnout period",
+        "their conversations about rest and self-care"
+      ]
     },
     {
       "persona_a_id": "p_db10jj10",
@@ -628,19 +1000,27 @@
       "closeness": "Medium",
       "sentiment": "positive",
       "history_summary": "Grace is fond of Bisi and occasionally checks on her wellbeing with a nurse's instinct. Bisi finds her a bit much but appreciates the warmth.",
-      "shared_events": ["Bisi's stress during law school", "Grace's check-in messages", "family gatherings"]
+      "shared_events": [
+        "Bisi's stress during law school",
+        "Grace's check-in messages",
+        "family gatherings"
+      ]
     }
   ],
   "group_norms": [
     {
-      "norm_text": "Sunday family video call — everyone dials in unless they have a genuine emergency",
+      "norm_text": "Sunday family video call \u2014 everyone dials in unless they have a genuine emergency",
       "truly_universal": false,
-      "dissenters": ["p_db02bb02"]
+      "dissenters": [
+        "p_db02bb02"
+      ]
     },
     {
-      "norm_text": "Everyone brings something to family gatherings — a dish, a drink, or dessert",
+      "norm_text": "Everyone brings something to family gatherings \u2014 a dish, a drink, or dessert",
       "truly_universal": false,
-      "dissenters": ["p_db06ff06"]
+      "dissenters": [
+        "p_db06ff06"
+      ]
     },
     {
       "norm_text": "No politics in the family group chat",
@@ -648,7 +1028,7 @@
       "dissenters": []
     },
     {
-      "norm_text": "Christmas is always at Adaeze and Emeka's house — no exceptions",
+      "norm_text": "Christmas is always at Adaeze and Emeka's house \u2014 no exceptions",
       "truly_universal": true,
       "dissenters": []
     }
@@ -656,6 +1036,10 @@
   "metadata": {
     "sessions_planned": 8,
     "turns_per_session": 20,
-    "departures": 0
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "medium",
+    "group_type": "family",
+    "group_size": 10
   }
 }

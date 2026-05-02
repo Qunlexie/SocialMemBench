@@ -1,0 +1,2387 @@
+{
+  "network_id": "grp_f1a2b3c5",
+  "group_name": "Backyard Photons",
+  "group_type": "interest_community",
+  "group_size": 27,
+  "seed": 43,
+  "personas": [
+    {
+      "persona_id": "p_bp01f1a2",
+      "display_name": "Marcus",
+      "age": 58,
+      "gender": "male",
+      "occupation": "Retired aerospace engineer, runs a small solar imaging blog",
+      "background": "Founded the chat after years of running monthly meetups at the regional astronomy club. Owns a permanent backyard observatory with a 14-inch SCT. Considered the de facto group elder.",
+      "skills_list": [
+        {
+          "skill": "polar alignment",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "SCT collimation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "guide camera setup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "PEC training",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "avoids long road trips to dark sites, prefers backyard sessions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "uncomfortable when newbies turn the chat into beginner Q&A threads",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "skeptical of one-shot color cameras for serious deep-sky work",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "imaging_target_type",
+          "old_value": "exclusively galaxies and nebulae",
+          "new_value": "increasingly drawn to solar H-alpha imaging during daytime",
+          "changed_at_session": 6,
+          "trigger": "got a Coronado solar scope as a retirement gift"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'imho' frequently",
+        "asks clarifying questions before opining",
+        "ends technical replies with the relevant equation or RA/Dec coordinate"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_bp02f1a2",
+      "display_name": "Priya",
+      "age": 34,
+      "gender": "female",
+      "occupation": "Software engineer at a fintech startup",
+      "background": "Got into astrophotography during the 2020 lockdown. Runs a popular Mastodon account showcasing narrowband nebulae from her HOA-restricted suburban backyard.",
+      "skills_list": [
+        {
+          "skill": "narrowband processing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "PixInsight scripting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "filter wheel automation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "loves SHO palette imaging and finds RGB galaxy work boring",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "uses Linux exclusively for image processing, finds Windows acquisition stacks frustrating",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "processing_software",
+          "old_value": "PixInsight only",
+          "new_value": "increasingly using Siril for stacking before PI",
+          "changed_at_session": 4,
+          "trigger": "Siril added GPU-accelerated registration"
+        }
+      ],
+      "speaking_quirks": [
+        "lowercase first letter often",
+        "uses 'fwiw' and 'tbh' in technical replies",
+        "drops 'lol' at the end of mild complaints"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_bp03f1a2",
+      "display_name": "Bex",
+      "age": 41,
+      "gender": "female",
+      "occupation": "Veterinary technician, weekend mobile observer",
+      "background": "Drives 90 minutes to a Bortle 3 site every clear weekend. Travels light with a William Optics RedCat and a small mount. The most active poster about field conditions and weather.",
+      "skills_list": [
+        {
+          "skill": "mobile rig setup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "weather forecasting (Clear Outside, Astrospheric)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "battery and power management",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Playful",
+        "directness": "Direct",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "actively dislikes overnight backyard sessions, finds them claustrophobic",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "loves group field trips to dark sites",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "swears by short focal length refractors over SCTs",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "site_choice",
+          "old_value": "willing to drive 4+ hours for Bortle 1",
+          "new_value": "settled into a regular Bortle 3 spot, no longer chases ultra-dark",
+          "changed_at_session": 3,
+          "trigger": "two consecutive trips clouded out"
+        }
+      ],
+      "speaking_quirks": [
+        "uses lots of crying-laughing emoji",
+        "starts updates with 'okay so'",
+        "abbreviates 'astrophotography' as 'AP'"
+      ],
+      "participation_rate": 0.8
+    },
+    {
+      "persona_id": "p_bp04f1a2",
+      "display_name": "Theo",
+      "age": 47,
+      "gender": "male",
+      "occupation": "High school physics teacher",
+      "background": "Curates the group's beginner-friendly resources doc. Mentors new members patiently. Owns a modest setup but spends most evenings helping others troubleshoot.",
+      "skills_list": [
+        {
+          "skill": "explaining technical concepts",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "ASIAir setup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "basic Python scripting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "happy when newbies ask basic questions, irritated by gatekeeping",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "favors gear under $2000, dislikes obsession with high-end equipment",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "mount_brand",
+          "old_value": "trusted Sky-Watcher mounts",
+          "new_value": "now recommends ZWO AM5 over similarly priced Sky-Watcher",
+          "changed_at_session": 5,
+          "trigger": "had three Sky-Watcher belt failures in a year"
+        }
+      ],
+      "speaking_quirks": [
+        "numbers his tips (1., 2., 3.)",
+        "ends mentor messages with 'feel free to dm if stuck'",
+        "uses 'just to clarify' as a softener"
+      ],
+      "participation_rate": 0.7
+    },
+    {
+      "persona_id": "p_bp05f1a2",
+      "display_name": "Lena",
+      "age": 29,
+      "gender": "female",
+      "occupation": "PhD student in observational astronomy",
+      "background": "The only professional astronomer in the group. Treats astrophotography as a hobby distinct from her research. Politely corrects technical misconceptions when they spread.",
+      "skills_list": [
+        {
+          "skill": "spectroscopy basics",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "calibration frame theory",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Python data pipelines",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "avoids the deep-sky imaging arms race, prefers small targets at long focal length",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "skeptical of AI-based noise reduction tools, calls them 'pretty but unscientific'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "tool_acceptance",
+          "old_value": "refused to use BlurXTerminator on shared images",
+          "new_value": "uses it sparingly with a disclaimer",
+          "changed_at_session": 7,
+          "trigger": "saw a credible blind comparison published"
+        }
+      ],
+      "speaking_quirks": [
+        "writes in full sentences with semicolons",
+        "cites specific papers or arXiv IDs",
+        "rarely posts more than two messages in a row"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_bp06f1a2",
+      "display_name": "Diego",
+      "age": 39,
+      "gender": "male",
+      "occupation": "Architectural draftsman",
+      "background": "Planetary imager with a Celestron C11 and ZWO ASI462MC. Posts beautiful Jupiter and Saturn animations every apparition. Less active during deep-sky season.",
+      "skills_list": [
+        {
+          "skill": "lucky imaging stacking (AutoStakkert)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "wavelet sharpening (Registax)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "atmospheric seeing assessment",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "finds long deep-sky exposures boring, prefers planetary capture sessions",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "obsessed with seeing forecasts over light pollution",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "imaging_priority",
+          "old_value": "chased planetary opposition only",
+          "new_value": "now also doing high-res lunar mosaics year-round",
+          "changed_at_session": 4,
+          "trigger": "discovered ASIStudio lunar autoguider feature"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'btw' and 'imo' often",
+        "makes self-deprecating jokes about his rig",
+        "responds with thumbs-up emoji to advice"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_bp07f1a2",
+      "display_name": "Ines",
+      "age": 33,
+      "gender": "female",
+      "occupation": "Wedding photographer",
+      "background": "Came to AP from terrestrial photography. Strong on processing and color theory; still learning the acquisition side. Has a great eye for composition.",
+      "skills_list": [
+        {
+          "skill": "Photoshop layer masking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "color calibration and white balance",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DSLR astrophotography",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "prioritizes aesthetic composition over scientific accuracy in final images",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "camera_type",
+          "old_value": "modified DSLR",
+          "new_value": "switched to a dedicated cooled astro camera (ASI2600)",
+          "changed_at_session": 5,
+          "trigger": "kept getting amp glow on summer nights with the DSLR"
+        }
+      ],
+      "speaking_quirks": [
+        "uses heart and sparkle emoji",
+        "asks 'what do you think?' after sharing work",
+        "starts messages with 'okay so listen'"
+      ],
+      "participation_rate": 0.65
+    },
+    {
+      "persona_id": "p_bp08f1a2",
+      "display_name": "Rafiq",
+      "age": 51,
+      "gender": "male",
+      "occupation": "Cardiologist",
+      "background": "High-end gear collector. Owns a 10-inch RC, a CMOS spectrograph, and remote rigs in Spain and New Mexico. Doesn't post images often but provides detailed technical input.",
+      "skills_list": [
+        {
+          "skill": "remote observatory setup (Telescope.Live, iTelescope)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "RC collimation",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "tracking mount tuning",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "rarely sets up locally, prefers operating remote rigs from his study",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [
+          {
+            "value": "polite but distant in chat, doesn't engage with off-topic banter",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "willing to spend on premium gear but expects measurable results",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "remote_provider",
+          "old_value": "iTelescope subscriber",
+          "new_value": "moved to Telescope.Live for lower latency",
+          "changed_at_session": 3,
+          "trigger": "frustrated with iTelescope queue times"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'one further note' as a transition",
+        "writes in complete sentences",
+        "drops occasional Latin phrases like 'sine qua non'"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_bp09f1a2",
+      "display_name": "Maya",
+      "age": 26,
+      "gender": "female",
+      "occupation": "Junior front-end developer",
+      "background": "Newest member, joined six months before the chat began. Bought a starter rig, eager to learn. Posts a lot of newbie questions and processing attempts.",
+      "skills_list": [
+        {
+          "skill": "Stellarium target planning",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "DSLR usage",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "basic stacking (DSS)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "High",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "easily discouraged by failed sessions, walks away quickly when frustrated",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "drawn to colorful nebulae, uninterested in galaxies",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "comfort_level",
+          "old_value": "afraid to share images publicly",
+          "new_value": "actively posting and asking for critique",
+          "changed_at_session": 5,
+          "trigger": "got encouraging feedback from Theo on her first M42"
+        }
+      ],
+      "speaking_quirks": [
+        "overuses '\ud83d\ude05' and '\ud83e\udd7a'",
+        "writes 'omg' often",
+        "ends questions with 'is that ok??'"
+      ],
+      "participation_rate": 0.75
+    },
+    {
+      "persona_id": "p_bp10f1a2",
+      "display_name": "Sven",
+      "age": 44,
+      "gender": "male",
+      "occupation": "Mechanical engineer",
+      "background": "Mount and equipment tinkerer. 3D-prints custom dovetails and finder shoes. Loves the engineering side more than the imaging itself.",
+      "skills_list": [
+        {
+          "skill": "3D printing (Fusion 360)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "machining",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "stepper motor and belt mod",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "happiest tweaking belts and counterweights, lukewarm on actual imaging output",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "mount_philosophy",
+          "old_value": "factory-tuned EQ6-R",
+          "new_value": "fully hypertuned with Rowan belt mod kit",
+          "changed_at_session": 4,
+          "trigger": "watched a YouTube teardown of his exact mount model"
+        }
+      ],
+      "speaking_quirks": [
+        "posts torque specs in newton-meters",
+        "uses 'note that' before technical caveats",
+        "shares STL files directly in chat"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_bp11f1a2",
+      "display_name": "Aida",
+      "age": 37,
+      "gender": "female",
+      "occupation": "Microbiology researcher",
+      "background": "Joined to escape lab work mentally. Methodical about acquisition, treats sessions as data collection. Strong on calibration discipline.",
+      "skills_list": [
+        {
+          "skill": "calibration frame management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "data archival",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "guide log analysis (PHD2)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "insists every imaging session needs flat frames taken the same night",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "calibration_workflow",
+          "old_value": "took flats only when changing setup",
+          "new_value": "now takes flats every session, no exceptions",
+          "changed_at_session": 4,
+          "trigger": "an entire month of data ruined by dust spots"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'in my experience' as a hedge",
+        "shares spreadsheets of session metadata",
+        "rarely jokes"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_bp12f1a2",
+      "display_name": "Ravi",
+      "age": 45,
+      "gender": "male",
+      "occupation": "Patent attorney",
+      "background": "Old-school Newtonian guy with a 12-inch Dobsonian and an EQ platform. Visual-first, imaging-second. Often reminds the group that visual observation matters too.",
+      "skills_list": [
+        {
+          "skill": "Newtonian collimation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "deep-sky visual observation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "EQ platform construction",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "still does pure visual nights once a month, rolls eyes at obsessive imagers",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "thinks narrowband 'looks fake', prefers true RGB",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "narrowband_attitude",
+          "old_value": "openly dismissive of SHO palette",
+          "new_value": "grudgingly admits the Veil in HOO is 'not bad'",
+          "changed_at_session": 7,
+          "trigger": "Priya posted a Heart Nebula HOO that he liked"
+        }
+      ],
+      "speaking_quirks": [
+        "opens with 'frankly'",
+        "uses 'pseudo-scientific' as a barb",
+        "writes in long paragraphs"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_bp13f1a2",
+      "display_name": "Hana",
+      "age": 31,
+      "gender": "female",
+      "occupation": "Graphic designer",
+      "background": "Friends with Ines outside the chat \u2014 they met at a photo workshop years ago. Came in via Ines's recommendation. Has a small William Optics setup.",
+      "skills_list": [
+        {
+          "skill": "color grading",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Lightroom workflow",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DSLR field operation",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "None",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "tends to second Ines's takes in chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "hates when images get over-saturated, prefers muted tones",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "processing_style",
+          "old_value": "saturated 'punchy' edits",
+          "new_value": "moved to softer, more natural palette",
+          "changed_at_session": 3,
+          "trigger": "took a print-making workshop"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'hmm' as a softener",
+        "frequently tags Ines with '@'",
+        "uses lowercase mostly"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_bp14f1a2",
+      "display_name": "Luc",
+      "age": 53,
+      "gender": "male",
+      "occupation": "Airline pilot",
+      "background": "Lives in a Bortle 8 city center but flies internationally and shoots from hotel balconies in dark countries. Rotating schedule means sporadic posting.",
+      "skills_list": [
+        {
+          "skill": "tripod-only widefield",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "star trackers (MoveShootMove, Star Adventurer)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Milky Way panorama stitching",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "None",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "values portability over aperture, never travels with anything over 5kg",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "travel_setup",
+          "old_value": "carried a small refractor and tracker",
+          "new_value": "switched to camera + lens on a pocket tracker only",
+          "changed_at_session": 6,
+          "trigger": "lost a piece of gear in baggage"
+        }
+      ],
+      "speaking_quirks": [
+        "mentions current city ('writing from Lisbon')",
+        "uses 24-hour time",
+        "ends messages mid-thought when boarding"
+      ],
+      "participation_rate": 0.45
+    },
+    {
+      "persona_id": "p_bp15f1a2",
+      "display_name": "Yara",
+      "age": 28,
+      "gender": "female",
+      "occupation": "Data analyst at a climate nonprofit",
+      "background": "Got into AP through her dad, who was an amateur radio astronomer. Posts mostly weekends. Very curious, asks why a lot.",
+      "skills_list": [
+        {
+          "skill": "Python image processing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "stacking with Siril",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "guide camera selection",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Playful",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "loves data visualization, treats astrophotography as 'pretty data'",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "imaging_target_type",
+          "old_value": "stuck to bright Messier objects",
+          "new_value": "now tackling faint integrated flux nebulae",
+          "changed_at_session": 6,
+          "trigger": "found a guide on broadband faint object imaging"
+        }
+      ],
+      "speaking_quirks": [
+        "asks 'why does that work?' a lot",
+        "uses curious-face emoji '\ud83e\udd14'",
+        "drops 'btw'"
+      ],
+      "participation_rate": 0.6
+    },
+    {
+      "persona_id": "p_bp16f1a2",
+      "display_name": "Otis",
+      "age": 62,
+      "gender": "male",
+      "occupation": "Retired postal worker",
+      "background": "On a fixed budget, buys used gear, writes detailed reviews of bargain finds. One of Marcus's earliest meetup attendees.",
+      "skills_list": [
+        {
+          "skill": "used gear sourcing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "vintage telescope restoration",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "DIY observatory builds",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Dry",
+        "directness": "Balanced",
+        "typo_rate": "Moderate",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "happy to spend hours hunting Astromart and Cloudy Nights classifieds",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "thinks new gear obsession misses the point, an old C8 'still works fine'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "gear_attitude",
+          "old_value": "saved for a high-end refractor for years",
+          "new_value": "stopped chasing the upgrade, satisfied with his C8",
+          "changed_at_session": 4,
+          "trigger": "saw a Hubble image he could approximate with his current rig"
+        }
+      ],
+      "speaking_quirks": [
+        "tells brief 'back in the 80s' anecdotes",
+        "uses 'fellas'",
+        "occasionally mistypes 'teh' for 'the'"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_bp17f1a2",
+      "display_name": "Camila",
+      "age": 36,
+      "gender": "female",
+      "occupation": "Civil engineer",
+      "background": "Lives in a clear-sky desert region. Her balcony view is enviable. Often posts mid-week field reports while everyone else is clouded out.",
+      "skills_list": [
+        {
+          "skill": "fixed-pier setup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "cable management",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "ASCOM driver troubleshooting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "feels mildly guilty bragging about clear skies, downplays her conditions",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "values reliability over capability \u2014 favors gear that 'just works'",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "imaging_software",
+          "old_value": "used SGP for years",
+          "new_value": "moved to NINA after SGP became unstable",
+          "changed_at_session": 3,
+          "trigger": "two SGP crashes mid-session"
+        }
+      ],
+      "speaking_quirks": [
+        "adds 'ymmv' to recommendations",
+        "tags messages with current sky condition",
+        "uses 'lol' sparingly"
+      ],
+      "participation_rate": 0.65
+    },
+    {
+      "persona_id": "p_bp18f1a2",
+      "display_name": "Henrik",
+      "age": 49,
+      "gender": "male",
+      "occupation": "Sound engineer",
+      "background": "Audio guy who treats imaging like signal-to-noise problems. Posts long, technical takes on sensor noise and dithering. Friends with Sven from a maker space.",
+      "skills_list": [
+        {
+          "skill": "sensor noise analysis",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "dithering strategy",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Linux acquisition stacks (KStars/Ekos)",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "obsessed with squeezing every dB of SNR, considers single-shot color a compromise",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "dither_practice",
+          "old_value": "didn't dither at all",
+          "new_value": "now dithers every 3 frames",
+          "changed_at_session": 5,
+          "trigger": "saw walking-noise pattern in his own data"
+        }
+      ],
+      "speaking_quirks": [
+        "frames advice as signal-processing analogies",
+        "uses 'qua' as a connector",
+        "drops citations to old papers"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_bp19f1a2",
+      "display_name": "Mei",
+      "age": 30,
+      "gender": "female",
+      "occupation": "ER nurse",
+      "background": "Imaging fits around night shifts. Erratic posting schedule. Prefers short focal length grab-and-go setups for the rare clear nights she gets.",
+      "skills_list": [
+        {
+          "skill": "rapid setup and teardown",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DSLR with star tracker",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Sequence Generator Pro",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Moderate",
+        "humor": "Dry",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "hates planning sessions in advance, prefers spontaneous setups",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "session_style",
+          "old_value": "tried planning sessions a week ahead",
+          "new_value": "now decides within an hour of clear skies",
+          "changed_at_session": 4,
+          "trigger": "missed two perfect nights waiting for 'optimal' targets"
+        }
+      ],
+      "speaking_quirks": [
+        "sends 1-3 word replies often",
+        "uses \ud83d\ude34 for tired",
+        "drops messages without punctuation"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_bp20f1a2",
+      "display_name": "Felix",
+      "age": 38,
+      "gender": "male",
+      "occupation": "Game developer",
+      "background": "Heavy on simulation and planning tools. Uses Stellarium and N.I.N.A. flat-wizard a lot. Loves automation. Friends with Priya from a game-dev slack.",
+      "skills_list": [
+        {
+          "skill": "N.I.N.A. sequencing and automation",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "scripting (PowerShell, Python)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "polar drift alignment",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "delights in fully automated overnight imaging, dislikes manual intervention",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "skeptical of ASIAir, prefers PC-based stacks for flexibility",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "automation_tool",
+          "old_value": "ran SGP scripts manually each night",
+          "new_value": "set up unattended NINA sequence with safety monitor",
+          "changed_at_session": 5,
+          "trigger": "fell asleep mid-session and lost 3 hours of data"
+        }
+      ],
+      "speaking_quirks": [
+        "shares code snippets in backticks",
+        "uses 'workflow' often",
+        "asks 'what's the failure mode here'"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_bp21f1a2",
+      "display_name": "Saira",
+      "age": 42,
+      "gender": "female",
+      "occupation": "Restaurant owner",
+      "background": "Long hours mean she only images on Mondays (her day off). Strong narrowband processor, friends with Priya from sharing PixInsight tutorials.",
+      "skills_list": [
+        {
+          "skill": "PixInsight masking",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "starless processing",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "filter selection",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Verbose",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "loves Hubble palette, openly disagrees with 'natural color' purists",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "starless_workflow",
+          "old_value": "didn't separate stars",
+          "new_value": "now processes starless every time, then composites back",
+          "changed_at_session": 4,
+          "trigger": "tried StarXTerminator on Priya's recommendation"
+        }
+      ],
+      "speaking_quirks": [
+        "uses food metaphors ('a pinch of saturation')",
+        "lots of fire emoji \ud83d\udd25",
+        "abbreviates 'narrowband' as 'NB'"
+      ],
+      "participation_rate": 0.55
+    },
+    {
+      "persona_id": "p_bp22f1a2",
+      "display_name": "Tomas",
+      "age": 56,
+      "gender": "male",
+      "occupation": "Civil engineer (semi-retired)",
+      "background": "Lives near Marcus, attends his real-life backyard sessions. Trad observatory builder. Skeptical of fully digital workflows.",
+      "skills_list": [
+        {
+          "skill": "concrete pier construction",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "roll-off-roof observatory design",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "old-school film hypering",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Verbose",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Blunt",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "always defers to Marcus on technical disputes",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "thinks the group focuses too much on processing, not enough on telescope time",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "exposure_philosophy",
+          "old_value": "shorter total integration with heavy processing",
+          "new_value": "now insists on 10+ hour integrations",
+          "changed_at_session": 5,
+          "trigger": "compared Aida's calibration discipline to his own"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'in the old days'",
+        "mentions Marcus by name often",
+        "fond of 'point being'"
+      ],
+      "participation_rate": 0.45
+    },
+    {
+      "persona_id": "p_bp23f1a2",
+      "display_name": "Nia",
+      "age": 27,
+      "gender": "female",
+      "occupation": "Marketing coordinator",
+      "background": "Joined after seeing Bex post about a public meetup. Mostly observes the chat, occasionally chimes in with weather or driving questions.",
+      "skills_list": [
+        {
+          "skill": "Instagram and social posting",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DSLR widefield",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "stacking with Siril",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "Medium",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Terse",
+        "emoji_use": "Frequent",
+        "humor": "Minimal",
+        "directness": "Indirect",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "more comfortable in DMs with Bex than in main chat",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "social",
+          "attribute": "engagement",
+          "old_value": "lurked silently first month",
+          "new_value": "now comments regularly, especially on field plans",
+          "changed_at_session": 3,
+          "trigger": "Bex publicly invited her to a dark-site trip"
+        }
+      ],
+      "speaking_quirks": [
+        "lots of '\u2728' and '\ud83c\udf19'",
+        "uses 'literally' a lot",
+        "responds with one-line reactions"
+      ],
+      "participation_rate": 0.45
+    },
+    {
+      "persona_id": "p_bp24f1a2",
+      "display_name": "Boris",
+      "age": 60,
+      "gender": "male",
+      "occupation": "Pharmacist",
+      "background": "Quiet member, mostly reads. Posts occasionally with very dry asides. Has a high-end refractor he barely uses.",
+      "skills_list": [
+        {
+          "skill": "refractor optical alignment",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Astro-Physics mount tuning",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "patient long-exposure work",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "Medium",
+        "extraversion": "Low",
+        "agreeableness": "Medium",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Formal",
+        "verbosity": "Terse",
+        "emoji_use": "Never",
+        "humor": "Dry",
+        "directness": "Indirect",
+        "typo_rate": "None",
+        "warmth": "Cool"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "rarely sets up his rig, often gets clouded out by indecision",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "engagement",
+          "old_value": "barely set up at all",
+          "new_value": "started a regular Saturday session habit",
+          "changed_at_session": 6,
+          "trigger": "Otis dragged him to a public outreach night"
+        }
+      ],
+      "speaking_quirks": [
+        "responds with one-word punchlines",
+        "uses 'precisely' as a sentence",
+        "occasional Russian phrases"
+      ],
+      "participation_rate": 0.3
+    },
+    {
+      "persona_id": "p_bp25f1a2",
+      "display_name": "Esme",
+      "age": 24,
+      "gender": "female",
+      "occupation": "Astronomy student (undergraduate)",
+      "background": "Youngest member. Studying with hopes of grad school. Treats the chat as both hobby and mentor pool. Looks up to Lena.",
+      "skills_list": [
+        {
+          "skill": "academic literature search",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "basic observational technique",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "Python plotting",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "High",
+        "conscientiousness": "High",
+        "extraversion": "Medium",
+        "agreeableness": "High",
+        "neuroticism": "Medium"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Rare",
+        "humor": "Minimal",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Friendly"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [
+          {
+            "value": "frequently echoes Lena's positions even before Lena weighs in",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ],
+        "domain_specific": [
+          {
+            "value": "prefers scientific accuracy in image presentation, anti-cosmetic edits",
+            "confidence": "Medium",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "tool_acceptance",
+          "old_value": "refused to use any AI tools",
+          "new_value": "uses BlurXTerminator after Lena did",
+          "changed_at_session": 7,
+          "trigger": "Lena demonstrated a careful comparison"
+        }
+      ],
+      "speaking_quirks": [
+        "uses 'actually' as a soft correction",
+        "hedges with 'I think'",
+        "tags Lena often"
+      ],
+      "participation_rate": 0.5
+    },
+    {
+      "persona_id": "p_bp26f1a2",
+      "display_name": "Jonas",
+      "age": 48,
+      "gender": "male",
+      "occupation": "IT systems administrator",
+      "background": "Networking-and-remote-rig specialist. Helps members set up their rigs for VPN/remote access. Mostly responds when asked.",
+      "skills_list": [
+        {
+          "skill": "remote access (VPN, TeamViewer)",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "Raspberry Pi Astroberry setup",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "network troubleshooting",
+          "proficiency": "strong"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "Low",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Semi-formal",
+        "verbosity": "Concise",
+        "emoji_use": "Never",
+        "humor": "Minimal",
+        "directness": "Direct",
+        "typo_rate": "Low",
+        "warmth": "Neutral"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [],
+        "social": [],
+        "domain_specific": [
+          {
+            "value": "swears by Raspberry Pi setups over Mini PCs for portability and cost",
+            "confidence": "High",
+            "implicit": true
+          }
+        ]
+      },
+      "preference_history": [
+        {
+          "domain": "domain_specific",
+          "attribute": "network_setup",
+          "old_value": "used TeamViewer for remote",
+          "new_value": "shifted to Tailscale for direct VPN access",
+          "changed_at_session": 4,
+          "trigger": "TeamViewer flagged him as commercial use"
+        }
+      ],
+      "speaking_quirks": [
+        "asks 'have you checked logs' first",
+        "uses 'works on my end' literally",
+        "ends with 'lmk'"
+      ],
+      "participation_rate": 0.4
+    },
+    {
+      "persona_id": "p_bp27f1a2",
+      "display_name": "Clara",
+      "age": 39,
+      "gender": "female",
+      "occupation": "Speech-language pathologist",
+      "background": "Joined to share dark-site trips with Bex. They drive together most weekends. Has a small ED refractor and a Star Adventurer GTi.",
+      "skills_list": [
+        {
+          "skill": "field setup and balancing",
+          "proficiency": "medium"
+        },
+        {
+          "skill": "social trip planning",
+          "proficiency": "strong"
+        },
+        {
+          "skill": "DSS stacking",
+          "proficiency": "medium"
+        }
+      ],
+      "big_five": {
+        "openness": "Medium",
+        "conscientiousness": "High",
+        "extraversion": "High",
+        "agreeableness": "High",
+        "neuroticism": "Low"
+      },
+      "communication_profile": {
+        "formality": "Casual",
+        "verbosity": "Concise",
+        "emoji_use": "Frequent",
+        "humor": "Expressive",
+        "directness": "Balanced",
+        "typo_rate": "Low",
+        "warmth": "Warm"
+      },
+      "preferences": {
+        "food": [],
+        "activities": [
+          {
+            "value": "the social side of dark-site trips matters more to her than image quality",
+            "confidence": "High",
+            "implicit": true
+          }
+        ],
+        "social": [],
+        "domain_specific": []
+      },
+      "preference_history": [
+        {
+          "domain": "activities",
+          "attribute": "rig_size",
+          "old_value": "considered upgrading to a larger refractor",
+          "new_value": "decided to stay small for car-trip portability",
+          "changed_at_session": 6,
+          "trigger": "Bex's car couldn't fit a bigger setup"
+        }
+      ],
+      "speaking_quirks": [
+        "uses '\ud83c\udf1f' frequently",
+        "tags Bex regularly",
+        "asks 'who else is in?' for trips"
+      ],
+      "participation_rate": 0.55
+    }
+  ],
+  "edges": [
+    {
+      "persona_a_id": "p_bp01f1a2",
+      "persona_b_id": "p_bp22f1a2",
+      "relationship_type": "in-person friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Marcus and Tomas have run real-life backyard sessions together for years; Tomas helped pour the concrete for Marcus's pier.",
+      "shared_events": [
+        "Marcus's pier-pour weekend",
+        "shared Mars opposition night 2022"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp01f1a2",
+      "persona_b_id": "p_bp16f1a2",
+      "relationship_type": "old meetup acquaintance",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Otis attended Marcus's earliest astronomy club meetups in the late 90s.",
+      "shared_events": [
+        "the original 1998 outreach night"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp01f1a2",
+      "persona_b_id": "p_bp10f1a2",
+      "relationship_type": "tech collaborator",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Sven 3D-printed a custom mount adapter for Marcus's Coronado.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp02f1a2",
+      "persona_b_id": "p_bp20f1a2",
+      "relationship_type": "online friend (slack)",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Priya and Felix met in a game-dev slack years before AP; Felix invited her to the chat.",
+      "shared_events": [
+        "a 2021 game jam they both attended remotely"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp02f1a2",
+      "persona_b_id": "p_bp21f1a2",
+      "relationship_type": "online friend",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Saira and Priya bonded over PixInsight tutorials; Priya invited Saira to the group.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp02f1a2",
+      "persona_b_id": "p_bp12f1a2",
+      "relationship_type": "good-natured rival",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Priya and Ravi clash on narrowband vs RGB but mostly enjoy ribbing each other.",
+      "shared_events": [
+        "the Heart Nebula HOO debate"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp03f1a2",
+      "persona_b_id": "p_bp27f1a2",
+      "relationship_type": "weekend trip partner",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Bex and Clara drive together to dark sites almost every clear weekend.",
+      "shared_events": [
+        "Cherry Springs trip Aug 2024",
+        "Mexico Bortle 1 trip"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp03f1a2",
+      "persona_b_id": "p_bp23f1a2",
+      "relationship_type": "mentor and newer member",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Bex met Nia at a public meetup and brought her in.",
+      "shared_events": [
+        "the public outreach night where they met"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp04f1a2",
+      "persona_b_id": "p_bp09f1a2",
+      "relationship_type": "mentor and mentee",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Theo has been Maya's main reference since she joined; he gave the encouraging M42 critique that boosted her confidence.",
+      "shared_events": [
+        "Maya's first M42 share"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp04f1a2",
+      "persona_b_id": "p_bp15f1a2",
+      "relationship_type": "mentor and mentee",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Yara asks Theo a lot of why-this-works questions.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp05f1a2",
+      "persona_b_id": "p_bp25f1a2",
+      "relationship_type": "academic role model",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Esme looks up to Lena as an academic model; Lena has been quietly supportive.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp07f1a2",
+      "persona_b_id": "p_bp13f1a2",
+      "relationship_type": "in-person friend",
+      "closeness": "High",
+      "sentiment": "positive",
+      "history_summary": "Ines and Hana met at a portrait workshop years ago; Hana joined the chat at Ines's invitation.",
+      "shared_events": [
+        "the 2019 portrait workshop"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp10f1a2",
+      "persona_b_id": "p_bp18f1a2",
+      "relationship_type": "maker space friend",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Sven and Henrik first met at a maker space and bonded over hardware tinkering.",
+      "shared_events": [
+        "a maker space open night"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp16f1a2",
+      "persona_b_id": "p_bp24f1a2",
+      "relationship_type": "fellow lurker",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Otis once dragged Boris out to a public outreach night and got him imaging again.",
+      "shared_events": [
+        "the public outreach night that re-engaged Boris"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp01f1a2",
+      "persona_b_id": "p_bp05f1a2",
+      "relationship_type": "respectful peers",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Marcus and Lena rarely interact directly but both anchor different ends of the technical authority spectrum.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp01f1a2",
+      "persona_b_id": "p_bp08f1a2",
+      "relationship_type": "respectful peers",
+      "closeness": "Medium",
+      "sentiment": "neutral",
+      "history_summary": "Marcus and Rafiq exchange technical replies but have never met in person.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp02f1a2",
+      "persona_b_id": "p_bp19f1a2",
+      "relationship_type": "casual chat friends",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Priya and Mei occasionally chat about Linux astro stacks.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp03f1a2",
+      "persona_b_id": "p_bp17f1a2",
+      "relationship_type": "field-condition exchange",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Bex and Camila trade weather and dark-site notes regularly.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp04f1a2",
+      "persona_b_id": "p_bp25f1a2",
+      "relationship_type": "mentor and mentee",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Theo helped Esme with a tracking issue early on.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp05f1a2",
+      "persona_b_id": "p_bp18f1a2",
+      "relationship_type": "technical sparring partners",
+      "closeness": "Low",
+      "sentiment": "mixed",
+      "history_summary": "Lena and Henrik sometimes disagree on whether subjective image aesthetics belong in scientific framing.",
+      "shared_events": [
+        "the dithering pattern thread"
+      ]
+    },
+    {
+      "persona_a_id": "p_bp08f1a2",
+      "persona_b_id": "p_bp26f1a2",
+      "relationship_type": "tech consultant",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Jonas helped Rafiq with VPN setup for his Spanish remote rig.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp09f1a2",
+      "persona_b_id": "p_bp15f1a2",
+      "relationship_type": "fellow newer members",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Maya and Yara both joined within a year and ask similar questions.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp11f1a2",
+      "persona_b_id": "p_bp22f1a2",
+      "relationship_type": "calibration-discipline ally",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Tomas adopted Aida's flat-frame discipline after observing her workflow.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp12f1a2",
+      "persona_b_id": "p_bp16f1a2",
+      "relationship_type": "old-school allies",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Ravi and Otis both lean traditional and often back each other up against the AI-tool wave.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp14f1a2",
+      "persona_b_id": "p_bp17f1a2",
+      "relationship_type": "clear-sky sympathizers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Luc and Camila both image from clear-sky locations and trade portability tips.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp02f1a2",
+      "persona_b_id": "p_bp25f1a2",
+      "relationship_type": "younger-member friends",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Priya occasionally encourages Esme on technical posts.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp19f1a2",
+      "persona_b_id": "p_bp17f1a2",
+      "relationship_type": "shift-worker peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Mei and Camila both have non-standard schedules and compare clear-night opportunism notes.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp06f1a2",
+      "persona_b_id": "p_bp20f1a2",
+      "relationship_type": "automation hobbyists",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Diego and Felix occasionally trade AutoStakkert vs lucky-imaging automation tips.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp12f1a2",
+      "persona_b_id": "p_bp22f1a2",
+      "relationship_type": "trad-imaging allies",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Ravi and Tomas often agree on visual-vs-imaging trade-offs.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp21f1a2",
+      "persona_b_id": "p_bp13f1a2",
+      "relationship_type": "color-processing friends",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Saira and Hana sometimes trade color-grading thoughts even though Saira leans saturated and Hana muted.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp01f1a2",
+      "persona_b_id": "p_bp02f1a2",
+      "relationship_type": "peer-to-peer",
+      "closeness": "Medium",
+      "sentiment": "mixed",
+      "history_summary": "Marcus respects Priya's processing but is privately skeptical of her one-shot color enthusiasm.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp10f1a2",
+      "persona_b_id": "p_bp22f1a2",
+      "relationship_type": "DIY allies",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Sven and Tomas swap fabrication and observatory build tips.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp06f1a2",
+      "persona_b_id": "p_bp08f1a2",
+      "relationship_type": "technical peers",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Diego and Rafiq occasionally discuss cooled cameras for high-frame-rate work.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp03f1a2",
+      "persona_b_id": "p_bp09f1a2",
+      "relationship_type": "encouraging older member",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Bex is consistently encouraging in replies to Maya's posts.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp23f1a2",
+      "persona_b_id": "p_bp27f1a2",
+      "relationship_type": "fellow Bex-circle members",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Nia and Clara both came in through Bex and overlap on trip threads.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp14f1a2",
+      "persona_b_id": "p_bp19f1a2",
+      "relationship_type": "irregular-schedule peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Luc and Mei both have erratic schedules.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp11f1a2",
+      "persona_b_id": "p_bp20f1a2",
+      "relationship_type": "process-discipline peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Aida and Felix both like rigorous workflows.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp07f1a2",
+      "persona_b_id": "p_bp21f1a2",
+      "relationship_type": "color-and-aesthetic peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Ines and Saira both prioritize color in different ways.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp05f1a2",
+      "persona_b_id": "p_bp08f1a2",
+      "relationship_type": "technical peers",
+      "closeness": "Low",
+      "sentiment": "neutral",
+      "history_summary": "Lena and Rafiq exchange the occasional technical correction.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp04f1a2",
+      "persona_b_id": "p_bp23f1a2",
+      "relationship_type": "newer-member supporter",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Theo welcomed Nia warmly when she started posting.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp24f1a2",
+      "persona_b_id": "p_bp22f1a2",
+      "relationship_type": "old-school peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Boris and Tomas both lean traditional but rarely speak directly.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp04f1a2",
+      "persona_b_id": "p_bp15f1a2",
+      "relationship_type": "mentor-mentee",
+      "closeness": "Medium",
+      "sentiment": "positive",
+      "history_summary": "Theo answers most of Yara's why questions.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp26f1a2",
+      "persona_b_id": "p_bp20f1a2",
+      "relationship_type": "automation peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Jonas and Felix swap remote-access setups.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp14f1a2",
+      "persona_b_id": "p_bp03f1a2",
+      "relationship_type": "travel-imaging peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Luc and Bex compare travel-light setups occasionally.",
+      "shared_events": []
+    },
+    {
+      "persona_a_id": "p_bp02f1a2",
+      "persona_b_id": "p_bp07f1a2",
+      "relationship_type": "processing peers",
+      "closeness": "Low",
+      "sentiment": "positive",
+      "history_summary": "Priya and Ines trade processing tips across narrowband and RGB.",
+      "shared_events": []
+    }
+  ],
+  "group_norms": [
+    {
+      "norm_text": "We share work-in-progress images for critique without filtering them first",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bp08f1a2",
+        "p_bp24f1a2"
+      ]
+    },
+    {
+      "norm_text": "We respect that beginner questions are welcome in main chat",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bp01f1a2"
+      ]
+    },
+    {
+      "norm_text": "We prefer narrowband palettes for emission nebulae",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bp05f1a2",
+        "p_bp12f1a2",
+        "p_bp16f1a2"
+      ]
+    },
+    {
+      "norm_text": "We treat dark-site road trips as the social high point of the season",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bp01f1a2",
+        "p_bp08f1a2",
+        "p_bp22f1a2"
+      ]
+    },
+    {
+      "norm_text": "We use AI-based image enhancement tools (BlurXTerminator, NoiseXTerminator) routinely",
+      "truly_universal": false,
+      "dissenters": [
+        "p_bp05f1a2",
+        "p_bp12f1a2",
+        "p_bp25f1a2"
+      ]
+    }
+  ],
+  "metadata": {
+    "sessions_planned": 10,
+    "turns_per_session": 28,
+    "departures": 0,
+    "schema_version": "1.0",
+    "tier": "large",
+    "group_type": "interest_community",
+    "group_size": 27
+  }
+}

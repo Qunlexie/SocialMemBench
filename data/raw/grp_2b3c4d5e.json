@@ -35,7 +35,7 @@
             "implicit": true
           },
           {
-            "value": "dislikes eating out at restaurants in general — prefers home cooking",
+            "value": "dislikes eating out at restaurants in general \u2014 prefers home cooking",
             "confidence": "High",
             "implicit": true
           }
@@ -65,7 +65,7 @@
         {
           "domain": "social",
           "attribute": "family_visits",
-          "old_value": "resistant to visiting the UK-based children — said it was 'too much travel'",
+          "old_value": "resistant to visiting the UK-based children \u2014 said it was 'too much travel'",
           "new_value": "has become noticeably more open to visiting since a health scare in session 3",
           "changed_at_session": 3,
           "trigger": "brief health scare; didn't tell the children directly but became warmer after"
@@ -154,7 +154,7 @@
       ],
       "speaking_quirks": [
         "starts messages with 'My darlings' or 'My people' when addressing the group",
-        "typos in almost every message — drops letters, runs words together",
+        "typos in almost every message \u2014 drops letters, runs words together",
         "uses food as a metaphor for love and family connection"
       ],
       "occupation": "semi-retired nurse",
@@ -217,7 +217,7 @@
         ],
         "social": [
           {
-            "value": "avoids committing to family events until last minute — fear of over-promising",
+            "value": "avoids committing to family events until last minute \u2014 fear of over-promising",
             "confidence": "High",
             "implicit": true
           }
@@ -235,7 +235,7 @@
         }
       ],
       "speaking_quirks": [
-        "adds '😊' to soften potentially unwelcome information",
+        "adds '\ud83d\ude0a' to soften potentially unwelcome information",
         "uses 'let's see' and 'we'll figure it out' as delay tactics",
         "refers to his wife ('Adaeze') as shorthand for domestic complications"
       ],
@@ -299,7 +299,7 @@
         ],
         "social": [
           {
-            "value": "resents the expectation that she should be the one to travel home to see parents — feels it should be shared",
+            "value": "resents the expectation that she should be the one to travel home to see parents \u2014 feels it should be shared",
             "confidence": "High",
             "implicit": true
           }
@@ -362,7 +362,7 @@
       "preferences": {
         "food": [
           {
-            "value": "eats anything; genuinely no preferences — he is the easiest family member about food",
+            "value": "eats anything; genuinely no preferences \u2014 he is the easiest family member about food",
             "confidence": "High",
             "implicit": false
           }
@@ -539,14 +539,14 @@
   ],
   "group_norms": [
     {
-      "norm_text": "Everyone comes home for Christmas — no exceptions.",
+      "norm_text": "Everyone comes home for Christmas \u2014 no exceptions.",
       "truly_universal": false,
       "dissenters": [
         "p_c4d5e6f7"
       ]
     },
     {
-      "norm_text": "The family eats together whenever anyone visits — Ngozi cooks and everyone eats what is made.",
+      "norm_text": "The family eats together whenever anyone visits \u2014 Ngozi cooks and everyone eats what is made.",
       "truly_universal": false,
       "dissenters": [
         "p_d5e6f7a8"
@@ -558,5 +558,10 @@
       "dissenters": []
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "family",
+    "group_size": 5
+  }
 }

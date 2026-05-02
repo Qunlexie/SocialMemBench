@@ -292,6 +292,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d4e5f6a7_s01_t017"
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_do02c3d4",
+        "p_ke05f6a7",
+        "p_ma04e5f6",
+        "p_fe06a7b8",
+        "p_pr03d4e5"
       ]
     },
     {
@@ -584,6 +592,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d4e5f6a7_s02_t018"
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_ke05f6a7",
+        "p_do02c3d4",
+        "p_ma04e5f6",
+        "p_fe06a7b8",
+        "p_pr03d4e5"
       ]
     },
     {
@@ -887,6 +903,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": "grp_d4e5f6a7_s03_t021"
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_ke05f6a7",
+        "p_ma04e5f6",
+        "p_pr03d4e5",
+        "p_fe06a7b8",
+        "p_do02c3d4"
       ]
     },
     {
@@ -1166,6 +1190,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_do02c3d4",
+        "p_ke05f6a7",
+        "p_ma04e5f6",
+        "p_fe06a7b8",
+        "p_pr03d4e5"
       ]
     },
     {
@@ -1482,6 +1514,14 @@
           ],
           "reply_to_turn_id": "grp_d4e5f6a7_s05_t017"
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_ke05f6a7",
+        "p_do02c3d4",
+        "p_fe06a7b8",
+        "p_ma04e5f6",
+        "p_pr03d4e5"
       ]
     },
     {
@@ -1785,6 +1825,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_ke05f6a7",
+        "p_do02c3d4",
+        "p_ma04e5f6",
+        "p_pr03d4e5",
+        "p_fe06a7b8"
       ]
     },
     {
@@ -2101,6 +2149,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_do02c3d4",
+        "p_fe06a7b8",
+        "p_za01b2c3",
+        "p_ke05f6a7",
+        "p_pr03d4e5",
+        "p_ma04e5f6"
       ]
     },
     {
@@ -2416,6 +2472,14 @@
           "planted_challenges": [],
           "reply_to_turn_id": null
         }
+      ],
+      "active_participants": [
+        "p_za01b2c3",
+        "p_ke05f6a7",
+        "p_do02c3d4",
+        "p_ma04e5f6",
+        "p_pr03d4e5",
+        "p_fe06a7b8"
       ]
     }
   ],

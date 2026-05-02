@@ -81,7 +81,7 @@
       "display_name": "Luca",
       "age": 41,
       "gender": "M",
-      "background": "Landscape photographer. Slow, deliberate workflow — takes months to edit. Has been working on a single long-term project (Scottish coasts) for three years. Laid-back about deadlines; the collective's emotional ballast.",
+      "background": "Landscape photographer. Slow, deliberate workflow \u2014 takes months to edit. Has been working on a single long-term project (Scottish coasts) for three years. Laid-back about deadlines; the collective's emotional ballast.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "Medium",
@@ -223,7 +223,7 @@
       "display_name": "Raj",
       "age": 48,
       "gender": "M",
-      "background": "Commercial photographer (advertising, product). The most financially successful member. Funds his personal fine-art work through commercial contracts. Genuinely torn between the two — commercial work pays the rent; personal work is what he actually cares about. Does not discuss the financial pressure directly.",
+      "background": "Commercial photographer (advertising, product). The most financially successful member. Funds his personal fine-art work through commercial contracts. Genuinely torn between the two \u2014 commercial work pays the rent; personal work is what he actually cares about. Does not discuss the financial pressure directly.",
       "big_five": {
         "openness": "High",
         "conscientiousness": "High",
@@ -339,7 +339,7 @@
       "relationship_type": "close friends",
       "closeness": "High",
       "sentiment": "positive",
-      "history_summary": "Luca and Raj are friends outside the collective. Luca knows about Raj's commercial pressure — Raj told him in a direct conversation.",
+      "history_summary": "Luca and Raj are friends outside the collective. Luca knows about Raj's commercial pressure \u2014 Raj told him in a direct conversation.",
       "shared_events": [
         "Raj disclosed financial/creative tension to Luca during a walk in session 3"
       ]
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "norm_text": "Feedback is direct and honest — no softening for feelings.",
+      "norm_text": "Feedback is direct and honest \u2014 no softening for feelings.",
       "truly_universal": false,
       "dissenters": [
         "p_ph9b2c3d4"
@@ -377,5 +377,10 @@
       ]
     }
   ],
-  "metadata": {}
+  "metadata": {
+    "schema_version": "1.0",
+    "tier": "small",
+    "group_type": "interest_community",
+    "group_size": 4
+  }
 }

@@ -29,7 +29,7 @@
           "speaker_persona_id": "p_ph9c3d4e5",
           "speaker_display_name": "Diane",
           "timestamp_label": "Sep 1, 6:51pm",
-          "message": "Yes! I have a whole set from Peckham that fits this perfectly 📷 I'm so in",
+          "message": "Yes! I have a whole set from Peckham that fits this perfectly \ud83d\udcf7 I'm so in",
           "message_index": 2,
           "planted_challenges": [
             {
@@ -116,7 +116,7 @@
           "speaker_persona_id": "p_ph9c3d4e5",
           "speaker_display_name": "Diane",
           "timestamp_label": "Sep 1, 7:31pm",
-          "message": "Should we do a shared caption as well or is that unbearably earnest 📷",
+          "message": "Should we do a shared caption as well or is that unbearably earnest \ud83d\udcf7",
           "message_index": 6,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_9c0d1e2f_s01_t004",
@@ -171,7 +171,13 @@
           "timestamp": "2025-09-01T19:49:00"
         }
       ],
-      "date": "2025-09-01"
+      "date": "2025-09-01",
+      "active_participants": [
+        "p_ph9a1b2c3",
+        "p_ph9c3d4e5",
+        "p_ph9b2c3d4",
+        "p_ph9d4e5f6"
+      ]
     },
     {
       "session_id": "grp_9c0d1e2f_s02",
@@ -317,7 +323,13 @@
           "timestamp": "2025-09-08T21:10:00"
         }
       ],
-      "date": "2025-09-08"
+      "date": "2025-09-08",
+      "active_participants": [
+        "p_ph9a1b2c3",
+        "p_ph9c3d4e5",
+        "p_ph9d4e5f6",
+        "p_ph9b2c3d4"
+      ]
     },
     {
       "session_id": "grp_9c0d1e2f_s03",
@@ -347,7 +359,7 @@
           "speaker_persona_id": "p_ph9c3d4e5",
           "speaker_display_name": "Diane",
           "timestamp_label": "Sep 15, 3:18pm",
-          "message": "two comments!! I'm still buzzing 📷 I can't believe I submitted the sixth. I would have gone with the fourth if Anika hadn't pushed me",
+          "message": "two comments!! I'm still buzzing \ud83d\udcf7 I can't believe I submitted the sixth. I would have gone with the fourth if Anika hadn't pushed me",
           "message_index": 2,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_9c0d1e2f_s03_t000",
@@ -396,7 +408,7 @@
           "speaker_persona_id": "p_ph9c3d4e5",
           "speaker_display_name": "Diane",
           "timestamp_label": "Sep 15, 3:44pm",
-          "message": "What did the guest book actually say 👀",
+          "message": "What did the guest book actually say \ud83d\udc40",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_9c0d1e2f_s03_t003",
@@ -463,7 +475,13 @@
           "timestamp": "2025-09-15T16:07:00"
         }
       ],
-      "date": "2025-09-15"
+      "date": "2025-09-15",
+      "active_participants": [
+        "p_ph9a1b2c3",
+        "p_ph9c3d4e5",
+        "p_ph9d4e5f6",
+        "p_ph9b2c3d4"
+      ]
     },
     {
       "session_id": "grp_9c0d1e2f_s04",
@@ -481,7 +499,7 @@
           "speaker_persona_id": "p_ph9c3d4e5",
           "speaker_display_name": "Diane",
           "timestamp_label": "Sep 22, 7:04pm",
-          "message": "I think this one is it 📷 submitted to the Barbican open call, didn't run it past anyone first, I just knew. shortlisted.",
+          "message": "I think this one is it \ud83d\udcf7 submitted to the Barbican open call, didn't run it past anyone first, I just knew. shortlisted.",
           "message_index": 1,
           "planted_challenges": [
             {
@@ -542,7 +560,7 @@
           "speaker_persona_id": "p_ph9b2c3d4",
           "speaker_display_name": "Luca",
           "timestamp_label": "Sep 22, 7:20pm",
-          "message": "Shortlisted is not a small detail, Diane 🙂",
+          "message": "Shortlisted is not a small detail, Diane \ud83d\ude42",
           "message_index": 5,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_9c0d1e2f_s04_t003",
@@ -609,7 +627,13 @@
           "timestamp": "2025-09-22T19:43:00"
         }
       ],
-      "date": "2025-09-22"
+      "date": "2025-09-22",
+      "active_participants": [
+        "p_ph9c3d4e5",
+        "p_ph9a1b2c3",
+        "p_ph9b2c3d4",
+        "p_ph9d4e5f6"
+      ]
     },
     {
       "session_id": "grp_9c0d1e2f_s05",
@@ -648,7 +672,7 @@
               "subject_persona_id": "p_ph9c3d4e5",
               "speaker_persona_id": "p_ph9a1b2c3",
               "fact_attribute": "anika_diane_mentor_release",
-              "fact_value": "Anika formally releases Diane from needing her approval on submissions — acknowledging Diane's independent curatorial judgement and marking the shift in their relationship from mentor-mentee to peers",
+              "fact_value": "Anika formally releases Diane from needing her approval on submissions \u2014 acknowledging Diane's independent curatorial judgement and marking the shift in their relationship from mentor-mentee to peers",
               "evidence_span": "You don't need me to review your selections anymore. You knew with the bus door print. Trust that.",
               "implicitness_level": 2,
               "session_index": 5,
@@ -664,7 +688,7 @@
           "speaker_persona_id": "p_ph9c3d4e5",
           "speaker_display_name": "Diane",
           "timestamp_label": "Sep 29, 5:47pm",
-          "message": "that means more than you know 📷",
+          "message": "that means more than you know \ud83d\udcf7",
           "message_index": 3,
           "planted_challenges": [],
           "reply_to_turn_id": "grp_9c0d1e2f_s05_t001",
@@ -755,7 +779,13 @@
           "timestamp": "2025-09-29T18:29:00"
         }
       ],
-      "date": "2025-09-29"
+      "date": "2025-09-29",
+      "active_participants": [
+        "p_ph9b2c3d4",
+        "p_ph9a1b2c3",
+        "p_ph9c3d4e5",
+        "p_ph9d4e5f6"
+      ]
     }
   ],
   "total_turns": 50,
@@ -763,37 +793,93 @@
     {
       "challenge_id": "ch_ph9s1c1",
       "session_index": 1,
-      "turn_id": "grp_9c0d1e2f_s01_t001"
+      "turn_id": "grp_9c0d1e2f_s01_t001",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_ph9c3d4e5",
+      "speaker_persona_id": "p_ph9c3d4e5",
+      "fact_attribute": "exhibition_motivation",
+      "fact_value": "Diane is enthusiastic about entering exhibitions because she wants the deadline and the external validation; she enters work proactively",
+      "evidence_span": "Open call from Shoreditch Photo House, group show, theme is Urban Friction. Submission deadline in six weeks. I think we should enter as a collective. Thoughts.",
+      "implicitness_level": 2,
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_ph9s1c2",
       "session_index": 1,
-      "turn_id": "grp_9c0d1e2f_s01_t002"
+      "turn_id": "grp_9c0d1e2f_s01_t002",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_ph9b2c3d4",
+      "speaker_persona_id": "p_ph9b2c3d4",
+      "fact_attribute": "exhibition_participation_resistance",
+      "fact_value": "Luca consistently declines to submit to shows until he considers his work ready; he prioritises quality over participation and won't rush for deadlines",
+      "evidence_span": "six weeks won't change that. I'd rather not submit than submit something I'm not behind.",
+      "implicitness_level": 2,
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_ph9s1c3",
       "session_index": 1,
-      "turn_id": "grp_9c0d1e2f_s01_t003"
+      "turn_id": "grp_9c0d1e2f_s01_t003",
+      "challenge_type": "implicit_preference",
+      "subject_persona_id": "p_ph9d4e5f6",
+      "speaker_persona_id": "p_ph9d4e5f6",
+      "fact_attribute": "archive_reliance",
+      "fact_value": "Raj offers archive work (the Karachi series) rather than new work because his commercial contracts have consumed his personal project time",
+      "evidence_span": "I've been in the studio all month, commercial stuff. I can pull something from the Karachi series if the theme fits.",
+      "implicitness_level": 2,
+      "turn_index": 4
     },
     {
       "challenge_id": "ch_ph9s2c1",
       "session_index": 2,
-      "turn_id": "grp_9c0d1e2f_s02_t004"
+      "turn_id": "grp_9c0d1e2f_s02_t004",
+      "challenge_type": "theory_of_mind",
+      "subject_persona_id": "p_ph9d4e5f6",
+      "speaker_persona_id": "p_ph9b2c3d4",
+      "fact_attribute": "raj_commercial_pressure_known_by_luca",
+      "fact_value": "Luca recognises and validates Raj's commercial-vs-personal conflict immediately, suggesting he already knew about it from direct conversation",
+      "evidence_span": "yes. That's exactly what happens. Submit the Karachi for now and give yourself permission to make something new when the studio clears.",
+      "implicitness_level": 2,
+      "turn_index": 5
     },
     {
       "challenge_id": "ch_ph9s3c1",
       "session_index": 3,
-      "turn_id": "grp_9c0d1e2f_s03_t002"
+      "turn_id": "grp_9c0d1e2f_s03_t002",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_ph9d4e5f6",
+      "speaker_persona_id": "p_ph9d4e5f6",
+      "fact_attribute": "commercial_personal_balance",
+      "fact_value": "Raj has shifted from trying to balance commercial and personal work to acknowledging the commercial work now dominates; new personal work is no longer being made",
+      "evidence_span": "Nothing new for a while. The day job doesn't stop.",
+      "implicitness_level": 2,
+      "turn_index": 3
     },
     {
       "challenge_id": "ch_ph9s4c1",
       "session_index": 4,
-      "turn_id": "grp_9c0d1e2f_s04_t000"
+      "turn_id": "grp_9c0d1e2f_s04_t000",
+      "challenge_type": "temporal_shift",
+      "subject_persona_id": "p_ph9c3d4e5",
+      "speaker_persona_id": "p_ph9c3d4e5",
+      "fact_attribute": "independent_voice",
+      "fact_value": "Diane submitted to a show without consulting Anika first and was shortlisted; she is now exercising independent curatorial judgement",
+      "evidence_span": "submitted to the Barbican open call, didn't run it past anyone first, I just knew. shortlisted.",
+      "implicitness_level": 2,
+      "turn_index": 1
     },
     {
       "challenge_id": "ch_ph9s5c1",
       "session_index": 5,
-      "turn_id": "grp_9c0d1e2f_s05_t001"
+      "turn_id": "grp_9c0d1e2f_s05_t001",
+      "challenge_type": "relational_disclosure",
+      "subject_persona_id": "p_ph9c3d4e5",
+      "speaker_persona_id": "p_ph9a1b2c3",
+      "fact_attribute": "anika_diane_mentor_release",
+      "fact_value": "Anika formally releases Diane from needing her approval on submissions \u2014 acknowledging Diane's independent curatorial judgement and marking the shift in their relationship from mentor-mentee to peers",
+      "evidence_span": "You don't need me to review your selections anymore. You knew with the bus door print. Trust that.",
+      "implicitness_level": 2,
+      "turn_index": 2
     }
   ],
   "start_date": "2025-09-01"

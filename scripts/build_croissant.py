@@ -1,7 +1,7 @@
 """
 build_croissant.py — emit a NeurIPS-compliant Croissant metadata file.
 
-Produces `data/croissant_metadata.json` (or anywhere via --out) describing
+Produces `hf_dataset/croissant.json` (or anywhere via --out) describing
 the SocialMemBench parquet release. This file is what NeurIPS 2026
 Datasets-and-Benchmarks reviewers point Croissant validators at.
 
@@ -37,7 +37,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = REPO_ROOT / "data" / "croissant_metadata.json"
+DEFAULT_OUT = REPO_ROOT / "hf_dataset" / "croissant.json"
 
 # --------------------------------------------------------------------------- #
 # Dataset-level constants. Update these when the dataset version bumps.
@@ -45,7 +45,18 @@ DEFAULT_OUT = REPO_ROOT / "data" / "croissant_metadata.json"
 
 DATASET_NAME = "SocialMemBench"
 DATASET_VERSION = "0.1.0"
-DEFAULT_HF_ID = "ORG/SocialMemBench"  # override via --hf-id (e.g. user/repo on the Hub)
+DEFAULT_ENV = REPO_ROOT / ".env"
+
+
+def _load_env_var(env_path: Path, key: str) -> str:
+    if not env_path.exists():
+        raise SystemExit(f"No {env_path} found. Set {key} in .env.")
+    prefix = f"{key}="
+    for line in env_path.read_text().splitlines():
+        line = line.strip()
+        if line.startswith(prefix):
+            return line[len(prefix):].strip().strip('"').strip("'")
+    raise SystemExit(f"{key} not found in {env_path}.")
 DATASET_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 DATASET_LANGUAGE = "en"
 
@@ -63,7 +74,7 @@ DATASET_DESCRIPTION = (
 def _citation_bibtex(hf_id: str) -> str:
     return (
         "@misc{socialmembench2026,\n"
-        "  title  = {SocialMemBench: Evaluating AI Memory Systems in Social Group Conversations},\n"
+        "  title  = {SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?},\n"
         "  author = {Anonymous Submission},\n"
         "  year   = {2026},\n"
         "  note   = {NeurIPS 2026 Datasets and Benchmarks Track submission},\n"
@@ -115,7 +126,7 @@ NETWORKS_FIELDS = [
     ("group_type", "sc:Text", "One of close_friends, family, recreational, interest_community, acquaintance_network."),
     ("group_size", "cr:Int64", "Number of personas in the group."),
     ("seed", "cr:Int64", "Random seed used for generation."),
-    ("tier", "sc:Text", "small | medium | large | longitudinal."),
+    ("tier", "sc:Text", "small | medium | large."),
     ("status", "sc:Text", "Manifest status (verified, complete, etc.)."),
     ("n_personas", "cr:Int64", "Number of persona rows in the personas table for this network."),
 ]
@@ -284,7 +295,7 @@ def _record_set_from_fields(
     }
 
 
-def build_handrolled_croissant(hf_id: str = DEFAULT_HF_ID) -> dict:
+def build_handrolled_croissant(hf_id: str) -> dict:
     dataset_url = f"https://huggingface.co/datasets/{hf_id}"
     today = date.today().isoformat()
     repo_obj = {
@@ -347,14 +358,11 @@ def build_handrolled_croissant(hf_id: str = DEFAULT_HF_ID) -> dict:
         "license": DATASET_LICENSE,
         "inLanguage": DATASET_LANGUAGE,
         "keywords": [
-            "memory",
+            "AI",
+            "Memory",
+            "Social Groups",
             "benchmark",
             "conversational AI",
-            "multi-party",
-            "social",
-            "attribution",
-            "long-term memory",
-            "evaluation",
         ],
         "creator": {
             "@type": "Person",
@@ -374,7 +382,7 @@ def build_handrolled_croissant(hf_id: str = DEFAULT_HF_ID) -> dict:
 # mlcroissant backend (preferred, validates while building).
 # --------------------------------------------------------------------------- #
 
-def build_with_mlcroissant(hf_id: str = DEFAULT_HF_ID) -> dict | None:
+def build_with_mlcroissant(hf_id: str) -> dict | None:
     """Try to build via mlcroissant. Returns a JSON-LD dict on success,
     or None if the library is missing.
 
@@ -422,26 +430,27 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                    help="Force dry-run mode (default).")
     p.add_argument("--no-mlcroissant", action="store_true",
                    help="Skip mlcroissant validation; emit hand-rolled JSON-LD only.")
-    p.add_argument("--hf-id", default=DEFAULT_HF_ID,
-                   help=f"HuggingFace dataset id (default: {DEFAULT_HF_ID}).")
+    p.add_argument("--hf-id", default=None,
+                   help="HuggingFace dataset id. Defaults to HF_REPO_ID in .env.")
     return p.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     dry_run = (not args.write) or args.dry_run
+    hf_id = args.hf_id or _load_env_var(DEFAULT_ENV, "HF_REPO_ID")
 
     metadata: dict[str, Any]
     if args.no_mlcroissant:
-        metadata = build_handrolled_croissant(args.hf_id)
+        metadata = build_handrolled_croissant(hf_id)
         backend = "hand-rolled"
     else:
-        meta = build_with_mlcroissant(args.hf_id)
+        meta = build_with_mlcroissant(hf_id)
         if meta is not None:
             metadata = meta
             backend = "mlcroissant"
         else:
-            metadata = build_handrolled_croissant(args.hf_id)
+            metadata = build_handrolled_croissant(hf_id)
             backend = "hand-rolled (mlcroissant not installed)"
 
     print(f"Croissant backend: {backend}")

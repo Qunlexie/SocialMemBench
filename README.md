@@ -1,6 +1,6 @@
 # SocialMemBench
 
-**A benchmark for evaluating AI memory architectures in multi-party social group conversations.**
+**A benchmark for evaluating AI memory systems in multi-party social group conversations.**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Dataset: 1031 QA × 43 networks](https://img.shields.io/badge/QA-1%2C031%20across%2043%20networks-blue)](#dataset)
@@ -10,7 +10,7 @@
 
 Memory systems for AI assistants were built for single-user dialogue and fail characteristically in multi-party social group settings. Existing benchmarks evaluate dyadic chat (LaMP, LoCoMo, MSC) or workplace dialogue (EverMemBench); none targets multi-party social groups, where memory must anchor facts in shared history rather than professional roles, separate group norms from individual exceptions, and correctly attribute even after member departure.
 
-SocialMemBench evaluates the write-index-retrieve substrate between sessions across 43 ego networks, 1,031 QA pairs, and nine query categories. Architectural failure modes and the named primitives that fix them are documented in the paper.
+SocialMemBench evaluates the write-index-retrieve substrate between sessions across 43 ego networks, 1,031 QA pairs, and nine query categories. See the paper for evaluation results and architectural analysis.
 
 ## Dataset
 
@@ -26,10 +26,10 @@ SocialMemBench evaluates the write-index-retrieve substrate between sessions acr
 ```python
 from datasets import load_dataset
 
-networks      = load_dataset("SocialMemBench", "networks",      split="data")
-personas      = load_dataset("SocialMemBench", "personas",      split="data")
-conversations = load_dataset("SocialMemBench", "conversations", split="data")
-qa            = load_dataset("SocialMemBench", "qa",            split="data")
+networks      = load_dataset("<org>/socialmembench", "networks",      split="train")
+personas      = load_dataset("<org>/socialmembench", "personas",      split="train")
+conversations = load_dataset("<org>/socialmembench", "conversations", split="train")
+qa            = load_dataset("<org>/socialmembench", "qa",            split="train")
 ```
 
 ```bash
@@ -59,7 +59,7 @@ Conversations are synthetically generated. The pipeline plants ground-truth chal
 
 ```bibtex
 @misc{socialmembench2026,
-  title  = {SocialMemBench: Evaluating AI Memory Architectures in Social Group Conversations},
+  title  = {SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?},
   author = {Anonymous},
   year   = {2026}
 }

@@ -90,30 +90,41 @@ DATA_COLLECTION = (
     "via a multi-stage pipeline: (1) ego-network generation with deliberately "
     "constructed preference profiles, relationship edges, and group norms; "
     "(2) WhatsApp-style multi-session chat generation with planted memory "
-    "challenges (implicit preferences, theory-of-mind, consensus traps, "
-    "temporal shifts); (3) attribution-grounded QA generation with mandatory "
+    "challenges; (3) attribution-grounded QA generation with mandatory "
     "evidence anchors. Every QA pair was passed through a blind-critic QC "
     "pass that scored grounding, inference depth, and difficulty calibration. "
     "No human conversation logs were collected, scraped, or used."
 )
 
-PERSONAL_SENSITIVE_INFORMATION = (
-    "None. All personas are fictional and synthetically generated. Names, "
-    "ages, occupations, relationships, and life events are invented for the "
-    "purpose of the benchmark. No real individuals are referenced."
+# RAI fields with MANY cardinality (Croissant RAI v1.0) emit as string arrays.
+
+PERSONAL_SENSITIVE_INFORMATION = [
+    "None. All personas are fictional and synthetically generated; no human conversation logs were collected, scraped, or used.",
+]
+
+DATA_BIASES = [
+    "English-only conversation; cultural distribution held constant across networks (names, communication conventions, and cultural references reflect the generator model's training distribution).",
+    "Cross-cultural attribution claims are not supported by this benchmark alone.",
+]
+
+DATA_LIMITATIONS = [
+    "Synthetic generation pipeline trades register variation and naturalism for controlled experimental variables (planted-challenge ground truth, controlled distribution of rare attribution patterns, verifiable evidence anchors).",
+    "Benchmark covers English-only text conversation with group sizes 4-30.",
+    "QA quality check shares a model family with the data generator; per-pair human review and downstream evaluation across different model families bound this family-overlap risk.",
+    "Memory-system evaluations use a single answering model to isolate memory-layer effects from reasoning capacity; the small-tier oracle comparison confirms architectural failure modes are answerer-independent.",
+    "Open-ended scoring uses a single LLM judge calibrated against verbosity bias, attribution error, and non-answers; multi-judge or human evaluation would tighten the scoring claim.",
+]
+
+DATA_USE_CASES = [
+    "Evaluating AI memory systems for multi-party social group settings.",
+    "Developing fixes for the named architectural failure patterns and studying social memory architectures more broadly.",
+]
+
+DATA_SOCIAL_IMPACT = (
+    "AI assistants are increasingly deployed alongside multi-person conversations: group-acting agents embedded in chat platforms (e.g., WhatsApp, Slack) and proactive personal-assistant agents whose holistic user models include social context. Both depend on a memory layer that retains social facts across sessions and attributes them to the right person. SocialMemBench evaluates whether current memory architectures meet these requirements; closing the identified gap is a precondition for deployment of memory systems in social group settings."
 )
 
-DATA_BIASES = (
-    "The synthetic personas are sampled from a finite design space (group "
-    "types: close_friends, family, recreational, interest_community, "
-    "acquaintance_network; group sizes: 3-30; timespans: 5 weeks to 3 years). "
-    "Generated names skew toward English-language conventions because the "
-    "underlying generator was prompted in English. Cultural references in "
-    "conversations reflect the training distribution of the generator model "
-    "(predominantly North American / Western European). Researchers should "
-    "treat results as conditional on this distribution and avoid claims about "
-    "cross-cultural memory-system performance from this benchmark alone."
-)
+HAS_SYNTHETIC_DATA = True
 
 # --------------------------------------------------------------------------- #
 # RecordSet specs. Each config in build_hf_dataset.py becomes one RecordSet.
@@ -194,9 +205,14 @@ def _croissant_context() -> dict:
         "conformsTo": "dct:conformsTo",
         "containedIn": "cr:containedIn",
         "cr": "http://mlcommons.org/croissant/",
+        "rai": "http://mlcommons.org/croissant/RAI/",
         "data": {"@id": "cr:data", "@type": "@json"},
-        "dataBiases": "cr:dataBiases",
+        "dataBiases": "rai:dataBiases",
         "dataCollection": "cr:dataCollection",
+        "dataLimitations": "rai:dataLimitations",
+        "dataSocialImpact": "rai:dataSocialImpact",
+        "dataUseCases": "rai:dataUseCases",
+        "hasSyntheticData": "rai:hasSyntheticData",
         "dataType": {"@id": "cr:dataType", "@type": "@vocab"},
         "dct": "http://purl.org/dc/terms/",
         "extract": "cr:extract",
@@ -213,7 +229,7 @@ def _croissant_context() -> dict:
         "md5": "cr:md5",
         "parentField": "cr:parentField",
         "path": "cr:path",
-        "personalSensitiveInformation": "cr:personalSensitiveInformation",
+        "personalSensitiveInformation": "rai:personalSensitiveInformation",
         "recordSet": "cr:recordSet",
         "references": "cr:references",
         "regex": "cr:regex",
@@ -369,10 +385,14 @@ def build_handrolled_croissant(hf_id: str) -> dict:
             "name": "Anonymous Authors",
         },
         "citeAs": _citation_bibtex(hf_id),
-        # Responsible AI fields (NeurIPS Croissant requirement).
+        # Responsible AI fields (NeurIPS Croissant RAI v1.0 requirement).
         "dataCollection": DATA_COLLECTION,
-        "personalSensitiveInformation": PERSONAL_SENSITIVE_INFORMATION,
+        "dataLimitations": DATA_LIMITATIONS,
         "dataBiases": DATA_BIASES,
+        "personalSensitiveInformation": PERSONAL_SENSITIVE_INFORMATION,
+        "dataUseCases": DATA_USE_CASES,
+        "dataSocialImpact": DATA_SOCIAL_IMPACT,
+        "hasSyntheticData": HAS_SYNTHETIC_DATA,
         "distribution": distribution,
         "recordSet": record_sets,
     }

@@ -126,6 +126,95 @@ DATA_SOCIAL_IMPACT = (
 
 HAS_SYNTHETIC_DATA = True
 
+PROV_WAS_GENERATED_BY = [
+    {
+        "@type": "prov:Activity",
+        "prov:type": {"@id": "https://www.wikidata.org/wiki/Q4929239"},
+        "prov:label": "Stage 1: Ego-network generation",
+        "sc:description": (
+            "Generation of 43 ego networks across five social-group archetypes "
+            "(close friends, family, recreational, interest community, acquaintance network) "
+            "and three group-size tiers (4-30 members). Each network specifies personas "
+            "with Big Five personality profiles, communication styles, preference histories, "
+            "and pairwise relationship edges. Structural constraints (Big Five spread, "
+            "communication profile diversity, planted dissenters, designed preference histories) "
+            "are enforced at generation time and verified before proceeding. "
+            "Prompting strategy: schema-constrained structured generation with deterministic "
+            "random seeds."
+        ),
+        "prov:wasAttributedTo": [
+            {
+                "@type": "prov:SoftwareAgent",
+                "prov:label": "Claude Sonnet 4.5",
+                "sc:description": "Anthropic Claude language model (claude-sonnet-4-5) used as generator.",
+            }
+        ],
+    },
+    {
+        "@type": "prov:Activity",
+        "prov:type": {"@id": "https://www.wikidata.org/wiki/Q4929239"},
+        "prov:label": "Stage 2: Multi-session conversation generation",
+        "sc:description": (
+            "WhatsApp-style multi-session conversation corpora generated for each ego network. "
+            "Each session plants memory challenges at known (speaker, session, turn) coordinates: "
+            "implicit preferences, theory-of-mind reveals, group decisions with dissenters, "
+            "attribution probes, temporal preference shifts, relational disclosures, and "
+            "(for selected networks) member-departure dynamics. Total: 348 sessions, "
+            "7,355 turns, 1,091 planted challenges. Prompting strategy: schema-constrained "
+            "generation with per-persona communication-profile control."
+        ),
+        "prov:wasAttributedTo": [
+            {
+                "@type": "prov:SoftwareAgent",
+                "prov:label": "Claude Sonnet 4.5",
+                "sc:description": "Anthropic Claude language model used as generator.",
+            }
+        ],
+    },
+    {
+        "@type": "prov:Activity",
+        "prov:type": {"@id": "https://www.wikidata.org/wiki/Q4929239"},
+        "prov:label": "Stage 3: QA generation",
+        "sc:description": (
+            "Q1-Q9 QA pairs generated against the planted challenges, with verbatim evidence "
+            "anchors pointing to the exact (speaker, session, turn) coordinates that license "
+            "the ground-truth answer. Total: 1,031 QA pairs across nine question categories. "
+            "Prompting strategy: planted-challenge-anchored generation with mandatory evidence anchors."
+        ),
+        "prov:wasAttributedTo": [
+            {
+                "@type": "prov:SoftwareAgent",
+                "prov:label": "Claude Sonnet 4.5",
+                "sc:description": "Anthropic Claude language model used as generator.",
+            }
+        ],
+    },
+    {
+        "@type": "prov:Activity",
+        "prov:type": {"@id": "https://www.wikidata.org/wiki/Q3306762"},
+        "prov:label": "Stage 4: Blind-critic QC and human review",
+        "sc:description": (
+            "Three-phase blind-critic quality control scoring grounding (does the answer "
+            "follow from evidence anchors?), inference depth, and difficulty calibration. "
+            "Mean blind-critic score: 0.952 across all 1,031 QA pairs. Every QA pair was "
+            "additionally human-reviewed by the paper authors via the browser-based audit "
+            "viewer before release."
+        ),
+        "prov:wasAttributedTo": [
+            {
+                "@type": "prov:SoftwareAgent",
+                "prov:label": "Claude Sonnet 4.5",
+                "sc:description": "Anthropic Claude language model used as blind critic.",
+            },
+            {
+                "@type": "prov:Agent",
+                "prov:label": "Anonymous authors (NeurIPS double-blind submission)",
+                "sc:description": "Per-pair human review via browser-based audit viewer; affiliations withheld for double-blind review.",
+            }
+        ],
+    }
+]
+
 # --------------------------------------------------------------------------- #
 # RecordSet specs. Each config in build_hf_dataset.py becomes one RecordSet.
 # Keep the field list aligned with build_hf_dataset.py's output.
@@ -206,13 +295,9 @@ def _croissant_context() -> dict:
         "containedIn": "cr:containedIn",
         "cr": "http://mlcommons.org/croissant/",
         "rai": "http://mlcommons.org/croissant/RAI/",
+        "prov": "http://www.w3.org/ns/prov#",
         "data": {"@id": "cr:data", "@type": "@json"},
-        "dataBiases": "rai:dataBiases",
         "dataCollection": "cr:dataCollection",
-        "dataLimitations": "rai:dataLimitations",
-        "dataSocialImpact": "rai:dataSocialImpact",
-        "dataUseCases": "rai:dataUseCases",
-        "hasSyntheticData": "rai:hasSyntheticData",
         "dataType": {"@id": "cr:dataType", "@type": "@vocab"},
         "dct": "http://purl.org/dc/terms/",
         "extract": "cr:extract",
@@ -229,7 +314,6 @@ def _croissant_context() -> dict:
         "md5": "cr:md5",
         "parentField": "cr:parentField",
         "path": "cr:path",
-        "personalSensitiveInformation": "rai:personalSensitiveInformation",
         "recordSet": "cr:recordSet",
         "references": "cr:references",
         "regex": "cr:regex",
@@ -386,13 +470,16 @@ def build_handrolled_croissant(hf_id: str) -> dict:
         },
         "citeAs": _citation_bibtex(hf_id),
         # Responsible AI fields (NeurIPS Croissant RAI v1.0 requirement).
+        # Keys are emitted with explicit `rai:` / `prov:` prefixes per the
+        # NeurIPS croissant-rai-checker (literal string-match validation).
         "dataCollection": DATA_COLLECTION,
-        "dataLimitations": DATA_LIMITATIONS,
-        "dataBiases": DATA_BIASES,
-        "personalSensitiveInformation": PERSONAL_SENSITIVE_INFORMATION,
-        "dataUseCases": DATA_USE_CASES,
-        "dataSocialImpact": DATA_SOCIAL_IMPACT,
-        "hasSyntheticData": HAS_SYNTHETIC_DATA,
+        "rai:dataLimitations": DATA_LIMITATIONS,
+        "rai:dataBiases": DATA_BIASES,
+        "rai:personalSensitiveInformation": PERSONAL_SENSITIVE_INFORMATION,
+        "rai:dataUseCases": DATA_USE_CASES,
+        "rai:dataSocialImpact": DATA_SOCIAL_IMPACT,
+        "rai:hasSyntheticData": HAS_SYNTHETIC_DATA,
+        "prov:wasGeneratedBy": PROV_WAS_GENERATED_BY,
         "distribution": distribution,
         "recordSet": record_sets,
     }
@@ -413,7 +500,9 @@ def build_with_mlcroissant(hf_id: str) -> dict | None:
     """
     try:
         import mlcroissant as mlc  # type: ignore
-    except ImportError:
+    except (ImportError, TypeError, SyntaxError):
+        # ImportError: not installed.
+        # TypeError/SyntaxError: installed but Python version too old (mlcroissant requires 3.10+).
         return None
 
     # Defer to the hand-rolled JSON-LD; mlcroissant.Metadata accepts a JSON-LD

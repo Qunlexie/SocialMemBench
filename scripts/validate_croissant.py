@@ -65,20 +65,23 @@ def main() -> int:
     for w in warnings:
         print(f"  - {w}")
 
-    rai_fields = [
-        "dataLimitations",
-        "dataBiases",
-        "personalSensitiveInformation",
-        "dataUseCases",
-        "dataSocialImpact",
-        "hasSyntheticData",
+    # NeurIPS croissant-rai-checker does literal key match (no JSON-LD expansion).
+    # Keys must appear with explicit prefix as top-level JSON keys.
+    required_keys = [
+        "rai:dataLimitations",
+        "rai:dataBiases",
+        "rai:personalSensitiveInformation",
+        "rai:dataUseCases",
+        "rai:dataSocialImpact",
+        "rai:hasSyntheticData",
+        "prov:wasGeneratedBy",
     ]
     import json
     raw = json.loads(args.file.read_text())
-    missing_rai = [f for f in rai_fields if f not in raw]
-    if missing_rai:
+    missing = [k for k in required_keys if k not in raw]
+    if missing:
         print()
-        print(f"NeurIPS RAI fields missing: {missing_rai}")
+        print(f"NeurIPS RAI fields missing: {missing}")
         return 1
 
     if errors:

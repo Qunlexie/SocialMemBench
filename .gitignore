@@ -108,5 +108,11 @@ scripts/rewrite_questions.py
 # Claude Code config (skills are now in skills/ — symlinked from .claude/commands)
 .claude/
 
+# Stray npm lockfile (no root package.json; npm install run in wrong dir)
+/package-lock.json
+
 # Paper submitted separately via OpenReview (kept local for editing)
 paper/
+
+# Paper-side figure artifacts (generator + outputs; kept local with paper/)
+figures/

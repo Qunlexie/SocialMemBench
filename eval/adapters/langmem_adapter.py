@@ -100,6 +100,23 @@ class LangMemAdapter(BaseAdapter):
     def _persist_path(self, network_id: str) -> Path:
         return self._persist_dir / f"{network_id}.json"
 
+    @staticmethod
+    def _memory_to_text(m) -> str:
+        """
+        Extract stable text from an ExtractedMemory or rehydrated _MemoryItem.
+        langmem's ExtractedMemory.content is a Pydantic Memory(content: str),
+        not a plain string, so json.dump chokes on it. Unwrap in that order.
+        """
+        c = getattr(m, "content", m)
+        if isinstance(c, str):
+            return c
+        inner = getattr(c, "content", None)
+        if isinstance(inner, str):
+            return inner
+        if hasattr(c, "model_dump_json"):
+            return c.model_dump_json()
+        return str(c)
+
     def _save_network(self, network_id: str, net: Dict) -> None:
         """
         Serialize consolidated memories + ingested-session dates.
@@ -110,7 +127,7 @@ class LangMemAdapter(BaseAdapter):
         """
         data = {
             "memories": [
-                {"id": m.id, "content": getattr(m, "content", str(m))}
+                {"id": m.id, "content": self._memory_to_text(m)}
                 for m in net["all_memories"]
             ],
             "ingested_sessions": sorted(net["ingested_sessions"]),

@@ -60,14 +60,18 @@ def _parse_mc_answer(response: str) -> str:
         return ""
     if len(response) == 1 and response in "ABCD":
         return response
+    match = re.search(r'(?:answer|choice|option|select|pick)(?:\s+is)?[:\s]+([ABCD])\b',
+                      response, re.IGNORECASE)
+    if match:
+        return match.group(1).upper()
     match = re.search(r'\b([ABCD])[.):,\s]', response)
     if match:
         return match.group(1)
-    match = re.search(r'(?:answer|choice|option|select)[:\s]+([ABCD])\b', response, re.IGNORECASE)
-    if match:
-        return match.group(1).upper()
     if response and response[0] in "ABCD" and (len(response) == 1 or not response[1].isalpha()):
         return response[0]
+    candidates = re.findall(r'\b([ABCD])\b', response)
+    if candidates:
+        return candidates[-1]
     return response
 
 

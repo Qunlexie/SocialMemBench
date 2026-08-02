@@ -374,6 +374,13 @@ class SMGAdapter(BaseAdapter):
         try:
             graph = self._get_or_load_graph(user_id)
 
+            # Backward-compat: graph.to_dict() strips embedding fields, so any
+            # graph loaded from disk starts without fact embeddings. embed_facts
+            # is idempotent (only embeds facts where embedding is None), so this
+            # is a no-op when embeddings already exist (in-memory case).
+            if any(f.embedding is None for f in graph.all_facts()):
+                await embed_facts(graph, self._embed_async)
+
             # Embed the question
             q_emb = await self._embed_async([query])
             query_embedding = q_emb[0]

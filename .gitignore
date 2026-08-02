@@ -105,6 +105,19 @@ scripts/llm_residual_rewrite.py
 scripts/dedup_results.py
 scripts/rewrite_questions.py
 
+# Internal scratch scripts (underscore-prefix convention)
+scripts/_*.py
+scripts/_*.sh
+
+# Ablation sweep results (local-only; regenerable via scripts/run_ablation_grid.sh)
+data/results/ablation/
+
+# Pre-rerun snapshot backups
+data/results_archive_*/
+
+# Adapter ingestion sentinels (internal state)
+data/results/*/*.ingested
+
 # Claude Code config (skills are now in skills/ — symlinked from .claude/commands)
 .claude/
 

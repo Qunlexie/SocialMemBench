@@ -1,0 +1,17 @@
+\begin{table}[t!]
+  \caption{Sensitivity of dataset composition and downstream evaluation to the per-QA blind-critic threshold $\tau$. Retention is the fraction of the $N{=}1{,}031$ QA pairs whose $\text{qc\_phase1\_score} \geq \tau$. Kendall $\tau$ compares the ranking of the eight evaluated conditions at threshold $\tau$ against the ranking with no filtering. Best$-$worst gap is the accuracy spread between the top and bottom condition on the retained subset.}
+  \label{tab:sensitivity-threshold}
+  \centering
+  \small
+  \begin{tabular}{lcccc}
+    \toprule
+    \textbf{$\tau$} & \textbf{Retention} & \textbf{Kendall $\tau$ vs.\ no gate} & \textbf{Best$-$worst gap} \\
+    \midrule
+    0.70 & 100.0\% & 1.000 & 0.248 \\
+    0.80 & 99.0\% & 1.000 & 0.250 \\
+    0.85 & 97.6\% & 1.000 & 0.251 \\
+    0.90 & 92.5\% & 1.000 & 0.256 \\
+    0.95 & 66.7\% & 1.000 & 0.280 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

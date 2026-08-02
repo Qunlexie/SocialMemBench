@@ -24,15 +24,28 @@ Configuration (eval/config/adapters/langmem.yaml):
     embed_model: "text-embedding-3-small"
     top_k: 10
 """
+import json
 import os
 import time
 import uuid
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from eval.adapters.base import BaseAdapter
 from eval.core.data_models import Dataset, AddResult, SearchResult
 from eval.utils.logger import get_console, print_success
+
+
+@dataclass
+class _MemoryItem:
+    """
+    Rehydrated memory loaded from disk. Duck-types langmem's ExtractedMemory:
+    the only attributes we consume are `.id` and `.content` (see uses in
+    `manager.ainvoke({"existing": ...})` and `store.put`).
+    """
+    id: str
+    content: str
 
 
 class LangMemAdapter(BaseAdapter):
@@ -42,7 +55,10 @@ class LangMemAdapter(BaseAdapter):
     Uses LangMem's create_memory_manager to run LLM-driven extraction +
     consolidation over each conversation session. Extracted memories are
     stored in LangGraph's InMemoryStore with vector indexing for semantic
-    search. Memory is rebuilt fresh each run (ephemeral within-process store).
+    search. After add() completes, the consolidated memories and the set of
+    ingested session dates are serialized to disk (see _save_network); on a
+    fresh process, _get_network() reads that file and re-populates a new
+    InMemoryStore so search() works without re-ingest.
     """
 
     def __init__(self, config: Dict[str, Any], output_dir: Optional[Path] = None):
@@ -71,12 +87,39 @@ class LangMemAdapter(BaseAdapter):
         self._create_memory_manager = create_memory_manager
         self._InMemoryStore = InMemoryStore
 
+        self._persist_dir = Path(config.get("persist_dir", "./data/.langmem")).resolve()
+        self._persist_dir.mkdir(parents=True, exist_ok=True)
+
         # Per-network state: network_id → {store, manager, all_memories, ingested}
         self._networks: Dict[str, Dict] = {}
 
         self.console.print("LangMemAdapter initialized", style="bold green")
         self.console.print(f"   Model: {self._model}")
         self.console.print(f"   Embed: {self._embed_model}")
+
+    def _persist_path(self, network_id: str) -> Path:
+        return self._persist_dir / f"{network_id}.json"
+
+    def _save_network(self, network_id: str, net: Dict) -> None:
+        """
+        Serialize consolidated memories + ingested-session dates.
+        The InMemoryStore itself isn't serialized: on load we re-populate it
+        by calling store.put() for each memory, which re-embeds via the
+        configured OpenAI embedder (one embed call per memory, per fresh
+        process — bounded by the network's memory count, typically <100).
+        """
+        data = {
+            "memories": [
+                {"id": m.id, "content": getattr(m, "content", str(m))}
+                for m in net["all_memories"]
+            ],
+            "ingested_sessions": sorted(net["ingested_sessions"]),
+        }
+        path = self._persist_path(network_id)
+        tmp = path.with_suffix(".json.tmp")
+        with open(tmp, "w") as f:
+            json.dump(data, f, indent=2)
+        tmp.replace(path)
 
     def _get_network(self, network_id: str) -> Dict:
         if network_id not in self._networks:
@@ -87,11 +130,39 @@ class LangMemAdapter(BaseAdapter):
                 }
             )
             manager = self._create_memory_manager(f"openai:{self._model}")
+            all_memories: List = []
+            ingested_sessions: set = set()
+            namespace = ("memories", network_id)
+
+            path = self._persist_path(network_id)
+            if path.exists():
+                try:
+                    with open(path) as f:
+                        data = json.load(f)
+                    for m in data.get("memories", []):
+                        mi = _MemoryItem(id=m["id"], content=m["content"])
+                        all_memories.append(mi)
+                        # Repopulate vector index. store.put with an index-configured
+                        # store triggers a synchronous embed call per item.
+                        store.put(namespace, mi.id, {"content": mi.content})
+                    for s in data.get("ingested_sessions", []):
+                        ingested_sessions.add(s)
+                    self.console.print(
+                        f"   LangMem: loaded {len(all_memories)} memories "
+                        f"from {path.name} ({len(ingested_sessions)} sessions)"
+                    )
+                except Exception as e:
+                    self.console.print(
+                        f"   ⚠️  Failed to load langmem persistence {path}: {e}. "
+                        f"Starting empty.",
+                        style="yellow",
+                    )
+
             self._networks[network_id] = {
                 "store": store,
                 "manager": manager,
-                "all_memories": [],   # accumulated ExtractedMemory objects
-                "ingested_sessions": set(),
+                "all_memories": all_memories,
+                "ingested_sessions": ingested_sessions,
             }
         return self._networks[network_id]
 
@@ -178,6 +249,15 @@ class LangMemAdapter(BaseAdapter):
                 text = getattr(m, "content", str(m))
                 self.console.print(f"     • {str(text)[:100]}")
         print_success(f"LangMem add: {total_sent} turns → {n_memories} consolidated memories, {len(errors)} errors")
+        try:
+            self._save_network(user_id, net)
+            self.console.print(
+                f"   LangMem: persisted {n_memories} memories to "
+                f"{self._persist_path(user_id).name}"
+            )
+        except Exception as e:
+            errors.append(f"persist error: {e}")
+            self.console.print(f"   ⚠️  LangMem persist failed: {e}", style="yellow")
         return AddResult(
             success=len(errors) == 0,
             days_processed=len(days),

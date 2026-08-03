@@ -238,17 +238,26 @@ class Answerer:
         if len(response) == 1 and response in "ABCD":
             return response
 
+        # Explicit "answer/pick/choice is X" wins over incidental letters
+        # earlier in the response (e.g., when the LLM restates options).
+        match = re.search(r'(?:answer|choice|option|select|pick)(?:\s+is)?[:\s]+([ABCD])\b',
+                          response, re.IGNORECASE)
+        if match:
+            return match.group(1).upper()
+
         match = re.search(r'\b([ABCD])[.):,\s]', response)
         if match:
             return match.group(1)
-
-        match = re.search(r'(?:answer|choice|option|select)[:\s]+([ABCD])\b', response, re.IGNORECASE)
-        if match:
-            return match.group(1).upper()
 
         if response[0] in "ABCD" and (len(response) == 1 or not response[1].isalpha()):
             return response[0]
         if response[-1] in "ABCD" and (len(response) == 1 or not response[-2].isalpha()):
             return response[-1]
+
+        # Fallback: verbose responses (esp. gemini) often reason then conclude
+        # with a bare letter. Take the last standalone A/B/C/D in the string.
+        candidates = re.findall(r'\b([ABCD])\b', response)
+        if candidates:
+            return candidates[-1]
 
         return "[INVALID]"

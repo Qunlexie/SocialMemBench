@@ -110,8 +110,10 @@ scripts/rewrite_questions.py
 scripts/_*.py
 scripts/_*.sh
 
-# Ablation sweep results (local-only; regenerable via scripts/run_ablation_grid.sh)
-data/results/ablation/
+# Ablation raw cells are shipped so the tables regenerate from tracked code
+# (scripts/build_ablation_tables.py). Keep only local scratch out: aggregate CSVs
+# now live in data/results/tables/, and *.log is already excluded globally.
+data/results/ablation/*.csv
 
 # Pre-rerun snapshot backups
 data/results_archive_*/

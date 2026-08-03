@@ -11,6 +11,7 @@ data/.mem0/
 data/.cognee_db/
 data/.cognee/
 data/.graphiti_db/
+data/.graphiti_db_*/
 data/.graphiti/
 data/.langmem/
 data/.smg_graphs/
@@ -104,6 +105,21 @@ scripts/migrate_conform_schema.py
 scripts/llm_residual_rewrite.py
 scripts/dedup_results.py
 scripts/rewrite_questions.py
+
+# Internal scratch scripts (underscore-prefix convention)
+scripts/_*.py
+scripts/_*.sh
+
+# Ablation raw cells are shipped so the tables regenerate from tracked code
+# (scripts/build_ablation_tables.py). Keep only local scratch out: aggregate CSVs
+# now live in data/results/tables/, and *.log is already excluded globally.
+data/results/ablation/*.csv
+
+# Pre-rerun snapshot backups
+data/results_archive_*/
+
+# Adapter ingestion sentinels (internal state)
+data/results/*/*.ingested
 
 # Claude Code config (skills are now in skills/ — symlinked from .claude/commands)
 .claude/

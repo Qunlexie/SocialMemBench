@@ -9,12 +9,14 @@ Usage:
         --answerer gemini-2.5-flash --top-k 10
 
 Design guarantees:
-- Writes only under data/results/ablation/{cond}/ans={ans}__k={k}/{net}.jsonl
-  (defensive assertion refuses any other path).
+- Writes only under data/results/ablation/{cond}/ans={ans}__k={k}/{network_id}.jsonl
+  (defensive assertion refuses any other path). One file per network per cell
+  keeps the blast radius of any single file loss to one network's work.
 - Refuses to run for a memory condition unless the ingestion sentinel exists
   at data/results/{cond}/{net}.ingested (never re-ingests during ablation).
 - Reuses adapter/config plumbing from eval.cli via `_build_memory_adapter`.
-- Skip-if-exists dedup: if the output jsonl already exists with all QAs, skip.
+- Skip-if-exists dedup: keyed by qa_id within this network's file. Re-runs
+  that would only produce already-scored rows are a no-op.
 - Query-type filter supported to allow cheap smoke on a subset.
 """
 import argparse
@@ -49,9 +51,9 @@ ABLATION_ROOT = RESULTS_DIR / "ablation"
 ALL_CONDITIONS = MEMORY_CONDITIONS | set(CONDITION_MODELS.keys())
 
 
-def out_path(condition: str, answerer: str, top_k: int, net: str) -> Path:
-    p = ABLATION_ROOT / condition / f"ans={answerer}__k={top_k}" / f"{net}.jsonl"
-    assert "ablation" in p.parts, f"Refusing to write outside ablation tree: {p}"
+def out_path(condition: str, answerer: str, top_k: int, network_id: str) -> Path:
+    p = ABLATION_ROOT / condition / f"ans={answerer}__k={top_k}" / f"{network_id}.jsonl"
+    assert "ablation" in p.parts, f"Refusing to touch outside ablation tree: {p}"
     return p
 
 
@@ -70,14 +72,13 @@ async def run_one(network_id: str, condition: str, answerer: str, top_k: int,
         print(f"  no QA pairs (query_types={query_types}); skipping")
         return {"skipped": True, "reason": "no-qa"}
 
-    # Skip-if-exists dedup: if all qa_ids already scored at this (ans,k), skip.
     existing: dict = {}
     if op.exists():
         with open(op) as f:
             for line in f:
                 if line.strip():
                     d = json.loads(line)
-                    existing[d["qa_id"]] = d
+                    existing[d.get("qa_id")] = d
     remaining = [qa for qa in qa_items if qa.question_id not in existing]
     if not remaining and not force:
         print(f"  all {len(qa_items)} QA already scored at this cell; skipping")
@@ -118,6 +119,10 @@ async def run_one(network_id: str, condition: str, answerer: str, top_k: int,
     eval_result = await evaluator.evaluate(answer_results)
     dr_by_id = {dr["question_id"]: dr for dr in eval_result.detailed_results}
 
+    # Row schema (10 fields). `question` and `ground_truth` are intentionally
+    # omitted; both are recoverable from data/qa/{network_id}.jsonl via qa_id
+    # + eval.core.data_bridge.load_qa_pairs (which applies the MC-letter
+    # transform correctly), so re-storing them here would just duplicate.
     new_rows = []
     for a, sr in zip(answer_results, search_results):
         d = dr_by_id.get(a.question_id, {"score": 0.0, "rationale": "not evaluated"})
@@ -129,15 +134,12 @@ async def run_one(network_id: str, condition: str, answerer: str, top_k: int,
             "answerer": answerer,
             "top_k": top_k,
             "query_type": meta.get("query_type", ""),
-            "question": a.question,
-            "ground_truth": a.golden_answer,
             "generated_answer": a.generated_answer,
             "score": d["score"],
             "score_rationale": d.get("rationale", ""),
             "context_words": len(sr.context.split()) if sr and sr.context else 0,
         })
 
-    # Merge with existing (if force=False), then rewrite atomically
     all_rows = list(existing.values()) + new_rows
     tmp = op.with_suffix(".jsonl.tmp")
     with open(tmp, "w") as f:
@@ -158,7 +160,8 @@ def main():
     ap.add_argument("--network", required=True)
     ap.add_argument("--condition", required=True, choices=sorted(ALL_CONDITIONS))
     ap.add_argument("--answerer", required=True,
-                    help="Model name for read-time answering (e.g. gpt-4o-mini, gpt-4o, gemini-2.5-flash)")
+                    help="Model name for read-time answering (e.g. gpt-4o-mini, "
+                         "gpt-4o, gemini-2.5-flash).")
     ap.add_argument("--top-k", type=int, required=True)
     ap.add_argument("--query-types", nargs="*", default=None,
                     help="Optional filter, e.g. --query-types Q4 Q5")

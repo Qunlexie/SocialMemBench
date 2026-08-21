@@ -85,9 +85,6 @@ paper/*_snapshot_*.pdf
 # Research notes (AI-tool artifacts, superseded plans)
 docs/research/
 
-# One-off generation/fix scripts (network-by-network historical work)
-scripts/archive/
-
 # Internal project guide (deadlines, current status, dev process)
 CLAUDE.md
 

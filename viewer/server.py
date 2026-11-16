@@ -4,10 +4,12 @@ Reads ../data/ (relative to this file) and serves JSON via API.
 Also serves the static frontend from ./static/.
 
 Run:
-    cd viewer && python server.py
-    open http://localhost:8080
+    cd viewer && python3 server.py
+    open http://localhost:8080          # review viewer
+    open http://localhost:8080/judge    # blinded human-judge annotation
 """
 
+import csv
 import json
 import os
 from pathlib import Path
@@ -16,6 +18,7 @@ from typing import Optional
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
 
 HERE = Path(__file__).parent
 DATA_DIR = Path(os.environ.get("SMB_DATA_DIR", str(HERE.parent / "data")))
@@ -91,6 +94,66 @@ def get_qa(network_id: str):
             except json.JSONDecodeError:
                 pass
     return JSONResponse(pairs)
+
+
+# ── Human-judge annotation (blinded) ──────────────────────────────────────────
+# Serves data/human_judge/annotation_sheet.csv one row at a time and saves scores
+# back to it. Never reads the key file, so condition and judge score stay hidden.
+
+JUDGE_SHEET = DATA_DIR / "human_judge" / "annotation_sheet.csv"
+JUDGE_CONTEXT = DATA_DIR / "human_judge" / "item_context.json"
+JUDGE_FIELDS = ["item", "question", "gold_answer", "system_answer", "human_score", "notes", "checklist"]
+
+
+class JudgeScore(BaseModel):
+    human_score: Optional[float] = None
+    notes: str = ""
+    checklist: str = ""
+
+
+def read_judge_rows() -> list:
+    if not JUDGE_SHEET.exists():
+        raise HTTPException(404, "No annotation sheet; run scripts/human_judge_agreement.py sample")
+    with open(JUDGE_SHEET, newline="") as f:
+        return list(csv.DictReader(f))
+
+
+@app.get("/judge")
+def judge_page():
+    return FileResponse(HERE / "static" / "judge.html")
+
+
+@app.get("/api/judge/items")
+def judge_items():
+    return JSONResponse(read_judge_rows())
+
+
+@app.get("/api/judge/context")
+def judge_context():
+    """Gold-side context per item (question type, evidence anchors); no system or judge fields."""
+    if not JUDGE_CONTEXT.exists():
+        return JSONResponse({})
+    return JSONResponse(json.loads(JUDGE_CONTEXT.read_text()))
+
+
+@app.post("/api/judge/items/{item}")
+def save_judge_score(item: str, body: JudgeScore):
+    rows = read_judge_rows()
+    row = next((r for r in rows if r["item"] == item), None)
+    if row is None:
+        raise HTTPException(404, f"Item {item} not found")
+    if body.human_score is not None and not 0.0 <= body.human_score <= 1.0:
+        raise HTTPException(422, "human_score must be between 0.0 and 1.0")
+    row["human_score"] = "" if body.human_score is None else f"{body.human_score:.1f}"
+    row["notes"] = body.notes
+    row["checklist"] = body.checklist
+    tmp = JUDGE_SHEET.with_suffix(".tmp")
+    with open(tmp, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=JUDGE_FIELDS, restval="")
+        writer.writeheader()
+        writer.writerows(rows)
+    tmp.replace(JUDGE_SHEET)
+    return JSONResponse(row)
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────

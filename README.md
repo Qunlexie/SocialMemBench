@@ -37,6 +37,31 @@ pip install -e .
 python -m eval.cli --condition graphiti --network grp_a0b1c2d3
 ```
 
+## Reproducing paper results
+
+Every table, figure, and headline number in the paper is regenerated from
+tracked data by:
+
+```bash
+make setup          # pip install -e .
+make paper          # tables + figures + printed numbers (offline, no API keys)
+```
+
+Individual targets:
+
+| Command | Regenerates |
+|---|---|
+| `make tables` | every CSV table under `data/results/tables/`, `data/results/category_counts.csv`, `data/results/bootstrap_cis.json`, `data/verify/sensitivity_threshold_table.*` |
+| `make figures` | every PDF/PNG under `figures/` |
+| `make paper-numbers` | stdout dump of every headline number cited in the paper |
+| `make verify` | regenerates all of the above and diffs against tracked copies (exit 0 iff nothing drifted) |
+
+Targets that require API keys and cost money are documented in the Makefile
+under a separate section and are not part of `make paper`.
+
+See `scripts/repro/README.md` for the underlying scripts and
+`plans/repro-cleanup-plan.md` for the paper-artifact-to-script mapping.
+
 ## Query categories
 
 | Code | Name | Tests |

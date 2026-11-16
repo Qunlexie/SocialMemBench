@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialMemBench Judge</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    /* style.css locks the main viewer to one screen (overflow hidden); this page scrolls. */
+    html, body { height: auto; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); display: block; overflow: auto; }
+    .judge { max-width: 1180px; margin: 0 auto; padding: 20px 16px 48px; }
+    .judge-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+    .judge-title { font-size: 18px; font-weight: 600; }
+    .muted { font-size: 13px; color: var(--text-2); }
+    .judge-bar { height: 4px; background: var(--border-light); border-radius: 2px; margin-bottom: 16px; overflow: hidden; }
+    .judge-bar > div { height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+    .card { background: var(--surface); border: 1px solid var(--border-light); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; }
+    .label { font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--text-3); margin-bottom: 6px; }
+    .type { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--accent-bg); color: var(--accent-dark); margin-right: 8px; }
+    .rule { font-size: 13px; color: var(--text-2); }
+    .question { font-size: 16px; line-height: 1.5; margin-top: 10px; }
+    .evidence { border-left: 3px solid var(--orange); }
+    .anchor { font-size: 14px; line-height: 1.5; padding: 6px 0; border-top: 1px solid var(--border-light); }
+    .anchor:first-of-type { border-top: none; }
+    .anchor .who { font-weight: 600; }
+    .anchor .why { font-size: 12px; color: var(--text-2); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }
+    .text { font-size: 14px; line-height: 1.6; white-space: pre-wrap; }
+    .gold { border-left: 3px solid var(--green); }
+    .sys { border-left: 3px solid var(--accent); }
+    .check { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 0; border-top: 1px solid var(--border-light); flex-wrap: wrap; }
+    .check:first-of-type { border-top: none; }
+    .check-q { font-size: 14px; }
+    .opts { display: flex; gap: 6px; flex-wrap: wrap; }
+    .opts button { min-width: 64px; min-height: 40px; padding: 0 12px; border: 1px solid var(--border); background: var(--surface); border-radius: var(--radius-sm); font-size: 14px; cursor: pointer; color: var(--text); }
+    .opts button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .noanswer { margin-top: 10px; }
+    .verdict { margin-top: 12px; font-size: 15px; font-weight: 600; }
+    .verdict.ok { color: var(--green); }
+    .verdict.no { color: var(--red); }
+    .verdict.pending { color: var(--text-3); font-weight: 400; }
+    textarea { width: 100%; min-height: 54px; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 8px; font: inherit; font-size: 14px; background: var(--surface); color: var(--text); }
+    .nav { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .nav button { min-height: 40px; padding: 0 14px; border: 1px solid var(--border); background: var(--surface); border-radius: var(--radius-sm); cursor: pointer; font-size: 14px; color: var(--text); }
+    .nav .primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .saved { font-size: 12px; color: var(--green); margin-left: auto; }
+  </style>
+</head>
+<body>
+  <main class="judge">
+    <div class="judge-top">
+      <div>
+        <div class="judge-title">Human judge: is the system answer correct?</div>
+        <div class="muted" id="progress"></div>
+      </div>
+      <div class="muted" id="item-id"></div>
+    </div>
+    <div class="judge-bar"><div id="bar"></div></div>
+
+    <div class="card">
+      <span class="type" id="type"></span><span class="rule" id="rule"></span>
+      <div class="question" id="question"></div>
+    </div>
+
+    <div class="card evidence">
+      <div class="label">Key evidence (what the gold answer rests on)</div>
+      <div id="anchors"></div>
+    </div>
+
+    <div class="cols">
+      <div class="card gold"><div class="label">Gold answer (correct)</div><div class="text" id="gold"></div></div>
+      <div class="card sys"><div class="label">System answer (to judge)</div><div class="text" id="system"></div></div>
+    </div>
+
+    <div class="card">
+      <div class="label">Check the system answer</div>
+      <div id="checks"></div>
+      <div class="noanswer opts"><button id="noanswer">No real answer (e.g. "NOT ENOUGH INFORMATION")</button></div>
+      <div class="verdict pending" id="verdict"></div>
+      <div class="label" style="margin-top:12px">Notes (optional)</div>
+      <textarea id="notes" placeholder="Anything unclear about this one"></textarea>
+    </div>
+
+    <div class="nav">
+      <button id="prev">← Previous</button>
+      <button id="next">Next →</button>
+      <button id="next-unscored" class="primary">Next unscored</button>
+      <span class="saved" id="saved"></span>
+    </div>
+  </main>
+
+  <script>
+    // Main set only: H021-H070 (H001-H020 were the pilot). Fixed before annotation.
+    const FIRST = 21, LAST = 70;
+    const YES_NO = [['Yes', true], ['No', false]];
+    // Checklists mirror the judge rubric at its 0.7 threshold.
+    const TYPES = {
+      TS: { name: 'Temporal shift', rule: 'Correct if both the old and the new state are right (trigger is a bonus).',
+            checks: [['old', 'Old state right?'], ['new', 'New state right?'], ['trigger', 'Trigger right? (bonus, not required)']],
+            decide: c => all(c, ['old', 'new']) },
+      TM: { name: 'Theory of mind', rule: 'Correct only if both parts are right.',
+            checks: [['pref', 'Preference or attitude right?'], ['reveal', 'Right person revealed it, with an action that matches the evidence?']],
+            decide: c => all(c, ['pref', 'reveal']) },
+      MA: { name: 'Multi-contact aggregation', rule: 'Correct if at least 70% of the members are right.',
+            checks: [['members', 'How many members are right?', [['All', 'all'], ['Most (≥70%)', 'most'], ['Some (<70%)', 'some'], ['None', 'none']]]],
+            decide: c => c.members === undefined ? undefined : ['all', 'most'].includes(c.members) },
+      DEFAULT: { rule: 'Correct if the core fact and the person are right and nothing is invented.',
+            checks: [['fact', 'Core fact right?'], ['person', 'Right person(s)?'], ['invented', 'Anything invented (a claim or quote not supported by the evidence)?']],
+            decide: c => {
+              if (c.fact === false || c.person === false || c.invented === true) return false;
+              if (c.fact === true && c.person === true && c.invented === false) return true;
+              return undefined;
+            } },
+    };
+    const NAMES = { SR: 'Single-contact recall', RE: 'Relational edge', DM: 'Departed member', GD: 'Group decision' };
+
+    // true if all keys are yes, false as soon as one is no, undefined while incomplete
+    function all(c, keys) {
+      if (keys.some(k => c[k] === false)) return false;
+      return keys.every(k => c[k] === true) ? true : undefined;
+    }
+
+    let items = [], context = {}, index = 0, notesTimer = null;
+    const $ = id => document.getElementById(id);
+    const typeOf = row => { const cat = (context[row.item] || {}).category; return { cat, spec: TYPES[cat] || TYPES.DEFAULT }; };
+    const checklistOf = row => { try { return JSON.parse(row.checklist || '{}'); } catch { return {}; } };
+
+    async function load() {
+      const [all_items, ctx] = await Promise.all([
+        (await fetch('/api/judge/items')).json(), (await fetch('/api/judge/context')).json()]);
+      items = all_items.filter(r => { const n = Number(r.item.slice(1)); return n >= FIRST && n <= LAST; });
+      context = ctx;
+      const firstOpen = items.findIndex(r => r.human_score === '');
+      index = firstOpen === -1 ? 0 : firstOpen;
+      render();
+    }
+
+    function render() {
+      const row = items[index];
+      const { cat, spec } = typeOf(row);
+      const c = checklistOf(row);
+      $('item-id').textContent = `${row.item} · ${index + 1} of ${items.length}`;
+      $('type').textContent = spec.name || NAMES[cat] || cat;
+      $('rule').textContent = spec.rule;
+      $('question').textContent = row.question;
+      $('gold').textContent = row.gold_answer;
+      $('system').textContent = row.system_answer;
+      $('notes').value = row.notes || '';
+
+      $('anchors').innerHTML = '';
+      ((context[row.item] || {}).anchors || []).forEach(a => {
+        const div = document.createElement('div');
+        div.className = 'anchor';
+        div.innerHTML = `<span class="who"></span> <span class="quote"></span><div class="why"></div>`;
+        div.querySelector('.who').textContent = `Session ${a.session_index} · ${a.speaker_display_name}:`;
+        div.querySelector('.quote').textContent = `“${a.message_excerpt}”`;
+        div.querySelector('.why').textContent = a.relevance || '';
+        $('anchors').appendChild(div);
+      });
+
+      $('checks').innerHTML = '';
+      spec.checks.forEach(([key, label, options]) => {
+        const line = document.createElement('div');
+        line.className = 'check';
+        line.innerHTML = `<div class="check-q"></div><div class="opts"></div>`;
+        line.querySelector('.check-q').textContent = label;
+        (options || YES_NO).forEach(([text, value]) => {
+          const b = document.createElement('button');
+          b.textContent = text;
+          b.className = !c.no_answer && c[key] === value ? 'on' : '';
+          b.addEventListener('click', () => handleCheck(key, value));
+          line.querySelector('.opts').appendChild(b);
+        });
+        $('checks').appendChild(line);
+      });
+      $('noanswer').className = c.no_answer ? 'on' : '';
+
+      const v = row.human_score === '' ? undefined : Number(row.human_score) >= 0.7;
+      $('verdict').className = 'verdict ' + (v === undefined ? 'pending' : v ? 'ok' : 'no');
+      $('verdict').textContent = v === undefined ? 'Answer the checks; the verdict follows from them.' : v ? '→ Correct' : '→ Not correct';
+
+      const scored = items.filter(r => r.human_score !== '').length;
+      $('progress').textContent = `Main set: ${scored} of ${items.length} judged (H0${FIRST}–H0${LAST}); pilot H001–H020 done`;
+      $('bar').style.width = `${(100 * scored) / items.length}%`;
+      $('saved').textContent = '';
+    }
+
+    async function save(checklist) {
+      const row = items[index];
+      const { spec } = typeOf(row);
+      const verdict = checklist.no_answer ? false : spec.decide(checklist);
+      const res = await fetch(`/api/judge/items/${row.item}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          human_score: verdict === undefined ? null : verdict ? 1.0 : 0.0,
+          notes: $('notes').value,
+          checklist: JSON.stringify(checklist),
+        }),
+      });
+      if (!res.ok) { $('saved').textContent = 'Save failed'; return false; }
+      items[index] = await res.json();
+      return true;
+    }
+
+    async function handleCheck(key, value) {
+      const c = checklistOf(items[index]);
+      delete c.no_answer;
+      c[key] = value;
+      if (await save(c)) { render(); $('saved').textContent = 'Saved'; }
+    }
+
+    async function handleNoAnswer() {
+      const c = checklistOf(items[index]);
+      const next = c.no_answer ? {} : { no_answer: true };
+      if (await save(next)) { render(); $('saved').textContent = 'Saved'; }
+    }
+
+    function handleMove(step) {
+      index = Math.min(items.length - 1, Math.max(0, index + step));
+      render();
+      window.scrollTo({ top: 0 });
+    }
+
+    function handleNextUnscored() {
+      const after = items.findIndex((r, i) => i > index && r.human_score === '');
+      const target = after !== -1 ? after : items.findIndex(r => r.human_score === '');
+      if (target === -1) { $('saved').textContent = 'All 50 judged. Run the analyze step.'; return; }
+      index = target;
+      render();
+      window.scrollTo({ top: 0 });
+    }
+
+    // Notes autosave ~1s after typing stops.
+    $('notes').addEventListener('input', () => {
+      $('saved').textContent = 'Saving…';
+      clearTimeout(notesTimer);
+      notesTimer = setTimeout(async () => {
+        if (await save(checklistOf(items[index]))) $('saved').textContent = 'Saved';
+      }, 800);
+    });
+    $('noanswer').addEventListener('click', handleNoAnswer);
+    $('prev').addEventListener('click', () => handleMove(-1));
+    $('next').addEventListener('click', () => handleMove(1));
+    $('next-unscored').addEventListener('click', handleNextUnscored);
+    document.addEventListener('keydown', e => {
+      if (e.target.tagName === 'TEXTAREA') return;
+      if (e.key === 'ArrowRight') handleMove(1);
+      if (e.key === 'ArrowLeft') handleMove(-1);
+    });
+
+    load();
+  </script>
+</body>
+</html>

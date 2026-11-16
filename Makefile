@@ -44,6 +44,10 @@ tables:
 	$(PY) scripts/build_ablation_tables.py
 	@echo ">>> Category counts (Table 6)"
 	$(PY) scripts/build_category_counts.py
+	@echo ">>> Per-category CIs (Table 16)"
+	$(PY) scripts/build_category_ci_table.py
+	@echo ">>> Human-judge agreement (appendix C.4)"
+	$(PY) scripts/human_judge_agreement.py analyze
 	@echo ">>> QC-threshold sensitivity (appendix)"
 	$(PY) scripts/sensitivity_qc_threshold.py || true
 	$(PY) scripts/build_sensitivity_table.py

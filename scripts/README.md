@@ -13,11 +13,17 @@ These regenerate paper artifacts from tracked jsonl results. Safe to re-run.
 | `recompute_bootstrap.py` | `data/results/<cond>/*.jsonl` | `data/results/bootstrap_cis.json` | 95% CIs on Mean^N |
 | `build_ablation_tables.py` | `data/results/ablation/<cond>/ans=<A>__k=<K>/*.jsonl` | `data/results/tables/{answerer_sweep,topk_sweep,extractor_swap}.csv` | Tables 13, 14, 15 |
 | `build_category_counts.py` | `data/qa/*.jsonl` | `data/results/category_counts.csv` | per-category QA counts |
+| `build_category_ci_table.py` | `data/results/<cond>/*.jsonl` | `data/results/category_bootstrap_cis.json`, `data/results/tables/category_cis.csv` | Table 16 (per-category 95% CIs) |
+| `human_judge_agreement.py analyze` | `data/human_judge/{annotation_sheet,judge_key}.csv` | stdout | Appendix C.4 human-judge agreement |
 | `sensitivity_qc_threshold.py` | `data/qa/*_qc.json` | `data/verify/sensitivity_qc_threshold.json` | QC threshold sensitivity |
 | `build_sensitivity_table.py` | `data/verify/sensitivity_qc_threshold.json` | `data/verify/sensitivity_threshold_table.{csv,tex}` | appendix sensitivity table |
 | `finalize_paper_numbers.py` | all of the above | orchestrator; runs `pdflatex` at end | end-to-end paper refresh |
 
 Wrappers around these live in `scripts/repro/`.
+
+Human-judge annotation (`human_judge_agreement.py sample` / `context`) draws the
+blinded sample once; labels are collected in the viewer at `/judge`
+(`cd viewer && python3 server.py`).
 
 ## Cleanup utilities (offline)
 

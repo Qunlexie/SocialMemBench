@@ -71,13 +71,17 @@ DATASET_DESCRIPTION = (
     "memory architectures (write/index/retrieve) rather than raw LLM context."
 )
 
+AUTHORS = ["Olukunle Owolabi"]
+CODE_URL = "https://github.com/Qunlexie/SocialMemBench"
+
+
 def _citation_bibtex(hf_id: str) -> str:
+    # Dataset citation only; add the venue once the proceedings are published.
     return (
-        "@misc{socialmembench2026,\n"
+        "@misc{owolabi2026socialmembench,\n"
         "  title  = {SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?},\n"
-        "  author = {Anonymous Submission},\n"
+        f"  author = {{{' and '.join(AUTHORS)}}},\n"
         "  year   = {2026},\n"
-        "  note   = {NeurIPS 2026 Datasets and Benchmarks Track submission},\n"
         f"  url    = {{https://huggingface.co/datasets/{hf_id}}}\n"
         "}"
     )
@@ -208,8 +212,8 @@ PROV_WAS_GENERATED_BY = [
             },
             {
                 "@type": "prov:Agent",
-                "prov:label": "Anonymous authors (NeurIPS double-blind submission)",
-                "sc:description": "Per-pair human review via browser-based audit viewer; affiliations withheld for double-blind review.",
+                "prov:label": ", ".join(AUTHORS) + " (paper authors)",
+                "sc:description": "Per-pair human review via browser-based audit viewer.",
             }
         ],
     }
@@ -464,10 +468,7 @@ def build_handrolled_croissant(hf_id: str) -> dict:
             "benchmark",
             "conversational AI",
         ],
-        "creator": {
-            "@type": "Person",
-            "name": "Anonymous Authors",
-        },
+        "creator": [{"@type": "Person", "name": name} for name in AUTHORS],
         "citeAs": _citation_bibtex(hf_id),
         # Responsible AI fields (NeurIPS Croissant RAI v1.0 requirement).
         # Keys are emitted with explicit `rai:` / `prov:` prefixes per the

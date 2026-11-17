@@ -8,16 +8,19 @@ cd "$ROOT"
 
 PY="${PY:-python3}"
 
-echo "[1/4] Bootstrap CIs -> data/results/bootstrap_cis.json"
+echo "[1/5] Bootstrap CIs -> data/results/bootstrap_cis.json"
 "$PY" scripts/recompute_bootstrap.py
 
-echo "[2/4] Ablation tables -> data/results/tables/{answerer_sweep,topk_sweep,extractor_swap}.csv"
+echo "[2/5] Ablation tables -> data/results/tables/{answerer_sweep,topk_sweep,extractor_swap}.csv"
 "$PY" scripts/build_ablation_tables.py
 
-echo "[3/4] Category counts -> data/results/category_counts.csv"
+echo "[3/5] Category counts -> data/results/category_counts.csv"
 "$PY" scripts/build_category_counts.py
 
-echo "[4/4] QC-threshold sensitivity -> data/verify/sensitivity_threshold_table.{csv,tex}"
+echo "[4/5] Per-category CIs (Table 16) -> data/results/{category_bootstrap_cis.json,tables/category_cis.csv}"
+"$PY" scripts/build_category_ci_table.py
+
+echo "[5/5] QC-threshold sensitivity -> data/verify/sensitivity_threshold_table.{csv,tex}"
 if [ -f data/verify/sensitivity_qc_threshold.json ]; then
   "$PY" scripts/build_sensitivity_table.py
 else

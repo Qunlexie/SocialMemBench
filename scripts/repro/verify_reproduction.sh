@@ -33,6 +33,8 @@ SNAPSHOT=(
   "data/results/tables/topk_sweep.csv"
   "data/results/tables/extractor_swap.csv"
   "data/results/category_counts.csv"
+  "data/results/category_bootstrap_cis.json"
+  "data/results/tables/category_cis.csv"
   "data/verify/sensitivity_threshold_table.csv"
 )
 

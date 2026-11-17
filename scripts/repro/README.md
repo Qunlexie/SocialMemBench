@@ -18,9 +18,9 @@ sync with the paper as the tree evolves.
 
 | Wrapper | Underlying script | Produces |
 |---|---|---|
-| `make_all_tables.sh` | bootstrap, ablation, category, sensitivity | every CSV/TSV/TeX table cited in the paper |
+| `make_all_tables.sh` | bootstrap, ablation, category counts, category CIs, sensitivity | every CSV/TSV/TeX table cited in the paper |
 | `make_figures.sh` | `figures/generate_figures.py` | every PDF/PNG figure |
-| `print_paper_numbers.sh` | `scripts/print_paper_numbers.py` | stdout dump of every headline number |
+| `print_paper_numbers.sh` | `scripts/print_paper_numbers.py`, `scripts/human_judge_agreement.py analyze` | stdout dump of every headline number, incl. App. C.4 agreement |
 | `verify_reproduction.sh` | regenerates tables + figures, diffs against tracked copies | exit code 0 iff nothing drifted |
 | `run_all_offline.sh` | everything above in the correct order | full offline reproduction from tracked data |
 

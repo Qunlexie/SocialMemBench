@@ -173,6 +173,9 @@ def main():
         ("graphiti", "langmem"),
         ("langmem", "mem0_local"),
         ("mem0_local", "cognee"),
+        ("graphiti", "mem0_local"),
+        ("graphiti", "cognee"),
+        ("langmem", "cognee"),
         ("naive_rag", "subject_rag"),
     ]
     for a, b in pairs:

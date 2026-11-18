@@ -1,35 +1,37 @@
 cff-version: 1.2.0
-message: "If you use SocialMemBench in academic work, please cite this benchmark."
-title: "SocialMemBench: Evaluating AI Memory Architectures in Social Group Conversations"
+message: "If you use SocialMemBench, please cite the paper below."
+title: "SocialMemBench"
 abstract: >-
-  SocialMemBench is the first benchmark that evaluates external memory systems
-  (the write/index/retrieve substrate between sessions) in social group settings
-  with 3+ co-present speakers. It comprises 43 ego networks, 1,031 question-answer
-  pairs across 9 query types, and evaluation results across 8+ memory-system
-  conditions including Mem0, LangMem, Cognee, and Graphiti.
+  A benchmark for memory systems in social group conversations: 43
+  human-verified synthetic group networks (430 personas, 348 sessions) and
+  1,031 QA pairs across nine question categories, with evaluation results
+  for Mem0, LangMem, Graphiti, Cognee, and two research probes.
 authors:
-  # TODO: replace with full author list at de-anonymization
-  - family-names: Anonymous
-    given-names: Submission
-type: dataset
-version: "0.1.0"
-date-released: 2026-05-06
-license: CC-BY-4.0
+  - family-names: Owolabi
+    given-names: Olukunle
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0000-0002-4379-5718"
+type: software
+repository-code: "https://github.com/Qunlexie/SocialMemBench"
+url: "https://huggingface.co/datasets/qunlexie/SocialMemBench"
+license:
+  - MIT
+  - CC-BY-4.0
 keywords:
   - memory
   - benchmark
-  - social
-  - multi-party
-  - attribution
-  - evaluation
-  - large language models
-  - NeurIPS
-repository-code: "https://anonymous.4open.science/r/SocialMemBench-XXXX"  # TODO: anonymized URL
-url: "https://huggingface.co/datasets/SocialMemBench"  # TODO: actual HF URL
+  - multi-party dialogue
+  - social groups
+  - LLM agents
 preferred-citation:
-  type: misc
-  title: "SocialMemBench: Evaluating AI Memory Architectures in Social Group Conversations"
+  type: conference-paper
+  title: "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?"
   authors:
-    - family-names: Anonymous
-      given-names: Submission
-  year: 2026
+    - family-names: Owolabi
+      given-names: Olukunle
+      affiliation: Independent Researcher
+      orcid: "https://orcid.org/0000-0002-4379-5718"
+  collection-title: "Proceedings of the Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+  conference:
+    name: "EACL 2027"
+  year: 2027

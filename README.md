@@ -2,7 +2,7 @@
 
 **A benchmark for evaluating AI memory systems in multi-party social group conversations.**
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-lightgrey.svg)](LICENSE) [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![Dataset: 1031 QA × 43 networks](https://img.shields.io/badge/QA-1%2C031%20across%2043%20networks-blue)](#dataset)
 [![Quality: 0.952 blind-critic](https://img.shields.io/badge/blind--critic%20mean-0.952-green)](#dataset)
 
@@ -83,10 +83,11 @@ Conversations are synthetically generated. The pipeline plants ground-truth chal
 ## Citation
 
 ```bibtex
-@misc{socialmembench2026,
-  title  = {SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?},
-  author = {Anonymous},
-  year   = {2026}
+@inproceedings{owolabi2027socialmembench,
+  title     = {{SocialMemBench}: Are {AI} Memory Systems Ready for Social Group Settings?},
+  author    = {Owolabi, Olukunle},
+  booktitle = {Proceedings of the Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+  year      = {2027}
 }
 ```
 
@@ -94,4 +95,4 @@ See [CITATION.cff](CITATION.cff) for machine-readable metadata.
 
 ## License
 
-[CC BY 4.0](LICENSE). Attribution is the only requirement; commercial and derivative use is permitted.
+Code: [MIT](LICENSE). Data: [CC BY 4.0](LICENSE-DATA); attribution is the only requirement, and commercial and derivative use is permitted.

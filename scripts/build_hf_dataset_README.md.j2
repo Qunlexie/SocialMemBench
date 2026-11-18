@@ -113,6 +113,9 @@ for reproducibility.
 One row per question. Every question carries `evidence_anchors` pointing
 to the exact turns that license the ground-truth answer.
 
+**Row key.** A `qa_id` is unique within a network but not across networks.
+Four IDs recur in two networks each, so key rows on (`network_id`, `qa_id`).
+
 | Column | Type | Description |
 |---|---|---|
 | `qa_id` | string | Stable QA identifier. |

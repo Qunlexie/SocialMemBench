@@ -9,7 +9,7 @@ abstract: >-
 authors:
   - family-names: Owolabi
     given-names: Olukunle
-    affiliation: Independent Researcher
+    affiliation: Meta
     orcid: "https://orcid.org/0000-0002-4379-5718"
 type: software
 repository-code: "https://github.com/Qunlexie/SocialMemBench"
@@ -29,7 +29,7 @@ preferred-citation:
   authors:
     - family-names: Owolabi
       given-names: Olukunle
-      affiliation: Independent Researcher
+      affiliation: Meta
       orcid: "https://orcid.org/0000-0002-4379-5718"
   collection-title: "Proceedings of the Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
   conference:
